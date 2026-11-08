@@ -36,6 +36,8 @@ Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `
 
 Edit the JSON and publish the change to update the tracker. To add another zone, add its quests to the JSON and its zone button to `index.html`.
 
+When changing JavaScript or CSS, increment the `?v=` version on the asset URLs in `index.html` so browsers load the new files instead of cached copies. Quest JSON is requested without using the browser cache.
+
 Missing coordinates appear as a dash. Turn-in qualifiers, cross-zone pickup areas, and quest level 0 are preserved from the original data.
 
 The site must be served over HTTP or HTTPS so the browser can load the JSON file. Opening `index.html` directly from disk is not supported.

@@ -123,7 +123,7 @@ $('#status').addEventListener('change', render);
 $('#sort').addEventListener('change', render);
 
 try {
-  const response = await fetch('./data/quests.json');
+  const response = await fetch('./data/quests.json', { cache: 'no-store' });
   if (!response.ok) throw new Error('Quest data unavailable');
   const quests = await response.json();
   const stringFields = ['id', 'zone', 'name', 'stage', 'giver', 'coordinates', 'area', 'objective'];
