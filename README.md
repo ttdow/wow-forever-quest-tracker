@@ -6,6 +6,7 @@ Open the GitHub Pages website in Firefox or another modern browser. You can also
 
 - Choose Teldrassil, Darkshore, or Ashenvale.
 - Check a quest to complete it; uncheck it to undo.
+- Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
 - Filter completed / not completed quests, or sort by level, name, or area.
 

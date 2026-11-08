@@ -1,13 +1,14 @@
 (() => {
 'use strict';
 const $ = selector => document.querySelector(selector);
-const state = { quests: [], completed: new Set(), zone: 'Teldrassil', storageReady: false, loaded: false };
+const state = { quests: [], completed: new Set(), expanded: new Set(), zone: 'Teldrassil', storageReady: false, loaded: false };
 const rows = $('#quests');
 let saveTimer;
 
 function cell(text, className, label) {
   const element = document.createElement('td');
   element.textContent = text || '—';
+  if (text) element.title = text;
   if (className) element.className = className;
   if (label) element.dataset.label = label;
   return element;
@@ -37,6 +38,9 @@ function render() {
   const fragment = document.createDocumentFragment();
   for (const quest of visible) {
     const row = document.createElement('tr');
+    const rowKey = `${quest.zone}:${quest.id}`;
+    row.className = 'quest-row';
+    row.classList.toggle('expanded', state.expanded.has(rowKey));
     row.classList.toggle('completed', state.completed.has(quest.id));
     const checkCell = document.createElement('td');
     checkCell.className = 'check';
@@ -50,14 +54,30 @@ function render() {
     checkCell.append(check);
     const name = cell('', 'quest');
     name.replaceChildren();
+    const toggle = document.createElement('button');
+    toggle.type = 'button';
+    toggle.className = 'quest-toggle';
+    toggle.dataset.id = quest.id;
+    toggle.setAttribute('aria-expanded', String(state.expanded.has(rowKey)));
+    toggle.addEventListener('click', () => {
+      if (state.expanded.has(rowKey)) state.expanded.delete(rowKey);
+      else state.expanded.add(rowKey);
+      row.classList.toggle('expanded', state.expanded.has(rowKey));
+      toggle.setAttribute('aria-expanded', String(state.expanded.has(rowKey)));
+    });
+    const label = document.createElement('span');
+    label.className = 'quest-label';
+    toggle.title = [quest.name, quest.stage].filter(Boolean).join(' · ');
     const title = document.createElement('span');
     title.className = 'quest-name';
     title.textContent = quest.name;
-    name.append(title);
+    label.append(title);
     if (quest.stage) {
       const stage = document.createElement('span');
-      stage.className = 'stage'; stage.textContent = quest.stage; name.append(stage);
+      stage.className = 'stage'; stage.textContent = quest.stage; label.append(stage);
     }
+    toggle.append(label);
+    name.append(toggle);
     const level = cell('', 'level-cell');
     level.replaceChildren();
     const badge = document.createElement('span');
@@ -67,8 +87,9 @@ function render() {
     fragment.append(row);
   }
   const focusedID = document.activeElement?.dataset.id;
+  const focusedType = document.activeElement?.tagName === 'BUTTON' ? 'button' : 'input';
   rows.replaceChildren(fragment);
-  if (focusedID) rows.querySelector(`input[data-id="${focusedID}"]`)?.focus({ preventScroll: true });
+  if (focusedID) rows.querySelector(`${focusedType}[data-id="${focusedID}"]`)?.focus({ preventScroll: true });
   $('#empty').hidden = visible.length > 0 || !state.loaded;
   $('#result-count').textContent = `${visible.length} of ${zoneQuests.length} quests`;
 }
