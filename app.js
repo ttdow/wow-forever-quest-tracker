@@ -1,4 +1,4 @@
-(() => {
+(async () => {
 'use strict';
 const $ = selector => document.querySelector(selector);
 const state = { quests: [], completed: new Set(), expanded: new Set(), zone: 'Teldrassil', storageReady: false, loaded: false };
@@ -123,8 +123,7 @@ $('#status').addEventListener('change', render);
 $('#sort').addEventListener('change', render);
 
 try {
-  if (!Array.isArray(globalThis.QUESTS_DATA)) throw new Error('Quest data missing');
-  state.quests = globalThis.QUESTS_DATA;
+  state.quests = await QuestData.load();
   state.loaded = true;
   try {
     state.completed = QuestProgress.load();
@@ -138,11 +137,14 @@ try {
 } catch {
   $('#progress-text').textContent = 'Quests unavailable';
   $('#save-state').textContent = '';
-  $('#error').textContent = 'Could not load quests. Reload the page and check that all site files are present.';
+  $('#error').textContent = location.protocol === 'file:'
+    ? 'Open the GitHub Pages website to load the quest CSVs.'
+    : 'Could not load quests. Reload the page and check that the CSV files are present in data/.';
   $('#error').hidden = false;
 }
 
 window.addEventListener('storage', event => {
+  if (!state.loaded) return;
   if (event.key !== QuestProgress.key && event.key !== null) return;
   try {
     state.completed = QuestProgress.load();

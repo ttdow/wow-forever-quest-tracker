@@ -1,14 +1,13 @@
-import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
-
-export const sources = [
+(() => {
+'use strict';
+const sources = [
   ['Teldrassil', 'wow_forever_teldrassil_quests_full_with_ids.csv'],
   ['Darkshore', 'Quests - Darkshore.csv'],
   ['Ashenvale', 'wow_forever_ashenvale_quests_with_ids.csv'],
 ];
 
 // Handles quoted commas, escaped quotation marks, and multiline CSV fields.
-export function parseCSV(text) {
+function parseCSV(text) {
   const rows = [];
   let row = [], field = '', quoted = false;
   text = text.replace(/^\uFEFF/, '');
@@ -36,9 +35,11 @@ export function parseCSV(text) {
   });
 }
 
-export function loadQuests(directory) {
-  return sources.flatMap(([zone, filename]) => {
-    const rows = parseCSV(readFileSync(join(directory, filename), 'utf8'));
+async function loadQuests() {
+  const groups = await Promise.all(sources.map(async ([zone, filename]) => {
+    const response = await fetch(`./data/${encodeURIComponent(filename)}`);
+    if (!response.ok) throw new Error(`Could not load ${filename}.`);
+    const rows = parseCSV(await response.text());
     return rows.map(row => {
       const giver = row['Quest Giver / Start'];
       // Leave qualifiers in place: e.g. coordinates belonging to a turn-in NPC.
@@ -59,5 +60,9 @@ export function loadQuests(directory) {
         objective: row['Objective / Destination'],
       };
     });
-  });
+  }));
+  return groups.flat();
 }
+
+globalThis.QuestData = Object.freeze({ load: loadQuests });
+})();
