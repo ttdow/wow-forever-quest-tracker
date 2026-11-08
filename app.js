@@ -123,7 +123,16 @@ $('#status').addEventListener('change', render);
 $('#sort').addEventListener('change', render);
 
 try {
-  state.quests = await QuestData.load();
+  const response = await fetch('./data/quests.json');
+  if (!response.ok) throw new Error('Quest data unavailable');
+  const quests = await response.json();
+  const stringFields = ['id', 'zone', 'name', 'stage', 'giver', 'coordinates', 'area', 'objective'];
+  if (!Array.isArray(quests) || !quests.every(quest => quest &&
+    stringFields.every(key => typeof quest[key] === 'string') &&
+    /^\d+$/.test(quest.id) && Number.isInteger(quest.level) && quest.level >= 0)) {
+    throw new Error('Invalid quest data');
+  }
+  state.quests = quests;
   state.loaded = true;
   try {
     state.completed = QuestProgress.load();
@@ -138,8 +147,8 @@ try {
   $('#progress-text').textContent = 'Quests unavailable';
   $('#save-state').textContent = '';
   $('#error').textContent = location.protocol === 'file:'
-    ? 'Open the GitHub Pages website to load the quest CSVs.'
-    : 'Could not load quests. Reload the page and check that the CSV files are present in data/.';
+    ? 'Open the GitHub Pages website to load quests.'
+    : 'Could not load quests. Reload the page and check data/quests.json.';
   $('#error').hidden = false;
 }
 

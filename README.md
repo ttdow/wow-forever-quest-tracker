@@ -4,7 +4,7 @@ Static HTML, CSS, and JavaScript. No installation, server, dependencies, or buil
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Firefox or another modern browser.
 
-- Choose Teldrassil, Darkshore, or Ashenvale.
+- Choose Teldrassil, Darkshore, Ashenvale, or Deadmines.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
@@ -16,7 +16,7 @@ Progress saves automatically in this browser's local storage. It survives closin
 
 Use a separate repository for this tracker; existing Pages websites are unaffected.
 
-1. Upload `index.html`, `style.css`, `app.js`, `progress.js`, `quests.js`, `.nojekyll`, and the `data/` folder to the repository root.
+1. Upload `index.html`, `style.css`, `app.js`, `progress.js`, `.nojekyll`, and the `data/` folder to the repository root.
 2. In **Settings → Pages**, choose **Deploy from a branch**.
 3. Select **main** and **/ (root)**, then save.
 4. Open the website URL shown by GitHub Pages after deployment completes.
@@ -25,14 +25,17 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 225 entries directly from these files in `data/`:
+The browser loads all 258 quests directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
-- `wow_forever_teldrassil_quests_full_with_ids.csv`
-- `Quests - Darkshore.csv`
-- `wow_forever_ashenvale_quests_with_ids.csv`
+- Teldrassil: 76 quests
+- Darkshore: 74 quests
+- Ashenvale: 75 quests
+- Deadmines: 33 quests, including prerequisites
 
-Edit a CSV and publish the change to update the tracker. No generated bundle, Node.js, package manager, or build step is needed. To add a zone, add its CSV to `data/`, register it in `quests.js`, and add its zone button in `index.html`.
+Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
-Missing coordinates appear as a dash. Coordinates next to a turn-in giver retain that qualifier. Zone tabs follow the source CSV, so cross-zone pickup areas remain as listed. Quest level 0 is preserved from the source.
+Edit the JSON and publish the change to update the tracker. To add another zone, add its quests to the JSON and its zone button to `index.html`.
 
-The site must be served over HTTP or HTTPS so the browser can load the CSV files. Opening `index.html` directly from disk is not supported.
+Missing coordinates appear as a dash. Turn-in qualifiers, cross-zone pickup areas, and quest level 0 are preserved from the original data.
+
+The site must be served over HTTP or HTTPS so the browser can load the JSON file. Opening `index.html` directly from disk is not supported.
