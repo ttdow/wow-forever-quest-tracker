@@ -1,0 +1,60 @@
+:root { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #25332c; background: #f6f7f5; font-size: 14px; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1600px; margin: 0 auto; padding: 48px 40px 40px; }
+.page-header { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 32px; }
+.eyebrow { color: #66786c; font-size: 11px; font-weight: 650; letter-spacing: 1.8px; margin: 0 0 9px; }
+h1 { margin: 0; font-size: 32px; line-height: 1.2; font-weight: 650; letter-spacing: -1px; }
+.progress-block { width: 210px; }
+.progress-block p { margin: 0 0 10px; font-size: 12px; color: #607066; text-align: right; font-variant-numeric: tabular-nums; }
+progress { display: block; width: 100%; height: 5px; border: 0; border-radius: 9px; background: #e0e6df; overflow: hidden; accent-color: #477b59; }
+progress::-webkit-progress-bar { background: #e0e6df; }
+progress::-webkit-progress-value { background: #477b59; border-radius: 9px; }
+progress::-moz-progress-bar { background: #477b59; }
+#zones { display: flex; gap: 5px; margin-bottom: 18px; }
+button, input, select { font: inherit; }
+#zones button { display: flex; align-items: center; gap: 10px; border: 1px solid transparent; padding: 10px 16px; border-radius: 6px; background: transparent; color: #647168; cursor: pointer; font-weight: 550; }
+#zones button:hover { background: #eaf0e8; }
+#zones button[aria-pressed="true"] { color: #285d40; background: #e6ede2; border-color: #dbe5d7; }
+#zones span { font-size: 11px; font-weight: 500; color: #6c7c6c; font-variant-numeric: tabular-nums; }
+.quest-panel { background: white; border: 1px solid #dde3dc; border-radius: 9px; overflow: hidden; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; padding: 17px 20px; border-bottom: 1px solid #e5e9e3; }
+.search-wrap { position: relative; flex: 1; max-width: 400px; min-width: 230px; }
+.search-wrap svg { position: absolute; left: 11px; top: 11px; color: #859086; pointer-events: none; }
+input, select { height: 38px; border: 1px solid #dfe5dd; border-radius: 5px; color: #39483e; background: #fff; font-size: 12px; }
+input { padding: 8px 10px 8px 35px; width: 100%; }
+input::placeholder { color: #7f8b81; }
+.filters { display: flex; gap: 9px; }
+select { padding: 0 28px 0 11px; cursor: pointer; }
+:focus-visible { outline: 2px solid #4c815c; outline-offset: 3px; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; table-layout: fixed; font-size: 12px; }
+.col-check { width: 44px; }.col-quest { width: 20%; }.col-level { width: 59px; }.col-giver { width: 15%; }.col-area { width: 14%; }.col-coords { width: 100px; }.col-objective { width: auto; }.col-id { width: 66px; }
+th { text-align: left; padding: 13px 12px; background: #fafbf9; color: #788378; font-size: 10px; text-transform: uppercase; letter-spacing: .65px; font-weight: 600; white-space: nowrap; }
+td { padding: 16px 12px; line-height: 1.6; vertical-align: top; border-top: 1px solid #edf0eb; overflow-wrap: anywhere; }
+tbody tr:hover { background: #fafcf9; }
+td.check { padding-left: 18px; padding-right: 5px; }
+input[type="checkbox"] { display: block; padding: 0; width: 17px; height: 17px; margin: 2px 0 0; cursor: pointer; accent-color: #477b59; }
+input[type="checkbox"]:disabled { cursor: wait; }
+.quest-name { color: #2d3e31; font-size: 13px; font-weight: 600; line-height: 1.5; }
+.stage { display: block; color: #7b857b; font-size: 11px; line-height: 1.5; margin-top: 4px; }
+.level { display: inline-block; min-width: 27px; padding: 0 5px; text-align: center; color: #5c6a5d; background: #f0f3ed; border: 1px solid #e6ebe1; border-radius: 4px; font-size: 11px; font-variant-numeric: tabular-nums; }
+.coordinates, .quest-id { font-variant-numeric: tabular-nums; color: #68766a; white-space: nowrap; font-size: 11px; }
+.objective { color: #536155; }
+tr.completed .quest-name { text-decoration: line-through; text-decoration-color: #aab6a7; color: #7a877a; }
+tr.completed { background: #fafcf8; }
+.panel-footer { display: flex; justify-content: space-between; gap: 12px; padding: 13px 20px; border-top: 1px solid #e5e9e3; font-size: 11px; color: #7b877b; }
+.empty { text-align: center; padding: 45px 20px; color: #748074; }
+.error { background: #fff1ed; color: #963f2c; padding: 13px 20px; font-size: 13px; }
+[hidden] { display: none !important; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+@media (max-width: 1100px) and (min-width: 701px) { main { padding: 30px 22px; } table { min-width: 1050px; } }
+@media (max-width: 700px) {
+  main { padding: 26px 16px; }.page-header { align-items: flex-start; margin-bottom: 24px; gap: 14px; }h1 { font-size: 27px; }.progress-block { width: 115px; padding-top: 5px; }.progress-block p { font-size: 10px; line-height: 1.6; }
+  #zones { gap: 0; justify-content: space-between; }#zones button { padding: 9px 8px; gap: 6px; font-size: 12px; }#zones span { font-size: 10px; }
+  .toolbar { padding: 14px; gap: 10px; }.search-wrap { max-width: none; flex-basis: 100%; }.filters { width: 100%; }.filters select { min-width: 0; flex: 1; }
+  table, tbody { display: block; }colgroup, thead { display: none; }tr { position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 10px 16px; padding: 18px 16px 18px 47px; border-top: 1px solid #e5e9e3; }tr:first-child { border-top: 0; }
+  td { display: block; padding: 0; border: 0; }td.check { position: absolute; left: 16px; top: 19px; padding: 0; }td.quest { grid-column: 1 / -1; padding-right: 40px; min-height: 20px; }.quest-name { font-size: 14px; }
+  td[data-label]::before { content: attr(data-label); display: block; text-transform: uppercase; font-size: 9px; font-weight: 600; letter-spacing: .5px; color: #889184; margin-bottom: 2px; }td.level-cell { position: absolute; top: 19px; right: 16px; }td.objective { grid-column: 1 / -1; }td.quest-id { grid-column: 1 / -1; }td.quest-id::before { display: inline; margin-right: 6px; }
+  .panel-footer { padding: 12px 14px; font-size: 10px; }
+}

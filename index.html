@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f5">
+  <meta name="color-scheme" content="light">
+  <title>Quest tracker · WoW Forever</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%232f6850'/%3E%3Cpath d='m11 21 6 6 12-14' fill='none' stroke='white' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./quests-data.js" defer></script>
+  <script src="./progress.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <noscript>Enable JavaScript to use the quest tracker.</noscript>
+  <main>
+    <header class="page-header">
+      <div><p class="eyebrow">WOW: FOREVER</p><h1>Quest tracker</h1></div>
+      <div class="progress-block"><p id="progress-text" aria-live="polite">Loading quests…</p><progress id="progress" max="1" value="0" aria-label="Zone completion"></progress></div>
+    </header>
+    <nav id="zones" aria-label="Quest zone">
+      <button type="button" data-zone="Teldrassil" aria-pressed="true">Teldrassil <span></span></button>
+      <button type="button" data-zone="Darkshore" aria-pressed="false">Darkshore <span></span></button>
+      <button type="button" data-zone="Ashenvale" aria-pressed="false">Ashenvale <span></span></button>
+    </nav>
+    <section class="quest-panel" aria-label="Quests">
+      <div class="toolbar">
+        <div class="search-wrap"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="Search quests, givers, areas, IDs…" aria-label="Search quests"></div>
+        <div class="filters">
+          <label class="sr-only" for="status">Completion status</label><select id="status"><option value="all">All quests</option><option value="incomplete">Not completed</option><option value="completed">Completed</option></select>
+          <label class="sr-only" for="sort">Sort quests</label><select id="sort"><option value="level">Level: low to high</option><option value="level-desc">Level: high to low</option><option value="name">Quest: A–Z</option><option value="area">Area: A–Z</option></select>
+        </div>
+      </div>
+      <div id="error" class="error" role="alert" hidden></div>
+      <div class="table-wrap">
+        <table>
+          <colgroup><col class="col-check"><col class="col-quest"><col class="col-level"><col class="col-giver"><col class="col-area"><col class="col-coords"><col class="col-objective"><col class="col-id"></colgroup>
+          <thead><tr><th scope="col"><span class="sr-only">Completed</span></th><th scope="col">Quest</th><th scope="col">Level</th><th scope="col">Quest giver / start</th><th scope="col">Area</th><th scope="col">Coordinates</th><th scope="col">Objective</th><th scope="col">ID</th></tr></thead>
+          <tbody id="quests"></tbody>
+        </table>
+        <p id="empty" class="empty" role="status" hidden>No quests match your filters.</p>
+      </div>
+      <footer class="panel-footer"><span id="result-count" aria-live="polite"></span><span id="save-state" role="status">Saved in this browser</span></footer>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,75 @@
+Pickup Sub-area,Quest Level,Quest Name,Quest ID,Quest Stage / Distinction,Quest Giver / Start,Objective / Destination,Area Confidence,Notes
+Auberdine / nearby coast,10,Buzzbox 827,983,,"Wizbang Cranktoggle (37.0, 44.1)",Collect 6 Crawler Legs and repair Buzzbox 827 south of Auberdine,High,Pickup observed in Forever; near Auberdine
+Rut'theran Village (Teldrassil),10,The Bounty of Teldrassil,6341,Flight chain part 1,"Nessa Shadowsong (56.2, 92.4)",Deliver collection to Vesprystus at Rut'theran,High,Pickup actually in Teldrassil; seen in Forever
+Rut'theran Village (Teldrassil),10,Flight to Auberdine,6342,Flight chain part 2,"Vesprystus (58.3, 94.0)",Fly to Auberdine and deliver collection to Laird,High,Pickup actually in Teldrassil; seen in Forever
+Auberdine,10,Return to Nessa,6343,,"Laird (36.8, 44.3)",Deliver Laird's Response to Nessa Shadowsong in Rut'theran Village,High,Cross-zone return to Teldrassil; pickup seen in Forever
+Ameth'Aran / outskirts,12,The Fall of Ameth'Aran,953,,"Sentinel Tysha Moonblade (40.3, 59.7)",Read two tablets in Ameth'Aran ruins,High,Pickup seen in Forever
+Auberdine,12,Bashal'Aran,954,Part 1 of 4,Thundris Windweaver,Investigate blue aura at Bashal'Aran; find Asterion,High,
+Bashal'Aran,12,Bashal'Aran,955,Part 2 of 4,Asterion,Collect 8 Grell Earrings,High,
+Auberdine,12,Tools of the Highborne,958,,Thundris Windweaver,Collect 7 Highborne Relics in Ameth'Aran,High,
+Auberdine / nearby coast,12,Buzzbox 411,1001,,"Buzzbox 827 (36.6, 46.3)",Collect 3 Thresher Eyes and repair Buzzbox 411 north of Auberdine,High,Starts from previous buzzbox
+Bashal'Aran,13,Bashal'Aran,956,Part 3 of 4,Asterion,Retrieve Ancient Moonstone Seal,High,
+Bashal'Aran,13,Bashal'Aran,957,Part 4 of 4,Asterion,Destroy Moonstone Seal in Ameth'Aran and return,High,
+Auberdine,13,Washed Ashore,3524,Part 1; beached creature,"Gwennyth Bly'Leggonde (36.6, 45.6)",Recover bones from sea creature south of Auberdine,High,Pickup seen in Forever
+Southern coast / Wildbend,13,Beached Sea Turtle,4722,Southern beach remains,"Beached Sea Turtle (37.2, 62.1)",Deliver Sea Turtle Remains to Gwennyth in Auberdine,High,Pickup seen in Forever
+Northern coast / Mist's Edge,13,Beached Sea Creature,4723,North beach carcass,"Beached Sea Creature (41.7, 31.4)",Deliver Sea Creature Bones to Gwennyth in Auberdine,High,Pickup location seen in Forever
+Auberdine,13,WANTED: Jai'vhanel,98025,,"Wanted poster at 37.2, 44.2",Slay Jai'vhanel north of Ameth'Aran; return to Sentinel Glynda Nal'Shea,High,Forever-specific quest; pickup seen in Forever
+Auberdine,14,How Big a Threat?,984,Part 1 of 2,Terenthis,Find corrupted furbolg camp; return to Terenthis,High,
+Auberdine,14,How Big a Threat?,985,Part 2 of 2,Terenthis,Kill 8 Blackwood Pathfinders and 5 Windtalkers,High,
+Northern coast / Mist's Edge,14,Buzzbox 323,1002,,Buzzbox 411 (north coast),Collect 6 Moonstalker Fangs; repair Buzzbox 323,High,Starts from previous buzzbox
+Auberdine,14,The Family and the Fishing Pole,1141,,Gubber Blump,Catch 6 Darkshore Grouper,High,
+Auberdine,14,Plagued Lands,2118,,Tharnariun Treetender,Trap a living Rabid Thistle Bear,High,
+Auberdine,14,Washed Ashore,4681,Part 2; skeletal turtle,Gwennyth Bly'Leggonde,Recover sea turtle remains west of Auberdine,High,
+Southern coast / Wildbend,14,Beached Sea Creature,4728,South beach carcass,"Beached Sea Creature (36.0, 70.9)",Deliver Sea Creature Bones to Gwennyth in Auberdine,High,Classic pickup coordinates
+Auberdine,14,The Red Crystal,4811,Red Crystal chain part 1,Sentinel Glynda Nal'Shea,Locate mysterious red crystal east of Auberdine,High,
+Auberdine,14,As Water Cascades,4812,Red Crystal chain part 2,Sentinel Glynda Nal'Shea,Fill tube at Auberdine moonwell; investigate eastern red crystal,High,
+Eastern Darkshore / red crystal,14,The Fragments Within,4813,Red Crystal chain part 3,Mysterious Red Crystal,Report findings to Sentinel Glynda Nal'Shea in Auberdine,High,Object start east of Auberdine
+Northern coast / Mist's Edge,15,Beached Sea Turtle,4725,Northern beach box,"Beached Sea Turtle (44.2, 20.6)",Deliver Strangely Marked Box to Gwennyth in Auberdine,High,Classic pickup coordinates
+Northern coast / Mist's Edge,15,Beached Sea Turtle,4727,Northern beach remains,"Beached Sea Turtle (53.1, 18.2)",Deliver Sea Turtle Remains to Gwennyth in Auberdine,High,Pickup location seen in Forever
+Auberdine,15,Thundris Windweaver,4761,,Terenthis,Speak with Thundris Windweaver in Auberdine,High,
+Auberdine,15,The Cliffspring River,4762,,Thundris Windweaver,Collect Cliffspring River water sample to the north,High,
+Southern Darkshore / Blackwood Den,15,One Shot. One Kill.,5713,,"Sentinel Aynasha (45.9, 90.4)",Defend Aynasha; report to Sentinel Onaeya at Maestra's Post,High,Pickup seen in Forever
+Auberdine,16,For Love Eternal,963,,Cerellean Whiteclaw,Free Anaya Dawnrunner at Ameth'Aran; return her pendant,High,
+Northern coast / Mist's Edge,16,Buzzbox 525,1003,,Buzzbox 323 (north coast),Collect 4 Grizzled Scalps; repair Buzzbox 525,High,Starts from previous buzzbox
+Auberdine,16,Cleansing of the Infected,2138,,Tharnariun Treetender,Kill 20 Rabid Thistle Bears,High,
+Southern coast / Wildbend,16,Beached Sea Creature,4730,Far south beach carcass,"Beached Sea Creature (32.7, 80.8)",Deliver Sea Creature Bones to Gwennyth in Auberdine,High,Classic pickup coordinates
+Grove of the Ancients,17,The Master's Glaive,944,,Onu,Use Phial of Scrying at the Master's Glaive; speak to Onu through bowl,High,
+Auberdine,17,Cave Mushrooms,947,,Barithras Moonshade,Gather 5 Scaber Stalks and 1 Death Cap from Cliffspring Falls,High,
+Auberdine,17,Onu,948,,Barithras Moonshade,Speak with Onu in Grove of the Ancients,High,
+The Master's Glaive,17,The Twilight Camp,949,Twilight chain part 2,Scrying Bowl,Find clues at the nearby Twilight Hammer camp,High,
+The Master's Glaive,17,Return to Onu,950,Twilight chain part 3,"Twilight Tome (38.5, 86.1)",Deliver Insane Scribbles to Onu at Grove of the Ancients,High,Classic pickup coordinates
+Auberdine,17,"Deep Ocean, Vast Sea",982,,Gorbold Steelhand,Recover two lockboxes from shipwrecks north of Auberdine,High,
+Auberdine,17,Fruit of the Sea,1138,,Gubber Blump,Collect 6 Fine Crab Chunks,High,
+Pickup unrecorded,17,Business in Auberdine,97894,,Not recorded (hands in to Gorbold Steelhand),Not recorded,Unconfirmed,"Forever-specific; Gorbold Steelhand in Auberdine is confirmed as hand-in NPC, but starting source and objective absent"
+Auberdine,17,Expanding Horizons,97914,,Thundris Windweaver,Deliver Thundris' Letter to Baros Alexston in Stormwind,High,Forever-specific cross-continent delivery
+The Master's Glaive,18,Therylune's Escape,945,,"Therylune (38.6, 87.3)",Escort Therylune to safety; report to Therysil in Ashenvale,High,Classic pickup coordinates
+Auberdine,18,The Tower of Althalaxx,965,Part 1 of 9,"Sentinel Elissa Starbreeze (39.1, 43.5)",Find Balthule Shadowstrike at the Tower of Althalaxx,High,Pickup seen in Forever
+Tower of Althalaxx,18,The Tower of Althalaxx,966,Part 2 of 9,"Balthule Shadowstrike (55.0, 24.9)",Collect 4 Worn Parchments from Dark Strand fanatics,High,Pickup seen in Forever
+Tower of Althalaxx,18,The Tower of Althalaxx,967,Part 3 of 9,"Balthule Shadowstrike (55.0, 24.9)","Deliver Balthule's letter to Delgren at Maestra's Post, Ashenvale",High,
+The Master's Glaive,18,The Powers Below,968,,Book: The Powers Below (item drop),Deliver book to Gerrig Bonegrip in Ironforge,Approximate,Quest item pickup location unrecorded; Classic Twilight cultists at Master's Glaive drop book
+Auberdine,18,Tharnariun's Hope,2139,,Tharnariun Treetender,Find and kill the Den Mother,High,
+Auberdine,18,WANTED: Murkdeep!,4740,,"Wanted poster (37.2, 44.2)",Kill Murkdeep south of Auberdine; report to Glynda Nal'Shea,High,Pickup seen in Forever
+Auberdine,18,The Blackwood Corrupted,4763,,Thundris Windweaver,Use cleansing bowl and food samples at northern Blackwood camp; defeat satyr,High,
+Southern coast / Wildbend,19,Beached Sea Turtle,4731,Far south beach box,"Beached Sea Turtle (31.7, 83.7)",Deliver Strangely Marked Box to Gwennyth in Auberdine,High,Classic pickup coordinates
+Southern coast / Wildbend,19,Beached Sea Turtle,4732,Far south beach remains,"Beached Sea Turtle (31.2, 85.6)",Deliver Sea Turtle Remains to Gwennyth in Auberdine,High,Classic pickup coordinates
+Southern coast / Wildbend,19,Beached Sea Creature,4733,Twilight Shore carcass,"Beached Sea Creature (31.3, 87.4)",Deliver Sea Creature Bones to Gwennyth in Auberdine,High,Classic pickup coordinates
+Auberdine,20,The Absent Minded Prospector,729,Part 1 of 5,Archaeologist Hollee,Find Prospector Remtravel to the south,High,
+Southern Darkshore / prospector,20,The Absent Minded Prospector,731,Part 2 of 5,Prospector Remtravel,Escort Remtravel while he examines fossil; return to Hollee,Approximate,Pickup south of Auberdine; precise site not reverified
+Auberdine,20,The Absent Minded Prospector,741,Part 3 of 5,Archaeologist Hollee,Deliver mysterious fossil to Chief Archaeologist Greywhisker in Darnassus,High,
+Darnassus,20,The Absent Minded Prospector,942,Part 4 of 5,"Chief Archaeologist Greywhisker (31.4, 84.2)",Take fossil to Archaeologist Flagongut in Menethil Harbor,High,Darnassus pickup; seen in Forever
+Grove of the Ancients,20,Mathystra Relics,951,,Onu,Collect 6 Mathystra Relics in northern Darkshore,High,
+Auberdine,20,A Lost Master,986,Part 1 of 2,Terenthis,Collect 5 Fine Moonstalker Pelts for a magic cloak,High,Pickup seen in Forever
+Auberdine,20,A Lost Master,993,Part 2 of 2,Terenthis,Find Volcor in southern Darkshore and deliver magic cloak,High,
+Southern Darkshore / Blackwood Den,20,Escape Through Stealth,995,,Volcor,Escape furbolg cave by stealth; report to Terenthis in Auberdine,High,Alternative to Escape Through Force
+Dustwallow Marsh,20,Journey to Astranaar,1133,Cross-zone quest,"Fiora Longears (66.4, 45.2)",Speak with Shindrell Swiftfire in Astranaar,High,"ForeverDB records pickup in Dustwallow Marsh, not Auberdine; confirmed by Forever players"
+Northern coast / Mist's Edge,20,Gyromast's Revenge,2078,,Gelkak Gyromast,Lead the Threshwackonator 4100 back to Gelkak,High,
+Northern coast / Mist's Edge,20,Gyromast's Retrieval,2098,,"Gelkak Gyromast (56.7, 13.5)",Recover 3 pieces of Gelkak's Key,High,Classic pickup coordinates
+Grove of the Ancients,20,The Sleeper Has Awakened,5321,,"Kerlonian Evershade (44.4, 76.4)",Escort Kerlonian to Maestra's Post in Ashenvale,High,Pickup seen in Forever
+Maestra's Post (Ashenvale),21,The Tower of Althalaxx,970,Part 4 of 9,Delgren the Purifier,Collect Glowing Soul Gem and return to Delgren,High,Cross-zone Ashenvale stage
+Southern Darkshore / Blackwood Den,22,Escape Through Force,994,,"Volcor (45.0, 85.3)",Fight out of furbolg cave; report to Terenthis in Auberdine,High,Alternative to Escape Through Stealth; Classic pickup coordinates
+Menethil Harbor (Wetlands),24,The Absent Minded Prospector,943,Part 5 of 5,"Archaeologist Flagongut (10.8, 60.4)",Retrieve Stone of Relu and Flagongut's Fossil in Wetlands,High,Pickup actually in Wetlands; Classic reference
+Maestra's Post (Ashenvale),24,The Tower of Althalaxx,973,Part 5 of 9,Delgren the Purifier,Recover Ilkrud Magthrull's Tome,High,Cross-zone Ashenvale stage
+Maestra's Post (Ashenvale),28,The Tower of Althalaxx,1140,Part 6 of 9,Delgren the Purifier,Free trapped Highborne souls in Night Run and Satyrnaar,High,Cross-zone Ashenvale stage
+Maestra's Post (Ashenvale),28,The Tower of Althalaxx,1167,Part 7 of 9,Delgren the Purifier,Report to Balthule Shadowstrike in northern Darkshore,High,Cross-zone Ashenvale stage
+Tower of Althalaxx,31,The Tower of Althalaxx,981,Part 9 of 9,"Balthule Shadowstrike (55.0, 24.9)",Report to Delgren the Purifier at Maestra's Post,High,
+Tower of Althalaxx,31,The Tower of Althalaxx,1143,Part 8 of 9,"Balthule Shadowstrike (55.0, 24.9)",Kill Athrikus Narassin and return his head,High,
