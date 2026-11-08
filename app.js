@@ -67,7 +67,7 @@ function render() {
     });
     const label = document.createElement('span');
     label.className = 'quest-label';
-    toggle.title = [quest.name, quest.stage].filter(Boolean).join(' · ');
+    toggle.title = quest.name;
     const title = document.createElement('span');
     title.className = 'quest-name';
     title.textContent = quest.name;

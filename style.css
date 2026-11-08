@@ -44,10 +44,8 @@ input[type="checkbox"]:disabled { cursor: wait; }
 .quest-toggle:focus-visible { outline-offset: -2px; border-radius: 3px; }
 .quest-label { display: block; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .quest-row.expanded .quest-label { white-space: normal; overflow-wrap: anywhere; }
-.stage { color: #a3b3a5; font-size: 11px; line-height: 1.5; }
-.stage::before { content: ' · '; }
+.stage { display: none; color: #a3b3a5; font-size: 11px; line-height: 1.5; }
 .quest-row.expanded .stage { display: block; margin-top: 4px; }
-.quest-row.expanded .stage::before { content: none; }
 .level { display: inline-block; min-width: 27px; padding: 0 5px; text-align: center; color: #c1d5c1; background: #26352a; border: 1px solid #405046; border-radius: 4px; font-size: 11px; font-variant-numeric: tabular-nums; }
 .coordinates, .quest-id { font-variant-numeric: tabular-nums; color: #a3b3a5; white-space: nowrap; font-size: 11px; }
 .objective { color: #bdcbbf; }
