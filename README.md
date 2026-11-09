@@ -7,7 +7,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Deadmines, Wailing Caverns, or Blackfathom Deeps.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
-- Expanded quests show known prerequisites and earlier chain steps. Click a tracked quest to jump to its list and expand it; completed prerequisites are marked with a check. Quests outside the tracker link to their ForeverDB guide.
+- Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
 - Filter completed / not completed quests, or sort by level, name, or area.
 
@@ -41,6 +41,8 @@ The researched Stonetalon Mountains, Wailing Caverns, and Blackfathom Deeps list
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
 `prerequisites` contains explicit "Complete first" relationships. `previousQuests` contains sequence links displayed separately as "Earlier in chain". Each reference has a string `id`, `name`, `evidence`, and `sources`. An empty array means no relationship is currently recorded. Do not infer a mandatory prerequisite from a quest's chain number or "Offered after" observations.
+
+Forward links are derived automatically from those relationships: "Unlocks" reverses `prerequisites`, and "Later in chain" reverses `previousQuests`. Each following quest is listed once by ID, even when it appears in multiple lists. No duplicate forward-link data needs to be maintained.
 
 Tracked references prefer the current list when the same ID appears in more than one list; otherwise they open the matching quest in its other list. Navigation clears search/completion filters that would hide the target and expands and focuses it. Quest links use URL fragments and work when opened directly or in another tab. Browser Back restores the previous list.
 

@@ -50,4 +50,6 @@ On November 9, 2026, ForeverDB's full quest-guide records were checked for all 2
 
 This distinction also applies to the Forever Deadmines explosives chain: its current source labels the preceding steps "Quest line", so the UI presents them as sequence links rather than asserting a mandatory completion requirement from older notes.
 
+Forward navigation uses the same researched relationships in reverse. A prerequisite displays the tracked quests it unlocks, while a sequence step displays the tracked quests later in its chain. These are calculated from `prerequisites` and `previousQuests`, so edits to the authoritative relationships update both directions automatically. Repeated copies of a quest ID do not produce duplicate forward links.
+
 The Zoram Strand was removed from the Stonetalon list because its pickup and objectives are in Ashenvale. Pridewings of Stonetalon links to the existing Ashenvale entry instead; its completion ID is unchanged. The Bounty of Teldrassil's prerequisite Nessa Shadowsong (#6344) and Tyrande and Remulos' prerequisite Eranikus, Tyrant of the Dream (#8733) are outside the tracked lists and link to their external guides. The Absent Minded Prospector (#729) also links externally to Trouble In Darkshore? (#730) as an earlier chain step, not a mandatory prerequisite.

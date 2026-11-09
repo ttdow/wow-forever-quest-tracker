@@ -1,7 +1,7 @@
 (async () => {
 'use strict';
 const $ = selector => document.querySelector(selector);
-const state = { quests: [], completed: new Set(), expanded: new Set(), zone: 'Teldrassil', storageReady: false, loaded: false };
+const state = { quests: [], forwardLinks: new Map(), completed: new Set(), expanded: new Set(), zone: 'Teldrassil', storageReady: false, loaded: false };
 const rows = $('#quests');
 let saveTimer;
 
@@ -46,10 +46,29 @@ function revealHashQuest() {
   return revealQuest(params.get('id'), params.get('zone'), false);
 }
 
+function buildForwardLinks(quests) {
+  const links = new Map();
+  for (const quest of quests) {
+    for (const [backward, forward] of [['prerequisites', 'unlocks'], ['previousQuests', 'later']]) {
+      for (const reference of quest[backward] || []) {
+        if (!links.has(reference.id)) links.set(reference.id, { unlocks: [], later: [] });
+        const following = links.get(reference.id)[forward];
+        if (!following.some(item => item.id === quest.id)) {
+          following.push({ id: quest.id, name: quest.name });
+        }
+      }
+    }
+  }
+  return links;
+}
+
 function referenceRow(quest) {
+  const following = state.forwardLinks.get(quest.id);
   const groups = [
     ['Prerequisites', quest.prerequisites || []],
     ['Earlier in chain', quest.previousQuests || []],
+    ['Unlocks', following?.unlocks || []],
+    ['Later in chain', following?.later || []],
   ].filter(([, references]) => references.length);
   if (!groups.length) return null;
   const row = document.createElement('tr');
@@ -233,6 +252,7 @@ try {
     throw new Error('Invalid quest data');
   }
   state.quests = quests;
+  state.forwardLinks = buildForwardLinks(quests);
   state.loaded = true;
   try {
     state.completed = QuestProgress.load();
