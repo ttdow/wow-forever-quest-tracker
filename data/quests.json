@@ -2923,5 +2923,845 @@
     "objective": "Read VanCleef’s letter and deliver it to Baros Alexston in Stormwind.",
     "areaConfidence": "High",
     "notes": "Alliance; available from level 16; starts a separate follow-up storyline leading to The Stockade Riots; later follow-ups not prerequisites to Deadmines."
+  },
+  {
+    "id": "3765",
+    "zone": "Blackfathom Deeps",
+    "level": 24,
+    "name": "The Corruption Abroad",
+    "stage": "Corruption chain — introduction",
+    "giver": "Argos Nightwhisper",
+    "coordinates": "36.3, 67.5",
+    "area": "Stormwind City",
+    "objective": "Speak with Gershala Nightwhisper in Auberdine, Darkshore.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 18; Quest recorded by ForeverDB players in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/3765",
+      "https://foreverdb.net/dungeon/48-blackfathom-deeps"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "971",
+    "zone": "Blackfathom Deeps",
+    "level": 23,
+    "name": "Knowledge in the Deeps",
+    "stage": "Dungeon quest",
+    "giver": "Gerrig Bonegrip",
+    "coordinates": "50.8, 5.6",
+    "area": "Ironforge",
+    "objective": "Retrieve the Lorgalis Manuscript from Blackfathom Deeps and return it to Gerrig Bonegrip in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 10; Quest recorded by ForeverDB players in Forever; Pickup location is a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/971",
+      "https://foreverdb.net/dungeon/48-blackfathom-deeps"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    }
+  },
+  {
+    "id": "1198",
+    "zone": "Blackfathom Deeps",
+    "level": 24,
+    "name": "In Search of Thaelrid",
+    "stage": "Thaelrid chain — part 1/2",
+    "giver": "Dawnwatcher Shaedlass",
+    "coordinates": "55.5, 24.6",
+    "area": "Darnassus",
+    "objective": "Find Argent Guard Thaelrid inside Blackfathom Deeps.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 18; Quest recorded by ForeverDB players in Forever; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1198",
+      "https://foreverdb.net/dungeon/48-blackfathom-deeps"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1275",
+    "zone": "Blackfathom Deeps",
+    "level": 24,
+    "name": "Researching the Corruption",
+    "stage": "Corruption chain — dungeon quest",
+    "giver": "Gershala Nightwhisper",
+    "coordinates": "38.4, 43.1",
+    "area": "Darkshore",
+    "objective": "Collect 8 Corrupt Brain Stems in Blackfathom Deeps for Gershala Nightwhisper in Auberdine.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 18; Quest recorded by ForeverDB players in Forever; Related earlier step #3765 (The Corruption Abroad); not asserted mandatory",
+    "sources": [
+      "https://foreverdb.net/quest/1275",
+      "https://foreverdb.net/dungeon/48-blackfathom-deeps"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1199",
+    "zone": "Blackfathom Deeps",
+    "level": 25,
+    "name": "Twilight Falls",
+    "stage": "Dungeon quest",
+    "giver": "Argent Guard Manados",
+    "coordinates": "55.3, 23.7",
+    "area": "Darnassus",
+    "objective": "Collect 10 Twilight Pendants in Blackfathom Deeps for Argent Guard Manados in Darnassus.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20; Quest recorded by ForeverDB players in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/1199",
+      "https://foreverdb.net/dungeon/48-blackfathom-deeps"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1200",
+    "zone": "Blackfathom Deeps",
+    "level": 27,
+    "name": "Blackfathom Villainy",
+    "stage": "Thaelrid chain — part 2/2",
+    "giver": "Argent Guard Thaelrid",
+    "coordinates": "",
+    "area": "Blackfathom Deeps (inside dungeon)",
+    "objective": "Kill Twilight Lord Kelris and bring his head to Dawnwatcher Selgorm in Darnassus.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 18; Quest recorded by ForeverDB players in Forever; Pickup location is a Classic reference; Requires #1198 (In Search of Thaelrid)",
+    "sources": [
+      "https://foreverdb.net/quest/1200",
+      "https://foreverdb.net/dungeon/48-blackfathom-deeps"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    }
+  },
+  {
+    "id": "1056",
+    "zone": "Stonetalon Mountains",
+    "level": 18,
+    "name": "Journey to Stonetalon Peak",
+    "stage": "Charred Vale chain — introduction",
+    "giver": "Faldreas Goeth'Shael",
+    "coordinates": "35.7, 49.2",
+    "area": "Ashenvale",
+    "objective": "Speak with Keeper Albagorm at Stonetalon Peak.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 18; Quest recorded by ForeverDB players in Forever; Cross-zone step in a Stonetalon quest chain; pickup area shown explicitly",
+    "sources": [
+      "https://foreverdb.net/quest/1056",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1008",
+    "zone": "Stonetalon Mountains",
+    "level": 19,
+    "name": "The Zoram Strand",
+    "stage": "Pridewings prerequisite — Ashenvale",
+    "giver": "Shindrell Swiftfire",
+    "coordinates": "34.6, 48.8",
+    "area": "Ashenvale",
+    "objective": "Collect 20 Wrathtail Heads at the Zoram Strand for Shindrell Swiftfire in Astranaar.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 14; Quest recorded by ForeverDB players in Forever; Cross-zone step in a Stonetalon quest chain; pickup area shown explicitly",
+    "sources": [
+      "https://foreverdb.net/quest/1008",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1070",
+    "zone": "Stonetalon Mountains",
+    "level": 21,
+    "name": "On Guard in Stonetalon",
+    "stage": "On Guard in Stonetalon — part 1/2",
+    "giver": "Sentinel Thenysil",
+    "coordinates": "34.9, 49.8",
+    "area": "Astranaar (Ashenvale)",
+    "objective": "Speak with Kaela Shadowspear in Stonetalon Mountains.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 17; Quest recorded by ForeverDB players in Forever; Cross-zone step in a Stonetalon quest chain; pickup area shown explicitly",
+    "sources": [
+      "https://foreverdb.net/quest/1070",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1085",
+    "zone": "Stonetalon Mountains",
+    "level": 21,
+    "name": "On Guard in Stonetalon",
+    "stage": "On Guard in Stonetalon — part 2/2",
+    "giver": "Kaela Shadowspear",
+    "coordinates": "59.9, 67.0",
+    "area": "Stonetalon Mountains",
+    "objective": "Speak with Gaxim Rustfizzle in Stonetalon Mountains.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 17; Quest recorded by ForeverDB players in Forever; Related earlier step #1070 (On Guard in Stonetalon); not asserted mandatory",
+    "sources": [
+      "https://foreverdb.net/quest/1085",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1071",
+    "zone": "Stonetalon Mountains",
+    "level": 21,
+    "name": "A Gnome's Respite",
+    "stage": "Gaxim's explosives chain — prerequisite",
+    "giver": "Gaxim Rustfizzle",
+    "coordinates": "59.5, 67.1",
+    "area": "Sishir Canyon (Stonetalon Mountains)",
+    "objective": "Kill 10 Venture Co. Loggers and 10 Venture Co. Deforesters in Windshear Crag; return to Gaxim Rustfizzle.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 17; Quest recorded by ForeverDB players in Forever; Requires #1085 (On Guard in Stonetalon)",
+    "sources": [
+      "https://foreverdb.net/quest/1071",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1072",
+    "zone": "Stonetalon Mountains",
+    "level": 21,
+    "name": "An Old Colleague",
+    "stage": "Gaxim's explosives chain — Ironforge branch",
+    "giver": "Gaxim Rustfizzle",
+    "coordinates": "59.5, 67.1",
+    "area": "Sishir Canyon (Stonetalon Mountains)",
+    "objective": "Speak with Lomac Gearstrip in Ironforge.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 17; Classic reference details; not yet confirmed by a Forever player; Requires #1071 (A Gnome's Respite); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1072",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1073",
+    "zone": "Stonetalon Mountains",
+    "level": 21,
+    "name": "Ineptitude + Chemicals = Fun",
+    "stage": "Chemicals branch — part 1/2",
+    "giver": "Lomac Gearstrip",
+    "coordinates": "72.1, 51.9",
+    "area": "Ironforge",
+    "objective": "Bring 4 Minor Mana Potions and 2 Elixirs of Minor Fortitude to Lomac Gearstrip in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 17; Classic reference details; not yet confirmed by a Forever player; Pickup location is a Classic reference; Cross-zone step in a Stonetalon quest chain; pickup area shown explicitly; Requires #1072 (An Old Colleague); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1073",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    }
+  },
+  {
+    "id": "1074",
+    "zone": "Stonetalon Mountains",
+    "level": 21,
+    "name": "Ineptitude + Chemicals = Fun",
+    "stage": "Chemicals branch — part 2/2",
+    "giver": "Lomac Gearstrip",
+    "coordinates": "72.1, 51.9",
+    "area": "Ironforge",
+    "objective": "Bring the Nitromirglyceronium to Gaxim Rustfizzle in Stonetalon Mountains.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 17; Classic reference details; not yet confirmed by a Forever player; Pickup location is a Classic reference; Cross-zone step in a Stonetalon quest chain; pickup area shown explicitly; Requires #1073 (Ineptitude + Chemicals = Fun); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1074",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    }
+  },
+  {
+    "id": "1075",
+    "zone": "Stonetalon Mountains",
+    "level": 21,
+    "name": "A Scroll from Mauren",
+    "stage": "Gaxim's explosives chain — Stormwind branch",
+    "giver": "Gaxim Rustfizzle",
+    "coordinates": "59.5, 67.1",
+    "area": "Sishir Canyon (Stonetalon Mountains)",
+    "objective": "Speak with Collin Mauren in Stormwind City.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 17; Classic reference details; not yet confirmed by a Forever player; Requires #1071 (A Gnome's Respite); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1075",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1076",
+    "zone": "Stonetalon Mountains",
+    "level": 21,
+    "name": "Devils in Westfall",
+    "stage": "Messaging branch — Dust Devil Debris",
+    "giver": "Collin Mauren",
+    "coordinates": "53.0, 86.6",
+    "area": "Stormwind City",
+    "objective": "Collect Dust Devil Debris in Westfall and bring it to Collin Mauren in Stormwind City.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 17; Classic reference details; not yet confirmed by a Forever player; Pickup location is a Classic reference; Cross-zone step in a Stonetalon quest chain; pickup area shown explicitly; Requires #1075 (A Scroll from Mauren); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1076",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    }
+  },
+  {
+    "id": "1077",
+    "zone": "Stonetalon Mountains",
+    "level": 21,
+    "name": "Special Delivery for Gaxim",
+    "stage": "Messaging branch — return to Gaxim",
+    "giver": "Collin Mauren",
+    "coordinates": "53.0, 86.6",
+    "area": "Stormwind City",
+    "objective": "Bring the Scroll of Messaging to Gaxim Rustfizzle in Stonetalon Mountains.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 17; Classic reference details; not yet confirmed by a Forever player; Pickup location is a Classic reference; Cross-zone step in a Stonetalon quest chain; pickup area shown explicitly; Requires #1076 (Devils in Westfall); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1077",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    }
+  },
+  {
+    "id": "1079",
+    "zone": "Stonetalon Mountains",
+    "level": 22,
+    "name": "Covert Ops - Alpha",
+    "stage": "Covert Ops — engineering plans",
+    "giver": "Gaxim Rustfizzle",
+    "coordinates": "59.5, 67.1",
+    "area": "Sishir Canyon (Stonetalon Mountains)",
+    "objective": "Retrieve the Venture Co. Engineering Plans from the Windshear Crag lumber mill for Gaxim Rustfizzle.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 17; Classic reference details; not yet confirmed by a Forever player; Related earlier step #1077 (Special Delivery for Gaxim); not asserted mandatory; Requires #1074 (Ineptitude + Chemicals = Fun); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1079",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1080",
+    "zone": "Stonetalon Mountains",
+    "level": 22,
+    "name": "Covert Ops - Beta",
+    "stage": "Covert Ops — letters",
+    "giver": "Gaxim Rustfizzle",
+    "coordinates": "59.5, 67.1",
+    "area": "Sishir Canyon (Stonetalon Mountains)",
+    "objective": "Retrieve the Venture Co. Letters from Windshear Mine for Gaxim Rustfizzle.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 17; Classic reference details; not yet confirmed by a Forever player; Related earlier step #1074 (Ineptitude + Chemicals = Fun); not asserted mandatory; Requires #1077 (Special Delivery for Gaxim); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1080",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1091",
+    "zone": "Stonetalon Mountains",
+    "level": 22,
+    "name": "Kaela's Update",
+    "stage": "Gaxim's explosives chain — report to Kaela",
+    "giver": "Gaxim Rustfizzle",
+    "coordinates": "59.5, 67.1",
+    "area": "Sishir Canyon (Stonetalon Mountains)",
+    "objective": "Bring the Venture Co. Letters to Kaela Shadowspear in Stonetalon Mountains.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 17; Classic reference details; not yet confirmed by a Forever player; Related earlier step #1079 (Covert Ops - Alpha); not asserted mandatory; Related earlier step #1080 (Covert Ops - Beta); not asserted mandatory; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1091",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1083",
+    "zone": "Stonetalon Mountains",
+    "level": 26,
+    "name": "Enraged Spirits",
+    "stage": "Kaela's tasks — elementals",
+    "giver": "Kaela Shadowspear",
+    "coordinates": "59.9, 67.0",
+    "area": "Stonetalon Mountains",
+    "objective": "Collect 8 Smoldering Embers from Charred Vale fire elementals for Kaela Shadowspear.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20; Classic reference details; not yet confirmed by a Forever player; Requires #1091 (Kaela's Update); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1083",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1084",
+    "zone": "Stonetalon Mountains",
+    "level": 28,
+    "name": "Wounded Ancients",
+    "stage": "Kaela's tasks — ancients",
+    "giver": "Kaela Shadowspear",
+    "coordinates": "59.9, 67.0",
+    "area": "Stonetalon Mountains",
+    "objective": "Collect a piece of Corroded Shrapnel from the ancients in Stonetalon Mountains for Kaela Shadowspear.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 22; Classic reference details; not yet confirmed by a Forever player; Requires #1091 (Kaela's Update); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1084",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1082",
+    "zone": "Stonetalon Mountains",
+    "level": 22,
+    "name": "Update for Sentinel Thenysil",
+    "stage": "Kaela's tasks — return to Astranaar",
+    "giver": "Kaela Shadowspear",
+    "coordinates": "59.9, 67.0",
+    "area": "Stonetalon Mountains",
+    "objective": "Return to Sentinel Thenysil in Astranaar, Ashenvale.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 17; Classic reference details; not yet confirmed by a Forever player; Related earlier step #1083 (Enraged Spirits); not asserted mandatory; Related earlier step #1084 (Wounded Ancients); not asserted mandatory; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1082",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1081",
+    "zone": "Stonetalon Mountains",
+    "level": 28,
+    "name": "Reception from Tyrande",
+    "stage": "Kaela's tasks — follow-up in Darnassus",
+    "giver": "Sentinel Thenysil",
+    "coordinates": "34.9, 49.8",
+    "area": "Astranaar (Ashenvale)",
+    "objective": "Speak with Tyrande Whisperwind in Darnassus.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 17; Classic reference details; not yet confirmed by a Forever player; Cross-zone step in a Stonetalon quest chain; pickup area shown explicitly; Requires #1082 (Update for Sentinel Thenysil); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1081",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1078",
+    "zone": "Stonetalon Mountains",
+    "level": 26,
+    "name": "Retrieval for Mauren",
+    "stage": "Mauren's research",
+    "giver": "Collin Mauren",
+    "coordinates": "53.0, 86.6",
+    "area": "Stormwind City",
+    "objective": "Collect 8 Crystalized Scales in Stonetalon Mountains for Collin Mauren in Stormwind City.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 17; Quest recorded by ForeverDB players in Forever; Pickup location is a Classic reference; Cross-zone step in a Stonetalon quest chain; pickup area shown explicitly; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1078",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    }
+  },
+  {
+    "id": "1134",
+    "zone": "Stonetalon Mountains",
+    "level": 21,
+    "name": "Pridewings of Stonetalon",
+    "stage": "Pridewings follow-up",
+    "giver": "Shindrell Swiftfire",
+    "coordinates": "34.7, 48.8",
+    "area": "Ashenvale",
+    "objective": "Collect 12 Pridewing Venom Sacs in Stonetalon Mountains for Shindrell Swiftfire in Astranaar.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 18; Quest recorded by ForeverDB players in Forever; Cross-zone step in a Stonetalon quest chain; pickup area shown explicitly; Requires #1008 (The Zoram Strand)",
+    "sources": [
+      "https://foreverdb.net/quest/1134",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1057",
+    "zone": "Stonetalon Mountains",
+    "level": 27,
+    "name": "Reclaiming the Charred Vale",
+    "stage": "Charred Vale chain — harpies",
+    "giver": "Keeper Albagorm",
+    "coordinates": "37.1, 8.1",
+    "area": "Stonetalon Peak (Stonetalon Mountains)",
+    "objective": "Kill 6 Bloodfury Harpies, 6 Bloodfury Ambushers, 6 Bloodfury Slayers, and 6 Bloodfury Roguefeathers in the Charred Vale.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20; Quest recorded by ForeverDB players in Forever; Related earlier step #1056 (Journey to Stonetalon Peak); not asserted mandatory",
+    "sources": [
+      "https://foreverdb.net/quest/1057",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1059",
+    "zone": "Stonetalon Mountains",
+    "level": 27,
+    "name": "Reclaiming the Charred Vale",
+    "stage": "Charred Vale chain — follow-up",
+    "giver": "Keeper Albagorm",
+    "coordinates": "37.1, 8.1",
+    "area": "Stonetalon Peak (Stonetalon Mountains)",
+    "objective": "Speak with Falfindel Waywarder at Thalanaar on the Feralas–Thousand Needles border.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20; Classic reference details; not yet confirmed by a Forever player; Requires #1057 (Reclaiming the Charred Vale); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1059",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1483",
+    "zone": "Stonetalon Mountains",
+    "level": 21,
+    "name": "Ziz Fizziks",
+    "stage": "Ziz Fizziks chain — part 1/5",
+    "giver": "Sputtervalve",
+    "coordinates": "63.0, 37.2",
+    "area": "Ratchet (The Barrens)",
+    "objective": "Speak with Ziz Fizziks in Windshear Crag, Stonetalon Mountains.",
+    "areaConfidence": "High",
+    "notes": "Neutral; No class restriction; Minimum level 16; Quest recorded by ForeverDB players in Forever; Cross-zone step in a Stonetalon quest chain; pickup area shown explicitly; Observed after #902 (Samophlange); not asserted mandatory",
+    "sources": [
+      "https://foreverdb.net/quest/1483",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1093",
+    "zone": "Stonetalon Mountains",
+    "level": 21,
+    "name": "Super Reaper 6000",
+    "stage": "Ziz Fizziks chain — part 2/5",
+    "giver": "Ziz Fizziks",
+    "coordinates": "59.0, 62.5",
+    "area": "Stonetalon Mountains",
+    "objective": "Retrieve the Super Reaper 6000 Blueprints for Ziz Fizziks in Stonetalon Mountains.",
+    "areaConfidence": "High",
+    "notes": "Neutral; No class restriction; Minimum level 16; Quest recorded by ForeverDB players in Forever; Related earlier step #1483 (Ziz Fizziks); not asserted mandatory",
+    "sources": [
+      "https://foreverdb.net/quest/1093",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1094",
+    "zone": "Stonetalon Mountains",
+    "level": 21,
+    "name": "Further Instructions",
+    "stage": "Ziz Fizziks chain — part 3/5",
+    "giver": "Ziz Fizziks",
+    "coordinates": "59.0, 62.5",
+    "area": "Stonetalon Mountains",
+    "objective": "Bring the Sealed Envelope to Sputtervalve in Ratchet, The Barrens.",
+    "areaConfidence": "High",
+    "notes": "Neutral; No class restriction; Minimum level 16; Quest recorded by ForeverDB players in Forever; Requires #1093 (Super Reaper 6000)",
+    "sources": [
+      "https://foreverdb.net/quest/1094",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1095",
+    "zone": "Stonetalon Mountains",
+    "level": 27,
+    "name": "Further Instructions",
+    "stage": "Ziz Fizziks chain — part 4/5",
+    "giver": "Sputtervalve",
+    "coordinates": "63.0, 37.2",
+    "area": "Ratchet (The Barrens)",
+    "objective": "Bring the new orders to Ziz Fizziks in Stonetalon Mountains.",
+    "areaConfidence": "High",
+    "notes": "Neutral; No class restriction; Minimum level 16; Quest recorded by ForeverDB players in Forever; Cross-zone step in a Stonetalon quest chain; pickup area shown explicitly; Requires #1094 (Further Instructions)",
+    "sources": [
+      "https://foreverdb.net/quest/1095",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1096",
+    "zone": "Stonetalon Mountains",
+    "level": 27,
+    "name": "Gerenzo Wrenchwhistle",
+    "stage": "Ziz Fizziks chain — part 5/5",
+    "giver": "Ziz Fizziks",
+    "coordinates": "59.0, 62.5",
+    "area": "Stonetalon Mountains",
+    "objective": "Kill Gerenzo Wrenchwhistle and bring his Mechanical Arm to Ziz Fizziks.",
+    "areaConfidence": "High",
+    "notes": "Neutral; No class restriction; Minimum level 16; Quest recorded by ForeverDB players in Forever; Requires #1095 (Further Instructions)",
+    "sources": [
+      "https://foreverdb.net/quest/1096",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1090",
+    "zone": "Stonetalon Mountains",
+    "level": 22,
+    "name": "Gerenzo's Orders",
+    "stage": "Gerenzo's Orders — part 1/2",
+    "giver": "Piznik",
+    "coordinates": "71.9, 60.0",
+    "area": "Windshear Mine (Stonetalon Mountains)",
+    "objective": "Protect Piznik while he mines the mysterious ore in Windshear Mine; collect it from him.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 17; Classic reference details; not yet confirmed by a Forever player; Pickup location is a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1090",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    }
+  },
+  {
+    "id": "1092",
+    "zone": "Stonetalon Mountains",
+    "level": 22,
+    "name": "Gerenzo's Orders",
+    "stage": "Gerenzo's Orders — part 2/2",
+    "giver": "Piznik",
+    "coordinates": "71.9, 60.0",
+    "area": "Windshear Mine (Stonetalon Mountains)",
+    "objective": "Bring the Unidentified Ore to Ziz Fizziks in Stonetalon Mountains.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 17; Classic reference details; not yet confirmed by a Forever player; Pickup location is a Classic reference; Requires #1090 (Gerenzo's Orders); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1092",
+      "https://foreverdb.net/quests/stonetalon-mountains"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    }
   }
 ]
