@@ -7,9 +7,10 @@
   <meta name="color-scheme" content="dark">
   <title>Quest tracker · WoW Forever</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%232f6850'/%3E%3Cpath d='m11 21 6 6 12-14' fill='none' stroke='white' stroke-width='4'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="./style.css?v=7">
-  <script src="./progress.js?v=7" defer></script>
-  <script src="./app.js?v=7" defer></script>
+  <link rel="stylesheet" href="./style.css?v=8">
+  <script src="./progress.js?v=8" defer></script>
+  <script src="./drops.js?v=8" defer></script>
+  <script src="./app.js?v=8" defer></script>
 </head>
 <body>
   <noscript>Enable JavaScript to use the quest tracker.</noscript>
@@ -27,7 +28,11 @@
       <button type="button" data-zone="Wailing Caverns" aria-pressed="false">Wailing Caverns <span></span></button>
       <button type="button" data-zone="Blackfathom Deeps" aria-pressed="false">Blackfathom Deeps <span></span></button>
     </nav>
-    <section class="quest-panel" aria-label="Quests">
+    <nav id="views" aria-label="Dungeon view" hidden>
+      <button type="button" data-view="quests" aria-pressed="true">Quests</button>
+      <button type="button" data-view="drops" aria-pressed="false">Drops</button>
+    </nav>
+    <section id="quest-panel" class="quest-panel" aria-label="Quests">
       <div class="toolbar">
         <div class="search-wrap"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="Search quests, givers, areas, IDs…" aria-label="Search quests"></div>
         <div class="filters">
@@ -45,6 +50,25 @@
         <p id="empty" class="empty" role="status" hidden>No quests match your filters.</p>
       </div>
       <footer class="panel-footer"><span id="result-count" aria-live="polite"></span><span id="save-state" role="status">Saved in this browser</span></footer>
+    </section>
+    <section id="drops-panel" class="quest-panel" aria-label="Dungeon drops" hidden>
+      <div class="toolbar">
+        <div class="search-wrap"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="drop-search" type="search" placeholder="Search items, stats, sources, IDs…" aria-label="Search drops"></div>
+        <div class="filters">
+          <label class="sr-only" for="drop-source">Drop source</label><select id="drop-source"><option value="all">All sources</option></select>
+          <label class="sr-only" for="drop-class">Equipment eligibility</label><select id="drop-class" title="Rogue-usable means equipable after training, not necessarily recommended stats."><option value="all">All classes</option><option value="rogue">Rogue-usable</option></select>
+        </div>
+      </div>
+      <div id="drops-error" class="error" role="alert" hidden><span>Could not load drops.</span><button id="drops-retry" type="button">Retry</button></div>
+      <div class="table-wrap">
+        <table class="drop-table">
+          <colgroup><col class="col-drop-item"><col class="col-drop-type"><col class="col-drop-level"><col class="col-drop-stats"><col class="col-drop-source"><col class="col-drop-evidence"></colgroup>
+          <thead><tr><th scope="col">Item</th><th scope="col">Slot / type</th><th scope="col">Req. level</th><th scope="col">Base stats / effects</th><th scope="col">Source</th><th scope="col">Drop evidence</th></tr></thead>
+          <tbody id="drops"></tbody>
+        </table>
+        <p id="drops-empty" class="empty" role="status" hidden>No drops match your filters.</p>
+      </div>
+      <footer class="panel-footer"><span id="drop-result-count" aria-live="polite"></span><a id="drop-reference" target="_blank" rel="noopener noreferrer">Source: ForeverDB</a></footer>
     </section>
   </main>
 </body>

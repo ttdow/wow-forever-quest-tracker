@@ -1,0 +1,3012 @@
+{
+  "updated": "2026-11-09",
+  "build": "1.60.1.70862",
+  "instances": {
+    "Deadmines": {
+      "id": 36,
+      "source": "https://foreverdb.net/dungeon/36-deadmines",
+      "items": [
+        {
+          "id": "6379",
+          "name": "Inscribed Leather Belt",
+          "quality": 2,
+          "requiredLevel": 12,
+          "itemLevel": 17,
+          "slot": "Waist",
+          "type": "Leather",
+          "stats": [
+            "41 Armor",
+            "+2 Stamina",
+            "+2 Intellect"
+          ],
+          "source": "Rhahk'Zor",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/6379"
+          ]
+        },
+        {
+          "id": "3645",
+          "name": "Seer's Cuffs",
+          "quality": 2,
+          "requiredLevel": 12,
+          "itemLevel": 17,
+          "slot": "Wrists",
+          "type": "Cloth",
+          "stats": [
+            "13 Armor",
+            "+2 Spirit",
+            "+1 Intellect"
+          ],
+          "source": "Rhahk'Zor",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/3645"
+          ]
+        },
+        {
+          "id": "2982",
+          "name": "Seer's Pants",
+          "quality": 2,
+          "requiredLevel": 15,
+          "itemLevel": 20,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "29 Armor",
+            "+5 Spirit",
+            "+3 Stamina"
+          ],
+          "source": "Rhahk'Zor",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/2982"
+          ]
+        },
+        {
+          "id": "5187",
+          "name": "Rhahk'Zor's Hammer",
+          "quality": 3,
+          "requiredLevel": 16,
+          "itemLevel": 21,
+          "slot": "Two-hand",
+          "type": "Two-hand mace",
+          "stats": [
+            "47–71 damage · 3.20s · 18.4 DPS",
+            "+8 Spell Power",
+            "+8 Stamina"
+          ],
+          "source": "Rhahk'Zor",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5187"
+          ]
+        },
+        {
+          "id": "273289",
+          "name": "Ogre Loincloth",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "35 Armor",
+            "+4 Strength",
+            "+18 Healing Power",
+            "+6 Spell Damage",
+            "+6 Stamina"
+          ],
+          "source": "Rhahk'Zor",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/273289"
+          ]
+        },
+        {
+          "id": "872",
+          "name": "Rockslicer",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Two-hand",
+          "type": "Two-hand axe",
+          "stats": [
+            "52–78 damage · 3.30s · 19.7 DPS",
+            "+7 Strength",
+            "+7 Nature Resistance",
+            "Use: Slice open and gather from a target Copper, Tin, Silver, or Iron Vein (does not require Mining)."
+          ],
+          "source": "Rhahk'Zor",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/872"
+          ]
+        },
+        {
+          "id": "4571",
+          "name": "War Knife",
+          "quality": 2,
+          "requiredLevel": 12,
+          "itemLevel": 17,
+          "slot": "One-hand",
+          "type": "Dagger",
+          "stats": [
+            "10–19 damage · 1.70s · 8.5 DPS"
+          ],
+          "source": "Sneed",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/4571"
+          ]
+        },
+        {
+          "id": "3195",
+          "name": "Barbaric Battle Axe",
+          "quality": 2,
+          "requiredLevel": 13,
+          "itemLevel": 18,
+          "slot": "Two-hand",
+          "type": "Two-hand axe",
+          "stats": [
+            "34–52 damage · 3.60s · 11.9 DPS"
+          ],
+          "source": "Sneed",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/3195"
+          ]
+        },
+        {
+          "id": "1945",
+          "name": "Woodworking Gloves",
+          "quality": 2,
+          "requiredLevel": 13,
+          "itemLevel": 18,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "46 Armor",
+            "+3 Intellect",
+            "+2 Spirit"
+          ],
+          "source": "Sneed",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/1945"
+          ]
+        },
+        {
+          "id": "10401",
+          "name": "Blackened Defias Gloves",
+          "quality": 3,
+          "requiredLevel": 14,
+          "itemLevel": 19,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "52 Armor",
+            "+6 Strength",
+            "+2 Stamina"
+          ],
+          "source": "Sneed",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/10401"
+          ]
+        },
+        {
+          "id": "5207",
+          "name": "Opaque Wand",
+          "quality": 2,
+          "requiredLevel": 15,
+          "itemLevel": 20,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "14–28 Shadow damage · 1.40s · 15.0 DPS",
+            "+3 Holy Damage Done"
+          ],
+          "source": "Sneed",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5207"
+          ]
+        },
+        {
+          "id": "273293",
+          "name": "Bandsaw Wristbands",
+          "quality": 3,
+          "requiredLevel": 16,
+          "itemLevel": 21,
+          "slot": "Wrists",
+          "type": "Mail",
+          "stats": [
+            "82 Armor",
+            "+5 Stamina",
+            "Equip: Deals 5 to 7 Physical damage every time you block."
+          ],
+          "source": "Sneed",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/273293"
+          ]
+        },
+        {
+          "id": "2169",
+          "name": "Buzzer Blade",
+          "quality": 3,
+          "requiredLevel": 16,
+          "itemLevel": 21,
+          "slot": "Main hand",
+          "type": "Dagger",
+          "stats": [
+            "14–28 damage · 1.50s · 14.0 DPS",
+            "+9 Spell Damage Vs Elemental"
+          ],
+          "source": "Sneed",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/2169"
+          ]
+        },
+        {
+          "id": "285292",
+          "name": "Dull Sawblade",
+          "quality": 3,
+          "requiredLevel": 16,
+          "itemLevel": 21,
+          "slot": "Thrown",
+          "type": "Thrown",
+          "stats": [
+            "15–28 damage · 1.70s · 12.6 DPS",
+            "+6 Attack Power",
+            "+2 Stamina"
+          ],
+          "source": "Sneed",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/285292"
+          ]
+        },
+        {
+          "id": "5195",
+          "name": "Gold-flecked Gloves",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "25 Armor",
+            "+7 Strength",
+            "+5 Fire Resistance"
+          ],
+          "source": "Sneed",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5195"
+          ]
+        },
+        {
+          "id": "1937",
+          "name": "Buzz Saw",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "One-hand",
+          "type": "Sword",
+          "stats": [
+            "24–46 damage · 2.30s · 15.2 DPS",
+            "+3 Agility",
+            "+3 Stamina"
+          ],
+          "source": "Sneed",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/1937"
+          ]
+        },
+        {
+          "id": "5194",
+          "name": "Taskmaster Axe",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Two-hand",
+          "type": "Two-hand axe",
+          "stats": [
+            "42–64 damage · 2.70s · 19.6 DPS",
+            "+8 Spirit",
+            "+8 Stamina"
+          ],
+          "source": "Sneed",
+          "sourceOrder": 2,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5194"
+          ]
+        },
+        {
+          "id": "5443",
+          "name": "Gold-plated Buckler",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Off-hand",
+          "type": "Shield",
+          "stats": [
+            "509 Armor",
+            "+5 Stamina",
+            "+2 Agility",
+            "Equip: After entering combat, reduce the next instance of Physical damage taken within 20 sec by 15."
+          ],
+          "source": "Miner Johnson",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5443"
+          ]
+        },
+        {
+          "id": "5444",
+          "name": "Miner's Cape",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "20 Armor",
+            "+5 Stamina",
+            "+2 Mining Skill",
+            "+6 Attack Power Vs Elemental",
+            "+4 Attack Power"
+          ],
+          "source": "Miner Johnson",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5444"
+          ]
+        },
+        {
+          "id": "3196",
+          "name": "Edged Bastard Sword",
+          "quality": 2,
+          "requiredLevel": 13,
+          "itemLevel": 18,
+          "slot": "Two-hand",
+          "type": "Two-hand sword",
+          "stats": [
+            "29–44 damage · 3.10s · 11.8 DPS"
+          ],
+          "source": "Gilnid",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/3196"
+          ]
+        },
+        {
+          "id": "1944",
+          "name": "Metalworking Gloves",
+          "quality": 2,
+          "requiredLevel": 13,
+          "itemLevel": 18,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "46 Armor",
+            "+3 Strength",
+            "+1 Stamina"
+          ],
+          "source": "Gilnid",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/1944"
+          ]
+        },
+        {
+          "id": "2078",
+          "name": "Northern Shortsword",
+          "quality": 2,
+          "requiredLevel": 13,
+          "itemLevel": 18,
+          "slot": "One-hand",
+          "type": "Sword",
+          "stats": [
+            "14–26 damage · 2.20s · 9.1 DPS"
+          ],
+          "source": "Gilnid",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/2078"
+          ]
+        },
+        {
+          "id": "9788",
+          "name": "Raider's Belt",
+          "quality": 2,
+          "requiredLevel": 13,
+          "itemLevel": 18,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "91 Armor"
+          ],
+          "source": "Gilnid",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/9788"
+          ]
+        },
+        {
+          "id": "15222",
+          "name": "Barbed Club",
+          "quality": 2,
+          "requiredLevel": 14,
+          "itemLevel": 19,
+          "slot": "Main hand",
+          "type": "Mace",
+          "stats": [
+            "15–29 damage · 2.30s · 9.6 DPS"
+          ],
+          "source": "Gilnid",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/15222"
+          ]
+        },
+        {
+          "id": "3040",
+          "name": "Hunter's Muzzle Loader",
+          "quality": 2,
+          "requiredLevel": 14,
+          "itemLevel": 19,
+          "slot": "Ranged",
+          "type": "Gun",
+          "stats": [
+            "9–18 damage · 1.80s · 7.5 DPS",
+            "+5 Ranged Attack Power"
+          ],
+          "source": "Gilnid",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/3040"
+          ]
+        },
+        {
+          "id": "9789",
+          "name": "Raider's Legguards",
+          "quality": 2,
+          "requiredLevel": 14,
+          "itemLevel": 19,
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "144 Armor"
+          ],
+          "source": "Gilnid",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/9789"
+          ]
+        },
+        {
+          "id": "10402",
+          "name": "Blackened Defias Boots",
+          "quality": 3,
+          "requiredLevel": 15,
+          "itemLevel": 20,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "59 Armor",
+            "+4 Stamina",
+            "+6 Agility"
+          ],
+          "source": "Gilnid",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/10402"
+          ]
+        },
+        {
+          "id": "5199",
+          "name": "Smelting Pants",
+          "quality": 3,
+          "requiredLevel": 16,
+          "itemLevel": 21,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "76 Armor",
+            "+7 Stamina",
+            "+5 Spirit",
+            "Equip: Reduces the crafting time of Smelt Copper, Smelt Tin, Smelt Bronze, and Smelt Silver by 25%."
+          ],
+          "source": "Gilnid",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5199"
+          ]
+        },
+        {
+          "id": "1156",
+          "name": "Lavishly Jeweled Ring",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [
+            "+2 Agility",
+            "+6 Intellect"
+          ],
+          "source": "Gilnid",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/1156"
+          ]
+        },
+        {
+          "id": "4699",
+          "name": "Seer's Belt",
+          "quality": 2,
+          "requiredLevel": 13,
+          "itemLevel": 18,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "18 Armor",
+            "+4 Intellect"
+          ],
+          "source": "Captain Greenskin",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/4699"
+          ]
+        },
+        {
+          "id": "14167",
+          "name": "Buccaneer's Cape",
+          "quality": 2,
+          "requiredLevel": 14,
+          "itemLevel": 19,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "16 Armor"
+          ],
+          "source": "Captain Greenskin",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/14167"
+          ]
+        },
+        {
+          "id": "10403",
+          "name": "Blackened Defias Belt",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Waist",
+          "type": "Leather",
+          "stats": [
+            "50 Armor",
+            "+18 Attack Power"
+          ],
+          "source": "Captain Greenskin",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/10403"
+          ]
+        },
+        {
+          "id": "5201",
+          "name": "Emberstone Staff",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "45–69 damage · 3.00s · 19.0 DPS",
+            "+8 Stamina",
+            "+8 Fire Resistance"
+          ],
+          "source": "Captain Greenskin",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5201"
+          ]
+        },
+        {
+          "id": "5200",
+          "name": "Impaling Harpoon",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Two-hand",
+          "type": "Polearm",
+          "stats": [
+            "36–55 damage · 2.40s · 19.0 DPS",
+            "+9 Agility",
+            "+5 Intellect"
+          ],
+          "source": "Captain Greenskin",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5200"
+          ]
+        },
+        {
+          "id": "14174",
+          "name": "Buccaneer's Boots",
+          "quality": 2,
+          "requiredLevel": 14,
+          "itemLevel": 19,
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "22 Armor"
+          ],
+          "source": "Mr. Smite",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/14174"
+          ]
+        },
+        {
+          "id": "4575",
+          "name": "Medicine Staff",
+          "quality": 2,
+          "requiredLevel": 14,
+          "itemLevel": 19,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "25–38 damage · 2.50s · 12.6 DPS"
+          ],
+          "source": "Mr. Smite",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/4575"
+          ]
+        },
+        {
+          "id": "2985",
+          "name": "Inscribed Leather Breastplate",
+          "quality": 2,
+          "requiredLevel": 16,
+          "itemLevel": 21,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "79 Armor",
+            "+5 Stamina",
+            "+3 Spirit"
+          ],
+          "source": "Mr. Smite",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/2985"
+          ]
+        },
+        {
+          "id": "284715",
+          "name": "First Mate Band",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [
+            "+5 Stamina",
+            "+4 Strength"
+          ],
+          "source": "Mr. Smite",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/284715"
+          ]
+        },
+        {
+          "id": "5196",
+          "name": "Smite's Reaver",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 21,
+          "slot": "One-hand",
+          "type": "Axe",
+          "stats": [
+            "18–35 damage · 1.90s · 13.9 DPS",
+            "+3 Strength",
+            "+3 Spirit"
+          ],
+          "source": "Mr. Smite",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5196"
+          ]
+        },
+        {
+          "id": "5192",
+          "name": "Thief's Blade",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "One-hand",
+          "type": "Sword",
+          "stats": [
+            "17–32 damage · 1.70s · 14.4 DPS",
+            "+4 Agility",
+            "Equip: Increases the chance your Pick Pocket and Distract abilities are successful by 1%"
+          ],
+          "source": "Mr. Smite",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5192"
+          ]
+        },
+        {
+          "id": "7230",
+          "name": "Smite's Mighty Hammer",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Two-hand",
+          "type": "Two-hand mace",
+          "stats": [
+            "55–83 damage · 3.50s · 19.7 DPS",
+            "+11 Strength",
+            "+4 Agility"
+          ],
+          "source": "Mr. Smite",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/7230"
+          ]
+        },
+        {
+          "id": "5197",
+          "name": "Cookie's Tenderizer",
+          "quality": 3,
+          "requiredLevel": 16,
+          "itemLevel": 21,
+          "slot": "One-hand",
+          "type": "Mace",
+          "stats": [
+            "27–51 damage · 2.80s · 13.9 DPS",
+            "+4 Spirit",
+            "Chance on hit: Tenderize the target, increasing physical damage taken by 1 for 1 min."
+          ],
+          "source": "Cookie",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5197"
+          ]
+        },
+        {
+          "id": "5198",
+          "name": "Cookie's Stirring Rod",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "20–38 Arcane damage · 1.30s · 22.3 DPS",
+            "Equip: Increases your Cooking speed by 25%."
+          ],
+          "source": "Cookie",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5198"
+          ]
+        },
+        {
+          "id": "273298",
+          "name": "Lookie's Spyglass",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Trinket",
+          "type": "Accessory",
+          "stats": [
+            "+1 Spirit",
+            "Use: Allows you to look far into the distance."
+          ],
+          "source": "Cookie",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/273298"
+          ]
+        },
+        {
+          "id": "11982",
+          "name": "Viridian Band",
+          "quality": 2,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [],
+          "source": "Cookie",
+          "sourceOrder": 7,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/11982"
+          ]
+        },
+        {
+          "id": "6564",
+          "name": "Shimmering Cloak",
+          "quality": 2,
+          "requiredLevel": 16,
+          "itemLevel": 21,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "17 Armor"
+          ],
+          "source": "Edwin VanCleef",
+          "sourceOrder": 8,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/6564"
+          ]
+        },
+        {
+          "id": "10399",
+          "name": "Blackened Defias Armor",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "89 Armor",
+            "+10 Stamina",
+            "+3 Agility",
+            "+4 Strength"
+          ],
+          "source": "Edwin VanCleef",
+          "sourceOrder": 8,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/10399"
+          ]
+        },
+        {
+          "id": "5202",
+          "name": "Corsair's Overshirt",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "40 Armor",
+            "+8 Spirit",
+            "+5 Stamina",
+            "+11 Healing Power",
+            "+3 Spell Damage"
+          ],
+          "source": "Edwin VanCleef",
+          "sourceOrder": 8,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5202"
+          ]
+        },
+        {
+          "id": "5193",
+          "name": "Cape of the Brotherhood",
+          "quality": 3,
+          "requiredLevel": 19,
+          "itemLevel": 24,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "21 Armor",
+            "+5 Agility",
+            "+3 Stamina"
+          ],
+          "source": "Edwin VanCleef",
+          "sourceOrder": 8,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5193"
+          ]
+        },
+        {
+          "id": "5191",
+          "name": "Cruel Barb",
+          "quality": 3,
+          "requiredLevel": 19,
+          "itemLevel": 24,
+          "slot": "One-hand",
+          "type": "Sword",
+          "stats": [
+            "30–57 damage · 2.80s · 15.5 DPS",
+            "+12 Attack Power"
+          ],
+          "source": "Edwin VanCleef",
+          "sourceOrder": 8,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/5191"
+          ]
+        },
+        {
+          "id": "4701",
+          "name": "Inscribed Cloak",
+          "quality": 2,
+          "requiredLevel": 11,
+          "itemLevel": 16,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "15 Armor",
+            "+2 Stamina"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/4701"
+          ]
+        },
+        {
+          "id": "2973",
+          "name": "Hunting Tunic",
+          "quality": 2,
+          "requiredLevel": 12,
+          "itemLevel": 17,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "73 Armor",
+            "+4 Stamina",
+            "+2 Agility"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/2973"
+          ]
+        },
+        {
+          "id": "2983",
+          "name": "Seer's Boots",
+          "quality": 2,
+          "requiredLevel": 12,
+          "itemLevel": 17,
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "21 Armor",
+            "+1 Intellect",
+            "+3 Stamina"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/2983"
+          ]
+        },
+        {
+          "id": "6378",
+          "name": "Seer's Cape",
+          "quality": 2,
+          "requiredLevel": 12,
+          "itemLevel": 17,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "15 Armor",
+            "+2 Spirit",
+            "+2 Intellect"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/6378"
+          ]
+        },
+        {
+          "id": "6547",
+          "name": "Soldier's Gauntlets",
+          "quality": 2,
+          "requiredLevel": 12,
+          "itemLevel": 17,
+          "slot": "Hands",
+          "type": "Mail",
+          "stats": [
+            "99 Armor"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/6547"
+          ]
+        },
+        {
+          "id": "2987",
+          "name": "Inscribed Leather Boots",
+          "quality": 2,
+          "requiredLevel": 13,
+          "itemLevel": 18,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "51 Armor",
+            "+3 Stamina",
+            "+2 Agility"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/2987"
+          ]
+        },
+        {
+          "id": "2984",
+          "name": "Seer's Gloves",
+          "quality": 2,
+          "requiredLevel": 13,
+          "itemLevel": 18,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "20 Armor",
+            "+4 Spirit"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/2984"
+          ]
+        },
+        {
+          "id": "1930",
+          "name": "Stonemason Cloak",
+          "quality": 2,
+          "requiredLevel": 13,
+          "itemLevel": 18,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "16 Armor",
+            "+3 Stamina"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/1930"
+          ]
+        },
+        {
+          "id": "10400",
+          "name": "Blackened Defias Leggings",
+          "quality": 3,
+          "requiredLevel": 14,
+          "itemLevel": 19,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "73 Armor",
+            "+6 Strength",
+            "+6 Agility"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/10400"
+          ]
+        },
+        {
+          "id": "9784",
+          "name": "Raider's Boots",
+          "quality": 2,
+          "requiredLevel": 14,
+          "itemLevel": 19,
+          "slot": "Feet",
+          "type": "Mail",
+          "stats": [
+            "113 Armor"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/9784"
+          ]
+        },
+        {
+          "id": "9780",
+          "name": "Bandit Gloves",
+          "quality": 2,
+          "requiredLevel": 15,
+          "itemLevel": 20,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "48 Armor"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/9780"
+          ]
+        },
+        {
+          "id": "14173",
+          "name": "Buccaneer's Cord",
+          "quality": 2,
+          "requiredLevel": 15,
+          "itemLevel": 20,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "19 Armor"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/14173"
+          ]
+        },
+        {
+          "id": "15248",
+          "name": "Gleaming Claymore",
+          "quality": 2,
+          "requiredLevel": 15,
+          "itemLevel": 20,
+          "slot": "Two-hand",
+          "type": "Two-hand sword",
+          "stats": [
+            "30–46 damage · 2.90s · 13.1 DPS"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/15248"
+          ]
+        },
+        {
+          "id": "3184",
+          "name": "Hook Dagger",
+          "quality": 2,
+          "requiredLevel": 15,
+          "itemLevel": 20,
+          "slot": "One-hand",
+          "type": "Dagger",
+          "stats": [
+            "10–20 damage · 1.50s · 10.0 DPS"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/3184"
+          ]
+        },
+        {
+          "id": "12975",
+          "name": "Prospector Axe",
+          "quality": 3,
+          "requiredLevel": 15,
+          "itemLevel": 20,
+          "slot": "Two-hand",
+          "type": "Two-hand axe",
+          "stats": [
+            "33–51 damage · 2.40s · 17.5 DPS",
+            "+8 Stamina",
+            "+7 Strength"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/36-deadmines",
+            "https://foreverdb.net/item/12975"
+          ]
+        }
+      ]
+    },
+    "Wailing Caverns": {
+      "id": 43,
+      "source": "https://foreverdb.net/dungeon/43-wailing-caverns",
+      "items": [
+        {
+          "id": "10412",
+          "name": "Belt of the Fang",
+          "quality": 3,
+          "requiredLevel": 16,
+          "itemLevel": 21,
+          "slot": "Waist",
+          "type": "Leather",
+          "stats": [
+            "49 Armor",
+            "+5 Stamina",
+            "+3 Agility"
+          ],
+          "source": "Lady Anacondra",
+          "sourceOrder": 1,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/10412"
+          ]
+        },
+        {
+          "id": "5404",
+          "name": "Serpent's Shoulders",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Shoulders",
+          "type": "Leather",
+          "stats": [
+            "68 Armor",
+            "+7 Spirit",
+            "+5 Agility"
+          ],
+          "source": "Lady Anacondra",
+          "sourceOrder": 1,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/5404"
+          ]
+        },
+        {
+          "id": "6460",
+          "name": "Cobrahn's Grasp",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "107 Armor",
+            "+7 Strength",
+            "+3 Agility"
+          ],
+          "source": "Lord Cobrahn",
+          "sourceOrder": 2,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6460"
+          ]
+        },
+        {
+          "id": "10410",
+          "name": "Leggings of the Fang",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "78 Armor",
+            "+5 Strength",
+            "+4 Stamina",
+            "+9 Agility"
+          ],
+          "source": "Lord Cobrahn",
+          "sourceOrder": 2,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/10410"
+          ]
+        },
+        {
+          "id": "6465",
+          "name": "Robe of the Moccasin",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "40 Armor",
+            "+3 Strength",
+            "+10 Spirit",
+            "+9 Healing Power",
+            "+3 Spell Damage"
+          ],
+          "source": "Lord Cobrahn",
+          "sourceOrder": 2,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6465"
+          ]
+        },
+        {
+          "id": "6447",
+          "name": "Worn Turtle Shell Shield",
+          "quality": 3,
+          "requiredLevel": 16,
+          "itemLevel": 21,
+          "slot": "Off-hand",
+          "type": "Shield",
+          "stats": [
+            "530 Armor",
+            "40 Block",
+            "+2 Mana per 5 sec"
+          ],
+          "source": "Kresh",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6447"
+          ]
+        },
+        {
+          "id": "13245",
+          "name": "Kresh's Back",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Off-hand",
+          "type": "Shield",
+          "stats": [
+            "528 Armor",
+            "+5 Defense"
+          ],
+          "source": "Kresh",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/13245"
+          ]
+        },
+        {
+          "id": "6473",
+          "name": "Armor of the Fang",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "91 Armor",
+            "+3 Strength",
+            "+10 Spirit",
+            "+3 Intellect"
+          ],
+          "source": "Lord Pythas",
+          "sourceOrder": 4,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6473"
+          ]
+        },
+        {
+          "id": "6472",
+          "name": "Stinging Viper",
+          "quality": 3,
+          "requiredLevel": 19,
+          "itemLevel": 24,
+          "slot": "One-hand",
+          "type": "Mace",
+          "stats": [
+            "30–57 damage · 2.80s · 15.5 DPS",
+            "Chance on hit: Poisons target for 7 Nature damage every 3 sec for 12 sec."
+          ],
+          "source": "Lord Pythas",
+          "sourceOrder": 4,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6472"
+          ]
+        },
+        {
+          "id": "6448",
+          "name": "Tail Spike",
+          "quality": 3,
+          "requiredLevel": 16,
+          "itemLevel": 21,
+          "slot": "One-hand",
+          "type": "Dagger",
+          "stats": [
+            "17–33 damage · 1.80s · 13.9 DPS",
+            "+3 Agility",
+            "+3 Strength"
+          ],
+          "source": "Skum",
+          "sourceOrder": 5,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6448"
+          ]
+        },
+        {
+          "id": "6449",
+          "name": "Glowing Lizardscale Cloak",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "20 Armor",
+            "+6 Agility",
+            "+2 Nature Resistance"
+          ],
+          "source": "Skum",
+          "sourceOrder": 5,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6449"
+          ]
+        },
+        {
+          "id": "10411",
+          "name": "Footpads of the Fang",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "61 Armor",
+            "+6 Stamina",
+            "+6 Agility"
+          ],
+          "source": "Lord Serpentis",
+          "sourceOrder": 6,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/10411"
+          ]
+        },
+        {
+          "id": "6459",
+          "name": "Savage Trodders",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Feet",
+          "type": "Mail",
+          "stats": [
+            "134 Armor",
+            "+7 Stamina",
+            "+6 Health per 5 sec"
+          ],
+          "source": "Lord Serpentis",
+          "sourceOrder": 6,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6459"
+          ]
+        },
+        {
+          "id": "5970",
+          "name": "Serpent Gloves",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "25 Armor",
+            "+6 Agility",
+            "+7 Spell Power"
+          ],
+          "source": "Lord Serpentis",
+          "sourceOrder": 6,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/5970"
+          ]
+        },
+        {
+          "id": "6469",
+          "name": "Venomstrike",
+          "quality": 3,
+          "requiredLevel": 19,
+          "itemLevel": 24,
+          "slot": "Ranged",
+          "type": "Bow",
+          "stats": [
+            "20–38 damage · 2.40s · 12.1 DPS",
+            "Chance on hit: Venom Shot the target for 23 to 33 Nature damage."
+          ],
+          "source": "Lord Serpentis",
+          "sourceOrder": 6,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6469"
+          ]
+        },
+        {
+          "id": "6629",
+          "name": "Sporid Cape",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "20 Armor",
+            "+6 Stamina",
+            "Equip: When struck in combat, inflicts 1 Nature damage to the attacker."
+          ],
+          "source": "Verdan the Everliving",
+          "sourceOrder": 7,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6629"
+          ]
+        },
+        {
+          "id": "6631",
+          "name": "Living Root",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "45–69 damage · 2.90s · 19.7 DPS",
+            "+5 Spirit",
+            "+2 Stamina",
+            "+9 Nature Resistance"
+          ],
+          "source": "Verdan the Everliving",
+          "sourceOrder": 7,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6631"
+          ]
+        },
+        {
+          "id": "6630",
+          "name": "Seedcloud Buckler",
+          "quality": 3,
+          "requiredLevel": 19,
+          "itemLevel": 24,
+          "slot": "Off-hand",
+          "type": "Shield",
+          "stats": [
+            "547 Armor",
+            "+5 Intellect",
+            "+5 Spell Power"
+          ],
+          "source": "Verdan the Everliving",
+          "sourceOrder": 7,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6630"
+          ]
+        },
+        {
+          "id": "6627",
+          "name": "Mutant Scale Breastplate",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Chest",
+          "type": "Mail",
+          "stats": [
+            "194 Armor",
+            "+10 Strength",
+            "+4 Stamina"
+          ],
+          "source": "Mutanus the Devourer",
+          "sourceOrder": 8,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6627"
+          ]
+        },
+        {
+          "id": "6463",
+          "name": "Deep Fathom Ring",
+          "quality": 3,
+          "requiredLevel": 19,
+          "itemLevel": 24,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [
+            "+3 Stamina",
+            "+2 Spell Penetration"
+          ],
+          "source": "Mutanus the Devourer",
+          "sourceOrder": 8,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6463"
+          ]
+        },
+        {
+          "id": "6461",
+          "name": "Slime-encrusted Pads",
+          "quality": 3,
+          "requiredLevel": 20,
+          "itemLevel": 25,
+          "slot": "Shoulders",
+          "type": "Cloth",
+          "stats": [
+            "32 Armor",
+            "+10 Health per 5 sec",
+            "+3 Mana per 5 sec"
+          ],
+          "source": "Mutanus the Devourer",
+          "sourceOrder": 8,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6461"
+          ]
+        },
+        {
+          "id": "6632",
+          "name": "Feyscale Cloak",
+          "quality": 3,
+          "requiredLevel": 16,
+          "itemLevel": 21,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "19 Armor",
+            "+5 Stamina",
+            "+3 Spell Power"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/6632"
+          ]
+        },
+        {
+          "id": "5243",
+          "name": "Firebelcher",
+          "quality": 3,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "27–52 Fire damage · 1.70s · 23.2 DPS",
+            "Equip: Chance on hit to blast the target for 25 to 31 Fire damage."
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/43-wailing-caverns",
+            "https://foreverdb.net/item/5243"
+          ]
+        }
+      ]
+    },
+    "Blackfathom Deeps": {
+      "id": 48,
+      "source": "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+      "items": [
+        {
+          "id": "15311",
+          "name": "Feral Harness",
+          "quality": 2,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "81 Armor"
+          ],
+          "source": "Ghamoo-ra",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/15311"
+          ]
+        },
+        {
+          "id": "14165",
+          "name": "Pagan Britches",
+          "quality": 2,
+          "requiredLevel": 20,
+          "itemLevel": 25,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "34 Armor"
+          ],
+          "source": "Ghamoo-ra",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/14165"
+          ]
+        },
+        {
+          "id": "6908",
+          "name": "Ghamoo-ra's Bind",
+          "quality": 3,
+          "requiredLevel": 22,
+          "itemLevel": 27,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "25 Armor",
+            "+7 Stamina",
+            "+8 Spell Power"
+          ],
+          "source": "Ghamoo-ra",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/6908"
+          ]
+        },
+        {
+          "id": "273839",
+          "name": "Spiked Shell Band",
+          "quality": 3,
+          "requiredLevel": 22,
+          "itemLevel": 27,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [
+            "+5 Stamina",
+            "Equip: When struck in combat, inflicts 2 Nature damage to the attacker."
+          ],
+          "source": "Ghamoo-ra",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/273839"
+          ]
+        },
+        {
+          "id": "6907",
+          "name": "Tortoise Armor",
+          "quality": 3,
+          "requiredLevel": 22,
+          "itemLevel": 27,
+          "slot": "Chest",
+          "type": "Mail",
+          "stats": [
+            "248 Armor",
+            "40 Block",
+            "Equip: Spell Damage received is reduced by 5."
+          ],
+          "source": "Ghamoo-ra",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/6907"
+          ]
+        },
+        {
+          "id": "15333",
+          "name": "Wrangler's Cloak",
+          "quality": 2,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "18 Armor"
+          ],
+          "source": "Lady Sarevess",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/15333"
+          ]
+        },
+        {
+          "id": "3039",
+          "name": "Short Ash Bow",
+          "quality": 2,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Ranged",
+          "type": "Bow",
+          "stats": [
+            "12–23 damage · 1.90s · 9.2 DPS",
+            "+2 Spirit"
+          ],
+          "source": "Lady Sarevess",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/3039"
+          ]
+        },
+        {
+          "id": "14749",
+          "name": "Hulking Spaulders",
+          "quality": 2,
+          "requiredLevel": 21,
+          "itemLevel": 26,
+          "slot": "Shoulders",
+          "type": "Mail",
+          "stats": [
+            "139 Armor",
+            "+4 Strength",
+            "+2 Spirit"
+          ],
+          "source": "Lady Sarevess",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/14749"
+          ]
+        },
+        {
+          "id": "11121",
+          "name": "Darkwater Talwar",
+          "quality": 3,
+          "requiredLevel": 22,
+          "itemLevel": 27,
+          "slot": "Main hand",
+          "type": "Sword",
+          "stats": [
+            "26–49 damage · 2.20s · 17.0 DPS",
+            "Chance on hit: Sends a shadowy bolt at the enemy causing 28 Shadow damage."
+          ],
+          "source": "Lady Sarevess",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/11121"
+          ]
+        },
+        {
+          "id": "888",
+          "name": "Naga Battle Gloves",
+          "quality": 3,
+          "requiredLevel": 22,
+          "itemLevel": 27,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "61 Armor",
+            "+15 Healing Power",
+            "+4 Stamina",
+            "+4 Strength",
+            "+5 Spell Damage"
+          ],
+          "source": "Lady Sarevess",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/888"
+          ]
+        },
+        {
+          "id": "3078",
+          "name": "Naga Heartpiercer",
+          "quality": 3,
+          "requiredLevel": 22,
+          "itemLevel": 27,
+          "slot": "Ranged",
+          "type": "Bow",
+          "stats": [
+            "22–42 damage · 2.40s · 13.3 DPS",
+            "Chance on hit: Wounds the target for 42 damage. Naga are Stunned for 2 sec."
+          ],
+          "source": "Lady Sarevess",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/3078"
+          ]
+        },
+        {
+          "id": "2879",
+          "name": "Antipodean Rod",
+          "quality": 3,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Held in off-hand",
+          "type": "Accessory",
+          "stats": [
+            "+6 Fire Damage Done",
+            "+6 Frost Damage Done"
+          ],
+          "source": "Geilhast",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/2879"
+          ]
+        },
+        {
+          "id": "9781",
+          "name": "Bandit Pants",
+          "quality": 2,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "71 Armor"
+          ],
+          "source": "Geilhast",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/9781"
+          ]
+        },
+        {
+          "id": "14376",
+          "name": "Sanguine Cape",
+          "quality": 2,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "18 Armor",
+            "+4 Intellect"
+          ],
+          "source": "Geilhast",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/14376"
+          ]
+        },
+        {
+          "id": "9771",
+          "name": "Greenweave Gloves",
+          "quality": 2,
+          "requiredLevel": 20,
+          "itemLevel": 25,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "24 Armor"
+          ],
+          "source": "Geilhast",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/9771"
+          ]
+        },
+        {
+          "id": "15259",
+          "name": "Hefty Battlehammer",
+          "quality": 2,
+          "requiredLevel": 20,
+          "itemLevel": 25,
+          "slot": "Two-hand",
+          "type": "Two-hand mace",
+          "stats": [
+            "43–65 damage · 3.20s · 16.9 DPS"
+          ],
+          "source": "Geilhast",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/15259"
+          ]
+        },
+        {
+          "id": "6905",
+          "name": "Reef Axe",
+          "quality": 3,
+          "requiredLevel": 22,
+          "itemLevel": 27,
+          "slot": "Two-hand",
+          "type": "Two-hand axe",
+          "stats": [
+            "59–89 damage · 3.30s · 22.4 DPS",
+            "+8 Strength",
+            "+24 Healing Power",
+            "+8 Spell Damage"
+          ],
+          "source": "Geilhast",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/6905"
+          ]
+        },
+        {
+          "id": "6906",
+          "name": "Algae Fists",
+          "quality": 3,
+          "requiredLevel": 23,
+          "itemLevel": 28,
+          "slot": "Hands",
+          "type": "Mail",
+          "stats": [
+            "132 Armor",
+            "+8 Strength",
+            "+5 Stamina",
+            "+5 Nature Resistance"
+          ],
+          "source": "Geilhast",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/6906"
+          ]
+        },
+        {
+          "id": "273840",
+          "name": "Cursed Murloc Eye",
+          "quality": 3,
+          "requiredLevel": 24,
+          "itemLevel": 29,
+          "slot": "Trinket",
+          "type": "Accessory",
+          "stats": [
+            "Equip: Spells and attacks deal 2 Shadow damage. Deals 4 times as much damage to Murlocs."
+          ],
+          "source": "Geilhast",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/273840"
+          ]
+        },
+        {
+          "id": "273843",
+          "name": "Fallenroot Longbow",
+          "quality": 3,
+          "requiredLevel": 23,
+          "itemLevel": 28,
+          "slot": "Ranged",
+          "type": "Bow",
+          "stats": [
+            "21–40 damage · 2.20s · 13.9 DPS",
+            "+2 Agility",
+            "+4 Stamina"
+          ],
+          "source": "Lorgus Jett",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/273843"
+          ]
+        },
+        {
+          "id": "273841",
+          "name": "Twilight Maul",
+          "quality": 3,
+          "requiredLevel": 23,
+          "itemLevel": 28,
+          "slot": "Two-hand",
+          "type": "Two-hand mace",
+          "stats": [
+            "60–91 damage · 3.30s · 22.9 DPS",
+            "+12 Spell Power",
+            "Chance on hit: Blasts a target for 70 Nature damage."
+          ],
+          "source": "Lorgus Jett",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/273841"
+          ]
+        },
+        {
+          "id": "14373",
+          "name": "Sanguine Belt",
+          "quality": 2,
+          "requiredLevel": 20,
+          "itemLevel": 25,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "22 Armor",
+            "+5 Intellect",
+            "+3 Stamina"
+          ],
+          "source": "Old Serra'kis",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/14373"
+          ]
+        },
+        {
+          "id": "6902",
+          "name": "Bands of Serra'kis",
+          "quality": 3,
+          "requiredLevel": 22,
+          "itemLevel": 27,
+          "slot": "Wrists",
+          "type": "Leather",
+          "stats": [
+            "43 Armor",
+            "+6 Strength",
+            "+3 Stamina"
+          ],
+          "source": "Old Serra'kis",
+          "sourceOrder": 5,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/6902"
+          ]
+        },
+        {
+          "id": "6904",
+          "name": "Bite of Serra'kis",
+          "quality": 3,
+          "requiredLevel": 23,
+          "itemLevel": 28,
+          "slot": "One-hand",
+          "type": "Dagger",
+          "stats": [
+            "16–30 damage · 1.30s · 17.7 DPS",
+            "+2 Nature Resistance",
+            "Chance on hit: Poisons target for 14 Nature damage every 3 sec for 9 sec."
+          ],
+          "source": "Old Serra'kis",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/6904"
+          ]
+        },
+        {
+          "id": "6901",
+          "name": "Glowing Thresher Cape",
+          "quality": 3,
+          "requiredLevel": 24,
+          "itemLevel": 29,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "23 Armor",
+            "+8 Spirit",
+            "+7 Healing Power",
+            "+3 Spell Damage"
+          ],
+          "source": "Old Serra'kis",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/6901"
+          ]
+        },
+        {
+          "id": "252513",
+          "name": "Trapper's Leather Helm",
+          "quality": 3,
+          "requiredLevel": 25,
+          "itemLevel": 30,
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "84 Armor",
+            "+10 Intellect",
+            "+13 Stamina"
+          ],
+          "source": "Old Serra'kis",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/252513"
+          ]
+        },
+        {
+          "id": "10287",
+          "name": "Greenweave Mantle",
+          "quality": 2,
+          "requiredLevel": 21,
+          "itemLevel": 26,
+          "slot": "Shoulders",
+          "type": "Cloth",
+          "stats": [
+            "30 Armor"
+          ],
+          "source": "Twilight Lord Kelris",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/10287"
+          ]
+        },
+        {
+          "id": "2072",
+          "name": "Dwarven Magestaff",
+          "quality": 2,
+          "requiredLevel": 22,
+          "itemLevel": 27,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "41–62 damage · 2.80s · 18.4 DPS"
+          ],
+          "source": "Twilight Lord Kelris",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/2072"
+          ]
+        },
+        {
+          "id": "6903",
+          "name": "Gaze Dreamer Pants",
+          "quality": 3,
+          "requiredLevel": 23,
+          "itemLevel": 28,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "40 Armor",
+            "+12 Spell Power",
+            "+9 Spirit"
+          ],
+          "source": "Twilight Lord Kelris",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/6903"
+          ]
+        },
+        {
+          "id": "1155",
+          "name": "Rod of the Sleepwalker",
+          "quality": 3,
+          "requiredLevel": 24,
+          "itemLevel": 29,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "53–80 damage · 2.80s · 23.8 DPS",
+            "+11 Spirit",
+            "Equip: Reduces the hit chance of Sleep effects against you by 5%."
+          ],
+          "source": "Twilight Lord Kelris",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/1155"
+          ]
+        },
+        {
+          "id": "273846",
+          "name": "Twilight Lord Girdle",
+          "quality": 3,
+          "requiredLevel": 25,
+          "itemLevel": 30,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "123 Armor",
+            "+8 Strength",
+            "+5 Shadow Resistance",
+            "+6 Block Value"
+          ],
+          "source": "Twilight Lord Kelris",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/273846"
+          ]
+        },
+        {
+          "id": "6910",
+          "name": "Leech Pants",
+          "quality": 3,
+          "requiredLevel": 24,
+          "itemLevel": 29,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "41 Armor",
+            "+5 Spell Power",
+            "+5 Stamina",
+            "+5 Mana per 5 sec",
+            "+5 Health per 5 sec"
+          ],
+          "source": "Aku'mai",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/6910"
+          ]
+        },
+        {
+          "id": "6911",
+          "name": "Moss Cinch",
+          "quality": 3,
+          "requiredLevel": 25,
+          "itemLevel": 30,
+          "slot": "Waist",
+          "type": "Leather",
+          "stats": [
+            "58 Armor",
+            "+12 Spell Damage",
+            "+5 Stamina"
+          ],
+          "source": "Aku'mai",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/6911"
+          ]
+        },
+        {
+          "id": "6909",
+          "name": "Strike of the Hydra",
+          "quality": 3,
+          "requiredLevel": 26,
+          "itemLevel": 31,
+          "slot": "Two-hand",
+          "type": "Two-hand sword",
+          "stats": [
+            "67–102 damage · 3.30s · 25.6 DPS",
+            "Chance on hit: Inflict 42 Fire and 14 Frost damage, slow the target by 50% for 5 sec, reduce armor by 50, and inflict 7 Nature damage every 3 sec for 12 sec."
+          ],
+          "source": "Aku'mai",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/6909"
+          ]
+        },
+        {
+          "id": "14746",
+          "name": "Hulking Belt",
+          "quality": 2,
+          "requiredLevel": 17,
+          "itemLevel": 22,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "98 Armor",
+            "+5 Strength"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/14746"
+          ]
+        },
+        {
+          "id": "14162",
+          "name": "Pagan Mitts",
+          "quality": 2,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "23 Armor"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/14162"
+          ]
+        },
+        {
+          "id": "14562",
+          "name": "Prospector's Chestpiece",
+          "quality": 2,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "82 Armor",
+            "+6 Agility",
+            "+3 Stamina",
+            "+2 Strength"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/14562"
+          ]
+        },
+        {
+          "id": "14179",
+          "name": "Watcher's Cape",
+          "quality": 2,
+          "requiredLevel": 19,
+          "itemLevel": 24,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "19 Armor"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/14179"
+          ]
+        },
+        {
+          "id": "15122",
+          "name": "Robust Bracers",
+          "quality": 2,
+          "requiredLevel": 20,
+          "itemLevel": 25,
+          "slot": "Wrists",
+          "type": "Leather",
+          "stats": [
+            "37 Armor"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/15122"
+          ]
+        },
+        {
+          "id": "3415",
+          "name": "Staff of the Friar",
+          "quality": 3,
+          "requiredLevel": 21,
+          "itemLevel": 26,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "45–68 damage · 2.60s · 21.7 DPS",
+            "+12 Spirit",
+            "+4 Stamina",
+            "+3 Intellect"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/3415"
+          ]
+        },
+        {
+          "id": "14187",
+          "name": "Raincaller Cuffs",
+          "quality": 2,
+          "requiredLevel": 23,
+          "itemLevel": 28,
+          "slot": "Wrists",
+          "type": "Cloth",
+          "stats": [
+            "18 Armor"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/14187"
+          ]
+        },
+        {
+          "id": "14182",
+          "name": "Watcher's Mantle",
+          "quality": 2,
+          "requiredLevel": 23,
+          "itemLevel": 28,
+          "slot": "Shoulders",
+          "type": "Cloth",
+          "stats": [
+            "31 Armor"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/14182"
+          ]
+        },
+        {
+          "id": "1454",
+          "name": "Axe of the Enforcer",
+          "quality": 3,
+          "requiredLevel": 24,
+          "itemLevel": 29,
+          "slot": "One-hand",
+          "type": "Axe",
+          "stats": [
+            "33–62 damage · 2.60s · 18.3 DPS",
+            "+5 Strength",
+            "+4 Stamina"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/1454"
+          ]
+        },
+        {
+          "id": "14186",
+          "name": "Raincaller Mantle",
+          "quality": 2,
+          "requiredLevel": 24,
+          "itemLevel": 29,
+          "slot": "Shoulders",
+          "type": "Cloth",
+          "stats": [
+            "32 Armor"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/14186"
+          ]
+        },
+        {
+          "id": "15126",
+          "name": "Robust Leggings",
+          "quality": 2,
+          "requiredLevel": 24,
+          "itemLevel": 29,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "80 Armor"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 999,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/48-blackfathom-deeps",
+            "https://foreverdb.net/item/15126"
+          ]
+        }
+      ]
+    }
+  }
+}

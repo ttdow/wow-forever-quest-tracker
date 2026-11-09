@@ -1,7 +1,7 @@
 (async () => {
 'use strict';
 const $ = selector => document.querySelector(selector);
-const state = { quests: [], forwardLinks: new Map(), completed: new Set(), expanded: new Set(), zone: 'Teldrassil', storageReady: false, loaded: false };
+const state = { quests: [], forwardLinks: new Map(), completed: new Set(), expanded: new Set(), zone: 'Teldrassil', view: 'quests', storageReady: false, loaded: false };
 const rows = $('#quests');
 let saveTimer;
 
@@ -22,17 +22,26 @@ function questHash(quest) {
   return `#${new URLSearchParams({ zone: quest.zone, id: quest.id })}`;
 }
 
+function isDungeon(zone) {
+  return globalThis.DungeonDrops?.hasZone(zone) || false;
+}
+
+function dropsHash(zone) {
+  return `#${new URLSearchParams({ zone, view: 'drops' })}`;
+}
+
 function revealQuest(id, zone, updateHistory = true) {
   const quest = state.quests.find(item => item.id === id && item.zone === zone);
   if (!quest) return false;
   state.zone = quest.zone;
+  state.view = 'quests';
   state.expanded.add(`${quest.zone}:${quest.id}`);
   $('#search').value = '';
   $('#status').value = 'all';
   if (updateHistory && location.hash !== questHash(quest)) {
-    history.pushState({ zone: quest.zone }, '', questHash(quest));
+    history.pushState({ zone: quest.zone, view: 'quests' }, '', questHash(quest));
   } else {
-    history.replaceState({ zone: quest.zone }, '', location.href);
+    history.replaceState({ zone: quest.zone, view: 'quests' }, '', location.href);
   }
   render();
   const row = document.getElementById(questElementID(quest));
@@ -41,8 +50,15 @@ function revealQuest(id, zone, updateHistory = true) {
   return true;
 }
 
-function revealHashQuest() {
+function revealHashRoute() {
   const params = new URLSearchParams(location.hash.slice(1));
+  if (params.get('view') === 'drops' && isDungeon(params.get('zone'))) {
+    state.zone = params.get('zone');
+    state.view = 'drops';
+    history.replaceState({ zone: state.zone, view: 'drops' }, '', location.href);
+    render();
+    return true;
+  }
   return revealQuest(params.get('id'), params.get('zone'), false);
 }
 
@@ -131,6 +147,20 @@ function render() {
     button.setAttribute('aria-pressed', String(button.dataset.zone === state.zone));
     button.querySelector('span').textContent = `${quests.filter(quest => state.completed.has(quest.id)).length}/${quests.length}`;
   });
+
+  const dungeon = isDungeon(state.zone);
+  if (!dungeon) state.view = 'quests';
+  $('#views').hidden = !dungeon;
+  document.querySelectorAll('[data-view]').forEach(button => {
+    button.setAttribute('aria-pressed', String(button.dataset.view === state.view));
+  });
+  $('#quest-panel').hidden = state.view === 'drops';
+  $('.progress-block').hidden = state.view === 'drops';
+  if (state.view === 'drops') {
+    globalThis.DungeonDrops.show(state.zone);
+    return;
+  }
+  globalThis.DungeonDrops?.hide();
 
   const search = $('#search').value.trim().toLocaleLowerCase();
   const status = $('#status').value;
@@ -229,9 +259,17 @@ $('#zones').addEventListener('click', event => {
   const button = event.target.closest('button[data-zone]');
   if (button) {
     state.zone = button.dataset.zone;
-    history.pushState({ zone: state.zone }, '', location.pathname + location.search);
+    if (!isDungeon(state.zone)) state.view = 'quests';
+    history.pushState({ zone: state.zone, view: state.view }, '', state.view === 'drops' ? dropsHash(state.zone) : location.pathname + location.search);
     render();
   }
+});
+$('#views').addEventListener('click', event => {
+  const button = event.target.closest('button[data-view]');
+  if (!button || !isDungeon(state.zone) || !['quests', 'drops'].includes(button.dataset.view)) return;
+  state.view = button.dataset.view;
+  history.pushState({ zone: state.zone, view: state.view }, '', state.view === 'drops' ? dropsHash(state.zone) : location.pathname + location.search);
+  render();
 });
 $('#search').addEventListener('input', render);
 $('#status').addEventListener('change', render);
@@ -262,9 +300,10 @@ try {
     $('#error').textContent = 'Could not read saved progress. Your saved data has not been changed. Allow browser storage for this site and reload.';
     $('#error').hidden = false;
   }
-  if (!revealHashQuest()) {
+  if (!revealHashRoute()) {
     if (state.quests.some(quest => quest.zone === history.state?.zone)) state.zone = history.state.zone;
-    history.replaceState({ zone: state.zone }, '', location.href);
+    state.view = history.state?.view === 'drops' && isDungeon(state.zone) ? 'drops' : 'quests';
+    history.replaceState({ zone: state.zone, view: state.view }, '', location.href);
     render();
   }
 } catch {
@@ -296,11 +335,12 @@ window.addEventListener('storage', event => {
 });
 
 window.addEventListener('hashchange', () => {
-  if (state.loaded) revealHashQuest();
+  if (state.loaded) revealHashRoute();
 });
 window.addEventListener('popstate', () => {
-  if (!state.loaded || revealHashQuest()) return;
+  if (!state.loaded || revealHashRoute()) return;
   if (state.quests.some(quest => quest.zone === history.state?.zone)) state.zone = history.state.zone;
+  state.view = history.state?.view === 'drops' && isDungeon(state.zone) ? 'drops' : 'quests';
   render();
 });
 })();

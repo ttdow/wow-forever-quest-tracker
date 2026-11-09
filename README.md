@@ -10,6 +10,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
 - Filter completed / not completed quests, or sort by level, name, or area.
+- In Deadmines, Wailing Caverns, or Blackfathom Deeps, switch between **Quests** and **Drops**. Drops have item names, required levels, base stats/effects, and sources, with search, source filtering, and an optional Rogue filter.
 
 Progress saves automatically in this browser's local storage. It survives closing the page and restarting the browser, but does not sync across browsers or devices. Clearing site data removes progress. Private browsing saves last only for that private session. Each quest is tracked by its ID, including shared IDs across zones.
 
@@ -17,7 +18,7 @@ Progress saves automatically in this browser's local storage. It survives closin
 
 Use a separate repository for this tracker; existing Pages websites are unaffected.
 
-1. Upload `index.html`, `style.css`, `app.js`, `progress.js`, `.nojekyll`, and the `data/` folder to the repository root.
+1. Upload `index.html`, `style.css`, `app.js`, `progress.js`, `drops.js`, `.nojekyll`, and the `data/` folder to the repository root.
 2. In **Settings → Pages**, choose **Deploy from a branch**.
 3. Select **main** and **/ (root)**, then save.
 4. Open the website URL shown by GitHub Pages after deployment completes.
@@ -57,3 +58,13 @@ Missing coordinates appear as a dash. Turn-in qualifiers, cross-zone pickup area
 Blackfathom Deeps and Stonetalon Mountains were researched on November 8, 2026 using [ForeverDB's Blackfathom Deeps guide](https://foreverdb.net/dungeon/48-blackfathom-deeps), [Stonetalon Mountains quest list](https://foreverdb.net/quests/stonetalon-mountains), and the individual quest guides linked in the JSON. Wailing Caverns was researched on November 9, 2026 using [ForeverDB's Wailing Caverns guide](https://foreverdb.net/dungeon/43-wailing-caverns) and individual quest/item-source records. [Research notes](data/research.md) describe eligibility checks, cross-zone inclusions, and evidence limits.
 
 The site must be served over HTTP or HTTPS so the browser can load the JSON file. Opening `index.html` directly from disk is not supported.
+
+## Dungeon drops
+
+`data/drops.json` contains 133 uncommon-or-better equipment entries: 65 for Deadmines, 23 for Wailing Caverns, and 45 for Blackfathom Deeps. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats.
+
+Drop-source evidence and item stats are separate. "Seen in Forever" means players recorded that drop source; "Classic ref." means the source is still a Classic reference. Stats/effects come from the current Forever client. Random enchantment variants are not enumerated. Speculative client-only associations, poor/common random equipment, non-equipment, and quest rewards are excluded. "Dungeon drop (source unspecified)" means the item was associated with the dungeon without a confirmed individual boss source.
+
+Drops load separately when requested; a failed drop-data request does not block quests. The drop view, filters, and item links do not write to quest completion storage. Direct view links use a fragment such as `#zone=Deadmines&view=drops`.
+
+Research sources and limits are documented in [the research notes](data/research.md). The JSON remains the maintained data source; no fetch/conversion tooling or Node runtime is needed to host the app.

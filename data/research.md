@@ -53,3 +53,17 @@ This distinction also applies to the Forever Deadmines explosives chain: its cur
 Forward navigation uses the same researched relationships in reverse. A prerequisite displays the tracked quests it unlocks, while a sequence step displays the tracked quests later in its chain. These are calculated from `prerequisites` and `previousQuests`, so edits to the authoritative relationships update both directions automatically. Repeated copies of a quest ID do not produce duplicate forward links.
 
 The Zoram Strand was removed from the Stonetalon list because its pickup and objectives are in Ashenvale. Pridewings of Stonetalon links to the existing Ashenvale entry instead; its completion ID is unchanged. The Bounty of Teldrassil's prerequisite Nessa Shadowsong (#6344) and Tyrande and Remulos' prerequisite Eranikus, Tyrant of the Dream (#8733) are outside the tracked lists and link to their external guides. The Absent Minded Prospector (#729) also links externally to Trouble In Darkshore? (#730) as an earlier chain step, not a mandatory prerequisite.
+
+## Dungeon equipment drops
+
+Researched November 9, 2026 from ForeverDB's [Deadmines](https://foreverdb.net/dungeon/36-deadmines), [Wailing Caverns](https://foreverdb.net/dungeon/43-wailing-caverns), and [Blackfathom Deeps](https://foreverdb.net/dungeon/48-blackfathom-deeps) dungeon records. Current item stats/effects, item types, stat names, and Rogue proficiencies come from the site's public Forever-client data (build 1.60.1.70862). Each item record includes source links.
+
+- Deadmines: 65 equipment entries; 59 observed drop sources and 6 Classic references.
+- Wailing Caverns: 23 equipment entries; all 23 drop sources are currently Classic references.
+- Blackfathom Deeps: 45 equipment entries; 44 observed drop sources and 1 Classic reference.
+
+Only uncommon-or-better equipment explicitly present in a dungeon's loot list is included. The dungeon's broader item dictionary also contains quest rewards and other items, which are not treated as drops. Skum's Bucket (#273137) and Treacherous Treads (#273842) have only speculative client associations in the current source and are excluded. Poor/common random equipment, recipes, materials, consumables, and quest items are outside this equipment view.
+
+Drop evidence is preserved independently of client stat evidence. In particular, Wailing Caverns displays its current Forever item stats while clearly marking the drop sources as Classic references. Sample drop percentages are not presented as established probabilities. Generic items with no boss association are labeled "Dungeon drop (source unspecified)" rather than assigned to a guessed boss or trash creature.
+
+The Rogue filter checks the client proficiency table for class ID 4, including one-handed axes as well as cloth, leather, appropriate weapons, and unrestricted accessories. Explicit item class/race restrictions are respected. "Rogue-usable" does not imply that caster stats are recommended. Damage/DPS are derived from client damage ranges and weapon speeds; effect text uses the current item spell descriptions. Classic comparison fields are not substituted for current stats, and random enchantment variants are not enumerated.
