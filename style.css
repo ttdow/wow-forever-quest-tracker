@@ -65,12 +65,24 @@ tr.completed { background: #1b261e; }
 .quest-reference-group a:hover { color: #c4efd0; }
 .panel-footer { display: flex; justify-content: space-between; gap: 12px; padding: 13px 20px; border-top: 1px solid #344237; font-size: 11px; color: #a3b3a5; }
 .panel-footer a { color: #a3b3a5; text-underline-offset: 3px; }
-.col-drop-item { width: 22%; }.col-drop-type { width: 15%; }.col-drop-level { width: 80px; }.col-drop-stats { width: auto; }.col-drop-source { width: 17%; }.col-drop-evidence { width: 116px; }
+.drop-cards { display: grid; gap: 12px; padding: 16px; background: #101512; }
+.drop-cards:empty { padding: 0; }
+.boss-card { border: 1px solid #344237; border-radius: 7px; overflow: hidden; background: #171e19; }
+.boss-card > summary { display: flex; align-items: center; gap: 10px; padding: 14px 16px; cursor: pointer; background: #1e2821; list-style: none; }
+.boss-card > summary::-webkit-details-marker { display: none; }
+.boss-card > summary::before { content: '›'; display: block; color: #8fc69b; font-size: 20px; line-height: 20px; }
+.boss-card[open] > summary::before { transform: rotate(90deg); }
+.boss-card[open] > summary { border-bottom: 1px solid #344237; }
+.boss-card:not([open]) > .boss-loot { display: none; }
+.boss-card > summary:focus-visible { outline-offset: -3px; }
+.boss-name { flex: 1; font-size: 13px; font-weight: 600; }
+.boss-item-count { color: #a3b3a5; font-size: 11px; white-space: nowrap; }
+.col-drop-item { width: 25%; }.col-drop-type { width: 17%; }.col-drop-level { width: 80px; }.col-drop-stats { width: auto; }.col-drop-evidence { width: 116px; }
 .drop-row td { white-space: normal; vertical-align: top; line-height: 1.6; padding: 14px 12px; overflow-wrap: anywhere; }
 .drop-name { color: #dce6dd; font-size: 13px; font-weight: 600; text-decoration: none; }
 .drop-name:hover { text-decoration: underline; text-underline-offset: 3px; }
 .drop-name[data-quality="2"] { color: #91ce86; }.drop-name[data-quality="3"] { color: #83baff; }.drop-name[data-quality="4"] { color: #ca9fff; }
-.drop-type, .drop-level, .drop-source { color: #bdcbbf; }
+.drop-type, .drop-level { color: #bdcbbf; }
 .drop-stats ul { padding: 0; margin: 0; list-style: none; }
 .drop-stats li + li { margin-top: 2px; }
 .drop-evidence { font-size: 11px; }.drop-evidence.seen { color: #8fc69b; }.drop-evidence.classic { color: #d9bc7f; }
@@ -95,6 +107,8 @@ tr.completed { background: #1b261e; }
   tr.quest-references > td { display: block; padding: 0; }
   tr.drop-row { padding: 14px 16px; gap: 10px 16px; }
   .drop-row td { padding: 0; }
-  .drop-item, .drop-stats, .drop-source { grid-column: 1 / -1; }
+  .drop-cards { padding: 12px; }
+  .boss-card > summary { padding: 12px; }
+  .drop-item, .drop-stats, .drop-evidence { grid-column: 1 / -1; }
   .panel-footer { padding: 12px 14px; font-size: 10px; }
 }

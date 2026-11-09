@@ -10,7 +10,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
 - Filter completed / not completed quests, or sort by level, name, or area.
-- In Deadmines, Wailing Caverns, or Blackfathom Deeps, switch between **Quests** and **Drops**. Drops have item names, required levels, base stats/effects, and sources, with search, source filtering, and an optional Rogue filter.
+- In Deadmines, Wailing Caverns, or Blackfathom Deeps, switch between **Quests** and **Drops**. Each boss has a card with an expandable loot table. Drops have item names, required levels, base stats/effects, and source evidence, with search, source filtering, and an optional Rogue filter.
 
 Progress saves automatically in this browser's local storage. It survives closing the page and restarting the browser, but does not sync across browsers or devices. Clearing site data removes progress. Private browsing saves last only for that private session. Each quest is tracked by its ID, including shared IDs across zones.
 
@@ -62,6 +62,8 @@ The site must be served over HTTP or HTTPS so the browser can load the JSON file
 ## Dungeon drops
 
 `data/drops.json` contains 133 uncommon-or-better equipment entries: 65 for Deadmines, 23 for Wailing Caverns, and 45 for Blackfathom Deeps. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats.
+
+Boss cards start collapsed and show their matching item counts. Multiple cards can be expanded at once. Open cards are remembered for each dungeon during the current page session. Searching or choosing a specific source opens matching cards. Equipment without a confirmed boss source is grouped in a separate "Dungeon drop (source unspecified)" card.
 
 Drop-source evidence and item stats are separate. "Seen in Forever" means players recorded that drop source; "Classic ref." means the source is still a Classic reference. Stats/effects come from the current Forever client. Random enchantment variants are not enumerated. Speculative client-only associations, poor/common random equipment, non-equipment, and quest rewards are excluded. "Dungeon drop (source unspecified)" means the item was associated with the dungeon without a confirmed individual boss source.
 

@@ -3,7 +3,7 @@
 const $ = selector => document.querySelector(selector);
 const instances = new Set(['Deadmines', 'Wailing Caverns', 'Blackfathom Deeps']);
 const panel = $('#drops-panel');
-const state = { zone: '', data: null, pending: null };
+const state = { zone: '', data: null, pending: null, openCards: new Set() };
 
 async function load() {
   if (state.data) return state.data;
@@ -38,17 +38,81 @@ function cell(text, className, label) {
   return element;
 }
 
+function rememberCards() {
+  for (const card of $('#drops').querySelectorAll('.boss-card')) {
+    if (card.open) state.openCards.add(card.dataset.key);
+    else state.openCards.delete(card.dataset.key);
+  }
+}
+
 function render() {
   const instance = state.data?.[state.zone];
   if (!instance) return;
+  rememberCards();
   const search = $('#drop-search').value.trim().toLocaleLowerCase();
   const source = $('#drop-source').value;
   const rogue = $('#drop-class').value === 'rogue';
   const visible = instance.items.filter(item =>
     (source === 'all' || item.source === source) && (!rogue || item.rogueUsable) &&
     (!search || [item.id, item.name, item.slot, item.type, item.requiredLevel, item.source, ...item.stats].join(' ').toLocaleLowerCase().includes(search)));
-  const fragment = document.createDocumentFragment();
+  const groups = new Map();
   for (const item of visible) {
+    if (!groups.has(item.source)) groups.set(item.source, []);
+    groups.get(item.source).push(item);
+  }
+  const fragment = document.createDocumentFragment();
+  for (const [boss, items] of groups) {
+    const card = document.createElement('details');
+    card.className = 'boss-card';
+    card.dataset.source = boss;
+    card.dataset.key = JSON.stringify([state.zone, boss]);
+    card.open = state.openCards.has(card.dataset.key) || Boolean(search) || source !== 'all';
+    const summary = document.createElement('summary');
+    const heading = document.createElement('span');
+    heading.className = 'boss-name';
+    heading.textContent = boss;
+    const count = document.createElement('span');
+    count.className = 'boss-item-count';
+    count.textContent = `${items.length} ${items.length === 1 ? 'item' : 'items'}`;
+    summary.append(heading, count);
+    const wrapper = document.createElement('div');
+    wrapper.className = 'boss-loot table-wrap';
+    const table = document.createElement('table');
+    table.className = 'drop-table';
+    table.setAttribute('aria-label', `${boss} loot`);
+    const columns = document.createElement('colgroup');
+    for (const name of ['item', 'type', 'level', 'stats', 'evidence']) {
+      const column = document.createElement('col');
+      column.className = `col-drop-${name}`;
+      columns.append(column);
+    }
+    const head = document.createElement('thead');
+    const titles = document.createElement('tr');
+    for (const label of ['Item', 'Slot / type', 'Req. level', 'Base stats / effects', 'Drop evidence']) {
+      const title = document.createElement('th');
+      title.scope = 'col'; title.textContent = label; titles.append(title);
+    }
+    head.append(titles);
+    const body = document.createElement('tbody');
+    for (const item of items) body.append(itemRow(item));
+    table.append(columns, head, body);
+    wrapper.append(table);
+    card.append(summary, wrapper);
+    card.addEventListener('toggle', () => {
+      if (!card.isConnected) return;
+      if (card.open) state.openCards.add(card.dataset.key);
+      else state.openCards.delete(card.dataset.key);
+    });
+    fragment.append(card);
+  }
+  $('#drops').replaceChildren(fragment);
+  $('#drops-empty').hidden = visible.length > 0;
+  $('#drop-result-count').textContent = `${visible.length} of ${instance.items.length} items`;
+  $('#drop-reference').href = instance.source;
+  $('#drop-reference').hidden = false;
+}
+
+function itemRow(item) {
     const row = document.createElement('tr');
     row.className = 'drop-row';
     row.dataset.itemId = item.id;
@@ -78,18 +142,13 @@ function render() {
     evidence.title = item.dropEvidence === 'seen'
       ? 'This drop source was recorded by players in WoW: Forever.'
       : 'Drop source from Classic; not yet recorded in WoW: Forever. Stats use the Forever client.';
-    row.append(name, cell(`${item.slot} · ${item.type}`, 'drop-type', 'Slot / type'), cell(String(item.requiredLevel), 'drop-level', 'Required level'), stats, cell(item.source, 'drop-source', 'Source'), evidence);
-    fragment.append(row);
-  }
-  $('#drops').replaceChildren(fragment);
-  $('#drops-empty').hidden = visible.length > 0;
-  $('#drop-result-count').textContent = `${visible.length} of ${instance.items.length} items`;
-  $('#drop-reference').href = instance.source;
-  $('#drop-reference').hidden = false;
+    row.append(name, cell(`${item.slot} · ${item.type}`, 'drop-type', 'Slot / type'), cell(String(item.requiredLevel), 'drop-level', 'Required level'), stats, evidence);
+    return row;
 }
 
 async function show(zone) {
   if (!instances.has(zone)) return;
+  rememberCards();
   if (zone !== state.zone) $('#drop-source').value = 'all';
   state.zone = zone;
   panel.hidden = false;
