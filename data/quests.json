@@ -1794,19 +1794,6 @@
     "notes": "Alternative to Escape Through Force"
   },
   {
-    "id": "1133",
-    "zone": "Darkshore",
-    "level": 20,
-    "name": "Journey to Astranaar",
-    "stage": "Cross-zone quest",
-    "giver": "Fiora Longears",
-    "coordinates": "66.4, 45.2",
-    "area": "Dustwallow Marsh",
-    "objective": "Speak with Shindrell Swiftfire in Astranaar",
-    "areaConfidence": "High",
-    "notes": "ForeverDB records pickup in Dustwallow Marsh, not Auberdine; confirmed by Forever players"
-  },
-  {
     "id": "2078",
     "zone": "Darkshore",
     "level": 20,

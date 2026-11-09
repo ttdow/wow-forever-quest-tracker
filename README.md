@@ -25,10 +25,10 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 226 quests directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 225 quests directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
-- Darkshore: 74 quests
+- Darkshore: 73 quests
 - Ashenvale: 52 quests, excluding Horde-only quests
 - Deadmines: 24 quests, including prerequisites and excluding Paladin-only quests
 
