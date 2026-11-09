@@ -12,11 +12,11 @@ Blackfathom Deeps and Stonetalon Mountains were researched November 8, 2026. Wai
 ## Inclusion
 
 - Blackfathom Deeps: the five Alliance dungeon quests (#971, #1198, #1199, #1200, #1275), plus the related introduction The Corruption Abroad (#3765).
-- Stonetalon Mountains: all 23 Alliance or unrestricted entries in the zone list, plus six related steps: Journey to Stonetalon Peak (#1056), On Guard in Stonetalon (#1070, #1085), Pridewings of Stonetalon (#1134), its prerequisite The Zoram Strand (#1008), and the Ziz Fizziks introduction (#1483).
+- Stonetalon Mountains: all 23 Alliance or unrestricted entries in the zone list, plus five related steps: Journey to Stonetalon Peak (#1056), On Guard in Stonetalon (#1070, #1085), Pridewings of Stonetalon (#1134), and the Ziz Fizziks introduction (#1483). The Zoram Strand (#1008) remains only in Ashenvale and is linked as the prerequisite to Pridewings of Stonetalon.
 - Every added quest has no class restriction (`cls: 0`) and allows Alliance races. Horde-only quests and quests restricted to classes other than Rogue are excluded.
 - The Ziz Fizziks and Piznik quests are unrestricted in the current source (`side` empty, race mask 255); they are included as neutral quests. Other quest guides about older WoW versions may categorize them differently.
 - Cross-zone introductions and follow-ups belong to the listed chains. Their actual pickup zone is shown in `area`; the tab name does not claim that every step starts there. Optional chain links and observed "offered after" relationships are not represented as mandatory prerequisites.
-- Quest IDs #1008, #1056, #1070, #1085, and #1134 already appear under Ashenvale. They retain the same IDs so one completion applies in both tabs. Existing records were left unchanged.
+- Quest IDs #1056, #1070, #1085, and #1134 also appear under Ashenvale. They retain the same IDs so one completion applies in both tabs.
 
 ## Evidence limits
 
@@ -43,3 +43,11 @@ The five dungeon-index quests have no faction restriction and race mask 255. Rap
 The neutral quests and Raptor Horns have player observations in Forever. Nalpak/Ebru pickup coordinates and some objectives are still Classic references. The Alliance In Nightmares remains a Classic-reference quest guide without a player observation; its Falla Sagewind pickup position is corroborated by the observed turn-in for The Glowing Shard. That distinction is preserved in `notes` and `evidence`.
 
 The Glowing Shard starts from an item dropped inside the dungeon, so its pickup coordinates are blank. Its turn-in is Falla Sagewind after investigating the shard in Ratchet. Smart Drinks has an observed "offered after Deepmoss Spider Eggs" link; this is not asserted to be an additional mandatory prerequisite, and that unrelated quest is not added to this dungeon list.
+
+## Prerequisite navigation
+
+On November 9, 2026, ForeverDB's full quest-guide records were checked for all 262 unique quest IDs in the tracker. Their explicit "Complete first" relationships are stored in `prerequisites`, with evidence and a link to the dependent quest's guide. "Chain link" and "Quest line" relationships are stored separately in `previousQuests` and shown as "Earlier in chain". "Offered after" observations are not turned into prerequisites.
+
+This distinction also applies to the Forever Deadmines explosives chain: its current source labels the preceding steps "Quest line", so the UI presents them as sequence links rather than asserting a mandatory completion requirement from older notes.
+
+The Zoram Strand was removed from the Stonetalon list because its pickup and objectives are in Ashenvale. Pridewings of Stonetalon links to the existing Ashenvale entry instead; its completion ID is unchanged. The Bounty of Teldrassil's prerequisite Nessa Shadowsong (#6344) and Tyrande and Remulos' prerequisite Eranikus, Tyrant of the Dream (#8733) are outside the tracked lists and link to their external guides. The Absent Minded Prospector (#729) also links externally to Trouble In Darkshore? (#730) as an earlier chain step, not a mandatory prerequisite.

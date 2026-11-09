@@ -14,6 +14,93 @@ function cell(text, className, label) {
   return element;
 }
 
+function questElementID(quest) {
+  return `quest-${encodeURIComponent(quest.zone)}-${quest.id}`;
+}
+
+function questHash(quest) {
+  return `#${new URLSearchParams({ zone: quest.zone, id: quest.id })}`;
+}
+
+function revealQuest(id, zone, updateHistory = true) {
+  const quest = state.quests.find(item => item.id === id && item.zone === zone);
+  if (!quest) return false;
+  state.zone = quest.zone;
+  state.expanded.add(`${quest.zone}:${quest.id}`);
+  $('#search').value = '';
+  $('#status').value = 'all';
+  if (updateHistory && location.hash !== questHash(quest)) {
+    history.pushState({ zone: quest.zone }, '', questHash(quest));
+  } else {
+    history.replaceState({ zone: quest.zone }, '', location.href);
+  }
+  render();
+  const row = document.getElementById(questElementID(quest));
+  row?.scrollIntoView({ block: 'center' });
+  row?.querySelector('.quest-toggle')?.focus({ preventScroll: true });
+  return true;
+}
+
+function revealHashQuest() {
+  const params = new URLSearchParams(location.hash.slice(1));
+  return revealQuest(params.get('id'), params.get('zone'), false);
+}
+
+function referenceRow(quest) {
+  const groups = [
+    ['Prerequisites', quest.prerequisites || []],
+    ['Earlier in chain', quest.previousQuests || []],
+  ].filter(([, references]) => references.length);
+  if (!groups.length) return null;
+  const row = document.createElement('tr');
+  row.className = 'quest-references';
+  row.classList.toggle('completed', state.completed.has(quest.id));
+  row.id = `${questElementID(quest)}-references`;
+  row.hidden = !state.expanded.has(`${quest.zone}:${quest.id}`);
+  const content = document.createElement('td');
+  content.colSpan = 8;
+  for (const [heading, references] of groups) {
+    const section = document.createElement('section');
+    section.className = 'quest-reference-group';
+    section.setAttribute('aria-label', heading);
+    const title = document.createElement('h2');
+    title.textContent = heading;
+    const list = document.createElement('ul');
+    for (const reference of references) {
+      const target = state.quests.find(item => item.id === reference.id && item.zone === (reference.zone || quest.zone))
+        || state.quests.find(item => item.id === reference.id);
+      const item = document.createElement('li');
+      const status = document.createElement('span');
+      status.className = 'reference-status';
+      status.textContent = state.completed.has(reference.id) ? '✓' : '○';
+      status.setAttribute('role', 'img');
+      status.setAttribute('aria-label', state.completed.has(reference.id) ? 'Completed' : 'Not marked complete');
+      const link = document.createElement('a');
+      if (target) {
+        link.href = questHash(target);
+        link.textContent = `${target.name}${target.zone !== quest.zone ? ` · ${target.zone}` : ''} (#${target.id})`;
+        link.addEventListener('click', event => {
+          if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+          event.preventDefault();
+          revealQuest(target.id, target.zone);
+        });
+      } else {
+        link.href = `https://foreverdb.net/quest/${reference.id}`;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = `${reference.name} (#${reference.id}) ↗`;
+        link.title = 'View quest guide on ForeverDB';
+      }
+      item.append(status, link);
+      list.append(item);
+    }
+    section.append(title, list);
+    content.append(section);
+  }
+  row.append(content);
+  return row;
+}
+
 function render() {
   const zoneQuests = state.quests.filter(quest => quest.zone === state.zone);
   const count = zoneQuests.filter(quest => state.completed.has(quest.id)).length;
@@ -40,6 +127,8 @@ function render() {
     const row = document.createElement('tr');
     const rowKey = `${quest.zone}:${quest.id}`;
     row.className = 'quest-row';
+    row.id = questElementID(quest);
+    const references = referenceRow(quest);
     row.classList.toggle('expanded', state.expanded.has(rowKey));
     row.classList.toggle('completed', state.completed.has(quest.id));
     const checkCell = document.createElement('td');
@@ -59,11 +148,13 @@ function render() {
     toggle.className = 'quest-toggle';
     toggle.dataset.id = quest.id;
     toggle.setAttribute('aria-expanded', String(state.expanded.has(rowKey)));
+    if (references) toggle.setAttribute('aria-controls', references.id);
     toggle.addEventListener('click', () => {
       if (state.expanded.has(rowKey)) state.expanded.delete(rowKey);
       else state.expanded.add(rowKey);
       row.classList.toggle('expanded', state.expanded.has(rowKey));
       toggle.setAttribute('aria-expanded', String(state.expanded.has(rowKey)));
+      if (references) references.hidden = !state.expanded.has(rowKey);
     });
     const label = document.createElement('span');
     label.className = 'quest-label';
@@ -85,6 +176,7 @@ function render() {
     badge.setAttribute('aria-label', `Level ${quest.level}`); level.append(badge);
     row.append(checkCell, name, level, cell(quest.giver, 'giver', 'Quest giver / start'), cell(quest.area, 'area', 'Area'), cell(quest.coordinates, 'coordinates', 'Coordinates'), cell(quest.objective, 'objective', 'Objective'), cell(quest.id, 'quest-id', 'ID'));
     fragment.append(row);
+    if (references) fragment.append(references);
   }
   const focusedID = document.activeElement?.dataset.id;
   const focusedType = document.activeElement?.tagName === 'BUTTON' ? 'button' : 'input';
@@ -116,7 +208,11 @@ function toggleQuest(id, completed) {
 
 $('#zones').addEventListener('click', event => {
   const button = event.target.closest('button[data-zone]');
-  if (button) { state.zone = button.dataset.zone; render(); }
+  if (button) {
+    state.zone = button.dataset.zone;
+    history.pushState({ zone: state.zone }, '', location.pathname + location.search);
+    render();
+  }
 });
 $('#search').addEventListener('input', render);
 $('#status').addEventListener('change', render);
@@ -129,7 +225,11 @@ try {
   const stringFields = ['id', 'zone', 'name', 'stage', 'giver', 'coordinates', 'area', 'objective'];
   if (!Array.isArray(quests) || !quests.every(quest => quest &&
     stringFields.every(key => typeof quest[key] === 'string') &&
-    /^\d+$/.test(quest.id) && Number.isInteger(quest.level) && quest.level >= 0)) {
+    /^\d+$/.test(quest.id) && Number.isInteger(quest.level) && quest.level >= 0 &&
+    ['prerequisites', 'previousQuests'].every(key => quest[key] === undefined ||
+      (Array.isArray(quest[key]) && quest[key].every(reference => reference &&
+        typeof reference.id === 'string' && /^\d+$/.test(reference.id) &&
+        reference.id !== quest.id && typeof reference.name === 'string'))))) {
     throw new Error('Invalid quest data');
   }
   state.quests = quests;
@@ -142,7 +242,11 @@ try {
     $('#error').textContent = 'Could not read saved progress. Your saved data has not been changed. Allow browser storage for this site and reload.';
     $('#error').hidden = false;
   }
-  render();
+  if (!revealHashQuest()) {
+    if (state.quests.some(quest => quest.zone === history.state?.zone)) state.zone = history.state.zone;
+    history.replaceState({ zone: state.zone }, '', location.href);
+    render();
+  }
 } catch {
   $('#progress-text').textContent = 'Quests unavailable';
   $('#save-state').textContent = '';
@@ -169,5 +273,14 @@ window.addEventListener('storage', event => {
     $('#error').hidden = false;
     render();
   }
+});
+
+window.addEventListener('hashchange', () => {
+  if (state.loaded) revealHashQuest();
+});
+window.addEventListener('popstate', () => {
+  if (!state.loaded || revealHashQuest()) return;
+  if (state.quests.some(quest => quest.zone === history.state?.zone)) state.zone = history.state.zone;
+  render();
 });
 })();

@@ -10,7 +10,18 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Read Encrypted Sigil and speak with Frahun Shadewhisper in Shadowglen",
     "areaConfidence": "High",
-    "notes": "Alliance; Rogue-only; Classic reference; in character completion export"
+    "notes": "Alliance; Rogue-only; Classic reference; in character completion export",
+    "prerequisites": [
+      {
+        "id": "456",
+        "name": "The Balance of Nature",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/3118"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "97979",
@@ -23,7 +34,9 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Cast Elune's Light and Shadowmeld",
     "areaConfidence": "High",
-    "notes": "Night Elf-specific starting quest"
+    "notes": "Night Elf-specific starting quest",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "458",
@@ -36,7 +49,9 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Find Tarindrella",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "5842",
@@ -49,7 +64,9 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Deliver voucher to Orenthil Whisperwind",
     "areaConfidence": "Approximate",
-    "notes": "Item/event start; exact pickup unconfirmed"
+    "notes": "Item/event start; exact pickup unconfirmed",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "456",
@@ -62,7 +79,9 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Young Nightsabers and Young Thistle Boars",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "97977",
@@ -75,7 +94,9 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Collect Gnarlpine Totems",
     "areaConfidence": "Approximate",
-    "notes": "Tarindrella moves within Shadowglen"
+    "notes": "Tarindrella moves within Shadowglen",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "457",
@@ -88,7 +109,18 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Mangy Nightsabers and Thistle Boars",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "456",
+        "name": "The Balance of Nature",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/457"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "459",
@@ -101,7 +133,18 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Collect Fel Moss",
     "areaConfidence": "Approximate",
-    "notes": "Tarindrella moves within Shadowglen"
+    "notes": "Tarindrella moves within Shadowglen",
+    "prerequisites": [
+      {
+        "id": "458",
+        "name": "The Woodland Protector",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/459"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4495",
@@ -114,7 +157,9 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Find Iverron by cave",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "3521",
@@ -127,7 +172,18 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Collect ingredients",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "3519",
+        "name": "A Friend in Need",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/3521"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "3522",
@@ -140,7 +196,18 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Deliver antidote to Iverron",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "3521",
+        "name": "Iverron's Antidote",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/3522"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "916",
@@ -153,7 +220,9 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Collect Webwood Venom Sacs",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "921",
@@ -166,7 +235,18 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Fill Crystal Phial at moonwell",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "920",
+        "name": "Tenaron's Summons",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/921"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "928",
@@ -179,7 +259,18 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Deliver vessel to Corithras Moonrage in Dolanaar",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "921",
+        "name": "Crown of the Earth",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/928"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "97236",
@@ -192,7 +283,9 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Deliver fang to Gilshalan Windwalker",
     "areaConfidence": "Unconfirmed",
-    "notes": "Quest starts from an item; item pickup location is not recorded in ForeverDB"
+    "notes": "Quest starts from an item; item pickup location is not recorded in ForeverDB",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "920",
@@ -205,7 +298,18 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Speak with Tenaron atop Aldrassil",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "917",
+        "name": "Webwood Egg",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/920"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "917",
@@ -218,7 +322,18 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Collect Webwood Egg",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "916",
+        "name": "Webwood Venom",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/917"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "96630",
@@ -231,7 +346,9 @@
     "area": "Shadowglen / Aldrassil",
     "objective": "Deliver journal to Lyreena near Dolanaar",
     "areaConfidence": "High",
-    "notes": "Start location confirmed in ForeverDB"
+    "notes": "Start location confirmed in ForeverDB",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "3519",
@@ -244,7 +361,18 @@
     "area": "Shadowglen / Shadowthread Cave",
     "objective": "Speak to Dirania Silvershine",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "4495",
+        "name": "A Good Friend",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/3519"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "2159",
@@ -257,7 +385,9 @@
     "area": "Road from Shadowglen",
     "objective": "Deliver parcel to Dolanaar inn",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "929",
@@ -270,7 +400,18 @@
     "area": "Dolanaar",
     "objective": "Fill Jade Phial",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "928",
+        "name": "Crown of the Earth",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/929"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "997",
@@ -283,7 +424,9 @@
     "area": "Dolanaar",
     "objective": "Deliver Rare Earth to Denalan at Lake Al'Ameth",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "475",
@@ -296,7 +439,9 @@
     "area": "Dolanaar",
     "objective": "Find Gaerolas Talvethren in Starbreeze Village",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "2438",
@@ -309,7 +454,9 @@
     "area": "Dolanaar",
     "objective": "Find Emerald Dreamcatcher in Starbreeze Village",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "4161",
@@ -322,7 +469,9 @@
     "area": "Dolanaar",
     "objective": "Collect 7 Small Spider Legs for Zarrin in Dolanaar",
     "areaConfidence": "High",
-    "notes": "Alliance; cooking reward; Classic reference; in character completion export"
+    "notes": "Alliance; cooking reward; Classic reference; in character completion export",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "489",
@@ -335,7 +484,18 @@
     "area": "Dolanaar",
     "objective": "Collect Fel Cones and deliver to Zenn Foulhoof",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "488",
+        "name": "Zenn's Bidding",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/489"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "87288",
@@ -348,7 +508,9 @@
     "area": "Dolanaar",
     "objective": "Collect 6 Soft Nightsaber Pelts",
     "areaConfidence": "Approximate",
-    "notes": "Grouped by known turn-in; pickup location not recorded"
+    "notes": "Grouped by known turn-in; pickup location not recorded",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "2459",
@@ -361,7 +523,18 @@
     "area": "Dolanaar",
     "objective": "Kill Gnarlpine Mystics and retrieve Missing Jewel",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "2438",
+        "name": "The Emerald Dreamcatcher",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/2459"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "487",
@@ -374,7 +547,9 @@
     "area": "Dolanaar",
     "objective": "Slay Gnarlpine Ambushers",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "932",
@@ -387,7 +562,9 @@
     "area": "Dolanaar",
     "objective": "Kill Lord Melenas at Fel Rock",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "933",
@@ -400,7 +577,18 @@
     "area": "Dolanaar",
     "objective": "Fill Tourmaline Phial",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "929",
+        "name": "Crown of the Earth",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/933"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "99046",
@@ -413,7 +601,9 @@
     "area": "Dolanaar",
     "objective": "Find Sentinel Eralya on road to Oracle Glade",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "483",
@@ -426,7 +616,18 @@
     "area": "Dolanaar",
     "objective": "Collect relics in Ban'ethil Barrow Den",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "476",
+        "name": "Gnarlpine Corruption",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/483"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "99073",
@@ -439,7 +640,9 @@
     "area": "Dolanaar",
     "objective": "Deliver Lashwater Salve to Sentinel Eralya near Oracle Glade",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "2241",
@@ -452,7 +655,9 @@
     "area": "Dolanaar",
     "objective": "Bring Jannok’s Rose to Syurna in Darnassus",
     "areaConfidence": "High",
-    "notes": "Alliance; Rogue-only; pickup seen in Forever; in character completion export"
+    "notes": "Alliance; Rogue-only; pickup seen in Forever; in character completion export",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "99050",
@@ -465,7 +670,9 @@
     "area": "Dolanaar",
     "objective": "Collect Dewy Lasher Fronds, Empty Vial and Spring Water",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "98391",
@@ -478,7 +685,9 @@
     "area": "Dolanaar",
     "objective": "Speak with Sister Aquinne in Darnassus",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "934",
@@ -491,7 +700,18 @@
     "area": "Dolanaar",
     "objective": "Fill Amethyst Phial",
     "areaConfidence": "Approximate",
-    "notes": "Listed as distinct from another Amethyst Phial entry; pickup NPC not shown on directory"
+    "notes": "Listed as distinct from another Amethyst Phial entry; pickup NPC not shown on directory",
+    "prerequisites": [
+      {
+        "id": "933",
+        "name": "Crown of the Earth",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/934"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "935",
@@ -504,7 +724,27 @@
     "area": "Dolanaar",
     "objective": "Deliver Filled Vessel to Fandral Staghelm in Darnassus",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "7383",
+        "name": "Crown of the Earth",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/935"
+        ]
+      }
+    ],
+    "previousQuests": [
+      {
+        "id": "934",
+        "name": "Crown of the Earth",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/935"
+        ]
+      }
+    ]
   },
   {
     "id": "7383",
@@ -517,7 +757,18 @@
     "area": "Dolanaar",
     "objective": "Fill Amethyst Phial",
     "areaConfidence": "High",
-    "notes": "Second database entry with similar title and objective"
+    "notes": "Second database entry with similar title and objective",
+    "prerequisites": [
+      {
+        "id": "933",
+        "name": "Crown of the Earth",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/7383"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "98403",
@@ -530,7 +781,9 @@
     "area": "Dolanaar",
     "objective": "Kill Befouled Webwoods and Xethorr the Wicked",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "486",
@@ -543,7 +796,18 @@
     "area": "Dolanaar",
     "objective": "Kill Ursal the Mauler in western Teldrassil",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "483",
+        "name": "The Relics of Wakening",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/486"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "488",
@@ -556,7 +820,9 @@
     "area": "Dolanaar outskirts",
     "objective": "Collect Nightsaber Fangs, Owl Feathers and Spider Silk",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "97938",
@@ -569,7 +835,9 @@
     "area": "Dolanaar outskirts",
     "objective": "Speak to Cyndra Kindwhisper in Dolanaar",
     "areaConfidence": "High",
-    "notes": "Profession-specific quest; not necessarily available to every character"
+    "notes": "Profession-specific quest; not necessarily available to every character",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "96634",
@@ -582,7 +850,9 @@
     "area": "Dolanaar outskirts",
     "objective": "Speak to Zarrin in Dolanaar",
     "areaConfidence": "High",
-    "notes": "Profession-specific quest; not necessarily available to every character"
+    "notes": "Profession-specific quest; not necessarily available to every character",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "97942",
@@ -595,7 +865,9 @@
     "area": "Dolanaar outskirts",
     "objective": "Speak to Byancie in Dolanaar",
     "areaConfidence": "High",
-    "notes": "Profession-specific quest; not necessarily available to every character"
+    "notes": "Profession-specific quest; not necessarily available to every character",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "97943",
@@ -608,7 +880,9 @@
     "area": "Dolanaar outskirts",
     "objective": "Speak to Astaia in Darnassus",
     "areaConfidence": "High",
-    "notes": "Profession-specific quest; not necessarily available to every character"
+    "notes": "Profession-specific quest; not necessarily available to every character",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "97944",
@@ -621,7 +895,9 @@
     "area": "Dolanaar outskirts",
     "objective": "Speak to Malorne Bladeleaf in Dolanaar",
     "areaConfidence": "High",
-    "notes": "Profession-specific quest; not necessarily available to every character"
+    "notes": "Profession-specific quest; not necessarily available to every character",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "97949",
@@ -634,7 +910,9 @@
     "area": "Dolanaar outskirts",
     "objective": "Speak to Radnaal Maneweaver on road to Darnassus",
     "areaConfidence": "High",
-    "notes": "Profession-specific quest; not necessarily available to every character"
+    "notes": "Profession-specific quest; not necessarily available to every character",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "96606",
@@ -647,7 +925,9 @@
     "area": "Dolanaar outskirts",
     "objective": "Sit at basic campfire until Boosted Rest buff",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "476",
@@ -660,7 +940,18 @@
     "area": "Starbreeze Village",
     "objective": "Return to Athridas Bearmantle in Dolanaar",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "475",
+        "name": "A Troubling Breeze",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/476"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "922",
@@ -673,7 +964,18 @@
     "area": "Lake Al'Ameth",
     "objective": "Deliver Timberling Seed to Rellian in Darnassus",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "918",
+        "name": "Timberling Seeds",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/922"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "918",
@@ -686,7 +988,18 @@
     "area": "Lake Al'Ameth",
     "objective": "Collect Timberling Seeds",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "997",
+        "name": "Denalan's Earth",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/918"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "919",
@@ -699,7 +1012,9 @@
     "area": "Lake Al'Ameth",
     "objective": "Collect Timberling Sprouts",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "2499",
@@ -712,7 +1027,18 @@
     "area": "Lake Al'Ameth",
     "objective": "Defeat Oakenscowl for Gargantuan Tumor",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "2498",
+        "name": "Return to Denalan",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/2499"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "930",
@@ -725,7 +1051,9 @@
     "area": "Lake Al'Ameth",
     "objective": "Bring Glowing Fruit to Denalan",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "931",
@@ -738,7 +1066,9 @@
     "area": "Lake Al'Ameth",
     "objective": "Bring frond to Denalan",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "2399",
@@ -751,7 +1081,18 @@
     "area": "Lake Al'Ameth",
     "objective": "Interact with Sprouted Frond",
     "areaConfidence": "High",
-    "notes": "Area known from Classic location"
+    "notes": "Area known from Classic location",
+    "prerequisites": [
+      {
+        "id": "931",
+        "name": "The Shimmering Frond",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2399"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "941",
@@ -764,7 +1105,18 @@
     "area": "Lake Al'Ameth",
     "objective": "Plant Tainted Heart in Denalan's Planter",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "927",
+        "name": "The Moss-twined Heart",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/941"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "99053",
@@ -777,7 +1129,9 @@
     "area": "Ban'ethil Barrow Den",
     "objective": "Escort to Sentinel Kyra Starsong in Dolanaar",
     "areaConfidence": "High",
-    "notes": "Listed as level 0 / unknown rather than a normal quest level"
+    "notes": "Listed as level 0 / unknown rather than a normal quest level",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "2541",
@@ -790,7 +1144,9 @@
     "area": "Ban'ethil Barrow Den",
     "objective": "Find Shaman Voodoo Charm",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "2561",
@@ -803,7 +1159,18 @@
     "area": "Ban'ethil Barrow Den",
     "objective": "Defeat his soulless body and use charm",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "2541",
+        "name": "The Sleeping Druid",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/2561"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "99047",
@@ -816,7 +1183,9 @@
     "area": "Oracle Glade / western road",
     "objective": "Seek Byancie in Dolanaar",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "940",
@@ -829,7 +1198,18 @@
     "area": "Oracle Glade",
     "objective": "Report to Arch Druid Fandral Staghelm in Darnassus",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "937",
+        "name": "The Enchanted Glade",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/940"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "937",
@@ -842,7 +1222,9 @@
     "area": "Oracle Glade",
     "objective": "Collect Bloodfeather Belts",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "98392",
@@ -855,7 +1237,9 @@
     "area": "Oracle Glade",
     "objective": "Collect three harpy amulets",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "938",
@@ -868,7 +1252,9 @@
     "area": "Oracle Glade",
     "objective": "Escort Mist to Arynia Cloudsbreak",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "98398",
@@ -881,7 +1267,9 @@
     "area": "Oracle Glade",
     "objective": "Find bark at Oracle Tree",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "927",
@@ -894,7 +1282,9 @@
     "area": "Northern Teldrassil",
     "objective": "Bring heart to Denalan at Lake Al'Ameth",
     "areaConfidence": "Approximate",
-    "notes": "Blackmoss has Classic location around 44.0, 30.2; item pickup location not recorded"
+    "notes": "Blackmoss has Classic location around 44.0, 30.2; item pickup location not recorded",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "8734",
@@ -907,7 +1297,18 @@
     "area": "Western Teldrassil / Oracle region",
     "objective": "Speak with Keeper Remulos in Moonglade",
     "areaConfidence": "High",
-    "notes": "High-level cross-zone quest; pickup west of Dolanaar"
+    "notes": "High-level cross-zone quest; pickup west of Dolanaar",
+    "prerequisites": [
+      {
+        "id": "8733",
+        "name": "Eranikus, Tyrant of the Dream",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/8734"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "2498",
@@ -920,7 +1321,18 @@
     "area": "Darnassus",
     "objective": "Speak with Denalan at Lake Al'Ameth",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "923",
+        "name": "Tumors",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/2498"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "923",
@@ -933,7 +1345,18 @@
     "area": "Darnassus",
     "objective": "Collect Mossy Tumors",
     "areaConfidence": "High",
-    "notes": "Darnassus pickup; quest objectives in Teldrassil"
+    "notes": "Darnassus pickup; quest objectives in Teldrassil",
+    "prerequisites": [
+      {
+        "id": "922",
+        "name": "Rellian Greenspyre",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/923"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "3661",
@@ -946,7 +1369,9 @@
     "area": "Rut'theran Village",
     "objective": "Collect Wildkin Feathers in the Hinterlands",
     "areaConfidence": "High",
-    "notes": "High-level cross-zone quest"
+    "notes": "High-level cross-zone quest",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "978",
@@ -959,7 +1384,18 @@
     "area": "Rut'theran Village",
     "objective": "Collect Moontouched Feathers in Winterspring",
     "areaConfidence": "High",
-    "notes": "High-level cross-zone quest"
+    "notes": "High-level cross-zone quest",
+    "prerequisites": [
+      {
+        "id": "3661",
+        "name": "Favored of Elune?",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/978"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "5250",
@@ -972,7 +1408,9 @@
     "area": "Rut'theran Village",
     "objective": "Speak with Wynd Nightchaser in Winterspring",
     "areaConfidence": "High",
-    "notes": "High-level cross-zone quest"
+    "notes": "High-level cross-zone quest",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "979",
@@ -985,7 +1423,18 @@
     "area": "Rut'theran Village",
     "objective": "Find Ranshalla in Winterspring",
     "areaConfidence": "High",
-    "notes": "High-level cross-zone quest"
+    "notes": "High-level cross-zone quest",
+    "prerequisites": [
+      {
+        "id": "978",
+        "name": "Moontouched Wildkin",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/979"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "983",
@@ -998,7 +1447,9 @@
     "area": "Auberdine / nearby coast",
     "objective": "Collect 6 Crawler Legs and repair Buzzbox 827 south of Auberdine",
     "areaConfidence": "High",
-    "notes": "Pickup observed in Forever; near Auberdine"
+    "notes": "Pickup observed in Forever; near Auberdine",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "6341",
@@ -1011,7 +1462,18 @@
     "area": "Rut'theran Village (Teldrassil)",
     "objective": "Deliver collection to Vesprystus at Rut'theran",
     "areaConfidence": "High",
-    "notes": "Pickup actually in Teldrassil; seen in Forever"
+    "notes": "Pickup actually in Teldrassil; seen in Forever",
+    "prerequisites": [
+      {
+        "id": "6344",
+        "name": "Nessa Shadowsong",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/6341"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "6342",
@@ -1024,7 +1486,18 @@
     "area": "Rut'theran Village (Teldrassil)",
     "objective": "Fly to Auberdine and deliver collection to Laird",
     "areaConfidence": "High",
-    "notes": "Pickup actually in Teldrassil; seen in Forever"
+    "notes": "Pickup actually in Teldrassil; seen in Forever",
+    "prerequisites": [
+      {
+        "id": "6341",
+        "name": "The Bounty of Teldrassil",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/6342"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "6343",
@@ -1037,7 +1510,18 @@
     "area": "Auberdine",
     "objective": "Deliver Laird's Response to Nessa Shadowsong in Rut'theran Village",
     "areaConfidence": "High",
-    "notes": "Cross-zone return to Teldrassil; pickup seen in Forever"
+    "notes": "Cross-zone return to Teldrassil; pickup seen in Forever",
+    "prerequisites": [
+      {
+        "id": "6342",
+        "name": "Flight to Auberdine",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/6343"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "953",
@@ -1050,7 +1534,9 @@
     "area": "Ameth'Aran / outskirts",
     "objective": "Read two tablets in Ameth'Aran ruins",
     "areaConfidence": "High",
-    "notes": "Pickup seen in Forever"
+    "notes": "Pickup seen in Forever",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "954",
@@ -1063,7 +1549,9 @@
     "area": "Auberdine",
     "objective": "Investigate blue aura at Bashal'Aran; find Asterion",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "955",
@@ -1076,7 +1564,18 @@
     "area": "Bashal'Aran",
     "objective": "Collect 8 Grell Earrings",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "954",
+        "name": "Bashal'Aran",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/955"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "958",
@@ -1089,7 +1588,9 @@
     "area": "Auberdine",
     "objective": "Collect 7 Highborne Relics in Ameth'Aran",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1001",
@@ -1102,7 +1603,18 @@
     "area": "Auberdine / nearby coast",
     "objective": "Collect 3 Thresher Eyes and repair Buzzbox 411 north of Auberdine",
     "areaConfidence": "High",
-    "notes": "Starts from previous buzzbox"
+    "notes": "Starts from previous buzzbox",
+    "prerequisites": [
+      {
+        "id": "983",
+        "name": "Buzzbox 827",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1001"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "956",
@@ -1115,7 +1627,18 @@
     "area": "Bashal'Aran",
     "objective": "Retrieve Ancient Moonstone Seal",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "955",
+        "name": "Bashal'Aran",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/956"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "957",
@@ -1128,7 +1651,18 @@
     "area": "Bashal'Aran",
     "objective": "Destroy Moonstone Seal in Ameth'Aran and return",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "956",
+        "name": "Bashal'Aran",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/957"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "3524",
@@ -1141,7 +1675,9 @@
     "area": "Auberdine",
     "objective": "Recover bones from sea creature south of Auberdine",
     "areaConfidence": "High",
-    "notes": "Pickup seen in Forever"
+    "notes": "Pickup seen in Forever",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "4722",
@@ -1154,7 +1690,18 @@
     "area": "Southern coast / Wildbend",
     "objective": "Deliver Sea Turtle Remains to Gwennyth in Auberdine",
     "areaConfidence": "High",
-    "notes": "Pickup seen in Forever"
+    "notes": "Pickup seen in Forever",
+    "prerequisites": [
+      {
+        "id": "4681",
+        "name": "Washed Ashore",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4722"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4723",
@@ -1167,7 +1714,18 @@
     "area": "Northern coast / Mist's Edge",
     "objective": "Deliver Sea Creature Bones to Gwennyth in Auberdine",
     "areaConfidence": "High",
-    "notes": "Pickup location seen in Forever"
+    "notes": "Pickup location seen in Forever",
+    "prerequisites": [
+      {
+        "id": "4681",
+        "name": "Washed Ashore",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4723"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "98025",
@@ -1180,7 +1738,9 @@
     "area": "Auberdine",
     "objective": "Slay Jai'vhanel north of Ameth'Aran; return to Sentinel Glynda Nal'Shea",
     "areaConfidence": "High",
-    "notes": "Forever-specific quest; pickup seen in Forever"
+    "notes": "Forever-specific quest; pickup seen in Forever",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "984",
@@ -1193,7 +1753,9 @@
     "area": "Auberdine",
     "objective": "Find corrupted furbolg camp; return to Terenthis",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "985",
@@ -1206,7 +1768,18 @@
     "area": "Auberdine",
     "objective": "Kill 8 Blackwood Pathfinders and 5 Windtalkers",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "984",
+        "name": "How Big a Threat?",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/985"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1002",
@@ -1219,7 +1792,18 @@
     "area": "Northern coast / Mist's Edge",
     "objective": "Collect 6 Moonstalker Fangs; repair Buzzbox 323",
     "areaConfidence": "High",
-    "notes": "Starts from previous buzzbox"
+    "notes": "Starts from previous buzzbox",
+    "prerequisites": [
+      {
+        "id": "1001",
+        "name": "Buzzbox 411",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1002"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1141",
@@ -1232,7 +1816,9 @@
     "area": "Auberdine",
     "objective": "Catch 6 Darkshore Grouper",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "2118",
@@ -1245,7 +1831,9 @@
     "area": "Auberdine",
     "objective": "Trap a living Rabid Thistle Bear",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "4681",
@@ -1258,7 +1846,18 @@
     "area": "Auberdine",
     "objective": "Recover sea turtle remains west of Auberdine",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "3524",
+        "name": "Washed Ashore",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/4681"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4728",
@@ -1271,7 +1870,18 @@
     "area": "Southern coast / Wildbend",
     "objective": "Deliver Sea Creature Bones to Gwennyth in Auberdine",
     "areaConfidence": "High",
-    "notes": "Classic pickup coordinates"
+    "notes": "Classic pickup coordinates",
+    "prerequisites": [
+      {
+        "id": "4681",
+        "name": "Washed Ashore",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4728"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4811",
@@ -1284,7 +1894,9 @@
     "area": "Auberdine",
     "objective": "Locate mysterious red crystal east of Auberdine",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "4812",
@@ -1297,7 +1909,18 @@
     "area": "Auberdine",
     "objective": "Fill tube at Auberdine moonwell; investigate eastern red crystal",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "4811",
+        "name": "The Red Crystal",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/4812"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4813",
@@ -1310,7 +1933,18 @@
     "area": "Eastern Darkshore / red crystal",
     "objective": "Report findings to Sentinel Glynda Nal'Shea in Auberdine",
     "areaConfidence": "High",
-    "notes": "Object start east of Auberdine"
+    "notes": "Object start east of Auberdine",
+    "prerequisites": [
+      {
+        "id": "4812",
+        "name": "As Water Cascades",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/4813"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4725",
@@ -1323,7 +1957,18 @@
     "area": "Northern coast / Mist's Edge",
     "objective": "Deliver Strangely Marked Box to Gwennyth in Auberdine",
     "areaConfidence": "High",
-    "notes": "Classic pickup coordinates"
+    "notes": "Classic pickup coordinates",
+    "prerequisites": [
+      {
+        "id": "4681",
+        "name": "Washed Ashore",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4725"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4727",
@@ -1336,7 +1981,18 @@
     "area": "Northern coast / Mist's Edge",
     "objective": "Deliver Sea Turtle Remains to Gwennyth in Auberdine",
     "areaConfidence": "High",
-    "notes": "Pickup location seen in Forever"
+    "notes": "Pickup location seen in Forever",
+    "prerequisites": [
+      {
+        "id": "4681",
+        "name": "Washed Ashore",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4727"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4761",
@@ -1349,7 +2005,18 @@
     "area": "Auberdine",
     "objective": "Speak with Thundris Windweaver in Auberdine",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "984",
+        "name": "How Big a Threat?",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/4761"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4762",
@@ -1362,7 +2029,18 @@
     "area": "Auberdine",
     "objective": "Collect Cliffspring River water sample to the north",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "4761",
+        "name": "Thundris Windweaver",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/4762"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "5713",
@@ -1375,7 +2053,9 @@
     "area": "Southern Darkshore / Blackwood Den",
     "objective": "Defend Aynasha; report to Sentinel Onaeya at Maestra's Post",
     "areaConfidence": "High",
-    "notes": "Pickup seen in Forever"
+    "notes": "Pickup seen in Forever",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "963",
@@ -1388,7 +2068,9 @@
     "area": "Auberdine",
     "objective": "Free Anaya Dawnrunner at Ameth'Aran; return her pendant",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1003",
@@ -1401,7 +2083,18 @@
     "area": "Northern coast / Mist's Edge",
     "objective": "Collect 4 Grizzled Scalps; repair Buzzbox 525",
     "areaConfidence": "High",
-    "notes": "Starts from previous buzzbox"
+    "notes": "Starts from previous buzzbox",
+    "prerequisites": [
+      {
+        "id": "1002",
+        "name": "Buzzbox 323",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1003"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "2138",
@@ -1414,7 +2107,18 @@
     "area": "Auberdine",
     "objective": "Kill 20 Rabid Thistle Bears",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "2118",
+        "name": "Plagued Lands",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/2138"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4730",
@@ -1427,7 +2131,18 @@
     "area": "Southern coast / Wildbend",
     "objective": "Deliver Sea Creature Bones to Gwennyth in Auberdine",
     "areaConfidence": "High",
-    "notes": "Classic pickup coordinates"
+    "notes": "Classic pickup coordinates",
+    "prerequisites": [
+      {
+        "id": "4681",
+        "name": "Washed Ashore",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4730"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "944",
@@ -1440,7 +2155,18 @@
     "area": "Grove of the Ancients",
     "objective": "Use Phial of Scrying at the Master's Glaive; speak to Onu through bowl",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "948",
+        "name": "Onu",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/944"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "947",
@@ -1453,7 +2179,9 @@
     "area": "Auberdine",
     "objective": "Gather 5 Scaber Stalks and 1 Death Cap from Cliffspring Falls",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "948",
@@ -1466,7 +2194,18 @@
     "area": "Auberdine",
     "objective": "Speak with Onu in Grove of the Ancients",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "947",
+        "name": "Cave Mushrooms",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/948"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "949",
@@ -1479,7 +2218,18 @@
     "area": "The Master's Glaive",
     "objective": "Find clues at the nearby Twilight Hammer camp",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "944",
+        "name": "The Master's Glaive",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/949"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "950",
@@ -1492,7 +2242,18 @@
     "area": "The Master's Glaive",
     "objective": "Deliver Insane Scribbles to Onu at Grove of the Ancients",
     "areaConfidence": "High",
-    "notes": "Classic pickup coordinates"
+    "notes": "Classic pickup coordinates",
+    "prerequisites": [
+      {
+        "id": "949",
+        "name": "The Twilight Camp",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/950"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "982",
@@ -1505,7 +2266,9 @@
     "area": "Auberdine",
     "objective": "Recover two lockboxes from shipwrecks north of Auberdine",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1138",
@@ -1518,7 +2281,9 @@
     "area": "Auberdine",
     "objective": "Collect 6 Fine Crab Chunks",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "97894",
@@ -1531,7 +2296,9 @@
     "area": "Pickup unrecorded",
     "objective": "Not recorded",
     "areaConfidence": "Unconfirmed",
-    "notes": "Forever-specific; Gorbold Steelhand in Auberdine is confirmed as hand-in NPC, but starting source and objective absent"
+    "notes": "Forever-specific; Gorbold Steelhand in Auberdine is confirmed as hand-in NPC, but starting source and objective absent",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "97914",
@@ -1544,7 +2311,9 @@
     "area": "Auberdine",
     "objective": "Deliver Thundris' Letter to Baros Alexston in Stormwind",
     "areaConfidence": "High",
-    "notes": "Forever-specific cross-continent delivery"
+    "notes": "Forever-specific cross-continent delivery",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "945",
@@ -1557,7 +2326,9 @@
     "area": "The Master's Glaive",
     "objective": "Escort Therylune to safety; report to Therysil in Ashenvale",
     "areaConfidence": "High",
-    "notes": "Classic pickup coordinates"
+    "notes": "Classic pickup coordinates",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "965",
@@ -1570,7 +2341,9 @@
     "area": "Auberdine",
     "objective": "Find Balthule Shadowstrike at the Tower of Althalaxx",
     "areaConfidence": "High",
-    "notes": "Pickup seen in Forever"
+    "notes": "Pickup seen in Forever",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "966",
@@ -1583,7 +2356,18 @@
     "area": "Tower of Althalaxx",
     "objective": "Collect 4 Worn Parchments from Dark Strand fanatics",
     "areaConfidence": "High",
-    "notes": "Pickup seen in Forever"
+    "notes": "Pickup seen in Forever",
+    "prerequisites": [
+      {
+        "id": "965",
+        "name": "The Tower of Althalaxx",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/966"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "967",
@@ -1596,7 +2380,18 @@
     "area": "Tower of Althalaxx",
     "objective": "Deliver Balthule's letter to Delgren at Maestra's Post, Ashenvale",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "966",
+        "name": "The Tower of Althalaxx",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/967"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "968",
@@ -1609,7 +2404,9 @@
     "area": "The Master's Glaive",
     "objective": "Deliver book to Gerrig Bonegrip in Ironforge",
     "areaConfidence": "Approximate",
-    "notes": "Quest item pickup location unrecorded; Classic Twilight cultists at Master's Glaive drop book"
+    "notes": "Quest item pickup location unrecorded; Classic Twilight cultists at Master's Glaive drop book",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "2139",
@@ -1622,7 +2419,18 @@
     "area": "Auberdine",
     "objective": "Find and kill the Den Mother",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "2138",
+        "name": "Cleansing of the Infected",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/2139"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4740",
@@ -1635,7 +2443,9 @@
     "area": "Auberdine",
     "objective": "Kill Murkdeep south of Auberdine; report to Glynda Nal'Shea",
     "areaConfidence": "High",
-    "notes": "Pickup seen in Forever"
+    "notes": "Pickup seen in Forever",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "4763",
@@ -1648,7 +2458,18 @@
     "area": "Auberdine",
     "objective": "Use cleansing bowl and food samples at northern Blackwood camp; defeat satyr",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "4762",
+        "name": "The Cliffspring River",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/4763"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4731",
@@ -1661,7 +2482,18 @@
     "area": "Southern coast / Wildbend",
     "objective": "Deliver Strangely Marked Box to Gwennyth in Auberdine",
     "areaConfidence": "High",
-    "notes": "Classic pickup coordinates"
+    "notes": "Classic pickup coordinates",
+    "prerequisites": [
+      {
+        "id": "4681",
+        "name": "Washed Ashore",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4731"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4732",
@@ -1674,7 +2506,18 @@
     "area": "Southern coast / Wildbend",
     "objective": "Deliver Sea Turtle Remains to Gwennyth in Auberdine",
     "areaConfidence": "High",
-    "notes": "Classic pickup coordinates"
+    "notes": "Classic pickup coordinates",
+    "prerequisites": [
+      {
+        "id": "4681",
+        "name": "Washed Ashore",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4732"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4733",
@@ -1687,7 +2530,18 @@
     "area": "Southern coast / Wildbend",
     "objective": "Deliver Sea Creature Bones to Gwennyth in Auberdine",
     "areaConfidence": "High",
-    "notes": "Classic pickup coordinates"
+    "notes": "Classic pickup coordinates",
+    "prerequisites": [
+      {
+        "id": "4681",
+        "name": "Washed Ashore",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4733"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "729",
@@ -1700,7 +2554,18 @@
     "area": "Auberdine",
     "objective": "Find Prospector Remtravel to the south",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "730",
+        "name": "Trouble In Darkshore?",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/729"
+        ]
+      }
+    ]
   },
   {
     "id": "731",
@@ -1713,7 +2578,18 @@
     "area": "Southern Darkshore / prospector",
     "objective": "Escort Remtravel while he examines fossil; return to Hollee",
     "areaConfidence": "Approximate",
-    "notes": "Pickup south of Auberdine; precise site not reverified"
+    "notes": "Pickup south of Auberdine; precise site not reverified",
+    "prerequisites": [
+      {
+        "id": "729",
+        "name": "The Absent Minded Prospector",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/731"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "741",
@@ -1726,7 +2602,18 @@
     "area": "Auberdine",
     "objective": "Deliver mysterious fossil to Chief Archaeologist Greywhisker in Darnassus",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "731",
+        "name": "The Absent Minded Prospector",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/741"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "942",
@@ -1739,7 +2626,18 @@
     "area": "Darnassus",
     "objective": "Take fossil to Archaeologist Flagongut in Menethil Harbor",
     "areaConfidence": "High",
-    "notes": "Darnassus pickup; seen in Forever"
+    "notes": "Darnassus pickup; seen in Forever",
+    "prerequisites": [
+      {
+        "id": "741",
+        "name": "The Absent Minded Prospector",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/942"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "951",
@@ -1752,7 +2650,18 @@
     "area": "Grove of the Ancients",
     "objective": "Collect 6 Mathystra Relics in northern Darkshore",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "950",
+        "name": "Return to Onu",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/951"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "986",
@@ -1765,7 +2674,18 @@
     "area": "Auberdine",
     "objective": "Collect 5 Fine Moonstalker Pelts for a magic cloak",
     "areaConfidence": "High",
-    "notes": "Pickup seen in Forever"
+    "notes": "Pickup seen in Forever",
+    "prerequisites": [
+      {
+        "id": "985",
+        "name": "How Big a Threat?",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/986"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "993",
@@ -1778,7 +2698,18 @@
     "area": "Auberdine",
     "objective": "Find Volcor in southern Darkshore and deliver magic cloak",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "986",
+        "name": "A Lost Master",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/993"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "995",
@@ -1791,7 +2722,18 @@
     "area": "Southern Darkshore / Blackwood Den",
     "objective": "Escape furbolg cave by stealth; report to Terenthis in Auberdine",
     "areaConfidence": "High",
-    "notes": "Alternative to Escape Through Force"
+    "notes": "Alternative to Escape Through Force",
+    "prerequisites": [
+      {
+        "id": "993",
+        "name": "A Lost Master",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/995"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "2078",
@@ -1804,7 +2746,18 @@
     "area": "Northern coast / Mist's Edge",
     "objective": "Lead the Threshwackonator 4100 back to Gelkak",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "2098",
+        "name": "Gyromast's Retrieval",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/2078"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "2098",
@@ -1817,7 +2770,9 @@
     "area": "Northern coast / Mist's Edge",
     "objective": "Recover 3 pieces of Gelkak's Key",
     "areaConfidence": "High",
-    "notes": "Classic pickup coordinates"
+    "notes": "Classic pickup coordinates",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "5321",
@@ -1830,7 +2785,9 @@
     "area": "Grove of the Ancients",
     "objective": "Escort Kerlonian to Maestra's Post in Ashenvale",
     "areaConfidence": "High",
-    "notes": "Pickup seen in Forever"
+    "notes": "Pickup seen in Forever",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "970",
@@ -1843,7 +2800,18 @@
     "area": "Maestra's Post (Ashenvale)",
     "objective": "Collect Glowing Soul Gem and return to Delgren",
     "areaConfidence": "High",
-    "notes": "Cross-zone Ashenvale stage"
+    "notes": "Cross-zone Ashenvale stage",
+    "prerequisites": [
+      {
+        "id": "967",
+        "name": "The Tower of Althalaxx",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/970"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "994",
@@ -1856,7 +2824,18 @@
     "area": "Southern Darkshore / Blackwood Den",
     "objective": "Fight out of furbolg cave; report to Terenthis in Auberdine",
     "areaConfidence": "High",
-    "notes": "Alternative to Escape Through Stealth; Classic pickup coordinates"
+    "notes": "Alternative to Escape Through Stealth; Classic pickup coordinates",
+    "prerequisites": [
+      {
+        "id": "993",
+        "name": "A Lost Master",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/994"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "943",
@@ -1869,7 +2848,18 @@
     "area": "Menethil Harbor (Wetlands)",
     "objective": "Retrieve Stone of Relu and Flagongut's Fossil in Wetlands",
     "areaConfidence": "High",
-    "notes": "Pickup actually in Wetlands; Classic reference"
+    "notes": "Pickup actually in Wetlands; Classic reference",
+    "prerequisites": [
+      {
+        "id": "942",
+        "name": "The Absent Minded Prospector",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/943"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "973",
@@ -1882,7 +2872,18 @@
     "area": "Maestra's Post (Ashenvale)",
     "objective": "Recover Ilkrud Magthrull's Tome",
     "areaConfidence": "High",
-    "notes": "Cross-zone Ashenvale stage"
+    "notes": "Cross-zone Ashenvale stage",
+    "prerequisites": [
+      {
+        "id": "970",
+        "name": "The Tower of Althalaxx",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/973"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1140",
@@ -1895,7 +2896,18 @@
     "area": "Maestra's Post (Ashenvale)",
     "objective": "Free trapped Highborne souls in Night Run and Satyrnaar",
     "areaConfidence": "High",
-    "notes": "Cross-zone Ashenvale stage"
+    "notes": "Cross-zone Ashenvale stage",
+    "prerequisites": [
+      {
+        "id": "973",
+        "name": "The Tower of Althalaxx",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1140"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1167",
@@ -1908,7 +2920,18 @@
     "area": "Maestra's Post (Ashenvale)",
     "objective": "Report to Balthule Shadowstrike in northern Darkshore",
     "areaConfidence": "High",
-    "notes": "Cross-zone Ashenvale stage"
+    "notes": "Cross-zone Ashenvale stage",
+    "prerequisites": [
+      {
+        "id": "1140",
+        "name": "The Tower of Althalaxx",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1167"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "981",
@@ -1921,7 +2944,18 @@
     "area": "Tower of Althalaxx",
     "objective": "Report to Delgren the Purifier at Maestra's Post",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "1143",
+        "name": "The Tower of Althalaxx",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/981"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1143",
@@ -1934,7 +2968,18 @@
     "area": "Tower of Althalaxx",
     "objective": "Kill Athrikus Narassin and return his head",
     "areaConfidence": "High",
-    "notes": ""
+    "notes": "",
+    "prerequisites": [
+      {
+        "id": "1167",
+        "name": "The Tower of Althalaxx",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1143"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1056",
@@ -1947,7 +2992,9 @@
     "area": "Astranaar",
     "objective": "Travel to Keeper Albagorm on Stonetalon Peak.",
     "areaConfidence": "High",
-    "notes": "Alliance; cross-zone hand-in in Stonetalon Mountains"
+    "notes": "Alliance; cross-zone hand-in in Stonetalon Mountains",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "991",
@@ -1960,7 +3007,9 @@
     "area": "Astranaar",
     "objective": "Find Teronis at the Zoram Strand.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1008",
@@ -1973,7 +3022,9 @@
     "area": "Astranaar",
     "objective": "Collect 20 Wrathtail Heads for Shindrell Swiftfire.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1070",
@@ -1986,7 +3037,9 @@
     "area": "Astranaar",
     "objective": "Meet Kaela Shadowspear near the entrance to Windshear Crag.",
     "areaConfidence": "High",
-    "notes": "Alliance; destination in Stonetalon Mountains"
+    "notes": "Alliance; destination in Stonetalon Mountains",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1134",
@@ -1999,7 +3052,18 @@
     "area": "Astranaar",
     "objective": "Collect 12 Pridewing Venom Sacs in Stonetalon Mountains.",
     "areaConfidence": "High",
-    "notes": "Alliance; objectives outside Ashenvale"
+    "notes": "Alliance; objectives outside Ashenvale",
+    "prerequisites": [
+      {
+        "id": "1008",
+        "name": "The Zoram Strand",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1134"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1024",
@@ -2012,7 +3076,18 @@
     "area": "Astranaar",
     "objective": "Find Shael'dryn at the moonwell northeast of Astranaar.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [
+      {
+        "id": "1023",
+        "name": "Raene's Cleansing",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1024"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1033",
@@ -2025,7 +3100,18 @@
     "area": "Astranaar",
     "objective": "Retrieve Elune's Tear and return it to Astranaar.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [
+      {
+        "id": "1020",
+        "name": "Orendil's Cure",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1033"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1034",
@@ -2038,7 +3124,18 @@
     "area": "Astranaar",
     "objective": "Collect 5 Handfuls of Stardust from the Ruins of Stardust.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [
+      {
+        "id": "1033",
+        "name": "Elune's Tear",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1034"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1025",
@@ -2051,7 +3148,18 @@
     "area": "Astranaar",
     "objective": "Defeat specified Foulweald furbolgs for Raene.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [
+      {
+        "id": "1023",
+        "name": "Raene's Cleansing",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1025"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1054",
@@ -2064,7 +3172,9 @@
     "area": "Astranaar",
     "objective": "Defeat Dal Bloodclaw and bring back his skull.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1030",
@@ -2077,7 +3187,18 @@
     "area": "Astranaar",
     "objective": "Use Dartol's Rod to speak with uncorrupted furbolg Krolg.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [
+      {
+        "id": "1029",
+        "name": "Raene's Cleansing",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1030"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "4581",
@@ -2090,7 +3211,9 @@
     "area": "Astranaar",
     "objective": "Take Shindrell's Note to Kayneth Stillwind in Forest Song.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1035",
@@ -2103,7 +3226,18 @@
     "area": "Astranaar",
     "objective": "Retrieve a Fallen Moonstone from the Shadethicket Oracle.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [
+      {
+        "id": "1034",
+        "name": "The Ruins of Stardust",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1035"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "98252",
@@ -2116,7 +3250,9 @@
     "area": "Fallen Sky Lake / western approach",
     "objective": "Escort Va'xug's Eye of Kilrogg back to the main Ashenvale road.",
     "areaConfidence": "High",
-    "notes": "Forever-specific; seen in Forever; faction not verified"
+    "notes": "Forever-specific; seen in Forever; faction not verified",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "98251",
@@ -2129,7 +3265,9 @@
     "area": "Fallen Sky Lake / western approach",
     "objective": "Kill 6 Shadowhorn Stags and 6 Ashenvale Bears.",
     "areaConfidence": "High",
-    "notes": "Forever-specific; seen in Forever; leads to A Void Path; faction not verified"
+    "notes": "Forever-specific; seen in Forever; leads to A Void Path; faction not verified",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1011",
@@ -2142,7 +3280,9 @@
     "area": "Forest Song",
     "objective": "Bring a Bottle of Disease to Kayneth Stillwind.",
     "areaConfidence": "High",
-    "notes": "Alliance; follows Kayneth Stillwind"
+    "notes": "Alliance; follows Kayneth Stillwind",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "98417",
@@ -2155,7 +3295,9 @@
     "area": "Forest Song",
     "objective": "Investigate the Satyrnaar demons for traces of Kurothel.",
     "areaConfidence": "High",
-    "notes": "Forever-specific; seen in Forever"
+    "notes": "Forever-specific; seen in Forever",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1012",
@@ -2168,7 +3310,18 @@
     "area": "Forest Song",
     "objective": "Kill three corrupted druids in Dor'danil Barrow Den.",
     "areaConfidence": "High",
-    "notes": "Alliance; follows Forsaken Diseases"
+    "notes": "Alliance; follows Forsaken Diseases",
+    "prerequisites": [
+      {
+        "id": "1011",
+        "name": "Forsaken Diseases",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1012"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1032",
@@ -2181,7 +3334,18 @@
     "area": "Forest Song",
     "objective": "Bring 16 Satyr Horns to Illiyana.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [
+      {
+        "id": "1031",
+        "name": "The Branch of Cenarius",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1032"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1021",
@@ -2194,7 +3358,9 @@
     "area": "Forest Song",
     "objective": "Find Anilia in Xavian.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1055",
@@ -2207,7 +3373,18 @@
     "area": "Hidden Shrine / Thistlefur area",
     "objective": "Return to Shael'dryn with the re-enchanted rod.",
     "areaConfidence": "Approximate",
-    "notes": "Alliance; object-started quest"
+    "notes": "Alliance; object-started quest",
+    "prerequisites": [
+      {
+        "id": "1028",
+        "name": "Raene's Cleansing",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1055"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "976",
@@ -2220,7 +3397,18 @@
     "area": "Maestra's Post",
     "objective": "Escort Feero and return to Delgren the Purifier.",
     "areaConfidence": "High",
-    "notes": "Alliance; escort through northwest Ashenvale"
+    "notes": "Alliance; escort through northwest Ashenvale",
+    "prerequisites": [
+      {
+        "id": "973",
+        "name": "The Tower of Althalaxx",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/976"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1045",
@@ -2233,7 +3421,18 @@
     "area": "Mystral Lake / Krolg",
     "objective": "Kill Ran Bloodtooth and 4 Bloodtooth Guards.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [
+      {
+        "id": "1030",
+        "name": "Raene's Cleansing",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1045"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1046",
@@ -2246,7 +3445,18 @@
     "area": "Mystral Lake / Krolg",
     "objective": "Return Ran Bloodtooth's Skull and Dartol's Rod to Raene.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [
+      {
+        "id": "1045",
+        "name": "Raene's Cleansing",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1046"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1010",
@@ -2259,7 +3469,9 @@
     "area": "Orendil's Retreat / Bathran's Haunt",
     "objective": "Collect 5 Bathran's Hair for Orendil.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1020",
@@ -2272,7 +3484,18 @@
     "area": "Orendil's Retreat / Bathran's Haunt",
     "objective": "Take Orendil's Cure to Pelturas Whitemoon in Astranaar.",
     "areaConfidence": "High",
-    "notes": "Alliance; chain follows Bathran's Hair"
+    "notes": "Alliance; chain follows Bathran's Hair",
+    "prerequisites": [
+      {
+        "id": "1010",
+        "name": "Bathran's Hair",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1020"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1041",
@@ -2285,7 +3508,18 @@
     "area": "Outside Ashenvale / Booty Bay",
     "objective": "Speak with Clerk Daltry in Darkshire.",
     "areaConfidence": "High",
-    "notes": "Alliance; cross-zone Velinde chain"
+    "notes": "Alliance; cross-zone Velinde chain",
+    "prerequisites": [
+      {
+        "id": "1040",
+        "name": "Passage to Booty Bay",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1041"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1039",
@@ -2298,7 +3532,18 @@
     "area": "Outside Ashenvale / Darnassus",
     "objective": "Find Wharfmaster Dizzywig in Ratchet.",
     "areaConfidence": "High",
-    "notes": "Alliance; cross-zone Velinde chain"
+    "notes": "Alliance; cross-zone Velinde chain",
+    "prerequisites": [
+      {
+        "id": "1038",
+        "name": "Velinde's Effects",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1039"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1038",
@@ -2311,7 +3556,18 @@
     "area": "Outside Ashenvale / Darnassus",
     "objective": "Find Velinde's Journal in her chest.",
     "areaConfidence": "High",
-    "notes": "Alliance; cross-zone continuation"
+    "notes": "Alliance; cross-zone continuation",
+    "prerequisites": [
+      {
+        "id": "1037",
+        "name": "Velinde Starsong",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1038"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1044",
@@ -2324,7 +3580,18 @@
     "area": "Outside Ashenvale / Duskwood",
     "objective": "Return to Thyn'tel Bladeweaver in Darnassus.",
     "areaConfidence": "High",
-    "notes": "Alliance; cross-zone continuation of Velinde chain"
+    "notes": "Alliance; cross-zone continuation of Velinde chain",
+    "prerequisites": [
+      {
+        "id": "1043",
+        "name": "The Scythe of Elune",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1044"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1042",
@@ -2337,7 +3604,18 @@
     "area": "Outside Ashenvale / Duskwood",
     "objective": "Speak with Jonathan Carevin in Darkshire.",
     "areaConfidence": "High",
-    "notes": "Alliance; cross-zone Velinde chain"
+    "notes": "Alliance; cross-zone Velinde chain",
+    "prerequisites": [
+      {
+        "id": "1041",
+        "name": "The Caravan Road",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1042"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1043",
@@ -2350,7 +3628,18 @@
     "area": "Outside Ashenvale / Duskwood",
     "objective": "Seek signs of the Scythe of Elune and return to Carevin.",
     "areaConfidence": "High",
-    "notes": "Alliance; cross-zone Velinde chain"
+    "notes": "Alliance; cross-zone Velinde chain",
+    "prerequisites": [
+      {
+        "id": "1042",
+        "name": "The Carevin Family",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1043"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "990",
@@ -2363,7 +3652,26 @@
     "area": "Outside Ashenvale / northern approach",
     "objective": "Find Raene Wolfrunner in Astranaar.",
     "areaConfidence": "Unconfirmed",
-    "notes": "Alliance; source does not record starting location; cross-zone introduction"
+    "notes": "Alliance; source does not record starting location; cross-zone introduction",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "994",
+        "name": "Escape Through Force",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/990"
+        ]
+      },
+      {
+        "id": "995",
+        "name": "Escape Through Stealth",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/990"
+        ]
+      }
+    ]
   },
   {
     "id": "1085",
@@ -2376,7 +3684,18 @@
     "area": "Outside Ashenvale / Stonetalon Mountains",
     "objective": "Speak with Gaxim Rustfizzle in Stonetalon Mountains.",
     "areaConfidence": "High",
-    "notes": "Alliance; cross-zone pickup"
+    "notes": "Alliance; cross-zone pickup",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1070",
+        "name": "On Guard in Stonetalon",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1085"
+        ]
+      }
+    ]
   },
   {
     "id": "1040",
@@ -2389,7 +3708,18 @@
     "area": "Outside Ashenvale / The Barrens",
     "objective": "Travel by boat to Booty Bay and speak to Caravaneer Ruzzgot.",
     "areaConfidence": "High",
-    "notes": "Alliance; cross-zone chain"
+    "notes": "Alliance; cross-zone chain",
+    "prerequisites": [
+      {
+        "id": "1039",
+        "name": "The Barrens Port",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1040"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1026",
@@ -2402,7 +3732,18 @@
     "area": "Shael'dryn's Moonwell",
     "objective": "Find Wooden Key and a piece of Dartol's Rod; return to Shael'dryn.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [
+      {
+        "id": "1024",
+        "name": "Raene's Cleansing",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1026"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1027",
@@ -2415,7 +3756,18 @@
     "area": "Shael'dryn's Moonwell",
     "objective": "Find the final piece of Dartol's Rod.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [
+      {
+        "id": "1026",
+        "name": "Raene's Cleansing",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1027"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1028",
@@ -2428,7 +3780,18 @@
     "area": "Shael'dryn's Moonwell",
     "objective": "Locate the hidden shrine and re-enchant Dartol's Rod.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [
+      {
+        "id": "1027",
+        "name": "Raene's Cleansing",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1028"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1029",
@@ -2441,7 +3804,18 @@
     "area": "Shael'dryn's Moonwell",
     "objective": "Return to Raene Wolfrunner in Astranaar.",
     "areaConfidence": "High",
-    "notes": "Alliance; chain stage numbered by quest sequence"
+    "notes": "Alliance; chain stage numbered by quest sequence",
+    "prerequisites": [
+      {
+        "id": "1055",
+        "name": "Raene's Cleansing",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1029"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1022",
@@ -2454,7 +3828,9 @@
     "area": "Shrine of Aessina / eastern Ashenvale",
     "objective": "Investigate Tome of Mel'Thandris in the Howling Vale.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1037",
@@ -2467,7 +3843,18 @@
     "area": "Shrine of Aessina / eastern Ashenvale",
     "objective": "Travel to Thyn'tel Bladeweaver in Darnassus.",
     "areaConfidence": "High",
-    "notes": "Alliance; follows The Howling Vale"
+    "notes": "Alliance; follows The Howling Vale",
+    "prerequisites": [
+      {
+        "id": "1022",
+        "name": "The Howling Vale",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1037"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1016",
@@ -2480,7 +3867,9 @@
     "area": "Silverwind Refuge",
     "objective": "Obtain and divine 5 Intact Elemental Bracers.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1017",
@@ -2493,7 +3882,18 @@
     "area": "Silverwind Refuge",
     "objective": "Defeat Sarilus Foulborne and bring back his head.",
     "areaConfidence": "High",
-    "notes": "Alliance; follows Elemental Bracers"
+    "notes": "Alliance; follows Elemental Bracers",
+    "prerequisites": [
+      {
+        "id": "1016",
+        "name": "Elemental Bracers",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1017"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "86757",
@@ -2506,7 +3906,9 @@
     "area": "Silverwind Refuge",
     "objective": "Collect 6 Jagged Orc Swords and 4 Curved Orc Daggers.",
     "areaConfidence": "High",
-    "notes": "Forever-specific; seen in Forever"
+    "notes": "Forever-specific; seen in Forever",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "98027",
@@ -2519,7 +3921,9 @@
     "area": "Silverwind Refuge / southern woods",
     "objective": "Deliver the Crescent Necklace to Maliynn in Astranaar.",
     "areaConfidence": "High",
-    "notes": "Forever-specific; seen in Forever; item-started quest"
+    "notes": "Forever-specific; seen in Forever; item-started quest",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "7863",
@@ -2532,7 +3936,9 @@
     "area": "Silverwing Grove / Warsong Gulch entrance",
     "objective": "Obtain basic Silverwing Sentinels reputation care package.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "7864",
@@ -2545,7 +3951,9 @@
     "area": "Silverwing Grove / Warsong Gulch entrance",
     "objective": "Obtain standard Silverwing Sentinels reputation care package.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "7865",
@@ -2558,7 +3966,9 @@
     "area": "Silverwing Grove / Warsong Gulch entrance",
     "objective": "Obtain advanced Silverwing Sentinels reputation care package.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1031",
@@ -2571,7 +3981,18 @@
     "area": "Xavian",
     "objective": "Kill Geltharis and deliver the Branch of Cenarius to Illiyana.",
     "areaConfidence": "High",
-    "notes": "Alliance; follows Vile Satyr! Dryads in Danger!"
+    "notes": "Alliance; follows Vile Satyr! Dryads in Danger!",
+    "prerequisites": [
+      {
+        "id": "1021",
+        "name": "Vile Satyr! Dryads in Danger!",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1031"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1007",
@@ -2584,7 +4005,9 @@
     "area": "Zoram Strand",
     "objective": "Retrieve the Ancient Statuette and return it to Talen.",
     "areaConfidence": "High",
-    "notes": "Alliance"
+    "notes": "Alliance",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1023",
@@ -2597,7 +4020,18 @@
     "area": "Zoram Strand",
     "objective": "Retrieve the Glowing Gem and Teronis' Journal; return to Raene.",
     "areaConfidence": "High",
-    "notes": "Alliance; quest started by corpse"
+    "notes": "Alliance; quest started by corpse",
+    "prerequisites": [
+      {
+        "id": "991",
+        "name": "Raene's Cleansing",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1023"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1009",
@@ -2610,7 +4044,18 @@
     "area": "Zoram Strand",
     "objective": "Retrieve Ring of Zoram from Ruuzel and return to Talen.",
     "areaConfidence": "High",
-    "notes": "Alliance; follows The Ancient Statuette"
+    "notes": "Alliance; follows The Ancient Statuette",
+    "prerequisites": [
+      {
+        "id": "1007",
+        "name": "The Ancient Statuette",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1009"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "2041",
@@ -2623,7 +4068,9 @@
     "area": "Ironforge — Tinker Town",
     "objective": "Report to Shoni the Shilent in Stormwind City.",
     "areaConfidence": "High",
-    "notes": "Alliance; requires level 15; prerequisite to #2040 in ForeverDB."
+    "notes": "Alliance; requires level 15; prerequisite to #2040 in ForeverDB.",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "141",
@@ -2636,7 +4083,18 @@
     "area": "Stormwind — Old Town / SI:7",
     "objective": "Take Shaw’s report back to Gryan Stoutmantle in Westfall.",
     "areaConfidence": "High",
-    "notes": "Requires #135."
+    "notes": "Requires #135.",
+    "prerequisites": [
+      {
+        "id": "135",
+        "name": "The Defias Brotherhood",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/141"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "92751",
@@ -2649,7 +4107,18 @@
     "area": "Stormwind — Old Town / SI:7",
     "objective": "Bring the Remote Detonator Kit to Sprite Jumpsprocket in the Dwarven District.",
     "areaConfidence": "Approximate",
-    "notes": "Requires #92750; distinct ID from previous Detonation at a Distance."
+    "notes": "Requires #92750; distinct ID from previous Detonation at a Distance.",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92750",
+        "name": "Detonation at a Distance",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/92751"
+        ]
+      }
+    ]
   },
   {
     "id": "92749",
@@ -2662,7 +4131,18 @@
     "area": "Stormwind — Dwarven District",
     "objective": "Obtain 10 Rough Dynamite and bring them to Sprite Jumpsprocket.",
     "areaConfidence": "Approximate",
-    "notes": "Requires #92748; dynamite may be crafted, traded or purchased."
+    "notes": "Requires #92748; dynamite may be crafted, traded or purchased.",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92748",
+        "name": "Explosive Consultation",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/92749"
+        ]
+      }
+    ]
   },
   {
     "id": "92750",
@@ -2675,7 +4155,18 @@
     "area": "Stormwind — Dwarven District",
     "objective": "Consult Stormwind Intelligence (SI:7) about a remote detonator.",
     "areaConfidence": "Approximate",
-    "notes": "Requires #92749; SI:7 is in Old Town."
+    "notes": "Requires #92749; SI:7 is in Old Town.",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92749",
+        "name": "A Dynamite Plan",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/92750"
+        ]
+      }
+    ]
   },
   {
     "id": "92752",
@@ -2688,7 +4179,18 @@
     "area": "Stormwind — Dwarven District",
     "objective": "Return with the Extra-Destructive Explosives to Alba Fairmoon in Westfall.",
     "areaConfidence": "Approximate",
-    "notes": "Requires #92751; distinct ID from earlier Explosive Consultation."
+    "notes": "Requires #92751; distinct ID from earlier Explosive Consultation.",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92751",
+        "name": "Detonation at a Distance",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/92752"
+        ]
+      }
+    ]
   },
   {
     "id": "168",
@@ -2701,7 +4203,9 @@
     "area": "Stormwind — Dwarven District",
     "objective": "Retrieve 4 Miners’ Union Cards from undead miners in the tunnels outside the instance.",
     "areaConfidence": "High",
-    "notes": "Alliance; available from level 14; no long prerequisite chain reported."
+    "notes": "Alliance; available from level 14; no long prerequisite chain reported.",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "167",
@@ -2714,7 +4218,9 @@
     "area": "Stormwind — Dwarven District",
     "objective": "Defeat Foreman Thistlenettle in the pre-instance tunnels and retrieve his badge.",
     "areaConfidence": "High",
-    "notes": "Alliance; available from level 15; no long prerequisite chain reported."
+    "notes": "Alliance; available from level 15; no long prerequisite chain reported.",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "2040",
@@ -2727,7 +4233,18 @@
     "area": "Stormwind — Dwarven District",
     "objective": "Recover the Gnoam Sprecklesprocket from Sneed’s Shredder inside The Deadmines.",
     "areaConfidence": "High",
-    "notes": "Alliance; available from level 15; ForeverDB identifies #2041 as preceding stage."
+    "notes": "Alliance; available from level 15; ForeverDB identifies #2041 as preceding stage.",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "2041",
+        "name": "Speak with Shoni",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2040"
+        ]
+      }
+    ]
   },
   {
     "id": "65",
@@ -2740,7 +4257,9 @@
     "area": "Westfall — Sentinel Hill",
     "objective": "Speak to Wiley the Black at Lakeshire Inn, Redridge Mountains.",
     "areaConfidence": "High",
-    "notes": "Alliance; available from level 14; starts the chain for #166 and #214."
+    "notes": "Alliance; available from level 14; starts the chain for #166 and #214.",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "135",
@@ -2753,7 +4272,18 @@
     "area": "Westfall — Sentinel Hill",
     "objective": "Take Wiley’s Note to Master Mathias Shaw in Stormwind Old Town.",
     "areaConfidence": "High",
-    "notes": "Requires #132."
+    "notes": "Requires #132.",
+    "prerequisites": [
+      {
+        "id": "132",
+        "name": "The Defias Brotherhood",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/135"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "142",
@@ -2766,7 +4296,18 @@
     "area": "Westfall — Sentinel Hill",
     "objective": "Find the Defias Messenger on Westfall roads and recover his message.",
     "areaConfidence": "High",
-    "notes": "Requires #141; messenger patrols the Moonbrook/Gold Coast Quarry/Jangolode Mine roads."
+    "notes": "Requires #141; messenger patrols the Moonbrook/Gold Coast Quarry/Jangolode Mine roads.",
+    "prerequisites": [
+      {
+        "id": "141",
+        "name": "The Defias Brotherhood",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/142"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "166",
@@ -2779,7 +4320,18 @@
     "area": "Westfall — Sentinel Hill",
     "objective": "Defeat Edwin VanCleef in The Deadmines and return his head.",
     "areaConfidence": "High",
-    "notes": "Alliance; requires #155; separate quest ID from earlier stages; main dungeon objective."
+    "notes": "Alliance; requires #155; separate quest ID from earlier stages; main dungeon objective.",
+    "prerequisites": [
+      {
+        "id": "155",
+        "name": "The Defias Brotherhood",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/166"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "92742",
@@ -2792,7 +4344,9 @@
     "area": "Westfall — Sentinel Hill",
     "objective": "Collect well-water samples at the Jansen Stead and Molsen Farm.",
     "areaConfidence": "High",
-    "notes": "Alliance; new in Forever; available from level 9; unlocks #92744."
+    "notes": "Alliance; new in Forever; available from level 9; unlocks #92744.",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "92744",
@@ -2805,7 +4359,18 @@
     "area": "Westfall — Sentinel Hill",
     "objective": "Collect 7 Longshore Murloc Gills from the Westfall shoreline.",
     "areaConfidence": "High",
-    "notes": "Requires #92742."
+    "notes": "Requires #92742.",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92742",
+        "name": "Testing the Wells",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/92744"
+        ]
+      }
+    ]
   },
   {
     "id": "92745",
@@ -2818,7 +4383,18 @@
     "area": "Westfall — Sentinel Hill",
     "objective": "Slay 4 Kobold Diggers in Jangolode Mine and 6 Riverpaw Miners at Gold Coast Quarry.",
     "areaConfidence": "Approximate",
-    "notes": "Requires #92744; objective confirmed from ForeverDB."
+    "notes": "Requires #92744; objective confirmed from ForeverDB.",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92744",
+        "name": "Murloc Gills",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/92745"
+        ]
+      }
+    ]
   },
   {
     "id": "92747",
@@ -2831,7 +4407,18 @@
     "area": "Westfall — Sentinel Hill",
     "objective": "Find 8 Suspicious Industrial Supplies in Moonbrook.",
     "areaConfidence": "Approximate",
-    "notes": "Requires #92745; objective confirmed from ForeverDB."
+    "notes": "Requires #92745; objective confirmed from ForeverDB.",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92745",
+        "name": "The State of the Mines",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/92747"
+        ]
+      }
+    ]
   },
   {
     "id": "92748",
@@ -2844,7 +4431,18 @@
     "area": "Westfall — Sentinel Hill",
     "objective": "Find an engineer in Stormwind’s Dwarven District.",
     "areaConfidence": "Approximate",
-    "notes": "Requires #92747."
+    "notes": "Requires #92747.",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92747",
+        "name": "Moonbrook Espionage",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/92748"
+        ]
+      }
+    ]
   },
   {
     "id": "92753",
@@ -2857,7 +4455,18 @@
     "area": "Westfall — Sentinel Hill",
     "objective": "Plant Extra-Destructive Explosives near the hidden forge inside The Deadmines, then meet Alba by the exit.",
     "areaConfidence": "High",
-    "notes": "Requires #92752; new Forever dungeon quest; stage with dungeon objective."
+    "notes": "Requires #92752; new Forever dungeon quest; stage with dungeon objective.",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92752",
+        "name": "Explosive Consultation",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/92753"
+        ]
+      }
+    ]
   },
   {
     "id": "214",
@@ -2870,7 +4479,18 @@
     "area": "Westfall — Sentinel Hill tower",
     "objective": "Collect 10 Red Silk Bandanas from Defias enemies inside The Deadmines.",
     "areaConfidence": "High",
-    "notes": "Alliance; available from level 14; requires #155; branches alongside #166."
+    "notes": "Alliance; available from level 14; requires #155; branches alongside #166.",
+    "prerequisites": [
+      {
+        "id": "155",
+        "name": "The Defias Brotherhood",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/214"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "155",
@@ -2883,7 +4503,18 @@
     "area": "Westfall — Sentinel Hill / Defias Traitor",
     "objective": "Escort the Defias Traitor to the hideout entrance in Moonbrook and report back to Gryan.",
     "areaConfidence": "Approximate",
-    "notes": "Requires #142; completing this stage unlocks both #166 and #214."
+    "notes": "Requires #142; completing this stage unlocks both #166 and #214.",
+    "prerequisites": [
+      {
+        "id": "142",
+        "name": "The Defias Brotherhood",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/155"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "92819",
@@ -2896,7 +4527,18 @@
     "area": "Westfall — near Deadmines exit",
     "objective": "Use the detonator after leaving The Deadmines.",
     "areaConfidence": "Approximate",
-    "notes": "Requires #92753; distinct ID from the in-dungeon stage."
+    "notes": "Requires #92753; distinct ID from the in-dungeon stage.",
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92753",
+        "name": "Destruction in Deadmines",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/92819"
+        ]
+      }
+    ]
   },
   {
     "id": "132",
@@ -2909,7 +4551,18 @@
     "area": "Redridge Mountains — Lakeshire",
     "objective": "Deliver Wiley’s Note to Gryan Stoutmantle in Westfall.",
     "areaConfidence": "High",
-    "notes": "Requires #65; separate quest ID despite identical title."
+    "notes": "Requires #65; separate quest ID despite identical title.",
+    "prerequisites": [
+      {
+        "id": "65",
+        "name": "The Defias Brotherhood",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/132"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "373",
@@ -2922,7 +4575,9 @@
     "area": "The Deadmines — Edwin VanCleef",
     "objective": "Read VanCleef’s letter and deliver it to Baros Alexston in Stormwind.",
     "areaConfidence": "High",
-    "notes": "Alliance; available from level 16; starts a separate follow-up storyline leading to The Stockade Riots; later follow-ups not prerequisites to Deadmines."
+    "notes": "Alliance; available from level 16; starts a separate follow-up storyline leading to The Stockade Riots; later follow-ups not prerequisites to Deadmines.",
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "3765",
@@ -2946,7 +4601,9 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "971",
@@ -2970,7 +4627,9 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "classic"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1198",
@@ -2994,7 +4653,9 @@
       "objective": "classic",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1275",
@@ -3018,7 +4679,18 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "3765",
+        "name": "The Corruption Abroad",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1275"
+        ]
+      }
+    ]
   },
   {
     "id": "1199",
@@ -3042,7 +4714,9 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1200",
@@ -3066,7 +4740,18 @@
       "objective": "forever",
       "giver": "classic",
       "pickupLocation": "classic"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1198",
+        "name": "In Search of Thaelrid",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1200"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1056",
@@ -3090,31 +4775,9 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
-  },
-  {
-    "id": "1008",
-    "zone": "Stonetalon Mountains",
-    "level": 19,
-    "name": "The Zoram Strand",
-    "stage": "Pridewings prerequisite — Ashenvale",
-    "giver": "Shindrell Swiftfire",
-    "coordinates": "34.6, 48.8",
-    "area": "Ashenvale",
-    "objective": "Collect 20 Wrathtail Heads at the Zoram Strand for Shindrell Swiftfire in Astranaar.",
-    "areaConfidence": "High",
-    "notes": "Alliance; No class restriction; Minimum level 14; Quest recorded by ForeverDB players in Forever; Cross-zone step in a Stonetalon quest chain; pickup area shown explicitly",
-    "sources": [
-      "https://foreverdb.net/quest/1008",
-      "https://foreverdb.net/quests/stonetalon-mountains"
-    ],
-    "evidence": {
-      "quest": "forever",
-      "level": "forever",
-      "objective": "forever",
-      "giver": "forever",
-      "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1070",
@@ -3138,7 +4801,9 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1085",
@@ -3162,7 +4827,18 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1070",
+        "name": "On Guard in Stonetalon",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1085"
+        ]
+      }
+    ]
   },
   {
     "id": "1071",
@@ -3186,7 +4862,18 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1085",
+        "name": "On Guard in Stonetalon",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1071"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1072",
@@ -3210,7 +4897,18 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1071",
+        "name": "A Gnome's Respite",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1072"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1073",
@@ -3234,7 +4932,18 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "classic"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1072",
+        "name": "An Old Colleague",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1073"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1074",
@@ -3258,7 +4967,18 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "classic"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1073",
+        "name": "Ineptitude + Chemicals = Fun",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1074"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1075",
@@ -3282,7 +5002,18 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1071",
+        "name": "A Gnome's Respite",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1075"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1076",
@@ -3306,7 +5037,18 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "classic"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1075",
+        "name": "A Scroll from Mauren",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1076"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1077",
@@ -3330,7 +5072,18 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "classic"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1076",
+        "name": "Devils in Westfall",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1077"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1079",
@@ -3354,7 +5107,27 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1074",
+        "name": "Ineptitude + Chemicals = Fun",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1079"
+        ]
+      }
+    ],
+    "previousQuests": [
+      {
+        "id": "1077",
+        "name": "Special Delivery for Gaxim",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1079"
+        ]
+      }
+    ]
   },
   {
     "id": "1080",
@@ -3378,7 +5151,27 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1077",
+        "name": "Special Delivery for Gaxim",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1080"
+        ]
+      }
+    ],
+    "previousQuests": [
+      {
+        "id": "1074",
+        "name": "Ineptitude + Chemicals = Fun",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1080"
+        ]
+      }
+    ]
   },
   {
     "id": "1091",
@@ -3402,7 +5195,26 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1079",
+        "name": "Covert Ops - Alpha",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1091"
+        ]
+      },
+      {
+        "id": "1080",
+        "name": "Covert Ops - Beta",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1091"
+        ]
+      }
+    ]
   },
   {
     "id": "1083",
@@ -3426,7 +5238,18 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1091",
+        "name": "Kaela's Update",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1083"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1084",
@@ -3450,7 +5273,18 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1091",
+        "name": "Kaela's Update",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1084"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1082",
@@ -3474,7 +5308,26 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1083",
+        "name": "Enraged Spirits",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1082"
+        ]
+      },
+      {
+        "id": "1084",
+        "name": "Wounded Ancients",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1082"
+        ]
+      }
+    ]
   },
   {
     "id": "1081",
@@ -3498,7 +5351,18 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1082",
+        "name": "Update for Sentinel Thenysil",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1081"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1078",
@@ -3522,7 +5386,9 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "classic"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1134",
@@ -3546,7 +5412,18 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1008",
+        "name": "The Zoram Strand",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1134"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1057",
@@ -3570,7 +5447,18 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1056",
+        "name": "Journey to Stonetalon Peak",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1057"
+        ]
+      }
+    ]
   },
   {
     "id": "1059",
@@ -3594,7 +5482,18 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1057",
+        "name": "Reclaiming the Charred Vale",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1059"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1483",
@@ -3618,7 +5517,9 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1093",
@@ -3642,7 +5543,18 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1483",
+        "name": "Ziz Fizziks",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1093"
+        ]
+      }
+    ]
   },
   {
     "id": "1094",
@@ -3666,7 +5578,18 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1093",
+        "name": "Super Reaper 6000",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1094"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1095",
@@ -3690,7 +5613,18 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1094",
+        "name": "Further Instructions",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1095"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1096",
@@ -3714,7 +5648,18 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1095",
+        "name": "Further Instructions",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1096"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1090",
@@ -3738,7 +5683,9 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "classic"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1092",
@@ -3762,7 +5709,18 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "classic"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "1090",
+        "name": "Gerenzo's Orders",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1092"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "1486",
@@ -3786,7 +5744,9 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "classic"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "865",
@@ -3810,7 +5770,9 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1491",
@@ -3834,7 +5796,18 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "865",
+        "name": "Raptor Horns",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1491"
+        ]
+      }
+    ],
+    "previousQuests": []
   },
   {
     "id": "959",
@@ -3858,7 +5831,9 @@
       "objective": "forever",
       "giver": "forever",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "1487",
@@ -3882,7 +5857,9 @@
       "objective": "forever",
       "giver": "classic",
       "pickupLocation": "classic"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "6981",
@@ -3906,7 +5883,9 @@
       "objective": "classic",
       "giver": "client",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [],
+    "previousQuests": []
   },
   {
     "id": "3370",
@@ -3930,6 +5909,17 @@
       "objective": "classic",
       "giver": "classic",
       "pickupLocation": "forever"
-    }
+    },
+    "prerequisites": [
+      {
+        "id": "6981",
+        "name": "The Glowing Shard",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/3370"
+        ]
+      }
+    ],
+    "previousQuests": []
   }
 ]

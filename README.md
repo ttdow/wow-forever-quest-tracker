@@ -7,6 +7,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Deadmines, Wailing Caverns, or Blackfathom Deeps.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
+- Expanded quests show known prerequisites and earlier chain steps. Click a tracked quest to jump to its list and expand it; completed prerequisites are marked with a check. Quests outside the tracker link to their ForeverDB guide.
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
 - Filter completed / not completed quests, or sort by level, name, or area.
 
@@ -25,19 +26,23 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 267 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 266 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
 - Ashenvale: 52 quests, excluding Horde-only quests
-- Stonetalon Mountains: 29 quests, including relevant introductions, prerequisites, and follow-ups
+- Stonetalon Mountains: 28 quests, including relevant introductions and follow-ups; The Zoram Strand is linked as a prerequisite in Ashenvale
 - Deadmines: 24 quests, including prerequisites and excluding Paladin-only quests
 - Wailing Caverns: 7 quests, including Raptor Horns and the Alliance In Nightmares follow-up
 - Blackfathom Deeps: 6 quests, including the Corruption Abroad introduction
 
-The researched Stonetalon Mountains, Wailing Caverns, and Blackfathom Deeps lists include Alliance/neutral quests available to Rogues and omit Horde-only quests and quests restricted to other classes. There are 262 unique quest IDs: five Ashenvale quests also appear with their related Stonetalon chains. Their completion status is shared automatically.
+The researched Stonetalon Mountains, Wailing Caverns, and Blackfathom Deeps lists include Alliance/neutral quests available to Rogues and omit Horde-only quests and quests restricted to other classes. There are 262 unique quest IDs: four Ashenvale quests with Stonetalon objectives or hand-ins also appear with their Stonetalon chains. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
+
+`prerequisites` contains explicit "Complete first" relationships. `previousQuests` contains sequence links displayed separately as "Earlier in chain". Each reference has a string `id`, `name`, `evidence`, and `sources`. An empty array means no relationship is currently recorded. Do not infer a mandatory prerequisite from a quest's chain number or "Offered after" observations.
+
+Tracked references prefer the current list when the same ID appears in more than one list; otherwise they open the matching quest in its other list. Navigation clears search/completion filters that would hide the target and expands and focuses it. Quest links use URL fragments and work when opened directly or in another tab. Browser Back restores the previous list.
 
 Edit the JSON and publish the change to update the tracker. To add another zone, add its quests to the JSON and its zone button to `index.html`.
 
