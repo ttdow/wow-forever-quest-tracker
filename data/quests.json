@@ -3763,5 +3763,173 @@
       "giver": "classic",
       "pickupLocation": "classic"
     }
+  },
+  {
+    "id": "1486",
+    "zone": "Wailing Caverns",
+    "level": 17,
+    "name": "Deviate Hides",
+    "stage": "Dungeon quest",
+    "giver": "Nalpak",
+    "coordinates": "46.0, 35.7",
+    "area": "Wailing Caverns entrance cave (The Barrens)",
+    "objective": "Collect 20 Deviate Hides in Wailing Caverns for Nalpak.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 13; Quest recorded by ForeverDB players in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1486",
+      "https://foreverdb.net/dungeon/43-wailing-caverns"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    }
+  },
+  {
+    "id": "865",
+    "zone": "Wailing Caverns",
+    "level": 18,
+    "name": "Raptor Horns",
+    "stage": "Smart Drinks chain — part 1/2 (prerequisite)",
+    "giver": "Mebok Mizzyrix",
+    "coordinates": "62.4, 37.7",
+    "area": "Ratchet (The Barrens)",
+    "objective": "Collect 5 Intact Raptor Horns from Sunscale Scytheclaws for Mebok Mizzyrix in Ratchet.",
+    "areaConfidence": "High",
+    "notes": "Neutral; No class restriction; Minimum level 13; Quest recorded by ForeverDB players in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/865",
+      "https://foreverdb.net/dungeon/43-wailing-caverns"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1491",
+    "zone": "Wailing Caverns",
+    "level": 18,
+    "name": "Smart Drinks",
+    "stage": "Smart Drinks chain — part 2/2",
+    "giver": "Mebok Mizzyrix",
+    "coordinates": "62.4, 37.7",
+    "area": "Ratchet (The Barrens)",
+    "objective": "Collect 6 portions of Wailing Essence in Wailing Caverns for Mebok Mizzyrix in Ratchet.",
+    "areaConfidence": "High",
+    "notes": "Neutral; No class restriction; Minimum level 13; Quest recorded by ForeverDB players in Forever; Requires #865 (Raptor Horns); Observed after #1069 (Deepmoss Spider Eggs); not asserted mandatory",
+    "sources": [
+      "https://foreverdb.net/quest/1491",
+      "https://foreverdb.net/dungeon/43-wailing-caverns"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "959",
+    "zone": "Wailing Caverns",
+    "level": 18,
+    "name": "Trouble at the Docks",
+    "stage": "Standalone quest",
+    "giver": "Crane Operator Bigglefuzz",
+    "coordinates": "63.1, 37.6",
+    "area": "Ratchet (The Barrens)",
+    "objective": "Retrieve the 99-Year-Old Port from Mad Magglish in Wailing Caverns for Crane Operator Bigglefuzz in Ratchet.",
+    "areaConfidence": "High",
+    "notes": "Neutral; No class restriction; Minimum level 14; Quest recorded by ForeverDB players in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/959",
+      "https://foreverdb.net/dungeon/43-wailing-caverns"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1487",
+    "zone": "Wailing Caverns",
+    "level": 21,
+    "name": "Deviate Eradication",
+    "stage": "Dungeon quest",
+    "giver": "Ebru",
+    "coordinates": "46.0, 35.7",
+    "area": "Wailing Caverns entrance cave (The Barrens)",
+    "objective": "Kill 7 Deviate Ravagers, 7 Deviate Vipers, 7 Deviate Shamblers, and 7 Deviate Dreadfangs for Ebru.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 15; Quest recorded by ForeverDB players in Forever; Pickup coordinates are a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1487",
+      "https://foreverdb.net/dungeon/43-wailing-caverns"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    }
+  },
+  {
+    "id": "6981",
+    "zone": "Wailing Caverns",
+    "level": 26,
+    "name": "The Glowing Shard",
+    "stage": "Glowing Shard chain — part 1/2 (item start)",
+    "giver": "Glowing Shard (dropped by Mutanus the Devourer)",
+    "coordinates": "",
+    "area": "Wailing Caverns (inside dungeon)",
+    "objective": "Ask about the Glowing Shard in Ratchet, then take it to Falla Sagewind near Wailing Caverns.",
+    "areaConfidence": "High",
+    "notes": "Neutral; No class restriction; Minimum level 15; Quest recorded by ForeverDB players in Forever; Item #10441 starts quest #6981; drop from Mutanus recorded in Forever; no outdoor pickup coordinates; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/6981",
+      "https://foreverdb.net/dungeon/43-wailing-caverns"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "client",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "3370",
+    "zone": "Wailing Caverns",
+    "level": 25,
+    "name": "In Nightmares",
+    "stage": "Glowing Shard chain — part 2/2 (Alliance follow-up)",
+    "giver": "Falla Sagewind",
+    "coordinates": "48.2, 32.8",
+    "area": "The Barrens — near Wailing Caverns",
+    "objective": "Bring the Nightmare Shard to Mathrengyl Bearwalker in Darnassus.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 15; Classic reference details; Alliance follow-up not yet confirmed by a Forever player; Falla Sagewind location observed on #6981; Alliance follow-up details remain Classic reference; Requires #6981 (The Glowing Shard); Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/3370",
+      "https://foreverdb.net/dungeon/43-wailing-caverns"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    }
   }
 ]
