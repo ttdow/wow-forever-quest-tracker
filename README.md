@@ -4,13 +4,13 @@ Static HTML, CSS, and JavaScript. No installation, server, dependencies, or buil
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Firefox or another modern browser.
 
-- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Deadmines, Wailing Caverns, or Blackfathom Deeps.
+- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Deadmines, Wailing Caverns, Blackfathom Deeps, or The Stockades.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
 - Filter completed / not completed quests, or sort by level, name, or area.
-- In Deadmines, Wailing Caverns, or Blackfathom Deeps, switch between **Quests** and **Drops**. Each boss has a card with an expandable loot table. Drops have item names, required levels, base stats/effects, and source evidence, with search, source filtering, and an optional Rogue filter.
+- In Deadmines, Wailing Caverns, Blackfathom Deeps, or The Stockades, switch between **Quests** and **Drops**. Each boss has a card with an expandable loot table. Drops have item names, required levels, base stats/effects, and source evidence, with search, source filtering, and an optional Rogue filter.
 
 Progress saves automatically in this browser's local storage. It survives closing the page and restarting the browser, but does not sync across browsers or devices. Clearing site data removes progress. Private browsing saves last only for that private session. Each quest is tracked by its ID, including shared IDs across zones.
 
@@ -27,7 +27,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 266 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 273 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
@@ -36,8 +36,9 @@ The browser loads all 266 quest entries directly from `data/quests.json`. This J
 - Deadmines: 24 quests, including prerequisites and excluding Paladin-only quests
 - Wailing Caverns: 7 quests, including Raptor Horns and the Alliance In Nightmares follow-up
 - Blackfathom Deeps: 6 quests, including the Corruption Abroad introduction
+- The Stockades: 7 quests, including the Bazil Thredd introduction; earlier prerequisites link to their existing list or external guide
 
-The researched Stonetalon Mountains, Wailing Caverns, and Blackfathom Deeps lists include Alliance/neutral quests available to Rogues and omit Horde-only quests and quests restricted to other classes. There are 262 unique quest IDs: four Ashenvale quests with Stonetalon objectives or hand-ins also appear with their Stonetalon chains. Their completion status is shared automatically.
+The researched Stonetalon Mountains, Wailing Caverns, Blackfathom Deeps, and Stockades lists include Alliance/neutral quests available to Rogues and omit Horde-only quests and quests restricted to other classes. There are 269 unique quest IDs: four Ashenvale quests with Stonetalon objectives or hand-ins also appear with their Stonetalon chains. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
@@ -55,13 +56,13 @@ Missing coordinates appear as a dash. Turn-in qualifiers, cross-zone pickup area
 
 ### Research sources
 
-Blackfathom Deeps and Stonetalon Mountains were researched on November 8, 2026 using [ForeverDB's Blackfathom Deeps guide](https://foreverdb.net/dungeon/48-blackfathom-deeps), [Stonetalon Mountains quest list](https://foreverdb.net/quests/stonetalon-mountains), and the individual quest guides linked in the JSON. Wailing Caverns was researched on November 9, 2026 using [ForeverDB's Wailing Caverns guide](https://foreverdb.net/dungeon/43-wailing-caverns) and individual quest/item-source records. [Research notes](data/research.md) describe eligibility checks, cross-zone inclusions, and evidence limits.
+Blackfathom Deeps and Stonetalon Mountains were researched on November 8, 2026 using [ForeverDB's Blackfathom Deeps guide](https://foreverdb.net/dungeon/48-blackfathom-deeps), [Stonetalon Mountains quest list](https://foreverdb.net/quests/stonetalon-mountains), and individual quest guides. Wailing Caverns and The Stockades were researched on November 9, 2026 using [ForeverDB's Wailing Caverns guide](https://foreverdb.net/dungeon/43-wailing-caverns), [Stockades guide](https://foreverdb.net/dungeon/34-stormwind-stockade), and individual quest/item-source records. [Research notes](data/research.md) describe eligibility checks, cross-zone inclusions, and evidence limits.
 
 The site must be served over HTTP or HTTPS so the browser can load the JSON file. Opening `index.html` directly from disk is not supported.
 
 ## Dungeon drops
 
-`data/drops.json` contains 133 uncommon-or-better equipment entries: 65 for Deadmines, 23 for Wailing Caverns, and 45 for Blackfathom Deeps. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats.
+`data/drops.json` contains 150 uncommon-or-better equipment entries: 65 for Deadmines, 23 for Wailing Caverns, 45 for Blackfathom Deeps, and 17 for The Stockades. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats.
 
 Boss cards start collapsed and show their matching item counts. Multiple cards can be expanded at once. Open cards are remembered for each dungeon during the current page session. Searching or choosing a specific source opens matching cards. Equipment without a confirmed boss source is grouped in a separate "Dungeon drop (source unspecified)" card.
 

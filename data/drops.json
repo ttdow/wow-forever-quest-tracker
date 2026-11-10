@@ -3007,6 +3007,386 @@
           ]
         }
       ]
+    },
+    "The Stockades": {
+      "id": 34,
+      "source": "https://foreverdb.net/dungeon/34-stormwind-stockade",
+      "items": [
+        {
+          "id": "273805",
+          "name": "Blackrock Harness",
+          "quality": 3,
+          "requiredLevel": 21,
+          "itemLevel": 26,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "96 Armor",
+            "+8 Stamina",
+            "+4 Defense",
+            "+14 Attack Power"
+          ],
+          "source": "Targorr the Dread",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/273805"
+          ]
+        },
+        {
+          "id": "274092",
+          "name": "Sharpened Cutlery",
+          "quality": 3,
+          "requiredLevel": 19,
+          "itemLevel": 26,
+          "slot": "Thrown",
+          "type": "Thrown",
+          "stats": [
+            "18–35 damage · 1.80s · 14.7 DPS",
+            "+1 Physical Damage Done"
+          ],
+          "source": "Kam Deepfury",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/274092"
+          ]
+        },
+        {
+          "id": "2280",
+          "name": "Kam's Walking Stick",
+          "quality": 3,
+          "requiredLevel": 24,
+          "itemLevel": 29,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "53–80 damage · 2.80s · 23.8 DPS",
+            "+10 Agility",
+            "+3 Intellect",
+            "Equip: Reduces the duration of all movement impairing effects on you by 10%."
+          ],
+          "source": "Kam Deepfury",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/2280"
+          ]
+        },
+        {
+          "id": "11983",
+          "name": "Chrome Ring",
+          "quality": 2,
+          "requiredLevel": 21,
+          "itemLevel": 26,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [],
+          "source": "Hamhock",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/11983"
+          ]
+        },
+        {
+          "id": "9798",
+          "name": "Ivycloth Robe",
+          "quality": 2,
+          "requiredLevel": 24,
+          "itemLevel": 29,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "42 Armor"
+          ],
+          "source": "Hamhock",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/9798"
+          ]
+        },
+        {
+          "id": "273811",
+          "name": "Repurposed Rack",
+          "quality": 3,
+          "requiredLevel": 25,
+          "itemLevel": 30,
+          "slot": "Off-hand",
+          "type": "Shield",
+          "stats": [
+            "661 Armor",
+            "+6 Strength",
+            "+7 Spell Power"
+          ],
+          "source": "Hamhock",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/273811"
+          ]
+        },
+        {
+          "id": "9805",
+          "name": "Superior Cloak",
+          "quality": 2,
+          "requiredLevel": 19,
+          "itemLevel": 24,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "19 Armor"
+          ],
+          "source": "Dextren Ward",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/9805"
+          ]
+        },
+        {
+          "id": "273819",
+          "name": "Boneslicer",
+          "quality": 3,
+          "requiredLevel": 23,
+          "itemLevel": 28,
+          "slot": "Two-hand",
+          "type": "Polearm",
+          "stats": [
+            "36–55 damage · 2.00s · 22.8 DPS",
+            "Chance on hit: Wounds the target for 70 Physical damage."
+          ],
+          "source": "Dextren Ward",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/273819"
+          ]
+        },
+        {
+          "id": "273829",
+          "name": "Concealed Hand Crossbow",
+          "quality": 3,
+          "requiredLevel": 26,
+          "itemLevel": 31,
+          "slot": "Ranged",
+          "type": "Crossbow",
+          "stats": [
+            "24–37 damage · 2.00s · 15.2 DPS",
+            "+12 Ranged Attack Power"
+          ],
+          "source": "Bazil Thredd",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/273829"
+          ]
+        },
+        {
+          "id": "2942",
+          "name": "Iron Knuckles",
+          "quality": 3,
+          "requiredLevel": 23,
+          "itemLevel": 28,
+          "slot": "One-hand",
+          "type": "Fist weapon",
+          "stats": [
+            "21–39 damage · 1.70s · 17.6 DPS",
+            "Chance on hit: Pummel the target for 25 damage and interrupt the spell being cast for 5 sec."
+          ],
+          "source": "Bruegal Ironknuckle",
+          "sourceOrder": 6,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/2942"
+          ]
+        },
+        {
+          "id": "3228",
+          "name": "Jimmied Handcuffs",
+          "quality": 3,
+          "requiredLevel": 23,
+          "itemLevel": 28,
+          "slot": "Wrists",
+          "type": "Mail",
+          "stats": [
+            "92 Armor",
+            "+3 Strength",
+            "+8 Stamina"
+          ],
+          "source": "Bruegal Ironknuckle",
+          "sourceOrder": 6,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/3228"
+          ]
+        },
+        {
+          "id": "2941",
+          "name": "Prison Shank",
+          "quality": 3,
+          "requiredLevel": 23,
+          "itemLevel": 28,
+          "slot": "One-hand",
+          "type": "Dagger",
+          "stats": [
+            "22–42 damage · 1.80s · 17.8 DPS",
+            "+6 Agility",
+            "+2 Stamina"
+          ],
+          "source": "Bruegal Ironknuckle",
+          "sourceOrder": 6,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/2941"
+          ]
+        },
+        {
+          "id": "6578",
+          "name": "Defender Leggings",
+          "quality": 2,
+          "requiredLevel": 18,
+          "itemLevel": 23,
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "155 Armor"
+          ],
+          "source": "Defias Inmate",
+          "sourceOrder": 1000,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/6578"
+          ]
+        },
+        {
+          "id": "3066",
+          "name": "Bright Gloves",
+          "quality": 2,
+          "requiredLevel": 19,
+          "itemLevel": 24,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "24 Armor",
+            "+4 Spirit",
+            "+4 Intellect"
+          ],
+          "source": "Defias Inmate",
+          "sourceOrder": 1000,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/3066"
+          ]
+        },
+        {
+          "id": "15269",
+          "name": "Massive Battle Axe",
+          "quality": 2,
+          "requiredLevel": 19,
+          "itemLevel": 24,
+          "slot": "Two-hand",
+          "type": "Two-hand axe",
+          "stats": [
+            "42–64 damage · 3.30s · 16.1 DPS"
+          ],
+          "source": "Defias Inmate",
+          "sourceOrder": 1000,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/15269"
+          ]
+        },
+        {
+          "id": "6587",
+          "name": "Scouting Trousers",
+          "quality": 2,
+          "requiredLevel": 19,
+          "itemLevel": 24,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "73 Armor"
+          ],
+          "source": "Defias Inmate",
+          "sourceOrder": 1000,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/6587"
+          ]
+        },
+        {
+          "id": "1076",
+          "name": "Defias Renegade Ring",
+          "quality": 3,
+          "requiredLevel": 21,
+          "itemLevel": 26,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [
+            "+6 Stamina",
+            "+4 Agility"
+          ],
+          "source": "Defias Insurgent",
+          "sourceOrder": 1000,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/34-stormwind-stockade",
+            "https://foreverdb.net/item/1076"
+          ]
+        }
+      ]
     }
   }
 }

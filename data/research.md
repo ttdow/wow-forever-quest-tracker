@@ -1,6 +1,6 @@
 # Quest research notes
 
-Blackfathom Deeps and Stonetalon Mountains were researched November 8, 2026. Wailing Caverns was researched November 9, 2026. The maintained quest data is `quests.json`.
+Blackfathom Deeps and Stonetalon Mountains were researched November 8, 2026. Wailing Caverns and The Stockades were researched November 9, 2026. The maintained quest data is `quests.json`.
 
 ## Sources
 
@@ -46,7 +46,7 @@ The Glowing Shard starts from an item dropped inside the dungeon, so its pickup 
 
 ## Prerequisite navigation
 
-On November 9, 2026, ForeverDB's full quest-guide records were checked for all 262 unique quest IDs in the tracker. Their explicit "Complete first" relationships are stored in `prerequisites`, with evidence and a link to the dependent quest's guide. "Chain link" and "Quest line" relationships are stored separately in `previousQuests` and shown as "Earlier in chain". "Offered after" observations are not turned into prerequisites.
+On November 9, 2026, ForeverDB's full quest-guide records were checked for all 269 unique quest IDs now in the tracker. Their explicit "Complete first" relationships are stored in `prerequisites`, with evidence and a link to the dependent quest's guide. "Chain link" and "Quest line" relationships are stored separately in `previousQuests` and shown as "Earlier in chain". "Offered after" observations are not turned into prerequisites.
 
 This distinction also applies to the Forever Deadmines explosives chain: its current source labels the preceding steps "Quest line", so the UI presents them as sequence links rather than asserting a mandatory completion requirement from older notes.
 
@@ -67,3 +67,15 @@ Only uncommon-or-better equipment explicitly present in a dungeon's loot list is
 Drop evidence is preserved independently of client stat evidence. In particular, Wailing Caverns displays its current Forever item stats while clearly marking the drop sources as Classic references. Sample drop percentages are not presented as established probabilities. Generic items with no boss association are labeled "Dungeon drop (source unspecified)" rather than assigned to a guessed boss or trash creature.
 
 The Rogue filter checks the client proficiency table for class ID 4, including one-handed axes as well as cloth, leather, appropriate weapons, and unrestricted accessories. Explicit item class/race restrictions are respected. "Rogue-usable" does not imply that caster stats are recommended. Damage/DPS are derived from client damage ranges and weapon speeds; effect text uses the current item spell descriptions. Classic comparison fields are not substituted for current stats, and random enchantment variants are not enumerated.
+
+## The Stockades
+
+Researched November 9, 2026 using [ForeverDB's Stormwind Stockade guide](https://foreverdb.net/dungeon/34-stormwind-stockade), its public dungeon quest/loot records, and individual quest and current-client item records. The source calls the instance "Stormwind Stockade"; the tracker uses "The Stockades".
+
+The list includes the six dungeon quests: What Comes Around... (#386), Crime and Punishment (#377), Quell the Uprising (#387), The Color of Blood (#388), The Fury Runs Deep (#378), and The Stockade Riots (#391). Bazil Thredd (#389) is included as the introduction that sends the player to Warden Thelwater. All seven allow Alliance races and have no class restriction.
+
+Bazil Thredd requires The Unsent Letter (#373), which already appears under Deadmines. The existing record is retained and linked in both directions automatically. The Stockade Riots requires Bazil Thredd. The Fury Runs Deep requires The Dark Iron War (#303), a Wetlands quest; that prerequisite links to its external guide and is not duplicated into The Stockades. Later Stormwind story quests after The Stockade Riots are outside this dungeon list.
+
+The Fury Runs Deep's quest details are still Classic references. Motley Garmason's pickup position is corroborated by Forever observations on The Dark Iron War, so the location evidence is separate from the quest-detail evidence. Other included quests and givers have Forever observations. Nikova Raskol's coordinate is an observed position rather than a guarantee of a stationary NPC.
+
+The Stockades Drops view adds 17 equipment entries: 13 observed drop sources and 4 Classic-reference sources. Eleven are usable by Rogues under the same client-proficiency filter as the other dungeons. The five primary bosses have cards; Bruegal Ironknuckle's rare-mob loot and named Defias creature drops are grouped under their actual source names. Bruegal's three entries and Defias Renegade Ring are Classic-reference sources. Speculative client associations are excluded, as are quest rewards and non-equipment. Current Forever stats are used for all 17 entries, independently of drop-source evidence.

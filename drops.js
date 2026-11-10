@@ -1,7 +1,7 @@
 (() => {
 'use strict';
 const $ = selector => document.querySelector(selector);
-const instances = new Set(['Deadmines', 'Wailing Caverns', 'Blackfathom Deeps']);
+const instances = new Set(['Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades']);
 const panel = $('#drops-panel');
 const state = { zone: '', data: null, pending: null, openCards: new Set() };
 

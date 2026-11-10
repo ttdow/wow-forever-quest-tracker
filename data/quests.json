@@ -5921,5 +5921,214 @@
       }
     ],
     "previousQuests": []
+  },
+  {
+    "id": "389",
+    "zone": "The Stockades",
+    "level": 22,
+    "name": "Bazil Thredd",
+    "stage": "Stockade Riots — introduction",
+    "giver": "Baros Alexston",
+    "coordinates": "57.6, 47.8",
+    "area": "Stormwind City",
+    "objective": "Speak with Warden Thelwater at The Stockades in Stormwind City.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 16; Quest and pickup recorded by ForeverDB players in Forever; Requires #373 (The Unsent Letter)",
+    "sources": [
+      "https://foreverdb.net/quest/389",
+      "https://foreverdb.net/dungeon/34-stormwind-stockade"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "373",
+        "name": "The Unsent Letter",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/389"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "386",
+    "zone": "The Stockades",
+    "level": 25,
+    "name": "What Comes Around...",
+    "stage": "Dungeon quest",
+    "giver": "Guard Berton",
+    "coordinates": "21.3, 46.7",
+    "area": "Lakeshire (Redridge Mountains)",
+    "objective": "Kill Targorr the Dread in The Stockades and bring his head to Guard Berton in Lakeshire.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 22; Quest and pickup recorded by ForeverDB players in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/386",
+      "https://foreverdb.net/dungeon/34-stormwind-stockade"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "377",
+    "zone": "The Stockades",
+    "level": 26,
+    "name": "Crime and Punishment",
+    "stage": "Dungeon quest",
+    "giver": "Councilman Millstipe",
+    "coordinates": "72.0, 47.8",
+    "area": "Darkshire (Duskwood)",
+    "objective": "Kill Dextren Ward in The Stockades and bring his hand to Councilman Millstipe in Darkshire.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 22; Quest and pickup recorded by ForeverDB players in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/377",
+      "https://foreverdb.net/dungeon/34-stormwind-stockade"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "387",
+    "zone": "The Stockades",
+    "level": 26,
+    "name": "Quell the Uprising",
+    "stage": "Dungeon quest",
+    "giver": "Warden Thelwater",
+    "coordinates": "51.5, 69.2",
+    "area": "The Stockades entrance (Stormwind City)",
+    "objective": "Kill 10 Defias Prisoners, 8 Defias Convicts, and 8 Defias Insurgents in The Stockades for Warden Thelwater.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 22; Quest and pickup recorded by ForeverDB players in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/387",
+      "https://foreverdb.net/dungeon/34-stormwind-stockade"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "388",
+    "zone": "The Stockades",
+    "level": 26,
+    "name": "The Color of Blood",
+    "stage": "Dungeon quest",
+    "giver": "Nikova Raskol",
+    "coordinates": "76.1, 63.4",
+    "area": "Stormwind City",
+    "objective": "Collect 10 Red Wool Bandanas in The Stockades for Nikova Raskol in Stormwind City.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 22; Quest and pickup recorded by ForeverDB players in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/388",
+      "https://foreverdb.net/dungeon/34-stormwind-stockade"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "378",
+    "zone": "The Stockades",
+    "level": 27,
+    "name": "The Fury Runs Deep",
+    "stage": "Dungeon quest",
+    "giver": "Motley Garmason",
+    "coordinates": "49.7, 18.3",
+    "area": "Dun Modr (Wetlands)",
+    "objective": "Kill Kam Deepfury in The Stockades and bring his head to Motley Garmason at Dun Modr.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 22; Classic-reference quest details; not yet confirmed by a Forever player; Motley Garmason position observed on #303; The Fury Runs Deep details remain Classic reference; Requires #303 (The Dark Iron War)",
+    "sources": [
+      "https://foreverdb.net/quest/378",
+      "https://foreverdb.net/dungeon/34-stormwind-stockade"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "303",
+        "name": "The Dark Iron War",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/378"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "391",
+    "zone": "The Stockades",
+    "level": 29,
+    "name": "The Stockade Riots",
+    "stage": "Stockade Riots — dungeon quest",
+    "giver": "Warden Thelwater",
+    "coordinates": "51.6, 69.3",
+    "area": "The Stockades entrance (Stormwind City)",
+    "objective": "Kill Bazil Thredd in The Stockades and bring his head to Warden Thelwater.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 16; Quest and pickup recorded by ForeverDB players in Forever; Requires #389 (Bazil Thredd)",
+    "sources": [
+      "https://foreverdb.net/quest/391",
+      "https://foreverdb.net/dungeon/34-stormwind-stockade"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "389",
+        "name": "Bazil Thredd",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/391"
+        ]
+      }
+    ],
+    "previousQuests": []
   }
 ]
