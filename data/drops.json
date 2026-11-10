@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "build": "1.60.1.70862",
   "instances": {
     "Deadmines": {
@@ -3384,6 +3384,612 @@
           "sources": [
             "https://foreverdb.net/dungeon/34-stormwind-stockade",
             "https://foreverdb.net/item/1076"
+          ]
+        }
+      ]
+    },
+    "Gnomeregan": {
+      "id": 90,
+      "source": "https://foreverdb.net/dungeon/90-gnomeregan",
+      "items": [
+        {
+          "id": "9454",
+          "name": "Acidic Walkers",
+          "quality": 3,
+          "requiredLevel": 27,
+          "itemLevel": 32,
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "34 Armor",
+            "+8 Intellect",
+            "+4 Spirit",
+            "+5 Nature Resistance",
+            "+5 Spell Power"
+          ],
+          "source": "Viscous Fallout",
+          "sourceOrder": 1,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9454"
+          ]
+        },
+        {
+          "id": "9452",
+          "name": "Hydrocane",
+          "quality": 3,
+          "requiredLevel": 27,
+          "itemLevel": 32,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "59–90 damage · 2.80s · 26.6 DPS",
+            "+15 Frost Resistance",
+            "Equip: Underwater Breath lasts 50% longer than normal."
+          ],
+          "source": "Viscous Fallout",
+          "sourceOrder": 1,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9452"
+          ]
+        },
+        {
+          "id": "9453",
+          "name": "Toxic Revenger",
+          "quality": 3,
+          "requiredLevel": 27,
+          "itemLevel": 32,
+          "slot": "One-hand",
+          "type": "Dagger",
+          "stats": [
+            "27–51 damage · 1.90s · 20.5 DPS",
+            "Chance on hit: Deals 14 Nature damage every 3 sec to any enemy in an 8 yard radius around the caster for 12 sec."
+          ],
+          "source": "Viscous Fallout",
+          "sourceOrder": 1,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9453"
+          ]
+        },
+        {
+          "id": "9447",
+          "name": "Electrocutioner Lagnut",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [
+            "+7 Spirit",
+            "+4 Stamina",
+            "+9 Healing Power",
+            "+3 Spell Damage"
+          ],
+          "source": "Electrocutioner 6000",
+          "sourceOrder": 2,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9447"
+          ]
+        },
+        {
+          "id": "9446",
+          "name": "Electrocutioner Leg",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Main hand",
+          "type": "Sword",
+          "stats": [
+            "26–49 damage · 1.70s · 22.1 DPS",
+            "Chance on hit: Blasts a target for 19 to 37 Nature damage. Mechanical targets take 2x damage."
+          ],
+          "source": "Electrocutioner 6000",
+          "sourceOrder": 2,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9446"
+          ]
+        },
+        {
+          "id": "9448",
+          "name": "Spidertank Oilrag",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Wrists",
+          "type": "Cloth",
+          "stats": [
+            "22 Armor",
+            "+9 Spell Power",
+            "+3 Mana per 5 sec"
+          ],
+          "source": "Electrocutioner 6000",
+          "sourceOrder": 2,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9448"
+          ]
+        },
+        {
+          "id": "9450",
+          "name": "Gnomebot Operating Boots",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "76 Armor",
+            "+12 Stamina",
+            "+11 Healing Power",
+            "+4 Spell Damage"
+          ],
+          "source": "Crowd Pummeler 9-60",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9450"
+          ]
+        },
+        {
+          "id": "9449",
+          "name": "Manual Crowd Pummeler",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Two-hand",
+          "type": "Two-hand mace",
+          "stats": [
+            "46–70 damage · 2.00s · 29.0 DPS",
+            "+16 Strength",
+            "+5 Agility",
+            "Use: Increases your attack speed by 50% for 30 sec."
+          ],
+          "source": "Crowd Pummeler 9-60",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9449"
+          ]
+        },
+        {
+          "id": "9861",
+          "name": "Archer's Gloves",
+          "quality": 2,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "63 Armor"
+          ],
+          "source": "Mekgineer Thermaplugg",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9861"
+          ]
+        },
+        {
+          "id": "9461",
+          "name": "Charged Gear",
+          "quality": 3,
+          "requiredLevel": 31,
+          "itemLevel": 36,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [
+            "+5 Arcane Resistance",
+            "+5 Nature Resistance"
+          ],
+          "source": "Mekgineer Thermaplugg",
+          "sourceOrder": 4,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9461"
+          ]
+        },
+        {
+          "id": "9492",
+          "name": "Electromagnetic Gigaflux Reactivator",
+          "quality": 3,
+          "requiredLevel": 31,
+          "itemLevel": 36,
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "43 Armor",
+            "+9 Spirit",
+            "+8 Intellect",
+            "+8 Spell Power",
+            "Use: Channels a bolt of lightning and hurls it towards all enemies in front of the caster causing 152 to 172 Nature damage. The caster is then surrounded by a barrier of electricity for 5 min."
+          ],
+          "source": "Mekgineer Thermaplugg",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9492"
+          ]
+        },
+        {
+          "id": "9458",
+          "name": "Thermaplugg's Central Core",
+          "quality": 3,
+          "requiredLevel": 31,
+          "itemLevel": 36,
+          "slot": "Off-hand",
+          "type": "Shield",
+          "stats": [
+            "776 Armor",
+            "+3 Spirit",
+            "Equip: When struck in combat has a 5% chance of inflicting 65 to 121 Nature damage to the attacker."
+          ],
+          "source": "Mekgineer Thermaplugg",
+          "sourceOrder": 4,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9458"
+          ]
+        },
+        {
+          "id": "9459",
+          "name": "Thermaplugg's Left Arm",
+          "quality": 3,
+          "requiredLevel": 31,
+          "itemLevel": 36,
+          "slot": "Two-hand",
+          "type": "Two-hand axe",
+          "stats": [
+            "67–102 damage · 2.70s · 31.3 DPS",
+            "+17 Strength",
+            "+5 Stamina",
+            "+4 Intellect"
+          ],
+          "source": "Mekgineer Thermaplugg",
+          "sourceOrder": 4,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9459"
+          ]
+        },
+        {
+          "id": "9445",
+          "name": "Grubbis Paws",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Hands",
+          "type": "Mail",
+          "stats": [
+            "144 Armor",
+            "+5 Agility",
+            "+6 Strength",
+            "+9 Spirit"
+          ],
+          "source": "Grubbis",
+          "sourceOrder": 5,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9445"
+          ]
+        },
+        {
+          "id": "9455",
+          "name": "Emissary Cuffs",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Wrists",
+          "type": "Leather",
+          "stats": [
+            "49 Armor",
+            "+6 Arcane Resistance"
+          ],
+          "source": "Dark Iron Ambassador",
+          "sourceOrder": 90,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9455"
+          ]
+        },
+        {
+          "id": "9456",
+          "name": "Glass Shooter",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Ranged",
+          "type": "Gun",
+          "stats": [
+            "36–68 damage · 2.90s · 17.9 DPS",
+            "+12 Attack Power"
+          ],
+          "source": "Dark Iron Ambassador",
+          "sourceOrder": 90,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9456"
+          ]
+        },
+        {
+          "id": "9457",
+          "name": "Royal Diplomatic Scepter",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Main hand",
+          "type": "Mace",
+          "stats": [
+            "37–69 damage · 2.30s · 23.0 DPS",
+            "+7 Spirit",
+            "+3 Stamina"
+          ],
+          "source": "Dark Iron Ambassador",
+          "sourceOrder": 90,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/9457"
+          ]
+        },
+        {
+          "id": "6613",
+          "name": "Sage's Bracers",
+          "quality": 2,
+          "requiredLevel": 23,
+          "itemLevel": 28,
+          "slot": "Wrists",
+          "type": "Cloth",
+          "stats": [
+            "18 Armor"
+          ],
+          "source": "Mechanized Sentry",
+          "sourceOrder": 90,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/6613"
+          ]
+        },
+        {
+          "id": "5214",
+          "name": "Wand of Eventide",
+          "quality": 2,
+          "requiredLevel": 27,
+          "itemLevel": 32,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "23–44 Arcane damage · 1.30s · 25.8 DPS",
+            "+5 Spell Power"
+          ],
+          "source": "Mechano-Flamewalker",
+          "sourceOrder": 90,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/90-gnomeregan",
+            "https://foreverdb.net/item/5214"
+          ]
+        }
+      ]
+    },
+    "Excavation Site: Wetlands": {
+      "id": 2998,
+      "source": "https://foreverdb.net/dungeon/2998-excavation-site-wetlands",
+      "items": [
+        {
+          "id": "273024",
+          "name": "Glinteye Slippers",
+          "quality": 3,
+          "requiredLevel": 26,
+          "itemLevel": 31,
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "33 Armor",
+            "+7 Spell Power",
+            "+6 Spirit",
+            "+9 Stamina"
+          ],
+          "source": "Saltspine",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/2998-excavation-site-wetlands",
+            "https://foreverdb.net/item/273024"
+          ]
+        },
+        {
+          "id": "273025",
+          "name": "Raptorclaw Greaves",
+          "quality": 3,
+          "requiredLevel": 26,
+          "itemLevel": 31,
+          "slot": "Feet",
+          "type": "Mail",
+          "stats": [
+            "152 Armor",
+            "+7 Strength",
+            "+7 Stamina",
+            "+6 Intellect"
+          ],
+          "source": "Shadetooth",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://foreverdb.net/dungeon/2998-excavation-site-wetlands",
+            "https://foreverdb.net/item/273025"
+          ]
+        },
+        {
+          "id": "273030",
+          "name": "Ring of Power Regulation",
+          "quality": 3,
+          "requiredLevel": 28,
+          "itemLevel": 33,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [
+            "+6 Spell Power",
+            "+3 Mana per 5 sec"
+          ],
+          "source": "Relic Guardian",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/2998-excavation-site-wetlands",
+            "https://foreverdb.net/item/273030"
+          ]
+        },
+        {
+          "id": "3067",
+          "name": "Bright Pants",
+          "quality": 2,
+          "requiredLevel": 21,
+          "itemLevel": 26,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "35 Armor",
+            "+6 Stamina",
+            "+6 Spirit"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 99,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/2998-excavation-site-wetlands",
+            "https://foreverdb.net/item/3067"
+          ]
+        },
+        {
+          "id": "9799",
+          "name": "Ivycloth Sash",
+          "quality": 2,
+          "requiredLevel": 21,
+          "itemLevel": 26,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "22 Armor"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 99,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/2998-excavation-site-wetlands",
+            "https://foreverdb.net/item/9799"
+          ]
+        },
+        {
+          "id": "4715",
+          "name": "Emblazoned Cloak",
+          "quality": 2,
+          "requiredLevel": 22,
+          "itemLevel": 27,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "20 Armor",
+            "+5 Stamina",
+            "+2 Spirit"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 99,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/2998-excavation-site-wetlands",
+            "https://foreverdb.net/item/4715"
+          ]
+        },
+        {
+          "id": "9807",
+          "name": "Superior Shoulders",
+          "quality": 2,
+          "requiredLevel": 22,
+          "itemLevel": 27,
+          "slot": "Shoulders",
+          "type": "Leather",
+          "stats": [
+            "67 Armor"
+          ],
+          "source": "Dungeon drop (source unspecified)",
+          "sourceOrder": 99,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://foreverdb.net/dungeon/2998-excavation-site-wetlands",
+            "https://foreverdb.net/item/9807"
           ]
         }
       ]

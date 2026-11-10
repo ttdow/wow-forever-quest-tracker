@@ -6130,5 +6130,771 @@
       }
     ],
     "previousQuests": []
+  },
+  {
+    "id": "2922",
+    "zone": "Gnomeregan",
+    "level": 26,
+    "name": "Save Techbot's Brain!",
+    "stage": "Techbot — dungeon quest",
+    "giver": "Tinkmaster Overspark",
+    "coordinates": "69.7, 50.0",
+    "area": "Ironforge",
+    "objective": "Defeat Techbot and bring Techbot's Memory Core to Tinkmaster Overspark in Ironforge.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20; Quest observed in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/2922",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "2923",
+        "name": "Tinkmaster Overspark",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2922"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2923",
+    "zone": "Gnomeregan",
+    "level": 26,
+    "name": "Tinkmaster Overspark",
+    "stage": "Techbot — introduction",
+    "giver": "Brother Sarno",
+    "coordinates": "51.1, 48.3",
+    "area": "Stormwind City",
+    "objective": "Speak with Tinkmaster Overspark in Ironforge.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20; Quest observed in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/2923",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2926",
+    "zone": "Gnomeregan",
+    "level": 27,
+    "name": "Gnogaine",
+    "stage": "Gnogaine — collect fallout",
+    "giver": "Ozzie Togglevolt",
+    "coordinates": "45.9, 49.3",
+    "area": "Kharanos (Dun Morogh)",
+    "objective": "Use the Empty Leaden Collection Phial on Irradiated Invaders or Irradiated Pillagers to collect radioactive fallout. Once it is full, take it back to Ozzie Togglevolt in Kharanos.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20; Quest observed in Forever; Objective is a Classic reference; Pickup position corroborated by a Forever observation of the same NPC on a related quest",
+    "sources": [
+      "https://foreverdb.net/quest/2926",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "2927",
+        "name": "The Day After",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2926"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2927",
+    "zone": "Gnomeregan",
+    "level": 27,
+    "name": "The Day After",
+    "stage": "Gnogaine — introduction",
+    "giver": "Gnoarn",
+    "coordinates": "69.7, 50.0",
+    "area": "Ironforge",
+    "objective": "Speak with Ozzie Togglevolt in Kharanos.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20; Quest observed in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/2927",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2931",
+    "zone": "Gnomeregan",
+    "level": 28,
+    "name": "Castpipe's Task",
+    "stage": "Data Rescue — introduction",
+    "giver": "Gaxim Rustfizzle",
+    "coordinates": "59.5, 67.1",
+    "area": "Stonetalon Mountains",
+    "objective": "Speak with Master Mechanic Castpipe in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 25; Quest details are Classic references; not yet observed in Forever; Pickup location is a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/2931",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2904",
+    "zone": "Gnomeregan",
+    "level": 30,
+    "name": "A Fine Mess",
+    "stage": "",
+    "giver": "Kernobee",
+    "coordinates": "",
+    "area": "Gnomeregan",
+    "objective": "Escort Kernobee to the Clockwerk Run exit and then report to Scooty in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 24; Quest details are Classic references; not yet observed in Forever; Pickup location is a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/2904",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2930",
+    "zone": "Gnomeregan",
+    "level": 30,
+    "name": "Data Rescue",
+    "stage": "Data Rescue — dungeon quest",
+    "giver": "Master Mechanic Castpipe",
+    "coordinates": "69.8, 48.1",
+    "area": "Ironforge",
+    "objective": "Bring a Prismatic Punch Card to Master Mechanic Castpipe in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 25; Quest observed in Forever; Pickup location is a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/2930",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "2931",
+        "name": "Castpipe's Task",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2930"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2924",
+    "zone": "Gnomeregan",
+    "level": 30,
+    "name": "Essential Artificials",
+    "stage": "Essential Artificials — dungeon quest",
+    "giver": "Klockmort Spannerspan",
+    "coordinates": "67.9, 46.1",
+    "area": "Ironforge",
+    "objective": "Bring 12 Essential Artificials to Klockmort Spannerspan in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 24; Quest observed in Forever; Pickup location is a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/2924",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "2925",
+        "name": "Klockmort's Essentials",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2924"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2928",
+    "zone": "Gnomeregan",
+    "level": 30,
+    "name": "Gyrodrillmatic Excavationators",
+    "stage": "",
+    "giver": "Shoni the Shilent",
+    "coordinates": "62.7, 34.3",
+    "area": "Stormwind City",
+    "objective": "Bring 24 Robo-mechanical Guts to Shoni the Shilent in Stormwind.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20; Quest observed in Forever; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/2928",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2925",
+    "zone": "Gnomeregan",
+    "level": 30,
+    "name": "Klockmort's Essentials",
+    "stage": "Essential Artificials — introduction",
+    "giver": "Mathiel",
+    "coordinates": "59.5, 45.4",
+    "area": "Darnassus",
+    "objective": "Speak with Klockmort Spannerspan in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 24; Quest details are Classic references; not yet observed in Forever; Pickup location is a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/2925",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2962",
+    "zone": "Gnomeregan",
+    "level": 30,
+    "name": "The Only Cure is More Green Glow",
+    "stage": "Gnogaine — follow-up",
+    "giver": "Ozzie Togglevolt",
+    "coordinates": "45.9, 49.3",
+    "area": "Kharanos (Dun Morogh)",
+    "objective": "Collect High Potency Radioactive Fallout in Gnomeregan before it decays; return it and the Heavy Leaden Collection Phial to Ozzie Togglevolt in Kharanos.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20; Quest details are Classic references; not yet observed in Forever; Objective is a Classic reference; Pickup position corroborated by a Forever observation of the same NPC on a related quest",
+    "sources": [
+      "https://foreverdb.net/quest/2962",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "2926",
+        "name": "Gnogaine",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2962"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2951",
+    "zone": "Gnomeregan",
+    "level": 30,
+    "name": "The Sparklematic 5200!",
+    "stage": "Sparklematic #142487 — insert item",
+    "giver": "The Sparklematic 5200",
+    "coordinates": "",
+    "area": "Gnomeregan",
+    "objective": "Insert 1 Grime-Encrusted Object and pay 3 silver at the Sparklematic 5200.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 25; Quest details are Classic references; not yet observed in Forever; Pickup location is a Classic reference; Objective is a Classic reference; Separate Sparklematic machine/step ID in the source; not marked repeatable",
+    "sources": [
+      "https://foreverdb.net/quest/2951",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2952",
+    "zone": "Gnomeregan",
+    "level": 30,
+    "name": "The Sparklematic 5200!",
+    "stage": "Sparklematic #142487 — collect result",
+    "giver": "The Sparklematic 5200",
+    "coordinates": "",
+    "area": "Gnomeregan",
+    "objective": "Collect the wrapped box from the Sparklematic 5200 after cleaning the object.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 25; Quest details are Classic references; not yet observed in Forever; Pickup location is a Classic reference; Objective is a Classic reference; Separate Sparklematic machine/step ID in the source; not marked repeatable; Objective summarized from the recorded completion text",
+    "sources": [
+      "https://foreverdb.net/quest/2952",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2951",
+        "name": "The Sparklematic 5200!",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2952"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4601",
+    "zone": "Gnomeregan",
+    "level": 30,
+    "name": "The Sparklematic 5200!",
+    "stage": "Sparklematic #175084 — insert item",
+    "giver": "The Sparklematic 5200",
+    "coordinates": "",
+    "area": "Gnomeregan",
+    "objective": "Insert 1 Grime-Encrusted Object and pay 3 silver at the Sparklematic 5200.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 25; Quest details are Classic references; not yet observed in Forever; Pickup location is a Classic reference; Objective is a Classic reference; Separate Sparklematic machine/step ID in the source; not marked repeatable",
+    "sources": [
+      "https://foreverdb.net/quest/4601",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4602",
+    "zone": "Gnomeregan",
+    "level": 30,
+    "name": "The Sparklematic 5200!",
+    "stage": "Sparklematic #175085 — insert item",
+    "giver": "The Sparklematic 5200",
+    "coordinates": "",
+    "area": "Gnomeregan",
+    "objective": "Insert 1 Grime-Encrusted Object and pay 3 silver at the Sparklematic 5200.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 25; Quest details are Classic references; not yet observed in Forever; Pickup location is a Classic reference; Objective is a Classic reference; Separate Sparklematic machine/step ID in the source; not marked repeatable",
+    "sources": [
+      "https://foreverdb.net/quest/4602",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4605",
+    "zone": "Gnomeregan",
+    "level": 30,
+    "name": "The Sparklematic 5200!",
+    "stage": "Sparklematic #175084 — collect result",
+    "giver": "The Sparklematic 5200",
+    "coordinates": "",
+    "area": "Gnomeregan",
+    "objective": "Collect the wrapped box from the Sparklematic 5200 after cleaning the object.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 25; Quest details are Classic references; not yet observed in Forever; Pickup location is a Classic reference; Objective is a Classic reference; Separate Sparklematic machine/step ID in the source; not marked repeatable; Objective summarized from the recorded completion text",
+    "sources": [
+      "https://foreverdb.net/quest/4605",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4601",
+        "name": "The Sparklematic 5200!",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4605"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4606",
+    "zone": "Gnomeregan",
+    "level": 30,
+    "name": "The Sparklematic 5200!",
+    "stage": "Sparklematic #175085 — collect result",
+    "giver": "The Sparklematic 5200",
+    "coordinates": "",
+    "area": "Gnomeregan",
+    "objective": "Collect the wrapped box from the Sparklematic 5200 after cleaning the object.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 25; Quest details are Classic references; not yet observed in Forever; Pickup location is a Classic reference; Objective is a Classic reference; Separate Sparklematic machine/step ID in the source; not marked repeatable; Objective summarized from the recorded completion text",
+    "sources": [
+      "https://foreverdb.net/quest/4606",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4602",
+        "name": "The Sparklematic 5200!",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4606"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2945",
+    "zone": "Gnomeregan",
+    "level": 34,
+    "name": "Grime-Encrusted Ring",
+    "stage": "Ring — clean the ring",
+    "giver": "Grime-Encrusted Ring (item; dropped by Dark Iron Agents)",
+    "coordinates": "",
+    "area": "Gnomeregan",
+    "objective": "Clean the Grime-Encrusted Ring in the Sparklematic 5200 (1 silver).",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 28; Quest observed in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/2945",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "classic",
+      "pickupLocation": "unknown"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2947",
+    "zone": "Gnomeregan",
+    "level": 34,
+    "name": "Return of the Ring",
+    "stage": "Ring — return to its maker",
+    "giver": "The Sparklematic 5200",
+    "coordinates": "",
+    "area": "Gnomeregan",
+    "objective": "Bring the Brilliant Gold Ring to Talvash del Kissel in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 28; Quest details are Classic references; not yet observed in Forever; Pickup location is a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/2947",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2945",
+        "name": "Grime-Encrusted Ring",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2947"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2929",
+    "zone": "Gnomeregan",
+    "level": 35,
+    "name": "The Grand Betrayal",
+    "stage": "",
+    "giver": "High Tinker Mekkatorque",
+    "coordinates": "69.2, 49.0",
+    "area": "Ironforge",
+    "objective": "Venture to Gnomeregan and kill Mekgineer Thermaplugg. Return to High Tinker Mekkatorque when the task is complete.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 25; Quest observed in Forever; Objective is a Classic reference; Pickup position corroborated by a Forever observation of the same NPC on a related quest",
+    "sources": [
+      "https://foreverdb.net/quest/2929",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "98815",
+    "zone": "Excavation Site: Wetlands",
+    "level": 28,
+    "name": "Highland Hides",
+    "stage": "",
+    "giver": "James Halloran",
+    "coordinates": "8.6, 55.8",
+    "area": "Menethil Harbor (Wetlands)",
+    "objective": "Return 4 Thicket Raptor Hides to James Halloran, the tanner, in Menethil Harbor.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/98815",
+      "https://foreverdb.net/dungeon/2998-excavation-site-wetlands"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "95646",
+    "zone": "Excavation Site: Wetlands",
+    "level": 31,
+    "name": "Horrors in the Highland",
+    "stage": "",
+    "giver": "Rethiel the Greenwarden",
+    "coordinates": "56.3, 40.6",
+    "area": "Wetlands",
+    "objective": "Kill a Highland Horror within Excavation Sites and bring its root core to Rethiel the Greenwarden in the Wetlands.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/95646",
+      "https://foreverdb.net/dungeon/2998-excavation-site-wetlands"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "95647",
+    "zone": "Excavation Site: Wetlands",
+    "level": 31,
+    "name": "Lost in the Thicket Things",
+    "stage": "",
+    "giver": "Caitlin Grassman",
+    "coordinates": "11.9, 58.8",
+    "area": "Menethil Harbor (Wetlands)",
+    "objective": "Find Ardin Grassman in the Excavation Sites.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever; Pickup position corroborated by a Forever observation of the same NPC on a related quest; Observed after Seeking Caitlin; not established as a required prerequisite",
+    "sources": [
+      "https://foreverdb.net/quest/95647",
+      "https://foreverdb.net/dungeon/2998-excavation-site-wetlands"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "95737",
+    "zone": "Excavation Site: Wetlands",
+    "level": 31,
+    "name": "Seeking Caitlin",
+    "stage": "Introduction from Ashenvale",
+    "giver": "Llana",
+    "coordinates": "35.0, 48.5",
+    "area": "Astranaar (Ashenvale)",
+    "objective": "Speak with Caitlin Grassman in Menethil Harbor.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/95737",
+      "https://foreverdb.net/dungeon/2998-excavation-site-wetlands"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "95772",
+    "zone": "Excavation Site: Wetlands",
+    "level": 31,
+    "name": "Songblade Search",
+    "stage": "Introduction from Redridge Mountains",
+    "giver": "Dorin Songblade",
+    "coordinates": "25.7, 46.7",
+    "area": "Lakeshire (Redridge Mountains)",
+    "objective": "Look for Dorin Songblade's brother, Daewyn, in Whelgar's Excavation Site.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/95772",
+      "https://foreverdb.net/dungeon/2998-excavation-site-wetlands"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2948",
+    "zone": "Gnomeregan",
+    "level": 35,
+    "name": "Gnome Improvement",
+    "stage": "Ring — upgrade follow-up",
+    "giver": "Talvash del Kissel",
+    "coordinates": "36.4, 3.6",
+    "area": "Ironforge",
+    "objective": "Bring the Brilliant Gold Ring, 1 Silver Bar, 1 Moss Agate, and 30 silver to Talvash del Kissel in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 28; Quest details are Classic references; not yet observed in Forever; Pickup location is a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/2948",
+      "https://foreverdb.net/dungeon/90-gnomeregan"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2947",
+        "name": "Return of the Ring",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2948"
+        ]
+      }
+    ],
+    "previousQuests": []
   }
 ]
