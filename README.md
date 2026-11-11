@@ -66,11 +66,13 @@ The site must be served over HTTP or HTTPS so the browser can load the JSON file
 
 ## Dungeon drops
 
-`data/drops.json` contains 176 uncommon-or-better equipment entries: 65 for Deadmines, 23 for Wailing Caverns, 45 for Blackfathom Deeps, 17 for The Stockades, 19 for Gnomeregan, and 7 for Excavation Site: Wetlands. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats.
+`data/drops.json` contains 101 boss-specific equipment entries: 31 for Deadmines, 21 for Wailing Caverns, 21 for Blackfathom Deeps, 9 for The Stockades, 16 for Gnomeregan, and 3 for Excavation Site: Wetlands. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats.
 
-Boss cards start collapsed and show their matching item counts. Multiple cards can be expanded at once. Open cards are remembered for each dungeon during the current page session. Searching or choosing a specific source opens matching cards. Equipment without a confirmed boss source is grouped in a separate "Dungeon drop (source unspecified)" card.
+Boss cards start collapsed and show their matching item counts. Multiple cards can be expanded at once. Open cards are remembered for each dungeon during the current page session. Searching or choosing a specific source opens matching cards. Named rare bosses are included; ordinary trash sources and equipment without a confirmed boss source are excluded.
 
-Drop-source evidence and item stats are separate. "Seen in Forever" means players recorded that drop source; "Classic ref." means the source is still a Classic reference. Stats/effects come from the current Forever client. Random enchantment variants are not enumerated. Speculative client-only associations, poor/common random equipment, non-equipment, and quest rewards are excluded. "Dungeon drop (source unspecified)" means the item was associated with the dungeon without a confirmed individual boss source.
+Only equipment specific to a boss's loot table is included. Generic world drops are excluded even when observed dropping from a boss, including generic rare-quality equipment. Boss-specific green items, such as Woodworking Gloves and Metalworking Gloves, remain included.
+
+Drop-source evidence and item stats are separate. "Seen in Forever" means players recorded that drop source; "Classic ref." means the source is still a Classic reference. Stats/effects come from the current Forever client. Speculative client-only associations, non-equipment, and quest rewards are excluded.
 
 Drops load separately when requested; a failed drop-data request does not block quests. The drop view, filters, and item links do not write to quest completion storage. Direct view links use a fragment such as `#zone=Deadmines&view=drops`.
 

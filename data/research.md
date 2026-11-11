@@ -56,6 +56,8 @@ The Zoram Strand was removed from the Stonetalon list because its pickup and obj
 
 ## Dungeon equipment drops
 
+The counts and broad equipment scope in the original import sections below describe the initial research. The later **Boss-specific equipment refinement** section records the current inclusion rule and counts.
+
 Researched November 9, 2026 from ForeverDB's [Deadmines](https://foreverdb.net/dungeon/36-deadmines), [Wailing Caverns](https://foreverdb.net/dungeon/43-wailing-caverns), and [Blackfathom Deeps](https://foreverdb.net/dungeon/48-blackfathom-deeps) dungeon records. Current item stats/effects, item types, stat names, and Rogue proficiencies come from the site's public Forever-client data (build 1.60.1.70862). Each item record includes source links.
 
 - Deadmines: 65 equipment entries; 59 observed drop sources and 6 Classic references.
@@ -95,3 +97,11 @@ Excavation Site: Wetlands includes Highland Hides (#98815), Horrors in the Highl
 Gnomeregan adds 19 equipment entries: four observed sources and fifteen Classic-reference sources; thirteen are Rogue-usable. All five primary bosses, the Dark Iron Ambassador, and named creature sources have cards. Excavation Site: Wetlands adds seven equipment entries, all with observed sources; six are Rogue-usable. Saltspine, Shadetooth, and Relic Guardian have confirmed equipment. Highland Horror currently has only a lockbox observation and therefore no equipment card. Four generic equipment drops have no confirmed creature source and remain in the unspecified-source card.
 
 Gnomeregan's client-only Thermaplugg association (#274068) and all six speculative Excavation Site associations (#273022, #273023, #273026–#273029, including Golemsight Long Gun) are excluded. Lockboxes, schematics, materials, quest items, poor/common equipment, and quest rewards are excluded under the existing equipment-only rule. Current item stats are used independently of source evidence; random enchantment variants are not enumerated.
+
+## Boss-specific equipment refinement
+
+Updated November 10, 2026 to show only boss-specific equipment at the user's request. A recorded drop from a boss does not by itself make an item part of that boss's distinctive loot table. Generic green equipment is removed from every dungeon, including Archer's Gloves from Thermaplugg and the generic greens observed on other bosses. Woodworking Gloves (#1945, Sneed) and Metalworking Gloves (#1944, Gilnid) remain because they are boss-specific uncommon items; this is not simply a quality cutoff.
+
+Generic rare world equipment is also excluded: Antipodean Rod (#2879) was observed on Geilhast, but is not a boss-specific drop. All unspecified-source equipment and ordinary trash-source entries are removed, including dungeon-specific trash equipment. Named rare bosses (Miner Johnson, Bruegal Ironknuckle, and Dark Iron Ambassador) retain their specific loot cards. No item is reassigned to an invented boss.
+
+The current lists contain 101 equipment entries: Deadmines 31, Wailing Caverns 21, Blackfathom Deeps 21, The Stockades 9, Gnomeregan 16, and Excavation Site: Wetlands 3. This removes 75 entries from the original 176. Remaining item stats, source evidence, and Rogue eligibility are unchanged. Quest records, prerequisite navigation, and completion storage are unchanged.
