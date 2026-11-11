@@ -3240,36 +3240,6 @@
     "previousQuests": []
   },
   {
-    "id": "98252",
-    "zone": "Ashenvale",
-    "level": 22,
-    "name": "A Void Path",
-    "stage": "",
-    "giver": "Va'xug Firefure",
-    "coordinates": "40.4, 61.5",
-    "area": "Fallen Sky Lake / western approach",
-    "objective": "Escort Va'xug's Eye of Kilrogg back to the main Ashenvale road.",
-    "areaConfidence": "High",
-    "notes": "Forever-specific; seen in Forever; faction not verified",
-    "prerequisites": [],
-    "previousQuests": []
-  },
-  {
-    "id": "98251",
-    "zone": "Ashenvale",
-    "level": 22,
-    "name": "Never Coming Back",
-    "stage": "",
-    "giver": "Va'xug Firefure",
-    "coordinates": "40.4, 61.5",
-    "area": "Fallen Sky Lake / western approach",
-    "objective": "Kill 6 Shadowhorn Stags and 6 Ashenvale Bears.",
-    "areaConfidence": "High",
-    "notes": "Forever-specific; seen in Forever; leads to A Void Path; faction not verified",
-    "prerequisites": [],
-    "previousQuests": []
-  },
-  {
     "id": "1011",
     "zone": "Ashenvale",
     "level": 29,

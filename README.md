@@ -27,11 +27,11 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 299 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 297 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
-- Ashenvale: 52 quests, excluding Horde-only quests
+- Ashenvale: 50 quests, excluding known Horde-only quests; Vengeful Trail's faction remains unverified
 - Stonetalon Mountains: 28 quests, including relevant introductions and follow-ups; The Zoram Strand is linked as a prerequisite in Ashenvale
 - Deadmines: 24 quests, including prerequisites and excluding Paladin-only quests
 - Wailing Caverns: 7 quests, including Raptor Horns and the Alliance In Nightmares follow-up
@@ -40,7 +40,7 @@ The browser loads all 299 quest entries directly from `data/quests.json`. This J
 - Gnomeregan: 21 quests, including introductions, the ring upgrade follow-up, and the distinct Sparklematic machine/step IDs
 - Excavation Site: Wetlands: 5 Alliance quests, including the introductions from Ashenvale and Redridge Mountains
 
-The researched lists include Alliance/neutral quests available to Rogues and omit Horde-only quests and quests restricted to other classes. There are 295 unique quest IDs: four Ashenvale quests with Stonetalon objectives or hand-ins also appear with their Stonetalon chains. Their completion status is shared automatically.
+The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Ashenvale's Forever-specific Vengeful Trail still has no faction classification in the source. There are 293 unique quest IDs: four Ashenvale quests with Stonetalon objectives or hand-ins also appear with their Stonetalon chains. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 

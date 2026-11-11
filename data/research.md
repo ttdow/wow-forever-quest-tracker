@@ -105,3 +105,9 @@ Updated November 10, 2026 to show only boss-specific equipment at the user's req
 Generic rare world equipment is also excluded: Antipodean Rod (#2879) was observed on Geilhast, but is not a boss-specific drop. All unspecified-source equipment and ordinary trash-source entries are removed, including dungeon-specific trash equipment. Named rare bosses (Miner Johnson, Bruegal Ironknuckle, and Dark Iron Ambassador) retain their specific loot cards. No item is reassigned to an invented boss.
 
 The current lists contain 101 equipment entries: Deadmines 31, Wailing Caverns 21, Blackfathom Deeps 21, The Stockades 9, Gnomeregan 16, and Excavation Site: Wetlands 3. This removes 75 entries from the original 176. Remaining item stats, source evidence, and Rogue eligibility are unchanged. Quest records, prerequisite navigation, and completion storage are unchanged.
+
+## Ashenvale faction correction
+
+On November 10, 2026, all 52 tracked Ashenvale quest IDs were checked against current ForeverDB quest guides. Forty-nine were classified Alliance; Never Coming Back (#98251), A Void Path (#98252), and Vengeful Trail (#98417) had blank faction fields and race mask 0. Those blank values did not establish neutral eligibility.
+
+The user confirmed that Never Coming Back and A Void Path are Horde-only. Both Va'xug Firefure quests were removed from Ashenvale based on that correction; the public guides' missing faction values are not presented as proof of Alliance availability. Ashenvale now has 50 entries. Vengeful Trail remains with its faction unverified. No remaining prerequisite or chain reference points to either removed quest. Existing completion storage is preserved, including any previously saved IDs.
