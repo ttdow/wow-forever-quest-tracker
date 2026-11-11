@@ -6866,5 +6866,1244 @@
       }
     ],
     "previousQuests": []
+  },
+  {
+    "id": "1387",
+    "zone": "Desolace",
+    "level": 31,
+    "name": "Centaur Bounty",
+    "stage": "",
+    "giver": "Corporal Melkins",
+    "coordinates": "66.7, 10.9",
+    "area": "Nijel's Point",
+    "objective": "Bring 15 Centaur Ears to Corporal Melkins at Nijel's Point in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1387",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1386",
+    "zone": "Desolace",
+    "level": 32,
+    "name": "Assault on the Kolkar",
+    "stage": "Magram centaur route",
+    "giver": "Warug",
+    "coordinates": "75.0, 68.2",
+    "area": "Magram Village",
+    "objective": "Maintain your reputation with the Magram. Kill 12 Kolkar Centaurs, 12 Kolkar Scouts and 6 Kolkar Maulers, then return to Warug in the Magram Village in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
+    "sources": [
+      "https://foreverdb.net/quest/1386",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1385",
+        "name": "Brutal Politics",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1386"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1384",
+    "zone": "Desolace",
+    "level": 32,
+    "name": "Raid on the Kolkar",
+    "stage": "Gelkis centaur route",
+    "giver": "Uthek the Wise",
+    "coordinates": "36.2, 79.2",
+    "area": "Gelkis Village",
+    "objective": "Maintain your reputation with the Gelkis, and bring 10 Crude Charms to Uthek the Wise in the Gelkis Village in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
+    "sources": [
+      "https://foreverdb.net/quest/1384",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1382",
+        "name": "Strange Alliance",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1384"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1369",
+    "zone": "Desolace",
+    "level": 33,
+    "name": "Broken Tears",
+    "stage": "Magram centaur route",
+    "giver": "Warug",
+    "coordinates": "75.0, 68.2",
+    "area": "Magram Village",
+    "objective": "Maintain your reputation with the Magram, and bring 3 Broken Tears to Warug in the Magram Village.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Alliance chain route shown; alternate Horde-only introduction omitted; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
+    "sources": [
+      "https://foreverdb.net/quest/1369",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1386",
+        "name": "Assault on the Kolkar",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1369"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1458",
+    "zone": "Desolace",
+    "level": 33,
+    "name": "Reagents for Reclaimers Inc.",
+    "stage": "Reclaimers — Hatefury reagents",
+    "giver": "Kreldig Ungor",
+    "coordinates": "66.2, 9.6",
+    "area": "Nijel's Point",
+    "objective": "Bring 10 Hatefury Claws, and 10 Hatefury Horns to Kreldig Ungor in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1458",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1453",
+        "name": "Reclaimers' Business in Desolace",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1458"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1453",
+    "zone": "Desolace",
+    "level": 33,
+    "name": "Reclaimers' Business in Desolace",
+    "stage": "Reclaimers — introduction from Ironforge",
+    "giver": "Roetten Stonehammer",
+    "coordinates": "69.7, 21.1",
+    "area": "Ironforge",
+    "objective": "Speak to Kreldig Ungor in Desolace.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest observed in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/1453",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "classic",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1440",
+    "zone": "Desolace",
+    "level": 33,
+    "name": "Return to Vahlarriel",
+    "stage": "Vahlarriel — escort Dalinda",
+    "giver": "Dalinda Malem",
+    "coordinates": "54.9, 26.1",
+    "area": "Thunder Axe Fortress",
+    "objective": "Escort Dalinda Malem from Thunder Axe Fortress and then return to Vahlarriel Demonslayer in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1440",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1439",
+        "name": "Search for Tyranis",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1440"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5741",
+    "zone": "Desolace",
+    "level": 33,
+    "name": "Sceptre of Light",
+    "stage": "Ethel Rethor — recover the sceptre",
+    "giver": "Azore Aldamort",
+    "coordinates": "38.9, 27.2",
+    "area": "Ethel Rethor",
+    "objective": "Get the Sceptre of Light and then return it to Azore Aldamort at the tower in Ethel Rethor.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/5741",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1439",
+    "zone": "Desolace",
+    "level": 33,
+    "name": "Search for Tyranis",
+    "stage": "Vahlarriel — search for Tyranis",
+    "giver": "Dalinda Malem",
+    "coordinates": "54.9, 26.1",
+    "area": "Thunder Axe Fortress",
+    "objective": "Find Tyranis Malem in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1439",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1438",
+        "name": "Vahlarriel's Search",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1439"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1437",
+    "zone": "Desolace",
+    "level": 33,
+    "name": "Vahlarriel's Search",
+    "stage": "Vahlarriel — find the wagon",
+    "giver": "Vahlarriel Demonslayer",
+    "coordinates": "66.4, 11.8",
+    "area": "Nijel's Point",
+    "objective": "Find and search Tyranis and Dalinda Malem's wagon in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1437",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1438",
+    "zone": "Desolace",
+    "level": 33,
+    "name": "Vahlarriel's Search",
+    "stage": "Vahlarriel — find Dalinda",
+    "giver": "Vahlarriel Demonslayer",
+    "coordinates": "66.4, 11.8",
+    "area": "Nijel's Point",
+    "objective": "Find Dalinda Malem in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1438",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1465",
+        "name": "Vahlarriel's Search",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1438"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1465",
+    "zone": "Desolace",
+    "level": 33,
+    "name": "Vahlarriel's Search",
+    "stage": "Vahlarriel — return the pendant",
+    "giver": "Malem Chest",
+    "coordinates": "56.5, 17.8",
+    "area": "Malem wagon (northern Desolace)",
+    "objective": "Return the Malem Pendant to Vahlarriel Demonslayer in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1465",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1437",
+        "name": "Vahlarriel's Search",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1465"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5561",
+    "zone": "Desolace",
+    "level": 34,
+    "name": "Kodo Roundup",
+    "stage": "",
+    "giver": "Smeed Scrabblescrew",
+    "coordinates": "60.9, 61.9",
+    "area": "Scrabblescrew's Camp",
+    "objective": "Bring five Tamed Kodos and the Kodo Kombobulator back to Smeed Scrabblescrew at Scrabblescrew's Camp.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/5561",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5821",
+    "zone": "Desolace",
+    "level": 35,
+    "name": "Bodyguard for Hire",
+    "stage": "",
+    "giver": "Cork Gizelton",
+    "coordinates": "60.4, 38.1",
+    "area": "Gizelton Caravan (moving)",
+    "objective": "Escort the Gizelton Caravan past the Kolkar Centaur village. Talk with Smeed at Scrabblescrew's Camp for your reward.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Caravan moves; coordinates are a reference position",
+    "sources": [
+      "https://foreverdb.net/quest/5821",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1385",
+    "zone": "Desolace",
+    "level": 35,
+    "name": "Brutal Politics",
+    "stage": "Magram centaur route",
+    "giver": "Captain Pentigast",
+    "coordinates": "66.7, 10.9",
+    "area": "Nijel's Point",
+    "objective": "Gain a Friendly reputation with the Magram, then speak with Warug.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
+    "sources": [
+      "https://foreverdb.net/quest/1385",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1371",
+    "zone": "Desolace",
+    "level": 35,
+    "name": "Gizmo for Warug",
+    "stage": "Magram centaur route",
+    "giver": "Warug",
+    "coordinates": "75.0, 68.2",
+    "area": "Magram Village",
+    "objective": "Maintain your reputation with the Magram, and bring an Advanced Target Dummy to Warug in the Magram Village in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
+    "sources": [
+      "https://foreverdb.net/quest/1371",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1369",
+        "name": "Broken Tears",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1371"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1459",
+    "zone": "Desolace",
+    "level": 35,
+    "name": "Reagents for Reclaimers Inc.",
+    "stage": "Reclaimers — Scorpashi venom and kodo hides",
+    "giver": "Kreldig Ungor",
+    "coordinates": "66.2, 9.6",
+    "area": "Nijel's Point",
+    "objective": "Bring 7 vials of Scorpashi Venom and 3 Aged Kodo Hides to Kreldig Ungor in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1459",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1458",
+        "name": "Reagents for Reclaimers Inc.",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1459"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1370",
+    "zone": "Desolace",
+    "level": 35,
+    "name": "Stealing Supplies",
+    "stage": "Gelkis centaur route",
+    "giver": "Uthek the Wise",
+    "coordinates": "36.2, 79.2",
+    "area": "Gelkis Village",
+    "objective": "Bring 6 bags of Crudely Dried Meat to Uthek the Wise in the Gelkis Village.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Alliance chain route shown; alternate Horde-only introduction omitted; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
+    "sources": [
+      "https://foreverdb.net/quest/1370",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1384",
+        "name": "Raid on the Kolkar",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1370"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1382",
+    "zone": "Desolace",
+    "level": 35,
+    "name": "Strange Alliance",
+    "stage": "Gelkis centaur route",
+    "giver": "Captain Pentigast",
+    "coordinates": "66.7, 10.9",
+    "area": "Nijel's Point",
+    "objective": "Gain a Friendly reputation with the Gelkis, then speak with Uthek the Wise.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
+    "sources": [
+      "https://foreverdb.net/quest/1382",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6161",
+    "zone": "Desolace",
+    "level": 36,
+    "name": "Claim Rackmore's Treasure!",
+    "stage": "",
+    "giver": "Rackmore's Log",
+    "coordinates": "36.1, 30.4",
+    "area": "Ethel Rethor coast",
+    "objective": "Find Rackmore's Silver Key. Find Rackmore's Golden Key. Find and open Rackmore's Chest.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/6161",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1374",
+    "zone": "Desolace",
+    "level": 37,
+    "name": "Khan Jehn",
+    "stage": "Gelkis centaur route",
+    "giver": "Uthek the Wise",
+    "coordinates": "36.2, 79.2",
+    "area": "Gelkis Village",
+    "objective": "Bring the Khan Jehn's Head to Uthek the Wise in the Gelkis Village in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
+    "sources": [
+      "https://foreverdb.net/quest/1374",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1373",
+        "name": "Ongeku",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1374"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1375",
+    "zone": "Desolace",
+    "level": 37,
+    "name": "Khan Shaka",
+    "stage": "Magram centaur route",
+    "giver": "Warug",
+    "coordinates": "75.0, 68.2",
+    "area": "Magram Village",
+    "objective": "Maintain your reputation with the Magram, and bring the Head of Khan Shaka to Warug in the Magram Village in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
+    "sources": [
+      "https://foreverdb.net/quest/1375",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1371",
+        "name": "Gizmo for Warug",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1375"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1373",
+    "zone": "Desolace",
+    "level": 37,
+    "name": "Ongeku",
+    "stage": "Gelkis centaur route",
+    "giver": "Uthek the Wise",
+    "coordinates": "36.2, 79.2",
+    "area": "Gelkis Village",
+    "objective": "Maintain your reputation with the Gelkis, and bring a Draenethyst Shard to Uthek the Wise in the Gelkis Village in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
+    "sources": [
+      "https://foreverdb.net/quest/1373",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1370",
+        "name": "Stealing Supplies",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1373"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "6027",
+    "zone": "Desolace",
+    "level": 38,
+    "name": "Book of the Ancients",
+    "stage": "Ethel Rethor — recover the book",
+    "giver": "Azore Aldamort",
+    "coordinates": "38.9, 27.2",
+    "area": "Ethel Rethor",
+    "objective": "Get the Book of the Ancients and return it to Azore Aldamort at the tower in Ethel Rethor.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/6027",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "5741",
+        "name": "Sceptre of Light",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/6027"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5943",
+    "zone": "Desolace",
+    "level": 38,
+    "name": "Gizelton Caravan",
+    "stage": "",
+    "giver": "Rigger Gizelton",
+    "coordinates": "60.3, 38.2",
+    "area": "Gizelton Caravan (moving)",
+    "objective": "Escort the Gizelton Caravan through Mannoroc Coven. Talk with Smeed at Scrabblescrew's Camp for your reward.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 32; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Caravan moves; coordinates are a reference position",
+    "sources": [
+      "https://foreverdb.net/quest/5943",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5501",
+    "zone": "Desolace",
+    "level": 39,
+    "name": "Bone Collector",
+    "stage": "",
+    "giver": "Bibbly F'utzbuckle",
+    "coordinates": "62.3, 39.0",
+    "area": "Kormek's Hut",
+    "objective": "Bring 10 Kodo Bones from the Kodo Graveyard to Bibbly F'utzbuckle at Kormek's Hut.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 33; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/5501",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6141",
+    "zone": "Desolace",
+    "level": 39,
+    "name": "Brother Anton",
+    "stage": "Scarlet Path — introduction from Stormwind",
+    "giver": "Brother Crowley",
+    "coordinates": "52.6, 43.2",
+    "area": "Stormwind City",
+    "objective": "Speak with Brother Anton in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 34; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/6141",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "261",
+    "zone": "Desolace",
+    "level": 39,
+    "name": "Down the Scarlet Path",
+    "stage": "Scarlet Path — defeat Undead Ravagers",
+    "giver": "Brother Anton",
+    "coordinates": "66.5, 7.9",
+    "area": "Nijel's Point",
+    "objective": "Destroy 30 Undead Ravagers, then return to Brother Anton at Nijel's Point.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 34; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/261",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "6141",
+        "name": "Brother Anton",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/261"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6132",
+    "zone": "Desolace",
+    "level": 39,
+    "name": "Get Me Out of Here!",
+    "stage": "",
+    "giver": "Melizza Brimbuzzle",
+    "coordinates": "33.9, 53.5",
+    "area": "Valley of Spears",
+    "objective": "Escort Melizza Brimbuzzle, then speak with Hornizz Brimbuzzle at the Kodo Graveyard in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 34; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/6132",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6134",
+    "zone": "Desolace",
+    "level": 39,
+    "name": "Ghost-o-plasm Round Up",
+    "stage": "",
+    "giver": "Hornizz Brimbuzzle",
+    "coordinates": "47.8, 61.8",
+    "area": "Kodo Graveyard",
+    "objective": "Bring 8 Ghost-o-plasms and the Crate of Ghost Magnets to Hornizz Brimbuzzle in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 34; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/6134",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1454",
+    "zone": "Desolace",
+    "level": 39,
+    "name": "The Karnitol Shipwreck",
+    "stage": "Karnitol — find the chest",
+    "giver": "Kreldig Ungor",
+    "coordinates": "66.2, 9.6",
+    "area": "Nijel's Point",
+    "objective": "Find Karnitol's Chest in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1454",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1453",
+        "name": "Reclaimers' Business in Desolace",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1454"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1455",
+    "zone": "Desolace",
+    "level": 39,
+    "name": "The Karnitol Shipwreck",
+    "stage": "Karnitol — report to Kreldig",
+    "giver": "Karnitol's Chest",
+    "coordinates": "36.1, 30.5",
+    "area": "Ethel Rethor coast",
+    "objective": "Return to Kreldig Ungor in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1455",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1454",
+        "name": "The Karnitol Shipwreck",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1455"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1456",
+    "zone": "Desolace",
+    "level": 39,
+    "name": "The Karnitol Shipwreck",
+    "stage": "Karnitol — recover the satchel",
+    "giver": "Kreldig Ungor",
+    "coordinates": "66.2, 9.6",
+    "area": "Nijel's Point",
+    "objective": "Find Karnitol's Satchel and return it to Kreldig Ungor in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1456",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1455",
+        "name": "The Karnitol Shipwreck",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1456"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1457",
+    "zone": "Desolace",
+    "level": 39,
+    "name": "The Karnitol Shipwreck",
+    "stage": "Karnitol — return to Ironforge",
+    "giver": "Kreldig Ungor",
+    "coordinates": "66.2, 9.6",
+    "area": "Nijel's Point",
+    "objective": "Bring Karnitol's Satchel to Roetten Stonehammer in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1457",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1456",
+        "name": "The Karnitol Shipwreck",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1457"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1052",
+    "zone": "Desolace",
+    "level": 40,
+    "name": "Down the Scarlet Path",
+    "stage": "Scarlet Path — deliver the letter to Southshore",
+    "giver": "Brother Anton",
+    "coordinates": "66.5, 7.9",
+    "area": "Nijel's Point",
+    "objective": "Take Brother Anton's Letter of Commendation to Raleigh the Devout in Southshore.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 34; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1052",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "261",
+        "name": "Down the Scarlet Path",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1052"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1466",
+    "zone": "Desolace",
+    "level": 40,
+    "name": "Reagents for Reclaimers Inc.",
+    "stage": "Reclaimers — demon reagents",
+    "giver": "Kreldig Ungor",
+    "coordinates": "66.2, 9.6",
+    "area": "Nijel's Point",
+    "objective": "Bring 10 Felhound Brains, 10 Nether Wings, and 10 vials of Doomwarder Blood to Kreldig Ungor in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1466",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1459",
+        "name": "Reagents for Reclaimers Inc.",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1466"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1467",
+    "zone": "Desolace",
+    "level": 40,
+    "name": "Reagents for Reclaimers Inc.",
+    "stage": "Reclaimers — deliver the package to Ironforge",
+    "giver": "Kreldig Ungor",
+    "coordinates": "66.2, 9.6",
+    "area": "Nijel's Point",
+    "objective": "Bring Leftwitch's Package back to Roetten Stonehammer in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/1467",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1466",
+        "name": "Reagents for Reclaimers Inc.",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1467"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1380",
+    "zone": "Desolace",
+    "level": 42,
+    "name": "Khan Hratha",
+    "stage": "Gelkis centaur route",
+    "giver": "Uthek the Wise",
+    "coordinates": "36.2, 79.2",
+    "area": "Gelkis Village",
+    "objective": "Maintain your reputation with the Gelkis, and bring the Maraudine Key Fragment to Uthek the Wise in the Gelkis Village.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
+    "sources": [
+      "https://foreverdb.net/quest/1380",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1374",
+        "name": "Khan Jehn",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1380"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1381",
+    "zone": "Desolace",
+    "level": 42,
+    "name": "Khan Hratha",
+    "stage": "Magram centaur route",
+    "giver": "Warug",
+    "coordinates": "75.0, 68.2",
+    "area": "Magram Village",
+    "objective": "Maintain your Magram reputation, and bring the Maraudine Key Fragment to Warug in the Magram Village in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
+    "sources": [
+      "https://foreverdb.net/quest/1381",
+      "https://foreverdb.net/quests/desolace"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1375",
+        "name": "Khan Shaka",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1381"
+        ]
+      }
+    ],
+    "previousQuests": []
   }
 ]
