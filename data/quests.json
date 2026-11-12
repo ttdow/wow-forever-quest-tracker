@@ -8397,5 +8397,206 @@
       }
     ],
     "previousQuests": []
+  },
+  {
+    "id": "92432",
+    "zone": "The City of Dalaran",
+    "level": 33,
+    "name": "An Alarming Request",
+    "stage": "Modera — introduction",
+    "giver": "Emissary Jacques",
+    "coordinates": "48.3, 60.1",
+    "area": "Hillsbrad Foothills",
+    "objective": "Report to the Image of Archmage Modera near the City of Dalaran.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance (verified in All The Things); No class restriction; Minimum level not recorded; Quest observed in Forever; Quest giver and pickup supplied by All The Things",
+    "sources": [
+      "https://foreverdb.net/quest/92432",
+      "https://www.wowhead.com/forever/quest=92432",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua",
+      "https://foreverdb.net/dungeon/2959-city-of-dalaran"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "wowhead",
+      "giver": "community",
+      "pickupLocation": "community",
+      "faction": "community"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "92456",
+    "zone": "The City of Dalaran",
+    "level": 33,
+    "name": "A Green Sample",
+    "stage": "",
+    "giver": "Shylamiir",
+    "coordinates": "31.4, 63.0",
+    "area": "Stormwind City",
+    "objective": "Collect a Fel Infused Blossom in The City of Dalaran and bring it to Shylamiir in Stormwind City.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance (verified in All The Things); No class restriction; Minimum level not recorded; Quest observed in Forever; Quest giver and pickup supplied by All The Things; coordinates independently recorded for Shylamiir as a turn-in NPC",
+    "sources": [
+      "https://foreverdb.net/quest/92456",
+      "https://www.wowhead.com/forever/quest=92456",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua",
+      "https://foreverdb.net/dungeon/2959-city-of-dalaran"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "wowhead",
+      "giver": "community",
+      "pickupLocation": "community",
+      "faction": "community"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "92457",
+    "zone": "The City of Dalaran",
+    "level": 33,
+    "name": "Starving Arcane",
+    "stage": "Modera — defeat the remnants",
+    "giver": "Image of Archmage Modera",
+    "coordinates": "68.6, 45.2",
+    "area": "Dalaran entrance (Silverpine Forest)",
+    "objective": "Defeat 8 Seeking Remnants, 8 Saturated Remnants, and 8 Mana Echoes inside the City of Dalaran for Archmage Modera outside of Dalaran.",
+    "areaConfidence": "High",
+    "notes": "Alliance (verified in All The Things); No class restriction; Minimum level not recorded; Quest observed in Forever; Required earlier quest recorded in All The Things",
+    "sources": [
+      "https://foreverdb.net/quest/92457",
+      "https://www.wowhead.com/forever/quest=92457",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua",
+      "https://foreverdb.net/dungeon/2959-city-of-dalaran"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever",
+      "faction": "community"
+    },
+    "prerequisites": [
+      {
+        "id": "92432",
+        "name": "An Alarming Request",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "92458",
+    "zone": "The City of Dalaran",
+    "level": 33,
+    "name": "Heart of Disruption",
+    "stage": "Modera — collect the Arcane Mote",
+    "giver": "Image of Archmage Modera",
+    "coordinates": "68.6, 45.2",
+    "area": "Dalaran entrance (Silverpine Forest)",
+    "objective": "Collect the Arcane Mote for the Image of Archmage Modera near the City of Dalaran.",
+    "areaConfidence": "High",
+    "notes": "Alliance (verified in All The Things); No class restriction; Minimum level not recorded; Quest observed in Forever; Required earlier quest recorded in All The Things",
+    "sources": [
+      "https://foreverdb.net/quest/92458",
+      "https://www.wowhead.com/forever/quest=92458",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua",
+      "https://foreverdb.net/dungeon/2959-city-of-dalaran"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever",
+      "faction": "community"
+    },
+    "prerequisites": [
+      {
+        "id": "92432",
+        "name": "An Alarming Request",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "92459",
+    "zone": "The City of Dalaran",
+    "level": 33,
+    "name": "Friend of the Kirin Tor",
+    "stage": "Modera — follow-up",
+    "giver": "Image of Archmage Modera",
+    "coordinates": "68.6, 45.2",
+    "area": "Dalaran entrance (Silverpine Forest)",
+    "objective": "Speak to Archmage Celindra in the City of Dalaran.",
+    "areaConfidence": "High",
+    "notes": "Alliance (verified in All The Things); No class restriction; Minimum level not recorded; Quest observed in Forever; Required earlier quest recorded in All The Things",
+    "sources": [
+      "https://foreverdb.net/quest/92459",
+      "https://www.wowhead.com/forever/quest=92459",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua",
+      "https://foreverdb.net/dungeon/2959-city-of-dalaran"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever",
+      "faction": "community"
+    },
+    "prerequisites": [
+      {
+        "id": "92458",
+        "name": "Heart of Disruption",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "92489",
+    "zone": "The City of Dalaran",
+    "level": 33,
+    "name": "Power Overwhelming",
+    "stage": "",
+    "giver": "High Sorcerer Andromath",
+    "coordinates": "48.8, 87.8",
+    "area": "Stormwind City",
+    "objective": "Defeat Arcanic Enigma (Mana Elemental) in The City of Dalaran and return to High Sorcerer Andromath in Stormwind City.",
+    "areaConfidence": "High",
+    "notes": "Alliance (verified in All The Things); No class restriction; Minimum level not recorded; Quest observed in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/92489",
+      "https://www.wowhead.com/forever/quest=92489",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua",
+      "https://foreverdb.net/dungeon/2959-city-of-dalaran"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "wowhead",
+      "giver": "forever",
+      "pickupLocation": "forever",
+      "faction": "community"
+    },
+    "prerequisites": [],
+    "previousQuests": []
   }
 ]

@@ -4,7 +4,7 @@ Static HTML, CSS, and JavaScript. No installation, server, dependencies, or buil
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Firefox or another modern browser.
 
-- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, or Excavation Site: Wetlands.
+- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, or The City of Dalaran.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
@@ -27,7 +27,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 344 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 350 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
@@ -40,8 +40,9 @@ The browser loads all 344 quest entries directly from `data/quests.json`. This J
 - The Stockades: 7 quests, including the Bazil Thredd introduction; earlier prerequisites link to their existing list or external guide
 - Gnomeregan: 21 quests, including introductions, the ring upgrade follow-up, and the distinct Sparklematic machine/step IDs
 - Excavation Site: Wetlands: 13 Alliance quests, including four Greenwarden prerequisites for Horrors in the Highland and four return/delivery follow-ups; player-reported requirements and observed sequence links are labeled
+- The City of Dalaran: 6 Alliance quests, including Modera's introduction and follow-up; Horde-only quests, including Opportunistic Education, are excluded
 
-The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Ashenvale's Forever-specific Vengeful Trail still has no faction classification in the source. There are 340 unique quest IDs: four Ashenvale quests with Stonetalon objectives or hand-ins also appear with their Stonetalon chains. Their completion status is shared automatically.
+The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Ashenvale's Forever-specific Vengeful Trail still has no faction classification in the source. There are 346 unique quest IDs: four Ashenvale quests with Stonetalon objectives or hand-ins also appear with their Stonetalon chains. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
@@ -67,11 +68,13 @@ Desolace was researched on November 11, 2026 using [ForeverDB's Desolace quest l
 
 Excavation Site: Wetlands was audited again on November 12, 2026 against the full dungeon quest registry, individual guides, and [Gurkenklaus's prerequisite report on Wowhead](https://www.wowhead.com/forever/quest=95646/horrors-in-the-highland#comments:id=6440044), supplied by the user. Four missing Alliance follow-ups and the four Greenwarden prerequisites were added. Several other sequence links are observed offer order rather than confirmed requirements; unknown quest starts remain unguessed.
 
+The City of Dalaran was researched on November 12, 2026 using ForeverDB's full dungeon quest records, Wowhead's Forever quest/item tooltips, and the All The Things addon database. The addon supplies faction and prerequisite details missing from the quest guides. Research notes link the exact addon revision used.
+
 The site must be served over HTTP or HTTPS so the browser can load the JSON file. Opening `index.html` directly from disk is not supported.
 
 ## Dungeon drops
 
-`data/drops.json` contains 107 boss-specific equipment entries: 31 for Deadmines, 21 for Wailing Caverns, 21 for Blackfathom Deeps, 9 for The Stockades, 16 for Gnomeregan, and 9 for Excavation Site: Wetlands. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats.
+`data/drops.json` contains 131 boss-specific equipment entries: 31 for Deadmines, 21 for Wailing Caverns, 21 for Blackfathom Deeps, 9 for The Stockades, 16 for Gnomeregan, 9 for Excavation Site: Wetlands, and 24 for The City of Dalaran. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats.
 
 Boss cards start collapsed and show their matching item counts. Multiple cards can be expanded at once. Open cards are remembered for each dungeon during the current page session. Searching or choosing a specific source opens matching cards. Named rare bosses are included; ordinary trash sources and equipment without a confirmed boss source are excluded.
 

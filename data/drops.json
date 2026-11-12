@@ -2516,6 +2516,653 @@
         }
       ],
       "build": "1.60.1.70888"
+    },
+    "The City of Dalaran": {
+      "id": 2959,
+      "source": "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+      "build": "1.60.1.70888",
+      "items": [
+        {
+          "id": "273034",
+          "name": "Ephemeral Grips",
+          "quality": 3,
+          "requiredLevel": 27,
+          "itemLevel": 32,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "31 Armor",
+            "+7 Stamina",
+            "+7 Intellect",
+            "+9 Arcane Damage Done",
+            "+9 Shadow Damage Done"
+          ],
+          "source": "Arcane Anomaly",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273034",
+            "https://nether.wowhead.com/forever/tooltip/item/273034",
+            "https://foreverdb.net/item/273034",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273035",
+          "name": "Mana-Warped Chain Shirt",
+          "quality": 3,
+          "requiredLevel": 27,
+          "itemLevel": 32,
+          "slot": "Chest",
+          "type": "Mail",
+          "stats": [
+            "225 Armor",
+            "+8 Stamina",
+            "+12 Strength",
+            "+3 Mana per 5 sec"
+          ],
+          "source": "Arcane Anomaly",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273035",
+            "https://nether.wowhead.com/forever/tooltip/item/273035",
+            "https://foreverdb.net/item/273035",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273031",
+          "name": "Runemender's Seal",
+          "quality": 3,
+          "requiredLevel": 27,
+          "itemLevel": 32,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [
+            "+6 Intellect",
+            "+6 Spirit",
+            "+9 Healing Power",
+            "+3 Spell Damage"
+          ],
+          "source": "Arcane Anomaly",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273031",
+            "https://nether.wowhead.com/forever/tooltip/item/273031",
+            "https://foreverdb.net/item/273031",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273039",
+          "name": "Blightleaf Rope",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "28 Armor",
+            "+10 Intellect",
+            "+7 Spell Power",
+            "+5 Health per 5 sec"
+          ],
+          "source": "Fel Ancient",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273039",
+            "https://nether.wowhead.com/forever/tooltip/item/273039",
+            "https://foreverdb.net/item/273039",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273037",
+          "name": "Felbough Arm",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Two-hand",
+          "type": "Polearm",
+          "stats": [
+            "69–104 damage · 3.00s · 28.8 DPS",
+            "+10 Agility",
+            "+10 Hit",
+            "+9 Nature Resistance"
+          ],
+          "source": "Fel Ancient",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273037",
+            "https://nether.wowhead.com/forever/tooltip/item/273037",
+            "https://foreverdb.net/item/273037",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273038",
+          "name": "Garb of Fallen Felbark",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "110 Armor",
+            "+13 Intellect",
+            "+9 Agility",
+            "+7 Stamina"
+          ],
+          "source": "Fel Ancient",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273038",
+            "https://nether.wowhead.com/forever/tooltip/item/273038",
+            "https://foreverdb.net/item/273038",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273042",
+          "name": "Manascale Treads",
+          "quality": 3,
+          "requiredLevel": 28,
+          "itemLevel": 33,
+          "slot": "Feet",
+          "type": "Mail",
+          "stats": [
+            "157 Armor",
+            "+7 Strength",
+            "+7 Intellect",
+            "+7 Critical Strike"
+          ],
+          "source": "Mana Devourer",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273042",
+            "https://nether.wowhead.com/forever/tooltip/item/273042",
+            "https://foreverdb.net/item/273042",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273041",
+          "name": "Slitherwrap Girdle",
+          "quality": 3,
+          "requiredLevel": 28,
+          "itemLevel": 33,
+          "slot": "Waist",
+          "type": "Leather",
+          "stats": [
+            "61 Armor",
+            "+9 Agility",
+            "+6 Stamina",
+            "Equip: When struck in combat, drain 2 mana from the attacker."
+          ],
+          "source": "Mana Devourer",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273041",
+            "https://nether.wowhead.com/forever/tooltip/item/273041",
+            "https://foreverdb.net/item/273041",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273040",
+          "name": "Spine of the Devourer",
+          "quality": 3,
+          "requiredLevel": 28,
+          "itemLevel": 33,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "80–120 damage · 3.60s · 27.8 DPS",
+            "+14 Stamina",
+            "+3 Spell Penetration"
+          ],
+          "source": "Mana Devourer",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273040",
+            "https://nether.wowhead.com/forever/tooltip/item/273040",
+            "https://foreverdb.net/item/273040",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273045",
+          "name": "Drape of Shifting Energy",
+          "quality": 3,
+          "requiredLevel": 27,
+          "itemLevel": 32,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "24 Armor",
+            "+12 Attack Power",
+            "+7 Spirit"
+          ],
+          "source": "Arcanic Enigma",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273045",
+            "https://nether.wowhead.com/forever/tooltip/item/273045",
+            "https://foreverdb.net/item/273045",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273044",
+          "name": "Violet Sorcerer's Robes",
+          "quality": 3,
+          "requiredLevel": 27,
+          "itemLevel": 32,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "49 Armor",
+            "+15 Intellect",
+            "+9 Spell Power",
+            "Equip: When damaged, has a chance to reduce threat level on all enemies by a small amount for 10 sec."
+          ],
+          "source": "Arcanic Enigma",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273044",
+            "https://nether.wowhead.com/forever/tooltip/item/273044",
+            "https://foreverdb.net/item/273044",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273043",
+          "name": "Wand of Mana Concentration",
+          "quality": 3,
+          "requiredLevel": 27,
+          "itemLevel": 32,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "37–69 Arcane damage · 1.70s · 31.2 DPS",
+            "+4 Intellect",
+            "+2 Mana per 5 sec"
+          ],
+          "source": "Arcanic Enigma",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273043",
+            "https://nether.wowhead.com/forever/tooltip/item/273043",
+            "https://foreverdb.net/item/273043",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273046",
+          "name": "Guardian's Dualblade",
+          "quality": 3,
+          "requiredLevel": 28,
+          "itemLevel": 33,
+          "slot": "Two-hand",
+          "type": "Two-hand axe",
+          "stats": [
+            "78–117 damage · 3.50s · 27.9 DPS",
+            "Equip: When damaged, has a chance to grant you 1080 armor for 12 sec."
+          ],
+          "source": "Unstable Sentinel",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273046",
+            "https://nether.wowhead.com/forever/tooltip/item/273046",
+            "https://foreverdb.net/item/273046",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273048",
+          "name": "Refractory Scaleguards",
+          "quality": 3,
+          "requiredLevel": 28,
+          "itemLevel": 33,
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "299 Armor",
+            "100 Block",
+            "+12 Strength",
+            "+5 Arcane Resistance"
+          ],
+          "source": "Unstable Sentinel",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273048",
+            "https://nether.wowhead.com/forever/tooltip/item/273048",
+            "https://foreverdb.net/item/273048",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273047",
+          "name": "Unstable Crystalline Shoulderpads",
+          "quality": 3,
+          "requiredLevel": 28,
+          "itemLevel": 33,
+          "slot": "Shoulders",
+          "type": "Leather",
+          "stats": [
+            "81 Armor",
+            "+9 Agility",
+            "+2 Mana per 5 sec",
+            "+6 Stamina"
+          ],
+          "source": "Unstable Sentinel",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273047",
+            "https://nether.wowhead.com/forever/tooltip/item/273047",
+            "https://foreverdb.net/item/273047",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273055",
+          "name": "Bonepile Gaze",
+          "quality": 3,
+          "requiredLevel": 28,
+          "itemLevel": 33,
+          "slot": "Off-hand",
+          "type": "Shield",
+          "stats": [
+            "718 Armor",
+            "+5 Strength",
+            "+8 Block Value",
+            "+5 Stamina"
+          ],
+          "source": "Lyn the Ignored",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273055",
+            "https://nether.wowhead.com/forever/tooltip/item/273055",
+            "https://foreverdb.net/item/273055",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273054",
+          "name": "Cartilage Shapers",
+          "quality": 3,
+          "requiredLevel": 28,
+          "itemLevel": 33,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "68 Armor",
+            "+9 Agility",
+            "+8 Spirit",
+            "+4 Skinning Skill"
+          ],
+          "source": "Lyn the Ignored",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273054",
+            "https://nether.wowhead.com/forever/tooltip/item/273054",
+            "https://foreverdb.net/item/273054",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273053",
+          "name": "Tendonscraper Dagger",
+          "quality": 3,
+          "requiredLevel": 28,
+          "itemLevel": 33,
+          "slot": "Main hand",
+          "type": "Dagger",
+          "stats": [
+            "24–45 damage · 1.60s · 21.6 DPS",
+            "+5 Stamina",
+            "+8 Health per 5 sec"
+          ],
+          "source": "Lyn the Ignored",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273053",
+            "https://nether.wowhead.com/forever/tooltip/item/273053",
+            "https://foreverdb.net/item/273053",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273032",
+          "name": "Bonebinder's Signet",
+          "quality": 3,
+          "requiredLevel": 25,
+          "itemLevel": 31,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [
+            "40 Armor",
+            "40 Block",
+            "+6 Spirit",
+            "+5 Strength"
+          ],
+          "source": "Atrexis the Grave Knight",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273032",
+            "https://nether.wowhead.com/forever/tooltip/item/273032",
+            "https://foreverdb.net/item/273032",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273033",
+          "name": "Gravespike Repeater",
+          "quality": 3,
+          "requiredLevel": 26,
+          "itemLevel": 31,
+          "slot": "Ranged",
+          "type": "Crossbow",
+          "stats": [
+            "28–43 damage · 2.30s · 15.4 DPS",
+            "+8 Attack Power",
+            "+9 Attack Power Vs Humanoid"
+          ],
+          "source": "Atrexis the Grave Knight",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273033",
+            "https://nether.wowhead.com/forever/tooltip/item/273033",
+            "https://foreverdb.net/item/273033",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273036",
+          "name": "Graveweave Bindings",
+          "quality": 3,
+          "requiredLevel": 26,
+          "itemLevel": 31,
+          "slot": "Wrists",
+          "type": "Cloth",
+          "stats": [
+            "21 Armor",
+            "+5 Spell Power",
+            "+6 Strength",
+            "+2 Mana per 5 sec"
+          ],
+          "source": "Atrexis the Grave Knight",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273036",
+            "https://nether.wowhead.com/forever/tooltip/item/273036",
+            "https://foreverdb.net/item/273036",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273049",
+          "name": "Archmagister's Faceted Pendant",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Neck",
+          "type": "Accessory",
+          "stats": [
+            "+6 Intellect",
+            "+12 Attack Power",
+            "Use: Increase experience gained from slaying Undead by 10% for 5 min."
+          ],
+          "source": "Shade of the Archmage",
+          "sourceOrder": 9,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273049",
+            "https://nether.wowhead.com/forever/tooltip/item/273049",
+            "https://foreverdb.net/item/273049",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273052",
+          "name": "Ponderous Orb",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Held in off-hand",
+          "type": "Accessory",
+          "stats": [
+            "+8 Spirit",
+            "+2 Intellect",
+            "+11 Healing Power",
+            "+4 Spell Damage"
+          ],
+          "source": "Shade of the Archmage",
+          "sourceOrder": 9,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273052",
+            "https://nether.wowhead.com/forever/tooltip/item/273052",
+            "https://foreverdb.net/item/273052",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        },
+        {
+          "id": "273051",
+          "name": "Violet Sorcerer's Mantle",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Shoulders",
+          "type": "Cloth",
+          "stats": [
+            "38 Armor",
+            "+9 Intellect",
+            "+4 Spell Penetration"
+          ],
+          "source": "Shade of the Archmage",
+          "sourceOrder": 9,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273051",
+            "https://nether.wowhead.com/forever/tooltip/item/273051",
+            "https://foreverdb.net/item/273051",
+            "https://foreverdb.net/dungeon/2959-city-of-dalaran",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/e8874812c8a9f9db0c65979c51eb8e9782915c98/.contrib/.db/forever/dungeons%20%26%20raids/city%20of%20dalaran.lua"
+          ]
+        }
+      ]
     }
   }
 }
