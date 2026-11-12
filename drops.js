@@ -5,29 +5,32 @@ const instances = new Set(['Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 
 const panel = $('#drops-panel');
 const state = { zone: '', data: null, pending: null, openCards: new Set() };
 
-async function load() {
-  if (state.data) return state.data;
-  if (!state.pending) {
-    state.pending = (async () => {
-      const response = await fetch('./data/drops.json', { cache: 'no-store' });
-      if (!response.ok) throw new Error('Drops unavailable');
-      const data = await response.json();
-      for (const zone of instances) {
-        const items = data?.instances?.[zone]?.items;
-        if (!Array.isArray(items) || !items.every(item => item &&
-          ['id', 'name', 'slot', 'type', 'source'].every(key => typeof item[key] === 'string') &&
-          /^\d+$/.test(item.id) && Number.isInteger(item.requiredLevel) && item.requiredLevel >= 0 &&
-          Number.isInteger(item.quality) && typeof item.rogueUsable === 'boolean' &&
-          ['seen', 'classic', 'wowhead'].includes(item.dropEvidence) &&
-          Array.isArray(item.stats) && item.stats.every(stat => typeof stat === 'string'))) {
+async function load(zone) {
+  if (!state.data) {
+    if (!state.pending) {
+      state.pending = (async () => {
+        const response = await fetch('./data/drops.json', { cache: 'no-store' });
+        if (!response.ok) throw new Error('Drops unavailable');
+        const data = await response.json();
+        if (!data?.instances || typeof data.instances !== 'object' || Array.isArray(data.instances)) {
           throw new Error('Invalid drop data');
         }
-      }
-      state.data = data.instances;
-      return state.data;
-    })().finally(() => { state.pending = null; });
+        state.data = data.instances;
+      })().finally(() => { state.pending = null; });
+    }
+    await state.pending;
   }
-  return state.pending;
+  // Validate only this dungeon; unrelated records must not block its loot.
+  const items = state.data[zone]?.items;
+  if (!Array.isArray(items) || !items.every(item => item &&
+    ['id', 'name', 'slot', 'type', 'source'].every(key => typeof item[key] === 'string') &&
+    /^\d+$/.test(item.id) && Number.isInteger(item.requiredLevel) && item.requiredLevel >= 0 &&
+    Number.isInteger(item.quality) && typeof item.rogueUsable === 'boolean' &&
+    typeof item.dropEvidence === 'string' && item.dropEvidence.trim().length > 0 &&
+    Array.isArray(item.stats) && item.stats.every(stat => typeof stat === 'string'))) {
+    throw new Error('Invalid drop data');
+  }
+  return state.data;
 }
 
 function cell(text, className, label) {
@@ -47,7 +50,7 @@ function rememberCards() {
 
 function render() {
   const instance = state.data?.[state.zone];
-  if (!instance) return;
+  if (!instance || !$('#drops-error').hidden) return;
   rememberCards();
   const search = $('#drop-search').value.trim().toLocaleLowerCase();
   const source = $('#drop-source').value;
@@ -139,12 +142,15 @@ function itemRow(item) {
       stats.append(list);
     } else stats.textContent = '—';
     const evidenceLabels = { seen: 'Seen in Forever', classic: 'Classic ref.', wowhead: 'Wowhead ref.' };
-    const evidence = cell(evidenceLabels[item.dropEvidence], `drop-evidence ${item.dropEvidence}`, 'Drop evidence');
+    const evidenceKind = Object.hasOwn(evidenceLabels, item.dropEvidence) ? item.dropEvidence : 'reference';
+    const evidence = cell(evidenceLabels[evidenceKind] || 'Source ref.', `drop-evidence ${evidenceKind}`, 'Drop evidence');
     evidence.title = item.dropEvidence === 'seen'
       ? 'This drop source was recorded by players in WoW: Forever.'
       : item.dropEvidence === 'wowhead'
         ? "Boss source listed in Wowhead's WoW Forever item database. Stats use the Forever client."
-        : 'Drop source from Classic; not yet recorded in WoW: Forever. Stats use the Forever client.';
+        : item.dropEvidence === 'classic'
+          ? 'Drop source from Classic; not yet recorded in WoW: Forever. Stats use the Forever client.'
+          : 'Drop source reference; see the item sources in the research data.';
     if (item.dropEvidence === 'wowhead') {
       const reference = document.createElement('a');
       reference.href = `https://www.wowhead.com/forever/item=${item.id}`;
@@ -169,7 +175,7 @@ async function show(zone) {
   $('#drop-result-count').textContent = 'Loading drops…';
   $('#drop-reference').hidden = true;
   try {
-    await load();
+    await load(zone);
     if (state.zone !== zone || panel.hidden) return;
     const previous = $('#drop-source').value;
     const option = document.createElement('option');
@@ -184,6 +190,7 @@ async function show(zone) {
     render();
   } catch {
     if (state.zone !== zone || panel.hidden) return;
+    $('#drops-error span').textContent = `Could not load ${zone} drops. Retry or reload the page.`;
     $('#drops-error').hidden = false;
     $('#drop-result-count').textContent = 'Drops unavailable';
   }
@@ -192,7 +199,10 @@ async function show(zone) {
 $('#drop-search').addEventListener('input', render);
 $('#drop-source').addEventListener('change', render);
 $('#drop-class').addEventListener('change', render);
-$('#drops-retry').addEventListener('click', () => show(state.zone));
+$('#drops-retry').addEventListener('click', () => {
+  state.data = null;
+  show(state.zone);
+});
 globalThis.DungeonDrops = Object.freeze({
   hasZone: zone => instances.has(zone),
   show,
