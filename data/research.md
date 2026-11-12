@@ -153,3 +153,5 @@ All nine items' stats and Rogue eligibility were checked against current Forever
 ## Dungeon loading compatibility
 
 After the Gnomeregan loading report, the failure was reproduced using the previous loader with the current JSON: its closed source-label list rejected Wetlands' new `wowhead` evidence and blocked every dungeon because it validated all instances at once. The current release loaded Gnomeregan's 16 items correctly. The loader now validates only the requested dungeon and displays unfamiliar evidence values as a neutral "Source ref." label. Retry discards cached drop data and fetches it again. Asset URLs are bumped to version 16 so a freshly opened release link loads the fix. Quest/item records and completion storage are unchanged.
+
+Version 17 removes source-evidence metadata from validation entirely. Missing, empty, whitespace-only, unknown, and non-string `dropEvidence` values use the neutral display fallback without preventing valid equipment from rendering. Recognized evidence labels retain their current display. This metadata cannot block a dungeon's drops.

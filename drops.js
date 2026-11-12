@@ -26,7 +26,6 @@ async function load(zone) {
     ['id', 'name', 'slot', 'type', 'source'].every(key => typeof item[key] === 'string') &&
     /^\d+$/.test(item.id) && Number.isInteger(item.requiredLevel) && item.requiredLevel >= 0 &&
     Number.isInteger(item.quality) && typeof item.rogueUsable === 'boolean' &&
-    typeof item.dropEvidence === 'string' && item.dropEvidence.trim().length > 0 &&
     Array.isArray(item.stats) && item.stats.every(stat => typeof stat === 'string'))) {
     throw new Error('Invalid drop data');
   }
@@ -142,7 +141,8 @@ function itemRow(item) {
       stats.append(list);
     } else stats.textContent = '—';
     const evidenceLabels = { seen: 'Seen in Forever', classic: 'Classic ref.', wowhead: 'Wowhead ref.' };
-    const evidenceKind = Object.hasOwn(evidenceLabels, item.dropEvidence) ? item.dropEvidence : 'reference';
+    const evidenceKind = typeof item.dropEvidence === 'string' && Object.hasOwn(evidenceLabels, item.dropEvidence)
+      ? item.dropEvidence : 'reference';
     const evidence = cell(evidenceLabels[evidenceKind] || 'Source ref.', `drop-evidence ${evidenceKind}`, 'Drop evidence');
     evidence.title = item.dropEvidence === 'seen'
       ? 'This drop source was recorded by players in WoW: Forever.'
