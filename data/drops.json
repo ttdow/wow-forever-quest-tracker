@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-12",
   "build": "1.60.1.70862",
   "instances": {
     "Deadmines": {
@@ -2319,7 +2319,104 @@
           "rogueUsable": true,
           "sources": [
             "https://foreverdb.net/dungeon/2998-excavation-site-wetlands",
-            "https://foreverdb.net/item/273024"
+            "https://foreverdb.net/item/273024",
+            "https://www.wowhead.com/forever/item=273024"
+          ]
+        },
+        {
+          "id": "273023",
+          "name": "Saltscale Girdle",
+          "quality": 3,
+          "requiredLevel": 26,
+          "itemLevel": 31,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "124 Armor",
+            "+9 Strength",
+            "+9 Intellect"
+          ],
+          "source": "Saltspine",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273023",
+            "https://nether.wowhead.com/forever/tooltip/item/273023",
+            "https://foreverdb.net/item/273023"
+          ]
+        },
+        {
+          "id": "273022",
+          "name": "Supple Bellyskin Leggings",
+          "quality": 3,
+          "requiredLevel": 26,
+          "itemLevel": 31,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "92 Armor",
+            "+14 Stamina",
+            "+6 Strength"
+          ],
+          "source": "Saltspine",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273022",
+            "https://nether.wowhead.com/forever/tooltip/item/273022",
+            "https://foreverdb.net/item/273022"
+          ]
+        },
+        {
+          "id": "273026",
+          "name": "Garb of Florid Feathers",
+          "quality": 3,
+          "requiredLevel": 26,
+          "itemLevel": 31,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "105 Armor",
+            "+9 Agility",
+            "+15 Intellect"
+          ],
+          "source": "Shadetooth",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273026",
+            "https://nether.wowhead.com/forever/tooltip/item/273026",
+            "https://foreverdb.net/item/273026"
+          ]
+        },
+        {
+          "id": "273027",
+          "name": "Raptor's Gaze",
+          "quality": 3,
+          "requiredLevel": 26,
+          "itemLevel": 31,
+          "slot": "Held in off-hand",
+          "type": "Accessory",
+          "stats": [
+            "+4 Stamina",
+            "+4 Intellect",
+            "+8 Spell Power"
+          ],
+          "source": "Shadetooth",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273027",
+            "https://nether.wowhead.com/forever/tooltip/item/273027",
+            "https://foreverdb.net/item/273027"
           ]
         },
         {
@@ -2343,7 +2440,55 @@
           "rogueUsable": false,
           "sources": [
             "https://foreverdb.net/dungeon/2998-excavation-site-wetlands",
-            "https://foreverdb.net/item/273025"
+            "https://foreverdb.net/item/273025",
+            "https://www.wowhead.com/forever/item=273025"
+          ]
+        },
+        {
+          "id": "273029",
+          "name": "Golemsight Long Gun",
+          "quality": 3,
+          "requiredLevel": 28,
+          "itemLevel": 33,
+          "slot": "Ranged",
+          "type": "Gun",
+          "stats": [
+            "29–54 damage · 2.50s · 16.6 DPS",
+            "+6 Agility"
+          ],
+          "source": "Relic Guardian",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273029",
+            "https://nether.wowhead.com/forever/tooltip/item/273029",
+            "https://foreverdb.net/item/273029"
+          ]
+        },
+        {
+          "id": "273028",
+          "name": "Reliquary Mantle",
+          "quality": 3,
+          "requiredLevel": 28,
+          "itemLevel": 33,
+          "slot": "Shoulders",
+          "type": "Mail",
+          "stats": [
+            "171 Armor",
+            "+12 Stamina",
+            "+4 Hit"
+          ],
+          "source": "Relic Guardian",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=273028",
+            "https://nether.wowhead.com/forever/tooltip/item/273028",
+            "https://foreverdb.net/item/273028"
           ]
         },
         {
@@ -2365,10 +2510,12 @@
           "rogueUsable": true,
           "sources": [
             "https://foreverdb.net/dungeon/2998-excavation-site-wetlands",
-            "https://foreverdb.net/item/273030"
+            "https://foreverdb.net/item/273030",
+            "https://www.wowhead.com/forever/item=273030"
           ]
         }
-      ]
+      ],
+      "build": "1.60.1.70888"
     }
   }
 }

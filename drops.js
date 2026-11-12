@@ -18,7 +18,7 @@ async function load() {
           ['id', 'name', 'slot', 'type', 'source'].every(key => typeof item[key] === 'string') &&
           /^\d+$/.test(item.id) && Number.isInteger(item.requiredLevel) && item.requiredLevel >= 0 &&
           Number.isInteger(item.quality) && typeof item.rogueUsable === 'boolean' &&
-          ['seen', 'classic'].includes(item.dropEvidence) &&
+          ['seen', 'classic', 'wowhead'].includes(item.dropEvidence) &&
           Array.isArray(item.stats) && item.stats.every(stat => typeof stat === 'string'))) {
           throw new Error('Invalid drop data');
         }
@@ -138,10 +138,21 @@ function itemRow(item) {
       }
       stats.append(list);
     } else stats.textContent = '—';
-    const evidence = cell(item.dropEvidence === 'seen' ? 'Seen in Forever' : 'Classic ref.', `drop-evidence ${item.dropEvidence}`, 'Drop evidence');
+    const evidenceLabels = { seen: 'Seen in Forever', classic: 'Classic ref.', wowhead: 'Wowhead ref.' };
+    const evidence = cell(evidenceLabels[item.dropEvidence], `drop-evidence ${item.dropEvidence}`, 'Drop evidence');
     evidence.title = item.dropEvidence === 'seen'
       ? 'This drop source was recorded by players in WoW: Forever.'
-      : 'Drop source from Classic; not yet recorded in WoW: Forever. Stats use the Forever client.';
+      : item.dropEvidence === 'wowhead'
+        ? "Boss source listed in Wowhead's WoW Forever item database. Stats use the Forever client."
+        : 'Drop source from Classic; not yet recorded in WoW: Forever. Stats use the Forever client.';
+    if (item.dropEvidence === 'wowhead') {
+      const reference = document.createElement('a');
+      reference.href = `https://www.wowhead.com/forever/item=${item.id}`;
+      reference.target = '_blank';
+      reference.rel = 'noopener noreferrer';
+      reference.textContent = evidenceLabels.wowhead;
+      evidence.replaceChildren(reference);
+    }
     row.append(name, cell(`${item.slot} · ${item.type}`, 'drop-type', 'Slot / type'), cell(String(item.requiredLevel), 'drop-level', 'Required level'), stats, evidence);
     return row;
 }

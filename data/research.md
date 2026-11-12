@@ -137,3 +137,15 @@ The user supplied the text of [Gurkenklaus's Wowhead comment #6440044](https://w
 The existing guide's Greenwarden → Tramping Paws sequence is treated as a required step based on that community report. Tramping Paws → Fire Taboo → Blisters on the Land already have explicit "Complete first" relationships in the guides. Blisters → Horrors is sourced to the supplied comment. References relying on the community report carry `evidence: "community"`, the exact comment URL, and a visible "player report" label in both directions. This preserves the distinction between the report and database-confirmed requirements.
 
 No current guide records a confirmed requirement for Highland Hides (#98815); its empty prerequisite array means unrecorded, not proven prerequisite-free. Alchemical Hazards (#98282), which shares a Caitlin introduction but is not an instance-registry quest, is not added as a speculative instance prerequisite. Existing quest IDs and completion storage are preserved; other zone entries and boss-drop data are unchanged.
+
+## Excavation Site: Wetlands loot audit
+
+Audited November 12, 2026. ForeverDB still marks six boss-themed items as unconfirmed client associations and has player observations for only three boss equipment drops. The accessible Wowhead Forever tooltip records explicitly name the drop boss for all nine items, independently verifying the six missing sources. This supersedes the earlier exclusion of those six items as uncorroborated associations.
+
+- Saltspine: Supple Bellyskin Leggings (#273022), Saltscale Girdle (#273023), Glinteye Slippers (#273024).
+- Shadetooth: Raptorclaw Greaves (#273025), Garb of Florid Feathers (#273026), Raptor's Gaze (#273027).
+- Relic Guardian: Reliquary Mantle (#273028), Golemsight Long Gun (#273029), Ring of Power Regulation (#273030).
+
+Verification used `https://nether.wowhead.com/forever/tooltip/item/{id}` for each ID; every response includes an explicit "Dropped by" field. Each added record links the corresponding Forever item page, tooltip endpoint, and current ForeverDB item record. The six additions carry `dropEvidence: "wowhead"` and display a linked "Wowhead ref." label. The three existing observations retain their "Seen in Forever" evidence. Reported percentages are not presented as guaranteed drop probabilities.
+
+All nine items' stats and Rogue eligibility were checked against current Forever-client records and proficiency data. This instance's `build` is 1.60.1.70888; other instances retain the root default and their unchanged item records. Six of the nine items are Rogue-usable. Generic equipment, quest rewards, and the Highland Horror lockbox remain excluded. No unverified equipment is assigned to Highland Horror. The tracker now contains 107 boss-specific equipment entries; quest data and completion storage are unchanged.

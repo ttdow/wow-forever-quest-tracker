@@ -86,6 +86,8 @@ tr.completed { background: #1b261e; }
 .drop-stats ul { padding: 0; margin: 0; list-style: none; }
 .drop-stats li + li { margin-top: 2px; }
 .drop-evidence { font-size: 11px; }.drop-evidence.seen { color: #8fc69b; }.drop-evidence.classic { color: #d9bc7f; }
+.drop-evidence.wowhead { color: #a9bddb; }
+.drop-evidence a { color: inherit; text-underline-offset: 3px; }
 .error button { margin-left: 12px; padding: 4px 9px; border: 1px solid currentColor; border-radius: 4px; color: inherit; background: transparent; cursor: pointer; font-size: 12px; }
 .empty { text-align: center; padding: 45px 20px; color: #a3b3a5; }
 .error { background: #39221f; color: #ffb6a7; padding: 13px 20px; font-size: 13px; }
