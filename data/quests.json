@@ -6713,7 +6713,7 @@
     "area": "Menethil Harbor (Wetlands)",
     "objective": "Return 4 Thicket Raptor Hides to James Halloran, the tanner, in Menethil Harbor.",
     "areaConfidence": "High",
-    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever",
+    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever; No confirmed prerequisite recorded in the current source",
     "sources": [
       "https://foreverdb.net/quest/98815",
       "https://foreverdb.net/dungeon/2998-excavation-site-wetlands"
@@ -6735,23 +6735,34 @@
     "name": "Horrors in the Highland",
     "stage": "",
     "giver": "Rethiel the Greenwarden",
-    "coordinates": "56.3, 40.6",
-    "area": "Wetlands",
+    "coordinates": "56.3, 40.4",
+    "area": "The Green Belt (Wetlands)",
     "objective": "Kill a Highland Horror within Excavation Sites and bring its root core to Rethiel the Greenwarden in the Wetlands.",
     "areaConfidence": "High",
-    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever",
+    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever; Requires the Greenwarden quest chain according to Gurkenklaus, Wowhead comment #6440044 (2026-10-02)",
     "sources": [
       "https://foreverdb.net/quest/95646",
-      "https://foreverdb.net/dungeon/2998-excavation-site-wetlands"
+      "https://foreverdb.net/dungeon/2998-excavation-site-wetlands",
+      "https://www.wowhead.com/forever/quest=95646/horrors-in-the-highland#comments:id=6440044"
     ],
     "evidence": {
       "quest": "forever",
       "level": "forever",
       "objective": "forever",
       "giver": "forever",
-      "pickupLocation": "forever"
+      "pickupLocation": "forever",
+      "prerequisites": "community"
     },
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "id": "275",
+        "name": "Blisters on the Land",
+        "evidence": "community",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=95646/horrors-in-the-highland#comments:id=6440044"
+        ]
+      }
+    ],
     "previousQuests": []
   },
   {
@@ -6765,7 +6776,7 @@
     "area": "Menethil Harbor (Wetlands)",
     "objective": "Find Ardin Grassman in the Excavation Sites.",
     "areaConfidence": "High",
-    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever; Pickup position corroborated by a Forever observation of the same NPC on a related quest; Observed after Seeking Caitlin; not established as a required prerequisite",
+    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever; not established as a required prerequisite; Earlier quest links are observed offer order, not confirmed mandatory prerequisites",
     "sources": [
       "https://foreverdb.net/quest/95647",
       "https://foreverdb.net/dungeon/2998-excavation-site-wetlands"
@@ -6778,7 +6789,17 @@
       "pickupLocation": "forever"
     },
     "prerequisites": [],
-    "previousQuests": []
+    "previousQuests": [
+      {
+        "id": "95737",
+        "name": "Seeking Caitlin",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/95647"
+        ],
+        "relation": "Offered after"
+      }
+    ]
   },
   {
     "id": "95737",
@@ -8101,6 +8122,277 @@
         "evidence": "classic",
         "sources": [
           "https://foreverdb.net/quest/1381"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "95795",
+    "zone": "Excavation Site: Wetlands",
+    "level": 31,
+    "name": "Fallen in the Fen",
+    "stage": "Songblade — return to Dorin",
+    "giver": "",
+    "coordinates": "",
+    "area": "",
+    "objective": "Return to Dorin Songblade in Lakeshire (Redridge Mountains).",
+    "areaConfidence": "Unknown",
+    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever; Quest start and pickup location are not recorded; do not infer a giver from the turn-in NPC; Earlier quest links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverdb.net/quest/95795",
+      "https://foreverdb.net/dungeon/2998-excavation-site-wetlands"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "unknown",
+      "pickupLocation": "unknown"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "95772",
+        "name": "Songblade Search",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/95795"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "95809",
+    "zone": "Excavation Site: Wetlands",
+    "level": 31,
+    "name": "Heartwoven",
+    "stage": "Grassman — return to Caitlin",
+    "giver": "",
+    "coordinates": "",
+    "area": "",
+    "objective": "Return to Caitlin Grassman in Menethil Harbor.",
+    "areaConfidence": "Unknown",
+    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever; Quest start and pickup location are not recorded; do not infer a giver from the turn-in NPC; Earlier quest links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverdb.net/quest/95809",
+      "https://foreverdb.net/dungeon/2998-excavation-site-wetlands"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "unknown",
+      "pickupLocation": "unknown"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "95647",
+        "name": "Lost in the Thicket Things",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/95809"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "95810",
+    "zone": "Excavation Site: Wetlands",
+    "level": 31,
+    "name": "Lost Relic Carry",
+    "stage": "Titan Relic — return to Whelgar",
+    "giver": "",
+    "coordinates": "",
+    "area": "",
+    "objective": "Bring the Titan Relic to Prospector Whelgar in the Wetlands excavation site.",
+    "areaConfidence": "Unknown",
+    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever; Quest start and pickup location are not recorded; do not infer a giver from the turn-in NPC",
+    "sources": [
+      "https://foreverdb.net/quest/95810",
+      "https://foreverdb.net/dungeon/2998-excavation-site-wetlands"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "unknown",
+      "pickupLocation": "unknown"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "98824",
+    "zone": "Excavation Site: Wetlands",
+    "level": 31,
+    "name": "Prehistoric Prism",
+    "stage": "Titan Relic — delivery to Ironforge",
+    "giver": "Prospector Whelgar",
+    "coordinates": "38.8, 52.3",
+    "area": "Whelgar's Excavation Site (Wetlands)",
+    "objective": "Bring the Titan Relic to High Explorer Magellas in Ironforge's Hall of Explorers.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever; Earlier quest links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverdb.net/quest/98824",
+      "https://foreverdb.net/dungeon/2998-excavation-site-wetlands"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "95810",
+        "name": "Lost Relic Carry",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/98824"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "463",
+    "zone": "Excavation Site: Wetlands",
+    "level": 21,
+    "name": "The Greenwarden",
+    "stage": "Greenwarden — prerequisite chain for Horrors in the Highland",
+    "giver": "First Mate Fitzsimmons",
+    "coordinates": "10.9, 59.6",
+    "area": "Menethil Harbor (Wetlands)",
+    "objective": "Find Rethiel the Greenwarden in The Green Belt (Wetlands).",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20 (Classic reference); Quest and pickup observed in Forever; Included as part of the prerequisite chain reported by Gurkenklaus in Wowhead comment #6440044 on 2026-10-02",
+    "sources": [
+      "https://foreverdb.net/quest/463",
+      "https://www.wowhead.com/forever/quest=95646/horrors-in-the-highland#comments:id=6440044"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever",
+      "instancePrerequisite": "community"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "276",
+    "zone": "Excavation Site: Wetlands",
+    "level": 21,
+    "name": "Tramping Paws",
+    "stage": "Greenwarden — prerequisite chain for Horrors in the Highland",
+    "giver": "Rethiel the Greenwarden",
+    "coordinates": "56.3, 40.4",
+    "area": "The Green Belt (Wetlands)",
+    "objective": "Kill 15 Mosshide Gnolls and 10 Mosshide Mongrels, then return to Rethiel the Greenwarden in the Wetlands.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20 (Classic reference); Quest and pickup observed in Forever; Included as part of the prerequisite chain reported by Gurkenklaus in Wowhead comment #6440044 on 2026-10-02",
+    "sources": [
+      "https://foreverdb.net/quest/276",
+      "https://www.wowhead.com/forever/quest=95646/horrors-in-the-highland#comments:id=6440044"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever",
+      "instancePrerequisite": "community"
+    },
+    "prerequisites": [
+      {
+        "id": "463",
+        "name": "The Greenwarden",
+        "evidence": "community",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=95646/horrors-in-the-highland#comments:id=6440044"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "277",
+    "zone": "Excavation Site: Wetlands",
+    "level": 23,
+    "name": "Fire Taboo",
+    "stage": "Greenwarden — prerequisite chain for Horrors in the Highland",
+    "giver": "Rethiel the Greenwarden",
+    "coordinates": "56.3, 40.6",
+    "area": "The Green Belt (Wetlands)",
+    "objective": "Bring Rethiel the Greenwarden 9 Crude Flints.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20 (Classic reference); Quest and pickup observed in Forever; Included as part of the prerequisite chain reported by Gurkenklaus in Wowhead comment #6440044 on 2026-10-02",
+    "sources": [
+      "https://foreverdb.net/quest/277",
+      "https://www.wowhead.com/forever/quest=95646/horrors-in-the-highland#comments:id=6440044"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever",
+      "instancePrerequisite": "community"
+    },
+    "prerequisites": [
+      {
+        "id": "276",
+        "name": "Tramping Paws",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/277",
+          "https://www.wowhead.com/forever/quest=95646/horrors-in-the-highland#comments:id=6440044"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "275",
+    "zone": "Excavation Site: Wetlands",
+    "level": 26,
+    "name": "Blisters on the Land",
+    "stage": "Greenwarden — prerequisite chain for Horrors in the Highland",
+    "giver": "Rethiel the Greenwarden",
+    "coordinates": "56.3, 40.4",
+    "area": "The Green Belt (Wetlands)",
+    "objective": "Kill 12 Fen Creepers, then return to Rethiel the Greenwarden in the Wetlands.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 20 (Classic reference); Quest and pickup observed in Forever; Included as part of the prerequisite chain reported by Gurkenklaus in Wowhead comment #6440044 on 2026-10-02",
+    "sources": [
+      "https://foreverdb.net/quest/275",
+      "https://www.wowhead.com/forever/quest=95646/horrors-in-the-highland#comments:id=6440044"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever",
+      "instancePrerequisite": "community"
+    },
+    "prerequisites": [
+      {
+        "id": "277",
+        "name": "Fire Taboo",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/275",
+          "https://www.wowhead.com/forever/quest=95646/horrors-in-the-highland#comments:id=6440044"
         ]
       }
     ],

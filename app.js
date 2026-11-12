@@ -70,7 +70,7 @@ function buildForwardLinks(quests) {
         if (!links.has(reference.id)) links.set(reference.id, { unlocks: [], later: [] });
         const following = links.get(reference.id)[forward];
         if (!following.some(item => item.id === quest.id)) {
-          following.push({ id: quest.id, name: quest.name });
+          following.push({ id: quest.id, name: quest.name, relation: reference.relation, evidence: reference.evidence });
         }
       }
     }
@@ -125,6 +125,13 @@ function referenceRow(quest) {
         link.rel = 'noopener noreferrer';
         link.textContent = `${reference.name} (#${reference.id}) ↗`;
         link.title = 'View quest guide on ForeverDB';
+      }
+      if (reference.relation === 'Offered after') {
+        link.append(' · observed order');
+        link.title = 'Sequence observed by players; a mandatory prerequisite is not confirmed.';
+      } else if (reference.evidence === 'community') {
+        link.append(' · player report');
+        link.title = 'Prerequisite from a player report; its source is recorded in the research notes.';
       }
       item.append(status, link);
       list.append(item);

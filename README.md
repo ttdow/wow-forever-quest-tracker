@@ -27,7 +27,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 336 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 344 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
@@ -39,13 +39,13 @@ The browser loads all 336 quest entries directly from `data/quests.json`. This J
 - Blackfathom Deeps: 6 quests, including the Corruption Abroad introduction
 - The Stockades: 7 quests, including the Bazil Thredd introduction; earlier prerequisites link to their existing list or external guide
 - Gnomeregan: 21 quests, including introductions, the ring upgrade follow-up, and the distinct Sparklematic machine/step IDs
-- Excavation Site: Wetlands: 5 Alliance quests, including the introductions from Ashenvale and Redridge Mountains
+- Excavation Site: Wetlands: 13 Alliance quests, including four Greenwarden prerequisites for Horrors in the Highland and four return/delivery follow-ups; player-reported requirements and observed sequence links are labeled
 
-The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Ashenvale's Forever-specific Vengeful Trail still has no faction classification in the source. There are 332 unique quest IDs: four Ashenvale quests with Stonetalon objectives or hand-ins also appear with their Stonetalon chains. Their completion status is shared automatically.
+The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Ashenvale's Forever-specific Vengeful Trail still has no faction classification in the source. There are 340 unique quest IDs: four Ashenvale quests with Stonetalon objectives or hand-ins also appear with their Stonetalon chains. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
-`prerequisites` contains explicit "Complete first" relationships. `previousQuests` contains sequence links displayed separately as "Earlier in chain". Each reference has a string `id`, `name`, `evidence`, and `sources`. An empty array means no relationship is currently recorded. Do not infer a mandatory prerequisite from a quest's chain number or "Offered after" observations.
+`prerequisites` contains explicit "Complete first" relationships and sourced player-reported requirements. References with `evidence: "community"` display a "player report" label in both directions. `previousQuests` contains sequence links displayed separately as "Earlier in chain". Each reference has a string `id`, `name`, `evidence`, and `sources`. Audited "Offered after" observations also carry `relation: "Offered after"` and display an "observed order" label in both directions. These are not confirmed mandatory prerequisites. An empty array means no relationship is currently recorded; it does not prove a quest has no prerequisite.
 
 Forward links are derived automatically from those relationships: "Unlocks" reverses `prerequisites`, and "Later in chain" reverses `previousQuests`. Each following quest is listed once by ID, even when it appears in multiple lists. No duplicate forward-link data needs to be maintained.
 
@@ -64,6 +64,8 @@ Blackfathom Deeps and Stonetalon Mountains were researched on November 8, 2026 u
 Gnomeregan and Excavation Site: Wetlands were researched on November 10, 2026 using [ForeverDB's Gnomeregan guide](https://foreverdb.net/dungeon/90-gnomeregan), [Excavation Site: Wetlands guide](https://foreverdb.net/dungeon/2998-excavation-site-wetlands), and individual quest/item records.
 
 Desolace was researched on November 11, 2026 using [ForeverDB's Desolace quest list](https://foreverdb.net/quests/desolace) and individual quest guides. Most Desolace details currently remain Classic references; the JSON preserves that provenance and approximate pickup-location confidence.
+
+Excavation Site: Wetlands was audited again on November 12, 2026 against the full dungeon quest registry, individual guides, and [Gurkenklaus's prerequisite report on Wowhead](https://www.wowhead.com/forever/quest=95646/horrors-in-the-highland#comments:id=6440044), supplied by the user. Four missing Alliance follow-ups and the four Greenwarden prerequisites were added. Several other sequence links are observed offer order rather than confirmed requirements; unknown quest starts remain unguessed.
 
 The site must be served over HTTP or HTTPS so the browser can load the JSON file. Opening `index.html` directly from disk is not supported.
 
