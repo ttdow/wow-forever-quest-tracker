@@ -3265,9 +3265,21 @@
     "area": "Forest Song",
     "objective": "Investigate the Satyrnaar demons for traces of Kurothel.",
     "areaConfidence": "High",
-    "notes": "Forever-specific; seen in Forever",
+    "notes": "Alliance (Wayforth community quest data); Forever-specific; Quest and NPC pickup position observed in Forever",
     "prerequisites": [],
-    "previousQuests": []
+    "previousQuests": [],
+    "sources": [
+      "https://foreverdb.net/quest/98417",
+      "https://github.com/PhatZero/Wayforth/blob/9e42d3eadfd105c91c816c6a45d9cd70a07c70f3/clients/forever/guides/KalimdorAlliance.lua"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever",
+      "faction": "community"
+    }
   },
   {
     "id": "1012",
@@ -8595,6 +8607,276 @@
       "giver": "forever",
       "pickupLocation": "forever",
       "faction": "community"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "98418",
+    "zone": "Ashenvale",
+    "level": 30,
+    "name": "Shared Fury",
+    "stage": "Maseara — follow-up",
+    "giver": "Maseara Autumnmoon",
+    "coordinates": "86.3, 45.8",
+    "area": "Forest Song",
+    "objective": "Kill 5 Xavian Rogues, 5 Xavian Felsworn, 5 Xavian Betrayers, and 5 Xavian Hellcallers; return to Maseara Autumnmoon in Forest Song.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 23; Quest identity, level, faction, and giver from community quest data; Objective verified by Wowhead Forever; Same NPC position observed for Vengeful Trail; Vengeful Trail prerequisite recorded by Wayforth",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=98418",
+      "https://nether.wowhead.com/forever/tooltip/quest/98418",
+      "https://github.com/logie-github/YeaBwoi/blob/0107568737561b38fbff21b23d69e9a34980f6a2/warcraft/modules/mod-forever-quests/data/forever/quests.json",
+      "https://github.com/PhatZero/Wayforth/blob/9e42d3eadfd105c91c816c6a45d9cd70a07c70f3/clients/forever/guides/KalimdorAlliance.lua",
+      "https://foreverdb.net/quest/98417"
+    ],
+    "evidence": {
+      "quest": "community",
+      "level": "community",
+      "minimumLevel": "community",
+      "objective": "wowhead",
+      "giver": "community",
+      "pickupLocation": "forever",
+      "faction": "community"
+    },
+    "prerequisites": [
+      {
+        "id": "98417",
+        "name": "Vengeful Trail",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/PhatZero/Wayforth/blob/9e42d3eadfd105c91c816c6a45d9cd70a07c70f3/clients/forever/guides/KalimdorAlliance.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "967",
+    "zone": "Ashenvale",
+    "level": 18,
+    "name": "The Tower of Althalaxx",
+    "stage": "Part 3 of 9",
+    "giver": "Balthule Shadowstrike",
+    "coordinates": "55.0, 25.0",
+    "area": "Tower of Althalaxx (Darkshore)",
+    "objective": "Deliver Balthule's letter to Delgren at Maestra's Post, Ashenvale",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Also tracked in Darkshore with shared completion; This step starts in Ashenvale or sends the player there; Pickup position observed in Forever",
+    "prerequisites": [
+      {
+        "id": "966",
+        "name": "The Tower of Althalaxx",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/967"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "sources": [
+      "https://foreverdb.net/quest/967"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "970",
+    "zone": "Ashenvale",
+    "level": 21,
+    "name": "The Tower of Althalaxx",
+    "stage": "Part 4 of 9",
+    "giver": "Delgren the Purifier",
+    "coordinates": "26.2, 38.7",
+    "area": "Maestra's Post (Ashenvale)",
+    "objective": "Collect Glowing Soul Gem and return to Delgren",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Also tracked in Darkshore with shared completion; This step starts in Ashenvale or sends the player there; Pickup position observed in Forever",
+    "prerequisites": [
+      {
+        "id": "967",
+        "name": "The Tower of Althalaxx",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/970"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "sources": [
+      "https://foreverdb.net/quest/970"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "973",
+    "zone": "Ashenvale",
+    "level": 24,
+    "name": "The Tower of Althalaxx",
+    "stage": "Part 5 of 9",
+    "giver": "Delgren the Purifier",
+    "coordinates": "26.3, 38.7",
+    "area": "Maestra's Post (Ashenvale)",
+    "objective": "Recover Ilkrud Magthrull's Tome",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Also tracked in Darkshore with shared completion; This step starts in Ashenvale or sends the player there; Pickup position observed in Forever",
+    "prerequisites": [
+      {
+        "id": "970",
+        "name": "The Tower of Althalaxx",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/973"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "sources": [
+      "https://foreverdb.net/quest/973"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1140",
+    "zone": "Ashenvale",
+    "level": 28,
+    "name": "The Tower of Althalaxx",
+    "stage": "Part 6 of 9",
+    "giver": "Delgren the Purifier",
+    "coordinates": "26.1, 38.7",
+    "area": "Maestra's Post (Ashenvale)",
+    "objective": "Free trapped Highborne souls in Night Run and Satyrnaar",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Also tracked in Darkshore with shared completion; This step starts in Ashenvale or sends the player there; Pickup position observed in Forever",
+    "prerequisites": [
+      {
+        "id": "973",
+        "name": "The Tower of Althalaxx",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1140"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "sources": [
+      "https://foreverdb.net/quest/1140"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    }
+  },
+  {
+    "id": "1167",
+    "zone": "Ashenvale",
+    "level": 28,
+    "name": "The Tower of Althalaxx",
+    "stage": "Part 7 of 9",
+    "giver": "Delgren the Purifier",
+    "coordinates": "26.2, 38.7",
+    "area": "Maestra's Post (Ashenvale)",
+    "objective": "Report to Balthule Shadowstrike in northern Darkshore",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Also tracked in Darkshore with shared completion; This step starts in Ashenvale or sends the player there; Pickup is a Classic reference",
+    "prerequisites": [
+      {
+        "id": "1140",
+        "name": "The Tower of Althalaxx",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1167"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "sources": [
+      "https://foreverdb.net/quest/1167"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    }
+  },
+  {
+    "id": "981",
+    "zone": "Ashenvale",
+    "level": 31,
+    "name": "The Tower of Althalaxx",
+    "stage": "Part 9 of 9",
+    "giver": "Balthule Shadowstrike",
+    "coordinates": "55.0, 24.9",
+    "area": "Tower of Althalaxx (Darkshore)",
+    "objective": "Report to Delgren the Purifier at Maestra's Post",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Also tracked in Darkshore with shared completion; This step starts in Ashenvale or sends the player there; Pickup is a Classic reference",
+    "prerequisites": [
+      {
+        "id": "1143",
+        "name": "The Tower of Althalaxx",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/981"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "sources": [
+      "https://foreverdb.net/quest/981"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    }
+  },
+  {
+    "id": "95737",
+    "zone": "Ashenvale",
+    "level": 31,
+    "name": "Seeking Caitlin",
+    "stage": "Introduction from Ashenvale",
+    "giver": "Llana",
+    "coordinates": "35.0, 48.5",
+    "area": "Astranaar (Ashenvale)",
+    "objective": "Speak with Caitlin Grassman in Menethil Harbor.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level not recorded; Quest observed in Forever; Also listed under Excavation Site: Wetlands; completion is shared",
+    "sources": [
+      "https://foreverdb.net/quest/95737",
+      "https://foreverdb.net/dungeon/2998-excavation-site-wetlands"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
     },
     "prerequisites": [],
     "previousQuests": []

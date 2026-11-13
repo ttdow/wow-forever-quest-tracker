@@ -27,11 +27,11 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 350 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 358 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
-- Ashenvale: 50 quests, excluding known Horde-only quests; Vengeful Trail's faction remains unverified
+- Ashenvale: 58 quests, including Shared Fury, Seeking Caitlin, and the six Althalaxx steps that start in or lead to Ashenvale; known Horde-only and non-Rogue class quests are excluded
 - Stonetalon Mountains: 28 quests, including relevant introductions and follow-ups; The Zoram Strand is linked as a prerequisite in Ashenvale
 - Desolace: 39 quests, including the Alliance Reclaimers introduction and the Gelkis/Magram reputation routes; unclassified Hate the Hatefury is excluded
 - Deadmines: 24 quests, including prerequisites and excluding Paladin-only quests
@@ -42,7 +42,7 @@ The browser loads all 350 quest entries directly from `data/quests.json`. This J
 - Excavation Site: Wetlands: 13 Alliance quests, including four Greenwarden prerequisites for Horrors in the Highland and four return/delivery follow-ups; player-reported requirements and observed sequence links are labeled
 - The City of Dalaran: 6 Alliance quests, including Modera's introduction and follow-up; Horde-only quests, including Opportunistic Education, are excluded
 
-The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Ashenvale's Forever-specific Vengeful Trail still has no faction classification in the source. There are 346 unique quest IDs: four Ashenvale quests with Stonetalon objectives or hand-ins also appear with their Stonetalon chains. Their completion status is shared automatically.
+The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 347 unique quest IDs across 358 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, and Seeking Caitlin by Ashenvale and Excavation Site: Wetlands. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
@@ -69,6 +69,8 @@ Desolace was researched on November 11, 2026 using [ForeverDB's Desolace quest l
 Excavation Site: Wetlands was audited again on November 12, 2026 against the full dungeon quest registry, individual guides, and [Gurkenklaus's prerequisite report on Wowhead](https://www.wowhead.com/forever/quest=95646/horrors-in-the-highland#comments:id=6440044), supplied by the user. Four missing Alliance follow-ups and the four Greenwarden prerequisites were added. Several other sequence links are observed offer order rather than confirmed requirements; unknown quest starts remain unguessed.
 
 The City of Dalaran was researched on November 12, 2026 using ForeverDB's full dungeon quest records, Wowhead's Forever quest/item tooltips, and the All The Things addon database. The addon supplies faction and prerequisite details missing from the quest guides. Research notes link the exact addon revision used.
+
+Ashenvale was audited again on November 13, 2026 against its full zone index, Questie's Forever data, additional community quest datasets and leveling guides, and individual quest records. Shared Fury is absent from ForeverDB's current index; its identity, objective, faction, giver, and Vengeful Trail prerequisite are corroborated by the other sources linked in the data and research notes.
 
 The site must be served over HTTP or HTTPS so the browser can load the JSON file. Opening `index.html` directly from disk is not supported.
 
