@@ -4,7 +4,7 @@ Static HTML, CSS, and JavaScript. No installation, server, dependencies, or buil
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Firefox or another modern browser.
 
-- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, or The City of Dalaran.
+- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, or The City of Dalaran.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
@@ -27,13 +27,15 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 358 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 434 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
 - Ashenvale: 58 quests, including Shared Fury, Seeking Caitlin, and the six Althalaxx steps that start in or lead to Ashenvale; known Horde-only and non-Rogue class quests are excluded
 - Stonetalon Mountains: 28 quests, including relevant introductions and follow-ups; The Zoram Strand is linked as a prerequisite in Ashenvale
 - Desolace: 39 quests, including the Alliance Reclaimers introduction and the Gelkis/Magram reputation routes; unclassified Hate the Hatefury is excluded
+- Shen'dralas: 24 quests, including its 19 zone quests and five related Desolace handoffs; Gelkis/Magram routes and observed sequence links are identified
+- Feralas: 52 Alliance/neutral quests, including related introductions, cross-zone chain steps, item-started quests, and repeatable quests
 - Deadmines: 24 quests, including prerequisites and excluding Paladin-only quests
 - Wailing Caverns: 7 quests, including Raptor Horns and the Alliance In Nightmares follow-up
 - Blackfathom Deeps: 6 quests, including the Corruption Abroad introduction
@@ -42,7 +44,7 @@ The browser loads all 358 quest entries directly from `data/quests.json`. This J
 - Excavation Site: Wetlands: 13 Alliance quests, including four Greenwarden prerequisites for Horrors in the Highland and four return/delivery follow-ups; player-reported requirements and observed sequence links are labeled
 - The City of Dalaran: 6 Alliance quests, including Modera's introduction and follow-up; Horde-only quests, including Opportunistic Education, are excluded
 
-The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 347 unique quest IDs across 358 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, and Seeking Caitlin by Ashenvale and Excavation Site: Wetlands. Their completion status is shared automatically.
+The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 423 unique quest IDs across 434 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, and Seeking Caitlin by Ashenvale and Excavation Site: Wetlands. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
@@ -71,6 +73,8 @@ Excavation Site: Wetlands was audited again on November 12, 2026 against the ful
 The City of Dalaran was researched on November 12, 2026 using ForeverDB's full dungeon quest records, Wowhead's Forever quest/item tooltips, and the All The Things addon database. The addon supplies faction and prerequisite details missing from the quest guides. Research notes link the exact addon revision used.
 
 Ashenvale was audited again on November 13, 2026 against its full zone index, Questie's Forever data, additional community quest datasets and leveling guides, and individual quest records. Shared Fury is absent from ForeverDB's current index; its identity, objective, faction, giver, and Vengeful Trail prerequisite are corroborated by the other sources linked in the data and research notes.
+
+Shen'dralas and Feralas were researched on November 13, 2026 using current ForeverChanges quest pages, Questie's generated data and player traces, ForeverDB's zone/quest records, and a second zone dataset. Current Shen'dralas listings resolve older faction conflicts; observed handoffs remain separate from confirmed prerequisites. Feralas's Classic-reference details and newer updates retain their source provenance.
 
 The site must be served over HTTP or HTTPS so the browser can load the JSON file. Opening `index.html` directly from disk is not supported.
 

@@ -8880,5 +8880,2735 @@
     },
     "prerequisites": [],
     "previousQuests": []
+  },
+  {
+    "id": "2766",
+    "zone": "Feralas",
+    "level": 45,
+    "name": "Find OOX-22/FE!",
+    "stage": "OOX-22/FE — distress beacon",
+    "giver": "OOX-22/FE Distress Beacon",
+    "coordinates": "",
+    "area": "Feralas (item-started quest)",
+    "objective": "Take the distress beacon to Oglethorpe's homing robot in a cave near Feral Scar Vale.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 40",
+    "sources": [
+      "https://foreverdb.net/quest/2766",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "unknown"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2767",
+    "zone": "Feralas",
+    "level": 45,
+    "name": "Rescue OOX-22/FE!",
+    "stage": "OOX-22/FE — escort",
+    "giver": "Homing Robot OOX-22/FE",
+    "coordinates": "53.4, 55.7",
+    "area": "Feralas",
+    "objective": "Escort OOX-22/FE to the dock along the Forgotten Coast, then report to Oglethorpe Obnoticus in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2767",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2766",
+        "name": "Find OOX-22/FE!",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2767"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2821",
+    "zone": "Feralas",
+    "level": 46,
+    "name": "The Mark of Quality",
+    "stage": "",
+    "giver": "Pratt McGrubben",
+    "coordinates": "30.6, 42.7",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Bring 10 Thick Yeti Hides to Pratt McGrubben in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/2821",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2844",
+    "zone": "Feralas",
+    "level": 49,
+    "name": "The Giant Guardian",
+    "stage": "",
+    "giver": "Rockbiter",
+    "coordinates": "42.4, 22.0",
+    "area": "Feralas",
+    "objective": "Locate the lost night elf girl.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 44; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2844",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2845",
+    "zone": "Feralas",
+    "level": 49,
+    "name": "Wandering Shay",
+    "stage": "",
+    "giver": "Shay Leafrunner",
+    "coordinates": "38.2, 10.3",
+    "area": "Feralas",
+    "objective": "Pick up Shay's Bell from the chest. Escort Shay Leafrunner to Rockbiter's camp.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 44; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2845",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2844",
+        "name": "The Giant Guardian",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2845"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2866",
+    "zone": "Feralas",
+    "level": 43,
+    "name": "The Ruins of Solarsal",
+    "stage": "",
+    "giver": "Shandris Feathermoon",
+    "coordinates": "30.3, 46.2",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Explore the Ruins of Solarsal and investigate the presence of the naga there.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2866",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2867",
+    "zone": "Feralas",
+    "level": 43,
+    "name": "Return to Feathermoon Stronghold",
+    "stage": "",
+    "giver": "Solarsal Gazebo",
+    "coordinates": "26.3, 52.3",
+    "area": "Feralas",
+    "objective": "Return to Shandris Feathermoon in the Feathermoon Stronghold and report your findings.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2867",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2866",
+        "name": "The Ruins of Solarsal",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2867"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2869",
+    "zone": "Feralas",
+    "level": 43,
+    "name": "Against the Hatecrest",
+    "stage": "Hatecrest — naga scales",
+    "giver": "Latronicus Moonspear",
+    "coordinates": "30.4, 46.2",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Bring 10 Hatecrest Naga Scales to Latronicus Moonspear in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2869",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3130",
+        "name": "Against the Hatecrest",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2869"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2870",
+    "zone": "Feralas",
+    "level": 45,
+    "name": "Against Lord Shalzaru",
+    "stage": "Hatecrest — Lord Shalzaru",
+    "giver": "Latronicus Moonspear",
+    "coordinates": "30.4, 46.2",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Eliminate Lord Shalzaru, and then bring the Mysterious Relic he uncovered to Latronicus Moonspear in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/2870",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2869",
+        "name": "Against the Hatecrest",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2870"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2871",
+    "zone": "Feralas",
+    "level": 45,
+    "name": "Delivering the Relic",
+    "stage": "Hatecrest — relic delivery",
+    "giver": "Latronicus Moonspear",
+    "coordinates": "30.4, 46.2",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Deliver the Mysterious Relic to Vestia Moonspear in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/2871",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2870",
+        "name": "Against Lord Shalzaru",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2871"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2879",
+    "zone": "Feralas",
+    "level": 50,
+    "name": "The Stave of Equinex",
+    "stage": "Equinex — step 6",
+    "giver": "Troyas Moonbreeze",
+    "coordinates": "31.8, 45.5",
+    "area": "Feralas",
+    "objective": "Energize Troyas' Stave and find the Equinex Monolith.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 42; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2879",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2943",
+        "name": "Return to Troyas",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2879"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2939",
+    "zone": "Feralas",
+    "level": 47,
+    "name": "In Search of Knowledge",
+    "stage": "Equinex — step 1",
+    "giver": "Troyas Moonbreeze",
+    "coordinates": "31.8, 45.5",
+    "area": "Feralas",
+    "objective": "Talk to Daryn Lightwind in Rut'theran Village.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 42; Pickup location is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/2939",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2940",
+    "zone": "Feralas",
+    "level": 47,
+    "name": "Feralas: A History",
+    "stage": "Equinex — step 2",
+    "giver": "Feralas: A History",
+    "coordinates": "55.2, 91.5",
+    "area": "Rut'theran Village (Teldrassil)",
+    "objective": "Ask Daryn Lightwind if you may borrow her book.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 42; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2940",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2939",
+        "name": "In Search of Knowledge",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2940"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2941",
+    "zone": "Feralas",
+    "level": 48,
+    "name": "The Borrower",
+    "stage": "Equinex — step 3",
+    "giver": "Daryn Lightwind",
+    "coordinates": "55.4, 92.2",
+    "area": "Rut'theran Village (Teldrassil)",
+    "objective": "Take the letter to Curgle Cranklehop in Tanaris.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 42; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2941",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2940",
+        "name": "Feralas: A History",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2941"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2942",
+    "zone": "Feralas",
+    "level": 50,
+    "name": "The Morrow Stone",
+    "stage": "Equinex — step 7",
+    "giver": "Equinex Monolith",
+    "coordinates": "38.8, 13.2",
+    "area": "Feralas",
+    "objective": "Return the Sparkling Stone and the Stave of Equinex to Troyas Moonbreeze in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 42; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2942",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2879",
+        "name": "The Stave of Equinex",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2942"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2943",
+    "zone": "Feralas",
+    "level": 48,
+    "name": "Return to Troyas",
+    "stage": "Equinex — step 5",
+    "giver": "Daryn Lightwind",
+    "coordinates": "55.4, 92.2",
+    "area": "Rut'theran Village (Teldrassil)",
+    "objective": "Deliver the book to Troyas Moonbreeze in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 42; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2943",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2944",
+        "name": "The Super Snapper FX",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2943"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2944",
+    "zone": "Feralas",
+    "level": 48,
+    "name": "The Super Snapper FX",
+    "stage": "Equinex — step 4",
+    "giver": "Curgle Cranklehop",
+    "coordinates": "52.4, 26.9",
+    "area": "Gadgetzan (Tanaris)",
+    "objective": "Use the Super Snapper FX to take a snapshot of Gammerita, then return to Daryn Lightwind in Rut'theran Village.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 42; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2944",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2941",
+        "name": "The Borrower",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2944"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2969",
+    "zone": "Feralas",
+    "level": 47,
+    "name": "Freedom for All Creatures",
+    "stage": "Sprite Darter — step 1",
+    "giver": "Kindal Moonweaver",
+    "coordinates": "65.9, 45.7",
+    "area": "Feralas",
+    "objective": "Using the Bamboo Cage Key, free the Sprite Darters from the pen in the Grimtotem camp. At least 6 Sprite Darters and Kindal Moonweaver must survive. You have 6 minutes before Kindal decides it is time to retreat and you fail the quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 38; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2969",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2970",
+    "zone": "Feralas",
+    "level": 47,
+    "name": "Doling Justice",
+    "stage": "Sprite Darter — step 2",
+    "giver": "Jer'kai Moonweaver",
+    "coordinates": "65.9, 45.6",
+    "area": "Feralas",
+    "objective": "Kill 12 Grimtotem Naturalists, 10 Grimtotem Raiders, and 6 Grimtotem Shamans before returning to Jer'kai Moonweaver in Feralas.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 38; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2970",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2969",
+        "name": "Freedom for All Creatures",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2970"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2972",
+    "zone": "Feralas",
+    "level": 47,
+    "name": "Doling Justice",
+    "stage": "Sprite Darter — step 3",
+    "giver": "Jer'kai Moonweaver",
+    "coordinates": "65.9, 45.6",
+    "area": "Feralas",
+    "objective": "Take Jer'kai's Signet Ring to High Priestess Tyrande Whisperwind in Darnassus.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 38; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/2972",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2970",
+        "name": "Doling Justice",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/2972"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2982",
+    "zone": "Feralas",
+    "level": 44,
+    "name": "The High Wilderness",
+    "stage": "",
+    "giver": "Angelas Moonbreeze",
+    "coordinates": "31.8, 45.6",
+    "area": "Feralas",
+    "objective": "Angelas Moonbreeze wants you to kill 8 Gordunni Warlocks, 8 Gordunni Shaman, and 8 Gordunni Brutes.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 39; Pickup location is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/2982",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3130",
+    "zone": "Feralas",
+    "level": 43,
+    "name": "Against the Hatecrest",
+    "stage": "Hatecrest — introduction",
+    "giver": "Shandris Feathermoon",
+    "coordinates": "30.3, 46.2",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Report to Latronicus Moonspear in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/3130",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2867",
+        "name": "Return to Feathermoon Stronghold",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/3130"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3445",
+    "zone": "Feralas",
+    "level": 51,
+    "name": "The Sunken Temple",
+    "stage": "",
+    "giver": "Angelas Moonbreeze",
+    "coordinates": "31.8, 45.6",
+    "area": "Feralas",
+    "objective": "Find Marvon Rivetseeker in Tanaris.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 46; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/3445",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3567",
+    "zone": "Feralas",
+    "level": 25,
+    "name": "To the Top",
+    "stage": "Repeatable — teleport",
+    "giver": "Marli Wishrunner",
+    "coordinates": "45.8, 16.5",
+    "area": "Twin Colossals (Feralas)",
+    "objective": "Ask Marli Wishrunner to teleport you to the top of a Twin Colossal.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 25; Classic-reference quest details; verified against the current published quest page; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/3567",
+      "https://github.com/Questie/QuestieDB/blob/master/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3788",
+    "zone": "Feralas",
+    "level": 50,
+    "name": "Jonespyre's Request",
+    "stage": "Jonespyre — introduction",
+    "giver": "Innkeeper Shyria",
+    "coordinates": "31.0, 43.5",
+    "area": "Feralas",
+    "objective": "Speak with Quintis Jonespyre in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 47; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/3788",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3785",
+        "name": "Morrowgrain Research",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/3788"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3791",
+    "zone": "Feralas",
+    "level": 50,
+    "name": "The Mystery of Morrowgrain",
+    "stage": "",
+    "giver": "Quintis Jonespyre",
+    "coordinates": "32.4, 43.8",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Bring 10 Morrowgrain to Quintis Jonespyre in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 47; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/3791",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "3787",
+        "name": "Jonespyre's Request",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/3791"
+        ]
+      },
+      {
+        "id": "3788",
+        "name": "Jonespyre's Request",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/3791"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3841",
+    "zone": "Feralas",
+    "level": 47,
+    "name": "An Orphan Looking For a Home",
+    "stage": "Sprite Darter — step 4",
+    "giver": "Kindal Moonweaver",
+    "coordinates": "65.9, 45.7",
+    "area": "Feralas",
+    "objective": "Speak to Quentin in Thousand Needles.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 38; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/3841",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2972",
+        "name": "Doling Justice",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/3841"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3842",
+    "zone": "Feralas",
+    "level": 47,
+    "name": "A Short Incubation",
+    "stage": "Sprite Darter — step 5",
+    "giver": "Quentin",
+    "coordinates": "78.3, 74.7",
+    "area": "Mirage Raceway (Thousand Needles)",
+    "objective": "Bring 2 Elixir of Fortitudes to Quentin in Thousand Needles.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 38; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/3842",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3841",
+        "name": "An Orphan Looking For a Home",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/3842"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3843",
+    "zone": "Feralas",
+    "level": 47,
+    "name": "The Newest Member of the Family",
+    "stage": "Sprite Darter — step 6",
+    "giver": "Quentin",
+    "coordinates": "78.3, 74.7",
+    "area": "Mirage Raceway (Thousand Needles)",
+    "objective": "Take your Fragile Sprite Darter Egg to the Hinterlands and speak to Agnar Beastamer, but hurry, you only have 1 hour to find him before the hatchling within the egg dies.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 38; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/3843",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3842",
+        "name": "A Short Incubation",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/3843"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4041",
+    "zone": "Feralas",
+    "level": 52,
+    "name": "The Videre Elixir",
+    "stage": "Repeatable — Videre Elixir",
+    "giver": "Gregan Brewspewer",
+    "coordinates": "45.1, 25.6",
+    "area": "Twin Colossals (Feralas)",
+    "objective": "Bring 1 Evoroot to Gregan Brewspewer to obtain Videre Elixir.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 47; Classic-reference quest details; verified against the current published quest page; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4041",
+      "https://github.com/Questie/QuestieDB/blob/master/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4124",
+    "zone": "Feralas",
+    "level": 43,
+    "name": "The Missing Courier",
+    "stage": "Missing courier — step 1",
+    "giver": "Latronicus Moonspear",
+    "coordinates": "30.4, 46.2",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Speak with Ginro Hearthkindle in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/4124",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4125",
+    "zone": "Feralas",
+    "level": 43,
+    "name": "The Missing Courier",
+    "stage": "Missing courier — step 2",
+    "giver": "Ginro Hearthkindle",
+    "coordinates": "31.9, 45.1",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Locate the courier's boat somewhere along the coast of Feralas.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference",
+    "sources": [
+      "https://foreverdb.net/quest/4125",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4124",
+        "name": "The Missing Courier",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4125"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4127",
+    "zone": "Feralas",
+    "level": 44,
+    "name": "Boat Wreckage",
+    "stage": "Missing courier — step 3",
+    "giver": "Wrecked Row Boat",
+    "coordinates": "45.4, 65.0",
+    "area": "Feralas",
+    "objective": "Return to Feathermoon Stronghold and show Ginro Hearthkindle the Discarded Knife you have found.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/4127",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4125",
+        "name": "The Missing Courier",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4127"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4129",
+    "zone": "Feralas",
+    "level": 44,
+    "name": "The Knife Revealed",
+    "stage": "Missing courier — step 4",
+    "giver": "Ginro Hearthkindle",
+    "coordinates": "31.9, 45.1",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Take the Discarded Knife to Quintis Jonespyre in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/4129",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4127",
+        "name": "Boat Wreckage",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4129"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4130",
+    "zone": "Feralas",
+    "level": 44,
+    "name": "Psychometric Reading",
+    "stage": "Missing courier — step 5",
+    "giver": "Quintis Jonespyre",
+    "coordinates": "32.4, 43.8",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Speak with Ginro Hearthkindle in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/4130",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4129",
+        "name": "The Knife Revealed",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4130"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4131",
+    "zone": "Feralas",
+    "level": 44,
+    "name": "The Woodpaw Gnolls",
+    "stage": "Missing courier — step 6",
+    "giver": "Ginro Hearthkindle",
+    "coordinates": "31.9, 45.1",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Search the Woodpaw Gnoll camps of southern Feralas for evidence of the courier's belongings or the courier himself.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/4131",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4130",
+        "name": "Psychometric Reading",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4131"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4135",
+    "zone": "Feralas",
+    "level": 46,
+    "name": "The Writhing Deep",
+    "stage": "Missing courier — step 7",
+    "giver": "Large Leather Backpacks",
+    "coordinates": "73.3, 56.3",
+    "area": "Feralas",
+    "objective": "Now that Raschal's last known whereabouts have been discovered, continue your search for him or his remains in the Writhing Deep. According to the note, it is located to the south of the Woodpaw gnoll camps.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/4135",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4131",
+        "name": "The Woodpaw Gnolls",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4135"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4265",
+    "zone": "Feralas",
+    "level": 46,
+    "name": "Freed from the Hive",
+    "stage": "Missing courier — step 8",
+    "giver": "Zukk'ash Pod",
+    "coordinates": "72.1, 63.7",
+    "area": "Feralas",
+    "objective": "Free Raschal from the Zukk'ash hive. Return to Ginro Hearthkindle in Feathermoon Stronghold and let him know that Raschal is alive and well.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/4265",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4135",
+        "name": "The Writhing Deep",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4265"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4266",
+    "zone": "Feralas",
+    "level": 46,
+    "name": "A Hero's Welcome",
+    "stage": "Missing courier — step 9",
+    "giver": "Ginro Hearthkindle",
+    "coordinates": "31.9, 45.1",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Speak with Shandris Feathermoon in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/4266",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4265",
+        "name": "Freed from the Hive",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4266"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4267",
+    "zone": "Feralas",
+    "level": 46,
+    "name": "Rise of the Silithid",
+    "stage": "Missing courier — step 10",
+    "giver": "Shandris Feathermoon",
+    "coordinates": "30.3, 46.2",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Bring Raschal's Report to Gracina Spiritmight in Darnassus.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/4267",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4266",
+        "name": "A Hero's Welcome",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4267"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4281",
+    "zone": "Feralas",
+    "level": 44,
+    "name": "Thalanaar Delivery",
+    "stage": "",
+    "giver": "Undelivered Parcel",
+    "coordinates": "",
+    "area": "Feralas (item-started quest)",
+    "objective": "Bring the Undelivered Parcel to Falfindel Waywarder in Thalanaar.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/4281",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "unknown"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4297",
+    "zone": "Feralas",
+    "level": 47,
+    "name": "Food for Baby",
+    "stage": "Sprite Darter — step 7",
+    "giver": "Agnar Beastamer",
+    "coordinates": "14.2, 43.6",
+    "area": "Aerie Peak (The Hinterlands)",
+    "objective": "Bring 5 Silvermane Stalker Flanks to Agnar Beastamer in Hinterlands.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 38; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/4297",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3843",
+        "name": "The Newest Member of the Family",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4297"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4298",
+    "zone": "Feralas",
+    "level": 48,
+    "name": "Becoming a Parent",
+    "stage": "Sprite Darter — step 8",
+    "giver": "Agnar Beastamer",
+    "coordinates": "14.2, 43.6",
+    "area": "Aerie Peak (The Hinterlands)",
+    "objective": "Speak to Agnar Beastamer in the Hinterlands.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 37; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/4298",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4297",
+        "name": "Food for Baby",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/4298"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "7003",
+    "zone": "Feralas",
+    "level": 48,
+    "name": "Zapped Giants",
+    "stage": "",
+    "giver": "Zorbin Fandazzle",
+    "coordinates": "44.8, 43.4",
+    "area": "Forgotten Coast (Feralas)",
+    "objective": "Use Zorbin's Ultra-Shrinker to zap any kind of giant found in Feralas into a more manageable form. Bring 15 Miniaturization Residues found on the zapped versions of these giants to Zorbin Fandazzle at the docks of the Forgotten Coast, Feralas.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 45; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/7003",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7721",
+    "zone": "Feralas",
+    "level": 48,
+    "name": "Fuel for the Zapping",
+    "stage": "",
+    "giver": "Zorbin Fandazzle",
+    "coordinates": "44.8, 43.4",
+    "area": "Forgotten Coast (Feralas)",
+    "objective": "Collect 10 Water Elemental Cores from the Sea Elementals and Sea Sprays along the Forgotten Coast of Feralas, and bring them back to Zorbin Fandazzle who is near the dock there.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 45; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/7721",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7725",
+    "zone": "Feralas",
+    "level": 55,
+    "name": "Again With the Zapped Giants",
+    "stage": "Repeatable — zapped giants",
+    "giver": "Zorbin Fandazzle",
+    "coordinates": "44.8, 43.4",
+    "area": "Forgotten Coast (Feralas)",
+    "objective": "Use Zorbin's Ultra-Shrinker on giants in Feralas and bring 10 Miniaturization Residues to Zorbin Fandazzle.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 45; Classic-reference quest details; verified against the current published quest page; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/7725",
+      "https://github.com/Questie/QuestieDB/blob/master/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "7003",
+        "name": "Zapped Giants",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/master/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "7726",
+    "zone": "Feralas",
+    "level": 55,
+    "name": "Refuel for the Zapping",
+    "stage": "Repeatable — elemental cores",
+    "giver": "Zorbin Fandazzle",
+    "coordinates": "44.8, 43.4",
+    "area": "Forgotten Coast (Feralas)",
+    "objective": "Bring 6 Water Elemental Cores from Sea Elementals and Sea Sprays to Zorbin Fandazzle.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 45; Classic-reference quest details; verified against the current published quest page; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/7726",
+      "https://github.com/Questie/QuestieDB/blob/master/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "7721",
+        "name": "Fuel for the Zapping",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/master/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "7733",
+    "zone": "Feralas",
+    "level": 48,
+    "name": "Improved Quality",
+    "stage": "",
+    "giver": "Pratt McGrubben",
+    "coordinates": "30.6, 42.7",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "objective": "Bring 10 Rage Scar Yeti Hides to Pratt McGrubben at Feathermoon Stronghold, Feralas.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Pickup location is a Classic reference; Quest details are Classic references",
+    "sources": [
+      "https://foreverdb.net/quest/7733",
+      "https://foreverdb.net/quests/feralas"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "2821",
+        "name": "The Mark of Quality",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/7733"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "7735",
+    "zone": "Feralas",
+    "level": 48,
+    "name": "Pristine Yeti Hide",
+    "stage": "Repeatable — item-started quest",
+    "giver": "Pristine Yeti Hide (item)",
+    "coordinates": "",
+    "area": "Feralas (item-started quest)",
+    "objective": "Bring the Pristine Yeti Hide to Pratt McGrubben at Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 40; Classic-reference quest details; verified against the current published quest page; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/7735",
+      "https://github.com/Questie/QuestieDB/blob/master/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "unknown"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "98155",
+    "zone": "Feralas",
+    "level": 31,
+    "name": "Pristine Pesterhide Pelts",
+    "stage": "Pristine pelts — collect hides",
+    "giver": "Kristy Grant",
+    "coordinates": "89.4, 46.2",
+    "area": "Thalanaar border (Feralas)",
+    "objective": "Bring 5 Pristine Pesterhide Pelts to Kristy Grant.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 27; Level updated from current ForeverChanges listing; older guide records level 29",
+    "sources": [
+      "https://foreverdb.net/quest/98155",
+      "https://foreverdb.net/quests/feralas",
+      "https://foreverchanges.pro/quest/98155"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "foreverchanges",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "98156",
+    "zone": "Feralas",
+    "level": 31,
+    "name": "Packaged Pristine Pelts",
+    "stage": "Pristine pelts — delivery to Stormwind",
+    "giver": "Kristy Grant",
+    "coordinates": "89.4, 46.2",
+    "area": "Thalanaar border (Feralas)",
+    "objective": "Bring the Package of Pristine Pelts to Kimberly Grant.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 27; Level updated from current ForeverChanges listing; older guide records level 29",
+    "sources": [
+      "https://foreverdb.net/quest/98156",
+      "https://foreverdb.net/quests/feralas",
+      "https://foreverchanges.pro/quest/98156"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "foreverchanges",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "98155",
+        "name": "Pristine Pesterhide Pelts",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/98156"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "3787",
+    "zone": "Feralas",
+    "level": 50,
+    "name": "Jonespyre's Request",
+    "stage": "Jonespyre — alternate introduction from Stormwind",
+    "giver": "Tannysa",
+    "coordinates": "54.3, 84.1",
+    "area": "Stormwind City",
+    "objective": "Speak with Quintis Jonespyre in Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 47; Classic-reference quest details; verified against the current published quest page",
+    "sources": [
+      "https://foreverchanges.pro/quest/3787",
+      "https://github.com/Questie/QuestieDB/blob/master/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "3785",
+        "name": "Morrowgrain Research",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/master/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "93041",
+    "zone": "Shen'dralas",
+    "level": 38,
+    "name": "Facing the Truth",
+    "stage": "Gelkis reputation route",
+    "giver": "Nerlokh",
+    "coordinates": "20.9, 22.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain your reputation with the Gelkis Clan, and bring an Accursed Skull and Gelkis Necromantic Garb to Uthek the Wise in Gelkis Village.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/93041",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93035",
+        "name": "Ravaging Ravagers",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      },
+      {
+        "id": "93037",
+        "name": "Outing Outcasts",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93035",
+    "zone": "Shen'dralas",
+    "level": 38,
+    "name": "Ravaging Ravagers",
+    "stage": "Gelkis reputation route",
+    "giver": "Nerlokh",
+    "coordinates": "20.9, 22.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain your reputation with the Gelkis Clan and slay 6 Undead Ravagers, then return to Nerlokh at the southern entrance to Valley of Bones.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/93035",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93034",
+        "name": "Valley of Bones",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93034",
+    "zone": "Shen'dralas",
+    "level": 38,
+    "name": "Valley of Bones",
+    "stage": "Gelkis reputation route",
+    "giver": "Uthek the Wise",
+    "coordinates": "36.2, 79.2",
+    "area": "Gelkis Village (Desolace)",
+    "objective": "Improve your reputation with the Gelkis, and locate Nerlokh near the Valley of Bones far east of Gelkis Village.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/93034",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1373",
+        "name": "Ongeku",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92894",
+    "zone": "Shen'dralas",
+    "level": 40,
+    "name": "Bone Raising",
+    "stage": "Magram reputation route",
+    "giver": "Orgrul",
+    "coordinates": "35.7, 12.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain Magram reputation. Use the Enhanced Necromancy Staff on 10 struggling undead in the Valley of Bones, then return to Orgrul.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Magram reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/92894",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92873",
+        "name": "Proof of Concept",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92846",
+    "zone": "Shen'dralas",
+    "level": 40,
+    "name": "Outcast Necromancers",
+    "stage": "Magram reputation route",
+    "giver": "Orgrul",
+    "coordinates": "35.7, 12.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain Magram reputation. Kill 6 Outcast Necromancers in the Valley of Bones and return to Orgrul.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Magram reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/92846",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92841",
+        "name": "Valley of Bones",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93037",
+    "zone": "Shen'dralas",
+    "level": 40,
+    "name": "Outing Outcasts",
+    "stage": "Gelkis reputation route",
+    "giver": "Nerlokh",
+    "coordinates": "20.9, 22.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain your reputation with the Gelkis Clan, and bring 1 Necromantic Garb to Nerlokh at the entrance of the Valley of Bones.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/93037",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93034",
+        "name": "Valley of Bones",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92841",
+    "zone": "Shen'dralas",
+    "level": 40,
+    "name": "Valley of Bones",
+    "stage": "Magram reputation route",
+    "giver": "Warug",
+    "coordinates": "75.0, 68.0",
+    "area": "Magram Village (Desolace)",
+    "objective": "Improve your reputation with the Magram, and locate Orgrul near the Valley of Bones south of Magram Village.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Magram reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/92841",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92743",
+        "name": "A Conqueror's Crown",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92873",
+    "zone": "Shen'dralas",
+    "level": 41,
+    "name": "Proof of Concept",
+    "stage": "Magram reputation route",
+    "giver": "Orgrul",
+    "coordinates": "35.7, 12.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain your reputation with the Magram Clan, then bring 426 Well Cursed Bones from a successful ritual back to Orgrul.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Magram reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites; The unusual count of 426 is preserved from the current quest page and primary quest data",
+    "sources": [
+      "https://foreverchanges.pro/quest/92873",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92847",
+        "name": "Corrupting Tears",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93062",
+    "zone": "Shen'dralas",
+    "level": 42,
+    "name": "Bone Burying",
+    "stage": "Gelkis reputation route",
+    "giver": "Nerlokh",
+    "coordinates": "20.9, 22.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain your reputation with the Gelkis Clan, and dispel the curses from 8 failed summons throughout the Valley of Bones.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites; Older addon faction labels conflict with the newer public listing; current listing explicitly permits both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/93062",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93045",
+        "name": "Test Your Theory",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92847",
+    "zone": "Shen'dralas",
+    "level": 42,
+    "name": "Corrupting Tears",
+    "stage": "Magram reputation route",
+    "giver": "Orgrul",
+    "coordinates": "35.7, 12.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain your reputation with the Magram, and bring 3 Petrified Bark and 3 Imbued Tears back to Orgrul.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Magram reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/92847",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92844",
+        "name": "Mountain of Bones",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      },
+      {
+        "id": "92846",
+        "name": "Outcast Necromancers",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92844",
+    "zone": "Shen'dralas",
+    "level": 42,
+    "name": "Mountain of Bones",
+    "stage": "Magram reputation route",
+    "giver": "Orgrul",
+    "coordinates": "35.7, 12.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain your reputation with the Magram, and bring 426 Gently Cursed Bones to Orgrul south of the Magram Village in Desolace.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Magram reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites; The unusual count of 426 is preserved from the current quest page and primary quest data",
+    "sources": [
+      "https://foreverchanges.pro/quest/92844",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92841",
+        "name": "Valley of Bones",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92893",
+    "zone": "Shen'dralas",
+    "level": 42,
+    "name": "No Mercy for the Weak",
+    "stage": "Magram reputation route",
+    "giver": "Orgrul",
+    "coordinates": "35.7, 12.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain your reputation with the Magram Clan, and slay 5 Gelkis Captives scattered around the Valley of Bones. Return to Orgrul after the task is complete.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Magram reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/92893",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92873",
+        "name": "Proof of Concept",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93058",
+    "zone": "Shen'dralas",
+    "level": 42,
+    "name": "Saving Our Own",
+    "stage": "Gelkis reputation route",
+    "giver": "Nerlokh",
+    "coordinates": "20.9, 22.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain your reputation with the Gelkis clan, and rescue 5 Gelkis Captives within the Valley of Bones. Return to Nerlokh near the entrance when you are done.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites; Older addon faction labels conflict with the newer public listing; current listing explicitly permits both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/93058",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93045",
+        "name": "Test Your Theory",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93066",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "Bristleback Retreat",
+    "stage": "Magram reputation route",
+    "giver": "Orgrul",
+    "coordinates": "35.7, 12.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain Magram reputation. Kill 4 Bristleback Nomads, 6 Bristleback Thornweavers, and 6 Bristleback Skullcrushers; report to Hagiak at the Magram Front.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Magram reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/93066",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92893",
+        "name": "No Mercy for the Weak",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      },
+      {
+        "id": "92894",
+        "name": "Bone Raising",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93122",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "Checking Things Out",
+    "stage": "Gelkis reputation route",
+    "giver": "Nerlokh",
+    "coordinates": "20.9, 22.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain your reputation with the Gelkis, and investigate centaur points of interest within Shen'dralas. Then return to Nerlokh at the entrance of Valley of Bones with your findings.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites; Older addon faction labels conflict with the newer public listing; current listing explicitly permits both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/93122",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93058",
+        "name": "Saving Our Own",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      },
+      {
+        "id": "93062",
+        "name": "Bone Burying",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93125",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "Going Home",
+    "stage": "Gelkis reputation route",
+    "giver": "Rokren",
+    "coordinates": "34.1, 77.9",
+    "area": "Outcast Hideaway (Shen'dralas)",
+    "objective": "Maintain your reputation with the Gelkis, and escort Rokren out of the Outcast Hideaway. Then inform Nerlokh near the Valley of Bones about what happened.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/93125",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "93072",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "Long-Term Solutions",
+    "stage": "Magram reputation route",
+    "giver": "Hagiak",
+    "coordinates": "59.3, 53.9",
+    "area": "Magram Front (Shen'dralas)",
+    "objective": "Maintain your reputation with the Magram clan and slay 2 Outcast Scouts, 6 Outcast Marauders, and 8 Outcast Necromancers then return to Hagiak at the Magram Front.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Magram reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/93072",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93066",
+        "name": "Bristleback Retreat",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93188",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "Return to Orgrul",
+    "stage": "Magram reputation route",
+    "giver": "Hagiak",
+    "coordinates": "59.3, 53.9",
+    "area": "Magram Front (Shen'dralas)",
+    "objective": "Maintain your reputation with the Magram, and report back to Orgrul near the northern entrance to Valley of Bones.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Magram reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/93188",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93072",
+        "name": "Long-Term Solutions",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      },
+      {
+        "id": "93129",
+        "name": "Threat of Starvation",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93129",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "Threat of Starvation",
+    "stage": "Magram reputation route",
+    "giver": "Hagiak",
+    "coordinates": "59.3, 53.9",
+    "area": "Magram Front (Shen'dralas)",
+    "objective": "Maintain your reputation with the Magram, and bring 6 Stolen Supplies back to Hagiak at the Magram Front.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Magram reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/93129",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93066",
+        "name": "Bristleback Retreat",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92743",
+    "zone": "Shen'dralas",
+    "level": 40,
+    "name": "A Conqueror's Crown",
+    "stage": "Magram reputation route",
+    "giver": "Warug",
+    "coordinates": "75.0, 68.0",
+    "area": "Magram Village (Desolace)",
+    "objective": "Maintain your reputation with the Magram, and return a Conqueror's Crown from the Badlands to Warug in Magram Village.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 30; Magram reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/92743",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1369",
+        "name": "Broken Tears",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93044",
+    "zone": "Shen'dralas",
+    "level": 38,
+    "name": "A Cleansing Cry",
+    "stage": "Gelkis reputation route",
+    "giver": "Uthek the Wise",
+    "coordinates": "36.2, 79.2",
+    "area": "Gelkis Village (Desolace)",
+    "objective": "Maintain your reputation with the Gelkis, and bring Tears of Theradras back to Uthek the Wise in Gelkis Village.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites; Older addon faction labels conflict with the newer public listing; current listing explicitly permits both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/93044",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93041",
+        "name": "Facing the Truth",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93045",
+    "zone": "Shen'dralas",
+    "level": 38,
+    "name": "Test Your Theory",
+    "stage": "Gelkis reputation route",
+    "giver": "Uthek the Wise",
+    "coordinates": "36.2, 79.2",
+    "area": "Gelkis Village (Desolace)",
+    "objective": "Maintain your reputation with the Gelkis, and dispel the necromantic curse present on the Accursed Skull. Once successful, report back to Nerlokh near the Valley of Bones.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/93045",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93044",
+        "name": "A Cleansing Cry",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93128",
+    "zone": "Shen'dralas",
+    "level": 42,
+    "name": "Khan Jehn",
+    "stage": "Gelkis reputation route",
+    "giver": "Nerlokh",
+    "coordinates": "20.9, 22.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain your reputation with the Gelkis, and slay Khan Jhen at Magram Village. Once you have succeeded, report to Uthek the Wise in Gelkis Village in Desolace.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites; Older addon faction labels conflict with the newer public listing; current listing explicitly permits both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/93128",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93122",
+        "name": "Checking Things Out",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93196",
+    "zone": "Shen'dralas",
+    "level": 42,
+    "name": "Khan Jehn",
+    "stage": "Magram reputation route",
+    "giver": "Orgrul",
+    "coordinates": "35.7, 12.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain your reputation with the Magram and perform a necromancy ritual to resurrect Khan Jehn. The ritual site can be found in a tent at the central lake of Magram Village.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Magram reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/93196",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93188",
+        "name": "Return to Orgrul",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
   }
 ]
