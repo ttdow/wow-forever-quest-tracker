@@ -12,16 +12,19 @@ progress::-webkit-progress-bar { background: #344237; }
 progress::-webkit-progress-value { background: #8fc69b; border-radius: 9px; }
 progress::-moz-progress-bar { background: #8fc69b; }
 button, input, select { font: inherit; }
-.zone-picker { position: relative; width: 100%; max-width: 440px; margin-bottom: 18px; }
-.zone-picker .search-wrap { min-width: 0; max-width: none; }
-#zone-search { font-size: 14px; height: 42px; }
-.zone-picker svg { top: 13px; }
-.zone-dropdown { position: absolute; top: calc(100% + 6px); left: 0; right: 0; z-index: 1100; max-height: 300px; overflow-y: auto; border: 1px solid #55735b; border-radius: 6px; background: #171e19; box-shadow: 0 8px 24px #0006; }
-.zone-option { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 11px 14px; cursor: pointer; font-size: 13px; }
-.zone-option:hover, .zone-option.active { background: #263d2e; color: #adddb9; }
-.zone-option[aria-selected="true"] { font-weight: 600; }
-.zone-option .zone-count { flex-shrink: 0; color: #a3b3a5; font-size: 11px; font-weight: 400; font-variant-numeric: tabular-nums; }
-#zone-empty { margin: 0; padding: 14px; color: #a3b3a5; font-size: 12px; }
+.zone-navigation { margin-bottom: 18px; }
+.zone-groups { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.zone-groups button { display: flex; align-items: center; gap: 10px; border: 1px solid #405046; border-radius: 5px; padding: 9px 14px; background: #171e19; color: #dce6dd; font-size: 13px; cursor: pointer; }
+.zone-groups button::after { content: '›'; color: #8fc69b; font-size: 18px; line-height: 18px; }
+.zone-groups button[aria-expanded="true"] { background: #263d2e; border-color: #55735b; color: #adddb9; }
+.zone-groups button[aria-expanded="true"]::after { transform: rotate(90deg); }
+.zone-groups button:disabled { opacity: .5; cursor: wait; }
+#selected-zone { margin-left: 6px; color: #bdcbbf; font-size: 13px; overflow-wrap: anywhere; }
+.zone-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; padding: 12px; border: 1px solid #344237; border-radius: 6px; background: #171e19; }
+.zone-list button { display: flex; align-items: center; gap: 12px; padding: 10px 12px; border: 1px solid transparent; border-radius: 5px; background: transparent; color: #bdcbbf; cursor: pointer; text-align: left; font-size: 13px; }
+.zone-list button:hover { background: #202c23; }
+.zone-list button[aria-pressed="true"] { background: #263d2e; border-color: #405d46; color: #adddb9; }
+.zone-count { color: #a3b3a5; font-size: 11px; font-variant-numeric: tabular-nums; white-space: nowrap; }
 #views { display: flex; gap: 4px; margin: -3px 0 15px; }
 #views button { border: 1px solid #344237; border-radius: 5px; padding: 7px 14px; color: #a3b3a5; background: transparent; font-size: 12px; cursor: pointer; }
 #views button[aria-pressed="true"] { color: #dce6dd; background: #26352a; border-color: #55735b; }
@@ -145,7 +148,7 @@ tr.completed { background: #1b261e; }
 @media (max-width: 1100px) and (min-width: 701px) { main { padding: 30px 22px; } table { min-width: 1050px; } }
 @media (max-width: 700px) {
   main { padding: 26px 16px; }.page-header { align-items: flex-start; margin-bottom: 24px; gap: 14px; }h1 { font-size: 27px; }.progress-block { width: 115px; padding-top: 5px; }.progress-block p { font-size: 10px; line-height: 1.6; }
-  .zone-picker { max-width: none; }
+  #selected-zone { flex-basis: 100%; margin: 3px 0 0; }.zone-list { padding: 7px; gap: 4px; }.zone-list button { flex: 1 1 100%; justify-content: space-between; }
   .toolbar { padding: 14px; gap: 10px; }.search-wrap { max-width: none; flex-basis: 100%; }.filters { width: 100%; }.filters select { min-width: 0; flex: 1; }
   table, tbody { display: block; }colgroup, thead { display: none; }tr { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0 16px; padding: 9px 16px 9px 43px; border-top: 1px solid #344237; }tr:first-child { border-top: 0; }
   .quest-row.expanded { gap: 10px 16px; padding-top: 14px; padding-bottom: 16px; }

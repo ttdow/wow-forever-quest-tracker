@@ -8,12 +8,12 @@
   <title>Quest tracker · WoW Forever</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%232f6850'/%3E%3Cpath d='m11 21 6 6 12-14' fill='none' stroke='white' stroke-width='4'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="./vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="./style.css?v=25">
-  <script src="./progress.js?v=25" defer></script>
-  <script src="./drops.js?v=25" defer></script>
+  <link rel="stylesheet" href="./style.css?v=26">
+  <script src="./progress.js?v=26" defer></script>
+  <script src="./drops.js?v=26" defer></script>
   <script src="./vendor/leaflet/leaflet.js" defer></script>
-  <script src="./map.js?v=25" defer></script>
-  <script src="./app.js?v=25" defer></script>
+  <script src="./map.js?v=26" defer></script>
+  <script src="./app.js?v=26" defer></script>
 </head>
 <body>
   <noscript>Enable JavaScript to use the quest tracker.</noscript>
@@ -22,17 +22,15 @@
       <div><p class="eyebrow">WOW: FOREVER</p><h1>Quest tracker</h1></div>
       <div class="progress-block"><p id="progress-text" aria-live="polite">Loading quests…</p><progress id="progress" max="1" value="0" aria-label="Zone completion"></progress></div>
     </header>
-    <div id="zone-picker" class="zone-picker">
-      <label class="sr-only" for="zone-search">Zone or dungeon</label>
-      <div class="search-wrap">
-        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
-        <input id="zone-search" type="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="zone-options" autocomplete="off" spellcheck="false" placeholder="Search zones and dungeons…" disabled>
+    <nav id="zone-navigation" class="zone-navigation" aria-label="Zones and dungeons">
+      <div class="zone-groups">
+        <button type="button" data-zone-group="zones" aria-expanded="false" aria-controls="zones-list" disabled>Zones</button>
+        <button type="button" data-zone-group="dungeons" aria-expanded="false" aria-controls="dungeons-list" disabled>Dungeons</button>
+        <span id="selected-zone">Teldrassil</span>
       </div>
-      <div id="zone-dropdown" class="zone-dropdown" hidden>
-        <div id="zone-options" role="listbox" aria-label="Zones and dungeons"></div>
-        <p id="zone-empty" role="status" hidden>No matching zones or dungeons.</p>
-      </div>
-    </div>
+      <div id="zones-list" class="zone-list" role="group" aria-label="Zones" hidden></div>
+      <div id="dungeons-list" class="zone-list" role="group" aria-label="Dungeons" hidden></div>
+    </nav>
     <nav id="views" aria-label="Zone view" hidden>
       <button type="button" data-view="quests" aria-pressed="true">Quests</button>
       <button type="button" data-view="drops" aria-pressed="false">Drops</button>

@@ -9,7 +9,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
-- Switch lists using the zone/dungeon search dropdown. Type to filter, then click a result or use the arrow keys and Enter. Escape dismisses the dropdown. Results include completion counts.
+- Click **Zones** or **Dungeons** to expand its full list with completion counts. Choosing a list collapses the navigation; the current list name stays visible. Click the same tab again or press Escape to collapse it.
 - Filter completed / not completed quests, or sort by level, name, or area.
 - In dungeon lists, switch between **Quests** and **Drops**. Each boss with recorded equipment has a card with an expandable loot table. Drops have item names, required levels, base stats/effects, and source evidence, with search, source filtering, and an optional Rogue filter.
 - In **Desolace**, **Gnomeregan**, or **The City of Dalaran**, choose **Map** for researched location references. Pan, zoom, filter layers, search, and open markers for coordinates and quest/drop links. Gnomeregan has separate map sections; Dalaran currently has six community boss-guide markers.
