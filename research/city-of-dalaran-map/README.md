@@ -27,7 +27,11 @@ Choose **Map section → Sewers** to open the Underbelly layout, or use [the dir
 
 The background is the original **1009 × 673** [Dalaran Underbelly map artwork](https://wow.zamimg.com/images/wow/maps/enus/original/4395-2.jpg), obtained from Wowhead's public image CDN. It is originally Wrath's Dalaran map 4395, floor 2, showing the Circle of Wills and Cantrips & Crows Tavern. The player inspected this exact image and confirmed on November 14, 2026 that it matches Forever's dungeon sewer layout. This confirms the layout by player report; it does not establish coordinates for Forever encounters or objects.
 
-No sewer spawn markers are added. Neither the current Azeroth DB guide nor ForeverDB supplies compatible sewer position records, and the route descriptions do not establish exact image coordinates for Atrexis or Lyn. The sewer notice says that boss and chest positions are not yet mapped. The background remains visible without a misleading “no locations match” overlay. Pan, zoom, Fit map, section navigation, and separate viewport memory work even with zero recorded positions. Searching from Sewers can still find city markers and offer a button to switch to their section.
+The sewer section includes **one approximate player-reported marker for Atrexis the Grave Knight**, near the Circle of Wills. The player reported a boss near that landmark on November 14, 2026 and explicitly identified him as Atrexis. His NPC ID **247126** was independently checked against Wowhead's Forever tooltip and the Azeroth DB boss guide. The guides support his identity and sewer route, not the marker's coordinates.
+
+The maintained image position, **48.5% X / 46.0% Y**, is an estimate at the named map area. The player supplied the landmark, not measured coordinates. The marker has `verification: player-reported` and `approximate: true`, a dashed border, and the popup label **Player report · approximate location**. Its note explains that the exact spawn and patrol route are unconfirmed. It does not appear under Forever confirmed or Extra candidates only; Classic snapshot candidate status is separate. Searching “Circle of Wills” finds it, and its Drops link opens the existing dungeon loot list.
+
+Neither the current Azeroth DB guide nor ForeverDB supplies compatible sewer position records for Lyn. Chest positions also remain unknown. Pan, zoom, Fit map, section navigation, and separate viewport memory remain available. Searching across sections can find city or sewer markers and offer a button to switch to their section.
 
 The JPG is copied without cropping, resizing, annotations, or recompression to `assets/maps/city-of-dalaran-sewers.jpg`. Its dimensions, SHA-256, original context, and the player's layout confirmation are recorded in [sources.json](sources.json). No outdoor or Wrath NPC positions were transferred into the dungeon.
 
@@ -44,13 +48,13 @@ The [source inventory](sources.json) records the original normalized marker valu
 ## Coverage limits
 
 - **No verified chest positions were obtained.** No Classic chest locations or invented placeholders are shown.
-- **The sewer layout is available, but Atrexis the Grave Knight and Lyn the Ignored are not plotted.** The accessible guides describe their route and Lyn's summoning ritual but do not publish matching map coordinates.
+- **Atrexis has one approximate player-reported area marker.** Its coordinates are not a measured spawn or patrol position. **Lyn the Ignored is not plotted:** the accessible guides describe the summoning ritual but do not publish matching map coordinates.
 - **Mana Wraith is not plotted:** no supported position was obtained.
 - No interior quest-giver or quest-object position was established with compatible coordinates. Outside attunement NPCs are not pinned onto the city layout.
 - The six guide markers do not establish full patrol ranges, live spawn locations, spawn times, or a complete dungeon route.
 - ForeverDB's broad client minimap composites include surrounding terrain and lack placement records; they were not substituted for the source image or used to infer missing coordinates.
 
-Each section has its own notice. Only the populated Bosses layer is shown on the city section; the sewer section has no marker layers yet. The city layout supports pan/zoom, search including the Mana Elemental alias, coordinate copying, source popups, quest links, and dungeon-drop links. Loading or switching map sections does not alter the other map datasets or quest progress.
+Each section has its own notice and a Bosses layer: six community guide markers in City and one approximate player report in Sewers. The layouts support pan/zoom, search including the Mana Elemental and Circle of Wills aliases, coordinate copying, source popups, and dungeon-drop links; city markers also link related quests. Loading or switching map sections does not alter the other map datasets or quest progress.
 
 ## Attribution and source terms
 

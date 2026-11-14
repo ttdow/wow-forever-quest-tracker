@@ -85,6 +85,10 @@
     "246020": {
       "url": "https://nether.wowhead.com/forever/tooltip/npc/246020",
       "name": "Shade of the Archmage"
+    },
+    "247126": {
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/247126",
+      "name": "Atrexis the Grave Knight"
     }
   },
   "otherSources": [
@@ -113,7 +117,7 @@
       "prompt": "Does Forever’s sewer section use the standard Dalaran Underbelly layout (Circle of Wills and Cantrips & Crows Tavern)?",
       "answer": "Yes, that matches"
     },
-    "coordinateCoverage": "No measured or published compatible Forever boss/chest positions obtained. No position markers added.",
+    "coordinateCoverage": "One approximate player-reported area marker for Atrexis near the Circle of Wills. No measured boss/chest coordinates obtained.",
     "attribution": "World of Warcraft © Blizzard Entertainment; map artwork via Wowhead",
     "sourceTerms": "https://www.wowhead.com/terms-of-service"
   },
@@ -122,5 +126,27 @@
     "azerothGuideSha256": "11c98126fd5a87ed5811213ad4a69e16305ecd93c0246344968f7b694be22775",
     "foreverDbSha256": "0b46e2bba4dbc5d0ae304a99941666ee0f3c9568bca6d33f1c71a8452552101f",
     "finding": "Current guide still has six city markers only; current ForeverDB record has no bossSpots. Sewer background is the player-confirmed Underbelly layout, not either broad client minimap composite."
-  }
+  },
+  "sewerBossReports": [
+    {
+      "date": "2026-11-14",
+      "evidence": "Player report",
+      "report": "There should be 1 boss location on the sewers map. Right near the Circle of Wills.",
+      "identityClarification": "Atrexis the Grave Knight",
+      "npcId": "247126",
+      "floor": "sewers",
+      "imagePercentages": {
+        "x": 48.5,
+        "y": 46.0
+      },
+      "placementMethod": "Approximate image-area center near the Circle of Wills label; selected by the maintainer from the reported landmark, not measured or supplied by the player.",
+      "precision": "Area only; exact spawn position and patrol route unconfirmed",
+      "verification": "player-reported",
+      "approximate": true,
+      "identityReferences": [
+        "https://azeroth.wiki/forever/dungeons/city-of-dalaran/atrexis-the-grave-knight",
+        "https://nether.wowhead.com/forever/tooltip/npc/247126"
+      ]
+    }
+  ]
 }

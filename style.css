@@ -117,7 +117,7 @@ tr.completed { background: #1b261e; }
 #map-coordinates { position: absolute; z-index: 500; bottom: 12px; left: 12px; padding: 5px 9px; border: 1px solid #405046; border-radius: 4px; background: #101512e8; color: #dce6dd; font-size: 11px; font-variant-numeric: tabular-nums; pointer-events: none; }
 .map-footer { flex-wrap: wrap; align-items: baseline; }
 .map-pin { display: flex; align-items: center; justify-content: center; width: 24px; height: 24px; border: 2px solid var(--pin); border-radius: 5px; color: var(--pin); background: #101512; box-shadow: 0 1px 5px #000b; font: 700 16px/1 sans-serif; }
-.map-pin-extra { border-style: dashed; }
+.map-pin-extra, .map-pin-approximate { border-style: dashed; }
 .map-pin-count { position: absolute; top: -7px; right: -7px; display: grid; place-items: center; min-width: 15px; height: 15px; padding: 0 3px; border: 1px solid #dce6dd; border-radius: 9px; color: #101512; background: #dce6dd; font-size: 10px; font-weight: 700; }
 .map-marker:focus-visible { outline: 3px solid #fff; outline-offset: 4px; border-radius: 5px; }
 #zone-map .leaflet-control-zoom { border: 1px solid #55735b; }

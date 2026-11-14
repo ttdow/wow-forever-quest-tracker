@@ -174,6 +174,7 @@ function referenceText(point) {
   if (point.verification === 'forever-confirmed') return 'Forever confirmed';
   if (point.verification === 'classic-derived') return 'Classic reference';
   if (point.verification === 'community-reference') return 'Community map reference';
+  if (point.verification === 'player-reported') return point.approximate ? 'Player report · approximate location' : 'Player report';
   return 'Unverified reference';
 }
 
@@ -291,7 +292,7 @@ function render() {
     const extra = group.every(point => point.coverage === 'additional-snapshot-only');
     const icon = L.divIcon({
       className: 'map-marker', iconSize: [24, 24], iconAnchor: [12, 12], popupAnchor: [0, -12],
-      html: `<span class="map-pin${extra ? ' map-pin-extra' : ''}" style="--pin:${category.color}">${category.symbol}</span>${group.length > 1 ? `<span class="map-pin-count">${group.length}</span>` : ''}`,
+      html: `<span class="map-pin${extra ? ' map-pin-extra' : ''}${group.some(point => point.approximate) ? ' map-pin-approximate' : ''}" style="--pin:${category.color}">${category.symbol}</span>${group.length > 1 ? `<span class="map-pin-count">${group.length}</span>` : ''}`,
     });
     const title = group.map(point => point.name).join(' / ');
     const popupWidth = Math.max(160, Math.min(320, $('#zone-map').clientWidth - 70));

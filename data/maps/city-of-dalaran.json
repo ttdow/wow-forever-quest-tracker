@@ -119,6 +119,28 @@
         "wowhead-246008"
       ],
       "floor": "main"
+    },
+    {
+      "id": "npc-247126",
+      "name": "Atrexis the Grave Knight",
+      "npcId": "247126",
+      "category": "boss",
+      "floor": "sewers",
+      "x": 48.5,
+      "y": 46.0,
+      "verification": "player-reported",
+      "approximate": true,
+      "placementEvidence": "Player identified Atrexis near the Circle of Wills on 2026-11-14. Image position estimated at the named area; no measured coordinates supplied.",
+      "note": "Reported near the Circle of Wills. Approximate area marker; exact spawn position and patrol route are unconfirmed.",
+      "aliases": [
+        "Circle of Wills"
+      ],
+      "drops": true,
+      "sources": [
+        "azeroth-247126",
+        "wowhead-247126",
+        "wowhead-underbelly-map"
+      ]
     }
   ],
   "sources": {
@@ -177,17 +199,24 @@
     "wowhead-underbelly-map": {
       "name": "Underbelly map artwork",
       "url": "https://wow.zamimg.com/images/wow/maps/enus/original/4395-2.jpg"
+    },
+    "azeroth-247126": {
+      "name": "Boss guide (identity and sewer route)",
+      "url": "https://azeroth.wiki/forever/dungeons/city-of-dalaran/atrexis-the-grave-knight"
+    },
+    "wowhead-247126": {
+      "name": "NPC identity reference",
+      "url": "https://www.wowhead.com/forever/npc=247126"
     }
   },
   "coverage": {
     "unmappedBosses": [
-      "Atrexis the Grave Knight",
       "Lyn the Ignored",
       "Mana Wraith"
     ],
     "chests": "No verified chest position data obtained",
     "npcQuestGivers": "No verified interior quest-giver positions obtained",
-    "sewers": "Underbelly background layout available; no verified boss, chest, or quest-object positions."
+    "sewers": "One approximate player-reported Atrexis marker near the Circle of Wills. No measured boss, chest, or quest-object coordinates."
   },
   "license": "Community guide reference facts; see source terms. Blizzard game artwork via Azeroth DB and Wowhead retains its copyright.",
   "floors": [
@@ -212,7 +241,7 @@
       "source": "https://wow.zamimg.com/images/wow/maps/enus/original/4395-2.jpg",
       "attribution": "World of Warcraft © Blizzard Entertainment; map artwork via Wowhead",
       "coordinateSystem": "guide-image",
-      "note": "Underbelly layout reference. Boss and chest positions are not yet mapped.",
+      "note": "Atrexis near the Circle of Wills: approximate player-reported position (dashed marker). Chest positions are not yet mapped.",
       "layoutEvidence": "Player confirmed on 2026-11-14 that this Underbelly layout matches the Forever dungeon sewer section."
     }
   ]
