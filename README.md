@@ -12,7 +12,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Click **Zones** or **Dungeons** to expand its full list with completion counts. Choosing a list collapses the navigation; the current list name stays visible. Click the same tab again or press Escape to collapse it.
 - Filter completed / not completed quests, or sort by level, name, or area.
 - In dungeon lists, switch between **Quests** and **Drops**. Each boss with recorded equipment has a card with an expandable loot table. Drops have item names, required levels, base stats/effects, and source evidence, with search, source filtering, and an optional Rogue filter.
-- In **Desolace**, **Gnomeregan**, **The City of Dalaran**, or **The Drowned City**, choose **Map** for researched location references. Pan, zoom, filter layers, search, and open markers for coordinates and available quest/drop links. Gnomeregan has separate map sections; Dalaran has six community boss-guide markers in City and one approximate player-reported Atrexis marker in Sewers. Drowned City uses Santiago Reyes' fan map with entrance and named-area references.
+- In **Desolace**, **Gnomeregan**, **Razorfen Kraul**, **The City of Dalaran**, or **The Drowned City**, choose **Map** for researched location references. Pan, zoom, filter layers, search, and open markers for coordinates and available quest/drop links. Gnomeregan has separate map sections; Razorfen Kraul has bosses, chest positions, quest givers, and an optional Blueleaf Tuber layer. Dalaran has six community boss-guide markers in City and one approximate player-reported Atrexis marker in Sewers. Drowned City uses Santiago Reyes' fan map with entrance and named-area references.
 
 Progress saves automatically in this browser's local storage. It survives closing the page and restarting the browser, but does not sync across browsers or devices. Clearing site data removes progress. Private browsing saves last only for that private session. Each quest is tracked by its ID, including shared IDs across zones.
 
@@ -108,7 +108,7 @@ Research sources and limits are documented in [the research notes](data/research
 
 ## Maps
 
-Desolace, Gnomeregan, The City of Dalaran, and The Drowned City have a Map view. Maps load independently, use local background images, and preserve quest completion history.
+Desolace, Gnomeregan, Razorfen Kraul, The City of Dalaran, and The Drowned City have a Map view. Maps load independently, use local background images, and preserve quest completion history.
 
 ### Desolace
 
@@ -159,3 +159,13 @@ Open **The Drowned City → Map**, or use [the direct map link](https://ttdow.gi
 The map uses the original 3000 × 2000 fan recreation by **Santiago Reyes — Atlas de Azeroth: Forever**, supplied through Reddit. The creator's credit remains visible. Searchable image-reference markers identify Sunken Hollow entrance, Altar of the Serpent, Eternal Amphitheater, Abyssal Dais, and Deep Archives. These area/entrance references do not establish boss or chest positions; those remain unmapped. Coordinates are percentages of this image.
 
 `data/maps/drowned-city.json` is the maintained dataset, and `assets/maps/drowned-city.jpg` is the unmodified original image. Entrance and Areas layers can be filtered separately. Pan, zoom, Fit map, search, coordinate copying, and the existing Quests/Drops navigation are supported. The footer links the credited source and its terms. See the [Drowned City map research](research/drowned-city-map/README.md) and [source inventory](research/drowned-city-map/sources.json) for attribution, image hash, marker interpretations, and coverage limits.
+
+### Razorfen Kraul
+
+Open **Razorfen Kraul → Map**, or use [the direct map link](https://ttdow.github.io/wow-forever-quest-tracker/#zone=Razorfen%20Kraul&view=map).
+
+The local Forever client minimap shows Classic reference positions for six bosses, rare Blind Hunter and Earthcaller Halmgar, seven possible chest positions, Heralath Fallowbrook, Willix the Importer, and the instance arrival point. Bosses link to Drops, Charlga links The Crone of the Kraul, and the two quest givers link their quests. Chest popups list Large Iron Bound Chest and Large Solid Chest as alternatives at each position.
+
+Enable **Quest objects** for 69 hidden Blueleaf Tuber reference positions and their quest links. This layer starts off to keep the initial map readable; the gopher must uncover tubers. These are Classic references, not observed Forever spawn positions, and map coordinates are percentages of the image. No chest probabilities, lockpicking requirements, escort paths, or patrol routes are inferred.
+
+`data/maps/razorfen-kraul.json` is the maintained dataset; `assets/maps/razorfen-kraul.webp` is the 1512 × 777 client image. See the [Razorfen Kraul map research](research/razorfen-kraul-map/README.md) and [source inventory](research/razorfen-kraul-map/sources.json) for exact world positions, projection, chest spawn groups, and gopher behavior.

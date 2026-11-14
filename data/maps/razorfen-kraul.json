@@ -1,0 +1,2452 @@
+{
+  "zone": "Razorfen Kraul",
+  "updated": "2026-11-14",
+  "map": {
+    "appearance": "dungeon",
+    "image": "./assets/maps/razorfen-kraul.webp",
+    "width": 1512,
+    "height": 777,
+    "worldProjection": {
+      "originX": 2287.13,
+      "originY": 2090.93,
+      "pixelsPerYard": 2.0
+    },
+    "source": "https://foreverdb.net/dungeon/47-razorfen-kraul",
+    "attribution": "World of Warcraft © Blizzard Entertainment; client map via ForeverDB",
+    "coordinateSystem": "guide-image"
+  },
+  "note": "Classic reference positions on a Forever client map. Enable Quest objects for Blueleaf Tubers. Spawns may differ in Forever.",
+  "points": [
+    {
+      "id": "npc-4420",
+      "name": "Overlord Ramtusk",
+      "npcId": "4420",
+      "category": "boss",
+      "x": 59.6402,
+      "y": 21.6216,
+      "world": {
+        "map": 47,
+        "x": 2203.13,
+        "y": 1640.05,
+        "z": 85.9022
+      },
+      "spawnGuid": 4700001,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic spawn projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "drops": true
+    },
+    {
+      "id": "npc-4421",
+      "name": "Charlga Razorflank",
+      "npcId": "4421",
+      "category": "boss",
+      "x": 29.9788,
+      "y": 24.8983,
+      "world": {
+        "map": 47,
+        "x": 2190.4,
+        "y": 1864.29,
+        "z": 79.1389
+      },
+      "spawnGuid": 4700002,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic spawn projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "drops": true,
+      "questIds": [
+        "1101"
+      ],
+      "note": "Quest target for The Crone of the Kraul (Razorflank's Medallion)."
+    },
+    {
+      "id": "npc-4422",
+      "name": "Agathelos the Raging",
+      "npcId": "4422",
+      "category": "boss",
+      "x": 15.3349,
+      "y": 75.8227,
+      "world": {
+        "map": 47,
+        "x": 1992.5588,
+        "y": 1974.9985,
+        "z": 63.39992
+      },
+      "spawnGuid": 4700003,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic spawn projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "drops": true,
+      "note": "Classic spawn reference; Agathelos moves when the approach event triggers."
+    },
+    {
+      "id": "npc-4424",
+      "name": "Aggem Thorncurse",
+      "npcId": "4424",
+      "category": "boss",
+      "x": 82.9881,
+      "y": 52.7207,
+      "world": {
+        "map": 47,
+        "x": 2082.31,
+        "y": 1463.54,
+        "z": 73.1789
+      },
+      "spawnGuid": 4700004,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic spawn projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "drops": true
+    },
+    {
+      "id": "npc-4425",
+      "name": "Blind Hunter",
+      "npcId": "4425",
+      "category": "rare",
+      "x": 14.9127,
+      "y": 22.2317,
+      "world": {
+        "map": 47,
+        "x": 2200.76,
+        "y": 1978.19,
+        "z": 56.7228
+      },
+      "spawnGuid": 4700005,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic spawn projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "drops": true
+    },
+    {
+      "id": "npc-4428",
+      "name": "Death Speaker Jargba",
+      "npcId": "4428",
+      "category": "boss",
+      "x": 89.9061,
+      "y": 36.2162,
+      "world": {
+        "map": 47,
+        "x": 2146.43,
+        "y": 1411.24,
+        "z": 73.9538
+      },
+      "spawnGuid": 4700008,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic spawn projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "drops": true
+    },
+    {
+      "id": "npc-4508",
+      "name": "Willix the Importer",
+      "npcId": "4508",
+      "category": "quest-giver",
+      "x": 39.582,
+      "y": 23.8739,
+      "world": {
+        "map": 47,
+        "x": 2194.38,
+        "y": 1791.69,
+        "z": 65.5727
+      },
+      "spawnGuid": 4700053,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic spawn projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "1144"
+      ],
+      "note": "Escort quest pickup; this is the reference starting position, not the escort route."
+    },
+    {
+      "id": "npc-4510",
+      "name": "Heralath Fallowbrook",
+      "npcId": "4510",
+      "category": "quest-giver",
+      "x": 39.873,
+      "y": 25.8327,
+      "world": {
+        "map": 47,
+        "x": 2186.77,
+        "y": 1789.49,
+        "z": 65.149
+      },
+      "spawnGuid": 4700054,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic spawn projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "1142"
+      ]
+    },
+    {
+      "id": "npc-4842",
+      "name": "Earthcaller Halmgar",
+      "npcId": "4842",
+      "category": "rare",
+      "x": 52.5476,
+      "y": 43.7452,
+      "world": {
+        "map": 47,
+        "x": 2117.18,
+        "y": 1693.67,
+        "z": 80.5766
+      },
+      "spawnGuid": 4700186,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic spawn projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "drops": true
+    },
+    {
+      "id": "npc-6168",
+      "name": "Roogug",
+      "npcId": "6168",
+      "category": "boss",
+      "x": 67.3757,
+      "y": 37.1017,
+      "world": {
+        "map": 47,
+        "x": 2142.99,
+        "y": 1581.57,
+        "z": 80.3842
+      },
+      "spawnGuid": 4700191,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic spawn projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "drops": true
+    },
+    {
+      "id": "chest-4700150",
+      "name": "Large chest spawn",
+      "category": "dungeon-chest",
+      "objectIds": [
+        "74447",
+        "74448"
+      ],
+      "variants": [
+        {
+          "objectId": "74447",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "objectId": "74448",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "x": 50.3742,
+      "y": 39.3606,
+      "world": {
+        "map": 47,
+        "x": 2134.214111328125,
+        "y": 1710.1011962890625,
+        "z": 80.66573333740234
+      },
+      "spawnGuid": 4700150,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic chest spawn-group position projected onto matching Forever client minimap.",
+      "classicSpawnGroup": {
+        "id": 4700004,
+        "maxActive": 1
+      },
+      "note": "Possible chest position. Large Iron Bound Chest and Large Solid Chest are alternatives at this spot; availability in Forever is unconfirmed.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "chest-4700151",
+      "name": "Large chest spawn",
+      "category": "dungeon-chest",
+      "objectIds": [
+        "74447",
+        "74448"
+      ],
+      "variants": [
+        {
+          "objectId": "74447",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "objectId": "74448",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "x": 63.1085,
+      "y": 45.2192,
+      "world": {
+        "map": 47,
+        "x": 2111.453369140625,
+        "y": 1613.830078125,
+        "z": 81.18890380859375
+      },
+      "spawnGuid": 4700151,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic chest spawn-group position projected onto matching Forever client minimap.",
+      "classicSpawnGroup": {
+        "id": 4700004,
+        "maxActive": 1
+      },
+      "note": "Possible chest position. Large Iron Bound Chest and Large Solid Chest are alternatives at this spot; availability in Forever is unconfirmed.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "chest-4700152",
+      "name": "Large chest spawn",
+      "category": "dungeon-chest",
+      "objectIds": [
+        "74447",
+        "74448"
+      ],
+      "variants": [
+        {
+          "objectId": "74447",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "objectId": "74448",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "x": 37.5075,
+      "y": 21.9032,
+      "world": {
+        "map": 47,
+        "x": 2202.0361328125,
+        "y": 1807.373046875,
+        "z": 64.31261444091797
+      },
+      "spawnGuid": 4700152,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic chest spawn-group position projected onto matching Forever client minimap.",
+      "classicSpawnGroup": {
+        "id": 4700004,
+        "maxActive": 1
+      },
+      "note": "Possible chest position. Large Iron Bound Chest and Large Solid Chest are alternatives at this spot; availability in Forever is unconfirmed.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "chest-4700153",
+      "name": "Large chest spawn",
+      "category": "dungeon-chest",
+      "objectIds": [
+        "74447",
+        "74448"
+      ],
+      "variants": [
+        {
+          "objectId": "74447",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "objectId": "74448",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "x": 82.76,
+      "y": 50.6804,
+      "world": {
+        "map": 47,
+        "x": 2090.236572265625,
+        "y": 1465.264404296875,
+        "z": 73.86744689941406
+      },
+      "spawnGuid": 4700153,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic chest spawn-group position projected onto matching Forever client minimap.",
+      "classicSpawnGroup": {
+        "id": 4700004,
+        "maxActive": 1
+      },
+      "note": "Possible chest position. Large Iron Bound Chest and Large Solid Chest are alternatives at this spot; availability in Forever is unconfirmed.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "chest-4700160",
+      "name": "Large chest spawn",
+      "category": "dungeon-chest",
+      "objectIds": [
+        "74447",
+        "74448"
+      ],
+      "variants": [
+        {
+          "objectId": "74447",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "objectId": "74448",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "x": 14.0063,
+      "y": 24.1385,
+      "world": {
+        "map": 47,
+        "x": 2193.35205078125,
+        "y": 1985.0421142578125,
+        "z": 56.34576416015625
+      },
+      "spawnGuid": 4700160,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic chest spawn-group position projected onto matching Forever client minimap.",
+      "classicSpawnGroup": {
+        "id": 4700005,
+        "maxActive": 1
+      },
+      "note": "Possible chest position. Large Iron Bound Chest and Large Solid Chest are alternatives at this spot; availability in Forever is unconfirmed.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "chest-4700161",
+      "name": "Large chest spawn",
+      "category": "dungeon-chest",
+      "objectIds": [
+        "74447",
+        "74448"
+      ],
+      "variants": [
+        {
+          "objectId": "74447",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "objectId": "74448",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "x": 57.7096,
+      "y": 22.6271,
+      "world": {
+        "map": 47,
+        "x": 2199.2236328125,
+        "y": 1654.6453857421875,
+        "z": 86.1541519165039
+      },
+      "spawnGuid": 4700161,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic chest spawn-group position projected onto matching Forever client minimap.",
+      "classicSpawnGroup": {
+        "id": 4700005,
+        "maxActive": 1
+      },
+      "note": "Possible chest position. Large Iron Bound Chest and Large Solid Chest are alternatives at this spot; availability in Forever is unconfirmed.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "chest-4700162",
+      "name": "Large chest spawn",
+      "category": "dungeon-chest",
+      "objectIds": [
+        "74447",
+        "74448"
+      ],
+      "variants": [
+        {
+          "objectId": "74447",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "objectId": "74448",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "x": 63.9273,
+      "y": 41.03,
+      "world": {
+        "map": 47,
+        "x": 2127.728515625,
+        "y": 1607.6392822265625,
+        "z": 81.47574615478516
+      },
+      "spawnGuid": 4700162,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic chest spawn-group position projected onto matching Forever client minimap.",
+      "classicSpawnGroup": {
+        "id": 4700005,
+        "maxActive": 1
+      },
+      "note": "Possible chest position. Large Iron Bound Chest and Large Solid Chest are alternatives at this spot; availability in Forever is unconfirmed.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700300",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 55.4378,
+      "y": 52.61,
+      "world": {
+        "map": 47,
+        "x": 2082.74,
+        "y": 1671.82,
+        "z": 61.2396
+      },
+      "spawnGuid": 4700300,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700301",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 53.3651,
+      "y": 32.87,
+      "world": {
+        "map": 47,
+        "x": 2159.43,
+        "y": 1687.49,
+        "z": 57.5433
+      },
+      "spawnGuid": 4700301,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700302",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 51.2659,
+      "y": 53.0862,
+      "world": {
+        "map": 47,
+        "x": 2080.89,
+        "y": 1703.36,
+        "z": 56.6447
+      },
+      "spawnGuid": 4700302,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700303",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 42.7553,
+      "y": 59.6782,
+      "world": {
+        "map": 47,
+        "x": 2055.28,
+        "y": 1767.7,
+        "z": 58.4559
+      },
+      "spawnGuid": 4700303,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700304",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 34.7844,
+      "y": 23.2921,
+      "world": {
+        "map": 47,
+        "x": 2196.64,
+        "y": 1827.96,
+        "z": 61.4706
+      },
+      "spawnGuid": 4700304,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700305",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 29.5397,
+      "y": 66.103,
+      "world": {
+        "map": 47,
+        "x": 2030.32,
+        "y": 1867.61,
+        "z": 56.2866
+      },
+      "spawnGuid": 4700305,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700306",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 30.3175,
+      "y": 50.399,
+      "world": {
+        "map": 47,
+        "x": 2091.33,
+        "y": 1861.73,
+        "z": 51.0341
+      },
+      "spawnGuid": 4700306,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700307",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 25.5675,
+      "y": 22.3887,
+      "world": {
+        "map": 47,
+        "x": 2200.15,
+        "y": 1897.64,
+        "z": 71.3191
+      },
+      "spawnGuid": 4700307,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700308",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 46.1495,
+      "y": 54.4093,
+      "world": {
+        "map": 47,
+        "x": 2075.75,
+        "y": 1742.04,
+        "z": 76.7184
+      },
+      "spawnGuid": 4700308,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700309",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 56.8492,
+      "y": 41.4749,
+      "world": {
+        "map": 47,
+        "x": 2126,
+        "y": 1661.15,
+        "z": 82.4824
+      },
+      "spawnGuid": 4700309,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700310",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 65.3466,
+      "y": 20.3887,
+      "world": {
+        "map": 47,
+        "x": 2207.92,
+        "y": 1596.91,
+        "z": 80.7375
+      },
+      "spawnGuid": 4700310,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700311",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 72.5754,
+      "y": 33.5006,
+      "world": {
+        "map": 47,
+        "x": 2156.98,
+        "y": 1542.26,
+        "z": 72.849
+      },
+      "spawnGuid": 4700311,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700312",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 76.3056,
+      "y": 27.5882,
+      "world": {
+        "map": 47,
+        "x": 2179.95,
+        "y": 1514.06,
+        "z": 69.0709
+      },
+      "spawnGuid": 4700312,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700313",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 73.6772,
+      "y": 73.6885,
+      "world": {
+        "map": 47,
+        "x": 2000.85,
+        "y": 1533.93,
+        "z": 80.3971
+      },
+      "spawnGuid": 4700313,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700314",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 63.8095,
+      "y": 76.0978,
+      "world": {
+        "map": 47,
+        "x": 1991.49,
+        "y": 1608.53,
+        "z": 81.1601
+      },
+      "spawnGuid": 4700314,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700315",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 42.996,
+      "y": 62.3398,
+      "world": {
+        "map": 47,
+        "x": 2044.94,
+        "y": 1765.88,
+        "z": 59.6994
+      },
+      "spawnGuid": 4700315,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700316",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 43.0489,
+      "y": 62.1982,
+      "world": {
+        "map": 47,
+        "x": 2045.49,
+        "y": 1765.48,
+        "z": 59.7808
+      },
+      "spawnGuid": 4700316,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700317",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 50.9405,
+      "y": 62.1261,
+      "world": {
+        "map": 47,
+        "x": 2045.77,
+        "y": 1705.82,
+        "z": 59.6996
+      },
+      "spawnGuid": 4700317,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700318",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 50.8823,
+      "y": 61.9794,
+      "world": {
+        "map": 47,
+        "x": 2046.34,
+        "y": 1706.26,
+        "z": 59.6492
+      },
+      "spawnGuid": 4700318,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700319",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 50.8783,
+      "y": 61.9665,
+      "world": {
+        "map": 47,
+        "x": 2046.39,
+        "y": 1706.29,
+        "z": 59.5589
+      },
+      "spawnGuid": 4700319,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700320",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 58.4127,
+      "y": 57.5856,
+      "world": {
+        "map": 47,
+        "x": 2063.41,
+        "y": 1649.33,
+        "z": 61.1799
+      },
+      "spawnGuid": 4700320,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700321",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 58.4272,
+      "y": 57.4981,
+      "world": {
+        "map": 47,
+        "x": 2063.75,
+        "y": 1649.22,
+        "z": 61.4492
+      },
+      "spawnGuid": 4700321,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700322",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 58.4325,
+      "y": 57.4775,
+      "world": {
+        "map": 47,
+        "x": 2063.83,
+        "y": 1649.18,
+        "z": 61.4519
+      },
+      "spawnGuid": 4700322,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700323",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 62.4749,
+      "y": 56.973,
+      "world": {
+        "map": 47,
+        "x": 2065.79,
+        "y": 1618.62,
+        "z": 63.6112
+      },
+      "spawnGuid": 4700323,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700324",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 62.2235,
+      "y": 56.9112,
+      "world": {
+        "map": 47,
+        "x": 2066.03,
+        "y": 1620.52,
+        "z": 63.7698
+      },
+      "spawnGuid": 4700324,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700325",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 41.2712,
+      "y": 55.1866,
+      "world": {
+        "map": 47,
+        "x": 2072.73,
+        "y": 1778.92,
+        "z": 56.0082
+      },
+      "spawnGuid": 4700325,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700326",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 41.2923,
+      "y": 55.1506,
+      "world": {
+        "map": 47,
+        "x": 2072.87,
+        "y": 1778.76,
+        "z": 55.9931
+      },
+      "spawnGuid": 4700326,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700327",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 41.295,
+      "y": 55.1454,
+      "world": {
+        "map": 47,
+        "x": 2072.89,
+        "y": 1778.74,
+        "z": 56.0518
+      },
+      "spawnGuid": 4700327,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700328",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 41.3082,
+      "y": 55.1326,
+      "world": {
+        "map": 47,
+        "x": 2072.94,
+        "y": 1778.64,
+        "z": 55.9876
+      },
+      "spawnGuid": 4700328,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700329",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 41.3122,
+      "y": 55.1274,
+      "world": {
+        "map": 47,
+        "x": 2072.96,
+        "y": 1778.61,
+        "z": 56.0454
+      },
+      "spawnGuid": 4700329,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700330",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 41.3214,
+      "y": 55.1197,
+      "world": {
+        "map": 47,
+        "x": 2072.99,
+        "y": 1778.54,
+        "z": 56.0434
+      },
+      "spawnGuid": 4700330,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700331",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 51.4074,
+      "y": 54.3012,
+      "world": {
+        "map": 47,
+        "x": 2076.17,
+        "y": 1702.29,
+        "z": 57.1857
+      },
+      "spawnGuid": 4700331,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700332",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 51.414,
+      "y": 54.2909,
+      "world": {
+        "map": 47,
+        "x": 2076.21,
+        "y": 1702.24,
+        "z": 57.1493
+      },
+      "spawnGuid": 4700332,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700333",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 55.7487,
+      "y": 53.4466,
+      "world": {
+        "map": 47,
+        "x": 2079.49,
+        "y": 1669.47,
+        "z": 61.3327
+      },
+      "spawnGuid": 4700333,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700334",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 39.9405,
+      "y": 49.0759,
+      "world": {
+        "map": 47,
+        "x": 2096.47,
+        "y": 1788.98,
+        "z": 51.0372
+      },
+      "spawnGuid": 4700334,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700335",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 55.127,
+      "y": 48.0772,
+      "world": {
+        "map": 47,
+        "x": 2100.35,
+        "y": 1674.17,
+        "z": 59.2608
+      },
+      "spawnGuid": 4700335,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700336",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 49.2963,
+      "y": 47.9408,
+      "world": {
+        "map": 47,
+        "x": 2100.88,
+        "y": 1718.25,
+        "z": 54.4839
+      },
+      "spawnGuid": 4700336,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700337",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 49.381,
+      "y": 47.8893,
+      "world": {
+        "map": 47,
+        "x": 2101.08,
+        "y": 1717.61,
+        "z": 54.4945
+      },
+      "spawnGuid": 4700337,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700338",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 31.3717,
+      "y": 47.0296,
+      "world": {
+        "map": 47,
+        "x": 2104.42,
+        "y": 1853.76,
+        "z": 49.3604
+      },
+      "spawnGuid": 4700338,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700339",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 38.6442,
+      "y": 44.6512,
+      "world": {
+        "map": 47,
+        "x": 2113.66,
+        "y": 1798.78,
+        "z": 47.9032
+      },
+      "spawnGuid": 4700339,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700340",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 38.5503,
+      "y": 44.1828,
+      "world": {
+        "map": 47,
+        "x": 2115.48,
+        "y": 1799.49,
+        "z": 47.5996
+      },
+      "spawnGuid": 4700340,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700341",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 55.7077,
+      "y": 43.7091,
+      "world": {
+        "map": 47,
+        "x": 2117.32,
+        "y": 1669.78,
+        "z": 59.3417
+      },
+      "spawnGuid": 4700341,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700342",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 55.6852,
+      "y": 43.2458,
+      "world": {
+        "map": 47,
+        "x": 2119.12,
+        "y": 1669.95,
+        "z": 59.2502
+      },
+      "spawnGuid": 4700342,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700343",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 55.7143,
+      "y": 43.2227,
+      "world": {
+        "map": 47,
+        "x": 2119.21,
+        "y": 1669.73,
+        "z": 59.248
+      },
+      "spawnGuid": 4700343,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700344",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 55.7209,
+      "y": 43.2201,
+      "world": {
+        "map": 47,
+        "x": 2119.22,
+        "y": 1669.68,
+        "z": 59.2488
+      },
+      "spawnGuid": 4700344,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700345",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 46.7116,
+      "y": 40.8649,
+      "world": {
+        "map": 47,
+        "x": 2128.37,
+        "y": 1737.79,
+        "z": 52.5722
+      },
+      "spawnGuid": 4700345,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700346",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 46.7579,
+      "y": 40.8546,
+      "world": {
+        "map": 47,
+        "x": 2128.41,
+        "y": 1737.44,
+        "z": 52.3674
+      },
+      "spawnGuid": 4700346,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700347",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 32.6336,
+      "y": 40.2445,
+      "world": {
+        "map": 47,
+        "x": 2130.78,
+        "y": 1844.22,
+        "z": 48.0524
+      },
+      "spawnGuid": 4700347,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700348",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 32.6772,
+      "y": 40.2111,
+      "world": {
+        "map": 47,
+        "x": 2130.91,
+        "y": 1843.89,
+        "z": 48.173
+      },
+      "spawnGuid": 4700348,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700349",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 32.6759,
+      "y": 40.2085,
+      "world": {
+        "map": 47,
+        "x": 2130.92,
+        "y": 1843.9,
+        "z": 48.0198
+      },
+      "spawnGuid": 4700349,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700350",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 32.709,
+      "y": 40.2033,
+      "world": {
+        "map": 47,
+        "x": 2130.94,
+        "y": 1843.65,
+        "z": 47.9928
+      },
+      "spawnGuid": 4700350,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700351",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 32.6931,
+      "y": 40.2033,
+      "world": {
+        "map": 47,
+        "x": 2130.94,
+        "y": 1843.77,
+        "z": 48.0061
+      },
+      "spawnGuid": 4700351,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700352",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 35.2024,
+      "y": 39.3822,
+      "world": {
+        "map": 47,
+        "x": 2134.13,
+        "y": 1824.8,
+        "z": 46.8879
+      },
+      "spawnGuid": 4700352,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700353",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 34.9669,
+      "y": 39.1609,
+      "world": {
+        "map": 47,
+        "x": 2134.99,
+        "y": 1826.58,
+        "z": 46.6136
+      },
+      "spawnGuid": 4700353,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700354",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 54.7037,
+      "y": 37.4801,
+      "world": {
+        "map": 47,
+        "x": 2141.52,
+        "y": 1677.37,
+        "z": 58.1502
+      },
+      "spawnGuid": 4700354,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700355",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 54.7209,
+      "y": 37.3436,
+      "world": {
+        "map": 47,
+        "x": 2142.05,
+        "y": 1677.24,
+        "z": 58.1266
+      },
+      "spawnGuid": 4700355,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700356",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 48.8717,
+      "y": 33.4981,
+      "world": {
+        "map": 47,
+        "x": 2156.99,
+        "y": 1721.46,
+        "z": 52.2289
+      },
+      "spawnGuid": 4700356,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700357",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 48.8413,
+      "y": 33.4775,
+      "world": {
+        "map": 47,
+        "x": 2157.07,
+        "y": 1721.69,
+        "z": 52.2129
+      },
+      "spawnGuid": 4700357,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700358",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 48.8029,
+      "y": 33.4234,
+      "world": {
+        "map": 47,
+        "x": 2157.28,
+        "y": 1721.98,
+        "z": 52.2522
+      },
+      "spawnGuid": 4700358,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700359",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 50.7738,
+      "y": 31.9254,
+      "world": {
+        "map": 47,
+        "x": 2163.1,
+        "y": 1707.08,
+        "z": 54.3258
+      },
+      "spawnGuid": 4700359,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700360",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 50.7632,
+      "y": 31.9022,
+      "world": {
+        "map": 47,
+        "x": 2163.19,
+        "y": 1707.16,
+        "z": 54.4146
+      },
+      "spawnGuid": 4700360,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700361",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 52.9167,
+      "y": 31.8893,
+      "world": {
+        "map": 47,
+        "x": 2163.24,
+        "y": 1690.88,
+        "z": 57.089
+      },
+      "spawnGuid": 4700361,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700362",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 50.7394,
+      "y": 31.7375,
+      "world": {
+        "map": 47,
+        "x": 2163.83,
+        "y": 1707.34,
+        "z": 54.3322
+      },
+      "spawnGuid": 4700362,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700363",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 53.0132,
+      "y": 31.6293,
+      "world": {
+        "map": 47,
+        "x": 2164.25,
+        "y": 1690.15,
+        "z": 57.1036
+      },
+      "spawnGuid": 4700363,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700364",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 31.8267,
+      "y": 30.3501,
+      "world": {
+        "map": 47,
+        "x": 2169.22,
+        "y": 1850.32,
+        "z": 57.3443
+      },
+      "spawnGuid": 4700364,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700365",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 31.9246,
+      "y": 29.8867,
+      "world": {
+        "map": 47,
+        "x": 2171.02,
+        "y": 1849.58,
+        "z": 57.7634
+      },
+      "spawnGuid": 4700365,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700366",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 33.8585,
+      "y": 25.0759,
+      "world": {
+        "map": 47,
+        "x": 2189.71,
+        "y": 1834.96,
+        "z": 60.1657
+      },
+      "spawnGuid": 4700366,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700367",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 36.3545,
+      "y": 24.7593,
+      "world": {
+        "map": 47,
+        "x": 2190.94,
+        "y": 1816.09,
+        "z": 62.6802
+      },
+      "spawnGuid": 4700367,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "tuber-4700368",
+      "name": "Blueleaf Tuber",
+      "objectId": "20920",
+      "category": "quest-object",
+      "x": 36.6138,
+      "y": 24.6898,
+      "world": {
+        "map": 47,
+        "x": 2191.21,
+        "y": 1814.13,
+        "z": 62.6528
+      },
+      "spawnGuid": 4700368,
+      "verification": "classic-derived",
+      "placementEvidence": "Classic hidden quest-object position projected onto matching Forever client minimap.",
+      "questIds": [
+        "1221"
+      ],
+      "note": "Use the Crate with Holes and Snufflenose Command Stick to have your gopher uncover tubers. Hidden Classic reference position; not a guaranteed active pickup in Forever.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gopher",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "instance-arrival",
+      "name": "Instance entrance arrival",
+      "category": "entrance",
+      "x": 72.3188,
+      "y": 88.7593,
+      "world": {
+        "map": 47,
+        "x": 1942.3,
+        "y": 1544.2
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic instance arrival position from ForeverDB.",
+      "note": "Reference arrival point just inside the instance.",
+      "sources": [
+        "fdb-map"
+      ]
+    }
+  ],
+  "sources": {
+    "fdb-map": {
+      "name": "ForeverDB client map and projection",
+      "url": "https://foreverdb.net/dungeon/47-razorfen-kraul"
+    },
+    "classic-sql": {
+      "name": "Classic spawn and chest-group data",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/047_razorfen_kraul.sql"
+    },
+    "classic-snapshot": {
+      "name": "Classic database snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "classic-gopher": {
+      "name": "Classic Snufflenose Gopher behavior",
+      "url": "https://github.com/cmangos/mangos-classic/blob/master/src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_kraul/razorfen_kraul.cpp"
+    }
+  },
+  "coverage": {
+    "bosses": 6,
+    "rares": 2,
+    "chestPositions": 7,
+    "questGivers": 2,
+    "hiddenTuberPositions": 69,
+    "arrivalPoints": 1,
+    "totalEntries": 87,
+    "chestVariants": "74447 and 74448 are alternatives at each position, not 14 separate chests.",
+    "limits": "No measured Forever spawns, chest probabilities, escort paths, or patrol routes are asserted. Two-dimensional projection can overlap elevations."
+  },
+  "license": "Classic spawn references derived from CMaNGOS Classic-DB under GPL-3.0. Blizzard client artwork retains its copyright."
+}

@@ -1,0 +1,170 @@
+{
+  "researched": "2026-11-14",
+  "dungeonId": 47,
+  "areaId": 491,
+  "build": "1.60.1.70938",
+  "sourceURLs": {
+    "fdb-map": {
+      "name": "ForeverDB client map and projection",
+      "url": "https://foreverdb.net/dungeon/47-razorfen-kraul"
+    },
+    "classic-sql": {
+      "name": "Classic spawn and chest-group data",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/047_razorfen_kraul.sql"
+    },
+    "classic-snapshot": {
+      "name": "Classic database snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "classic-gopher": {
+      "name": "Classic Snufflenose Gopher behavior",
+      "url": "https://github.com/cmangos/mangos-classic/blob/master/src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_kraul/razorfen_kraul.cpp"
+    }
+  },
+  "image": {
+    "url": "https://foreverdb.net/img/dungeonmaps/47/1.webp",
+    "size": [
+      1512,
+      777
+    ],
+    "sha256": "23aacda1e7a467fa65e3d620214f704224b4098324302bfff5decabb99f465a5",
+    "worldProjection": {
+      "originX": 2287.13,
+      "originY": 2090.93,
+      "pixelsPerYard": 2.0
+    }
+  },
+  "classicDatabase": {
+    "releasePublished": "2026-11-13T13:34:58Z",
+    "sha256": "daa16e44b95a9d4a0d17b8f8e3a91cf0b4be1af7d9b3bfc8ac71707a02399f5f",
+    "archiveSha256": "420c7ce8aead7cb90f9fb96914ebd9c054391ad7a666076da2e6db2332dcbc0e",
+    "sqlRevision": "09000ea8d7333856727204e4e2d30f772149b7a8",
+    "sqlSha256": "3ae84449bf69a88d9194dd177d318f2dcacb33ec4b87bb7386f5b1e41da52c3b",
+    "readMode": "SQLite read-only URI"
+  },
+  "gopherScriptSha256": "006aa2af2845c1484b0af0f57881424924870046119f1b03f861f0b46e3ad016",
+  "counts": {
+    "boss": 6,
+    "rare": 2,
+    "quest-giver": 2,
+    "dungeon-chest": 7,
+    "quest-object": 69,
+    "entrance": 1
+  },
+  "chestGroups": [
+    {
+      "id": 4700004,
+      "maxActive": 1,
+      "positionGuids": [
+        4700150,
+        4700151,
+        4700152,
+        4700153
+      ],
+      "objectIds": [
+        74447,
+        74448
+      ]
+    },
+    {
+      "id": 4700005,
+      "maxActive": 1,
+      "positionGuids": [
+        4700160,
+        4700161,
+        4700162
+      ],
+      "objectIds": [
+        74447,
+        74448
+      ]
+    }
+  ],
+  "projectionFormula": {
+    "pixelX": "(originY - worldY) * pixelsPerYard",
+    "pixelY": "(originX - worldX) * pixelsPerYard",
+    "percentX": "pixelX / imageWidth * 100",
+    "percentY": "pixelY / imageHeight * 100"
+  },
+  "decisions": [
+    "Use only client Part 1, where ForeverDB places all six bosses and arrival. Part 2 is a canopy surface that obscures the playable layout; it is not presented as a second dungeon floor.",
+    "Chest GUIDs have object ID zero; spawn_group_spawn and spawn_group_entry resolve the two object alternatives. A direct object-template join alone misses them.",
+    "Blueleaf Tubers use object 20920: the inspected gopher script seeks these hidden objects, moves to them, and makes them interactable. The 19 older Tuber Node rows (20919) are not substituted for those pickup positions.",
+    "Quest objects default off only for this map to avoid crowding the boss/chest view. The same data remain searchable when that layer is enabled.",
+    "Excluded external Ratchet/Feralas/Thousand Needles quest-givers, non-Rogue class quest objectives, Horde-only objectives, ordinary trash, herbs, and 19 older trigger-node rows."
+  ],
+  "comparisonBossSpots": [
+    {
+      "order": 1,
+      "n": "Roogug",
+      "floor": 1,
+      "x": 67.38,
+      "y": 37.1,
+      "wx": 2143.0,
+      "wy": 1581.6,
+      "wz": 80.4,
+      "src": "classic",
+      "label": "Classic spawn"
+    },
+    {
+      "order": 2,
+      "n": "Aggem Thorncurse",
+      "floor": 1,
+      "x": 82.99,
+      "y": 52.72,
+      "wx": 2082.3,
+      "wy": 1463.5,
+      "wz": 73.2,
+      "src": "classic",
+      "label": "Classic spawn"
+    },
+    {
+      "order": 3,
+      "n": "Death Speaker Jargba",
+      "floor": 1,
+      "x": 89.91,
+      "y": 36.22,
+      "wx": 2146.4,
+      "wy": 1411.2,
+      "wz": 74.0,
+      "src": "classic",
+      "label": "Classic spawn"
+    },
+    {
+      "order": 4,
+      "n": "Overlord Ramtusk",
+      "floor": 1,
+      "x": 59.64,
+      "y": 21.62,
+      "wx": 2203.1,
+      "wy": 1640.0,
+      "wz": 85.9,
+      "src": "classic",
+      "label": "Classic spawn"
+    },
+    {
+      "order": 5,
+      "n": "Agathelos the Raging",
+      "floor": 1,
+      "x": 15.14,
+      "y": 75.35,
+      "wx": 1994.4,
+      "wy": 1976.4,
+      "wz": 63.3,
+      "src": "classic",
+      "label": "Classic spawn"
+    },
+    {
+      "order": 6,
+      "n": "Charlga Razorflank",
+      "floor": 1,
+      "x": 29.98,
+      "y": 24.9,
+      "wx": 2190.4,
+      "wy": 1864.3,
+      "wz": 79.1,
+      "src": "classic",
+      "label": "Classic spawn"
+    }
+  ]
+}

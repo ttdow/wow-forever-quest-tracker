@@ -19,6 +19,7 @@ const categories = {
 const zones = {
   Desolace: { file: 'desolace', guide: 'https://foreverdb.net/maps/1443', report: 'desolace-map' },
   Gnomeregan: { file: 'gnomeregan', guide: 'https://foreverdb.net/dungeon/90-gnomeregan', report: 'gnomeregan-map' },
+  'Razorfen Kraul': { file: 'razorfen-kraul', guide: 'https://foreverdb.net/dungeon/47-razorfen-kraul', report: 'razorfen-kraul-map', defaultHiddenLayers: ['quest-object'] },
   'The City of Dalaran': {
     file: 'city-of-dalaran', guide: 'https://azeroth.wiki/forever/dungeons/city-of-dalaran', report: 'city-of-dalaran-map',
     provider: 'Azeroth DB', terms: 'https://azeroth.wiki/terms',
@@ -37,7 +38,7 @@ const viewports = new Map();
 const state = { zone: '', data: null, floor: null, map: null, image: null, markers: null, bounds: null, active: false, failed: false, fitted: false, version: 0, context: {} };
 
 function preferences(zone = state.zone) {
-  if (!settings.has(zone)) settings.set(zone, { search: '', evidence: 'all', enabled: new Set(Object.keys(categories)), floor: '' });
+  if (!settings.has(zone)) settings.set(zone, { search: '', evidence: 'all', enabled: new Set(Object.keys(categories).filter(key => !zones[zone]?.defaultHiddenLayers?.includes(key))), floor: '' });
   return settings.get(zone);
 }
 
