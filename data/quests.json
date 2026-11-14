@@ -12237,5 +12237,316 @@
       }
     ],
     "previousQuests": []
+  },
+  {
+    "id": "6626",
+    "zone": "Razorfen Downs",
+    "level": 35,
+    "name": "A Host of Evil",
+    "stage": "Entrance approach",
+    "giver": "Myriam Moonsinger",
+    "coordinates": "49.0, 94.9",
+    "area": "The Barrens",
+    "objective": "Kill 8 Razorfen Battleguards, 8 Razorfen Thornweavers, and 8 Death's Head Cultists, then return to Myriam Moonsinger near Razorfen Downs.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 28; Targets and quest giver are on the approach outside the instance; Classic-reference details and coordinates",
+    "sources": [
+      "https://foreverchanges.pro/quest/6626",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua",
+      "https://foreverdb.net/quest/6626"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3523",
+    "zone": "Razorfen Downs",
+    "level": 37,
+    "name": "Scourge of the Downs",
+    "stage": "Belnistrasz introduction",
+    "giver": "Belnistrasz",
+    "coordinates": "",
+    "area": "Razorfen Downs",
+    "objective": "Speak with Belnistrasz again and return Belnistrasz's Oathstone to agree to aid him.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 32; Quest starts inside the instance; no measured pickup coordinates; Classic-reference details and coordinates",
+    "sources": [
+      "https://foreverchanges.pro/quest/3523",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua",
+      "https://foreverdb.net/quest/3523"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3525",
+    "zone": "Razorfen Downs",
+    "level": 37,
+    "name": "Extinguishing the Idol",
+    "stage": "Escort and ritual defense",
+    "giver": "Belnistrasz",
+    "coordinates": "",
+    "area": "Razorfen Downs",
+    "objective": "Escort Belnistrasz to the quilboar idol and protect him while he performs the ritual to shut it down.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 32; Quest starts inside the instance; no measured pickup coordinates; Classic-reference details and coordinates",
+    "sources": [
+      "https://foreverchanges.pro/quest/3525",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua",
+      "https://foreverdb.net/quest/3525"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "3523",
+        "name": "Scourge of the Downs",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/3525",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3636",
+    "zone": "Razorfen Downs",
+    "level": 42,
+    "name": "Bring the Light",
+    "stage": "",
+    "giver": "Archbishop Benedictus",
+    "coordinates": "50.3, 45.5",
+    "area": "Stormwind City",
+    "objective": "Slay Amnennar the Coldbringer in Razorfen Downs, then return to Archbishop Benedictus.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 39; Classic-reference details and coordinates",
+    "sources": [
+      "https://foreverchanges.pro/quest/3636",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua",
+      "https://foreverdb.net/quest/3636"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "96773",
+    "zone": "Razorfen Downs",
+    "level": 41,
+    "name": "The Coldbringer's Eye",
+    "stage": "",
+    "giver": "Archmage Lan'dalock",
+    "coordinates": "15.4, 73.8",
+    "area": "Dalaran (Alterac Mountains)",
+    "objective": "Recover The Coldbringer's Eye from Amnennar the Coldbringer in Razorfen Downs for Archmage Lan'dalock.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 34",
+    "sources": [
+      "https://foreverchanges.pro/quest/96773",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "93594",
+    "zone": "Razorfen Downs",
+    "level": 43,
+    "name": "Word of the Woods",
+    "stage": "Agamaggan's Blood chain: introduction",
+    "giver": "Mithera",
+    "coordinates": "53.2, 75.9",
+    "area": "Shen'dralas",
+    "objective": "Find Woodwyrd in the Forlorn Gardens at Shen'dralas.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 35; Chain links are observed offer order, not confirmed mandatory requirements",
+    "sources": [
+      "https://foreverchanges.pro/quest/93594",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93341",
+        "name": "Forlorn Gardens",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93404",
+    "zone": "Razorfen Downs",
+    "level": 49,
+    "name": "Rot and Regret",
+    "stage": "Agamaggan's Blood chain: Maraudon",
+    "giver": "Woodwyrd",
+    "coordinates": "69.7, 71.9",
+    "area": "Shen'dralas",
+    "objective": "Recover a Vial of Earth Song Water from Maraudon, then return to Woodwyrd at the Forlorn Gardens and extinguish him.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 35; Chain links are observed offer order, not confirmed mandatory requirements",
+    "sources": [
+      "https://foreverchanges.pro/quest/93404",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93594",
+        "name": "Word of the Woods",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93601",
+    "zone": "Razorfen Downs",
+    "level": 45,
+    "name": "Passing the Blame",
+    "stage": "Agamaggan's Blood chain: Bristleback Retreat",
+    "giver": "Woodwyrd",
+    "coordinates": "69.7, 71.9",
+    "area": "Shen'dralas",
+    "objective": "Seek out a quilboar of significance at the Bristleback Retreat.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 35; Chain links are observed offer order, not confirmed mandatory requirements",
+    "sources": [
+      "https://foreverchanges.pro/quest/93601",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93404",
+        "name": "Rot and Regret",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93604",
+    "zone": "Razorfen Downs",
+    "level": 45,
+    "name": "Agamaggan's Blood",
+    "stage": "",
+    "giver": "Kog'thug the Brave",
+    "coordinates": "72.6, 31.4",
+    "area": "Bristleback Retreat (Shen'dralas)",
+    "objective": "Acquire Virulent Blood of Agamaggan in Razorfen Downs and return it to Kog'thug the Brave. Blood from Razorfen Kraul is not sufficient.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 35; Pickup coordinates from All The Things; approximate community reference; Chain links are observed offer order, not confirmed mandatory requirements",
+    "sources": [
+      "https://foreverchanges.pro/quest/93604",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93601",
+        "name": "Passing the Blame",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
   }
 ]

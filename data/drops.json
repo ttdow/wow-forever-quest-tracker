@@ -4957,6 +4957,605 @@
         }
       ],
       "notes": "Stats use current Wowhead Forever tooltips, cross-checked against client records. Deathless Marrow is the explicit item-drop NPC associated with the Deathless Guardians encounter."
+    },
+    "Razorfen Downs": {
+      "id": 129,
+      "source": "https://foreverdb.net/dungeon/129-razorfen-downs",
+      "build": "1.60.1.70938",
+      "items": [
+        {
+          "id": "286639",
+          "name": "Ambassador's Bloodrobes",
+          "quality": 3,
+          "requiredLevel": 33,
+          "itemLevel": 38,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "55 Armor",
+            "+12 Stamina",
+            "+6 Spirit",
+            "+4 Spell Penetration"
+          ],
+          "source": "Ambassador Bloodrage",
+          "sourceOrder": 0,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=286639",
+            "https://nether.wowhead.com/forever/tooltip/item/286639",
+            "https://foreverdb.net/item/286639",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ],
+          "notes": "Rare Ambassador Bloodrage spawns on the entrance approach outside the instance."
+        },
+        {
+          "id": "10775",
+          "name": "Carapace of Tuten'kash",
+          "quality": 3,
+          "requiredLevel": 40,
+          "itemLevel": 42,
+          "slot": "Chest",
+          "type": "Plate",
+          "stats": [
+            "373 Armor",
+            "+10 Strength",
+            "+8 Agility",
+            "+15 Stamina"
+          ],
+          "source": "Tuten'kash",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10775",
+            "https://nether.wowhead.com/forever/tooltip/item/10775",
+            "https://foreverdb.net/item/10775",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10776",
+          "name": "Silky Spider Cape",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "30 Armor",
+            "+10 Stamina",
+            "Equip: Reduces the duration of all movement impairing effects on you by 7%."
+          ],
+          "source": "Tuten'kash",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10776",
+            "https://nether.wowhead.com/forever/tooltip/item/10776",
+            "https://foreverdb.net/item/10776",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10777",
+          "name": "Arachnid Gloves",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "79 Armor",
+            "Random enchantment",
+            "+10 Nature Resistance"
+          ],
+          "source": "Tuten'kash",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10777",
+            "https://nether.wowhead.com/forever/tooltip/item/10777",
+            "https://foreverdb.net/item/10777",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10760",
+          "name": "Swine Fists",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "79 Armor",
+            "+8 Strength",
+            "+8 Agility",
+            "Equip: Spells and attacks against Swine deal 2 Nature damage."
+          ],
+          "source": "Plaguemaw the Rotting",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10760",
+            "https://nether.wowhead.com/forever/tooltip/item/10760",
+            "https://foreverdb.net/item/10760",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10766",
+          "name": "Plaguerot Sprig",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "44–82 Nature damage · 1.60s · 39.38 DPS",
+            "+5 Shadow Resistance",
+            "+6 Spell Power"
+          ],
+          "source": "Plaguemaw the Rotting",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10766",
+            "https://nether.wowhead.com/forever/tooltip/item/10766",
+            "https://foreverdb.net/item/10766",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "274380",
+          "name": "Decaying Flesh Bands",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Wrist",
+          "type": "Cloth",
+          "stats": [
+            "27 Armor",
+            "+9 Agility",
+            "-6 Stamina",
+            "-6 Spirit",
+            "+13 Nature Resistance"
+          ],
+          "source": "Plaguemaw the Rotting",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274380",
+            "https://nether.wowhead.com/forever/tooltip/item/274380",
+            "https://foreverdb.net/item/274380",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10769",
+          "name": "Glowing Eye of Mordresh",
+          "quality": 3,
+          "requiredLevel": 36,
+          "itemLevel": 41,
+          "slot": "Neck",
+          "type": "Accessory",
+          "stats": [
+            "+8 Intellect",
+            "+20 Healing Power",
+            "+7 Spell Damage"
+          ],
+          "source": "Mordresh Fire Eye",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10769",
+            "https://nether.wowhead.com/forever/tooltip/item/10769",
+            "https://foreverdb.net/item/10769",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10770",
+          "name": "Mordresh's Lifeless Skull",
+          "quality": 3,
+          "requiredLevel": 36,
+          "itemLevel": 41,
+          "slot": "Held in off-hand",
+          "type": "Accessory",
+          "stats": [
+            "+5 Spirit",
+            "+16 Shadow Damage Done"
+          ],
+          "source": "Mordresh Fire Eye",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10770",
+            "https://nether.wowhead.com/forever/tooltip/item/10770",
+            "https://foreverdb.net/item/10770",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10771",
+          "name": "Deathmage Sash",
+          "quality": 3,
+          "requiredLevel": 36,
+          "itemLevel": 41,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "33 Armor",
+            "+15 Intellect",
+            "+7 Spell Power"
+          ],
+          "source": "Mordresh Fire Eye",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10771",
+            "https://nether.wowhead.com/forever/tooltip/item/10771",
+            "https://foreverdb.net/item/10771",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10758",
+          "name": "X'caliboar",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Two-hand",
+          "type": "Two-hand sword",
+          "stats": [
+            "98–148 damage · 3.30s · 37.27 DPS",
+            "+20 Strength",
+            "+7 Stamina",
+            "Chance on hit: Unleash a mighty swing, dealing 33 to 51 Holy damage. Deals 3 times as much damage to Undead and Swine."
+          ],
+          "source": "Ragglesnout",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10758",
+            "https://nether.wowhead.com/forever/tooltip/item/10758",
+            "https://foreverdb.net/item/10758",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ],
+          "notes": "Rare spawn."
+        },
+        {
+          "id": "10767",
+          "name": "Savage Boar's Guard",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Off-hand",
+          "type": "Shield",
+          "stats": [
+            "1287 Armor",
+            "22 Block",
+            "+11 Strength",
+            "+6 Stamina"
+          ],
+          "source": "Ragglesnout",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10767",
+            "https://nether.wowhead.com/forever/tooltip/item/10767",
+            "https://foreverdb.net/item/10767",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ],
+          "notes": "Rare spawn."
+        },
+        {
+          "id": "10768",
+          "name": "Boar Champion's Belt",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "147 Armor",
+            "+15 Strength",
+            "+6 Stamina"
+          ],
+          "source": "Ragglesnout",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10768",
+            "https://nether.wowhead.com/forever/tooltip/item/10768",
+            "https://foreverdb.net/item/10768",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ],
+          "notes": "Rare spawn."
+        },
+        {
+          "id": "10772",
+          "name": "Glutton's Cleaver",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "One-hand",
+          "type": "Axe",
+          "stats": [
+            "40–75 damage · 2.00s · 28.75 DPS",
+            "Chance on hit: Wounds the target, causing it to bleed for 70 damage over 7 sec."
+          ],
+          "source": "Glutton",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10772",
+            "https://nether.wowhead.com/forever/tooltip/item/10772",
+            "https://foreverdb.net/item/10772",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10774",
+          "name": "Fleshhide Shoulders",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Shoulders",
+          "type": "Leather",
+          "stats": [
+            "95 Armor",
+            "+5 Strength",
+            "+6 Agility",
+            "+15 Stamina"
+          ],
+          "source": "Glutton",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10774",
+            "https://nether.wowhead.com/forever/tooltip/item/10774",
+            "https://foreverdb.net/item/10774",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "274385",
+          "name": "Abomination Chain",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Neck",
+          "type": "Accessory",
+          "stats": [
+            "+10 Stamina",
+            "+3 Defense",
+            "+6 Attack Power",
+            "+6 Attack Power against Humanoids"
+          ],
+          "source": "Glutton",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274385",
+            "https://nether.wowhead.com/forever/tooltip/item/274385",
+            "https://foreverdb.net/item/274385",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10761",
+          "name": "Coldrage Dagger",
+          "quality": 3,
+          "requiredLevel": 38,
+          "itemLevel": 43,
+          "slot": "One-hand",
+          "type": "Dagger",
+          "stats": [
+            "30–57 damage · 1.50s · 29.0 DPS",
+            "+3 Frost Resistance",
+            "Chance on hit: Launches a bolt of frost, dealing 34 to 50 Frost damage and slowing movement speed by 50% for 5 sec."
+          ],
+          "source": "Amnennar the Coldbringer",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10761",
+            "https://nether.wowhead.com/forever/tooltip/item/10761",
+            "https://foreverdb.net/item/10761",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10762",
+          "name": "Robes of the Lich",
+          "quality": 3,
+          "requiredLevel": 38,
+          "itemLevel": 43,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "62 Armor",
+            "+20 Stamina",
+            "+14 Frost Damage Done",
+            "+14 Shadow Damage Done"
+          ],
+          "source": "Amnennar the Coldbringer",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10762",
+            "https://nether.wowhead.com/forever/tooltip/item/10762",
+            "https://foreverdb.net/item/10762",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10763",
+          "name": "Icemetal Barbute",
+          "quality": 3,
+          "requiredLevel": 40,
+          "itemLevel": 43,
+          "slot": "Head",
+          "type": "Plate",
+          "stats": [
+            "341 Armor",
+            "+14 Strength",
+            "+7 Stamina",
+            "+10 Intellect",
+            "+10 Frost Resistance"
+          ],
+          "source": "Amnennar the Coldbringer",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10763",
+            "https://nether.wowhead.com/forever/tooltip/item/10763",
+            "https://foreverdb.net/item/10763",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10764",
+          "name": "Deathchill Armor",
+          "quality": 3,
+          "requiredLevel": 39,
+          "itemLevel": 43,
+          "slot": "Chest",
+          "type": "Mail",
+          "stats": [
+            "266 Armor",
+            "+3 Stamina",
+            "+9 Intellect",
+            "+15 Spirit",
+            "+20 Healing Power",
+            "+7 Spell Damage"
+          ],
+          "source": "Amnennar the Coldbringer",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10764",
+            "https://nether.wowhead.com/forever/tooltip/item/10764",
+            "https://foreverdb.net/item/10764",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "10765",
+          "name": "Bonefingers",
+          "quality": 3,
+          "requiredLevel": 38,
+          "itemLevel": 43,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "81 Armor",
+            "+9 Stamina",
+            "+9 Intellect",
+            "Restores 4 mana per 5 sec."
+          ],
+          "source": "Amnennar the Coldbringer",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10765",
+            "https://nether.wowhead.com/forever/tooltip/item/10765",
+            "https://foreverdb.net/item/10765",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        },
+        {
+          "id": "274381",
+          "name": "Coldbringer Spine",
+          "quality": 3,
+          "requiredLevel": 38,
+          "itemLevel": 43,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "63–95 damage · 2.80s · 28.21 DPS",
+            "+20 Spirit",
+            "+1.0% Hit",
+            "+59 Frost Damage Done"
+          ],
+          "source": "Amnennar the Coldbringer",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274381",
+            "https://nether.wowhead.com/forever/tooltip/item/274381",
+            "https://foreverdb.net/item/274381",
+            "https://foreverdb.net/dungeon/129-razorfen-downs",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua"
+          ]
+        }
+      ],
+      "notes": "Current Wowhead Forever tooltip stats and explicit drop sources. Includes rare Ragglesnout and rare Ambassador Bloodrage on the entrance approach."
     }
   }
 }

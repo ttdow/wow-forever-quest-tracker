@@ -3,7 +3,7 @@
 const $ = selector => document.querySelector(selector);
 const state = { quests: [], forwardLinks: new Map(), completed: new Set(), expanded: new Set(), zone: 'Teldrassil', view: 'quests', storageReady: false, loaded: false };
 const rows = $('#quests');
-const zones = ['Teldrassil', 'Darkshore', 'Ashenvale', 'Stonetalon Mountains', 'Desolace', "Shen'dralas", 'Feralas', 'Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'The Drowned City'];
+const zones = ['Teldrassil', 'Darkshore', 'Ashenvale', 'Stonetalon Mountains', 'Desolace', "Shen'dralas", 'Feralas', 'Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Razorfen Downs', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'The Drowned City'];
 const navigation = { open: null, zone: state.zone };
 let saveTimer;
 

@@ -246,3 +246,35 @@ Drowned City item stats/effects use current Wowhead Forever tooltips, cross-chec
 Armory has **four Herod items**: Ravager (7717), Herod's Shoulder (7718), Raging Berserker's Helm (7719), and Scarlet Leggings (10330). The first three have explicit matching Wowhead source lines; Scarlet Leggings retains Classic source evidence from ForeverDB's Herod loot table corroborated by the addon, because its current tooltip has no `Dropped by` line. All four use client build 1.60.1.70938 base stats/effects. All are unusable by Rogues, so that filter intentionally has no results. Scarlet Trainee's tabard, recipes, ordinary trash, generic world drops, quest rewards, and non-equipment are excluded. No additional boss equipment is inferred from neighboring item IDs or unconfirmed client associations.
 
 The additions preserve collapsed boss cards, the existing source/class filters, and optional nonblocking source metadata. Quests and Drops remain independent loads; maps and their datasets are unchanged. No Node runtime, build tooling, source CSV files, or new installation is required.
+
+## Razorfen Downs
+
+Researched November 14, 2026. Added nine Alliance/neutral quest entries and 22 boss-specific equipment drops. Totals are now 460 quest entries / 448 unique IDs and 220 equipment entries. Razorfen Downs uses client map/dungeon ID **129**, area **722**; All The Things' internal instance-root ID 233 is a separate identifier and is not substituted for the client map ID.
+
+Sources include the [ForeverDB dungeon guide](https://foreverdb.net/dungeon/129-razorfen-downs) and its full data record (build 1.60.1.70938), individual current [ForeverChanges quest pages](https://foreverchanges.pro/quest/93604), [All The Things at revision 36684dd](https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20downs.lua), [Questie's offer-order traces at revision 4dbb824](https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua), and explicit `Dropped by` lines in [Wowhead's Forever item tooltips](https://nether.wowhead.com/forever/tooltip/item/274381). Individual data entries retain their source URLs.
+
+### Quests
+
+The six dungeon quests are A Host of Evil (6626, level 35/minimum 28), Scourge of the Downs (3523, 37/32), Extinguishing the Idol (3525, 37/32), Bring the Light (3636, 42/39), The Coldbringer's Eye (96773, 41/34), and Agamaggan's Blood (93604, 45/35). Bring the Light and this version of The Coldbringer's Eye are Alliance-only; the others are shared. The Horde Coldbringer's Eye (97196), Bring the End (3341), and both An Unholy Alliance quests (6521/6522) are excluded. Current quest pages and quest registries record no non-Rogue class restrictions on included quests.
+
+The full addon record adds Agamaggan's Blood and the Alliance Coldbringer's Eye, both missing from ForeverDB's current seven-ID registry. The new quests' identities, objectives, levels, minimum levels, and factions are corroborated by current public quest pages. Older quests retain Classic-reference provenance where the page says details are unchanged. Myriam Moonsinger's 49.0, 94.9 pickup is on the Barrens approach, outside the instance. Benedictus uses the current page's Classic location 50.3, 45.5 in Stormwind rather than the addon's incompatible 39.6, 27.4. Belnistrasz's quests start inside Razorfen Downs and have no invented outdoor coordinates.
+
+Extinguishing the Idol explicitly requires Scourge of the Downs and links it in both directions. The Agamaggan route includes Word of the Woods (93594, level 43), Rot and Regret (93404, level 49, objectives in Maraudon), and Passing the Blame (93601, level 45); all three are shared quests with minimum level 35. Their actual pickup locations are shown in Shen'dralas, rather than mislabeled as inside Razorfen Downs. Word of the Woods also references earlier Forlorn Gardens (93341) externally. These handoffs are labeled `previousQuests` / `Offered after`, because Questie's traces explicitly classify the links as observed offer-order assumptions. The addon's explicit Passing the Blame → Agamaggan link is corroborating community evidence, not a reason to promote the entire chain to mandatory prerequisites. Kog'thug's pickup at Bristleback Retreat (72.6, 31.4 on Shen'dralas) comes from the addon and is labeled an approximate community reference because the current page has no observed pickup pin.
+
+### Boss equipment
+
+There are **22 equipment entries across seven cards**, all with explicit matching Wowhead Forever boss-source lines:
+
+- Ambassador Bloodrage (rare, outside on the entrance approach): Ambassador's Bloodrobes (286639).
+- Tuten'kash: Carapace of Tuten'kash (10775), Silky Spider Cape (10776), Arachnid Gloves (10777).
+- Plaguemaw the Rotting: Swine Fists (10760), Plaguerot Sprig (10766), Decaying Flesh Bands (274380). Plaguemaw is tied to the Belnistrasz event.
+- Mordresh Fire Eye: Glowing Eye of Mordresh (10769), Mordresh's Lifeless Skull (10770), Deathmage Sash (10771).
+- Ragglesnout (rare): X'caliboar (10758), Savage Boar's Guard (10767), Boar Champion's Belt (10768).
+- Glutton: Glutton's Cleaver (10772), Fleshhide Shoulders (10774), Abomination Chain (274385).
+- Amnennar the Coldbringer: Coldrage Dagger (10761), Robes of the Lich (10762), Icemetal Barbute (10763), Deathchill Armor (10764), Bonefingers (10765), Coldbringer Spine (274381).
+
+The tooltips independently establish the three associations that ForeverDB still labels client clues: Decaying Flesh Bands → Plaguemaw, Abomination Chain → Glutton, and Coldbringer Spine → Amnennar. Ambassador's Bloodrobes is also absent from ForeverDB's loot list but is corroborated by its explicit tooltip and the addon. Four observed equipment sources retain `seen` evidence (Arachnid Gloves, Mordresh's Lifeless Skull, Robes of the Lich, Deathchill Armor); the other 18 use linked Wowhead references. Observed counts and tooltip percentages are not displayed as guaranteed drop probabilities.
+
+Stats/effects use current Wowhead Forever tooltip values, separately marked `statsEvidence: wowhead`, with item identity/type/level cross-checked against client records. The Arachnid Gloves' random enchantment is preserved without inventing an affix. Decaying Flesh Bands retain both negative stats (-6 Stamina and -6 Spirit). Coldbringer Spine includes its tooltip's 63–95 damage at 2.80 seconds, +20 Spirit, +1% hit, and +59 Frost damage. Fourteen items are Rogue-usable, including the one-handed axe Glutton's Cleaver and the held off-hand accessory; plate, mail, shields, two-handed swords, staves, and wands are filtered out.
+
+Generic world equipment, ordinary trash, quest rewards, Skull of the Coldbringer (quest item), recipes, and consumables are excluded. Ambassador Bloodrage is distinguished from Horde quest target Ambassador Malcin. Other lists, maps, existing quest/drop records, completion IDs, and the progress-storage key are unchanged. Source metadata remains optional and cannot block loading.
