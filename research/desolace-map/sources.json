@@ -1,0 +1,105 @@
+[
+  {
+    "id": "era-chests",
+    "url": "https://theforeverera.com/data/map-layers/k.json?v=20261108113959",
+    "role": "35 Classic chest/footlocker points, object IDs and Classic skill requirements",
+    "origin": "CMaNGOS Classic-DB",
+    "license": "GPL-3.0",
+    "version": "generated 2026-11-08T11:39:59Z; client context 1.60.1.70888",
+    "independentForeverEvidence": false
+  },
+  {
+    "id": "era-questgivers",
+    "url": "https://theforeverera.com/data/map-layers/q.json?v=20261108113959",
+    "role": "Quest-start coordinates and NPC/object identities",
+    "origin": "CMaNGOS Classic-DB; exported Desolace rows have no Forever position observations",
+    "license": "GPL-3.0"
+  },
+  {
+    "id": "era-rares",
+    "url": "https://theforeverera.com/data/map-layers/r.json?v=20261108113959",
+    "role": "Six Classic rare reference points",
+    "origin": "CMaNGOS Classic-DB",
+    "license": "GPL-3.0"
+  },
+  {
+    "id": "fdb-zone-bounds",
+    "url": "https://foreverdb.net/data/maps/zones.json",
+    "role": "Desolace UI map1443/area405 coordinate rectangle and terrain polygon from Forever client",
+    "origin": "Forever client map tables"
+  },
+  {
+    "id": "fdb-map-index",
+    "url": "https://foreverdb.net/data/maps/index.json",
+    "role": "Current client map image, dimensions and provenance",
+    "version": "built 2026-11-07"
+  },
+  {
+    "id": "fdb-questgivers",
+    "url": "https://foreverdb.net/data/maps/layer-questgivers.json",
+    "role": "Cross-check of Classic pickup points and source labels"
+  },
+  {
+    "id": "fdb-rares",
+    "url": "https://foreverdb.net/data/maps/layer-rares.json",
+    "role": "Cross-check of six Classic rare positions; no Desolace rows marked as player-observed positions"
+  },
+  {
+    "id": "friends-provenance",
+    "url": "https://www.wowforeverfriends.org/library/provenance.json",
+    "role": "Pinned Classic snapshot provenance",
+    "repository": "https://github.com/cmangos/classic-db",
+    "releasePublishedAt": "2026-10-13T13:06:26Z",
+    "dbSha256": "3ecce713758f290300931c88814e6349cf642d35d0365d1dab753a4e639faeb6",
+    "license": "GPL-3.0"
+  },
+  {
+    "id": "tavern",
+    "url": "https://www.warcrafttavern.com/wow-classic/guides/chest-locations/",
+    "role": "Classic geographic corroboration and editorial variant names: C=2857, H=2855; no screenshot coordinates estimated"
+  },
+  {
+    "id": "questie-crosscheck",
+    "url": "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/data/Classic/classicObjectDB.lua",
+    "role": "Cross-check only: 35 two-decimal coordinates match within 0.025 percentage points; three other snapshot locations absent; not independent Forever confirmation"
+  },
+  {
+    "id": "wowhead2857",
+    "url": "https://www.wowhead.com/forever/object=2857/solid-chest",
+    "role": "Handoff lead",
+    "access": "403 Forbidden; alleged approximately 21 points could not be checked"
+  },
+  {
+    "id": "azerothwiki",
+    "url": "https://azeroth.wiki/forever/map/desolace",
+    "role": "Cross-check only: 10+15 Solid Chest points, 7+3 footlockers; matches Classic-derived sets, no extracted Forever confirmation; not used as exported source"
+  },
+  {
+    "id": "friends-object-2855",
+    "url": "https://www.wowforeverfriends.org/objects/2855/",
+    "role": "Pinned Classic world XYZ spawn records and loot-template metadata; all table continuations read",
+    "origin": "CMaNGOS Classic-DB",
+    "license": "GPL-3.0"
+  },
+  {
+    "id": "friends-object-2857",
+    "url": "https://www.wowforeverfriends.org/objects/2857/",
+    "role": "Pinned Classic world XYZ spawn records and loot-template metadata; all table continuations read",
+    "origin": "CMaNGOS Classic-DB",
+    "license": "GPL-3.0"
+  },
+  {
+    "id": "friends-object-179491",
+    "url": "https://www.wowforeverfriends.org/objects/179491/",
+    "role": "Pinned Classic world XYZ spawn records and loot-template metadata; all table continuations read",
+    "origin": "CMaNGOS Classic-DB",
+    "license": "GPL-3.0"
+  },
+  {
+    "id": "friends-object-179493",
+    "url": "https://www.wowforeverfriends.org/objects/179493/",
+    "role": "Pinned Classic world XYZ spawn records and loot-template metadata; all table continuations read",
+    "origin": "CMaNGOS Classic-DB",
+    "license": "GPL-3.0"
+  }
+]

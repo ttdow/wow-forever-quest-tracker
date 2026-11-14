@@ -7,10 +7,13 @@
   <meta name="color-scheme" content="dark">
   <title>Quest tracker · WoW Forever</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%232f6850'/%3E%3Cpath d='m11 21 6 6 12-14' fill='none' stroke='white' stroke-width='4'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="./style.css?v=21">
-  <script src="./progress.js?v=21" defer></script>
-  <script src="./drops.js?v=21" defer></script>
-  <script src="./app.js?v=21" defer></script>
+  <link rel="stylesheet" href="./vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="./style.css?v=22">
+  <script src="./progress.js?v=22" defer></script>
+  <script src="./drops.js?v=22" defer></script>
+  <script src="./vendor/leaflet/leaflet.js" defer></script>
+  <script src="./map.js?v=22" defer></script>
+  <script src="./app.js?v=22" defer></script>
 </head>
 <body>
   <noscript>Enable JavaScript to use the quest tracker.</noscript>
@@ -38,9 +41,10 @@
       <button type="button" data-zone="Scarlet Monastery Graveyard" aria-pressed="false">Scarlet Monastery Graveyard <span></span></button>
       <button type="button" data-zone="Scarlet Monastery Library" aria-pressed="false">Scarlet Monastery Library <span></span></button>
     </nav>
-    <nav id="views" aria-label="Dungeon view" hidden>
+    <nav id="views" aria-label="Zone view" hidden>
       <button type="button" data-view="quests" aria-pressed="true">Quests</button>
       <button type="button" data-view="drops" aria-pressed="false">Drops</button>
+      <button type="button" data-view="map" aria-pressed="false" hidden>Map</button>
     </nav>
     <section id="quest-panel" class="quest-panel" aria-label="Quests">
       <div class="toolbar">
@@ -73,6 +77,24 @@
       <div id="drops" class="drop-cards"></div>
       <p id="drops-empty" class="empty" role="status" hidden>No drops match your filters.</p>
       <footer class="panel-footer"><span id="drop-result-count" aria-live="polite"></span><a id="drop-reference" target="_blank" rel="noopener noreferrer">Guide: ForeverDB</a></footer>
+    </section>
+    <section id="map-panel" class="quest-panel" aria-label="Desolace map" hidden>
+      <div class="toolbar">
+        <div class="search-wrap"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="map-search" type="search" placeholder="Search names, quests, IDs, coordinates…" aria-label="Search map locations"></div>
+        <div class="filters">
+          <label class="sr-only" for="map-evidence">Location evidence</label><select id="map-evidence"><option value="all">All references</option><option value="shared">Exclude extra candidates</option><option value="additional">Extra candidates only</option><option value="forever">Forever confirmed</option></select>
+          <button id="map-reset" type="button">Fit map</button>
+        </div>
+      </div>
+      <fieldset id="map-layers" class="map-layers"><legend class="sr-only">Map layers and legend</legend></fieldset>
+      <p class="map-note">Classic reference locations. Spawns may differ in Forever. Dashed markers are extra candidates.</p>
+      <div id="map-error" class="error" role="alert" hidden><span>Could not load map.</span><button id="map-retry" type="button">Retry</button></div>
+      <div class="map-wrap">
+        <div id="zone-map" aria-label="Desolace locations. Use arrow keys to pan and plus or minus to zoom." aria-describedby="map-help"></div>
+        <p id="map-empty" class="map-message" role="status" hidden>No locations match your filters.</p>
+        <output id="map-coordinates" aria-label="Map cursor coordinates">—, —</output>
+      </div>
+      <footer class="panel-footer map-footer"><span id="map-result-count" aria-live="polite">Loading map…</span><span id="map-help">Drag to pan · Scroll to zoom · Click a marker</span><span>Map: © Blizzard · <a href="https://foreverdb.net/maps/1443" target="_blank" rel="noopener noreferrer">ForeverDB</a> · <a href="./research/desolace-map/README.md" target="_blank" rel="noopener noreferrer">Sources</a> · <a href="./research/desolace-map/LICENSE-GPL-3.0.txt" target="_blank" rel="noopener noreferrer">Data license</a></span></footer>
     </section>
   </main>
 </body>

@@ -26,8 +26,22 @@ function isDungeon(zone) {
   return globalThis.DungeonDrops?.hasZone(zone) || false;
 }
 
-function dropsHash(zone) {
-  return `#${new URLSearchParams({ zone, view: 'drops' })}`;
+function hasMap(zone) {
+  return globalThis.ZoneMap?.hasZone(zone) || false;
+}
+
+function supportsView(zone, view) {
+  return view === 'quests' || (view === 'drops' && isDungeon(zone)) || (view === 'map' && hasMap(zone));
+}
+
+function viewURL(zone, view) {
+  return view === 'quests' ? location.pathname + location.search : `#${new URLSearchParams({ zone, view })}`;
+}
+
+function restoreHistoryView() {
+  const zone = history.state?.zone;
+  if (isDungeon(zone) || hasMap(zone) || state.quests.some(quest => quest.zone === zone)) state.zone = zone;
+  state.view = supportsView(state.zone, history.state?.view) ? history.state.view : 'quests';
 }
 
 function revealQuest(id, zone, updateHistory = true) {
@@ -52,10 +66,10 @@ function revealQuest(id, zone, updateHistory = true) {
 
 function revealHashRoute() {
   const params = new URLSearchParams(location.hash.slice(1));
-  if (params.get('view') === 'drops' && isDungeon(params.get('zone'))) {
+  if (['drops', 'map'].includes(params.get('view')) && supportsView(params.get('zone'), params.get('view'))) {
     state.zone = params.get('zone');
-    state.view = 'drops';
-    history.replaceState({ zone: state.zone, view: 'drops' }, '', location.href);
+    state.view = params.get('view');
+    history.replaceState({ zone: state.zone, view: state.view }, '', location.href);
     render();
     return true;
   }
@@ -156,18 +170,25 @@ function render() {
   });
 
   const dungeon = isDungeon(state.zone);
-  if (!dungeon) state.view = 'quests';
-  $('#views').hidden = !dungeon;
+  const map = hasMap(state.zone);
+  if (!supportsView(state.zone, state.view)) state.view = 'quests';
+  $('#views').hidden = !dungeon && !map;
   document.querySelectorAll('[data-view]').forEach(button => {
+    button.hidden = !supportsView(state.zone, button.dataset.view);
     button.setAttribute('aria-pressed', String(button.dataset.view === state.view));
   });
-  $('#quest-panel').hidden = state.view === 'drops';
-  $('.progress-block').hidden = state.view === 'drops';
+  $('#quest-panel').hidden = state.view !== 'quests';
+  $('.progress-block').hidden = state.view !== 'quests';
+  if (state.view !== 'map') globalThis.ZoneMap?.hide();
+  if (state.view !== 'drops') globalThis.DungeonDrops?.hide();
   if (state.view === 'drops') {
     globalThis.DungeonDrops.show(state.zone);
     return;
   }
-  globalThis.DungeonDrops?.hide();
+  if (state.view === 'map') {
+    globalThis.ZoneMap.show(state.zone, { quests: state.quests, completed: state.completed, onQuest: revealQuest });
+    return;
+  }
 
   const search = $('#search').value.trim().toLocaleLowerCase();
   const status = $('#status').value;
@@ -269,17 +290,17 @@ $('#zones').addEventListener('click', event => {
   const button = event.target.closest('button[data-zone]');
   if (button) {
     state.zone = button.dataset.zone;
-    if (!isDungeon(state.zone)) state.view = 'quests';
-    else if (!state.quests.some(quest => quest.zone === state.zone)) state.view = 'drops';
-    history.pushState({ zone: state.zone, view: state.view }, '', state.view === 'drops' ? dropsHash(state.zone) : location.pathname + location.search);
+    if (!supportsView(state.zone, state.view)) state.view = 'quests';
+    if (isDungeon(state.zone) && !state.quests.some(quest => quest.zone === state.zone)) state.view = 'drops';
+    history.pushState({ zone: state.zone, view: state.view }, '', viewURL(state.zone, state.view));
     render();
   }
 });
 $('#views').addEventListener('click', event => {
   const button = event.target.closest('button[data-view]');
-  if (!button || !isDungeon(state.zone) || !['quests', 'drops'].includes(button.dataset.view)) return;
+  if (!button || !supportsView(state.zone, button.dataset.view)) return;
   state.view = button.dataset.view;
-  history.pushState({ zone: state.zone, view: state.view }, '', state.view === 'drops' ? dropsHash(state.zone) : location.pathname + location.search);
+  history.pushState({ zone: state.zone, view: state.view }, '', viewURL(state.zone, state.view));
   render();
 });
 $('#search').addEventListener('input', render);
@@ -312,8 +333,7 @@ try {
     $('#error').hidden = false;
   }
   if (!revealHashRoute()) {
-    if (isDungeon(history.state?.zone) || state.quests.some(quest => quest.zone === history.state?.zone)) state.zone = history.state.zone;
-    state.view = history.state?.view === 'drops' && isDungeon(state.zone) ? 'drops' : 'quests';
+    restoreHistoryView();
     history.replaceState({ zone: state.zone, view: state.view }, '', location.href);
     render();
   }
@@ -350,8 +370,7 @@ window.addEventListener('hashchange', () => {
 });
 window.addEventListener('popstate', () => {
   if (!state.loaded || revealHashRoute()) return;
-  if (isDungeon(history.state?.zone) || state.quests.some(quest => quest.zone === history.state?.zone)) state.zone = history.state.zone;
-  state.view = history.state?.view === 'drops' && isDungeon(state.zone) ? 'drops' : 'quests';
+  restoreHistoryView();
   render();
 });
 })();

@@ -1,0 +1,1530 @@
+{
+  "status": "Original research snapshot; maintained app data is data/maps/desolace.json",
+  "researched": "2026-11-13",
+  "zone": "Desolace",
+  "uiMapId": 1443,
+  "areaId": 405,
+  "counts": {
+    "solidChests": 28,
+    "footlockers": 10,
+    "sharedReferenceChestLocations": 35,
+    "additionalSnapshotChestLocations": 3,
+    "foreverConfirmedChestLocations": 0,
+    "trackedQuestGivers": 15,
+    "rareNPCs": 6,
+    "trackedQuestObjects": 3
+  },
+  "map": {
+    "url": "https://foreverdb.net/img/maps/game/1443.webp",
+    "width": 1002,
+    "height": 668,
+    "source": "fdb-map-index",
+    "sha256": "fdae99ff186ced6f48c23c8957fd94bd1a73319d2faf75da7dbd45f5b4ce132e",
+    "worldRegion": [
+      -2545.8,
+      -262.5,
+      452.1,
+      4233.3
+    ],
+    "coordinateTransform": "pixelX = zoneX / 100 * 1002; pixelY = zoneY / 100 * 668; Leaflet CRS.Simple point = [-pixelY, pixelX]",
+    "rights": "Blizzard game artwork; no explicit blanket redistribution license located. Source-data GPL licenses do not license the map artwork."
+  },
+  "chests": [
+    {
+      "id": "object-2855-74.62-49.11",
+      "objectId": "2855",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 74.62,
+      "y": 49.11,
+      "world": {
+        "map": 1,
+        "x": -1020.23,
+        "y": 878.37,
+        "z": 92.58
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "H",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2283",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2855-54.35-28.12",
+      "objectId": "2855",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 54.35,
+      "y": 28.12,
+      "world": {
+        "map": 1,
+        "x": -390.96,
+        "y": 1789.9,
+        "z": 127.79
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "H",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2283",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2855-78.88-23.34",
+      "objectId": "2855",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 78.88,
+      "y": 23.34,
+      "world": {
+        "map": 1,
+        "x": -247.6,
+        "y": 687.14,
+        "z": 100.89
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "H",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2283",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2855-52.42-28.53",
+      "objectId": "2855",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 52.42,
+      "y": 28.53,
+      "world": {
+        "map": 1,
+        "x": -403.13,
+        "y": 1876.43,
+        "z": 128.41
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "H",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2283",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2855-73.47-41.59",
+      "objectId": "2855",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 73.47,
+      "y": 41.59,
+      "world": {
+        "map": 1,
+        "x": -794.73,
+        "y": 930.16,
+        "z": 90.76
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "H",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2283",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2855-55.14-30.00",
+      "objectId": "2855",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 55.14,
+      "y": 30.0,
+      "world": {
+        "map": 1,
+        "x": -447.22,
+        "y": 1754.23,
+        "z": 153.49
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "H",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2283",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2855-77.19-17.89",
+      "objectId": "2855",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 77.19,
+      "y": 17.89,
+      "world": {
+        "map": 1,
+        "x": -84.28,
+        "y": 762.97,
+        "z": 132.89
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "H",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2283",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2855-54.82-26.09",
+      "objectId": "2855",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 54.82,
+      "y": 26.09,
+      "world": {
+        "map": 1,
+        "x": -330.01,
+        "y": 1768.85,
+        "z": 139.51
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "H",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2283",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2855-74.57-47.14",
+      "objectId": "2855",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 74.57,
+      "y": 47.14,
+      "world": {
+        "map": 1,
+        "x": -961.25,
+        "y": 880.8,
+        "z": 91.51
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "H",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2283",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2855-74.82-19.33",
+      "objectId": "2855",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 74.82,
+      "y": 19.33,
+      "world": {
+        "map": 1,
+        "x": -127.38,
+        "y": 869.74,
+        "z": 119.1
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "H",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2283",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2855-75.52-26.42",
+      "objectId": "2855",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 75.52,
+      "y": 26.42,
+      "world": {
+        "map": 1,
+        "x": -339.99,
+        "y": 838.23,
+        "z": 99.06
+      },
+      "verification": "classic-derived",
+      "coverage": "additional-snapshot-only",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "H",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2283",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed. Absent from the Era/Questie coordinate sets; retain as an additional Classic candidate."
+    },
+    {
+      "id": "object-2855-71.73-50.25",
+      "objectId": "2855",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 71.73,
+      "y": 50.25,
+      "world": {
+        "map": 1,
+        "x": -1054.44,
+        "y": 1008.37,
+        "z": 90.53
+      },
+      "verification": "classic-derived",
+      "coverage": "additional-snapshot-only",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "H",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2283",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed. Absent from the Era/Questie coordinate sets; retain as an additional Classic candidate."
+    },
+    {
+      "id": "object-2857-39.82-94.24",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 39.82,
+      "y": 94.24,
+      "world": {
+        "map": 1,
+        "x": -2373.11,
+        "y": 2443.0,
+        "z": 77.24
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-35.15-61.44",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 35.15,
+      "y": 61.44,
+      "world": {
+        "map": 1,
+        "x": -1389.72,
+        "y": 2652.81,
+        "z": 111.56
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-65.94-80.75",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 65.94,
+      "y": 80.75,
+      "world": {
+        "map": 1,
+        "x": -1968.62,
+        "y": 1268.88,
+        "z": 91.53
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-32.62-61.12",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 32.62,
+      "y": 61.12,
+      "world": {
+        "map": 1,
+        "x": -1380.12,
+        "y": 2766.56,
+        "z": 112.53
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-40.58-94.62",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 40.58,
+      "y": 94.62,
+      "world": {
+        "map": 1,
+        "x": -2384.47,
+        "y": 2408.75,
+        "z": 76.48
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-73.89-73.72",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 73.89,
+      "y": 73.72,
+      "world": {
+        "map": 1,
+        "x": -1757.97,
+        "y": 911.56,
+        "z": 92.49
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-29.57-58.02",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 29.57,
+      "y": 58.02,
+      "world": {
+        "map": 1,
+        "x": -1287.23,
+        "y": 2903.94,
+        "z": 113.56
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-71.45-71.67",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 71.45,
+      "y": 71.67,
+      "world": {
+        "map": 1,
+        "x": -1696.59,
+        "y": 1021.16,
+        "z": 89.3
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-35.75-92.10",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 35.75,
+      "y": 92.1,
+      "world": {
+        "map": 1,
+        "x": -2308.99,
+        "y": 2626.03,
+        "z": 60.24
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-71.94-78.63",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 71.94,
+      "y": 78.63,
+      "world": {
+        "map": 1,
+        "x": -1905.2,
+        "y": 998.87,
+        "z": 90.61
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-29.30-60.58",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 29.3,
+      "y": 60.58,
+      "world": {
+        "map": 1,
+        "x": -1364.17,
+        "y": 2916.2,
+        "z": 127.25
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-32.75-59.55",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 32.75,
+      "y": 59.55,
+      "world": {
+        "map": 1,
+        "x": -1333.23,
+        "y": 2760.84,
+        "z": 113.2
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-32.74-55.11",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 32.74,
+      "y": 55.11,
+      "world": {
+        "map": 1,
+        "x": -1200.01,
+        "y": 2761.32,
+        "z": 111.42
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-30.53-54.82",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 30.53,
+      "y": 54.82,
+      "world": {
+        "map": 1,
+        "x": -1191.4,
+        "y": 2860.78,
+        "z": 139.01
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-34.23-52.90",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 34.23,
+      "y": 52.9,
+      "world": {
+        "map": 1,
+        "x": -1133.85,
+        "y": 2694.59,
+        "z": 111.41
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-2857-69.52-78.54",
+      "objectId": "2857",
+      "name": "Solid Chest",
+      "category": "treasure-chest",
+      "x": 69.52,
+      "y": 78.54,
+      "world": {
+        "map": 1,
+        "x": -1902.34,
+        "y": 1107.68,
+        "z": 92.34
+      },
+      "verification": "classic-derived",
+      "coverage": "additional-snapshot-only",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "C",
+      "lockpickingClassic": null,
+      "lootTemplateClassic": "2284",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed. Absent from the Era/Questie coordinate sets; retain as an additional Classic candidate."
+    },
+    {
+      "id": "object-179491-31.65-22.52",
+      "objectId": "179491",
+      "name": "Waterlogged Footlocker",
+      "category": "lockpicking-footlocker",
+      "x": 31.65,
+      "y": 22.52,
+      "world": {
+        "map": 1,
+        "x": -223.06,
+        "y": 2810.58,
+        "z": -14.22
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "",
+      "lockpickingClassic": 150,
+      "lootTemplateClassic": "16465",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-179491-36.56-22.11",
+      "objectId": "179491",
+      "name": "Waterlogged Footlocker",
+      "category": "lockpicking-footlocker",
+      "x": 36.56,
+      "y": 22.11,
+      "world": {
+        "map": 1,
+        "x": -210.64,
+        "y": 2589.55,
+        "z": -32.9
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "",
+      "lockpickingClassic": 150,
+      "lootTemplateClassic": "16465",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-179491-37.18-21.96",
+      "objectId": "179491",
+      "name": "Waterlogged Footlocker",
+      "category": "lockpicking-footlocker",
+      "x": 37.18,
+      "y": 21.96,
+      "world": {
+        "map": 1,
+        "x": -206.38,
+        "y": 2561.64,
+        "z": -24.26
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "",
+      "lockpickingClassic": 150,
+      "lootTemplateClassic": "16465",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-179491-37.47-21.30",
+      "objectId": "179491",
+      "name": "Waterlogged Footlocker",
+      "category": "lockpicking-footlocker",
+      "x": 37.47,
+      "y": 21.3,
+      "world": {
+        "map": 1,
+        "x": -186.41,
+        "y": 2548.61,
+        "z": -32.37
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "",
+      "lockpickingClassic": 150,
+      "lootTemplateClassic": "16465",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-179491-37.63-22.90",
+      "objectId": "179491",
+      "name": "Waterlogged Footlocker",
+      "category": "lockpicking-footlocker",
+      "x": 37.63,
+      "y": 22.9,
+      "world": {
+        "map": 1,
+        "x": -234.33,
+        "y": 2541.33,
+        "z": -13.91
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "",
+      "lockpickingClassic": 150,
+      "lootTemplateClassic": "16465",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-179491-34.05-20.70",
+      "objectId": "179491",
+      "name": "Waterlogged Footlocker",
+      "category": "lockpicking-footlocker",
+      "x": 34.05,
+      "y": 20.7,
+      "world": {
+        "map": 1,
+        "x": -168.48,
+        "y": 2702.7,
+        "z": -68.01
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "",
+      "lockpickingClassic": 150,
+      "lootTemplateClassic": "16465",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-179491-35.44-20.78",
+      "objectId": "179491",
+      "name": "Waterlogged Footlocker",
+      "category": "lockpicking-footlocker",
+      "x": 35.44,
+      "y": 20.78,
+      "world": {
+        "map": 1,
+        "x": -170.89,
+        "y": 2640.21,
+        "z": -51.85
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "",
+      "lockpickingClassic": 150,
+      "lootTemplateClassic": "16465",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-179493-34.70-12.61",
+      "objectId": "179493",
+      "name": "Mossy Footlocker",
+      "category": "lockpicking-footlocker",
+      "x": 34.7,
+      "y": 12.61,
+      "world": {
+        "map": 1,
+        "x": 74.15,
+        "y": 2673.05,
+        "z": -79.37
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "",
+      "lockpickingClassic": 175,
+      "lootTemplateClassic": "16465",
+      "sources": [
+        "friends-object-179493",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-179493-34.36-16.95",
+      "objectId": "179493",
+      "name": "Mossy Footlocker",
+      "category": "lockpicking-footlocker",
+      "x": 34.36,
+      "y": 16.95,
+      "world": {
+        "map": 1,
+        "x": -56.15,
+        "y": 2688.71,
+        "z": -101.31
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "",
+      "lockpickingClassic": 175,
+      "lootTemplateClassic": "16465",
+      "sources": [
+        "friends-object-179493",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    },
+    {
+      "id": "object-179493-35.54-13.95",
+      "objectId": "179493",
+      "name": "Mossy Footlocker",
+      "category": "lockpicking-footlocker",
+      "x": 35.54,
+      "y": 13.95,
+      "world": {
+        "map": 1,
+        "x": 33.85,
+        "y": 2635.4,
+        "z": -65.19
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "coordinateOrigin": "Converted from pinned CMaNGOS world coordinates using the Forever client zone rectangle; rounded to 0.01 percent.",
+      "variant": "",
+      "lockpickingClassic": 175,
+      "lootTemplateClassic": "16465",
+      "sources": [
+        "friends-object-179493",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "notes": "Possible spawn point; current Forever presence and respawn behavior are unconfirmed."
+    }
+  ],
+  "questGivers": [
+    {
+      "id": "npc-1182",
+      "name": "Brother Anton",
+      "x": 66.5,
+      "y": 7.9,
+      "verification": "classic-derived",
+      "questIds": [
+        "261",
+        "1052"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Reference pickup coordinate, not a live NPC position.",
+      "npcId": "1182"
+    },
+    {
+      "id": "npc-5396",
+      "name": "Captain Pentigast",
+      "x": 66.7,
+      "y": 10.9,
+      "verification": "classic-derived",
+      "questIds": [
+        "1382",
+        "1385"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Reference pickup coordinate, not a live NPC position.",
+      "npcId": "5396"
+    },
+    {
+      "id": "npc-5397",
+      "name": "Uthek the Wise",
+      "x": 36.2,
+      "y": 79.2,
+      "verification": "classic-derived",
+      "questIds": [
+        "1384",
+        "1370",
+        "1373",
+        "1374",
+        "1380"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Reference pickup coordinate, not a live NPC position.",
+      "npcId": "5397"
+    },
+    {
+      "id": "npc-5398",
+      "name": "Warug",
+      "x": 75,
+      "y": 68.2,
+      "verification": "classic-derived",
+      "questIds": [
+        "1386",
+        "1369",
+        "1371",
+        "1375",
+        "1381"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Reference pickup coordinate, not a live NPC position.",
+      "npcId": "5398"
+    },
+    {
+      "id": "npc-5638",
+      "name": "Kreldig Ungor",
+      "x": 66.2,
+      "y": 9.6,
+      "verification": "classic-derived",
+      "questIds": [
+        "1458",
+        "1459",
+        "1454",
+        "1456",
+        "1457",
+        "1466",
+        "1467"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Reference pickup coordinate, not a live NPC position.",
+      "npcId": "5638"
+    },
+    {
+      "id": "npc-5642",
+      "name": "Vahlarriel Demonslayer",
+      "x": 66.4,
+      "y": 11.8,
+      "verification": "classic-derived",
+      "questIds": [
+        "1437",
+        "1438"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Reference pickup coordinate, not a live NPC position.",
+      "npcId": "5642"
+    },
+    {
+      "id": "npc-5644",
+      "name": "Dalinda Malem",
+      "x": 54.9,
+      "y": 26.1,
+      "verification": "classic-derived",
+      "questIds": [
+        "1439",
+        "1440"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Reference pickup coordinate, not a live NPC position.",
+      "npcId": "5644"
+    },
+    {
+      "id": "npc-5752",
+      "name": "Corporal Melkins",
+      "x": 66.7,
+      "y": 10.9,
+      "verification": "classic-derived",
+      "questIds": [
+        "1387"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Reference pickup coordinate, not a live NPC position.",
+      "npcId": "5752"
+    },
+    {
+      "id": "npc-6019",
+      "name": "Hornizz Brimbuzzle",
+      "x": 47.8,
+      "y": 61.8,
+      "verification": "classic-derived",
+      "questIds": [
+        "6134"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Reference pickup coordinate, not a live NPC position.",
+      "npcId": "6019"
+    },
+    {
+      "id": "npc-11438",
+      "name": "Bibbly F'utzbuckle",
+      "x": 62.3,
+      "y": 39,
+      "verification": "classic-derived",
+      "questIds": [
+        "5501"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Reference pickup coordinate, not a live NPC position.",
+      "npcId": "11438"
+    },
+    {
+      "id": "npc-11596",
+      "name": "Smeed Scrabblescrew",
+      "x": 60.9,
+      "y": 61.9,
+      "verification": "classic-derived",
+      "questIds": [
+        "5561"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Reference pickup coordinate, not a live NPC position.",
+      "npcId": "11596"
+    },
+    {
+      "id": "npc-11625",
+      "name": "Cork Gizelton",
+      "x": 60.4,
+      "y": 38.1,
+      "verification": "classic-derived",
+      "questIds": [
+        "5821"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "moving-npc-reference",
+      "notes": "Travelling Gizelton Caravan NPC. This is a reference pickup point, not a fixed spawn or a complete patrol route.",
+      "npcId": "11625"
+    },
+    {
+      "id": "npc-11626",
+      "name": "Rigger Gizelton",
+      "x": 60.3,
+      "y": 38.2,
+      "verification": "classic-derived",
+      "questIds": [
+        "5943"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "moving-npc-reference",
+      "notes": "Travelling Gizelton Caravan NPC. This is a reference pickup point, not a fixed spawn or a complete patrol route.",
+      "npcId": "11626"
+    },
+    {
+      "id": "npc-11863",
+      "name": "Azore Aldamort",
+      "x": 38.9,
+      "y": 27.2,
+      "verification": "classic-derived",
+      "questIds": [
+        "5741",
+        "6027"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Reference pickup coordinate, not a live NPC position.",
+      "npcId": "11863"
+    },
+    {
+      "id": "npc-12277",
+      "name": "Melizza Brimbuzzle",
+      "x": 33.9,
+      "y": 53.5,
+      "verification": "classic-derived",
+      "questIds": [
+        "6132"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Reference pickup coordinate, not a live NPC position.",
+      "npcId": "12277"
+    }
+  ],
+  "rares": [
+    {
+      "id": "npc-14225",
+      "npcId": "14225",
+      "name": "Prince Kellen",
+      "levelRange": [
+        33,
+        33
+      ],
+      "locations": [
+        {
+          "x": 78.9,
+          "y": 21.2
+        }
+      ],
+      "verification": "classic-derived",
+      "locationType": "reference-points",
+      "sources": [
+        "era-rares",
+        "fdb-rares"
+      ],
+      "notes": "Classic reference points; complete Forever patrol ranges and live presence are unconfirmed."
+    },
+    {
+      "id": "npc-14228",
+      "npcId": "14228",
+      "name": "Giggler",
+      "levelRange": [
+        34,
+        34
+      ],
+      "locations": [
+        {
+          "x": 61.3,
+          "y": 28.9
+        }
+      ],
+      "verification": "classic-derived",
+      "locationType": "reference-points",
+      "sources": [
+        "era-rares",
+        "fdb-rares"
+      ],
+      "notes": "Classic reference points; complete Forever patrol ranges and live presence are unconfirmed."
+    },
+    {
+      "id": "npc-14229",
+      "npcId": "14229",
+      "name": "Accursed Slitherblade",
+      "levelRange": [
+        35,
+        35
+      ],
+      "locations": [
+        {
+          "x": 42.2,
+          "y": 19
+        }
+      ],
+      "verification": "classic-derived",
+      "locationType": "reference-points",
+      "sources": [
+        "era-rares",
+        "fdb-rares"
+      ],
+      "notes": "Classic reference points; complete Forever patrol ranges and live presence are unconfirmed."
+    },
+    {
+      "id": "npc-14227",
+      "npcId": "14227",
+      "name": "Hissperak",
+      "levelRange": [
+        37,
+        37
+      ],
+      "locations": [
+        {
+          "x": 52.9,
+          "y": 50.1
+        }
+      ],
+      "verification": "classic-derived",
+      "locationType": "reference-points",
+      "sources": [
+        "era-rares",
+        "fdb-rares"
+      ],
+      "notes": "Classic reference points; complete Forever patrol ranges and live presence are unconfirmed."
+    },
+    {
+      "id": "npc-14226",
+      "npcId": "14226",
+      "name": "Kaskk",
+      "levelRange": [
+        40,
+        40
+      ],
+      "locations": [
+        {
+          "x": 51.2,
+          "y": 86.1
+        }
+      ],
+      "verification": "classic-derived",
+      "locationType": "reference-points",
+      "sources": [
+        "era-rares",
+        "fdb-rares"
+      ],
+      "notes": "Classic reference points; complete Forever patrol ranges and live presence are unconfirmed."
+    },
+    {
+      "id": "npc-11688",
+      "npcId": "11688",
+      "name": "Cursed Centaur",
+      "levelRange": [
+        43,
+        43
+      ],
+      "locations": [
+        {
+          "x": 30.4,
+          "y": 60.2
+        }
+      ],
+      "verification": "classic-derived",
+      "locationType": "reference-points",
+      "sources": [
+        "era-rares",
+        "fdb-rares"
+      ],
+      "notes": "Classic reference points; complete Forever patrol ranges and live presence are unconfirmed."
+    }
+  ],
+  "questObjects": [
+    {
+      "id": "object-35251",
+      "name": "Karnitol's Chest",
+      "x": 36.1,
+      "y": 30.5,
+      "verification": "classic-derived",
+      "questIds": [
+        "1455"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Quest object; keep separate from random treasure chests.",
+      "objectId": "35251"
+    },
+    {
+      "id": "object-50961",
+      "name": "Malem Chest",
+      "x": 56.5,
+      "y": 17.8,
+      "verification": "classic-derived",
+      "questIds": [
+        "1465"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Quest object; keep separate from random treasure chests.",
+      "objectId": "50961"
+    },
+    {
+      "id": "object-177787",
+      "name": "Rackmore's Log",
+      "x": 36.1,
+      "y": 30.4,
+      "verification": "classic-derived",
+      "questIds": [
+        "6161"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "locationType": "quest-start-reference",
+      "notes": "Quest object; keep separate from random treasure chests.",
+      "objectId": "177787"
+    }
+  ],
+  "limitations": [
+    "No chest spawn in the checked data is confirmed by Forever-specific position observations.",
+    "Classic-derived sites are not independent confirmation when they share CMaNGOS data.",
+    "Coverage is the obtained reference set, not a claim of every live Forever spawn.",
+    "Three additional snapshot locations are absent from other coordinate sets; they fall inside current Desolace terrain bounds and outside Shendralas terrain bounds.",
+    "Moving NPCs and rare reference points do not describe complete patrol routes.",
+    "Variant letters C/H are guide labels; keep object IDs as actual identity.",
+    "Quest-object chests are not random treasure-chest spawn points.",
+    "Research collection did not modify existing quest/drop records or completion storage."
+  ]
+}

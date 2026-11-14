@@ -1,0 +1,1330 @@
+{
+  "zone": "Desolace",
+  "updated": "2026-11-13",
+  "map": {
+    "image": "./assets/maps/desolace.webp",
+    "width": 1002,
+    "height": 668,
+    "source": "https://foreverdb.net/maps/1443",
+    "attribution": "World of Warcraft © Blizzard Entertainment"
+  },
+  "points": [
+    {
+      "id": "object-2855-74.62-49.11",
+      "name": "Solid Chest",
+      "objectId": "2855",
+      "x": 74.62,
+      "y": 49.11,
+      "world": {
+        "map": 1,
+        "x": -1020.23,
+        "y": 878.37,
+        "z": 92.58
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2855"
+    },
+    {
+      "id": "object-2855-54.35-28.12",
+      "name": "Solid Chest",
+      "objectId": "2855",
+      "x": 54.35,
+      "y": 28.12,
+      "world": {
+        "map": 1,
+        "x": -390.96,
+        "y": 1789.9,
+        "z": 127.79
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2855"
+    },
+    {
+      "id": "object-2855-78.88-23.34",
+      "name": "Solid Chest",
+      "objectId": "2855",
+      "x": 78.88,
+      "y": 23.34,
+      "world": {
+        "map": 1,
+        "x": -247.6,
+        "y": 687.14,
+        "z": 100.89
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2855"
+    },
+    {
+      "id": "object-2855-52.42-28.53",
+      "name": "Solid Chest",
+      "objectId": "2855",
+      "x": 52.42,
+      "y": 28.53,
+      "world": {
+        "map": 1,
+        "x": -403.13,
+        "y": 1876.43,
+        "z": 128.41
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2855"
+    },
+    {
+      "id": "object-2855-73.47-41.59",
+      "name": "Solid Chest",
+      "objectId": "2855",
+      "x": 73.47,
+      "y": 41.59,
+      "world": {
+        "map": 1,
+        "x": -794.73,
+        "y": 930.16,
+        "z": 90.76
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2855"
+    },
+    {
+      "id": "object-2855-55.14-30.00",
+      "name": "Solid Chest",
+      "objectId": "2855",
+      "x": 55.14,
+      "y": 30.0,
+      "world": {
+        "map": 1,
+        "x": -447.22,
+        "y": 1754.23,
+        "z": 153.49
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2855"
+    },
+    {
+      "id": "object-2855-77.19-17.89",
+      "name": "Solid Chest",
+      "objectId": "2855",
+      "x": 77.19,
+      "y": 17.89,
+      "world": {
+        "map": 1,
+        "x": -84.28,
+        "y": 762.97,
+        "z": 132.89
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2855"
+    },
+    {
+      "id": "object-2855-54.82-26.09",
+      "name": "Solid Chest",
+      "objectId": "2855",
+      "x": 54.82,
+      "y": 26.09,
+      "world": {
+        "map": 1,
+        "x": -330.01,
+        "y": 1768.85,
+        "z": 139.51
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2855"
+    },
+    {
+      "id": "object-2855-74.57-47.14",
+      "name": "Solid Chest",
+      "objectId": "2855",
+      "x": 74.57,
+      "y": 47.14,
+      "world": {
+        "map": 1,
+        "x": -961.25,
+        "y": 880.8,
+        "z": 91.51
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2855"
+    },
+    {
+      "id": "object-2855-74.82-19.33",
+      "name": "Solid Chest",
+      "objectId": "2855",
+      "x": 74.82,
+      "y": 19.33,
+      "world": {
+        "map": 1,
+        "x": -127.38,
+        "y": 869.74,
+        "z": 119.1
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2855"
+    },
+    {
+      "id": "object-2855-75.52-26.42",
+      "name": "Solid Chest",
+      "objectId": "2855",
+      "x": 75.52,
+      "y": 26.42,
+      "world": {
+        "map": 1,
+        "x": -339.99,
+        "y": 838.23,
+        "z": 99.06
+      },
+      "verification": "classic-derived",
+      "coverage": "additional-snapshot-only",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds"
+      ],
+      "category": "chest-2855"
+    },
+    {
+      "id": "object-2855-71.73-50.25",
+      "name": "Solid Chest",
+      "objectId": "2855",
+      "x": 71.73,
+      "y": 50.25,
+      "world": {
+        "map": 1,
+        "x": -1054.44,
+        "y": 1008.37,
+        "z": 90.53
+      },
+      "verification": "classic-derived",
+      "coverage": "additional-snapshot-only",
+      "sources": [
+        "friends-object-2855",
+        "friends-provenance",
+        "fdb-zone-bounds"
+      ],
+      "category": "chest-2855"
+    },
+    {
+      "id": "object-2857-39.82-94.24",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 39.82,
+      "y": 94.24,
+      "world": {
+        "map": 1,
+        "x": -2373.11,
+        "y": 2443.0,
+        "z": 77.24
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-35.15-61.44",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 35.15,
+      "y": 61.44,
+      "world": {
+        "map": 1,
+        "x": -1389.72,
+        "y": 2652.81,
+        "z": 111.56
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-65.94-80.75",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 65.94,
+      "y": 80.75,
+      "world": {
+        "map": 1,
+        "x": -1968.62,
+        "y": 1268.88,
+        "z": 91.53
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-32.62-61.12",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 32.62,
+      "y": 61.12,
+      "world": {
+        "map": 1,
+        "x": -1380.12,
+        "y": 2766.56,
+        "z": 112.53
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-40.58-94.62",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 40.58,
+      "y": 94.62,
+      "world": {
+        "map": 1,
+        "x": -2384.47,
+        "y": 2408.75,
+        "z": 76.48
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-73.89-73.72",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 73.89,
+      "y": 73.72,
+      "world": {
+        "map": 1,
+        "x": -1757.97,
+        "y": 911.56,
+        "z": 92.49
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-29.57-58.02",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 29.57,
+      "y": 58.02,
+      "world": {
+        "map": 1,
+        "x": -1287.23,
+        "y": 2903.94,
+        "z": 113.56
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-71.45-71.67",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 71.45,
+      "y": 71.67,
+      "world": {
+        "map": 1,
+        "x": -1696.59,
+        "y": 1021.16,
+        "z": 89.3
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-35.75-92.10",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 35.75,
+      "y": 92.1,
+      "world": {
+        "map": 1,
+        "x": -2308.99,
+        "y": 2626.03,
+        "z": 60.24
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-71.94-78.63",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 71.94,
+      "y": 78.63,
+      "world": {
+        "map": 1,
+        "x": -1905.2,
+        "y": 998.87,
+        "z": 90.61
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-29.30-60.58",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 29.3,
+      "y": 60.58,
+      "world": {
+        "map": 1,
+        "x": -1364.17,
+        "y": 2916.2,
+        "z": 127.25
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-32.75-59.55",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 32.75,
+      "y": 59.55,
+      "world": {
+        "map": 1,
+        "x": -1333.23,
+        "y": 2760.84,
+        "z": 113.2
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-32.74-55.11",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 32.74,
+      "y": 55.11,
+      "world": {
+        "map": 1,
+        "x": -1200.01,
+        "y": 2761.32,
+        "z": 111.42
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-30.53-54.82",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 30.53,
+      "y": 54.82,
+      "world": {
+        "map": 1,
+        "x": -1191.4,
+        "y": 2860.78,
+        "z": 139.01
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-34.23-52.90",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 34.23,
+      "y": 52.9,
+      "world": {
+        "map": 1,
+        "x": -1133.85,
+        "y": 2694.59,
+        "z": 111.41
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-2857-69.52-78.54",
+      "name": "Solid Chest",
+      "objectId": "2857",
+      "x": 69.52,
+      "y": 78.54,
+      "world": {
+        "map": 1,
+        "x": -1902.34,
+        "y": 1107.68,
+        "z": 92.34
+      },
+      "verification": "classic-derived",
+      "coverage": "additional-snapshot-only",
+      "sources": [
+        "friends-object-2857",
+        "friends-provenance",
+        "fdb-zone-bounds"
+      ],
+      "category": "chest-2857"
+    },
+    {
+      "id": "object-179491-31.65-22.52",
+      "name": "Waterlogged Footlocker",
+      "objectId": "179491",
+      "x": 31.65,
+      "y": 22.52,
+      "world": {
+        "map": 1,
+        "x": -223.06,
+        "y": 2810.58,
+        "z": -14.22
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "footlocker-179491",
+      "lockpicking": 150
+    },
+    {
+      "id": "object-179491-36.56-22.11",
+      "name": "Waterlogged Footlocker",
+      "objectId": "179491",
+      "x": 36.56,
+      "y": 22.11,
+      "world": {
+        "map": 1,
+        "x": -210.64,
+        "y": 2589.55,
+        "z": -32.9
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "footlocker-179491",
+      "lockpicking": 150
+    },
+    {
+      "id": "object-179491-37.18-21.96",
+      "name": "Waterlogged Footlocker",
+      "objectId": "179491",
+      "x": 37.18,
+      "y": 21.96,
+      "world": {
+        "map": 1,
+        "x": -206.38,
+        "y": 2561.64,
+        "z": -24.26
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "footlocker-179491",
+      "lockpicking": 150
+    },
+    {
+      "id": "object-179491-37.47-21.30",
+      "name": "Waterlogged Footlocker",
+      "objectId": "179491",
+      "x": 37.47,
+      "y": 21.3,
+      "world": {
+        "map": 1,
+        "x": -186.41,
+        "y": 2548.61,
+        "z": -32.37
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "footlocker-179491",
+      "lockpicking": 150
+    },
+    {
+      "id": "object-179491-37.63-22.90",
+      "name": "Waterlogged Footlocker",
+      "objectId": "179491",
+      "x": 37.63,
+      "y": 22.9,
+      "world": {
+        "map": 1,
+        "x": -234.33,
+        "y": 2541.33,
+        "z": -13.91
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "footlocker-179491",
+      "lockpicking": 150
+    },
+    {
+      "id": "object-179491-34.05-20.70",
+      "name": "Waterlogged Footlocker",
+      "objectId": "179491",
+      "x": 34.05,
+      "y": 20.7,
+      "world": {
+        "map": 1,
+        "x": -168.48,
+        "y": 2702.7,
+        "z": -68.01
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "footlocker-179491",
+      "lockpicking": 150
+    },
+    {
+      "id": "object-179491-35.44-20.78",
+      "name": "Waterlogged Footlocker",
+      "objectId": "179491",
+      "x": 35.44,
+      "y": 20.78,
+      "world": {
+        "map": 1,
+        "x": -170.89,
+        "y": 2640.21,
+        "z": -51.85
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-179491",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "footlocker-179491",
+      "lockpicking": 150
+    },
+    {
+      "id": "object-179493-34.70-12.61",
+      "name": "Mossy Footlocker",
+      "objectId": "179493",
+      "x": 34.7,
+      "y": 12.61,
+      "world": {
+        "map": 1,
+        "x": 74.15,
+        "y": 2673.05,
+        "z": -79.37
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-179493",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "footlocker-179493",
+      "lockpicking": 175
+    },
+    {
+      "id": "object-179493-34.36-16.95",
+      "name": "Mossy Footlocker",
+      "objectId": "179493",
+      "x": 34.36,
+      "y": 16.95,
+      "world": {
+        "map": 1,
+        "x": -56.15,
+        "y": 2688.71,
+        "z": -101.31
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-179493",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "footlocker-179493",
+      "lockpicking": 175
+    },
+    {
+      "id": "object-179493-35.54-13.95",
+      "name": "Mossy Footlocker",
+      "objectId": "179493",
+      "x": 35.54,
+      "y": 13.95,
+      "world": {
+        "map": 1,
+        "x": 33.85,
+        "y": 2635.4,
+        "z": -65.19
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "friends-object-179493",
+        "friends-provenance",
+        "fdb-zone-bounds",
+        "era-chests"
+      ],
+      "category": "footlocker-179493",
+      "lockpicking": 175
+    },
+    {
+      "id": "npc-1182",
+      "name": "Brother Anton",
+      "x": 66.5,
+      "y": 7.9,
+      "verification": "classic-derived",
+      "questIds": [
+        "261",
+        "1052"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": false,
+      "npcId": "1182"
+    },
+    {
+      "id": "npc-5396",
+      "name": "Captain Pentigast",
+      "x": 66.7,
+      "y": 10.9,
+      "verification": "classic-derived",
+      "questIds": [
+        "1382",
+        "1385"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": false,
+      "npcId": "5396"
+    },
+    {
+      "id": "npc-5397",
+      "name": "Uthek the Wise",
+      "x": 36.2,
+      "y": 79.2,
+      "verification": "classic-derived",
+      "questIds": [
+        "1384",
+        "1370",
+        "1373",
+        "1374",
+        "1380"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": false,
+      "npcId": "5397"
+    },
+    {
+      "id": "npc-5398",
+      "name": "Warug",
+      "x": 75,
+      "y": 68.2,
+      "verification": "classic-derived",
+      "questIds": [
+        "1386",
+        "1369",
+        "1371",
+        "1375",
+        "1381"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": false,
+      "npcId": "5398"
+    },
+    {
+      "id": "npc-5638",
+      "name": "Kreldig Ungor",
+      "x": 66.2,
+      "y": 9.6,
+      "verification": "classic-derived",
+      "questIds": [
+        "1458",
+        "1459",
+        "1454",
+        "1456",
+        "1457",
+        "1466",
+        "1467"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": false,
+      "npcId": "5638"
+    },
+    {
+      "id": "npc-5642",
+      "name": "Vahlarriel Demonslayer",
+      "x": 66.4,
+      "y": 11.8,
+      "verification": "classic-derived",
+      "questIds": [
+        "1437",
+        "1438"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": false,
+      "npcId": "5642"
+    },
+    {
+      "id": "npc-5644",
+      "name": "Dalinda Malem",
+      "x": 54.9,
+      "y": 26.1,
+      "verification": "classic-derived",
+      "questIds": [
+        "1439",
+        "1440"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": false,
+      "npcId": "5644"
+    },
+    {
+      "id": "npc-5752",
+      "name": "Corporal Melkins",
+      "x": 66.7,
+      "y": 10.9,
+      "verification": "classic-derived",
+      "questIds": [
+        "1387"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": false,
+      "npcId": "5752"
+    },
+    {
+      "id": "npc-6019",
+      "name": "Hornizz Brimbuzzle",
+      "x": 47.8,
+      "y": 61.8,
+      "verification": "classic-derived",
+      "questIds": [
+        "6134"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": false,
+      "npcId": "6019"
+    },
+    {
+      "id": "npc-11438",
+      "name": "Bibbly F'utzbuckle",
+      "x": 62.3,
+      "y": 39,
+      "verification": "classic-derived",
+      "questIds": [
+        "5501"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": false,
+      "npcId": "11438"
+    },
+    {
+      "id": "npc-11596",
+      "name": "Smeed Scrabblescrew",
+      "x": 60.9,
+      "y": 61.9,
+      "verification": "classic-derived",
+      "questIds": [
+        "5561"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": false,
+      "npcId": "11596"
+    },
+    {
+      "id": "npc-11625",
+      "name": "Cork Gizelton",
+      "x": 60.4,
+      "y": 38.1,
+      "verification": "classic-derived",
+      "questIds": [
+        "5821"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": true,
+      "npcId": "11625"
+    },
+    {
+      "id": "npc-11626",
+      "name": "Rigger Gizelton",
+      "x": 60.3,
+      "y": 38.2,
+      "verification": "classic-derived",
+      "questIds": [
+        "5943"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": true,
+      "npcId": "11626"
+    },
+    {
+      "id": "npc-11863",
+      "name": "Azore Aldamort",
+      "x": 38.9,
+      "y": 27.2,
+      "verification": "classic-derived",
+      "questIds": [
+        "5741",
+        "6027"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": false,
+      "npcId": "11863"
+    },
+    {
+      "id": "npc-12277",
+      "name": "Melizza Brimbuzzle",
+      "x": 33.9,
+      "y": 53.5,
+      "verification": "classic-derived",
+      "questIds": [
+        "6132"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-giver",
+      "moving": false,
+      "npcId": "12277"
+    },
+    {
+      "id": "object-35251",
+      "name": "Karnitol's Chest",
+      "x": 36.1,
+      "y": 30.5,
+      "verification": "classic-derived",
+      "questIds": [
+        "1455"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-object",
+      "moving": false,
+      "objectId": "35251"
+    },
+    {
+      "id": "object-50961",
+      "name": "Malem Chest",
+      "x": 56.5,
+      "y": 17.8,
+      "verification": "classic-derived",
+      "questIds": [
+        "1465"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-object",
+      "moving": false,
+      "objectId": "50961"
+    },
+    {
+      "id": "object-177787",
+      "name": "Rackmore's Log",
+      "x": 36.1,
+      "y": 30.4,
+      "verification": "classic-derived",
+      "questIds": [
+        "6161"
+      ],
+      "sources": [
+        "era-questgivers",
+        "fdb-questgivers"
+      ],
+      "category": "quest-object",
+      "moving": false,
+      "objectId": "177787"
+    },
+    {
+      "id": "npc-14225-1",
+      "npcId": "14225",
+      "name": "Prince Kellen",
+      "category": "rare",
+      "x": 78.9,
+      "y": 21.2,
+      "verification": "classic-derived",
+      "sources": [
+        "era-rares",
+        "fdb-rares"
+      ],
+      "levelRange": [
+        33,
+        33
+      ]
+    },
+    {
+      "id": "npc-14228-1",
+      "npcId": "14228",
+      "name": "Giggler",
+      "category": "rare",
+      "x": 61.3,
+      "y": 28.9,
+      "verification": "classic-derived",
+      "sources": [
+        "era-rares",
+        "fdb-rares"
+      ],
+      "levelRange": [
+        34,
+        34
+      ]
+    },
+    {
+      "id": "npc-14229-1",
+      "npcId": "14229",
+      "name": "Accursed Slitherblade",
+      "category": "rare",
+      "x": 42.2,
+      "y": 19,
+      "verification": "classic-derived",
+      "sources": [
+        "era-rares",
+        "fdb-rares"
+      ],
+      "levelRange": [
+        35,
+        35
+      ]
+    },
+    {
+      "id": "npc-14227-1",
+      "npcId": "14227",
+      "name": "Hissperak",
+      "category": "rare",
+      "x": 52.9,
+      "y": 50.1,
+      "verification": "classic-derived",
+      "sources": [
+        "era-rares",
+        "fdb-rares"
+      ],
+      "levelRange": [
+        37,
+        37
+      ]
+    },
+    {
+      "id": "npc-14226-1",
+      "npcId": "14226",
+      "name": "Kaskk",
+      "category": "rare",
+      "x": 51.2,
+      "y": 86.1,
+      "verification": "classic-derived",
+      "sources": [
+        "era-rares",
+        "fdb-rares"
+      ],
+      "levelRange": [
+        40,
+        40
+      ]
+    },
+    {
+      "id": "npc-11688-1",
+      "npcId": "11688",
+      "name": "Cursed Centaur",
+      "category": "rare",
+      "x": 30.4,
+      "y": 60.2,
+      "verification": "classic-derived",
+      "sources": [
+        "era-rares",
+        "fdb-rares"
+      ],
+      "levelRange": [
+        43,
+        43
+      ]
+    }
+  ],
+  "sources": {
+    "era-chests": {
+      "name": "Classic chest reference",
+      "url": "https://theforeverera.com/data/map-layers/k.json?v=20261108113959"
+    },
+    "era-questgivers": {
+      "name": "Classic quest-giver reference",
+      "url": "https://theforeverera.com/data/map-layers/q.json?v=20261108113959"
+    },
+    "era-rares": {
+      "name": "Classic rare reference",
+      "url": "https://theforeverera.com/data/map-layers/r.json?v=20261108113959"
+    },
+    "fdb-zone-bounds": {
+      "name": "Forever map bounds",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "fdb-questgivers": {
+      "name": "Quest-giver guide",
+      "url": "https://foreverdb.net/data/maps/layer-questgivers.json"
+    },
+    "fdb-rares": {
+      "name": "Rare guide",
+      "url": "https://foreverdb.net/data/maps/layer-rares.json"
+    },
+    "friends-provenance": {
+      "name": "Classic snapshot provenance",
+      "url": "https://www.wowforeverfriends.org/library/provenance.json"
+    },
+    "friends-object-2855": {
+      "name": "Classic spawn record",
+      "url": "https://www.wowforeverfriends.org/objects/2855/"
+    },
+    "friends-object-2857": {
+      "name": "Classic spawn record",
+      "url": "https://www.wowforeverfriends.org/objects/2857/"
+    },
+    "friends-object-179491": {
+      "name": "Classic spawn record",
+      "url": "https://www.wowforeverfriends.org/objects/179491/"
+    },
+    "friends-object-179493": {
+      "name": "Classic spawn record",
+      "url": "https://www.wowforeverfriends.org/objects/179493/"
+    }
+  },
+  "license": "GPL-3.0 for CMaNGOS-derived reference locations; Blizzard map art is separate."
+}

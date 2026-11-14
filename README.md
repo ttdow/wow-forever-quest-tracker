@@ -1,8 +1,8 @@
 # WoW: Forever quest tracker
 
-Static HTML, CSS, and JavaScript. No installation, server, dependencies, or build required to use or host it.
+Static HTML, CSS, and JavaScript. No installation, application server, package manager, or build required to use or host it.
 
-Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Firefox or another modern browser.
+Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Chrome, Firefox, or another modern browser.
 
 - Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Scarlet Monastery Graveyard, or Scarlet Monastery Library.
 - Check a quest to complete it; uncheck it to undo.
@@ -11,6 +11,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
 - Filter completed / not completed quests, or sort by level, name, or area.
 - In dungeon lists, switch between **Quests** and **Drops**. Each boss with recorded equipment has a card with an expandable loot table. Drops have item names, required levels, base stats/effects, and source evidence, with search, source filtering, and an optional Rogue filter.
+- In **Desolace**, choose **Map** for chest spawns, footlockers, quest givers, rares, and quest objects. Pan, zoom, filter layers, search, and open markers for coordinates and quest links.
 
 Progress saves automatically in this browser's local storage. It survives closing the page and restarting the browser, but does not sync across browsers or devices. Clearing site data removes progress. Private browsing saves last only for that private session. Each quest is tracked by its ID, including shared IDs across zones.
 
@@ -18,7 +19,7 @@ Progress saves automatically in this browser's local storage. It survives closin
 
 Use a separate repository for this tracker; existing Pages websites are unaffected.
 
-1. Upload `index.html`, `style.css`, `app.js`, `progress.js`, `drops.js`, `.nojekyll`, and the `data/` folder to the repository root.
+1. Upload `index.html`, `style.css`, `app.js`, `progress.js`, `drops.js`, `map.js`, `.nojekyll`, and the `data/`, `assets/`, `vendor/`, and `research/` folders to the repository root.
 2. In **Settings → Pages**, choose **Deploy from a branch**.
 3. Select **main** and **/ (root)**, then save.
 4. Open the website URL shown by GitHub Pages after deployment completes.
@@ -96,3 +97,19 @@ Drop-source evidence and item stats are separate. "Seen in Forever" means player
 Drops load separately when requested; a failed drop-data request does not block quests. Each dungeon is validated when opened, so malformed records in another dungeon cannot block it. Source-evidence metadata is optional and is not part of loading validation. Missing, blank, unfamiliar, or incorrectly typed evidence values display as "Source ref." and cannot block the loot list. Retry fetches fresh data. After a site update, reload an already-open tab to load the latest scripts; this does not clear quest progress. The drop view, filters, and item links do not write to quest completion storage. Direct view links use a fragment such as `#zone=Deadmines&view=drops`.
 
 Research sources and limits are documented in [the research notes](data/research.md). The JSON remains the maintained data source; no fetch/conversion tooling or Node runtime is needed to host the app.
+
+## Desolace map
+
+Open **Desolace → Map**, or use [the direct map link](https://ttdow.github.io/wow-forever-quest-tracker/#zone=Desolace&view=map).
+
+The map has 62 entries: 28 Solid Chest candidates, 10 lockpicking footlockers, 15 quest-giver NPCs, 6 rares, and 3 quest-start objects. All location records are Classic references, not confirmed Forever spawn observations. Three chest candidates appear in an additional Classic snapshot only; their markers have dashed borders. The evidence filter can exclude them, show only them, or show Forever-confirmed records. The latter is currently empty and says so.
+
+Each layer has its own checkbox and count. Search accepts names, quest names, IDs, and coordinates. Click a marker to see its identity, exact coordinates, optional Classic lockpicking requirement, sources, and links to tracked quests. Quest links open the Quests view, expand the selected quest, and show its completion status. NPCs sharing exact coordinates share one marker with both records in its popup. Nearby markers can be separated by zooming or searching. Caravan NPCs are explicitly marked as moving; rare markers are reference points rather than complete patrol routes.
+
+Drag or use arrow keys to pan; use the mouse wheel or zoom buttons to zoom. **Fit map** restores the full zone. The coordinate readout follows the pointer, and **Copy coords** copies a selected marker's coordinates. If clipboard access is unavailable, the coordinates are selected for manual copying. Map filters and viewport persist while switching views during the current page session. Map interactions do not write to quest completion storage.
+
+`data/maps/desolace.json` is the maintained map dataset. It contains the map dimensions and image path, marker records, and optional source metadata. Add a location to its `points` array to show another marker of an existing category. Each point needs a unique string `id`, `name`, supported `category`, and numeric `x` and `y` between 0 and 100. `npcId`/`objectId` identify the game entity; `questIds` link to existing quests. Original world coordinates and research provenance are retained where available. Missing or unfamiliar source/evidence labels cannot prevent the map from loading.
+
+The map data loads only when requested, independently of dungeon drops. Retry refetches data and recreates a failed image/map. Leaving the view during loading cannot reopen it unexpectedly. Invalid map data does not stop the Quests view from working.
+
+The 1002 × 668 explored background is stored at `assets/maps/desolace.webp`, with Blizzard and ForeverDB attribution on the page. Map art and data licensing are separate. Classic reference data is derived from CMaNGOS under [GPL-3.0](research/desolace-map/LICENSE-GPL-3.0.txt). [Leaflet 1.9.4](https://leafletjs.com/) is included locally under its [BSD 2-Clause license](vendor/leaflet/LICENSE); the site needs no runtime CDN, map service, or API key. See the [map research report](research/desolace-map/README.md) and [source inventory](research/desolace-map/sources.json) for coverage and evidence limits.
