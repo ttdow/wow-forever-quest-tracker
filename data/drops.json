@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-14",
   "build": "1.60.1.70862",
   "instances": {
     "Deadmines": {
@@ -4450,6 +4450,513 @@
         }
       ],
       "wing": "Library"
+    },
+    "Scarlet Monastery Armory": {
+      "id": 189,
+      "wing": "Armory",
+      "source": "https://foreverdb.net/dungeon/189-scarlet-monastery",
+      "build": "1.60.1.70938",
+      "items": [
+        {
+          "id": "7717",
+          "name": "Ravager",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Two-hand",
+          "type": "Two-hand axe",
+          "stats": [
+            "104–157 damage · 3.50s · 37.29 DPS",
+            "Chance on hit: Attack all nearby enemies, dealing weapon damage plus 5 every 3 sec for 9 sec, and reducing your own movement speed by 80%."
+          ],
+          "source": "Herod",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7717",
+            "https://nether.wowhead.com/forever/tooltip/item/7717",
+            "https://foreverdb.net/item/7717",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7719",
+          "name": "Raging Berserker's Helm",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Head",
+          "type": "Mail",
+          "stats": [
+            "213 Armor",
+            "+13 Strength",
+            "+8 Stamina",
+            "+1.0% Critical Strike"
+          ],
+          "source": "Herod",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7719",
+            "https://nether.wowhead.com/forever/tooltip/item/7719",
+            "https://foreverdb.net/item/7719",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7718",
+          "name": "Herod's Shoulder",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Shoulders",
+          "type": "Mail",
+          "stats": [
+            "196 Armor",
+            "+15 Stamina",
+            "+12 Attack Power"
+          ],
+          "source": "Herod",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7718",
+            "https://nether.wowhead.com/forever/tooltip/item/7718",
+            "https://foreverdb.net/item/7718",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "10330",
+          "name": "Scarlet Leggings",
+          "quality": 3,
+          "requiredLevel": 39,
+          "itemLevel": 44,
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "236 Armor",
+            "+21 Strength",
+            "+10 Stamina"
+          ],
+          "source": "Herod",
+          "sourceOrder": 1,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10330",
+            "https://nether.wowhead.com/forever/tooltip/item/10330",
+            "https://foreverdb.net/item/10330",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        }
+      ]
+    },
+    "The Drowned City": {
+      "id": 2970,
+      "source": "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua",
+      "referenceName": "All The Things",
+      "build": "1.60.1.70938",
+      "items": [
+        {
+          "id": "274598",
+          "name": "Bloodslash Axe",
+          "quality": 3,
+          "requiredLevel": 34,
+          "itemLevel": 39,
+          "slot": "One-hand",
+          "type": "Axe",
+          "stats": [
+            "46–87 damage · 2.50s · 26.6 DPS",
+            "+5 Strength",
+            "+5 Stamina",
+            "Restores 6 health per 5 sec."
+          ],
+          "source": "Zul'Alai",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274598",
+            "https://nether.wowhead.com/forever/tooltip/item/274598",
+            "https://foreverdb.net/item/274598",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274599",
+          "name": "Oathbound Bracers",
+          "quality": 3,
+          "requiredLevel": 34,
+          "itemLevel": 39,
+          "slot": "Wrist",
+          "type": "Leather",
+          "stats": [
+            "52 Armor",
+            "+6 Agility",
+            "+0.9% Hit"
+          ],
+          "source": "Zul'Alai",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274599",
+            "https://nether.wowhead.com/forever/tooltip/item/274599",
+            "https://foreverdb.net/item/274599",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274600",
+          "name": "Berserker Shackles",
+          "quality": 3,
+          "requiredLevel": 34,
+          "itemLevel": 39,
+          "slot": "Wrist",
+          "type": "Mail",
+          "stats": [
+            "109 Armor",
+            "+7 Strength",
+            "+6 Defense"
+          ],
+          "source": "Zul'Alai",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274600",
+            "https://nether.wowhead.com/forever/tooltip/item/274600",
+            "https://foreverdb.net/item/274600",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274601",
+          "name": "Harpoon of Command",
+          "quality": 3,
+          "requiredLevel": 35,
+          "itemLevel": 40,
+          "slot": "Two-hand",
+          "type": "Polearm",
+          "stats": [
+            "97–146 damage · 3.40s · 35.74 DPS",
+            "+15 Stamina",
+            "+1.0% Dodge",
+            "+0.5% Hit"
+          ],
+          "source": "Var'Taka",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274601",
+            "https://nether.wowhead.com/forever/tooltip/item/274601",
+            "https://foreverdb.net/item/274601",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274602",
+          "name": "Brinebelly Leggings",
+          "quality": 3,
+          "requiredLevel": 35,
+          "itemLevel": 40,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "106 Armor",
+            "+15 Agility",
+            "+11 Stamina",
+            "+9 Spirit"
+          ],
+          "source": "Var'Taka",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274602",
+            "https://nether.wowhead.com/forever/tooltip/item/274602",
+            "https://foreverdb.net/item/274602",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274603",
+          "name": "Dreadfrost Saber",
+          "quality": 3,
+          "requiredLevel": 35,
+          "itemLevel": 40,
+          "slot": "Main hand",
+          "type": "Sword",
+          "stats": [
+            "46–86 damage · 2.40s · 27.5 DPS",
+            "+8 Stamina",
+            "Equip: Adds 1 Frost damage to your melee attacks."
+          ],
+          "source": "Captain Dreadrise",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274603",
+            "https://nether.wowhead.com/forever/tooltip/item/274603",
+            "https://foreverdb.net/item/274603",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274604",
+          "name": "Frosty Blunderbuss",
+          "quality": 3,
+          "requiredLevel": 35,
+          "itemLevel": 40,
+          "slot": "Ranged",
+          "type": "Gun",
+          "stats": [
+            "41–78 damage · 2.80s · 21.25 DPS",
+            "+4 Stamina",
+            "+10 Attack Power"
+          ],
+          "source": "Captain Dreadrise",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274604",
+            "https://nether.wowhead.com/forever/tooltip/item/274604",
+            "https://foreverdb.net/item/274604",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274605",
+          "name": "Briny Sash",
+          "quality": 3,
+          "requiredLevel": 35,
+          "itemLevel": 40,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "63 Armor (includes 30 bonus Armor)",
+            "+9 Intellect",
+            "+26 Healing Power",
+            "+9 Spell Damage"
+          ],
+          "source": "Captain Dreadrise",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274605",
+            "https://nether.wowhead.com/forever/tooltip/item/274605",
+            "https://foreverdb.net/item/274605",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274606",
+          "name": "Bloodspine Staff",
+          "quality": 3,
+          "requiredLevel": 36,
+          "itemLevel": 41,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "71–108 damage · 3.30s · 27.12 DPS",
+            "+12 Stamina",
+            "+11 Intellect",
+            "+12 Spirit",
+            "+46 Spell Power"
+          ],
+          "source": "Deathless Marrow",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274606",
+            "https://nether.wowhead.com/forever/tooltip/item/274606",
+            "https://foreverdb.net/item/274606",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274607",
+          "name": "Viscera Spaulders",
+          "quality": 3,
+          "requiredLevel": 36,
+          "itemLevel": 41,
+          "slot": "Shoulders",
+          "type": "Mail",
+          "stats": [
+            "263 Armor (includes 70 bonus Armor)",
+            "+9 Strength",
+            "+10 Stamina"
+          ],
+          "source": "Deathless Marrow",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274607",
+            "https://nether.wowhead.com/forever/tooltip/item/274607",
+            "https://foreverdb.net/item/274607",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274611",
+          "name": "Robe of the Drowned",
+          "quality": 3,
+          "requiredLevel": 35,
+          "itemLevel": 40,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "58 Armor",
+            "+15 Stamina",
+            "+11 Intellect",
+            "Restores 4 mana per 5 sec."
+          ],
+          "source": "Primeval Elemental",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274611",
+            "https://nether.wowhead.com/forever/tooltip/item/274611",
+            "https://foreverdb.net/item/274611",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274612",
+          "name": "Waterlogged Burial Shroud",
+          "quality": 3,
+          "requiredLevel": 35,
+          "itemLevel": 40,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "29 Armor",
+            "+7 Stamina",
+            "+0.5% Critical Strike",
+            "+12 Attack Power"
+          ],
+          "source": "Primeval Elemental",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274612",
+            "https://nether.wowhead.com/forever/tooltip/item/274612",
+            "https://foreverdb.net/item/274612",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274608",
+          "name": "Maw of Min'loth",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Off hand",
+          "type": "Shield",
+          "stats": [
+            "1287 Armor",
+            "22 Block",
+            "+8 Stamina",
+            "Equip: When struck in melee combat, has a 10% chance of stealing 40 life from the target enemy. (3 sec. cooldown)"
+          ],
+          "source": "Min'loth the Serpent",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274608",
+            "https://nether.wowhead.com/forever/tooltip/item/274608",
+            "https://foreverdb.net/item/274608",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274609",
+          "name": "Serpentbane Crown",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Head",
+          "type": "Mail",
+          "stats": [
+            "213 Armor",
+            "+16 Stamina",
+            "+8 Nature Resistance",
+            "Use: Inflict 89 to 112 Fire damage and an additional 225 damage over 10 sec. Deals twice as much damage to Beast and Serpentine targets. (5 min. cooldown)"
+          ],
+          "source": "Min'loth the Serpent",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274609",
+            "https://nether.wowhead.com/forever/tooltip/item/274609",
+            "https://foreverdb.net/item/274609",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        },
+        {
+          "id": "274610",
+          "name": "Ritual-Binder's Gloves",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "79 Armor",
+            "+13 Agility",
+            "+6 Spirit",
+            "+8 Spell Power"
+          ],
+          "source": "Min'loth the Serpent",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274610",
+            "https://nether.wowhead.com/forever/tooltip/item/274610",
+            "https://foreverdb.net/item/274610",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+          ]
+        }
+      ],
+      "notes": "Stats use current Wowhead Forever tooltips, cross-checked against client records. Deathless Marrow is the explicit item-drop NPC associated with the Deathless Guardians encounter."
     }
   }
 }

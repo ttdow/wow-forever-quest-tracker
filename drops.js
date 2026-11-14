@@ -1,7 +1,7 @@
 (() => {
 'use strict';
 const $ = selector => document.querySelector(selector);
-const instances = new Set(['Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library']);
+const instances = new Set(['Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'The Drowned City']);
 const panel = $('#drops-panel');
 const state = { zone: '', data: null, pending: null, openCards: new Set() };
 
@@ -111,6 +111,7 @@ function render() {
   $('#drops-empty').hidden = visible.length > 0;
   $('#drop-result-count').textContent = `${visible.length} of ${instance.items.length} items`;
   $('#drop-reference').href = instance.source;
+  $('#drop-reference').textContent = `Guide: ${typeof instance.referenceName === 'string' && instance.referenceName.trim() ? instance.referenceName : 'ForeverDB'}`;
   $('#drop-reference').hidden = false;
 }
 
@@ -144,10 +145,11 @@ function itemRow(item) {
     const evidenceKind = typeof item.dropEvidence === 'string' && Object.hasOwn(evidenceLabels, item.dropEvidence)
       ? item.dropEvidence : 'reference';
     const evidence = cell(evidenceLabels[evidenceKind] || 'Source ref.', `drop-evidence ${evidenceKind}`, 'Drop evidence');
+    const statsReference = item.statsEvidence === 'wowhead' ? "Stats use Wowhead's Forever tooltip." : 'Stats use the Forever client.';
     evidence.title = item.dropEvidence === 'seen'
       ? 'This drop source was recorded by players in WoW: Forever.'
       : item.dropEvidence === 'wowhead'
-        ? "Boss source listed in Wowhead's WoW Forever item database. Stats use the Forever client."
+        ? `Boss source listed in Wowhead's WoW Forever item database. ${statsReference}`
         : item.dropEvidence === 'classic'
           ? 'Drop source from Classic; not yet recorded in WoW: Forever. Stats use the Forever client.'
           : 'Drop source reference; see the item sources in the research data.';

@@ -11870,5 +11870,372 @@
     },
     "prerequisites": [],
     "previousQuests": []
+  },
+  {
+    "id": "95786",
+    "zone": "The Drowned City",
+    "level": 40,
+    "name": "An Acquaintance in Southshore",
+    "stage": "Introduction",
+    "giver": "Brother Nimetz",
+    "coordinates": "37.9, 3.6",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Find Loremaster Dibbs in Southshore and bring him the Savage Coast Report Bundle.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/95786",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "questie"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "205",
+        "name": "Troll Witchery",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "95787",
+    "zone": "The Drowned City",
+    "level": 40,
+    "name": "Take Two With Water",
+    "stage": "Four tablet rubbings",
+    "giver": "Loremaster Dibbs",
+    "coordinates": "50.5, 57.2",
+    "area": "Southshore (Hillsbrad Foothills)",
+    "objective": "Use the hide and charcoal to make rubbings of the First, Second, Third, and Fourth Tablets of I'lalai in the Drowned City, then return to Loremaster Dibbs.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30; Tablet locations from addon: first by the initial pool, second left of Var'Taka, third near Captain Dreadrise in a skull, fourth behind Min'loth",
+    "sources": [
+      "https://foreverchanges.pro/quest/95787",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "questie"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "95786",
+        "name": "An Acquaintance in Southshore",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "95788",
+    "zone": "The Drowned City",
+    "level": 40,
+    "name": "Magics of the Drowned City",
+    "stage": "",
+    "giver": "Loremaster Dibbs",
+    "coordinates": "50.5, 57.2",
+    "area": "Southshore (Hillsbrad Foothills)",
+    "objective": "Collect 5 I'lalai Fetishes from trolls in the Drowned City and return to Loremaster Dibbs.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/95788",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "questie"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "95786",
+        "name": "An Acquaintance in Southshore",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "95789",
+    "zone": "The Drowned City",
+    "level": 40,
+    "name": "Shady Saltseers",
+    "stage": "",
+    "giver": "Krazek",
+    "coordinates": "27.0, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Collect 10 Voodoo-Infused Artifacts from Saltseer pirates in the Drowned City and bring them to Krazek.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 34",
+    "sources": [
+      "https://foreverchanges.pro/quest/95789",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "questie"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "95791",
+    "zone": "The Drowned City",
+    "level": 40,
+    "name": "The Saltseer Captain",
+    "stage": "",
+    "giver": "Krazek",
+    "coordinates": "27.0, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Slay 3 Saltseer Coroners and Captain Dreadrise in the Drowned City, then return to Krazek.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 34",
+    "sources": [
+      "https://foreverchanges.pro/quest/95791",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "questie"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97130",
+    "zone": "The Drowned City",
+    "level": 40,
+    "name": "Ancient Gurubashi Secrets",
+    "stage": "",
+    "giver": "Archmage Timear",
+    "coordinates": "15.4, 74.0",
+    "area": "Dalaran (Alterac Mountains)",
+    "objective": "Recover an Ancient Gurubashi Idol from the Drowned City for Archmage Timear.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 34",
+    "sources": [
+      "https://foreverchanges.pro/quest/97130",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "questie"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "95798",
+    "zone": "The Drowned City",
+    "level": 40,
+    "name": "The Web of Magic",
+    "stage": "Follow-up: Dalaran",
+    "giver": "Loremaster Dibbs",
+    "coordinates": "50.5, 57.2",
+    "area": "Southshore (Hillsbrad Foothills)",
+    "objective": "Bring the I'lalai Fetish (Bundle of I'lalai Findings) to Abra Cadabra in Dalaran.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30; Follow-up offered after the two Dibbs dungeon quests in contributor reports; mandatory prerequisite not confirmed",
+    "sources": [
+      "https://foreverchanges.pro/quest/95798",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "questie"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "95787",
+        "name": "Take Two With Water",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+        ],
+        "relation": "Offered after"
+      },
+      {
+        "id": "95788",
+        "name": "Magics of the Drowned City",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "95799",
+    "zone": "The Drowned City",
+    "level": 40,
+    "name": "Findings for the Explorer's League",
+    "stage": "Follow-up: Ironforge",
+    "giver": "Loremaster Dibbs",
+    "coordinates": "50.5, 57.2",
+    "area": "Southshore (Hillsbrad Foothills)",
+    "objective": "Bring Loremaster Dibbs' I'lalai Translations to Historian Karnik in Ironforge.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30; Follow-up offered after the two Dibbs dungeon quests in contributor reports; mandatory prerequisite not confirmed",
+    "sources": [
+      "https://foreverchanges.pro/quest/95799",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "questie"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "95787",
+        "name": "Take Two With Water",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+        ],
+        "relation": "Offered after"
+      },
+      {
+        "id": "95788",
+        "name": "Magics of the Drowned City",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "1053",
+    "zone": "Scarlet Monastery Armory",
+    "level": 40,
+    "name": "In the Name of the Light",
+    "stage": "Library, Armory and Cathedral",
+    "giver": "Raleigh the Devout",
+    "coordinates": "51.5, 58.4",
+    "area": "Southshore (Hillsbrad Foothills)",
+    "objective": "Kill Houndmaster Loksey (Library), Herod (Armory), and High Inquisitor Whitemane and Scarlet Commander Mograine (Cathedral). Return to Raleigh the Devout in Southshore.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 34; Completion spans Library, Armory, and Cathedral; Classic-reference details",
+    "sources": [
+      "https://foreverdb.net/quest/1053",
+      "https://foreverchanges.pro/quest/1053",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1052",
+        "name": "Down the Scarlet Path",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1053"
+        ]
+      }
+    ],
+    "previousQuests": []
   }
 ]
