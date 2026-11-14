@@ -9,6 +9,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
+- Switch lists using the zone/dungeon search dropdown. Type to filter, then click a result or use the arrow keys and Enter. Escape dismisses the dropdown. Results include completion counts.
 - Filter completed / not completed quests, or sort by level, name, or area.
 - In dungeon lists, switch between **Quests** and **Drops**. Each boss with recorded equipment has a card with an expandable loot table. Drops have item names, required levels, base stats/effects, and source evidence, with search, source filtering, and an optional Rogue filter.
 - In **Desolace**, **Gnomeregan**, or **The City of Dalaran**, choose **Map** for researched location references. Pan, zoom, filter layers, search, and open markers for coordinates and quest/drop links. Gnomeregan has separate map sections; Dalaran currently has six community boss-guide markers.
@@ -58,7 +59,7 @@ Forward links are derived automatically from those relationships: "Unlocks" reve
 
 Tracked references prefer the current list when the same ID appears in more than one list; otherwise they open the matching quest in its other list. Navigation clears search/completion filters that would hide the target and expands and focuses it. Quest links use URL fragments and work when opened directly or in another tab. Browser Back restores the previous list.
 
-Edit the JSON and publish the change to update the tracker. To add another zone, add its quests to the JSON and its zone button to `index.html`.
+Edit the JSON and publish the change to update the tracker. To add another zone, add its quests to the JSON and its name to the `zones` list in `app.js`.
 
 When changing JavaScript or CSS, increment the `?v=` version on the asset URLs in `index.html` so browsers load the new files instead of cached copies. Quest JSON is requested without using the browser cache.
 
@@ -80,7 +81,7 @@ Ashenvale was audited again on November 13, 2026 against its full zone index, Qu
 
 Shen'dralas and Feralas were researched on November 13, 2026 using current ForeverChanges quest pages, Questie's generated data and player traces, ForeverDB's zone/quest records, and a second zone dataset. Current Shen'dralas listings resolve older faction conflicts; observed handoffs remain separate from confirmed prerequisites. Feralas's Classic-reference details and newer updates retain their source provenance.
 
-Razorfen Kraul and the Graveyard/Library wings of Scarlet Monastery were researched on November 13, 2026 using ForeverDB quest/client records, current ForeverChanges quest pages, explicit boss sources in Wowhead Forever item tooltips, and the All The Things Forever database. Rare bosses are included. The separate wing tabs share Scarlet Monastery instance ID 189, with wing-specific loot lists.
+Razorfen Kraul and the Graveyard/Library wings of Scarlet Monastery were researched on November 13, 2026 using ForeverDB quest/client records, current ForeverChanges quest pages, explicit boss sources in Wowhead Forever item tooltips, and the All The Things Forever database. Rare bosses are included. The separate wing lists share Scarlet Monastery instance ID 189, with wing-specific loot lists.
 
 The site must be served over HTTP or HTTPS so the browser can load the JSON file. Opening `index.html` directly from disk is not supported.
 

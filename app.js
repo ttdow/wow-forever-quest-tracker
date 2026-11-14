@@ -3,7 +3,80 @@
 const $ = selector => document.querySelector(selector);
 const state = { quests: [], forwardLinks: new Map(), completed: new Set(), expanded: new Set(), zone: 'Teldrassil', view: 'quests', storageReady: false, loaded: false };
 const rows = $('#quests');
+const zones = ['Teldrassil', 'Darkshore', 'Ashenvale', 'Stonetalon Mountains', 'Desolace', "Shen'dralas", 'Feralas', 'Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library'];
+const zoneInput = $('#zone-search');
+const picker = { open: false, query: '', matches: [], active: -1, zone: state.zone };
 let saveTimer;
+
+function closeZonePicker() {
+  picker.open = false;
+  $('#zone-dropdown').hidden = true;
+  zoneInput.setAttribute('aria-expanded', 'false');
+  zoneInput.removeAttribute('aria-activedescendant');
+  zoneInput.value = state.zone;
+}
+
+function activateZoneOption(index, scroll = false) {
+  picker.active = index;
+  const options = [...$('#zone-options').children];
+  options.forEach((option, i) => option.classList.toggle('active', i === index));
+  const active = options[index];
+  if (active) {
+    zoneInput.setAttribute('aria-activedescendant', active.id);
+    if (scroll) active.scrollIntoView({ block: 'nearest' });
+  } else zoneInput.removeAttribute('aria-activedescendant');
+}
+
+function renderZoneOptions() {
+  const query = picker.query.trim().toLocaleLowerCase();
+  const previous = picker.matches[picker.active];
+  picker.matches = zones.filter(zone => zone.toLocaleLowerCase().includes(query));
+  const fragment = document.createDocumentFragment();
+  for (const zone of picker.matches) {
+    const option = document.createElement('div');
+    option.id = `zone-option-${zones.indexOf(zone)}`;
+    option.className = 'zone-option';
+    option.dataset.zone = zone;
+    option.setAttribute('role', 'option');
+    option.setAttribute('aria-selected', String(zone === state.zone));
+    const name = document.createElement('span');
+    name.textContent = zone;
+    const count = document.createElement('span');
+    const quests = state.quests.filter(quest => quest.zone === zone);
+    count.className = 'zone-count';
+    count.textContent = `${quests.filter(quest => state.completed.has(quest.id)).length}/${quests.length}`;
+    count.setAttribute('aria-label', `${count.textContent} quests completed`);
+    option.append(name, count);
+    fragment.append(option);
+  }
+  $('#zone-options').replaceChildren(fragment);
+  $('#zone-empty').hidden = picker.matches.length > 0;
+  const preferred = picker.matches.indexOf(previous || (!query ? state.zone : ''));
+  activateZoneOption(preferred >= 0 ? preferred : picker.matches.length ? 0 : -1);
+}
+
+function openZonePicker(query = '') {
+  if (!state.loaded) return;
+  picker.open = true;
+  picker.query = query;
+  picker.matches = [];
+  $('#zone-dropdown').hidden = false;
+  zoneInput.setAttribute('aria-expanded', 'true');
+  renderZoneOptions();
+  activateZoneOption(picker.active, true);
+}
+
+function selectZone(zone) {
+  if (!zones.includes(zone)) return;
+  closeZonePicker();
+  zoneInput.focus({ preventScroll: true });
+  if (zone === state.zone) return;
+  state.zone = zone;
+  if (!supportsView(state.zone, state.view)) state.view = 'quests';
+  if (isDungeon(state.zone) && !state.quests.some(quest => quest.zone === state.zone)) state.view = 'drops';
+  history.pushState({ zone: state.zone, view: state.view }, '', viewURL(state.zone, state.view));
+  render();
+}
 
 function cell(text, className, label) {
   const element = document.createElement('td');
@@ -163,11 +236,10 @@ function render() {
   $('#progress-text').textContent = `${count} / ${zoneQuests.length} completed`;
   $('#progress').max = zoneQuests.length || 1;
   $('#progress').value = count;
-  document.querySelectorAll('[data-zone]').forEach(button => {
-    const quests = state.quests.filter(quest => quest.zone === button.dataset.zone);
-    button.setAttribute('aria-pressed', String(button.dataset.zone === state.zone));
-    button.querySelector('span').textContent = `${quests.filter(quest => state.completed.has(quest.id)).length}/${quests.length}`;
-  });
+  zoneInput.disabled = !state.loaded;
+  if (picker.zone !== state.zone) { picker.zone = state.zone; closeZonePicker(); }
+  if (picker.open) renderZoneOptions();
+  else zoneInput.value = state.zone;
 
   const dungeon = isDungeon(state.zone);
   const map = hasMap(state.zone);
@@ -286,15 +358,34 @@ function toggleQuest(id, completed) {
   rows.querySelector(`input[data-id="${id}"]`)?.focus({ preventScroll: true });
 }
 
-$('#zones').addEventListener('click', event => {
-  const button = event.target.closest('button[data-zone]');
-  if (button) {
-    state.zone = button.dataset.zone;
-    if (!supportsView(state.zone, state.view)) state.view = 'quests';
-    if (isDungeon(state.zone) && !state.quests.some(quest => quest.zone === state.zone)) state.view = 'drops';
-    history.pushState({ zone: state.zone, view: state.view }, '', viewURL(state.zone, state.view));
-    render();
+zoneInput.addEventListener('focus', () => { zoneInput.select(); openZonePicker(); });
+zoneInput.addEventListener('click', () => { if (!picker.open) { zoneInput.select(); openZonePicker(); } });
+zoneInput.addEventListener('input', () => openZonePicker(zoneInput.value));
+zoneInput.addEventListener('keydown', event => {
+  if (event.isComposing) return;
+  if (event.key === 'Escape') {
+    event.preventDefault();
+    closeZonePicker();
+  } else if (event.key === 'Tab') closeZonePicker();
+  else if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+    event.preventDefault();
+    if (!picker.open) openZonePicker();
+    else if (picker.matches.length) activateZoneOption((picker.active + (event.key === 'ArrowDown' ? 1 : -1) + picker.matches.length) % picker.matches.length, true);
+  } else if (event.key === 'Enter' && picker.open) {
+    event.preventDefault();
+    if (picker.active >= 0) selectZone(picker.matches[picker.active]);
   }
+});
+$('#zone-options').addEventListener('mousedown', event => event.preventDefault());
+$('#zone-options').addEventListener('click', event => {
+  const option = event.target.closest('[data-zone]');
+  if (option) selectZone(option.dataset.zone);
+});
+$('#zone-picker').addEventListener('focusout', event => {
+  if (!event.currentTarget.contains(event.relatedTarget)) closeZonePicker();
+});
+document.addEventListener('pointerdown', event => {
+  if (!$('#zone-picker').contains(event.target)) closeZonePicker();
 });
 $('#views').addEventListener('click', event => {
   const button = event.target.closest('button[data-view]');
