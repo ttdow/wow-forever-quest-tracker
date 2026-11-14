@@ -3,14 +3,9 @@
   "updated": "2026-11-14",
   "map": {
     "appearance": "dungeon",
-    "image": "./assets/maps/city-of-dalaran.webp",
-    "width": 600,
-    "height": 620,
-    "source": "https://azeroth.wiki/forever/dungeons/city-of-dalaran",
-    "attribution": "World of Warcraft © Blizzard Entertainment; map reference: Azeroth DB",
-    "coordinateSystem": "guide-image"
+    "attribution": "World of Warcraft © Blizzard Entertainment; references: Azeroth DB and Wowhead"
   },
-  "note": "Community guide positions; coordinates refer to this image. Chest and sewer locations are not yet mapped.",
+  "note": "Community guide positions; coordinates refer to this image. Chest positions are not yet mapped.",
   "points": [
     {
       "id": "npc-245999",
@@ -26,7 +21,8 @@
         "azeroth-map",
         "azeroth-245999",
         "wowhead-245999"
-      ]
+      ],
+      "floor": "main"
     },
     {
       "id": "npc-246020",
@@ -46,7 +42,8 @@
       "questIds": [
         "92458"
       ],
-      "note": "Access via the Violet Citadel portal. The encounter takes place in the Purple Parlor; this marker shows its guide access location."
+      "note": "Access via the Violet Citadel portal. The encounter takes place in the Purple Parlor; this marker shows its guide access location.",
+      "floor": "main"
     },
     {
       "id": "npc-246003",
@@ -62,7 +59,8 @@
         "azeroth-map",
         "azeroth-246003",
         "wowhead-246003"
-      ]
+      ],
+      "floor": "main"
     },
     {
       "id": "npc-246017",
@@ -78,7 +76,8 @@
         "azeroth-map",
         "azeroth-246017",
         "wowhead-246017"
-      ]
+      ],
+      "floor": "main"
     },
     {
       "id": "npc-246016",
@@ -101,7 +100,8 @@
       "questIds": [
         "92489"
       ],
-      "note": "Listed as Mana Elemental on the source map; quest target for Power Overwhelming."
+      "note": "Listed as Mana Elemental on the source map; quest target for Power Overwhelming.",
+      "floor": "main"
     },
     {
       "id": "npc-246008",
@@ -117,7 +117,8 @@
         "azeroth-map",
         "azeroth-246008",
         "wowhead-246008"
-      ]
+      ],
+      "floor": "main"
     }
   ],
   "sources": {
@@ -172,6 +173,10 @@
     "wowhead-246008": {
       "name": "NPC identity reference",
       "url": "https://www.wowhead.com/forever/npc=246008"
+    },
+    "wowhead-underbelly-map": {
+      "name": "Underbelly map artwork",
+      "url": "https://wow.zamimg.com/images/wow/maps/enus/original/4395-2.jpg"
     }
   },
   "coverage": {
@@ -181,7 +186,34 @@
       "Mana Wraith"
     ],
     "chests": "No verified chest position data obtained",
-    "npcQuestGivers": "No verified interior quest-giver positions obtained"
+    "npcQuestGivers": "No verified interior quest-giver positions obtained",
+    "sewers": "Underbelly background layout available; no verified boss, chest, or quest-object positions."
   },
-  "license": "Community guide reference facts; see source terms. Blizzard game artwork retains its copyright."
+  "license": "Community guide reference facts; see source terms. Blizzard game artwork via Azeroth DB and Wowhead retains its copyright.",
+  "floors": [
+    {
+      "id": "main",
+      "name": "City",
+      "appearance": "dungeon",
+      "image": "./assets/maps/city-of-dalaran.webp",
+      "width": 600,
+      "height": 620,
+      "source": "https://azeroth.wiki/forever/dungeons/city-of-dalaran",
+      "attribution": "World of Warcraft © Blizzard Entertainment; map reference: Azeroth DB",
+      "coordinateSystem": "guide-image",
+      "note": "Community guide positions; coordinates refer to this image. Chest positions are not yet mapped."
+    },
+    {
+      "id": "sewers",
+      "name": "Sewers",
+      "image": "./assets/maps/city-of-dalaran-sewers.jpg",
+      "width": 1009,
+      "height": 673,
+      "source": "https://wow.zamimg.com/images/wow/maps/enus/original/4395-2.jpg",
+      "attribution": "World of Warcraft © Blizzard Entertainment; map artwork via Wowhead",
+      "coordinateSystem": "guide-image",
+      "note": "Underbelly layout reference. Boss and chest positions are not yet mapped.",
+      "layoutEvidence": "Player confirmed on 2026-11-14 that this Underbelly layout matches the Forever dungeon sewer section."
+    }
+  ]
 }

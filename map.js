@@ -18,7 +18,11 @@ const categories = {
 const zones = {
   Desolace: { file: 'desolace', guide: 'https://foreverdb.net/maps/1443', report: 'desolace-map' },
   Gnomeregan: { file: 'gnomeregan', guide: 'https://foreverdb.net/dungeon/90-gnomeregan', report: 'gnomeregan-map' },
-  'The City of Dalaran': { file: 'city-of-dalaran', guide: 'https://azeroth.wiki/forever/dungeons/city-of-dalaran', report: 'city-of-dalaran-map', provider: 'Azeroth DB', terms: 'https://azeroth.wiki/terms' },
+  'The City of Dalaran': {
+    file: 'city-of-dalaran', guide: 'https://azeroth.wiki/forever/dungeons/city-of-dalaran', report: 'city-of-dalaran-map',
+    provider: 'Azeroth DB', terms: 'https://azeroth.wiki/terms',
+    sections: { sewers: { guide: 'https://www.wowhead.com/wotlk/zone=4395/dalaran', provider: 'Wowhead', terms: 'https://www.wowhead.com/terms-of-service' } },
+  },
 };
 const dataCache = new Map();
 const pending = new Map();
@@ -307,9 +311,9 @@ function render() {
   }
   $('#map-floor-matches').replaceChildren(otherFloors);
   $('#map-floor-matches').hidden = !$('#map-floor-matches').childElementCount;
-  $('#map-empty').hidden = points.length > 0;
-  $('#map-empty').textContent = evidence === 'forever' ? 'No Forever-confirmed locations recorded.' : 'No locations match your filters on this map.';
   const total = state.data.points.filter(point => point.floor === state.floor.id).length;
+  $('#map-empty').hidden = points.length > 0 || total === 0;
+  $('#map-empty').textContent = evidence === 'forever' ? 'No Forever-confirmed locations recorded.' : 'No locations match your filters on this map.';
   $('#map-result-count').textContent = `${points.length} of ${total} entries${state.data.floors.length > 1 ? ` · ${state.data.points.length} across all sections` : ''}`;
 }
 
@@ -364,11 +368,12 @@ async function show(zone, context = {}) {
     state.data = data; state.floor = floor; preferences().floor = floor.id;
     $('#map-panel').setAttribute('aria-label', `${zone} map`);
     $('#zone-map').setAttribute('aria-label', `${zone} locations. Use arrow keys to pan and plus or minus to zoom.`);
-    $('#map-note').textContent = typeof data.note === 'string' ? data.note : 'Classic reference locations. Spawns may differ in Forever. Dashed markers are extra candidates.';
-    $('#map-guide').href = zones[zone].guide;
-    $('#map-guide').textContent = zones[zone].provider || 'ForeverDB';
-    $('#map-data-license').href = zones[zone].terms || './research/desolace-map/LICENSE-GPL-3.0.txt';
-    $('#map-data-license').textContent = zones[zone].terms ? 'Source terms' : 'Data license';
+    $('#map-note').textContent = typeof floor.note === 'string' ? floor.note : typeof data.note === 'string' ? data.note : 'Classic reference locations. Spawns may differ in Forever. Dashed markers are extra candidates.';
+    const reference = zones[zone].sections?.[floor.id] || zones[zone];
+    $('#map-guide').href = reference.guide;
+    $('#map-guide').textContent = reference.provider || 'ForeverDB';
+    $('#map-data-license').href = reference.terms || './research/desolace-map/LICENSE-GPL-3.0.txt';
+    $('#map-data-license').textContent = reference.terms ? 'Source terms' : 'Data license';
     $('#map-sources').href = `./research/${zones[zone].report}/README.md`;
     $('#map-floor-control').hidden = data.floors.length < 2;
     $('#map-floor').replaceChildren(...data.floors.map(floor => {

@@ -97,5 +97,30 @@
       "url": "https://theforeverera.com/en/dungeons/city-of-dalaran/",
       "finding": "States that boss position data is not yet available."
     }
-  ]
+  ],
+  "sewerMap": {
+    "researched": "2026-11-14",
+    "referenceImage": "https://wow.zamimg.com/images/wow/maps/enus/original/4395-2.jpg",
+    "imageSha256": "a64337edc01ccb6e43cbae68265ee74e888407387b6485f10960a88701138a48",
+    "referenceImageSize": [
+      1009,
+      673
+    ],
+    "originalContext": "Dalaran Underbelly, Wrath map 4395 floor 2",
+    "layoutConfirmation": {
+      "evidence": "Player report",
+      "date": "2026-11-14",
+      "prompt": "Does Forever’s sewer section use the standard Dalaran Underbelly layout (Circle of Wills and Cantrips & Crows Tavern)?",
+      "answer": "Yes, that matches"
+    },
+    "coordinateCoverage": "No measured or published compatible Forever boss/chest positions obtained. No position markers added.",
+    "attribution": "World of Warcraft © Blizzard Entertainment; map artwork via Wowhead",
+    "sourceTerms": "https://www.wowhead.com/terms-of-service"
+  },
+  "followupChecks": {
+    "date": "2026-11-14",
+    "azerothGuideSha256": "11c98126fd5a87ed5811213ad4a69e16305ecd93c0246344968f7b694be22775",
+    "foreverDbSha256": "0b46e2bba4dbc5d0ae304a99941666ee0f3c9568bca6d33f1c71a8452552101f",
+    "finding": "Current guide still has six city markers only; current ForeverDB record has no bossSpots. Sewer background is the player-confirmed Underbelly layout, not either broad client minimap composite."
+  }
 }
