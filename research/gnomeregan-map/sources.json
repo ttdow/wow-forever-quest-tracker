@@ -1,0 +1,74 @@
+{
+  "researched": "2026-11-14",
+  "build": "1.60.1.70938",
+  "databaseSha256": "daa16e44b95a9d4a0d17b8f8e3a91cf0b4be1af7d9b3bfc8ac71707a02399f5f",
+  "databaseZipSha256": "420c7ce8aead7cb90f9fb96914ebd9c054391ad7a666076da2e6db2332dcbc0e",
+  "databaseReleasePublished": "2026-11-13T13:34:58Z",
+  "sqlRevision": "09000ea8d7333856727204e4e2d30f772149b7a8",
+  "eventScriptSha256": "b6949424a50c03daf7f3affed8e141b08fa97331d84e57aa7798826609d34c0c",
+  "sourceURLs": {
+    "fdb-map": {
+      "name": "ForeverDB map and projection",
+      "url": "https://foreverdb.net/dungeon/90-gnomeregan"
+    },
+    "classic-sql": {
+      "name": "Classic spawn and chest pool data",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/090_gnomeregan.sql"
+    },
+    "classic-snapshot": {
+      "name": "Classic database snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "classic-event": {
+      "name": "Classic Grubbis event script",
+      "url": "https://github.com/cmangos/mangos-classic/blob/master/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/gnomeregan/gnomeregan.cpp"
+    }
+  },
+  "mapSections": [
+    {
+      "id": "main",
+      "name": "Main layout",
+      "image": "./assets/maps/gnomeregan-main.webp",
+      "width": 1892,
+      "height": 1520,
+      "worldProjection": {
+        "originX": -176.89,
+        "originY": 780.16,
+        "pixelsPerYard": 2.0
+      },
+      "sources": [
+        "fdb-map"
+      ],
+      "sha256": "f9833a70ccf641f94fdd75c32efab8b56664752ef9d446801b6fcb40f078f18b"
+    },
+    {
+      "id": "upper",
+      "name": "Upper platforms",
+      "image": "./assets/maps/gnomeregan-upper.webp",
+      "width": 1423,
+      "height": 1211,
+      "worldProjection": {
+        "originX": -332.67,
+        "originY": 639.84,
+        "pixelsPerYard": 2.0
+      },
+      "sources": [
+        "fdb-map"
+      ],
+      "sha256": "9c29a7c1b5e0ad8913369d0f50dfac296dc8f985585c4ee1cb185fb698e042c7"
+    }
+  ],
+  "counts": {
+    "boss": 5,
+    "dungeon-chest": 6,
+    "entrance": 1,
+    "npc": 1,
+    "quest-giver": 10,
+    "quest-object": 14,
+    "rare": 1
+  },
+  "sectionCounts": {
+    "main": 26,
+    "upper": 12
+  }
+}

@@ -1,0 +1,1170 @@
+{
+  "zone": "Gnomeregan",
+  "updated": "2026-11-14",
+  "map": {
+    "appearance": "dungeon",
+    "source": "https://foreverdb.net/dungeon/90-gnomeregan",
+    "attribution": "World of Warcraft © Blizzard Entertainment"
+  },
+  "floors": [
+    {
+      "id": "main",
+      "name": "Main layout",
+      "image": "./assets/maps/gnomeregan-main.webp",
+      "width": 1892,
+      "height": 1520,
+      "worldProjection": {
+        "originX": -176.89,
+        "originY": 780.16,
+        "pixelsPerYard": 2.0
+      },
+      "sources": [
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "upper",
+      "name": "Upper platforms",
+      "image": "./assets/maps/gnomeregan-upper.webp",
+      "width": 1423,
+      "height": 1211,
+      "worldProjection": {
+        "originX": -332.67,
+        "originY": 639.84,
+        "pixelsPerYard": 2.0
+      },
+      "sources": [
+        "fdb-map"
+      ]
+    }
+  ],
+  "note": "Classic reference spawns on Forever client maps. Coordinates are relative to the selected map section.",
+  "points": [
+    {
+      "id": "chest-900099",
+      "name": "Large chest spawn",
+      "category": "dungeon-chest",
+      "objectIds": [
+        "74447",
+        "74448"
+      ],
+      "variants": [
+        {
+          "objectId": "74447",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "objectId": "74448",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "x": 78.4289,
+      "y": 17.7547,
+      "floor": "upper",
+      "world": {
+        "map": 90,
+        "x": -440.17486572265625,
+        "y": 81.81849670410156,
+        "z": -151.4757080078125
+      },
+      "verification": "classic-derived",
+      "poolId": 45791,
+      "placementEvidence": "client-layout",
+      "note": "Alternative chest types at this position. Positions in this pool are mutually exclusive in the Classic reference.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "chest-900100",
+      "name": "Large chest spawn",
+      "category": "dungeon-chest",
+      "objectIds": [
+        "74447",
+        "74448"
+      ],
+      "variants": [
+        {
+          "objectId": "74447",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "objectId": "74448",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "x": 69.4598,
+      "y": 58.6437,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -622.5821533203125,
+        "y": 123.07047271728516,
+        "z": -199.6455841064453
+      },
+      "verification": "classic-derived",
+      "poolId": 45792,
+      "placementEvidence": "client-layout",
+      "note": "Alternative chest types at this position. Positions in this pool are mutually exclusive in the Classic reference.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "chest-900101",
+      "name": "Large chest spawn",
+      "category": "dungeon-chest",
+      "objectIds": [
+        "74447",
+        "74448"
+      ],
+      "variants": [
+        {
+          "objectId": "74447",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "objectId": "74448",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "x": 75.4395,
+      "y": 59.6929,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -630.556,
+        "y": 66.5022,
+        "z": -183.275
+      },
+      "verification": "classic-derived",
+      "poolId": 45792,
+      "placementEvidence": "client-layout",
+      "note": "Alternative chest types at this position. Positions in this pool are mutually exclusive in the Classic reference.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "chest-900102",
+      "name": "Large chest spawn",
+      "category": "dungeon-chest",
+      "objectIds": [
+        "74447",
+        "74448"
+      ],
+      "variants": [
+        {
+          "objectId": "74447",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "objectId": "74448",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "x": 77.0238,
+      "y": 58.6545,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -622.664306640625,
+        "y": 51.51460647583008,
+        "z": -199.64552307128906
+      },
+      "verification": "classic-derived",
+      "poolId": 45792,
+      "placementEvidence": "client-layout",
+      "note": "Alternative chest types at this position. Positions in this pool are mutually exclusive in the Classic reference.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "chest-900103",
+      "name": "Large chest spawn",
+      "category": "dungeon-chest",
+      "objectIds": [
+        "74447",
+        "74448"
+      ],
+      "variants": [
+        {
+          "objectId": "74447",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "objectId": "74448",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "x": 50.7531,
+      "y": 82.2797,
+      "floor": "upper",
+      "world": {
+        "map": 90,
+        "x": -830.8733520507812,
+        "y": 278.7314147949219,
+        "z": -272.5962829589844
+      },
+      "verification": "classic-derived",
+      "poolId": 45793,
+      "placementEvidence": "client-layout",
+      "note": "Alternative chest types at this position. Positions in this pool are mutually exclusive in the Classic reference.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "chest-900104",
+      "name": "Large chest spawn",
+      "category": "dungeon-chest",
+      "objectIds": [
+        "74447",
+        "74448"
+      ],
+      "variants": [
+        {
+          "objectId": "74447",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "objectId": "74448",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "x": 38.7689,
+      "y": 69.6406,
+      "floor": "upper",
+      "world": {
+        "map": 90,
+        "x": -754.3435668945312,
+        "y": 363.99951171875,
+        "z": -272.5962829589844
+      },
+      "verification": "classic-derived",
+      "poolId": 45793,
+      "placementEvidence": "client-layout",
+      "note": "Alternative chest types at this position. Positions in this pool are mutually exclusive in the Classic reference.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "npc-6228-900180",
+      "npcId": "6228",
+      "name": "Dark Iron Ambassador",
+      "category": "rare",
+      "x": 9.946,
+      "y": 65.0028,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -670.911,
+        "y": 686.071,
+        "z": -326.812
+      },
+      "levelRange": [
+        33,
+        33
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2951",
+        "4601",
+        "4602"
+      ],
+      "drops": true
+    },
+    {
+      "id": "npc-6229-900181",
+      "npcId": "6229",
+      "name": "Crowd Pummeler 9-60",
+      "category": "boss",
+      "x": 44.3438,
+      "y": 93.7167,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -889.137,
+        "y": 360.668,
+        "z": -272.513
+      },
+      "levelRange": [
+        32,
+        32
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "published-boss-section",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2928"
+      ],
+      "drops": true
+    },
+    {
+      "id": "npc-6235-900240",
+      "npcId": "6235",
+      "name": "Electrocutioner 6000",
+      "category": "boss",
+      "x": 19.5255,
+      "y": 35.7986,
+      "floor": "upper",
+      "world": {
+        "map": 90,
+        "x": -549.4306640625,
+        "y": 500.9159851074219,
+        "z": -216.80999755859375
+      },
+      "levelRange": [
+        32,
+        32
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "published-boss-section",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2928"
+      ],
+      "drops": true
+    },
+    {
+      "id": "npc-7079-900301",
+      "npcId": "7079",
+      "name": "Viscous Fallout",
+      "category": "boss",
+      "x": 77.3451,
+      "y": 38.75,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -471.39,
+        "y": 48.4756,
+        "z": -207.954
+      },
+      "levelRange": [
+        30,
+        30
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "published-boss-section",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "drops": true
+    },
+    {
+      "id": "npc-7800-900394",
+      "npcId": "7800",
+      "name": "Mekgineer Thermaplugg",
+      "category": "boss",
+      "x": 11.628,
+      "y": 46.6361,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -531.3243408203125,
+        "y": 670.1588134765625,
+        "z": -325.1849365234375
+      },
+      "levelRange": [
+        34,
+        34
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "published-boss-section",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2928",
+        "2929"
+      ],
+      "drops": true
+    },
+    {
+      "id": "npc-7850-900411",
+      "npcId": "7850",
+      "name": "Kernobee",
+      "category": "quest-giver",
+      "x": 66.2801,
+      "y": 58.1503,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -618.832,
+        "y": 153.15,
+        "z": -199.654
+      },
+      "levelRange": [
+        28,
+        28
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2904"
+      ],
+      "moving": true,
+      "movementNote": "Possible pickup position. Kernobee moves during the escort; these points are not a patrol route."
+    },
+    {
+      "id": "npc-7850-900412",
+      "npcId": "7850",
+      "name": "Kernobee",
+      "category": "quest-giver",
+      "x": 71.7044,
+      "y": 60.5478,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -637.053,
+        "y": 101.836,
+        "z": -194.48
+      },
+      "levelRange": [
+        28,
+        28
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2904"
+      ],
+      "moving": true,
+      "movementNote": "Possible pickup position. Kernobee moves during the escort; these points are not a patrol route."
+    },
+    {
+      "id": "npc-7850-900413",
+      "npcId": "7850",
+      "name": "Kernobee",
+      "category": "quest-giver",
+      "x": 74.8954,
+      "y": 60.9183,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -639.869140625,
+        "y": 71.64987182617188,
+        "z": -183.18350219726562
+      },
+      "levelRange": [
+        28,
+        28
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2904"
+      ],
+      "moving": true,
+      "movementNote": "Possible pickup position. Kernobee moves during the escort; these points are not a patrol route."
+    },
+    {
+      "id": "npc-7850-900414",
+      "npcId": "7850",
+      "name": "Kernobee",
+      "category": "quest-giver",
+      "x": 76.9952,
+      "y": 58.4867,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -621.389,
+        "y": 51.785,
+        "z": -199.647
+      },
+      "levelRange": [
+        28,
+        28
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2904"
+      ],
+      "moving": true,
+      "movementNote": "Possible pickup position. Kernobee moves during the escort; these points are not a patrol route."
+    },
+    {
+      "id": "npc-7850-900415",
+      "npcId": "7850",
+      "name": "Kernobee",
+      "category": "quest-giver",
+      "x": 80.7809,
+      "y": 55.6828,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -600.079,
+        "y": 15.9729,
+        "z": -179.679
+      },
+      "levelRange": [
+        28,
+        28
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2904"
+      ],
+      "moving": true,
+      "movementNote": "Possible pickup position. Kernobee moves during the escort; these points are not a patrol route."
+    },
+    {
+      "id": "npc-7850-900416",
+      "npcId": "7850",
+      "name": "Kernobee",
+      "category": "quest-giver",
+      "x": 79.45,
+      "y": 52.7376,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -577.696,
+        "y": 28.5626,
+        "z": -197.735
+      },
+      "levelRange": [
+        28,
+        28
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2904"
+      ],
+      "moving": true,
+      "movementNote": "Possible pickup position. Kernobee moves during the escort; these points are not a patrol route."
+    },
+    {
+      "id": "npc-7850-900417",
+      "npcId": "7850",
+      "name": "Kernobee",
+      "category": "quest-giver",
+      "x": 80.1937,
+      "y": 47.8433,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -540.499,
+        "y": 21.528,
+        "z": -179.737
+      },
+      "levelRange": [
+        28,
+        28
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2904"
+      ],
+      "moving": true,
+      "movementNote": "Possible pickup position. Kernobee moves during the escort; these points are not a patrol route."
+    },
+    {
+      "id": "npc-7850-900418",
+      "npcId": "7850",
+      "name": "Kernobee",
+      "category": "quest-giver",
+      "x": 78.7982,
+      "y": 46.8672,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -533.081,
+        "y": 34.7292,
+        "z": -199.073
+      },
+      "levelRange": [
+        28,
+        28
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2904"
+      ],
+      "moving": true,
+      "movementNote": "Possible pickup position. Kernobee moves during the escort; these points are not a patrol route."
+    },
+    {
+      "id": "npc-7850-900419",
+      "npcId": "7850",
+      "name": "Kernobee",
+      "category": "quest-giver",
+      "x": 66.2851,
+      "y": 57.8949,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -616.891357421875,
+        "y": 153.10287475585938,
+        "z": -199.57107543945312
+      },
+      "levelRange": [
+        28,
+        28
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2904"
+      ],
+      "moving": true,
+      "movementNote": "Possible pickup position. Kernobee moves during the escort; these points are not a patrol route."
+    },
+    {
+      "id": "npc-7850-900420",
+      "npcId": "7850",
+      "name": "Kernobee",
+      "category": "quest-giver",
+      "x": 79.0585,
+      "y": 50.9054,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -563.7708129882812,
+        "y": 32.26622009277344,
+        "z": -196.048095703125
+      },
+      "levelRange": [
+        28,
+        28
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "questIds": [
+        "2904"
+      ],
+      "moving": true,
+      "movementNote": "Possible pickup position. Kernobee moves during the escort; these points are not a patrol route."
+    },
+    {
+      "id": "npc-7998-900402",
+      "npcId": "7998",
+      "name": "Blastmaster Emi Shortfuse",
+      "category": "npc",
+      "x": 97.1146,
+      "y": 44.4796,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -514.935,
+        "y": -138.544,
+        "z": -152.399
+      },
+      "levelRange": [
+        27,
+        27
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "note": "Starts the Grubbis encounter."
+    },
+    {
+      "id": "npc-7361-event",
+      "npcId": "7361",
+      "name": "Grubbis",
+      "category": "boss",
+      "x": 93.9059,
+      "y": 39.4061,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -476.3761,
+        "y": -108.1901,
+        "z": -145.7763
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "drops": true,
+      "note": "Summoned during Blastmaster Emi Shortfuse's event; this is the Classic summon point.",
+      "sources": [
+        "classic-event",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-142475-900077",
+      "objectId": "142475",
+      "name": "Matrix Punchograph 3005-B",
+      "category": "quest-object",
+      "x": 68.2108,
+      "y": 38.1773,
+      "floor": "upper",
+      "world": {
+        "map": 90,
+        "x": -563.83349609375,
+        "y": 154.52017211914062,
+        "z": -202.151123046875
+      },
+      "questIds": [
+        "2930"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-142475-900078",
+      "objectId": "142475",
+      "name": "Matrix Punchograph 3005-B",
+      "category": "quest-object",
+      "x": 75.6636,
+      "y": 35.9515,
+      "floor": "upper",
+      "world": {
+        "map": 90,
+        "x": -550.3566284179688,
+        "y": 101.493408203125,
+        "z": -202.10157775878906
+      },
+      "questIds": [
+        "2930"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-142475-900079",
+      "objectId": "142475",
+      "name": "Matrix Punchograph 3005-B",
+      "category": "quest-object",
+      "x": 71.7364,
+      "y": 35.3432,
+      "floor": "upper",
+      "world": {
+        "map": 90,
+        "x": -546.6730346679688,
+        "y": 129.4357147216797,
+        "z": -202.1512908935547
+      },
+      "questIds": [
+        "2930"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-142475-900080",
+      "objectId": "142475",
+      "name": "Matrix Punchograph 3005-B",
+      "category": "quest-object",
+      "x": 72.296,
+      "y": 37.8887,
+      "floor": "upper",
+      "world": {
+        "map": 90,
+        "x": -562.0859375,
+        "y": 125.453857421875,
+        "z": -202.1452178955078
+      },
+      "questIds": [
+        "2930"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-142476-900081",
+      "objectId": "142476",
+      "name": "Matrix Punchograph 3005-C",
+      "category": "quest-object",
+      "x": 21.3303,
+      "y": 36.8001,
+      "floor": "upper",
+      "world": {
+        "map": 90,
+        "x": -555.4944458007812,
+        "y": 488.0750427246094,
+        "z": -216.8100128173828
+      },
+      "questIds": [
+        "2930"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-142476-900082",
+      "objectId": "142476",
+      "name": "Matrix Punchograph 3005-C",
+      "category": "quest-object",
+      "x": 21.3786,
+      "y": 36.5704,
+      "floor": "upper",
+      "world": {
+        "map": 90,
+        "x": -554.1039428710938,
+        "y": 487.7315979003906,
+        "z": -216.8100128173828
+      },
+      "questIds": [
+        "2930"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-142476-900083",
+      "objectId": "142476",
+      "name": "Matrix Punchograph 3005-C",
+      "category": "quest-object",
+      "x": 21.2033,
+      "y": 36.7638,
+      "floor": "upper",
+      "world": {
+        "map": 90,
+        "x": -555.2747192382812,
+        "y": 488.9781799316406,
+        "z": -216.8100128173828
+      },
+      "questIds": [
+        "2930"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-142476-900084",
+      "objectId": "142476",
+      "name": "Matrix Punchograph 3005-C",
+      "category": "quest-object",
+      "x": 21.2542,
+      "y": 36.5222,
+      "floor": "upper",
+      "world": {
+        "map": 90,
+        "x": -553.8118896484375,
+        "y": 488.6160583496094,
+        "z": -216.8100128173828
+      },
+      "questIds": [
+        "2930"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-142487-900086",
+      "objectId": "142487",
+      "name": "The Sparklematic 5200",
+      "category": "quest-object",
+      "x": 65.2263,
+      "y": 45.056,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -519.3158569335938,
+        "y": 163.11964416503906,
+        "z": -193.7304229736328
+      },
+      "questIds": [
+        "2945",
+        "2947",
+        "2951",
+        "2952"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-142696-900087",
+      "objectId": "142696",
+      "name": "Matrix Punchograph 3005-D",
+      "category": "quest-object",
+      "x": 40.7225,
+      "y": 90.464,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -864.4163208007812,
+        "y": 394.92474365234375,
+        "z": -316.4291076660156
+      },
+      "questIds": [
+        "2930"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-142696-900088",
+      "objectId": "142696",
+      "name": "Matrix Punchograph 3005-D",
+      "category": "quest-object",
+      "x": 43.3909,
+      "y": 87.5884,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -842.56201171875,
+        "y": 369.6822814941406,
+        "z": -316.8731384277344
+      },
+      "questIds": [
+        "2930"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-142696-900089",
+      "objectId": "142696",
+      "name": "Matrix Punchograph 3005-D",
+      "category": "quest-object",
+      "x": 40.1952,
+      "y": 89.6014,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -857.8609619140625,
+        "y": 399.91302490234375,
+        "z": -316.4231262207031
+      },
+      "questIds": [
+        "2930"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-175084-900097",
+      "objectId": "175084",
+      "name": "The Sparklematic 5200",
+      "category": "quest-object",
+      "x": 60.6778,
+      "y": 49.0978,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -550.0333862304688,
+        "y": 206.1480255126953,
+        "z": -193.7225799560547
+      },
+      "questIds": [
+        "4601",
+        "4605"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "object-175085-900098",
+      "objectId": "175085",
+      "name": "The Sparklematic 5200",
+      "category": "quest-object",
+      "x": 62.8992,
+      "y": 42.1109,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -496.9324645996094,
+        "y": 185.13385009765625,
+        "z": -193.709716796875
+      },
+      "questIds": [
+        "4602",
+        "4606"
+      ],
+      "verification": "classic-derived",
+      "placementEvidence": "client-layout",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ]
+    },
+    {
+      "id": "entrance-90",
+      "name": "Instance entrance",
+      "category": "entrance",
+      "x": 82.8076,
+      "y": 20.0276,
+      "floor": "main",
+      "world": {
+        "map": 90,
+        "x": -329.1,
+        "y": -3.2,
+        "z": null
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "published-entrance-section",
+      "note": "Inside the instance, at the arrival point.",
+      "sources": [
+        "fdb-map"
+      ]
+    }
+  ],
+  "sources": {
+    "fdb-map": {
+      "name": "ForeverDB map and projection",
+      "url": "https://foreverdb.net/dungeon/90-gnomeregan"
+    },
+    "classic-sql": {
+      "name": "Classic spawn and chest pool data",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/090_gnomeregan.sql"
+    },
+    "classic-snapshot": {
+      "name": "Classic database snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "classic-event": {
+      "name": "Classic Grubbis event script",
+      "url": "https://github.com/cmangos/mangos-classic/blob/master/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/gnomeregan/gnomeregan.cpp"
+    }
+  },
+  "license": "GPL-3.0 for Classic reference data; Blizzard map art is separate."
+}

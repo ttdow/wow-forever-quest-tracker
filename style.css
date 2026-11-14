@@ -100,6 +100,11 @@ tr.completed { background: #1b261e; }
 .map-wrap { position: relative; border-top: 1px solid #344237; }
 #zone-map { height: clamp(420px, 68vh, 760px); width: 100%; background: #101512; font-family: inherit; isolation: isolate; }
 .zone-map-art { filter: brightness(.78) saturate(.85); }
+.zone-map-art-dungeon { filter: none; }
+.map-floor-matches { display: flex; flex-wrap: wrap; gap: 8px; padding: 4px 20px 8px; }
+.map-floor-matches button { border: 1px solid #405046; border-radius: 5px; padding: 6px 10px; color: #b7dfc0; background: #101512; font-size: 11px; cursor: pointer; }
+#map-floor-control { min-width: 0; }
+#map-floor-control select { width: 100%; }
 .map-message { position: absolute; z-index: 500; top: 12px; left: 50%; transform: translateX(-50%); max-width: calc(100% - 110px); margin: 0; padding: 10px 14px; border: 1px solid #405046; border-radius: 5px; color: #dce6dd; background: #171e19; text-align: center; font-size: 12px; pointer-events: none; }
 #map-coordinates { position: absolute; z-index: 500; bottom: 12px; left: 12px; padding: 5px 9px; border: 1px solid #405046; border-radius: 4px; background: #101512e8; color: #dce6dd; font-size: 11px; font-variant-numeric: tabular-nums; pointer-events: none; }
 .map-footer { flex-wrap: wrap; align-items: baseline; }
@@ -153,5 +158,6 @@ tr.completed { background: #1b261e; }
   .drop-item, .drop-stats, .drop-evidence { grid-column: 1 / -1; }
   .panel-footer { padding: 12px 14px; font-size: 10px; }
   .map-layers { padding: 12px 14px 8px; gap: 10px 14px; }.map-note { padding: 4px 14px 12px; line-height: 1.6; }
+  #map-panel .filters { flex-wrap: wrap; }#map-floor-control { flex: 1 1 100%; }
   #zone-map { height: 65vh; min-height: 390px; }.map-footer { gap: 8px; }
 }

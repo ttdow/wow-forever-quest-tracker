@@ -11,7 +11,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
 - Filter completed / not completed quests, or sort by level, name, or area.
 - In dungeon lists, switch between **Quests** and **Drops**. Each boss with recorded equipment has a card with an expandable loot table. Drops have item names, required levels, base stats/effects, and source evidence, with search, source filtering, and an optional Rogue filter.
-- In **Desolace**, choose **Map** for chest spawns, footlockers, quest givers, rares, and quest objects. Pan, zoom, filter layers, search, and open markers for coordinates and quest links.
+- In **Desolace** or **Gnomeregan**, choose **Map** for chest spawns, NPCs, and quest objects. Pan, zoom, filter layers, search, and open markers for coordinates and quest links. Gnomeregan has separate map sections.
 
 Progress saves automatically in this browser's local storage. It survives closing the page and restarting the browser, but does not sync across browsers or devices. Clearing site data removes progress. Private browsing saves last only for that private session. Each quest is tracked by its ID, including shared IDs across zones.
 
@@ -98,7 +98,11 @@ Drops load separately when requested; a failed drop-data request does not block 
 
 Research sources and limits are documented in [the research notes](data/research.md). The JSON remains the maintained data source; no fetch/conversion tooling or Node runtime is needed to host the app.
 
-## Desolace map
+## Maps
+
+Desolace and Gnomeregan have a Map view. Maps load independently, use local background images, and preserve quest completion history.
+
+### Desolace
 
 Open **Desolace → Map**, or use [the direct map link](https://ttdow.github.io/wow-forever-quest-tracker/#zone=Desolace&view=map).
 
@@ -108,8 +112,22 @@ Each layer has its own checkbox and count. Search accepts names, quest names, ID
 
 Drag or use arrow keys to pan; use the mouse wheel or zoom buttons to zoom. **Fit map** restores the full zone. The coordinate readout follows the pointer, and **Copy coords** copies a selected marker's coordinates. If clipboard access is unavailable, the coordinates are selected for manual copying. Map filters and viewport persist while switching views during the current page session. Map interactions do not write to quest completion storage.
 
-`data/maps/desolace.json` is the maintained map dataset. It contains the map dimensions and image path, marker records, and optional source metadata. Add a location to its `points` array to show another marker of an existing category. Each point needs a unique string `id`, `name`, supported `category`, and numeric `x` and `y` between 0 and 100. `npcId`/`objectId` identify the game entity; `questIds` link to existing quests. Original world coordinates and research provenance are retained where available. Missing or unfamiliar source/evidence labels cannot prevent the map from loading.
+`data/maps/desolace.json` is the maintained Desolace dataset. It contains the map dimensions and image path, marker records, and optional source metadata. Add a location to its `points` array to show another marker of an existing category. Each point needs a unique string `id`, `name`, supported `category`, and numeric `x` and `y` between 0 and 100. `npcId`/`objectId` identify the game entity; `questIds` link to existing quests. Original world coordinates and research provenance are retained where available. Missing or unfamiliar source/evidence labels cannot prevent the map from loading.
 
 The map data loads only when requested, independently of dungeon drops. Retry refetches data and recreates a failed image/map. Leaving the view during loading cannot reopen it unexpectedly. Invalid map data does not stop the Quests view from working.
 
 The 1002 × 668 explored background is stored at `assets/maps/desolace.webp`, with Blizzard and ForeverDB attribution on the page. Map art and data licensing are separate. Classic reference data is derived from CMaNGOS under [GPL-3.0](research/desolace-map/LICENSE-GPL-3.0.txt). [Leaflet 1.9.4](https://leafletjs.com/) is included locally under its [BSD 2-Clause license](vendor/leaflet/LICENSE); the site needs no runtime CDN, map service, or API key. See the [map research report](research/desolace-map/README.md) and [source inventory](research/desolace-map/sources.json) for coverage and evidence limits.
+
+### Gnomeregan
+
+Open **Gnomeregan → Map**, or use [the direct map link](https://ttdow.github.io/wow-forever-quest-tracker/#zone=Gnomeregan&view=map).
+
+The map contains 38 entries across **Main layout** (26) and **Upper platforms** (12): 6 possible chest positions, 5 bosses, Dark Iron Ambassador, 10 possible Kernobee pickup positions, Blastmaster Emi Shortfuse, 14 Sparklematic/Matrix Punchograph positions, and the instance arrival point. Kernobee is one NPC with alternative pickup positions. The two client map sections are not a claim that Gnomeregan has only two physical floors. Locations are Classic references on Forever client minimap art.
+
+Each chest position can produce either **Large Iron Bound Chest (74447)** or **Large Solid Chest (74448)** in the Classic database. One marker represents the position; its popup lists both alternatives. Chest pool rows are resolved through `gameobject_spawn_entry`, so zero-ID spawn records are not lost. No Forever spawn rate, active chest count, or lockpicking requirement is inferred.
+
+Use **Map section** to switch layouts. Layer counts refer to the selected section. Searching also checks the other section and offers a button for matching results there. Each section keeps its own pan/zoom state, and each zone keeps its own filters during the current page session. Links can select a section directly, such as `#zone=Gnomeregan&view=map&floor=upper`. Boss popups link to the dungeon's Drops view; tracked quest links open and expand the matching quest.
+
+`data/maps/gnomeregan.json` is the maintained dataset. Its `floors` array contains section IDs, names, image paths, dimensions, and source projection metadata. Every point includes a matching `floor` ID and coordinates relative to that image. The single-map Desolace format remains supported. The shared renderer validates and caches each zone separately; a malformed or unavailable dungeon map cannot block another map, quests, or drops. Optional provenance labels remain nonblocking.
+
+Techbot and Matrix Punchograph A are outside the instance and are not placed on the interior map. Ordinary trash and the many Artificial Extrapolator pickup points are outside this initial map's scope. See the [Gnomeregan map research](research/gnomeregan-map/README.md) and [source inventory](research/gnomeregan-map/sources.json) for coordinate transforms, placement evidence, and coverage limits.
