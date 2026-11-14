@@ -239,6 +239,9 @@ function render() {
   rows.replaceChildren(fragment);
   if (focusedID) rows.querySelector(`${focusedType}[data-id="${focusedID}"]`)?.focus({ preventScroll: true });
   $('#empty').hidden = visible.length > 0 || !state.loaded;
+  $('#empty').textContent = dungeon && !zoneQuests.length
+    ? 'No Alliance or Rogue quests recorded for this dungeon.'
+    : 'No quests match your filters.';
   $('#result-count').textContent = `${visible.length} of ${zoneQuests.length} quests`;
 }
 
@@ -267,6 +270,7 @@ $('#zones').addEventListener('click', event => {
   if (button) {
     state.zone = button.dataset.zone;
     if (!isDungeon(state.zone)) state.view = 'quests';
+    else if (!state.quests.some(quest => quest.zone === state.zone)) state.view = 'drops';
     history.pushState({ zone: state.zone, view: state.view }, '', state.view === 'drops' ? dropsHash(state.zone) : location.pathname + location.search);
     render();
   }
@@ -308,7 +312,7 @@ try {
     $('#error').hidden = false;
   }
   if (!revealHashRoute()) {
-    if (state.quests.some(quest => quest.zone === history.state?.zone)) state.zone = history.state.zone;
+    if (isDungeon(history.state?.zone) || state.quests.some(quest => quest.zone === history.state?.zone)) state.zone = history.state.zone;
     state.view = history.state?.view === 'drops' && isDungeon(state.zone) ? 'drops' : 'quests';
     history.replaceState({ zone: state.zone, view: state.view }, '', location.href);
     render();
@@ -346,7 +350,7 @@ window.addEventListener('hashchange', () => {
 });
 window.addEventListener('popstate', () => {
   if (!state.loaded || revealHashRoute()) return;
-  if (state.quests.some(quest => quest.zone === history.state?.zone)) state.zone = history.state.zone;
+  if (isDungeon(history.state?.zone) || state.quests.some(quest => quest.zone === history.state?.zone)) state.zone = history.state.zone;
   state.view = history.state?.view === 'drops' && isDungeon(state.zone) ? 'drops' : 'quests';
   render();
 });

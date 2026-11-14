@@ -4,7 +4,7 @@ Static HTML, CSS, and JavaScript. No installation, server, dependencies, or buil
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Firefox or another modern browser.
 
-- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, or The City of Dalaran.
+- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Scarlet Monastery Graveyard, or Scarlet Monastery Library.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
@@ -27,7 +27,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 434 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 442 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
@@ -43,8 +43,11 @@ The browser loads all 434 quest entries directly from `data/quests.json`. This J
 - Gnomeregan: 21 quests, including introductions, the ring upgrade follow-up, and the distinct Sparklematic machine/step IDs
 - Excavation Site: Wetlands: 13 Alliance quests, including four Greenwarden prerequisites for Horrors in the Highland and four return/delivery follow-ups; player-reported requirements and observed sequence links are labeled
 - The City of Dalaran: 6 Alliance quests, including Modera's introduction and follow-up; Horde-only quests, including Opportunistic Education, are excluded
+- Razorfen Kraul: 5 quests, including the Lonebrow's Journal introduction; Blueleaf Tubers links to the observed earlier Raptor Horns step in Wailing Caverns
+- Scarlet Monastery Graveyard: no verified Alliance or Rogue quests; opens on Drops, with a concise empty Quests view
+- Scarlet Monastery Library: 3 quests, including Past Due; In the Name of the Light links to Desolace prerequisites and explicitly requires Library, Armory, and Cathedral
 
-The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 423 unique quest IDs across 434 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, and Seeking Caitlin by Ashenvale and Excavation Site: Wetlands. Their completion status is shared automatically.
+The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 431 unique quest IDs across 442 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, and Seeking Caitlin by Ashenvale and Excavation Site: Wetlands. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
@@ -76,11 +79,13 @@ Ashenvale was audited again on November 13, 2026 against its full zone index, Qu
 
 Shen'dralas and Feralas were researched on November 13, 2026 using current ForeverChanges quest pages, Questie's generated data and player traces, ForeverDB's zone/quest records, and a second zone dataset. Current Shen'dralas listings resolve older faction conflicts; observed handoffs remain separate from confirmed prerequisites. Feralas's Classic-reference details and newer updates retain their source provenance.
 
+Razorfen Kraul and the Graveyard/Library wings of Scarlet Monastery were researched on November 13, 2026 using ForeverDB quest/client records, current ForeverChanges quest pages, explicit boss sources in Wowhead Forever item tooltips, and the All The Things Forever database. Rare bosses are included. The separate wing tabs share Scarlet Monastery instance ID 189, with wing-specific loot lists.
+
 The site must be served over HTTP or HTTPS so the browser can load the JSON file. Opening `index.html` directly from disk is not supported.
 
 ## Dungeon drops
 
-`data/drops.json` contains 131 boss-specific equipment entries: 31 for Deadmines, 21 for Wailing Caverns, 21 for Blackfathom Deeps, 9 for The Stockades, 16 for Gnomeregan, 9 for Excavation Site: Wetlands, and 24 for The City of Dalaran. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats.
+`data/drops.json` contains 179 boss-specific equipment entries: 31 for Deadmines, 21 for Wailing Caverns, 21 for Blackfathom Deeps, 9 for The Stockades, 16 for Gnomeregan, 9 for Excavation Site: Wetlands, 24 for The City of Dalaran, 23 for Razorfen Kraul, 15 for Scarlet Monastery Graveyard, and 10 for Scarlet Monastery Library. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats.
 
 Boss cards start collapsed and show their matching item counts. Multiple cards can be expanded at once. Open cards are remembered for each dungeon during the current page session. Searching or choosing a specific source opens matching cards. Named rare bosses are included; ordinary trash sources and equipment without a confirmed boss source are excluded.
 

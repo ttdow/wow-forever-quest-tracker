@@ -3163,6 +3163,1293 @@
           ]
         }
       ]
+    },
+    "Razorfen Kraul": {
+      "id": 47,
+      "source": "https://foreverdb.net/dungeon/47-razorfen-kraul",
+      "build": "1.60.1.70938",
+      "items": [
+        {
+          "id": "274155",
+          "name": "Geomancer Headdress",
+          "quality": 3,
+          "requiredLevel": 25,
+          "itemLevel": 30,
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "84 Armor",
+            "+14 Spirit",
+            "+13 Healing Power",
+            "+4 Spell Damage"
+          ],
+          "source": "Roogug",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274155",
+            "https://nether.wowhead.com/forever/tooltip/item/274155",
+            "https://foreverdb.net/item/274155",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "274152",
+          "name": "Roogug's Severed Head",
+          "quality": 3,
+          "requiredLevel": 25,
+          "itemLevel": 30,
+          "slot": "Trinket",
+          "type": "Accessory",
+          "stats": [
+            "+6 Spirit",
+            "Use: Raise the severed head of Roogug, Horrifying and Silencing all Swine within 15 yds for 5 sec."
+          ],
+          "source": "Roogug",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274152",
+            "https://nether.wowhead.com/forever/tooltip/item/274152",
+            "https://foreverdb.net/item/274152",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "274149",
+          "name": "Thornweaver Drape",
+          "quality": 3,
+          "requiredLevel": 25,
+          "itemLevel": 30,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "24 Armor",
+            "+7 Spell Power",
+            "+6 Spirit"
+          ],
+          "source": "Roogug",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274149",
+            "https://nether.wowhead.com/forever/tooltip/item/274149",
+            "https://foreverdb.net/item/274149",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "274158",
+          "name": "Death Prophet Spine",
+          "quality": 3,
+          "requiredLevel": 26,
+          "itemLevel": 31,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "57–86 damage · 2.80s · 25.5 DPS",
+            "+5 Mana per 5 sec",
+            "+11 Stamina"
+          ],
+          "source": "Aggem Thorncurse",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274158",
+            "https://nether.wowhead.com/forever/tooltip/item/274158",
+            "https://foreverdb.net/item/274158",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "274159",
+          "name": "Thorncursed Grips",
+          "quality": 3,
+          "requiredLevel": 27,
+          "itemLevel": 33,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "68 Armor",
+            "+18 Attack Power",
+            "Equip: Your melee weapon attacks deal 2 Nature damage to both you and your target."
+          ],
+          "source": "Aggem Thorncurse",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274159",
+            "https://nether.wowhead.com/forever/tooltip/item/274159",
+            "https://foreverdb.net/item/274159",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6681",
+          "name": "Thornspike",
+          "quality": 3,
+          "requiredLevel": 27,
+          "itemLevel": 32,
+          "slot": "One-hand",
+          "type": "Dagger",
+          "stats": [
+            "24–46 damage · 1.70s · 20.6 DPS",
+            "Chance on hit: Hurl spikes at the target, dealing 45 Physical damage and jumping to 1 additional nearby enemy. Each jump reduces the damage by 50%."
+          ],
+          "source": "Aggem Thorncurse",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6681",
+            "https://nether.wowhead.com/forever/tooltip/item/6681",
+            "https://foreverdb.net/item/6681",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6682",
+          "name": "Death Speaker Robes",
+          "quality": 3,
+          "requiredLevel": 26,
+          "itemLevel": 31,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "48 Armor",
+            "+4 Stamina",
+            "+11 Intellect",
+            "+20 Healing Power",
+            "+7 Spell Damage"
+          ],
+          "source": "Death Speaker Jargba",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6682",
+            "https://nether.wowhead.com/forever/tooltip/item/6682",
+            "https://foreverdb.net/item/6682",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6685",
+          "name": "Death Speaker Mantle",
+          "quality": 3,
+          "requiredLevel": 27,
+          "itemLevel": 32,
+          "slot": "Shoulders",
+          "type": "Cloth",
+          "stats": [
+            "37 Armor",
+            "+11 Intellect",
+            "+6 Spell Power"
+          ],
+          "source": "Death Speaker Jargba",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6685",
+            "https://nether.wowhead.com/forever/tooltip/item/6685",
+            "https://foreverdb.net/item/6685",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "2816",
+          "name": "Death Speaker Scepter",
+          "quality": 3,
+          "requiredLevel": 28,
+          "itemLevel": 33,
+          "slot": "Main hand",
+          "type": "Mace",
+          "stats": [
+            "42–78 damage · 2.80s · 21.4 DPS",
+            "+12 Health per 5 sec",
+            "+68 Healing Power",
+            "+28 Shadow Damage Done"
+          ],
+          "source": "Death Speaker Jargba",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=2816",
+            "https://nether.wowhead.com/forever/tooltip/item/2816",
+            "https://foreverdb.net/item/2816",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6687",
+          "name": "Corpsemaker",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Two-hand",
+          "type": "Two-hand axe",
+          "stats": [
+            "88–132 damage · 3.80s · 28.9 DPS",
+            "+15 Strength",
+            "+8 Stamina"
+          ],
+          "source": "Overlord Ramtusk",
+          "sourceOrder": 4,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6687",
+            "https://nether.wowhead.com/forever/tooltip/item/6687",
+            "https://foreverdb.net/item/6687",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "274161",
+          "name": "Quillord Mail Leggings",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "202 Armor",
+            "+11 Stamina",
+            "+8 Spirit",
+            "+10 Block"
+          ],
+          "source": "Overlord Ramtusk",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274161",
+            "https://nether.wowhead.com/forever/tooltip/item/274161",
+            "https://foreverdb.net/item/274161",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6686",
+          "name": "Tusken Helm",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Head",
+          "type": "Mail",
+          "stats": [
+            "308 Armor",
+            "120 Block",
+            "+13 Strength"
+          ],
+          "source": "Overlord Ramtusk",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6686",
+            "https://nether.wowhead.com/forever/tooltip/item/6686",
+            "https://foreverdb.net/item/6686",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6690",
+          "name": "Ferine Leggings",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "96 Armor",
+            "+26 Attack Power",
+            "+12 Intellect"
+          ],
+          "source": "Agathelos the Raging",
+          "sourceOrder": 5,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6690",
+            "https://nether.wowhead.com/forever/tooltip/item/6690",
+            "https://foreverdb.net/item/6690",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6691",
+          "name": "Swinetusk Shank",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Main hand",
+          "type": "Dagger",
+          "stats": [
+            "24–45 damage · 1.50s · 23.0 DPS",
+            "+6 Stamina",
+            "+4 Spirit"
+          ],
+          "source": "Agathelos the Raging",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6691",
+            "https://nether.wowhead.com/forever/tooltip/item/6691",
+            "https://foreverdb.net/item/6691",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "274160",
+          "name": "Quilrager Throwing Axe",
+          "quality": 3,
+          "requiredLevel": 31,
+          "itemLevel": 36,
+          "slot": "Thrown",
+          "type": "Thrown",
+          "stats": [
+            "27–51 damage · 1.80s · 21.7 DPS",
+            "40 Armor",
+            "40 Block",
+            "+4 Strength"
+          ],
+          "source": "Agathelos the Raging",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274160",
+            "https://nether.wowhead.com/forever/tooltip/item/274160",
+            "https://foreverdb.net/item/274160",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6693",
+          "name": "Agamaggan's Clutch",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [
+            "+6 Spirit",
+            "+5 Stamina",
+            "Equip: Increases movement speed by 3% in The Barrens, Thousand Needles, Razorfen Kraul, and Razorfen Downs."
+          ],
+          "source": "Charlga Razorflank",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6693",
+            "https://nether.wowhead.com/forever/tooltip/item/6693",
+            "https://foreverdb.net/item/6693",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6694",
+          "name": "Heart of Agamaggan",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Off-hand",
+          "type": "Shield",
+          "stats": [
+            "757 Armor",
+            "+15 Healing Power",
+            "+7 Stamina",
+            "+5 Spell Damage"
+          ],
+          "source": "Charlga Razorflank",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6694",
+            "https://nether.wowhead.com/forever/tooltip/item/6694",
+            "https://foreverdb.net/item/6694",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6692",
+          "name": "Pronged Reaver",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "One-hand",
+          "type": "Axe",
+          "stats": [
+            "38–72 damage · 2.40s · 22.9 DPS",
+            "+5 Spirit",
+            "+5 Strength"
+          ],
+          "source": "Charlga Razorflank",
+          "sourceOrder": 6,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6692",
+            "https://nether.wowhead.com/forever/tooltip/item/6692",
+            "https://foreverdb.net/item/6692",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6688",
+          "name": "Whisperwind Headdress",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "89 Armor",
+            "+7 Spell Power",
+            "+11 Stamina",
+            "+11 Spirit"
+          ],
+          "source": "Earthcaller Halmgar",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6688",
+            "https://nether.wowhead.com/forever/tooltip/item/6688",
+            "https://foreverdb.net/item/6688",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6689",
+          "name": "Wind Spirit Staff",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "76–115 damage · 3.30s · 28.9 DPS",
+            "+16 Spirit",
+            "+6 Stamina"
+          ],
+          "source": "Earthcaller Halmgar",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6689",
+            "https://nether.wowhead.com/forever/tooltip/item/6689",
+            "https://foreverdb.net/item/6689",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6697",
+          "name": "Batwing Mantle",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Shoulders",
+          "type": "Cloth",
+          "stats": [
+            "38 Armor",
+            "+6 Spell Power",
+            "+11 Intellect",
+            "+3 Agility"
+          ],
+          "source": "Blind Hunter",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6697",
+            "https://nether.wowhead.com/forever/tooltip/item/6697",
+            "https://foreverdb.net/item/6697",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6696",
+          "name": "Nightstalker Bow",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Ranged",
+          "type": "Bow",
+          "stats": [
+            "20–38 damage · 1.70s · 17.1 DPS",
+            "+3 Agility",
+            "+5 Shadow Resistance"
+          ],
+          "source": "Blind Hunter",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6696",
+            "https://nether.wowhead.com/forever/tooltip/item/6696",
+            "https://foreverdb.net/item/6696",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        },
+        {
+          "id": "6695",
+          "name": "Stygian Bone Amulet",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Neck",
+          "type": "Accessory",
+          "stats": [
+            "+12 Spell Damage Vs Undead",
+            "+4 Stamina",
+            "+5 Spell Power"
+          ],
+          "source": "Blind Hunter",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=6695",
+            "https://nether.wowhead.com/forever/tooltip/item/6695",
+            "https://foreverdb.net/item/6695",
+            "https://foreverdb.net/dungeon/47-razorfen-kraul",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+          ]
+        }
+      ]
+    },
+    "Scarlet Monastery Graveyard": {
+      "id": 189,
+      "source": "https://foreverdb.net/dungeon/189-scarlet-monastery",
+      "build": "1.60.1.70938",
+      "items": [
+        {
+          "id": "7683",
+          "name": "Bloody Brass Knuckles",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "One-hand",
+          "type": "Fist weapon",
+          "stats": [
+            "24–46 damage · 1.60s · 21.9 DPS",
+            "+15 Attack Power Vs Humanoid",
+            "+12 Attack Power"
+          ],
+          "source": "Interrogator Vishas",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7683",
+            "https://nether.wowhead.com/forever/tooltip/item/7683",
+            "https://foreverdb.net/item/7683",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "274290",
+          "name": "Painwalker Buckler",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "Off-hand",
+          "type": "Shield",
+          "stats": [
+            "738 Armor",
+            "+13 Healing Power",
+            "+6 Stamina",
+            "+5 Spell Damage",
+            "Equip: 17% chance when struck in combat to gain 12 mana per 5 sec for 10 sec."
+          ],
+          "source": "Interrogator Vishas",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274290",
+            "https://nether.wowhead.com/forever/tooltip/item/274290",
+            "https://foreverdb.net/item/274290",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7682",
+          "name": "Torturing Poker",
+          "quality": 3,
+          "requiredLevel": 29,
+          "itemLevel": 34,
+          "slot": "One-hand",
+          "type": "Dagger",
+          "stats": [
+            "26–49 damage · 1.70s · 22.1 DPS",
+            "Equip: Melee attacks with this weapon torture the target, dealing 1 Fire damage and increasing your damage dealt to that target with this effect by 1, stacking up to 10 times."
+          ],
+          "source": "Interrogator Vishas",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7682",
+            "https://nether.wowhead.com/forever/tooltip/item/7682",
+            "https://foreverdb.net/item/7682",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7684",
+          "name": "Bloodmage Mantle",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Shoulders",
+          "type": "Cloth",
+          "stats": [
+            "38 Armor",
+            "+9 Spell Power",
+            "+9 Health per 5 sec",
+            "+9 Intellect"
+          ],
+          "source": "Bloodmage Thalnos",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7684",
+            "https://nether.wowhead.com/forever/tooltip/item/7684",
+            "https://foreverdb.net/item/7684",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "274291",
+          "name": "Polished Skullcap",
+          "quality": 3,
+          "requiredLevel": 31,
+          "itemLevel": 36,
+          "slot": "Head",
+          "type": "Mail",
+          "stats": [
+            "193 Armor",
+            "+8 Stamina",
+            "+7 Strength",
+            "+14 Shadow Resistance"
+          ],
+          "source": "Bloodmage Thalnos",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274291",
+            "https://nether.wowhead.com/forever/tooltip/item/274291",
+            "https://foreverdb.net/item/274291",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7685",
+          "name": "Orb of the Forgotten Seer",
+          "quality": 3,
+          "requiredLevel": 32,
+          "itemLevel": 37,
+          "slot": "Held in off-hand",
+          "type": "Accessory",
+          "stats": [
+            "+14 Spell Power"
+          ],
+          "source": "Bloodmage Thalnos",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7685",
+            "https://nether.wowhead.com/forever/tooltip/item/7685",
+            "https://foreverdb.net/item/7685",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7690",
+          "name": "Ebon Vise",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "70 Armor",
+            "+4 Strength",
+            "+6 Agility",
+            "+8 Stamina"
+          ],
+          "source": "Fallen Champion",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7690",
+            "https://nether.wowhead.com/forever/tooltip/item/7690",
+            "https://foreverdb.net/item/7690",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7691",
+          "name": "Embalmed Shroud",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "42 Armor",
+            "+12 Spirit",
+            "+7 Stamina",
+            "+24 Healing Power",
+            "+8 Spell Damage"
+          ],
+          "source": "Fallen Champion",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7691",
+            "https://nether.wowhead.com/forever/tooltip/item/7691",
+            "https://foreverdb.net/item/7691",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7689",
+          "name": "Morbid Dawn",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Two-hand",
+          "type": "Two-hand sword",
+          "stats": [
+            "70–105 damage · 2.90s · 30.2 DPS",
+            "+15 Stamina",
+            "+10 Strength"
+          ],
+          "source": "Fallen Champion",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7689",
+            "https://nether.wowhead.com/forever/tooltip/item/7689",
+            "https://foreverdb.net/item/7689",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7709",
+          "name": "Blighted Leggings",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "45 Armor",
+            "+14 Spirit",
+            "+19 Shadow Damage Done"
+          ],
+          "source": "Azshir the Sleepless",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7709",
+            "https://nether.wowhead.com/forever/tooltip/item/7709",
+            "https://foreverdb.net/item/7709",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7731",
+          "name": "Ghostshard Talisman",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Neck",
+          "type": "Accessory",
+          "stats": [
+            "+9 Stamina",
+            "+12 Attack Power Vs Undead",
+            "+14 Attack Power"
+          ],
+          "source": "Azshir the Sleepless",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7731",
+            "https://nether.wowhead.com/forever/tooltip/item/7731",
+            "https://foreverdb.net/item/7731",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7708",
+          "name": "Necrotic Wand",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "32–61 Shadow damage · 1.40s · 33.2 DPS",
+            "+9 Healing Power",
+            "+3 Spell Damage",
+            "+4 Shadow Resistance"
+          ],
+          "source": "Azshir the Sleepless",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7708",
+            "https://nether.wowhead.com/forever/tooltip/item/7708",
+            "https://foreverdb.net/item/7708",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7686",
+          "name": "Ironspine's Eye",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [
+            "+9 Agility",
+            "+4 Strength"
+          ],
+          "source": "Ironspine",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7686",
+            "https://nether.wowhead.com/forever/tooltip/item/7686",
+            "https://foreverdb.net/item/7686",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7687",
+          "name": "Ironspine's Fist",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "One-hand",
+          "type": "Mace",
+          "stats": [
+            "38–72 damage · 2.40s · 22.9 DPS",
+            "+7 Strength"
+          ],
+          "source": "Ironspine",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7687",
+            "https://nether.wowhead.com/forever/tooltip/item/7687",
+            "https://foreverdb.net/item/7687",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7688",
+          "name": "Ironspine's Ribcage",
+          "quality": 3,
+          "requiredLevel": 30,
+          "itemLevel": 35,
+          "slot": "Chest",
+          "type": "Mail",
+          "stats": [
+            "235 Armor",
+            "+17 Stamina",
+            "+6 Strength",
+            "+3 Agility"
+          ],
+          "source": "Ironspine",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7688",
+            "https://nether.wowhead.com/forever/tooltip/item/7688",
+            "https://foreverdb.net/item/7688",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        }
+      ],
+      "wing": "Graveyard"
+    },
+    "Scarlet Monastery Library": {
+      "id": 189,
+      "source": "https://foreverdb.net/dungeon/189-scarlet-monastery",
+      "build": "1.60.1.70938",
+      "items": [
+        {
+          "id": "3456",
+          "name": "Dog Whistle",
+          "quality": 3,
+          "requiredLevel": 25,
+          "itemLevel": 30,
+          "slot": "Trinket",
+          "type": "Accessory",
+          "stats": [
+            "+5 Shadow Resistance",
+            "Use: Summons a tracking hound that will protect you for 3 min."
+          ],
+          "source": "Houndmaster Loksey",
+          "sourceOrder": 1,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=3456",
+            "https://nether.wowhead.com/forever/tooltip/item/3456",
+            "https://foreverdb.net/item/3456",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7756",
+          "name": "Dog Training Gloves",
+          "quality": 3,
+          "requiredLevel": 31,
+          "itemLevel": 36,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "71 Armor",
+            "+24 Attack Power",
+            "+21 Attack Power Vs Beast"
+          ],
+          "source": "Houndmaster Loksey",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7756",
+            "https://nether.wowhead.com/forever/tooltip/item/7756",
+            "https://foreverdb.net/item/7756",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "274292",
+          "name": "Houndmaster Boomerang",
+          "quality": 3,
+          "requiredLevel": 31,
+          "itemLevel": 36,
+          "slot": "Thrown",
+          "type": "Thrown",
+          "stats": [
+            "27–51 damage · 1.80s · 21.7 DPS",
+            "+4 Stamina",
+            "+4 Attack Power",
+            "+9 Attack Power Vs Beast"
+          ],
+          "source": "Houndmaster Loksey",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274292",
+            "https://nether.wowhead.com/forever/tooltip/item/274292",
+            "https://foreverdb.net/item/274292",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7710",
+          "name": "Loksey's Training Stick",
+          "quality": 3,
+          "requiredLevel": 31,
+          "itemLevel": 36,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "77–117 damage · 3.10s · 31.3 DPS",
+            "+28 Attack Power",
+            "Chance on hit: Discipline the target, dealing 91 Physical damage. Canines and Hyenas are Stunned and sit for 3 sec."
+          ],
+          "source": "Houndmaster Loksey",
+          "sourceOrder": 1,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7710",
+            "https://nether.wowhead.com/forever/tooltip/item/7710",
+            "https://foreverdb.net/item/7710",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7714",
+          "name": "Hypnotic Blade",
+          "quality": 3,
+          "requiredLevel": 34,
+          "itemLevel": 39,
+          "slot": "Main hand",
+          "type": "Dagger",
+          "stats": [
+            "26–49 damage · 1.40s · 26.8 DPS",
+            "+8 Intellect",
+            "+3 Spirit"
+          ],
+          "source": "Arcanist Doan",
+          "sourceOrder": 2,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7714",
+            "https://nether.wowhead.com/forever/tooltip/item/7714",
+            "https://foreverdb.net/item/7714",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7713",
+          "name": "Illusionary Rod",
+          "quality": 3,
+          "requiredLevel": 34,
+          "itemLevel": 39,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "94–142 damage · 3.40s · 34.7 DPS",
+            "+6 Intellect",
+            "+7 Spirit",
+            "+10 Stamina",
+            "+14 Critical Strike"
+          ],
+          "source": "Arcanist Doan",
+          "sourceOrder": 2,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7713",
+            "https://nether.wowhead.com/forever/tooltip/item/7713",
+            "https://foreverdb.net/item/7713",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "274294",
+          "name": "Library Walkers",
+          "quality": 2,
+          "requiredLevel": 34,
+          "itemLevel": 39,
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "35 Armor",
+            "+9 Intellect",
+            "+13 Healing Power",
+            "+5 Spell Damage"
+          ],
+          "source": "Arcanist Doan",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274294",
+            "https://nether.wowhead.com/forever/tooltip/item/274294",
+            "https://foreverdb.net/item/274294",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7712",
+          "name": "Mantle of Doan",
+          "quality": 2,
+          "requiredLevel": 34,
+          "itemLevel": 39,
+          "slot": "Shoulders",
+          "type": "Cloth",
+          "stats": [
+            "39 Armor",
+            "+6 Intellect",
+            "+8 Spirit",
+            "+7 Spell Power"
+          ],
+          "source": "Arcanist Doan",
+          "sourceOrder": 2,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7712",
+            "https://nether.wowhead.com/forever/tooltip/item/7712",
+            "https://foreverdb.net/item/7712",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7711",
+          "name": "Robe of Doan",
+          "quality": 2,
+          "requiredLevel": 34,
+          "itemLevel": 39,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "52 Armor",
+            "+4 Stamina",
+            "+8 Spirit",
+            "+16 Fire Damage Done"
+          ],
+          "source": "Arcanist Doan",
+          "sourceOrder": 2,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7711",
+            "https://nether.wowhead.com/forever/tooltip/item/7711",
+            "https://foreverdb.net/item/7711",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "274293",
+          "name": "Spellsever Crossbow",
+          "quality": 3,
+          "requiredLevel": 34,
+          "itemLevel": 39,
+          "slot": "Ranged",
+          "type": "Crossbow",
+          "stats": [
+            "40–60 damage · 2.40s · 20.8 DPS",
+            "+8 Attack Power",
+            "Chance on hit: Launch a magic severing bolt at the target, dealing 36 Physical damage and interrupting the spell being cast for 5 sec."
+          ],
+          "source": "Arcanist Doan",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "client",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274293",
+            "https://nether.wowhead.com/forever/tooltip/item/274293",
+            "https://foreverdb.net/item/274293",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        }
+      ],
+      "wing": "Library"
     }
   }
 }

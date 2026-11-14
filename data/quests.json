@@ -11610,5 +11610,265 @@
         "relation": "Offered after"
       }
     ]
+  },
+  {
+    "id": "1100",
+    "zone": "Razorfen Kraul",
+    "level": 34,
+    "name": "Lonebrow's Journal",
+    "stage": "Introduction",
+    "giver": "Henrig Lonebrow's Journal (item)",
+    "coordinates": "30.7, 24.3",
+    "area": "Great Lift (Thousand Needles)",
+    "objective": "Read the journal found on Henrig Lonebrow near the Great Lift, then take it to Falfindel Waywarder in Thalanaar (Feralas).",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 29; Item-started introduction; Great Lift pickup coordinates are a Classic reference shown on the Forever map",
+    "sources": [
+      "https://foreverdb.net/quest/1100",
+      "https://foreverchanges.pro/quest/1100",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "minimumLevel": "classic",
+      "objective": "forever",
+      "giver": "classic",
+      "pickupLocation": "foreverchanges",
+      "faction": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1101",
+    "zone": "Razorfen Kraul",
+    "level": 34,
+    "name": "The Crone of the Kraul",
+    "stage": "",
+    "giver": "Falfindel Waywarder",
+    "coordinates": "89.7, 46.5",
+    "area": "Thalanaar (Feralas)",
+    "objective": "Defeat Charlga Razorflank in Razorfen Kraul and bring Razorflank's Medallion to Falfindel Waywarder in Thalanaar.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 29",
+    "sources": [
+      "https://foreverdb.net/quest/1101",
+      "https://foreverchanges.pro/quest/1101",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever",
+      "faction": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "1100",
+        "name": "Lonebrow's Journal",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1101"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1142",
+    "zone": "Razorfen Kraul",
+    "level": 30,
+    "name": "Mortality Wanes",
+    "stage": "",
+    "giver": "Heralath Fallowbrook",
+    "coordinates": "",
+    "area": "Inside Razorfen Kraul",
+    "objective": "Find Treshala's Pendant in Razorfen Kraul and return it to Treshala Fallowbrook in Darnassus.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 25; Pickup is inside the instance; No outdoor map coordinates recorded",
+    "sources": [
+      "https://foreverdb.net/quest/1142",
+      "https://foreverchanges.pro/quest/1142",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1144",
+    "zone": "Razorfen Kraul",
+    "level": 30,
+    "name": "Willix the Importer",
+    "stage": "",
+    "giver": "Willix the Importer",
+    "coordinates": "",
+    "area": "Inside Razorfen Kraul",
+    "objective": "Escort Willix the Importer out of Razorfen Kraul.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral; No class restriction; Minimum level 23; Pickup is inside the instance; No outdoor map coordinates recorded",
+    "sources": [
+      "https://foreverdb.net/quest/1144",
+      "https://foreverchanges.pro/quest/1144",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1221",
+    "zone": "Razorfen Kraul",
+    "level": 26,
+    "name": "Blueleaf Tubers",
+    "stage": "",
+    "giver": "Mebok Mizzyrix",
+    "coordinates": "62.4, 37.7",
+    "area": "Ratchet (The Barrens)",
+    "objective": "Take a Crate with Holes and a Snufflenose Command Stick, and read the owner's manual. Use the gopher in Razorfen Kraul to find 6 Blueleaf Tubers. Return the tubers, crate, and stick to Mebok Mizzyrix.",
+    "areaConfidence": "High",
+    "notes": "Neutral; No class restriction; Minimum level 20",
+    "sources": [
+      "https://foreverdb.net/quest/1221",
+      "https://foreverchanges.pro/quest/1221",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/razorfen%20kraul.lua"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "minimumLevel": "classic",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever",
+      "faction": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "865",
+        "name": "Raptor Horns",
+        "evidence": "forever",
+        "sources": [
+          "https://foreverdb.net/quest/1221"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "1050",
+    "zone": "Scarlet Monastery Library",
+    "level": 38,
+    "name": "Mythology of the Titans",
+    "stage": "",
+    "giver": "Librarian Mae Paledust",
+    "coordinates": "74.9, 12.3",
+    "area": "Ironforge",
+    "objective": "Retrieve Mythology of the Titans from the Scarlet Monastery Library and bring it to Librarian Mae Paledust in Ironforge.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 28",
+    "sources": [
+      "https://foreverdb.net/quest/1050",
+      "https://foreverchanges.pro/quest/1050",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "minimumLevel": "classic",
+      "objective": "forever",
+      "giver": "forever",
+      "pickupLocation": "forever",
+      "faction": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1053",
+    "zone": "Scarlet Monastery Library",
+    "level": 40,
+    "name": "In the Name of the Light",
+    "stage": "Library, Armory and Cathedral",
+    "giver": "Raleigh the Devout",
+    "coordinates": "51.5, 58.4",
+    "area": "Southshore (Hillsbrad Foothills)",
+    "objective": "Kill Houndmaster Loksey (Library), Herod (Armory), and High Inquisitor Whitemane and Scarlet Commander Mograine (Cathedral). Return to Raleigh the Devout in Southshore.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 34; Completion spans Library, Armory, and Cathedral; Classic-reference details",
+    "sources": [
+      "https://foreverdb.net/quest/1053",
+      "https://foreverchanges.pro/quest/1053",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1052",
+        "name": "Down the Scarlet Path",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1053"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96800",
+    "zone": "Scarlet Monastery Library",
+    "level": 38,
+    "name": "Past Due",
+    "stage": "",
+    "giver": "Magus Olvek",
+    "coordinates": "9.8, 63.0",
+    "area": "Alterac Mountains",
+    "objective": "Retrieve The Lost Magic of the Runemasters from the Scarlet Monastery Library for Magus Olvek. Arcanist Doan borrowed the book from the old Dalaran library.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction; Minimum level 30; Alliance faction, giver, location and minimum level confirmed on current ForeverChanges page; Exact book source not assumed",
+    "sources": [
+      "https://foreverdb.net/quest/96800",
+      "https://foreverchanges.pro/quest/96800",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+    ],
+    "evidence": {
+      "quest": "forever",
+      "level": "forever",
+      "minimumLevel": "foreverchanges",
+      "objective": "forever",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
   }
 ]
