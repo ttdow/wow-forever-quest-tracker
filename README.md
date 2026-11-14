@@ -11,7 +11,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
 - Filter completed / not completed quests, or sort by level, name, or area.
 - In dungeon lists, switch between **Quests** and **Drops**. Each boss with recorded equipment has a card with an expandable loot table. Drops have item names, required levels, base stats/effects, and source evidence, with search, source filtering, and an optional Rogue filter.
-- In **Desolace** or **Gnomeregan**, choose **Map** for chest spawns, NPCs, and quest objects. Pan, zoom, filter layers, search, and open markers for coordinates and quest links. Gnomeregan has separate map sections.
+- In **Desolace**, **Gnomeregan**, or **The City of Dalaran**, choose **Map** for researched location references. Pan, zoom, filter layers, search, and open markers for coordinates and quest/drop links. Gnomeregan has separate map sections; Dalaran currently has six community boss-guide markers.
 
 Progress saves automatically in this browser's local storage. It survives closing the page and restarting the browser, but does not sync across browsers or devices. Clearing site data removes progress. Private browsing saves last only for that private session. Each quest is tracked by its ID, including shared IDs across zones.
 
@@ -100,7 +100,7 @@ Research sources and limits are documented in [the research notes](data/research
 
 ## Maps
 
-Desolace and Gnomeregan have a Map view. Maps load independently, use local background images, and preserve quest completion history.
+Desolace, Gnomeregan, and The City of Dalaran have a Map view. Maps load independently, use local background images, and preserve quest completion history.
 
 ### Desolace
 
@@ -131,3 +131,13 @@ Use **Map section** to switch layouts. Layer counts refer to the selected sectio
 `data/maps/gnomeregan.json` is the maintained dataset. Its `floors` array contains section IDs, names, image paths, dimensions, and source projection metadata. Every point includes a matching `floor` ID and coordinates relative to that image. The single-map Desolace format remains supported. The shared renderer validates and caches each zone separately; a malformed or unavailable dungeon map cannot block another map, quests, or drops. Optional provenance labels remain nonblocking.
 
 Techbot and Matrix Punchograph A are outside the instance and are not placed on the interior map. Ordinary trash and the many Artificial Extrapolator pickup points are outside this initial map's scope. See the [Gnomeregan map research](research/gnomeregan-map/README.md) and [source inventory](research/gnomeregan-map/sources.json) for coordinate transforms, placement evidence, and coverage limits.
+
+### The City of Dalaran
+
+Open **The City of Dalaran → Map**, or use [the direct map link](https://ttdow.github.io/wow-forever-quest-tracker/#zone=The%20City%20of%20Dalaran&view=map).
+
+The map uses a matching community-published city layout and six boss-guide markers: Arcane Anomaly, Fel Ancient, Mana Devourer, Arcanic Enigma, Unstable Sentinel, and Shade of the Archmage access. Each marker is labeled **Community map reference**; none is classified as a measured Forever spawn or a Classic reference. Coordinates are percentages of the guide image. The Mana Elemental alias finds Arcanic Enigma; its quest link opens Power Overwhelming. Shade's marker describes access through the Violet Citadel portal to the Purple Parlor and links Heart of Disruption.
+
+Chest positions, sewer encounters Atrexis/Lyn, Mana Wraith, and interior quest-giver locations remain unmapped because no compatible position evidence was obtained. The on-page notice makes the chest/sewer gap explicit. No placeholder points or outdoor Dalaran coordinates are added to the dungeon. Boss popups link the existing Drops view, while all other map controls work as in the other lists.
+
+`data/maps/city-of-dalaran.json` is the maintained dataset. The local 600 × 620 image is `assets/maps/city-of-dalaran.webp`. Blizzard/Azeroth DB attribution and source terms are separate from the Classic datasets' GPL license. See the [Dalaran map research](research/city-of-dalaran-map/README.md) and [source inventory](research/city-of-dalaran-map/sources.json) for the original normalized pins, identity verification, and coverage limits.

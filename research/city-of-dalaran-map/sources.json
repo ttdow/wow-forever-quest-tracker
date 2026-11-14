@@ -1,0 +1,101 @@
+{
+  "researched": "2026-11-14",
+  "dungeonId": 2959,
+  "areaId": 16544,
+  "referenceGuide": "https://azeroth.wiki/forever/dungeons/city-of-dalaran",
+  "referenceImage": "https://azeroth.wiki/assets/forever/dungeon-maps/03d7bc6d79edc125bc6aed0bd522c91acaf0763c61050d894dd7fb761812e7b1.webp",
+  "imageSha256": "03d7bc6d79edc125bc6aed0bd522c91acaf0763c61050d894dd7fb761812e7b1",
+  "referenceImageSize": [
+    600,
+    620
+  ],
+  "guideHtmlSha256": "11c98126fd5a87ed5811213ad4a69e16305ecd93c0246344968f7b694be22775",
+  "sourceTerms": "https://azeroth.wiki/terms",
+  "sourcePins": [
+    {
+      "u": 0.725,
+      "v": 0.7628,
+      "icon": "/assets/forever/dungeon-maps/21f8ce044b94040e2268b37fa74282d87d468fb34131e58b417001671ed2a267.webp",
+      "name": "Arcane Anomaly",
+      "role": "Level 30",
+      "href": "/forever/dungeons/city-of-dalaran/arcane-anomaly"
+    },
+    {
+      "u": 0.4962,
+      "v": 0.1384,
+      "icon": "/assets/forever/dungeon-maps/21f8ce044b94040e2268b37fa74282d87d468fb34131e58b417001671ed2a267.webp",
+      "name": "Shade of the Archmage",
+      "role": "Level 33",
+      "href": "/forever/dungeons/city-of-dalaran/shade-of-the-archmage"
+    },
+    {
+      "u": 0.579,
+      "v": 0.487,
+      "icon": "/assets/forever/dungeon-maps/21f8ce044b94040e2268b37fa74282d87d468fb34131e58b417001671ed2a267.webp",
+      "name": "Fel Ancient",
+      "role": "Level 32",
+      "href": "/forever/dungeons/city-of-dalaran/fel-ancient"
+    },
+    {
+      "u": 0.656,
+      "v": 0.2908,
+      "icon": "/assets/forever/dungeon-maps/21f8ce044b94040e2268b37fa74282d87d468fb34131e58b417001671ed2a267.webp",
+      "name": "Unstable Sentinel",
+      "role": "Level 31",
+      "href": "/forever/dungeons/city-of-dalaran/unstable-sentinel"
+    },
+    {
+      "u": 0.7777,
+      "v": 0.3386,
+      "icon": "/assets/forever/dungeon-maps/21f8ce044b94040e2268b37fa74282d87d468fb34131e58b417001671ed2a267.webp",
+      "name": "Mana Elemental",
+      "role": "Level 30 Elite Elemental",
+      "href": "/forever/dungeons/city-of-dalaran/mana-elemental"
+    },
+    {
+      "u": 0.5217,
+      "v": 0.735,
+      "icon": "/assets/forever/dungeon-maps/21f8ce044b94040e2268b37fa74282d87d468fb34131e58b417001671ed2a267.webp",
+      "name": "Mana Devourer",
+      "role": "Level 31",
+      "href": "/forever/dungeons/city-of-dalaran/mana-devourer"
+    }
+  ],
+  "npcIdentityTooltips": {
+    "245999": {
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/245999",
+      "name": "Arcane Anomaly"
+    },
+    "246003": {
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/246003",
+      "name": "Fel Ancient"
+    },
+    "246008": {
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/246008",
+      "name": "Mana Devourer"
+    },
+    "246016": {
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/246016",
+      "name": "Arcanic Enigma"
+    },
+    "246017": {
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/246017",
+      "name": "Unstable Sentinel"
+    },
+    "246020": {
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/246020",
+      "name": "Shade of the Archmage"
+    }
+  },
+  "otherSources": [
+    {
+      "url": "https://foreverdb.net/data/dungeons/2959.json",
+      "build": "1.60.1.70938",
+      "finding": "Two broad client minimap composites, but no bossSpots or entranceSpot. Not used to infer positions."
+    },
+    {
+      "url": "https://theforeverera.com/en/dungeons/city-of-dalaran/",
+      "finding": "States that boss position data is not yet available."
+    }
+  ]
+}

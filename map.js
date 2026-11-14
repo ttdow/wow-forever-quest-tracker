@@ -18,6 +18,7 @@ const categories = {
 const zones = {
   Desolace: { file: 'desolace', guide: 'https://foreverdb.net/maps/1443', report: 'desolace-map' },
   Gnomeregan: { file: 'gnomeregan', guide: 'https://foreverdb.net/dungeon/90-gnomeregan', report: 'gnomeregan-map' },
+  'The City of Dalaran': { file: 'city-of-dalaran', guide: 'https://azeroth.wiki/forever/dungeons/city-of-dalaran', report: 'city-of-dalaran-map', provider: 'Azeroth DB', terms: 'https://azeroth.wiki/terms' },
 };
 const dataCache = new Map();
 const pending = new Map();
@@ -168,6 +169,7 @@ function pointPosition(point) {
 function referenceText(point) {
   if (point.verification === 'forever-confirmed') return 'Forever confirmed';
   if (point.verification === 'classic-derived') return 'Classic reference';
+  if (point.verification === 'community-reference') return 'Community map reference';
   return 'Unverified reference';
 }
 
@@ -266,7 +268,8 @@ function render() {
     const names = questIDs.map(id => state.context.quests?.find(quest => quest.id === id)?.name || '');
     const variants = Array.isArray(point.variants) ? point.variants.map(variant => variant?.name || '') : [];
     const objectIDs = Array.isArray(point.objectIds) ? point.objectIds : [];
-    return !query || [point.name, point.npcId, point.objectId, ...objectIDs, ...variants, point.x, point.y, `${point.x}, ${point.y}`, ...questIDs, ...names].join(' ').toLocaleLowerCase().includes(query);
+    const aliases = Array.isArray(point.aliases) ? point.aliases.filter(alias => typeof alias === 'string') : [];
+    return !query || [point.name, ...aliases, point.npcId, point.objectId, ...objectIDs, ...variants, point.x, point.y, `${point.x}, ${point.y}`, ...questIDs, ...names].join(' ').toLocaleLowerCase().includes(query);
   });
   const points = matching.filter(point => point.floor === state.floor.id);
   state.map.closePopup();
@@ -363,6 +366,9 @@ async function show(zone, context = {}) {
     $('#zone-map').setAttribute('aria-label', `${zone} locations. Use arrow keys to pan and plus or minus to zoom.`);
     $('#map-note').textContent = typeof data.note === 'string' ? data.note : 'Classic reference locations. Spawns may differ in Forever. Dashed markers are extra candidates.';
     $('#map-guide').href = zones[zone].guide;
+    $('#map-guide').textContent = zones[zone].provider || 'ForeverDB';
+    $('#map-data-license').href = zones[zone].terms || './research/desolace-map/LICENSE-GPL-3.0.txt';
+    $('#map-data-license').textContent = zones[zone].terms ? 'Source terms' : 'Data license';
     $('#map-sources').href = `./research/${zones[zone].report}/README.md`;
     $('#map-floor-control').hidden = data.floors.length < 2;
     $('#map-floor').replaceChildren(...data.floors.map(floor => {

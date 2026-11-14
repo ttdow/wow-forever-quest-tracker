@@ -1,0 +1,187 @@
+{
+  "zone": "The City of Dalaran",
+  "updated": "2026-11-14",
+  "map": {
+    "appearance": "dungeon",
+    "image": "./assets/maps/city-of-dalaran.webp",
+    "width": 600,
+    "height": 620,
+    "source": "https://azeroth.wiki/forever/dungeons/city-of-dalaran",
+    "attribution": "World of Warcraft © Blizzard Entertainment; map reference: Azeroth DB",
+    "coordinateSystem": "guide-image"
+  },
+  "note": "Community guide positions; coordinates refer to this image. Chest and sewer locations are not yet mapped.",
+  "points": [
+    {
+      "id": "npc-245999",
+      "name": "Arcane Anomaly",
+      "npcId": "245999",
+      "category": "boss",
+      "x": 72.5,
+      "y": 76.28,
+      "verification": "community-reference",
+      "placementEvidence": "Published guide-image marker; not a measured world spawn",
+      "drops": true,
+      "sources": [
+        "azeroth-map",
+        "azeroth-245999",
+        "wowhead-245999"
+      ]
+    },
+    {
+      "id": "npc-246020",
+      "name": "Shade of the Archmage",
+      "npcId": "246020",
+      "category": "boss",
+      "x": 49.62,
+      "y": 13.84,
+      "verification": "community-reference",
+      "placementEvidence": "Published guide-image marker; not a measured world spawn",
+      "drops": true,
+      "sources": [
+        "azeroth-map",
+        "azeroth-246020",
+        "wowhead-246020"
+      ],
+      "questIds": [
+        "92458"
+      ],
+      "note": "Access via the Violet Citadel portal. The encounter takes place in the Purple Parlor; this marker shows its guide access location."
+    },
+    {
+      "id": "npc-246003",
+      "name": "Fel Ancient",
+      "npcId": "246003",
+      "category": "boss",
+      "x": 57.9,
+      "y": 48.7,
+      "verification": "community-reference",
+      "placementEvidence": "Published guide-image marker; not a measured world spawn",
+      "drops": true,
+      "sources": [
+        "azeroth-map",
+        "azeroth-246003",
+        "wowhead-246003"
+      ]
+    },
+    {
+      "id": "npc-246017",
+      "name": "Unstable Sentinel",
+      "npcId": "246017",
+      "category": "boss",
+      "x": 65.6,
+      "y": 29.08,
+      "verification": "community-reference",
+      "placementEvidence": "Published guide-image marker; not a measured world spawn",
+      "drops": true,
+      "sources": [
+        "azeroth-map",
+        "azeroth-246017",
+        "wowhead-246017"
+      ]
+    },
+    {
+      "id": "npc-246016",
+      "name": "Arcanic Enigma",
+      "npcId": "246016",
+      "category": "boss",
+      "x": 77.77,
+      "y": 33.86,
+      "verification": "community-reference",
+      "placementEvidence": "Published guide-image marker; not a measured world spawn",
+      "drops": true,
+      "sources": [
+        "azeroth-map",
+        "azeroth-246016",
+        "wowhead-246016"
+      ],
+      "aliases": [
+        "Mana Elemental"
+      ],
+      "questIds": [
+        "92489"
+      ],
+      "note": "Listed as Mana Elemental on the source map; quest target for Power Overwhelming."
+    },
+    {
+      "id": "npc-246008",
+      "name": "Mana Devourer",
+      "npcId": "246008",
+      "category": "boss",
+      "x": 52.17,
+      "y": 73.5,
+      "verification": "community-reference",
+      "placementEvidence": "Published guide-image marker; not a measured world spawn",
+      "drops": true,
+      "sources": [
+        "azeroth-map",
+        "azeroth-246008",
+        "wowhead-246008"
+      ]
+    }
+  ],
+  "sources": {
+    "azeroth-map": {
+      "name": "Azeroth DB dungeon map",
+      "url": "https://azeroth.wiki/forever/dungeons/city-of-dalaran"
+    },
+    "azeroth-245999": {
+      "name": "Boss guide",
+      "url": "https://azeroth.wiki/forever/dungeons/city-of-dalaran/arcane-anomaly"
+    },
+    "wowhead-245999": {
+      "name": "NPC identity reference",
+      "url": "https://www.wowhead.com/forever/npc=245999"
+    },
+    "azeroth-246020": {
+      "name": "Boss guide",
+      "url": "https://azeroth.wiki/forever/dungeons/city-of-dalaran/shade-of-the-archmage"
+    },
+    "wowhead-246020": {
+      "name": "NPC identity reference",
+      "url": "https://www.wowhead.com/forever/npc=246020"
+    },
+    "azeroth-246003": {
+      "name": "Boss guide",
+      "url": "https://azeroth.wiki/forever/dungeons/city-of-dalaran/fel-ancient"
+    },
+    "wowhead-246003": {
+      "name": "NPC identity reference",
+      "url": "https://www.wowhead.com/forever/npc=246003"
+    },
+    "azeroth-246017": {
+      "name": "Boss guide",
+      "url": "https://azeroth.wiki/forever/dungeons/city-of-dalaran/unstable-sentinel"
+    },
+    "wowhead-246017": {
+      "name": "NPC identity reference",
+      "url": "https://www.wowhead.com/forever/npc=246017"
+    },
+    "azeroth-246016": {
+      "name": "Boss guide",
+      "url": "https://azeroth.wiki/forever/dungeons/city-of-dalaran/mana-elemental"
+    },
+    "wowhead-246016": {
+      "name": "NPC identity reference",
+      "url": "https://www.wowhead.com/forever/npc=246016"
+    },
+    "azeroth-246008": {
+      "name": "Boss guide",
+      "url": "https://azeroth.wiki/forever/dungeons/city-of-dalaran/mana-devourer"
+    },
+    "wowhead-246008": {
+      "name": "NPC identity reference",
+      "url": "https://www.wowhead.com/forever/npc=246008"
+    }
+  },
+  "coverage": {
+    "unmappedBosses": [
+      "Atrexis the Grave Knight",
+      "Lyn the Ignored",
+      "Mana Wraith"
+    ],
+    "chests": "No verified chest position data obtained",
+    "npcQuestGivers": "No verified interior quest-giver positions obtained"
+  },
+  "license": "Community guide reference facts; see source terms. Blizzard game artwork retains its copyright."
+}
