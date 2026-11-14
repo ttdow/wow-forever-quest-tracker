@@ -14,6 +14,7 @@ const categories = {
   boss: { label: 'Bosses', symbol: '◆', color: '#f19595' },
   npc: { label: 'NPCs', symbol: '●', color: '#a6d7ed' },
   entrance: { label: 'Entrance', symbol: '↪', color: '#e3e7df' },
+  landmark: { label: 'Areas', symbol: '●', color: '#a6d7ed' },
 };
 const zones = {
   Desolace: { file: 'desolace', guide: 'https://foreverdb.net/maps/1443', report: 'desolace-map' },
@@ -22,6 +23,11 @@ const zones = {
     file: 'city-of-dalaran', guide: 'https://azeroth.wiki/forever/dungeons/city-of-dalaran', report: 'city-of-dalaran-map',
     provider: 'Azeroth DB', terms: 'https://azeroth.wiki/terms',
     sections: { sewers: { guide: 'https://www.wowhead.com/wotlk/zone=4395/dalaran', provider: 'Wowhead', terms: 'https://www.wowhead.com/terms-of-service' } },
+  },
+  'The Drowned City': {
+    file: 'drowned-city', report: 'drowned-city-map', provider: 'Santiago Reyes (Reddit)',
+    guide: 'https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fqa4u9u3del1i1.jpeg',
+    terms: 'https://redditinc.com/policies/user-agreement',
   },
 };
 const dataCache = new Map();

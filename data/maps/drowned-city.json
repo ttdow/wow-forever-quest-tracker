@@ -1,0 +1,109 @@
+{
+  "zone": "The Drowned City",
+  "updated": "2026-11-14",
+  "map": {
+    "appearance": "dungeon",
+    "image": "./assets/maps/drowned-city.jpg",
+    "width": 3000,
+    "height": 2000,
+    "source": "https://i.redd.it/qa4u9u3del1i1.jpeg",
+    "attribution": "Map recreation by Santiago Reyes, 2026 — Atlas de Azeroth: Forever. World of Warcraft © Blizzard Entertainment.",
+    "coordinateSystem": "guide-image"
+  },
+  "note": "Fan map by Santiago Reyes. Markers show the entrance and named areas; boss and chest positions are not yet mapped.",
+  "points": [
+    {
+      "id": "entrance-sunken-hollow",
+      "name": "Sunken Hollow entrance",
+      "category": "entrance",
+      "x": 84.33,
+      "y": 52.25,
+      "verification": "community-reference",
+      "placementEvidence": "Position read from the supplied fan map; image reference only, not measured game coordinates.",
+      "note": "Entrance cave and portal symbol shown on the source map; Sunken Hollow is identified as the entrance location by the dungeon guide.",
+      "sources": [
+        "reddit-map",
+        "dungeon-guide"
+      ]
+    },
+    {
+      "id": "area-altar-of-the-serpent",
+      "name": "Altar of the Serpent",
+      "category": "landmark",
+      "x": 55.83,
+      "y": 26.0,
+      "verification": "community-reference",
+      "placementEvidence": "Position read from the supplied fan map; image reference only, not measured game coordinates.",
+      "note": "Named area on the fan map; marker indicates the area, not a boss spawn.",
+      "sources": [
+        "reddit-map"
+      ]
+    },
+    {
+      "id": "area-eternal-amphitheater",
+      "name": "Eternal Amphitheater",
+      "category": "landmark",
+      "x": 27.33,
+      "y": 54.0,
+      "verification": "community-reference",
+      "placementEvidence": "Position read from the supplied fan map; image reference only, not measured game coordinates.",
+      "note": "Named area on the fan map; marker indicates the area, not a boss spawn.",
+      "sources": [
+        "reddit-map"
+      ]
+    },
+    {
+      "id": "area-abyssal-dais",
+      "name": "Abyssal Dais",
+      "category": "landmark",
+      "x": 18.0,
+      "y": 54.0,
+      "verification": "community-reference",
+      "placementEvidence": "Position read from the supplied fan map; image reference only, not measured game coordinates.",
+      "note": "Named area on the fan map; marker indicates the area, not a boss spawn.",
+      "sources": [
+        "reddit-map"
+      ]
+    },
+    {
+      "id": "area-deep-archives",
+      "name": "Deep Archives",
+      "category": "landmark",
+      "x": 51.33,
+      "y": 71.5,
+      "verification": "community-reference",
+      "placementEvidence": "Position read from the supplied fan map; image reference only, not measured game coordinates.",
+      "note": "Named area on the fan map; marker indicates the area, not a quest-object or boss spawn.",
+      "sources": [
+        "reddit-map"
+      ]
+    }
+  ],
+  "sources": {
+    "reddit-map": {
+      "name": "Santiago Reyes map (Reddit)",
+      "url": "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fi-have-created-all-the-dungeon-maps-for-phase-1-of-world-of-v0-qa4u9u3del1i1.jpeg%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3D0dcd0975ad7a9ac76764293f9c6e91bf36c12328"
+    },
+    "original-image": {
+      "name": "Original map image",
+      "url": "https://i.redd.it/qa4u9u3del1i1.jpeg"
+    },
+    "dungeon-guide": {
+      "name": "ForeverChanges dungeon guide",
+      "url": "https://foreverchanges.pro/dungeons/the-drowned-city"
+    }
+  },
+  "coverage": {
+    "entrance": "Sunken Hollow entrance shown on the supplied fan map; dungeon guide corroborates the cave name.",
+    "areas": [
+      "Altar of the Serpent",
+      "Eternal Amphitheater",
+      "Abyssal Dais",
+      "Deep Archives"
+    ],
+    "bosses": "No supported boss positions plotted. Area names alone do not establish boss locations.",
+    "chests": "No supported chest positions plotted.",
+    "questObjects": "Tablet route descriptions are known, but compatible image positions have not been established."
+  },
+  "license": "Fan recreation credited to Santiago Reyes / Atlas de Azeroth: Forever. Original credit retained. No open redistribution license established; no GPL claim is made for this artwork or marker interpretations."
+}

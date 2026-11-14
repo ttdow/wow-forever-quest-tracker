@@ -1,0 +1,76 @@
+{
+  "researched": "2026-11-14",
+  "dungeonId": 2970,
+  "areaId": 16550,
+  "userSuppliedSource": "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fi-have-created-all-the-dungeon-maps-for-phase-1-of-world-of-v0-qa4u9u3del1i1.jpeg%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3D0dcd0975ad7a9ac76764293f9c6e91bf36c12328",
+  "originalImage": "https://i.redd.it/qa4u9u3del1i1.jpeg",
+  "imageSha256": "b2a4b50d8f000b00c71ed7afeca7a4acd15bf5b4a0618ee2dc4d5d5dceb7102f",
+  "imageSize": [
+    3000,
+    2000
+  ],
+  "attribution": "Recreation created by: Santiago Reyes — 2026 — Atlas de Azeroth: Forever (credit visible in original image).",
+  "imageHandling": "Original JPG copied byte-for-byte. No cropping, resizing, repainting, or recompression.",
+  "placementMethod": "Markers interpreted from map symbols and named structures. Pixel positions divided by image width/height to produce percentages. These are image positions, not in-game or /way coordinates.",
+  "markerPixels": [
+    {
+      "id": "entrance-sunken-hollow",
+      "name": "Sunken Hollow entrance",
+      "x": 2530,
+      "y": 1045
+    },
+    {
+      "id": "area-altar-of-the-serpent",
+      "name": "Altar of the Serpent",
+      "x": 1675,
+      "y": 520
+    },
+    {
+      "id": "area-eternal-amphitheater",
+      "name": "Eternal Amphitheater",
+      "x": 820,
+      "y": 1080
+    },
+    {
+      "id": "area-abyssal-dais",
+      "name": "Abyssal Dais",
+      "x": 540,
+      "y": 1080
+    },
+    {
+      "id": "area-deep-archives",
+      "name": "Deep Archives",
+      "x": 1540,
+      "y": 1430
+    }
+  ],
+  "checks": [
+    {
+      "url": "https://foreverchanges.pro/dungeons/the-drowned-city",
+      "sha256": "83136e85dbce6ddc1fc0281f58890a921f714d447d9b0f2477b268cd8628dfe4",
+      "finding": "Names Sunken Hollow as the entrance cave. Has background/story screenshots and tablet/boss descriptions, but no interior map-position records."
+    },
+    {
+      "url": "https://theforeverera.com/en/dungeons/the-drowned-city/",
+      "finding": "States the client does not include a dungeon map yet; does not rule out independently created fan maps."
+    },
+    {
+      "url": "https://foreverdb.net/data/dungeons/2970.json",
+      "finding": "404 on research date."
+    },
+    {
+      "url": "https://wow.zamimg.com/images/wow/maps/enus/original/16550-1.jpg",
+      "finding": "404 on research date."
+    },
+    {
+      "url": "https://www.reddit.com/search.json?q=url%3Aqa4u9u3del1i1&limit=5",
+      "finding": "403; creator attribution is read from the original image itself rather than an inaccessible post profile."
+    }
+  ],
+  "limits": [
+    "No map scale, rotation calibration, world-coordinate conversion, or measured spawn positions established.",
+    "No boss/chest/quest-object markers inferred from area names.",
+    "External attunement NPCs and faction quest-givers are not projected onto this interior map."
+  ],
+  "sourceTerms": "https://redditinc.com/policies/user-agreement"
+}
