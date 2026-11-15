@@ -1,0 +1,2253 @@
+{
+  "audited": "2026-11-14",
+  "scope": "All 25 published rows and all five visible columns; 23 fish identities rechecked.",
+  "limits": [
+    "Audit complete does not mean every field is confirmed on the Forever server. Exact Forever skill thresholds remain unverified.",
+    "Classic loot and pool guides corroborate catch locations and habitat for all 22 Classic fish; Whimsyfin uses a Forever community guide.",
+    "ForeverDB Fishing Bobber source records aggregate observations and expose a representative location. Their counts are not counts at that one location and do not establish all catch locations.",
+    "Riverglades is absent from the current published fishing-zone dataset. Trout and Greater Sagefish source records expose Stranglethorn locations, which do not verify or disprove Riverglades catches.",
+    "Special catches here are restricted freshwater oases/dungeon waters or Whimsyfin pools; Sagefish rows identify their schools explicitly."
+  ],
+  "rows": [
+    {
+      "rowId": "6291-reference",
+      "itemId": "6291",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Brilliant Smallfish",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/6291"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/19.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 1857,
+            "src": "forever",
+            "m": 1454,
+            "x": 69.9,
+            "y": 35.2
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "forever-community-guide",
+        "value": "Teldrassil (Lake Al'Ameth), Elwynn Forest (Crystal Lake)",
+        "source": "https://www.wow-professions.com/forever/fishing-and-cooking-leveling-guide"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "freshwater",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Freshwater: Darkshore Darnassus Dun Morogh Durotar Duskwood Elwynn Forest Loch Modan Mulgore Orgrimmar Silverpine Forest Stormwind City Tanaris Teldrassil The Barrens Thunder Bluff Tirisfal Glades Undercity Westfall",
+      "classicLootChecks": [
+        {
+          "areaId": 141,
+          "skillAreaId": 141,
+          "baseSkill": -70,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 141,
+                "item": 11000,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11000,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Zone Area: (1),(12),(141),(215),(367),(814),(2979),(3470),(3473),(3475),(3526),(3527),(3528)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11000,
+                "item": 6291,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Brilliant Smallfish"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 12,
+          "skillAreaId": 12,
+          "baseSkill": -70,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 12,
+                "item": 11000,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11000,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Zone Area: (1),(12),(141),(215),(367),(814),(2979),(3470),(3473),(3475),(3526),(3527),(3528)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11000,
+                "item": 6291,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Brilliant Smallfish"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 1,
+        "noFail": 25,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "6303-reference",
+      "itemId": "6303",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Slitherskin Mackerel",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/6303"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/31.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 329,
+            "src": "forever"
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Darkshore coast",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "ocean",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Saltwater: Darkshore Durotar Silverpine Forest Teldrassil Tirisfal Glades The Barrens Westfall",
+      "classicLootChecks": [
+        {
+          "areaId": 148,
+          "skillAreaId": 148,
+          "baseSkill": -20,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 148,
+                "item": 11104,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11104,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Darkshore (148)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11104,
+                "item": 6303,
+                "ChanceOrQuestChance": 18.5,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Slitherskin Mackerel"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 1,
+        "noFail": 75,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "6289-reference",
+      "itemId": "6289",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Longjaw Mud Snapper",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/6289"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/17.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 3703,
+            "src": "forever",
+            "m": 1456,
+            "x": 39.1,
+            "y": 61.6
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Stormwind canals, Loch Modan (The Loch)",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "freshwater",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Freshwater: Ashenvale Darkshore Darnassus Dun Morogh Durotar Duskwood Elwynn Forest Hillsbrad Foothills Loch Modan Mulgore Orgrimmar Redridge Mountains Silverpine Forest Stonetalon Mountains Stormwind City Teldrassil The Barrens Thunder Bluff Tirisfal Glades Undercity Westfall Wetlands",
+      "classicLootChecks": [
+        {
+          "areaId": 1519,
+          "skillAreaId": 1519,
+          "baseSkill": -20,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 1519,
+                "item": 11002,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11002,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Zone Area: (38),(40),(384),(815),(1156),(1519),(1537),(1581),(1637),(1638),(1657),(1701),(3479),(3489),(3496),(3506),(3507),(3508),(3515)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11002,
+                "item": 6289,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Longjaw Mud Snapper"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 1,
+        "noFail": 75,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "6317-reference",
+      "itemId": "6317",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Loch Frenzy",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/6317"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/45.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 38,
+            "src": "forever",
+            "m": 1432,
+            "x": 41.4,
+            "y": 38.9
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Loch Modan",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "freshwater",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Loch Modan",
+      "classicLootChecks": [
+        {
+          "areaId": 38,
+          "skillAreaId": 38,
+          "baseSkill": -20,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 38,
+                "item": 6317,
+                "ChanceOrQuestChance": 25.0,
+                "groupid": 0,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Loch Frenzy"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 1,
+        "noFail": 75,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "6361-reference",
+      "itemId": "6361",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Rainbow Fin Albacore",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/6361"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/25.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 456,
+            "src": "forever",
+            "m": 1436,
+            "x": 30.7,
+            "y": 84.7
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Darkshore coast, Westfall coast",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "ocean",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Saltwater: Ashenvale Darkshore Hillsbrad Foothills Silverpine Forest The Barrens Westfall Wetlands",
+      "classicLootChecks": [
+        {
+          "areaId": 148,
+          "skillAreaId": 148,
+          "baseSkill": -20,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 148,
+                "item": 11104,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11104,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Darkshore (148)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11104,
+                "item": 6361,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Rainbow Fin Albacore"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 1039,
+          "skillAreaId": 40,
+          "baseSkill": -20,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 1039,
+                "item": 11005,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11005,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Zone Area: (150),(271),(294),(295),(298),(299),(414),(1039),(2104),(2325),(2365),(2397),(2402)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11005,
+                "item": 6361,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Rainbow Fin Albacore"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 1,
+        "noFail": 75,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "6522-reference",
+      "itemId": "6522",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Deviate Fish",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/6522"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/58.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 279,
+            "src": "forever",
+            "m": 1413,
+            "x": 45.6,
+            "y": 22.8
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Barrens oases, Wailing Caverns",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "special",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "From School of Deviate Fish The Barrens – Oasis ( Deviate Fish Farming Guide )",
+      "classicLootChecks": [
+        {
+          "areaId": 386,
+          "skillAreaId": 17,
+          "baseSkill": -20,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 386,
+                "item": 11102,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11102,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - The Forgotten Pools (386) / Lushwater Oasis (387) / The Stagnant Oasis (388) / Wailing Caverns (718)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11102,
+                "item": 6522,
+                "ChanceOrQuestChance": 30.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Deviate Fish"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 387,
+          "skillAreaId": 17,
+          "baseSkill": -20,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 387,
+                "item": 11102,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11102,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - The Forgotten Pools (386) / Lushwater Oasis (387) / The Stagnant Oasis (388) / Wailing Caverns (718)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11102,
+                "item": 6522,
+                "ChanceOrQuestChance": 30.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Deviate Fish"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 388,
+          "skillAreaId": 17,
+          "baseSkill": -20,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 388,
+                "item": 11102,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11102,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - The Forgotten Pools (386) / Lushwater Oasis (387) / The Stagnant Oasis (388) / Wailing Caverns (718)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11102,
+                "item": 6522,
+                "ChanceOrQuestChance": 30.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Deviate Fish"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 718,
+          "skillAreaId": 718,
+          "baseSkill": -20,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 718,
+                "item": 11102,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11102,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - The Forgotten Pools (386) / Lushwater Oasis (387) / The Stagnant Oasis (388) / Wailing Caverns (718)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11102,
+                "item": 6522,
+                "ChanceOrQuestChance": 30.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Deviate Fish"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 1,
+        "noFail": 75,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "21071-reference",
+      "itemId": "21071",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Sagefish",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/21071"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/15.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 149,
+            "src": "forever",
+            "m": 1424,
+            "x": 55.3,
+            "y": 56.8
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Ashenvale, Hillsbrad Foothills (Sagefish Schools)",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "freshwater",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "From Sagefish School Freshwater: Ashenvale Hillsbrad Foothills Loch Modan Silverpine Forest Stonetalon Mountains (Mirkfallon Lake only)",
+      "classicLootChecks": [],
+      "classicSchoolCheck": {
+        "objectId": 180663,
+        "lootId": 17502,
+        "matchingPaths": [
+          [
+            {
+              "table": "gameobject_loot_template",
+              "entry": 17502,
+              "item": 21071,
+              "ChanceOrQuestChance": 85.0,
+              "groupid": 1,
+              "mincountOrRef": 1,
+              "maxcount": 1,
+              "condition_id": 0,
+              "comments": "Raw Sagefish"
+            }
+          ]
+        ],
+        "locationSource": "https://www.warcrafttavern.com/wow-classic/guides/fishing-pools/"
+      },
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 55,
+        "noFail": 150,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "251524-reference",
+      "itemId": "251524",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Whimsyfin",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/251524"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/4.json",
+        "records": [],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "forever-community-guide",
+        "value": "Redridge Mountains: river south of Stonewatch Keep and nearby murloc lake",
+        "source": "https://foreverchanges.pro/savory-whimsyfin-delight"
+      },
+      "waterType": {
+        "status": "forever-community-guide",
+        "value": "special",
+        "source": "https://foreverchanges.pro/savory-whimsyfin-delight"
+      },
+      "classicLootChecks": [],
+      "skills": {
+        "status": "minimum-unverified-no-fail-approximate-community-report",
+        "minimum": null,
+        "noFail": 150,
+        "approximate": true,
+        "source": "https://foreverchanges.pro/savory-whimsyfin-delight"
+      }
+    },
+    {
+      "rowId": "6308-reference",
+      "itemId": "6308",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Bristle Whisker Catfish",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/6308"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/36.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 1401,
+            "src": "forever",
+            "m": 1456,
+            "x": 39.1,
+            "y": 61.6
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Redridge Mountains, Wetlands",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "freshwater",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Freshwater: Alterac Mountains Arathi Highlands Ashenvale Darkshore Darnassus Desolace Durotar Duskwood Dustwallow Marsh Hillsbrad Foothills Orgrimmar Redridge Mountains Silverpine Forest Stormwind City Stranglethorn Vale Westfall Wetlands",
+      "classicLootChecks": [
+        {
+          "areaId": 44,
+          "skillAreaId": 44,
+          "baseSkill": 55,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 44,
+                "item": 11004,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11004,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Zone Area: (10),(11),(44),(267),(331),(406)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11004,
+                "item": 6308,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Bristle Whisker Catfish"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 11,
+          "skillAreaId": 11,
+          "baseSkill": 55,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 11,
+                "item": 11004,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11004,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Zone Area: (10),(11),(44),(267),(331),(406)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11004,
+                "item": 6308,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Bristle Whisker Catfish"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 55,
+        "noFail": 150,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "6362-reference",
+      "itemId": "6362",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Rockscale Cod",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/6362"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/26.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 83,
+            "src": "forever",
+            "m": 1434,
+            "x": 28.0,
+            "y": 76.3
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Stranglethorn Vale coast, Dustwallow Marsh coast",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "ocean",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Saltwater: Arathi Highlands Azshara Desolace Dustwallow Marsh Feralas Stranglethorn Vale Swamp of Sorrows Tanaris The Hinterlands",
+      "classicLootChecks": [
+        {
+          "areaId": 43,
+          "skillAreaId": 33,
+          "baseSkill": 130,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 43,
+                "item": 11007,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11007,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Zone Area: (35),(43),(104),(117),(122),(300),(301),(302),(311),(312),(327),(328),(513),(516),(517),(518),(598),(1577),(1578),(1739),(1797),(2079),(2324),(2339),(2403),(2405),(2406),(2408),(3357),(4047)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11007,
+                "item": 6362,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Rockscale Cod"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 518,
+          "skillAreaId": 15,
+          "baseSkill": 130,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 518,
+                "item": 11007,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11007,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Zone Area: (35),(43),(104),(117),(122),(300),(301),(302),(311),(312),(327),(328),(513),(516),(517),(518),(598),(1577),(1578),(1739),(1797),(2079),(2324),(2339),(2403),(2405),(2406),(2408),(3357),(4047)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11007,
+                "item": 6362,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Rockscale Cod"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 130,
+        "noFail": 225,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "8365-reference",
+      "itemId": "8365",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Mithril Head Trout",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/8365"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/45.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 23,
+            "src": "forever",
+            "m": 1434,
+            "x": 34.9,
+            "y": 10.3
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Dustwallow Marsh inland waters, Thousand Needles",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "freshwater",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Freshwater: Alterac Mountains Arathi Highlands Ashenvale Azshara Desolace Dustwallow Marsh Eastern Plaguelands Felwood Feralas Moonglade Stranglethorn Vale Swamp of Sorrows The Hinterlands Thousand Needles Un’Goro Crater Western Plaguelands",
+      "classicLootChecks": [
+        {
+          "areaId": 15,
+          "skillAreaId": 15,
+          "baseSkill": 130,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 15,
+                "item": 11006,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11006,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Swamp of Sorrows (8) / Dustwallow Marsh (15) / Stranglethorn Vale (33) / Alterac Mountains (36) / Arathi Highlands (45) / Thousand Needles (400) / Desolace (405) / Scarlet Monastery (796)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11006,
+                "item": 8365,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Mithril Head Trout"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 400,
+          "skillAreaId": 400,
+          "baseSkill": 130,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 400,
+                "item": 11006,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11006,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Swamp of Sorrows (8) / Dustwallow Marsh (15) / Stranglethorn Vale (33) / Alterac Mountains (36) / Arathi Highlands (45) / Thousand Needles (400) / Desolace (405) / Scarlet Monastery (796)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11006,
+                "item": 8365,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Mithril Head Trout"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 130,
+        "noFail": 225,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "8365-riverglades",
+      "itemId": "8365",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Mithril Head Trout",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/8365"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/45.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 23,
+            "src": "forever",
+            "m": 1434,
+            "x": 34.9,
+            "y": 10.3
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "unverified",
+        "value": "Riverglades (WoW Forever)",
+        "sourcesChecked": [
+          "https://foreverdb.net/data/sources/45.json",
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://foreverdb.net/data/zones.json"
+        ]
+      },
+      "waterType": {
+        "status": "unverified",
+        "value": null
+      },
+      "skills": {
+        "status": "unverified",
+        "minimum": null,
+        "noFail": null
+      }
+    },
+    {
+      "rowId": "21153-reference",
+      "itemId": "21153",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Greater Sagefish",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/21153"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/33.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 4,
+            "src": "forever",
+            "m": 1434,
+            "x": 34.9,
+            "y": 10.4
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Alterac Mountains, Stranglethorn Vale (Greater Sagefish Schools)",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "freshwater",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "From Greater Sagefish School Freshwater: Alterac Mountains Stranglethorn Vale",
+      "classicLootChecks": [],
+      "classicSchoolCheck": {
+        "objectId": 180684,
+        "lootId": 17519,
+        "matchingPaths": [
+          [
+            {
+              "table": "gameobject_loot_template",
+              "entry": 17519,
+              "item": 21153,
+              "ChanceOrQuestChance": 85.0,
+              "groupid": 1,
+              "mincountOrRef": 1,
+              "maxcount": 1,
+              "condition_id": 0,
+              "comments": "Raw Greater Sagefish"
+            }
+          ]
+        ],
+        "locationSource": "https://www.warcrafttavern.com/wow-classic/guides/fishing-pools/"
+      },
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 130,
+        "noFail": 225,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "21153-riverglades",
+      "itemId": "21153",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Greater Sagefish",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/21153"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/33.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 4,
+            "src": "forever",
+            "m": 1434,
+            "x": 34.9,
+            "y": 10.4
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "unverified",
+        "value": "Riverglades (WoW Forever)",
+        "sourcesChecked": [
+          "https://foreverdb.net/data/sources/33.json",
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://foreverdb.net/data/zones.json"
+        ]
+      },
+      "waterType": {
+        "status": "unverified",
+        "value": null
+      },
+      "skills": {
+        "status": "unverified",
+        "minimum": null,
+        "noFail": null
+      }
+    },
+    {
+      "rowId": "4603-reference",
+      "itemId": "4603",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Spotted Yellowtail",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/4603"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/59.json",
+        "records": [
+          {
+            "t": "object",
+            "obj": 35591,
+            "n": "Fishing Bobber",
+            "fv": true,
+            "seen": 27,
+            "src": "forever",
+            "m": 1434,
+            "x": 28.0,
+            "y": 76.3
+          }
+        ],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Dustwallow Marsh coast, Stranglethorn Vale coast",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "ocean",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Saltwater: Arathi Highlands Azshara Desolace Dustwallow Marsh Feralas Stranglethorn Vale Swamp of Sorrows Tanaris The Hinterlands",
+      "classicLootChecks": [
+        {
+          "areaId": 43,
+          "skillAreaId": 33,
+          "baseSkill": 130,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 43,
+                "item": 11007,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11007,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Zone Area: (35),(43),(104),(117),(122),(300),(301),(302),(311),(312),(327),(328),(513),(516),(517),(518),(598),(1577),(1578),(1739),(1797),(2079),(2324),(2339),(2403),(2405),(2406),(2408),(3357),(4047)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11007,
+                "item": 4603,
+                "ChanceOrQuestChance": 20.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Spotted Yellowtail"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 518,
+          "skillAreaId": 15,
+          "baseSkill": 130,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 518,
+                "item": 11007,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11007,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Zone Area: (35),(43),(104),(117),(122),(300),(301),(302),(311),(312),(327),(328),(513),(516),(517),(518),(598),(1577),(1578),(1739),(1797),(2079),(2324),(2339),(2403),(2405),(2406),(2408),(3357),(4047)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11007,
+                "item": 4603,
+                "ChanceOrQuestChance": 20.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Spotted Yellowtail"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 130,
+        "noFail": 225,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "13754-reference",
+      "itemId": "13754",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Glossy Mightfish",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/13754"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/58.json",
+        "records": [],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Tanaris coast, Feralas coast",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "ocean",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Saltwater: Azshara Feralas Stranglethorn Vale (Jaguero Isle only) Tanaris The Hinterlands",
+      "classicLootChecks": [
+        {
+          "areaId": 440,
+          "skillAreaId": 440,
+          "baseSkill": 205,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 440,
+                "item": 11009,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11009,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Jaguero Isle (297),The Overlook Cliffs (307),Tanaris (440),The Forgotten Coast (1108),Temple of Arkkoran (1226),The Shattered Strand (1228),Tower of Eldara (1229),Jagged Reef (1230),Southridge Beach (1231),The Ruined Reaches (1256),(3317)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11009,
+                "item": 13754,
+                "ChanceOrQuestChance": 15.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Glossy Mightfish"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 205,
+        "noFail": 300,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "13758-reference",
+      "itemId": "13758",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Redgill",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/13758"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/62.json",
+        "records": [],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Felwood, Moonglade",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "freshwater",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Freshwater: Azshara Deadwind Pass Eastern Plaguelands Felwood Feralas Moonglade The Hinterlands Un’Goro Crater Western Plaguelands Winterspring",
+      "classicLootChecks": [
+        {
+          "areaId": 361,
+          "skillAreaId": 361,
+          "baseSkill": 205,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 361,
+                "item": 11008,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11008,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Azshara (16) / Western Plaguelands (28) / The Hinterlands (47) / Feralas (357) / Felwood (361) / Un’Goro Crater (490) / Moonglade (493) / Sunken Temple (1417) / Maraudon (2100) / Verdantis River (2521)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11008,
+                "item": 13758,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Redgill"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 493,
+          "skillAreaId": 493,
+          "baseSkill": 205,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 493,
+                "item": 11008,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11008,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Azshara (16) / Western Plaguelands (28) / The Hinterlands (47) / Feralas (357) / Felwood (361) / Un’Goro Crater (490) / Moonglade (493) / Sunken Temple (1417) / Maraudon (2100) / Verdantis River (2521)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11008,
+                "item": 13758,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Redgill"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 205,
+        "noFail": 300,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "13755-reference",
+      "itemId": "13755",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Winter Squid",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/13755"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/59.json",
+        "records": [],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Tanaris coast, Feralas coast",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "ocean",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Seasonal: September 23-March 19 Saltwater: Azshara Feralas Stranglethorn Vale (Jaguero Isle only) Tanaris The Hinterlands",
+      "classicLootChecks": [
+        {
+          "areaId": 440,
+          "skillAreaId": 440,
+          "baseSkill": 205,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 440,
+                "item": 13755,
+                "ChanceOrQuestChance": 10.0,
+                "groupid": 0,
+                "mincountOrRef": -13755,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Winter & Summer - Winter Squid (13755) & Raw Summer Bass (13756)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 13755,
+                "item": 13755,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 322,
+                "comments": "Winter Squid"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 1108,
+          "skillAreaId": 357,
+          "baseSkill": 205,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 1108,
+                "item": 13755,
+                "ChanceOrQuestChance": 10.0,
+                "groupid": 0,
+                "mincountOrRef": -13755,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Winter & Summer - Winter Squid (13755) & Raw Summer Bass (13756)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 13755,
+                "item": 13755,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 322,
+                "comments": "Winter Squid"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 205,
+        "noFail": 300,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      },
+      "catchWindow": {
+        "value": "Sep 23–Mar 19 (Classic)",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "status": "classic-guide-reference-not-confirmed-forever"
+      }
+    },
+    {
+      "rowId": "13756-reference",
+      "itemId": "13756",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Summer Bass",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/13756"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/60.json",
+        "records": [],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Tanaris coast, Feralas coast",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "ocean",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Seasonal: March 20-September 22 Saltwater: Azshara Feralas Stranglethorn Vale (Jaguero Isle only) Tanaris The Hinterlands",
+      "classicLootChecks": [
+        {
+          "areaId": 440,
+          "skillAreaId": 440,
+          "baseSkill": 205,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 440,
+                "item": 11009,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11009,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Jaguero Isle (297),The Overlook Cliffs (307),Tanaris (440),The Forgotten Coast (1108),Temple of Arkkoran (1226),The Shattered Strand (1228),Tower of Eldara (1229),Jagged Reef (1230),Southridge Beach (1231),The Ruined Reaches (1256),(3317)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11009,
+                "item": 13756,
+                "ChanceOrQuestChance": 15.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Summer Bass"
+              }
+            ],
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 440,
+                "item": 13755,
+                "ChanceOrQuestChance": 10.0,
+                "groupid": 0,
+                "mincountOrRef": -13755,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Winter & Summer - Winter Squid (13755) & Raw Summer Bass (13756)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 13755,
+                "item": 13756,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 323,
+                "comments": "Raw Summer Bass"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 1108,
+          "skillAreaId": 357,
+          "baseSkill": 205,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 1108,
+                "item": 13755,
+                "ChanceOrQuestChance": 10.0,
+                "groupid": 0,
+                "mincountOrRef": -13755,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Winter & Summer - Winter Squid (13755) & Raw Summer Bass (13756)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 13755,
+                "item": 13756,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 323,
+                "comments": "Raw Summer Bass"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 205,
+        "noFail": 300,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      },
+      "catchWindow": {
+        "value": "Mar 20–Sep 22 (Classic)",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "status": "classic-guide-reference-not-confirmed-forever"
+      }
+    },
+    {
+      "rowId": "13759-reference",
+      "itemId": "13759",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Nightfin Snapper",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/13759"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/63.json",
+        "records": [],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Felwood, Moonglade",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "freshwater",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Between 6PM & noon server time Freshwater: Azshara Deadwind Pass Eastern Plaguelands Felwood Feralas Moonglade The Hinterlands Un’Goro Crater Western Plaguelands Winterspring",
+      "classicLootChecks": [
+        {
+          "areaId": 361,
+          "skillAreaId": 361,
+          "baseSkill": 205,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 361,
+                "item": 11008,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11008,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Azshara (16) / Western Plaguelands (28) / The Hinterlands (47) / Feralas (357) / Felwood (361) / Un’Goro Crater (490) / Moonglade (493) / Sunken Temple (1417) / Maraudon (2100) / Verdantis River (2521)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11008,
+                "item": 13759,
+                "ChanceOrQuestChance": 18.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Nightfin Snapper"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 493,
+          "skillAreaId": 493,
+          "baseSkill": 205,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 493,
+                "item": 11008,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11008,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Azshara (16) / Western Plaguelands (28) / The Hinterlands (47) / Feralas (357) / Felwood (361) / Un’Goro Crater (490) / Moonglade (493) / Sunken Temple (1417) / Maraudon (2100) / Verdantis River (2521)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11008,
+                "item": 13759,
+                "ChanceOrQuestChance": 18.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Nightfin Snapper"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 205,
+        "noFail": 300,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      },
+      "catchWindow": {
+        "value": "18:00–12:00 server time (Classic)",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "status": "classic-guide-reference-not-confirmed-forever"
+      }
+    },
+    {
+      "rowId": "13760-reference",
+      "itemId": "13760",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Sunscale Salmon",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/13760"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/0.json",
+        "records": [],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Felwood, Moonglade",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "freshwater",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Between 6AM & midnight server time Freshwater: Azshara Deadwind Pass Eastern Plaguelands Felwood Feralas Moonglade The Hinterlands Un’Goro Crater Western Plaguelands Winterspring",
+      "classicLootChecks": [
+        {
+          "areaId": 361,
+          "skillAreaId": 361,
+          "baseSkill": 205,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 361,
+                "item": 11008,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11008,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Azshara (16) / Western Plaguelands (28) / The Hinterlands (47) / Feralas (357) / Felwood (361) / Un’Goro Crater (490) / Moonglade (493) / Sunken Temple (1417) / Maraudon (2100) / Verdantis River (2521)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11008,
+                "item": 13760,
+                "ChanceOrQuestChance": 18.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Sunscale Salmon"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 493,
+          "skillAreaId": 493,
+          "baseSkill": 205,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 493,
+                "item": 11008,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11008,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Azshara (16) / Western Plaguelands (28) / The Hinterlands (47) / Feralas (357) / Felwood (361) / Un’Goro Crater (490) / Moonglade (493) / Sunken Temple (1417) / Maraudon (2100) / Verdantis River (2521)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11008,
+                "item": 13760,
+                "ChanceOrQuestChance": 18.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Sunscale Salmon"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 205,
+        "noFail": 300,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      },
+      "catchWindow": {
+        "value": "06:00–00:00 server time (Classic)",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "status": "classic-guide-reference-not-confirmed-forever"
+      }
+    },
+    {
+      "rowId": "13890-reference",
+      "itemId": "13890",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Plated Armorfish",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/13890"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/2.json",
+        "records": [],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Winterspring, Eastern Plaguelands",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "freshwater",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Deadwind Pass Eastern Plaguelands Feralas Winterspring",
+      "classicLootChecks": [
+        {
+          "areaId": 618,
+          "skillAreaId": 618,
+          "baseSkill": 330,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 618,
+                "item": 11010,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11010,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Burning Steppes (46) / Eastern Plaguelands (139) / Winterspring (618) / Jademir Lake (1112) / Silithus (1377) / Zul’Gurub (1977) / Stratholme (2017) / Scholomance (2057)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11010,
+                "item": 13890,
+                "ChanceOrQuestChance": 17.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Plated Armorfish"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 139,
+          "skillAreaId": 139,
+          "baseSkill": 330,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 139,
+                "item": 11010,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11010,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Burning Steppes (46) / Eastern Plaguelands (139) / Winterspring (618) / Jademir Lake (1112) / Silithus (1377) / Zul’Gurub (1977) / Stratholme (2017) / Scholomance (2057)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11010,
+                "item": 13890,
+                "ChanceOrQuestChance": 17.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Plated Armorfish"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 330,
+        "noFail": 425,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "13889-reference",
+      "itemId": "13889",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Raw Whitescale Salmon",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/13889"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/1.json",
+        "records": [],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Winterspring, Eastern Plaguelands",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "freshwater",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Burning Steppes Deadwind Pass Eastern Plaguelands Felwood Feralas (Jademir Lake only) Winterspring",
+      "classicLootChecks": [
+        {
+          "areaId": 618,
+          "skillAreaId": 618,
+          "baseSkill": 330,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 618,
+                "item": 11010,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11010,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Burning Steppes (46) / Eastern Plaguelands (139) / Winterspring (618) / Jademir Lake (1112) / Silithus (1377) / Zul’Gurub (1977) / Stratholme (2017) / Scholomance (2057)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11010,
+                "item": 13889,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Whitescale Salmon"
+              }
+            ]
+          ]
+        },
+        {
+          "areaId": 139,
+          "skillAreaId": 139,
+          "baseSkill": 330,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 139,
+                "item": 11010,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11010,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Burning Steppes (46) / Eastern Plaguelands (139) / Winterspring (618) / Jademir Lake (1112) / Silithus (1377) / Zul’Gurub (1977) / Stratholme (2017) / Scholomance (2057)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11010,
+                "item": 13889,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Raw Whitescale Salmon"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 330,
+        "noFail": 425,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "13888-reference",
+      "itemId": "13888",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Darkclaw Lobster",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/13888"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/0.json",
+        "records": [],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Azshara — Bay of Storms",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "ocean",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Azshara (Bay of Storms)",
+      "classicLootChecks": [
+        {
+          "areaId": 1227,
+          "skillAreaId": 1227,
+          "baseSkill": 330,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 1227,
+                "item": 11105,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11105,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Hetaera’s Clutch (1222) / Bay of Storms (1227) / Scalebeard’s Cave (3140)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11105,
+                "item": 13888,
+                "ChanceOrQuestChance": 0.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 2,
+                "condition_id": 0,
+                "comments": "Darkclaw Lobster"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 330,
+        "noFail": 425,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    },
+    {
+      "rowId": "13893-reference",
+      "itemId": "13893",
+      "identity": {
+        "status": "confirmed-forever-item",
+        "name": "Large Raw Mightfish",
+        "source": "https://nether.wowhead.com/forever/tooltip/item/13893"
+      },
+      "foreverCatchObservations": {
+        "source": "https://foreverdb.net/data/sources/5.json",
+        "records": [],
+        "supportsRiverglades": false
+      },
+      "location": {
+        "status": "classic-guide-reference",
+        "value": "Azshara — Bay of Storms",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "waterType": {
+        "status": "classic-guide-and-water-geography",
+        "value": "ocean",
+        "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
+      },
+      "classicGuideCatchText": "Azshara (Bay of Storms)",
+      "classicLootChecks": [
+        {
+          "areaId": 1227,
+          "skillAreaId": 1227,
+          "baseSkill": 330,
+          "matchingPaths": [
+            [
+              {
+                "table": "fishing_loot_template",
+                "entry": 1227,
+                "item": 11105,
+                "ChanceOrQuestChance": 100.0,
+                "groupid": 0,
+                "mincountOrRef": -11105,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Fishing Loot - Hetaera’s Clutch (1222) / Bay of Storms (1227) / Scalebeard’s Cave (3140)"
+              },
+              {
+                "table": "reference_loot_template",
+                "entry": 11105,
+                "item": 13893,
+                "ChanceOrQuestChance": 5.0,
+                "groupid": 1,
+                "mincountOrRef": 1,
+                "maxcount": 1,
+                "condition_id": 0,
+                "comments": "Large Raw Mightfish"
+              }
+            ]
+          ]
+        }
+      ],
+      "skills": {
+        "status": "classic-reference-not-measured-forever",
+        "minimum": 330,
+        "noFail": 425,
+        "sources": [
+          "https://foreverdb.net/data/profguides/fishing.json",
+          "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
+        ]
+      }
+    }
+  ]
+}

@@ -3,6 +3,8 @@
 const $ = selector => document.querySelector(selector);
 const panel = $('#profession-panel');
 const state = { data: null, pending: null, active: false, version: 0 };
+const waterLabels = { freshwater: 'Freshwater', ocean: 'Ocean', special: 'Other / special' };
+const waterLabel = fish => typeof fish.waterType === 'string' && Object.hasOwn(waterLabels, fish.waterType) ? waterLabels[fish.waterType] : 'Unverified';
 
 async function load() {
   if (state.data) return state.data;
@@ -34,7 +36,7 @@ function cell(text, className, label) {
 function render() {
   if (!state.active || panel.hidden || !state.data) return;
   const query = $('#fishing-search').value.trim().toLocaleLowerCase();
-  const fish = state.data.fish.filter(fish => !query || [fish.name, fish.location, fish.itemId].join(' ').toLocaleLowerCase().includes(query));
+  const fish = state.data.fish.filter(fish => !query || [fish.name, fish.location, fish.itemId, waterLabel(fish), typeof fish.waterDetail === 'string' ? fish.waterDetail : ''].join(' ').toLocaleLowerCase().includes(query));
   const fragment = document.createDocumentFragment();
   for (const entry of fish) {
     const row = document.createElement('tr');
@@ -51,9 +53,15 @@ function render() {
       label.className = 'fish-unverified'; label.textContent = 'Unverified';
       location.append(label);
     }
+    const water = cell(waterLabel(entry), 'fish-water', 'Water / catch type');
+    if (typeof entry.waterDetail === 'string' && entry.waterDetail.trim()) {
+      const detail = document.createElement('span');
+      detail.className = 'fish-detail'; detail.textContent = entry.waterDetail;
+      water.append(detail);
+    }
     const minimum = cell(entry.minFishing === null ? 'Unverified' : String(entry.minFishing), 'fish-skill', 'Min. Fishing');
     const noFail = cell(entry.noFailFishing === null ? 'Unverified' : `${entry.noFailApproximate === true ? '~' : ''}${entry.noFailFishing}`, 'fish-skill', 'No-fail Fishing');
-    row.append(name, location, minimum, noFail);
+    row.append(name, location, water, minimum, noFail);
     fragment.append(row);
   }
   $('#fishing-rows').replaceChildren(fragment);

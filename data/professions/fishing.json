@@ -6,21 +6,28 @@
       "id": "6291-reference",
       "itemId": "6291",
       "name": "Raw Brilliant Smallfish",
-      "location": "Teldrassil, Elwynn Forest",
+      "location": "Teldrassil (Lake Al'Ameth), Elwynn Forest (Crystal Lake)",
       "minFishing": 1,
       "noFailFishing": 25,
       "verification": "classic-reference",
       "sources": [
         "https://www.wowhead.com/forever/item=6291",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/6291",
+        "https://foreverdb.net/data/sources/19.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/",
+        "https://www.wow-professions.com/forever/fishing-and-cooking-leveling-guide"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "forever-community-guide",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "freshwater"
     },
     {
       "id": "6303-reference",
@@ -33,34 +40,48 @@
       "sources": [
         "https://www.wowhead.com/forever/item=6303",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/6303",
+        "https://foreverdb.net/data/sources/31.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "ocean"
     },
     {
       "id": "6289-reference",
       "itemId": "6289",
       "name": "Raw Longjaw Mud Snapper",
-      "location": "Stormwind City",
+      "location": "Stormwind canals, Loch Modan (The Loch)",
       "minFishing": 1,
       "noFailFishing": 75,
       "verification": "classic-reference",
       "sources": [
         "https://www.wowhead.com/forever/item=6289",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/6289",
+        "https://foreverdb.net/data/sources/17.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/",
+        "https://www.wow-professions.com/forever/fishing-and-cooking-leveling-guide"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "freshwater",
+      "notes": "Loch Modan restored: the independent Classic loot guide explicitly lists it. Stormwind catches are also described in the Forever beta leveling guide."
     },
     {
       "id": "6317-reference",
@@ -73,34 +94,46 @@
       "sources": [
         "https://www.wowhead.com/forever/item=6317",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/6317",
+        "https://foreverdb.net/data/sources/45.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "freshwater"
     },
     {
       "id": "6361-reference",
       "itemId": "6361",
       "name": "Raw Rainbow Fin Albacore",
-      "location": "Darkshore, Westfall coast",
+      "location": "Darkshore coast, Westfall coast",
       "minFishing": 1,
       "noFailFishing": 75,
       "verification": "classic-reference",
       "sources": [
         "https://www.wowhead.com/forever/item=6361",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/6361",
+        "https://foreverdb.net/data/sources/25.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "ocean"
     },
     {
       "id": "6522-reference",
@@ -113,14 +146,21 @@
       "sources": [
         "https://www.wowhead.com/forever/item=6522",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/6522",
+        "https://foreverdb.net/data/sources/58.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "special",
+      "waterDetail": "Freshwater oases / dungeon"
     },
     {
       "id": "21071-reference",
@@ -133,36 +173,47 @@
       "sources": [
         "https://www.wowhead.com/forever/item=21071",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/21071",
+        "https://foreverdb.net/data/sources/15.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-pools/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "freshwater"
     },
     {
       "id": "251524-reference",
       "itemId": "251524",
       "name": "Whimsyfin",
-      "location": "Redridge Mountains — river south of Stonewatch Keep",
-      "minFishing": 55,
+      "location": "Redridge Mountains: river south of Stonewatch Keep and nearby murloc lake",
+      "minFishing": null,
       "noFailFishing": 150,
       "verification": "community-reference",
       "sources": [
         "https://foreverchanges.pro/savory-whimsyfin-delight",
         "https://nether.wowhead.com/forever/tooltip/item/251524",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://foreverdb.net/data/sources/4.json"
       ],
       "noFailApproximate": true,
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "community-guide-video",
-        "minFishing": "classic-zone-reference",
-        "noFailFishing": "community-approximate"
+        "location": "forever-community-guide",
+        "minFishing": "unverified",
+        "noFailFishing": "community-approximate",
+        "waterType": "forever-community-guide"
       },
-      "notes": "The current guide cites player reports of about 150 effective Fishing and pools south of Stonewatch Keep; Lake Everstill itself is not asserted as a location. Minimum 55 is a Classic Redridge water reference, not a measured Forever threshold."
+      "notes": "Only the named freshwater pools are supported. Minimum skill is not established by the source; the previously inferred Redridge value 55 is removed. About 150 with no escapes is a community report, not a proven threshold.",
+      "waterType": "special",
+      "waterDetail": "Whimsyfin pools (freshwater)"
     },
     {
       "id": "6308-reference",
@@ -175,14 +226,20 @@
       "sources": [
         "https://www.wowhead.com/forever/item=6308",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/6308",
+        "https://foreverdb.net/data/sources/36.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "freshwater"
     },
     {
       "id": "6362-reference",
@@ -195,34 +252,46 @@
       "sources": [
         "https://www.wowhead.com/forever/item=6362",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/6362",
+        "https://foreverdb.net/data/sources/26.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "ocean"
     },
     {
       "id": "8365-reference",
       "itemId": "8365",
       "name": "Raw Mithril Head Trout",
-      "location": "Dustwallow Marsh, Thousand Needles",
+      "location": "Dustwallow Marsh inland waters, Thousand Needles",
       "minFishing": 130,
       "noFailFishing": 225,
       "verification": "classic-reference",
       "sources": [
         "https://www.wowhead.com/forever/item=8365",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/8365",
+        "https://foreverdb.net/data/sources/45.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "freshwater"
     },
     {
       "id": "8365-riverglades",
@@ -233,15 +302,19 @@
       "noFailFishing": null,
       "verification": "unverified",
       "sources": [
-        "User-supplied Fishing table, 2026-11-14"
+        "User-supplied Fishing table, 2026-11-14",
+        "https://nether.wowhead.com/forever/tooltip/item/8365",
+        "https://foreverdb.net/data/sources/45.json"
       ],
       "evidence": {
         "identity": "wowhead-forever",
         "location": "unverified-user-supplied",
         "minFishing": "unverified",
-        "noFailFishing": "unverified"
+        "noFailFishing": "unverified",
+        "waterType": "unverified"
       },
-      "notes": "Catch location and skill thresholds have not been independently verified. Unknown requirements are intentionally null."
+      "notes": "Catch location, water type, and both skill thresholds remain unverified. The audited public fishing dataset has no Riverglades row; the current source records expose Stranglethorn catches instead. This is not evidence that Riverglades catches are impossible.",
+      "waterType": null
     },
     {
       "id": "21153-reference",
@@ -254,14 +327,21 @@
       "sources": [
         "https://www.wowhead.com/forever/item=21153",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/21153",
+        "https://foreverdb.net/data/sources/33.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-pools/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "freshwater"
     },
     {
       "id": "21153-riverglades",
@@ -272,15 +352,19 @@
       "noFailFishing": null,
       "verification": "unverified",
       "sources": [
-        "User-supplied Fishing table, 2026-11-14"
+        "User-supplied Fishing table, 2026-11-14",
+        "https://nether.wowhead.com/forever/tooltip/item/21153",
+        "https://foreverdb.net/data/sources/33.json"
       ],
       "evidence": {
         "identity": "wowhead-forever",
         "location": "unverified-user-supplied",
         "minFishing": "unverified",
-        "noFailFishing": "unverified"
+        "noFailFishing": "unverified",
+        "waterType": "unverified"
       },
-      "notes": "Catch location and skill thresholds have not been independently verified. Unknown requirements are intentionally null."
+      "notes": "Catch location, water type, and both skill thresholds remain unverified. The audited public fishing dataset has no Riverglades row; the current source records expose Stranglethorn catches instead. This is not evidence that Riverglades catches are impossible.",
+      "waterType": null
     },
     {
       "id": "4603-reference",
@@ -293,34 +377,46 @@
       "sources": [
         "https://www.wowhead.com/forever/item=4603",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/4603",
+        "https://foreverdb.net/data/sources/59.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "ocean"
     },
     {
       "id": "13754-reference",
       "itemId": "13754",
       "name": "Raw Glossy Mightfish",
-      "location": "Tanaris coast, Feralas — The Forgotten Coast",
+      "location": "Tanaris coast, Feralas coast",
       "minFishing": 205,
       "noFailFishing": 300,
       "verification": "classic-reference",
       "sources": [
         "https://www.wowhead.com/forever/item=13754",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/13754",
+        "https://foreverdb.net/data/sources/58.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "ocean"
     },
     {
       "id": "13758-reference",
@@ -333,96 +429,134 @@
       "sources": [
         "https://www.wowhead.com/forever/item=13758",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/13758",
+        "https://foreverdb.net/data/sources/62.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "freshwater"
     },
     {
       "id": "13755-reference",
       "itemId": "13755",
       "name": "Raw Winter Squid",
-      "location": "Tanaris coast, Feralas — The Forgotten Coast (winter)",
+      "location": "Tanaris coast, Feralas coast",
       "minFishing": 205,
       "noFailFishing": 300,
       "verification": "classic-reference",
       "sources": [
         "https://www.wowhead.com/forever/item=13755",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/13755",
+        "https://foreverdb.net/data/sources/59.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography",
+        "catchWindow": "classic-guide-reference-not-confirmed-forever"
+      },
+      "waterType": "ocean",
+      "waterDetail": "Sep 23–Mar 19 (Classic)"
     },
     {
       "id": "13756-reference",
       "itemId": "13756",
       "name": "Raw Summer Bass",
-      "location": "Tanaris coast, Feralas — The Forgotten Coast (summer)",
+      "location": "Tanaris coast, Feralas coast",
       "minFishing": 205,
       "noFailFishing": 300,
       "verification": "classic-reference",
       "sources": [
         "https://www.wowhead.com/forever/item=13756",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/13756",
+        "https://foreverdb.net/data/sources/60.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography",
+        "catchWindow": "classic-guide-reference-not-confirmed-forever"
+      },
+      "waterType": "ocean",
+      "waterDetail": "Mar 20–Sep 22 (Classic)"
     },
     {
       "id": "13759-reference",
       "itemId": "13759",
       "name": "Raw Nightfin Snapper",
-      "location": "Felwood, Moonglade (night favored)",
+      "location": "Felwood, Moonglade",
       "minFishing": 205,
       "noFailFishing": 300,
       "verification": "classic-reference",
       "sources": [
         "https://www.wowhead.com/forever/item=13759",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/13759",
+        "https://foreverdb.net/data/sources/63.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography",
+        "catchWindow": "classic-guide-reference-not-confirmed-forever"
       },
-      "notes": "Time of day affects availability; dawn and dusk can overlap. The favored period is not asserted as the only catch window in Forever."
+      "notes": "The displayed server-time window is a Classic guide reference, not a confirmed Forever restriction.",
+      "waterType": "freshwater",
+      "waterDetail": "18:00–12:00 server time (Classic)"
     },
     {
       "id": "13760-reference",
       "itemId": "13760",
       "name": "Raw Sunscale Salmon",
-      "location": "Felwood, Moonglade (day favored)",
+      "location": "Felwood, Moonglade",
       "minFishing": 205,
       "noFailFishing": 300,
       "verification": "classic-reference",
       "sources": [
         "https://www.wowhead.com/forever/item=13760",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/13760",
+        "https://foreverdb.net/data/sources/0.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography",
+        "catchWindow": "classic-guide-reference-not-confirmed-forever"
       },
-      "notes": "Time of day affects availability; dawn and dusk can overlap. The favored period is not asserted as the only catch window in Forever."
+      "notes": "The displayed server-time window is a Classic guide reference, not a confirmed Forever restriction.",
+      "waterType": "freshwater",
+      "waterDetail": "06:00–00:00 server time (Classic)"
     },
     {
       "id": "13890-reference",
@@ -435,14 +569,20 @@
       "sources": [
         "https://www.wowhead.com/forever/item=13890",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/13890",
+        "https://foreverdb.net/data/sources/2.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "freshwater"
     },
     {
       "id": "13889-reference",
@@ -455,14 +595,20 @@
       "sources": [
         "https://www.wowhead.com/forever/item=13889",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/13889",
+        "https://foreverdb.net/data/sources/1.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "freshwater"
     },
     {
       "id": "13888-reference",
@@ -475,14 +621,20 @@
       "sources": [
         "https://www.wowhead.com/forever/item=13888",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/13888",
+        "https://foreverdb.net/data/sources/0.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "ocean"
     },
     {
       "id": "13893-reference",
@@ -495,15 +647,22 @@
       "sources": [
         "https://www.wowhead.com/forever/item=13893",
         "https://github.com/cmangos/classic-db/releases/tag/latest",
-        "https://foreverdb.net/profession/fishing"
+        "https://foreverdb.net/profession/fishing",
+        "https://nether.wowhead.com/forever/tooltip/item/13893",
+        "https://foreverdb.net/data/sources/5.json",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+        "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
       ],
       "evidence": {
         "identity": "wowhead-forever",
-        "location": "classic-reference",
+        "location": "classic-guide-reference",
         "minFishing": "classic-reference",
-        "noFailFishing": "classic-base-plus-95-assumption"
-      }
+        "noFailFishing": "classic-base-plus-95-assumption",
+        "waterType": "classic-guide-and-water-geography"
+      },
+      "waterType": "ocean"
     }
   ],
-  "notes": "Representative catch locations. Classic skill references use effective skill, including pole bonuses and lures. No-fail values assume the Classic base + 95 rule and are not a server guarantee for Forever. New-zone Riverglades entries remain unverified. Recipes and cooked bonuses are intentionally excluded."
+  "notes": "All rows audited against item identities, public Forever catch records, detailed Classic loot/pool guides, and Classic skill references. Water/catch type is explicit; special catches specify their freshwater habitat. Exact Forever skill thresholds remain unverified. Whimsyfin minimum and Riverglades catches, water type, and skills are unverified. Cooking recipes and cooked bonuses remain excluded.",
+  "audited": "2026-11-14"
 }
