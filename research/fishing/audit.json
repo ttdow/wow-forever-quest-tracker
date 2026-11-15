@@ -1,12 +1,13 @@
 {
   "audited": "2026-11-14",
-  "scope": "All 25 published rows and all five visible columns; 23 fish identities rechecked.",
+  "scope": "Historical audit of the initial 25 rows and 23 fish. Current expanded coverage is documented in coverage.json.",
   "limits": [
     "Audit complete does not mean every field is confirmed on the Forever server. Exact Forever skill thresholds remain unverified.",
     "Classic loot and pool guides corroborate catch locations and habitat for all 22 Classic fish; Whimsyfin uses a Forever community guide.",
     "ForeverDB Fishing Bobber source records aggregate observations and expose a representative location. Their counts are not counts at that one location and do not establish all catch locations.",
     "Riverglades is absent from the current published fishing-zone dataset. Trout and Greater Sagefish source records expose Stranglethorn locations, which do not verify or disprove Riverglades catches.",
-    "Catch types name the freshwater oases/dungeon pools or Whimsyfin pools directly; Sagefish rows identify their schools explicitly."
+    "Catch types name the freshwater oases/dungeon pools or Whimsyfin pools directly; Sagefish rows identify their schools explicitly.",
+    "Correction: area 1039 is The Lost Fleet in Wetlands, not Westfall; its incorrectly attributed check was removed. Westfall Albacore remains corroborated by the Classic guide and recorded Forever catch."
   ],
   "rows": [
     {
@@ -399,37 +400,6 @@
               {
                 "table": "reference_loot_template",
                 "entry": 11104,
-                "item": 6361,
-                "ChanceOrQuestChance": 0.0,
-                "groupid": 1,
-                "mincountOrRef": 1,
-                "maxcount": 1,
-                "condition_id": 0,
-                "comments": "Raw Rainbow Fin Albacore"
-              }
-            ]
-          ]
-        },
-        {
-          "areaId": 1039,
-          "skillAreaId": 40,
-          "baseSkill": -20,
-          "matchingPaths": [
-            [
-              {
-                "table": "fishing_loot_template",
-                "entry": 1039,
-                "item": 11005,
-                "ChanceOrQuestChance": 100.0,
-                "groupid": 0,
-                "mincountOrRef": -11005,
-                "maxcount": 1,
-                "condition_id": 0,
-                "comments": "Fishing Loot - Zone Area: (150),(271),(294),(295),(298),(299),(414),(1039),(2104),(2325),(2365),(2397),(2402)"
-              },
-              {
-                "table": "reference_loot_template",
-                "entry": 11005,
                 "item": 6361,
                 "ChanceOrQuestChance": 0.0,
                 "groupid": 1,
@@ -2251,5 +2221,6 @@
         ]
       }
     }
-  ]
+  ],
+  "supersededBy": "./coverage.json"
 }

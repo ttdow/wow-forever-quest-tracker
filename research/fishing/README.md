@@ -1,81 +1,63 @@
-# Fishing audit
+# Fishing coverage
 
-Audited 2026-11-14: all 25 table entries, 23 fish identities, and all five visible columns. The audit is complete; some fields remain unverified for Forever. Cooking recipes and cooked-food bonuses remain excluded as requested.
+Expanded 2026-11-14 after the user selected **usable fish and reagents, with all known locations**. The earlier representative list of 23 fish and 43 area/catch references is superseded by **30 fish, 73 water/skill groups, and 298 area/catch references across 53 listed areas**. Riverglades accounts for two unverified references; the other 52 areas have support in the inspected sources.
 
-## Sources
+Both By fish and By area use this expanded dataset. Different skill bands and water types remain separate, even for the same fish in one zone. The list covers eligible catches and locations in the inspected references; it is not proof that the live Forever server has no undocumented catches.
 
-- Current Wowhead Forever item tooltips confirm all 23 names and IDs, including Whimsyfin 251524, Raw Winter Squid 13755, and Raw Plated Armorfish 13890. Individual links are in [audit.json](audit.json). Identity alone does not verify catch locations.
-- [Warcraft Tavern's Classic fishing loot table](https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/) corroborates representative catch zones for all 22 Classic fish, explicitly distinguishing fresh and salt water for most entries. Its [pool guide](https://www.warcrafttavern.com/wow-classic/guides/fishing-pools/) corroborates Sagefish and Greater Sagefish schools.
-- The 2026-11-13 [CMaNGOS Classic database](https://github.com/cmangos/classic-db) snapshot was queried for actual fishing loot rows, recursive reference loot, school loot, and zone skill bases. Matching paths are preserved in the audit. A zone name in an unused SQL comment is not treated as a working loot link. CMaNGOS-derived data is under [GPL-3.0](../desolace-map/LICENSE-GPL-3.0.txt).
-- [ForeverDB's public fishing dataset](https://foreverdb.net/data/profguides/fishing.json) labels its catch tables and skill rules as Classic references. Per-item source shards contain player-recorded Forever Fishing Bobber observations. Their counts aggregate observations and must not be read as catch counts at the one representative coordinate exposed in each record.
-- The [Forever Fishing/Cooking guide](https://www.wow-professions.com/forever/fishing-and-cooking-leveling-guide) corroborates Smallfish in Lake Al'Ameth/Crystal Lake, Longjaw in Stormwind canals, and inland Dustwallow trout. It explicitly says it is based on the beta, with live high-level testing incomplete. Its [standalone Fishing guide](https://www.wow-professions.com/forever/fishing-leveling-guide) provides additional leveling-zone references.
-- [The Forever Whimsyfin guide](https://foreverchanges.pro/savory-whimsyfin-delight) describes the named freshwater pools and an approximate 150 no-escape report.
+## Scope
 
-Source hashes, URLs, disagreements, and decisions are in [sources.json](sources.json). These sources do not expose the actual Forever server's full fishing loot and skill rules.
+Included: fish eaten raw, fish with usable effects, and raw fish used as crafting reagents. Newly added species are **Oily Blackmouth, Firefin Snapper, Stonescale Eel, Lightning Eel, Sickly Looking Fish, Oil Covered Fish, and Darkshore Grouper**. Darkshore Grouper is edible, and Raw Plated Armorfish has a current Forever Cooking recipe, so they qualify despite quest associations.
 
-## Riverglades result
+Excluded: quest-only fish without a food/reagent use, tournament-only catches, trophy weights, bloated loot containers, non-fish loot, cooked products, and fish without a supported fishing source. Raw Spinefin Halibut has a current recipe, but the inspected acquisition records supply world/drop references rather than a fishing source; a recipe does not establish a catch location. Cooking recipes and cooked bonuses remain deferred in the interface.
 
-Neither Mithril Head Trout nor Greater Sagefish in Riverglades could be independently verified. Searches covered public fishing guides and search results, the fishing-zone dataset, the [Riverglades zone registry](https://foreverdb.net/data/zones.json), and per-item catch-source records.
+## Source coverage
 
-The public fishing dataset has 44 zones and 68 recorded fishing spots, including the new Zephras Isle, but no Riverglades entry. The zone registry recognizes Riverglades as map 2548 with insufficient known data. Current [Trout source records](https://foreverdb.net/data/sources/45.json) and [Greater Sagefish source records](https://foreverdb.net/data/sources/33.json) expose Stranglethorn Vale Fishing Bobber locations, not Riverglades. Those records are not an exhaustive list of catch zones. Wowhead's Riverglades page returned HTTP 403, and additional search engines returned challenges, errors, or no relevant catch evidence.
+The current [coverage inventory](coverage.json) records every eligible Classic fishing-water row, guide fish/area pair, and named school spawn group used in the expansion. Dataset locations retain their own source links and evidence. [sources.json](sources.json) retains identities, hashes, revisions, and decisions. [audit.json](audit.json) is the historical audit of the initial 25 entries, with its incorrect area-1039 attribution removed.
 
-Both user-supplied Riverglades entries remain, with **Unverified** catch location, water type, minimum skill, and no-fail skill. Freshwater is not inferred merely from the zone's name or a fish's usual habitat. Missing corroboration does not mean the catches are impossible.
+- **Classic open water:** all applicable rows in `fishing_loot_template`, recursively resolved through `reference_loot_template` in the 2026-11-13 [CMaNGOS Classic database snapshot](https://github.com/cmangos/classic-db/releases/tag/latest). Direct rows and matching references establish inclusion; names in unused SQL comments alone do not.
+- **Classic schools:** eligible `gameobject_loot_template` records for fishing holes, with `gameobject_template`, `spawn_group_entry`, and named `spawn_group` records resolving their waters. These include low-skill coastal Stonescale Eel Swarms in Stranglethorn, not just higher-skill open water around Jaguero Isle.
+- **Full published fish-location lists:** [Warcraft Tavern fishing loot](https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/) and [pool locations](https://www.warcrafttavern.com/wow-classic/guides/fishing-pools/). Every eligible linked fish/zone pair is retained, including guide references not present in a partial database query. These remain Classic references rather than verified Forever server loot.
+- **Named geography:** [Questie's Forever area hierarchy](https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/support/Forever/Zones/subZoneToParentZone.lua) and [area names](https://github.com/Questie/Questie/blob/da56b36c54ca4777c1d4747bdb9c009b37560307/Localization/lookups/lookupZones.lua), pinned to revisions. A pool spot name occurring in another zone is not allowed to borrow that zone's skill base.
+- **Current Forever identity and utility:** all 30 names/IDs match current Wowhead Forever tooltips. [ForeverDB's current item catalog](https://foreverdb.net/data/items.json) and [Cooking records](https://foreverdb.net/data/professions/cooking.json) distinguish raw catches, usable food, crafting reagents, trophies, and cooked products. The inspected client build is 1.60.1.70938. Item existence or a cooking recipe alone does not verify a fishing location.
+- **Forever catches:** [the public fishing dataset](https://foreverdb.net/data/profguides/fishing.json) records Smallfish and Longjaw catches on **Zephras Isle**. Its skill value is absent, so both requirements remain Unverified. Public item source records also corroborate familiar catches, including Oily Blackmouth in Darkshore, Firefin Snapper in Wetlands, Oil Covered Fish in Stonetalon, and Darkshore Grouper in Darkshore. Source counts aggregate observations; they are not per-coordinate catch rates.
+- **Forever guides:** [Fishing/Cooking leveling](https://www.wow-professions.com/forever/fishing-and-cooking-leveling-guide) corroborates named starter lakes, Stormwind canals, inland Dustwallow, and ordinary Feralas inland water; it labels its basis as beta data. [Whimsyfin's community guide](https://foreverchanges.pro/savory-whimsyfin-delight) supports its special freshwater pools and approximately 150 no-escape report.
 
-## Row-by-row results
+CMaNGOS-derived reference data remains under [GPL-3.0](../desolace-map/LICENSE-GPL-3.0.txt). Source-data provenance is separate from map artwork and other assets.
 
-All identities below are confirmed in current Forever item tooltips. Catch evidence is stated separately. Skills refer to the listed water, including equipment and lures, rather than an intrinsic requirement of each fish.
+## Skills vary by water
 
-| Entry | Water / catch type | Catch-location evidence | Min. / no-fail |
-| --- | --- | --- | --- |
-| Raw Brilliant Smallfish | Freshwater | Classic tables; Forever beta guide names Lake Al'Ameth and Crystal Lake | 1 / 25, Classic |
-| Raw Slitherskin Mackerel | Ocean | Classic guide and Darkshore loot; Forever catch recorded without a zone | 1 / 75, Classic |
-| Raw Longjaw Mud Snapper | Freshwater | Classic guide lists Stormwind and Loch Modan; Forever beta guide names Stormwind canals | 1 / 75, Classic |
-| Raw Loch Frenzy | Freshwater | Classic Loch loot; Forever catch in Loch Modan | 1 / 75, Classic |
-| Raw Rainbow Fin Albacore | Ocean | Classic Darkshore/Westfall coast references; Forever catch in Westfall | 1 / 75, Classic |
-| Deviate Fish | Oases / dungeon pools (freshwater) | Classic oasis/Wailing Caverns loot; Forever catch in the Barrens | 1 / 75, Classic |
-| Raw Sagefish | Freshwater schools | Classic school loot and guides; Forever catch in Hillsbrad | 55 / 150, Classic |
-| Whimsyfin | Whimsyfin pools (freshwater) | Forever guide, river south of Stonewatch Keep and nearby murloc lake | Unverified / ~150, community report |
-| Raw Bristle Whisker Catfish | Freshwater | Classic Redridge/Wetlands guide and loot | 55 / 150, Classic |
-| Raw Rockscale Cod | Ocean | Classic coastal loot/guide; Forever catch in Stranglethorn | 130 / 225, Classic |
-| Raw Mithril Head Trout | Freshwater | Classic Dustwallow/Thousand Needles loot; Forever beta guide names inland Dustwallow | 130 / 225, Classic |
-| Raw Mithril Head Trout — Riverglades | Unverified | No independent Riverglades catch evidence obtained | Unverified / Unverified |
-| Raw Greater Sagefish | Freshwater schools | Classic Alterac/Stranglethorn school loot/guide; Forever catch in Stranglethorn | 130 / 225, Classic |
-| Raw Greater Sagefish — Riverglades | Unverified | No independent Riverglades catch evidence obtained | Unverified / Unverified |
-| Raw Spotted Yellowtail | Ocean | Classic coastal loot/guide; Forever catch in Stranglethorn | 130 / 225, Classic |
-| Raw Glossy Mightfish | Ocean | Classic guide corroborates Tanaris/Feralas saltwater; working Tanaris loot path | 205 / 300, Classic |
-| Raw Redgill | Freshwater | Classic Felwood/Moonglade loot and guide | 205 / 300, Classic |
-| Raw Winter Squid | Ocean | Classic Tanaris/Feralas seasonal loot and guide | 205 / 300, Classic |
-| Raw Summer Bass | Ocean | Classic Tanaris/Feralas seasonal loot and guide | 205 / 300, Classic |
-| Raw Nightfin Snapper | Freshwater | Classic Felwood/Moonglade loot and guide | 205 / 300, Classic |
-| Raw Sunscale Salmon | Freshwater | Classic Felwood/Moonglade loot and guide | 205 / 300, Classic |
-| Raw Plated Armorfish | Freshwater | Classic Winterspring/Eastern Plaguelands inland loot and guide | 330 / 425, Classic |
-| Raw Whitescale Salmon | Freshwater | Classic Winterspring/Eastern Plaguelands inland loot and guide | 330 / 425, Classic |
-| Darkclaw Lobster | Ocean | Classic Bay of Storms loot and guide | 330 / 425, Classic |
-| Large Raw Mightfish | Ocean | Classic Bay of Storms loot and guide | 330 / 425, Classic |
+The old single-band-per-fish examples were insufficient for broader coverage. Catch groups now split by minimum, no-fail reference, water type, and special catch method. Examples:
 
-Freshwater covers rivers, lakes, and canals. Ocean covers saltwater coasts, including Bay of Storms. Restricted catches name their actual type directly: Oases / dungeon pools (freshwater) and Whimsyfin pools (freshwater). Sagefish locations name their schools. Locations are representative, not exhaustive.
+| Catch | Water | Min. / no-fail reference |
+| --- | --- | --- |
+| Raw Brilliant Smallfish | Starter zones such as Elwynn Forest | 1 / 25 |
+| Raw Brilliant Smallfish | Capital/low-zone waters such as Stormwind | 1 / 75 |
+| Raw Sagefish | Loch Modan and Silverpine schools | 1 / 75 |
+| Raw Sagefish | Ashenvale, Hillsbrad, and Stonetalon schools | 55 / 150 |
+| Stonescale Eel | Ordinary Stranglethorn coastal swarms | 130 / 225 |
+| Raw Nightfin Snapper | Ordinary Feralas inland water | 205 / 300 |
+| Raw Nightfin Snapper | Feralas: Jademir Lake | 330 / 425 |
+| Raw Summer Bass | Ordinary Azshara coast | 205 / 300 |
+| Raw Summer Bass | Bay of Storms, Hetaera's Clutch, Scalebeard's Cave | 330 / 425 |
 
-## Corrections and unresolved skill disagreements
+Named waters use their own Classic skill base when available and otherwise inherit their named parent zone. Jaguero Isle, Jademir Lake, Bay of Storms, Hetaera's Clutch, and Scalebeard's Cave retain their higher bases. Multiple subzones sharing a name are checked against the school group's named parent rather than matched globally.
 
-- Whimsyfin's previous minimum 55 was inferred from ordinary Redridge water. The guide does not establish that minimum for its special pools, so it is now **Unverified**. **~150** no-fail remains an approximate community report.
-- Longjaw Mud Snapper in Loch Modan is restored after independent Classic guide corroboration. Its absence from a partial snapshot query was insufficient grounds to omit it.
-- Smallfish now names Lake Al'Ameth and Crystal Lake. Albacore names both coasts; Mithril Head Trout specifies inland Dustwallow water.
-- Glossy Mightfish's Feralas coastal location has independent Classic guide support, although a snapshot SQL comment alone did not establish it. The table says Feralas coast rather than claiming a verified precise subzone.
-- The Classic loot guide specifies Winter Squid **September 23–March 19**, Summer Bass **March 20–September 22**, Nightfin **18:00–12:00 server time**, and Sunscale **06:00–00:00 server time**. The table labels these **Classic**; Forever season/time rules have not been verified.
-- Classic bases include -70, -20, 55, 130, 205, and 330. Base + 95 yields no-fail references 25, 75, 150, 225, 300, and 425; visible minimums below 1 are clamped to 1. These remain references, not measured Forever thresholds.
-- [Forever Changes](https://foreverchanges.pro/professions/fishing) gives chance-only bite minima 51/126/201/326. The inspected [Classic catch code](https://github.com/cmangos/mangos-classic/blob/master/src/game/Entities/GameObject.cpp) also checks `skill >= base`, and the [independent Classic guide](https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/) lists cast minimums 55/130/205/330. These bands are retained as Classic references without claiming they settle Forever behavior.
-- The Classic leveling guide collapses low zones into an inconsistent 1/96 band. Its low-zone no-fail values are not adopted. Negative database bases, ForeverDB, Forever Changes, and the Forever beta guide's 75-in-capitals statement support the retained references. Additional hard-coded gates in [Classic cast code](https://github.com/cmangos/mangos-classic/blob/master/src/game/Spells/Spell.cpp), including Stormwind/Wailing Caverns, conflict with the guides; emulator code does not prove the live server rules.
+Values use effective skill including equipment/lures. The retained Classic assumption is base + 95 for no-fail, with visible minimums below 1 clamped to 1. Exact Forever thresholds are not established by these sources. [Forever Changes](https://foreverchanges.pro/professions/fishing) gives chance-only bite minima 51/126/201/326, whereas inspected [Classic success code](https://github.com/cmangos/mangos-classic/blob/master/src/game/Entities/GameObject.cpp) additionally checks `skill >= base` and the [Classic cast guide](https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/) uses 55/130/205/330. Those reference bands are retained without claiming to resolve the live server's behavior.
 
-## Maintenance and loading
+The Classic guide's inconsistent low-zone 1/96 grouping is not adopted. Negative database bases, ForeverDB/Forever Changes, and the Forever beta guide's 75-in-capitals statement support the retained low-zone references. Extra hard-coded Stormwind/Wailing Caverns gates in Classic cast code also disagree with the guides; emulator code is not server verification.
 
-`data/professions/fishing.json` is the maintained dataset. Rows have stable row/item IDs, a name, catch location, nullable skills, and nullable `waterType` (`freshwater` or `ocean`). Optional `catchType` names the actual catch type directly, and `waterDetail` describes Classic catch windows. Item IDs can support future Cooking links.
+Seasonal dates and server-time windows remain explicitly **Classic**: Winter Squid September 23–March 19; Summer Bass March 20–September 22; Nightfin 18:00–12:00; Sunscale 06:00–00:00. Whimsyfin minimum is Unverified and no-fail is **~150**, a community report.
 
-Source/evidence metadata and water labels are nonblocking. Missing, malformed, or unfamiliar water labels display **Unverified**; invalid optional source labels never reject valid rows. Fishing loads independently of quests, drops, maps, and completion storage. Search also matches water labels and catch-window details.
+## Riverglades and undocumented Forever water
 
-## Grouping by area
+The public fishing dataset currently lists 44 zones and 68 recorded spots, including Zephras Isle, but no Riverglades entry. The zone registry recognizes Riverglades with insufficient known data. Published Trout and Greater Sagefish source records expose Stranglethorn locations; they are not exhaustive records of every zone and neither prove nor disprove Riverglades catches.
 
-Fishing offers By fish and By area views of the same 25 source entries. Explicit `locations` records give each entry an area name and an optional `detail` such as Coast, Sagefish Schools, or Bay of Storms. These are normalized from the already researched catch descriptions; no new catch claims or skill thresholds are introduced. The resulting 43 area/catch references cover 24 areas.
+The two user-supplied Riverglades possibilities stay in the table with **Unverified** catches, water type, and skills. No additional fish, minimums, or freshwater classification are inferred from the zone's name. Other new Forever waters without compatible catch evidence are not populated by guessing from geography. This is the remaining limit on claiming a server-wide exhaustive list.
 
-By fish keeps the original catch descriptions. By area sorts named areas and their fish alphabetically, shows the local detail separately, and retains the entry's water/catch type, skill values, catch windows, and verification status. A Riverglades heading keeps its Unverified label inline. Search tests the current area/detail rather than every location in a fish's combined description, so searching Feralas does not also display Tanaris. The two views share search and stay selected during the page session without writing to quest storage.
+## Data and interface
 
-When editing locations, maintain the combined `location` description and its structured `locations` records together. If two catches have different skill requirements, keep separate source entries rather than applying one skill band to both. Missing structured locations fall back to the original description without attempting to split prose or reject otherwise valid data.
+`data/professions/fishing.json` remains the maintained source, with no conversion or runtime server required. Each row is a catch group with its own water/skill values and explicit `locations`. Location records include named area, detailed waters, source URLs, and evidence. The compact combined `location` text is for By fish; By area shows the fuller local details. Item IDs remain stable for future Cooking links. Existing quest saves are unrelated to this data.
+
+By fish counts unique fish and catch groups. By area lists the corresponding catches under each named zone/dungeon and scopes searches to that area's waters. Searching a named lake, school, or shore also works in By fish. Unknown source labels and optional metadata remain nonblocking; errors in Fishing do not block quests, maps, or drops.
+
+Area **1039 is The Lost Fleet in Wetlands**, not Westfall. The initial audit's mistaken attribution was corrected using the named hierarchy. Westfall Albacore remains supported independently by the guide and a current Forever catch record.

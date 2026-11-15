@@ -111,11 +111,11 @@ function render() {
   const query = $('#fishing-search').value.trim().toLocaleLowerCase();
   const fragment = document.createDocumentFragment();
   if (state.view === 'fish') {
-    const fish = state.data.fish.filter(fish => matches(fish, [fish.location, ...locations(fish).map(location => location.area)].join(' '), query));
+    const fish = state.data.fish.filter(fish => matches(fish, [fish.location, ...locations(fish).map(location => [location.area, typeof location.detail === 'string' ? location.detail : ''].join(' '))].join(' '), query));
     fragment.append(...fish.map(entry => fishRow(entry)));
     $('#fishing-rows').replaceChildren(fragment);
     $('#fishing-empty').hidden = fish.length > 0;
-    $('#fishing-result-count').textContent = `${fish.length} of ${state.data.fish.length} entries`;
+    $('#fishing-result-count').textContent = `${new Set(fish.map(entry => entry.itemId)).size} fish · ${fish.length} of ${state.data.fish.length} catch groups`;
     return;
   }
   const areas = new Map();

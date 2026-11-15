@@ -1,0 +1,5627 @@
+{
+  "date": "2026-11-14",
+  "scope": "Usable fish and fish reagents, all supported areas in inspected Classic catch/pool references and published Forever records. Quest-only fish, trophy fish, event-only catches, non-fish loot and vendor-only fish excluded. Darkshore Grouper is edible and Raw Plated Armorfish is a current Cooking reagent, so both qualify despite quest associations.",
+  "species": 30,
+  "profiles": 73,
+  "areaCatchReferences": 298,
+  "areas": [
+    "Alterac Mountains",
+    "Arathi Highlands",
+    "Ashenvale",
+    "Azshara",
+    "Blackfathom Deeps",
+    "Burning Steppes",
+    "Darkshore",
+    "Darnassus",
+    "Deadwind Pass",
+    "Desolace",
+    "Dun Morogh",
+    "Durotar",
+    "Duskwood",
+    "Dustwallow Marsh",
+    "Eastern Plaguelands",
+    "Elwynn Forest",
+    "Felwood",
+    "Feralas",
+    "Hillsbrad Foothills",
+    "Ironforge",
+    "Loch Modan",
+    "Maraudon",
+    "Moonglade",
+    "Mulgore",
+    "Orgrimmar",
+    "Redridge Mountains",
+    "Riverglades",
+    "Scarlet Monastery",
+    "Scholomance",
+    "Silithus",
+    "Silverpine Forest",
+    "Stonetalon Mountains",
+    "Stormwind City",
+    "Stranglethorn Vale",
+    "Stratholme",
+    "Swamp of Sorrows",
+    "Tanaris",
+    "Teldrassil",
+    "The Barrens",
+    "The Deadmines",
+    "The Hinterlands",
+    "Thousand Needles",
+    "Thunder Bluff",
+    "Tirisfal Glades",
+    "Un'Goro Crater",
+    "Undercity",
+    "Wailing Caverns",
+    "Western Plaguelands",
+    "Westfall",
+    "Wetlands",
+    "Winterspring",
+    "Zephras Isle",
+    "Zul'Gurub"
+  ],
+  "addedSpecies": [
+    {
+      "id": 6299,
+      "name": "Sickly Looking Fish"
+    },
+    {
+      "id": 6358,
+      "name": "Oily Blackmouth"
+    },
+    {
+      "id": 6359,
+      "name": "Firefin Snapper"
+    },
+    {
+      "id": 6458,
+      "name": "Oil Covered Fish"
+    },
+    {
+      "id": 12238,
+      "name": "Darkshore Grouper"
+    },
+    {
+      "id": 13422,
+      "name": "Stonescale Eel"
+    },
+    {
+      "id": 13757,
+      "name": "Lightning Eel"
+    }
+  ],
+  "classicLootWaters": [
+    {
+      "itemId": "6289",
+      "areaId": 1,
+      "parentAreaId": 1,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 1,
+      "parentAreaId": 1,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6303",
+      "areaId": 2,
+      "parentAreaId": 40,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 2,
+      "parentAreaId": 40,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 2,
+      "parentAreaId": 40,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 8,
+      "parentAreaId": 8,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 8,
+      "parentAreaId": 8,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 10,
+      "parentAreaId": 10,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 10,
+      "parentAreaId": 10,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 11,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 11,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 12,
+      "parentAreaId": 12,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 12,
+      "parentAreaId": 12,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6303",
+      "areaId": 14,
+      "parentAreaId": 14,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 15,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 15,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 16,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 16,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 16,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 16,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 16,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 16,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13755",
+      "areaId": 16,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 16,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6303",
+      "areaId": 17,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 17,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 17,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 28,
+      "parentAreaId": 28,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 28,
+      "parentAreaId": 28,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 28,
+      "parentAreaId": 28,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 28,
+      "parentAreaId": 28,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 28,
+      "parentAreaId": 28,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 28,
+      "parentAreaId": 28,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 33,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 33,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 35,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 35,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 35,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 35,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 36,
+      "parentAreaId": 36,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 36,
+      "parentAreaId": 36,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6317",
+      "areaId": 38,
+      "parentAreaId": 38,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 40,
+      "parentAreaId": 40,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 40,
+      "parentAreaId": 40,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 40,
+      "parentAreaId": 40,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 41,
+      "parentAreaId": 41,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 43,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 43,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 43,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 43,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 44,
+      "parentAreaId": 44,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 44,
+      "parentAreaId": 44,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 45,
+      "parentAreaId": 45,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 45,
+      "parentAreaId": 45,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 46,
+      "parentAreaId": 46,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 46,
+      "parentAreaId": 46,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 46,
+      "parentAreaId": 46,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 46,
+      "parentAreaId": 46,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13889",
+      "areaId": 46,
+      "parentAreaId": 46,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13890",
+      "areaId": 46,
+      "parentAreaId": 46,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 47,
+      "parentAreaId": 47,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 47,
+      "parentAreaId": 47,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 47,
+      "parentAreaId": 47,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 47,
+      "parentAreaId": 47,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 47,
+      "parentAreaId": 47,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 47,
+      "parentAreaId": 47,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 85,
+      "parentAreaId": 85,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6299",
+      "areaId": 85,
+      "parentAreaId": 85,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 104,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 104,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 104,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 104,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6303",
+      "areaId": 115,
+      "parentAreaId": 40,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 115,
+      "parentAreaId": 40,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 115,
+      "parentAreaId": 40,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 117,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 117,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 117,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 117,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 122,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 122,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 122,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 122,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 130,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6299",
+      "areaId": 130,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 139,
+      "parentAreaId": 139,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 139,
+      "parentAreaId": 139,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 139,
+      "parentAreaId": 139,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 139,
+      "parentAreaId": 139,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13889",
+      "areaId": 139,
+      "parentAreaId": 139,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13890",
+      "areaId": 139,
+      "parentAreaId": 139,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 141,
+      "parentAreaId": 141,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 141,
+      "parentAreaId": 141,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6303",
+      "areaId": 148,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 148,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 148,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "12238",
+      "areaId": 148,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 150,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 150,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 150,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6303",
+      "areaId": 168,
+      "parentAreaId": 85,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6303",
+      "areaId": 169,
+      "parentAreaId": 85,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 215,
+      "parentAreaId": 215,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 215,
+      "parentAreaId": 215,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6303",
+      "areaId": 226,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 226,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 226,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 267,
+      "parentAreaId": 267,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 267,
+      "parentAreaId": 267,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 271,
+      "parentAreaId": 267,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 271,
+      "parentAreaId": 267,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 271,
+      "parentAreaId": 267,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 294,
+      "parentAreaId": 267,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 294,
+      "parentAreaId": 267,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 294,
+      "parentAreaId": 267,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 295,
+      "parentAreaId": 267,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 295,
+      "parentAreaId": 267,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 295,
+      "parentAreaId": 267,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13755",
+      "areaId": 297,
+      "parentAreaId": 33,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 297,
+      "parentAreaId": 33,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 298,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 298,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 298,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 299,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 299,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 299,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 302,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 302,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 302,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 302,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6303",
+      "areaId": 305,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 305,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 305,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6303",
+      "areaId": 306,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 306,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 306,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13755",
+      "areaId": 307,
+      "parentAreaId": 47,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 307,
+      "parentAreaId": 47,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 311,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 311,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 311,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 311,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 327,
+      "parentAreaId": 45,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 327,
+      "parentAreaId": 45,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 327,
+      "parentAreaId": 45,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 327,
+      "parentAreaId": 45,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 328,
+      "parentAreaId": 45,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 328,
+      "parentAreaId": 45,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 328,
+      "parentAreaId": 45,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 328,
+      "parentAreaId": 45,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 331,
+      "parentAreaId": 331,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 331,
+      "parentAreaId": 331,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 357,
+      "parentAreaId": 357,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 357,
+      "parentAreaId": 357,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 361,
+      "parentAreaId": 361,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 361,
+      "parentAreaId": 361,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 361,
+      "parentAreaId": 361,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 361,
+      "parentAreaId": 361,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 361,
+      "parentAreaId": 361,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 361,
+      "parentAreaId": 361,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 367,
+      "parentAreaId": 14,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 367,
+      "parentAreaId": 14,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 382,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 382,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 382,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6458",
+      "areaId": 382,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 384,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 384,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 384,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 386,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 386,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 386,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6522",
+      "areaId": 386,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 387,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 387,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 387,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6522",
+      "areaId": 387,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 388,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 388,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 388,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6522",
+      "areaId": 388,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 400,
+      "parentAreaId": 400,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 400,
+      "parentAreaId": 400,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 405,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 405,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 406,
+      "parentAreaId": 406,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 406,
+      "parentAreaId": 406,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 414,
+      "parentAreaId": 331,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 414,
+      "parentAreaId": 331,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 414,
+      "parentAreaId": 331,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 440,
+      "parentAreaId": 440,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 440,
+      "parentAreaId": 440,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 440,
+      "parentAreaId": 440,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13422",
+      "areaId": 440,
+      "parentAreaId": 440,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13754",
+      "areaId": 440,
+      "parentAreaId": 440,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 440,
+      "parentAreaId": 440,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13755",
+      "areaId": 440,
+      "parentAreaId": 440,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 440,
+      "parentAreaId": 440,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 443,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 443,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 443,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "12238",
+      "areaId": 443,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 445,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 445,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 445,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "12238",
+      "areaId": 445,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 448,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 448,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 448,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "12238",
+      "areaId": 448,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 454,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 454,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 454,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "12238",
+      "areaId": 454,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 456,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 456,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 456,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "12238",
+      "areaId": 456,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 463,
+      "parentAreaId": 406,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 463,
+      "parentAreaId": 406,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 463,
+      "parentAreaId": 406,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6458",
+      "areaId": 463,
+      "parentAreaId": 406,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 490,
+      "parentAreaId": 490,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 490,
+      "parentAreaId": 490,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 490,
+      "parentAreaId": 490,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 490,
+      "parentAreaId": 490,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 490,
+      "parentAreaId": 490,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 490,
+      "parentAreaId": 490,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 493,
+      "parentAreaId": 493,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 493,
+      "parentAreaId": 493,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 493,
+      "parentAreaId": 493,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 493,
+      "parentAreaId": 493,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 493,
+      "parentAreaId": 493,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 493,
+      "parentAreaId": 493,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 513,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 513,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 513,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 513,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 516,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 516,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 516,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 516,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 517,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 517,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 517,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 517,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 518,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 518,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 518,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 518,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 618,
+      "parentAreaId": 618,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 618,
+      "parentAreaId": 618,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 618,
+      "parentAreaId": 618,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 618,
+      "parentAreaId": 618,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13889",
+      "areaId": 618,
+      "parentAreaId": 618,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13890",
+      "areaId": 618,
+      "parentAreaId": 618,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 636,
+      "parentAreaId": 406,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 636,
+      "parentAreaId": 406,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 636,
+      "parentAreaId": 406,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6458",
+      "areaId": 636,
+      "parentAreaId": 406,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6303",
+      "areaId": 702,
+      "parentAreaId": 141,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 718,
+      "parentAreaId": 718,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 718,
+      "parentAreaId": 718,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 718,
+      "parentAreaId": 718,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6522",
+      "areaId": 718,
+      "parentAreaId": 718,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 719,
+      "parentAreaId": 719,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6299",
+      "areaId": 719,
+      "parentAreaId": 719,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 796,
+      "parentAreaId": 796,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 796,
+      "parentAreaId": 796,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 814,
+      "parentAreaId": 14,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 814,
+      "parentAreaId": 14,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 815,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 815,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 815,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 1039,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 1039,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 1039,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13755",
+      "areaId": 1108,
+      "parentAreaId": 357,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1108,
+      "parentAreaId": 357,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 1112,
+      "parentAreaId": 357,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 1112,
+      "parentAreaId": 357,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 1112,
+      "parentAreaId": 357,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 1112,
+      "parentAreaId": 357,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13889",
+      "areaId": 1112,
+      "parentAreaId": 357,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13890",
+      "areaId": 1112,
+      "parentAreaId": 357,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13755",
+      "areaId": 1116,
+      "parentAreaId": 357,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1116,
+      "parentAreaId": 357,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13755",
+      "areaId": 1117,
+      "parentAreaId": 357,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1117,
+      "parentAreaId": 357,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13755",
+      "areaId": 1120,
+      "parentAreaId": 357,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1120,
+      "parentAreaId": 357,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13755",
+      "areaId": 1121,
+      "parentAreaId": 357,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1121,
+      "parentAreaId": 357,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 1156,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 1156,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 1156,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 1222,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13422",
+      "areaId": 1222,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1222,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13888",
+      "areaId": 1222,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13893",
+      "areaId": 1222,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13755",
+      "areaId": 1222,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1222,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 1226,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 1226,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 1226,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13422",
+      "areaId": 1226,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13754",
+      "areaId": 1226,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1226,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 1227,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13422",
+      "areaId": 1227,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1227,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13888",
+      "areaId": 1227,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13893",
+      "areaId": 1227,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13755",
+      "areaId": 1227,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1227,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 1228,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 1228,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 1228,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13422",
+      "areaId": 1228,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13754",
+      "areaId": 1228,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1228,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 1229,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 1229,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 1229,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13422",
+      "areaId": 1229,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13754",
+      "areaId": 1229,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1229,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 1230,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 1230,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 1230,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13422",
+      "areaId": 1230,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13754",
+      "areaId": 1230,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1230,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 1231,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 1231,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 1231,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13422",
+      "areaId": 1231,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13754",
+      "areaId": 1231,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1231,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 1256,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 1256,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 1256,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13422",
+      "areaId": 1256,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13754",
+      "areaId": 1256,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 1256,
+      "parentAreaId": 16,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 1377,
+      "parentAreaId": 1377,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 1377,
+      "parentAreaId": 1377,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 1377,
+      "parentAreaId": 1377,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 1377,
+      "parentAreaId": 1377,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13889",
+      "areaId": 1377,
+      "parentAreaId": 1377,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13890",
+      "areaId": 1377,
+      "parentAreaId": 1377,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 1497,
+      "parentAreaId": 1497,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 1497,
+      "parentAreaId": 1497,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6299",
+      "areaId": 1497,
+      "parentAreaId": 1497,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 1497,
+      "parentAreaId": 1497,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 1519,
+      "parentAreaId": 1519,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 1519,
+      "parentAreaId": 1519,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 1519,
+      "parentAreaId": 1519,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 1537,
+      "parentAreaId": 1537,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 1537,
+      "parentAreaId": 1537,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 1537,
+      "parentAreaId": 1537,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 1577,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 1577,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 1577,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 1577,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 1581,
+      "parentAreaId": 1581,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 1581,
+      "parentAreaId": 1581,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 1581,
+      "parentAreaId": 1581,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 1637,
+      "parentAreaId": 1637,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 1637,
+      "parentAreaId": 1637,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 1637,
+      "parentAreaId": 1637,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 1638,
+      "parentAreaId": 1638,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 1638,
+      "parentAreaId": 1638,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 1638,
+      "parentAreaId": 1638,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 1657,
+      "parentAreaId": 1657,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 1657,
+      "parentAreaId": 1657,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 1657,
+      "parentAreaId": 1657,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 1701,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 1701,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 1701,
+      "parentAreaId": 17,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 1739,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 1739,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 1739,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 1739,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 1797,
+      "parentAreaId": 8,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 1797,
+      "parentAreaId": 8,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 1797,
+      "parentAreaId": 8,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 1797,
+      "parentAreaId": 8,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 1977,
+      "parentAreaId": 1977,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 1977,
+      "parentAreaId": 1977,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 1977,
+      "parentAreaId": 1977,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 1977,
+      "parentAreaId": 1977,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13889",
+      "areaId": 1977,
+      "parentAreaId": 1977,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13890",
+      "areaId": 1977,
+      "parentAreaId": 1977,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 2017,
+      "parentAreaId": 2017,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 2017,
+      "parentAreaId": 2017,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 2017,
+      "parentAreaId": 2017,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 2017,
+      "parentAreaId": 2017,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13889",
+      "areaId": 2017,
+      "parentAreaId": 2017,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13890",
+      "areaId": 2017,
+      "parentAreaId": 2017,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 2057,
+      "parentAreaId": 2057,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 2057,
+      "parentAreaId": 2057,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 2057,
+      "parentAreaId": 2057,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 2057,
+      "parentAreaId": 2057,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13889",
+      "areaId": 2057,
+      "parentAreaId": 2057,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13890",
+      "areaId": 2057,
+      "parentAreaId": 2057,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 2077,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 2077,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6308",
+      "areaId": 2077,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "12238",
+      "areaId": 2077,
+      "parentAreaId": 148,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 2079,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 2079,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 2079,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 2079,
+      "parentAreaId": 15,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 2100,
+      "parentAreaId": 2100,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "8365",
+      "areaId": 2100,
+      "parentAreaId": 2100,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13757",
+      "areaId": 2100,
+      "parentAreaId": 2100,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13758",
+      "areaId": 2100,
+      "parentAreaId": 2100,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13759",
+      "areaId": 2100,
+      "parentAreaId": 2100,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "13760",
+      "areaId": 2100,
+      "parentAreaId": 2100,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 2104,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 2104,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 2104,
+      "parentAreaId": 11,
+      "minimum": 55,
+      "noFail": 150,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 2324,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 2324,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 2324,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 2324,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6303",
+      "areaId": 2398,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 2398,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6361",
+      "areaId": 2398,
+      "parentAreaId": 130,
+      "minimum": 1,
+      "noFail": 75,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 2403,
+      "parentAreaId": 8,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 2403,
+      "parentAreaId": 8,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 2403,
+      "parentAreaId": 8,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 2403,
+      "parentAreaId": 8,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 2405,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 2405,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 2405,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 2405,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 2406,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 2406,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 2406,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 2406,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 2408,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 2408,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 2408,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 2408,
+      "parentAreaId": 405,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6289",
+      "areaId": 2979,
+      "parentAreaId": 14,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "6291",
+      "areaId": 2979,
+      "parentAreaId": 14,
+      "minimum": 1,
+      "noFail": 25,
+      "waterType": "freshwater"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 3140,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13422",
+      "areaId": 3140,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 3140,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13888",
+      "areaId": 3140,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13893",
+      "areaId": 3140,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13755",
+      "areaId": 3140,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 3140,
+      "parentAreaId": 16,
+      "minimum": 330,
+      "noFail": 425,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13755",
+      "areaId": 3317,
+      "parentAreaId": 47,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "13756",
+      "areaId": 3317,
+      "parentAreaId": 47,
+      "minimum": 205,
+      "noFail": 300,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "4603",
+      "areaId": 3357,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6358",
+      "areaId": 3357,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6359",
+      "areaId": 3357,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    },
+    {
+      "itemId": "6362",
+      "areaId": 3357,
+      "parentAreaId": 33,
+      "minimum": 130,
+      "noFail": 225,
+      "waterType": "ocean"
+    }
+  ],
+  "classicGuidePairs": [
+    {
+      "itemId": "12238",
+      "zoneId": 148,
+      "zone": "Darkshore"
+    },
+    {
+      "itemId": "13757",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "13757",
+      "zoneId": 46,
+      "zone": "Burning Steppes"
+    },
+    {
+      "itemId": "13757",
+      "zoneId": 41,
+      "zone": "Deadwind Pass"
+    },
+    {
+      "itemId": "13757",
+      "zoneId": 139,
+      "zone": "Eastern Plaguelands"
+    },
+    {
+      "itemId": "13757",
+      "zoneId": 361,
+      "zone": "Felwood"
+    },
+    {
+      "itemId": "13757",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "13757",
+      "zoneId": 493,
+      "zone": "Moonglade"
+    },
+    {
+      "itemId": "13757",
+      "zoneId": 47,
+      "zone": "The Hinterlands"
+    },
+    {
+      "itemId": "13757",
+      "zoneId": 490,
+      "zone": "Un'Goro Crater"
+    },
+    {
+      "itemId": "13757",
+      "zoneId": 28,
+      "zone": "Western Plaguelands"
+    },
+    {
+      "itemId": "13757",
+      "zoneId": 618,
+      "zone": "Winterspring"
+    },
+    {
+      "itemId": "13890",
+      "zoneId": 41,
+      "zone": "Deadwind Pass"
+    },
+    {
+      "itemId": "13890",
+      "zoneId": 139,
+      "zone": "Eastern Plaguelands"
+    },
+    {
+      "itemId": "13890",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "13890",
+      "zoneId": 618,
+      "zone": "Winterspring"
+    },
+    {
+      "itemId": "13422",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "13422",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "13422",
+      "zoneId": 33,
+      "zone": "Stranglethorn Vale"
+    },
+    {
+      "itemId": "13422",
+      "zoneId": 440,
+      "zone": "Tanaris"
+    },
+    {
+      "itemId": "6359",
+      "zoneId": 406,
+      "zone": "Stonetalon Mountains"
+    },
+    {
+      "itemId": "6359",
+      "zoneId": 45,
+      "zone": "Arathi Highlands"
+    },
+    {
+      "itemId": "6359",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "6359",
+      "zoneId": 405,
+      "zone": "Desolace"
+    },
+    {
+      "itemId": "6359",
+      "zoneId": 15,
+      "zone": "Dustwallow Marsh"
+    },
+    {
+      "itemId": "6359",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "6359",
+      "zoneId": 267,
+      "zone": "Hillsbrad Foothills"
+    },
+    {
+      "itemId": "6359",
+      "zoneId": 33,
+      "zone": "Stranglethorn Vale"
+    },
+    {
+      "itemId": "6359",
+      "zoneId": 440,
+      "zone": "Tanaris"
+    },
+    {
+      "itemId": "6359",
+      "zoneId": 11,
+      "zone": "Wetlands"
+    },
+    {
+      "itemId": "6358",
+      "zoneId": 45,
+      "zone": "Arathi Highlands"
+    },
+    {
+      "itemId": "6358",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "6358",
+      "zoneId": 148,
+      "zone": "Darkshore"
+    },
+    {
+      "itemId": "6358",
+      "zoneId": 405,
+      "zone": "Desolace"
+    },
+    {
+      "itemId": "6358",
+      "zoneId": 15,
+      "zone": "Dustwallow Marsh"
+    },
+    {
+      "itemId": "6358",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "6358",
+      "zoneId": 267,
+      "zone": "Hillsbrad Foothills"
+    },
+    {
+      "itemId": "6358",
+      "zoneId": 130,
+      "zone": "Silverpine Forest"
+    },
+    {
+      "itemId": "6358",
+      "zoneId": 33,
+      "zone": "Stranglethorn Vale"
+    },
+    {
+      "itemId": "6358",
+      "zoneId": 440,
+      "zone": "Tanaris"
+    },
+    {
+      "itemId": "6358",
+      "zoneId": 17,
+      "zone": "The Barrens"
+    },
+    {
+      "itemId": "6358",
+      "zoneId": 40,
+      "zone": "Westfall"
+    },
+    {
+      "itemId": "6358",
+      "zoneId": 11,
+      "zone": "Wetlands"
+    },
+    {
+      "itemId": "13888",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "6522",
+      "zoneId": 17,
+      "zone": "The Barrens"
+    },
+    {
+      "itemId": "13893",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 148,
+      "zone": "Darkshore"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 1657,
+      "zone": "Darnassus"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 1,
+      "zone": "Dun Morogh"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 14,
+      "zone": "Durotar"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 10,
+      "zone": "Duskwood"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 12,
+      "zone": "Elwynn Forest"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 38,
+      "zone": "Loch Modan"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 215,
+      "zone": "Mulgore"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 1637,
+      "zone": "Orgrimmar"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 130,
+      "zone": "Silverpine Forest"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 1519,
+      "zone": "Stormwind City"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 440,
+      "zone": "Tanaris"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 141,
+      "zone": "Teldrassil"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 17,
+      "zone": "The Barrens"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 1638,
+      "zone": "Thunder Bluff"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 85,
+      "zone": "Tirisfal Glades"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 1497,
+      "zone": "Undercity"
+    },
+    {
+      "itemId": "6291",
+      "zoneId": 40,
+      "zone": "Westfall"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 36,
+      "zone": "Alterac Mountains"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 45,
+      "zone": "Arathi Highlands"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 331,
+      "zone": "Ashenvale"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 148,
+      "zone": "Darkshore"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 1657,
+      "zone": "Darnassus"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 405,
+      "zone": "Desolace"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 14,
+      "zone": "Durotar"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 10,
+      "zone": "Duskwood"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 15,
+      "zone": "Dustwallow Marsh"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 267,
+      "zone": "Hillsbrad Foothills"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 1637,
+      "zone": "Orgrimmar"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 44,
+      "zone": "Redridge Mountains"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 130,
+      "zone": "Silverpine Forest"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 1519,
+      "zone": "Stormwind City"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 33,
+      "zone": "Stranglethorn Vale"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 40,
+      "zone": "Westfall"
+    },
+    {
+      "itemId": "6308",
+      "zoneId": 11,
+      "zone": "Wetlands"
+    },
+    {
+      "itemId": "13754",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "13754",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "13754",
+      "zoneId": 33,
+      "zone": "Stranglethorn Vale"
+    },
+    {
+      "itemId": "13754",
+      "zoneId": 440,
+      "zone": "Tanaris"
+    },
+    {
+      "itemId": "13754",
+      "zoneId": 47,
+      "zone": "The Hinterlands"
+    },
+    {
+      "itemId": "21153",
+      "zoneId": 36,
+      "zone": "Alterac Mountains"
+    },
+    {
+      "itemId": "21153",
+      "zoneId": 33,
+      "zone": "Stranglethorn Vale"
+    },
+    {
+      "itemId": "6317",
+      "zoneId": 38,
+      "zone": "Loch Modan"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 331,
+      "zone": "Ashenvale"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 148,
+      "zone": "Darkshore"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 1657,
+      "zone": "Darnassus"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 1,
+      "zone": "Dun Morogh"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 14,
+      "zone": "Durotar"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 10,
+      "zone": "Duskwood"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 12,
+      "zone": "Elwynn Forest"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 267,
+      "zone": "Hillsbrad Foothills"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 38,
+      "zone": "Loch Modan"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 215,
+      "zone": "Mulgore"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 1637,
+      "zone": "Orgrimmar"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 44,
+      "zone": "Redridge Mountains"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 130,
+      "zone": "Silverpine Forest"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 406,
+      "zone": "Stonetalon Mountains"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 1519,
+      "zone": "Stormwind City"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 141,
+      "zone": "Teldrassil"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 17,
+      "zone": "The Barrens"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 1638,
+      "zone": "Thunder Bluff"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 85,
+      "zone": "Tirisfal Glades"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 1497,
+      "zone": "Undercity"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 40,
+      "zone": "Westfall"
+    },
+    {
+      "itemId": "6289",
+      "zoneId": 11,
+      "zone": "Wetlands"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 36,
+      "zone": "Alterac Mountains"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 45,
+      "zone": "Arathi Highlands"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 331,
+      "zone": "Ashenvale"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 405,
+      "zone": "Desolace"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 15,
+      "zone": "Dustwallow Marsh"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 139,
+      "zone": "Eastern Plaguelands"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 361,
+      "zone": "Felwood"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 493,
+      "zone": "Moonglade"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 33,
+      "zone": "Stranglethorn Vale"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 8,
+      "zone": "Swamp of Sorrows"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 47,
+      "zone": "The Hinterlands"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 400,
+      "zone": "Thousand Needles"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 490,
+      "zone": "Un'Goro Crater"
+    },
+    {
+      "itemId": "8365",
+      "zoneId": 28,
+      "zone": "Western Plaguelands"
+    },
+    {
+      "itemId": "13759",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "13759",
+      "zoneId": 41,
+      "zone": "Deadwind Pass"
+    },
+    {
+      "itemId": "13759",
+      "zoneId": 139,
+      "zone": "Eastern Plaguelands"
+    },
+    {
+      "itemId": "13759",
+      "zoneId": 361,
+      "zone": "Felwood"
+    },
+    {
+      "itemId": "13759",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "13759",
+      "zoneId": 493,
+      "zone": "Moonglade"
+    },
+    {
+      "itemId": "13759",
+      "zoneId": 47,
+      "zone": "The Hinterlands"
+    },
+    {
+      "itemId": "13759",
+      "zoneId": 490,
+      "zone": "Un'Goro Crater"
+    },
+    {
+      "itemId": "13759",
+      "zoneId": 28,
+      "zone": "Western Plaguelands"
+    },
+    {
+      "itemId": "13759",
+      "zoneId": 618,
+      "zone": "Winterspring"
+    },
+    {
+      "itemId": "6361",
+      "zoneId": 331,
+      "zone": "Ashenvale"
+    },
+    {
+      "itemId": "6361",
+      "zoneId": 148,
+      "zone": "Darkshore"
+    },
+    {
+      "itemId": "6361",
+      "zoneId": 267,
+      "zone": "Hillsbrad Foothills"
+    },
+    {
+      "itemId": "6361",
+      "zoneId": 130,
+      "zone": "Silverpine Forest"
+    },
+    {
+      "itemId": "6361",
+      "zoneId": 17,
+      "zone": "The Barrens"
+    },
+    {
+      "itemId": "6361",
+      "zoneId": 40,
+      "zone": "Westfall"
+    },
+    {
+      "itemId": "6361",
+      "zoneId": 11,
+      "zone": "Wetlands"
+    },
+    {
+      "itemId": "13758",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "13758",
+      "zoneId": 41,
+      "zone": "Deadwind Pass"
+    },
+    {
+      "itemId": "13758",
+      "zoneId": 139,
+      "zone": "Eastern Plaguelands"
+    },
+    {
+      "itemId": "13758",
+      "zoneId": 361,
+      "zone": "Felwood"
+    },
+    {
+      "itemId": "13758",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "13758",
+      "zoneId": 493,
+      "zone": "Moonglade"
+    },
+    {
+      "itemId": "13758",
+      "zoneId": 47,
+      "zone": "The Hinterlands"
+    },
+    {
+      "itemId": "13758",
+      "zoneId": 490,
+      "zone": "Un'Goro Crater"
+    },
+    {
+      "itemId": "13758",
+      "zoneId": 28,
+      "zone": "Western Plaguelands"
+    },
+    {
+      "itemId": "13758",
+      "zoneId": 618,
+      "zone": "Winterspring"
+    },
+    {
+      "itemId": "6362",
+      "zoneId": 45,
+      "zone": "Arathi Highlands"
+    },
+    {
+      "itemId": "6362",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "6362",
+      "zoneId": 405,
+      "zone": "Desolace"
+    },
+    {
+      "itemId": "6362",
+      "zoneId": 15,
+      "zone": "Dustwallow Marsh"
+    },
+    {
+      "itemId": "6362",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "6362",
+      "zoneId": 33,
+      "zone": "Stranglethorn Vale"
+    },
+    {
+      "itemId": "6362",
+      "zoneId": 8,
+      "zone": "Swamp of Sorrows"
+    },
+    {
+      "itemId": "6362",
+      "zoneId": 440,
+      "zone": "Tanaris"
+    },
+    {
+      "itemId": "6362",
+      "zoneId": 47,
+      "zone": "The Hinterlands"
+    },
+    {
+      "itemId": "21071",
+      "zoneId": 331,
+      "zone": "Ashenvale"
+    },
+    {
+      "itemId": "21071",
+      "zoneId": 267,
+      "zone": "Hillsbrad Foothills"
+    },
+    {
+      "itemId": "21071",
+      "zoneId": 38,
+      "zone": "Loch Modan"
+    },
+    {
+      "itemId": "21071",
+      "zoneId": 130,
+      "zone": "Silverpine Forest"
+    },
+    {
+      "itemId": "21071",
+      "zoneId": 406,
+      "zone": "Stonetalon Mountains"
+    },
+    {
+      "itemId": "6303",
+      "zoneId": 148,
+      "zone": "Darkshore"
+    },
+    {
+      "itemId": "6303",
+      "zoneId": 14,
+      "zone": "Durotar"
+    },
+    {
+      "itemId": "6303",
+      "zoneId": 130,
+      "zone": "Silverpine Forest"
+    },
+    {
+      "itemId": "6303",
+      "zoneId": 141,
+      "zone": "Teldrassil"
+    },
+    {
+      "itemId": "6303",
+      "zoneId": 85,
+      "zone": "Tirisfal Glades"
+    },
+    {
+      "itemId": "6303",
+      "zoneId": 17,
+      "zone": "The Barrens"
+    },
+    {
+      "itemId": "6303",
+      "zoneId": 40,
+      "zone": "Westfall"
+    },
+    {
+      "itemId": "4603",
+      "zoneId": 45,
+      "zone": "Arathi Highlands"
+    },
+    {
+      "itemId": "4603",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "4603",
+      "zoneId": 405,
+      "zone": "Desolace"
+    },
+    {
+      "itemId": "4603",
+      "zoneId": 15,
+      "zone": "Dustwallow Marsh"
+    },
+    {
+      "itemId": "4603",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "4603",
+      "zoneId": 33,
+      "zone": "Stranglethorn Vale"
+    },
+    {
+      "itemId": "4603",
+      "zoneId": 8,
+      "zone": "Swamp of Sorrows"
+    },
+    {
+      "itemId": "4603",
+      "zoneId": 440,
+      "zone": "Tanaris"
+    },
+    {
+      "itemId": "4603",
+      "zoneId": 47,
+      "zone": "The Hinterlands"
+    },
+    {
+      "itemId": "13756",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "13756",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "13756",
+      "zoneId": 33,
+      "zone": "Stranglethorn Vale"
+    },
+    {
+      "itemId": "13756",
+      "zoneId": 440,
+      "zone": "Tanaris"
+    },
+    {
+      "itemId": "13756",
+      "zoneId": 47,
+      "zone": "The Hinterlands"
+    },
+    {
+      "itemId": "13760",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "13760",
+      "zoneId": 41,
+      "zone": "Deadwind Pass"
+    },
+    {
+      "itemId": "13760",
+      "zoneId": 139,
+      "zone": "Eastern Plaguelands"
+    },
+    {
+      "itemId": "13760",
+      "zoneId": 361,
+      "zone": "Felwood"
+    },
+    {
+      "itemId": "13760",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "13760",
+      "zoneId": 493,
+      "zone": "Moonglade"
+    },
+    {
+      "itemId": "13760",
+      "zoneId": 47,
+      "zone": "The Hinterlands"
+    },
+    {
+      "itemId": "13760",
+      "zoneId": 490,
+      "zone": "Un'Goro Crater"
+    },
+    {
+      "itemId": "13760",
+      "zoneId": 28,
+      "zone": "Western Plaguelands"
+    },
+    {
+      "itemId": "13760",
+      "zoneId": 618,
+      "zone": "Winterspring"
+    },
+    {
+      "itemId": "13889",
+      "zoneId": 46,
+      "zone": "Burning Steppes"
+    },
+    {
+      "itemId": "13889",
+      "zoneId": 41,
+      "zone": "Deadwind Pass"
+    },
+    {
+      "itemId": "13889",
+      "zoneId": 139,
+      "zone": "Eastern Plaguelands"
+    },
+    {
+      "itemId": "13889",
+      "zoneId": 361,
+      "zone": "Felwood"
+    },
+    {
+      "itemId": "13889",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "13889",
+      "zoneId": 618,
+      "zone": "Winterspring"
+    },
+    {
+      "itemId": "13755",
+      "zoneId": 16,
+      "zone": "Azshara"
+    },
+    {
+      "itemId": "13755",
+      "zoneId": 357,
+      "zone": "Feralas"
+    },
+    {
+      "itemId": "13755",
+      "zoneId": 33,
+      "zone": "Stranglethorn Vale"
+    },
+    {
+      "itemId": "13755",
+      "zoneId": 440,
+      "zone": "Tanaris"
+    },
+    {
+      "itemId": "13755",
+      "zoneId": 47,
+      "zone": "The Hinterlands"
+    }
+  ],
+  "classicPoolGroups": [
+    {
+      "objectId": 180582,
+      "name": "Oily Blackmouth School",
+      "lootId": 17440,
+      "spawnGroup": "Fishing - Westfall (Longshore & Westfall Lighthouse)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180582,
+      "name": "Oily Blackmouth School",
+      "lootId": 17440,
+      "spawnGroup": "Fishing - Silverpine Forest (South Tide's Run)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180582,
+      "name": "Oily Blackmouth School",
+      "lootId": 17440,
+      "spawnGroup": "Fishing - Silverpine Forest (Fenris Isle)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180582,
+      "name": "Oily Blackmouth School",
+      "lootId": 17440,
+      "spawnGroup": "Fishing - Silverpine Forest (Lordamere Lake & The Decrepit Ferry & Valgan's Field)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180582,
+      "name": "Oily Blackmouth School",
+      "lootId": 17440,
+      "spawnGroup": "Fishing - Silverpine Forest (North Tide's Run & The Skittering Dark)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180582,
+      "name": "Oily Blackmouth School",
+      "lootId": 17440,
+      "spawnGroup": "Fishing - Silverpine Forest (The Shining Strand)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180582,
+      "name": "Oily Blackmouth School",
+      "lootId": 17440,
+      "spawnGroup": "Fishing - The Barrens (The Merchant Coast)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180582,
+      "name": "Oily Blackmouth School",
+      "lootId": 17440,
+      "spawnGroup": "Fishing - The Barrens (Ratchet & The Tidus Stair)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180582,
+      "name": "Oily Blackmouth School",
+      "lootId": 17440,
+      "spawnGroup": "Fishing - Darkshore (Twilight Shore)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180582,
+      "name": "Oily Blackmouth School",
+      "lootId": 17440,
+      "spawnGroup": "Fishing - Darkshore (The Long Wash)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180582,
+      "name": "Oily Blackmouth School",
+      "lootId": 17440,
+      "spawnGroup": "Fishing - Darkshore (Auberdine)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180582,
+      "name": "Oily Blackmouth School",
+      "lootId": 17440,
+      "spawnGroup": "Fishing - Darkshore (Mist's Edge)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180656,
+      "name": "Sagefish School",
+      "lootId": 17494,
+      "spawnGroup": "Fishing - Loch Modan (The Loch)",
+      "itemIds": [
+        21071
+      ]
+    },
+    {
+      "objectId": 180656,
+      "name": "Sagefish School",
+      "lootId": 17494,
+      "spawnGroup": "Fishing - Silverpine Forest (South Tide's Run)",
+      "itemIds": [
+        21071
+      ]
+    },
+    {
+      "objectId": 180656,
+      "name": "Sagefish School",
+      "lootId": 17494,
+      "spawnGroup": "Fishing - Silverpine Forest (Fenris Isle)",
+      "itemIds": [
+        21071
+      ]
+    },
+    {
+      "objectId": 180656,
+      "name": "Sagefish School",
+      "lootId": 17494,
+      "spawnGroup": "Fishing - Silverpine Forest (Lordamere Lake & The Decrepit Ferry & Valgan's Field)",
+      "itemIds": [
+        21071
+      ]
+    },
+    {
+      "objectId": 180656,
+      "name": "Sagefish School",
+      "lootId": 17494,
+      "spawnGroup": "Fishing - Silverpine Forest (North Tide's Run & The Skittering Dark)",
+      "itemIds": [
+        21071
+      ]
+    },
+    {
+      "objectId": 180656,
+      "name": "Sagefish School",
+      "lootId": 17494,
+      "spawnGroup": "Fishing - Silverpine Forest (The Shining Strand)",
+      "itemIds": [
+        21071
+      ]
+    },
+    {
+      "objectId": 180657,
+      "name": "Firefin Snapper School",
+      "lootId": 17500,
+      "spawnGroup": "Fishing - Wetlands (Menethil Harbor & Baradin Bay)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180657,
+      "name": "Firefin Snapper School",
+      "lootId": 17500,
+      "spawnGroup": "Fishing - Wetlands (Baradin Bay & Bluegill Marsh & The Lost Fleet)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180657,
+      "name": "Firefin Snapper School",
+      "lootId": 17500,
+      "spawnGroup": "Fishing - Hillsbrad Foothills (Eastern Strand)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180657,
+      "name": "Firefin Snapper School",
+      "lootId": 17500,
+      "spawnGroup": "Fishing - Hillsbrad Foothills (Western Strand)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180657,
+      "name": "Firefin Snapper School",
+      "lootId": 17500,
+      "spawnGroup": "Fishing - Hillsbrad Foothills (Southshore)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180661,
+      "name": "Oil Spill",
+      "lootId": 17500,
+      "spawnGroup": "Fishing - Stonetalon Mountains (Blackwolf River)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180661,
+      "name": "Oil Spill",
+      "lootId": 17500,
+      "spawnGroup": "Fishing - Stonetalon Mountains (Cragpool Lake)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180663,
+      "name": "Sagefish School",
+      "lootId": 17502,
+      "spawnGroup": "Fishing - Stonetalon Mountains (Mirkfallon Lake)",
+      "itemIds": [
+        21071
+      ]
+    },
+    {
+      "objectId": 180664,
+      "name": "Oily Blackmouth School",
+      "lootId": 17497,
+      "spawnGroup": "Fishing - Wetlands (Menethil Harbor & Baradin Bay)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180664,
+      "name": "Oily Blackmouth School",
+      "lootId": 17497,
+      "spawnGroup": "Fishing - Wetlands (Baradin Bay & Bluegill Marsh & The Lost Fleet)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180664,
+      "name": "Oily Blackmouth School",
+      "lootId": 17497,
+      "spawnGroup": "Fishing - Hillsbrad Foothills (Eastern Strand)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180664,
+      "name": "Oily Blackmouth School",
+      "lootId": 17497,
+      "spawnGroup": "Fishing - Hillsbrad Foothills (Western Strand)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180664,
+      "name": "Oily Blackmouth School",
+      "lootId": 17497,
+      "spawnGroup": "Fishing - Hillsbrad Foothills (Southshore)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180682,
+      "name": "Oily Blackmouth School",
+      "lootId": 17520,
+      "spawnGroup": "Fishing - Stranglethorn Vale (The Savage Coast & Grom'gol Base Camp & Zuuldaia Ruins & Yojamba Isle)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180682,
+      "name": "Oily Blackmouth School",
+      "lootId": 17520,
+      "spawnGroup": "Fishing - Arathi Highlands (Faldir's Cove)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180682,
+      "name": "Oily Blackmouth School",
+      "lootId": 17520,
+      "spawnGroup": "Fishing - Dustwallow Marsh (Dreadmurk Shore)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180682,
+      "name": "Oily Blackmouth School",
+      "lootId": 17520,
+      "spawnGroup": "Fishing - Desolace (Sar'theris Strand)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180682,
+      "name": "Oily Blackmouth School",
+      "lootId": 17520,
+      "spawnGroup": "Fishing - Desolace (Shadowprey Village)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180682,
+      "name": "Oily Blackmouth School",
+      "lootId": 17520,
+      "spawnGroup": "Fishing - Desolace (Ethel Rethor)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180683,
+      "name": "Firefin Snapper School",
+      "lootId": 17521,
+      "spawnGroup": "Fishing - Stranglethorn Vale (The Savage Coast & Grom'gol Base Camp & Zuuldaia Ruins & Yojamba Isle)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180683,
+      "name": "Firefin Snapper School",
+      "lootId": 17521,
+      "spawnGroup": "Fishing - Arathi Highlands (Faldir's Cove)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180683,
+      "name": "Firefin Snapper School",
+      "lootId": 17521,
+      "spawnGroup": "Fishing - Dustwallow Marsh (Dreadmurk Shore)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180683,
+      "name": "Firefin Snapper School",
+      "lootId": 17521,
+      "spawnGroup": "Fishing - Desolace (Sar'theris Strand)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180683,
+      "name": "Firefin Snapper School",
+      "lootId": 17521,
+      "spawnGroup": "Fishing - Desolace (Shadowprey Village)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180683,
+      "name": "Firefin Snapper School",
+      "lootId": 17521,
+      "spawnGroup": "Fishing - Desolace (Ethel Rethor)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180684,
+      "name": "Greater Sagefish School",
+      "lootId": 17519,
+      "spawnGroup": "Fishing - Stranglethorn Vale (River)",
+      "itemIds": [
+        21153
+      ]
+    },
+    {
+      "objectId": 180684,
+      "name": "Greater Sagefish School",
+      "lootId": 17519,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Lake Nazferiti & Venture Co. Base Camp)",
+      "itemIds": [
+        21153
+      ]
+    },
+    {
+      "objectId": 180684,
+      "name": "Greater Sagefish School",
+      "lootId": 17519,
+      "spawnGroup": "Fishing - Stranglethorn Vale (River after Lake Nazferiti)",
+      "itemIds": [
+        21153
+      ]
+    },
+    {
+      "objectId": 180684,
+      "name": "Greater Sagefish School",
+      "lootId": 17519,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Nesingwary's Expedition)",
+      "itemIds": [
+        21153
+      ]
+    },
+    {
+      "objectId": 180684,
+      "name": "Greater Sagefish School",
+      "lootId": 17519,
+      "spawnGroup": "Fishing - Alterac Mountains (Dalaran & Misty Shore & Lordamere Lake & The Uplands & Dandred's Fold)",
+      "itemIds": [
+        21153
+      ]
+    },
+    {
+      "objectId": 180712,
+      "name": "Stonescale Eel Swarm",
+      "lootId": 17539,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Wild Shore)",
+      "itemIds": [
+        13422
+      ]
+    },
+    {
+      "objectId": 180712,
+      "name": "Stonescale Eel Swarm",
+      "lootId": 17539,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Booty Bay)",
+      "itemIds": [
+        13422
+      ]
+    },
+    {
+      "objectId": 180712,
+      "name": "Stonescale Eel Swarm",
+      "lootId": 17539,
+      "spawnGroup": "Fishing - Stranglethorn Vale (The Crystal Shore & Ruins of Aboraz)",
+      "itemIds": [
+        13422
+      ]
+    },
+    {
+      "objectId": 180712,
+      "name": "Stonescale Eel Swarm",
+      "lootId": 17539,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Southern Savage Coast)",
+      "itemIds": [
+        13422
+      ]
+    },
+    {
+      "objectId": 180712,
+      "name": "Stonescale Eel Swarm",
+      "lootId": 17539,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Bloodsail Compound)",
+      "itemIds": [
+        13422
+      ]
+    },
+    {
+      "objectId": 180712,
+      "name": "Stonescale Eel Swarm",
+      "lootId": 17539,
+      "spawnGroup": "Fishing - Tanaris (Southbreak Shore)",
+      "itemIds": [
+        13422
+      ]
+    },
+    {
+      "objectId": 180712,
+      "name": "Stonescale Eel Swarm",
+      "lootId": 17539,
+      "spawnGroup": "Fishing - Tanaris (Lost Rigger Cove)",
+      "itemIds": [
+        13422
+      ]
+    },
+    {
+      "objectId": 180712,
+      "name": "Stonescale Eel Swarm",
+      "lootId": 17539,
+      "spawnGroup": "Fishing - Tanaris (Wavestrider Beach)",
+      "itemIds": [
+        13422
+      ]
+    },
+    {
+      "objectId": 180712,
+      "name": "Stonescale Eel Swarm",
+      "lootId": 17539,
+      "spawnGroup": "Fishing - Tanaris (Steamwheedle Port)",
+      "itemIds": [
+        13422
+      ]
+    },
+    {
+      "objectId": 180712,
+      "name": "Stonescale Eel Swarm",
+      "lootId": 17539,
+      "spawnGroup": "Fishing - Feralas (The Forgotten Coast)",
+      "itemIds": [
+        13422
+      ]
+    },
+    {
+      "objectId": 180712,
+      "name": "Stonescale Eel Swarm",
+      "lootId": 17539,
+      "spawnGroup": "Fishing - Azshara (Southridge Beach)",
+      "itemIds": [
+        13422
+      ]
+    },
+    {
+      "objectId": 180712,
+      "name": "Stonescale Eel Swarm",
+      "lootId": 17539,
+      "spawnGroup": "Fishing - Azshara (Bay of Storms & The Shattered Strand)",
+      "itemIds": [
+        13422
+      ]
+    },
+    {
+      "objectId": 180750,
+      "name": "Oily Blackmouth School",
+      "lootId": 17537,
+      "spawnGroup": "Fishing - Tanaris (Southbreak Shore)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180750,
+      "name": "Oily Blackmouth School",
+      "lootId": 17537,
+      "spawnGroup": "Fishing - Tanaris (Lost Rigger Cove)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180750,
+      "name": "Oily Blackmouth School",
+      "lootId": 17537,
+      "spawnGroup": "Fishing - Tanaris (Wavestrider Beach)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180750,
+      "name": "Oily Blackmouth School",
+      "lootId": 17537,
+      "spawnGroup": "Fishing - Tanaris (Steamwheedle Port)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180750,
+      "name": "Oily Blackmouth School",
+      "lootId": 17537,
+      "spawnGroup": "Fishing - Feralas (The Forgotten Coast)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180750,
+      "name": "Oily Blackmouth School",
+      "lootId": 17537,
+      "spawnGroup": "Fishing - Azshara (Southridge Beach)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180750,
+      "name": "Oily Blackmouth School",
+      "lootId": 17537,
+      "spawnGroup": "Fishing - Azshara (Bay of Storms & The Shattered Strand)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180752,
+      "name": "Firefin Snapper School",
+      "lootId": 17538,
+      "spawnGroup": "Fishing - Tanaris (Southbreak Shore)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180752,
+      "name": "Firefin Snapper School",
+      "lootId": 17538,
+      "spawnGroup": "Fishing - Tanaris (Lost Rigger Cove)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180752,
+      "name": "Firefin Snapper School",
+      "lootId": 17538,
+      "spawnGroup": "Fishing - Tanaris (Wavestrider Beach)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180752,
+      "name": "Firefin Snapper School",
+      "lootId": 17538,
+      "spawnGroup": "Fishing - Tanaris (Steamwheedle Port)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180752,
+      "name": "Firefin Snapper School",
+      "lootId": 17538,
+      "spawnGroup": "Fishing - Feralas (The Forgotten Coast)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180752,
+      "name": "Firefin Snapper School",
+      "lootId": 17538,
+      "spawnGroup": "Fishing - Azshara (Southridge Beach)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180752,
+      "name": "Firefin Snapper School",
+      "lootId": 17538,
+      "spawnGroup": "Fishing - Azshara (Bay of Storms & The Shattered Strand)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180900,
+      "name": "Oily Blackmouth School",
+      "lootId": 17537,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Wild Shore)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180900,
+      "name": "Oily Blackmouth School",
+      "lootId": 17537,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Booty Bay)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180900,
+      "name": "Oily Blackmouth School",
+      "lootId": 17537,
+      "spawnGroup": "Fishing - Stranglethorn Vale (The Crystal Shore & Ruins of Aboraz)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180900,
+      "name": "Oily Blackmouth School",
+      "lootId": 17537,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Southern Savage Coast)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180900,
+      "name": "Oily Blackmouth School",
+      "lootId": 17537,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Bloodsail Compound)",
+      "itemIds": [
+        6358
+      ]
+    },
+    {
+      "objectId": 180902,
+      "name": "Firefin Snapper School",
+      "lootId": 17538,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Wild Shore)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180902,
+      "name": "Firefin Snapper School",
+      "lootId": 17538,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Booty Bay)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180902,
+      "name": "Firefin Snapper School",
+      "lootId": 17538,
+      "spawnGroup": "Fishing - Stranglethorn Vale (The Crystal Shore & Ruins of Aboraz)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180902,
+      "name": "Firefin Snapper School",
+      "lootId": 17538,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Southern Savage Coast)",
+      "itemIds": [
+        6359
+      ]
+    },
+    {
+      "objectId": 180902,
+      "name": "Firefin Snapper School",
+      "lootId": 17538,
+      "spawnGroup": "Fishing - Stranglethorn Vale (Bloodsail Compound)",
+      "itemIds": [
+        6359
+      ]
+    }
+  ],
+  "sourceURLs": [
+    "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/",
+    "https://www.warcrafttavern.com/wow-classic/guides/fishing-pools/",
+    "https://github.com/cmangos/classic-db/releases/tag/latest",
+    "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/support/Forever/Zones/subZoneToParentZone.lua",
+    "https://foreverdb.net/data/items.json",
+    "https://foreverdb.net/data/profguides/fishing.json",
+    "https://foreverdb.net/data/professions/cooking.json"
+  ],
+  "limits": [
+    "Reference-complete within inspected sources and selected scope; not a claim that the live Forever server has no undocumented catches.",
+    "No Forever loot table or measured exact server skill thresholds are publicly exposed by these sources.",
+    "Zephras Isle catches use published player observations; skills remain unverified.",
+    "Riverglades player-supplied possibilities remain unverified, not established catches.",
+    "Raw Spinefin Halibut has a current cooking recipe but no supported fishing source; world/vendor sources are not promoted to fishing locations.",
+    "Named waters inherit their parent skill only when no explicit subzone base exists. Jademir Lake, Jaguero Isle, Bay of Storms, Hetaera's Clutch and Scalebeard's Cave retain explicit higher bases.",
+    "The old audit incorrectly associated area 1039 with Westfall; the named hierarchy identifies The Lost Fleet in Wetlands. Expansion uses the correct hierarchy."
+  ],
+  "sourceHashes": {
+    "items-current.json": "1b20dff7d3e28a0310ae6fab7ec65e1bb79f7955c9df321bddba98d6d9202ed6",
+    "fishing-data-current.json": "de366bde2cbb3d34c940986b6f74ace418715f46df38bc316085bfe54b7e4579",
+    "cooking-current.json": "8360e28763786b39d024f9d0bd9340659d77431c349ba53116f40f53fcb4323d",
+    "questie-zone-names.lua": "0728f2fe7fef29ec3589c8983e2b3a1b041a0f0059655496eb626d55eb0e94cf",
+    "questiedb-support-Forever-Zones-subZoneToParentZone.lua": "141de16d0dfee4e7389a3e1b9757f737df9735a3c922f8ba37e87b862729bc1d",
+    "classic-loot-guide.html": "7ec9a0869f1324638887703ca5c324a8251749f2ff3f53fca73f2a95bc9026d3",
+    "classic-pools-guide.html": "22f0e12e3691dabb4b785fa32fc85f97ba9378ecde754ab2ac9aca4f83322a9d"
+  }
+}
