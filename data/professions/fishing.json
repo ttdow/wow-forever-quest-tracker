@@ -27,7 +27,17 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "freshwater"
+      "waterType": "freshwater",
+      "locations": [
+        {
+          "area": "Teldrassil",
+          "detail": "Lake Al'Ameth"
+        },
+        {
+          "area": "Elwynn Forest",
+          "detail": "Crystal Lake"
+        }
+      ]
     },
     {
       "id": "6303-reference",
@@ -53,7 +63,13 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "ocean"
+      "waterType": "ocean",
+      "locations": [
+        {
+          "area": "Darkshore",
+          "detail": "Coast"
+        }
+      ]
     },
     {
       "id": "6289-reference",
@@ -81,7 +97,17 @@
         "waterType": "classic-guide-and-water-geography"
       },
       "waterType": "freshwater",
-      "notes": "Loch Modan restored: the independent Classic loot guide explicitly lists it. Stormwind catches are also described in the Forever beta leveling guide."
+      "notes": "Loch Modan restored: the independent Classic loot guide explicitly lists it. Stormwind catches are also described in the Forever beta leveling guide.",
+      "locations": [
+        {
+          "area": "Stormwind City",
+          "detail": "Canals"
+        },
+        {
+          "area": "Loch Modan",
+          "detail": "The Loch"
+        }
+      ]
     },
     {
       "id": "6317-reference",
@@ -107,7 +133,13 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "freshwater"
+      "waterType": "freshwater",
+      "locations": [
+        {
+          "area": "Loch Modan",
+          "detail": ""
+        }
+      ]
     },
     {
       "id": "6361-reference",
@@ -133,7 +165,17 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "ocean"
+      "waterType": "ocean",
+      "locations": [
+        {
+          "area": "Darkshore",
+          "detail": "Coast"
+        },
+        {
+          "area": "Westfall",
+          "detail": "Coast"
+        }
+      ]
     },
     {
       "id": "6522-reference",
@@ -160,7 +202,17 @@
         "waterType": "classic-guide-and-water-geography"
       },
       "waterType": "freshwater",
-      "catchType": "Oases / dungeon pools (freshwater)"
+      "catchType": "Oases / dungeon pools (freshwater)",
+      "locations": [
+        {
+          "area": "The Barrens",
+          "detail": "Oases"
+        },
+        {
+          "area": "Wailing Caverns",
+          "detail": "Dungeon pools"
+        }
+      ]
     },
     {
       "id": "21071-reference",
@@ -187,7 +239,17 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "freshwater"
+      "waterType": "freshwater",
+      "locations": [
+        {
+          "area": "Ashenvale",
+          "detail": "Sagefish Schools"
+        },
+        {
+          "area": "Hillsbrad Foothills",
+          "detail": "Sagefish Schools"
+        }
+      ]
     },
     {
       "id": "251524-reference",
@@ -213,7 +275,13 @@
       },
       "notes": "Only the named freshwater pools are supported. Minimum skill is not established by the source; the previously inferred Redridge value 55 is removed. About 150 with no escapes is a community report, not a proven threshold.",
       "waterType": "freshwater",
-      "catchType": "Whimsyfin pools (freshwater)"
+      "catchType": "Whimsyfin pools (freshwater)",
+      "locations": [
+        {
+          "area": "Redridge Mountains",
+          "detail": "River south of Stonewatch Keep and nearby murloc lake"
+        }
+      ]
     },
     {
       "id": "6308-reference",
@@ -239,7 +307,17 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "freshwater"
+      "waterType": "freshwater",
+      "locations": [
+        {
+          "area": "Redridge Mountains",
+          "detail": ""
+        },
+        {
+          "area": "Wetlands",
+          "detail": ""
+        }
+      ]
     },
     {
       "id": "6362-reference",
@@ -265,7 +343,17 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "ocean"
+      "waterType": "ocean",
+      "locations": [
+        {
+          "area": "Stranglethorn Vale",
+          "detail": "Coast"
+        },
+        {
+          "area": "Dustwallow Marsh",
+          "detail": "Coast"
+        }
+      ]
     },
     {
       "id": "8365-reference",
@@ -291,7 +379,17 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "freshwater"
+      "waterType": "freshwater",
+      "locations": [
+        {
+          "area": "Dustwallow Marsh",
+          "detail": "Inland waters"
+        },
+        {
+          "area": "Thousand Needles",
+          "detail": ""
+        }
+      ]
     },
     {
       "id": "8365-riverglades",
@@ -314,7 +412,13 @@
         "waterType": "unverified"
       },
       "notes": "Catch location, water type, and both skill thresholds remain unverified. The audited public fishing dataset has no Riverglades row; the current source records expose Stranglethorn catches instead. This is not evidence that Riverglades catches are impossible.",
-      "waterType": null
+      "waterType": null,
+      "locations": [
+        {
+          "area": "Riverglades",
+          "detail": ""
+        }
+      ]
     },
     {
       "id": "21153-reference",
@@ -341,7 +445,17 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "freshwater"
+      "waterType": "freshwater",
+      "locations": [
+        {
+          "area": "Alterac Mountains",
+          "detail": "Greater Sagefish Schools"
+        },
+        {
+          "area": "Stranglethorn Vale",
+          "detail": "Greater Sagefish Schools"
+        }
+      ]
     },
     {
       "id": "21153-riverglades",
@@ -364,7 +478,13 @@
         "waterType": "unverified"
       },
       "notes": "Catch location, water type, and both skill thresholds remain unverified. The audited public fishing dataset has no Riverglades row; the current source records expose Stranglethorn catches instead. This is not evidence that Riverglades catches are impossible.",
-      "waterType": null
+      "waterType": null,
+      "locations": [
+        {
+          "area": "Riverglades",
+          "detail": ""
+        }
+      ]
     },
     {
       "id": "4603-reference",
@@ -390,7 +510,17 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "ocean"
+      "waterType": "ocean",
+      "locations": [
+        {
+          "area": "Dustwallow Marsh",
+          "detail": "Coast"
+        },
+        {
+          "area": "Stranglethorn Vale",
+          "detail": "Coast"
+        }
+      ]
     },
     {
       "id": "13754-reference",
@@ -416,7 +546,17 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "ocean"
+      "waterType": "ocean",
+      "locations": [
+        {
+          "area": "Tanaris",
+          "detail": "Coast"
+        },
+        {
+          "area": "Feralas",
+          "detail": "Coast"
+        }
+      ]
     },
     {
       "id": "13758-reference",
@@ -442,7 +582,17 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "freshwater"
+      "waterType": "freshwater",
+      "locations": [
+        {
+          "area": "Felwood",
+          "detail": ""
+        },
+        {
+          "area": "Moonglade",
+          "detail": ""
+        }
+      ]
     },
     {
       "id": "13755-reference",
@@ -470,7 +620,17 @@
         "catchWindow": "classic-guide-reference-not-confirmed-forever"
       },
       "waterType": "ocean",
-      "waterDetail": "Sep 23–Mar 19 (Classic)"
+      "waterDetail": "Sep 23–Mar 19 (Classic)",
+      "locations": [
+        {
+          "area": "Tanaris",
+          "detail": "Coast"
+        },
+        {
+          "area": "Feralas",
+          "detail": "Coast"
+        }
+      ]
     },
     {
       "id": "13756-reference",
@@ -498,7 +658,17 @@
         "catchWindow": "classic-guide-reference-not-confirmed-forever"
       },
       "waterType": "ocean",
-      "waterDetail": "Mar 20–Sep 22 (Classic)"
+      "waterDetail": "Mar 20–Sep 22 (Classic)",
+      "locations": [
+        {
+          "area": "Tanaris",
+          "detail": "Coast"
+        },
+        {
+          "area": "Feralas",
+          "detail": "Coast"
+        }
+      ]
     },
     {
       "id": "13759-reference",
@@ -527,7 +697,17 @@
       },
       "notes": "The displayed server-time window is a Classic guide reference, not a confirmed Forever restriction.",
       "waterType": "freshwater",
-      "waterDetail": "18:00–12:00 server time (Classic)"
+      "waterDetail": "18:00–12:00 server time (Classic)",
+      "locations": [
+        {
+          "area": "Felwood",
+          "detail": ""
+        },
+        {
+          "area": "Moonglade",
+          "detail": ""
+        }
+      ]
     },
     {
       "id": "13760-reference",
@@ -556,7 +736,17 @@
       },
       "notes": "The displayed server-time window is a Classic guide reference, not a confirmed Forever restriction.",
       "waterType": "freshwater",
-      "waterDetail": "06:00–00:00 server time (Classic)"
+      "waterDetail": "06:00–00:00 server time (Classic)",
+      "locations": [
+        {
+          "area": "Felwood",
+          "detail": ""
+        },
+        {
+          "area": "Moonglade",
+          "detail": ""
+        }
+      ]
     },
     {
       "id": "13890-reference",
@@ -582,7 +772,17 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "freshwater"
+      "waterType": "freshwater",
+      "locations": [
+        {
+          "area": "Winterspring",
+          "detail": ""
+        },
+        {
+          "area": "Eastern Plaguelands",
+          "detail": ""
+        }
+      ]
     },
     {
       "id": "13889-reference",
@@ -608,7 +808,17 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "freshwater"
+      "waterType": "freshwater",
+      "locations": [
+        {
+          "area": "Winterspring",
+          "detail": ""
+        },
+        {
+          "area": "Eastern Plaguelands",
+          "detail": ""
+        }
+      ]
     },
     {
       "id": "13888-reference",
@@ -634,7 +844,13 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "ocean"
+      "waterType": "ocean",
+      "locations": [
+        {
+          "area": "Azshara",
+          "detail": "Bay of Storms"
+        }
+      ]
     },
     {
       "id": "13893-reference",
@@ -660,7 +876,13 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "ocean"
+      "waterType": "ocean",
+      "locations": [
+        {
+          "area": "Azshara",
+          "detail": "Bay of Storms"
+        }
+      ]
     }
   ],
   "notes": "All rows audited against item identities, public Forever catch records, detailed Classic loot/pool guides, and Classic skill references. Water/catch type is explicit; special catches specify their freshwater habitat. Exact Forever skill thresholds remain unverified. Whimsyfin minimum and Riverglades catches, water type, and skills are unverified. Cooking recipes and cooked bonuses remain excluded.",

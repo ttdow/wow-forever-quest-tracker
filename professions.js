@@ -2,7 +2,7 @@
 'use strict';
 const $ = selector => document.querySelector(selector);
 const panel = $('#profession-panel');
-const state = { data: null, pending: null, active: false, version: 0 };
+const state = { data: null, pending: null, active: false, version: 0, view: 'fish' };
 const waterLabels = { freshwater: 'Freshwater', ocean: 'Ocean' };
 const waterLabel = fish => typeof fish.catchType === 'string' && fish.catchType.trim() ? fish.catchType.trim() : typeof fish.waterType === 'string' && Object.hasOwn(waterLabels, fish.waterType) ? waterLabels[fish.waterType] : 'Unverified';
 
@@ -33,40 +33,105 @@ function cell(text, className, label) {
   return node;
 }
 
-function render() {
-  if (!state.active || panel.hidden || !state.data) return;
-  const query = $('#fishing-search').value.trim().toLocaleLowerCase();
-  const fish = state.data.fish.filter(fish => !query || [fish.name, fish.location, fish.itemId, waterLabel(fish), typeof fish.waterDetail === 'string' ? fish.waterDetail : ''].join(' ').toLocaleLowerCase().includes(query));
-  const fragment = document.createDocumentFragment();
-  for (const entry of fish) {
-    const row = document.createElement('tr');
-    row.dataset.fishId = entry.id;
-    const name = cell('', 'fish-name');
-    const link = document.createElement('a');
-    link.textContent = entry.name;
-    link.href = `https://www.wowhead.com/forever/item=${entry.itemId}`;
-    link.target = '_blank'; link.rel = 'noopener noreferrer';
-    name.append(link);
-    const location = cell(entry.location, 'fish-location', 'Where to catch');
-    if (entry.verification === 'unverified') {
-      const label = document.createElement('span');
-      label.className = 'fish-unverified'; label.textContent = '(Unverified)';
-      location.append(' ', label);
-    }
-    const water = cell(waterLabel(entry), 'fish-water', 'Water / catch type');
-    if (typeof entry.waterDetail === 'string' && entry.waterDetail.trim()) {
-      const detail = document.createElement('span');
-      detail.className = 'fish-detail'; detail.textContent = entry.waterDetail;
-      water.append(detail);
-    }
-    const minimum = cell(entry.minFishing === null ? 'Unverified' : String(entry.minFishing), 'fish-skill', 'Min. Fishing');
-    const noFail = cell(entry.noFailFishing === null ? 'Unverified' : `${entry.noFailApproximate === true ? '~' : ''}${entry.noFailFishing}`, 'fish-skill', 'No-fail Fishing');
-    row.append(name, location, water, minimum, noFail);
-    fragment.append(row);
+function markUnverified(node) {
+  const label = document.createElement('span');
+  label.className = 'fish-unverified'; label.textContent = '(Unverified)';
+  node.append(' ', label);
+}
+
+function fishRow(entry, locationText = entry.location, unverified = entry.verification === 'unverified') {
+  const row = document.createElement('tr');
+  row.dataset.fishId = entry.id;
+  const name = cell('', 'fish-name');
+  const link = document.createElement('a');
+  link.textContent = entry.name;
+  link.href = `https://www.wowhead.com/forever/item=${entry.itemId}`;
+  link.target = '_blank'; link.rel = 'noopener noreferrer';
+  name.append(link);
+  const location = cell(locationText, 'fish-location', state.view === 'area' ? 'Where in area' : 'Where to catch');
+  if (unverified) markUnverified(location);
+  const water = cell(waterLabel(entry), 'fish-water', 'Water / catch type');
+  if (typeof entry.waterDetail === 'string' && entry.waterDetail.trim()) {
+    const detail = document.createElement('span');
+    detail.className = 'fish-detail'; detail.textContent = entry.waterDetail;
+    water.append(detail);
   }
-  $('#fishing-rows').replaceChildren(fragment);
-  $('#fishing-empty').hidden = fish.length > 0;
-  $('#fishing-result-count').textContent = `${fish.length} of ${state.data.fish.length} entries`;
+  const minimum = cell(entry.minFishing === null ? 'Unverified' : String(entry.minFishing), 'fish-skill', 'Min. Fishing');
+  const noFail = cell(entry.noFailFishing === null ? 'Unverified' : `${entry.noFailApproximate === true ? '~' : ''}${entry.noFailFishing}`, 'fish-skill', 'No-fail Fishing');
+  row.append(name, location, water, minimum, noFail);
+  return row;
+}
+
+function locations(fish) {
+  const list = Array.isArray(fish.locations) ? fish.locations.filter(location => location && typeof location.area === 'string' && location.area.trim()) : [];
+  // Older data can still render without guessing area boundaries from prose.
+  return list.length ? list : [{ area: fish.location, detail: '' }];
+}
+
+function matches(fish, location, query) {
+  return !query || [fish.name, fish.itemId, location, waterLabel(fish), typeof fish.waterDetail === 'string' ? fish.waterDetail : '', fish.verification === 'unverified' ? 'unverified' : ''].join(' ').toLocaleLowerCase().includes(query);
+}
+
+function areaSection(area, catches) {
+  const section = document.createElement('section');
+  section.className = 'fishing-area'; section.dataset.area = area;
+  section.setAttribute('aria-label', area);
+  const heading = document.createElement('h2');
+  heading.className = 'fishing-area-name'; heading.textContent = area;
+  const unverified = catches.every(({ fish }) => fish.verification === 'unverified');
+  if (unverified) markUnverified(heading);
+  const wrap = document.createElement('div'); wrap.className = 'table-wrap';
+  const table = document.createElement('table'); table.className = 'fishing-table';
+  const caption = document.createElement('caption'); caption.className = 'sr-only';
+  caption.textContent = `Fish listed for ${area}`;
+  const cols = document.createElement('colgroup');
+  for (const className of ['col-fish', 'col-fish-location', 'col-fish-water', 'col-fish-skill', 'col-fish-skill']) {
+    const col = document.createElement('col'); col.className = className; cols.append(col);
+  }
+  const head = document.createElement('thead'), labels = document.createElement('tr');
+  for (const label of ['Fish', 'Where in area', 'Water / catch type', 'Min. Fishing', 'No-fail Fishing']) {
+    const th = document.createElement('th'); th.scope = 'col'; th.textContent = label; labels.append(th);
+  }
+  head.append(labels);
+  const body = document.createElement('tbody');
+  catches.sort((a, b) => a.fish.name.localeCompare(b.fish.name));
+  for (const { fish, location } of catches) {
+    body.append(fishRow(fish, typeof location.detail === 'string' && location.detail.trim() ? location.detail : '—', !unverified && fish.verification === 'unverified'));
+  }
+  table.append(caption, cols, head, body); wrap.append(table); section.append(heading, wrap);
+  return section;
+}
+
+function render() {
+  if (!state.active || panel.hidden) return;
+  for (const button of document.querySelectorAll('[data-fishing-view]')) button.setAttribute('aria-pressed', String(button.dataset.fishingView === state.view));
+  $('#fishing-by-fish').hidden = state.view !== 'fish';
+  $('#fishing-areas').hidden = state.view !== 'area';
+  if (!state.data) return;
+  const query = $('#fishing-search').value.trim().toLocaleLowerCase();
+  const fragment = document.createDocumentFragment();
+  if (state.view === 'fish') {
+    const fish = state.data.fish.filter(fish => matches(fish, [fish.location, ...locations(fish).map(location => location.area)].join(' '), query));
+    fragment.append(...fish.map(entry => fishRow(entry)));
+    $('#fishing-rows').replaceChildren(fragment);
+    $('#fishing-empty').hidden = fish.length > 0;
+    $('#fishing-result-count').textContent = `${fish.length} of ${state.data.fish.length} entries`;
+    return;
+  }
+  const areas = new Map();
+  for (const fish of state.data.fish) {
+    for (const location of locations(fish)) {
+      const area = location.area.trim();
+      if (!matches(fish, [area, typeof location.detail === 'string' ? location.detail : ''].join(' '), query)) continue;
+      if (!areas.has(area)) areas.set(area, []);
+      areas.get(area).push({ fish, location });
+    }
+  }
+  for (const [area, catches] of [...areas].sort(([a], [b]) => a.localeCompare(b))) fragment.append(areaSection(area, catches));
+  $('#fishing-areas').replaceChildren(fragment);
+  $('#fishing-empty').hidden = areas.size > 0;
+  const count = [...areas.values()].reduce((count, catches) => count + catches.length, 0);
+  $('#fishing-result-count').textContent = `${count} catch references in ${areas.size} ${areas.size === 1 ? 'area' : 'areas'}`;
 }
 
 async function show(profession) {
@@ -83,11 +148,18 @@ async function show(profession) {
     if (!state.active || version !== state.version || panel.hidden) return;
     $('#profession-error').hidden = false;
     $('#fishing-rows').replaceChildren();
+    $('#fishing-areas').replaceChildren();
     $('#fishing-result-count').textContent = 'Fishing unavailable';
   }
 }
 
 $('#fishing-search').addEventListener('input', render);
+$('#fishing-views').addEventListener('click', event => {
+  const button = event.target.closest('button[data-fishing-view]');
+  if (!button || !['fish', 'area'].includes(button.dataset.fishingView)) return;
+  state.view = button.dataset.fishingView;
+  render();
+});
 $('#profession-retry').addEventListener('click', () => { state.data = null; show('Fishing'); });
 globalThis.ProfessionGuide = Object.freeze({
   hasProfession: profession => profession === 'Fishing', show,

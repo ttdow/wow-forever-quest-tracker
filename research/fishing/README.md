@@ -71,3 +71,11 @@ Freshwater covers rivers, lakes, and canals. Ocean covers saltwater coasts, incl
 `data/professions/fishing.json` is the maintained dataset. Rows have stable row/item IDs, a name, catch location, nullable skills, and nullable `waterType` (`freshwater` or `ocean`). Optional `catchType` names the actual catch type directly, and `waterDetail` describes Classic catch windows. Item IDs can support future Cooking links.
 
 Source/evidence metadata and water labels are nonblocking. Missing, malformed, or unfamiliar water labels display **Unverified**; invalid optional source labels never reject valid rows. Fishing loads independently of quests, drops, maps, and completion storage. Search also matches water labels and catch-window details.
+
+## Grouping by area
+
+Fishing offers By fish and By area views of the same 25 source entries. Explicit `locations` records give each entry an area name and an optional `detail` such as Coast, Sagefish Schools, or Bay of Storms. These are normalized from the already researched catch descriptions; no new catch claims or skill thresholds are introduced. The resulting 43 area/catch references cover 24 areas.
+
+By fish keeps the original catch descriptions. By area sorts named areas and their fish alphabetically, shows the local detail separately, and retains the entry's water/catch type, skill values, catch windows, and verification status. A Riverglades heading keeps its Unverified label inline. Search tests the current area/detail rather than every location in a fish's combined description, so searching Feralas does not also display Tanaris. The two views share search and stay selected during the page session without writing to quest storage.
+
+When editing locations, maintain the combined `location` description and its structured `locations` records together. If two catches have different skill requirements, keep separate source entries rather than applying one skill band to both. Missing structured locations fall back to the original description without attempting to split prose or reject otherwise valid data.
