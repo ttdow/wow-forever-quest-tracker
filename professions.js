@@ -3,8 +3,8 @@
 const $ = selector => document.querySelector(selector);
 const panel = $('#profession-panel');
 const state = { data: null, pending: null, active: false, version: 0 };
-const waterLabels = { freshwater: 'Freshwater', ocean: 'Ocean', special: 'Other / special' };
-const waterLabel = fish => typeof fish.waterType === 'string' && Object.hasOwn(waterLabels, fish.waterType) ? waterLabels[fish.waterType] : 'Unverified';
+const waterLabels = { freshwater: 'Freshwater', ocean: 'Ocean' };
+const waterLabel = fish => typeof fish.catchType === 'string' && fish.catchType.trim() ? fish.catchType.trim() : typeof fish.waterType === 'string' && Object.hasOwn(waterLabels, fish.waterType) ? waterLabels[fish.waterType] : 'Unverified';
 
 async function load() {
   if (state.data) return state.data;
@@ -50,8 +50,8 @@ function render() {
     const location = cell(entry.location, 'fish-location', 'Where to catch');
     if (entry.verification === 'unverified') {
       const label = document.createElement('span');
-      label.className = 'fish-unverified'; label.textContent = 'Unverified';
-      location.append(label);
+      label.className = 'fish-unverified'; label.textContent = '(Unverified)';
+      location.append(' ', label);
     }
     const water = cell(waterLabel(entry), 'fish-water', 'Water / catch type');
     if (typeof entry.waterDetail === 'string' && entry.waterDetail.trim()) {

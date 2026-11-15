@@ -32,9 +32,9 @@ All identities below are confirmed in current Forever item tooltips. Catch evide
 | Raw Longjaw Mud Snapper | Freshwater | Classic guide lists Stormwind and Loch Modan; Forever beta guide names Stormwind canals | 1 / 75, Classic |
 | Raw Loch Frenzy | Freshwater | Classic Loch loot; Forever catch in Loch Modan | 1 / 75, Classic |
 | Raw Rainbow Fin Albacore | Ocean | Classic Darkshore/Westfall coast references; Forever catch in Westfall | 1 / 75, Classic |
-| Deviate Fish | Other / special: freshwater oases and dungeon | Classic oasis/Wailing Caverns loot; Forever catch in the Barrens | 1 / 75, Classic |
+| Deviate Fish | Oases / dungeon pools (freshwater) | Classic oasis/Wailing Caverns loot; Forever catch in the Barrens | 1 / 75, Classic |
 | Raw Sagefish | Freshwater schools | Classic school loot and guides; Forever catch in Hillsbrad | 55 / 150, Classic |
-| Whimsyfin | Other / special: freshwater pools | Forever guide, river south of Stonewatch Keep and nearby murloc lake | Unverified / ~150, community report |
+| Whimsyfin | Whimsyfin pools (freshwater) | Forever guide, river south of Stonewatch Keep and nearby murloc lake | Unverified / ~150, community report |
 | Raw Bristle Whisker Catfish | Freshwater | Classic Redridge/Wetlands guide and loot | 55 / 150, Classic |
 | Raw Rockscale Cod | Ocean | Classic coastal loot/guide; Forever catch in Stranglethorn | 130 / 225, Classic |
 | Raw Mithril Head Trout | Freshwater | Classic Dustwallow/Thousand Needles loot; Forever beta guide names inland Dustwallow | 130 / 225, Classic |
@@ -53,7 +53,7 @@ All identities below are confirmed in current Forever item tooltips. Catch evide
 | Darkclaw Lobster | Ocean | Classic Bay of Storms loot and guide | 330 / 425, Classic |
 | Large Raw Mightfish | Ocean | Classic Bay of Storms loot and guide | 330 / 425, Classic |
 
-Freshwater covers rivers, lakes, and canals. Ocean covers saltwater coasts, including Bay of Storms. Other / special identifies restricted oasis/dungeon catches and Whimsyfin-specific pools; both entries state that the underlying water is freshwater. Sagefish locations name their schools. Locations are representative, not exhaustive.
+Freshwater covers rivers, lakes, and canals. Ocean covers saltwater coasts, including Bay of Storms. Restricted catches name their actual type directly: Oases / dungeon pools (freshwater) and Whimsyfin pools (freshwater). Sagefish locations name their schools. Locations are representative, not exhaustive.
 
 ## Corrections and unresolved skill disagreements
 
@@ -68,6 +68,6 @@ Freshwater covers rivers, lakes, and canals. Ocean covers saltwater coasts, incl
 
 ## Maintenance and loading
 
-`data/professions/fishing.json` is the maintained dataset. Rows have stable row/item IDs, a name, catch location, nullable skills, and nullable `waterType` (`freshwater`, `ocean`, or `special`). Optional `waterDetail` describes pools or Classic catch windows. Item IDs can support future Cooking links.
+`data/professions/fishing.json` is the maintained dataset. Rows have stable row/item IDs, a name, catch location, nullable skills, and nullable `waterType` (`freshwater` or `ocean`). Optional `catchType` names the actual catch type directly, and `waterDetail` describes Classic catch windows. Item IDs can support future Cooking links.
 
 Source/evidence metadata and water labels are nonblocking. Missing, malformed, or unfamiliar water labels display **Unverified**; invalid optional source labels never reject valid rows. Fishing loads independently of quests, drops, maps, and completion storage. Search also matches water labels and catch-window details.

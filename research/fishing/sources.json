@@ -192,7 +192,8 @@
     "Raw Sagefish uses named freshwater schools. Greater Sagefish uses freshwater schools in Alterac/Stranglethorn; Stranglethorn also has a current Forever catch record.",
     "Glossy Mightfish in Feralas coastal water is corroborated by the independent Classic guide, although a snapshot reference comment mentions an unlinked reference. The exact Forgotten Coast label is generalized to Feralas coast.",
     "Nightfin/Sunscale server-time windows and Winter Squid/Summer Bass dates are explicit Classic guide references, not verified Forever restrictions.",
-    "Unknown or missing water/source labels display Unverified or a reference fallback and cannot block loading. Quest progress is not changed."
+    "Unknown or missing water/source labels display Unverified or a reference fallback and cannot block loading. Quest progress is not changed.",
+    "Presentation refinement: Riverglades omits the redundant game suffix and its Unverified label is inline. Restricted catches name the actual pool/water type directly instead of an Other / special category."
   ],
   "audit": "./audit.json"
 }

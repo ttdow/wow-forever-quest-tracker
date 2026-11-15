@@ -147,7 +147,7 @@ tr.completed { background: #1b261e; }
 .fishing-table td { white-space: normal; overflow-wrap: anywhere; padding: 13px 12px; }
 .fish-name a { color: #dce6dd; text-decoration: none; font-weight: 550; }.fish-name a:hover { color: #adddb9; text-decoration: underline; text-underline-offset: 3px; }
 .fish-skill { color: #bdcbbf; font-variant-numeric: tabular-nums; }
-.fish-unverified { display: block; margin-top: 3px; color: #d9bc7f; font-size: 11px; }
+.fish-unverified { color: #d9bc7f; font-size: 11px; }
 .fish-detail { display: block; margin-top: 3px; color: #a3b3a5; font-size: 11px; line-height: 1.5; }
 .error { background: #39221f; color: #ffb6a7; padding: 13px 20px; font-size: 13px; }
 [hidden] { display: none !important; }

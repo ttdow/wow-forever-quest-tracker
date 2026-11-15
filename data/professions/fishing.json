@@ -159,8 +159,8 @@
         "noFailFishing": "classic-base-plus-95-assumption",
         "waterType": "classic-guide-and-water-geography"
       },
-      "waterType": "special",
-      "waterDetail": "Freshwater oases / dungeon"
+      "waterType": "freshwater",
+      "catchType": "Oases / dungeon pools (freshwater)"
     },
     {
       "id": "21071-reference",
@@ -212,8 +212,8 @@
         "waterType": "forever-community-guide"
       },
       "notes": "Only the named freshwater pools are supported. Minimum skill is not established by the source; the previously inferred Redridge value 55 is removed. About 150 with no escapes is a community report, not a proven threshold.",
-      "waterType": "special",
-      "waterDetail": "Whimsyfin pools (freshwater)"
+      "waterType": "freshwater",
+      "catchType": "Whimsyfin pools (freshwater)"
     },
     {
       "id": "6308-reference",
@@ -297,7 +297,7 @@
       "id": "8365-riverglades",
       "itemId": "8365",
       "name": "Raw Mithril Head Trout",
-      "location": "Riverglades (WoW Forever)",
+      "location": "Riverglades",
       "minFishing": null,
       "noFailFishing": null,
       "verification": "unverified",
@@ -347,7 +347,7 @@
       "id": "21153-riverglades",
       "itemId": "21153",
       "name": "Raw Greater Sagefish",
-      "location": "Riverglades (WoW Forever)",
+      "location": "Riverglades",
       "minFishing": null,
       "noFailFishing": null,
       "verification": "unverified",

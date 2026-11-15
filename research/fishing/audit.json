@@ -6,7 +6,7 @@
     "Classic loot and pool guides corroborate catch locations and habitat for all 22 Classic fish; Whimsyfin uses a Forever community guide.",
     "ForeverDB Fishing Bobber source records aggregate observations and expose a representative location. Their counts are not counts at that one location and do not establish all catch locations.",
     "Riverglades is absent from the current published fishing-zone dataset. Trout and Greater Sagefish source records expose Stranglethorn locations, which do not verify or disprove Riverglades catches.",
-    "Special catches here are restricted freshwater oases/dungeon waters or Whimsyfin pools; Sagefish rows identify their schools explicitly."
+    "Catch types name the freshwater oases/dungeon pools or Whimsyfin pools directly; Sagefish rows identify their schools explicitly."
   ],
   "rows": [
     {
@@ -484,7 +484,7 @@
       },
       "waterType": {
         "status": "classic-guide-and-water-geography",
-        "value": "special",
+        "value": "freshwater",
         "source": "https://www.warcrafttavern.com/wow-classic/guides/fishing-loot-list/"
       },
       "classicGuideCatchText": "From School of Deviate Fish The Barrens – Oasis ( Deviate Fish Farming Guide )",
@@ -622,7 +622,8 @@
           "https://foreverdb.net/data/profguides/fishing.json",
           "https://www.warcrafttavern.com/wow-classic/guides/fishing-1-300/"
         ]
-      }
+      },
+      "catchType": "Oases / dungeon pools (freshwater)"
     },
     {
       "rowId": "21071-reference",
@@ -711,7 +712,7 @@
       },
       "waterType": {
         "status": "forever-community-guide",
-        "value": "special",
+        "value": "freshwater",
         "source": "https://foreverchanges.pro/savory-whimsyfin-delight"
       },
       "classicLootChecks": [],
@@ -721,7 +722,8 @@
         "noFail": 150,
         "approximate": true,
         "source": "https://foreverchanges.pro/savory-whimsyfin-delight"
-      }
+      },
+      "catchType": "Whimsyfin pools (freshwater)"
     },
     {
       "rowId": "6308-reference",
@@ -1080,7 +1082,7 @@
       },
       "location": {
         "status": "unverified",
-        "value": "Riverglades (WoW Forever)",
+        "value": "Riverglades",
         "sourcesChecked": [
           "https://foreverdb.net/data/sources/45.json",
           "https://foreverdb.net/data/profguides/fishing.json",
@@ -1191,7 +1193,7 @@
       },
       "location": {
         "status": "unverified",
-        "value": "Riverglades (WoW Forever)",
+        "value": "Riverglades",
         "sourcesChecked": [
           "https://foreverdb.net/data/sources/33.json",
           "https://foreverdb.net/data/profguides/fishing.json",
