@@ -9,7 +9,8 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
-- Click **Zones** or **Dungeons** to expand its full list with completion counts. Choosing a list collapses the navigation; the current list name stays visible. Click the same tab again or press Escape to collapse it.
+- Click **Zones**, **Dungeons**, or **Professions** to expand its full list. Zone and dungeon lists include completion counts. Choosing a list collapses the navigation; the current selection stays visible. Click the same tab again or press Escape to collapse it.
+- Choose **Professions → Fishing** for a searchable table of fish, catch locations, minimum Fishing, and no-fail Fishing. Cooking recipes and cooked bonuses are deferred to a future Cooking section.
 - Filter completed / not completed quests, or sort by level, name, or area.
 - In dungeon lists, switch between **Quests** and **Drops**. Each boss with recorded equipment has a card with an expandable loot table. Drops have item names, required levels, base stats/effects, and source evidence, with search, source filtering, and an optional Rogue filter.
 - In **Desolace**, **Gnomeregan**, **Razorfen Kraul**, **The City of Dalaran**, or **The Drowned City**, choose **Map** for researched location references. Pan, zoom, filter layers, search, and open markers for coordinates and available quest/drop links. Gnomeregan has separate map sections; Razorfen Kraul has bosses, chest positions, quest givers, and an optional Blueleaf Tuber layer. Dalaran has six community boss-guide markers in City and one approximate player-reported Atrexis marker in Sewers. Drowned City uses Santiago Reyes' fan map with entrance and named-area references.
@@ -20,7 +21,7 @@ Progress saves automatically in this browser's local storage. It survives closin
 
 Use a separate repository for this tracker; existing Pages websites are unaffected.
 
-1. Upload `index.html`, `style.css`, `app.js`, `progress.js`, `drops.js`, `map.js`, `.nojekyll`, and the `data/`, `assets/`, `vendor/`, and `research/` folders to the repository root.
+1. Upload `index.html`, `style.css`, `app.js`, `progress.js`, `drops.js`, `map.js`, `professions.js`, `.nojekyll`, and the `data/`, `assets/`, `vendor/`, and `research/` folders to the repository root.
 2. In **Settings → Pages**, choose **Deploy from a branch**.
 3. Select **main** and **/ (root)**, then save.
 4. Open the website URL shown by GitHub Pages after deployment completes.
@@ -29,7 +30,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 442 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 460 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
@@ -105,6 +106,14 @@ Drop-source evidence and item stats are separate. "Seen in Forever" means player
 Drops load separately when requested; a failed drop-data request does not block quests. Each dungeon is validated when opened, so malformed records in another dungeon cannot block it. Source-evidence metadata is optional and is not part of loading validation. Missing, blank, unfamiliar, or incorrectly typed evidence values display as "Source ref." and cannot block the loot list. Retry fetches fresh data. After a site update, reload an already-open tab to load the latest scripts; this does not clear quest progress. The drop view, filters, and item links do not write to quest completion storage. Direct view links use a fragment such as `#zone=Deadmines&view=drops`.
 
 Research sources and limits are documented in [the research notes](data/research.md). The JSON remains the maintained data source; no fetch/conversion tooling or Node runtime is needed to host the app.
+
+## Professions
+
+Open **Professions → Fishing**, or use [the direct Fishing link](https://ttdow.github.io/wow-forever-quest-tracker/#profession=Fishing). The four-column table contains 25 catch entries for 23 fish. Search by fish name, location, or item ID. Fish names link to their Forever item pages. The layout adapts to narrow screens.
+
+`data/professions/fishing.json` is the maintained dataset. Skill values are Classic references and include equipment/lure bonuses. Whimsyfin's reported no-fail value is approximate; the two Riverglades rows have unverified locations and skill requirements. Recipes and cooked bonuses are reserved for the future Cooking section. See [the Fishing research](research/fishing/README.md) for source limits and corrections to the supplied examples.
+
+Fishing loads independently and has its own retry control. Optional research/source labels never block its table. Visiting or searching Fishing does not write to quest completion storage.
 
 ## Maps
 

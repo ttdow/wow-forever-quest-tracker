@@ -1,0 +1,509 @@
+{
+  "profession": "Fishing",
+  "updated": "2026-11-14",
+  "fish": [
+    {
+      "id": "6291-reference",
+      "itemId": "6291",
+      "name": "Raw Brilliant Smallfish",
+      "location": "Teldrassil, Elwynn Forest",
+      "minFishing": 1,
+      "noFailFishing": 25,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=6291",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "6303-reference",
+      "itemId": "6303",
+      "name": "Raw Slitherskin Mackerel",
+      "location": "Darkshore coast",
+      "minFishing": 1,
+      "noFailFishing": 75,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=6303",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "6289-reference",
+      "itemId": "6289",
+      "name": "Raw Longjaw Mud Snapper",
+      "location": "Stormwind City",
+      "minFishing": 1,
+      "noFailFishing": 75,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=6289",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "6317-reference",
+      "itemId": "6317",
+      "name": "Raw Loch Frenzy",
+      "location": "Loch Modan",
+      "minFishing": 1,
+      "noFailFishing": 75,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=6317",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "6361-reference",
+      "itemId": "6361",
+      "name": "Raw Rainbow Fin Albacore",
+      "location": "Darkshore, Westfall coast",
+      "minFishing": 1,
+      "noFailFishing": 75,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=6361",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "6522-reference",
+      "itemId": "6522",
+      "name": "Deviate Fish",
+      "location": "Barrens oases, Wailing Caverns",
+      "minFishing": 1,
+      "noFailFishing": 75,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=6522",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "21071-reference",
+      "itemId": "21071",
+      "name": "Raw Sagefish",
+      "location": "Ashenvale, Hillsbrad Foothills (Sagefish Schools)",
+      "minFishing": 55,
+      "noFailFishing": 150,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=21071",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "251524-reference",
+      "itemId": "251524",
+      "name": "Whimsyfin",
+      "location": "Redridge Mountains — river south of Stonewatch Keep",
+      "minFishing": 55,
+      "noFailFishing": 150,
+      "verification": "community-reference",
+      "sources": [
+        "https://foreverchanges.pro/savory-whimsyfin-delight",
+        "https://nether.wowhead.com/forever/tooltip/item/251524",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "noFailApproximate": true,
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "community-guide-video",
+        "minFishing": "classic-zone-reference",
+        "noFailFishing": "community-approximate"
+      },
+      "notes": "The current guide cites player reports of about 150 effective Fishing and pools south of Stonewatch Keep; Lake Everstill itself is not asserted as a location. Minimum 55 is a Classic Redridge water reference, not a measured Forever threshold."
+    },
+    {
+      "id": "6308-reference",
+      "itemId": "6308",
+      "name": "Raw Bristle Whisker Catfish",
+      "location": "Redridge Mountains, Wetlands",
+      "minFishing": 55,
+      "noFailFishing": 150,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=6308",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "6362-reference",
+      "itemId": "6362",
+      "name": "Raw Rockscale Cod",
+      "location": "Stranglethorn Vale coast, Dustwallow Marsh coast",
+      "minFishing": 130,
+      "noFailFishing": 225,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=6362",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "8365-reference",
+      "itemId": "8365",
+      "name": "Raw Mithril Head Trout",
+      "location": "Dustwallow Marsh, Thousand Needles",
+      "minFishing": 130,
+      "noFailFishing": 225,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=8365",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "8365-riverglades",
+      "itemId": "8365",
+      "name": "Raw Mithril Head Trout",
+      "location": "Riverglades (WoW Forever)",
+      "minFishing": null,
+      "noFailFishing": null,
+      "verification": "unverified",
+      "sources": [
+        "User-supplied Fishing table, 2026-11-14"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "unverified-user-supplied",
+        "minFishing": "unverified",
+        "noFailFishing": "unverified"
+      },
+      "notes": "Catch location and skill thresholds have not been independently verified. Unknown requirements are intentionally null."
+    },
+    {
+      "id": "21153-reference",
+      "itemId": "21153",
+      "name": "Raw Greater Sagefish",
+      "location": "Alterac Mountains, Stranglethorn Vale (Greater Sagefish Schools)",
+      "minFishing": 130,
+      "noFailFishing": 225,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=21153",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "21153-riverglades",
+      "itemId": "21153",
+      "name": "Raw Greater Sagefish",
+      "location": "Riverglades (WoW Forever)",
+      "minFishing": null,
+      "noFailFishing": null,
+      "verification": "unverified",
+      "sources": [
+        "User-supplied Fishing table, 2026-11-14"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "unverified-user-supplied",
+        "minFishing": "unverified",
+        "noFailFishing": "unverified"
+      },
+      "notes": "Catch location and skill thresholds have not been independently verified. Unknown requirements are intentionally null."
+    },
+    {
+      "id": "4603-reference",
+      "itemId": "4603",
+      "name": "Raw Spotted Yellowtail",
+      "location": "Dustwallow Marsh coast, Stranglethorn Vale coast",
+      "minFishing": 130,
+      "noFailFishing": 225,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=4603",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "13754-reference",
+      "itemId": "13754",
+      "name": "Raw Glossy Mightfish",
+      "location": "Tanaris coast, Feralas — The Forgotten Coast",
+      "minFishing": 205,
+      "noFailFishing": 300,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=13754",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "13758-reference",
+      "itemId": "13758",
+      "name": "Raw Redgill",
+      "location": "Felwood, Moonglade",
+      "minFishing": 205,
+      "noFailFishing": 300,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=13758",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "13755-reference",
+      "itemId": "13755",
+      "name": "Raw Winter Squid",
+      "location": "Tanaris coast, Feralas — The Forgotten Coast (winter)",
+      "minFishing": 205,
+      "noFailFishing": 300,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=13755",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "13756-reference",
+      "itemId": "13756",
+      "name": "Raw Summer Bass",
+      "location": "Tanaris coast, Feralas — The Forgotten Coast (summer)",
+      "minFishing": 205,
+      "noFailFishing": 300,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=13756",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "13759-reference",
+      "itemId": "13759",
+      "name": "Raw Nightfin Snapper",
+      "location": "Felwood, Moonglade (night favored)",
+      "minFishing": 205,
+      "noFailFishing": 300,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=13759",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      },
+      "notes": "Time of day affects availability; dawn and dusk can overlap. The favored period is not asserted as the only catch window in Forever."
+    },
+    {
+      "id": "13760-reference",
+      "itemId": "13760",
+      "name": "Raw Sunscale Salmon",
+      "location": "Felwood, Moonglade (day favored)",
+      "minFishing": 205,
+      "noFailFishing": 300,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=13760",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      },
+      "notes": "Time of day affects availability; dawn and dusk can overlap. The favored period is not asserted as the only catch window in Forever."
+    },
+    {
+      "id": "13890-reference",
+      "itemId": "13890",
+      "name": "Raw Plated Armorfish",
+      "location": "Winterspring, Eastern Plaguelands",
+      "minFishing": 330,
+      "noFailFishing": 425,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=13890",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "13889-reference",
+      "itemId": "13889",
+      "name": "Raw Whitescale Salmon",
+      "location": "Winterspring, Eastern Plaguelands",
+      "minFishing": 330,
+      "noFailFishing": 425,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=13889",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "13888-reference",
+      "itemId": "13888",
+      "name": "Darkclaw Lobster",
+      "location": "Azshara — Bay of Storms",
+      "minFishing": 330,
+      "noFailFishing": 425,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=13888",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    },
+    {
+      "id": "13893-reference",
+      "itemId": "13893",
+      "name": "Large Raw Mightfish",
+      "location": "Azshara — Bay of Storms",
+      "minFishing": 330,
+      "noFailFishing": 425,
+      "verification": "classic-reference",
+      "sources": [
+        "https://www.wowhead.com/forever/item=13893",
+        "https://github.com/cmangos/classic-db/releases/tag/latest",
+        "https://foreverdb.net/profession/fishing"
+      ],
+      "evidence": {
+        "identity": "wowhead-forever",
+        "location": "classic-reference",
+        "minFishing": "classic-reference",
+        "noFailFishing": "classic-base-plus-95-assumption"
+      }
+    }
+  ],
+  "notes": "Representative catch locations. Classic skill references use effective skill, including pole bonuses and lures. No-fail values assume the Classic base + 95 rule and are not a server guarantee for Forever. New-zone Riverglades entries remain unverified. Recipes and cooked bonuses are intentionally excluded."
+}
