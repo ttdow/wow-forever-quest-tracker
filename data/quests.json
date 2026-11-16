@@ -7939,6 +7939,650 @@
     "previousQuests": []
   },
   {
+    "id": "97284",
+    "zone": "Desolace",
+    "level": 33,
+    "name": "Vahlarriel's Vengeance",
+    "stage": "Vahlarriel follow-up",
+    "giver": "Vahlarriel Demonslayer",
+    "coordinates": "66.5, 11.9",
+    "area": "Nijel's Point",
+    "objective": "Slay Burning Blade orcs at Thunder Axe Fortress in the Desolace, then return to Vahlarriel Demonslayer at Nijel's Point.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 30; No class restriction recorded in inspected quest fields; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/97284",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "questie-trace",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1465",
+        "name": "Vahlarriel's Search",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92755",
+    "zone": "Desolace",
+    "level": 35,
+    "name": "Mysterious Mysticism",
+    "stage": "Gelkis reputation hand-in",
+    "giver": "Halea",
+    "coordinates": "",
+    "area": "Gelkis Village",
+    "objective": "Maintain your reputation with the Gelkis, and bring 3 Greater Mystic Essences to Halea in the Gelkis Village in Desolace.",
+    "areaConfidence": "Area only",
+    "notes": "Minimum level 30; No class restriction recorded in inspected quest fields; Chain links are observed offer order, not confirmed mandatory prerequisites; Gelkis route; Halea coordinate omitted: the NPC trace places her at 69.8, 78.0 in conflict with the objective naming Gelkis Village",
+    "sources": [
+      "https://foreverchanges.pro/quest/92755",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "questie-trace",
+      "giver": "community-observation",
+      "pickupLocation": "quest-text-area-only-coordinate-conflict",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1370",
+        "name": "Stealing Supplies",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92814",
+    "zone": "Desolace",
+    "level": 35,
+    "name": "I Need a Tailor",
+    "stage": "Gelkis reputation hand-in",
+    "giver": "Molkar",
+    "coordinates": "35.7, 92.2",
+    "area": "Gelkis Village",
+    "objective": "Maintain your reputation with the Gelkis, and bring a White Bandit Mask to Molkar in the Gelkis Village in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 30; No class restriction recorded in inspected quest fields; Chain links are observed offer order, not confirmed mandatory prerequisites; Gelkis route; material hand-in, not a recorded profession requirement",
+    "sources": [
+      "https://foreverchanges.pro/quest/92814",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "questie-trace",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1370",
+        "name": "Stealing Supplies",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92817",
+    "zone": "Desolace",
+    "level": 35,
+    "name": "Leather Technique",
+    "stage": "Gelkis reputation hand-in",
+    "giver": "Talra",
+    "coordinates": "34.5, 86.9",
+    "area": "Gelkis Village",
+    "objective": "Maintain your reputation with the Gelkis, and bring a Barbaric Harness to Talra in the Gelkis Village in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 30; No class restriction recorded in inspected quest fields; Chain links are observed offer order, not confirmed mandatory prerequisites; Gelkis route; material hand-in, not a recorded profession requirement",
+    "sources": [
+      "https://foreverchanges.pro/quest/92817",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "questie-trace",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1370",
+        "name": "Stealing Supplies",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93224",
+    "zone": "Desolace",
+    "level": 40,
+    "name": "Carved Centaur Totems",
+    "stage": "Alliance centaur reputation introduction",
+    "giver": "Captain Pentigast",
+    "coordinates": "66.6, 11.0",
+    "area": "Nijel's Point",
+    "objective": "Acquire 5 Carved Centaur Totems by slaying centaur of any clan throughout Desolace, then return them to Captain Pentigast at Nijel's Point.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 30; No class restriction recorded in inspected quest fields; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quest/93224",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "questie-trace",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "93227",
+    "zone": "Desolace",
+    "level": 45,
+    "name": "Buying Friendship: Gelkis",
+    "stage": "Gelkis reputation route",
+    "giver": "Captain Pentigast",
+    "coordinates": "66.6, 11.0",
+    "area": "Nijel's Point",
+    "objective": "Bring the Totem Tote to the Gelkis Quartermaster at Gelkis Village in the Desolace to significantly increase your reputation with that clan. You must be of at least Neutral standing with the Gelkis Clan Centaur.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 30; No class restriction recorded in inspected quest fields; Chain links are observed offer order, not confirmed mandatory prerequisites; At least Neutral with Gelkis; Alliance Captain Pentigast introduction selected; Horde counterpart 94873 excluded",
+    "sources": [
+      "https://foreverchanges.pro/quest/93227",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "questie-trace",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93224",
+        "name": "Carved Centaur Totems",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92812",
+    "zone": "Desolace",
+    "level": 0,
+    "name": "Economic Warfare",
+    "stage": "Gelkis reputation hand-in",
+    "giver": "Molkar",
+    "coordinates": "35.7, 92.2",
+    "area": "Gelkis Village",
+    "objective": "Bring 5 Carved Centaur Totems to Molkar in Gelkis Village to increase your Gelkis reputation.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 1; No class restriction recorded in inspected quest fields; Chain links are observed offer order, not confirmed mandatory prerequisites; Current page explicitly lists both factions; older generated Horde flag conflicts with current listing and Alliance predecessor 93227; level unconfirmed (published level 0), not assumed to be level 60",
+    "sources": [
+      "https://foreverchanges.pro/quest/92812",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges-item-count-and-questie-reputation-trace",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93227",
+        "name": "Buying Friendship: Gelkis",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "94841",
+    "zone": "Desolace",
+    "level": 38,
+    "name": "Lost Shipping Crate",
+    "stage": "Riverglades delivery",
+    "giver": "Lost Shipping Crate (object)",
+    "coordinates": "64.7, 10.3",
+    "area": "Nijel's Point",
+    "objective": "Deliver the Lost Shipping Crate to Friz Frazzlespark at Powderfuse Port in the Riverglades.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 36; No class restriction recorded in inspected quest fields; Chain links are observed offer order, not confirmed mandatory prerequisites; Alliance object-started version; coordinates identify the pickup object, not the Riverglades turn-in",
+    "sources": [
+      "https://foreverchanges.pro/quest/94841",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "questie-trace",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "96222",
+    "zone": "Desolace",
+    "level": 42,
+    "name": "Khan Hratha",
+    "stage": "Shared - Umarak version (elite)",
+    "giver": "Umarak",
+    "coordinates": "43.4, 78.9",
+    "area": "Desolace",
+    "objective": "Bring the Maraudine Key Fragment to Umarak in the Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 30; No class restriction recorded in inspected quest fields; Chain links are observed offer order, not confirmed mandatory prerequisites; Neutral Umarak version, distinct from Gelkis 1380 and excluded Magram 1381; no Magram reputation gate recorded",
+    "sources": [
+      "https://foreverchanges.pro/quest/96222",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "questie-trace",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "93464",
+    "zone": "Desolace",
+    "level": 38,
+    "name": "The Visiting Mage",
+    "stage": "Draenethyst introduction",
+    "giver": "Magtoor",
+    "coordinates": "26.1, 31.7",
+    "area": "The Harborage (Swamp of Sorrows)",
+    "objective": "Find the mage in Desolace who knows about the power of draenethyst.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 30; No class restriction recorded in inspected quest fields; Chain links are observed offer order, not confirmed mandatory prerequisites; Shared Draenethyst chain; The Visiting Mage and Draenethyst Crystals explicitly support both factions; older generated Horde flag for Notes on Draenethyst is superseded by its current Both factions listing",
+    "sources": [
+      "https://foreverchanges.pro/quest/93464",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "questie-trace",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1389",
+        "name": "Draenethyst Crystals",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93465",
+    "zone": "Desolace",
+    "level": 40,
+    "name": "Notes on Draenethyst",
+    "stage": "Draenethyst notes",
+    "giver": "Azore Aldamort",
+    "coordinates": "38.9, 27.2",
+    "area": "Ethel Rethor",
+    "objective": "Take Gimashi's notes on Draenethyst, and bring them back to Azore Aldamort.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 30; No class restriction recorded in inspected quest fields; Chain links are observed offer order, not confirmed mandatory prerequisites; Shared Draenethyst chain; The Visiting Mage and Draenethyst Crystals explicitly support both factions; older generated Horde flag for Notes on Draenethyst is superseded by its current Both factions listing; Azore pickup coordinates are an approximate Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/93465",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "questie-trace",
+      "giver": "community-observation",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93464",
+        "name": "The Visiting Mage",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93678",
+    "zone": "Desolace",
+    "level": 40,
+    "name": "Abridged Notes on Draenethyst",
+    "stage": "Draenethyst return",
+    "giver": "Azore Aldamort",
+    "coordinates": "38.9, 27.2",
+    "area": "Ethel Rethor",
+    "objective": "Take Azore's transcribed notes back to Magtoor at the Harborage in Swamp of Sorrows.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 30; No class restriction recorded in inspected quest fields; Chain links are observed offer order, not confirmed mandatory prerequisites; Shared Draenethyst chain; The Visiting Mage and Draenethyst Crystals explicitly support both factions; older generated Horde flag for Notes on Draenethyst is superseded by its current Both factions listing; Azore pickup coordinates are an approximate Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/93678",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "questie-trace",
+      "giver": "community-observation",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93465",
+        "name": "Notes on Draenethyst",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93034",
+    "zone": "Desolace",
+    "level": 38,
+    "name": "Valley of Bones",
+    "stage": "Gelkis reputation route",
+    "giver": "Uthek the Wise",
+    "coordinates": "36.2, 79.2",
+    "area": "Gelkis Village (Desolace)",
+    "objective": "Improve your reputation with the Gelkis, and locate Nerlokh near the Valley of Bones far east of Gelkis Village.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites; Also listed in Shen'dralas with shared completion",
+    "sources": [
+      "https://foreverchanges.pro/quest/93034",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "1373",
+        "name": "Ongeku",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93044",
+    "zone": "Desolace",
+    "level": 38,
+    "name": "A Cleansing Cry",
+    "stage": "Gelkis reputation route",
+    "giver": "Uthek the Wise",
+    "coordinates": "36.2, 79.2",
+    "area": "Gelkis Village (Desolace)",
+    "objective": "Maintain your reputation with the Gelkis, and bring Tears of Theradras back to Uthek the Wise in Gelkis Village.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites; Older addon faction labels conflict with the newer public listing; current listing explicitly permits both factions; Also listed in Shen'dralas with shared completion",
+    "sources": [
+      "https://foreverchanges.pro/quest/93044",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93041",
+        "name": "Facing the Truth",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93045",
+    "zone": "Desolace",
+    "level": 38,
+    "name": "Test Your Theory",
+    "stage": "Gelkis reputation route",
+    "giver": "Uthek the Wise",
+    "coordinates": "36.2, 79.2",
+    "area": "Gelkis Village (Desolace)",
+    "objective": "Maintain your reputation with the Gelkis, and dispel the necromantic curse present on the Accursed Skull. Once successful, report back to Nerlokh near the Valley of Bones.",
+    "areaConfidence": "Approximate",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites; Also listed in Shen'dralas with shared completion",
+    "sources": [
+      "https://foreverchanges.pro/quest/93045",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93044",
+        "name": "A Cleansing Cry",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93128",
+    "zone": "Desolace",
+    "level": 42,
+    "name": "Khan Jehn",
+    "stage": "Gelkis reputation route",
+    "giver": "Nerlokh",
+    "coordinates": "20.9, 22.7",
+    "area": "Valley of Bones (Shen'dralas)",
+    "objective": "Maintain your reputation with the Gelkis, and slay Khan Jhen at Magram Village. Once you have succeeded, report to Uthek the Wise in Gelkis Village in Desolace.",
+    "areaConfidence": "High",
+    "notes": "Neutral according to current ForeverChanges listing; No class restriction in primary quest data; Minimum level 35; Gelkis reputation route; Earlier quest links are observed order from Questie traces, not confirmed mandatory prerequisites; Older addon faction labels conflict with the newer public listing; current listing explicitly permits both factions; Also listed in Shen'dralas with shared completion",
+    "sources": [
+      "https://foreverchanges.pro/quest/93128",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/draindrain/wow-forever-helper/blob/b89f085481bf17b27cc1ce8da287faa96999372e/src/data/generated/quests/zone-16651.json"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community-observation",
+      "pickupLocation": "community-observation",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93122",
+        "name": "Checking Things Out",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
     "id": "95795",
     "zone": "Excavation Site: Wetlands",
     "level": 31,

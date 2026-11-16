@@ -30,13 +30,13 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 462 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 478 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
 - Ashenvale: 58 quests, including Shared Fury, Seeking Caitlin, and the six Althalaxx steps that start in or lead to Ashenvale; known Horde-only and non-Rogue class quests are excluded
 - Stonetalon Mountains: 28 quests, including relevant introductions and follow-ups; The Zoram Strand is linked as a prerequisite in Ashenvale
-- Desolace: 33 quests, including the Alliance Reclaimers introduction and the selected Gelkis reputation route; the six Magram-route quests and unclassified Hate the Hatefury are excluded
+- Desolace: 49 quests: 46 eligible current-index quests plus three associated introductions/handoffs. Includes the Gelkis crafting hand-ins, centaur totems, and shared Draenethyst chain; Horde-only and Magram-route quests are excluded
 - Shen'dralas: 32 quests: all 27 non-Magram entries in the current zone index plus five related handoffs/dungeon steps. Includes the shared pylon, temple, spectral-blade, Forlorn Gardens, and item-started quests; the 13 Magram-route quests remain excluded
 - Feralas: 52 Alliance/neutral quests, including related introductions, cross-zone chain steps, item-started quests, and repeatable quests
 - Deadmines: 24 quests, including prerequisites and excluding Paladin-only quests
@@ -53,7 +53,7 @@ The browser loads all 462 quest entries directly from `data/quests.json`. This J
 - Scarlet Monastery Armory: In the Name of the Light, shared with Library using the same completion ID and Desolace prerequisite link
 - The Drowned City: 8 Alliance/neutral entries, including An Acquaintance in Southshore and the two Dibbs follow-ups; observed handoffs remain distinct from mandatory prerequisites
 
-The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 446 unique quest IDs across 462 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, Seeking Caitlin by Ashenvale and Excavation Site: Wetlands, In the Name of the Light by Scarlet Monastery Library and Armory, and four Forlorn Gardens/Agamaggan chain quests by Shen'dralas and Razorfen Downs. Their completion status is shared automatically.
+The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 458 unique quest IDs across 478 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, Seeking Caitlin by Ashenvale and Excavation Site: Wetlands, In the Name of the Light by Scarlet Monastery Library and Armory, four Forlorn Gardens/Agamaggan chain quests by Shen'dralas and Razorfen Downs, and four Gelkis handoffs by Desolace and Shen'dralas. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
@@ -75,7 +75,7 @@ Blackfathom Deeps and Stonetalon Mountains were researched on November 8, 2026 u
 
 Gnomeregan and Excavation Site: Wetlands were researched on November 10, 2026 using [ForeverDB's Gnomeregan guide](https://foreverdb.net/dungeon/90-gnomeregan), [Excavation Site: Wetlands guide](https://foreverdb.net/dungeon/2998-excavation-site-wetlands), and individual quest/item records.
 
-Desolace was researched on November 11, 2026 using [ForeverDB's Desolace quest list](https://foreverdb.net/quests/desolace) and individual quest guides. Most Desolace details currently remain Classic references; the JSON preserves that provenance and approximate pickup-location confidence.
+Desolace was audited on November 15, 2026 against all 82 entries in the current ForeverChanges index and Questie's primary quest/NPC traces. Sixteen additions include Leather Technique, Mysterious Mysticism, I Need a Tailor, further Gelkis reputation quests, and shared quests. See the [coverage and verification report](research/desolace-audit/README.md). Retained Classic-reference records keep their original provenance.
 
 Excavation Site: Wetlands was audited again on November 12, 2026 against the full dungeon quest registry, individual guides, and [Gurkenklaus's prerequisite report on Wowhead](https://www.wowhead.com/forever/quest=95646/horrors-in-the-highland#comments:id=6440044), supplied by the user. Four missing Alliance follow-ups and the four Greenwarden prerequisites were added. Several other sequence links are observed offer order rather than confirmed requirements; unknown quest starts remain unguessed.
 
