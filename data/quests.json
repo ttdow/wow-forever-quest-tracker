@@ -19075,5 +19075,2500 @@
     },
     "prerequisites": [],
     "previousQuests": []
+  },
+  {
+    "id": "939",
+    "zone": "Felwood",
+    "level": 54,
+    "name": "Flute of Xavaric",
+    "stage": "",
+    "giver": "Flute of Xavaric (item)",
+    "coordinates": "",
+    "area": "Felwood",
+    "objective": "Bring the Flute of Xavaric and 5 Jadefire Felbind samples to Eridan Bluewind in southern Felwood.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 49; No verified fixed item pickup position",
+    "sources": [
+      "https://foreverchanges.pro/quest/939/flute-of-xavaric"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "996",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Windblossom",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Windblossom",
+    "coordinates": "57.5, 20.0",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Windblossom.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/996/corrupted-windblossom"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "998",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Windblossom",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Windblossom",
+    "coordinates": "55.8, 7.0",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Windblossom.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/998/corrupted-windblossom"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1514",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Windblossom",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Windblossom",
+    "coordinates": "55.2, 23.5",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Windblossom.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/1514/corrupted-windblossom"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2523",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Songflower",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Songflower",
+    "coordinates": "52.9, 87.8",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Songflower.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/2523/corrupted-songflower"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2878",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Songflower",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Songflower",
+    "coordinates": "63.3, 22.6",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Songflower.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/2878/corrupted-songflower"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3363",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Songflower",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Songflower",
+    "coordinates": "63.9, 6.1",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Songflower.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/3363/corrupted-songflower"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3942",
+    "zone": "Felwood",
+    "level": 54,
+    "name": "Linken's Memory",
+    "stage": "Linken's quest chain",
+    "giver": "J.D. Collie",
+    "coordinates": "41.9, 2.7",
+    "area": "Un'Goro Crater",
+    "objective": "Find Eridan Bluewind in southern Felwood.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 47",
+    "sources": [
+      "https://foreverchanges.pro/quest/3942/linkens-memory",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "3941",
+        "name": "A Gnome's Assistance",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4005",
+    "zone": "Felwood",
+    "level": 54,
+    "name": "Aquementas",
+    "stage": "Linken's quest chain",
+    "giver": "Eridan Bluewind",
+    "coordinates": "51.3, 81.5",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Take the Book of Aquor, the Silvery Claws, and the Irontree Heart to Tanaris. Use the Book of Aquor to summon Aquementas. After you have the completed totem, take it to J.D. Collie in Marshal's Refuge.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 47",
+    "sources": [
+      "https://foreverchanges.pro/quest/4005/aquementas",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "4084",
+        "name": "Silver Heart",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4084",
+    "zone": "Felwood",
+    "level": 54,
+    "name": "Silver Heart",
+    "stage": "Linken's quest chain",
+    "giver": "Eridan Bluewind",
+    "coordinates": "51.3, 81.5",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Collect 11 Silvery Claws and 1 Irontree Heart for Eridan Bluewind in Felwood.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 47",
+    "sources": [
+      "https://foreverchanges.pro/quest/4084/silver-heart",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "3942",
+        "name": "Linken's Memory",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4101",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Cleansing Felwood",
+    "stage": "",
+    "giver": "Arathandris Silversky",
+    "coordinates": "54.1, 86.8",
+    "area": "Felwood",
+    "objective": "Bring 15 Blood Amber to Arathandris Silversky in Felwood.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/4101/cleansing-felwood"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4103",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Salve via Hunting",
+    "stage": "Repeatable",
+    "giver": "Arathandris Silversky",
+    "coordinates": "54.1, 86.8",
+    "area": "Felwood",
+    "objective": "Bring 6 Corrupted Soul Shards to Arathandris Silversky for 2 Cenarion Plant Salves.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4103/salve-via-hunting",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5882",
+        "name": "Salve via Hunting",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4104",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Salve via Mining",
+    "stage": "Repeatable · Mining 1",
+    "giver": "Arathandris Silversky",
+    "coordinates": "54.1, 86.8",
+    "area": "Felwood",
+    "objective": "Bring 4 Tainted Vitriol to Arathandris Silversky for 2 Cenarion Plant Salves.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48; Requires Mining 1; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4104/salve-via-mining",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5883",
+        "name": "Salve via Mining",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4105",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Salve via Gathering",
+    "stage": "Repeatable · Herbalism 1",
+    "giver": "Arathandris Silversky",
+    "coordinates": "54.1, 86.8",
+    "area": "Felwood",
+    "objective": "Bring 4 Fel Creep to Arathandris Silversky for 2 Cenarion Plant Salves.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48; Requires Herbalism 1; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4105/salve-via-gathering",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5884",
+        "name": "Salve via Gathering",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4106",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Salve via Skinning",
+    "stage": "Repeatable · Skinning 1",
+    "giver": "Arathandris Silversky",
+    "coordinates": "54.1, 86.8",
+    "area": "Felwood",
+    "objective": "Bring 5 Patches of Tainted Skin to Arathandris Silversky for 2 Cenarion Plant Salves.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48; Requires Skinning 1; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4106/salve-via-skinning",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5885",
+        "name": "Salve via Skinning",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4107",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Salve via Disenchanting",
+    "stage": "Repeatable · Enchanting 1",
+    "giver": "Arathandris Silversky",
+    "coordinates": "54.1, 86.8",
+    "area": "Felwood",
+    "objective": "Bring 1 Lesser Nether Essence to Arathandris Silversky for 2 Cenarion Plant Salves.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48; Requires Enchanting 1; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4107/salve-via-disenchanting",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5886",
+        "name": "Salve via Disenchanting",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4113",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Songflower",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Songflower",
+    "coordinates": "55.8, 10.4",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Songflower.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4113/corrupted-songflower"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4114",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Songflower",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Songflower",
+    "coordinates": "50.6, 13.9",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Songflower.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4114/corrupted-songflower"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4115",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Windblossom",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Windblossom",
+    "coordinates": "50.0, 80.0",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Windblossom.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4115/corrupted-windblossom"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4116",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Songflower",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Songflower",
+    "coordinates": "34.3, 52.2",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Songflower.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4116/corrupted-songflower"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4117",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Whipper Root",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Whipper Root",
+    "coordinates": "40.1, 85.2",
+    "area": "Felwood",
+    "objective": "Use 3 Cenarion Plant Salves to cleanse this Corrupted Whipper Root.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4117/corrupted-whipper-root"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4118",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Songflower",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Songflower",
+    "coordinates": "40.1, 56.5",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Songflower.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4118/corrupted-songflower"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4119",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Night Dragon",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Night Dragon",
+    "coordinates": "40.7, 78.3",
+    "area": "Felwood",
+    "objective": "Use 4 Cenarion Plant Salves to cleanse this Corrupted Night Dragon.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4119/corrupted-night-dragon"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4221",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Windblossom",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Windblossom",
+    "coordinates": "39.0, 59.1",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Windblossom.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4221/corrupted-windblossom"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4222",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Windblossom",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Windblossom",
+    "coordinates": "34.3, 48.7",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Windblossom.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4222/corrupted-windblossom"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4261",
+    "zone": "Felwood",
+    "level": 56,
+    "name": "Ancient Spirit",
+    "stage": "",
+    "giver": "Arei",
+    "coordinates": "",
+    "area": "Felwood",
+    "objective": "Escort Arei to safety, then speak with Kayneth Stillwind in Forest Song, in eastern Ashenvale.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 49; Escort starts with Arei in Felwood; pickup coordinates unverified; turn in to Kayneth Stillwind in Ashenvale",
+    "sources": [
+      "https://foreverchanges.pro/quest/4261/ancient-spirit",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "4442",
+        "name": "Purified!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4343",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Windblossom",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Windblossom",
+    "coordinates": "38.8, 21.9",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Windblossom.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4343/corrupted-windblossom"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4401",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Songflower",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Songflower",
+    "coordinates": "40.1, 44.3",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Songflower.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4401/corrupted-songflower"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4403",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Windblossom",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Windblossom",
+    "coordinates": "45.4, 18.3",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Windblossom.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4403/corrupted-windblossom"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4421",
+    "zone": "Felwood",
+    "level": 54,
+    "name": "The Corruption of the Jadefire",
+    "stage": "",
+    "giver": "Eridan Bluewind",
+    "coordinates": "51.3, 81.5",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Kill 11 Jadefire Felsworns, 9 Jadefire Shadowstalkers, 9 Jadefire Rogues, and Xavathras. Return to Eridan Bluewind in Felwood when the task has been completed.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 49",
+    "sources": [
+      "https://foreverchanges.pro/quest/4421/the-corruption-of-the-jadefire"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4441",
+    "zone": "Felwood",
+    "level": 54,
+    "name": "Felbound Ancients",
+    "stage": "",
+    "giver": "Eridan Bluewind",
+    "coordinates": "51.3, 81.5",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Travel to Darnassus and use Eridan's Vial to collect a Vial of Blessed Water from the Temple of the Moon. Return to Eridan with the filled vial.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 49",
+    "sources": [
+      "https://foreverchanges.pro/quest/4441/felbound-ancients",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "939",
+        "name": "Flute of Xavaric",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4442",
+    "zone": "Felwood",
+    "level": 54,
+    "name": "Purified!",
+    "stage": "",
+    "giver": "Eridan Bluewind",
+    "coordinates": "51.3, 81.5",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Speak to Eridan again in a moment.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 49",
+    "sources": [
+      "https://foreverchanges.pro/quest/4442/purified",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "4441",
+        "name": "Felbound Ancients",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4443",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Whipper Root",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Whipper Root",
+    "coordinates": "50.6, 18.3",
+    "area": "Felwood",
+    "objective": "Use 3 Cenarion Plant Salves to cleanse this Corrupted Whipper Root.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4443/corrupted-whipper-root"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4444",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Whipper Root",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Whipper Root",
+    "coordinates": "49.4, 12.2",
+    "area": "Felwood",
+    "objective": "Use 3 Cenarion Plant Salves to cleanse this Corrupted Whipper Root.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4444/corrupted-whipper-root"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4445",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Whipper Root",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Whipper Root",
+    "coordinates": "40.7, 19.1",
+    "area": "Felwood",
+    "objective": "Use 3 Cenarion Plant Salves to cleanse this Corrupted Whipper Root.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4445/corrupted-whipper-root"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4446",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Whipper Root",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Whipper Root",
+    "coordinates": "43.0, 47.0",
+    "area": "Felwood",
+    "objective": "Use 3 Cenarion Plant Salves to cleanse this Corrupted Whipper Root.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4446/corrupted-whipper-root"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4447",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Night Dragon",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Night Dragon",
+    "coordinates": "50.6, 30.4",
+    "area": "Felwood",
+    "objective": "Use 4 Cenarion Plant Salves to cleanse this Corrupted Night Dragon.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4447/corrupted-night-dragon"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4448",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Night Dragon",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Night Dragon",
+    "coordinates": "42.5, 13.9",
+    "area": "Felwood",
+    "objective": "Use 4 Cenarion Plant Salves to cleanse this Corrupted Night Dragon.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4448/corrupted-night-dragon"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4461",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Whipper Root",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Whipper Root",
+    "coordinates": "34.1, 60.2",
+    "area": "Felwood",
+    "objective": "Use 3 Cenarion Plant Salves to cleanse this Corrupted Whipper Root.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4461/corrupted-whipper-root"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4462",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Night Dragon",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Night Dragon",
+    "coordinates": "35.1, 58.9",
+    "area": "Felwood",
+    "objective": "Use 4 Cenarion Plant Salves to cleanse this Corrupted Night Dragon.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4462/corrupted-night-dragon"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4464",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Songflower",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Songflower",
+    "coordinates": "48.3, 75.7",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Songflower.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4464/corrupted-songflower"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4465",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Songflower",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Songflower",
+    "coordinates": "45.9, 85.2",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Songflower.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4465/corrupted-songflower"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4466",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Windblossom",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Windblossom",
+    "coordinates": "36.6, 62.0",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Windblossom.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4466/corrupted-windblossom"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4467",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Corrupted Windblossom",
+    "stage": "Repeatable plant cleansing",
+    "giver": "Corrupted Windblossom",
+    "coordinates": "44.8, 41.7",
+    "area": "Felwood",
+    "objective": "Use 2 Cenarion Plant Salves to cleanse this Corrupted Windblossom.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/4467/corrupted-windblossom"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4906",
+    "zone": "Felwood",
+    "level": 54,
+    "name": "Further Corruption",
+    "stage": "",
+    "giver": "Eridan Bluewind",
+    "coordinates": "51.3, 81.5",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Eridan Bluewind in Felwood wants you to kill 8 Jadefire Hellcallers, 8 Jadefire Betrayers, 8 Jadefire Tricksters, and Xavaric. Return to Eridan when the task is completed.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 49",
+    "sources": [
+      "https://foreverchanges.pro/quest/4906/further-corruption",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "4421",
+        "name": "The Corruption of the Jadefire",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5084",
+    "zone": "Felwood",
+    "level": 56,
+    "name": "Falling to Corruption",
+    "stage": "Winterspring / Felwood chain",
+    "giver": "Donova Snowden",
+    "coordinates": "31.3, 45.2",
+    "area": "Winterspring",
+    "objective": "Search the Deadwood furbolg camp in northern Felwood for a clue.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 52",
+    "sources": [
+      "https://foreverchanges.pro/quest/5084/falling-to-corruption",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5083",
+        "name": "Winterfall Firewater",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5085",
+    "zone": "Felwood",
+    "level": 56,
+    "name": "Mystery Goo",
+    "stage": "Winterspring / Felwood chain",
+    "giver": "Deadwood Cauldron",
+    "coordinates": "60.2, 5.8",
+    "area": "Felwood",
+    "objective": "Report back to Donova Snowden with your findings.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 52",
+    "sources": [
+      "https://foreverchanges.pro/quest/5085/mystery-goo",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5084",
+        "name": "Falling to Corruption",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5128",
+    "zone": "Felwood",
+    "level": 59,
+    "name": "Words of the High Chief",
+    "stage": "Winterspring / Felwood chain",
+    "giver": "Donova Snowden",
+    "coordinates": "31.3, 45.2",
+    "area": "Winterspring",
+    "objective": "Take the Crudely-written Log to Kelek Skykeeper in southern Felwood.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 52",
+    "sources": [
+      "https://foreverchanges.pro/quest/5128/words-of-the-high-chief",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5123",
+        "name": "The Final Piece",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5155",
+    "zone": "Felwood",
+    "level": 51,
+    "name": "Forces of Jaedenar",
+    "stage": "",
+    "giver": "Greta Mosshoof",
+    "coordinates": "51.2, 82.1",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Enter Jaedenar and slay 4 Jaedenar Hounds, 4 Jaedenar Guardsmen, 6 Jaedenar Adepts, and 6 Jaedenar Cultists before returning to Greta Mosshoof in Felwood.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/5155/forces-of-jaedenar"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5156",
+    "zone": "Felwood",
+    "level": 54,
+    "name": "Verifying the Corruption",
+    "stage": "",
+    "giver": "Taronn Redfeather",
+    "coordinates": "50.9, 81.6",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Seek out and destroy 2 Entropic Beasts and 2 Entropic Horrors while exploring Shatter Scar Vale. After checking to see if the craters there are still filled with corrupt fel water, return to Taronn Redfeather in Felwood.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/5156/verifying-the-corruption"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5157",
+    "zone": "Felwood",
+    "level": 52,
+    "name": "Collection of the Corrupt Water",
+    "stage": "",
+    "giver": "Greta Mosshoof",
+    "coordinates": "51.2, 82.1",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Take the Empty Canteen to the Moon Well in the center of Jaedenar and fill it before returning to Greta Mosshoof in Felwood.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/5157/collection-of-the-corrupt-water",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5155",
+        "name": "Forces of Jaedenar",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5158",
+    "zone": "Felwood",
+    "level": 52,
+    "name": "Seeking Spiritual Aid",
+    "stage": "",
+    "giver": "Greta Mosshoof",
+    "coordinates": "51.2, 82.1",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Take the Corrupt Moon Well Water to Islen Waterseer in the Barrens.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/5158/seeking-spiritual-aid",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5157",
+        "name": "Collection of the Corrupt Water",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5159",
+    "zone": "Felwood",
+    "level": 54,
+    "name": "Cleansed Water Returns to Felwood",
+    "stage": "",
+    "giver": "Islen Waterseer",
+    "coordinates": "65.8, 43.8",
+    "area": "The Barrens",
+    "objective": "Take the Purified Moon Well Water to Greta Mosshoof in Felwood.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/5159/cleansed-water-returns-to-felwood",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5158",
+        "name": "Seeking Spiritual Aid",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5165",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Dousing the Flames of Protection",
+    "stage": "",
+    "giver": "Greta Mosshoof",
+    "coordinates": "51.2, 82.1",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Using the Purified Moon Well Water, douse the flames of the four braziers of protection within Shadow Hold in Felwood, then return to Greta Mosshoof in the Emerald Sanctuary.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/5165/dousing-the-flames-of-protection",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5159",
+        "name": "Cleansed Water Returns to Felwood",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5202",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "A Strange Red Key",
+    "stage": "",
+    "giver": "Blood Red Key (item)",
+    "coordinates": "",
+    "area": "Felwood",
+    "objective": "Search through Jaedenar to discover what the Blood Red Key is used for.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 49; No verified fixed item pickup position",
+    "sources": [
+      "https://foreverchanges.pro/quest/5202/a-strange-red-key"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5203",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Rescue From Jaedenar",
+    "stage": "",
+    "giver": "Captured Arko'narin",
+    "coordinates": "36.2, 55.5",
+    "area": "Felwood",
+    "objective": "Escort Arko'narin to where Lightforge and her equipment are being held, and then protect her as you escape Shadow Hold. Afterwards, seek out Jessir Moonbow in Felwood to let her know what's happened to her friends.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 49",
+    "sources": [
+      "https://foreverchanges.pro/quest/5203/rescue-from-jaedenar",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5202",
+        "name": "A Strange Red Key",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5204",
+    "zone": "Felwood",
+    "level": 57,
+    "name": "Retribution of the Light",
+    "stage": "",
+    "giver": "Jessir Moonbow",
+    "coordinates": "51.3, 82.0",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Return to Jaedenar and kill the succubus Rakaiah before finding the Remains of Trey Lightforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 49",
+    "sources": [
+      "https://foreverchanges.pro/quest/5204/retribution-of-the-light",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5203",
+        "name": "Rescue From Jaedenar",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5242",
+    "zone": "Felwood",
+    "level": 58,
+    "name": "A Final Blow",
+    "stage": "",
+    "giver": "Greta Mosshoof",
+    "coordinates": "51.2, 82.1",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Kill Moora and Salia, and bring Shadow Lord Fel'dan's Head to Greta Mosshoof in Felwood.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/5242/a-final-blow",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5165",
+        "name": "Dousing the Flames of Protection",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5249",
+    "zone": "Felwood",
+    "level": 56,
+    "name": "To Winterspring!",
+    "stage": "",
+    "giver": "Ivy Leafrunner",
+    "coordinates": "51.0, 81.6",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Find Starfall Village in Winterspring and speak with Wynd Nightchaser.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 53",
+    "sources": [
+      "https://foreverchanges.pro/quest/5249/to-winterspring"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5385",
+    "zone": "Felwood",
+    "level": 57,
+    "name": "The Remains of Trey Lightforge",
+    "stage": "",
+    "giver": "Remains of Trey Lightforge",
+    "coordinates": "38.5, 50.4",
+    "area": "Felwood",
+    "objective": "Return the Remains of Trey Lightforge to Jessir Moonbow in Felwood.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 49",
+    "sources": [
+      "https://foreverchanges.pro/quest/5385/the-remains-of-trey-lightforge",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "5204",
+        "name": "Retribution of the Light",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5882",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Salve via Hunting",
+    "stage": "First turn-in",
+    "giver": "Arathandris Silversky",
+    "coordinates": "54.1, 86.8",
+    "area": "Felwood",
+    "objective": "Bring 6 Corrupted Soul Shards to Arathandris Silversky for 2 Cenarion Plant Salves.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48; First-time Alliance hand-in; the older Questie baseline has conflicting Horde starter/faction fields; current page and Classic primary relations agree on Arathandris",
+    "sources": [
+      "https://foreverchanges.pro/quest/5882/salve-via-hunting",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "4101",
+        "name": "Cleansing Felwood",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5883",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Salve via Mining",
+    "stage": "First turn-in · Mining 1",
+    "giver": "Arathandris Silversky",
+    "coordinates": "54.1, 86.8",
+    "area": "Felwood",
+    "objective": "Bring 4 Tainted Vitriol to Arathandris Silversky for 2 Cenarion Plant Salves.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48; Requires Mining 1; First-time Alliance hand-in; the older Questie baseline has conflicting Horde starter/faction fields; current page and Classic primary relations agree on Arathandris",
+    "sources": [
+      "https://foreverchanges.pro/quest/5883/salve-via-mining",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "4101",
+        "name": "Cleansing Felwood",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5884",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Salve via Gathering",
+    "stage": "First turn-in · Herbalism 1",
+    "giver": "Arathandris Silversky",
+    "coordinates": "54.1, 86.8",
+    "area": "Felwood",
+    "objective": "Bring 4 Fel Creep to Arathandris Silversky for 2 Cenarion Plant Salves.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48; Requires Herbalism 1; First-time Alliance hand-in; the older Questie baseline has conflicting Horde starter/faction fields; current page and Classic primary relations agree on Arathandris",
+    "sources": [
+      "https://foreverchanges.pro/quest/5884/salve-via-gathering",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "4101",
+        "name": "Cleansing Felwood",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5885",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Salve via Skinning",
+    "stage": "First turn-in · Skinning 1",
+    "giver": "Arathandris Silversky",
+    "coordinates": "54.1, 86.8",
+    "area": "Felwood",
+    "objective": "Bring 5 Patches of Tainted Skin to Arathandris Silversky for 2 Cenarion Plant Salves.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48; Requires Skinning 1; First-time Alliance hand-in; the older Questie baseline has conflicting Horde starter/faction fields; current page and Classic primary relations agree on Arathandris",
+    "sources": [
+      "https://foreverchanges.pro/quest/5885/salve-via-skinning",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "4101",
+        "name": "Cleansing Felwood",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5886",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Salve via Disenchanting",
+    "stage": "First turn-in · Enchanting 1",
+    "giver": "Arathandris Silversky",
+    "coordinates": "54.1, 86.8",
+    "area": "Felwood",
+    "objective": "Bring 1 Lesser Nether Essence to Arathandris Silversky for 2 Cenarion Plant Salves.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48; Requires Enchanting 1; First-time Alliance hand-in; the older Questie baseline has conflicting Horde starter/faction fields; current page and Classic primary relations agree on Arathandris",
+    "sources": [
+      "https://foreverchanges.pro/quest/5886/salve-via-disenchanting",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "4101",
+        "name": "Cleansing Felwood",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "6031",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Runecloth",
+    "stage": "",
+    "giver": "Meilosh",
+    "coordinates": "65.7, 2.8",
+    "area": "Timbermaw Hold (Felwood)",
+    "objective": "Bring 30 Runecloth to Meilosh in Timbermaw Hold. Requires Friendly with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 50; Reputation requirement is a Classic reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/6031/runecloth",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6032",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Sacred Cloth",
+    "stage": "Tailoring 290",
+    "giver": "Meilosh",
+    "coordinates": "65.7, 2.8",
+    "area": "Timbermaw Hold (Felwood)",
+    "objective": "Bring 2 Mooncloth to Meilosh in Timbermaw Hold. Requires Friendly with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 50; Reputation requirement is a Classic reference; Requires Tailoring 290",
+    "sources": [
+      "https://foreverchanges.pro/quest/6032/sacred-cloth",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8460",
+    "zone": "Felwood",
+    "level": 48,
+    "name": "Timbermaw Ally",
+    "stage": "",
+    "giver": "Grazle",
+    "coordinates": "50.9, 85.0",
+    "area": "Felwood",
+    "objective": "Grazle wants you to prove yourself by killing 6 Deadwood Warriors, 6 Deadwood Pathfinders, and 6 Deadwood Gardeners.  Return to him in southern Felwood near the Emerald Sanctuary when you are done.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 45",
+    "sources": [
+      "https://foreverchanges.pro/quest/8460/timbermaw-ally"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8461",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Deadwood of the North",
+    "stage": "",
+    "giver": "Nafien",
+    "coordinates": "64.8, 8.1",
+    "area": "Felwood",
+    "objective": "Nafien would like you to kill 6 Deadwood Den Watchers, 6 Deadwood Avengers, and 6 Deadwood Shamans.  Return to him in northern Felwood near the entrance to Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 45",
+    "sources": [
+      "https://foreverchanges.pro/quest/8461/deadwood-of-the-north"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8462",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Speak to Nafien",
+    "stage": "",
+    "giver": "Grazle",
+    "coordinates": "50.9, 85.0",
+    "area": "Felwood",
+    "objective": "Travel north along the main road in Felwood and speak with the furbolg named Nafien.  He stands guard outside the entrance to Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 45",
+    "sources": [
+      "https://foreverchanges.pro/quest/8462/speak-to-nafien",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "8460",
+        "name": "Timbermaw Ally",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8465",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Speak to Salfa",
+    "stage": "",
+    "giver": "Nafien",
+    "coordinates": "64.8, 8.1",
+    "area": "Felwood",
+    "objective": "Travel through Timbermaw Hold and exit into Winterspring.  Speak with Salfa, who stands guard outside the entrance to Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 45",
+    "sources": [
+      "https://foreverchanges.pro/quest/8465/speak-to-salfa",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "8461",
+        "name": "Deadwood of the North",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8466",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Feathers for Grazle",
+    "stage": "Repeatable",
+    "giver": "Grazle",
+    "coordinates": "50.9, 85.0",
+    "area": "Felwood",
+    "objective": "Some of the Deadwood furbolgs wear a distinctive headdress that may be used as a means of proof in thinning their numbers. Bring me a feather from any headdresses you acquire; for every set of five you bring me, you will earn recognition amongst the Timbermaw.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 45; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8466/feathers-for-grazle",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "8460",
+        "name": "Timbermaw Ally",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8467",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Feathers for Nafien",
+    "stage": "Repeatable",
+    "giver": "Nafien",
+    "coordinates": "64.8, 8.1",
+    "area": "Felwood",
+    "objective": "Some of the Deadwood furbolgs wear a distinctive headdress that may be used as a means of proof in thinning their numbers. Bring me a feather from any headdresses you acquire; for every set of five you bring me, you will earn recognition amongst the Timbermaw.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 45; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8467/feathers-for-nafien",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "8461",
+        "name": "Deadwood of the North",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8470",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Deadwood Ritual Totem",
+    "stage": "",
+    "giver": "Deadwood Ritual Totem (item)",
+    "coordinates": "",
+    "area": "Felwood",
+    "objective": "Take the Deadwood Ritual Totem inside Timbermaw Hold and see if one of the furbolgs there will find a use for the item.  The Timbermaw will not speak with you unless you are of Neutral reputation or greater with them.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 45; No verified fixed item pickup position",
+    "sources": [
+      "https://foreverchanges.pro/quest/8470/deadwood-ritual-totem"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8481",
+    "zone": "Felwood",
+    "level": 60,
+    "name": "The Root of All Evil",
+    "stage": "",
+    "giver": "Gorn One Eye",
+    "coordinates": "65.2, 2.7",
+    "area": "Timbermaw Hold (Felwood)",
+    "objective": "Plant the Demon Summoning Torch in the mouth of High Chief Winterfall's cave in the Winterfall furbolg village.  Defeat the demon and retrieve the Essence of Xandivious for Gorn One Eye in Timbermaw Hold. Requires Exalted with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 45; Reputation requirement is a Classic reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/8481/the-root-of-all-evil",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8484",
+    "zone": "Felwood",
+    "level": 60,
+    "name": "The Brokering of Peace",
+    "stage": "",
+    "giver": "Gorn One Eye",
+    "coordinates": "65.2, 2.7",
+    "area": "Timbermaw Hold (Felwood)",
+    "objective": "Bring the Timbermaw Offering of Peace to King Magni Bronzebeard in Ironforge. Requires Exalted with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 45; Reputation requirement is a Classic reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/8484/the-brokering-of-peace",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "8481",
+        "name": "The Root of All Evil",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8723",
+    "zone": "Felwood",
+    "level": 60,
+    "name": "Nightwind the Elder",
+    "stage": "Lunar Festival",
+    "giver": "Elder Nightwind",
+    "coordinates": "37.6, 53.0",
+    "area": "Felwood",
+    "objective": "Pay homage to Elder Nightwind in Felwood during the Lunar Festival.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 1",
+    "sources": [
+      "https://foreverchanges.pro/quest/8723/nightwind-the-elder"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "86577",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "A Sampling of Putrescence",
+    "stage": "",
+    "giver": "Kelek Skykeeper",
+    "coordinates": "51.2, 81.9",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Bring 8 Putrescent Bear Organs and 10 Putrescent Wolf Organs to Kelek Skykeeper.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/86577/a-sampling-of-putrescence"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "86611",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "Stag Lord's Bauble",
+    "stage": "",
+    "giver": "Statue of Malorne",
+    "coordinates": "42.0, 47.4",
+    "area": "Felwood",
+    "objective": "Take the Stag Lord's Bauble to someone in Talonbranch Glade who may know about it.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48; Object starter and position from player observations; the bauble is provided by the quest",
+    "sources": [
+      "https://foreverchanges.pro/quest/86611/stag-lords-bauble",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverObjectTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "91952",
+    "zone": "Felwood",
+    "level": 55,
+    "name": "The Source of the Corruption",
+    "stage": "",
+    "giver": "Greta Mosshoof",
+    "coordinates": "51.1, 82.2",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Find the hermit Ketharas on Mount Hyjal.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 55",
+    "sources": [
+      "https://foreverchanges.pro/quest/91952/the-source-of-the-corruption"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
   }
 ]

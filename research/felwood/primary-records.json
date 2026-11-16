@@ -1,0 +1,7930 @@
+{
+  "939": {
+    "merged": {
+      "1": "Flute of Xavaric",
+      "2": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": 11668
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9116
+        }
+      },
+      "4": 49,
+      "5": 54,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Bring the Flute of Xavaric and 5 Jadefire Felbind samples to Eridan Bluewind in southern Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11674
+          }
+        }
+      },
+      "11": 11668,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 4441
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 939,
+      "Title": "Flute of Xavaric",
+      "MinLevel": 49,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 4441,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "996": {
+    "merged": {
+      "1": "Corrupted Windblossom",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174602
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174602
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 996,
+      "Title": "Corrupted Windblossom",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "998": {
+    "merged": {
+      "1": "Corrupted Windblossom",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174603
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174603
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 998,
+      "Title": "Corrupted Windblossom",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "1123": {
+    "merged": {
+      "1": "Rabine Saturna",
+      "2": {
+        "1": {
+          "1": 5769
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11801
+        }
+      },
+      "4": 54,
+      "5": 55,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Speak with Rabine Saturna in the village of Nighthaven, Moonglade. Moonglade lies between Felwood and Winterspring, accessible through a path out of Timbermaw Hold."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1638,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 1124,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 609,
+          "2": 25
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 1123,
+      "Title": "Rabine Saturna",
+      "MinLevel": 54,
+      "QuestLevel": 55,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 1124,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "1514": {
+    "merged": {
+      "1": "Corrupted Windblossom",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174709
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174709
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 1514,
+      "Title": "Corrupted Windblossom",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "2523": {
+    "merged": {
+      "1": "Corrupted Songflower",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 164886
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 164886
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 2523,
+      "Title": "Corrupted Songflower",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "2878": {
+    "merged": {
+      "1": "Corrupted Songflower",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174594
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174594
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 2878,
+      "Title": "Corrupted Songflower",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "3363": {
+    "merged": {
+      "1": "Corrupted Songflower",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174595
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174595
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 3363,
+      "Title": "Corrupted Songflower",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "3942": {
+    "merged": {
+      "1": "Linken's Memory",
+      "2": {
+        "1": {
+          "1": 9117
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9116
+        }
+      },
+      "4": 47,
+      "5": 54,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Find Eridan Bluewind in southern Felwood."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 3941
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 490,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 4084,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 3942,
+      "Title": "Linken's Memory",
+      "MinLevel": 47,
+      "QuestLevel": 54,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 3941,
+      "NextQuestInChain": 4084,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "4005": {
+    "merged": {
+      "1": "Aquementas",
+      "2": {
+        "1": {
+          "1": 9116
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9117
+        }
+      },
+      "4": 47,
+      "5": 54,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Take the Book of Aquor, the Silvery Claws, and the Irontree Heart to Tanaris.",
+        "2": "",
+        "3": "Use the Book of Aquor to summon Aquementas.",
+        "4": "",
+        "5": "After you have the completed totem, take it to J.D. Collie in Marshal's Refuge."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11522
+          }
+        }
+      },
+      "11": 11617,
+      "12": null,
+      "13": {
+        "1": 4084
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 490,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 3961
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4005,
+      "Title": "Aquementas",
+      "MinLevel": 47,
+      "QuestLevel": 54,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4084,
+      "NextQuestInChain": 3961,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "4084": {
+    "merged": {
+      "1": "Silver Heart",
+      "2": {
+        "1": {
+          "1": 9116
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9116
+        }
+      },
+      "4": 47,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Collect 11 Silvery Claws and 1 Irontree Heart for Eridan Bluewind in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11172
+          },
+          "2": {
+            "1": 11173
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 3942
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 490,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 4005,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4084,
+      "Title": "Silver Heart",
+      "MinLevel": 47,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 3942,
+      "NextQuestInChain": 4005,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "4101": {
+    "merged": {
+      "1": "Cleansing Felwood",
+      "2": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Bring 15 Blood Amber to Arathandris Silversky in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11503
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4101,
+      "Title": "Cleansing Felwood",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 1101,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "4102": {
+    "merged": {
+      "1": "Cleansing Felwood",
+      "2": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Bring 15 Blood Amber to Maybess Riverbreeze in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11503
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4102,
+      "Title": "Cleansing Felwood",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 690,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "4103": {
+    "merged": {
+      "1": "Salve via Hunting",
+      "2": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 4294967373,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11515
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4101
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4103,
+      "Title": "Salve via Hunting",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 1101,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5882,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 1
+    }
+  },
+  "4104": {
+    "merged": {
+      "1": "Salve via Mining",
+      "2": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 4294967373,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11513
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4101
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 186,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4104,
+      "Title": "Salve via Mining",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 1101,
+      "RequiredClasses": 0,
+      "RequiredSkill": 186,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5883,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 1
+    }
+  },
+  "4105": {
+    "merged": {
+      "1": "Salve via Gathering",
+      "2": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 4294967373,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11514
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4101
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 182,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4105,
+      "Title": "Salve via Gathering",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 1101,
+      "RequiredClasses": 0,
+      "RequiredSkill": 182,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5884,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 1
+    }
+  },
+  "4106": {
+    "merged": {
+      "1": "Salve via Skinning",
+      "2": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 4294967373,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11512
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4101
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 393,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4106,
+      "Title": "Salve via Skinning",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 1101,
+      "RequiredClasses": 0,
+      "RequiredSkill": 393,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5885,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 1
+    }
+  },
+  "4107": {
+    "merged": {
+      "1": "Salve via Disenchanting",
+      "2": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 4294967373,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11174
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4101
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 333,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4107,
+      "Title": "Salve via Disenchanting",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 1101,
+      "RequiredClasses": 0,
+      "RequiredSkill": 333,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5886,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 1
+    }
+  },
+  "4108": {
+    "merged": {
+      "1": "Salve via Hunting",
+      "2": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 4294967373,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11515
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4103
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4108,
+      "Title": "Salve via Hunting",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 690,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5887,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 1
+    }
+  },
+  "4109": {
+    "merged": {
+      "1": "Salve via Mining",
+      "2": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 4294967373,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11513
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4104
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 186,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4109,
+      "Title": "Salve via Mining",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 690,
+      "RequiredClasses": 0,
+      "RequiredSkill": 186,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5888,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 1
+    }
+  },
+  "4110": {
+    "merged": {
+      "1": "Salve via Gathering",
+      "2": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 4294967373,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11514
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4105
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 182,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4110,
+      "Title": "Salve via Gathering",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 690,
+      "RequiredClasses": 0,
+      "RequiredSkill": 182,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5889,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 1
+    }
+  },
+  "4111": {
+    "merged": {
+      "1": "Salve via Skinning",
+      "2": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 4294967373,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11512
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4106
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 393,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4111,
+      "Title": "Salve via Skinning",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 690,
+      "RequiredClasses": 0,
+      "RequiredSkill": 393,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5890,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 1
+    }
+  },
+  "4112": {
+    "merged": {
+      "1": "Salve via Disenchanting",
+      "2": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9528
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 4294967373,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11174
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4107
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 333,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4112,
+      "Title": "Salve via Disenchanting",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 690,
+      "RequiredClasses": 0,
+      "RequiredSkill": 333,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5891,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 1
+    }
+  },
+  "4113": {
+    "merged": {
+      "1": "Corrupted Songflower",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174596
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174596
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4113,
+      "Title": "Corrupted Songflower",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4114": {
+    "merged": {
+      "1": "Corrupted Songflower",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174597
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174597
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4114,
+      "Title": "Corrupted Songflower",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4115": {
+    "merged": {
+      "1": "Corrupted Windblossom",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 173327
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 173327
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4115,
+      "Title": "Corrupted Windblossom",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4116": {
+    "merged": {
+      "1": "Corrupted Songflower",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174598
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174598
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4116,
+      "Title": "Corrupted Songflower",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4117": {
+    "merged": {
+      "1": "Corrupted Whipper Root",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 164888
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 164888
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4117,
+      "Title": "Corrupted Whipper Root",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4118": {
+    "merged": {
+      "1": "Corrupted Songflower",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174712
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174712
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4118,
+      "Title": "Corrupted Songflower",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4119": {
+    "merged": {
+      "1": "Corrupted Night Dragon",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 164885
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 164885
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4119,
+      "Title": "Corrupted Night Dragon",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4120": {
+    "merged": {
+      "1": "The Strength of Corruption",
+      "2": {
+        "1": {
+          "1": 7776
+        }
+      },
+      "3": {
+        "1": {
+          "1": 7776
+        }
+      },
+      "4": 47,
+      "5": 52,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Talo Thornhoof at Camp Mojache in Feralas wants you to kill 12 Angerclaw Grizzlies and 12 Felpaw Ravagers in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 8957
+          },
+          "2": {
+            "1": 8961
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 357,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 81,
+          "2": 250
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4120,
+      "Title": "The Strength of Corruption",
+      "MinLevel": 47,
+      "QuestLevel": 52,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "4221": {
+    "merged": {
+      "1": "Corrupted Windblossom",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174599
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174599
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4221,
+      "Title": "Corrupted Windblossom",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4222": {
+    "merged": {
+      "1": "Corrupted Windblossom",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174600
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174600
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4222,
+      "Title": "Corrupted Windblossom",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4261": {
+    "merged": {
+      "1": "Ancient Spirit",
+      "2": {
+        "1": {
+          "1": 9598
+        }
+      },
+      "3": {
+        "1": {
+          "1": 3848
+        }
+      },
+      "4": 49,
+      "5": 56,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Escort Arei to safety, then speak with Kayneth Stillwind in Forest Song, in eastern Ashenvale."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4442
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 2,
+      "24": 2,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 150
+        },
+        "2": {
+          "1": 69,
+          "2": 350
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4261,
+      "Title": "Ancient Spirit",
+      "MinLevel": 49,
+      "QuestLevel": 56,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4442,
+      "NextQuestInChain": 0,
+      "QuestFlags": 2,
+      "SpecialFlags": 2
+    }
+  },
+  "4293": {
+    "merged": {
+      "1": "A Sample of Slime...",
+      "2": {
+        "1": {
+          "1": 10136
+        }
+      },
+      "3": {
+        "1": {
+          "1": 10136
+        }
+      },
+      "4": 48,
+      "5": 52,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Gather Felwood Slime Samples from any of the slimes in Felwood. Then, using the Testing Equipment next to Chemist Fuely in Undercity, see which of your samples are the most corrupt. Bring 5 of the Corrupted Felwood Samples you find to Chemist Fuely."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 12234
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": {
+        "1": 4661
+      },
+      "15": {
+        "1": 4294
+      },
+      "16": null,
+      "17": 1497,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": {
+        "1": 12230
+      },
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 68,
+          "2": 250
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4293,
+      "Title": "A Sample of Slime...",
+      "MinLevel": 48,
+      "QuestLevel": 52,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "4343": {
+    "merged": {
+      "1": "Corrupted Windblossom",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 164887
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 164887
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4343,
+      "Title": "Corrupted Windblossom",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4401": {
+    "merged": {
+      "1": "Corrupted Songflower",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174713
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174713
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4401,
+      "Title": "Corrupted Songflower",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4403": {
+    "merged": {
+      "1": "Corrupted Windblossom",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174601
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174601
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4403,
+      "Title": "Corrupted Windblossom",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4421": {
+    "merged": {
+      "1": "The Corruption of the Jadefire",
+      "2": {
+        "1": {
+          "1": 9116
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9116
+        }
+      },
+      "4": 49,
+      "5": 54,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Kill 11 Jadefire Felsworns, 9 Jadefire Shadowstalkers, 9 Jadefire Rogues, and Xavathras. Return to Eridan Bluewind in Felwood when the task has been completed."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 7109
+          },
+          "2": {
+            "1": 7110
+          },
+          "3": {
+            "1": 7106
+          },
+          "4": {
+            "1": 9454
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4421,
+      "Title": "The Corruption of the Jadefire",
+      "MinLevel": 49,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "4441": {
+    "merged": {
+      "1": "Felbound Ancients",
+      "2": {
+        "1": {
+          "1": 9116
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9116
+        }
+      },
+      "4": 49,
+      "5": 54,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Travel to Darnassus and use Eridan's Vial to collect a Vial of Blessed Water from the Temple of the Moon. Return to Eridan with the filled vial."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 5646
+          }
+        }
+      },
+      "11": 11682,
+      "12": null,
+      "13": {
+        "1": 939
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4441,
+      "Title": "Felbound Ancients",
+      "MinLevel": 49,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 939,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "4442": {
+    "merged": {
+      "1": "Purified!",
+      "2": {
+        "1": {
+          "1": 9116
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9116
+        }
+      },
+      "4": 49,
+      "5": 54,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Speak to Eridan again in a moment."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4441
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4442,
+      "Title": "Purified!",
+      "MinLevel": 49,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4441,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "4443": {
+    "merged": {
+      "1": "Corrupted Whipper Root",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 173284
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 173284
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4443,
+      "Title": "Corrupted Whipper Root",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4444": {
+    "merged": {
+      "1": "Corrupted Whipper Root",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174605
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174605
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4444,
+      "Title": "Corrupted Whipper Root",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4445": {
+    "merged": {
+      "1": "Corrupted Whipper Root",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174606
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174606
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4445,
+      "Title": "Corrupted Whipper Root",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4446": {
+    "merged": {
+      "1": "Corrupted Whipper Root",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174607
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174607
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4446,
+      "Title": "Corrupted Whipper Root",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4447": {
+    "merged": {
+      "1": "Corrupted Night Dragon",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 173324
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 173324
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4447,
+      "Title": "Corrupted Night Dragon",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4448": {
+    "merged": {
+      "1": "Corrupted Night Dragon",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174608
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174608
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4448,
+      "Title": "Corrupted Night Dragon",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4461": {
+    "merged": {
+      "1": "Corrupted Whipper Root",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174686
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174686
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4461,
+      "Title": "Corrupted Whipper Root",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4462": {
+    "merged": {
+      "1": "Corrupted Night Dragon",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174684
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174684
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4462,
+      "Title": "Corrupted Night Dragon",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4464": {
+    "merged": {
+      "1": "Corrupted Songflower",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 171942
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 171942
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4464,
+      "Title": "Corrupted Songflower",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4465": {
+    "merged": {
+      "1": "Corrupted Songflower",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 171939
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 171939
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4465,
+      "Title": "Corrupted Songflower",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4466": {
+    "merged": {
+      "1": "Corrupted Windblossom",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174604
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174604
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4466,
+      "Title": "Corrupted Windblossom",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4467": {
+    "merged": {
+      "1": "Corrupted Windblossom",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 174708
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 174708
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11516
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 264,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4467,
+      "Title": "Corrupted Windblossom",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 264,
+      "SpecialFlags": 1
+    }
+  },
+  "4505": {
+    "merged": {
+      "1": "Well of Corruption",
+      "2": {
+        "1": {
+          "1": 9996
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9996
+        }
+      },
+      "4": 49,
+      "5": 54,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Collect a sample of corrupted water from the Jadefire Satyrs' moonwell and bring it to Winna Hazzard at Bloodvenom Post."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 12567
+          }
+        }
+      },
+      "11": 12566,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 68,
+          "2": 250
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4505,
+      "Title": "Well of Corruption",
+      "MinLevel": 49,
+      "QuestLevel": 54,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "4506": {
+    "merged": {
+      "1": "Corrupted Sabers",
+      "2": {
+        "1": {
+          "1": 9996
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9996
+        }
+      },
+      "4": 49,
+      "5": 54,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Take Winna's kitten to the corrupted moonwell, release it, then bring it back to Winna.",
+        "2": "",
+        "3": "Once you have returned to Winna, click on the cat to release it to Winna."
+      },
+      "9": null,
+      "10": null,
+      "11": 12565,
+      "12": null,
+      "13": {
+        "1": 4505
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 2,
+      "24": 2,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 68,
+          "2": 250
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4506,
+      "Title": "Corrupted Sabers",
+      "MinLevel": 49,
+      "QuestLevel": 54,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4505,
+      "NextQuestInChain": 0,
+      "QuestFlags": 2,
+      "SpecialFlags": 2
+    }
+  },
+  "4521": {
+    "merged": {
+      "1": "Wild Guardians",
+      "2": {
+        "1": {
+          "1": 10306
+        }
+      },
+      "3": {
+        "1": {
+          "1": 10306
+        }
+      },
+      "4": 52,
+      "5": 56,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Trull Failbane in Felwood wants you to kill 15 Raging Owlbeasts and 15 Ragged Owlbeasts."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 7451
+          },
+          "2": {
+            "1": 7450
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 4741,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 76,
+          "2": 250
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4521,
+      "Title": "Wild Guardians",
+      "MinLevel": 52,
+      "QuestLevel": 56,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 4741,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "4721": {
+    "merged": {
+      "1": "Wild Guardians",
+      "2": {
+        "1": {
+          "1": 10306
+        }
+      },
+      "3": {
+        "1": {
+          "1": 10306
+        }
+      },
+      "4": 52,
+      "5": 59,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Trull Failbane in Felwood wants you to hunt 10 Berserk Owlbeasts in Winterspring."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 7454
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4741
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 76,
+          "2": 250
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4721,
+      "Title": "Wild Guardians",
+      "MinLevel": 52,
+      "QuestLevel": 59,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4741,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "4741": {
+    "merged": {
+      "1": "Wild Guardians",
+      "2": {
+        "1": {
+          "1": 10306
+        }
+      },
+      "3": {
+        "1": {
+          "1": 10306
+        }
+      },
+      "4": 52,
+      "5": 58,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Trull Failbane in Felwood wants you to hunt 13 Moontouched Owlbeasts."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 7453
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4521
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 4721,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 76,
+          "2": 250
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4741,
+      "Title": "Wild Guardians",
+      "MinLevel": 52,
+      "QuestLevel": 58,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4521,
+      "NextQuestInChain": 4721,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "4883": {
+    "merged": {
+      "1": "Guarding Secrets",
+      "2": {
+        "1": {
+          "1": 10306
+        }
+      },
+      "3": {
+        "1": {
+          "1": 5770
+        }
+      },
+      "4": 52,
+      "5": 59,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Take the Blue-feathered Necklace to Nara Wildmane."
+      },
+      "9": null,
+      "10": null,
+      "11": 12558,
+      "12": null,
+      "13": {
+        "1": 4882
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 618,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 81,
+          "2": 250
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4883,
+      "Title": "Guarding Secrets",
+      "MinLevel": 52,
+      "QuestLevel": 59,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4882,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "4906": {
+    "merged": {
+      "1": "Further Corruption",
+      "2": {
+        "1": {
+          "1": 9116
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9116
+        }
+      },
+      "4": 49,
+      "5": 54,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Eridan Bluewind in Felwood wants you to kill 8 Jadefire Hellcallers, 8 Jadefire Betrayers, 8 Jadefire Tricksters, and Xavaric. Return to Eridan when the task is completed."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 7111
+          },
+          "2": {
+            "1": 7108
+          },
+          "3": {
+            "1": 7107
+          },
+          "4": {
+            "1": 10648
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4421
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 4906,
+      "Title": "Further Corruption",
+      "MinLevel": 49,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4421,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5084": {
+    "merged": {
+      "1": "Falling to Corruption",
+      "2": {
+        "1": {
+          "1": 9298
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 176091
+        }
+      },
+      "4": 52,
+      "5": 56,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Search the Deadwood furbolg camp in northern Felwood for a clue."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 5083
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 618,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 5085,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 577,
+          "2": 150
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5084,
+      "Title": "Falling to Corruption",
+      "MinLevel": 52,
+      "QuestLevel": 56,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5083,
+      "NextQuestInChain": 5085,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5085": {
+    "merged": {
+      "1": "Mystery Goo",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 176091
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9298
+        }
+      },
+      "4": 52,
+      "5": 56,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Report back to Donova Snowden with your findings."
+      },
+      "9": null,
+      "10": null,
+      "11": 12813,
+      "12": null,
+      "13": {
+        "1": 5084
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 618,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 5086,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 577,
+          "2": 150
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5085,
+      "Title": "Mystery Goo",
+      "MinLevel": 52,
+      "QuestLevel": 56,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5084,
+      "NextQuestInChain": 5086,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "5128": {
+    "merged": {
+      "1": "Words of the High Chief",
+      "2": {
+        "1": {
+          "1": 9298
+        }
+      },
+      "3": {
+        "1": {
+          "1": 10920
+        }
+      },
+      "4": 52,
+      "5": 59,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Take the Crudely-written Log to Kelek Skykeeper in southern Felwood."
+      },
+      "9": null,
+      "10": null,
+      "11": 12842,
+      "12": null,
+      "13": {
+        "1": 5123
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 618,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 577,
+          "2": 250
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5128,
+      "Title": "Words of the High Chief",
+      "MinLevel": 52,
+      "QuestLevel": 59,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5123,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "5155": {
+    "merged": {
+      "1": "Forces of Jaedenar",
+      "2": {
+        "1": {
+          "1": 10922
+        }
+      },
+      "3": {
+        "1": {
+          "1": 10922
+        }
+      },
+      "4": 48,
+      "5": 51,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Enter Jaedenar and slay 4 Jaedenar Hounds, 4 Jaedenar Guardsmen, 6 Jaedenar Adepts, and 6 Jaedenar Cultists before returning to Greta Mosshoof in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 7125
+          },
+          "2": {
+            "1": 7113
+          },
+          "3": {
+            "1": 7115
+          },
+          "4": {
+            "1": 7112
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 5157,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5155,
+      "Title": "Forces of Jaedenar",
+      "MinLevel": 48,
+      "QuestLevel": 51,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 5157,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5156": {
+    "merged": {
+      "1": "Verifying the Corruption",
+      "2": {
+        "1": {
+          "1": 10921
+        }
+      },
+      "3": {
+        "1": {
+          "1": 10921
+        }
+      },
+      "4": 48,
+      "5": 54,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Seek out and destroy 2 Entropic Beasts and 2 Entropic Horrors while exploring Shatter Scar Vale. After checking to see if the craters there are still filled with corrupt fel water, return to Taronn Redfeather in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 9878
+          },
+          "2": {
+            "1": 9879
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 12
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5156,
+      "Title": "Verifying the Corruption",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 12,
+      "SpecialFlags": 2
+    }
+  },
+  "5157": {
+    "merged": {
+      "1": "Collection of the Corrupt Water",
+      "2": {
+        "1": {
+          "1": 10922
+        }
+      },
+      "3": {
+        "1": {
+          "1": 10922
+        }
+      },
+      "4": 48,
+      "5": 52,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Take the Empty Canteen to the Moon Well in the center of Jaedenar and fill it before returning to Greta Mosshoof in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 12907
+          }
+        }
+      },
+      "11": 12922,
+      "12": null,
+      "13": {
+        "1": 5155
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 5158
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5157,
+      "Title": "Collection of the Corrupt Water",
+      "MinLevel": 48,
+      "QuestLevel": 52,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5155,
+      "NextQuestInChain": 5158,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "5158": {
+    "merged": {
+      "1": "Seeking Spiritual Aid",
+      "2": {
+        "1": {
+          "1": 10922
+        }
+      },
+      "3": {
+        "1": {
+          "1": 5901
+        }
+      },
+      "4": 48,
+      "5": 52,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Take the Corrupt Moon Well Water to Islen Waterseer in the Barrens."
+      },
+      "9": null,
+      "10": null,
+      "11": 12907,
+      "12": null,
+      "13": {
+        "1": 5157
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5158,
+      "Title": "Seeking Spiritual Aid",
+      "MinLevel": 48,
+      "QuestLevel": 52,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5157,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "5159": {
+    "merged": {
+      "1": "Cleansed Water Returns to Felwood",
+      "2": {
+        "1": {
+          "1": 5901
+        }
+      },
+      "3": {
+        "1": {
+          "1": 10922
+        }
+      },
+      "4": 48,
+      "5": 54,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Take the Purified Moon Well Water to Greta Mosshoof in Felwood."
+      },
+      "9": null,
+      "10": null,
+      "11": 12906,
+      "12": null,
+      "13": {
+        "1": 5158
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 5165
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5159,
+      "Title": "Cleansed Water Returns to Felwood",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5158,
+      "NextQuestInChain": 5165,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "5165": {
+    "merged": {
+      "1": "Dousing the Flames of Protection",
+      "2": {
+        "1": {
+          "1": 10922
+        }
+      },
+      "3": {
+        "1": {
+          "1": 10922
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Using the Purified Moon Well Water, douse the flames of the four braziers of protection within Shadow Hold in Felwood, then return to Greta Mosshoof in the Emerald Sanctuary."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": {
+          "1": {
+            "1": 176158,
+            "2": "Extinguish the Brazier of Pain"
+          },
+          "2": {
+            "1": 176159,
+            "2": "Extinguish the Brazier of Malice"
+          },
+          "3": {
+            "1": 176160,
+            "2": "Extinguish the Brazier of Suffering"
+          },
+          "4": {
+            "1": 176161,
+            "2": "Extinguish the Brazier of Hatred"
+          }
+        }
+      },
+      "11": 12906,
+      "12": null,
+      "13": {
+        "1": 5159
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5165,
+      "Title": "Dousing the Flames of Protection",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5159,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "5202": {
+    "merged": {
+      "1": "A Strange Red Key",
+      "2": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": 13140
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11016
+        }
+      },
+      "4": 49,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Search through Jaedenar to discover what the Blood Red Key is used for."
+      },
+      "9": null,
+      "10": null,
+      "11": 13140,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5202,
+      "Title": "A Strange Red Key",
+      "MinLevel": 49,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "5203": {
+    "merged": {
+      "1": "Rescue From Jaedenar",
+      "2": {
+        "1": {
+          "1": 11016
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11019
+        }
+      },
+      "4": 49,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Escort Arko'narin to where Lightforge and her equipment are being held, and then protect her as you escape Shadow Hold. Afterwards, seek out Jessir Moonbow in Felwood to let her know what's happened to her friends."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 5202
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 5204,
+      "23": 2,
+      "24": 2
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5203,
+      "Title": "Rescue From Jaedenar",
+      "MinLevel": 49,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5202,
+      "NextQuestInChain": 5204,
+      "QuestFlags": 2,
+      "SpecialFlags": 2
+    }
+  },
+  "5204": {
+    "merged": {
+      "1": "Retribution of the Light",
+      "2": {
+        "1": {
+          "1": 11019
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11020
+        }
+      },
+      "4": 49,
+      "5": 57,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Return to Jaedenar and kill the succubus Rakaiah before finding the Remains of Trey Lightforge."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 9518
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 5203
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 5385,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5204,
+      "Title": "Retribution of the Light",
+      "MinLevel": 49,
+      "QuestLevel": 57,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5203,
+      "NextQuestInChain": 5385,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5242": {
+    "merged": {
+      "1": "A Final Blow",
+      "2": {
+        "1": {
+          "1": 10922
+        }
+      },
+      "3": {
+        "1": {
+          "1": 10922
+        }
+      },
+      "4": 48,
+      "5": 58,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Kill Moora and Salia, and bring Shadow Lord Fel'dan's Head to Greta Mosshoof in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 9861
+          },
+          "2": {
+            "1": 9860
+          }
+        },
+        "2": null,
+        "3": {
+          "1": {
+            "1": 13207
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 5165
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5242,
+      "Title": "A Final Blow",
+      "MinLevel": 48,
+      "QuestLevel": 58,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5165,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5249": {
+    "merged": {
+      "1": "To Winterspring!",
+      "2": {
+        "1": {
+          "1": 10924
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11079
+        }
+      },
+      "4": 53,
+      "5": 56,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Find Starfall Village in Winterspring and speak with Wynd Nightchaser."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": {
+        "1": 5250
+      },
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 5244,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 69,
+          "2": 10
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5249,
+      "Title": "To Winterspring!",
+      "MinLevel": 53,
+      "QuestLevel": 56,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 5244,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5385": {
+    "merged": {
+      "1": "The Remains of Trey Lightforge",
+      "2": {
+        "1": {
+          "1": 11020
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11019
+        }
+      },
+      "4": 49,
+      "5": 57,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Return the Remains of Trey Lightforge to Jessir Moonbow in Felwood."
+      },
+      "9": null,
+      "10": null,
+      "11": 13562,
+      "12": null,
+      "13": {
+        "1": 5204
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5385,
+      "Title": "The Remains of Trey Lightforge",
+      "MinLevel": 49,
+      "QuestLevel": 57,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 5204,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "5882": {
+    "merged": {
+      "1": "Salve via Hunting",
+      "2": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 8589934770,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11515
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4102
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5882,
+      "Title": "Salve via Hunting",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 1101,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4101,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5883": {
+    "merged": {
+      "1": "Salve via Mining",
+      "2": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 8589934770,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11513
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4102
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 186,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5883,
+      "Title": "Salve via Mining",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 1101,
+      "RequiredClasses": 0,
+      "RequiredSkill": 186,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4101,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5884": {
+    "merged": {
+      "1": "Salve via Gathering",
+      "2": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 8589934770,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11514
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4102
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 182,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5884,
+      "Title": "Salve via Gathering",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 1101,
+      "RequiredClasses": 0,
+      "RequiredSkill": 182,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4101,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5885": {
+    "merged": {
+      "1": "Salve via Skinning",
+      "2": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 8589934770,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11512
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4102
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 393,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5885,
+      "Title": "Salve via Skinning",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 1101,
+      "RequiredClasses": 0,
+      "RequiredSkill": 393,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4101,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5886": {
+    "merged": {
+      "1": "Salve via Disenchanting",
+      "2": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 8589934770,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11174
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 4102
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 333,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5886,
+      "Title": "Salve via Disenchanting",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 1101,
+      "RequiredClasses": 0,
+      "RequiredSkill": 333,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4101,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5887": {
+    "merged": {
+      "1": "Salve via Hunting",
+      "2": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 8589934770,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11515
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 5882
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5887,
+      "Title": "Salve via Hunting",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 690,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4102,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5888": {
+    "merged": {
+      "1": "Salve via Mining",
+      "2": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 8589934770,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11513
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 5883
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 186,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5888,
+      "Title": "Salve via Mining",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 690,
+      "RequiredClasses": 0,
+      "RequiredSkill": 186,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4102,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5889": {
+    "merged": {
+      "1": "Salve via Gathering",
+      "2": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 8589934770,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11514
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 5884
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 182,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5889,
+      "Title": "Salve via Gathering",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 690,
+      "RequiredClasses": 0,
+      "RequiredSkill": 182,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4102,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5890": {
+    "merged": {
+      "1": "Salve via Skinning",
+      "2": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 8589934770,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11512
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 5885
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 393,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5890,
+      "Title": "Salve via Skinning",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 690,
+      "RequiredClasses": 0,
+      "RequiredSkill": 393,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4102,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "5891": {
+    "merged": {
+      "1": "Salve via Disenchanting",
+      "2": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9529
+        }
+      },
+      "4": 48,
+      "5": 55,
+      "6": 8589934770,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 11174
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 5886
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": {
+        "1": 333,
+        "2": 1
+      },
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": 1
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 5891,
+      "Title": "Salve via Disenchanting",
+      "MinLevel": 48,
+      "QuestLevel": 55,
+      "RequiredRaces": 690,
+      "RequiredClasses": 0,
+      "RequiredSkill": 333,
+      "RequiredSkillValue": 1,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 4102,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "6031": {
+    "merged": {
+      "1": "Runecloth",
+      "2": {
+        "1": {
+          "1": 11557
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11557
+        }
+      },
+      "4": 50,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Bring 30 Runecloth to Meilosh in Timbermaw Hold."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 14047
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1769,
+      "18": null,
+      "19": {
+        "1": 576,
+        "2": 3000
+      },
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 576,
+          "2": 100
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 6031,
+      "Title": "Runecloth",
+      "MinLevel": 50,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 576,
+      "RequiredMinRepValue": 3000,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "6032": {
+    "merged": {
+      "1": "Sacred Cloth",
+      "2": {
+        "1": {
+          "1": 11557
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11557
+        }
+      },
+      "4": 50,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Bring 2 Mooncloth to Meilosh in Timbermaw Hold."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 14342
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1769,
+      "18": {
+        "1": 197,
+        "2": 290
+      },
+      "19": {
+        "1": 576,
+        "2": 3000
+      },
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 576,
+          "2": 100
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 6032,
+      "Title": "Sacred Cloth",
+      "MinLevel": 50,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 197,
+      "RequiredSkillValue": 290,
+      "RequiredMinRepFaction": 576,
+      "RequiredMinRepValue": 3000,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "6131": {
+    "merged": null,
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": null
+  },
+  "6162": {
+    "merged": {
+      "1": "A Husband's Last Battle",
+      "2": {
+        "1": {
+          "1": 9620
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9620
+        }
+      },
+      "4": 46,
+      "5": 51,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Kill Overlord Ror and return his claw to Dreka'Sur at Bloodvenom Post in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 15879
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 76,
+          "2": 250
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 6162,
+      "Title": "A Husband's Last Battle",
+      "MinLevel": 46,
+      "QuestLevel": 51,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "6605": {
+    "merged": {
+      "1": "A Strange One",
+      "2": {
+        "1": {
+          "1": 11755
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9996
+        }
+      },
+      "4": 49,
+      "5": 54,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Speak with Winna Hazzard in Felwood."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 618,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 4505,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 68,
+          "2": 10
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 6605,
+      "Title": "A Strange One",
+      "MinLevel": 49,
+      "QuestLevel": 54,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 4505,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "6762": {
+    "merged": {
+      "1": "Rabine Saturna",
+      "2": {
+        "1": {
+          "1": 4217
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11801
+        }
+      },
+      "4": 54,
+      "5": 55,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Speak with Rabine Saturna in the village of Nighthaven, Moonglade. Moonglade lies between Felwood and Winterspring, accessible through a path out of Timbermaw Hold."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 6761
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1657,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 1124,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 609,
+          "2": 25
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 6762,
+      "Title": "Rabine Saturna",
+      "MinLevel": 54,
+      "QuestLevel": 55,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 6761,
+      "NextQuestInChain": 1124,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "7601": {
+    "merged": {
+      "1": "What Niby Commands",
+      "2": {
+        "1": {
+          "1": 14469
+        }
+      },
+      "3": {
+        "1": {
+          "1": 14470
+        }
+      },
+      "4": 50,
+      "5": 50,
+      "6": 0,
+      "7": 256,
+      "8": {
+        "1": "Speak with Impsy in Felwood."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -61,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 7602,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 7601,
+      "Title": "What Niby Commands",
+      "MinLevel": 50,
+      "QuestLevel": 50,
+      "RequiredRaces": 0,
+      "RequiredClasses": 256,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 7602,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "7602": {
+    "merged": {
+      "1": "Flawless Fel Essence",
+      "2": {
+        "1": {
+          "1": 14470
+        }
+      },
+      "3": {
+        "1": {
+          "1": 14470
+        }
+      },
+      "4": 50,
+      "5": 55,
+      "6": 0,
+      "7": 256,
+      "8": {
+        "1": "Impsy in Felwood has asked that you bring him three Flawless Fel Essences originating from three distinct locations.",
+        "2": "",
+        "3": "The Legashi Satyrs of Azshara hold the Flawless Fel Essence of their region. The Jaedenar Legionnaires of Jaedenar hold the Flawless Fel Essence of their region. The Felguard Sentries of the Blasted Lands hold the Flawless Fel Essence of their region.",
+        "4": "",
+        "5": "Recover the Flawless Fel Essences and return to Impsy in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 18624
+          },
+          "2": {
+            "1": 18622
+          },
+          "3": {
+            "1": 18623
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 7601
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -61,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 7603,
+      "23": 8
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 7602,
+      "Title": "Flawless Fel Essence",
+      "MinLevel": 50,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 256,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 7601,
+      "NextQuestInChain": 7603,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "7603": {
+    "merged": {
+      "1": "Kroshius' Infernal Core",
+      "2": {
+        "1": {
+          "1": 14470
+        }
+      },
+      "3": {
+        "1": {
+          "1": 14469
+        }
+      },
+      "4": 50,
+      "5": 55,
+      "6": 0,
+      "7": 256,
+      "8": {
+        "1": "Search Shatter Scar Vale in Felwood for the remains of Kroshius. When you locate the remains, use the Fel Fire near them and await Kroshius' return. When the infernal has awoken, slay him and take from his corpse Kroshius' Infernal Core.",
+        "2": "",
+        "3": "Return Kroshius' Infernal Core to Niby the Almighty in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 14467
+          }
+        },
+        "2": null,
+        "3": {
+          "1": {
+            "1": 18625
+          }
+        }
+      },
+      "11": 18626,
+      "12": null,
+      "13": {
+        "1": 7602
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -61
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 7603,
+      "Title": "Kroshius' Infernal Core",
+      "MinLevel": 50,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 256,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 7602,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "7623": {
+    "merged": {
+      "1": "Lord Banehollow",
+      "2": {
+        "1": {
+          "1": 14437
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9516
+        }
+      },
+      "4": 60,
+      "5": 58,
+      "6": 0,
+      "7": 256,
+      "8": {
+        "1": "Purchase Shadowy Potions from Gorzeeki in the Burning Steppes.",
+        "2": "",
+        "3": "Use the potions to travel through Jaedenar, and speak with Lord Banehollow."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -61,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 7624
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 7623,
+      "Title": "Lord Banehollow",
+      "MinLevel": 60,
+      "QuestLevel": 58,
+      "RequiredRaces": 0,
+      "RequiredClasses": 256,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 7624,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "7624": {
+    "merged": {
+      "1": "Ulathek the Traitor",
+      "2": {
+        "1": {
+          "1": 9516
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9516
+        }
+      },
+      "4": 60,
+      "5": 58,
+      "6": 0,
+      "7": 256,
+      "8": {
+        "1": "Confront Ulathek, then bring The Traitor's Heart to Lord Banehollow in Jaedenar."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 18719
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 7623
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -61,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 7625
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 7624,
+      "Title": "Ulathek the Traitor",
+      "MinLevel": 60,
+      "QuestLevel": 58,
+      "RequiredRaces": 0,
+      "RequiredClasses": 256,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 7623,
+      "NextQuestInChain": 7625,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "7625": {
+    "merged": {
+      "1": "Xorothian Stardust",
+      "2": {
+        "1": {
+          "1": 9516
+        }
+      },
+      "3": {
+        "1": {
+          "1": 14437
+        }
+      },
+      "4": 60,
+      "5": 60,
+      "6": 0,
+      "7": 256,
+      "8": {
+        "1": "Purchase Xorothian Stardust from Ur'dan. Bring it to Gorzeeki Wildeyes in the Burning Steppes."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 18687
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 7624
+      },
+      "14": null,
+      "15": {
+        "1": 7564
+      },
+      "16": null,
+      "17": -61
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 7625,
+      "Title": "Xorothian Stardust",
+      "MinLevel": 60,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 256,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 7624,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "7634": {
+    "merged": {
+      "1": "Ancient Sinew Wrapped Lamina",
+      "2": {
+        "1": {
+          "1": 14526
+        }
+      },
+      "3": {
+        "1": {
+          "1": 14526
+        }
+      },
+      "4": 60,
+      "5": 60,
+      "6": 0,
+      "7": 4,
+      "8": {
+        "1": "Hastat the Ancient has asked that you bring him a Mature Blue Dragon Sinew. Should you find this sinew, return it to Hastat in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 18704
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 7632
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -261,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 64
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 7634,
+      "Title": "Ancient Sinew Wrapped Lamina",
+      "MinLevel": 60,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 4,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 7632,
+      "NextQuestInChain": 0,
+      "QuestFlags": 64,
+      "SpecialFlags": 0
+    }
+  },
+  "7635": {
+    "merged": {
+      "1": "A Proper String",
+      "2": {
+        "1": {
+          "1": 14525
+        }
+      },
+      "3": {
+        "1": {
+          "1": 14525
+        }
+      },
+      "4": 60,
+      "5": 60,
+      "6": 0,
+      "7": 4,
+      "8": {
+        "1": "Stoma the Ancient has asked that you bring him a Mature Black Dragon Sinew. Should you find this sinew, return it to Stoma in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 18705
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 7632
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -261
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 7635,
+      "Title": "A Proper String",
+      "MinLevel": 60,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 4,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 7632,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "7636": {
+    "merged": {
+      "1": "Stave of the Ancients",
+      "2": {
+        "1": {
+          "1": 14524
+        }
+      },
+      "3": {
+        "1": {
+          "1": 14524
+        }
+      },
+      "4": 60,
+      "5": 60,
+      "6": 0,
+      "7": 4,
+      "8": {
+        "1": "You must find and destroy these four demonic corrupters:",
+        "2": "",
+        "3": "Simone the Seductress.",
+        "4": "",
+        "5": "Klinfran the Crazed.",
+        "6": "",
+        "7": "Solenor the Slayer.",
+        "8": "",
+        "9": "Artorius the Doombringer.",
+        "10": "",
+        "11": "Destroy these creatures and return to Vartrus the Ancient in Felwood with their heads.",
+        "12": "",
+        "13": "Refer to the Petrified Bark in your inventory for clues as to their whereabouts.",
+        "14": "",
+        "15": "You MUST complete this task by yourself."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 18952
+          },
+          "2": {
+            "1": 18953
+          },
+          "3": {
+            "1": 18954
+          },
+          "4": {
+            "1": 18955
+          }
+        }
+      },
+      "11": 18708,
+      "12": null,
+      "13": {
+        "1": 7632
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -261
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 7636,
+      "Title": "Stave of the Ancients",
+      "MinLevel": 60,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 4,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 7632,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "8257": {
+    "merged": {
+      "1": "Blood of Morphaz",
+      "2": {
+        "1": {
+          "1": 8405
+        }
+      },
+      "3": {
+        "1": {
+          "1": 10922
+        }
+      },
+      "4": 50,
+      "5": 52,
+      "6": 0,
+      "7": 16,
+      "8": {
+        "1": "Kill Morphaz in the sunken temple of Atal'Hakkar, and return his blood to Greta Mosshoof in Felwood. The entrance to the sunken temple can be found in the Swamp of Sorrows."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 20025
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 8256
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -262
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8257,
+      "Title": "Blood of Morphaz",
+      "MinLevel": 50,
+      "QuestLevel": 52,
+      "RequiredRaces": 0,
+      "RequiredClasses": 16,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 8256,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "8419": {
+    "merged": {
+      "1": "An Imp's Request",
+      "2": {
+        "1": {
+          "1": 461,
+          "2": 988,
+          "3": 3324,
+          "4": 3325,
+          "5": 3326,
+          "6": 4563,
+          "7": 4564,
+          "8": 4565,
+          "9": 5171,
+          "10": 5173,
+          "11": 5495,
+          "12": 5496
+        }
+      },
+      "3": {
+        "1": {
+          "1": 14470
+        }
+      },
+      "4": 50,
+      "5": 52,
+      "6": 0,
+      "7": 256,
+      "8": {
+        "1": "Bring a piece of felcloth to Impsy in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 14256
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": {
+        "1": 8420
+      },
+      "17": -61,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 8421
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8419,
+      "Title": "An Imp's Request",
+      "MinLevel": 50,
+      "QuestLevel": 52,
+      "RequiredRaces": 0,
+      "RequiredClasses": 256,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 8421,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "8420": {
+    "merged": {
+      "1": "Hot and Itchy",
+      "2": {
+        "1": {
+          "1": 14470
+        }
+      },
+      "3": {
+        "1": {
+          "1": 14470
+        }
+      },
+      "4": 50,
+      "5": 52,
+      "6": 0,
+      "7": 256,
+      "8": {
+        "1": "Bring a piece of felcloth to Impsy in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 14256
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": {
+        "1": 8419
+      },
+      "17": -61,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 8421
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8420,
+      "Title": "Hot and Itchy",
+      "MinLevel": 50,
+      "QuestLevel": 52,
+      "RequiredRaces": 0,
+      "RequiredClasses": 256,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 8421,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "8421": {
+    "merged": {
+      "1": "The Wrong Stuff",
+      "2": {
+        "1": {
+          "1": 14470
+        }
+      },
+      "3": {
+        "1": {
+          "1": 14470
+        }
+      },
+      "4": 50,
+      "5": 52,
+      "6": 0,
+      "7": 256,
+      "8": {
+        "1": "Bring 10 Rotting Wood and 4 Bloodvenom Essence to Impsy in Felwood."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 20613
+          },
+          "2": {
+            "1": 20614
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 8419,
+        "2": 8420
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -61,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 8422
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8421,
+      "Title": "The Wrong Stuff",
+      "MinLevel": 50,
+      "QuestLevel": 52,
+      "RequiredRaces": 0,
+      "RequiredClasses": 256,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 8422,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "8422": {
+    "merged": {
+      "1": "Trolls of a Feather",
+      "2": {
+        "1": {
+          "1": 14470
+        }
+      },
+      "3": {
+        "1": {
+          "1": 14470
+        }
+      },
+      "4": 50,
+      "5": 52,
+      "6": 0,
+      "7": 256,
+      "8": {
+        "1": "Bring a total of 6 Voodoo Feathers from the trolls in sunken temple."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 20606
+          },
+          "2": {
+            "1": 20607
+          },
+          "3": {
+            "1": 20608
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 8421
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -61
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8422,
+      "Title": "Trolls of a Feather",
+      "MinLevel": 50,
+      "QuestLevel": 52,
+      "RequiredRaces": 0,
+      "RequiredClasses": 256,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 8421,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "8460": {
+    "merged": {
+      "1": "Timbermaw Ally",
+      "2": {
+        "1": {
+          "1": 11554
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11554
+        }
+      },
+      "4": 45,
+      "5": 48,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Grazle wants you to prove yourself by killing 6 Deadwood Warriors, 6 Deadwood Pathfinders, and 6 Deadwood Gardeners. Return to him in southern Felwood near the Emerald Sanctuary when you are done."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 7153
+          },
+          "2": {
+            "1": 7155
+          },
+          "3": {
+            "1": 7154
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 576,
+          "2": 350
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8460,
+      "Title": "Timbermaw Ally",
+      "MinLevel": 45,
+      "QuestLevel": 48,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "8461": {
+    "merged": {
+      "1": "Deadwood of the North",
+      "2": {
+        "1": {
+          "1": 15395
+        }
+      },
+      "3": {
+        "1": {
+          "1": 15395
+        }
+      },
+      "4": 45,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Nafien would like you to kill 6 Deadwood Den Watchers, 6 Deadwood Avengers, and 6 Deadwood Shamans. Return to him in northern Felwood near the entrance to Timbermaw Hold."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 7156
+          },
+          "2": {
+            "1": 7157
+          },
+          "3": {
+            "1": 7158
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1769,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 576,
+          "2": 150
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8461,
+      "Title": "Deadwood of the North",
+      "MinLevel": 45,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "8462": {
+    "merged": {
+      "1": "Speak to Nafien",
+      "2": {
+        "1": {
+          "1": 11554
+        }
+      },
+      "3": {
+        "1": {
+          "1": 15395
+        }
+      },
+      "4": 45,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Travel north along the main road in Felwood and speak with the furbolg named Nafien. He stands guard outside the entrance to Timbermaw Hold."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 8460
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 576,
+          "2": 25
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8462,
+      "Title": "Speak to Nafien",
+      "MinLevel": 45,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 8460,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "8464": {
+    "merged": {
+      "1": "Winterfall Activity",
+      "2": {
+        "1": {
+          "1": 11556
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11556
+        }
+      },
+      "4": 45,
+      "5": 58,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Salfa wants you to kill 8 Winterfall Shaman, 8 Winterfall Den Watchers, and 8 Winterfall Ursa. Salfa is located just outside the entrance to Timbermaw Hold in Winterspring."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 7439
+          },
+          "2": {
+            "1": 7440
+          },
+          "3": {
+            "1": 7438
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1769,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 576,
+          "2": 350
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8464,
+      "Title": "Winterfall Activity",
+      "MinLevel": 45,
+      "QuestLevel": 58,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "8465": {
+    "merged": {
+      "1": "Speak to Salfa",
+      "2": {
+        "1": {
+          "1": 15395
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11556
+        }
+      },
+      "4": 45,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Travel through Timbermaw Hold and exit into Winterspring. Speak with Salfa, who stands guard outside the entrance to Timbermaw Hold."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 8461
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 576,
+          "2": 25
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8465,
+      "Title": "Speak to Salfa",
+      "MinLevel": 45,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 8461,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "8466": {
+    "merged": {
+      "1": "Feathers for Grazle",
+      "2": {
+        "1": {
+          "1": 11554
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11554
+        }
+      },
+      "4": 45,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Some of the Deadwood furbolgs wear a distinctive headdress that may be used as a means of proof in thinning their numbers. Bring me a feather from any headdresses you acquire; for every set of five you bring me, you will earn recognition amongst the Timbermaw."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 21377
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 8460
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 256,
+      "24": 1,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 576,
+          "2": 75
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8466,
+      "Title": "Feathers for Grazle",
+      "MinLevel": 45,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 8460,
+      "NextQuestInChain": 0,
+      "QuestFlags": 256,
+      "SpecialFlags": 1
+    }
+  },
+  "8467": {
+    "merged": {
+      "1": "Feathers for Nafien",
+      "2": {
+        "1": {
+          "1": 15395
+        }
+      },
+      "3": {
+        "1": {
+          "1": 15395
+        }
+      },
+      "4": 45,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Some of the Deadwood furbolgs wear a distinctive headdress that may be used as a means of proof in thinning their numbers. Bring me a feather from any headdresses you acquire; for every set of five you bring me, you will earn recognition amongst the Timbermaw."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 21377
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 8461
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 256,
+      "24": 1,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 576,
+          "2": 75
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8467,
+      "Title": "Feathers for Nafien",
+      "MinLevel": 45,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 8461,
+      "NextQuestInChain": 0,
+      "QuestFlags": 256,
+      "SpecialFlags": 1
+    }
+  },
+  "8469": {
+    "merged": {
+      "1": "Beads for Salfa",
+      "2": {
+        "1": {
+          "1": 11556
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11556
+        }
+      },
+      "4": 50,
+      "5": 56,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "The Winterfall are known to carry spirit beads to ward against foul spirits. These beads have clearly failed in their purpose, as the Winterfall themselves are the agents of corruption. Bring to me these spirit beads from fallen Winterfall furbolgs; for every set of five you bring me, you will earn recognition amongst the Timbermaw."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 21383
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 8464
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 256,
+      "24": 1,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 576,
+          "2": 50
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8469,
+      "Title": "Beads for Salfa",
+      "MinLevel": 50,
+      "QuestLevel": 56,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 8464,
+      "NextQuestInChain": 0,
+      "QuestFlags": 256,
+      "SpecialFlags": 1
+    }
+  },
+  "8470": {
+    "merged": {
+      "1": "Deadwood Ritual Totem",
+      "2": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": 20741
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11558
+        }
+      },
+      "4": 45,
+      "5": 55,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Take the Deadwood Ritual Totem inside Timbermaw Hold and see if one of the furbolgs there will find a use for the item. The Timbermaw will not speak with you unless you are of Neutral reputation or greater with them."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": {
+          "1": 576,
+          "2": 0
+        }
+      },
+      "11": 20741,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 361,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 576,
+          "2": 150
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8470,
+      "Title": "Deadwood Ritual Totem",
+      "MinLevel": 45,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "8481": {
+    "merged": {
+      "1": "The Root of All Evil",
+      "2": {
+        "1": {
+          "1": 11555
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11555
+        }
+      },
+      "4": 45,
+      "5": 60,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Plant the Demon Summoning Torch in the mouth of High Chief Winterfall's cave in the Winterfall furbolg village. Defeat the demon and retrieve the Essence of Xandivious for Gorn One Eye in Timbermaw Hold."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 21145
+          }
+        },
+        "4": {
+          "1": 576,
+          "2": 42000
+        }
+      },
+      "11": 21144,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1769,
+      "18": null,
+      "19": {
+        "1": 576,
+        "2": 42000
+      },
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 576,
+          "2": 500
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8481,
+      "Title": "The Root of All Evil",
+      "MinLevel": 45,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 576,
+      "RequiredMinRepValue": 42000,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "8484": {
+    "merged": {
+      "1": "The Brokering of Peace",
+      "2": {
+        "1": {
+          "1": 11555
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2784
+        }
+      },
+      "4": 45,
+      "5": 60,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Bring the Timbermaw Offering of Peace to King Magni Bronzebeard in Ironforge."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": {
+          "1": 576,
+          "2": 42000
+        }
+      },
+      "11": 21155,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1769,
+      "18": null,
+      "19": {
+        "1": 576,
+        "2": 42000
+      },
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 469,
+          "2": 500
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8484,
+      "Title": "The Brokering of Peace",
+      "MinLevel": 45,
+      "QuestLevel": 60,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 576,
+      "RequiredMinRepValue": 42000,
+      "PrevQuestId": 8481,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "8485": {
+    "merged": {
+      "1": "The Brokering of Peace",
+      "2": {
+        "1": {
+          "1": 11555
+        }
+      },
+      "3": {
+        "1": {
+          "1": 4949
+        }
+      },
+      "4": 45,
+      "5": 60,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Bring the Timbermaw Offering of Peace to Thrall in Orgrimmar."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": {
+          "1": 576,
+          "2": 42000
+        }
+      },
+      "11": 21155,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1769,
+      "18": null,
+      "19": {
+        "1": 576,
+        "2": 42000
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8485,
+      "Title": "The Brokering of Peace",
+      "MinLevel": 45,
+      "QuestLevel": 60,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 576,
+      "RequiredMinRepValue": 42000,
+      "PrevQuestId": 8481,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "8723": {
+    "merged": {
+      "1": "Nightwind the Elder",
+      "2": {
+        "1": {
+          "1": 15603
+        }
+      },
+      "3": {
+        "1": {
+          "1": 15603
+        }
+      },
+      "4": 1,
+      "5": 60,
+      "6": 0,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -366,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 67,
+          "2": 75
+        },
+        "2": {
+          "1": 469,
+          "2": 75
+        }
+      }
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 8723,
+      "Title": "Nightwind the Elder",
+      "MinLevel": 1,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    }
+  },
+  "9063": {
+    "merged": {
+      "1": "Torwa Pathfinder",
+      "2": {
+        "1": {
+          "1": 3033,
+          "2": 3034,
+          "3": 4217,
+          "4": 4218,
+          "5": 5504,
+          "6": 5505,
+          "7": 8142,
+          "8": 9465,
+          "9": 12042
+        }
+      },
+      "3": {
+        "1": {
+          "1": 9619
+        }
+      },
+      "4": 50,
+      "5": 52,
+      "6": 0,
+      "7": 1024,
+      "8": {
+        "1": "Speak with Torwa Pathfinder in Un'Goro Crater."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -263,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 9052
+    },
+    "generated": null,
+    "observed": null,
+    "relationships": null,
+    "classic": {
+      "entry": 9063,
+      "Title": "Torwa Pathfinder",
+      "MinLevel": 50,
+      "QuestLevel": 52,
+      "RequiredRaces": 0,
+      "RequiredClasses": 1024,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "RequiredMinRepFaction": 0,
+      "RequiredMinRepValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 9052,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    }
+  },
+  "81790": {
+    "merged": null,
+    "generated": " -- Materials of Significance : https://wowhead.com/forever/quest=81790/materials-of-significance\n            [questKeys.name] = \"Materials of Significance\",\n            [questKeys.startedBy] = {{221636}},\n            [questKeys.finishedBy] = {{221636}},\n            [questKeys.requiredLevel] = 45,\n            [questKeys.questLevel] = 53,\n            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,\n            [questKeys.requiredClasses] = classIDs.PALADIN,\n            [questKeys.objectivesText] = {\"Use the hints in Gregory's Note to determine where to find the magical components needed for the ritual. You will need help from allies for this.\"},\n            [questKeys.objectives] = {nil, nil, {{220166}, {220167}, {220168}, {220169}}},\n            [questKeys.sourceItemId] = 220170,\n            [questKeys.zoneOrSort] = sortKeys.PALADIN,\n",
+    "observed": "\n            [questKeys.name] = \"Materials of Significance\",\n            [questKeys.questLevel] = 53,\n            [questKeys.objectivesText] = {\"Use the hints in Gregory's Note to determine where to find the magical components needed for the ritual. You will need help from allies for this.\"},\n",
+    "relationships": null,
+    "classic": null
+  },
+  "86577": {
+    "merged": null,
+    "generated": null,
+    "observed": "\n            [questKeys.name] = \"A Sampling of Putrescence\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectives] = {nil,nil,{{277958},{277959}}},\n            [questKeys.objectivesText] = {\"Bring 8 Putrescent Bear Organs and 10 Putrescent Wolf Organs to Kelek Skykeeper.\"},\n            [questKeys.startedBy_add] = {{10920}},\n            [questKeys.finishedBy_add] = {{10920}},\n",
+    "relationships": null,
+    "classic": null
+  },
+  "86611": {
+    "merged": null,
+    "generated": " -- Stag Lord's Bauble : https://wowhead.com/forever/quest=86611/stag-lords-bauble\n            [questKeys.name] = \"Stag Lord's Bauble\",\n            [questKeys.startedBy] = {nil, {661778}},\n            [questKeys.requiredLevel] = 48,\n            [questKeys.questLevel] = 55,\n            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,\n            [questKeys.objectivesText] = {\"Take the Stag Lord's Bauble to someone in Talonbranch Glade who may know about it.\"},\n            [questKeys.sourceItemId] = 277973,\n            [questKeys.zoneOrSort] = zoneIDs.FELWOOD,\n",
+    "observed": "\n            [questKeys.name] = \"Stag Lord's Bauble\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectivesText] = {\"Take the Stag Lord's Bauble to someone in Talonbranch Glade who may know about it.\"},\n            [questKeys.startedBy_add] = {nil,{661778}},\n            [questKeys.finishedBy_add] = {{9465}},\n",
+    "relationships": null,
+    "classic": null
+  },
+  "86612": {
+    "merged": null,
+    "generated": " -- Stag Lord's Bauble : https://wowhead.com/forever/quest=86612/stag-lords-bauble\n            [questKeys.name] = \"Stag Lord's Bauble\",\n            [questKeys.requiredLevel] = 48,\n            [questKeys.questLevel] = 55,\n            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,\n            [questKeys.objectivesText] = {\"Take the Stag Lord's Bauble to someone in Bloodvenom Post who may know about it.\"},\n            [questKeys.sourceItemId] = 277973,\n            [questKeys.zoneOrSort] = zoneIDs.FELWOOD,\n",
+    "observed": "\n            [questKeys.name] = \"Stag Lord's Bauble\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectivesText] = {\"Take the Stag Lord's Bauble to someone in Bloodvenom Post who may know about it.\"},\n            [questKeys.startedBy_add] = {nil,{661778}},\n            [questKeys.finishedBy_add] = {{9996}},\n",
+    "relationships": null,
+    "classic": null
+  },
+  "91952": {
+    "merged": null,
+    "generated": null,
+    "observed": "\n            [questKeys.name] = \"The Source of the Corruption\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectivesText] = {\"Find the hermit Ketharas on Mount Hyjal.\"},\n            [questKeys.startedBy_add] = {{10922}},\n            [questKeys.finishedBy_add] = {{256222}},\n",
+    "relationships": null,
+    "classic": null
+  },
+  "96476": {
+    "merged": null,
+    "generated": " -- In Search of Aeonas : https://wowhead.com/forever/quest=96476/in-search-of-aeonas\n            [questKeys.name] = \"In Search of Aeonas\",\n            [questKeys.requiredLevel] = 45,\n            [questKeys.questLevel] = 53,\n            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,\n            [questKeys.requiredClasses] = classIDs.PALADIN,\n            [questKeys.objectivesText] = {\"Search for signs of Aeonas the Vindicated at the Emerald Sanctuary in Felwood.\"},\n            [questKeys.zoneOrSort] = sortKeys.PALADIN,\n",
+    "observed": "\n            [questKeys.name] = \"In Search of Aeonas\",\n            [questKeys.questLevel] = 53,\n            [questKeys.objectivesText] = {\"Search for signs of Aeonas the Vindicated at the Emerald Sanctuary in Felwood.\"},\n            [questKeys.triggerEnd] = {\"Follow Aeonas's trail in Felwood\",{[361]={{43,57.04}}}},\n",
+    "relationships": null,
+    "classic": null
+  }
+}
