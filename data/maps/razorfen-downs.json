@@ -1,0 +1,461 @@
+{
+  "zone": "Razorfen Downs",
+  "updated": "2026-11-15",
+  "map": {
+    "appearance": "dungeon",
+    "image": "./assets/maps/razorfen-downs.webp",
+    "width": 1199,
+    "height": 871,
+    "worldProjection": {
+      "originX": 2658.24,
+      "originY": 1181.73,
+      "pixelsPerYard": 2.0
+    },
+    "source": "https://foreverdb.net/dungeon/129-razorfen-downs",
+    "attribution": "World of Warcraft © Blizzard Entertainment; client map via ForeverDB",
+    "coordinateSystem": "guide-image"
+  },
+  "note": "Classic reference positions on a Forever client map. Event-boss markers show approximate encounter areas; spawns may differ in Forever.",
+  "points": [
+    {
+      "id": "npc-7354",
+      "name": "Ragglesnout",
+      "category": "rare",
+      "x": 46.2395,
+      "y": 67.3915,
+      "world": {
+        "map": 129,
+        "x": 2364.75,
+        "y": 904.524,
+        "z": 28.7671
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "npcId": "7354",
+      "spawnGuid": 1290255,
+      "drops": true,
+      "note": "Optional rare spawn; not guaranteed to be present."
+    },
+    {
+      "id": "npc-7357",
+      "name": "Mordresh Fire Eye",
+      "category": "boss",
+      "x": 85.1188,
+      "y": 44.0,
+      "world": {
+        "map": 129,
+        "x": 2466.62,
+        "y": 671.443,
+        "z": 63.4694
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "npcId": "7357",
+      "spawnGuid": 1290256,
+      "drops": true
+    },
+    {
+      "id": "npc-7358",
+      "name": "Amnennar the Coldbringer",
+      "category": "boss",
+      "x": 36.8307,
+      "y": 58.5235,
+      "world": {
+        "map": 129,
+        "x": 2403.37,
+        "y": 960.93,
+        "z": 55.1437
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "npcId": "7358",
+      "spawnGuid": 1290257,
+      "drops": true,
+      "questIds": [
+        "3636",
+        "96773"
+      ]
+    },
+    {
+      "id": "npc-8567",
+      "name": "Glutton",
+      "category": "boss",
+      "x": 29.1743,
+      "y": 43.5201,
+      "world": {
+        "map": 129,
+        "x": 2468.71,
+        "y": 1006.83,
+        "z": 23.7573
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "npcId": "8567",
+      "spawnGuid": 1290259,
+      "drops": true,
+      "note": "Classic reference point; Glutton moves. No patrol route is asserted."
+    },
+    {
+      "id": "npc-7355-gong",
+      "name": "Tuten'kash",
+      "category": "boss",
+      "x": 54.1695,
+      "y": 24.2939,
+      "world": {
+        "map": 129,
+        "x": 2552.44,
+        "y": 856.984,
+        "z": 51.495
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "classic-gong-script",
+        "classic-gong-header",
+        "fdb-map"
+      ],
+      "npcId": "7355",
+      "objectId": "148917",
+      "referenceObjectGuid": 1290064,
+      "drops": true,
+      "approximate": true,
+      "placementEvidenceKind": "gong-encounter-area",
+      "note": "Gong #148917 encounter reference, not a fixed boss spawn. Complete the gong waves to summon Tuten'kash; summoned creatures move toward the gong."
+    },
+    {
+      "id": "npc-7356-event",
+      "name": "Plaguemaw the Rotting",
+      "category": "boss",
+      "x": 38.4779,
+      "y": 19.2798,
+      "world": {
+        "map": 129,
+        "x": 2574.2766666666666,
+        "y": 951.055,
+        "z": 52.83286666666667
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-escort-script",
+        "fdb-map"
+      ],
+      "npcId": "7356",
+      "drops": true,
+      "approximate": true,
+      "eventSpawnPositions": [
+        {
+          "x": 2582.79,
+          "y": 954.392,
+          "z": 52.4821,
+          "orientation": 3.78736
+        },
+        {
+          "x": 2569.42,
+          "y": 956.38,
+          "z": 52.2732,
+          "orientation": 5.42797
+        },
+        {
+          "x": 2570.62,
+          "y": 942.393,
+          "z": 53.7433,
+          "orientation": 0.71558
+        }
+      ],
+      "placementEvidenceKind": "event-area-centroid",
+      "note": "Approximate ritual encounter area. Plaguemaw is summoned late in Belnistrasz's escort ritual at one of three nearby positions; this marker is their center, not an exact spawn.",
+      "questIds": [
+        "3525"
+      ]
+    },
+    {
+      "id": "npc-8516",
+      "name": "Belnistrasz",
+      "category": "quest-giver",
+      "x": 75.2539,
+      "y": 10.9254,
+      "world": {
+        "map": 129,
+        "x": 2610.66,
+        "y": 730.583,
+        "z": 54.6521
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "npcId": "8516",
+      "spawnGuid": 1290258,
+      "questIds": [
+        "3523",
+        "3525"
+      ],
+      "note": "Escort pickup location, not the ritual site or an escort route."
+    },
+    {
+      "id": "chest-1290075",
+      "name": "Possible chest spawn 1",
+      "category": "dungeon-chest",
+      "x": 39.5101,
+      "y": 35.7038,
+      "world": {
+        "map": 129,
+        "x": 2502.75,
+        "y": 944.867,
+        "z": 49.1772
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "spawnGuid": 1290075,
+      "objectIds": [
+        "75297",
+        "75300"
+      ],
+      "variants": [
+        {
+          "id": "75297",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "id": "75300",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "note": "Possible Large Iron Bound Chest or Large Solid Chest. Alternatives at one position, not two chests; not a guaranteed active spawn in Forever."
+    },
+    {
+      "id": "chest-1290076",
+      "name": "Possible chest spawn 2",
+      "category": "dungeon-chest",
+      "x": 37.5706,
+      "y": 46.5488,
+      "world": {
+        "map": 129,
+        "x": 2455.52,
+        "y": 956.494,
+        "z": 35.5014
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "spawnGuid": 1290076,
+      "objectIds": [
+        "75297",
+        "75300"
+      ],
+      "variants": [
+        {
+          "id": "75297",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "id": "75300",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "note": "Possible Large Iron Bound Chest or Large Solid Chest. Alternatives at one position, not two chests; not a guaranteed active spawn in Forever."
+    },
+    {
+      "id": "chest-1290077",
+      "name": "Possible chest spawn 3",
+      "category": "dungeon-chest",
+      "x": 35.8652,
+      "y": 68.7991,
+      "world": {
+        "map": 129,
+        "x": 2358.62,
+        "y": 966.718,
+        "z": 40.2895
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "spawnGuid": 1290077,
+      "objectIds": [
+        "75297",
+        "75300"
+      ],
+      "variants": [
+        {
+          "id": "75297",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "id": "75300",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "note": "Possible Large Iron Bound Chest or Large Solid Chest. Alternatives at one position, not two chests; not a guaranteed active spawn in Forever."
+    },
+    {
+      "id": "chest-1290078",
+      "name": "Possible chest spawn 4",
+      "category": "dungeon-chest",
+      "x": 30.9873,
+      "y": 51.2583,
+      "world": {
+        "map": 129,
+        "x": 2435.01,
+        "y": 995.961,
+        "z": 49.3044
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "spawnGuid": 1290078,
+      "objectIds": [
+        "75297",
+        "75300"
+      ],
+      "variants": [
+        {
+          "id": "75297",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "id": "75300",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "note": "Possible Large Iron Bound Chest or Large Solid Chest. Alternatives at one position, not two chests; not a guaranteed active spawn in Forever."
+    },
+    {
+      "id": "chest-1290081",
+      "name": "Possible chest spawn 5",
+      "category": "dungeon-chest",
+      "x": 67.966,
+      "y": 40.2572,
+      "world": {
+        "map": 129,
+        "x": 2482.92,
+        "y": 774.274,
+        "z": 46.1014
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "spawnGuid": 1290081,
+      "objectIds": [
+        "75297",
+        "75300"
+      ],
+      "variants": [
+        {
+          "id": "75297",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "id": "75300",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "note": "Possible Large Iron Bound Chest or Large Solid Chest. Alternatives at one position, not two chests; not a guaranteed active spawn in Forever."
+    },
+    {
+      "id": "instance-arrival",
+      "name": "Razorfen Downs entrance",
+      "category": "entrance",
+      "x": 11.7598,
+      "y": 14.8243,
+      "world": {
+        "map": 129,
+        "x": 2593.68,
+        "y": 1111.23,
+        "z": 50.9518
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "areaTriggerId": 442,
+      "note": "Arrival point just inside the instance."
+    }
+  ],
+  "sources": {
+    "fdb-map": {
+      "name": "ForeverDB client map and projection",
+      "url": "https://foreverdb.net/dungeon/129-razorfen-downs"
+    },
+    "classic-sql": {
+      "name": "Classic Razorfen Downs spawn and chest data",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/129_razorfen_downs.sql"
+    },
+    "classic-snapshot": {
+      "name": "Classic database snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "classic-gong-script": {
+      "name": "Classic gong encounter behavior",
+      "url": "https://github.com/cmangos/mangos-classic/blob/d8eec6e2b9b00ae116b1746338dc1f86be213190/src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_downs/instance_razorfen_downs.cpp"
+    },
+    "classic-gong-header": {
+      "name": "Classic gong waves and summon positions",
+      "url": "https://github.com/cmangos/mangos-classic/blob/d8eec6e2b9b00ae116b1746338dc1f86be213190/src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_downs/razorfen_downs.h"
+    },
+    "classic-escort-script": {
+      "name": "Classic Belnistrasz ritual and Plaguemaw event",
+      "url": "https://github.com/cmangos/mangos-classic/blob/d8eec6e2b9b00ae116b1746338dc1f86be213190/src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_downs/razorfen_downs.cpp"
+    }
+  },
+  "coverage": {
+    "bosses": 5,
+    "rares": 1,
+    "chestPositions": 5,
+    "questGivers": 1,
+    "arrivalPoints": 1,
+    "totalEntries": 13,
+    "eventBossReferences": 2,
+    "limits": "Ambassador Bloodrage and Myriam Moonsinger are outside the instance and are not projected onto this map. No exact source location is established for the Forever Agamaggan blood objective. No patrol or escort route, spawn guarantee, or chest probability is asserted."
+  },
+  "license": "Classic spawn/event references derived from CMaNGOS under GPL-3.0. Blizzard client artwork retains its copyright."
+}

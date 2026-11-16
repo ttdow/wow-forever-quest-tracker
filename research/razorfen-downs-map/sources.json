@@ -1,0 +1,154 @@
+{
+  "researched": "2026-11-15",
+  "dungeonId": 129,
+  "build": "1.60.1.70938",
+  "sourceURLs": {
+    "fdb-map": {
+      "name": "ForeverDB client map and projection",
+      "url": "https://foreverdb.net/dungeon/129-razorfen-downs"
+    },
+    "classic-sql": {
+      "name": "Classic Razorfen Downs spawn and chest data",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/129_razorfen_downs.sql"
+    },
+    "classic-snapshot": {
+      "name": "Classic database snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "classic-gong-script": {
+      "name": "Classic gong encounter behavior",
+      "url": "https://github.com/cmangos/mangos-classic/blob/d8eec6e2b9b00ae116b1746338dc1f86be213190/src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_downs/instance_razorfen_downs.cpp"
+    },
+    "classic-gong-header": {
+      "name": "Classic gong waves and summon positions",
+      "url": "https://github.com/cmangos/mangos-classic/blob/d8eec6e2b9b00ae116b1746338dc1f86be213190/src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_downs/razorfen_downs.h"
+    },
+    "classic-escort-script": {
+      "name": "Classic Belnistrasz ritual and Plaguemaw event",
+      "url": "https://github.com/cmangos/mangos-classic/blob/d8eec6e2b9b00ae116b1746338dc1f86be213190/src/game/AI/ScriptDevAI/scripts/kalimdor/razorfen_downs/razorfen_downs.cpp"
+    }
+  },
+  "image": {
+    "url": "https://foreverdb.net/img/dungeonmaps/129/1.webp",
+    "size": [
+      1199,
+      871
+    ],
+    "sha256": "bb8af392b97b269b8e170a2d3ddd281dc0bba7f0ea5ba088b46f40a677035930",
+    "worldProjection": {
+      "originX": 2658.24,
+      "originY": 1181.73,
+      "pixelsPerYard": 2.0
+    }
+  },
+  "classicDatabase": {
+    "sqlRevision": "09000ea8d7333856727204e4e2d30f772149b7a8",
+    "readMode": "SQLite read-only URI",
+    "releasePublished": "2026-11-13T13:34:58Z",
+    "sha256": "daa16e44b95a9d4a0d17b8f8e3a91cf0b4be1af7d9b3bfc8ac71707a02399f5f"
+  },
+  "scriptRevision": "d8eec6e2b9b00ae116b1746338dc1f86be213190",
+  "sourceHashes": {
+    "dungeon.json": "815171aaf6b5c6362cad97bd96ace903a89aaa8ddd08530a0b57f13a043f955a",
+    "instance.sql": "fd0bf086cba98470ec562e8ac90909b83ac481108b4be089305bc78d6387c250",
+    "instance_razorfen_downs.cpp": "8b911ed7d0c635c9df2974b05b5feea9bfafd39955aba6c67283d3f3b1001b85",
+    "map-1.webp": "bb8af392b97b269b8e170a2d3ddd281dc0bba7f0ea5ba088b46f40a677035930",
+    "map-2.webp": "5f3e7e7f0681b58d926a57e707891f1d4e660644d2507dd450729c0f86b8d9ee",
+    "razorfen_downs.cpp": "9e7d49ca12e5dbbfdbac849f255e94caa5f3288bad46a1ce080281878de3a678",
+    "razorfen_downs.h": "1cad044b2d2c4e5f66b7ba1878749bb49c4ccfdc5304447c78960952f0ba90cd",
+    "script-revision.txt": "5b144c83cba783c83a89d3c151de4a376c35611c6ded773d340f4c4b21f83ba4"
+  },
+  "counts": {
+    "bosses": 5,
+    "rares": 1,
+    "chestPositions": 5,
+    "questGivers": 1,
+    "arrivalPoints": 1,
+    "totalEntries": 13,
+    "eventBossReferences": 2,
+    "limits": "Ambassador Bloodrage and Myriam Moonsinger are outside the instance and are not projected onto this map. No exact source location is established for the Forever Agamaggan blood objective. No patrol or escort route, spawn guarantee, or chest probability is asserted."
+  },
+  "chestGroups": [
+    {
+      "id": 45991,
+      "maxActive": 1,
+      "description": "Razorfen Downs (Spiral of Thorns) - Chest Pool",
+      "positionGuids": [
+        1290075,
+        1290076,
+        1290077,
+        1290078
+      ]
+    },
+    {
+      "id": 45992,
+      "maxActive": 1,
+      "description": "Razorfen Downs (The Murder Pens) - Chest Pool",
+      "positionGuids": [
+        1290081
+      ]
+    }
+  ],
+  "comparisonBossSpots": [
+    {
+      "order": 3,
+      "n": "Mordresh Fire Eye",
+      "floor": 1,
+      "x": 85.12,
+      "y": 44.0,
+      "wx": 2466.6,
+      "wy": 671.4,
+      "wz": 63.5,
+      "src": "classic",
+      "label": "Classic spawn"
+    },
+    {
+      "order": 4,
+      "n": "Ragglesnout",
+      "floor": 1,
+      "x": 46.24,
+      "y": 67.39,
+      "wx": 2364.8,
+      "wy": 904.5,
+      "wz": 28.8,
+      "src": "classic",
+      "label": "Classic spawn"
+    },
+    {
+      "order": 5,
+      "n": "Glutton",
+      "floor": 1,
+      "x": 29.17,
+      "y": 43.52,
+      "wx": 2468.7,
+      "wy": 1006.8,
+      "wz": 23.8,
+      "src": "classic",
+      "label": "Classic spawn"
+    },
+    {
+      "order": 6,
+      "n": "Amnennar the Coldbringer",
+      "floor": 1,
+      "x": 36.83,
+      "y": 58.52,
+      "wx": 2403.4,
+      "wy": 960.9,
+      "wz": 55.1,
+      "src": "classic",
+      "label": "Classic spawn"
+    }
+  ],
+  "arrivalTriggerId": 442,
+  "eventBossDecisions": {
+    "tutenkash": "Pin the gong encounter reference. Classic script summons Tuten'kash in the third wave and moves it toward the gong; do not invent a fixed creature spawn.",
+    "plaguemaw": "Show centroid of three scripted ritual spawn positions with approximate flag. Retain all original possible positions in the point data."
+  },
+  "decisions": [
+    "Use only Part 1, the playable interior. Part 2 is an overhead thorn canopy that obscures the routes, not another playable floor.",
+    "Four static boss/rare references agree with ForeverDB pins within 0.02 percentage points.",
+    "Resolve ID-zero chests through gameobject_spawn_entry; group two template alternatives per physical position.",
+    "Link existing quests and drops without changing their records or completion storage.",
+    "Do not project outdoor Ambassador Bloodrage or Myriam Moonsinger into the instance. Do not invent pins for outdoor chain givers or the unlocated Forever Agamaggan blood objective."
+  ]
+}
