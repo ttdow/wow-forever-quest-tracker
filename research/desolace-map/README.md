@@ -2,6 +2,8 @@
 
 Research date: November 13, 2026. The original research snapshot is preserved here. The implemented Desolace Map view uses the maintained dataset at `data/maps/desolace.json`; existing quest/drop records and completion storage are unchanged.
 
+**November 15 addition:** Extinguished Campfire (417353), **47.5, 54.7**, now links Highway Robbery (79229). The [current ForeverDB guide](https://foreverdb.net/quest/79229) records four-player confirmation of the object and its pickup position, corroborated by [Questie's object trace](https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverObjectTraces.lua). Bibbly F'utzbuckle's existing **62.3, 39.0** marker now links Highway Robbery's turn-in and On the Lam (79235), with matching player-observed position evidence. These two positions use `forever-confirmed`; this does not promote any chest position or unrelated map entry. Booty Bay follow-ups remain in the quest list with their actual pickup zone. See the [quest correction](../desolace-audit/README.md#highway-robbery-correction).
+
 ## Findings
 
 An initial map can be populated with real reference coordinates. However, none of the obtained chest positions is supported by a Forever-specific position observation. They must be presented as Classic references, not confirmed live Forever spawns.

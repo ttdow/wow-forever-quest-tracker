@@ -1,6 +1,6 @@
 {
   "zone": "Desolace",
-  "updated": "2026-11-13",
+  "updated": "2026-11-15",
   "map": {
     "image": "./assets/maps/desolace.webp",
     "width": 1002,
@@ -1028,17 +1028,22 @@
       "name": "Bibbly F'utzbuckle",
       "x": 62.3,
       "y": 39,
-      "verification": "classic-derived",
+      "verification": "forever-confirmed",
       "questIds": [
-        "5501"
+        "5501",
+        "79229",
+        "79235"
       ],
       "sources": [
         "era-questgivers",
-        "fdb-questgivers"
+        "fdb-questgivers",
+        "fdb-highway-robbery",
+        "fdb-on-the-lam"
       ],
       "category": "quest-giver",
       "moving": false,
-      "npcId": "11438"
+      "npcId": "11438",
+      "note": "Highway Robbery turn-in and On the Lam pickup; also offers Bone Collector."
     },
     {
       "id": "npc-11596",
@@ -1278,6 +1283,23 @@
         43,
         43
       ]
+    },
+    {
+      "id": "object-417353",
+      "name": "Extinguished Campfire",
+      "objectId": "417353",
+      "category": "quest-object",
+      "x": 47.5,
+      "y": 54.7,
+      "verification": "forever-confirmed",
+      "questIds": [
+        "79229"
+      ],
+      "sources": [
+        "fdb-highway-robbery",
+        "questie-object-trace"
+      ],
+      "note": "Starts Highway Robbery. Turn in to Bibbly F'utzbuckle at Kormek's Hut."
     }
   ],
   "sources": {
@@ -1324,6 +1346,18 @@
     "friends-object-179493": {
       "name": "Classic spawn record",
       "url": "https://www.wowforeverfriends.org/objects/179493/"
+    },
+    "fdb-highway-robbery": {
+      "name": "Forever player-observed Highway Robbery guide",
+      "url": "https://foreverdb.net/quest/79229"
+    },
+    "fdb-on-the-lam": {
+      "name": "Forever player-observed On the Lam guide",
+      "url": "https://foreverdb.net/quest/79235"
+    },
+    "questie-object-trace": {
+      "name": "Observed Extinguished Campfire starter and location",
+      "url": "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverObjectTraces.lua"
     }
   },
   "license": "GPL-3.0 for CMaNGOS-derived reference locations; Blizzard map art is separate."

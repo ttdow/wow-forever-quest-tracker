@@ -2,7 +2,22 @@
 
 Audited November 15, 2026 against the current published build, **1.60.1.70938**, the [Desolace quest index](https://foreverchanges.pro/quests/desolace), individual quest pages, and [Questie primary data at revision 4dbb824](https://github.com/Questie/QuestieDB/tree/4dbb82440a27856f8dccf57094a5d792cdc7cc9b).
 
-The tracker now contains **49 Desolace quests**, up from 33. All **82 indexed quests** are accounted for: **46 included**, **13 Magram-route quests excluded**, and **23 Horde-only quests or variants excluded**. Three associated introductions/handoffs bring the list to 49: Reclaimers' Business in Desolace (1453), Valley of Bones (93034), and The Visiting Mage (93464). The [source ledger](sources.json) records all 85 candidates, page facts, primary observations, relationships, and source hashes.
+The tracker now contains **53 Desolace quests**, up from 33 before the initial audit. All **82 indexed quests** are accounted for: **46 included**, **13 Magram-route quests excluded**, and **23 Horde-only quests or variants excluded**. Three associated introductions/handoffs are Reclaimers' Business in Desolace (1453), Valley of Bones (93034), and The Visiting Mage (93464). Four additional generated Desolace quests form the Highway Robbery chain, which the zone index omits. The [source ledger](sources.json) now records all **89 candidates**, page facts, primary observations, relationships, and source hashes.
+
+## Highway Robbery correction
+
+The user identified Highway Robbery after the initial audit. The earlier coverage check was too narrow: it used the zone index and NPC traces with explicit positions, missing an object starter and a follow-up NPC whose position comes from baseline data. A comparison of **every uncommented generated Questie Desolace zone assignment** against the initial ledger found these four missing IDs:
+
+- **Highway Robbery (79229):** starts at Extinguished Campfire (417353), **47.5, 54.7** in Desolace; turn in to Bibbly F'utzbuckle at Kormek's Hut.
+- **On the Lam (79235):** starts with Bibbly at **62.3, 39.0** in Desolace; sends the player to Tokal in Booty Bay.
+- **Cherry for Your Thoughts? (79236):** starts with Tokal, **27.0, 77.4** in Stranglethorn Vale; bring one Cherry Grog. The guide records Nixxrax Fillamug as a vendor.
+- **No Honor Among Thieves (79242):** starts with Tokal, **27.0, 77.3** in Stranglethorn Vale; find Illari Duskfeather on the Arathi coast and access her stolen-loot cache. No combat requirement or race-specific dialogue option is invented.
+
+All four current **ForeverDB individual guides** record player observations in WoW Forever, their level 40 objectives, and pickup locations. The campfire and Bibbly have four-player confirmations; Tokal's last pickup position has only one observation and retains approximate confidence. Questie quest, object, NPC, and relation traces independently corroborate the starter identities and sequence. The current ForeverChanges individual routes return 404 and are not treated as evidence for these four.
+
+Minimum level **30** comes from generated Questie fields; the current guides do not record it, so it remains a reference rather than an observed restriction. Questie's all-race flags are explicitly **shared-access inferences** based on its source comparison, not direct server faction proof. No class, profession, or Gelkis/Magram requirement is recorded. That provenance is retained; the chain is not mislabeled as current-page-confirmed Both factions. No Horde or Magram branch is added.
+
+The sequence links use **Offered after**, supported by the guides and Questie's observed handoffs, rather than mandatory prerequisites. Bone Collector is incidentally offered at the same NPC in some observations; its existing standalone record is not made dependent on Highway Robbery. The confirmed campfire is added to the map, and Bibbly's existing marker links the hand-in and next step. Booty Bay coordinates stay labeled as Stranglethorn Vale rather than being projected onto the Desolace map.
 
 ## Added quests
 
@@ -13,6 +28,7 @@ The tracker now contains **49 Desolace quests**, up from 33. All **82 indexed qu
 | Gelkis / Shen'dralas handoffs | Valley of Bones (93034), A Cleansing Cry (93044), Test Your Theory (93045), Khan Jehn (93128) |
 | Shared quests and Alliance delivery | Vahlarriel's Vengeance (97284), Umarak's Khan Hratha (96222), Lost Shipping Crate (94841) |
 | Shared Draenethyst chain | The Visiting Mage (93464), Notes on Draenethyst (93465), Abridged Notes on Draenethyst (93678) |
+| Highway Robbery correction | Highway Robbery (79229), On the Lam (79235), Cherry for Your Thoughts? (79236), No Honor Among Thieves (79242) |
 
 The user examples are confirmed by both their current pages and primary quest observations:
 
@@ -40,6 +56,6 @@ NPC starts are checked against current pages and primary quest/NPC observations.
 
 Questie's relation traces explicitly describe inferred handoffs as assumptions. Added links therefore use `previousQuests` / **Offered after**, not confirmed mandatory `prerequisites`. The app derives reverse links automatically, including cross-list links into Shen'dralas. The four duplicated Gelkis handoffs retain the same IDs and share completion across lists.
 
-Observed quest starts for NPCs placed in Desolace were also compared with the index. The additional out-of-index starts found there are already excluded Magram / Shen'dralas steps, not additional eligible Desolace quests. This is coverage against the current public index and observed records, not proof that no undiscovered quest exists.
+The initial NPC-trace-only comparison found excluded Magram / Shen'dralas steps but failed to include NPC locations inherited from baseline data. The follow-up comparison described above instead checks all generated Desolace zone assignments, including object starts and cross-zone chain pickups. Coverage remains limited to the inspected records, not proof that no undiscovered quest exists.
 
 All 33 existing Desolace records and all records in other lists remain unchanged. Completion storage and saved IDs are unchanged, including historical removed IDs. No runtime, CSV conversion, or server dependency is introduced.

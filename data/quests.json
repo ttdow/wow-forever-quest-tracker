@@ -8583,6 +8583,167 @@
     ]
   },
   {
+    "id": "79229",
+    "zone": "Desolace",
+    "level": 40,
+    "name": "Highway Robbery",
+    "stage": "Highway Robbery chain",
+    "giver": "Extinguished Campfire (object)",
+    "coordinates": "47.5, 54.7",
+    "area": "Pillaged campsite / Kodo Graveyard",
+    "objective": "Speak with Bibbly F'utzbuckle at Kormek's Hut in Desolace about the pillaged campsite.",
+    "areaConfidence": "High",
+    "notes": "Level 40 in current Forever guide; minimum level 30 is a Questie generated reference, not confirmed by that guide; Shared-access community reference; the all-race flag in Questie is explicitly inferred, not direct faction proof; No class, profession, or Magram/Gelkis reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites; Object-started quest confirmed by Forever player observations; Bibbly is the turn-in, not the starter",
+    "sources": [
+      "https://foreverdb.net/quest/79229",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverObjectTraces.lua"
+    ],
+    "evidence": {
+      "quest": "forever-player-observation",
+      "level": "forever-guide",
+      "minimumLevel": "community-generated-reference",
+      "objective": "forever-guide-and-questie-trace",
+      "giver": "forever-player-observation",
+      "pickupLocation": "forever-player-observation",
+      "faction": "community-shared-access-inference",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "79235",
+    "zone": "Desolace",
+    "level": 40,
+    "name": "On the Lam",
+    "stage": "Highway Robbery chain",
+    "giver": "Bibbly F'utzbuckle",
+    "coordinates": "62.3, 39.0",
+    "area": "Kormek's Hut",
+    "objective": "Find Tokal in Booty Bay, Stranglethorn Vale, to learn about the Desolace marauders.",
+    "areaConfidence": "High",
+    "notes": "Level 40 in current Forever guide; minimum level 30 is a Questie generated reference, not confirmed by that guide; Shared-access community reference; the all-race flag in Questie is explicitly inferred, not direct faction proof; No class, profession, or Magram/Gelkis reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverdb.net/quest/79235",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "forever-player-observation",
+      "level": "forever-guide",
+      "minimumLevel": "community-generated-reference",
+      "objective": "forever-guide-and-questie-trace",
+      "giver": "forever-player-observation",
+      "pickupLocation": "forever-player-observation",
+      "faction": "community-shared-access-inference",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "79229",
+        "name": "Highway Robbery",
+        "evidence": "community",
+        "sources": [
+          "https://foreverdb.net/quest/79235",
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "79236",
+    "zone": "Desolace",
+    "level": 40,
+    "name": "Cherry for Your Thoughts?",
+    "stage": "Highway Robbery chain",
+    "giver": "Tokal",
+    "coordinates": "27.0, 77.4",
+    "area": "Booty Bay inn (Stranglethorn Vale)",
+    "objective": "Bring 1 Cherry Grog to Tokal in Booty Bay to hear the rest of her story.",
+    "areaConfidence": "High",
+    "notes": "Level 40 in current Forever guide; minimum level 30 is a Questie generated reference, not confirmed by that guide; Shared-access community reference; the all-race flag in Questie is explicitly inferred, not direct faction proof; No class, profession, or Magram/Gelkis reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites; Cherry Grog sold by Nixxrax Fillamug in Booty Bay; quantity 1 observed in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/79236",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "forever-player-observation",
+      "level": "forever-guide",
+      "minimumLevel": "community-generated-reference",
+      "objective": "forever-guide-and-questie-trace",
+      "giver": "forever-player-observation",
+      "pickupLocation": "forever-player-observation",
+      "faction": "community-shared-access-inference",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "79235",
+        "name": "On the Lam",
+        "evidence": "community",
+        "sources": [
+          "https://foreverdb.net/quest/79236",
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "79242",
+    "zone": "Desolace",
+    "level": 40,
+    "name": "No Honor Among Thieves",
+    "stage": "Highway Robbery chain",
+    "giver": "Tokal",
+    "coordinates": "27.0, 77.3",
+    "area": "Booty Bay inn (Stranglethorn Vale)",
+    "objective": "Find Illari Duskfeather on the coast of Arathi Highlands and get access to her cache of stolen loot.",
+    "areaConfidence": "Approximate",
+    "notes": "Level 40 in current Forever guide; minimum level 30 is a Questie generated reference, not confirmed by that guide; Shared-access community reference; the all-race flag in Questie is explicitly inferred, not direct faction proof; No class, profession, or Magram/Gelkis reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites; Primary trace ends at cache object 418855; current guide has no observed turn-in position; no race-specific dialogue or combat requirement assumed",
+    "sources": [
+      "https://foreverdb.net/quest/79242",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "forever-player-observation",
+      "level": "forever-guide",
+      "minimumLevel": "community-generated-reference",
+      "objective": "forever-guide-and-questie-trace",
+      "giver": "forever-player-observation",
+      "pickupLocation": "forever-player-observation",
+      "faction": "community-shared-access-inference",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "79236",
+        "name": "Cherry for Your Thoughts?",
+        "evidence": "community",
+        "sources": [
+          "https://foreverdb.net/quest/79242",
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
     "id": "95795",
     "zone": "Excavation Site: Wetlands",
     "level": 31,

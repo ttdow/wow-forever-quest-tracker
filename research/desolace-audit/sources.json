@@ -14,7 +14,7 @@
   "indexCount": 82,
   "indexedIncludedCount": 46,
   "previousCount": 33,
-  "currentCount": 49,
+  "currentCount": 53,
   "addedIds": [
     "97284",
     "92755",
@@ -31,7 +31,11 @@
     "93034",
     "93044",
     "93045",
-    "93128"
+    "93128",
+    "79229",
+    "79235",
+    "79236",
+    "79242"
   ],
   "excludedMagramIds": [
     "1369",
@@ -78,7 +82,7 @@
     "93034",
     "93464"
   ],
-  "candidateCount": 85,
+  "candidateCount": 89,
   "candidates": [
     {
       "id": "5421",
@@ -1738,6 +1742,78 @@
       "notes": [],
       "primaryQuest": "\n            [questKeys.name] = \"The Visiting Mage\",\n            [questKeys.questLevel] = 38,\n            [questKeys.objectivesText] = {\"Find the mage in Desolace who knows about the power of draenethyst.\"},\n            [questKeys.startedBy_add] = {{1776}},\n            [questKeys.finishedBy_add] = {{11863}},\n        },\n",
       "observedRelationships": " -- The Visiting Mage https://wowhead.com/forever/quest=93464\n            -- 1389 \"Draenethyst Crystals\" https://wowhead.com/forever/quest=1389\n            -- Assumption: offered right after 1389 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {1389},\n            -- 93465 \"Notes on Draenethyst\" https://wowhead.com/forever/quest=93465\n            -- Assumption: turning it in led straight to 93465 (handoff; medium; 100+ characters)\n            [questKeys.nextQuestInChain] = 93465,\n        },\n"
+    },
+    {
+      "id": "79229",
+      "name": "Highway Robbery",
+      "indexed": false,
+      "decision": "included",
+      "added": true,
+      "page": "https://foreverdb.net/quest/79229",
+      "pageFacts": {
+        "Level": "40; minimum level not recorded",
+        "Start": "Extinguished Campfire (object) Pillaged campsite / Kodo Graveyard 47.5, 54.7"
+      },
+      "notes": [
+        "Observed in WoW Forever; outside the original current-zone-index boundary",
+        "Faction flag is inferred shared access; no class/profession/clan restriction recorded"
+      ],
+      "primaryQuest": "\n            [questKeys.name] = \"Highway Robbery\",\n            [questKeys.questLevel] = 40,\n            [questKeys.objectivesText] = {\"Find someone in Desolace who knows about the pillaged campsite.\"},\n            [questKeys.startedBy_add] = {nil,{417353}},\n            [questKeys.finishedBy_add] = {{11438}},\n        },\n",
+      "observedRelationships": " -- Highway Robbery https://wowhead.com/forever/quest=79229\n            -- 79235 \"On the Lam\" https://wowhead.com/forever/quest=79235\n            -- Assumption: turning it in led straight to 79235 (handoff; high; 100+ characters)\n            [questKeys.nextQuestInChain] = 79235,\n        },\n"
+    },
+    {
+      "id": "79235",
+      "name": "On the Lam",
+      "indexed": false,
+      "decision": "included",
+      "added": true,
+      "page": "https://foreverdb.net/quest/79235",
+      "pageFacts": {
+        "Level": "40; minimum level not recorded",
+        "Start": "Bibbly F'utzbuckle Kormek's Hut 62.3, 39.0"
+      },
+      "notes": [
+        "Observed in WoW Forever; outside the original current-zone-index boundary",
+        "Faction flag is inferred shared access; no class/profession/clan restriction recorded"
+      ],
+      "primaryQuest": "\n            [questKeys.name] = \"On the Lam\",\n            [questKeys.questLevel] = 40,\n            [questKeys.objectivesText] = {\"Find one of the Desolace marauders.\"},\n            [questKeys.startedBy_add] = {{11438}},\n            [questKeys.finishedBy_add] = {{215643}},\n        },\n",
+      "observedRelationships": " -- On the Lam https://wowhead.com/forever/quest=79235\n            -- 79229 \"Highway Robbery\" https://wowhead.com/forever/quest=79229\n            -- Assumption: offered right after 79229 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {79229},\n            -- 79236 \"Cherry for Your Thoughts?\" https://wowhead.com/forever/quest=79236\n            -- Assumption: turning it in led straight to 79236 (handoff; high; 100+ characters)\n            [questKeys.nextQuestInChain] = 79236,\n        },\n"
+    },
+    {
+      "id": "79236",
+      "name": "Cherry for Your Thoughts?",
+      "indexed": false,
+      "decision": "included",
+      "added": true,
+      "page": "https://foreverdb.net/quest/79236",
+      "pageFacts": {
+        "Level": "40; minimum level not recorded",
+        "Start": "Tokal Booty Bay inn (Stranglethorn Vale) 27.0, 77.4"
+      },
+      "notes": [
+        "Observed in WoW Forever; outside the original current-zone-index boundary",
+        "Faction flag is inferred shared access; no class/profession/clan restriction recorded"
+      ],
+      "primaryQuest": "\n            [questKeys.name] = \"Cherry for Your Thoughts?\",\n            [questKeys.questLevel] = 40,\n            [questKeys.objectives] = {nil,nil,{{4600}}},\n            [questKeys.objectivesText] = {\"Bring a Cherry Grog to Tokal, in Booty Bay, to hear the rest of her story.\"},\n            [questKeys.startedBy_add] = {{215643}},\n            [questKeys.finishedBy_add] = {{215643}},\n        },\n",
+      "observedRelationships": " -- Cherry for Your Thoughts? https://wowhead.com/forever/quest=79236\n            -- 79235 \"On the Lam\" https://wowhead.com/forever/quest=79235\n            -- Assumption: offered right after 79235 was turned in (handoff, offer-set, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {79235},\n            -- 79242 \"No Honor Among Thieves\" https://wowhead.com/forever/quest=79242\n            -- Assumption: turning it in led straight to 79242 (handoff; high; 100+ characters)\n            [questKeys.nextQuestInChain] = 79242,\n        },\n"
+    },
+    {
+      "id": "79242",
+      "name": "No Honor Among Thieves",
+      "indexed": false,
+      "decision": "included",
+      "added": true,
+      "page": "https://foreverdb.net/quest/79242",
+      "pageFacts": {
+        "Level": "40; minimum level not recorded",
+        "Start": "Tokal Booty Bay inn (Stranglethorn Vale) 27.0, 77.3"
+      },
+      "notes": [
+        "Observed in WoW Forever; outside the original current-zone-index boundary",
+        "Faction flag is inferred shared access; no class/profession/clan restriction recorded"
+      ],
+      "primaryQuest": "\n            [questKeys.name] = \"No Honor Among Thieves\",\n            [questKeys.questLevel] = 40,\n            [questKeys.objectivesText] = {\"Find Illari Duskfeather on the coast of Arathi Highlands, and get access to her cache of stolen loot.\"},\n            [questKeys.startedBy_add] = {{215643}},\n            [questKeys.finishedBy_add] = {nil,{418855}},\n        },\n",
+      "observedRelationships": " -- No Honor Among Thieves https://wowhead.com/forever/quest=79242\n            -- 79236 \"Cherry for Your Thoughts?\" https://wowhead.com/forever/quest=79236\n            -- Assumption: offered right after 79236 was turned in (handoff, offer-set, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {79236},\n        },\n"
     }
   ],
   "sourceHashes": {
@@ -1832,6 +1908,35 @@
     "foreverQuestTraces.lua": "2cfcb394aa892c05bf16d4ca757674c50452a2f9107b647142c2644a73f45a0d",
     "foreverNpcTraces.lua": "3f07c8cf245f1bced2f30cc0d11d04aac23f92470c4ccae19fe575206fd64b28",
     "foreverQuestRelationTraces.lua": "6046c4c77af4613f70f3a9f81d5d3826277bce98d9ec1df76b54990ac559064b",
-    "foreverNpcDB.lua": "3ac7c0b4b25cd7320f30affb3c5ae95d1ff3b03e074868e8cc90294506e3be95"
+    "foreverNpcDB.lua": "3ac7c0b4b25cd7320f30affb3c5ae95d1ff3b03e074868e8cc90294506e3be95",
+    "desolace-index.html": "51dd77a66b531584cc2141c36cadbcb99b11dc528b3bb1c24833ade2e8d9ab32",
+    "fdb-79229.html": "96e01b826bc1248ebdad6f071111dd1941b6d9b7af43466ccbac966b15afe673",
+    "fdb-79235.html": "f2aec19941e66dfdcc1165e678756b635b313b4ee4bb12ec60bb977beab092f3",
+    "fdb-79236.html": "bcb5bc1e0d496d60b28e56ee10c994f23152677fade11604d8bf7af0e0666724",
+    "object-traces.lua": "153748794186c7c0cc86e82ab4239a351c4d703713a28cf74f7b9d6331b5f869",
+    "quest-79242.html": "acc3760a52499a94eb5e61cc8d5e8ca5ccf3abf4b46b054c19408ed1a9717aa9",
+    "quests.json": "308eeadfcbbdd7ae77e866314a48cab3ce55606df6854a1cf8d8473422776e2d",
+    "tooltip-79229.json": "f61950708cbf3c1c67b8500a8d1a05eceaaad6a311f4f79211b74abf5eb0e4f6"
+  },
+  "additionalGeneratedZoneIds": [
+    "79229",
+    "79235",
+    "79236",
+    "79242"
+  ],
+  "followUpAudit": {
+    "audited": "2026-11-15",
+    "trigger": "User reported Highway Robbery missing",
+    "beforeCount": 49,
+    "afterCount": 53,
+    "scope": "Compare every uncommented Questie generated DESOLACE zone assignment against the initial candidate ledger, including object starts and NPC positions inherited from baseline data.",
+    "newCandidateIds": [
+      "79229",
+      "79235",
+      "79236",
+      "79242"
+    ],
+    "sourceLimits": "The current zone index still omits this chain, and individual ForeverChanges routes returned 404. Current ForeverDB guides record the quests and their pickup/turn-in observations. Faction access is an explicit community inference in Questie; minimum level 30 is a generated reference.",
+    "incidentalOffer": "Bone Collector is also offered after the Highway Robbery hand-in in some observations. Its existing standalone record is not changed into a mandatory follow-up."
   }
 }
