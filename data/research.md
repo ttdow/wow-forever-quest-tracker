@@ -114,6 +114,8 @@ The user confirmed that Never Coming Back and A Void Path are Horde-only. Both V
 
 ## Desolace
 
+**Current selection — November 15, 2026:** The user has sided with the Gelkis. Desolace now contains 33 quests after removing the six Magram-route entries: Brutal Politics (#1385), Assault on the Kolkar (#1386), Broken Tears (#1369), Gizmo for Warug (#1371), Khan Shaka (#1375), and the Magram version of Khan Hratha (#1381). All six Gelkis-route entries and shared quests remain. Other lists retain their researched relationships; references to untracked quests use the existing external-guide fallback. Saved completion IDs are preserved. The November 11 research below describes the initial 39-entry dataset.
+
 Researched November 11, 2026 from [ForeverDB's Desolace quest list](https://foreverdb.net/quests/desolace), its public zone JSON, and the individual quest guides linked in each added record. All 57 zone-index quest IDs were checked for faction, race mask, class restrictions, objectives, givers, pickup coordinates, and chain relationships.
 
 The list includes 38 eligible zone-index quests plus Reclaimers' Business in Desolace (#1453), the direct Alliance introduction from Roetten Stonehammer in Ironforge. The 39 entries comprise 22 Alliance quests and 17 explicitly unrestricted quests with race mask 255. All have no class restriction. Eighteen Horde-only zone entries are excluded. Hate the Hatefury (#97265) is also excluded: it has observations but no recorded giver, faction, or race eligibility. An empty faction and race mask 0 are not sufficient evidence of neutral availability.

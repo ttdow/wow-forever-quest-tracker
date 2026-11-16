@@ -6927,41 +6927,6 @@
     "previousQuests": []
   },
   {
-    "id": "1386",
-    "zone": "Desolace",
-    "level": 32,
-    "name": "Assault on the Kolkar",
-    "stage": "Magram centaur route",
-    "giver": "Warug",
-    "coordinates": "75.0, 68.2",
-    "area": "Magram Village",
-    "objective": "Maintain your reputation with the Magram. Kill 12 Kolkar Centaurs, 12 Kolkar Scouts and 6 Kolkar Maulers, then return to Warug in the Magram Village in Desolace.",
-    "areaConfidence": "Approximate",
-    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
-    "sources": [
-      "https://foreverdb.net/quest/1386",
-      "https://foreverdb.net/quests/desolace"
-    ],
-    "evidence": {
-      "quest": "classic",
-      "level": "classic",
-      "objective": "classic",
-      "giver": "classic",
-      "pickupLocation": "classic"
-    },
-    "prerequisites": [
-      {
-        "id": "1385",
-        "name": "Brutal Politics",
-        "evidence": "classic",
-        "sources": [
-          "https://foreverdb.net/quest/1386"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
     "id": "1384",
     "zone": "Desolace",
     "level": 32,
@@ -6995,41 +6960,6 @@
       }
     ],
     "previousQuests": []
-  },
-  {
-    "id": "1369",
-    "zone": "Desolace",
-    "level": 33,
-    "name": "Broken Tears",
-    "stage": "Magram centaur route",
-    "giver": "Warug",
-    "coordinates": "75.0, 68.2",
-    "area": "Magram Village",
-    "objective": "Maintain your reputation with the Magram, and bring 3 Broken Tears to Warug in the Magram Village.",
-    "areaConfidence": "Approximate",
-    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Alliance chain route shown; alternate Horde-only introduction omitted; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
-    "sources": [
-      "https://foreverdb.net/quest/1369",
-      "https://foreverdb.net/quests/desolace"
-    ],
-    "evidence": {
-      "quest": "classic",
-      "level": "classic",
-      "objective": "classic",
-      "giver": "classic",
-      "pickupLocation": "classic"
-    },
-    "prerequisites": [],
-    "previousQuests": [
-      {
-        "id": "1386",
-        "name": "Assault on the Kolkar",
-        "evidence": "classic",
-        "sources": [
-          "https://foreverdb.net/quest/1369"
-        ]
-      }
-    ]
   },
   {
     "id": "1458",
@@ -7337,67 +7267,6 @@
     "previousQuests": []
   },
   {
-    "id": "1385",
-    "zone": "Desolace",
-    "level": 35,
-    "name": "Brutal Politics",
-    "stage": "Magram centaur route",
-    "giver": "Captain Pentigast",
-    "coordinates": "66.7, 10.9",
-    "area": "Nijel's Point",
-    "objective": "Gain a Friendly reputation with the Magram, then speak with Warug.",
-    "areaConfidence": "Approximate",
-    "notes": "Alliance; No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
-    "sources": [
-      "https://foreverdb.net/quest/1385",
-      "https://foreverdb.net/quests/desolace"
-    ],
-    "evidence": {
-      "quest": "classic",
-      "level": "classic",
-      "objective": "classic",
-      "giver": "classic",
-      "pickupLocation": "classic"
-    },
-    "prerequisites": [],
-    "previousQuests": []
-  },
-  {
-    "id": "1371",
-    "zone": "Desolace",
-    "level": 35,
-    "name": "Gizmo for Warug",
-    "stage": "Magram centaur route",
-    "giver": "Warug",
-    "coordinates": "75.0, 68.2",
-    "area": "Magram Village",
-    "objective": "Maintain your reputation with the Magram, and bring an Advanced Target Dummy to Warug in the Magram Village in Desolace.",
-    "areaConfidence": "Approximate",
-    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
-    "sources": [
-      "https://foreverdb.net/quest/1371",
-      "https://foreverdb.net/quests/desolace"
-    ],
-    "evidence": {
-      "quest": "classic",
-      "level": "classic",
-      "objective": "classic",
-      "giver": "classic",
-      "pickupLocation": "classic"
-    },
-    "prerequisites": [
-      {
-        "id": "1369",
-        "name": "Broken Tears",
-        "evidence": "classic",
-        "sources": [
-          "https://foreverdb.net/quest/1371"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
     "id": "1459",
     "zone": "Desolace",
     "level": 35,
@@ -7549,41 +7418,6 @@
         "evidence": "classic",
         "sources": [
           "https://foreverdb.net/quest/1374"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
-    "id": "1375",
-    "zone": "Desolace",
-    "level": 37,
-    "name": "Khan Shaka",
-    "stage": "Magram centaur route",
-    "giver": "Warug",
-    "coordinates": "75.0, 68.2",
-    "area": "Magram Village",
-    "objective": "Maintain your reputation with the Magram, and bring the Head of Khan Shaka to Warug in the Magram Village in Desolace.",
-    "areaConfidence": "Approximate",
-    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
-    "sources": [
-      "https://foreverdb.net/quest/1375",
-      "https://foreverdb.net/quests/desolace"
-    ],
-    "evidence": {
-      "quest": "classic",
-      "level": "classic",
-      "objective": "classic",
-      "giver": "classic",
-      "pickupLocation": "classic"
-    },
-    "prerequisites": [
-      {
-        "id": "1371",
-        "name": "Gizmo for Warug",
-        "evidence": "classic",
-        "sources": [
-          "https://foreverdb.net/quest/1375"
         ]
       }
     ],
@@ -8099,41 +7933,6 @@
         "evidence": "classic",
         "sources": [
           "https://foreverdb.net/quest/1380"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
-    "id": "1381",
-    "zone": "Desolace",
-    "level": 42,
-    "name": "Khan Hratha",
-    "stage": "Magram centaur route",
-    "giver": "Warug",
-    "coordinates": "75.0, 68.2",
-    "area": "Magram Village",
-    "objective": "Maintain your Magram reputation, and bring the Maraudine Key Fragment to Warug in the Magram Village in Desolace.",
-    "areaConfidence": "Approximate",
-    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
-    "sources": [
-      "https://foreverdb.net/quest/1381",
-      "https://foreverdb.net/quests/desolace"
-    ],
-    "evidence": {
-      "quest": "classic",
-      "level": "classic",
-      "objective": "classic",
-      "giver": "classic",
-      "pickupLocation": "classic"
-    },
-    "prerequisites": [
-      {
-        "id": "1375",
-        "name": "Khan Shaka",
-        "evidence": "classic",
-        "sources": [
-          "https://foreverdb.net/quest/1381"
         ]
       }
     ],
