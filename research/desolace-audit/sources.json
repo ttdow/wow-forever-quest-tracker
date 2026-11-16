@@ -12,9 +12,9 @@
     "classicNpcs": "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/data/Forever/foreverNpcDB.lua"
   },
   "indexCount": 82,
-  "indexedIncludedCount": 46,
+  "indexedIncludedCount": 44,
   "previousCount": 33,
-  "currentCount": 53,
+  "currentCount": 51,
   "addedIds": [
     "97284",
     "92755",
@@ -896,7 +896,7 @@
       "id": "1374",
       "name": "Khan Jehn",
       "indexed": true,
-      "decision": "included",
+      "decision": "excluded-legacy-version",
       "added": false,
       "page": "https://foreverchanges.pro/quest/1374",
       "pageFacts": {
@@ -908,7 +908,9 @@
         "Shareable": "Yes",
         "Quest ID": "1374"
       },
-      "notes": [],
+      "notes": [
+        "Removed from the active list by user request on 2026-11-16; retain newer Forever counterpart. No explicit server-disabled claim."
+      ],
       "primaryQuest": "",
       "observedRelationships": ""
     },
@@ -1463,7 +1465,7 @@
       "id": "1380",
       "name": "Khan Hratha",
       "indexed": true,
-      "decision": "included",
+      "decision": "excluded-legacy-version",
       "added": false,
       "page": "https://foreverchanges.pro/quest/1380",
       "pageFacts": {
@@ -1476,7 +1478,9 @@
         "Shareable": "Yes",
         "Quest ID": "1380"
       },
-      "notes": [],
+      "notes": [
+        "Removed from the active list by user request on 2026-11-16; retain newer Forever counterpart. No explicit server-disabled claim."
+      ],
       "primaryQuest": "",
       "observedRelationships": ""
     },
@@ -1938,5 +1942,23 @@
     ],
     "sourceLimits": "The current zone index still omits this chain, and individual ForeverChanges routes returned 404. Current ForeverDB guides record the quests and their pickup/turn-in observations. Faction access is an explicit community inference in Questie; minimum level 30 is a generated reference.",
     "incidentalOffer": "Bone Collector is also offered after the Highway Robbery hand-in in some observations. Its existing standalone record is not changed into a mandatory follow-up."
+  },
+  "excludedLegacyIds": [
+    "1374",
+    "1380"
+  ],
+  "legacyCleanup": {
+    "date": "2026-11-16",
+    "removedIds": [
+      "1374",
+      "1380"
+    ],
+    "retainedForeverIds": [
+      "93128",
+      "96222"
+    ],
+    "reason": "User requested removing the Classic-reference duplicates in favor of the newer Forever versions after verification.",
+    "limit": "New versions are supported by Forever observations; no explicit server disable/removal record for the old IDs was found. This is an active tracker selection, not a claim of proven server deletion.",
+    "savedProgress": "Original saved IDs and completion-storage key remain intact; no automatic completion transfer to different quest IDs."
   }
 }

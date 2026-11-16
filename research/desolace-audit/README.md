@@ -2,7 +2,11 @@
 
 Audited November 15, 2026 against the current published build, **1.60.1.70938**, the [Desolace quest index](https://foreverchanges.pro/quests/desolace), individual quest pages, and [Questie primary data at revision 4dbb824](https://github.com/Questie/QuestieDB/tree/4dbb82440a27856f8dccf57094a5d792cdc7cc9b).
 
-The tracker now contains **53 Desolace quests**, up from 33 before the initial audit. All **82 indexed quests** are accounted for: **46 included**, **13 Magram-route quests excluded**, and **23 Horde-only quests or variants excluded**. Three associated introductions/handoffs are Reclaimers' Business in Desolace (1453), Valley of Bones (93034), and The Visiting Mage (93464). Four additional generated Desolace quests form the Highway Robbery chain, which the zone index omits. The [source ledger](sources.json) now records all **89 candidates**, page facts, primary observations, relationships, and source hashes.
+The tracker now contains **51 Desolace quests**. All **82 indexed quests** are accounted for: **44 included**, **13 Magram-route quests excluded**, **23 Horde-only quests or variants excluded**, and **two legacy Khan versions excluded**. Three associated introductions/handoffs are Reclaimers' Business in Desolace (1453), Valley of Bones (93034), and The Visiting Mage (93464). Four additional generated Desolace quests form the Highway Robbery chain, which the zone index omits. The [source ledger](sources.json) records all **89 candidates**, page facts, primary observations, relationships, and source hashes.
+
+## Legacy Khan cleanup — November 16, 2026
+
+At the user's request, removed the Classic-reference **Khan Jehn (1374)** and **Khan Hratha (1380)** from the active list. Keep the newer Forever **Khan Jehn (93128, Nerlokh)** and **Khan Hratha (96222, Umarak)**. The newer records have Forever observations; the old records retain Classic fallback data. An explicit server disable/removal notice was not found, so this is a tracker selection rather than a claim of proven server deletion. Old map links are removed. Saved IDs remain intact, and completion is not transferred automatically between different quest IDs.
 
 ## Highway Robbery correction
 
@@ -44,7 +48,7 @@ Current explicit faction labels take precedence over older inconsistent generate
 
 Buying Friendship's alternatives are faction variants. Only the Captain Pentigast → Gelkis version (93227) and its Alliance Carved Centaur Totems predecessor (93224) are selected. Gurda Wildmane's counterpart (94873) is excluded despite its broad current Both factions label: its starter, primary Horde race flag, and Horde introduction identify it as the other faction's variant. The two faction predecessors are not displayed as simultaneous mandatory requirements.
 
-The neutral **Umarak Khan Hratha (96222)** is distinct from the retained Classic Gelkis version (1380) and the excluded Magram version (1381). Its own page describes challenging Khan Hratha in the Valley of Spears, with no Magram allegiance requirement recorded. Matching names alone do not merge quest IDs or determine allegiance.
+The neutral **Umarak Khan Hratha (96222)** is distinct from the now-excluded Classic Gelkis version (1380) and the excluded Magram version (1381). Its own page describes challenging Khan Hratha in the Valley of Spears, with no Magram allegiance requirement recorded. Matching names alone do not merge quest IDs or determine allegiance.
 
 The Draenethyst pages explicitly support both factions, including The Visiting Mage and the earlier Draenethyst Crystals (1389). Their giver Magtoor is shared. This resolves the older Horde flag on Notes on Draenethyst without including a Horde-gated chain. Draenethyst Crystals remains an external earlier-quest reference because its objective is entirely in Swamp of Sorrows; The Visiting Mage is included as the direct Desolace introduction.
 
@@ -58,4 +62,4 @@ Questie's relation traces explicitly describe inferred handoffs as assumptions. 
 
 The initial NPC-trace-only comparison found excluded Magram / Shen'dralas steps but failed to include NPC locations inherited from baseline data. The follow-up comparison described above instead checks all generated Desolace zone assignments, including object starts and cross-zone chain pickups. Coverage remains limited to the inspected records, not proof that no undiscovered quest exists.
 
-All 33 existing Desolace records and all records in other lists remain unchanged. Completion storage and saved IDs are unchanged, including historical removed IDs. No runtime, CSV conversion, or server dependency is introduced.
+The 31 retained pre-audit Desolace records and all records in other lists remain unchanged. The two old Khan entries are excluded as described above. Completion storage and saved IDs are unchanged, including historical removed IDs. No runtime, CSV conversion, or server dependency is introduced.

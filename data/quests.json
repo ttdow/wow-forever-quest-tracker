@@ -7389,41 +7389,6 @@
     "previousQuests": []
   },
   {
-    "id": "1374",
-    "zone": "Desolace",
-    "level": 37,
-    "name": "Khan Jehn",
-    "stage": "Gelkis centaur route",
-    "giver": "Uthek the Wise",
-    "coordinates": "36.2, 79.2",
-    "area": "Gelkis Village",
-    "objective": "Bring the Khan Jehn's Head to Uthek the Wise in the Gelkis Village in Desolace.",
-    "areaConfidence": "Approximate",
-    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
-    "sources": [
-      "https://foreverdb.net/quest/1374",
-      "https://foreverdb.net/quests/desolace"
-    ],
-    "evidence": {
-      "quest": "classic",
-      "level": "classic",
-      "objective": "classic",
-      "giver": "classic",
-      "pickupLocation": "classic"
-    },
-    "prerequisites": [
-      {
-        "id": "1373",
-        "name": "Ongeku",
-        "evidence": "classic",
-        "sources": [
-          "https://foreverdb.net/quest/1374"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
     "id": "1373",
     "zone": "Desolace",
     "level": 37,
@@ -7898,41 +7863,6 @@
         "evidence": "classic",
         "sources": [
           "https://foreverdb.net/quest/1467"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
-    "id": "1380",
-    "zone": "Desolace",
-    "level": 42,
-    "name": "Khan Hratha",
-    "stage": "Gelkis centaur route",
-    "giver": "Uthek the Wise",
-    "coordinates": "36.2, 79.2",
-    "area": "Gelkis Village",
-    "objective": "Maintain your reputation with the Gelkis, and bring the Maraudine Key Fragment to Uthek the Wise in the Gelkis Village.",
-    "areaConfidence": "Approximate",
-    "notes": "Neutral (race mask 255); No class restriction; Minimum level 30; Quest details are Classic references; not yet observed in Forever; Pickup coordinates are a Classic reference; Objective is a Classic reference; Gelkis and Magram are alternative reputation routes; maintain the required centaur reputation",
-    "sources": [
-      "https://foreverdb.net/quest/1380",
-      "https://foreverdb.net/quests/desolace"
-    ],
-    "evidence": {
-      "quest": "classic",
-      "level": "classic",
-      "objective": "classic",
-      "giver": "classic",
-      "pickupLocation": "classic"
-    },
-    "prerequisites": [
-      {
-        "id": "1374",
-        "name": "Khan Jehn",
-        "evidence": "classic",
-        "sources": [
-          "https://foreverdb.net/quest/1380"
         ]
       }
     ],
