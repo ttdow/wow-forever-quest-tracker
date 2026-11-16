@@ -13420,5 +13420,373 @@
         "relation": "Offered after"
       }
     ]
+  },
+  {
+    "id": "94980",
+    "zone": "Krol'dok Stronghold",
+    "level": 41,
+    "name": "Krol'dok Moulding",
+    "stage": "",
+    "giver": "Krol'dok Moulding (item #267138)",
+    "coordinates": "",
+    "area": "Krol'dok Stronghold",
+    "objective": "Find someone in Farholde Keep who may know about the mould.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 38; Item-started; Tunk is the addon drop reference; turn in to Alphonse Dumas at 64.4, 82.1 in Farholde Keep, Riverglades",
+    "sources": [
+      "https://foreverchanges.pro/quest/94980/kroldok-moulding",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "94981",
+    "zone": "Krol'dok Stronghold",
+    "level": 41,
+    "name": "Key Ingredients",
+    "stage": "",
+    "giver": "Alphonse Dumas",
+    "coordinates": "64.4, 82.1",
+    "area": "Farholde Keep (Riverglades)",
+    "objective": "Bring 4 Thick Leather and 12 Iron Bars to Alphonse Dumas to receive the Krol'dok Compound Key.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 38",
+    "sources": [
+      "https://foreverchanges.pro/quest/94981/key-ingredients",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "94980",
+        "name": "Krol'dok Moulding",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "94982",
+    "zone": "Krol'dok Stronghold",
+    "level": 45,
+    "name": "Eye of Mugg",
+    "stage": "",
+    "giver": "Demar Brant",
+    "coordinates": "66.7, 81.0",
+    "area": "Farholde Keep (Riverglades)",
+    "objective": "Slay Overlord Mugg in Krol'dok Stronghold and bring his eye to Demar Brant.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 40; Starter and pickup position from player traces; current page records only the turn-in",
+    "sources": [
+      "https://foreverchanges.pro/quest/94982/eye-of-mugg",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "94983",
+    "zone": "Krol'dok Stronghold",
+    "level": 42,
+    "name": "Twilight Mementos",
+    "stage": "",
+    "giver": "Sergeant Riftan",
+    "coordinates": "30.6, 49.1",
+    "area": "Riverglades",
+    "objective": "Collect 8 Twilight Bangles from the Twilight's Hammer in Krol'dok Stronghold.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 38",
+    "sources": [
+      "https://foreverchanges.pro/quest/94983/twilight-mementos",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "94890",
+        "name": "Bring Me His Head",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "94997",
+    "zone": "Krol'dok Stronghold",
+    "level": 42,
+    "name": "Lingering Essence",
+    "stage": "Twilight Mementos follow-up",
+    "giver": "Sergeant Riftan",
+    "coordinates": "30.6, 49.1",
+    "area": "Riverglades",
+    "objective": "Bring the Satchel of Cursed Mementos to Ashe Amberhall in Farholde Keep, Riverglades (66.7, 81.0).",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 38",
+    "sources": [
+      "https://foreverchanges.pro/quest/94997/lingering-essence",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "94983",
+        "name": "Twilight Mementos",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "94998",
+    "zone": "Krol'dok Stronghold",
+    "level": 42,
+    "name": "Curios of Curiosity",
+    "stage": "Twilight Mementos follow-up",
+    "giver": "Ashe Amberhall",
+    "coordinates": "66.7, 81.0",
+    "area": "Farholde Keep (Riverglades)",
+    "objective": "Bring the Satchel of Mementos to Melanie Sable in Farholde Keep, Riverglades (66.2, 83.2).",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 38",
+    "sources": [
+      "https://foreverchanges.pro/quest/94998/curios-of-curiosity",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "94997",
+        "name": "Lingering Essence",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "94907",
+    "zone": "Krol'dok Stronghold",
+    "level": 44,
+    "name": "A Small Favor",
+    "stage": "Tome of Twilight introduction",
+    "giver": "Ashe Amberhall",
+    "coordinates": "66.7, 81.0",
+    "area": "Farholde Keep (Riverglades)",
+    "objective": "Summon a Twilight's Thrall from a conduit in the Twilight Shroud and capture it with Amberhall's Soulstone.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 36",
+    "sources": [
+      "https://foreverchanges.pro/quest/94907/a-small-favor",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "94881",
+        "name": "Curious Trinkets",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "94984",
+    "zone": "Krol'dok Stronghold",
+    "level": 44,
+    "name": "Tome of Twilight",
+    "stage": "",
+    "giver": "Ashe Amberhall",
+    "coordinates": "66.7, 81.0",
+    "area": "Farholde Keep (Riverglades)",
+    "objective": "Kill Nar'gurk in Krol'dok Stronghold and recover the Tome of Twilight.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 39",
+    "sources": [
+      "https://foreverchanges.pro/quest/94984/tome-of-twilight",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "94907",
+        "name": "A Small Favor",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "96771",
+    "zone": "Krol'dok Stronghold",
+    "level": 45,
+    "name": "Vengeance of the Highborne",
+    "stage": "",
+    "giver": "Ranath Nightstride",
+    "coordinates": "17.8, 66.0",
+    "area": "Alterac Mountains",
+    "objective": "Travel to Krol'dok Stronghold and slay Zalfan Moonshadow.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 37; Starter and approximate pickup coordinates from player traces; current page has no pickup pin",
+    "sources": [
+      "https://foreverchanges.pro/quest/96771/vengeance-of-the-highborne",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "94969",
+    "zone": "Krol'dok Stronghold",
+    "level": 42,
+    "name": "Krol'dok No More!",
+    "stage": "Escort (availability unverified)",
+    "giver": "",
+    "coordinates": "",
+    "area": "Krol'dok Stronghold",
+    "objective": "Escort Marcus Tilwell to safety.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 40; Addon and Wowhead quest reference; current availability, quest giver, and pickup position are unverified",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=94969",
+      "https://nether.wowhead.com/forever/tooltip/quest/94969",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "wowhead",
+      "minimumLevel": "community",
+      "objective": "wowhead",
+      "giver": "unverified",
+      "pickupLocation": "unverified",
+      "faction": "community"
+    },
+    "prerequisites": [],
+    "previousQuests": []
   }
 ]

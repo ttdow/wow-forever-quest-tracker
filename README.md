@@ -4,7 +4,7 @@ Static HTML, CSS, and JavaScript. No installation, application server, package m
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Chrome, Firefox, or another modern browser.
 
-- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, or The Drowned City.
+- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, or Krol'dok Stronghold.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
@@ -30,7 +30,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 482 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 492 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
@@ -53,8 +53,9 @@ The browser loads all 482 quest entries directly from `data/quests.json`. This J
 - Scarlet Monastery Armory: In the Name of the Light, shared with Library using the same completion ID and Desolace prerequisite link
 - Scarlet Monastery Cathedral: In the Name of the Light, shared with Library and Armory; 10 equipment drops across three bosses, plus courtyard/interior maps
 - The Drowned City: 8 Alliance/neutral entries, including An Acquaintance in Southshore and the two Dibbs follow-ups; observed handoffs remain distinct from mandatory prerequisites
+- Krol'dok Stronghold: 10 Alliance entries, including A Small Favor and delivery follow-ups; Krol'dok No More! is a labeled escort reference with unverified availability and unknown giver/pickup
 
-The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 461 unique quest IDs across 482 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, Seeking Caitlin by Ashenvale and Excavation Site: Wetlands, In the Name of the Light by Scarlet Monastery Library, Armory, and Cathedral, four Forlorn Gardens/Agamaggan chain quests by Shen'dralas and Razorfen Downs, and four Gelkis handoffs by Desolace and Shen'dralas. Their completion status is shared automatically.
+The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 471 unique quest IDs across 492 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, Seeking Caitlin by Ashenvale and Excavation Site: Wetlands, In the Name of the Light by Scarlet Monastery Library, Armory, and Cathedral, four Forlorn Gardens/Agamaggan chain quests by Shen'dralas and Razorfen Downs, and four Gelkis handoffs by Desolace and Shen'dralas. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
@@ -92,11 +93,13 @@ The Drowned City and Scarlet Monastery Armory were researched on November 14, 20
 
 Razorfen Downs was researched on November 14, 2026 using current ForeverChanges quest pages, ForeverDB's full dungeon/client data, Questie's relationship traces, All The Things' dungeon record, and explicit Wowhead Forever boss-source lines. Its nine quest entries include the three earlier Agamaggan chain steps; its 22 boss-specific equipment drops include rare Ragglesnout and Ambassador Bloodrage's entrance-area drop.
 
+Krol'dok Stronghold was researched on November 16, 2026 against all 13 current indexed quests, a direct introduction, an additional escort reference, Questie player traces, the All The Things dungeon record, and current Wowhead Forever item tooltips. It has 19 equipment drops across six named bosses. The escort's availability is unverified; no supported map was found. See the [coverage report](research/kroldok-stronghold/README.md).
+
 The site must be served over HTTP or HTTPS so the browser can load the JSON file. Opening `index.html` directly from disk is not supported.
 
 ## Dungeon drops
 
-`data/drops.json` contains 230 boss-specific equipment entries: 31 for Deadmines, 21 for Wailing Caverns, 21 for Blackfathom Deeps, 9 for The Stockades, 16 for Gnomeregan, 9 for Excavation Site: Wetlands, 24 for The City of Dalaran, 23 for Razorfen Kraul, 22 for Razorfen Downs, 15 for Scarlet Monastery Graveyard, 10 for Scarlet Monastery Library, 4 for Scarlet Monastery Armory, 10 for Scarlet Monastery Cathedral, and 15 for The Drowned City. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats. Razorfen Downs has 14 Rogue-usable entries, Drowned City has nine, and Armory's four Herod items are all mail or a two-handed axe and produce an empty Rogue filter.
+`data/drops.json` contains 249 boss-specific equipment entries: 31 for Deadmines, 21 for Wailing Caverns, 21 for Blackfathom Deeps, 9 for The Stockades, 16 for Gnomeregan, 9 for Excavation Site: Wetlands, 24 for The City of Dalaran, 23 for Razorfen Kraul, 22 for Razorfen Downs, 15 for Scarlet Monastery Graveyard, 10 for Scarlet Monastery Library, 4 for Scarlet Monastery Armory, 10 for Scarlet Monastery Cathedral, 15 for The Drowned City, and 19 for Krol'dok Stronghold. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats. Razorfen Downs has 14 Rogue-usable entries, Drowned City has nine, and Armory's four Herod items are all mail or a two-handed axe and produce an empty Rogue filter.
 
 Boss cards start collapsed and show their matching item counts. Multiple cards can be expanded at once. Open cards are remembered for each dungeon during the current page session. Searching or choosing a specific source opens matching cards. Named rare bosses are included; ordinary trash sources and equipment without a confirmed boss source are excluded.
 

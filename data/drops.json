@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "build": "1.60.1.70862",
   "instances": {
     "Deadmines": {
@@ -5820,6 +5820,483 @@
             "https://nether.wowhead.com/forever/tooltip/item/7720",
             "https://foreverdb.net/dungeon/189-scarlet-monastery",
             "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        }
+      ]
+    },
+    "Krol'dok Stronghold": {
+      "id": 3039,
+      "source": "https://www.wowhead.com/forever/zone=16842/kroldok-stronghold",
+      "referenceName": "Wowhead",
+      "items": [
+        {
+          "id": "274995",
+          "name": "Slavecrusher Scepter",
+          "quality": 3,
+          "requiredLevel": 39,
+          "itemLevel": 44,
+          "slot": "One-hand",
+          "type": "Mace",
+          "stats": [
+            "54–101 damage · 2.60s · 29.81 DPS",
+            "+6 Strength",
+            "+9 Stamina"
+          ],
+          "source": "Slavecrusher Grox",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274995",
+            "https://nether.wowhead.com/forever/tooltip/item/274995",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "274996",
+          "name": "Resistance Breaker Spaulder",
+          "quality": 3,
+          "requiredLevel": 39,
+          "itemLevel": 44,
+          "slot": "Shoulder",
+          "type": "Mail",
+          "stats": [
+            "202 Armor",
+            "+10 Agility",
+            "+15 Stamina"
+          ],
+          "source": "Slavecrusher Grox",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274996",
+            "https://nether.wowhead.com/forever/tooltip/item/274996",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "274997",
+          "name": "Chain of Binding",
+          "quality": 3,
+          "requiredLevel": 39,
+          "itemLevel": 44,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "152 Armor",
+            "+15 Stamina",
+            "+12 Spell Damage and Healing"
+          ],
+          "source": "Slavecrusher Grox",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274997",
+            "https://nether.wowhead.com/forever/tooltip/item/274997",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "274998",
+          "name": "Shadowlight Athame",
+          "quality": 3,
+          "requiredLevel": 40,
+          "itemLevel": 45,
+          "slot": "Main hand",
+          "type": "Dagger",
+          "stats": [
+            "25–48 damage · 1.80s · 20.28 DPS",
+            "+9 Stamina",
+            "+5 Intellect",
+            "+52 Spell Damage and Healing"
+          ],
+          "source": "Twilight Commander Zarmok",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274998",
+            "https://nether.wowhead.com/forever/tooltip/item/274998",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "274999",
+          "name": "Shadecaster's Leggings",
+          "quality": 3,
+          "requiredLevel": 40,
+          "itemLevel": 45,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "57 Armor",
+            "+21 Stamina",
+            "+10 Intellect",
+            "+13 Shadow Spell Damage"
+          ],
+          "source": "Twilight Commander Zarmok",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274999",
+            "https://nether.wowhead.com/forever/tooltip/item/274999",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "275000",
+          "name": "Zarmok's Plated Signet",
+          "quality": 3,
+          "requiredLevel": 40,
+          "itemLevel": 45,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+9 Stamina",
+            "+11 Block Value",
+            "+0.5% Hit",
+            "Unique-Equipped"
+          ],
+          "source": "Twilight Commander Zarmok",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=275000",
+            "https://nether.wowhead.com/forever/tooltip/item/275000",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "275001",
+          "name": "Bloodied Gutslicer",
+          "quality": 3,
+          "requiredLevel": 40,
+          "itemLevel": 45,
+          "slot": "Two-hand",
+          "type": "Two-hand sword",
+          "stats": [
+            "114–171 damage · 3.60s · 39.58 DPS",
+            "+14 Agility",
+            "+17 Stamina",
+            "+10 Spirit"
+          ],
+          "source": "War Handler Ashka",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=275001",
+            "https://nether.wowhead.com/forever/tooltip/item/275001",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "275002",
+          "name": "War Handler's Gaze",
+          "quality": 3,
+          "requiredLevel": 40,
+          "itemLevel": 45,
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "109 Armor",
+            "+11 Agility",
+            "+17 Stamina",
+            "+10 Intellect"
+          ],
+          "source": "War Handler Ashka",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=275002",
+            "https://nether.wowhead.com/forever/tooltip/item/275002",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "275003",
+          "name": "Worgbinder's Treads",
+          "quality": 3,
+          "requiredLevel": 40,
+          "itemLevel": 45,
+          "slot": "Feet",
+          "type": "Plate",
+          "stats": [
+            "330 Armor",
+            "+10 Strength",
+            "+15 Intellect"
+          ],
+          "source": "War Handler Ashka",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=275003",
+            "https://nether.wowhead.com/forever/tooltip/item/275003",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "275004",
+          "name": "Chain of the Corruptor",
+          "quality": 3,
+          "requiredLevel": 41,
+          "itemLevel": 46,
+          "slot": "Neck",
+          "type": "Necklace",
+          "stats": [
+            "+4 Agility",
+            "+12 Stamina",
+            "+5 Spell Damage and Healing"
+          ],
+          "source": "Nar'gurk",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=275004",
+            "https://nether.wowhead.com/forever/tooltip/item/275004",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "275005",
+          "name": "Krol'dok Warplate Chest",
+          "quality": 3,
+          "requiredLevel": 41,
+          "itemLevel": 46,
+          "slot": "Chest",
+          "type": "Plate",
+          "stats": [
+            "490 Armor",
+            "+10 Strength",
+            "+10 Stamina",
+            "+13 Defense"
+          ],
+          "source": "Nar'gurk",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=275005",
+            "https://nether.wowhead.com/forever/tooltip/item/275005",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "275006",
+          "name": "Krol'dok Warplate Helmet",
+          "quality": 3,
+          "requiredLevel": 41,
+          "itemLevel": 46,
+          "slot": "Head",
+          "type": "Plate",
+          "stats": [
+            "398 Armor",
+            "+19 Strength",
+            "+10 Stamina",
+            "+10 Spirit"
+          ],
+          "source": "Nar'gurk",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=275006",
+            "https://nether.wowhead.com/forever/tooltip/item/275006",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "275007",
+          "name": "Mugg's Jabber",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "One-hand",
+          "type": "Fist weapon",
+          "stats": [
+            "57–107 damage · 2.60s · 31.54 DPS",
+            "+5 Agility",
+            "+6 Stamina",
+            "+18 Attack Power against Humanoids"
+          ],
+          "source": "Overlord Mugg",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=275007",
+            "https://nether.wowhead.com/forever/tooltip/item/275007",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "275008",
+          "name": "Mugg's Crosser",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "One-hand",
+          "type": "Fist weapon",
+          "stats": [
+            "57–107 damage · 2.60s · 31.54 DPS",
+            "+5 Strength",
+            "+6 Stamina",
+            "+18 Attack Power against Beasts"
+          ],
+          "source": "Overlord Mugg",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=275008",
+            "https://nether.wowhead.com/forever/tooltip/item/275008",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "275009",
+          "name": "Emblem of Slamming",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "+14 Attack Power",
+            "Use: Stun the target and yourself for 3 sec. Ogres are stunned for 5 sec and refund 50% of the cooldown. (15 min cooldown)",
+            "Unique-Equipped"
+          ],
+          "source": "Overlord Mugg",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=275009",
+            "https://nether.wowhead.com/forever/tooltip/item/275009",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "275010",
+          "name": "Strongly Scented Hood",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "55 Armor",
+            "+21 Spirit",
+            "+15 Spell Damage and Healing"
+          ],
+          "source": "Overlord Mugg",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=275010",
+            "https://nether.wowhead.com/forever/tooltip/item/275010",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "286428",
+          "name": "Band of Bossman",
+          "quality": 3,
+          "requiredLevel": 40,
+          "itemLevel": 45,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+6 Stamina",
+            "+5 Spirit",
+            "+22 Healing",
+            "+7 Spell Damage",
+            "Unique-Equipped"
+          ],
+          "source": "Bossman Toof",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=286428",
+            "https://nether.wowhead.com/forever/tooltip/item/286428",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "286429",
+          "name": "Big-Belly Belt",
+          "quality": 3,
+          "requiredLevel": 40,
+          "itemLevel": 45,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "37 Armor",
+            "+8 Strength",
+            "+9 Spirit",
+            "+26 Healing",
+            "+9 Spell Damage"
+          ],
+          "source": "Bossman Toof",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=286429",
+            "https://nether.wowhead.com/forever/tooltip/item/286429",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
+          ]
+        },
+        {
+          "id": "286430",
+          "name": "Toofbreaker",
+          "quality": 3,
+          "requiredLevel": 40,
+          "itemLevel": 45,
+          "slot": "One-hand",
+          "type": "Mace",
+          "stats": [
+            "40–75 damage · 1.90s · 30.26 DPS",
+            "+7 Strength",
+            "+5 Stamina",
+            "Chance on hit: Bash the target for 42 Physical damage; double damage if the target is facing you."
+          ],
+          "source": "Bossman Toof",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=286430",
+            "https://nether.wowhead.com/forever/tooltip/item/286430",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/krol%27dok%20stronghold.lua"
           ]
         }
       ]
