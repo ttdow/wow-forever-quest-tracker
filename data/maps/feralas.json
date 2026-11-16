@@ -1,0 +1,824 @@
+{
+  "zone": "Feralas",
+  "updated": "2026-11-16",
+  "map": {
+    "image": "./assets/maps/feralas.webp",
+    "width": 1002,
+    "height": 668,
+    "source": "https://foreverdb.net/maps/1444",
+    "coordinateSystem": "zone-percent",
+    "region": [
+      -7000.0,
+      -1508.3,
+      -2366.7,
+      5441.7
+    ],
+    "attribution": "World of Warcraft © Blizzard Entertainment; map via ForeverDB"
+  },
+  "note": "Classic reference locations unless marked confirmed. Nearby quest entries share approximate markers; their source coordinates appear in the popup.",
+  "points": [
+    {
+      "id": "npc-14637",
+      "name": "Zorbin Fandazzle",
+      "category": "quest-giver",
+      "x": 44.8,
+      "y": 43.4,
+      "world": {
+        "map": 1,
+        "x": -4377.5,
+        "y": 2328.1
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "7003",
+        "7721",
+        "7725",
+        "7726"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "14637"
+    },
+    {
+      "id": "npc-3936",
+      "name": "Shandris Feathermoon",
+      "category": "quest-giver",
+      "x": 30.35,
+      "y": 46.2,
+      "world": {
+        "map": 1,
+        "x": -4507.3,
+        "y": 3335.8
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "2866",
+        "3130",
+        "4267"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "3936",
+      "sourceCoordinates": {
+        "x": 30.3,
+        "y": 46.2
+      },
+      "approximate": true,
+      "displayGroup": "feathermoon-command",
+      "note": "Source reference: 30.30, 46.20. Shares an approximate marker with nearby quest entries."
+    },
+    {
+      "id": "npc-7736",
+      "name": "Innkeeper Shyria",
+      "category": "quest-giver",
+      "x": 31.0,
+      "y": 43.5,
+      "world": {
+        "map": 1,
+        "x": -4382.2,
+        "y": 3287.2
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "3788"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "7736"
+    },
+    {
+      "id": "npc-7764",
+      "name": "Troyas Moonbreeze",
+      "category": "quest-giver",
+      "x": 31.83,
+      "y": 45.4,
+      "world": {
+        "map": 1,
+        "x": -4474.8,
+        "y": 3231.6
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "2879",
+        "2939"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "7764",
+      "sourceCoordinates": {
+        "x": 31.8,
+        "y": 45.5
+      },
+      "approximate": true,
+      "displayGroup": "feathermoon-hall",
+      "note": "Source reference: 31.80, 45.50. Shares an approximate marker with nearby quest entries."
+    },
+    {
+      "id": "npc-7765",
+      "name": "Rockbiter",
+      "category": "quest-giver",
+      "x": 42.4,
+      "y": 22.0,
+      "world": {
+        "map": 1,
+        "x": -3386.0,
+        "y": 2494.9
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "2844"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "7765"
+    },
+    {
+      "id": "npc-7774",
+      "name": "Shay Leafrunner",
+      "category": "quest-giver",
+      "x": 38.23,
+      "y": 10.29,
+      "world": {
+        "map": 1,
+        "x": -2843.9,
+        "y": 2786.8
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "2845"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "7774",
+      "note": "Escort pickup reference, not an escort route. Source reference: 38.20, 10.30. Shares an approximate marker with nearby quest entries.",
+      "sourceCoordinates": {
+        "x": 38.2,
+        "y": 10.3
+      },
+      "approximate": true,
+      "displayGroup": "shay-camp"
+    },
+    {
+      "id": "npc-7775",
+      "name": "Gregan Brewspewer",
+      "category": "quest-giver",
+      "x": 45.1,
+      "y": 25.6,
+      "world": {
+        "map": 1,
+        "x": -3552.8,
+        "y": 2307.2
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "4041"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "7775"
+    },
+    {
+      "id": "npc-7807",
+      "name": "Homing Robot OOX-22/FE",
+      "category": "quest-giver",
+      "x": 53.4,
+      "y": 55.7,
+      "world": {
+        "map": 1,
+        "x": -4947.4,
+        "y": 1730.4
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "2766",
+        "2767"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "7807",
+      "note": "Find OOX-22/FE! turn-in and Rescue OOX-22/FE! escort pickup. Distress-beacon drop location is not inferred."
+    },
+    {
+      "id": "npc-7852",
+      "name": "Pratt McGrubben",
+      "category": "quest-giver",
+      "x": 30.6,
+      "y": 42.7,
+      "world": {
+        "map": 1,
+        "x": -4345.1,
+        "y": 3315.0
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "2821",
+        "7733",
+        "7735"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "7852",
+      "note": "Includes the Pristine Yeti Hide turn-in. The hide itself starts that quest; no fixed item-drop pin is inferred."
+    },
+    {
+      "id": "npc-7877",
+      "name": "Latronicus Moonspear",
+      "category": "quest-giver",
+      "x": 30.35,
+      "y": 46.2,
+      "world": {
+        "map": 1,
+        "x": -4507.3,
+        "y": 3328.9
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "2869",
+        "2870",
+        "2871",
+        "4124"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "7877",
+      "sourceCoordinates": {
+        "x": 30.4,
+        "y": 46.2
+      },
+      "approximate": true,
+      "displayGroup": "feathermoon-command",
+      "note": "Source reference: 30.40, 46.20. Shares an approximate marker with nearby quest entries."
+    },
+    {
+      "id": "npc-7879",
+      "name": "Quintis Jonespyre",
+      "category": "quest-giver",
+      "x": 32.4,
+      "y": 43.8,
+      "world": {
+        "map": 1,
+        "x": -4396.1,
+        "y": 3189.9
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "3791",
+        "4130"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "7879"
+    },
+    {
+      "id": "npc-7880",
+      "name": "Ginro Hearthkindle",
+      "category": "quest-giver",
+      "x": 31.83,
+      "y": 45.4,
+      "world": {
+        "map": 1,
+        "x": -4456.3,
+        "y": 3224.6
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "4125",
+        "4129",
+        "4131",
+        "4266"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "7880",
+      "sourceCoordinates": {
+        "x": 31.9,
+        "y": 45.1
+      },
+      "approximate": true,
+      "displayGroup": "feathermoon-hall",
+      "note": "Source reference: 31.90, 45.10. Shares an approximate marker with nearby quest entries."
+    },
+    {
+      "id": "npc-7900",
+      "name": "Angelas Moonbreeze",
+      "category": "quest-giver",
+      "x": 31.83,
+      "y": 45.4,
+      "world": {
+        "map": 1,
+        "x": -4479.5,
+        "y": 3231.6
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "2982",
+        "3445"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "7900",
+      "sourceCoordinates": {
+        "x": 31.8,
+        "y": 45.6
+      },
+      "approximate": true,
+      "displayGroup": "feathermoon-hall",
+      "note": "Source reference: 31.80, 45.60. Shares an approximate marker with nearby quest entries."
+    },
+    {
+      "id": "npc-7956",
+      "name": "Kindal Moonweaver",
+      "category": "quest-giver",
+      "x": 65.9,
+      "y": 45.65,
+      "world": {
+        "map": 1,
+        "x": -4484.1,
+        "y": 861.6
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "2969",
+        "3841"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "7956",
+      "sourceCoordinates": {
+        "x": 65.9,
+        "y": 45.7
+      },
+      "approximate": true,
+      "displayGroup": "moonweaver-camp",
+      "note": "Source reference: 65.90, 45.70. Shares an approximate marker with nearby quest entries."
+    },
+    {
+      "id": "npc-7957",
+      "name": "Jer'kai Moonweaver",
+      "category": "quest-giver",
+      "x": 65.9,
+      "y": 45.65,
+      "world": {
+        "map": 1,
+        "x": -4479.5,
+        "y": 861.6
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "2970",
+        "2972"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "npcId": "7957",
+      "sourceCoordinates": {
+        "x": 65.9,
+        "y": 45.6
+      },
+      "approximate": true,
+      "displayGroup": "moonweaver-camp",
+      "note": "Source reference: 65.90, 45.60. Shares an approximate marker with nearby quest entries."
+    },
+    {
+      "id": "object-142179",
+      "name": "Solarsal Gazebo",
+      "category": "quest-object",
+      "x": 26.3,
+      "y": 52.3,
+      "world": {
+        "map": 1,
+        "x": -4789.9,
+        "y": 3613.8
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "2867"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "objectId": "142179"
+    },
+    {
+      "id": "object-144063",
+      "name": "Equinex Monolith",
+      "category": "quest-object",
+      "x": 38.8,
+      "y": 13.2,
+      "world": {
+        "map": 1,
+        "x": -2978.3,
+        "y": 2745.1
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "2942"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "objectId": "144063"
+    },
+    {
+      "id": "object-164909",
+      "name": "Wrecked Row Boat",
+      "category": "quest-object",
+      "x": 45.4,
+      "y": 65.0,
+      "world": {
+        "map": 1,
+        "x": -5378.3,
+        "y": 2286.4
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "4127"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "objectId": "164909"
+    },
+    {
+      "id": "object-164953",
+      "name": "Large Leather Backpacks",
+      "category": "quest-object",
+      "x": 73.3,
+      "y": 56.3,
+      "world": {
+        "map": 1,
+        "x": -4975.2,
+        "y": 347.3
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "4135"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "objectId": "164953"
+    },
+    {
+      "id": "object-164954",
+      "name": "Zukk'ash Pod",
+      "category": "quest-object",
+      "x": 72.1,
+      "y": 63.7,
+      "world": {
+        "map": 1,
+        "x": -5318.1,
+        "y": 430.7
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "4265"
+      ],
+      "sources": [
+        "fdb-givers",
+        "fdb-bounds"
+      ],
+      "objectId": "164954"
+    },
+    {
+      "id": "npc-7773",
+      "name": "Marli Wishrunner",
+      "npcId": "7773",
+      "category": "quest-giver",
+      "x": 45.82,
+      "y": 16.47,
+      "verification": "classic-derived",
+      "questIds": [
+        "3567"
+      ],
+      "sources": [
+        "questie-npc"
+      ],
+      "note": "To the Top pickup; Classic position reference."
+    },
+    {
+      "id": "npc-11826",
+      "name": "Kristy Grant",
+      "npcId": "11826",
+      "category": "quest-giver",
+      "x": 89.3,
+      "y": 46.2,
+      "verification": "forever-confirmed",
+      "questIds": [
+        "98155",
+        "98156"
+      ],
+      "sources": [
+        "kristy-forever"
+      ],
+      "note": "Current Forever quest pages place Kristy at the Thalanaar border."
+    },
+    {
+      "id": "rare-5356",
+      "name": "Snarler",
+      "npcId": "5356",
+      "category": "rare",
+      "x": 80.2,
+      "y": 39.6,
+      "world": {
+        "map": 1,
+        "x": -4201.5,
+        "y": -132.2
+      },
+      "levelRange": [
+        42,
+        42
+      ],
+      "verification": "classic-derived",
+      "sources": [
+        "fdb-rares",
+        "fdb-bounds"
+      ]
+    },
+    {
+      "id": "rare-5352",
+      "name": "Old Grizzlegut",
+      "npcId": "5352",
+      "category": "rare",
+      "x": 59.5,
+      "y": 59.4,
+      "world": {
+        "map": 1,
+        "x": -5118.9,
+        "y": 1306.4
+      },
+      "levelRange": [
+        43,
+        43
+      ],
+      "verification": "classic-derived",
+      "sources": [
+        "fdb-rares",
+        "fdb-bounds"
+      ]
+    },
+    {
+      "id": "rare-5354",
+      "name": "Gnarl Leafbrother",
+      "npcId": "5354",
+      "category": "rare",
+      "x": 69.2,
+      "y": 57.3,
+      "world": {
+        "map": 1,
+        "x": -5021.6,
+        "y": 632.3
+      },
+      "levelRange": [
+        44,
+        44
+      ],
+      "verification": "classic-derived",
+      "sources": [
+        "fdb-rares",
+        "fdb-bounds"
+      ]
+    },
+    {
+      "id": "rare-5345",
+      "name": "Diamond Head",
+      "npcId": "5345",
+      "category": "rare",
+      "x": 36.6,
+      "y": 51.4,
+      "world": {
+        "map": 1,
+        "x": -4748.2,
+        "y": 2898.0
+      },
+      "levelRange": [
+        45,
+        45
+      ],
+      "verification": "classic-derived",
+      "sources": [
+        "fdb-rares",
+        "fdb-bounds"
+      ]
+    },
+    {
+      "id": "rare-5343",
+      "name": "Lady Szallah",
+      "npcId": "5343",
+      "category": "rare",
+      "x": 28.2,
+      "y": 67.6,
+      "world": {
+        "map": 1,
+        "x": -5498.8,
+        "y": 3481.8
+      },
+      "levelRange": [
+        46,
+        46
+      ],
+      "verification": "classic-derived",
+      "sources": [
+        "fdb-rares",
+        "fdb-bounds"
+      ]
+    },
+    {
+      "id": "rare-5350",
+      "name": "Qirot",
+      "npcId": "5350",
+      "category": "rare",
+      "x": 76.7,
+      "y": 66.2,
+      "world": {
+        "map": 1,
+        "x": -5433.9,
+        "y": 111.0
+      },
+      "levelRange": [
+        47,
+        47
+      ],
+      "verification": "classic-derived",
+      "sources": [
+        "fdb-rares",
+        "fdb-bounds"
+      ]
+    },
+    {
+      "id": "rare-5347",
+      "name": "Antilus the Soarer",
+      "npcId": "5347",
+      "category": "rare",
+      "x": 55.6,
+      "y": 74.2,
+      "world": {
+        "map": 1,
+        "x": -5804.6,
+        "y": 1577.5
+      },
+      "levelRange": [
+        48,
+        48
+      ],
+      "verification": "classic-derived",
+      "sources": [
+        "fdb-rares",
+        "fdb-bounds"
+      ]
+    },
+    {
+      "id": "rare-5346",
+      "name": "Bloodroar the Stalker",
+      "npcId": "5346",
+      "category": "rare",
+      "x": 52.0,
+      "y": 60.9,
+      "world": {
+        "map": 1,
+        "x": -5188.4,
+        "y": 1827.7
+      },
+      "levelRange": [
+        48,
+        48
+      ],
+      "verification": "classic-derived",
+      "sources": [
+        "fdb-rares",
+        "fdb-bounds"
+      ]
+    },
+    {
+      "id": "rare-5349",
+      "name": "Arash-ethis",
+      "npcId": "5349",
+      "category": "rare",
+      "x": 44.8,
+      "y": 25.0,
+      "world": {
+        "map": 1,
+        "x": -3525.0,
+        "y": 2328.1
+      },
+      "levelRange": [
+        49,
+        49
+      ],
+      "verification": "classic-derived",
+      "sources": [
+        "fdb-rares",
+        "fdb-bounds"
+      ]
+    },
+    {
+      "id": "object-144054",
+      "name": "Shay's Chest",
+      "objectId": "144054",
+      "category": "quest-object",
+      "x": 38.23,
+      "y": 10.29,
+      "world": {
+        "map": 1,
+        "x": -2843.530029296875,
+        "y": 2783.169921875,
+        "z": 94.39579772949219
+      },
+      "spawnGuid": 50153,
+      "verification": "classic-derived",
+      "questIds": [
+        "2845"
+      ],
+      "sources": [
+        "classic-snapshot",
+        "fdb-bounds"
+      ],
+      "note": "Contains Shay's Bell in the Classic reference, used for Wandering Shay. This is a quest chest, not a random treasure spawn. Source reference: 38.25, 10.29. Shares an approximate marker with nearby quest entries.",
+      "sourceCoordinates": {
+        "x": 38.25,
+        "y": 10.29
+      },
+      "approximate": true,
+      "displayGroup": "shay-camp"
+    }
+  ],
+  "sources": {
+    "fdb-map": {
+      "name": "ForeverDB Feralas client map",
+      "url": "https://foreverdb.net/maps/1444"
+    },
+    "fdb-bounds": {
+      "name": "Forever client zone boundaries",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "fdb-givers": {
+      "name": "Classic quest-giver and object references",
+      "url": "https://foreverdb.net/data/maps/layer-questgivers.json"
+    },
+    "fdb-rares": {
+      "name": "Classic rare location references",
+      "url": "https://foreverdb.net/data/maps/layer-rares.json"
+    },
+    "classic-snapshot": {
+      "name": "Classic database snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "questie-npc": {
+      "name": "Classic Marli Wishrunner position",
+      "url": "https://github.com/Questie/QuestieDB/blob/c0718536287f809b5bd2689cbd020435d5601061/data/Forever/foreverNpcDB.lua"
+    },
+    "kristy-forever": {
+      "name": "Forever-observed Kristy Grant pickup",
+      "url": "https://foreverchanges.pro/quest/98155/pristine-pesterhide-pelts"
+    },
+    "era-chests": {
+      "name": "Classic chest-layer cross-check",
+      "url": "https://theforeverera.com/data/map-layers/k.json?v=20261108113959"
+    }
+  },
+  "coverage": {
+    "entries": 32,
+    "markers": 27,
+    "questGivers": 17,
+    "questObjects": 6,
+    "rares": 9,
+    "randomChestPositions": 0,
+    "confirmedLocations": 1,
+    "limits": "No supported random chest positions established by the checked sources. Item-drop clouds, patrol routes, escort routes, ordinary mobs, services, and out-of-zone quest givers are omitted."
+  },
+  "license": "GPL-3.0 for CMaNGOS-derived reference locations; Blizzard map artwork retains its copyright."
+}

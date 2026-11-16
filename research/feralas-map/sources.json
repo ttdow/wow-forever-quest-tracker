@@ -1,0 +1,763 @@
+{
+  "researched": "2026-11-16",
+  "zone": "Feralas",
+  "uiMapId": 1444,
+  "areaId": 357,
+  "sourceURLs": {
+    "fdb-map": {
+      "name": "ForeverDB Feralas client map",
+      "url": "https://foreverdb.net/maps/1444"
+    },
+    "fdb-bounds": {
+      "name": "Forever client zone boundaries",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "fdb-givers": {
+      "name": "Classic quest-giver and object references",
+      "url": "https://foreverdb.net/data/maps/layer-questgivers.json"
+    },
+    "fdb-rares": {
+      "name": "Classic rare location references",
+      "url": "https://foreverdb.net/data/maps/layer-rares.json"
+    },
+    "classic-snapshot": {
+      "name": "Classic database snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "questie-npc": {
+      "name": "Classic Marli Wishrunner position",
+      "url": "https://github.com/Questie/QuestieDB/blob/c0718536287f809b5bd2689cbd020435d5601061/data/Forever/foreverNpcDB.lua"
+    },
+    "kristy-forever": {
+      "name": "Forever-observed Kristy Grant pickup",
+      "url": "https://foreverchanges.pro/quest/98155/pristine-pesterhide-pelts"
+    },
+    "era-chests": {
+      "name": "Classic chest-layer cross-check",
+      "url": "https://theforeverera.com/data/map-layers/k.json?v=20261108113959"
+    }
+  },
+  "image": {
+    "url": "https://foreverdb.net/img/maps/game/1444.webp",
+    "size": [
+      1002,
+      668
+    ],
+    "sha256": "77f7f415bc6778d4381a70652b31bd1990218daa34141c7b3029270b0d3ba46b"
+  },
+  "region": [
+    -7000.0,
+    -1508.3,
+    -2366.7,
+    5441.7
+  ],
+  "clientZone": {
+    "key": "m1444",
+    "m": 1444,
+    "area": 357,
+    "n": "Feralas",
+    "c": 1,
+    "new": 0,
+    "label": [
+      6288,
+      16432
+    ],
+    "world": [
+      -4316.7,
+      916.7
+    ],
+    "chunks": 9594,
+    "region": [
+      -7000.0,
+      -1508.3,
+      -2366.7,
+      5441.7
+    ],
+    "rect": [
+      1944.0,
+      14560.0,
+      8616.0,
+      19008.0
+    ],
+    "labelPct": [
+      65.1,
+      42.1
+    ],
+    "type": 3,
+    "capital": 0,
+    "side": "C",
+    "sideSrc": "client",
+    "lvSrc": "derived",
+    "lv": [
+      43,
+      50
+    ],
+    "lvWhy": "Alliance from 36 quests and 1,347 mob spawns; Horde from 34 quests and 1,347 mob spawns",
+    "hubs": [
+      {
+        "n": "Feathermoon Stronghold",
+        "s": "a",
+        "lv": [
+          44,
+          47
+        ],
+        "q": 20,
+        "p": [
+          4072,
+          16566
+        ]
+      },
+      {
+        "n": "Woodpaw Den",
+        "s": "a",
+        "lv": [
+          47,
+          47
+        ],
+        "q": 4,
+        "p": [
+          6341,
+          16593
+        ]
+      },
+      {
+        "n": "Camp Mojache",
+        "s": "h",
+        "lv": [
+          45,
+          49
+        ],
+        "q": 27,
+        "p": [
+          6941,
+          16450
+        ]
+      }
+    ],
+    "spec": "Speculation: the Forever client has no zone levels; this range is ForeverDB's estimate (ForeverDB's own (derived): Alliance from 36 quests and 1,347 mob spawns; Horde from 34 quests and 1,347 mob spawns)",
+    "poly": [
+      [
+        [
+          3664,
+          17328,
+          3536,
+          17392,
+          3472,
+          17488,
+          3536,
+          17648,
+          3504,
+          17776,
+          3568,
+          17840,
+          3568,
+          18256,
+          3600,
+          18288,
+          3568,
+          18416,
+          3664,
+          18480,
+          3664,
+          18544,
+          3760,
+          18640,
+          3696,
+          18768,
+          3760,
+          18832,
+          3952,
+          18832,
+          3984,
+          18800,
+          4112,
+          18832,
+          4304,
+          18736,
+          4368,
+          18672,
+          4368,
+          18608,
+          4432,
+          18576,
+          4336,
+          18480,
+          4368,
+          18256,
+          4304,
+          18192,
+          4304,
+          17968,
+          4272,
+          17936,
+          4272,
+          17840,
+          4336,
+          17712,
+          4272,
+          17680,
+          4240,
+          17424,
+          4080,
+          17328,
+          3920,
+          17424,
+          3824,
+          17424
+        ]
+      ],
+      [
+        [
+          3632,
+          16464,
+          3568,
+          16592,
+          3568,
+          17072,
+          3600,
+          17104,
+          3824,
+          17104,
+          3856,
+          17072,
+          4016,
+          17104,
+          4080,
+          17072,
+          4176,
+          16912,
+          4176,
+          16784,
+          4208,
+          16752,
+          4176,
+          16688,
+          4176,
+          16432,
+          3728,
+          16432
+        ]
+      ],
+      [
+        [
+          5616,
+          14640,
+          4272,
+          14672,
+          4272,
+          14832,
+          4240,
+          14864,
+          4112,
+          14864,
+          4144,
+          14896,
+          4112,
+          14928,
+          4112,
+          15152,
+          4048,
+          15216,
+          4080,
+          15280,
+          4016,
+          15376,
+          4080,
+          15344,
+          4144,
+          15376,
+          4048,
+          15504,
+          4080,
+          15600,
+          4176,
+          15664,
+          4112,
+          15760,
+          4208,
+          15856,
+          4144,
+          15920,
+          4208,
+          15984,
+          4208,
+          16048,
+          4304,
+          16144,
+          4528,
+          16112,
+          4752,
+          16336,
+          4848,
+          16304,
+          4944,
+          16336,
+          4912,
+          16368,
+          4912,
+          16848,
+          5104,
+          16976,
+          5040,
+          17040,
+          5040,
+          17264,
+          5072,
+          17328,
+          5008,
+          17392,
+          5008,
+          17456,
+          4944,
+          17488,
+          4944,
+          17744,
+          4912,
+          17808,
+          4976,
+          17840,
+          4848,
+          18064,
+          4848,
+          18192,
+          4880,
+          18224,
+          4848,
+          18384,
+          4976,
+          18672,
+          4912,
+          18736,
+          4912,
+          18864,
+          4816,
+          19056,
+          4784,
+          19280,
+          4784,
+          19184,
+          4880,
+          19120,
+          4880,
+          18992,
+          4944,
+          18928,
+          4944,
+          18800,
+          5008,
+          18736,
+          5008,
+          18352,
+          5040,
+          18320,
+          5040,
+          18096,
+          5072,
+          18064,
+          5872,
+          18064,
+          5904,
+          18160,
+          5968,
+          18096,
+          6032,
+          18128,
+          6064,
+          18064,
+          6288,
+          18064,
+          6256,
+          17936,
+          6288,
+          17904,
+          6288,
+          17648,
+          6320,
+          17616,
+          7184,
+          17584,
+          7216,
+          16944,
+          7280,
+          16912,
+          7280,
+          16848,
+          7312,
+          16816,
+          7696,
+          16848,
+          7728,
+          16784,
+          7888,
+          16784,
+          7920,
+          16688,
+          7888,
+          16400,
+          7984,
+          16272,
+          7984,
+          16176,
+          7888,
+          16112,
+          7696,
+          16112,
+          7664,
+          16080,
+          7664,
+          15888,
+          7312,
+          15888,
+          7280,
+          15760,
+          7120,
+          15696,
+          6832,
+          15376,
+          5680,
+          15376,
+          5648,
+          15344,
+          5648,
+          14704
+        ],
+        [
+          5072,
+          16944,
+          5136,
+          16784,
+          5168,
+          16880,
+          5264,
+          16912,
+          5104,
+          16976
+        ],
+        [
+          5168,
+          16624,
+          5200,
+          16592,
+          5264,
+          16624,
+          5232,
+          16656
+        ],
+        [
+          4496,
+          16048,
+          4528,
+          16016,
+          4560,
+          16080,
+          4528,
+          16112
+        ]
+      ]
+    ]
+  },
+  "counts": {
+    "entries": 32,
+    "markers": 27,
+    "questGivers": 17,
+    "questObjects": 6,
+    "rares": 9,
+    "randomChestPositions": 0,
+    "confirmedLocations": 1,
+    "limits": "No supported random chest positions established by the checked sources. Item-drop clouds, patrol routes, escort routes, ordinary mobs, services, and out-of-zone quest givers are omitted."
+  },
+  "displayGroups": {
+    "feathermoon-command": [
+      "npc-3936",
+      "npc-7877"
+    ],
+    "feathermoon-hall": [
+      "npc-7764",
+      "npc-7880",
+      "npc-7900"
+    ],
+    "moonweaver-camp": [
+      "npc-7956",
+      "npc-7957"
+    ],
+    "shay-camp": [
+      "npc-7774",
+      "object-144054"
+    ]
+  },
+  "chestCandidates": [
+    {
+      "guid": 16718,
+      "objectId": 2852,
+      "name": "Solid Chest",
+      "world": [
+        -4579.7998046875,
+        -1250.0899658203125,
+        -53.856201171875
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 16719,
+      "objectId": 2852,
+      "name": "Solid Chest",
+      "world": [
+        -5105.39013671875,
+        -1046.760009765625,
+        -5.580090045928955
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 18444,
+      "objectId": 106318,
+      "name": "Battered Chest",
+      "world": [
+        -2742.5,
+        -445.1830139160156,
+        -3.4537999629974365
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 18448,
+      "objectId": 106318,
+      "name": "Battered Chest",
+      "world": [
+        -2413.070068359375,
+        221.97500610351562,
+        48.8306999206543
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 18449,
+      "objectId": 106318,
+      "name": "Battered Chest",
+      "world": [
+        -2777.56005859375,
+        -691.9630126953125,
+        7.008190155029297
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 18455,
+      "objectId": 106318,
+      "name": "Battered Chest",
+      "world": [
+        -2635.93994140625,
+        -1249.199951171875,
+        13.64169979095459
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 30178,
+      "objectId": 2857,
+      "name": "Solid Chest",
+      "world": [
+        -2373.110107421875,
+        2443,
+        77.24169921875
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 50153,
+      "objectId": 144054,
+      "name": "Shay's Chest",
+      "world": [
+        -2843.530029296875,
+        2783.169921875,
+        94.39579772949219
+      ],
+      "insideFeralasTerrain": true
+    },
+    {
+      "guid": 55801,
+      "objectId": 2852,
+      "name": "Solid Chest",
+      "world": [
+        -4591.10986328125,
+        -1218.489990234375,
+        -54.84199905395508
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 85712,
+      "objectId": 2857,
+      "name": "Solid Chest",
+      "world": [
+        -2384.469970703125,
+        2408.75,
+        76.4761962890625
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 85767,
+      "objectId": 106318,
+      "name": "Battered Chest",
+      "world": [
+        -2750.030029296875,
+        -430.9339904785156,
+        -2.9307899475097656
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 87381,
+      "objectId": 2852,
+      "name": "Solid Chest",
+      "world": [
+        -4648.06005859375,
+        -1265.93994140625,
+        -52.03219985961914
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 170117,
+      "objectId": 2852,
+      "name": "Solid Chest",
+      "world": [
+        -4604.5,
+        -1285.010009765625,
+        -50.523799896240234
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 300092,
+      "objectId": 2852,
+      "name": "Solid Chest",
+      "world": [
+        -5192.64990234375,
+        -1209.239990234375,
+        49.38629913330078
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 300110,
+      "objectId": 106318,
+      "name": "Battered Chest",
+      "world": [
+        -2782.110107421875,
+        -707.6539916992188,
+        6.424570083618164
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 300112,
+      "objectId": 106318,
+      "name": "Battered Chest",
+      "world": [
+        -2643.5,
+        -1320.989990234375,
+        12.12030029296875
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 300113,
+      "objectId": 106318,
+      "name": "Battered Chest",
+      "world": [
+        -2402.06005859375,
+        233.67300415039062,
+        49.24330139160156
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 300296,
+      "objectId": 106318,
+      "name": "Battered Chest",
+      "world": [
+        -2716.830078125,
+        -1188.4300537109375,
+        16.784299850463867
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 300297,
+      "objectId": 106318,
+      "name": "Battered Chest",
+      "world": [
+        -2625.280029296875,
+        -1390.260009765625,
+        24.50349998474121
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 300298,
+      "objectId": 106318,
+      "name": "Battered Chest",
+      "world": [
+        -2445.7099609375,
+        438.7090148925781,
+        61.76029968261719
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 300458,
+      "objectId": 2852,
+      "name": "Solid Chest",
+      "world": [
+        -5048.76,
+        -942.561,
+        -5.33799
+      ],
+      "insideFeralasTerrain": false
+    },
+    {
+      "guid": 300468,
+      "objectId": 106318,
+      "name": "Battered Chest",
+      "world": [
+        -2388.36,
+        444.887,
+        75.941
+      ],
+      "insideFeralasTerrain": false
+    }
+  ],
+  "classicSnapshot": {
+    "releasePublished": "2026-11-13T13:34:58Z",
+    "sha256": "daa16e44b95a9d4a0d17b8f8e3a91cf0b4be1af7d9b3bfc8ac71707a02399f5f",
+    "readMode": "SQLite read-only URI"
+  },
+  "sourceHashes": {
+    "era-chests.json": "8d758a1f0cfb6b7d2291d89ee1462451e36cc43a89d26345e79bbe5c8c406c19",
+    "image.webp": "77f7f415bc6778d4381a70652b31bd1990218daa34141c7b3029270b0d3ba46b",
+    "maps-index.json": "6c18202bd5843c325191a05f328a1cc5d813b87f955693b0ec8a389d3a3667c4",
+    "quest-98155.html": "5f6389b9bf8fd6500d5873b4749a27568568541d60db46b1791373f0dd479d8c",
+    "quest-98156.html": "58bdfa405d4e470e58e913c1526b5806f4dd241e92c1abd95ade71de7d32d747",
+    "questgivers.json": "df6f55fdf26d6de63c781cae27c1042b2ae311615697b606286c80dcb0520508",
+    "rares.json": "e339fae3f3290820429655d89a770ade204815e15ad6e284d4cb71448e9906b6",
+    "zones.json": "062342dd05d8507b961cac5f25808e727228fc8be93926a6b9b65dcc266a5747"
+  },
+  "omittedOutOfZoneGivers": [
+    "Agnar Beastamer",
+    "Curgle Cranklehop",
+    "Daryn Lightwind",
+    "Feralas: A History",
+    "Quentin",
+    "Tannysa"
+  ],
+  "decisions": [
+    "Link existing Alliance/shared Feralas quests only; do not add Horde-only or other-class quest markers.",
+    "The source marks rare coordinates Classic even when an NPC has been seen in Forever. Do not promote those positions to Forever confirmed.",
+    "Only Kristy Grant has a current explicit Forever pickup coordinate; retain that location provenance separately.",
+    "Retain exact source coordinates for all shared approximate marker groups, including Shay's quest chest.",
+    "Only Shay's quest chest is placed. Rectangle-only treasure candidates fall outside the Feralas terrain or are that known quest object; the checked Era chest layer has no Feralas rows. Absence here is not proof that no chest can spawn in Forever.",
+    "Do not map unidentified item-drop locations. Keep external quest starters in their actual zones rather than projecting them into Feralas."
+  ]
+}
