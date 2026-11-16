@@ -13788,5 +13788,5292 @@
     },
     "prerequisites": [],
     "previousQuests": []
+  },
+  {
+    "id": "185",
+    "zone": "Stranglethorn Vale",
+    "level": 31,
+    "name": "Tiger Mastery",
+    "stage": "Tiger Mastery: young tigers",
+    "giver": "Ajeck Rouack",
+    "coordinates": "35.6, 10.6",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Young Stranglethorn Tigers.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/185/tiger-mastery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "583",
+        "name": "Welcome to the Jungle",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "186",
+    "zone": "Stranglethorn Vale",
+    "level": 33,
+    "name": "Tiger Mastery",
+    "stage": "Tiger Mastery: tigers",
+    "giver": "Ajeck Rouack",
+    "coordinates": "35.6, 10.6",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Stranglethorn Tigers.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/186/tiger-mastery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "185",
+        "name": "Tiger Mastery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "187",
+    "zone": "Stranglethorn Vale",
+    "level": 35,
+    "name": "Tiger Mastery",
+    "stage": "Tiger Mastery: elder tigers",
+    "giver": "Ajeck Rouack",
+    "coordinates": "35.6, 10.6",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Ajeck Rouack of Nesingwary's Expedition wants you to kill 10 Elder Stranglethorn Tigers.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/187/tiger-mastery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "186",
+        "name": "Tiger Mastery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "188",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "Tiger Mastery",
+    "stage": "Tiger Mastery: Sin'Dall",
+    "giver": "Ajeck Rouack",
+    "coordinates": "35.6, 10.6",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Ajeck Rouack of Nesingwary's Expedition wants you to kill Sin'Dall and return with her paw.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/188/tiger-mastery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "187",
+        "name": "Tiger Mastery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "189",
+    "zone": "Stranglethorn Vale",
+    "level": 35,
+    "name": "Bloodscalp Ears",
+    "stage": "",
+    "giver": "Kebok",
+    "coordinates": "27.0, 77.1",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Acquire 15 Bloodscalp Ears and return them to Kebok in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/189/bloodscalp-ears",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "190",
+    "zone": "Stranglethorn Vale",
+    "level": 31,
+    "name": "Panther Mastery",
+    "stage": "Panther Mastery: young panthers",
+    "giver": "Sir S. J. Erlgadin",
+    "coordinates": "35.6, 10.5",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Young Panthers.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/190/panther-mastery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "583",
+        "name": "Welcome to the Jungle",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "191",
+    "zone": "Stranglethorn Vale",
+    "level": 33,
+    "name": "Panther Mastery",
+    "stage": "Panther Mastery: panthers",
+    "giver": "Sir S. J. Erlgadin",
+    "coordinates": "35.6, 10.5",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Panthers.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/191/panther-mastery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "190",
+        "name": "Panther Mastery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "192",
+    "zone": "Stranglethorn Vale",
+    "level": 38,
+    "name": "Panther Mastery",
+    "stage": "Panther Mastery: shadowmaw panthers",
+    "giver": "Sir S. J. Erlgadin",
+    "coordinates": "35.6, 10.5",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Sir S. J. Erlgadin of Nesingwary's Expedition wants you to kill 10 Shadowmaw Panthers.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/192/panther-mastery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "191",
+        "name": "Panther Mastery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "193",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "Panther Mastery",
+    "stage": "Panther Mastery: Bag'thera",
+    "giver": "Sir S. J. Erlgadin",
+    "coordinates": "35.6, 10.5",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Sir S. J. Erlgadin of Nesingwary's Expedition wants you to bring him the Fang of Bhag'thera.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/193/panther-mastery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "192",
+        "name": "Panther Mastery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "194",
+    "zone": "Stranglethorn Vale",
+    "level": 34,
+    "name": "Raptor Mastery",
+    "stage": "Raptor Mastery: stranglethorn raptors",
+    "giver": "Hemet Nesingwary",
+    "coordinates": "35.7, 10.8",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Hemet Nesingwary wants you to kill 10 Stranglethorn Raptors.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/194/raptor-mastery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "583",
+        "name": "Welcome to the Jungle",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "195",
+    "zone": "Stranglethorn Vale",
+    "level": 36,
+    "name": "Raptor Mastery",
+    "stage": "Raptor Mastery: lashtail raptors",
+    "giver": "Hemet Nesingwary",
+    "coordinates": "35.7, 10.8",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Hemet Nesingwary wants you to kill 10 Lashtail Raptors.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/195/raptor-mastery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "194",
+        "name": "Raptor Mastery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "196",
+    "zone": "Stranglethorn Vale",
+    "level": 41,
+    "name": "Raptor Mastery",
+    "stage": "Raptor Mastery: jungle stalkers",
+    "giver": "Hemet Nesingwary",
+    "coordinates": "35.7, 10.8",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Hemet Nesingwary wants you to kill 10 Jungle Stalkers.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/196/raptor-mastery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "195",
+        "name": "Raptor Mastery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "197",
+    "zone": "Stranglethorn Vale",
+    "level": 43,
+    "name": "Raptor Mastery",
+    "stage": "Raptor Mastery: Tethis",
+    "giver": "Hemet Nesingwary",
+    "coordinates": "35.7, 10.8",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Hemet Nesingwary wants you to kill Tethis, an elusive, dangerous raptor in Stranglethorn.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/197/raptor-mastery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "196",
+        "name": "Raptor Mastery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "198",
+    "zone": "Stranglethorn Vale",
+    "level": 32,
+    "name": "Supplies to Private Thorsen",
+    "stage": "",
+    "giver": "Krazek",
+    "coordinates": "26.9, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Deliver the Miscellaneous Goblin Supplies to Private Thorsen.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/198/supplies-to-private-thorsen",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "200",
+    "zone": "Stranglethorn Vale",
+    "level": 35,
+    "name": "Bookie Herod",
+    "stage": "",
+    "giver": "Lieutenant Doren",
+    "coordinates": "38.0, 3.0",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Find Bookie Herod's Records.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/200/bookie-herod",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "215",
+        "name": "Jungle Secrets",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "201",
+    "zone": "Stranglethorn Vale",
+    "level": 32,
+    "name": "Investigate the Camp",
+    "stage": "",
+    "giver": "Krazek",
+    "coordinates": "26.9, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Find the hunters' camp and report its location to Krazek in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/201/investigate-the-camp",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "202",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "Colonel Kurzen",
+    "stage": "",
+    "giver": "Lieutenant Doren",
+    "coordinates": "38.0, 3.0",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Kill 6 Kurzen Elite, 4 Kurzen Subchiefs, and bring Kurzen's Head to Lieutenant Doren at the Rebel Camp.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/202/colonel-kurzen",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "574",
+        "name": "Special Forces",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "203",
+    "zone": "Stranglethorn Vale",
+    "level": 33,
+    "name": "The Second Rebellion",
+    "stage": "",
+    "giver": "Sergeant Yohwa",
+    "coordinates": "38.0, 3.3",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Kill 15 Kurzen Jungle Fighters. Return to Sergeant Yohwa at the Rebel Camp.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/203/the-second-rebellion",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "204",
+    "zone": "Stranglethorn Vale",
+    "level": 34,
+    "name": "Bad Medicine",
+    "stage": "",
+    "giver": "Sergeant Yohwa",
+    "coordinates": "38.0, 3.3",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Bring 7 Jungle Remedies and 1 Venom Fern Extract to Sergeant Yohwa at the Rebel Camp.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/204/bad-medicine",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "205",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "Troll Witchery",
+    "stage": "",
+    "giver": "Brother Nimetz",
+    "coordinates": "37.8, 3.6",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Bring 4 Skullsplitter Fetishes to Brother Nimetz at the Rebel Camp.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/205/troll-witchery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "207",
+        "name": "Kurzen's Mystery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "206",
+    "zone": "Stranglethorn Vale",
+    "level": 46,
+    "name": "Mai'Zoth",
+    "stage": "",
+    "giver": "Brother Nimetz",
+    "coordinates": "37.8, 3.6",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Bring the Mind's Eye to Brother Nimetz at the Rebel Camp.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/206/maizoth",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "202",
+        "name": "Colonel Kurzen",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "205",
+        "name": "Troll Witchery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "207",
+    "zone": "Stranglethorn Vale",
+    "level": 38,
+    "name": "Kurzen's Mystery",
+    "stage": "",
+    "giver": "Brother Nimetz",
+    "coordinates": "37.8, 3.6",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Find the 4 tablets and bring their legends back to Brother Nimetz.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/207/kurzens-mystery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "204",
+        "name": "Bad Medicine",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "203",
+        "name": "The Second Rebellion",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "208",
+    "zone": "Stranglethorn Vale",
+    "level": 43,
+    "name": "Big Game Hunter",
+    "stage": "",
+    "giver": "Hemet Nesingwary",
+    "coordinates": "35.7, 10.8",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Hemet Nesingwary wants you to bring him the head of King Bangalash, the great white tiger.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/208/big-game-hunter",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "188",
+        "name": "Tiger Mastery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "193",
+        "name": "Panther Mastery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "197",
+        "name": "Raptor Mastery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "209",
+    "zone": "Stranglethorn Vale",
+    "level": 42,
+    "name": "Skullsplitter Tusks",
+    "stage": "",
+    "giver": "Kebok",
+    "coordinates": "27.0, 77.1",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Acquire 18 Skullsplitter Tusks and return them to Kebok.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 37",
+    "sources": [
+      "https://foreverchanges.pro/quest/209/skullsplitter-tusks",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "189",
+        "name": "Bloodscalp Ears",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "210",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "Krazek's Cookery",
+    "stage": "",
+    "giver": "Corporal Kaleb",
+    "coordinates": "37.7, 3.3",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Bring Krazek's Crock Pot to Krazek the goblin.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 32",
+    "sources": [
+      "https://foreverchanges.pro/quest/210/krazeks-cookery",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "213",
+    "zone": "Stranglethorn Vale",
+    "level": 36,
+    "name": "Hostile Takeover",
+    "stage": "",
+    "giver": "Kebok",
+    "coordinates": "27.0, 77.1",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Retrieve 8 Tumbled Crystals and return them to Kebok in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 31",
+    "sources": [
+      "https://foreverchanges.pro/quest/213/hostile-takeover",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "215",
+    "zone": "Stranglethorn Vale",
+    "level": 33,
+    "name": "Jungle Secrets",
+    "stage": "",
+    "giver": "Private Thorsen",
+    "coordinates": "38.0, 3.4",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Speak with Lieutenant Doren at the Rebel Camp.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/215/jungle-secrets",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "328",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "The Hidden Key",
+    "stage": "",
+    "giver": "Bookie Herod's Records",
+    "coordinates": "43.7, 9.4",
+    "area": "Stranglethorn Vale",
+    "objective": "Use the Small Brass Key to open Bookie Herod's Strongbox.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/328/the-hidden-key",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "200",
+        "name": "Bookie Herod",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "329",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "The Spy Revealed!",
+    "stage": "",
+    "giver": "Bookie Herod's Strongbox",
+    "coordinates": "49.6, 7.6",
+    "area": "Stranglethorn Vale",
+    "objective": "Take the Muddy Note to Lieutenant Doren at the Rebel Camp.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/329/the-spy-revealed",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "328",
+        "name": "The Hidden Key",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "330",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "Patrol Schedules",
+    "stage": "",
+    "giver": "Lieutenant Doren",
+    "coordinates": "38.0, 3.0",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Speak with Corporal Sethman.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/330/patrol-schedules",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "329",
+        "name": "The Spy Revealed!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "331",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "Report to Doren",
+    "stage": "",
+    "giver": "Corporal Sethman",
+    "coordinates": "37.7, 3.4",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Speak with Lieutenant Doren.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/331/report-to-doren",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "330",
+        "name": "Patrol Schedules",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "338",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "The Green Hills of Stranglethorn",
+    "stage": "",
+    "giver": "Barnil Stonepot",
+    "coordinates": "35.7, 10.5",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Collect the missing pages from The Green Hills of Stranglethorn manuscript.  Once all four chapters are complete, return them to Barnil.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/338/the-green-hills-of-stranglethorn",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "583",
+        "name": "Welcome to the Jungle",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "339",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "Chapter I",
+    "stage": "The Green Hills of Stranglethorn: chapter request",
+    "giver": "Barnil Stonepot",
+    "coordinates": "35.7, 10.5",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Bring pages 1, 4, 6, and 8 of Nesingwary's The Green Hills of Stranglethorn to Barnil Stonepot in order to complete Chapter I.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/339/chapter-i",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "583",
+        "name": "Welcome to the Jungle",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "340",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "Chapter II",
+    "stage": "The Green Hills of Stranglethorn: chapter request",
+    "giver": "Barnil Stonepot",
+    "coordinates": "35.7, 10.5",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Bring pages 10, 11, 14 and 16 of Nesingwary's The Green Hills of Stranglethorn to Barnil Stonepot in order to complete Chapter II.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/340/chapter-ii",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "583",
+        "name": "Welcome to the Jungle",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "341",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "Chapter III",
+    "stage": "The Green Hills of Stranglethorn: chapter request",
+    "giver": "Barnil Stonepot",
+    "coordinates": "35.7, 10.5",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Bring pages 18, 20, 21 and 24 of Nesingwary's The Green Hills of Stranglethorn to Barnil Stonepot in order to complete Chapter III.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/341/chapter-iii",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "583",
+        "name": "Welcome to the Jungle",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "342",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "Chapter IV",
+    "stage": "The Green Hills of Stranglethorn: chapter request",
+    "giver": "Barnil Stonepot",
+    "coordinates": "35.7, 10.5",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Bring pages 25, 26, and 27 of Nesingwary's The Green Hills of Stranglethorn to Barnil Stonepot in order to complete Chapter IV.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/342/chapter-iv",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "583",
+        "name": "Welcome to the Jungle",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "348",
+    "zone": "Stranglethorn Vale",
+    "level": 45,
+    "name": "Stranglethorn Fever",
+    "stage": "",
+    "giver": "Fin Fizracket",
+    "coordinates": "27.6, 76.7",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Seek out Witch Doctor Unbagwa and have him summon Mokk the Savage. Bring the Heart of Mokk to Fin Fizracket.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/348/stranglethorn-fever",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "349",
+    "zone": "Stranglethorn Vale",
+    "level": 35,
+    "name": "Stranglethorn Fever",
+    "stage": "Repeatable",
+    "giver": "Witch Doctor Unbagwa",
+    "coordinates": "35.3, 60.4",
+    "area": "Stranglethorn Vale",
+    "objective": "Speak with Witch Doctor Unbagwa.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 32; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/349/stranglethorn-fever",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "574",
+    "zone": "Stranglethorn Vale",
+    "level": 38,
+    "name": "Special Forces",
+    "stage": "",
+    "giver": "Sergeant Yohwa",
+    "coordinates": "38.0, 3.3",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Kill 10 Kurzen Commandoes and 6 Kurzen Headshrinkers. Report to Lieutenant Doren at the Rebel Camp.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/574/special-forces",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "203",
+        "name": "The Second Rebellion",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "204",
+        "name": "Bad Medicine",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "575",
+    "zone": "Stranglethorn Vale",
+    "level": 31,
+    "name": "Supply and Demand",
+    "stage": "",
+    "giver": "Drizzlik",
+    "coordinates": "28.3, 77.6",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring 2 Large River Crocolisk Skins to Drizzlik in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 26",
+    "sources": [
+      "https://foreverchanges.pro/quest/575/supply-and-demand",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "576",
+    "zone": "Stranglethorn Vale",
+    "level": 42,
+    "name": "Keep An Eye Out",
+    "stage": "",
+    "giver": "Dizzy One-Eye",
+    "coordinates": "28.6, 75.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Dizzy One-Eye in Booty Bay wants you to retrieve his eye from the Bloodsail Buccaneers.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 37",
+    "sources": [
+      "https://foreverchanges.pro/quest/576/keep-an-eye-out",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "595",
+        "name": "The Bloodsail Buccaneers",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "577",
+    "zone": "Stranglethorn Vale",
+    "level": 36,
+    "name": "Some Assembly Required",
+    "stage": "",
+    "giver": "Drizzlik",
+    "coordinates": "28.3, 77.6",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring 5 Snapjaw Crocolisks Skins to Drizzlik in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 31",
+    "sources": [
+      "https://foreverchanges.pro/quest/577/some-assembly-required",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "575",
+        "name": "Supply and Demand",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "578",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "The Stone of the Tides",
+    "stage": "",
+    "giver": "Baron Revilgaz",
+    "coordinates": "27.2, 76.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Find the haunted island for Baron Revilgaz in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 32",
+    "sources": [
+      "https://foreverchanges.pro/quest/578/the-stone-of-the-tides",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "616",
+        "name": "The Haunted Isle",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "580",
+    "zone": "Stranglethorn Vale",
+    "level": 50,
+    "name": "Whiskey Slim's Lost Grog",
+    "stage": "",
+    "giver": "Whiskey Slim",
+    "coordinates": "27.1, 77.4",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Whiskey Slim in Booty Bay wants you to bring him the bottles of Pupellyverbos Port he lost.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/580/whiskey-slims-lost-grog",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "583",
+    "zone": "Stranglethorn Vale",
+    "level": 30,
+    "name": "Welcome to the Jungle",
+    "stage": "",
+    "giver": "Barnil Stonepot",
+    "coordinates": "35.7, 10.5",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Speak with Hemet Nesingwary",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/583/welcome-to-the-jungle",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "587",
+    "zone": "Stranglethorn Vale",
+    "level": 41,
+    "name": "Up to Snuff",
+    "stage": "",
+    "giver": "Deeg",
+    "coordinates": "26.9, 77.3",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Deeg in Booty Bay wants you to bring him 15 shares of Snuff.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 37",
+    "sources": [
+      "https://foreverchanges.pro/quest/587/up-to-snuff",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "595",
+        "name": "The Bloodsail Buccaneers",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "594",
+    "zone": "Stranglethorn Vale",
+    "level": 45,
+    "name": "Message in a Bottle",
+    "stage": "",
+    "giver": "Carefully Folded Note",
+    "coordinates": "32.8, 78.7",
+    "area": "Stranglethorn Vale",
+    "objective": "Find the author of the message in a bottle.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 45",
+    "sources": [
+      "https://foreverchanges.pro/quest/594/message-in-a-bottle",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "595",
+    "zone": "Stranglethorn Vale",
+    "level": 41,
+    "name": "The Bloodsail Buccaneers",
+    "stage": "",
+    "giver": "First Mate Crazz",
+    "coordinates": "28.1, 76.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "First Mate Crazz wants you to check the cove north of Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 37",
+    "sources": [
+      "https://foreverchanges.pro/quest/595/the-bloodsail-buccaneers",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "597",
+    "zone": "Stranglethorn Vale",
+    "level": 41,
+    "name": "The Bloodsail Buccaneers",
+    "stage": "",
+    "giver": "Bloodsail Correspondence",
+    "coordinates": "27.3, 69.5",
+    "area": "Stranglethorn Vale",
+    "objective": "Report your findings to First Mate Crazz in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 37",
+    "sources": [
+      "https://foreverchanges.pro/quest/597/the-bloodsail-buccaneers",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "595",
+        "name": "The Bloodsail Buccaneers",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "599",
+    "zone": "Stranglethorn Vale",
+    "level": 41,
+    "name": "The Bloodsail Buccaneers",
+    "stage": "",
+    "giver": "First Mate Crazz",
+    "coordinates": "28.1, 76.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Report the planned Bloodsail attack to Fleet Master Seahorn.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 37",
+    "sources": [
+      "https://foreverchanges.pro/quest/599/the-bloodsail-buccaneers",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "597",
+        "name": "The Bloodsail Buccaneers",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "600",
+    "zone": "Stranglethorn Vale",
+    "level": 41,
+    "name": "Venture Company Mining",
+    "stage": "",
+    "giver": "Crank Fizzlebub",
+    "coordinates": "27.1, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring 10 Singing Blue Crystals to Crank Fizzlebub in Booty Bay.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/600/venture-company-mining",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "605",
+        "name": "Singing Blue Shards",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "601",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "Water Elementals",
+    "stage": "",
+    "giver": "Baron Revilgaz",
+    "coordinates": "27.2, 76.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Acquire 6 Water Elemental Bracers for Baron Revilgaz in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 32",
+    "sources": [
+      "https://foreverchanges.pro/quest/601/water-elementals",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "578",
+        "name": "The Stone of the Tides",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "602",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "Magical Analysis",
+    "stage": "",
+    "giver": "Baron Revilgaz",
+    "coordinates": "27.2, 76.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring the water elemental bracers to Archmage Ansirem Runeweaver in Dalaran.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 32",
+    "sources": [
+      "https://foreverchanges.pro/quest/602/magical-analysis",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "601",
+        "name": "Water Elementals",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "603",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "Ansirem's Key",
+    "stage": "",
+    "giver": "Archmage Ansirem Runeweaver",
+    "coordinates": "18.8, 78.5",
+    "area": "Alterac Mountains",
+    "objective": "Talk to Catelyn in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 32",
+    "sources": [
+      "https://foreverchanges.pro/quest/603/ansirems-key",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "602",
+        "name": "Magical Analysis",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "604",
+    "zone": "Stranglethorn Vale",
+    "level": 43,
+    "name": "The Bloodsail Buccaneers",
+    "stage": "",
+    "giver": "Fleet Master Seahorn",
+    "coordinates": "27.2, 77.0",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Fleet Master Seahorn in Booty Bay wants you to kill 10 Bloodsail Swashbucklers and bring back the Bloodsail Charts and the Bloodsail Orders.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 37",
+    "sources": [
+      "https://foreverchanges.pro/quest/604/the-bloodsail-buccaneers",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "599",
+        "name": "The Bloodsail Buccaneers",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "605",
+    "zone": "Stranglethorn Vale",
+    "level": 35,
+    "name": "Singing Blue Shards",
+    "stage": "",
+    "giver": "Crank Fizzlebub",
+    "coordinates": "27.1, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring 10 Singing Crystal Shards to Crank Fizzlebub.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/605/singing-blue-shards",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "606",
+    "zone": "Stranglethorn Vale",
+    "level": 41,
+    "name": "Scaring Shaky",
+    "stage": "",
+    "giver": "\"Sea Wolf\" MacKinley",
+    "coordinates": "27.8, 77.1",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring 5 Mistvale Giblets to \"Shaky\" Phillipe in Booty Bay.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/606/scaring-shaky",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "607",
+    "zone": "Stranglethorn Vale",
+    "level": 41,
+    "name": "Return to MacKinley",
+    "stage": "",
+    "giver": "\"Shaky\" Phillipe",
+    "coordinates": "26.9, 73.6",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring Shaky's Payment to \"Sea Wolf\" MacKinley.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/607/return-to-mackinley",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "606",
+        "name": "Scaring Shaky",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "608",
+    "zone": "Stranglethorn Vale",
+    "level": 45,
+    "name": "The Bloodsail Buccaneers",
+    "stage": "",
+    "giver": "Fleet Master Seahorn",
+    "coordinates": "27.2, 77.0",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Fleet-Master Seahorn in Booty Bay wants you to kill Captain Stillwater, Captain Keelhaul and Fleet Master Firallon.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 37",
+    "sources": [
+      "https://foreverchanges.pro/quest/608/the-bloodsail-buccaneers",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "604",
+        "name": "The Bloodsail Buccaneers",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "609",
+    "zone": "Stranglethorn Vale",
+    "level": 44,
+    "name": "Voodoo Dues",
+    "stage": "",
+    "giver": "\"Sea Wolf\" MacKinley",
+    "coordinates": "27.8, 77.1",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring Maury's Clubbed Foot, Jon-Jon's Golden Spyglass, and Chucky's Huge Ring to \"Sea Wolf\" MacKinley in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/609/voodoo-dues",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "607",
+        "name": "Return to MacKinley",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "610",
+    "zone": "Stranglethorn Vale",
+    "level": 39,
+    "name": "\"Pretty Boy\" Duncan",
+    "stage": "",
+    "giver": "Catelyn the Blade",
+    "coordinates": "27.3, 77.5",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Get Catelyn's dagger from \"Pretty Boy\" Duncan.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 32",
+    "sources": [
+      "https://foreverchanges.pro/quest/610/pretty-boy-duncan",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "603",
+        "name": "Ansirem's Key",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "611",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "The Curse of the Tides",
+    "stage": "",
+    "giver": "Catelyn the Blade",
+    "coordinates": "27.3, 77.5",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Destroy the Altar of the Tides with Catelyn's Blade, kill Gazban and bring the Stone of the Tides and Catelyn's Blade back to Baron Revilgaz.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 32",
+    "sources": [
+      "https://foreverchanges.pro/quest/611/the-curse-of-the-tides",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "610",
+        "name": "\"Pretty Boy\" Duncan",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "613",
+    "zone": "Stranglethorn Vale",
+    "level": 44,
+    "name": "Cracking Maury's Foot",
+    "stage": "",
+    "giver": "\"Sea Wolf\" MacKinley",
+    "coordinates": "27.8, 77.1",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring Maury's Key to \"Sea Wolf\" Mackinley in Booty Bay.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/613/cracking-maurys-foot",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "609",
+        "name": "Voodoo Dues",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "616",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "The Haunted Isle",
+    "stage": "",
+    "giver": "Krazek",
+    "coordinates": "26.9, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Speak with Baron Revilgaz in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 32",
+    "sources": [
+      "https://foreverchanges.pro/quest/616/the-haunted-isle",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "617",
+    "zone": "Stranglethorn Vale",
+    "level": 43,
+    "name": "Akiris by the Bundle",
+    "stage": "",
+    "giver": "Privateer Bloads",
+    "coordinates": "26.8, 76.4",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring 10 Bundles of Akiris Reed to Privateer Bloads in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 38",
+    "sources": [
+      "https://foreverchanges.pro/quest/617/akiris-by-the-bundle",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "619",
+    "zone": "Stranglethorn Vale",
+    "level": 52,
+    "name": "Enticing Negolash",
+    "stage": "Negolash summoning event",
+    "giver": "Ruined Lifeboat",
+    "coordinates": "32.5, 82.0",
+    "area": "Stranglethorn Vale",
+    "objective": "Place 10 Barbecued Buzzard Wings and 5 Junglevine Wine in the Ruined Lifeboat to summon Negolash.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 1; Repeatable; Event for the active Facing Negolash quest; completing Facing Negolash is not a prerequisite",
+    "sources": [
+      "https://foreverchanges.pro/quest/619/enticing-negolash",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "foreverchanges",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "621",
+    "zone": "Stranglethorn Vale",
+    "level": 44,
+    "name": "Zanzil's Secret",
+    "stage": "",
+    "giver": "Crank Fizzlebub",
+    "coordinates": "27.1, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring 12 samples of Zanzil's Mixture to Crank Fizzlebub in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/621/zanzils-secret",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "622",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "Return to Corporal Kaleb",
+    "stage": "",
+    "giver": "Krazek",
+    "coordinates": "26.9, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring Krazek's Fixed Pot to Corporal Kaleb at the Rebel Camp.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 32",
+    "sources": [
+      "https://foreverchanges.pro/quest/622/return-to-corporal-kaleb",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "627",
+        "name": "Favor for Krazek",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "623",
+    "zone": "Stranglethorn Vale",
+    "level": 43,
+    "name": "Akiris by the Bundle",
+    "stage": "",
+    "giver": "Privateer Bloads",
+    "coordinates": "26.8, 76.4",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring a Bundle of Akiris Reeds to Privateer Groy in Theramore.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 38",
+    "sources": [
+      "https://foreverchanges.pro/quest/623/akiris-by-the-bundle",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "617",
+        "name": "Akiris by the Bundle",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "624",
+    "zone": "Stranglethorn Vale",
+    "level": 43,
+    "name": "Cortello's Riddle",
+    "stage": "",
+    "giver": "Cortello's Riddle",
+    "coordinates": "29.2, 88.3",
+    "area": "Stranglethorn Vale",
+    "objective": "Solve the riddle!",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/624/cortellos-riddle",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "625",
+    "zone": "Stranglethorn Vale",
+    "level": 43,
+    "name": "Cortello's Riddle",
+    "stage": "",
+    "giver": "A Soggy Scroll",
+    "coordinates": "22.9, 48.2",
+    "area": "Swamp of Sorrows",
+    "objective": "Solve the riddle!",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/625/cortellos-riddle",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "624",
+        "name": "Cortello's Riddle",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "626",
+    "zone": "Stranglethorn Vale",
+    "level": 51,
+    "name": "Cortello's Riddle",
+    "stage": "",
+    "giver": "Musty Scroll",
+    "coordinates": "31.1, 66.1",
+    "area": "Dustwallow Marsh",
+    "objective": "Solve the riddle!",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/626/cortellos-riddle",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "625",
+        "name": "Cortello's Riddle",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "627",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "Favor for Krazek",
+    "stage": "",
+    "giver": "Krazek",
+    "coordinates": "26.9, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring 4 loads of Lesser Bloodstone Ore to Krazek in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 32",
+    "sources": [
+      "https://foreverchanges.pro/quest/627/favor-for-krazek",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "210",
+        "name": "Krazek's Cookery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "628",
+    "zone": "Stranglethorn Vale",
+    "level": 38,
+    "name": "Excelsior",
+    "stage": "",
+    "giver": "Drizzlik",
+    "coordinates": "28.3, 77.6",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring an Elder Crocolisk Skin to Drizzlik in Booty Bay.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 31",
+    "sources": [
+      "https://foreverchanges.pro/quest/628/excelsior",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "577",
+        "name": "Some Assembly Required",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "630",
+    "zone": "Stranglethorn Vale",
+    "level": 51,
+    "name": "Message in a Bottle",
+    "stage": "",
+    "giver": "Princess Poobah",
+    "coordinates": "38.5, 80.6",
+    "area": "Stranglethorn Vale",
+    "objective": "Slay King Mukla and return to Princess Poobah with the Key to free her.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 45",
+    "sources": [
+      "https://foreverchanges.pro/quest/630/message-in-a-bottle",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "594",
+        "name": "Message in a Bottle",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "670",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "Sunken Treasure",
+    "stage": "",
+    "giver": "Fleet Master Seahorn",
+    "coordinates": "27.2, 77.0",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Deliver Seahorn's Letter to Shakes O'Breen in Arathi Highlands.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/670/sunken-treasure",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "669",
+        "name": "Sunken Treasure",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1036",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Avast Ye, Scallywag",
+    "stage": "",
+    "giver": "\"Pretty Boy\" Duncan",
+    "coordinates": "27.4, 69.4",
+    "area": "Stranglethorn Vale",
+    "objective": "Speak with Fleet Master Firallon aboard the Crimson Vale off the coast of Stranglethorn Vale.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 55",
+    "sources": [
+      "https://foreverchanges.pro/quest/1036/avast-ye-scallywag",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1041",
+    "zone": "Stranglethorn Vale",
+    "level": 30,
+    "name": "The Caravan Road",
+    "stage": "",
+    "giver": "Caravaneer Ruzzgot",
+    "coordinates": "",
+    "area": "Outside Ashenvale / Booty Bay",
+    "objective": "Speak with Clerk Daltry in Darkshire.",
+    "areaConfidence": "High",
+    "notes": "Alliance; cross-zone Velinde chain",
+    "prerequisites": [
+      {
+        "id": "1040",
+        "name": "Passage to Booty Bay",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1041"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1116",
+    "zone": "Stranglethorn Vale",
+    "level": 36,
+    "name": "Dream Dust in the Swamp",
+    "stage": "",
+    "giver": "Krazek",
+    "coordinates": "26.9, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring 10 Specks of Dream Dust to Krazek in Booty Bay.  Dream Dust is gathered from the dragon whelps of the Swamp of Sorrows.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/1116/dream-dust-in-the-swamp",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "1115",
+        "name": "The Rumormonger",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1117",
+    "zone": "Stranglethorn Vale",
+    "level": 36,
+    "name": "Rumors for Kravel",
+    "stage": "",
+    "giver": "Krazek",
+    "coordinates": "26.9, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring the Goblin Rumors to Kravel Koalbeard in the Shimmering Flats.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/1117/rumors-for-kravel",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "1116",
+        "name": "Dream Dust in the Swamp",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1119",
+    "zone": "Stranglethorn Vale",
+    "level": 44,
+    "name": "Zanzil's Mixture and a Fool's Stout",
+    "stage": "",
+    "giver": "Crank Fizzlebub",
+    "coordinates": "27.1, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring the Fool's Stout back to Kravel in the Shimmering Flats.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/1119/zanzils-mixture-and-a-fools-stout",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "621",
+        "name": "Zanzil's Secret",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "1118",
+        "name": "Back to Booty Bay",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1127",
+    "zone": "Stranglethorn Vale",
+    "level": 44,
+    "name": "Fool's Stout",
+    "stage": "Repeatable",
+    "giver": "Crank Fizzlebub",
+    "coordinates": "27.1, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring 12 of Zanzil's Mixture to Crank Fizzlebub in Booty Bay.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 35; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/1127/fools-stout",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "1122",
+        "name": "Report Back to Fizzlebub",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1181",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "Goblin Sponsorship",
+    "stage": "",
+    "giver": "Wharfmaster Lozgil",
+    "coordinates": "26.3, 73.6",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Speak with Baron Revilgaz in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 29",
+    "sources": [
+      "https://foreverchanges.pro/quest/1181/goblin-sponsorship",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "1180",
+        "name": "Goblin Sponsorship",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1182",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "Goblin Sponsorship",
+    "stage": "",
+    "giver": "Baron Revilgaz",
+    "coordinates": "27.2, 76.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring the Fuel Regulator Blueprints to Baron Revilgaz in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 29",
+    "sources": [
+      "https://foreverchanges.pro/quest/1182/goblin-sponsorship",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "1181",
+        "name": "Goblin Sponsorship",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1183",
+    "zone": "Stranglethorn Vale",
+    "level": 37,
+    "name": "Goblin Sponsorship",
+    "stage": "",
+    "giver": "Baron Revilgaz",
+    "coordinates": "27.2, 76.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Deliver the Fuel Regulator Blueprints to Pozzik on the Shimmering Flats.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 29",
+    "sources": [
+      "https://foreverchanges.pro/quest/1183/goblin-sponsorship",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "1182",
+        "name": "Goblin Sponsorship",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2760",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "The Mithril Order",
+    "stage": "Blacksmithing 210",
+    "giver": "McGavan",
+    "coordinates": "28.9, 75.4",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Speak with Galvan the Ancient in Stranglethorn Vale.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40; Requires Blacksmithing 210",
+    "sources": [
+      "https://foreverchanges.pro/quest/2760/the-mithril-order",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2761",
+    "zone": "Stranglethorn Vale",
+    "level": 45,
+    "name": "Smelt On, Smelt Off",
+    "stage": "Blacksmithing 210",
+    "giver": "Galvan the Ancient",
+    "coordinates": "50.6, 20.5",
+    "area": "Stranglethorn Vale",
+    "objective": "Bring forty Mithril Bars and forty Iron Bars to Galvan the Ancient in Stranglethorn.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40; Requires Blacksmithing 210",
+    "sources": [
+      "https://foreverchanges.pro/quest/2761/smelt-on-smelt-off",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2760",
+        "name": "The Mithril Order",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2762",
+    "zone": "Stranglethorn Vale",
+    "level": 45,
+    "name": "The Great Silver Deceiver",
+    "stage": "Blacksmithing 210",
+    "giver": "Galvan the Ancient",
+    "coordinates": "50.6, 20.5",
+    "area": "Stranglethorn Vale",
+    "objective": "Bring forty Mithril Bars and five Truesilver Bars to Galvan the Ancient in Stranglethorn.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40; Requires Blacksmithing 210",
+    "sources": [
+      "https://foreverchanges.pro/quest/2762/the-great-silver-deceiver",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2760",
+        "name": "The Mithril Order",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2763",
+    "zone": "Stranglethorn Vale",
+    "level": 45,
+    "name": "The Art of the Imbue",
+    "stage": "Blacksmithing 210",
+    "giver": "Galvan the Ancient",
+    "coordinates": "50.6, 20.5",
+    "area": "Stranglethorn Vale",
+    "objective": "Bring forty Mithril Bars and four Citrines to Galvan the Ancient in Stranglethorn.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40; Requires Blacksmithing 210",
+    "sources": [
+      "https://foreverchanges.pro/quest/2763/the-art-of-the-imbue",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2760",
+        "name": "The Mithril Order",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2764",
+    "zone": "Stranglethorn Vale",
+    "level": 45,
+    "name": "Galvan's Finest Pupil",
+    "stage": "Blacksmithing 210",
+    "giver": "Galvan the Ancient",
+    "coordinates": "50.6, 20.5",
+    "area": "Stranglethorn Vale",
+    "objective": "Speak with Trenton Lighthammer in Gadgetzan.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40; Requires Blacksmithing 210",
+    "sources": [
+      "https://foreverchanges.pro/quest/2764/galvans-finest-pupil",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2761",
+        "name": "Smelt On, Smelt Off",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2765",
+    "zone": "Stranglethorn Vale",
+    "level": 45,
+    "name": "Expert Blacksmith!",
+    "stage": "Blacksmithing 210",
+    "giver": "Galvan the Ancient",
+    "coordinates": "50.6, 20.5",
+    "area": "Stranglethorn Vale",
+    "objective": "Claim your reward from Galvan the Ancient!",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40; Requires Blacksmithing 210",
+    "sources": [
+      "https://foreverchanges.pro/quest/2765/expert-blacksmith",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2761",
+        "name": "Smelt On, Smelt Off",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "2762",
+        "name": "The Great Silver Deceiver",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "2763",
+        "name": "The Art of the Imbue",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2864",
+    "zone": "Stranglethorn Vale",
+    "level": 45,
+    "name": "Tran'rek",
+    "stage": "",
+    "giver": "Krazek",
+    "coordinates": "26.9, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Speak with Tran'rek in Gadgetzan.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/2864/tranrek",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2872",
+    "zone": "Stranglethorn Vale",
+    "level": 45,
+    "name": "Stoley's Debt",
+    "stage": "",
+    "giver": "\"Sea Wolf\" MacKinley",
+    "coordinates": "27.8, 77.1",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Speak with Stoley in Steamwheedle Port.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/2872/stoleys-debt",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3625",
+    "zone": "Stranglethorn Vale",
+    "level": 58,
+    "name": "Enchanted Azsharite Fel Weaponry",
+    "stage": "",
+    "giver": "Galvan the Ancient",
+    "coordinates": "50.6, 20.5",
+    "area": "Stranglethorn Vale",
+    "objective": "Wait for Galvan to finish forging the weaponry.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 45",
+    "sources": [
+      "https://foreverchanges.pro/quest/3625/enchanted-azsharite-fel-weaponry",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "3621",
+        "name": "The Formation of Felbane",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3626",
+    "zone": "Stranglethorn Vale",
+    "level": 58,
+    "name": "Return to the Blasted Lands",
+    "stage": "",
+    "giver": "Galvan the Ancient",
+    "coordinates": "50.6, 20.5",
+    "area": "Stranglethorn Vale",
+    "objective": "Return to the Fallen Hero of the Horde.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 45",
+    "sources": [
+      "https://foreverchanges.pro/quest/3626/return-to-the-blasted-lands",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "3625",
+        "name": "Enchanted Azsharite Fel Weaponry",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3647",
+    "zone": "Stranglethorn Vale",
+    "level": 47,
+    "name": "Membership Card Renewal",
+    "stage": "Engineering 200",
+    "giver": "Oglethorpe Obnoticus",
+    "coordinates": "28.4, 76.4",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Renew your Gnomish Engineer membership with Oglethorpe Obnoticus; requires Engineering 200.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30; Requires Engineering 200; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/3647/membership-card-renewal",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3721",
+    "zone": "Stranglethorn Vale",
+    "level": 50,
+    "name": "An OOX of Your Own",
+    "stage": "",
+    "giver": "Oglethorpe Obnoticus",
+    "coordinates": "28.4, 76.4",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Return to Oglethorpe Obnoticus after rescuing all three OOX homing robots in Tanaris, Feralas, and the Hinterlands.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/3721/an-oox-of-your-own",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "648",
+        "name": "Rescue OOX-17/TN!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "836",
+        "name": "Rescue OOX-09/HL!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "2767",
+        "name": "Rescue OOX-22/FE!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4621",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Avast Ye, Admiral!",
+    "stage": "",
+    "giver": "Fleet Master Firallon",
+    "coordinates": "30.6, 90.6",
+    "area": "Stranglethorn Vale",
+    "objective": "Slay Fleet Master Seahorn and Baron Revilgaz of Booty Bay, and then return to Fleet Master Firallon aboard the Crimson Veil off the coast of Stranglethorn Vale.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 55",
+    "sources": [
+      "https://foreverchanges.pro/quest/4621/avast-ye-admiral",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7810",
+    "zone": "Stranglethorn Vale",
+    "level": 55,
+    "name": "Arena Master",
+    "stage": "",
+    "giver": "Arena Master (item)",
+    "coordinates": "",
+    "area": "Gurubashi Arena (Stranglethorn Vale)",
+    "objective": "Speak with Short John Mithril in the Stranglethorn Arena.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 1",
+    "sources": [
+      "https://foreverchanges.pro/quest/7810/arena-master",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7838",
+    "zone": "Stranglethorn Vale",
+    "level": 55,
+    "name": "Arena Grandmaster",
+    "stage": "Repeatable",
+    "giver": "Short John Mithril",
+    "coordinates": "29.6, 47.4",
+    "area": "Stranglethorn Vale",
+    "objective": "Bring 12 Arena Master trinkets to Short John Mithril at the Gurubashi Arena.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 1; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/7838/arena-grandmaster",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "foreverchanges",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "7810",
+        "name": "Arena Master",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8063",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Paragons of Power: The Madcap's Bracers",
+    "stage": "Rogue · Zul'Gurub",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Bring Falthir the Sightless a Primal Hakkari Armsplint.  You must also have a reputation equal to or greater than Friendly with the Zandalar Tribe. Falthir the Sightless is located on Yojamba Isle, Stranglethorn Vale.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8063/paragons-of-power-the-madcaps-bracers",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8072",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Paragons of Power: The Madcap's Mantle",
+    "stage": "Rogue · Zul'Gurub",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Bring Falthir the Sightless a Primal Hakkari Girdle.  You must also have a reputation equal to or greater than Honored with the Zandalar Tribe. Falthir the Sightless is located on Yojamba Isle, Stranglethorn Vale.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8072/paragons-of-power-the-madcaps-mantle",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8073",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Paragons of Power: The Madcap's Tunic",
+    "stage": "Rogue · Zul'Gurub",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Bring Falthir the Sightless a Primal Hakkari Aegis.  You must also have a reputation equal to or greater than Revered with the Zandalar Tribe. Falthir the Sightless is located on Yojamba Isle, Stranglethorn Vale.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8073/paragons-of-power-the-madcaps-tunic",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8141",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Zandalarian Shadow Talisman",
+    "stage": "Rogue · Friendly",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Speak with Falthir the Sightless on Yojamba Isle while Friendly with the Zandalar Tribe to receive a Zandalarian Shadow Talisman.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58; Reputation condition is a Classic reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/8141/zandalarian-shadow-talisman",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8142",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Zandalarian Shadow Talisman",
+    "stage": "Rogue · Honored",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Return your Zandalarian Shadow Talisman to Falthir the Sightless for an upgrade; requires Honored with the Zandalar Tribe.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58; Reputation condition is a Classic reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/8142/zandalarian-shadow-talisman",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "8141",
+        "name": "Zandalarian Shadow Talisman",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8143",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Zandalarian Shadow Talisman",
+    "stage": "Rogue · Revered",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Return your Zandalarian Shadow Talisman to Falthir the Sightless for an upgrade; requires Revered with the Zandalar Tribe.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58; Reputation condition is a Classic reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/8143/zandalarian-shadow-talisman",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "8142",
+        "name": "Zandalarian Shadow Talisman",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8144",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Zandalarian Shadow Mastery Talisman",
+    "stage": "Rogue · Exalted",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Return your Zandalarian Shadow Talisman to Falthir the Sightless for its final upgrade; requires Exalted with the Zandalar Tribe.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58; Reputation condition is a Classic reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/8144/zandalarian-shadow-mastery-talisman",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "8143",
+        "name": "Zandalarian Shadow Talisman",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8181",
+    "zone": "Stranglethorn Vale",
+    "level": 58,
+    "name": "Confront Yeh'kinya",
+    "stage": "Zul'Gurub",
+    "giver": "Prospector Ironboot",
+    "coordinates": "66.9, 24.0",
+    "area": "Tanaris",
+    "objective": "Speak with Yeh'kinya.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/8181/confront-yehkinya",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "4788",
+        "name": "The Final Tablets",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8183",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "The Heart of Hakkar",
+    "stage": "",
+    "giver": "Heart of Hakkar",
+    "coordinates": "",
+    "area": "Zul'Gurub (item drop)",
+    "objective": "Bring the Heart of Hakkar to Molthor on Yojamba Isle.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8183/the-heart-of-hakkar",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8193",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Master Angler",
+    "stage": "Fishing Extravaganza",
+    "giver": "Riggle Bassbait",
+    "coordinates": "27.4, 76.8",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Be the first contestant to bring 40 Speckled Tastyfish to Riggle Bassbait during the Stranglethorn Fishing Extravaganza.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 1; Requires Fishing 0; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8193/master-angler",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8194",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Apprentice Angler",
+    "stage": "Fishing Extravaganza",
+    "giver": "Jang",
+    "coordinates": "27.4, 76.8",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring 5 Speckled Tastyfish to Jang during the Stranglethorn Fishing Extravaganza.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 1; Requires Fishing 1; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8194/apprentice-angler",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8195",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Zulian, Razzashi, and Hakkari Coins",
+    "stage": "Repeatable",
+    "giver": "Vinchaxa",
+    "coordinates": "14.5, 15.8",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Bring one Zulian Coin, one Razzashi Coin, and one Hakkari Coin to Vinchaxa on Yojamba Isle.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8195/zulian-razzashi-and-hakkari-coins",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "foreverchanges",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8196",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Essence Mangoes",
+    "stage": "Repeatable",
+    "giver": "Rin'wosho the Trader",
+    "coordinates": "15.1, 16.0",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Exchange a Zandalar Honor Token with Rin'wosho the Trader for Essence Mangoes; requires Honored with the Zandalar Tribe.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8196/essence-mangoes",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "foreverchanges",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8201",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "A Collection of Heads",
+    "stage": "Zul'Gurub",
+    "giver": "Exzhal",
+    "coordinates": "15.3, 15.5",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "String 5 Channeler's Heads, then return the Collection of Troll Heads to Exzhal on Yojamba Isle.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8201/a-collection-of-heads",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8221",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Rare Fish - Keefer's Angelfish",
+    "stage": "Fishing Extravaganza",
+    "giver": "Fishbot 5000",
+    "coordinates": "27.3, 76.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring a Keefer's Angelfish to Fishbot 5000 during the Stranglethorn Fishing Extravaganza.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 1; Requires Fishing 0; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8221/rare-fish-keefers-angelfish",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8224",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Rare Fish - Dezian Queenfish",
+    "stage": "Fishing Extravaganza",
+    "giver": "Fishbot 5000",
+    "coordinates": "27.3, 76.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring a Dezian Queenfish to Fishbot 5000 during the Stranglethorn Fishing Extravaganza.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 1; Requires Fishing 0; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8224/rare-fish-dezian-queenfish",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8225",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Rare Fish - Brownell's Blue Striped Racer",
+    "stage": "Fishing Extravaganza",
+    "giver": "Fishbot 5000",
+    "coordinates": "27.3, 76.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring a Brownell's Blue Striped Racer to Fishbot 5000 during the Stranglethorn Fishing Extravaganza.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 1; Requires Fishing 0; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8225/rare-fish-brownells-blue-striped-racer",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8227",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Nat's Measuring Tape",
+    "stage": "Zul'Gurub",
+    "giver": "Battered Tackle Box , Nat's Measuring Tape",
+    "coordinates": "",
+    "area": "Zul'Gurub",
+    "objective": "Return Nat's Measuring Tape to Nat Pagle in Dustwallow Marsh.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8227/nats-measuring-tape",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8238",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Gurubashi, Vilebranch, and Witherbark Coins",
+    "stage": "Repeatable",
+    "giver": "Vinchaxa",
+    "coordinates": "14.5, 15.8",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Bring one Gurubashi Coin, one Vilebranch Coin, and one Witherbark Coin to Vinchaxa on Yojamba Isle.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8238/gurubashi-vilebranch-and-witherbark-coins",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "foreverchanges",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8239",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Sandfury, Skullsplitter, and Bloodscalp Coins",
+    "stage": "Repeatable",
+    "giver": "Vinchaxa",
+    "coordinates": "14.5, 15.8",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Bring one Sandfury Coin, one Skullsplitter Coin, and one Bloodscalp Coin to Vinchaxa on Yojamba Isle.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8239/sandfury-skullsplitter-and-bloodscalp-coins",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "foreverchanges",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8240",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "A Bijou for Zanza",
+    "stage": "",
+    "giver": "Vinchaxa",
+    "coordinates": "14.5, 15.8",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Destroy any one of the Hakkari Bijous found in Zul'Gurub at the Altar of Zanza on Yojamba Isle.  When done, speak with Vinchaxa nearby.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8240/a-bijou-for-zanza",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8243",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Zanza's Potent Potables",
+    "stage": "Repeatable",
+    "giver": "Rin'wosho the Trader",
+    "coordinates": "15.1, 16.0",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Exchange a Zandalar Honor Token with Rin'wosho the Trader for a Zanza potion; requires Revered with the Zandalar Tribe.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8243/zanzas-potent-potables",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "foreverchanges",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8246",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Signets of the Zandalar",
+    "stage": "Repeatable",
+    "giver": "Rin'wosho the Trader",
+    "coordinates": "15.1, 16.0",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Bring 15 Zandalar Honor Tokens to Rin'wosho the Trader for a shoulder enchantment; requires Exalted with the Zandalar Tribe.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8246/signets-of-the-zandalar",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "foreverchanges",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8551",
+    "zone": "Stranglethorn Vale",
+    "level": 47,
+    "name": "The Captain's Chest",
+    "stage": "",
+    "giver": "Captain Hecklebury Smotts",
+    "coordinates": "26.7, 73.6",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring Smotts' Chest to Hecklebury Smotts in Booty Bay.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/8551/the-captains-chest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8552",
+    "zone": "Stranglethorn Vale",
+    "level": 50,
+    "name": "The Monogrammed Sash",
+    "stage": "",
+    "giver": "Monogrammed Sash",
+    "coordinates": "",
+    "area": "Stranglethorn Vale",
+    "objective": "Return the Monogrammed Sash to its owner.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/8552/the-monogrammed-sash",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8553",
+    "zone": "Stranglethorn Vale",
+    "level": 50,
+    "name": "The Captain's Cutlass",
+    "stage": "",
+    "giver": "Captain Hecklebury Smotts",
+    "coordinates": "26.7, 73.6",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Speak with Sprogger.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/8553/the-captains-cutlass",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "8552",
+        "name": "The Monogrammed Sash",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8554",
+    "zone": "Stranglethorn Vale",
+    "level": 50,
+    "name": "Facing Negolash",
+    "stage": "",
+    "giver": "Sprogger",
+    "coordinates": "26.7, 73.6",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring 10 Barbecued Buzzard Wings and 5 bottles of Junglevine Wine to Captain Smotts' Lifeboat. Kill Negolash, and bring Smotts' Cutlass to Captain Smotts in Stranglethorn.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/8554/facing-negolash",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "8553",
+        "name": "The Captain's Cutlass",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8674",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Winterhoof the Elder",
+    "stage": "Lunar Festival",
+    "giver": "Elder Winterhoof",
+    "coordinates": "26.5, 76.5",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Pay homage to Elder Winterhoof in Booty Bay during the Lunar Festival.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 1",
+    "sources": [
+      "https://foreverchanges.pro/quest/8674/winterhoof-the-elder",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8716",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Starglade the Elder",
+    "stage": "Lunar Festival",
+    "giver": "Elder Starglade",
+    "coordinates": "53.1, 18.4",
+    "area": "Stranglethorn Vale",
+    "objective": "Pay homage to Elder Starglade near Zul'Gurub during the Lunar Festival.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 1",
+    "sources": [
+      "https://foreverchanges.pro/quest/8716/starglade-the-elder",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "9259",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Traitor to the Bloodsail",
+    "stage": "Repeatable",
+    "giver": "Bloodsail Traitor",
+    "coordinates": "31.8, 70.9",
+    "area": "Stranglethorn Vale",
+    "objective": "Bring 40 Silk Cloth and 4 Red Dye to the Bloodsail Traitor to regain Booty Bay reputation at the expense of Bloodsail reputation.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 30; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/9259/traitor-to-the-bloodsail",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "foreverchanges",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "9272",
+    "zone": "Stranglethorn Vale",
+    "level": 55,
+    "name": "Dressing the Part",
+    "stage": "",
+    "giver": "Fleet Master Firallon",
+    "coordinates": "30.6, 90.6",
+    "area": "Stranglethorn Vale",
+    "objective": "Speak with Fleet Master Firallon while Friendly with the Bloodsail Buccaneers to receive the Bloodsail uniform.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 49; Reputation condition is a Classic reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/9272/dressing-the-part",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "79236",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "Cherry for Your Thoughts?",
+    "stage": "Highway Robbery chain",
+    "giver": "Tokal",
+    "coordinates": "27.0, 77.4",
+    "area": "Booty Bay inn (Stranglethorn Vale)",
+    "objective": "Bring 1 Cherry Grog to Tokal in Booty Bay to hear the rest of her story.",
+    "areaConfidence": "High",
+    "notes": "Level 40 in current Forever guide; minimum level 30 is a Questie generated reference, not confirmed by that guide; Shared-access community reference; the all-race flag in Questie is explicitly inferred, not direct faction proof; No class, profession, or Magram/Gelkis reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites; Cherry Grog sold by Nixxrax Fillamug in Booty Bay; quantity 1 observed in Forever",
+    "sources": [
+      "https://foreverdb.net/quest/79236",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "forever-player-observation",
+      "level": "forever-guide",
+      "minimumLevel": "community-generated-reference",
+      "objective": "forever-guide-and-questie-trace",
+      "giver": "forever-player-observation",
+      "pickupLocation": "forever-player-observation",
+      "faction": "community-shared-access-inference",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "79235",
+        "name": "On the Lam",
+        "evidence": "community",
+        "sources": [
+          "https://foreverdb.net/quest/79236",
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "79242",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "No Honor Among Thieves",
+    "stage": "Highway Robbery chain",
+    "giver": "Tokal",
+    "coordinates": "27.0, 77.3",
+    "area": "Booty Bay inn (Stranglethorn Vale)",
+    "objective": "Find Illari Duskfeather on the coast of Arathi Highlands and get access to her cache of stolen loot.",
+    "areaConfidence": "Approximate",
+    "notes": "Level 40 in current Forever guide; minimum level 30 is a Questie generated reference, not confirmed by that guide; Shared-access community reference; the all-race flag in Questie is explicitly inferred, not direct faction proof; No class, profession, or Magram/Gelkis reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites; Primary trace ends at cache object 418855; current guide has no observed turn-in position; no race-specific dialogue or combat requirement assumed",
+    "sources": [
+      "https://foreverdb.net/quest/79242",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "forever-player-observation",
+      "level": "forever-guide",
+      "minimumLevel": "community-generated-reference",
+      "objective": "forever-guide-and-questie-trace",
+      "giver": "forever-player-observation",
+      "pickupLocation": "forever-player-observation",
+      "faction": "community-shared-access-inference",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "79236",
+        "name": "Cherry for Your Thoughts?",
+        "evidence": "community",
+        "sources": [
+          "https://foreverdb.net/quest/79242",
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "83934",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "Show Me the Money!",
+    "stage": "",
+    "giver": "Pix Xizzix",
+    "coordinates": "28.5, 75.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring a Tarnished Undermine Real to Pix Xizzix in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions (community reference); No class restriction recorded; Minimum level 55; Starter from player observations; pickup coordinates are community references; Shared access is a community inference; current level/minimum are database references",
+    "sources": [
+      "https://nether.wowhead.com/forever/tooltip/quest/83934",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "community",
+      "minimumLevel": "community",
+      "objective": "wowhead",
+      "giver": "community",
+      "pickupLocation": "community",
+      "faction": "community"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "93443",
+    "zone": "Stranglethorn Vale",
+    "level": 36,
+    "name": "Lost Shipping Crate",
+    "stage": "",
+    "giver": "Lost Shipping Crate",
+    "coordinates": "38.0, 3.0",
+    "area": "Stranglethorn Vale",
+    "objective": "Deliver the Lost Shipping Crate to Friz Frazzlespark at Powderfuse Port in the Riverglades.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 36",
+    "sources": [
+      "https://foreverchanges.pro/quest/93443/lost-shipping-crate",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "95325",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "We've Been Robbed!",
+    "stage": "",
+    "giver": "Caravaneer Ruzzgot",
+    "coordinates": "27.3, 74.1",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Find the Venture Co. Ledger in the Venture Co. Camp near Lake Nezferiti in Stranglethorn.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 36",
+    "sources": [
+      "https://foreverchanges.pro/quest/95325/weve-been-robbed",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "95322",
+        "name": "Get the Goods",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "95326",
+    "zone": "Stranglethorn Vale",
+    "level": 39,
+    "name": "The Big Payback",
+    "stage": "",
+    "giver": "Venture Co. Ledger",
+    "coordinates": "42.7, 18.5",
+    "area": "Stranglethorn Vale",
+    "objective": "Kill the Venture Co. Agent and take back Ruzzgot's Shipment for him in Booty Bay.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 36",
+    "sources": [
+      "https://foreverchanges.pro/quest/95326/the-big-payback",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "95325",
+        "name": "We've Been Robbed!",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "95327",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "All's Well That Ends Well",
+    "stage": "",
+    "giver": "Caravaneer Ruzzgot",
+    "coordinates": "27.4, 74.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Return to Friz Frazzlespark at Powderfuse Port in the Riverglades.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 36",
+    "sources": [
+      "https://foreverchanges.pro/quest/95327/alls-well-that-ends-well",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "95326",
+        "name": "The Big Payback",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "95384",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "Partial Mystical Notes",
+    "stage": "",
+    "giver": "Item #213127",
+    "coordinates": "",
+    "area": "Stranglethorn Vale",
+    "objective": "Bring the partial scroll to Dudd Fizzlescroll in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 32",
+    "sources": [
+      "https://foreverchanges.pro/quest/95384/partial-mystical-notes",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "95385",
+    "zone": "Stranglethorn Vale",
+    "level": 43,
+    "name": "Torn Mystical Scroll",
+    "stage": "",
+    "giver": "Torn Mystical Scroll",
+    "coordinates": "",
+    "area": "Stranglethorn Vale",
+    "objective": "Bring the partial scroll to Dudd Fizzlescroll in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/95385/torn-mystical-scroll",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "95786",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "An Acquaintance in Southshore",
+    "stage": "Introduction",
+    "giver": "Brother Nimetz",
+    "coordinates": "37.9, 3.6",
+    "area": "Rebel Camp (Stranglethorn Vale)",
+    "objective": "Find Loremaster Dibbs in Southshore and bring him the Savage Coast Report Bundle.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/95786",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "questie"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "205",
+        "name": "Troll Witchery",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "96076",
+    "zone": "Stranglethorn Vale",
+    "level": 60,
+    "name": "In Demand - Ancient Elven Curiosities",
+    "stage": "",
+    "giver": "Pix Xizzix",
+    "coordinates": "28.5, 75.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Travel to Dire Maul to acquire a Felvine Seed from Alzzin the Wildshaper, an Ancient Memento from Prince Tortheldrin, and an Earthstone Diamond Pinky Ring from King Gordok, and bring them to Pix Xizzix in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 60; Starter from player observations; pickup coordinates are community references",
+    "sources": [
+      "https://foreverchanges.pro/quest/96076/in-demand-ancient-elven-curiosities",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97047",
+    "zone": "Stranglethorn Vale",
+    "level": 38,
+    "name": "The Cook in the Cage",
+    "stage": "",
+    "giver": "Wendel Mathers",
+    "coordinates": "44.3, 8.0",
+    "area": "Stranglethorn Vale",
+    "objective": "Find a key to Wendel's cage, and a disguise for him to sneak out, within the Kurzen compound.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/97047/the-cook-in-the-cage",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97048",
+    "zone": "Stranglethorn Vale",
+    "level": 38,
+    "name": "Returning to Port",
+    "stage": "",
+    "giver": "Wendel Mathers",
+    "coordinates": "44.3, 8.0",
+    "area": "Stranglethorn Vale",
+    "objective": "Speak to Captain Aransas in Booty Bay.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/97048/returning-to-port",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "97047",
+        "name": "The Cook in the Cage",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "97065",
+    "zone": "Stranglethorn Vale",
+    "level": 0,
+    "name": "Tip the Scales - Keefer's Angelfish",
+    "stage": "Fishing Extravaganza · level unconfirmed",
+    "giver": "\"Flipfin\"",
+    "coordinates": "27.8, 76.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring a Keefer's Angelfish to \"Flipfin\" to exchange it for 3 Speckled Tastyfish.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 1; Starter from player observations; pickup coordinates are community references; Published level 0 is unconfirmed",
+    "sources": [
+      "https://foreverchanges.pro/quest/97065/tip-the-scales-keefers-angelfish",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua",
+      "https://nether.wowhead.com/forever/tooltip/quest/97065"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97066",
+    "zone": "Stranglethorn Vale",
+    "level": 0,
+    "name": "Tip the Scales - Brownell's Blue Striped Racer",
+    "stage": "Fishing Extravaganza · level unconfirmed",
+    "giver": "\"Flipfin\"",
+    "coordinates": "27.8, 76.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring a Brownell's Blue Striped Racer to \"Flipfin\" to exchange it for 3 Speckled Tastyfish.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 1; Starter from player observations; pickup coordinates are community references; Published level 0 is unconfirmed",
+    "sources": [
+      "https://foreverchanges.pro/quest/97066/tip-the-scales-brownells-blue-striped-racer",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua",
+      "https://nether.wowhead.com/forever/tooltip/quest/97066"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97067",
+    "zone": "Stranglethorn Vale",
+    "level": 0,
+    "name": "Tip the Scales - Dezian Queenfish",
+    "stage": "Fishing Extravaganza · level unconfirmed",
+    "giver": "\"Flipfin\"",
+    "coordinates": "27.8, 76.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Bring a Dezian Queenfish to \"Flipfin\" to exchange it for 3 Speckled Tastyfish.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 1; Starter from player observations; pickup coordinates are community references; Published level 0 is unconfirmed",
+    "sources": [
+      "https://foreverchanges.pro/quest/97067/tip-the-scales-dezian-queenfish",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua",
+      "https://nether.wowhead.com/forever/tooltip/quest/97067"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97328",
+    "zone": "Stranglethorn Vale",
+    "level": 35,
+    "name": "Anything of Value",
+    "stage": "",
+    "giver": "Thoroughly Scavenged Supplies",
+    "coordinates": "31.5, 12.8",
+    "area": "Stranglethorn Vale",
+    "objective": "Recover 8 Stolen Shipments from the Ruins of Zul'Kunda in Stranglethorn Vale and return your haul to someone in Booty Bay.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/97328/anything-of-value",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97329",
+    "zone": "Stranglethorn Vale",
+    "level": 35,
+    "name": "Where's the Key?",
+    "stage": "",
+    "giver": "Zimmix Sputterspark",
+    "coordinates": "23.4, 12.7",
+    "area": "Stranglethorn Vale",
+    "objective": "Bring the Primitive Key obtained from the trolls at the Ruins of Zul'kunda in Stranglethorn Vale to Zimmix Sputterspark.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/97329/wheres-the-key",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97331",
+    "zone": "Stranglethorn Vale",
+    "level": 35,
+    "name": "Zimmix's Great Escape",
+    "stage": "",
+    "giver": "Zimmix Sputterspark",
+    "coordinates": "23.4, 12.7",
+    "area": "Stranglethorn Vale",
+    "objective": "Escort Zimmix Sputterspark away from the Ruins of Zul'Kunda then tell Wharfmaster Lozgil in Booty Bay of your successful rescue.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/97331/zimmixs-great-escape",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "97329",
+        "name": "Where's the Key?",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "97332",
+    "zone": "Stranglethorn Vale",
+    "level": 41,
+    "name": "Twice Misplaced Trust",
+    "stage": "",
+    "giver": "Wharfmaster Lozgil",
+    "coordinates": "26.3, 73.5",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Deliver the Twice Reordered Package to Wharfmaster Whizzbuzz at Powderfuse Port in the Riverglades.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 36",
+    "sources": [
+      "https://foreverchanges.pro/quest/97332/twice-misplaced-trust",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "97328",
+        "name": "Anything of Value",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      },
+      {
+        "id": "97331",
+        "name": "Zimmix's Great Escape",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "97405",
+    "zone": "Stranglethorn Vale",
+    "level": 44,
+    "name": "Noise Complaints",
+    "stage": "",
+    "giver": "Knaz Blunderflame",
+    "coordinates": "51.0, 35.2",
+    "area": "Stranglethorn Vale",
+    "objective": "Knaz Blunderflame wants you to kill 3 Mosh'Ogg Spellcrafters, 3 Mosh'Ogg Warmongers, 3 Mosh'Ogg Maulers, and 3 Mosh'Ogg Shaman at the Mosh'Ogg Ogre Mount.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 38; Starter from player observations; pickup coordinates are classic references",
+    "sources": [
+      "https://foreverchanges.pro/quest/97405/noise-complaints",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97420",
+    "zone": "Stranglethorn Vale",
+    "level": 36,
+    "name": "Reduce, Reuse, Reconcile",
+    "stage": "",
+    "giver": "Gnaz Blunderflame",
+    "coordinates": "51.0, 35.2",
+    "area": "Stranglethorn Vale",
+    "objective": "Acquire 5 Drums of Crude Oil from the Venture Co. operations at Lake Nazferiti, then return to Knaz Blunderflame in Stranglethorn Vale.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 31; Starter from player observations; pickup coordinates are classic references; Objective text names Knaz; the observed quest-start NPC is Gnaz Blunderflame",
+    "sources": [
+      "https://foreverchanges.pro/quest/97420/reduce-reuse-reconcile",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "98463",
+    "zone": "Stranglethorn Vale",
+    "level": 33,
+    "name": "Talk of the Town",
+    "stage": "",
+    "giver": "Barkeep Kelly",
+    "coordinates": "51.5, 58.7",
+    "area": "Hillsbrad Foothills",
+    "objective": "Visit Nixxrax Fillamug in the Salty Sailor Tavern in Booty Bay in Stranglethorn.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 28",
+    "sources": [
+      "https://foreverchanges.pro/quest/98463/talk-of-the-town",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "95789",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "Shady Saltseers",
+    "stage": "",
+    "giver": "Krazek",
+    "coordinates": "27.0, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Collect 10 Voodoo-Infused Artifacts from Saltseer pirates in the Drowned City and bring them to Krazek.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 34",
+    "sources": [
+      "https://foreverchanges.pro/quest/95789",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "questie"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "95791",
+    "zone": "Stranglethorn Vale",
+    "level": 40,
+    "name": "The Saltseer Captain",
+    "stage": "",
+    "giver": "Krazek",
+    "coordinates": "27.0, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Slay 3 Saltseer Coroners and Captain Dreadrise in the Drowned City, then return to Krazek.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 34",
+    "sources": [
+      "https://foreverchanges.pro/quest/95791",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/the%20drowned%20city.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "questie"
+    },
+    "prerequisites": [],
+    "previousQuests": []
   }
 ]

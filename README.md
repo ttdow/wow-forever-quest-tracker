@@ -4,7 +4,7 @@ Static HTML, CSS, and JavaScript. No installation, application server, package m
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Chrome, Firefox, or another modern browser.
 
-- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, or Krol'dok Stronghold.
+- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Stranglethorn Vale, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, or Krol'dok Stronghold.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
@@ -30,7 +30,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 492 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 648 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
@@ -39,6 +39,7 @@ The browser loads all 492 quest entries directly from `data/quests.json`. This J
 - Desolace: 51 quests: 44 selected current-index quests, three associated introductions/handoffs, and the four-step Highway Robbery chain omitted by the index. Includes the Gelkis crafting hand-ins, centaur totems, and shared Draenethyst chain; Horde-only, Magram-route quests, and the two old Classic Khan duplicates are excluded
 - Shen'dralas: 32 quests: all 27 non-Magram entries in the current zone index plus five related handoffs/dungeon steps. Includes the shared pylon, temple, spectral-blade, Forlorn Gardens, and item-started quests; the 13 Magram-route quests remain excluded
 - Feralas: 53 Alliance/neutral quests, including related introductions, cross-zone chain steps, item-started quests, and repeatable quests
+- Stranglethorn Vale: 156 Alliance/shared entries, including Forever additions, Rogue Zandalar hand-ins, professions, events, and Booty Bay handoffs; Horde-only, other-class, and five older duplicate variants are excluded
 - Deadmines: 24 quests, including prerequisites and excluding Paladin-only quests
 - Wailing Caverns: 7 quests, including Raptor Horns and the Alliance In Nightmares follow-up
 - Blackfathom Deeps: 6 quests, including the Corruption Abroad introduction
@@ -55,7 +56,7 @@ The browser loads all 492 quest entries directly from `data/quests.json`. This J
 - The Drowned City: 8 Alliance/neutral entries, including An Acquaintance in Southshore and the two Dibbs follow-ups; observed handoffs remain distinct from mandatory prerequisites
 - Krol'dok Stronghold: 10 Alliance entries, including A Small Favor and delivery follow-ups; Krol'dok No More! is a labeled escort reference with unverified availability and unknown giver/pickup
 
-The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 471 unique quest IDs across 492 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, Seeking Caitlin by Ashenvale and Excavation Site: Wetlands, In the Name of the Light by Scarlet Monastery Library, Armory, and Cathedral, four Forlorn Gardens/Agamaggan chain quests by Shen'dralas and Razorfen Downs, and four Gelkis handoffs by Desolace and Shen'dralas. Their completion status is shared automatically.
+The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 621 unique quest IDs across 648 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, Seeking Caitlin by Ashenvale and Excavation Site: Wetlands, In the Name of the Light by Scarlet Monastery Library, Armory, and Cathedral, four Forlorn Gardens/Agamaggan chain quests by Shen'dralas and Razorfen Downs, and four Gelkis handoffs by Desolace and Shen'dralas. The Caravan Road, two Tokal chain steps, and three Drowned City quests also share IDs with Stranglethorn Vale. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
@@ -94,6 +95,8 @@ The Drowned City and Scarlet Monastery Armory were researched on November 14, 20
 Razorfen Downs was researched on November 14, 2026 using current ForeverChanges quest pages, ForeverDB's full dungeon/client data, Questie's relationship traces, All The Things' dungeon record, and explicit Wowhead Forever boss-source lines. Its nine quest entries include the three earlier Agamaggan chain steps; its 22 boss-specific equipment drops include rare Ragglesnout and Ambassador Bloodrage's entrance-area drop.
 
 Krol'dok Stronghold was researched on November 16, 2026 against all 13 current indexed quests, a direct introduction, an additional escort reference, Questie player traces, the All The Things dungeon record, and current Wowhead Forever item tooltips. It has 19 equipment drops across six named bosses. The escort's availability is unverified; no supported map was found. See the [coverage report](research/kroldok-stronghold/README.md).
+
+Stranglethorn Vale was researched on November 16, 2026 against all 173 current indexed quests, the secondary index, and primary NPC/object starter records. The 156 selected entries include 39 outside the main index. See the [coverage and verification report](research/stranglethorn-vale/README.md).
 
 The site must be served over HTTP or HTTPS so the browser can load the JSON file. Opening `index.html` directly from disk is not supported.
 
