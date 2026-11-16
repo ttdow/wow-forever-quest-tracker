@@ -15,7 +15,7 @@
     ],
     "attribution": "World of Warcraft © Blizzard Entertainment; map via ForeverDB"
   },
-  "note": "Classic reference locations unless marked confirmed. Nearby quest entries share approximate markers; their source coordinates appear in the popup.",
+  "note": "Classic reference locations unless otherwise labeled. Quest chests are separate from random treasure; nearby entries share approximate markers.",
   "points": [
     {
       "id": "npc-14637",
@@ -749,7 +749,7 @@
       "id": "object-144054",
       "name": "Shay's Chest",
       "objectId": "144054",
-      "category": "quest-object",
+      "category": "quest-chest",
       "x": 38.23,
       "y": 10.29,
       "world": {
@@ -774,6 +774,23 @@
       },
       "approximate": true,
       "displayGroup": "shay-camp"
+    },
+    {
+      "id": "object-642451",
+      "name": "Old Chest",
+      "objectId": "642451",
+      "category": "quest-chest",
+      "x": 79.2,
+      "y": 49.35,
+      "verification": "player-reported",
+      "questIds": [
+        "95599"
+      ],
+      "sources": [
+        "questie-old-chest",
+        "old-key-quest"
+      ],
+      "note": "Quest chest for The Old Key (#95599), started by item 221497 at level 35 or higher. Location recorded by players in Questie. This is not a random treasure spawn."
     }
   ],
   "sources": {
@@ -808,17 +825,27 @@
     "era-chests": {
       "name": "Classic chest-layer cross-check",
       "url": "https://theforeverera.com/data/map-layers/k.json?v=20261108113959"
+    },
+    "questie-old-chest": {
+      "name": "Forever player-observed Old Chest location",
+      "url": "https://github.com/Questie/QuestieDB/blob/c0718536287f809b5bd2689cbd020435d5601061/src/corrections/Forever/traces/foreverObjectTraces.lua"
+    },
+    "old-key-quest": {
+      "name": "The Old Key — current Forever quest",
+      "url": "https://foreverchanges.pro/quest/95599/the-old-key"
     }
   },
   "coverage": {
-    "entries": 32,
-    "markers": 27,
+    "entries": 33,
+    "markers": 28,
     "questGivers": 17,
-    "questObjects": 6,
+    "questObjects": 5,
     "rares": 9,
     "randomChestPositions": 0,
     "confirmedLocations": 1,
-    "limits": "No supported random chest positions established by the checked sources. Item-drop clouds, patrol routes, escort routes, ordinary mobs, services, and out-of-zone quest givers are omitted."
+    "limits": "Random treasure positions remain unverified. Old Chest is a player-observed quest-chest reference; Shay's Chest is a Classic quest reference. Item pickup/drop clouds, patrol routes, escort routes, ordinary mobs, services, and out-of-zone quest givers are omitted.",
+    "questChests": 2,
+    "playerReportedLocations": 1
   },
   "license": "GPL-3.0 for CMaNGOS-derived reference locations; Blizzard map artwork retains its copyright."
 }

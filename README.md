@@ -30,7 +30,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 481 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 482 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
@@ -38,7 +38,7 @@ The browser loads all 481 quest entries directly from `data/quests.json`. This J
 - Stonetalon Mountains: 28 quests, including relevant introductions and follow-ups; The Zoram Strand is linked as a prerequisite in Ashenvale
 - Desolace: 51 quests: 44 selected current-index quests, three associated introductions/handoffs, and the four-step Highway Robbery chain omitted by the index. Includes the Gelkis crafting hand-ins, centaur totems, and shared Draenethyst chain; Horde-only, Magram-route quests, and the two old Classic Khan duplicates are excluded
 - Shen'dralas: 32 quests: all 27 non-Magram entries in the current zone index plus five related handoffs/dungeon steps. Includes the shared pylon, temple, spectral-blade, Forlorn Gardens, and item-started quests; the 13 Magram-route quests remain excluded
-- Feralas: 52 Alliance/neutral quests, including related introductions, cross-zone chain steps, item-started quests, and repeatable quests
+- Feralas: 53 Alliance/neutral quests, including related introductions, cross-zone chain steps, item-started quests, and repeatable quests
 - Deadmines: 24 quests, including prerequisites and excluding Paladin-only quests
 - Wailing Caverns: 7 quests, including Raptor Horns and the Alliance In Nightmares follow-up
 - Blackfathom Deeps: 6 quests, including the Corruption Abroad introduction
@@ -54,7 +54,7 @@ The browser loads all 481 quest entries directly from `data/quests.json`. This J
 - Scarlet Monastery Cathedral: In the Name of the Light, shared with Library and Armory; 10 equipment drops across three bosses, plus courtyard/interior maps
 - The Drowned City: 8 Alliance/neutral entries, including An Acquaintance in Southshore and the two Dibbs follow-ups; observed handoffs remain distinct from mandatory prerequisites
 
-The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 460 unique quest IDs across 481 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, Seeking Caitlin by Ashenvale and Excavation Site: Wetlands, In the Name of the Light by Scarlet Monastery Library, Armory, and Cathedral, four Forlorn Gardens/Agamaggan chain quests by Shen'dralas and Razorfen Downs, and four Gelkis handoffs by Desolace and Shen'dralas. Their completion status is shared automatically.
+The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 461 unique quest IDs across 482 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, Seeking Caitlin by Ashenvale and Excavation Site: Wetlands, In the Name of the Light by Scarlet Monastery Library, Armory, and Cathedral, four Forlorn Gardens/Agamaggan chain quests by Shen'dralas and Razorfen Downs, and four Gelkis handoffs by Desolace and Shen'dralas. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
@@ -194,4 +194,4 @@ Open **Dungeons → Razorfen Downs → Map** for five bosses, rare Ragglesnout, 
 
 ## Feralas map
 
-Open **Feralas → Map** for 17 quest givers, six quest objects, and nine rare references. Nearby entries share a marker with individual source coordinates in its popup. The map links the existing quests, includes the current Kristy Grant location, and omits unsupported random chest pins. See the [Feralas map research](research/feralas-map/README.md) for sources and limits.
+Open **Feralas → Map** for 17 quest givers, five quest objects, two quest chests, and nine rare references. Nearby entries share a marker with individual source coordinates in its popup. The map links the existing quests, includes the current Kristy Grant location, and has a Quest chests layer for Old Chest and Shay's Chest. Old Chest links the newly tracked The Old Key quest; its item pickup is unconfirmed. Random treasure positions remain unverified. See the [Feralas map research](research/feralas-map/README.md) for sources and limits.

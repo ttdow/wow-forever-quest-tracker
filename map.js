@@ -10,6 +10,7 @@ const categories = {
   'quest-giver': { label: 'Quest givers', symbol: '!', color: '#b7efb5' },
   rare: { label: 'Rares', symbol: '◆', color: '#d1afff' },
   'quest-object': { label: 'Quest objects', symbol: '?', color: '#e3e7df' },
+  'quest-chest': { label: 'Quest chests', symbol: '▣', color: '#f4d484' },
   'dungeon-chest': { label: 'Chest spawns', symbol: '▣', color: '#f4d484' },
   boss: { label: 'Bosses', symbol: '◆', color: '#f19595' },
   npc: { label: 'NPCs', symbol: '●', color: '#a6d7ed' },

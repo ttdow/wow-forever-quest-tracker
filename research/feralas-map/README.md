@@ -2,16 +2,28 @@
 
 Researched November 16, 2026. Maintained data: [feralas.json](../../data/maps/feralas.json).
 
-The map has **32 entries in 27 selectable markers**:
+The map has **33 entries in 28 selectable markers**:
 
 | Layer | Entries |
 | --- | ---: |
 | Quest givers | 17 |
-| Quest objects, including Shay's quest chest | 6 |
+| Quest objects | 5 |
+| Quest chests | 2 |
 | Rare NPC references | 9 |
 | Random treasure chest positions established | 0 |
 
-It links the existing Alliance/shared Feralas quests. Foreign quest starters remain in their actual zones; Horde-only and non-Rogue class quest markers are not added. Existing quest/drop data and completion storage are unchanged.
+It links the Alliance/shared Feralas quests, including the newly tracked The Old Key (95599). Foreign quest starters remain in their actual zones; Horde-only and non-Rogue class quest markers are not added. Existing quest/drop records and completion storage are unchanged.
+
+## Quest chest follow-up
+
+The **Quest chests** layer contains:
+
+- **Old Chest (642451), 79.2, 49.35:** a player-observed Forever object reference in [Questie's trace](https://github.com/Questie/QuestieDB/blob/c0718536287f809b5bd2689cbd020435d5601061/src/corrections/Forever/traces/foreverObjectTraces.lua). Its pin links [The Old Key (95599)](https://foreverchanges.pro/quest/95599/the-old-key), whose current Forever page explicitly confirms level 42, minimum level 35, both factions, and an item start. The exact chest coordinate uses **Player report** evidence, rather than being promoted to independently confirmed or generic random treasure.
+- **Shay's Chest (144054):** the existing Classic-reference chest for Wandering Shay, now exposed in the chest layer rather than Quest objects. Its shared marker with Shay and individual source coordinate are preserved.
+
+The [current Forever Old Key tooltip](https://nether.wowhead.com/forever/tooltip/item/221497) says item 221497 begins quest 95599, requires level 35, and lists no class restriction. Its older SoD record was Shaman-only; that old restriction is not applied to the reworked Forever quest. Conversely, the old Old Crate (442688) pickup coordinate is not independently confirmed for this rework, so no item-start pin is inferred from it.
+
+The additional Grimtotem Chest and Woodpaw Bag records originate in SoD Warlock content. Their current Forever item tooltips omit the old class restriction, but no player-observed container location or relevant current quest use was established. They remain unmapped; neither a current class restriction nor a generic treasure role is assumed. Broader searches still did not establish supported **random treasure** positions in Feralas; adding these quest chests does not claim otherwise. The inspected sources and rejections are recorded in [sources.json](sources.json).
 
 ## Background and coordinates
 
@@ -44,7 +56,7 @@ Those positions are labeled **Classic references** by the source, not measured F
 
 The Homing Robot marker links both the Find OOX-22/FE! turn-in and the escort pickup. Pratt also links the Pristine Yeti Hide turn-in. These links do not turn the NPCs into starters for their respective item-started quests. No fixed distress-beacon, undelivered-parcel, or pristine-hide drop point is invented.
 
-**Shay's Chest (144054)** is a specific quest chest beside Shay Leafrunner. The read-only November 13 CMaNGOS snapshot confirms its position and loot item **Shay's Bell (9189)**, used for Wandering Shay (2845). It belongs in Quest objects, not random chest spawns. The snapshot hash is recorded in the source inventory.
+**Shay's Chest (144054)** is a specific quest chest beside Shay Leafrunner. The read-only November 13 CMaNGOS snapshot confirms its position and loot item **Shay's Bell (9189)**, used for Wandering Shay (2845). It belongs in Quest chests, not random chest spawns. The snapshot hash is recorded in the source inventory.
 
 ## Shared markers
 

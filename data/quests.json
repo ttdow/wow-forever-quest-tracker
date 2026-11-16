@@ -11103,6 +11103,37 @@
     "previousQuests": []
   },
   {
+    "id": "95599",
+    "zone": "Feralas",
+    "level": 42,
+    "name": "The Old Key",
+    "stage": "",
+    "giver": "Old Key (item)",
+    "coordinates": "",
+    "area": "Feralas (item-started quest)",
+    "objective": "Find the old chest that the key belongs to nearby in Feralas.",
+    "areaConfidence": "Area only",
+    "notes": "Both factions; No class restriction listed in the current Forever quest page; Minimum level 35; Starts with item 221497; Exact item pickup location is unconfirmed; Old Chest location is a player-observed reference from Questie, not the item pickup",
+    "sources": [
+      "https://foreverchanges.pro/quest/95599/the-old-key",
+      "https://nether.wowhead.com/forever/tooltip/item/221497",
+      "https://github.com/Questie/QuestieDB/blob/c0718536287f809b5bd2689cbd020435d5601061/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/c0718536287f809b5bd2689cbd020435d5601061/src/corrections/Forever/traces/foreverObjectTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges-and-questie-trace",
+      "giver": "foreverchanges-and-item-tooltip",
+      "pickupLocation": "unrecorded-item-start",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
     "id": "93041",
     "zone": "Shen'dralas",
     "level": 38,

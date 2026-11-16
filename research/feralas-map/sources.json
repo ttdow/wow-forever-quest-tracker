@@ -35,6 +35,14 @@
     "era-chests": {
       "name": "Classic chest-layer cross-check",
       "url": "https://theforeverera.com/data/map-layers/k.json?v=20261108113959"
+    },
+    "questie-old-chest": {
+      "name": "Forever player-observed Old Chest location",
+      "url": "https://github.com/Questie/QuestieDB/blob/c0718536287f809b5bd2689cbd020435d5601061/src/corrections/Forever/traces/foreverObjectTraces.lua"
+    },
+    "old-key-quest": {
+      "name": "The Old Key — current Forever quest",
+      "url": "https://foreverchanges.pro/quest/95599/the-old-key"
     }
   },
   "image": {
@@ -457,14 +465,16 @@
     ]
   },
   "counts": {
-    "entries": 32,
-    "markers": 27,
+    "entries": 33,
+    "markers": 28,
     "questGivers": 17,
-    "questObjects": 6,
+    "questObjects": 5,
     "rares": 9,
     "randomChestPositions": 0,
     "confirmedLocations": 1,
-    "limits": "No supported random chest positions established by the checked sources. Item-drop clouds, patrol routes, escort routes, ordinary mobs, services, and out-of-zone quest givers are omitted."
+    "limits": "Random treasure positions remain unverified. Old Chest is a player-observed quest-chest reference; Shay's Chest is a Classic quest reference. Item pickup/drop clouds, patrol routes, escort routes, ordinary mobs, services, and out-of-zone quest givers are omitted.",
+    "questChests": 2,
+    "playerReportedLocations": 1
   },
   "displayGroups": {
     "feathermoon-command": [
@@ -742,7 +752,35 @@
     "quest-98156.html": "58bdfa405d4e470e58e913c1526b5806f4dd241e92c1abd95ade71de7d32d747",
     "questgivers.json": "df6f55fdf26d6de63c781cae27c1042b2ae311615697b606286c80dcb0520508",
     "rares.json": "e339fae3f3290820429655d89a770ade204815e15ad6e284d4cb71448e9906b6",
-    "zones.json": "062342dd05d8507b961cac5f25808e727228fc8be93926a6b9b65dcc266a5747"
+    "zones.json": "062342dd05d8507b961cac5f25808e727228fc8be93926a6b9b65dcc266a5747",
+    "classic-153451.html": "59dcb7b3f21dba932cf513a2c6786f755545d2ac00375dff7ff31f3b5bc93624",
+    "classic-153453.html": "1e402b369788f807fb0392c9cec659945e5b36121f4e13a160fa1226c5b85998",
+    "classic-153454.html": "3d675fd2eaf89c02d3ca429ff160f2a3dc2720eb14310609412bfaf461738f06",
+    "classic-442688.html": "ad022370536486d61d8455979ad9b22265484e6f40fd7b2cd92a7e8f16f56a48",
+    "classic-443727.html": "ab0a12f9a5319c7dca482a4ae64731a97aac30c8d51fccdffa11cbbf02376545",
+    "classic-443728.html": "87f52c613ba01bc23485ccbed26816186ab6a5ed83bf878eb16d87f8f81515f3",
+    "classic-feralas.html": "20f89a5c31c9ac297002724330a918f6713356e53bca803d50a024cce27da102",
+    "ddg.html": "eb3e03ad2f9c1ee2b3de728b9465613469fec7a012e098a303da5533c713d672",
+    "fdb-95599.html": "88b84e3f92bf8367fc0c6a61806cbc497b697d4068246e175532f68ac060214f",
+    "forever-map.html": "40a06d0ada562cf154d72cb3925751853edbb89b0e82d090d00bc385bc980fdd",
+    "friends-objects.json": "5f7bbf7c96d2324855a12d02748e0943230f5413190c7acd20faa1fe80bf1229",
+    "item-221497-forever.json": "35a1442d6b60c2ff3f364477faa7f4f12813e427e73bee0eaf6c3726f5c9e8f9",
+    "item-221497.html": "d8a6679a2ec32e3e5d0325777e44abacb4d1cf4b5799917873f41f54ae62f341",
+    "item-221974-forever.json": "563fe4c2d3ac63db4a475fe3d30e6816057bed3f0e96084c1da8282900acedc2",
+    "item-221974.html": "e59d09e35554d90e2619f00583fbdd677d6b6cce6193dd4b35dceef2083b7c97",
+    "item-221975-forever.json": "a198c4eb90824a042ba247de616ebfe79d145faf399a18d632731080de6e1e9e",
+    "item-221975.html": "1bca3055f2b097cb5cbe6f19647f126097e1cf0eff6c68b2b0b3dcbcad26daa3",
+    "objects-base.lua": "fbc11217b65a99aa7141226f92d6703d47d3df376932c094defe8944469e915c",
+    "quest-95599.html": "d22dfb8851acb9bb58ba2fe34c13f8327867229d32bc7c4ac2f9e91a89e790bb",
+    "search-forever.rss": "c993f7c7530428267d58f8aa62c08a9e84ff97b0e5f451460f7aed69f5729626",
+    "search-specific.rss": "2c5fc1b6fcf4b624323240b5bd4642f185bc2aa97f07e3ae18de80416002e39e",
+    "search.rss": "6555e21a09f3b806f42f01ab1e6553902f4a2f845be7038f655b0f524310189a",
+    "tavern.html": "73ecdff4963b506e48d46d5736d7bdd37f132ab107f9c421d73e9c3d0b309a64",
+    "tooltip-153454.json": "0a2b859514dc7c23554c2854d19adb08b7b4fcd24be26f685a3e8957cf866bd8",
+    "tooltip-442688.json": "1c8dc445e206c27b4d0fb243b17a2f8c099ec1422f8124cb16f73752d5a94195",
+    "tooltip-443727.json": "ca87e633cd7090045bd951c838ce22cbf26ebcdd4483656fa23f7743a62f456a",
+    "tooltip-443728.json": "bee134a944363e9a1964e9a93968edb39450bbb6c3e23f9f6d58a3d683800fda",
+    "foreverObjectTraces-current.lua": "153748794186c7c0cc86e82ab4239a351c4d703713a28cf74f7b9d6331b5f869"
   },
   "omittedOutOfZoneGivers": [
     "Agnar Beastamer",
@@ -759,5 +797,37 @@
     "Retain exact source coordinates for all shared approximate marker groups, including Shay's quest chest.",
     "Only Shay's quest chest is placed. Rectangle-only treasure candidates fall outside the Feralas terrain or are that known quest object; the checked Era chest layer has no Feralas rows. Absence here is not proof that no chest can spawn in Forever.",
     "Do not map unidentified item-drop locations. Keep external quest starters in their actual zones rather than projecting them into Feralas."
-  ]
+  ],
+  "chestFollowUp": {
+    "researched": "2026-11-16",
+    "addedObject": "642451",
+    "quest": "95599",
+    "sourceRevision": "c0718536287f809b5bd2689cbd020435d5601061",
+    "objectObservation": "[objectKeys.name] = \"Old Chest\",\n            [objectKeys.spawns] = {[357]={{79.2,49.35}}},\n            [objectKeys.zoneID] = 357,\n        },",
+    "questObservation": "[questKeys.name] = \"The Old Key\",\n            [questKeys.questLevel] = 42,\n            [questKeys.objectivesText] = {\"Find the old chest that the key belongs to nearby in Feralas.\"},\n        },",
+    "coordinate": [
+      79.2,
+      49.35
+    ],
+    "evidence": "player-observed Forever object trace",
+    "scope": "Add supported quest chests; no random treasure position is asserted.",
+    "rejectedContainers": [
+      {
+        "id": "443727",
+        "name": "Grimtotem Chest",
+        "reason": "Classic/SoD container for materials formerly restricted to Warlocks. Current Forever item tooltips omit that class restriction, but no player-observed container position or relevant current quest use was found. Do not present as verified random treasure or assume a current class restriction."
+      },
+      {
+        "id": "443728",
+        "name": "Woodpaw Bag",
+        "reason": "Classic/SoD container for materials formerly restricted to Warlocks. Current Forever item tooltips omit that class restriction, but no player-observed container position or relevant current quest use was found. Do not present as verified random treasure or assume a current class restriction."
+      },
+      {
+        "id": "442688",
+        "name": "Old Crate",
+        "reason": "Older SoD map gives a key-container coordinate, but current Forever observations do not corroborate this item pickup. Do not infer the new quest starter position from it."
+      }
+    ],
+    "itemRework": "Old Key 221497 is an old Shaman-only item in Classic/SoD. Its current Forever tooltip instead begins quest 95599, requires level 35, and lists no class restriction; the current quest page explicitly allows both factions."
+  }
 }
