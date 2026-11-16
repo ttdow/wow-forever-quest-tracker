@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "build": "1.60.1.70862",
   "instances": {
     "Deadmines": {
@@ -5556,6 +5556,273 @@
         }
       ],
       "notes": "Current Wowhead Forever tooltip stats and explicit drop sources. Includes rare Ragglesnout and rare Ambassador Bloodrage on the entrance approach."
+    },
+    "Scarlet Monastery Cathedral": {
+      "id": 189,
+      "source": "https://foreverdb.net/dungeon/189-scarlet-monastery",
+      "build": "1.60.1.70938",
+      "items": [
+        {
+          "id": "19507",
+          "name": "Inquisitor's Shawl",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Shoulders",
+          "type": "Cloth",
+          "stats": [
+            "46 Armor",
+            "+13 Intellect",
+            "+22 Healing Power",
+            "+7 Spell Damage"
+          ],
+          "source": "High Inquisitor Fairbanks",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=19507",
+            "https://nether.wowhead.com/forever/tooltip/item/19507",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "19508",
+          "name": "Branded Leather Bracers",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Wrist",
+          "type": "Leather",
+          "stats": [
+            "55 Armor",
+            "+6 Stamina",
+            "+20 Attack Power"
+          ],
+          "source": "High Inquisitor Fairbanks",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=19508",
+            "https://nether.wowhead.com/forever/tooltip/item/19508",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "19509",
+          "name": "Dusty Mail Boots",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Feet",
+          "type": "Mail",
+          "stats": [
+            "180 Armor (includes +90 bonus Armor)",
+            "+14 Stamina"
+          ],
+          "source": "High Inquisitor Fairbanks",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=19509",
+            "https://nether.wowhead.com/forever/tooltip/item/19509",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7726",
+          "name": "Aegis of the Scarlet Commander",
+          "quality": 3,
+          "requiredLevel": 39,
+          "itemLevel": 44,
+          "slot": "Off-hand",
+          "type": "Shield",
+          "stats": [
+            "1548 Armor",
+            "23 Block",
+            "+7 Strength",
+            "+8 Stamina",
+            "Equip: Deals 13 to 15 Holy damage every time you block."
+          ],
+          "source": "Scarlet Commander Mograine",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7726",
+            "https://nether.wowhead.com/forever/tooltip/item/7726",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7724",
+          "name": "Gauntlets of Divinity",
+          "quality": 3,
+          "requiredLevel": 39,
+          "itemLevel": 44,
+          "slot": "Hands",
+          "type": "Mail",
+          "stats": [
+            "168 Armor",
+            "+7 Stamina",
+            "+32 Attack Power"
+          ],
+          "source": "Scarlet Commander Mograine",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7724",
+            "https://nether.wowhead.com/forever/tooltip/item/7724",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7723",
+          "name": "Mograine's Might",
+          "quality": 3,
+          "requiredLevel": 39,
+          "itemLevel": 44,
+          "slot": "Two-hand",
+          "type": "Two-hand mace",
+          "stats": [
+            "105–159 damage · 3.40s · 38.8 DPS",
+            "+8 Strength",
+            "+14 Stamina",
+            "+16 Intellect"
+          ],
+          "source": "Scarlet Commander Mograine",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7723",
+            "https://nether.wowhead.com/forever/tooltip/item/7723",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "10330",
+          "name": "Scarlet Leggings",
+          "quality": 3,
+          "requiredLevel": 39,
+          "itemLevel": 44,
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "236 Armor",
+            "+21 Strength",
+            "+10 Stamina"
+          ],
+          "source": "Scarlet Commander Mograine",
+          "sourceOrder": 2,
+          "dropEvidence": "classic",
+          "statsEvidence": "client",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=10330",
+            "https://nether.wowhead.com/forever/tooltip/item/10330",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua",
+            "https://github.com/cmangos/classic-db/releases/tag/latest"
+          ]
+        },
+        {
+          "id": "7721",
+          "name": "Hand of Righteousness",
+          "quality": 3,
+          "requiredLevel": 39,
+          "itemLevel": 44,
+          "slot": "Main hand",
+          "type": "Mace",
+          "stats": [
+            "37–70 damage · 2.70s · 19.8 DPS",
+            "+7 Stamina",
+            "+8 Spirit",
+            "+94 Healing Power",
+            "+31 Spell Damage"
+          ],
+          "source": "High Inquisitor Whitemane",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7721",
+            "https://nether.wowhead.com/forever/tooltip/item/7721",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7722",
+          "name": "Triune Amulet",
+          "quality": 3,
+          "requiredLevel": 39,
+          "itemLevel": 44,
+          "slot": "Neck",
+          "type": "Accessory",
+          "stats": [
+            "+7 Stamina",
+            "+7 Spirit",
+            "+8 Spell Power"
+          ],
+          "source": "High Inquisitor Whitemane",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7722",
+            "https://nether.wowhead.com/forever/tooltip/item/7722",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        },
+        {
+          "id": "7720",
+          "name": "Whitemane's Chapeau",
+          "quality": 3,
+          "requiredLevel": 39,
+          "itemLevel": 44,
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "52 Armor",
+            "+9 Stamina",
+            "+10 Intellect",
+            "+12 Spirit",
+            "+20 Healing Power",
+            "+7 Spell Damage",
+            "Equip: Reduces the cast time of spells and effects that revive targets by 20%."
+          ],
+          "source": "High Inquisitor Whitemane",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=7720",
+            "https://nether.wowhead.com/forever/tooltip/item/7720",
+            "https://foreverdb.net/dungeon/189-scarlet-monastery",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua"
+          ]
+        }
+      ]
     }
   }
 }

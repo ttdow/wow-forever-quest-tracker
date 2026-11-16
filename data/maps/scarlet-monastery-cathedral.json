@@ -1,0 +1,237 @@
+{
+  "zone": "Scarlet Monastery Cathedral",
+  "updated": "2026-11-15",
+  "map": {
+    "appearance": "dungeon",
+    "coordinateSystem": "guide-image",
+    "attribution": "World of Warcraft © Blizzard Entertainment; client maps via ForeverDB"
+  },
+  "floors": [
+    {
+      "id": "cathedral",
+      "name": "Cathedral",
+      "image": "./assets/maps/scarlet-monastery-cathedral-cathedral.webp",
+      "width": 364,
+      "height": 401,
+      "source": "https://foreverdb.net/dungeon/189-scarlet-monastery",
+      "worldProjection": {
+        "originX": 1247.84,
+        "originY": 1489.99,
+        "pixelsPerYard": 2.0
+      }
+    },
+    {
+      "id": "courtyard",
+      "name": "Courtyard",
+      "image": "./assets/maps/scarlet-monastery-cathedral-courtyard.webp",
+      "width": 553,
+      "height": 887,
+      "source": "https://foreverdb.net/dungeon/189-scarlet-monastery",
+      "worldProjection": {
+        "originX": 1255.29,
+        "originY": 1542.07,
+        "pixelsPerYard": 2.0
+      }
+    }
+  ],
+  "note": "Cathedral wing only. Use the section selector for the courtyard and interior. Classic reference positions; spawns may differ in Forever.",
+  "points": [
+    {
+      "id": "npc-3976",
+      "name": "Scarlet Commander Mograine",
+      "category": "boss",
+      "floor": "cathedral",
+      "x": 50.3297,
+      "y": 46.8678,
+      "world": {
+        "map": 189,
+        "x": 1153.87,
+        "y": 1398.39,
+        "z": 32.6112
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client map section.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "npcId": "3976",
+      "spawnGuid": 1890007,
+      "drops": true,
+      "questIds": [
+        "1053"
+      ]
+    },
+    {
+      "id": "npc-3977",
+      "name": "High Inquisitor Whitemane",
+      "category": "boss",
+      "floor": "cathedral",
+      "x": 49.956,
+      "y": 22.798,
+      "world": {
+        "map": 189,
+        "x": 1202.13,
+        "y": 1399.07,
+        "z": 29.0931
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client map section.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "npcId": "3977",
+      "spawnGuid": 1890008,
+      "drops": true,
+      "questIds": [
+        "1053"
+      ]
+    },
+    {
+      "id": "npc-4542",
+      "name": "High Inquisitor Fairbanks",
+      "category": "boss",
+      "floor": "cathedral",
+      "x": 74.5714,
+      "y": 44.3791,
+      "world": {
+        "map": 189,
+        "x": 1158.86,
+        "y": 1354.27,
+        "z": 30.389
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client map section.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "npcId": "4542",
+      "spawnGuid": 1890314,
+      "drops": true,
+      "note": "Hidden chamber beside the cathedral. See the nearby torch and secret-door reference."
+    },
+    {
+      "id": "fairbanks-torch",
+      "name": "Fairbanks chamber torch",
+      "category": "landmark",
+      "floor": "cathedral",
+      "x": 79.3187,
+      "y": 39.3067,
+      "world": {
+        "map": 189,
+        "x": 1169.03,
+        "y": 1345.63,
+        "z": 33.0456
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client map section.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "objectId": "97701",
+      "spawnGuid": 1890030,
+      "note": "Classic torch position beside the secret door to Fairbanks' chamber."
+    },
+    {
+      "id": "chapel-door-cathedral",
+      "name": "Cathedral doorway",
+      "category": "landmark",
+      "floor": "cathedral",
+      "x": 49.9176,
+      "y": 88.7232,
+      "world": {
+        "map": 189,
+        "x": 1069.95,
+        "y": 1399.14,
+        "z": 30.7956
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client map section.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "objectId": "104591",
+      "spawnGuid": 1890044,
+      "note": "The same chapel doorway appears on both sections. Switch to Courtyard to view the other side."
+    },
+    {
+      "id": "chapel-door-courtyard",
+      "name": "Cathedral doorway",
+      "category": "landmark",
+      "floor": "courtyard",
+      "x": 51.6926,
+      "y": 41.7903,
+      "world": {
+        "map": 189,
+        "x": 1069.95,
+        "y": 1399.14,
+        "z": 30.7956
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client map section.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "objectId": "104591",
+      "spawnGuid": 1890044,
+      "note": "The same chapel doorway appears on both sections. Switch to Cathedral to view the other side."
+    },
+    {
+      "id": "cathedral-arrival",
+      "name": "Cathedral entrance",
+      "category": "entrance",
+      "floor": "courtyard",
+      "x": 80.6112,
+      "y": 90.6676,
+      "world": {
+        "map": 189,
+        "x": 853.179,
+        "y": 1319.18,
+        "z": 18.6714
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto matching Forever client map section.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "areaTriggerId": 610,
+      "note": "Arrival just inside the Cathedral wing, not the Graveyard entrance."
+    }
+  ],
+  "sources": {
+    "fdb-map": {
+      "name": "ForeverDB client map and projection",
+      "url": "https://foreverdb.net/dungeon/189-scarlet-monastery"
+    },
+    "classic-sql": {
+      "name": "Classic Cathedral spawns and objects",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/189_scarlet_monastery.sql"
+    },
+    "classic-snapshot": {
+      "name": "Classic database snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    }
+  },
+  "coverage": {
+    "bosses": 3,
+    "torchReferences": 1,
+    "doorwayReferences": 2,
+    "arrivalPoints": 1,
+    "totalEntries": 7,
+    "limits": "The same chapel doorway appears on both sections. No Cathedral chest positions established by these sources."
+  },
+  "license": "Classic spawn references derived from CMaNGOS Classic-DB under GPL-3.0. Blizzard client artwork retains its copyright."
+}

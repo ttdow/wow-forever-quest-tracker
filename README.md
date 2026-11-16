@@ -4,7 +4,7 @@ Static HTML, CSS, and JavaScript. No installation, application server, package m
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Chrome, Firefox, or another modern browser.
 
-- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, or The Drowned City.
+- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, or The Drowned City.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
@@ -13,7 +13,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Choose **Professions → Fishing** for a searchable table of fish, catch locations, water/catch types, minimum Fishing, and no-fail Fishing. Cooking recipes and cooked bonuses are deferred to a future Cooking section.
 - Filter completed / not completed quests, or sort by level, name, or area.
 - In dungeon lists, switch between **Quests** and **Drops**. Each boss with recorded equipment has a card with an expandable loot table. Drops have item names, required levels, base stats/effects, and source evidence, with search, source filtering, and an optional Rogue filter.
-- In **Desolace**, **Gnomeregan**, **Razorfen Kraul**, **Scarlet Monastery Library**, **The City of Dalaran**, or **The Drowned City**, choose **Map** for researched location references. Pan, zoom, filter layers, search, and open markers for coordinates and available quest/drop links. Gnomeregan has separate map sections; Razorfen Kraul has bosses, chest positions, quest givers, and an optional Blueleaf Tuber layer. Dalaran has six community boss-guide markers in City and one approximate player-reported Atrexis marker in Sewers. Drowned City uses Santiago Reyes' fan map with entrance and named-area references. Library has both bosses, four possible chest positions, Doan's Strongbox, the Mythology quest book, and its own entrance.
+- In **Desolace**, **Gnomeregan**, **Razorfen Kraul**, **Scarlet Monastery Library**, **Scarlet Monastery Cathedral**, **The City of Dalaran**, or **The Drowned City**, choose **Map** for researched location references. Pan, zoom, filter layers, search, and open markers for coordinates and available quest/drop links. Gnomeregan has separate map sections; Razorfen Kraul has bosses, chest positions, quest givers, and an optional Blueleaf Tuber layer. Dalaran has six community boss-guide markers in City and one approximate player-reported Atrexis marker in Sewers. Drowned City uses Santiago Reyes' fan map with entrance and named-area references. Library has both bosses, four possible chest positions, Doan's Strongbox, the Mythology quest book, and its own entrance.
 
 Progress saves automatically in this browser's local storage. It survives closing the page and restarting the browser, but does not sync across browsers or devices. Clearing site data removes progress. Private browsing saves last only for that private session. Each quest is tracked by its ID, including shared IDs across zones.
 
@@ -30,7 +30,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 478 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 479 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
@@ -51,9 +51,10 @@ The browser loads all 478 quest entries directly from `data/quests.json`. This J
 - Scarlet Monastery Graveyard: no verified Alliance or Rogue quests; opens on Drops, with a concise empty Quests view
 - Scarlet Monastery Library: 3 quests, including Past Due; In the Name of the Light links to Desolace prerequisites and explicitly requires Library, Armory, and Cathedral
 - Scarlet Monastery Armory: In the Name of the Light, shared with Library using the same completion ID and Desolace prerequisite link
+- Scarlet Monastery Cathedral: In the Name of the Light, shared with Library and Armory; 10 equipment drops across three bosses, plus courtyard/interior maps
 - The Drowned City: 8 Alliance/neutral entries, including An Acquaintance in Southshore and the two Dibbs follow-ups; observed handoffs remain distinct from mandatory prerequisites
 
-The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 458 unique quest IDs across 478 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, Seeking Caitlin by Ashenvale and Excavation Site: Wetlands, In the Name of the Light by Scarlet Monastery Library and Armory, four Forlorn Gardens/Agamaggan chain quests by Shen'dralas and Razorfen Downs, and four Gelkis handoffs by Desolace and Shen'dralas. Their completion status is shared automatically.
+The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 458 unique quest IDs across 479 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, Seeking Caitlin by Ashenvale and Excavation Site: Wetlands, In the Name of the Light by Scarlet Monastery Library, Armory, and Cathedral, four Forlorn Gardens/Agamaggan chain quests by Shen'dralas and Razorfen Downs, and four Gelkis handoffs by Desolace and Shen'dralas. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
@@ -95,7 +96,7 @@ The site must be served over HTTP or HTTPS so the browser can load the JSON file
 
 ## Dungeon drops
 
-`data/drops.json` contains 220 boss-specific equipment entries: 31 for Deadmines, 21 for Wailing Caverns, 21 for Blackfathom Deeps, 9 for The Stockades, 16 for Gnomeregan, 9 for Excavation Site: Wetlands, 24 for The City of Dalaran, 23 for Razorfen Kraul, 22 for Razorfen Downs, 15 for Scarlet Monastery Graveyard, 10 for Scarlet Monastery Library, 4 for Scarlet Monastery Armory, and 15 for The Drowned City. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats. Razorfen Downs has 14 Rogue-usable entries, Drowned City has nine, and Armory's four Herod items are all mail or a two-handed axe and produce an empty Rogue filter.
+`data/drops.json` contains 230 boss-specific equipment entries: 31 for Deadmines, 21 for Wailing Caverns, 21 for Blackfathom Deeps, 9 for The Stockades, 16 for Gnomeregan, 9 for Excavation Site: Wetlands, 24 for The City of Dalaran, 23 for Razorfen Kraul, 22 for Razorfen Downs, 15 for Scarlet Monastery Graveyard, 10 for Scarlet Monastery Library, 4 for Scarlet Monastery Armory, 10 for Scarlet Monastery Cathedral, and 15 for The Drowned City. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats. Razorfen Downs has 14 Rogue-usable entries, Drowned City has nine, and Armory's four Herod items are all mail or a two-handed axe and produce an empty Rogue filter.
 
 Boss cards start collapsed and show their matching item counts. Multiple cards can be expanded at once. Open cards are remembered for each dungeon during the current page session. Searching or choosing a specific source opens matching cards. Named rare bosses are included; ordinary trash sources and equipment without a confirmed boss source are excluded.
 
@@ -182,3 +183,7 @@ Enable **Quest objects** for 69 hidden Blueleaf Tuber reference positions and th
 ## Scarlet Monastery Library map
 
 Open **Dungeons → Scarlet Monastery Library → Map** for the Library wing. Its nine markers use Classic reference positions projected onto a locally stored Forever client minimap. Bosses link to Drops; Loksey and the Mythology book link to tracked quests. Chest alternatives are grouped by position. See the [map research](research/scarlet-monastery-library-map/README.md) for sources and limits.
+
+## Scarlet Monastery Cathedral
+
+Open **Dungeons → Scarlet Monastery Cathedral** for Quests, Drops, and Map. In the Name of the Light shares completion with Library and Armory. Drops has three expandable boss cards, 10 boss-specific equipment entries, and a Rogue filter (five usable). The map has separate Cathedral and Courtyard sections, three bosses, the Fairbanks chamber torch, the chapel doorway on both sections, and the correct wing entrance. See the [research report](research/scarlet-monastery-cathedral/README.md) for sources and limits.

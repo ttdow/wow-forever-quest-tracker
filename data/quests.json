@@ -12949,6 +12949,46 @@
     "previousQuests": []
   },
   {
+    "id": "1053",
+    "zone": "Scarlet Monastery Cathedral",
+    "level": 40,
+    "name": "In the Name of the Light",
+    "stage": "Library, Armory and Cathedral",
+    "giver": "Raleigh the Devout",
+    "coordinates": "51.5, 58.4",
+    "area": "Southshore (Hillsbrad Foothills)",
+    "objective": "Kill Houndmaster Loksey (Library), Herod (Armory), and High Inquisitor Whitemane and Scarlet Commander Mograine (Cathedral). Return to Raleigh the Devout in Southshore.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction; Minimum level 34; Completion spans Library, Armory, and Cathedral; Classic-reference details",
+    "sources": [
+      "https://foreverdb.net/quest/1053",
+      "https://foreverchanges.pro/quest/1053",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f106587a91ffec3967b34eb8cfa02a3dffcd9299/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua",
+      "https://foreverchanges.pro/quest/1053/in-the-name-of-the-light"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "classic"
+    },
+    "prerequisites": [
+      {
+        "id": "1052",
+        "name": "Down the Scarlet Path",
+        "evidence": "classic",
+        "sources": [
+          "https://foreverdb.net/quest/1053"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
     "id": "6626",
     "zone": "Razorfen Downs",
     "level": 35,

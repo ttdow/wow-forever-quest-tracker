@@ -21,6 +21,7 @@ const zones = {
   Gnomeregan: { file: 'gnomeregan', guide: 'https://foreverdb.net/dungeon/90-gnomeregan', report: 'gnomeregan-map' },
   'Razorfen Kraul': { file: 'razorfen-kraul', guide: 'https://foreverdb.net/dungeon/47-razorfen-kraul', report: 'razorfen-kraul-map', defaultHiddenLayers: ['quest-object'] },
   'Scarlet Monastery Library': { file: 'scarlet-monastery-library', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-library-map' },
+  'Scarlet Monastery Cathedral': { file: 'scarlet-monastery-cathedral', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-cathedral' },
   'The City of Dalaran': {
     file: 'city-of-dalaran', guide: 'https://azeroth.wiki/forever/dungeons/city-of-dalaran', report: 'city-of-dalaran-map',
     provider: 'Azeroth DB', terms: 'https://azeroth.wiki/terms',

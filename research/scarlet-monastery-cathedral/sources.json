@@ -1,0 +1,255 @@
+{
+  "researched": "2026-11-15",
+  "zone": "Scarlet Monastery Cathedral",
+  "dungeonId": 189,
+  "build": "1.60.1.70938",
+  "questIndex": "https://foreverchanges.pro/quests/scarlet-monastery",
+  "questCandidates": [
+    {
+      "id": "1048",
+      "name": "Into the Scarlet Monastery",
+      "decision": "excluded-horde-only"
+    },
+    {
+      "id": "1049",
+      "name": "Compendium of the Fallen",
+      "decision": "excluded-horde-only"
+    },
+    {
+      "id": "1050",
+      "name": "Mythology of the Titans",
+      "decision": "excluded-library-only"
+    },
+    {
+      "id": "1051",
+      "name": "Vorrel's Revenge",
+      "decision": "excluded-horde-only"
+    },
+    {
+      "id": "1053",
+      "name": "In the Name of the Light",
+      "decision": "included-shared-across-three-wings"
+    },
+    {
+      "id": "1113",
+      "name": "Hearts of Zeal",
+      "decision": "excluded-horde-only"
+    },
+    {
+      "id": "1160",
+      "name": "Test of Lore",
+      "decision": "excluded-horde-only"
+    },
+    {
+      "id": "96800",
+      "name": "Past Due",
+      "decision": "excluded-library-only"
+    },
+    {
+      "id": "1951",
+      "name": "Rituals of Power",
+      "decision": "excluded-mage-only"
+    }
+  ],
+  "questCount": 1,
+  "equipmentCount": 10,
+  "rogueUsable": 5,
+  "bossEquipment": [
+    {
+      "id": "19507",
+      "name": "Inquisitor's Shawl",
+      "boss": "High Inquisitor Fairbanks",
+      "sourceEvidence": "wowhead",
+      "tooltipExplicitBoss": true,
+      "stats": "current Forever tooltip; Scarlet Leggings also matches existing Armory client record"
+    },
+    {
+      "id": "19508",
+      "name": "Branded Leather Bracers",
+      "boss": "High Inquisitor Fairbanks",
+      "sourceEvidence": "seen",
+      "tooltipExplicitBoss": true,
+      "stats": "current Forever tooltip; Scarlet Leggings also matches existing Armory client record"
+    },
+    {
+      "id": "19509",
+      "name": "Dusty Mail Boots",
+      "boss": "High Inquisitor Fairbanks",
+      "sourceEvidence": "wowhead",
+      "tooltipExplicitBoss": true,
+      "stats": "current Forever tooltip; Scarlet Leggings also matches existing Armory client record"
+    },
+    {
+      "id": "7726",
+      "name": "Aegis of the Scarlet Commander",
+      "boss": "Scarlet Commander Mograine",
+      "sourceEvidence": "wowhead",
+      "tooltipExplicitBoss": true,
+      "stats": "current Forever tooltip; Scarlet Leggings also matches existing Armory client record"
+    },
+    {
+      "id": "7724",
+      "name": "Gauntlets of Divinity",
+      "boss": "Scarlet Commander Mograine",
+      "sourceEvidence": "wowhead",
+      "tooltipExplicitBoss": true,
+      "stats": "current Forever tooltip; Scarlet Leggings also matches existing Armory client record"
+    },
+    {
+      "id": "7723",
+      "name": "Mograine's Might",
+      "boss": "Scarlet Commander Mograine",
+      "sourceEvidence": "wowhead",
+      "tooltipExplicitBoss": true,
+      "stats": "current Forever tooltip; Scarlet Leggings also matches existing Armory client record"
+    },
+    {
+      "id": "10330",
+      "name": "Scarlet Leggings",
+      "boss": "Scarlet Commander Mograine",
+      "sourceEvidence": "classic",
+      "tooltipExplicitBoss": false,
+      "stats": "current Forever tooltip; Scarlet Leggings also matches existing Armory client record"
+    },
+    {
+      "id": "7721",
+      "name": "Hand of Righteousness",
+      "boss": "High Inquisitor Whitemane",
+      "sourceEvidence": "wowhead",
+      "tooltipExplicitBoss": true,
+      "stats": "current Forever tooltip; Scarlet Leggings also matches existing Armory client record"
+    },
+    {
+      "id": "7722",
+      "name": "Triune Amulet",
+      "boss": "High Inquisitor Whitemane",
+      "sourceEvidence": "wowhead",
+      "tooltipExplicitBoss": true,
+      "stats": "current Forever tooltip; Scarlet Leggings also matches existing Armory client record"
+    },
+    {
+      "id": "7720",
+      "name": "Whitemane's Chapeau",
+      "boss": "High Inquisitor Whitemane",
+      "sourceEvidence": "wowhead",
+      "tooltipExplicitBoss": true,
+      "stats": "current Forever tooltip; Scarlet Leggings also matches existing Armory client record"
+    }
+  ],
+  "map": {
+    "floors": [
+      {
+        "id": "cathedral",
+        "name": "Cathedral",
+        "image": "./assets/maps/scarlet-monastery-cathedral-cathedral.webp",
+        "width": 364,
+        "height": 401,
+        "source": "https://foreverdb.net/dungeon/189-scarlet-monastery",
+        "worldProjection": {
+          "originX": 1247.84,
+          "originY": 1489.99,
+          "pixelsPerYard": 2.0
+        }
+      },
+      {
+        "id": "courtyard",
+        "name": "Courtyard",
+        "image": "./assets/maps/scarlet-monastery-cathedral-courtyard.webp",
+        "width": 553,
+        "height": 887,
+        "source": "https://foreverdb.net/dungeon/189-scarlet-monastery",
+        "worldProjection": {
+          "originX": 1255.29,
+          "originY": 1542.07,
+          "pixelsPerYard": 2.0
+        }
+      }
+    ],
+    "entryCount": 7,
+    "arrivalTrigger": 610,
+    "physicalDoorwayShownTwice": true,
+    "classicDBSha256": "daa16e44b95a9d4a0d17b8f8e3a91cf0b4be1af7d9b3bfc8ac71707a02399f5f",
+    "sqlRevision": "09000ea8d7333856727204e4e2d30f772149b7a8",
+    "comparisonBossSpots": [
+      {
+        "order": 6,
+        "n": "High Inquisitor Fairbanks",
+        "floor": 4,
+        "x": 74.57,
+        "y": 44.38,
+        "wx": 1158.9,
+        "wy": 1354.3,
+        "wz": 30.4,
+        "src": "classic",
+        "label": "Classic spawn"
+      },
+      {
+        "order": 7,
+        "n": "High Inquisitor Whitemane",
+        "floor": 4,
+        "x": 49.96,
+        "y": 22.8,
+        "wx": 1202.1,
+        "wy": 1399.1,
+        "wz": 29.1,
+        "src": "classic",
+        "label": "Classic spawn"
+      }
+    ],
+    "mapSource": {
+      "name": "ForeverDB client map and projection",
+      "url": "https://foreverdb.net/dungeon/189-scarlet-monastery"
+    },
+    "classicSources": {
+      "fdb-map": {
+        "name": "ForeverDB client map and projection",
+        "url": "https://foreverdb.net/dungeon/189-scarlet-monastery"
+      },
+      "classic-sql": {
+        "name": "Classic Cathedral spawns and objects",
+        "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/189_scarlet_monastery.sql"
+      },
+      "classic-snapshot": {
+        "name": "Classic database snapshot",
+        "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+      }
+    },
+    "classicDBReleasePublished": "2026-11-13T13:34:58Z",
+    "classicDBAsset": "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+  },
+  "sources": {
+    "att": "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/scarlet%20monastery.lua",
+    "sql": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/189_scarlet_monastery.sql",
+    "dungeon": "https://foreverdb.net/data/dungeons/189.json",
+    "quest": "https://foreverchanges.pro/quest/1053/in-the-name-of-the-light",
+    "classicLootSnapshot": "https://github.com/cmangos/classic-db/releases/tag/latest"
+  },
+  "sourceHashes": {
+    "att-sm.lua": "063878269cf275d86f227e049a540da05be094470de49bb33864c29f184b821f",
+    "changes-index.html": "c278bb82519da24b67d06bfc9a8dde232929cb9377366bf7146153d995fc2607",
+    "dungeon.json": "bf24c884495375f11113ac12ed551393b27ba6eabdaa20a11a97df5e3f343168",
+    "instance_scarlet_monastery.cpp": "b66c7fba41847fb56368fd535819d4aedd68eff5b4401ed1c451a00985edb82d",
+    "map-4.webp": "5ea5d29736d54fc1ccfadd91a24278ccb6538b7558101d5b7a8a347142cac9fd",
+    "map-5.webp": "bd862be735271f4138e1ebd966ab1dff9de4e87afa352424117981422af0d5a7",
+    "map-7.webp": "18a8782290c971086fcfadf488227f09847cc0be2e7cc2fa9395809f5af12d7f",
+    "quest-1053.html": "45cc5558e61cd43f4f5dab0610d7bca526e4f00d63bd2af8bc7711d1aa50dde3",
+    "tooltip-10330.json": "6c56df88cadf96dd6f09dba7629fa4928bdea858bb269cd16d65a473269e30b1",
+    "tooltip-19507.json": "64700b7bf7ce31b186c4c6b166d90ab3e9fe0c193b0938afe5a71d8c8bca5551",
+    "tooltip-19508.json": "7cdcf1da0767a73aa832bd594d6284c3494fa46bea47123c5a6cd1b50f5a279b",
+    "tooltip-19509.json": "4b6b0aa70c21ad57811c41cf897f73e14138ec0f73cea439132267e406e5e6d4",
+    "tooltip-7720.json": "5348c5fb85daa1926bd33ac59dcf33a366a1205270540a8ecc5f34e97053c1c1",
+    "tooltip-7721.json": "9d3c8f13d8cb0c7fbf00302943f03a6d10c4f3b1afb3f117db9b8773146506dd",
+    "tooltip-7722.json": "ab37d634fd9cf047a41ee726f668b4761d4e81b966cda24db19824ba894cc4af",
+    "tooltip-7723.json": "dfe91c21fb62f81ce7b398713b717675d45908f841bcee34088cd55d0c715371",
+    "tooltip-7724.json": "e992c5649c597365db951b3a1164d3d04057e6925783c67ea3f60f7a47ad8db4",
+    "tooltip-7726.json": "35cf9a9a3883034a4743c98cb4d662f6bcdb7a88789b4c58663de9d902fb3457",
+    "sm.sql": "02fae7aac3108fd28d7c507cd00e66583941391e97c4370dd2e3a00b9b05cc71"
+  },
+  "limits": [
+    "Current ForeverDB boss/loot registry omits Mograine; do not use its index as the sole coverage boundary.",
+    "Nine Forever tooltips explicitly name the boss. Scarlet Leggings -> Mograine is corroborated by Classic primary loot data and the Forever addon; label Classic reference.",
+    "Equipment stats use current Forever tooltips; Scarlet Leggings also matches the existing client record. No generic world loot, quest items, recipes, or consumables.",
+    "Map positions are Classic references; no unverified Forever spawn or chest claim.",
+    "Keep existing quest IDs and completion storage. Browser checks are left to the user."
+  ]
+}
