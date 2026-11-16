@@ -1,0 +1,314 @@
+{
+  "zone": "Scarlet Monastery Library",
+  "updated": "2026-11-15",
+  "map": {
+    "appearance": "dungeon",
+    "image": "./assets/maps/scarlet-monastery-library.webp",
+    "width": 736,
+    "height": 453,
+    "worldProjection": {
+      "originX": 313.88,
+      "originY": -108.27,
+      "pixelsPerYard": 2.0
+    },
+    "source": "https://foreverdb.net/dungeon/189-scarlet-monastery",
+    "attribution": "World of Warcraft © Blizzard Entertainment; client map via ForeverDB",
+    "coordinateSystem": "guide-image"
+  },
+  "note": "Library wing only. Classic reference positions on a Forever client map; chest spawns may differ in Forever.",
+  "points": [
+    {
+      "id": "npc-3974",
+      "name": "Houndmaster Loksey",
+      "category": "boss",
+      "x": 41.4671,
+      "y": 85.6256,
+      "world": {
+        "map": 189,
+        "x": 119.938,
+        "y": -260.869,
+        "z": 18.6299
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the matching Forever client Library minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "npcId": "3974",
+      "spawnGuid": 1890005,
+      "drops": true,
+      "questIds": [
+        "1053"
+      ],
+      "note": "Library target for In the Name of the Light. Its other targets are in Armory and Cathedral."
+    },
+    {
+      "id": "npc-6487",
+      "name": "Arcanist Doan",
+      "category": "boss",
+      "x": 87.0712,
+      "y": 73.0949,
+      "world": {
+        "map": 189,
+        "x": 148.32,
+        "y": -428.692,
+        "z": 18.4864
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the matching Forever client Library minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "npcId": "6487",
+      "spawnGuid": 1890335,
+      "drops": true
+    },
+    {
+      "id": "object-19284",
+      "name": "Mythology of the Titans",
+      "category": "quest-object",
+      "x": 66.3022,
+      "y": 14.3444,
+      "world": {
+        "map": 189,
+        "x": 281.39,
+        "y": -352.262,
+        "z": 20.4047
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the matching Forever client Library minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "objectId": "19284",
+      "spawnGuid": 1890025,
+      "questIds": [
+        "1050"
+      ],
+      "note": "Quest-book pickup for Mythology of the Titans."
+    },
+    {
+      "id": "object-103821",
+      "name": "Doan's Strongbox",
+      "category": "dungeon-chest",
+      "x": 88.138,
+      "y": 80.377,
+      "world": {
+        "map": 189,
+        "x": 131.826,
+        "y": -432.618,
+        "z": 18.5158
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the matching Forever client Library minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "objectId": "103821",
+      "spawnGuid": 1890042,
+      "aliases": [
+        "The Scarlet Key",
+        "Scarlet Key"
+      ],
+      "note": "Doan's room. Contains The Scarlet Key in the Classic reference; Forever contents are not independently confirmed."
+    },
+    {
+      "id": "chest-1890121",
+      "name": "Possible chest spawn 1",
+      "category": "dungeon-chest",
+      "x": 50.1245,
+      "y": 39.7272,
+      "world": {
+        "map": 189,
+        "x": 223.898,
+        "y": -292.728,
+        "z": 19.1996
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the matching Forever client Library minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "objectIds": [
+        "75296",
+        "75299"
+      ],
+      "variants": [
+        {
+          "id": "75296",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "id": "75299",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "spawnGuid": 1890121,
+      "note": "Possible Large Iron Bound Chest or Large Solid Chest. Alternatives at one position, not two chests; not a guaranteed active spawn in Forever."
+    },
+    {
+      "id": "chest-1890122",
+      "name": "Possible chest spawn 2",
+      "category": "dungeon-chest",
+      "x": 69.9459,
+      "y": 16.1055,
+      "world": {
+        "map": 189,
+        "x": 277.401,
+        "y": -365.671,
+        "z": 20.3969
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the matching Forever client Library minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "objectIds": [
+        "75296",
+        "75299"
+      ],
+      "variants": [
+        {
+          "id": "75296",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "id": "75299",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "spawnGuid": 1890122,
+      "note": "Possible Large Iron Bound Chest or Large Solid Chest. Alternatives at one position, not two chests; not a guaranteed active spawn in Forever."
+    },
+    {
+      "id": "chest-1890123",
+      "name": "Possible chest spawn 3",
+      "category": "dungeon-chest",
+      "x": 79.6633,
+      "y": 15.6141,
+      "world": {
+        "map": 189,
+        "x": 278.514,
+        "y": -401.431,
+        "z": 20.3957
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the matching Forever client Library minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "objectIds": [
+        "75296",
+        "75299"
+      ],
+      "variants": [
+        {
+          "id": "75296",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "id": "75299",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "spawnGuid": 1890123,
+      "note": "Possible Large Iron Bound Chest or Large Solid Chest. Alternatives at one position, not two chests; not a guaranteed active spawn in Forever."
+    },
+    {
+      "id": "chest-1890124",
+      "name": "Possible chest spawn 4",
+      "category": "dungeon-chest",
+      "x": 84.3973,
+      "y": 61.0768,
+      "world": {
+        "map": 189,
+        "x": 175.541,
+        "y": -418.852,
+        "z": 18.868
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the matching Forever client Library minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "objectIds": [
+        "75296",
+        "75299"
+      ],
+      "variants": [
+        {
+          "id": "75296",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "id": "75299",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "spawnGuid": 1890124,
+      "note": "Possible Large Iron Bound Chest or Large Solid Chest. Alternatives at one position, not two chests; not a guaranteed active spawn in Forever."
+    },
+    {
+      "id": "library-arrival",
+      "name": "Library entrance",
+      "category": "entrance",
+      "x": 26.7266,
+      "y": 26.5819,
+      "world": {
+        "map": 189,
+        "x": 253.672,
+        "y": -206.624,
+        "z": 18.6773
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the matching Forever client Library minimap.",
+      "sources": [
+        "classic-sql",
+        "classic-snapshot",
+        "fdb-map"
+      ],
+      "areaTriggerId": 614,
+      "note": "Arrival point just inside the Library portal; not the Graveyard entrance."
+    }
+  ],
+  "sources": {
+    "fdb-map": {
+      "name": "ForeverDB client map and projection",
+      "url": "https://foreverdb.net/dungeon/189-scarlet-monastery"
+    },
+    "classic-sql": {
+      "name": "Classic Library spawn and chest data",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/189_scarlet_monastery.sql"
+    },
+    "classic-snapshot": {
+      "name": "Classic database snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    }
+  },
+  "coverage": {
+    "bosses": 2,
+    "possibleChestPositions": 4,
+    "strongboxes": 1,
+    "questObjects": 1,
+    "arrivalPoints": 1,
+    "totalEntries": 9,
+    "limits": "Classic reference positions, not measured Forever spawns. Past Due has no verified pickup pin. Other Scarlet Monastery wings are excluded."
+  },
+  "license": "Classic spawn references derived from CMaNGOS Classic-DB under GPL-3.0. Blizzard client artwork retains its copyright."
+}
