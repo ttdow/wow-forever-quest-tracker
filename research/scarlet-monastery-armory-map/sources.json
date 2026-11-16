@@ -1,0 +1,120 @@
+{
+  "researched": "2026-11-16",
+  "dungeonId": 189,
+  "wing": "Armory",
+  "build": "1.60.1.70938",
+  "sourceURLs": {
+    "fdb-map": {
+      "name": "ForeverDB client Armory map and projection",
+      "url": "https://foreverdb.net/dungeon/189-scarlet-monastery"
+    },
+    "classic-sql": {
+      "name": "Classic Armory spawn and container data",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/189_scarlet_monastery.sql"
+    },
+    "classic-snapshot": {
+      "name": "Classic database snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    }
+  },
+  "image": {
+    "url": "https://foreverdb.net/img/dungeonmaps/189/3.webp",
+    "size": [
+      506,
+      1045
+    ],
+    "sha256": "8f5737f869addb354ec0b81a1f4947519723eb76db8a93d1be1fa8c8286d32ed",
+    "worldProjection": {
+      "originX": 2016.25,
+      "originY": -229.86,
+      "pixelsPerYard": 2.0
+    }
+  },
+  "classicDatabase": {
+    "releasePublished": "2026-11-13T13:34:58Z",
+    "sha256": "daa16e44b95a9d4a0d17b8f8e3a91cf0b4be1af7d9b3bfc8ac71707a02399f5f",
+    "sqlRevision": "09000ea8d7333856727204e4e2d30f772149b7a8",
+    "sqlSha256": "02fae7aac3108fd28d7c507cd00e66583941391e97c4370dd2e3a00b9b05cc71",
+    "readMode": "SQLite read-only URI"
+  },
+  "dungeonRecordSha256": "3f4beb09c373008b3a0c9cfc31c4df61e6876112cfcfe2167b3deeb31d80d407",
+  "comparisonBossSpot": {
+    "order": 5,
+    "n": "Herod",
+    "floor": 3,
+    "x": 79.74,
+    "y": 9.79,
+    "wx": 1965.1,
+    "wy": -431.6,
+    "wz": 6.3,
+    "src": "classic",
+    "label": "Classic spawn"
+  },
+  "containerPools": [
+    {
+      "id": 46097,
+      "maxActive": 1,
+      "description": "Scarlet Monastery Armory (Training Grounds) - Chest Pool",
+      "positionGuids": [
+        1890131
+      ]
+    },
+    {
+      "id": 46098,
+      "maxActive": 1,
+      "description": "Scarlet Monastery Armory (Footman's Armory) - Chest Pool",
+      "positionGuids": [
+        1890132
+      ]
+    },
+    {
+      "id": 46099,
+      "maxActive": 2,
+      "description": "Scarlet Monastery Armory - Weapon Crate & Armor Crate Pool",
+      "positionGuids": [
+        1890133,
+        1890134,
+        1890135,
+        1890136,
+        1890137,
+        1890138
+      ]
+    }
+  ],
+  "parentChestPool": {
+    "id": 46096,
+    "maxActive": 1,
+    "children": [
+      {
+        "pool": 46097,
+        "parent": 46096,
+        "chance": 0.0,
+        "description": "Scarlet Monastery Armory (Training Grounds) - Chest Pool"
+      },
+      {
+        "pool": 46098,
+        "parent": 46096,
+        "chance": 0.0,
+        "description": "Scarlet Monastery Armory (Footman's Armory) - Chest Pool"
+      }
+    ]
+  },
+  "arrivalTriggerId": 612,
+  "counts": {
+    "bosses": 1,
+    "chestPositions": 2,
+    "supplyCratePositions": 6,
+    "doorways": 1,
+    "arrivalPoints": 1,
+    "totalEntries": 11,
+    "limits": "Template alternatives are grouped per position. No Forever spawn counts, probabilities, timers, or lockpicking requirements are asserted. External quest givers, other wings, and ordinary trash are omitted."
+  },
+  "decisions": [
+    "Use client Part 3 only; it spans the Armory arrival, halls and Herod chamber.",
+    "The dungeon-wide default arrival belongs to Graveyard. Use Armory teleport trigger 612 instead.",
+    "Resolve ID-zero containers through gameobject_spawn_entry; do not display alternatives as separate simultaneously active containers.",
+    "Keep ordinary chest positions separate from Armor Crate / Weapon Crate positions.",
+    "Herod links the existing shared quest 1053 and Armory Drops; do not project Raleigh or other external givers inside.",
+    "No quest/drop records or completion storage are changed. Browser checks are left to the user."
+  ]
+}

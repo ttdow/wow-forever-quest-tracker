@@ -12,6 +12,7 @@ const categories = {
   'quest-object': { label: 'Quest objects', symbol: '?', color: '#e3e7df' },
   'quest-chest': { label: 'Quest chests', symbol: '▣', color: '#f4d484' },
   'dungeon-chest': { label: 'Chest spawns', symbol: '▣', color: '#f4d484' },
+  'supply-crate': { label: 'Supply crates', symbol: '▤', color: '#edbb78' },
   boss: { label: 'Bosses', symbol: '◆', color: '#f19595' },
   npc: { label: 'NPCs', symbol: '●', color: '#a6d7ed' },
   entrance: { label: 'Entrance', symbol: '↪', color: '#e3e7df' },
@@ -24,6 +25,7 @@ const zones = {
   'Razorfen Kraul': { file: 'razorfen-kraul', guide: 'https://foreverdb.net/dungeon/47-razorfen-kraul', report: 'razorfen-kraul-map', defaultHiddenLayers: ['quest-object'] },
   'Razorfen Downs': { file: 'razorfen-downs', guide: 'https://foreverdb.net/dungeon/129-razorfen-downs', report: 'razorfen-downs-map' },
   'Scarlet Monastery Library': { file: 'scarlet-monastery-library', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-library-map' },
+  'Scarlet Monastery Armory': { file: 'scarlet-monastery-armory', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-armory-map' },
   'Scarlet Monastery Cathedral': { file: 'scarlet-monastery-cathedral', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-cathedral' },
   'The City of Dalaran': {
     file: 'city-of-dalaran', guide: 'https://azeroth.wiki/forever/dungeons/city-of-dalaran', report: 'city-of-dalaran-map',

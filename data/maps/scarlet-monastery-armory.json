@@ -1,0 +1,404 @@
+{
+  "zone": "Scarlet Monastery Armory",
+  "updated": "2026-11-16",
+  "map": {
+    "appearance": "dungeon",
+    "image": "./assets/maps/scarlet-monastery-armory.webp",
+    "width": 506,
+    "height": 1045,
+    "worldProjection": {
+      "originX": 2016.25,
+      "originY": -229.86,
+      "pixelsPerYard": 2.0
+    },
+    "source": "https://foreverdb.net/dungeon/189-scarlet-monastery",
+    "coordinateSystem": "guide-image",
+    "attribution": "World of Warcraft © Blizzard Entertainment; client map via ForeverDB"
+  },
+  "note": "Armory wing only. Classic reference positions on a Forever client map; chest and crate spawns may differ in Forever.",
+  "points": [
+    {
+      "id": "npc-3975",
+      "name": "Herod",
+      "category": "boss",
+      "x": 79.7419,
+      "y": 9.7914,
+      "world": {
+        "map": 189,
+        "x": 1965.09,
+        "y": -431.607,
+        "z": 6.26076
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the Forever client Armory minimap.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "npcId": "3975",
+      "spawnGuid": 1890006,
+      "drops": true,
+      "questIds": [
+        "1053"
+      ]
+    },
+    {
+      "id": "container-1890131",
+      "name": "Possible chest spawn 1",
+      "category": "dungeon-chest",
+      "x": 45.6727,
+      "y": 63.4239,
+      "world": {
+        "map": 189,
+        "x": 1684.86,
+        "y": -345.412,
+        "z": 18.0233
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the Forever client Armory minimap.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "spawnGuid": 1890131,
+      "objectIds": [
+        "75297",
+        "75300"
+      ],
+      "variants": [
+        {
+          "id": "75297",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "id": "75300",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "note": "Possible Large Iron Bound Chest or Large Solid Chest. Alternatives share one physical position; not guaranteed active in Forever."
+    },
+    {
+      "id": "container-1890132",
+      "name": "Possible chest spawn 2",
+      "category": "dungeon-chest",
+      "x": 70.1162,
+      "y": 52.2048,
+      "world": {
+        "map": 189,
+        "x": 1743.48,
+        "y": -407.254,
+        "z": 8.01026
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the Forever client Armory minimap.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "spawnGuid": 1890132,
+      "objectIds": [
+        "75297",
+        "75300"
+      ],
+      "variants": [
+        {
+          "id": "75297",
+          "name": "Large Iron Bound Chest"
+        },
+        {
+          "id": "75300",
+          "name": "Large Solid Chest"
+        }
+      ],
+      "note": "Possible Large Iron Bound Chest or Large Solid Chest. Alternatives share one physical position; not guaranteed active in Forever."
+    },
+    {
+      "id": "container-1890133",
+      "name": "Possible supply crate 1",
+      "category": "supply-crate",
+      "x": 58.2605,
+      "y": 46.7923,
+      "world": {
+        "map": 189,
+        "x": 1771.76,
+        "y": -377.259,
+        "z": 8.01092
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the Forever client Armory minimap.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "spawnGuid": 1890133,
+      "objectIds": [
+        "3703",
+        "3704"
+      ],
+      "variants": [
+        {
+          "id": "3703",
+          "name": "Armor Crate"
+        },
+        {
+          "id": "3704",
+          "name": "Weapon Crate"
+        }
+      ],
+      "note": "Possible Armor Crate or Weapon Crate. Alternatives share one physical position; not guaranteed active in Forever."
+    },
+    {
+      "id": "container-1890134",
+      "name": "Possible supply crate 2",
+      "category": "supply-crate",
+      "x": 50.6458,
+      "y": 51.8813,
+      "world": {
+        "map": 189,
+        "x": 1745.17,
+        "y": -357.994,
+        "z": 8.01148
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the Forever client Armory minimap.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "spawnGuid": 1890134,
+      "objectIds": [
+        "3703",
+        "3704"
+      ],
+      "variants": [
+        {
+          "id": "3703",
+          "name": "Armor Crate"
+        },
+        {
+          "id": "3704",
+          "name": "Weapon Crate"
+        }
+      ],
+      "note": "Possible Armor Crate or Weapon Crate. Alternatives share one physical position; not guaranteed active in Forever."
+    },
+    {
+      "id": "container-1890135",
+      "name": "Possible supply crate 3",
+      "category": "supply-crate",
+      "x": 79.8881,
+      "y": 42.3311,
+      "world": {
+        "map": 189,
+        "x": 1795.07,
+        "y": -431.977,
+        "z": 8.01001
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the Forever client Armory minimap.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "spawnGuid": 1890135,
+      "objectIds": [
+        "3703",
+        "3704"
+      ],
+      "variants": [
+        {
+          "id": "3703",
+          "name": "Armor Crate"
+        },
+        {
+          "id": "3704",
+          "name": "Weapon Crate"
+        }
+      ],
+      "note": "Possible Armor Crate or Weapon Crate. Alternatives share one physical position; not guaranteed active in Forever."
+    },
+    {
+      "id": "container-1890136",
+      "name": "Possible supply crate 4",
+      "category": "supply-crate",
+      "x": 66.6613,
+      "y": 40.7656,
+      "world": {
+        "map": 189,
+        "x": 1803.25,
+        "y": -398.513,
+        "z": 8.01243
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the Forever client Armory minimap.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "spawnGuid": 1890136,
+      "objectIds": [
+        "3703",
+        "3704"
+      ],
+      "variants": [
+        {
+          "id": "3703",
+          "name": "Armor Crate"
+        },
+        {
+          "id": "3704",
+          "name": "Weapon Crate"
+        }
+      ],
+      "note": "Possible Armor Crate or Weapon Crate. Alternatives share one physical position; not guaranteed active in Forever."
+    },
+    {
+      "id": "container-1890137",
+      "name": "Possible supply crate 5",
+      "category": "supply-crate",
+      "x": 63.2834,
+      "y": 52.111,
+      "world": {
+        "map": 189,
+        "x": 1743.97,
+        "y": -389.967,
+        "z": 8.00978
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the Forever client Armory minimap.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "spawnGuid": 1890137,
+      "objectIds": [
+        "3703",
+        "3704"
+      ],
+      "variants": [
+        {
+          "id": "3703",
+          "name": "Armor Crate"
+        },
+        {
+          "id": "3704",
+          "name": "Weapon Crate"
+        }
+      ],
+      "note": "Possible Armor Crate or Weapon Crate. Alternatives share one physical position; not guaranteed active in Forever."
+    },
+    {
+      "id": "container-1890138",
+      "name": "Possible supply crate 6",
+      "category": "supply-crate",
+      "x": 72.9233,
+      "y": 44.7234,
+      "world": {
+        "map": 189,
+        "x": 1782.57,
+        "y": -414.356,
+        "z": 8.01169
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the Forever client Armory minimap.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "spawnGuid": 1890138,
+      "objectIds": [
+        "3703",
+        "3704"
+      ],
+      "variants": [
+        {
+          "id": "3703",
+          "name": "Armor Crate"
+        },
+        {
+          "id": "3704",
+          "name": "Weapon Crate"
+        }
+      ],
+      "note": "Possible Armor Crate or Weapon Crate. Alternatives share one physical position; not guaranteed active in Forever."
+    },
+    {
+      "id": "object-101854",
+      "name": "Herod's chamber door",
+      "category": "landmark",
+      "x": 79.7605,
+      "y": 15.801,
+      "world": {
+        "map": 189,
+        "x": 1933.69,
+        "y": -431.654,
+        "z": 18.671
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the Forever client Armory minimap.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "objectId": "101854",
+      "spawnGuid": 1890034,
+      "note": "Doorway into Herod's chamber; Classic reference."
+    },
+    {
+      "id": "armory-arrival",
+      "name": "Armory entrance",
+      "category": "entrance",
+      "x": 35.2012,
+      "y": 78.1148,
+      "world": {
+        "map": 189,
+        "x": 1608.1,
+        "y": -318.919,
+        "z": 18.6714
+      },
+      "verification": "classic-derived",
+      "placementEvidence": "Classic position projected onto the Forever client Armory minimap.",
+      "sources": [
+        "fdb-map",
+        "classic-sql",
+        "classic-snapshot"
+      ],
+      "areaTriggerId": 612,
+      "note": "Arrival point just inside the Armory portal."
+    }
+  ],
+  "sources": {
+    "fdb-map": {
+      "name": "ForeverDB client Armory map and projection",
+      "url": "https://foreverdb.net/dungeon/189-scarlet-monastery"
+    },
+    "classic-sql": {
+      "name": "Classic Armory spawn and container data",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/189_scarlet_monastery.sql"
+    },
+    "classic-snapshot": {
+      "name": "Classic database snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    }
+  },
+  "coverage": {
+    "bosses": 1,
+    "chestPositions": 2,
+    "supplyCratePositions": 6,
+    "doorways": 1,
+    "arrivalPoints": 1,
+    "totalEntries": 11,
+    "limits": "Template alternatives are grouped per position. No Forever spawn counts, probabilities, timers, or lockpicking requirements are asserted. External quest givers, other wings, and ordinary trash are omitted."
+  },
+  "license": "Classic spawn references derived from CMaNGOS Classic-DB under GPL-3.0. Blizzard client artwork retains its copyright."
+}
