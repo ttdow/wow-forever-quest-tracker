@@ -10838,6 +10838,846 @@
     ]
   },
   {
+    "id": "92914",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "Strange Pylons",
+    "stage": "Shared — pylons and temple",
+    "giver": "Shen'dralar Pylon (object)",
+    "coordinates": "43.8, 34.3",
+    "area": "Shen'dralas",
+    "objective": "Explore Shen'dralas in an effort to find other pylons like the one you found.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/92914",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "93016",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "A Brief History Lesson",
+    "stage": "Shared — pylons and temple",
+    "giver": "Mordent Evenshade",
+    "coordinates": "35.1, 46.4",
+    "area": "Shen'dralas",
+    "objective": "Speak with Mordent Evenshade in Shen'dralas for information about the crystals you repaired.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93016",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "96018",
+        "name": "Powering the Pylons",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93341",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "Forlorn Gardens",
+    "stage": "Shared — Forlorn Gardens / Agamaggan's Blood",
+    "giver": "Mithera",
+    "coordinates": "53.2, 75.9",
+    "area": "Temple (Shen'dralas)",
+    "objective": "Investigate the Forlorn Gardens near Shen'dralas and then return to Mithera at the nearby temple.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93341",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93394",
+        "name": "Meeting the Magister",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93362",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "What They've Done to My Peonies",
+    "stage": "Shared — Forlorn Gardens / Agamaggan's Blood",
+    "giver": "Mithera",
+    "coordinates": "53.2, 75.9",
+    "area": "Temple (Shen'dralas)",
+    "objective": "Cull plants in the Forlorn Garden and then return to Mithera at Shen'dralas.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93362",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93341",
+        "name": "Forlorn Gardens",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93394",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "Meeting the Magister",
+    "stage": "Shared — pylons and temple",
+    "giver": "Mordent Evenshade",
+    "coordinates": "35.1, 46.4",
+    "area": "Shen'dralas",
+    "objective": "Locate Magister Kirandis inside the temple of Shen'dralas.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93394",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93016",
+        "name": "A Brief History Lesson",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93404",
+    "zone": "Shen'dralas",
+    "level": 49,
+    "name": "Rot and Regret",
+    "stage": "Shared — Forlorn Gardens / Agamaggan's Blood",
+    "giver": "Woodwyrd",
+    "coordinates": "69.7, 71.9",
+    "area": "Forlorn Gardens (Shen'dralas)",
+    "objective": "Venture to Maraudon and recover a Vial of Earth Song Water and return it to Woodwyrd at the Forlorn Gardens in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93404",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93594",
+        "name": "Word of the Woods",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93450",
+    "zone": "Shen'dralas",
+    "level": 42,
+    "name": "Phantasmal Problems",
+    "stage": "Shared — phantasmal blade",
+    "giver": "Vindael",
+    "coordinates": "42.0, 79.0",
+    "area": "Temple (Shen'dralas)",
+    "objective": "Take Vindael's unfinished sword and figure out a way to usher it into the spirit realm, then return the Phantasmal Blade to him at Shen'dralas.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites; Pickup coordinates are an approximate NPC trace reference",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93450",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "questie-trace",
+      "pickupLocation": "questie-npc-trace"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93394",
+        "name": "Meeting the Magister",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93546",
+    "zone": "Shen'dralas",
+    "level": 42,
+    "name": "Spectral Iron Ore",
+    "stage": "Shared — phantasmal blade",
+    "giver": "Vindael",
+    "coordinates": "42.1, 78.9",
+    "area": "Temple (Shen'dralas)",
+    "objective": "Search for Spectral Iron Deposits around Shen'dralas and collect 10 Spectral Iron Ore. Return to Vindael in Shen'dralas once you have found enough.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93546",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93450",
+        "name": "Phantasmal Problems",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93568",
+    "zone": "Shen'dralas",
+    "level": 45,
+    "name": "Partially Digested Collar",
+    "stage": "",
+    "giver": "Partially Digested Collar (item)",
+    "coordinates": "",
+    "area": "Shen'dralas (item-started)",
+    "objective": "Bring the Partially Digested Collar to Liranne in Shen'dralas.",
+    "areaConfidence": "Zone reference",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites; Item starts the quest; no fixed pickup coordinates established; turn-in NPC is not used as the quest starter",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93568",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://nether.wowhead.com/forever/tooltip/item/259461"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges-and-wowhead-item",
+      "pickupLocation": "unverified-item-location",
+      "turnIn": "foreverchanges-and-questie-trace"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "93574",
+    "zone": "Shen'dralas",
+    "level": 45,
+    "name": "Corpsefeeder's Carapace",
+    "stage": "",
+    "giver": "Corpsefeeder's Carapace (item)",
+    "coordinates": "",
+    "area": "Shen'dralas (item-started)",
+    "objective": "Bring Corpsefeeder's Carapace to Kog'thug the Brave at Bristleback Retreat in Shen'dralas.",
+    "areaConfidence": "Zone reference",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites; Item starts the quest; no fixed pickup coordinates established; turn-in NPC is not used as the quest starter",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93574",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://nether.wowhead.com/forever/tooltip/item/259893"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges-and-wowhead-item",
+      "pickupLocation": "unverified-item-location",
+      "turnIn": "foreverchanges-and-questie-trace"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "93594",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "Word of the Woods",
+    "stage": "Shared — Forlorn Gardens / Agamaggan's Blood",
+    "giver": "Mithera",
+    "coordinates": "53.2, 75.9",
+    "area": "Temple (Shen'dralas)",
+    "objective": "Find Woodwyrd in the Forlorn Gardens at Shen'dralas in the Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93594",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93341",
+        "name": "Forlorn Gardens",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93601",
+    "zone": "Shen'dralas",
+    "level": 45,
+    "name": "Passing the Blame",
+    "stage": "Shared — Forlorn Gardens / Agamaggan's Blood",
+    "giver": "Woodwyrd",
+    "coordinates": "69.7, 71.9",
+    "area": "Forlorn Gardens (Shen'dralas)",
+    "objective": "Seek out a quilboar of significance at the Bristleback Retreat.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93601",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93404",
+        "name": "Rot and Regret",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93604",
+    "zone": "Shen'dralas",
+    "level": 45,
+    "name": "Agamaggan's Blood",
+    "stage": "Shared — Forlorn Gardens / Agamaggan's Blood",
+    "giver": "Kog'thug the Brave",
+    "coordinates": "72.7, 31.2",
+    "area": "Bristleback Retreat (Shen'dralas)",
+    "objective": "Venture to Razorfen Downs and acquire Virulent Blood of Agamaggan, then return it to Kog'thug the Brave at Bristleback Retreat in the Desolace. Kog'thug felt it worth reminding that the Blood of Agamaggan inside Razorfen Kraul would not be sufficient.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites; Pickup coordinates are an approximate NPC trace reference",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93604",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "questie-trace",
+      "pickupLocation": "questie-npc-trace"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93601",
+        "name": "Passing the Blame",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93606",
+    "zone": "Shen'dralas",
+    "level": 45,
+    "name": "Not on Squealing Terms",
+    "stage": "Shared — Forlorn Gardens / Agamaggan's Blood",
+    "giver": "Kog'thug the Brave",
+    "coordinates": "72.7, 31.2",
+    "area": "Bristleback Retreat (Shen'dralas)",
+    "objective": "Quell the quilboar's quarrel by bringing Quolga a Benevolent Bouquet and the Virulent Blood of Agamaggan. The flowers to make the bouquet can be acquired at the Forlorn Gardens, near Shen'dralas in the Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites; Pickup coordinates are an approximate NPC trace reference",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93606",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "questie-trace",
+      "pickupLocation": "questie-npc-trace"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93604",
+        "name": "Agamaggan's Blood",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93609",
+    "zone": "Shen'dralas",
+    "level": 45,
+    "name": "Forlorn Necklace",
+    "stage": "",
+    "giver": "Forlorn Necklace (item)",
+    "coordinates": "",
+    "area": "Shen'dralas (item-started)",
+    "objective": "Bring the Forlorn Necklace to Mithera at the temple in Shen'dralas.",
+    "areaConfidence": "Zone reference",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites; Item starts the quest; no fixed pickup coordinates established; turn-in NPC is not used as the quest starter",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93609",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://nether.wowhead.com/forever/tooltip/item/260247"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges-and-wowhead-item",
+      "pickupLocation": "unverified-item-location",
+      "turnIn": "foreverchanges-and-questie-trace"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "93644",
+    "zone": "Shen'dralas",
+    "level": 45,
+    "name": "Tattered Journal",
+    "stage": "",
+    "giver": "Tattered Journal (item)",
+    "coordinates": "",
+    "area": "Shen'dralas / nearby Desolace",
+    "objective": "Bring the Tattered Journal to Mordent Evenshade in Shen'dralas.",
+    "areaConfidence": "Zone reference",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites; Item starts the quest; no fixed pickup coordinates established; turn-in NPC is not used as the quest starter",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93644",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://nether.wowhead.com/forever/tooltip/item/260347"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges-and-wowhead-item",
+      "pickupLocation": "unverified-item-location",
+      "turnIn": "foreverchanges-and-questie-trace"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "96010",
+    "zone": "Shen'dralas",
+    "level": 41,
+    "name": "Fragments of the Pylons",
+    "stage": "Shared — pylons and temple",
+    "giver": "Mordent Evenshade",
+    "coordinates": "35.1, 46.4",
+    "area": "Shen'dralas",
+    "objective": "Recover shards and fragments of the pylons, found guarded at the Magram and Gelkis villages. Return them to Mordent Evenshade.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/96010",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "92914",
+        "name": "Strange Pylons",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "96018",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "Powering the Pylons",
+    "stage": "Shared — pylons and temple",
+    "giver": "Mordent Evenshade",
+    "coordinates": "35.1, 46.4",
+    "area": "Shen'dralas",
+    "objective": "Acquire the Mana Sieve from within the temple in Shen'dralas and use it to collect Ancient Mana Crystals. Once you have acquired enough mana, empower the pylons and return to Mordent Evenshade.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/96018",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "96010",
+        "name": "Fragments of the Pylons",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "96060",
+    "zone": "Shen'dralas",
+    "level": 42,
+    "name": "Tempered Expectations",
+    "stage": "Shared — phantasmal blade",
+    "giver": "Vindael",
+    "coordinates": "42.1, 78.9",
+    "area": "Temple (Shen'dralas)",
+    "objective": "Use the Phantasmal Blade to execute 8 wildlife in Shen'dralas, then return to Vindael at the temple.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/96060",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93546",
+        "name": "Spectral Iron Ore",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "99257",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "A Heart of Crystal",
+    "stage": "Shared — Historian Biraxas",
+    "giver": "Historian Biraxas",
+    "coordinates": "45.9, 78.3",
+    "area": "Temple (Shen'dralas)",
+    "objective": "Slay a Decrepit Pylon Protector for their Depleted Crystal Heart and bring it to Historian Biraxas within the temple of Shen'dralas.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/99257",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93394",
+        "name": "Meeting the Magister",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "99258",
+    "zone": "Shen'dralas",
+    "level": 43,
+    "name": "Mana Mania",
+    "stage": "Shared — Historian Biraxas",
+    "giver": "Historian Biraxas",
+    "coordinates": "45.9, 78.3",
+    "area": "Temple (Shen'dralas)",
+    "objective": "Throw the Depleted Crystal Heart into an Unstable Mana Rift. Return to Historian Biraxas within the temple of Shen'dralas with proof of success or failure.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/99258",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "99257",
+        "name": "A Heart of Crystal",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
     "id": "1100",
     "zone": "Razorfen Kraul",
     "level": 34,

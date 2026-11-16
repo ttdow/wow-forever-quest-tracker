@@ -1,0 +1,1018 @@
+{
+  "audited": "2026-11-15",
+  "build": "1.60.1.70938",
+  "zone": "Shen'dralas",
+  "areaId": 16651,
+  "indexURL": "https://foreverchanges.pro/quests/shendralas",
+  "indexCount": 38,
+  "indexIds": [
+    "92841",
+    "92844",
+    "92846",
+    "92847",
+    "92873",
+    "92893",
+    "92894",
+    "92914",
+    "93016",
+    "93034",
+    "93035",
+    "93037",
+    "93041",
+    "93058",
+    "93062",
+    "93066",
+    "93072",
+    "93122",
+    "93125",
+    "93129",
+    "93188",
+    "93341",
+    "93362",
+    "93394",
+    "93450",
+    "93546",
+    "93568",
+    "93574",
+    "93594",
+    "93601",
+    "93606",
+    "93609",
+    "93644",
+    "96010",
+    "96018",
+    "96060",
+    "99257",
+    "99258"
+  ],
+  "includedIndexedIds": [
+    "92914",
+    "93016",
+    "93034",
+    "93035",
+    "93037",
+    "93041",
+    "93058",
+    "93062",
+    "93122",
+    "93125",
+    "93341",
+    "93362",
+    "93394",
+    "93450",
+    "93546",
+    "93568",
+    "93574",
+    "93594",
+    "93601",
+    "93606",
+    "93609",
+    "93644",
+    "96010",
+    "96018",
+    "96060",
+    "99257",
+    "99258"
+  ],
+  "excludedMagramIds": [
+    "92743",
+    "92841",
+    "92844",
+    "92846",
+    "92847",
+    "92873",
+    "92893",
+    "92894",
+    "93066",
+    "93072",
+    "93129",
+    "93188",
+    "93196"
+  ],
+  "relatedIncludedIds": [
+    "93044",
+    "93045",
+    "93128",
+    "93404",
+    "93604"
+  ],
+  "previousCount": 11,
+  "addedIds": [
+    "92914",
+    "93016",
+    "93341",
+    "93362",
+    "93394",
+    "93404",
+    "93450",
+    "93546",
+    "93568",
+    "93574",
+    "93594",
+    "93601",
+    "93604",
+    "93606",
+    "93609",
+    "93644",
+    "96010",
+    "96018",
+    "96060",
+    "99257",
+    "99258"
+  ],
+  "finalCount": 32,
+  "sharedWithRazorfenDowns": [
+    "93404",
+    "93594",
+    "93601",
+    "93604"
+  ],
+  "coverage": "All 27 non-Magram quests in the current 38-entry zone index, plus five associated Desolace/Maraudon/Razorfen Downs handoffs or steps. Primary NPC quest starts/ends in area 16651 provide no additional candidate outside the checked set.",
+  "primaryRevision": "4dbb82440a27856f8dccf57094a5d792cdc7cc9b",
+  "sources": [
+    "https://foreverchanges.pro/quests/shendralas",
+    "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+    "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+    "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+    "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/data/Forever/foreverQuestDB.lua",
+    "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/generated/foreverBaseQuest.lua"
+  ],
+  "limits": [
+    "Completeness is against the current published zone index and observed primary quest/NPC records, not proof that no undiscovered quest exists.",
+    "The earlier secondary zone export only lists 19 entries; it is insufficient as a complete current zone catalog.",
+    "Faction classification uses explicit Both factions labels on current pages. Historical unresolved/defaulted primary race masks alone do not prove shared access.",
+    "No class restriction or Magram minimum reputation is listed for the newly added shared quests in the inspected page/trace fields; missing fields are not claimed as measured server flags.",
+    "Questie relation traces explicitly describe assumptions based on observed handoffs. They are stored as previousQuests / Offered after, not mandatory prerequisites.",
+    "Some shared objectives mention both centaur clans. Mentioning Magram does not make a shared quest Magram-only.",
+    "Item-starting quests retain unknown pickup coordinates rather than borrowing a turn-in NPC position."
+  ],
+  "quests": [
+    {
+      "id": "92743",
+      "name": "A Conqueror's Crown",
+      "selection": "excluded-magram",
+      "url": "https://foreverchanges.pro/quest/92743",
+      "facts": {
+        "Start": "Warug Desolace 75 , 68",
+        "Level": "40 , requires level 30",
+        "Difficulty": "30 36 38 43 51",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "92743"
+      },
+      "objective": "Maintain your reputation with the Magram, and return a Conqueror's Crown from the Badlands to Warug in Magram Village.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- A Conqueror's Crown https://wowhead.com/forever/quest=92743\n            -- 1369 \"Broken Tears\" https://wowhead.com/forever/quest=1369\n            -- Assumption: offered right after 1369 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {1369},\n            -- 92841 \"Valley of Bones\" https://wowhead.com/forever/quest=92841\n            -- Assumption: turning it in led straight to 92841 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 92841,\n        },\n        -- [92745] = { -- The State of the Mines https://wowhead.com/forever/quest=92745\n            -- 92742 \"Testing the Wells\" https://wowhead.com/forever/quest=92742\n            -- 92744 \"Murloc Gills\" https://wowhead.com/forever/quest=92744\n            -- already in QuestieDB; Assumption: offered right after 92742, 92744 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestGroup] = {92742,92744},\n        -- },\n        -- [92747] = { -- Moonbrook Espionage https://wowhead.com/forever/quest=92747\n            -- 92745 \"The State of the Mines\" https://wowhead.com/forever/quest=92745\n            -- already in QuestieDB; Assumption: offered right after 92745 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92745},\n        -- },\n        -- [92748] = { -- Explosive Consultation https://wowhead.com/forever/quest=92748\n            -- 92747 \"Moonbrook Espionage\" https://wowhead.com/forever/quest=92747\n            -- already in QuestieDB; Assumption: offered right after 92747 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92747},\n        -- },\n        -- [92749] = { -- A Dynamite Plan https://wowhead.com/forever/quest=92749\n            -- 92748 \"Explosive Consultation\" https://wowhead.com/forever/quest=92748\n            -- already in QuestieDB; Assumption: offered right after 92748 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92748},\n        -- },\n        -- [92750] = { -- Detonation at a Distance https://wowhead.com/forever/quest=92750\n            -- 92748 \"Explosive Consultation\" https://wowhead.com/forever/quest=92748\n            -- already in QuestieDB; Assumption: offered right after 92748 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92748},\n        -- },\n        -- [92751] = { -- Detonation at a Distance https://wowhead.com/forever/quest=92751\n            -- 92750 \"Detonation at a Distance\" https://wowhead.com/forever/quest=92750\n            -- already in QuestieDB; Assumption: offered right after 92750 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92750},\n        -- },\n        -- [92752] = { -- Explosive Consultation https://wowhead.com/forever/quest=92752\n            -- 92749 \"A Dynamite Plan\" https://wowhead.com/forever/quest=92749\n            -- 92751 \"Detonation at a Distance\" https://wowhead.com/forever/quest=92751\n            -- already in QuestieDB; Assumption: offered right after 92749 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters); offered right after 92751 was turned in (handoff, offer-set, absence, cooccurrence; high; 100+ characters)\n            -- [questKeys.preQuestGroup] = {92749,92751},\n        -- },\n        -- [92753] = { -- Destruction in Deadmines https://wowhead.com/forever/quest=92753\n            -- 92752 \"Explosive Consultation\" https://wowhead.com/forever/quest=92752\n            -- already in QuestieDB; Assumption: offered right after 92752 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92752},\n            -- 92819 \"Destruction in Deadmines\" https://wowhead.com/forever/quest=92819\n            -- already in QuestieDB; Assumption: turning it in led straight to 92819 (handoff; high; 100+ characters)\n            -- [questKeys.nextQuestInChain] = 92819,\n        -- },\n"
+    },
+    {
+      "id": "92841",
+      "name": "Valley of Bones",
+      "selection": "excluded-magram",
+      "url": "https://foreverchanges.pro/quest/92841",
+      "facts": {
+        "Start": "Warug Desolace 75 , 68",
+        "End": "Orgrul Shen'dralas 35.7 , 12.8",
+        "Level": "40 , requires level 35",
+        "Difficulty": "35 36 38 43 51",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "92841"
+      },
+      "objective": "Improve your reputation with the Magram, and locate Orgrul near the Valley of Bones south of Magram Village.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Valley of Bones https://wowhead.com/forever/quest=92841\n            -- 92743 \"A Conqueror's Crown\" https://wowhead.com/forever/quest=92743\n            -- Assumption: offered right after 92743 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {92743},\n            -- 92844 \"Mountain of Bones\" https://wowhead.com/forever/quest=92844\n            -- Assumption: turning it in led straight to 92844 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 92844,\n        },\n"
+    },
+    {
+      "id": "92844",
+      "name": "Mountain of Bones",
+      "selection": "excluded-magram",
+      "url": "https://foreverchanges.pro/quest/92844",
+      "facts": {
+        "Start": "Orgrul Shen'dralas 35.7 , 12.8",
+        "End": "Orgrul Shen'dralas 35.7 , 12.8",
+        "Level": "42 , requires level 35",
+        "Difficulty": "35 38 40 45 53",
+        "Side": "Both factions",
+        "Quest ID": "92844"
+      },
+      "objective": "Maintain your reputation with the Magram, and bring 426 Gently Cursed Bones to Orgrul south of the Magram Village in Desolace.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Mountain of Bones https://wowhead.com/forever/quest=92844\n            -- 92841 \"Valley of Bones\" https://wowhead.com/forever/quest=92841\n            -- Assumption: offered right after 92841 was turned in (handoff, offer-set, cooccurrence; very high; 10+ characters)\n            [questKeys.preQuestSingle] = {92841},\n            -- 92847 \"Corrupting Tears\" https://wowhead.com/forever/quest=92847\n            -- Assumption: turning it in led straight to 92847 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 92847,\n        },\n"
+    },
+    {
+      "id": "92846",
+      "name": "Outcast Necromancers",
+      "selection": "excluded-magram",
+      "url": "https://foreverchanges.pro/quest/92846",
+      "facts": {
+        "Start": "Orgrul Shen'dralas 35.7 , 12.8",
+        "End": "Orgrul Shen'dralas 35.7 , 12.8",
+        "Level": "40 , requires level 35",
+        "Difficulty": "35 36 38 43 51",
+        "Side": "Both factions",
+        "Quest ID": "92846"
+      },
+      "objective": "Maintain your reputation with the Magram, and slay Outcast Necromancers within the Valley of Bones.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Outcast Necromancers https://wowhead.com/forever/quest=92846\n            -- 92841 \"Valley of Bones\" https://wowhead.com/forever/quest=92841\n            -- Assumption: 92841 was done whenever it was offered (offer-set, cooccurrence; high; 10+ characters)\n            [questKeys.preQuestSingle] = {92841},\n            -- 92847 \"Corrupting Tears\" https://wowhead.com/forever/quest=92847\n            -- Assumption: turning it in led straight to 92847 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 92847,\n        },\n"
+    },
+    {
+      "id": "92847",
+      "name": "Corrupting Tears",
+      "selection": "excluded-magram",
+      "url": "https://foreverchanges.pro/quest/92847",
+      "facts": {
+        "Start": "Orgrul Shen'dralas 35.7 , 12.8",
+        "End": "Orgrul Shen'dralas 35.7 , 12.8",
+        "Level": "42 , requires level 35",
+        "Difficulty": "35 38 40 45 53",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "92847"
+      },
+      "objective": "Maintain your reputation with the Magram, and bring 3 Petrified Bark and 3 Imbued Tears back to Orgrul.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Corrupting Tears https://wowhead.com/forever/quest=92847\n            -- 92844 \"Mountain of Bones\" https://wowhead.com/forever/quest=92844\n            -- 92846 \"Outcast Necromancers\" https://wowhead.com/forever/quest=92846\n            -- Assumption: offered right after 92844, 92846 was turned in (handoff, offer-set, absence, cooccurrence; high; 10+ characters)\n            [questKeys.preQuestGroup] = {92844,92846},\n            -- 92873 \"Proof of Concept\" https://wowhead.com/forever/quest=92873\n            -- Assumption: turning it in led straight to 92873 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 92873,\n        },\n        -- [92849] = { -- The Missing Scholar https://wowhead.com/forever/quest=92849\n            -- 92727 \"The Missing Scholar\" https://wowhead.com/forever/quest=92727\n            -- already in QuestieDB; Assumption: offered right after 92727 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92727},\n            -- 92850 \"The Missing Scholar\" https://wowhead.com/forever/quest=92850\n            -- already in QuestieDB; Assumption: turning it in led straight to 92850 (handoff; high; 100+ characters)\n            -- [questKeys.nextQuestInChain] = 92850,\n        -- },\n        -- [92850] = { -- The Missing Scholar https://wowhead.com/forever/quest=92850\n            -- 92849 \"The Missing Scholar\" https://wowhead.com/forever/quest=92849\n            -- already in QuestieDB; Assumption: offered right after 92849 was turned in (handoff, offer-set, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92849},\n            -- 99260 \"Fillion's Mission\" https://wowhead.com/forever/quest=99260\n            -- already in QuestieDB; Assumption: turning it in led straight to 99260 (handoff; high; 100+ characters)\n            -- [questKeys.nextQuestInChain] = 99260,\n        -- },\n        -- [92860] = { -- In Service of Zephras https://wowhead.com/forever/quest=92860\n            -- 92840 \"Catching Wind\" https://wowhead.com/forever/quest=92840\n            -- already in QuestieDB; Assumption: offered right after 92840 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92840},\n        -- },\n        -- [92871] = { -- In Service of Zephras https://wowhead.com/forever/quest=92871\n            -- 93746 \"A Firm Response\" https://wowhead.com/forever/quest=93746\n            -- already in QuestieDB; Assumption: offered right after 93746 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {93746},\n        -- },\n"
+    },
+    {
+      "id": "92873",
+      "name": "Proof of Concept",
+      "selection": "excluded-magram",
+      "url": "https://foreverchanges.pro/quest/92873",
+      "facts": {
+        "Start": "Orgrul Shen'dralas 35.7 , 12.8",
+        "End": "Orgrul Shen'dralas 35.7 , 12.8",
+        "Level": "41 , requires level 35",
+        "Difficulty": "35 37 39 44 52",
+        "Side": "Both factions",
+        "Quest ID": "92873"
+      },
+      "objective": "Maintain your reputation with the Magram Clan, then bring 426 Well Cursed Bones from a successful ritual back to Orgrul.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Proof of Concept https://wowhead.com/forever/quest=92873\n            -- 92847 \"Corrupting Tears\" https://wowhead.com/forever/quest=92847\n            -- Assumption: offered right after 92847 was turned in (handoff, offer-set, absence, cooccurrence; very high; 10+ characters)\n            [questKeys.preQuestSingle] = {92847},\n            -- 92894 \"Bone Raising\" https://wowhead.com/forever/quest=92894\n            -- Assumption: turning it in led straight to 92894 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 92894,\n        },\n        -- [92880] = { -- Return to Valanaar https://wowhead.com/forever/quest=92880\n            -- 92642 \"Disrupting Logistics\" https://wowhead.com/forever/quest=92642\n            -- 92645 \"Breaking the Breaker\" https://wowhead.com/forever/quest=92645\n            -- already in QuestieDB; Assumption: offered right after 92642 was turned in (handoff, offer-set, absence, cooccurrence; high; 100+ characters); offered right after 92645 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestGroup] = {92642,92645},\n        -- },\n        -- [92881] = { -- The High Elder's Request https://wowhead.com/forever/quest=92881\n            -- 92880 \"Return to Valanaar\" https://wowhead.com/forever/quest=92880\n            -- already in QuestieDB; Assumption: offered right after 92880 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92880},\n            -- 92643 \"The Turncoat\" https://wowhead.com/forever/quest=92643\n            -- already in QuestieDB; Assumption: turning it in led straight to 92643 (handoff; high; 100+ characters)\n            -- [questKeys.nextQuestInChain] = 92643,\n        -- },\n"
+    },
+    {
+      "id": "92893",
+      "name": "No Mercy for the Weak",
+      "selection": "excluded-magram",
+      "url": "https://foreverchanges.pro/quest/92893",
+      "facts": {
+        "Start": "Orgrul Shen'dralas 35.7 , 12.8",
+        "End": "Orgrul Shen'dralas 35.7 , 12.8",
+        "Level": "42 , requires level 35",
+        "Difficulty": "35 38 40 45 53",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "92893"
+      },
+      "objective": "Maintain your reputation with the Magram Clan, and slay 5 Gelkis Captives scattered around the Valley of Bones. Return to Orgrul after the task is complete.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- No Mercy for the Weak https://wowhead.com/forever/quest=92893\n            -- 92873 \"Proof of Concept\" https://wowhead.com/forever/quest=92873\n            -- Assumption: 92873 was done whenever it was offered (offer-set, absence, cooccurrence; high; 10+ characters)\n            [questKeys.preQuestSingle] = {92873},\n        },\n"
+    },
+    {
+      "id": "92894",
+      "name": "Bone Raising",
+      "selection": "excluded-magram",
+      "url": "https://foreverchanges.pro/quest/92894",
+      "facts": {
+        "Start": "Orgrul Shen'dralas 35.7 , 12.8",
+        "End": "Orgrul Shen'dralas 35.7 , 12.8",
+        "Level": "40 , requires level 35",
+        "Difficulty": "35 36 38 43 51",
+        "Side": "Both factions",
+        "Quest ID": "92894"
+      },
+      "objective": "Maintain your reputation with the Magram Clan, and use the Enhanced Necromancy Staff to fully raise undead that are struggling to emerge throughout the Valley of Bones. Return to Orgrul once the Magram army has grown.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Bone Raising https://wowhead.com/forever/quest=92894\n            -- 92873 \"Proof of Concept\" https://wowhead.com/forever/quest=92873\n            -- Assumption: offered right after 92873 was turned in (handoff, offer-set, absence, cooccurrence; very high; 10+ characters)\n            [questKeys.preQuestSingle] = {92873},\n        },\n        -- [92909] = { -- Harvesting the Harvesters https://wowhead.com/forever/quest=92909\n            -- 92911 \"Harvesting the Harvesters\" https://wowhead.com/forever/quest=92911\n            -- not applied: 92911 requires 92910, not this quest, and Questie hides a quest once its next quest is done or in the log; Assumption: turning it in led straight to 92911 (handoff; medium; 10+ characters)\n            -- [questKeys.nextQuestInChain] = 92911,\n        -- },\n        -- [92911] = { -- Harvesting the Harvesters https://wowhead.com/forever/quest=92911\n            -- 92910 \"Harvesting the Harvesters\" https://wowhead.com/forever/quest=92910\n            -- already in QuestieDB; Assumption: offered right after 92910 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92910},\n        -- },\n"
+    },
+    {
+      "id": "92914",
+      "name": "Strange Pylons",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/92914",
+      "facts": {
+        "Start": "Shen'dralar Pylon Shen'dralas 43.8 , 34.3",
+        "End": "Mordent Evenshade Shen'dralas 35.1 , 46.4",
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "92914"
+      },
+      "objective": "Explore Shen'dralas in an effort to find other pylons like the one you found.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Strange Pylons https://wowhead.com/forever/quest=92914\n            -- 96010 \"Fragments of the Pylons\" https://wowhead.com/forever/quest=96010\n            -- Assumption: turning it in led straight to 96010 (handoff; high; 100+ characters)\n            [questKeys.nextQuestInChain] = 96010,\n        },\n        -- [92947] = { -- Making Our Move https://wowhead.com/forever/quest=92947\n            -- 93065 \"Prepare for Battle\" https://wowhead.com/forever/quest=93065\n            -- already in QuestieDB; Assumption: offered right after 93065 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {93065},\n        -- },\n"
+    },
+    {
+      "id": "93016",
+      "name": "A Brief History Lesson",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93016",
+      "facts": {
+        "Start": "Mordent Evenshade Shen'dralas 35.1 , 46.4",
+        "End": "Mordent Evenshade Shen'dralas 35.1 , 46.4",
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93016"
+      },
+      "objective": "Speak with Mordent Evenshade in Shen'dralas for information about the crystals you repaired.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- A Brief History Lesson https://wowhead.com/forever/quest=93016\n            -- 96018 \"Powering the Pylons\" https://wowhead.com/forever/quest=96018\n            -- Assumption: offered right after 96018 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {96018},\n            -- 93394 \"Meeting the Magister\" https://wowhead.com/forever/quest=93394\n            -- Assumption: turning it in led straight to 93394 (handoff; medium; 100+ characters)\n            [questKeys.nextQuestInChain] = 93394,\n        },\n"
+    },
+    {
+      "id": "93034",
+      "name": "Valley of Bones",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93034",
+      "facts": {
+        "Level": "38 , requires level 35",
+        "Difficulty": "35 36 41 48",
+        "Side": "Both factions",
+        "Quest ID": "93034"
+      },
+      "objective": "Improve your reputation with the Gelkis, and locate Nerlokh near the Valley of Bones far east of Gelkis Village.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Valley of Bones https://wowhead.com/forever/quest=93034\n            -- 1373 \"Ongeku\" https://wowhead.com/forever/quest=1373\n            -- Assumption: offered right after 1373 was turned in (handoff, offer-set, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {1373},\n            -- 93035 \"Ravaging Ravagers\" https://wowhead.com/forever/quest=93035\n            -- Assumption: turning it in led straight to 93035 (handoff; high; 10+ characters)\n            [questKeys.nextQuestInChain] = 93035,\n        },\n"
+    },
+    {
+      "id": "93035",
+      "name": "Ravaging Ravagers",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93035",
+      "facts": {
+        "Level": "38 , requires level 35",
+        "Difficulty": "35 36 41 48",
+        "Side": "Both factions",
+        "Quest ID": "93035"
+      },
+      "objective": "Maintain your reputation with the Gelkis Clan and slay 6 Undead Ravagers, then return to Nerlokh at the southern entrance to Valley of Bones.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Ravaging Ravagers https://wowhead.com/forever/quest=93035\n            -- 93034 \"Valley of Bones\" https://wowhead.com/forever/quest=93034\n            -- Assumption: offered right after 93034 was turned in (handoff, offer-set, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {93034},\n            -- 93041 \"Facing the Truth\" https://wowhead.com/forever/quest=93041\n            -- Assumption: turning it in led straight to 93041 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 93041,\n        },\n        -- [93036] = { -- Infiltrating the Cult https://wowhead.com/forever/quest=93036\n            -- 92517 \"The Criminal Element\" https://wowhead.com/forever/quest=92517\n            -- already in QuestieDB; Assumption: offered right after 92517 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92517},\n            -- 92529 \"Falaath Village\" https://wowhead.com/forever/quest=92529\n            -- already in QuestieDB; Assumption: turning it in led straight to 92529 (handoff; high; 100+ characters)\n            -- [questKeys.nextQuestInChain] = 92529,\n        -- },\n"
+    },
+    {
+      "id": "93037",
+      "name": "Outing Outcasts",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93037",
+      "facts": {
+        "Level": "40 , requires level 35",
+        "Difficulty": "35 36 38 43 51",
+        "Side": "Both factions",
+        "Quest ID": "93037"
+      },
+      "objective": "Maintain your reputation with the Gelkis Clan, and bring 1 Necromantic Garb to Nerlokh at the entrance of the Valley of Bones.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Outing Outcasts https://wowhead.com/forever/quest=93037\n            -- 93034 \"Valley of Bones\" https://wowhead.com/forever/quest=93034\n            -- Assumption: 93034 was done whenever it was offered (offer-set, cooccurrence; high; 100+ characters)\n            [questKeys.preQuestSingle] = {93034},\n            -- 93041 \"Facing the Truth\" https://wowhead.com/forever/quest=93041\n            -- Assumption: turning it in led straight to 93041 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 93041,\n        },\n"
+    },
+    {
+      "id": "93041",
+      "name": "Facing the Truth",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93041",
+      "facts": {
+        "Level": "38 , requires level 35",
+        "Difficulty": "35 36 41 48",
+        "Side": "Both factions",
+        "Quest ID": "93041"
+      },
+      "objective": "Maintain your reputation with the Gelkis Clan, and bring an Accursed Skull and Gelkis Necromantic Garb to Uthek the Wise in Gelkis Village.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Facing the Truth https://wowhead.com/forever/quest=93041\n            -- 93035 \"Ravaging Ravagers\" https://wowhead.com/forever/quest=93035\n            -- 93037 \"Outing Outcasts\" https://wowhead.com/forever/quest=93037\n            -- Assumption: offered right after 93035 was turned in (handoff, offer-set, absence, cooccurrence; high; 100+ characters); offered right after 93037 was turned in (handoff, offer-set, absence, cooccurrence; medium; 100+ characters)\n            [questKeys.preQuestGroup] = {93035,93037},\n            -- 93044 \"A Cleansing Cry\" https://wowhead.com/forever/quest=93044\n            -- Assumption: turning it in led straight to 93044 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 93044,\n        },\n"
+    },
+    {
+      "id": "93044",
+      "name": "A Cleansing Cry",
+      "selection": "included-related",
+      "url": "https://foreverchanges.pro/quest/93044",
+      "facts": {
+        "Level": "38 , requires level 35",
+        "Difficulty": "35 36 41 48",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93044"
+      },
+      "objective": "Maintain your reputation with the Gelkis, and bring Tears of Theradras back to Uthek the Wise in Gelkis Village.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- A Cleansing Cry https://wowhead.com/forever/quest=93044\n            -- 93041 \"Facing the Truth\" https://wowhead.com/forever/quest=93041\n            -- Assumption: offered right after 93041 was turned in (handoff, offer-set, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {93041},\n            -- 93045 \"Test Your Theory\" https://wowhead.com/forever/quest=93045\n            -- Assumption: turning it in led straight to 93045 (handoff; high; 10+ characters)\n            [questKeys.nextQuestInChain] = 93045,\n        },\n"
+    },
+    {
+      "id": "93045",
+      "name": "Test Your Theory",
+      "selection": "included-related",
+      "url": "https://foreverchanges.pro/quest/93045",
+      "facts": {
+        "Level": "38 , requires level 35",
+        "Difficulty": "35 36 41 48",
+        "Side": "Both factions",
+        "Quest ID": "93045"
+      },
+      "objective": "Maintain your reputation with the Gelkis, and dispel the necromantic curse present on the Accursed Skull. Once successful, report back to Nerlokh near the Valley of Bones.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Test Your Theory https://wowhead.com/forever/quest=93045\n            -- 93044 \"A Cleansing Cry\" https://wowhead.com/forever/quest=93044\n            -- Assumption: offered right after 93044 was turned in (handoff, offer-set, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {93044},\n        },\n"
+    },
+    {
+      "id": "93058",
+      "name": "Saving Our Own",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93058",
+      "facts": {
+        "Level": "42 , requires level 35",
+        "Difficulty": "35 38 40 45 53",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93058"
+      },
+      "objective": "Maintain your reputation with the Gelkis clan, and rescue 5 Gelkis Captives within the Valley of Bones. Return to Nerlokh near the entrance when you are done.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Saving Our Own https://wowhead.com/forever/quest=93058\n            -- 93045 \"Test Your Theory\" https://wowhead.com/forever/quest=93045\n            -- Assumption: 93045 was done whenever it was offered (offer-set, absence, cooccurrence; very high; 10+ characters)\n            [questKeys.preQuestSingle] = {93045},\n        },\n"
+    },
+    {
+      "id": "93062",
+      "name": "Bone Burying",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93062",
+      "facts": {
+        "Level": "42 , requires level 35",
+        "Difficulty": "35 38 40 45 53",
+        "Side": "Both factions",
+        "Quest ID": "93062"
+      },
+      "objective": "Maintain your reputation with the Gelkis Clan, and dispel the curses from 8 failed summons throughout the Valley of Bones.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Bone Burying https://wowhead.com/forever/quest=93062\n            -- 93045 \"Test Your Theory\" https://wowhead.com/forever/quest=93045\n            -- Assumption: 93045 was done whenever it was offered (offer-set, absence, cooccurrence; very high; 10+ characters)\n            [questKeys.preQuestSingle] = {93045},\n        },\n        -- [93065] = { -- Prepare for Battle https://wowhead.com/forever/quest=93065\n            -- 92640 \"Desperate Times\" https://wowhead.com/forever/quest=92640\n            -- already in QuestieDB; Assumption: offered right after 92640 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92640},\n            -- 92947 \"Making Our Move\" https://wowhead.com/forever/quest=92947\n            -- already in QuestieDB; Assumption: turning it in led straight to 92947 (handoff; high; 100+ characters)\n            -- [questKeys.nextQuestInChain] = 92947,\n        -- },\n"
+    },
+    {
+      "id": "93066",
+      "name": "Bristleback Retreat",
+      "selection": "excluded-magram",
+      "url": "https://foreverchanges.pro/quest/93066",
+      "facts": {
+        "Start": "Orgrul Shen'dralas 35.7 , 12.8",
+        "End": "Hagiak Shen'dralas 59.3 , 54",
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93066"
+      },
+      "objective": "Maintain your reputation with the Magram, and slay quilboar at Bristleback Retreat. Then report to Hagiak at the Magram Front on the other side of Valley of Bones in Desolace.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Bristleback Retreat https://wowhead.com/forever/quest=93066\n            -- 92893 \"No Mercy for the Weak\" https://wowhead.com/forever/quest=92893\n            -- 92894 \"Bone Raising\" https://wowhead.com/forever/quest=92894\n            -- Assumption: offered right after 92893, 92894 was turned in (handoff, offer-set, absence, cooccurrence; high; 10+ characters)\n            [questKeys.preQuestGroup] = {92893,92894},\n            -- 93072 \"Long-Term Solutions\" https://wowhead.com/forever/quest=93072\n            -- Assumption: turning it in led straight to 93072 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 93072,\n        },\n"
+    },
+    {
+      "id": "93072",
+      "name": "Long-Term Solutions",
+      "selection": "excluded-magram",
+      "url": "https://foreverchanges.pro/quest/93072",
+      "facts": {
+        "Start": "Hagiak Shen'dralas 59.3 , 54",
+        "End": "Hagiak Shen'dralas 59.3 , 54",
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93072"
+      },
+      "objective": "Maintain your reputation with the Magram clan and slay 2 Outcast Scouts, 6 Outcast Marauders, and 8 Outcast Necromancers then return to Hagiak at the Magram Front.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Long-Term Solutions https://wowhead.com/forever/quest=93072\n            -- 93066 \"Bristleback Retreat\" https://wowhead.com/forever/quest=93066\n            -- Assumption: offered right after 93066 was turned in (handoff, offer-set, cooccurrence; very high; 10+ characters)\n            [questKeys.preQuestSingle] = {93066},\n        },\n        -- [93089] = { -- What Comes Next https://wowhead.com/forever/quest=93089\n            -- 94369 \"The Fate of Zephras\" https://wowhead.com/forever/quest=94369\n            -- already in QuestieDB; Assumption: offered right after 94369 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {94369},\n            -- 94946 \"The Magical City of Dalaran\" https://wowhead.com/forever/quest=94946\n            -- already in QuestieDB; Assumption: turning it in led straight to 94946 (handoff; high; 100+ characters)\n            -- [questKeys.nextQuestInChain] = 94946,\n        -- },\n        -- [93090] = { -- What Comes Next https://wowhead.com/forever/quest=93090\n            -- 93836 \"The Fate of Zephras\" https://wowhead.com/forever/quest=93836\n            -- already in QuestieDB; Assumption: offered right after 93836 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {93836},\n            -- 95349 \"The Earthen Ring\" https://wowhead.com/forever/quest=95349\n            -- already in QuestieDB; Assumption: turning it in led straight to 95349 (handoff; high; 100+ characters)\n            -- [questKeys.nextQuestInChain] = 95349,\n        -- },\n"
+    },
+    {
+      "id": "93122",
+      "name": "Checking Things Out",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93122",
+      "facts": {
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93122"
+      },
+      "objective": "Maintain your reputation with the Gelkis, and investigate centaur points of interest within Shen'dralas. Then return to Nerlokh at the entrance of Valley of Bones with your findings.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Checking Things Out https://wowhead.com/forever/quest=93122\n            -- 93058 \"Saving Our Own\" https://wowhead.com/forever/quest=93058\n            -- 93062 \"Bone Burying\" https://wowhead.com/forever/quest=93062\n            -- Assumption: offered right after 93058 was turned in (handoff, offer-set, absence, cooccurrence; medium; 10+ characters); offered right after 93062 was turned in (handoff, offer-set, absence, cooccurrence; high; 10+ characters)\n            [questKeys.preQuestGroup] = {93058,93062},\n            -- 93128 \"Khan Jehn\" https://wowhead.com/forever/quest=93128\n            -- Assumption: turning it in led straight to 93128 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 93128,\n        },\n"
+    },
+    {
+      "id": "93125",
+      "name": "Going Home",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93125",
+      "facts": {
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Quest ID": "93125"
+      },
+      "objective": "Maintain your reputation with the Gelkis, and escort Rokren out of the Outcast Hideaway. Then inform Nerlokh near the Valley of Bones about what happened.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": ""
+    },
+    {
+      "id": "93128",
+      "name": "Khan Jehn",
+      "selection": "included-related",
+      "url": "https://foreverchanges.pro/quest/93128",
+      "facts": {
+        "Level": "42 , requires level 35",
+        "Difficulty": "35 38 40 45 53",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93128"
+      },
+      "objective": "Maintain your reputation with the Gelkis, and slay Khan Jhen at Magram Village. Once you have succeeded, report to Uthek the Wise in Gelkis Village in Desolace.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Khan Jehn https://wowhead.com/forever/quest=93128\n            -- 93122 \"Checking Things Out\" https://wowhead.com/forever/quest=93122\n            -- Assumption: offered right after 93122 was turned in (handoff, offer-set, absence, cooccurrence; very high; 10+ characters)\n            [questKeys.preQuestSingle] = {93122},\n        },\n"
+    },
+    {
+      "id": "93129",
+      "name": "Threat of Starvation",
+      "selection": "excluded-magram",
+      "url": "https://foreverchanges.pro/quest/93129",
+      "facts": {
+        "Start": "Hagiak Shen'dralas 59.3 , 54",
+        "End": "Hagiak Shen'dralas 59.3 , 54",
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93129"
+      },
+      "objective": "Maintain your reputation with the Magram, and bring 6 Stolen Supplies back to Hagiak at the Magram Front.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Threat of Starvation https://wowhead.com/forever/quest=93129\n            -- 93066 \"Bristleback Retreat\" https://wowhead.com/forever/quest=93066\n            -- Assumption: 93066 was done whenever it was offered (offer-set, cooccurrence; high; 10+ characters)\n            [questKeys.preQuestSingle] = {93066},\n        },\n        -- [93160] = { -- The Forest's Bounty https://wowhead.com/forever/quest=93160\n            -- 93159 \"The Strange Hermit\" https://wowhead.com/forever/quest=93159\n            -- already in QuestieDB; Assumption: offered right after 93159 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {93159},\n        -- },\n        -- [93172] = { -- Free the Hollows https://wowhead.com/forever/quest=93172\n            -- 93159 \"The Strange Hermit\" https://wowhead.com/forever/quest=93159\n            -- already in QuestieDB; Assumption: offered right after 93159 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {93159},\n        -- },\n"
+    },
+    {
+      "id": "93188",
+      "name": "Return to Orgrul",
+      "selection": "excluded-magram",
+      "url": "https://foreverchanges.pro/quest/93188",
+      "facts": {
+        "Start": "Hagiak Shen'dralas 59.3 , 54",
+        "End": "Orgrul Shen'dralas 35.7 , 12.8",
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93188"
+      },
+      "objective": "Maintain your reputation with the Magram, and report back to Orgrul near the northern entrance to Valley of Bones.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Return to Orgrul https://wowhead.com/forever/quest=93188\n            -- 93072 \"Long-Term Solutions\" https://wowhead.com/forever/quest=93072\n            -- 93129 \"Threat of Starvation\" https://wowhead.com/forever/quest=93129\n            -- Assumption: offered right after 93072 was turned in (handoff, offer-set, absence, cooccurrence; medium; 10+ characters); offered right after 93129 was turned in (handoff, offer-set, absence, cooccurrence; low; 10+ characters), kept below the min score to complete its accepted AND list\n            [questKeys.preQuestGroup] = {93072,93129},\n            -- 93196 \"Khan Jehn\" https://wowhead.com/forever/quest=93196\n            -- Assumption: turning it in led straight to 93196 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 93196,\n        },\n"
+    },
+    {
+      "id": "93196",
+      "name": "Khan Jehn",
+      "selection": "excluded-magram",
+      "url": "https://foreverchanges.pro/quest/93196",
+      "facts": {
+        "Start": "Orgrul Shen'dralas 35.7 , 12.8",
+        "End": "Khan Jehn Desolace 73.8 , 73.8",
+        "Level": "42 , requires level 35",
+        "Difficulty": "35 38 40 45 53",
+        "Side": "Both factions",
+        "Quest ID": "93196"
+      },
+      "objective": "Maintain your reputation with the Magram and perform a necromancy ritual to resurrect Khan Jehn. The ritual site can be found in a tent at the central lake of Magram Village.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Khan Jehn https://wowhead.com/forever/quest=93196\n            -- 93188 \"Return to Orgrul\" https://wowhead.com/forever/quest=93188\n            -- Assumption: offered right after 93188 was turned in (handoff, offer-set, absence, cooccurrence; very high; 10+ characters)\n            [questKeys.preQuestSingle] = {93188},\n        },\n"
+    },
+    {
+      "id": "93341",
+      "name": "Forlorn Gardens",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93341",
+      "facts": {
+        "Start": "Mithera Shen'dralas 53.2 , 75.9",
+        "End": "Mithera Shen'dralas 53.2 , 75.9",
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93341"
+      },
+      "objective": "Investigate the Forlorn Gardens near Shen'dralas and then return to Mithera at the nearby temple.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Forlorn Gardens https://wowhead.com/forever/quest=93341\n            -- 93394 \"Meeting the Magister\" https://wowhead.com/forever/quest=93394\n            -- Assumption: 93394 was done whenever it was offered (offer-set, cooccurrence; medium; 100+ characters)\n            [questKeys.preQuestSingle] = {93394},\n        },\n"
+    },
+    {
+      "id": "93362",
+      "name": "What They've Done to My Peonies",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93362",
+      "facts": {
+        "Start": "Mithera Shen'dralas 53.2 , 75.9",
+        "End": "Mithera Shen'dralas 53.2 , 75.9",
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93362"
+      },
+      "objective": "Cull plants in the Forlorn Garden and then return to Mithera at Shen'dralas.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- What They've Done to My Peonies https://wowhead.com/forever/quest=93362\n            -- 93341 \"Forlorn Gardens\" https://wowhead.com/forever/quest=93341\n            -- Assumption: offered right after 93341 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {93341},\n        },\n"
+    },
+    {
+      "id": "93394",
+      "name": "Meeting the Magister",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93394",
+      "facts": {
+        "Start": "Mordent Evenshade Shen'dralas 35.1 , 46.4",
+        "End": "Magister Kirandis Shen'dralas 47.4 , 76.2",
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93394"
+      },
+      "objective": "Locate Magister Kirandis inside the temple of Shen'dralas.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Meeting the Magister https://wowhead.com/forever/quest=93394\n            -- 93016 \"A Brief History Lesson\" https://wowhead.com/forever/quest=93016\n            -- Assumption: offered right after 93016 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {93016},\n        },\n"
+    },
+    {
+      "id": "93404",
+      "name": "Rot and Regret",
+      "selection": "included-related",
+      "url": "https://foreverchanges.pro/quest/93404",
+      "facts": {
+        "Start": "Woodwyrd Shen'dralas 69.7 , 71.9",
+        "Level": "49 , requires level 35",
+        "Difficulty": "35 45 47 52 60",
+        "Side": "Both factions",
+        "Type": "Dungeon",
+        "Shareable": "Yes",
+        "Quest ID": "93404"
+      },
+      "objective": "Venture to Maraudon and recover a Vial of Earth Song Water and return it to Woodwyrd at the Forlorn Gardens in Desolace.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Rot and Regret https://wowhead.com/forever/quest=93404\n            -- 93594 \"Word of the Woods\" https://wowhead.com/forever/quest=93594\n            -- Assumption: offered right after 93594 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {93594},\n            -- 93601 \"Passing the Blame\" https://wowhead.com/forever/quest=93601\n            -- Assumption: turning it in led straight to 93601 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 93601,\n        },\n"
+    },
+    {
+      "id": "93450",
+      "name": "Phantasmal Problems",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93450",
+      "facts": {
+        "End": "Vindael Shen'dralas 42.1 , 78.9",
+        "Level": "42 , requires level 35",
+        "Difficulty": "35 38 40 45 53",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93450"
+      },
+      "objective": "Take Vindael's unfinished sword and figure out a way to usher it into the spirit realm, then return the Phantasmal Blade to him at Shen'dralas.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Phantasmal Problems https://wowhead.com/forever/quest=93450\n            -- 93394 \"Meeting the Magister\" https://wowhead.com/forever/quest=93394\n            -- Assumption: 93394 was done whenever it was offered (offer-set, cooccurrence; medium; 100+ characters)\n            [questKeys.preQuestSingle] = {93394},\n            -- 93546 \"Spectral Iron Ore\" https://wowhead.com/forever/quest=93546\n            -- Assumption: turning it in led straight to 93546 (handoff; high; 10+ characters)\n            [questKeys.nextQuestInChain] = 93546,\n        },\n"
+    },
+    {
+      "id": "93546",
+      "name": "Spectral Iron Ore",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93546",
+      "facts": {
+        "Start": "Vindael Shen'dralas 42.1 , 78.9",
+        "End": "Vindael Shen'dralas 42.1 , 78.9",
+        "Level": "42 , requires level 35",
+        "Difficulty": "35 38 40 45 53",
+        "Side": "Both factions",
+        "Quest ID": "93546"
+      },
+      "objective": "Search for Spectral Iron Deposits around Shen'dralas and collect 10 Spectral Iron Ore. Return to Vindael in Shen'dralas once you have found enough.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Spectral Iron Ore https://wowhead.com/forever/quest=93546\n            -- 93450 \"Phantasmal Problems\" https://wowhead.com/forever/quest=93450\n            -- Assumption: offered right after 93450 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {93450},\n            -- 96060 \"Tempered Expectations\" https://wowhead.com/forever/quest=96060\n            -- Assumption: turning it in led straight to 96060 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 96060,\n        },\n"
+    },
+    {
+      "id": "93568",
+      "name": "Partially Digested Collar",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93568",
+      "facts": {
+        "Start": "an item: Partially Digested Collar",
+        "End": "Liranne Shen'dralas 47.3 , 65.7",
+        "Level": "45 , requires level 35",
+        "Difficulty": "35 41 43 48 57",
+        "Side": "Both factions",
+        "Quest ID": "93568"
+      },
+      "objective": "Return the Partially Digested Collar to someone who knows about it. Presumably, they can be found in or near Shen'dralas in Desolace.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": ""
+    },
+    {
+      "id": "93574",
+      "name": "Corpsefeeder's Carapace",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93574",
+      "facts": {
+        "Start": "an item: Corpsefeeder's Carapace",
+        "Level": "45 , requires level 35",
+        "Difficulty": "35 41 43 48 57",
+        "Side": "Both factions",
+        "Quest ID": "93574"
+      },
+      "objective": "Find someone interested in Corpsefeeder's Carapace.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": ""
+    },
+    {
+      "id": "93594",
+      "name": "Word of the Woods",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93594",
+      "facts": {
+        "Start": "Mithera Shen'dralas 53.2 , 75.9",
+        "End": "Woodwyrd Shen'dralas 69.7 , 71.9",
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93594"
+      },
+      "objective": "Find Woodwyrd in the Forlorn Gardens at Shen'dralas in the Desolace.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Word of the Woods https://wowhead.com/forever/quest=93594\n            -- 93341 \"Forlorn Gardens\" https://wowhead.com/forever/quest=93341\n            -- Assumption: offered right after 93341 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {93341},\n            -- 93404 \"Rot and Regret\" https://wowhead.com/forever/quest=93404\n            -- Assumption: turning it in led straight to 93404 (handoff; medium; 100+ characters)\n            [questKeys.nextQuestInChain] = 93404,\n        },\n"
+    },
+    {
+      "id": "93601",
+      "name": "Passing the Blame",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93601",
+      "facts": {
+        "Start": "Woodwyrd Shen'dralas 69.7 , 71.9",
+        "Level": "45 , requires level 35",
+        "Difficulty": "35 41 43 48 57",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "93601"
+      },
+      "objective": "Seek out a quilboar of significance at the Bristleback Retreat.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Passing the Blame https://wowhead.com/forever/quest=93601\n            -- 93404 \"Rot and Regret\" https://wowhead.com/forever/quest=93404\n            -- Assumption: offered right after 93404 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {93404},\n            -- 93604 \"Agamaggan's Blood\" https://wowhead.com/forever/quest=93604\n            -- Assumption: turning it in led straight to 93604 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 93604,\n        },\n"
+    },
+    {
+      "id": "93604",
+      "name": "Agamaggan's Blood",
+      "selection": "included-related",
+      "url": "https://foreverchanges.pro/quest/93604",
+      "facts": {
+        "Level": "45 , requires level 35",
+        "Difficulty": "35 41 43 48 57",
+        "Side": "Both factions",
+        "Type": "Dungeon",
+        "Shareable": "Yes",
+        "Quest ID": "93604"
+      },
+      "objective": "Venture to Razorfen Downs and acquire Virulent Blood of Agamaggan, then return it to Kog'thug the Brave at Bristleback Retreat in the Desolace. Kog'thug felt it worth reminding that the Blood of Agamaggan inside Razorfen Kraul would not be sufficient.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Agamaggan's Blood https://wowhead.com/forever/quest=93604\n            -- 93601 \"Passing the Blame\" https://wowhead.com/forever/quest=93601\n            -- Assumption: offered right after 93601 was turned in (handoff, offer-set, cooccurrence; very high; 10+ characters)\n            [questKeys.preQuestSingle] = {93601},\n        },\n"
+    },
+    {
+      "id": "93606",
+      "name": "Not on Squealing Terms",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93606",
+      "facts": {
+        "Level": "45 , requires level 35",
+        "Difficulty": "35 41 43 48 57",
+        "Side": "Both factions",
+        "Quest ID": "93606"
+      },
+      "objective": "Quell the quilboar's quarrel by bringing Quolga a Benevolent Bouquet and the Virulent Blood of Agamaggan. The flowers to make the bouquet can be acquired at the Forlorn Gardens, near Shen'dralas in the Desolace.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Not on Squealing Terms https://wowhead.com/forever/quest=93606\n            -- 93604 \"Agamaggan's Blood\" https://wowhead.com/forever/quest=93604\n            -- Assumption: offered right after 93604 was turned in (handoff, offer-set, cooccurrence; high; <10 characters)\n            [questKeys.preQuestSingle] = {93604},\n        },\n"
+    },
+    {
+      "id": "93609",
+      "name": "Forlorn Necklace",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93609",
+      "facts": {
+        "Start": "an item: Forlorn Necklace",
+        "Level": "45 , requires level 35",
+        "Difficulty": "35 41 43 48 57",
+        "Side": "Both factions",
+        "Quest ID": "93609"
+      },
+      "objective": "Bring the Forlorn Necklace to Mithera at the temple of Shen'dralas in the Desolace.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": ""
+    },
+    {
+      "id": "93644",
+      "name": "Tattered Journal",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/93644",
+      "facts": {
+        "Start": "an item: Tattered Journal",
+        "End": "Mordent Evenshade Shen'dralas 35.1 , 46.4",
+        "Level": "45 , requires level 35",
+        "Difficulty": "35 41 43 48 57",
+        "Side": "Both factions",
+        "Quest ID": "93644"
+      },
+      "objective": "The text suggests the author of this journal may be somewhere in Shen'dralas.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": ""
+    },
+    {
+      "id": "96010",
+      "name": "Fragments of the Pylons",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/96010",
+      "facts": {
+        "Start": "Mordent Evenshade Shen'dralas 35.1 , 46.4",
+        "End": "Mordent Evenshade Shen'dralas 35.1 , 46.4",
+        "Level": "41 , requires level 35",
+        "Difficulty": "35 37 39 44 52",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "96010"
+      },
+      "objective": "Recover shards and fragments of the pylons, found guarded at the Magram and Gelkis villages. Return them to Mordent Evenshade.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Fragments of the Pylons https://wowhead.com/forever/quest=96010\n            -- 92914 \"Strange Pylons\" https://wowhead.com/forever/quest=92914\n            -- Assumption: offered right after 92914 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {92914},\n            -- 96018 \"Powering the Pylons\" https://wowhead.com/forever/quest=96018\n            -- Assumption: turning it in led straight to 96018 (handoff; medium; 100+ characters)\n            [questKeys.nextQuestInChain] = 96018,\n        },\n"
+    },
+    {
+      "id": "96018",
+      "name": "Powering the Pylons",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/96018",
+      "facts": {
+        "Start": "Mordent Evenshade Shen'dralas 35.1 , 46.4",
+        "End": "Mordent Evenshade Shen'dralas 35.1 , 46.4",
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Quest ID": "96018"
+      },
+      "objective": "Acquire the Mana Sieve from within the temple in Shen'dralas and use it to collect Ancient Mana Crystals. Once you have acquired enough mana, empower the pylons and return to Mordent Evenshade.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Powering the Pylons https://wowhead.com/forever/quest=96018\n            -- 96010 \"Fragments of the Pylons\" https://wowhead.com/forever/quest=96010\n            -- Assumption: offered right after 96010 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {96010},\n            -- 93016 \"A Brief History Lesson\" https://wowhead.com/forever/quest=93016\n            -- Assumption: turning it in led straight to 93016 (handoff; medium; 100+ characters)\n            [questKeys.nextQuestInChain] = 93016,\n        },\n"
+    },
+    {
+      "id": "96060",
+      "name": "Tempered Expectations",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/96060",
+      "facts": {
+        "Start": "Vindael Shen'dralas 42.1 , 78.9",
+        "End": "Vindael Shen'dralas 42.1 , 78.9",
+        "Level": "42 , requires level 35",
+        "Difficulty": "35 38 40 45 53",
+        "Side": "Both factions",
+        "Quest ID": "96060"
+      },
+      "objective": "Use the Phantasmal Blade to execute 8 wildlife in Shen'dralas, then return to Vindael at the temple.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Tempered Expectations https://wowhead.com/forever/quest=96060\n            -- 93546 \"Spectral Iron Ore\" https://wowhead.com/forever/quest=93546\n            -- Assumption: offered right after 93546 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {93546},\n        },\n"
+    },
+    {
+      "id": "99257",
+      "name": "A Heart of Crystal",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/99257",
+      "facts": {
+        "Start": "Historian Biraxas Shen'dralas 45.9 , 78.3",
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Shareable": "Yes",
+        "Quest ID": "99257"
+      },
+      "objective": "Slay a Decrepit Pylon Protector for their Depleted Crystal Heart and bring it to Historian Biraxas within the temple of Shen'dralas.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- A Heart of Crystal https://wowhead.com/forever/quest=99257\n            -- 93394 \"Meeting the Magister\" https://wowhead.com/forever/quest=93394\n            -- Assumption: offered right after 93394 was turned in (handoff, offer-set, absence, cooccurrence; high; 100+ characters)\n            [questKeys.preQuestSingle] = {93394},\n            -- 99258 \"Mana Mania\" https://wowhead.com/forever/quest=99258\n            -- Assumption: turning it in led straight to 99258 (handoff; medium; 100+ characters)\n            [questKeys.nextQuestInChain] = 99258,\n        },\n"
+    },
+    {
+      "id": "99258",
+      "name": "Mana Mania",
+      "selection": "included-zone",
+      "url": "https://foreverchanges.pro/quest/99258",
+      "facts": {
+        "Start": "Historian Biraxas Shen'dralas 45.9 , 78.3",
+        "End": "Historian Biraxas Shen'dralas 45.9 , 78.3",
+        "Level": "43 , requires level 35",
+        "Difficulty": "35 39 41 46 54",
+        "Side": "Both factions",
+        "Type": "Elite",
+        "Quest ID": "99258"
+      },
+      "objective": "Throw the Depleted Crystal Heart into an Unstable Mana Rift. Return to Historian Biraxas within the temple of Shen'dralas with proof of success or failure.",
+      "classRestriction": null,
+      "minimumReputation": null,
+      "relationshipTrace": " -- Mana Mania https://wowhead.com/forever/quest=99258\n            -- 99257 \"A Heart of Crystal\" https://wowhead.com/forever/quest=99257\n            -- Assumption: offered right after 99257 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {99257},\n        },\n        -- [99260] = { -- Fillion's Mission https://wowhead.com/forever/quest=99260\n            -- 92850 \"The Missing Scholar\" https://wowhead.com/forever/quest=92850\n            -- already in QuestieDB; Assumption: offered right after 92850 was turned in (handoff, offer-set, cooccurrence; very high; 100+ characters)\n            -- [questKeys.preQuestSingle] = {92850},\n        -- },\n"
+    }
+  ],
+  "sourceHashes": {
+    "candidate-ids.json": "ce694b468cc8b98d2ae08a40a35460b6003cd626253a2871f831e218b7903b1c",
+    "changes-alt-zone.html": "3ca716a5ac41a5ff571a3b2236daed89d370fc5906bf7b136645deb5a1970ee1",
+    "changes-quests.html": "a5cc24eb62eee44dfd34ce8299ef29b6ef819818c49f03cd2830fa017ad39f62",
+    "foreverBaseQuest.lua": "be8f693bfa5528eeb499b7c1d23cb611e4430cd3642be81de75d98be5b03dbb6",
+    "foreverNpcDB.lua": "3ac7c0b4b25cd7320f30affb3c5ae95d1ff3b03e074868e8cc90294506e3be95",
+    "foreverNpcTraces.lua": "3f07c8cf245f1bced2f30cc0d11d04aac23f92470c4ccae19fe575206fd64b28",
+    "foreverObjectDB.lua": "a5b78201cf3b3416da3d4e0c22508d69c2c8c4616259e9371bc9a0826df55f95",
+    "foreverQuestDB.lua": "e1ae93bc7b0ace50028e8dc42efb2f88f6ad09f13aa2d4b0bc94a6f471ec32c7",
+    "foreverQuestRelationTraces.lua": "6046c4c77af4613f70f3a9f81d5d3826277bce98d9ec1df76b54990ac559064b",
+    "foreverQuestTraces.lua": "2cfcb394aa892c05bf16d4ca757674c50452a2f9107b647142c2644a73f45a0d",
+    "helper-zone.json": "38896a27ab5413f432323a1ec08be7724f58058d5d6b7eb954271b358cce4bab",
+    "item-259461.json": "b681ffa2cf282b29000c927f709d48def71a155a7a67f2adc442e9fa329cf156",
+    "item-259893.json": "d7106d44c9c3a0213ecf92a5c38d0963903609a638c3e3b51861acc29fdf2f1a",
+    "item-260247.json": "089ac773bea05243abf066dc0e00f5aa99ccb612778b94e8af86d64d54984244",
+    "item-260347.json": "a4775ba9d9c3eae76828d4df0940f87c99763a484fed31efe28e0d9df7b9f6b0",
+    "quest-92743.html": "c5492ab9d3d69981f5cb872948e468983c031f46b1e692cdc34e55d51b3a4cda",
+    "quest-92841.html": "5389c68fab5fa0e9bd89d4731e65b8ad5c9fe3a9496a087543e367a331ac3049",
+    "quest-92844.html": "a303a10b3b8a0be1f716400895317a7a5e657d9269145e4ae8b51ec62a7c8eeb",
+    "quest-92846.html": "ac84609826716cfd5121274403cf5abdd0f8d2ae40f89c289d4117d8bd8b7665",
+    "quest-92847.html": "0f9b3e904973b6b9eaf9baa041acc829ad73facaeb9a6454f9123f0b1a51f4a8",
+    "quest-92873.html": "54e9f08e6401e28394a96ff643c190924b76f5fc12fc106dec565e40fd72cfb5",
+    "quest-92893.html": "21a68d0e48b9636b0176bde780e365a5bd6cbb802360d6c05257893d79dbfedc",
+    "quest-92894.html": "45fdadf931a19b84796d755c76bfc9ee36c60aaf821b16574bcf7a2578c0f74f",
+    "quest-92914.html": "b599d6159fc80db02e211b288b5780a7decc3ae38516c80aa5a98a46f765c02f",
+    "quest-93016.html": "924ea6ea07065fa251a30c218e173c2842487aaec2eb0a40a3cd16a0aaed8ef4",
+    "quest-93034.html": "dcd1dfed431f289cbd9dcd341b977e55065b98b904814e0cc17629dbeccaf471",
+    "quest-93035.html": "65d56d66283d20f582f83d7af4f1065264c02c95e45d00698eb2281634ad6b66",
+    "quest-93037.html": "be68244c56fe2d47d7a4c28ecafe9a30c898a58cfe7be801d5b10733f901a175",
+    "quest-93041.html": "b3c1bea01df5ffcc5adfbc7d21a6a7448dc059f2d3f5f8d9436a89d3cc1def87",
+    "quest-93044.html": "f2ab2e27087cc2ca112cca31caa47f145ac3fa090171474355404f51a6390ae9",
+    "quest-93045.html": "c59900e5e4e6c73178c9c99f8166d21bf2ef04583e11ff2a4bd7d682e1bcb960",
+    "quest-93058.html": "373e3f2aa8e6751f1664c3a1e330086282c7012c43a242d141399c41e6ae4d44",
+    "quest-93062.html": "c17a0c74365867d931cd73193f71f5d86851954b185c60f4d2bd21ef7e8e18ee",
+    "quest-93066.html": "c71a657164bfab2198f7cb1705e6006a933e893f4a7d101e98c53132af3be2d0",
+    "quest-93072.html": "9e2c238e9a4c113303a9f0dbcad61aa396812c39c1442491e1b9a42c0517e8e8",
+    "quest-93122.html": "929c41ba238a0b77e6a1271c29ddfa509fbeb0fa76658e748f611b7b73335ae6",
+    "quest-93125.html": "c6a7bc5a8bb4745b3c10631266c663c2dafb2218e5e340a296ba4abf64eebf5f",
+    "quest-93128.html": "7d58fca2b5721bd93a43d6c457e696db7da52a52418180d23780dbd8a313f2be",
+    "quest-93129.html": "3ba98c0cc6bc2d153232d65e3951628e608b13ffb8d3d5b5b0675613266a8091",
+    "quest-93188.html": "3674446a593409f1b4380b7cf23cf463069a207fcc5e73a4480f3357f21d51be",
+    "quest-93196.html": "991226daae961b5d018fb78954bf71105e44a8ca6c35353f3ea3e495b5e3f9af",
+    "quest-93341.html": "c22d913fad0b053d2074bf3cdae8d025039cd5335d28fddc8be38c12467cb1ea",
+    "quest-93362.html": "637543150e0855756ab09ac2587efc960cff838bfce8d1875901e6bcd98a1937",
+    "quest-93394.html": "aa7d60bfa2a20881934539ec0a158ea098bb5143f6590437e984d5bce9189df7",
+    "quest-93404.html": "6f2896073a0db831b62e3d8c088a15fc587dd561035ee165e27ddb6027df6c9b",
+    "quest-93450.html": "67ca4538eae0802276aa2454c5307ae49c713e9d64ebb1a71a90037a15870063",
+    "quest-93546.html": "0c767a90c5d0a58802548ca238a4a1573686819a9310af5cecbae448ffa25ff7",
+    "quest-93568.html": "bbf029ee10b5569b80cceb9018ed746a5f0107aa240e5ccabd2caddab0ecf66b",
+    "quest-93574.html": "464854fd4b4c7cb42917a5caa160ce8962b44e138dbedc8b54cf79df13f2f5f8",
+    "quest-93594.html": "df6642279a6c05e7b71bd8afbf2ee63ac5c639a06c3dbea26eb42dc84354960e",
+    "quest-93601.html": "bc88bd585f44bb5631c24bcdfda18dfc35613e0255a2022500e05421cc7528ec",
+    "quest-93604.html": "52504ae3325554f03fc9861be839f17216da1dfe2e63241fba5086b591bea205",
+    "quest-93606.html": "00930d31e4b934e8843e4a72ff1bae292e78eb1f5049b7a4b2e43fb99fc4dc2d",
+    "quest-93609.html": "52e6db786d6d6ce5b149dcab1b4979f5ea2d860482f589e8a5b750467824fff2",
+    "quest-93644.html": "58d64240617aaeae11c19ea365a8958c64d3a1ad5bbe43bdb9cc8e7f44a5b24a",
+    "quest-96010.html": "1b8e3f266f1502ebe767c9f8c2ed15dbb07930a51cb92a5ac2550eefebafab8d",
+    "quest-96018.html": "998bcfb27c7c78945bb1d70f9fcc03def04304a147fbb4a1e12bde68b6d5f5a1",
+    "quest-96060.html": "096c7eaa4a0f765ebb58264525b3c617a6c5b53ec5a9a6cf58667a17c73943b7",
+    "quest-99257.html": "8659feb0d904f3d7e42d47b260bd71ef41dcda05542a893e9bef6214f8ed6ba0",
+    "quest-99258.html": "f2867957ed18c5bf3179339c30b32df0a8e55137c85c7377658794e58dd565e6",
+    "questie-tree.json": "347de86a25dcac337a805a4a80f3bb7f8cb2db20eb32f0e576b35d4a653c5249"
+  }
+}
