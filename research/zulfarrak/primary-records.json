@@ -1,0 +1,1268 @@
+{
+  "2768": {
+    "merged": {
+      "1": "Divino-matic Rod",
+      "2": {
+        "1": {
+          "1": 7407
+        }
+      },
+      "3": {
+        "1": {
+          "1": 7407
+        }
+      },
+      "4": 40,
+      "5": 47,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Bring the Divino-matic Rod to Chief Engineer Bilgewhizzle in Gadgetzan."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 8548
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 978,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 369,
+          "2": 500
+        }
+      }
+    },
+    "classic": {
+      "entry": 2768,
+      "Title": "Divino-matic Rod",
+      "MinLevel": 40,
+      "QuestLevel": 47,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "2769": {
+    "merged": {
+      "1": "The Brassbolts Brothers",
+      "2": {
+        "1": {
+          "1": 6169
+        }
+      },
+      "3": {
+        "1": {
+          "1": 4453
+        }
+      },
+      "4": 40,
+      "5": 46,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Speak with Wizzle Brassbolts in the Shimmering Flats."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 400,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2770,
+      "23": 8
+    },
+    "classic": {
+      "entry": 2769,
+      "Title": "The Brassbolts Brothers",
+      "MinLevel": 40,
+      "QuestLevel": 46,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 2770,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "2770": {
+    "merged": {
+      "1": "Gahz'rilla",
+      "2": {
+        "1": {
+          "1": 4453
+        }
+      },
+      "3": {
+        "1": {
+          "1": 4453
+        }
+      },
+      "4": 40,
+      "5": 50,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Bring Gahz'rilla's Electrified Scale to Wizzle Brassbolts in the Shimmering Flats."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 8707
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 978,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "classic": {
+      "entry": 2770,
+      "Title": "Gahz'rilla",
+      "MinLevel": 40,
+      "QuestLevel": 50,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "2846": {
+    "merged": {
+      "1": "Tiara of the Deep",
+      "2": {
+        "1": {
+          "1": 6546
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6546
+        }
+      },
+      "4": 40,
+      "5": 46,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Bring the Tiara of the Deep to Tabetha in Dustwallow Marsh."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 9234
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 978,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "classic": {
+      "entry": 2846,
+      "Title": "Tiara of the Deep",
+      "MinLevel": 40,
+      "QuestLevel": 46,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "2861": {
+    "merged": {
+      "1": "Tabetha's Task",
+      "2": {
+        "1": {
+          "1": 3048,
+          "2": 4568,
+          "3": 5144,
+          "4": 5497,
+          "5": 5885
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6546
+        }
+      },
+      "4": 40,
+      "5": 46,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Speak with Tabetha in Dustwallow Marsh."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 978,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2846,
+      "23": 8
+    },
+    "classic": {
+      "entry": 2861,
+      "Title": "Tabetha's Task",
+      "MinLevel": 40,
+      "QuestLevel": 46,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 2846,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "2864": {
+    "merged": {
+      "1": "Tran'rek",
+      "2": {
+        "1": {
+          "1": 773
+        }
+      },
+      "3": {
+        "1": {
+          "1": 7876
+        }
+      },
+      "4": 40,
+      "5": 45,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Speak with Tran'rek in Gadgetzan."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 978,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2865,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 369,
+          "2": 25
+        }
+      }
+    },
+    "classic": {
+      "entry": 2864,
+      "Title": "Tran'rek",
+      "MinLevel": 40,
+      "QuestLevel": 45,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 2865,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "2865": {
+    "merged": {
+      "1": "Scarab Shells",
+      "2": {
+        "1": {
+          "1": 7876
+        }
+      },
+      "3": {
+        "1": {
+          "1": 7876
+        }
+      },
+      "4": 40,
+      "5": 45,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Bring 5 Uncracked Scarab Shells to Tran'rek in Gadgetzan."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 9238
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2864
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 978,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 369,
+          "2": 500
+        }
+      }
+    },
+    "classic": {
+      "entry": 2865,
+      "Title": "Scarab Shells",
+      "MinLevel": 40,
+      "QuestLevel": 45,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "2988": {
+    "merged": {
+      "1": "Witherbark Cages",
+      "2": {
+        "1": {
+          "1": 5636
+        }
+      },
+      "3": {
+        "1": {
+          "1": 5636
+        }
+      },
+      "4": 40,
+      "5": 45,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Check the cages at the two Witherbark villages, then return to Gryphon Master Talonaxe."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": {
+          "1": {
+            "1": 144066,
+            "2": "Check First Cage"
+          },
+          "2": {
+            "1": 144067,
+            "2": "Check Second Cage"
+          },
+          "3": {
+            "1": 144068,
+            "2": "Check Third Cage"
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 47,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2989,
+      "23": 8
+    },
+    "classic": {
+      "entry": 2988,
+      "Title": "Witherbark Cages",
+      "MinLevel": 40,
+      "QuestLevel": 45,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 2989,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "2989": {
+    "merged": {
+      "1": "The Altar of Zul",
+      "2": {
+        "1": {
+          "1": 5636
+        }
+      },
+      "3": {
+        "1": {
+          "1": 5636
+        }
+      },
+      "4": 40,
+      "5": 48,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Check the top of the Altar of Zul, then return to Gryphon Master Talonaxe."
+      },
+      "9": {
+        "1": "Search the Altar of Zul",
+        "2": {
+          "47": {
+            "1": {
+              "1": 48.98,
+              "2": 68.66
+            }
+          }
+        }
+      },
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2988
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 47,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2990,
+      "23": 12,
+      "24": 2
+    },
+    "classic": {
+      "entry": 2989,
+      "Title": "The Altar of Zul",
+      "MinLevel": 40,
+      "QuestLevel": 48,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2988,
+      "NextQuestInChain": 2990,
+      "QuestFlags": 12,
+      "SpecialFlags": 2
+    },
+    "traces": {}
+  },
+  "2990": {
+    "merged": {
+      "1": "Thadius Grimshade",
+      "2": {
+        "1": {
+          "1": 5636
+        }
+      },
+      "3": {
+        "1": {
+          "1": 8022
+        }
+      },
+      "4": 40,
+      "5": 47,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Bring Sharpbeak's Feather to Thadius Grimshade in the Blasted Lands."
+      },
+      "9": null,
+      "10": null,
+      "11": 9468,
+      "12": null,
+      "13": {
+        "1": 2989
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 47,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2991,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 75
+        }
+      }
+    },
+    "classic": {
+      "entry": 2990,
+      "Title": "Thadius Grimshade",
+      "MinLevel": 40,
+      "QuestLevel": 47,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2989,
+      "NextQuestInChain": 2991,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "2991": {
+    "merged": {
+      "1": "Nekrum's Medallion",
+      "2": {
+        "1": {
+          "1": 8022
+        }
+      },
+      "3": {
+        "1": {
+          "1": 8022
+        }
+      },
+      "4": 40,
+      "5": 47,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Bring Nekrum's Medallion to Thadius Grimshade in the Blasted Lands."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 9471
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2990
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 978,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2992,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 350
+        }
+      }
+    },
+    "classic": {
+      "entry": 2991,
+      "Title": "Nekrum's Medallion",
+      "MinLevel": 40,
+      "QuestLevel": 47,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2990,
+      "NextQuestInChain": 2992,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "2992": {
+    "merged": {
+      "1": "The Divination",
+      "2": {
+        "1": {
+          "1": 8022
+        }
+      },
+      "3": {
+        "1": {
+          "1": 8022
+        }
+      },
+      "4": 40,
+      "5": 47,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Wait until Grimshade performs the ritual of divination."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2991
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 47,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2993,
+      "23": 2,
+      "24": 2,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 25
+        }
+      }
+    },
+    "classic": {
+      "entry": 2992,
+      "Title": "The Divination",
+      "MinLevel": 40,
+      "QuestLevel": 47,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2991,
+      "NextQuestInChain": 2993,
+      "QuestFlags": 2,
+      "SpecialFlags": 2
+    },
+    "traces": {}
+  },
+  "2993": {
+    "merged": {
+      "1": "Return to the Hinterlands",
+      "2": {
+        "1": {
+          "1": 8022
+        }
+      },
+      "3": {
+        "1": {
+          "1": 5636
+        }
+      },
+      "4": 40,
+      "5": 47,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Speak with Gryphon Master Talonaxe."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2992
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 47,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2994,
+      "23": 8
+    },
+    "classic": {
+      "entry": 2993,
+      "Title": "Return to the Hinterlands",
+      "MinLevel": 40,
+      "QuestLevel": 47,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2992,
+      "NextQuestInChain": 2994,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "2994": {
+    "merged": {
+      "1": "Saving Sharpbeak",
+      "2": {
+        "1": {
+          "1": 5636
+        }
+      },
+      "3": {
+        "1": {
+          "1": 5636
+        }
+      },
+      "4": 40,
+      "5": 53,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Fight to the top of Jintha'Alor, kill Vile Priestess Hexx for the key to Sharpbeak's cage, and save Sharpbeak."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": {
+          "1": {
+            "1": 144070,
+            "2": "Open Sharpbeak's Cage"
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2993
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 47,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": {
+        "1": 9472
+      },
+      "22": null,
+      "23": 8
+    },
+    "classic": {
+      "entry": 2994,
+      "Title": "Saving Sharpbeak",
+      "MinLevel": 40,
+      "QuestLevel": 53,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2993,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "3042": {
+    "merged": {
+      "1": "Troll Temper",
+      "2": {
+        "1": {
+          "1": 7804
+        }
+      },
+      "3": {
+        "1": {
+          "1": 7804
+        }
+      },
+      "4": 40,
+      "5": 45,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Bring 20 Vials of Troll Temper to Trenton Lighthammer in Gadgetzan."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 9523
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 978,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 369,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 3042,
+      "Title": "Troll Temper",
+      "MinLevel": 40,
+      "QuestLevel": 45,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "3520": {
+    "merged": {
+      "1": "Screecher Spirits",
+      "2": {
+        "1": {
+          "1": 8579
+        }
+      },
+      "3": {
+        "1": {
+          "1": 8579
+        }
+      },
+      "4": 40,
+      "5": 44,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Capture the spirits of 3 screechers in Feralas, then return to Yeh'kinya in Steamwheedle Port."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 8612,
+            "2": "Screecher Spirits Collected"
+          }
+        }
+      },
+      "11": 10699,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 440,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 3527
+    },
+    "classic": {
+      "entry": 3520,
+      "Title": "Screecher Spirits",
+      "MinLevel": 40,
+      "QuestLevel": 44,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 3527,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "3527": {
+    "merged": {
+      "1": "The Prophecy of Mosh'aru",
+      "2": {
+        "1": {
+          "1": 8579
+        }
+      },
+      "3": {
+        "1": {
+          "1": 8579
+        }
+      },
+      "4": 40,
+      "5": 47,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Bring the First and Second Mosh'aru Tablets to Yeh'kinya in Tanaris."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 10660
+          },
+          "2": {
+            "1": 10661
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 3520
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 978,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 4787,
+      "23": 8
+    },
+    "classic": {
+      "entry": 3527,
+      "Title": "The Prophecy of Mosh'aru",
+      "MinLevel": 40,
+      "QuestLevel": 47,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 3520,
+      "NextQuestInChain": 4787,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "4787": {
+    "merged": {
+      "1": "The Ancient Egg",
+      "2": {
+        "1": {
+          "1": 8579
+        }
+      },
+      "3": {
+        "1": {
+          "1": 8579
+        }
+      },
+      "4": 40,
+      "5": 50,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Bring the Ancient Egg to Yeh'kinya in Tanaris."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 12402
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 3527
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 47,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 3528,
+      "23": 8
+    },
+    "classic": {
+      "entry": 4787,
+      "Title": "The Ancient Egg",
+      "MinLevel": 40,
+      "QuestLevel": 50,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 3527,
+      "NextQuestInChain": 3528,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "96770": {
+    "merged": null,
+    "classic": null,
+    "traces": {
+      "foreverBaseQuest.lua": " -- The Witch Doctor's Head : https://wowhead.com/forever/quest=96770/the-witch-doctors-head\n            [questKeys.name] = \"The Witch Doctor's Head\",\n            [questKeys.requiredLevel] = 39,\n            [questKeys.questLevel] = 46,\n            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,\n            [questKeys.objectivesText] = {\"Slay Witch Doctor Zum'rah and bring Zum'rah's Head to Archmage Lan'dalock in Dalaran.\"},\n            [questKeys.objectives] = {nil, nil, {{277112}}},\n            [questKeys.zoneOrSort] = zoneIDs.ZUL_FARRAK,\n            [questKeys.reputationReward] = {{2740, 300}},\n",
+      "foreverQuestTraces.lua": "\n            [questKeys.name] = \"The Witch Doctor's Head\",\n            [questKeys.questLevel] = 46,\n            [questKeys.objectives] = {nil,nil,{{277112}}},\n            [questKeys.objectivesText] = {\"Slay Witch Doctor Zum'rah and bring Zum'rah's Head to Archmage Lan'dalock in Dalaran.\"},\n            [questKeys.startedBy_add] = {{20735}},\n            [questKeys.finishedBy_add] = {{20735}},\n            [questKeys.reputationReward] = {{2740,300}},\n"
+    }
+  },
+  "80526": {
+    "merged": null,
+    "classic": null,
+    "traces": {
+      "foreverBaseQuest.lua": " -- Fool Me Twice : https://wowhead.com/forever/quest=80526/fool-me-twice\n            [questKeys.name] = \"Fool Me Twice\",\n            [questKeys.startedBy] = {{6707}},\n            [questKeys.finishedBy] = {{6707}},\n            [questKeys.requiredLevel] = 45,\n            [questKeys.questLevel] = 50,\n            [questKeys.requiredRaces] = 0, -- Assumption: assumptions/reviewed_shared_races.toml; 0 = all races; Reviewed shared quest systems: explicit Both labels, player reports, connected shared chains or neutral acquisition support assuming all-race access for these IDs; class and other access requirements remain independent.\n            [questKeys.requiredClasses] = classIDs.ROGUE,\n            [questKeys.objectivesText] = {\"Speak to Fahrad when you're ready to hear his plan.\"},\n            [questKeys.zoneOrSort] = sortKeys.ROGUE,\n",
+      "foreverQuestTraces.lua": "\n            [questKeys.name] = \"Fool Me Twice\",\n            [questKeys.questLevel] = 50,\n            [questKeys.objectivesText] = {\"Speak to Fahrad when you're ready to hear his plan.\"},\n            [questKeys.startedBy_add] = {{6707}},\n            [questKeys.finishedBy_add] = {{6707}},\n",
+      "foreverQuestRelationTraces.lua": " -- Fool Me Twice https://wowhead.com/forever/quest=80526\n            -- 80411 \"The Talisman of Kazdor\" https://wowhead.com/forever/quest=80411\n            -- Assumption: turning it in led straight to 80411 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 80411,\n"
+    }
+  },
+  "80411": {
+    "merged": null,
+    "classic": null,
+    "traces": {
+      "foreverBaseQuest.lua": " -- The Talisman of Kazdor : https://wowhead.com/forever/quest=80411/the-talisman-of-kazdor\n            [questKeys.name] = \"The Talisman of Kazdor\",\n            [questKeys.startedBy] = {{6707}},\n            [questKeys.finishedBy] = {{6707}},\n            [questKeys.requiredLevel] = 45,\n            [questKeys.questLevel] = 50,\n            [questKeys.requiredRaces] = 0, -- Assumption: assumptions/reviewed_shared_races.toml; 0 = all races; Reviewed shared quest systems: explicit Both labels, player reports, connected shared chains or neutral acquisition support assuming all-race access for these IDs; class and other access requirements remain independent.\n            [questKeys.requiredClasses] = classIDs.ROGUE,\n            [questKeys.objectivesText] = {\"Find The Talisman of Kazdor inside of Zul'Farrak. Then, bring it to Fahrad at Ravenholdt Manor. You must complete the job alone.\"},\n            [questKeys.objectives] = {nil, nil, {{217609}}},\n            [questKeys.zoneOrSort] = sortKeys.ROGUE,\n",
+      "foreverQuestTraces.lua": "\n            [questKeys.name] = \"The Talisman of Kazdor\",\n            [questKeys.questLevel] = 50,\n            [questKeys.objectivesText] = {\"Find The Talisman of Kazdor inside of Zul'Farrak. Then, bring it to Fahrad at Ravenholdt Manor. You must complete the job alone.\"},\n            [questKeys.startedBy_add] = {{6707}},\n            [questKeys.finishedBy_add] = {{6707}},\n",
+      "foreverQuestRelationTraces.lua": " -- The Talisman of Kazdor https://wowhead.com/forever/quest=80411\n            -- 80526 \"Fool Me Twice\" https://wowhead.com/forever/quest=80526\n            -- Assumption: offered right after 80526 was turned in (handoff, offer-set, absence, cooccurrence; very high; 10+ characters)\n            [questKeys.preQuestSingle] = {80526},\n"
+    }
+  },
+  "2936": {
+    "merged": {
+      "1": "The Spider God",
+      "2": {
+        "1": {
+          "1": 3188
+        }
+      },
+      "3": {
+        "1": {
+          "1": 3188
+        }
+      },
+      "4": 40,
+      "5": 45,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Read from the Tablet of Theka to learn the name of the Witherbark spider god, then return to Master Gadrin."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2935
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 978,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2937,
+      "23": 10,
+      "24": 2,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 530,
+          "2": 350
+        }
+      }
+    },
+    "classic": {
+      "entry": 2936,
+      "Title": "The Spider God",
+      "MinLevel": 40,
+      "QuestLevel": 45,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2935,
+      "NextQuestInChain": 2937,
+      "QuestFlags": 10,
+      "SpecialFlags": 2
+    },
+    "traces": {}
+  },
+  "96775": {
+    "merged": null,
+    "classic": null,
+    "traces": {
+      "foreverBaseQuest.lua": " -- Zum'rah's Head : https://wowhead.com/forever/quest=96775/zumrahs-head\n            [questKeys.name] = \"Zum'rah's Head\",\n            [questKeys.requiredLevel] = 42,\n            [questKeys.questLevel] = 46,\n            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,\n            [questKeys.objectivesText] = {\"Slay Witch Doctor Zum'rah and bring Zum'rah's Head to Mazu'kon in Mulgore.\"},\n            [questKeys.objectives] = {nil, nil, {{277112}}},\n            [questKeys.zoneOrSort] = zoneIDs.ZUL_FARRAK,\n            [questKeys.reputationReward] = {{530, 150}, {2787, 300}},\n",
+      "foreverQuestTraces.lua": "\n            [questKeys.name] = \"Zum'rah's Head\",\n            [questKeys.questLevel] = 46,\n            [questKeys.objectives] = {nil,nil,{{277112}}},\n            [questKeys.objectivesText] = {\"Slay Witch Doctor Zum'rah and bring Zum'rah's Head to Mazu'kon in Mulgore.\"},\n            [questKeys.startedBy_add] = {{264074}},\n            [questKeys.requiredRaces] = 8589934770,\n            [questKeys.finishedBy_add] = {{264074}},\n            [questKeys.reputationReward] = {{67,37.5},{68,37.5},{76,37.5},{81,37.5},{530,150},{2787,300}},\n"
+    }
+  },
+  "351": {
+    "merged": {
+      "1": "Find OOX-17/TN!",
+      "2": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": 8623
+        }
+      },
+      "3": {
+        "1": {
+          "1": 7784
+        }
+      },
+      "4": 43,
+      "5": 48,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Bring the distress beacon to Oglethorpe's homing robot."
+      },
+      "9": null,
+      "10": null,
+      "11": 8623,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 440,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 648,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 21,
+          "2": 250
+        },
+        "2": {
+          "1": 87,
+          "2": -250
+        }
+      }
+    },
+    "classic": {
+      "entry": 351,
+      "Title": "Find OOX-17/TN!",
+      "MinLevel": 43,
+      "QuestLevel": 48,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 648,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  }
+}

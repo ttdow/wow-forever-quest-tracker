@@ -1,0 +1,10 @@
+{
+  "80411": {
+    "name": "The Talisman of Kazdor",
+    "tooltip": "<table><tr><td><b class=\"q\">The Talisman of Kazdor</b></td></tr></table><table><tr><td><br />Find The Talisman of Kazdor inside of Zul'Farrak. Then, bring it to Fahrad at Ravenholdt Manor. You must complete the job alone.<br /><br /><span class=\"q\">Requirements:</span><br /> - Talisman of Kazdor</td></tr></table>"
+  },
+  "80526": {
+    "name": "Fool Me Twice",
+    "tooltip": "<table><tr><td><b class=\"q\">Fool Me Twice</b></td></tr></table><table><tr><td><br />Speak to Fahrad when you're ready to hear his plan.</td></tr></table>"
+  }
+}

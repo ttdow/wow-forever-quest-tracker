@@ -1,0 +1,1460 @@
+{
+  "checked": "2026-11-17",
+  "questieRevision": "e1652ce62113c152da682baf2d6fb85f1396bcfb",
+  "att": "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua",
+  "index": "https://foreverchanges.pro/quests/zulfarrak",
+  "dungeon": "https://foreverdb.net/data/dungeons/209.json",
+  "suggestedLevels": {
+    "rec": 42,
+    "min": 44,
+    "max": 54,
+    "enter": 39
+  },
+  "includedQuestCount": 21,
+  "candidates": [
+    {
+      "id": "2768",
+      "name": "Divino-matic Rod",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "Divino-matic Rod",
+        "facts": {
+          "Start": "Chief Engineer Bilgewhizzle Tanaris 52.5 , 28.5",
+          "End": "Chief Engineer Bilgewhizzle Tanaris 52.5 , 28.5",
+          "Level": "47 , requires level 40",
+          "Difficulty": "40 43 45 50 59",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2768",
+          "giver": "Chief Engineer Bilgewhizzle"
+        },
+        "pickup": [
+          "Tanaris 52.5 , 28.5"
+        ],
+        "objective": "Bring the Divino-matic Rod to Chief Engineer Bilgewhizzle in Gadgetzan.",
+        "requirements": [
+          "Divino-matic Rod"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/2768/divino-matic-rod",
+        "sheetText": "Quest Objectives | Bring the Divino-matic Rod to Chief Engineer Bilgewhizzle in Gadgetzan. | Divino-matic Rod | Description | Sergeant Bly stole from me!  He said he'd only borrow it, but he stole my cherished divino-matic rod!!  Without that rod how will I know where to dig new water holes?? | Find Bly and bring me my rod!  I heard he led his band of ill-reputed adventurers to go treasure hunting in Zul'Farrak to the west.  I bet you'll find him there. | Let's hope the trolls took care of him, because if you have to fight him for the rod then you're in for a serious fight. | Rewards | You will be able to choose one of these rewards: | Masons Fraternity Ring | Engineer's Guild Headpiece | Magister Cowl | New in Forever: Magister Cowl. | Experience: | 6,300 | +200 reputation with Gadgetzan | When you come back | Did you find Sergeant Bly?  Did you get my divino-matic rod? | When you hand it in | You found it! Well done, ‹name›! Did you have to fight Bly for it? I hope you knocked him and his band down good and hard!"
+      }
+    },
+    {
+      "id": "2769",
+      "name": "The Brassbolts Brothers",
+      "indexed": false,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "The Brassbolts Brothers",
+        "facts": {
+          "Start": "Klockmort Spannerspan Dun Morogh 62 , 28.5",
+          "End": "Wizzle Brassbolts Thousand Needles 78.1 , 77.1",
+          "Level": "46 , requires level 40",
+          "Difficulty": "40 42 44 49 58",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2769",
+          "giver": "Klockmort Spannerspan"
+        },
+        "pickup": [
+          "Dun Morogh 62 , 28.5"
+        ],
+        "objective": "Speak with Wizzle Brassbolts in the Shimmering Flats.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2769/the-brassbolts-brothers",
+        "sheetText": "Quest Objectives | Speak with Wizzle Brassbolts in the Shimmering Flats. | Description | Have you met the Brassbolts brothers?  They're over in the Shimmering Flats, in Kalimdor, racing their rocket car against the goblins.  They usually win which is no surprise--the goblin car blows up so much it barely ever crosses the finish line! | But even then, the Brassbolts brothers are always looking for new ways to make their car go faster, and Wizzle told me he needs a very rare component for his next experiment. | He probably needs help getting that part.  Speak to him and find out. | Rewards | Experience: | 410 | When you hand it in | Ah, you want to help me?  Great! | There's a part I want for an experiment I'm working on, and I need a brave ‹class› like you to help me get it!"
+      }
+    },
+    {
+      "id": "2770",
+      "name": "Gahz'rilla",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "Gahz'rilla",
+        "facts": {
+          "Start": "Wizzle Brassbolts Thousand Needles 78.1 , 77.1",
+          "End": "Wizzle Brassbolts Thousand Needles 78.1 , 77.1",
+          "Level": "50 , requires level 40",
+          "Difficulty": "40 46 48 53 60",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2770",
+          "giver": "Wizzle Brassbolts"
+        },
+        "pickup": [
+          "Thousand Needles 78.1 , 77.1"
+        ],
+        "objective": "Bring Gahz'rilla's Electrified Scale to Wizzle Brassbolts in the Shimmering Flats.",
+        "requirements": [
+          "Gahz'rilla's Electrified Scale"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2770/gahzrilla",
+        "sheetText": "Quest Objectives | Bring Gahz'rilla's Electrified Scale to Wizzle Brassbolts in the Shimmering Flats. | Gahz'rilla's Electrified Scale | Description | Deep in Zul'Farrak, the sand troll city in Tanaris, there is a sacred pool.  From that pool the trolls summon a huge beast!  Gahz'rilla!  He's so fierce that even his scales crackle with energy.  It's that energy I want to harness for my car! | Bring me the electrified scale of Gahz'rilla! | But the summoning of Gahz'rilla is a well-kept secret of the trolls.  To face him, you must first wrest the secret from them. | Rewards | You will receive: | Carrot on a Stick | Money: | 75 | 0 gold, 75 silver, 0 copper | Experience: | 7,100 | When you come back | Do you have the scale?  I can't wait to try different ways to harness its energy! | When you hand it in | Wow, you got the scale!  Thanks, ‹name›.  I can't wait to get to work on this thing! | So you saw Gahz'rilla?  Was he as big as they say??"
+      }
+    },
+    {
+      "id": "2846",
+      "name": "Tiara of the Deep",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "Tiara of the Deep",
+        "facts": {
+          "Start": "Tabetha Dustwallow Marsh 46.1 , 57.1",
+          "End": "Tabetha Dustwallow Marsh 46.1 , 57.1",
+          "Level": "46 , requires level 40",
+          "Difficulty": "40 42 44 49 58",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2846",
+          "giver": "Tabetha"
+        },
+        "pickup": [
+          "Dustwallow Marsh 46.1 , 57.1"
+        ],
+        "objective": "Bring the Tiara of the Deep to Tabetha in Dustwallow Marsh.",
+        "requirements": [
+          "Tiara of the Deep"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/2846/tiara-of-the-deep",
+        "sheetText": "Quest Objectives | Bring the Tiara of the Deep to Tabetha in Dustwallow Marsh. | Tiara of the Deep | Description | Long ago I possessed a beautiful piece of jewelry, the Tiara of the Deep.  And not only was it pretty--it held great power for those with the knowledge to use it. | So when word of the tiara reached the Hydromancer Velratha, she had to have it.  She sent agents to my home and they stole it while I was away.  The thieves! | I want my tiara back!  Go to Zul'Farrak, the troll city in Tanaris, find Velratha and wrench the tiara from her.  Return it to me and you'll earn my favor. | Rewards | You will be able to choose one of these rewards: | Gemshale Pauldrons | Dank Shoulderpads | New in Forever: Dank Shoulderpads. | You will also receive: | Spellshifter Rod | Money: | 65 | 0 gold, 65 silver, 0 copper | Experience: | 6,050 | When you come back | Do you have the tiara, ‹name›?  Has Velratha learned the price of crossing me? | When you hand it in | Wonderful! You found it! And what's just as important--Velratha no longer has it! Thank you, ‹name›. I am forever in your debt! | And if I sounded a little... mean before, pay it no mind. You'll find me a much nicer person to those who haven't stolen from me."
+      }
+    },
+    {
+      "id": "2861",
+      "name": "Tabetha's Task",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "Tabetha's Task",
+        "facts": {
+          "Start": "Ursyn Ghull Thunder Bluff 25.7 , 14.2 , Anastasia Hartwell Undercity 85.1 , 10 , Bink Dun Morogh 55.5 , 22.4 , Jennea Cannon Stormwind City 49.6 , 85.8 , Deino Orgrimmar 38.4 , 86.1",
+          "End": "Tabetha Dustwallow Marsh 46.1 , 57.1",
+          "Level": "46 , requires level 40",
+          "Difficulty": "40 42 44 49 58",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2861",
+          "giver": "Ursyn Ghull , Anastasia Hartwell , Bink , Jennea Cannon , Deino"
+        },
+        "pickup": [
+          "Thunder Bluff 25.7 , 14.2",
+          "Undercity 85.1 , 10",
+          "Dun Morogh 55.5 , 22.4",
+          "Stormwind City 49.6 , 85.8",
+          "Orgrimmar 38.4 , 86.1"
+        ],
+        "objective": "Speak with Tabetha in Dustwallow Marsh.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2861/tabethas-task",
+        "sheetText": "Quest Objectives | Speak with Tabetha in Dustwallow Marsh. | Description | Rumor is that Tabetha, a mage colleague who lives deep in Dustwallow Marsh, has a bone to pick with a certain sand troll in Zul'Farrak.  If you speak with Tabetha she can tell you more. | And bring some friends with you, ‹name›.  If Tabetha has you go to Zul'Farrak then you're not going to want to go alone. | You will find Tabetha's cottage west of Theramore, and just north of the Stonemaul Ruin. | Rewards | Experience: | 410 | When you hand it in | That's right. I do have a bone to pick with a troll. A few bones. All her bones! | Want to help me?"
+      }
+    },
+    {
+      "id": "2864",
+      "name": "Tran'rek",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "Tran'rek",
+        "facts": {
+          "Start": "Krazek Stranglethorn Vale 26.9 , 77.2",
+          "End": "Tran'rek Tanaris 51.6 , 26.8",
+          "Level": "45 , requires level 40",
+          "Difficulty": "40 41 43 48 57",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2864",
+          "giver": "Krazek"
+        },
+        "pickup": [
+          "Stranglethorn Vale 26.9 , 77.2"
+        ],
+        "objective": "Speak with Tran'rek in Gadgetzan.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2864/tranrek",
+        "sheetText": "Quest Objectives | Speak with Tran'rek in Gadgetzan. | Description | My cousin Tran'rek is in a tight spot.  He promised me a load of scarab shells weeks ago and he hasn't delivered.  He's my cousin, so I'd hate to have to send someone to Gadgetzan to break something on him. | Can you speak to Tran'rek for me?  Let him know he needs to get that delivery together before I do something rash? | Gadgetzan is in northern Tanaris, in Kalimdor. | Rewards | Experience: | 390 | +25 reputation with Gadgetzan | When you hand it in | Hello! | Oh, you spoke to my cousin Krazek?  How is he?  I hope Booty Bay is treating him well... | Scarab shells, you say?  Well... let me tell you a story..."
+      }
+    },
+    {
+      "id": "2865",
+      "name": "Scarab Shells",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "Scarab Shells",
+        "facts": {
+          "Start": "Tran'rek Tanaris 51.6 , 26.8",
+          "End": "Tran'rek Tanaris 51.6 , 26.8",
+          "Level": "45 , requires level 40",
+          "Difficulty": "40 41 43 48 57",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2865",
+          "giver": "Tran'rek"
+        },
+        "pickup": [
+          "Tanaris 51.6 , 26.8"
+        ],
+        "objective": "Bring 5 Uncracked Scarab Shells to Tran'rek in Gadgetzan.",
+        "requirements": [
+          "5 Uncracked Scarab Shell"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2865/scarab-shells",
+        "sheetText": "Quest Objectives | Bring 5 Uncracked Scarab Shells to Tran'rek in Gadgetzan. | 5 | Uncracked Scarab Shell | Description | The scarabs of Tanaris have very hard shells!  Hard enough to use as a building material for lots of things.  So many things! | In fact, those shells are so useful... the scarabs were hunted all to near extinction! | I know where there are more scarabs, and if you promise to bring me their shells then I'll tell you where they are.  Promise? | Ok, the scarabs have a colony in Zul'Farrak.  I guess the trolls don't hunt them for their shells. | But you can!  Go to Zul'Farrak and get me uncracked shells! | Rewards | Money: | 65 | 0 gold, 65 silver, 0 copper | Experience: | 3,900 | +100 reputation with Gadgetzan | When you come back | Do you have the shells?  My cousin in Booty Bay is waiting for a load of them, and he's getting impatient! | When you hand it in | Oh, great!  You got them! | Thanks, ‹name›.  You're a real lifesaver!"
+      }
+    },
+    {
+      "id": "2988",
+      "name": "Witherbark Cages",
+      "indexed": false,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "Witherbark Cages",
+        "facts": {
+          "Start": "Gryphon Master Talonaxe The Hinterlands 9.8 , 44.5",
+          "End": "Gryphon Master Talonaxe The Hinterlands 9.8 , 44.5",
+          "Level": "45 , requires level 40",
+          "Difficulty": "40 41 43 48 57",
+          "Side": "Alliance",
+          "Shareable": "Yes",
+          "Quest ID": "2988",
+          "giver": "Gryphon Master Talonaxe"
+        },
+        "pickup": [
+          "The Hinterlands 9.8 , 44.5"
+        ],
+        "objective": "Check the cages at the two Witherbark villages, then return to Gryphon  Master Talonaxe.",
+        "requirements": [
+          "Check First Cage",
+          "Check Second Cage",
+          "Check Third Cage"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2988/witherbark-cages",
+        "sheetText": "Quest Objectives | Check the cages at the two Witherbark villages, then return to Gryphon  Master Talonaxe. | Check First Cage | Check Second Cage | Check Third Cage | Description | The son of our mightiest gryphon is gone! Swiftwing's heir, Sharpbeak, was lost while hunting with his parents a few days ago, and we believe it was the trolls who took him. | You must aid us!  Search the cages in the two Witherbark troll villages to see if Sharpbeak is there. | Rewards | Experience: | 3,900 | +100 reputation with Wildhammer Clan | When you come back | Have you searched the cages, ‹name›? We must find Sharpbeak! | When you hand it in | Sharpbeak wasn't at the villages?  Hm... this is grim news.  That gryphon is destined to lead the next generation of gryphons.  If he is lost then the strength and spirit of our fleet will suffer immensely."
+      }
+    },
+    {
+      "id": "2989",
+      "name": "The Altar of Zul",
+      "indexed": false,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "The Altar of Zul",
+        "facts": {
+          "Start": "Gryphon Master Talonaxe The Hinterlands 9.8 , 44.5",
+          "End": "Gryphon Master Talonaxe The Hinterlands 9.8 , 44.5",
+          "Level": "48 , requires level 40",
+          "Difficulty": "40 44 46 51 60",
+          "Side": "Alliance",
+          "Shareable": "Yes",
+          "Quest ID": "2989",
+          "giver": "Gryphon Master Talonaxe"
+        },
+        "pickup": [
+          "The Hinterlands 9.8 , 44.5"
+        ],
+        "objective": "Check the top of the Altar of Zul, then return to Gryphon Master Talonaxe.",
+        "requirements": [
+          "Find the place the quest sends you to."
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2989/the-altar-of-zul",
+        "sheetText": "Quest Objectives | Check the top of the Altar of Zul, then return to Gryphon Master Talonaxe. | Find the place the quest sends you to. | Description | Sharpbeak was not with the Witherbark trolls.  Perhaps the Vilebranch trolls took him.  Go to the Altar of Zul on the western edge of Vilebranch territory and search for the gryphon child. | Rewards | Experience: | 4,400 | +100 reputation with Wildhammer Clan | When you come back | Hurry, ‹name›!  If the Vilebranch trolls have Sharpbeak, then who knows what they might be doing with him! | When you hand it in | Sharpbeak wasn't there?  That is bad news, but it is good news too... | It is good that he was not at the Altar of Zul for the Vilebranch trolls are known for performing sacrifices. | I thank you for all of your aid, but I'm afraid I have an even greater task ahead."
+      }
+    },
+    {
+      "id": "2990",
+      "name": "Thadius Grimshade",
+      "indexed": false,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "Thadius Grimshade",
+        "facts": {
+          "Start": "Gryphon Master Talonaxe The Hinterlands 9.8 , 44.5",
+          "End": "Thadius Grimshade Blasted Lands 66.9 , 19.5",
+          "Level": "47 , requires level 40",
+          "Difficulty": "40 43 45 50 59",
+          "Side": "Alliance",
+          "Shareable": "No",
+          "Quest ID": "2990",
+          "giver": "Gryphon Master Talonaxe"
+        },
+        "pickup": [
+          "The Hinterlands 9.8 , 44.5"
+        ],
+        "objective": "Bring Sharpbeak's Feather to Thadius Grimshade in the Blasted Lands.",
+        "requirements": [
+          "Sharpbeak's Feather"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2990/thadius-grimshade",
+        "sheetText": "Quest Objectives | Bring Sharpbeak's Feather to Thadius Grimshade in the Blasted Lands. | Sharpbeak's Feather | Provided: | Sharpbeak's Feather | Description | Take this feather to Thadius Grimshade, the diviner.  He left Aerie Peak years ago to pursue darker knowledge, but in his heart he is still a Wildhammer! | And perhaps his talents can help us find Sharpbeak. | This feather was taken from the nest where the gryphon child sleeps.  If you give it to Thadius then, with luck, he can use his divining magics to find Sharpbeak. | Good luck, ‹name›.  You will find Thadius in the Blasted Lands, in the mage tower of Nethergarde Keep. | Rewards | Experience: | 2,100 | +50 reputation with Wildhammer Clan | +50 reputation with Ironforge | When you come back | ‹name›, you come bearing a gift? | When you hand it in | Ah, yes.  This feather belongs to a fine gryphon.  One destined for great things... if he can survive into adulthood undamaged. | You wish to find him?  Then listen close, brave ‹class›..."
+      }
+    },
+    {
+      "id": "2991",
+      "name": "Nekrum's Medallion",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "Nekrum's Medallion",
+        "facts": {
+          "Start": "Thadius Grimshade Blasted Lands 66.9 , 19.5",
+          "End": "Thadius Grimshade Blasted Lands 66.9 , 19.5",
+          "Level": "47 , requires level 40",
+          "Difficulty": "40 43 45 50 59",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2991",
+          "giver": "Thadius Grimshade"
+        },
+        "pickup": [
+          "Blasted Lands 66.9 , 19.5"
+        ],
+        "objective": "Bring Nekrum's Medallion to Thadius Grimshade in the Blasted Lands.",
+        "requirements": [
+          "Nekrum's Medallion"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2991/nekrums-medallion",
+        "sheetText": "Quest Objectives | Bring Nekrum's Medallion to Thadius Grimshade in the Blasted Lands. | Nekrum's Medallion | Description | I'll find out where your gryphon is, but first you have to do something for me.  There's a troll in Zul'Farrak, Nekrum Gutchewer, who possesses a medallion I would very much like to study.  Bring me that Medallion and I'll use my powers to find Sharpbeak. | Zul'Farrak is across the ocean to the west, in the desert of Tanaris. | Rewards | Money: | 70 | 0 gold, 70 silver, 0 copper | Experience: | 5,250 | +150 reputation with Wildhammer Clan | +150 reputation with Ironforge | When you come back | Do you have Nekrum's Medallion, ‹name›?  There are powers hidden within it that I am eager to discover. | When you hand it in | Ah, the medallion of Nekrum.  It is rumored to have given the troll an unnatural long life, but at a cost.  I hope to discover a way to reap the medallion's power while avoiding its... unpleasant side effects. | You have done me a service, ‹name›.  I shall now uphold my end of our bargain."
+      }
+    },
+    {
+      "id": "2992",
+      "name": "The Divination",
+      "indexed": false,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "The Divination",
+        "facts": {
+          "Start": "Thadius Grimshade Blasted Lands 66.9 , 19.5",
+          "End": "Thadius Grimshade Blasted Lands 66.9 , 19.5",
+          "Level": "47 , requires level 40",
+          "Difficulty": "40 43 45 50 59",
+          "Side": "Alliance",
+          "Shareable": "No",
+          "Quest ID": "2992",
+          "giver": "Thadius Grimshade"
+        },
+        "pickup": [
+          "Blasted Lands 66.9 , 19.5"
+        ],
+        "objective": "Wait until Grimshade performs the ritual of divination.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2992/the-divination",
+        "sheetText": "Quest Objectives | Wait until Grimshade performs the ritual of divination. | Description | Give me room while I perform a ritual of divination.  I will find the connection between the feather you brought me and its owner, and follow that connection to Sharpbeak himself. | That is... I will if all goes according to plan.  If it does not, then... you better close your eyes. | Rewards | Experience: | 1,050 | +25 reputation with Wildhammer Clan | +25 reputation with Ironforge | When you hand it in | The ritual was a success.  I have seen Sharpbeak and can tell you how to find him."
+      }
+    },
+    {
+      "id": "2993",
+      "name": "Return to the Hinterlands",
+      "indexed": false,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "Return to the Hinterlands",
+        "facts": {
+          "Start": "Thadius Grimshade Blasted Lands 66.9 , 19.5",
+          "End": "Gryphon Master Talonaxe The Hinterlands 9.8 , 44.5",
+          "Level": "47 , requires level 40",
+          "Difficulty": "40 43 45 50 59",
+          "Side": "Alliance",
+          "Type": "Elite",
+          "Shareable": "Yes",
+          "Quest ID": "2993",
+          "giver": "Thadius Grimshade"
+        },
+        "pickup": [
+          "Blasted Lands 66.9 , 19.5"
+        ],
+        "objective": "Speak with Gryphon Master Talonaxe.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2993/return-to-the-hinterlands",
+        "sheetText": "Quest Objectives | Speak with Gryphon Master Talonaxe. | Description | Sharpbeak is held in a cage, high on a cliff at the top of Jintha'Alor in the Hinterlands.  The key to this cage is possessed by the high priestess of the Vilebranch trolls, Vile Priestess Hexx. | There.  I have done my part.  I bid you fortune on your quest, ‹name›. | Rewards | Experience: | 2,100 | +50 reputation with Wildhammer Clan | When you hand it in | You've spoken with Grimshade?  What did he say? | ...What?  The Vilebranch trolls have Sharpbeak?  That's unbearable!  We must organize a force to get him back!"
+      }
+    },
+    {
+      "id": "2994",
+      "name": "Saving Sharpbeak",
+      "indexed": false,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "Saving Sharpbeak",
+        "facts": {
+          "Start": "Gryphon Master Talonaxe The Hinterlands 9.8 , 44.5",
+          "End": "Gryphon Master Talonaxe The Hinterlands 9.8 , 44.5",
+          "Level": "51 , requires level 40",
+          "Difficulty": "40 47 49 54 60",
+          "Side": "Alliance",
+          "Type": "Elite",
+          "Shareable": "Yes",
+          "Quest ID": "2994",
+          "giver": "Gryphon Master Talonaxe"
+        },
+        "pickup": [
+          "The Hinterlands 9.8 , 44.5"
+        ],
+        "objective": "Fight to the top of Jintha'Alor, kill Vile Priestess Hexx for the key to Sharpbeak's cage, and save Sharpbeak.",
+        "requirements": [
+          "Open Sharpbeak's Cage"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/2994/saving-sharpbeak",
+        "sheetText": "Quest Objectives | Fight to the top of Jintha'Alor, kill Vile Priestess Hexx for the key to Sharpbeak's cage, and save Sharpbeak. | Open Sharpbeak's Cage | Description | We must save Sharpbeak! | Fight your way to the top of Jintha'Alor in the heart of Vilebranch territory, gain the key to Sharpbeak's cage from the vile Priestess Hexx, and then find and save Sharpbeak! | Rewards | You will be able to choose one of these rewards: | Gryphon Rider's Stormhammer | Gryphon Rider's Leggings | Gryphon Rider's Crop | New in Forever: Cleansed Vilebranch Icon, Cleansed Vilebranch Medallion, Gryphon Rider's Crop. | You will also receive: | Cleansed Vilebranch Icon | Cleansed Vilebranch Medallion | Money: | 2 | 25 | 2 gold, 25 silver, 0 copper | Experience: | 7,350 | +200 reputation with Wildhammer Clan | When you come back | Save Sharpbeak! | When you hand it in | Swiftwind and Keenclaw returned with their child moments ago, and are fussing over him like new parents.  Seeing them together again is enough to give even this old dwarf mist in the eyes... | We cannot repay you enough for what you have done, ‹name›.  The gryphons of Aerie peak, and their riders, will sing your name for a long, long time."
+      }
+    },
+    {
+      "id": "3042",
+      "name": "Troll Temper",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "Troll Temper",
+        "facts": {
+          "Start": "Trenton Lighthammer Tanaris 51.4 , 28.8",
+          "End": "Trenton Lighthammer Tanaris 51.4 , 28.8",
+          "Level": "45 , requires level 40",
+          "Difficulty": "40 41 43 48 57",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "3042",
+          "giver": "Trenton Lighthammer"
+        },
+        "pickup": [
+          "Tanaris 51.4 , 28.8"
+        ],
+        "objective": "Bring 20 Vials of Troll Temper to Trenton Lighthammer in Gadgetzan.",
+        "requirements": [
+          "20 Troll Temper"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/3042/troll-temper",
+        "sheetText": "Quest Objectives | Bring 20 Vials of Troll Temper to Trenton Lighthammer in Gadgetzan. | 20 | Troll Temper | Description | The Sandfury trolls of Zul'Farrak make a tempering agent from sandstones, and I can use that to temper the goods I craft, yes I can!  It is highly prized by connoisseurs, so if you bring me a good supply of the temper, then I'll reward you well. | Zul'Farrak is northwest of Gadgetzan.  Good luck. | Rewards | Money: | 1 | 95 | 1 gold, 95 silver, 0 copper | Experience: | 3,900 | When you come back | Did you bring me the temper, ‹name›? | When you hand it in | Ah, this is very nice temper indeed! And so much of it! I'll be at work for days before I use it all! | Thank you, ‹name›. Please, take this as payment."
+      }
+    },
+    {
+      "id": "3520",
+      "name": "Screecher Spirits",
+      "indexed": false,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "Screecher Spirits",
+        "facts": {
+          "Start": "Yeh'kinya Tanaris 67 , 22.4",
+          "End": "Yeh'kinya Tanaris 67 , 22.4",
+          "Level": "44 , requires level 40",
+          "Difficulty": "40 42 47 56",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Shareable": "No",
+          "Quest ID": "3520",
+          "giver": "Yeh'kinya"
+        },
+        "pickup": [
+          "Tanaris 67 , 22.4"
+        ],
+        "objective": "Capture the spirits of 3 screechers in Feralas, then return to Yeh'kinya in Steamwheedle Port.",
+        "requirements": [
+          "Yeh'kinya's Bramble",
+          "Screecher Spirits Collected : 0/ 3"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/3520/screecher-spirits",
+        "sheetText": "Quest Objectives | Capture the spirits of 3 screechers in Feralas, then return to Yeh'kinya in Steamwheedle Port. | Yeh'kinya's Bramble | Screecher Spirits Collected | : | 0/ | 3 | Provided: | Yeh'kinya's Bramble | Description | I seek the spirits of the vale screechers of Feralas.  They are the cousins of an old, old god, and their spirits are linked to him. | Take this bramble wand and go to Feralas.  Find and defeat vale screechers in southern and central Feralas, then wave my bramble over their fallen bodies.  This will coax their spirit to reveal itself.  Touch the spirit and collect its essence. | Return to me with my bramble and with the collected essence, and I will tell you more of the old god of which I spoke. | Rewards | Experience: | 3,750 | When you come back | Have you collected the essence of the screecher spirits, ‹name›? | When you hand it in | You have done well, ‹name›.  Perhaps now it is time to reveal more... | There is an ancient prophecy among the trolls, where the dead god Hakkar, the Soulflayer, will one day return to this earth.  Some say the coming of Hakkar will bring joy and glory to trollkind, while others believe his resurrection marks the end of all things. | I do not believe this myth, but I do know the essence of Hakkar holds great power, and this power should be kept from those who would abuse it..."
+      }
+    },
+    {
+      "id": "3527",
+      "name": "The Prophecy of Mosh'aru",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "The Prophecy of Mosh'aru",
+        "facts": {
+          "Start": "Yeh'kinya Tanaris 67 , 22.4",
+          "End": "Yeh'kinya Tanaris 67 , 22.4",
+          "Level": "47 , requires level 40",
+          "Difficulty": "40 43 45 50 59",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "3527",
+          "giver": "Yeh'kinya"
+        },
+        "pickup": [
+          "Tanaris 67 , 22.4"
+        ],
+        "objective": "Bring the First and Second Mosh'aru Tablets to Yeh'kinya in Tanaris.",
+        "requirements": [
+          "First Mosh'aru Tablet",
+          "Second Mosh'aru Tablet"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/3527/the-prophecy-of-mosharu",
+        "sheetText": "Quest Objectives | Bring the First and Second Mosh'aru Tablets to Yeh'kinya in Tanaris. | First Mosh'aru Tablet | Second Mosh'aru Tablet | Description | The ancient prophecy of Mosh'aru speaks of a way to contain the god Hakkar's essence.  It was written on two tablets and taken to the troll city of Zul'Farrak, west of Gadgetzan. | Bring me the Mosh'aru tablets! | The first tablet is held by the long-dead troll Theka the Martyr.  It is said his persecutors were cursed into scarabs and now scuttle about his shrine. | The second tablet is held by the hydromancer Velratha, near the sacred pool of Gahz'rilla. | When you have the tablets, bring them to me. | Rewards | Experience: | 5,250 | When you come back | Do you have the tablets of the Prophecy of Mosh'aru, ‹name›? | When I gain the tablets, I will study them, and learn how to contain the essence of Hakkar! | When you hand it in | Ah, this is good. I can fuse these ancient tablets together, and then study their hidden secrets. | My debt to you grows, ‹name›. And it will grow further still."
+      }
+    },
+    {
+      "id": "4787",
+      "name": "The Ancient Egg",
+      "indexed": false,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "The Ancient Egg",
+        "facts": {
+          "Start": "Yeh'kinya Tanaris 67 , 22.4",
+          "End": "Yeh'kinya Tanaris 67 , 22.4",
+          "Level": "50 , requires level 40",
+          "Difficulty": "40 46 48 53 60",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Elite",
+          "Shareable": "Yes",
+          "Quest ID": "4787",
+          "giver": "Yeh'kinya"
+        },
+        "pickup": [
+          "Tanaris 67 , 22.4"
+        ],
+        "objective": "Bring the Ancient Egg to Yeh'kinya in Tanaris.",
+        "requirements": [
+          "Ancient Egg"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/4787/the-ancient-egg",
+        "sheetText": "Quest Objectives | Bring the Ancient Egg to Yeh'kinya in Tanaris. | Ancient Egg | Description | The Prophecy of Mosh'aru speaks of an ancient egg.  It is a relic of a time when trolls ruled vast empires, and it has the power to hold the essence of Hakkar.  It may be the only way to keep our world safe from his evil. | Bring me the ancient egg, ‹name›.  It is said to lay hidden deep within Jintha'Alor in the Hinterlands, in a cave behind the amphitheater at the top of the city. | Rewards | Experience: | 5,900 | When you come back | Do you have the ancient egg? I sense great forces stirring, and I fear that time grows short. | When you hand it in | Ah, you have the egg! I bow to you, ‹name›. Your strength and bravery will be long remembered."
+      }
+    },
+    {
+      "id": "96770",
+      "name": "The Witch Doctor's Head",
+      "indexed": false,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or related chain step",
+      "page": {
+        "name": "The Witch Doctor's Head",
+        "facts": {
+          "Start": "Archmage Lan'dalock Alterac Mountains 15.3 , 73.8",
+          "End": "Archmage Lan'dalock Alterac Mountains 15.3 , 73.8",
+          "Level": "46 , requires level 39",
+          "Difficulty": "39 42 44 49 58",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "96770",
+          "giver": "Archmage Lan'dalock"
+        },
+        "pickup": [
+          "Alterac Mountains 15.3 , 73.8"
+        ],
+        "objective": "Slay Witch Doctor Zum'rah and bring Zum'rah's Head to Archmage Lan'dalock in Dalaran.",
+        "requirements": [
+          "Zum'rah's Head"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/96770/the-witch-doctors-head",
+        "sheetText": "Quest Objectives | Slay Witch Doctor Zum'rah and bring Zum'rah's Head to Archmage Lan'dalock in Dalaran. | Zum'rah's Head | Description | There exists a troll witch doctor that goes by the name of Zum'rah. I have history with this particular troll, and I'd like you to kill him for me. | Go to the Sandfury stronghold of Zul'Farrak, deep in the deserts of Tanaris. Find Zum'rah inside and destroy him. Bring his head to me--intact--and I'll see that you are fairly compensated. | Rewards | Money: | 1 | 30 | 1 gold, 30 silver, 0 copper | Experience: | 10,100 | +300 reputation with Kirin Tor"
+      }
+    },
+    {
+      "id": "80526",
+      "name": "Fool Me Twice",
+      "indexed": false,
+      "decision": "include",
+      "reason": "Rogue dungeon task or direct introduction",
+      "page": null
+    },
+    {
+      "id": "80411",
+      "name": "The Talisman of Kazdor",
+      "indexed": false,
+      "decision": "include",
+      "reason": "Rogue dungeon task or direct introduction",
+      "page": null
+    },
+    {
+      "id": "2936",
+      "name": "The Spider God",
+      "indexed": true,
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "page": {
+        "name": "The Spider God",
+        "facts": {
+          "Start": "Master Gadrin Durotar 55.9 , 74.7",
+          "End": "Master Gadrin Durotar 55.9 , 74.7",
+          "Level": "45 , requires level 40",
+          "Difficulty": "40 41 43 48 57",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2936",
+          "giver": "Master Gadrin"
+        },
+        "pickup": [
+          "Durotar 55.9 , 74.7"
+        ],
+        "objective": "Read from the Tablet of Theka to learn the name of the Witherbark spider god, then return to Master Gadrin.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2936/the-spider-god",
+        "sheetText": "Quest Objectives | Read from the Tablet of Theka to learn the name of the Witherbark spider god, then return to Master Gadrin. | Description | The Witherbarks worship a spider god, and from her they collect their most potent venom.  So if you want the venom, then you must summon their god! | To do that, you must know her true name, and that name is on a tablet buried in Tanaris, in the troll city of Zul'Farrak, in a tomb guarded by Theka the Martyr. | Defeat Theka and find and read his tablet to discover the spider god's name.  When you know it, return to me. | Rewards | Experience: | 4,850 | +150 reputation with Darkspear Trolls | When you come back | Do you know the spider god's name? | When you hand it in | Ah, Elortha no Shadra... speak this name only in whispers, for its utterance carries much weight in the realms of the spirit. | I will put it to parchment and create for you a spell of summoning..."
+      }
+    },
+    {
+      "id": "96775",
+      "name": "Zum'rah's Head",
+      "indexed": false,
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "page": {
+        "name": "Zum'rah's Head",
+        "facts": {
+          "End": "Mazu'kon Mulgore 32.5 , 20.6",
+          "Level": "46 , requires level 42",
+          "Difficulty": "42 44 49 58",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "96775"
+        },
+        "pickup": [],
+        "objective": "Slay Witch Doctor Zum'rah and bring Zum'rah's Head to Mazu'kon in Mulgore.",
+        "requirements": [
+          "Zum'rah's Head"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/96775/zumrahs-head",
+        "sheetText": "Quest Objectives | Slay Witch Doctor Zum'rah and bring Zum'rah's Head to Mazu'kon in Mulgore. | Zum'rah's Head | Description | Ol' Mazu'kon got a bone to pick with a Witch Doctor that go by the name of Zum'rah and I be thinkin' you can help me out with that. | Zum'rah practice all his bad voodoo in the Sandfury city of Zul'Farrak, far to the south in the deserts of Tanaris. Go there. Kill Zum'rah, and bring me his head. | Trust me mon, the world be a better place with his head stuck on pike outside my hut than it be sittin' on his shoulders. | Rewards | Money: | 65 | 0 gold, 65 silver, 0 copper | Experience: | 10,100 | +300 reputation with Earthen Ring | +150 reputation with Darkspear Trolls"
+      }
+    },
+    {
+      "id": "351",
+      "name": "Find OOX-17/TN!",
+      "indexed": false,
+      "decision": "exclude",
+      "reason": "Random Tanaris distress beacon; no Zul'Farrak objective",
+      "page": null
+    }
+  ],
+  "classicSnapshot": {
+    "url": "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+    "releasePublished": "2026-11-13T13:34:58Z",
+    "sha256": "daa16e44b95a9d4a0d17b8f8e3a91cf0b4be1af7d9b3bfc8ac71707a02399f5f"
+  },
+  "questScan": {
+    "category": 978,
+    "mergedCategoryIds": [
+      "2768",
+      "2770",
+      "2846",
+      "2861",
+      "2864",
+      "2865",
+      "2936",
+      "2991",
+      "3042",
+      "3527"
+    ],
+    "additionalGeneratedCandidates": [
+      "96770",
+      "96775",
+      "80411"
+    ],
+    "method": "Index, full dungeon registry, active primary category/objective and generated Forever scans; direct incoming/follow-up chains."
+  },
+  "npcRecords": {
+    "6707": {
+      "1": "Fahrad",
+      "2": 4120,
+      "3": 4120,
+      "4": 60,
+      "5": 60,
+      "6": 0,
+      "7": {
+        "36": {
+          "1": {
+            "1": 84.45,
+            "2": 80.32
+          }
+        }
+      },
+      "8": null,
+      "9": 36,
+      "10": {
+        "1": 8249
+      },
+      "11": {
+        "1": 6681,
+        "2": 8249
+      },
+      "12": 471,
+      "13": "AH",
+      "14": "Grand Master Rogue",
+      "15": 19
+    },
+    "20735": {
+      "foreverBaseNpc.lua": " -- Archmage Lan'dalock : https://wowhead.com/forever/npc=20735/archmage-landalock\n            [npcKeys.name] = \"Archmage Lan'dalock\",\n            [npcKeys.spawns] = {[36] = {{15.4, 74}, {15.6, 73.6}}},\n            [npcKeys.zoneID] = zoneIDs.ALTERAC_MOUNTAINS,\n            [npcKeys.questStarts] = {96772, 96773},\n",
+      "foreverNpcTraces.lua": "\n            [npcKeys.name] = \"Archmage Lan'dalock\",\n            [npcKeys.minLevel] = 35,\n            [npcKeys.maxLevel] = 35,\n            [npcKeys.spawns] = {[36]={{15.3,73.93}}},\n            [npcKeys.zoneID] = 36,\n            [npcKeys.rank] = 1,\n            [npcKeys.questStarts_add] = {96770,96772,96773},\n            [npcKeys.questEnds_add] = {96770,96772,96773},\n"
+    }
+  },
+  "classicLootFallback": {
+    "18082": [
+      {
+        "entry": 7271,
+        "item": 18082,
+        "ChanceOrQuestChance": 20.0,
+        "groupid": 1,
+        "mincountOrRef": 1,
+        "maxcount": 1,
+        "condition_id": 0,
+        "comments": "Zum'rah's Vexing Cane"
+      }
+    ],
+    "18083": [
+      {
+        "entry": 7271,
+        "item": 18083,
+        "ChanceOrQuestChance": 40.0,
+        "groupid": 1,
+        "mincountOrRef": 1,
+        "maxcount": 1,
+        "condition_id": 0,
+        "comments": "Jumanza Grips"
+      }
+    ],
+    "9479": [
+      {
+        "entry": 7267,
+        "item": 9479,
+        "ChanceOrQuestChance": 0.0,
+        "groupid": 1,
+        "mincountOrRef": 1,
+        "maxcount": 1,
+        "condition_id": 0,
+        "comments": "Embrace of the Lycan"
+      }
+    ]
+  },
+  "equipmentCount": 38,
+  "rogueEquipmentCount": 22,
+  "observedEquipmentCount": 2,
+  "equipmentSources": {
+    "9379": "Antu'sul",
+    "9639": "Antu'sul",
+    "9640": "Antu'sul",
+    "9641": "Antu'sul",
+    "274638": "Theka the Martyr",
+    "274639": "Theka the Martyr",
+    "274641": "Theka the Martyr",
+    "18082": "Witch Doctor Zum'rah",
+    "18083": "Witch Doctor Zum'rah",
+    "274642": "Witch Doctor Zum'rah",
+    "274643": "Nekrum Gutchewer",
+    "274644": "Nekrum Gutchewer",
+    "274645": "Nekrum Gutchewer",
+    "9470": "Shadowpriest Sezz'ziz",
+    "9473": "Shadowpriest Sezz'ziz",
+    "9474": "Shadowpriest Sezz'ziz",
+    "9475": "Shadowpriest Sezz'ziz",
+    "274646": "Sergeant Bly",
+    "274647": "Sergeant Bly",
+    "274648": "Sergeant Bly",
+    "274651": "Hydromancer Velratha",
+    "274652": "Hydromancer Velratha",
+    "274653": "Hydromancer Velratha",
+    "9467": "Gahz'rilla",
+    "9469": "Gahz'rilla",
+    "274657": "Gahz'rilla",
+    "274654": "Ruuzlu",
+    "274655": "Ruuzlu",
+    "11086": "Chief Ukorz Sandscalp",
+    "9476": "Chief Ukorz Sandscalp",
+    "9477": "Chief Ukorz Sandscalp",
+    "9478": "Chief Ukorz Sandscalp",
+    "9479": "Chief Ukorz Sandscalp",
+    "12470": "Zerillis (rare)",
+    "274658": "Zerillis (rare)",
+    "12471": "Dustwraith (rare)",
+    "274659": "Sandarr Dunereaver (rare)",
+    "274660": "Sandarr Dunereaver (rare)"
+  },
+  "excludedSharedZoneEquipment": {
+    "9512": "Blackmetal Cape",
+    "9511": "Bloodletter Scalpel",
+    "6440": "Brainlash",
+    "9480": "Eyegouger",
+    "9483": "Flaming Incinerator",
+    "5616": "Gutwrencher",
+    "862": "Runed Ring",
+    "9484": "Spellshock Leggings",
+    "9481": "The Minotaur",
+    "2040": "Troll Protector",
+    "9482": "Witch Doctor's Cane"
+  },
+  "fetches": [
+    {
+      "file": "index.html",
+      "url": "https://foreverchanges.pro/quests/zulfarrak",
+      "status": 200
+    },
+    {
+      "file": "dungeon.json",
+      "url": "https://foreverdb.net/data/dungeons/209.json",
+      "status": 200
+    },
+    {
+      "file": "guide.html",
+      "url": "https://foreverdb.net/dungeon/209-zulfarrak",
+      "status": 200
+    },
+    {
+      "file": "att-directory.json",
+      "url": "https://api.github.com/repos/ATTWoWAddon/AllTheThings/contents/.contrib/.db/forever/dungeons%20%26%20raids?ref=36684dda55e4aa297de3ea24475a77687b54c620",
+      "status": 200
+    },
+    {
+      "file": "quest-2865.html",
+      "url": "https://foreverchanges.pro/quest/2865",
+      "status": 200
+    },
+    {
+      "file": "quest-2936.html",
+      "url": "https://foreverchanges.pro/quest/2936",
+      "status": 200
+    },
+    {
+      "file": "quest-2864.html",
+      "url": "https://foreverchanges.pro/quest/2864",
+      "status": 200
+    },
+    {
+      "file": "quest-3042.html",
+      "url": "https://foreverchanges.pro/quest/3042",
+      "status": 200
+    },
+    {
+      "file": "quest-2861.html",
+      "url": "https://foreverchanges.pro/quest/2861",
+      "status": 200
+    },
+    {
+      "file": "quest-96770.html",
+      "url": "https://foreverchanges.pro/quest/96770",
+      "status": 200
+    },
+    {
+      "file": "quest-2846.html",
+      "url": "https://foreverchanges.pro/quest/2846",
+      "status": 200
+    },
+    {
+      "file": "quest-2768.html",
+      "url": "https://foreverchanges.pro/quest/2768",
+      "status": 200
+    },
+    {
+      "file": "quest-2991.html",
+      "url": "https://foreverchanges.pro/quest/2991",
+      "status": 200
+    },
+    {
+      "file": "quest-3527.html",
+      "url": "https://foreverchanges.pro/quest/3527",
+      "status": 200
+    },
+    {
+      "file": "quest-2770.html",
+      "url": "https://foreverchanges.pro/quest/2770",
+      "status": 200
+    },
+    {
+      "file": "att.lua",
+      "url": "https://raw.githubusercontent.com/ATTWoWAddon/AllTheThings/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua",
+      "status": 200
+    },
+    {
+      "file": "quest-2769.html",
+      "url": "https://foreverchanges.pro/quest/2769",
+      "status": 200
+    },
+    {
+      "file": "quest-3520.html",
+      "url": "https://foreverchanges.pro/quest/3520",
+      "status": 200
+    },
+    {
+      "file": "quest-4787.html",
+      "url": "https://foreverchanges.pro/quest/4787",
+      "status": 200
+    },
+    {
+      "file": "quest-2988.html",
+      "url": "https://foreverchanges.pro/quest/2988",
+      "status": 200
+    },
+    {
+      "file": "quest-2989.html",
+      "url": "https://foreverchanges.pro/quest/2989",
+      "status": 200
+    },
+    {
+      "file": "quest-2990.html",
+      "url": "https://foreverchanges.pro/quest/2990",
+      "status": 200
+    },
+    {
+      "file": "quest-2992.html",
+      "url": "https://foreverchanges.pro/quest/2992",
+      "status": 200
+    },
+    {
+      "file": "quest-2993.html",
+      "url": "https://foreverchanges.pro/quest/2993",
+      "status": 200
+    },
+    {
+      "file": "quest-2994.html",
+      "url": "https://foreverchanges.pro/quest/2994",
+      "status": 200
+    },
+    {
+      "file": "item-862.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/862",
+      "status": 200
+    },
+    {
+      "file": "item-2040.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/2040",
+      "status": 200
+    },
+    {
+      "file": "item-5616.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/5616",
+      "status": 200
+    },
+    {
+      "file": "item-6440.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/6440",
+      "status": 200
+    },
+    {
+      "file": "item-8151.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/8151",
+      "status": 200
+    },
+    {
+      "file": "item-8548.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/8548",
+      "status": 200
+    },
+    {
+      "file": "item-8623.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/8623",
+      "status": 200
+    },
+    {
+      "file": "item-8707.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/8707",
+      "status": 200
+    },
+    {
+      "file": "item-9234.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9234",
+      "status": 200
+    },
+    {
+      "file": "item-9238.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9238",
+      "status": 200
+    },
+    {
+      "file": "item-9240.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9240",
+      "status": 200
+    },
+    {
+      "file": "item-9241.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9241",
+      "status": 200
+    },
+    {
+      "file": "item-9243.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9243",
+      "status": 200
+    },
+    {
+      "file": "item-9372.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9372",
+      "status": 200
+    },
+    {
+      "file": "item-9379.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9379",
+      "status": 200
+    },
+    {
+      "file": "item-9467.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9467",
+      "status": 200
+    },
+    {
+      "file": "item-9469.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9469",
+      "status": 200
+    },
+    {
+      "file": "item-9470.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9470",
+      "status": 200
+    },
+    {
+      "file": "item-9471.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9471",
+      "status": 200
+    },
+    {
+      "file": "item-9473.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9473",
+      "status": 200
+    },
+    {
+      "file": "item-9474.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9474",
+      "status": 200
+    },
+    {
+      "file": "item-9475.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9475",
+      "status": 200
+    },
+    {
+      "file": "item-9476.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9476",
+      "status": 200
+    },
+    {
+      "file": "item-9477.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9477",
+      "status": 200
+    },
+    {
+      "file": "item-9478.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9478",
+      "status": 200
+    },
+    {
+      "file": "item-9479.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9479",
+      "status": 200
+    },
+    {
+      "file": "item-9480.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9480",
+      "status": 200
+    },
+    {
+      "file": "item-9481.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9481",
+      "status": 200
+    },
+    {
+      "file": "item-9482.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9482",
+      "status": 200
+    },
+    {
+      "file": "item-9483.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9483",
+      "status": 200
+    },
+    {
+      "file": "item-9484.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9484",
+      "status": 200
+    },
+    {
+      "file": "item-9511.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9511",
+      "status": 200
+    },
+    {
+      "file": "item-9512.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9512",
+      "status": 200
+    },
+    {
+      "file": "item-9523.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9523",
+      "status": 200
+    },
+    {
+      "file": "item-9527.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9527",
+      "status": 200
+    },
+    {
+      "file": "item-9531.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9531",
+      "status": 200
+    },
+    {
+      "file": "item-9533.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9533",
+      "status": 200
+    },
+    {
+      "file": "item-9534.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9534",
+      "status": 200
+    },
+    {
+      "file": "item-9639.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9639",
+      "status": 200
+    },
+    {
+      "file": "item-9640.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9640",
+      "status": 200
+    },
+    {
+      "file": "item-9641.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9641",
+      "status": 200
+    },
+    {
+      "file": "item-9653.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/9653",
+      "status": 200
+    },
+    {
+      "file": "item-10660.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/10660",
+      "status": 200
+    },
+    {
+      "file": "item-10661.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/10661",
+      "status": 200
+    },
+    {
+      "file": "item-11086.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/11086",
+      "status": 200
+    },
+    {
+      "file": "item-11122.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/11122",
+      "status": 200
+    },
+    {
+      "file": "item-12470.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/12470",
+      "status": 200
+    },
+    {
+      "file": "item-12471.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/12471",
+      "status": 200
+    },
+    {
+      "file": "item-18082.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/18082",
+      "status": 200
+    },
+    {
+      "file": "item-18083.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/18083",
+      "status": 200
+    },
+    {
+      "file": "item-270098.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/270098",
+      "status": 200
+    },
+    {
+      "file": "item-270099.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/270099",
+      "status": 200
+    },
+    {
+      "file": "item-274638.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274638",
+      "status": 200
+    },
+    {
+      "file": "item-274639.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274639",
+      "status": 200
+    },
+    {
+      "file": "item-274641.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274641",
+      "status": 200
+    },
+    {
+      "file": "item-274642.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274642",
+      "status": 200
+    },
+    {
+      "file": "item-274643.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274643",
+      "status": 200
+    },
+    {
+      "file": "item-274644.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274644",
+      "status": 200
+    },
+    {
+      "file": "item-274645.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274645",
+      "status": 200
+    },
+    {
+      "file": "item-274646.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274646",
+      "status": 200
+    },
+    {
+      "file": "item-274647.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274647",
+      "status": 200
+    },
+    {
+      "file": "item-274648.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274648",
+      "status": 200
+    },
+    {
+      "file": "item-274651.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274651",
+      "status": 200
+    },
+    {
+      "file": "item-274652.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274652",
+      "status": 200
+    },
+    {
+      "file": "item-274653.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274653",
+      "status": 200
+    },
+    {
+      "file": "item-274654.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274654",
+      "status": 200
+    },
+    {
+      "file": "item-274655.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274655",
+      "status": 200
+    },
+    {
+      "file": "item-274657.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274657",
+      "status": 200
+    },
+    {
+      "file": "item-274658.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274658",
+      "status": 200
+    },
+    {
+      "file": "item-274659.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274659",
+      "status": 200
+    },
+    {
+      "file": "item-274660.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/274660",
+      "status": 200
+    },
+    {
+      "file": "quest-80411.html",
+      "url": "https://foreverchanges.pro/quest/80411",
+      "status": 404
+    },
+    {
+      "file": "quest-80526.html",
+      "url": "https://foreverchanges.pro/quest/80526",
+      "status": 404
+    },
+    {
+      "file": "quest-96775.html",
+      "url": "https://foreverchanges.pro/quest/96775",
+      "status": 200
+    },
+    {
+      "file": "quest-tooltip-80411.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/80411",
+      "status": 200
+    },
+    {
+      "file": "quest-tooltip-80526.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/80526",
+      "status": 200
+    }
+  ],
+  "sha256": {
+    "att-directory.json": "f009a349c3ce7c7d34607fe284c622fc62038b0e757df32e5fc37180ea1c5906",
+    "att.lua": "d8194127ba64fee2c4f4d464cbcaa1473f6baebd4372f862c336bf72b1b19eb3",
+    "dungeon.json": "19565c5d6c4416863c817aa4c4951a7e746a7caa38a3875938e6216b44bc510a",
+    "facts.json": "9cbd95cc9c1a851b892b3352b58d59dd1214b8bbc58cb90bd0ec1033f916d5ee",
+    "fetch-log.json": "bc165b7a38f5fc5f25d94ea2f3f0e159a4faa2ade7809527ca0d933142e67d28",
+    "foreverBaseNpc.lua": "e75c057a2d4e878b93d4b56e78c28c5413bac385e0ec2f90922f9a8888ce3fd1",
+    "foreverBaseObject.lua": "fbc11217b65a99aa7141226f92d6703d47d3df376932c094defe8944469e915c",
+    "foreverBaseQuest.lua": "1173a45e948a67e06f8f4dcabfac8a0cfdf9f6022e2dc2094341abfb82d2ec45",
+    "foreverNpcTraces.lua": "9b0dbf4d3d999230c910dae9021e206d38d7876e874f3e785c300c0920ed9cec",
+    "foreverObjectTraces.lua": "7bdd318c713d5d040408bf45048e6b7d1998911c49cb7f34840390b355bd1de8",
+    "foreverQuestRelationTraces.lua": "cb791f09a508dc5ad96bbc31d7eaab1bb7181aa5ed46552ca305bd4f0275abc5",
+    "foreverQuestTraces.lua": "261910d3453f8f7c123cd7ae9bcc11e2155f29ce7ab41958e85bc712db892630",
+    "guide.html": "11c79fa5080ba538fbb7b6f1c4796cfb4a456365d1c72229804c2b8d4a32f7fd",
+    "index.html": "83ddf7920716291b8ec3734248bc936ee731c6d58e61aff9f8e25b272c5834ac",
+    "item-10660.json": "ac12d0dcf0f72d93aa6468ae31850da82c0962b5336551239442ae176710ec0d",
+    "item-10661.json": "c3f67b8c339db50371ea5f4167df76f4388310f07c5c221d06c9f04ae8eabaa0",
+    "item-11086.json": "601bd2ad35c37e60a8131c490ca27794cb0623d0aeadfbf09fa1255357deec30",
+    "item-11122.json": "06e559545cd9239d872ad37b6a42a8531b908e816b9bad60a46ab80301031370",
+    "item-12470.json": "36995a3422dc415bb061205418b5f9ea2bdbdf3d14ff9ec6866eb651f43c6153",
+    "item-12471.json": "38741d13497352c5c4020f777e7f83a41985f7e4a9409023a1d06b77aa9b9309",
+    "item-18082.json": "88d4e3f7b293003d435590700e6853dab99376c818b1f41fc71581128512550f",
+    "item-18083.json": "13ecc53740c9500c85793bd3b8715dd63e691d3afeed666f2bdd7af6a5dfacef",
+    "item-2040.json": "7f71ee24d7d0ea8bd73c29591149705c258cb491c81b2e7836deb27bc9d0aff0",
+    "item-270098.json": "55a66ec20f8b89b09c8170c0dda8945b10ac184c081128b76c8b9e9f54881e48",
+    "item-270099.json": "7822044c0709184ce0ae44b2654cb5db80ff957f2a39780d57245d6ce7fa5989",
+    "item-274638.json": "76a9de625acecfdff58eb1a54b5f04faf2fef8bcf01330bb12f0e4581cf9eaa6",
+    "item-274639.json": "c9953f7f730c11c208425f8ce05464fe9b67e618b3036e52147ed1ca6d2d3b6e",
+    "item-274641.json": "eb8720c4d0673626e13b26b30b72e4158a234be9e718bdf5602ebf955f652fb4",
+    "item-274642.json": "5283aab29e18ea43ab8a035b0f25e0e76b582f8dfd0dc43bce06dac8362d2fff",
+    "item-274643.json": "c630ecac9e452ea10de35d77538b0e3980737d75c4fec72cd40f4056acc42700",
+    "item-274644.json": "c35c05d61c153023730a4d784856c5201233672bbf441a2635b12b2d0dd5d08b",
+    "item-274645.json": "a6f390c251b649124a0db9d3f684fa27c9f9145a259f59b4f926945df54800d0",
+    "item-274646.json": "1df583b7a7adfa0ff13c9338dc71300a6aebb56cfaf6ffe17218a477c071a5d9",
+    "item-274647.json": "513d01236b46817a3ebb4cee6bebea628dcf630e2cc9d1526f29eaaf5a57c7ea",
+    "item-274648.json": "d2f0c0430eeada15d5e46ae6d8dd5a20296e25e0f48ab5ef71c0e0c5970b90d3",
+    "item-274651.json": "c488ef87ad52efe6d73bde84cb22e39ee19c793ef4f0c40f23e4a763d395c7b9",
+    "item-274652.json": "3005f20886d6584f30597c7693a8fc4143421fa302fb27b0fa208c33e743496c",
+    "item-274653.json": "c57b5ec3615c6e7d20e470f41ec1615e80bae40fbdb137cf6bd7ef3c53d97c89",
+    "item-274654.json": "e358443edcc730597f1c45699af6e2ea6e2ea5ad183be9fdc580f9481374827c",
+    "item-274655.json": "decf382931cd96d96199a478a9693218813c3973cc64afea74f8f94b73eb7bd2",
+    "item-274657.json": "4ebefba8b6ba2ce7cd09f01603e121daa568638947d55b004c77dc8c4d5c421e",
+    "item-274658.json": "97b64adcc8f0c589916086826309d0bceaa747e522048c1e80dee0b8b35e8cac",
+    "item-274659.json": "962dbc678e07c6c8d80a59b6cb01a1f42799f0ffb5ee9382730c8681e8d69c17",
+    "item-274660.json": "9a7faa4be49f362d4a99afcbd9bcbddd307e9b7740bcb5da239b94c0b757802c",
+    "item-5616.json": "1078c0e7b1dd98097890207a065aa6c259575660c58e911d420190fb9c40d732",
+    "item-6440.json": "c9f8ecd45b8c0f75b0db96028e1808da85556990d360bcd47bfa65d8c899dde7",
+    "item-8151.json": "49840280d1c90027b58af68efa498d7bc3f3784aedc8eda9f0e74d62ff0d239a",
+    "item-8548.json": "2fc4f8773131e5e17f6c4cce0a312d13a3f71f8daf481d3bf3449ea6818e69ef",
+    "item-862.json": "6209a0b7cf4ee00e8209d45bd63a0274afe03711d945af300aaefdc514bad548",
+    "item-8623.json": "182f4d39bf6a73d9c68b6c71a92b84fd51af3cd2ecd89720fad031c4c74a2921",
+    "item-8707.json": "9931b33aa4ee5630862ce1c4f8c24f4251fd8090cafa5fd37215871c75247ed6",
+    "item-9234.json": "86fb72117071eb6d64dbc0a37c3702caf88f2bd686c60ef597d7dfcd714a0583",
+    "item-9238.json": "422f3d44e627e698e08da29c599eba9d9ee6e18680de923e9a0c389708dd0c91",
+    "item-9240.json": "c4dd47a2b5f2a86d93a5b02032a2b23a5981fbece74caca8a56daee98b3b5e3c",
+    "item-9241.json": "aa93e9bec9a7aacaa3160c4ce0c8d45ae60ff704ba83c96c3c15fc071b7eb5ae",
+    "item-9243.json": "e7326a8aa1481b250f7aaee931e7360b2ab28317b864324a52d5fa20a6fdadbd",
+    "item-9372.json": "701e321e91e340cc31a70c9aa82022c52b013be1c1140ecd2e494779f38660b6",
+    "item-9379.json": "e066eabea9489ecf7267309a41560b331072100fe717a5e86a2b732b3db5de03",
+    "item-9467.json": "8776745a69c2f2c6ab2e4c2217d2b0473398acf9601c7caa0dea7ae0936d2cad",
+    "item-9469.json": "1be7f3faba900dde9a82d78e3be8004ad4f04502fbdfde9838c6b3401c840252",
+    "item-9470.json": "86a770ae3a67caeb7f8eccaf1f5332a5a9be1100c2d9dffa48834f350ab5c754",
+    "item-9471.json": "661ebee4c68f4d8678a8cb98d1b8cde995820a903832e8f7151b06ea30823bbe",
+    "item-9473.json": "6e7c7162065b93cba23a620f94d6d7d148456dccbdc07acf45c8970643b9549c",
+    "item-9474.json": "f1e27f6720b2badc1c64cddf556ced75dca810456e2cd048e1493e1019c9f874",
+    "item-9475.json": "33bf58a527cf0fd5b6630c1e22bec0e8be71788064173985ca19f80c101ec819",
+    "item-9476.json": "d2fd43784724b8ecf8366f72d69f616291aacf5a4fe7cd7fa01003d8c7a1d527",
+    "item-9477.json": "926e13fdb84b8ae6522b13d3374521bcf0ca6cb853b0317bf89194b9b401867c",
+    "item-9478.json": "df462af67797fc614302e36e235df145f1785773d93ce6c648631bed0f3332c5",
+    "item-9479.json": "4c701892e855c39383ecb62bfce00fb6a4b263ef2950fcd8cc036eda2c3a43d9",
+    "item-9480.json": "ae531f6a2b1deb778545fa74ac51a78bebe05ee0ade166f34179b2df81a1318a",
+    "item-9481.json": "e78b640aef5a4dc77f7c983054673e72b584f7f4eabb02154678f9ccda7bd104",
+    "item-9482.json": "84e485b09e66a723e2aee00ab929c442628f174eac9ef60b183240b2ac93ecc0",
+    "item-9483.json": "c61748c2cd83edf22ac81a4798297a77f9f446070103d557afe94b9e97c5c8fc",
+    "item-9484.json": "cd23fdd228fa102bb05a8c57231ffa4e78de5d84e9a9ecd5750ccff0e4e4ef1d",
+    "item-9511.json": "086c8f658c275a65e9997154db2fb5953a295b5636afd6f08817d97dd6e42bff",
+    "item-9512.json": "f79d09378e34c60e859718a20f7e61088dff3369cd2667f2d503269f343165a9",
+    "item-9523.json": "87752141cba41d587151dce992893c672b70ee9c5a13c8164da8c00d713ef125",
+    "item-9527.json": "e58bfa61ab0a4fa5a62f6e66e0e892a34e6b268e0adcbc518aa5fc7d23384587",
+    "item-9531.json": "e9473423071f63e1f6825fb5836dd5f9283f9e73d832d3210162fc945aa8a6b1",
+    "item-9533.json": "f7751da74659e2ab7b261ffda5050bf8965150a5d248120d27b78a852267f857",
+    "item-9534.json": "fa35a6e216afd3420d6f6e9931a0d76dc73892bd29fa3352f8469882364afcdb",
+    "item-9639.json": "0d9b89fdfe4af199a875d56d8e95d2034504ee7d7654ee9561d2a034fa40545c",
+    "item-9640.json": "1e4d3d6a83fa792e7c78946bfc25bd7b3532b0bd41462b3f178aeccd9aeafc64",
+    "item-9641.json": "ea4f1b46bbdef367fe96373c1c00e2d9b6caf048c2fe158800a4e396ddbbfc43",
+    "item-9653.json": "fe019deace713ed89ceaf126086d62f6025d10933d4066a2263f6a20ada76168",
+    "merged-npcs.json": "1b3e608845b5e3d91977bddb57349e698ec639dd6aed541bffb1be6dabfc6b8d",
+    "merged-objects.json": "753694ac0cde3ae02da13acb2b337fa573da0adf16efc18561698b220d58a9f8",
+    "merged-quests.json": "842dd15130b57538ab5188e41c807d4c90266e4f657550eff71ad70e1acd6057",
+    "quest-2768.html": "16c9f73814fb88ec222e6ce25774badde44c95c6941b6d7534d5db70149be363",
+    "quest-2769.html": "9d8fe4fbe740c51bb95414a83f2de134d154e1ecc8b82aebcdbd8b238306c0d4",
+    "quest-2770.html": "6c6bd9a8f1907948bd01806c66ff2e049c58b4963b28d0d9b5ff7048d5c5db58",
+    "quest-2846.html": "f79cb2ba409026453ae83c98db113b286b69d7260736f0bbc4393072c505cf26",
+    "quest-2861.html": "90b5f3c5fc5ff2c54fb1d77703801bb47af87cd0f677a169102a50e6fed367af",
+    "quest-2864.html": "2b5a424018273eb800e79565440d9b5db1b50e9fe83282964968b3e31af23284",
+    "quest-2865.html": "0e29178a44fcfc08c40c239c8b49f77fad7280874faf332200075a978ab9031f",
+    "quest-2936.html": "4463efffc62f8cb624b40c982191d33448006f28aec95c8cc57a8e92eab9f61f",
+    "quest-2988.html": "6d3f7ef4086afc18d4728447391e4db83ed672b641fdabb462024d2f2f7f6592",
+    "quest-2989.html": "ceec545be6627a9f5f3b93463e20fcac0b600c24b1e0e585db3794b471def977",
+    "quest-2990.html": "c65c30dcb1cd6457317bc5ccefd06f34a4532225233a7f79b0f4d8352c74e7a1",
+    "quest-2991.html": "3865a3c7e55dc662e7c0c773233f68cba38c9b613ecffda927a5a32b822a496f",
+    "quest-2992.html": "54fbc20554e989a992ce5606a0cd9f6b5a766020b6b2e8c8a928d6c71e2e5591",
+    "quest-2993.html": "737c77d21c21a266aed79c9a292bac1c3bbb0fa6c795c22205acccb3162caadd",
+    "quest-2994.html": "1d4de5a499229227fb941f99f54523651cf81343c14e5926b3cfd1183bbc9114",
+    "quest-3042.html": "305013f9cd6860f2306cac7d24e47d84ee93b6fb5fdab71e736d5b73a33a6bfe",
+    "quest-3520.html": "1c1e23ee200a3cccf4123638888023de21da787191e4fafcd2c11fb58c8b1086",
+    "quest-3527.html": "0471097fdbd0b7bdbbef1feadcea505790fcf60e9761c5b4d279c792375acaf2",
+    "quest-4787.html": "2039df76210756c3e59f35ec0a264452b639dc65743a9d6d1d51198e6baba2d1",
+    "quest-96770.html": "f8bc1543f2a943d027f49ad8c69bd84a6ea8bc1c3c077cb41f6c635a6017187c",
+    "quest-96775.html": "24c97bfcc60fae5509d5e7d92c32ff8cd921869b996d8afff965f596857cbe74",
+    "quest-tooltip-80411.json": "9a72a51a17cb7a22beefe6cdeba1f213e8ccac3988dfba6cbc6160ae221e88f9",
+    "quest-tooltip-80526.json": "085113ecfff057baea5f5a3acab01896488d3c56ab7863ef6114633dfc323aaa",
+    "tmp-maraudon-utils.py": "8f100324efd0d8cf533d1456be1acbc107c552f1acd188145d6c32b5d9c23fcc"
+  },
+  "limits": [
+    "No map added",
+    "Classic source references retained for three items with no explicit tooltip boss line",
+    "Rare shared zone-drop pool excluded even where a tooltip names a boss",
+    "Rogue handoff is observed order; Classic breadcrumbs are not required parent completions"
+  ]
+}

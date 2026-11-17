@@ -7815,6 +7815,1007 @@
           ]
         }
       ]
+    },
+    "Zul'Farrak": {
+      "id": 209,
+      "build": "1.60.1.70938",
+      "source": "https://foreverdb.net/dungeon/209-zulfarrak",
+      "items": [
+        {
+          "id": "9379",
+          "name": "Sang'thraze the Deflector",
+          "quality": 3,
+          "requiredLevel": 45,
+          "itemLevel": 50,
+          "slot": "One-Hand",
+          "type": "Sword",
+          "stats": [
+            "39–74 Damage",
+            "Speed 1.70 (33.24 DPS)",
+            "Chance on hit: +2% Parry for 9 sec",
+            "Unique"
+          ],
+          "source": "Antu'sul",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9379",
+            "https://nether.wowhead.com/forever/tooltip/item/9379",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "9639",
+          "name": "The Hand of Antu'sul",
+          "quality": 3,
+          "requiredLevel": 45,
+          "itemLevel": 50,
+          "slot": "Main Hand",
+          "type": "Mace",
+          "stats": [
+            "63–117 Damage",
+            "Speed 2.70 (33.33 DPS)",
+            "Chance on hit: Deals 42 Nature damage and slows attacks by 11% for 10 sec, affecting up to 4 nearby enemies"
+          ],
+          "source": "Antu'sul",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9639",
+            "https://nether.wowhead.com/forever/tooltip/item/9639",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "9640",
+          "name": "Vice Grips",
+          "quality": 3,
+          "requiredLevel": 45,
+          "itemLevel": 50,
+          "slot": "Hands",
+          "type": "Plate",
+          "stats": [
+            "330 Armor",
+            "Random enchantment",
+            "+14 Attack Power"
+          ],
+          "source": "Antu'sul",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9640",
+            "https://nether.wowhead.com/forever/tooltip/item/9640",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "9641",
+          "name": "Lifeblood Amulet",
+          "quality": 3,
+          "requiredLevel": 45,
+          "itemLevel": 50,
+          "slot": "Neck",
+          "type": "Necklace",
+          "stats": [
+            "+14 Stamina",
+            "Restores 8 health per 5 sec"
+          ],
+          "source": "Antu'sul",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9641",
+            "https://nether.wowhead.com/forever/tooltip/item/9641",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274638",
+          "name": "Sandfury Pauldrons",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Shoulder",
+          "type": "Mail",
+          "stats": [
+            "213 Armor",
+            "+7 Intellect",
+            "+11 Spirit",
+            "+15 Spell Damage and Healing"
+          ],
+          "source": "Theka the Martyr",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274638",
+            "https://nether.wowhead.com/forever/tooltip/item/274638",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274639",
+          "name": "Sacrificial Chain Vest",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Chest",
+          "type": "Mail",
+          "stats": [
+            "284 Armor",
+            "+6 Intellect",
+            "+16 Spirit",
+            "+34 Attack Power"
+          ],
+          "source": "Theka the Martyr",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274639",
+            "https://nether.wowhead.com/forever/tooltip/item/274639",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274641",
+          "name": "Theka's Last Breath",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Restores 6 mana per 5 sec",
+            "Use: Transforms enemies within 10 yds into scarabs, slowing movement by 45% for 10 sec; stuns Qiraji and Silithid for 5 sec (7 min cooldown)",
+            "Unique-Equipped"
+          ],
+          "source": "Theka the Martyr",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274641",
+            "https://nether.wowhead.com/forever/tooltip/item/274641",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "18082",
+          "name": "Zum'rah's Vexing Cane",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 48,
+          "slot": "Two-Hand",
+          "type": "Staff",
+          "stats": [
+            "67–101 Damage",
+            "Speed 2.70 (31.11 DPS)",
+            "+10 Stamina",
+            "+10 Intellect",
+            "+54 Spell Damage and Healing",
+            "Chance on harmful spell cast: Summons a Zombie Troll of Zum'rah for 20 sec (1 min cooldown)"
+          ],
+          "source": "Witch Doctor Zum'rah",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=18082",
+            "https://nether.wowhead.com/forever/tooltip/item/18082",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "18083",
+          "name": "Jumanza Grips",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 48,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "43 Armor",
+            "+10 Stamina",
+            "+7 Intellect",
+            "Restores 4 mana per 5 sec",
+            "+18 Healing",
+            "+6 Spell Damage"
+          ],
+          "source": "Witch Doctor Zum'rah",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=18083",
+            "https://nether.wowhead.com/forever/tooltip/item/18083",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "274642",
+          "name": "Blood Ritual Ring",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 48,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+13 Stamina",
+            "+3 Defense",
+            "Unique-Equipped"
+          ],
+          "source": "Witch Doctor Zum'rah",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274642",
+            "https://nether.wowhead.com/forever/tooltip/item/274642",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274643",
+          "name": "Gutcutter Hatchet",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 48,
+          "slot": "Thrown",
+          "type": "Thrown",
+          "stats": [
+            "40–76 Damage",
+            "Speed 2.00 (29.00 DPS)",
+            "+6 Stamina",
+            "+12 Attack Power"
+          ],
+          "source": "Nekrum Gutchewer",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274643",
+            "https://nether.wowhead.com/forever/tooltip/item/274643",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274644",
+          "name": "Undying Headdress",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 48,
+          "slot": "Head",
+          "type": "Mail",
+          "stats": [
+            "235 Armor",
+            "+17 Stamina",
+            "+8 Intellect",
+            "Restores 8 health per 5 sec",
+            "+26 Attack Power"
+          ],
+          "source": "Nekrum Gutchewer",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274644",
+            "https://nether.wowhead.com/forever/tooltip/item/274644",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274645",
+          "name": "Desert Ziggurat Drape",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 48,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "34 Armor",
+            "+9 Stamina",
+            "+7 Fire Resistance",
+            "+7 Nature Resistance"
+          ],
+          "source": "Nekrum Gutchewer",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274645",
+            "https://nether.wowhead.com/forever/tooltip/item/274645",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "9470",
+          "name": "Bad Mojo Mask",
+          "quality": 3,
+          "requiredLevel": 44,
+          "itemLevel": 49,
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "57 Armor",
+            "+21 Intellect",
+            "+20 Shadow Spell Damage"
+          ],
+          "source": "Shadowpriest Sezz'ziz",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9470",
+            "https://nether.wowhead.com/forever/tooltip/item/9470",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "9473",
+          "name": "Jinxed Hoodoo Skin",
+          "quality": 3,
+          "requiredLevel": 44,
+          "itemLevel": 49,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "144 Armor",
+            "+10 Strength",
+            "+20 Stamina",
+            "+8 Spirit"
+          ],
+          "source": "Shadowpriest Sezz'ziz",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9473",
+            "https://nether.wowhead.com/forever/tooltip/item/9473",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "9474",
+          "name": "Jinxed Hoodoo Kilt",
+          "quality": 3,
+          "requiredLevel": 44,
+          "itemLevel": 49,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "126 Armor",
+            "+10 Intellect",
+            "+19 Spirit",
+            "+24 Healing",
+            "+8 Spell Damage"
+          ],
+          "source": "Shadowpriest Sezz'ziz",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9474",
+            "https://nether.wowhead.com/forever/tooltip/item/9474",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "9475",
+          "name": "Diabolic Skiver",
+          "quality": 3,
+          "requiredLevel": 44,
+          "itemLevel": 49,
+          "slot": "Two-Hand",
+          "type": "Polearm",
+          "stats": [
+            "99–149 Damage",
+            "Speed 2.90 (42.76 DPS)",
+            "Chance on hit: Deals 164–184 Physical damage, increased by 50% against targets below 25% health"
+          ],
+          "source": "Shadowpriest Sezz'ziz",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9475",
+            "https://nether.wowhead.com/forever/tooltip/item/9475",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274646",
+          "name": "Arch of the Covenant",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Ranged",
+          "type": "Bow",
+          "stats": [
+            "44–84 Damage",
+            "Speed 2.60 (24.62 DPS)",
+            "+5 Agility",
+            "+6 Nature Resistance"
+          ],
+          "source": "Sergeant Bly",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274646",
+            "https://nether.wowhead.com/forever/tooltip/item/274646",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274647",
+          "name": "Farraki Kris",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Main Hand",
+          "type": "Dagger",
+          "stats": [
+            "23–44 Damage",
+            "Speed 1.60 (20.94 DPS)",
+            "+54 Spell Damage and Healing",
+            "Your spells pierce 2 Magical Resistance",
+            "Chance on harmful spell cast: Leeches 19 health every 2 sec for 6 sec"
+          ],
+          "source": "Sergeant Bly",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274647",
+            "https://nether.wowhead.com/forever/tooltip/item/274647",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274648",
+          "name": "The Desert Rose",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "+7% Mount Speed in Desert areas",
+            "Unique-Equipped"
+          ],
+          "source": "Sergeant Bly",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274648",
+            "https://nether.wowhead.com/forever/tooltip/item/274648",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274651",
+          "name": "Zealot Plate",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 48,
+          "slot": "Chest",
+          "type": "Plate",
+          "stats": [
+            "509 Armor",
+            "+13 Strength",
+            "When struck: Chance to restore 66–110 mana (15 sec cooldown)"
+          ],
+          "source": "Hydromancer Velratha",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274651",
+            "https://nether.wowhead.com/forever/tooltip/item/274651",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274652",
+          "name": "Wall of Water",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 48,
+          "slot": "Off Hand",
+          "type": "Shield",
+          "stats": [
+            "1676 Armor",
+            "27 Block",
+            "Restores 3 mana per 5 sec",
+            "+14 Spell Damage and Healing"
+          ],
+          "source": "Hydromancer Velratha",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274652",
+            "https://nether.wowhead.com/forever/tooltip/item/274652",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274653",
+          "name": "Deep Ritual Girdle",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 48,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "163 Armor",
+            "+11 Strength",
+            "+12 Spirit",
+            "+16 Healing",
+            "+6 Spell Damage"
+          ],
+          "source": "Hydromancer Velratha",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274653",
+            "https://nether.wowhead.com/forever/tooltip/item/274653",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "9467",
+          "name": "Gahz'rilla Fang",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 48,
+          "slot": "One-Hand",
+          "type": "Dagger",
+          "stats": [
+            "40–76 Damage",
+            "Speed 1.80 (32.22 DPS)",
+            "Movement can generate Static Electricity",
+            "Chance on hit: Deals 84 Nature damage, +2% per Static Electricity stack; doubled against Aquatic enemies",
+            "Unique-Equipped"
+          ],
+          "source": "Gahz'rilla",
+          "sourceOrder": 8,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9467",
+            "https://nether.wowhead.com/forever/tooltip/item/9467",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "9469",
+          "name": "Gahz'rilla Scale Armor",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 48,
+          "slot": "Chest",
+          "type": "Mail",
+          "stats": [
+            "290 Armor",
+            "+10 Stamina",
+            "+16 Spirit",
+            "+33 Healing",
+            "+11 Spell Damage"
+          ],
+          "source": "Gahz'rilla",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9469",
+            "https://nether.wowhead.com/forever/tooltip/item/9469",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274657",
+          "name": "Hydra Leather Legs",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 48,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "124 Armor",
+            "+11 Stamina",
+            "+12 Spirit",
+            "+22 Spell Damage and Healing"
+          ],
+          "source": "Gahz'rilla",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274657",
+            "https://nether.wowhead.com/forever/tooltip/item/274657",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274654",
+          "name": "Sandfury Guillotine",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 47,
+          "slot": "Two-Hand",
+          "type": "Axe",
+          "stats": [
+            "112–168 Damage",
+            "Speed 3.40 (41.18 DPS)",
+            "+1% Critical Strike",
+            "+47 Healing",
+            "+16 Spell Damage"
+          ],
+          "source": "Ruuzlu",
+          "sourceOrder": 9,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274654",
+            "https://nether.wowhead.com/forever/tooltip/item/274654",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274655",
+          "name": "Peacekeeper Wand",
+          "quality": 3,
+          "requiredLevel": 43,
+          "itemLevel": 48,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "60–113 Shadow Damage",
+            "Speed 1.90 (45.53 DPS)",
+            "Restores 3 mana per 5 sec",
+            "+4 Spell Damage and Healing"
+          ],
+          "source": "Ruuzlu",
+          "sourceOrder": 9,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274655",
+            "https://nether.wowhead.com/forever/tooltip/item/274655",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "11086",
+          "name": "Jang'thraze the Protector",
+          "quality": 3,
+          "requiredLevel": 45,
+          "itemLevel": 50,
+          "slot": "Main Hand",
+          "type": "Sword",
+          "stats": [
+            "44–83 Damage",
+            "Speed 1.90 (33.42 DPS)",
+            "Chance on hit: Absorbs 66–102 Physical damage for 20 sec",
+            "Use: Combines with Sang'thraze to form Sul'thraze the Lasher",
+            "Unique"
+          ],
+          "source": "Chief Ukorz Sandscalp",
+          "sourceOrder": 10,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=11086",
+            "https://nether.wowhead.com/forever/tooltip/item/11086",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "9476",
+          "name": "Big Bad Pauldrons",
+          "quality": 3,
+          "requiredLevel": 45,
+          "itemLevel": 50,
+          "slot": "Shoulder",
+          "type": "Plate",
+          "stats": [
+            "396 Armor",
+            "+12 Strength",
+            "+12 Stamina",
+            "Restores 12 health per 5 sec"
+          ],
+          "source": "Chief Ukorz Sandscalp",
+          "sourceOrder": 10,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9476",
+            "https://nether.wowhead.com/forever/tooltip/item/9476",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "9477",
+          "name": "The Chief's Enforcer",
+          "quality": 3,
+          "requiredLevel": 45,
+          "itemLevel": 50,
+          "slot": "Two-Hand",
+          "type": "Staff",
+          "stats": [
+            "118–178 Damage",
+            "Speed 3.40 (43.53 DPS)",
+            "Chance on hit: Deals 294 Physical damage and stuns for 1.5 sec; damage and duration doubled against Trolls"
+          ],
+          "source": "Chief Ukorz Sandscalp",
+          "sourceOrder": 10,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9477",
+            "https://nether.wowhead.com/forever/tooltip/item/9477",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "9478",
+          "name": "Ripsaw",
+          "quality": 3,
+          "requiredLevel": 45,
+          "itemLevel": 50,
+          "slot": "Main Hand",
+          "type": "Axe",
+          "stats": [
+            "63–117 Damage",
+            "Speed 2.70 (33.33 DPS)",
+            "+10 Attack Power",
+            "Chance on hit: Deals 70 Physical damage"
+          ],
+          "source": "Chief Ukorz Sandscalp",
+          "sourceOrder": 10,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9478",
+            "https://nether.wowhead.com/forever/tooltip/item/9478",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "9479",
+          "name": "Embrace of the Lycan",
+          "quality": 3,
+          "requiredLevel": 44,
+          "itemLevel": 49,
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "117 Armor",
+            "+8 Strength",
+            "+16 Stamina",
+            "+5 Spirit",
+            "+32 Attack Power"
+          ],
+          "source": "Chief Ukorz Sandscalp",
+          "sourceOrder": 10,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9479",
+            "https://nether.wowhead.com/forever/tooltip/item/9479",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "12470",
+          "name": "Sandstalker Ankleguards",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "95 Armor",
+            "+6 Strength",
+            "+17 Agility",
+            "+3 Spirit"
+          ],
+          "source": "Zerillis (rare)",
+          "sourceOrder": 11,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=12470",
+            "https://nether.wowhead.com/forever/tooltip/item/12470",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274658",
+          "name": "Dune Hacker",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Main Hand",
+          "type": "Axe",
+          "stats": [
+            "34–63 Damage",
+            "Speed 2.30 (21.09 DPS)",
+            "+10 Stamina",
+            "+10 Nature Resistance",
+            "+54 Spell Damage and Healing"
+          ],
+          "source": "Zerillis (rare)",
+          "sourceOrder": 11,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274658",
+            "https://nether.wowhead.com/forever/tooltip/item/274658",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "12471",
+          "name": "Desertwalker Cane",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Held In Off-hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "+8 Stamina",
+            "+7 Intellect",
+            "+20 Healing",
+            "+7 Spell Damage"
+          ],
+          "source": "Dustwraith (rare)",
+          "sourceOrder": 12,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=12471",
+            "https://nether.wowhead.com/forever/tooltip/item/12471",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274659",
+          "name": "Bloodsand Belt",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Waist",
+          "type": "Plate",
+          "stats": [
+            "281 Armor",
+            "+7 Stamina",
+            "Restores 6 mana per 5 sec",
+            "+18 Healing",
+            "+6 Spell Damage"
+          ],
+          "source": "Sandarr Dunereaver (rare)",
+          "sourceOrder": 13,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274659",
+            "https://nether.wowhead.com/forever/tooltip/item/274659",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        },
+        {
+          "id": "274660",
+          "name": "Sandarr's Shoulders",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Shoulder",
+          "type": "Mail",
+          "stats": [
+            "213 Armor",
+            "+6 Strength",
+            "+12 Stamina",
+            "+12 Spirit"
+          ],
+          "source": "Sandarr Dunereaver (rare)",
+          "sourceOrder": 13,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274660",
+            "https://nether.wowhead.com/forever/tooltip/item/274660",
+            "https://foreverdb.net/dungeon/209-zulfarrak",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+          ]
+        }
+      ]
     }
   }
 }

@@ -23171,5 +23171,762 @@
         "relation": "Offered after"
       }
     ]
+  },
+  {
+    "id": "2768",
+    "zone": "Zul'Farrak",
+    "level": 47,
+    "name": "Divino-matic Rod",
+    "stage": "",
+    "giver": "Chief Engineer Bilgewhizzle",
+    "coordinates": "52.5, 28.5",
+    "area": "Gadgetzan (Tanaris)",
+    "objective": "Recover the Divino-matic Rod from Sergeant Bly after the pyramid event, then return it to Chief Engineer Bilgewhizzle in Gadgetzan.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Both factions; No class restriction recorded; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/2768/divino-matic-rod",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2769",
+    "zone": "Zul'Farrak",
+    "level": 46,
+    "name": "The Brassbolts Brothers",
+    "stage": "Optional introduction",
+    "giver": "Klockmort Spannerspan",
+    "coordinates": "68.2, 46.2",
+    "area": "Ironforge",
+    "objective": "Speak with Wizzle Brassbolts in the Shimmering Flats.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Alliance; No class restriction recorded; Ironforge city-map coordinate; the public page uses a broad Dun Morogh map; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/2769/the-brassbolts-brothers",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic-addon",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2770",
+    "zone": "Zul'Farrak",
+    "level": 50,
+    "name": "Gahz'rilla",
+    "stage": "",
+    "giver": "Wizzle Brassbolts",
+    "coordinates": "78.1, 77.1",
+    "area": "Shimmering Flats (Thousand Needles)",
+    "objective": "Bring Gahz'rilla's Electrified Scale to Wizzle Brassbolts in the Shimmering Flats.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Both factions; No class restriction recorded; Someone in the party needs the Mallet of Zul'Farrak to ring the gong and summon Gahz'rilla; the mallet preparation is not a separate quest; Published Classic pickup reference; not a newly measured Forever position; Earlier introduction is not modeled as a mandatory prerequisite; primary Classic table records no completion requirement",
+    "sources": [
+      "https://foreverchanges.pro/quest/2770/gahzrilla",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "2769",
+        "name": "The Brassbolts Brothers",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2846",
+    "zone": "Zul'Farrak",
+    "level": 46,
+    "name": "Tiara of the Deep",
+    "stage": "",
+    "giver": "Tabetha",
+    "coordinates": "46.1, 57.1",
+    "area": "Dustwallow Marsh",
+    "objective": "Recover the Tiara of the Deep from Hydromancer Velratha in Zul'Farrak and return it to Tabetha in Dustwallow Marsh.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Both factions; No class restriction recorded; Earlier introduction is not modeled as a mandatory prerequisite; primary Classic table records no completion requirement; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/2846/tiara-of-the-deep",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "2861",
+        "name": "Tabetha's Task",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2861",
+    "zone": "Zul'Farrak",
+    "level": 46,
+    "name": "Tabetha's Task",
+    "stage": "Optional introduction",
+    "giver": "Jennea Cannon / Bink",
+    "coordinates": "Stormwind: 38.6, 79.4; Ironforge: 27.0, 8.2",
+    "area": "Stormwind / Ironforge",
+    "objective": "Speak with Tabetha in Dustwallow Marsh.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Both factions; No class restriction recorded; Alliance pickup options only; Mage trainers do not impose a class restriction in the primary quest record; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/2861/tabethas-task",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic-addon",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2864",
+    "zone": "Zul'Farrak",
+    "level": 45,
+    "name": "Tran'rek",
+    "stage": "",
+    "giver": "Krazek",
+    "coordinates": "26.9, 77.2",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Speak with Tran'rek in Gadgetzan.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/2864/tranrek",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2865",
+    "zone": "Zul'Farrak",
+    "level": 45,
+    "name": "Scarab Shells",
+    "stage": "",
+    "giver": "Tran'rek",
+    "coordinates": "51.6, 26.8",
+    "area": "Gadgetzan (Tanaris)",
+    "objective": "Bring 5 Uncracked Scarab Shells to Tran'rek in Gadgetzan.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Both factions; No class restriction recorded; Published Classic pickup reference; not a newly measured Forever position; Earlier introduction is not modeled as a mandatory prerequisite; primary Classic table records no completion requirement",
+    "sources": [
+      "https://foreverchanges.pro/quest/2865/scarab-shells",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "2864",
+        "name": "Tran'rek",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2988",
+    "zone": "Zul'Farrak",
+    "level": 45,
+    "name": "Witherbark Cages",
+    "stage": "Sharpbeak chain: introduction",
+    "giver": "Gryphon Master Talonaxe",
+    "coordinates": "9.8, 44.5",
+    "area": "Aerie Peak (The Hinterlands)",
+    "objective": "Check the cages at the two Witherbark villages, then return to Gryphon  Master Talonaxe.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Alliance; No class restriction recorded; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/2988/witherbark-cages",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2989",
+    "zone": "Zul'Farrak",
+    "level": 48,
+    "name": "The Altar of Zul",
+    "stage": "Sharpbeak chain: introduction",
+    "giver": "Gryphon Master Talonaxe",
+    "coordinates": "9.8, 44.5",
+    "area": "Aerie Peak (The Hinterlands)",
+    "objective": "Check the top of the Altar of Zul, then return to Gryphon Master Talonaxe.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Alliance; No class restriction recorded; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/2989/the-altar-of-zul",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [
+      {
+        "id": "2988",
+        "name": "Witherbark Cages",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2990",
+    "zone": "Zul'Farrak",
+    "level": 47,
+    "name": "Thadius Grimshade",
+    "stage": "Sharpbeak chain: introduction",
+    "giver": "Gryphon Master Talonaxe",
+    "coordinates": "9.8, 44.5",
+    "area": "Aerie Peak (The Hinterlands)",
+    "objective": "Bring Sharpbeak's Feather to Thadius Grimshade in the Blasted Lands.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Alliance; No class restriction recorded; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/2990/thadius-grimshade",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [
+      {
+        "id": "2989",
+        "name": "The Altar of Zul",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2991",
+    "zone": "Zul'Farrak",
+    "level": 47,
+    "name": "Nekrum's Medallion",
+    "stage": "Sharpbeak chain: Zul'Farrak",
+    "giver": "Thadius Grimshade",
+    "coordinates": "66.9, 19.5",
+    "area": "Nethergarde Keep (Blasted Lands)",
+    "objective": "Bring Nekrum's Medallion to Thadius Grimshade in the Blasted Lands.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Alliance; No class restriction recorded; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/2991/nekrums-medallion",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [
+      {
+        "id": "2990",
+        "name": "Thadius Grimshade",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2992",
+    "zone": "Zul'Farrak",
+    "level": 47,
+    "name": "The Divination",
+    "stage": "Sharpbeak chain: follow-up",
+    "giver": "Thadius Grimshade",
+    "coordinates": "66.9, 19.5",
+    "area": "Nethergarde Keep (Blasted Lands)",
+    "objective": "Wait until Grimshade performs the ritual of divination.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Alliance; No class restriction recorded; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/2992/the-divination",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [
+      {
+        "id": "2991",
+        "name": "Nekrum's Medallion",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2993",
+    "zone": "Zul'Farrak",
+    "level": 47,
+    "name": "Return to the Hinterlands",
+    "stage": "Sharpbeak chain: follow-up",
+    "giver": "Thadius Grimshade",
+    "coordinates": "66.9, 19.5",
+    "area": "Nethergarde Keep (Blasted Lands)",
+    "objective": "Speak with Gryphon Master Talonaxe.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Alliance; No class restriction recorded; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/2993/return-to-the-hinterlands",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [
+      {
+        "id": "2992",
+        "name": "The Divination",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2994",
+    "zone": "Zul'Farrak",
+    "level": 51,
+    "name": "Saving Sharpbeak",
+    "stage": "Sharpbeak chain: follow-up",
+    "giver": "Gryphon Master Talonaxe",
+    "coordinates": "9.8, 44.5",
+    "area": "Aerie Peak (The Hinterlands)",
+    "objective": "Fight to the top of Jintha'Alor, kill Vile Priestess Hexx for the key to Sharpbeak's cage, and save Sharpbeak.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Alliance; No class restriction recorded; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/2994/saving-sharpbeak",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [
+      {
+        "id": "2993",
+        "name": "Return to the Hinterlands",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3042",
+    "zone": "Zul'Farrak",
+    "level": 45,
+    "name": "Troll Temper",
+    "stage": "",
+    "giver": "Trenton Lighthammer",
+    "coordinates": "51.4, 28.8",
+    "area": "Gadgetzan (Tanaris)",
+    "objective": "Bring 20 Vials of Troll Temper to Trenton Lighthammer in Gadgetzan.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Both factions; No class restriction recorded; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/3042/troll-temper",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3520",
+    "zone": "Zul'Farrak",
+    "level": 44,
+    "name": "Screecher Spirits",
+    "stage": "Mosh'aru chain: introduction",
+    "giver": "Yeh'kinya",
+    "coordinates": "67, 22.4",
+    "area": "Steamwheedle Port (Tanaris)",
+    "objective": "Capture the spirits of 3 screechers in Feralas, then return to Yeh'kinya in Steamwheedle Port.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Both factions; No class restriction recorded; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/3520/screecher-spirits",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3527",
+    "zone": "Zul'Farrak",
+    "level": 47,
+    "name": "The Prophecy of Mosh'aru",
+    "stage": "Mosh'aru chain: Zul'Farrak",
+    "giver": "Yeh'kinya",
+    "coordinates": "67, 22.4",
+    "area": "Steamwheedle Port (Tanaris)",
+    "objective": "Recover the First Mosh'aru Tablet from Theka the Martyr and the Second from Hydromancer Velratha, then return both to Yeh'kinya in Tanaris.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Both factions; No class restriction recorded; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/3527/the-prophecy-of-mosharu",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [
+      {
+        "id": "3520",
+        "name": "Screecher Spirits",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4787",
+    "zone": "Zul'Farrak",
+    "level": 50,
+    "name": "The Ancient Egg",
+    "stage": "Mosh'aru chain: Hinterlands follow-up",
+    "giver": "Yeh'kinya",
+    "coordinates": "67, 22.4",
+    "area": "Steamwheedle Port (Tanaris)",
+    "objective": "Bring the Ancient Egg to Yeh'kinya in Tanaris.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40; Both factions; No class restriction recorded; Published Classic pickup reference; not a newly measured Forever position",
+    "sources": [
+      "https://foreverchanges.pro/quest/4787/the-ancient-egg",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [
+      {
+        "id": "3527",
+        "name": "The Prophecy of Mosh'aru",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96770",
+    "zone": "Zul'Farrak",
+    "level": 46,
+    "name": "The Witch Doctor's Head",
+    "stage": "",
+    "giver": "Archmage Lan'dalock",
+    "coordinates": "15.3, 73.8",
+    "area": "Dalaran (Alterac Mountains)",
+    "objective": "Slay Witch Doctor Zum'rah and bring Zum'rah's Head to Archmage Lan'dalock in Dalaran.",
+    "areaConfidence": "High",
+    "notes": "Minimum level 39; Alliance; No class restriction recorded; Archmage is a giver title, not a Mage class restriction",
+    "sources": [
+      "https://foreverchanges.pro/quest/96770/the-witch-doctors-head",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/zul'farrak.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "80526",
+    "zone": "Zul'Farrak",
+    "level": 50,
+    "name": "Fool Me Twice",
+    "stage": "Rogue: introduction",
+    "giver": "Fahrad",
+    "coordinates": "84.5, 80.3",
+    "area": "Ravenholdt Manor (Alterac Mountains)",
+    "objective": "Speak to Fahrad when you're ready to hear his plan.",
+    "areaConfidence": "Approximate",
+    "notes": "Rogue only; Minimum level 45; Shared-faction access supported by primary generated data; Current Wowhead quest tooltip and player traces confirm identity/objective; Pickup coordinate is a Classic NPC reference; Chain link is observed offer order, not a confirmed mandatory prerequisite",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=80526",
+      "https://nether.wowhead.com/forever/tooltip/quest/80526",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "wowhead-and-questie-trace",
+      "level": "questie-generated",
+      "minimumLevel": "questie-generated",
+      "objective": "wowhead-and-questie-trace",
+      "giver": "questie-generated-and-trace",
+      "pickupLocation": "classic",
+      "faction": "questie-reviewed-shared",
+      "classRestriction": "questie-generated"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "80411",
+    "zone": "Zul'Farrak",
+    "level": 50,
+    "name": "The Talisman of Kazdor",
+    "stage": "Rogue: solo dungeon task",
+    "giver": "Fahrad",
+    "coordinates": "84.5, 80.3",
+    "area": "Ravenholdt Manor (Alterac Mountains)",
+    "objective": "Find the Talisman of Kazdor inside Zul'Farrak and return it to Fahrad at Ravenholdt Manor. You must complete the job alone.",
+    "areaConfidence": "Approximate",
+    "notes": "Rogue only; Minimum level 45; Shared-faction access supported by primary generated data; Current Wowhead quest tooltip and player traces confirm identity/objective; Pickup coordinate is a Classic NPC reference; Chain link is observed offer order, not a confirmed mandatory prerequisite",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=80411",
+      "https://nether.wowhead.com/forever/tooltip/quest/80411",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "wowhead-and-questie-trace",
+      "level": "questie-generated",
+      "minimumLevel": "questie-generated",
+      "objective": "wowhead-and-questie-trace",
+      "giver": "questie-generated-and-trace",
+      "pickupLocation": "classic",
+      "faction": "questie-reviewed-shared",
+      "classRestriction": "questie-generated"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "80526",
+        "name": "Fool Me Twice",
+        "evidence": "community",
+        "relation": "Offered after",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ]
+      }
+    ]
   }
 ]

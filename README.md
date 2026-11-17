@@ -4,7 +4,7 @@ Static HTML, CSS, and JavaScript. No installation, application server, package m
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Chrome, Firefox, or another modern browser.
 
-- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Stranglethorn Vale, Felwood, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, Krol'dok Stronghold, Uldaman, or Maraudon.
+- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Stranglethorn Vale, Felwood, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, Krol'dok Stronghold, Uldaman, Maraudon, or Zul'Farrak.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
@@ -31,7 +31,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 774 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 795 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
@@ -59,8 +59,9 @@ The browser loads all 774 quest entries directly from `data/quests.json`. This J
 - Krol'dok Stronghold: 10 Alliance entries, including A Small Favor and delivery follow-ups; Krol'dok No More! is a labeled escort reference with unverified availability and unknown giver/pickup
 - Uldaman: 36 Alliance/shared entries, including the necklace, Platinum Discs/Uldum continuation, entrance tasks, and relevant introductions; Horde-only and Mage-only quests are excluded
 - Maraudon: 10 Alliance/shared entries, including the Scepter chain and shared Word of the Woods / Rot and Regret; Horde-only quests are excluded
+- Zul'Farrak: 21 Alliance/shared entries, including the Sharpbeak chain, Mosh'aru preparation/follow-up, the new Witch Doctor task, and two Rogue entries; Horde-only quests are excluded
 
-The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 745 unique quest IDs across 774 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, Seeking Caitlin by Ashenvale and Excavation Site: Wetlands, In the Name of the Light by Scarlet Monastery Library, Armory, and Cathedral, four Forlorn Gardens/Agamaggan chain quests by Shen'dralas and Razorfen Downs (Word of the Woods and Rot and Regret also appear in Maraudon), and four Gelkis handoffs by Desolace and Shen'dralas. The Caravan Road, two Tokal chain steps, and three Drowned City quests also share IDs with Stranglethorn Vale. Their completion status is shared automatically.
+The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 765 unique quest IDs across 795 list entries: four quests are shared by Ashenvale and Stonetalon, six Althalaxx steps by Ashenvale and Darkshore, Seeking Caitlin by Ashenvale and Excavation Site: Wetlands, In the Name of the Light by Scarlet Monastery Library, Armory, and Cathedral, four Forlorn Gardens/Agamaggan chain quests by Shen'dralas and Razorfen Downs (Word of the Woods and Rot and Regret also appear in Maraudon), and four Gelkis handoffs by Desolace and Shen'dralas. The Caravan Road, two Tokal chain steps, and three Drowned City quests also share IDs with Stranglethorn Vale. Tran'rek also shares an ID between Stranglethorn Vale and Zul'Farrak. Their completion status is shared automatically.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 
@@ -108,11 +109,13 @@ Uldaman was researched on November 16, 2026 against the full quest/dungeon regis
 
 Maraudon was researched on November 17, 2026 against all 13 current-index quests, primary quest and relationship records, the full dungeon registry, the Forever addon, and current item tooltips. Ten Alliance/shared entries include the Rot and Regret introduction. Its 34 equipment drops across nine cards include rare Meshlok and Blade of Eternal Darkness; 23 items are Rogue-usable. See the [coverage report](research/maraudon/README.md).
 
+Zul'Farrak was researched on November 17, 2026 against the current index, full dungeon registry, active primary category/objective scans, Forever addon, and current quest/item tooltips. Its 21 Alliance/shared quest entries include the Rogue Talisman of Kazdor task; 38 boss-specific equipment drops across 13 cards include three rare bosses and newer Forever equipment. Twenty-two items are Rogue-usable. See the [coverage report](research/zulfarrak/README.md).
+
 The site must be served over HTTP or HTTPS so the browser can load the JSON file. Opening `index.html` directly from disk is not supported.
 
 ## Dungeon drops
 
-`data/drops.json` contains 307 boss-specific equipment entries: 31 for Deadmines, 21 for Wailing Caverns, 21 for Blackfathom Deeps, 9 for The Stockades, 16 for Gnomeregan, 9 for Excavation Site: Wetlands, 24 for The City of Dalaran, 23 for Razorfen Kraul, 22 for Razorfen Downs, 15 for Scarlet Monastery Graveyard, 10 for Scarlet Monastery Library, 4 for Scarlet Monastery Armory, 10 for Scarlet Monastery Cathedral, 15 for The Drowned City, 19 for Krol'dok Stronghold, 24 for Uldaman, and 34 for Maraudon. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats. Razorfen Downs has 14 Rogue-usable entries, Drowned City has nine, and Armory's four Herod items are all mail or a two-handed axe and produce an empty Rogue filter.
+`data/drops.json` contains 345 boss-specific equipment entries: 31 for Deadmines, 21 for Wailing Caverns, 21 for Blackfathom Deeps, 9 for The Stockades, 16 for Gnomeregan, 9 for Excavation Site: Wetlands, 24 for The City of Dalaran, 23 for Razorfen Kraul, 22 for Razorfen Downs, 15 for Scarlet Monastery Graveyard, 10 for Scarlet Monastery Library, 4 for Scarlet Monastery Armory, 10 for Scarlet Monastery Cathedral, 15 for The Drowned City, 19 for Krol'dok Stronghold, 24 for Uldaman, 34 for Maraudon, and 38 for Zul'Farrak. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats. Razorfen Downs has 14 Rogue-usable entries, Drowned City has nine, and Armory's four Herod items are all mail or a two-handed axe and produce an empty Rogue filter.
 
 Boss cards start collapsed and show their matching item counts. Multiple cards can be expanded at once. Open cards are remembered for each dungeon during the current page session. Searching or choosing a specific source opens matching cards. Named rare bosses are included; ordinary trash sources and equipment without a confirmed boss source are excluded.
 

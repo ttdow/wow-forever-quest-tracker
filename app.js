@@ -3,7 +3,7 @@
 const $ = selector => document.querySelector(selector);
 const state = { quests: [], forwardLinks: new Map(), completed: new Set(), expanded: new Set(), zone: 'Teldrassil', view: 'quests', section: 'quests', profession: 'Fishing', storageReady: false, loaded: false };
 const rows = $('#quests');
-const zones = ['Teldrassil', 'Darkshore', 'Ashenvale', 'Stonetalon Mountains', 'Desolace', "Shen'dralas", 'Feralas', 'Stranglethorn Vale', 'Felwood', 'Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Razorfen Downs', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'Scarlet Monastery Cathedral', 'The Drowned City', "Krol'dok Stronghold", 'Uldaman', 'Maraudon'];
+const zones = ['Teldrassil', 'Darkshore', 'Ashenvale', 'Stonetalon Mountains', 'Desolace', "Shen'dralas", 'Feralas', 'Stranglethorn Vale', 'Felwood', 'Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Razorfen Downs', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'Scarlet Monastery Cathedral', 'The Drowned City', "Krol'dok Stronghold", 'Uldaman', 'Maraudon', "Zul'Farrak"];
 // Suggested leveling bands; keep the underlying names stable for routes and saves.
 const suggestedLevels = {
   'Teldrassil': [1, 10],
@@ -32,6 +32,7 @@ const suggestedLevels = {
   "Krol'dok Stronghold": [40, 45],
   'Uldaman': [41, 51],
   'Maraudon': [46, 55],
+  "Zul'Farrak": [44, 54],
 };
 const navigation = { open: null, zone: state.zone };
 let saveTimer;
