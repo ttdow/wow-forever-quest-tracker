@@ -9,7 +9,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
-- Click **Zones**, **Dungeons**, or **Professions** to expand its full list. Zone and dungeon lists include completion counts. Choosing a list collapses the navigation; the current selection stays visible. Click the same tab again or press Escape to collapse it.
+- Click **Zones**, **Dungeons**, or **Professions** to expand its full list. Zone and dungeon lists include completion counts. Names show suggested level ranges, including separate ranges for each Scarlet Monastery wing. Choosing a list collapses the navigation; the current selection stays visible. Click the same tab again or press Escape to collapse it.
 - Choose **Professions → Fishing** for a searchable table of fish, catch locations, water/catch types, minimum Fishing, and no-fail Fishing. Cooking recipes and cooked bonuses are deferred to a future Cooking section.
 - Filter completed / not completed quests, or sort by level, name, or area.
 - In dungeon lists, switch between **Quests** and **Drops**. Each boss with recorded equipment has a card with an expandable loot table. Drops have item names, required levels, base stats/effects, and source evidence, with search, source filtering, and an optional Rogue filter.
@@ -211,3 +211,9 @@ Open **Feralas → Map** for 17 quest givers, five quest objects, two quest ches
 ## Scarlet Monastery Armory map
 
 Open **Dungeons → Scarlet Monastery Armory → Map** for Herod, two possible chest positions, six possible supply-crate positions, the chamber door, and the Armory entrance. Chest and Supply crates layers are separate. Herod links the existing quest and Drops view. Positions are Classic references on a local Forever client minimap. See the [map research](research/scarlet-monastery-armory-map/README.md) for sources and limits.
+
+## Suggested level labels
+
+Navigation lists and the current selection show suggested bands such as `Felwood (48–55)`. These are labels only: quest IDs, list names in data, links, completion storage, and filters keep their existing values. Fishing is unchanged.
+
+Dungeon bands use the [current ForeverChanges dungeon listing](https://foreverchanges.pro/dungeons), checked November 16, 2026: its new-dungeon ranges are attributed to Blizzard, and its Classic dungeon/wing ranges are Classic Era Group Finder references. Zone bands are general Classic leveling guidance; Shen'dralas uses its published [40–45 main quest band](https://foreverchanges.pro/quests/shendralas). These are suggestions rather than entrance restrictions or the minimum/maximum level of every tracked quest.

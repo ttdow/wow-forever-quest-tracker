@@ -4,13 +4,46 @@ const $ = selector => document.querySelector(selector);
 const state = { quests: [], forwardLinks: new Map(), completed: new Set(), expanded: new Set(), zone: 'Teldrassil', view: 'quests', section: 'quests', profession: 'Fishing', storageReady: false, loaded: false };
 const rows = $('#quests');
 const zones = ['Teldrassil', 'Darkshore', 'Ashenvale', 'Stonetalon Mountains', 'Desolace', "Shen'dralas", 'Feralas', 'Stranglethorn Vale', 'Felwood', 'Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Razorfen Downs', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'Scarlet Monastery Cathedral', 'The Drowned City', "Krol'dok Stronghold", 'Uldaman'];
+// Suggested leveling bands; keep the underlying names stable for routes and saves.
+const suggestedLevels = {
+  'Teldrassil': [1, 10],
+  'Darkshore': [10, 20],
+  'Ashenvale': [18, 30],
+  'Stonetalon Mountains': [15, 27],
+  'Desolace': [30, 40],
+  "Shen'dralas": [40, 45],
+  'Feralas': [40, 50],
+  'Stranglethorn Vale': [30, 45],
+  'Felwood': [48, 55],
+  'Deadmines': [17, 26],
+  'Wailing Caverns': [17, 24],
+  'Blackfathom Deeps': [24, 32],
+  'The Stockades': [24, 32],
+  'Gnomeregan': [29, 38],
+  'Excavation Site: Wetlands': [26, 31],
+  'The City of Dalaran': [28, 33],
+  'Razorfen Kraul': [29, 38],
+  'Razorfen Downs': [37, 46],
+  'Scarlet Monastery Graveyard': [30, 38],
+  'Scarlet Monastery Library': [33, 41],
+  'Scarlet Monastery Armory': [36, 44],
+  'Scarlet Monastery Cathedral': [38, 46],
+  'The Drowned City': [35, 40],
+  "Krol'dok Stronghold": [40, 45],
+  'Uldaman': [41, 51],
+};
 const navigation = { open: null, zone: state.zone };
 let saveTimer;
+
+function zoneLabel(zone) {
+  const range = suggestedLevels[zone];
+  return range ? `${zone} (${range[0]}–${range[1]})` : zone;
+}
 
 function renderZoneNavigation() {
   const selection = state.section === 'professions' ? state.profession : state.zone;
   if (navigation.zone !== selection) { navigation.zone = selection; navigation.open = null; }
-  $('#selected-zone').textContent = selection;
+  $('#selected-zone').textContent = state.section === 'professions' ? selection : zoneLabel(selection);
   const professionToggle = $('[data-zone-group="professions"]');
   professionToggle.setAttribute('aria-expanded', String(navigation.open === 'professions'));
   $('#professions-list').hidden = navigation.open !== 'professions';
@@ -27,7 +60,9 @@ function renderZoneNavigation() {
         button.type = 'button';
         button.dataset.zone = zone;
         const name = document.createElement('span');
-        name.textContent = zone;
+        name.textContent = zoneLabel(zone);
+        const range = suggestedLevels[zone];
+        if (range) button.title = `Suggested levels ${range[0]}–${range[1]}`;
         const count = document.createElement('span');
         count.className = 'zone-count';
         button.append(name, count);
