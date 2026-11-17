@@ -21570,5 +21570,1264 @@
     },
     "prerequisites": [],
     "previousQuests": []
+  },
+  {
+    "id": "17",
+    "zone": "Uldaman",
+    "level": 42,
+    "name": "Uldaman Reagent Run",
+    "stage": "",
+    "giver": "Ghak Healtouch",
+    "coordinates": "37.1, 49.4",
+    "area": "Loch Modan",
+    "objective": "Bring 12 Magenta Fungus Caps to Ghak Healtouch in Thelsamar.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 38",
+    "sources": [
+      "https://foreverchanges.pro/quest/17/uldaman-reagent-run",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2500",
+        "name": "Badlands Reagent Run",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "704",
+    "zone": "Uldaman",
+    "level": 38,
+    "name": "Agmond's Fate",
+    "stage": "",
+    "giver": "Prospector Ironband",
+    "coordinates": "65.9, 65.6",
+    "area": "Loch Modan",
+    "objective": "Bring 4 Carved Stone Urns to Prospector Ironband in Loch Modan.",
+    "areaConfidence": "High",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/704/agmonds-fate",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "739",
+        "name": "Murdaloc",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "707",
+    "zone": "Uldaman",
+    "level": 37,
+    "name": "Ironband Wants You!",
+    "stage": "Agmond's Fate introduction",
+    "giver": "Prospector Stormpike",
+    "coordinates": "74.6, 11.7",
+    "area": "Ironforge",
+    "objective": "Speak with Prospector Ironband at Ironband's Excavation Site in Loch Modan.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/707/ironband-wants-you",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "709",
+    "zone": "Uldaman",
+    "level": 40,
+    "name": "Solution to Doom",
+    "stage": "",
+    "giver": "Theldurin the Lost",
+    "coordinates": "51.4, 76.9",
+    "area": "Badlands",
+    "objective": "Bring the Tablet of Ryun'eh to Theldurin the Lost.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/709/solution-to-doom",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "719",
+    "zone": "Uldaman",
+    "level": 35,
+    "name": "A Dwarf and His Tools",
+    "stage": "Badlands approach: Hammertoe's Dig Site",
+    "giver": "Prospector Ryedol",
+    "coordinates": "53.4, 43.4",
+    "area": "Badlands",
+    "objective": "Find Ryedol's Lucky Pick and return it to Prospector Ryedol south of Hammertoe's Dig Site.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/719/a-dwarf-and-his-tools",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "720",
+    "zone": "Uldaman",
+    "level": 35,
+    "name": "A Sign of Hope",
+    "stage": "Hammertoe: map introduction",
+    "giver": "Crumpled Map",
+    "coordinates": "53.0, 33.9",
+    "area": "Badlands",
+    "objective": "Find Prospector Ryedol and let him know Hammertoe Grez is alive.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/720/a-sign-of-hope",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "721",
+    "zone": "Uldaman",
+    "level": 35,
+    "name": "A Sign of Hope",
+    "stage": "Hammertoe: find the prisoner",
+    "giver": "Prospector Ryedol",
+    "coordinates": "53.4, 43.4",
+    "area": "Badlands",
+    "objective": "Find Hammertoe Grez in Uldaman.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/721/a-sign-of-hope",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "720",
+        "name": "A Sign of Hope",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "722",
+    "zone": "Uldaman",
+    "level": 40,
+    "name": "Amulet of Secrets",
+    "stage": "Hammertoe: recover the amulet",
+    "giver": "Hammertoe Grez",
+    "coordinates": "",
+    "area": "Uldaman entrance caves (Badlands approach)",
+    "objective": "Find Hammertoe's Amulet and return it to him in Uldaman.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35; Hammertoe is in the entrance caves; no verified cave-map coordinates",
+    "sources": [
+      "https://foreverchanges.pro/quest/722/amulet-of-secrets",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "unverified",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "721",
+        "name": "A Sign of Hope",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "723",
+    "zone": "Uldaman",
+    "level": 40,
+    "name": "Prospect of Faith",
+    "stage": "Hammertoe: return to Ryedol",
+    "giver": "Hammertoe Grez",
+    "coordinates": "",
+    "area": "Uldaman entrance caves (Badlands approach)",
+    "objective": "Take Hammertoe's Amulet to Prospector Ryedol in the Badlands.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35; Hammertoe is in the entrance caves; no verified cave-map coordinates",
+    "sources": [
+      "https://foreverchanges.pro/quest/723/prospect-of-faith",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "unverified",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "722",
+        "name": "Amulet of Secrets",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "724",
+    "zone": "Uldaman",
+    "level": 40,
+    "name": "Prospect of Faith",
+    "stage": "Hammertoe: report to Karnik",
+    "giver": "Prospector Ryedol",
+    "coordinates": "53.4, 43.4",
+    "area": "Badlands",
+    "objective": "Take Hammertoe's Amulet to Historian Karnik in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/724/prospect-of-faith",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "723",
+        "name": "Prospect of Faith",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "725",
+    "zone": "Uldaman",
+    "level": 40,
+    "name": "Passing Word of a Threat",
+    "stage": "Lost Tablets introduction: Belgrum",
+    "giver": "Historian Karnik",
+    "coordinates": "77.5, 11.8",
+    "area": "Ironforge",
+    "objective": "Find Advisor Belgrum and give him his note.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/725/passing-word-of-a-threat",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "724",
+        "name": "Prospect of Faith",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "726",
+    "zone": "Uldaman",
+    "level": 40,
+    "name": "Passing Word of a Threat",
+    "stage": "Lost Tablets introduction: Karnik",
+    "giver": "Advisor Belgrum",
+    "coordinates": "77.3, 9.7",
+    "area": "Ironforge",
+    "objective": "Speak to Historian Karnik.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/726/passing-word-of-a-threat",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "725",
+        "name": "Passing Word of a Threat",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "738",
+    "zone": "Uldaman",
+    "level": 38,
+    "name": "Find Agmond",
+    "stage": "Agmond's Fate introduction",
+    "giver": "Prospector Ironband",
+    "coordinates": "65.9, 65.6",
+    "area": "Loch Modan",
+    "objective": "Find Agmond.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/738/find-agmond",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "707",
+        "name": "Ironband Wants You!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "739",
+    "zone": "Uldaman",
+    "level": 42,
+    "name": "Murdaloc",
+    "stage": "Agmond's Fate introduction",
+    "giver": "Battered Dwarven Skeleton",
+    "coordinates": "50.9, 62.4",
+    "area": "Badlands",
+    "objective": "Slay Agmond's killer, Murdaloc. Slay 12 Stonevault Bonesnappers. Report to Prospector Ironband in Loch Modan.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/739/murdaloc",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "738",
+        "name": "Find Agmond",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "762",
+    "zone": "Uldaman",
+    "level": 44,
+    "name": "An Ambassador of Evil",
+    "stage": "Lost Tablets introduction: Ambassador Infernus",
+    "giver": "Historian Karnik",
+    "coordinates": "77.5, 11.8",
+    "area": "Ironforge",
+    "objective": "Kill Ambassador Infernus in Angor Fortress and bring proof of his death to Advisor Belgrum in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/762/an-ambassador-of-evil",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "726",
+        "name": "Passing Word of a Threat",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1139",
+    "zone": "Uldaman",
+    "level": 45,
+    "name": "The Lost Tablets of Will",
+    "stage": "",
+    "giver": "Advisor Belgrum",
+    "coordinates": "77.3, 9.7",
+    "area": "Ironforge",
+    "objective": "Find the Tablet of Will, and return them to Advisor Belgrum in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/1139/the-lost-tablets-of-will",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "762",
+        "name": "An Ambassador of Evil",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1360",
+    "zone": "Uldaman",
+    "level": 43,
+    "name": "Reclaimed Treasures",
+    "stage": "",
+    "giver": "Krom Stoutarm",
+    "coordinates": "74.2, 9.4",
+    "area": "Ironforge",
+    "objective": "Get Krom Stoutarm's treasured possession from his chest in the North Common Hall of Uldaman, and bring it to him in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 33; Uses Ironforge city-map coordinates from the Classic NPC reference; Treasure objective is in the North Common Hall on the entrance approach",
+    "sources": [
+      "https://foreverchanges.pro/quest/1360/reclaimed-treasures",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2198",
+    "zone": "Uldaman",
+    "level": 41,
+    "name": "The Shattered Necklace",
+    "stage": "Necklace: item introduction",
+    "giver": "Shattered Necklace (item)",
+    "coordinates": "",
+    "area": "Uldaman",
+    "objective": "Search for the original creator of the shattered necklace to learn of its potential value.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 37; Item-started; no fixed pickup coordinate is asserted",
+    "sources": [
+      "https://foreverchanges.pro/quest/2198/the-shattered-necklace",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2199",
+    "zone": "Uldaman",
+    "level": 41,
+    "name": "Lore for a Price",
+    "stage": "Necklace: pay Talvash",
+    "giver": "Talvash del Kissel",
+    "coordinates": "36.4, 3.6",
+    "area": "Ironforge",
+    "objective": "Bring five silver bars to Talvash del Kissel in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 37; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/2199/lore-for-a-price",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2198",
+        "name": "The Shattered Necklace",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2200",
+    "zone": "Uldaman",
+    "level": 42,
+    "name": "Back to Uldaman",
+    "stage": "Necklace: find the paladin",
+    "giver": "Talvash del Kissel",
+    "coordinates": "36.4, 3.6",
+    "area": "Ironforge",
+    "objective": "Search for clues as to the current disposition of Talvash's necklace within Uldaman.  The slain paladin he mentioned was the person who had it last.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 37; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/2200/back-to-uldaman",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2199",
+        "name": "Lore for a Price",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2201",
+    "zone": "Uldaman",
+    "level": 43,
+    "name": "Find the Gems",
+    "stage": "Necklace: three gems",
+    "giver": "Remains of a Paladin",
+    "coordinates": "",
+    "area": "Uldaman",
+    "objective": "Collect the Shattered Necklace Ruby from the Shadowforge Cache, the Topaz from the Conspicuous Urn, and the Sapphire from Grimlok. Contact Talvash using the Phial of Scrying.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 37; Inside the instance; no measured quest pickup coordinates",
+    "sources": [
+      "https://foreverchanges.pro/quest/2201/find-the-gems",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2200",
+        "name": "Back to Uldaman",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2204",
+    "zone": "Uldaman",
+    "level": 44,
+    "name": "Restoring the Necklace",
+    "stage": "Necklace: power source",
+    "giver": "Talvash's Scrying Bowl",
+    "coordinates": "",
+    "area": "Uldaman / Talvash's summoned scrying bowl",
+    "objective": "Obtain a power source from the most powerful construct you can find in Uldaman, and deliver it to Talvash del Kissel in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 37; Contact Talvash using his Phial of Scrying; the bowl is not a fixed outdoor NPC",
+    "sources": [
+      "https://foreverchanges.pro/quest/2204/restoring-the-necklace",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2201",
+        "name": "Find the Gems",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2240",
+    "zone": "Uldaman",
+    "level": 40,
+    "name": "The Hidden Chamber",
+    "stage": "",
+    "giver": "Baelog",
+    "coordinates": "",
+    "area": "Uldaman",
+    "objective": "Read Baelog's Journal, explore the hidden chamber, then report to Prospector Stormpike.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35; Inside the instance; no measured quest pickup coordinates",
+    "sources": [
+      "https://foreverchanges.pro/quest/2240/the-hidden-chamber",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2398",
+        "name": "The Lost Dwarves",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2278",
+    "zone": "Uldaman",
+    "level": 47,
+    "name": "The Platinum Discs",
+    "stage": "Platinum Discs: learn the lore",
+    "giver": "The Discs of Norgannon",
+    "coordinates": "",
+    "area": "Uldaman",
+    "objective": "Speak with stone watcher and learn what ancient lore it keeps.  Once you have learned what lore it has to offer, activate the Discs of Norgannon.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 40; Inside the instance; no measured quest pickup coordinates",
+    "sources": [
+      "https://foreverchanges.pro/quest/2278/the-platinum-discs",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2279",
+    "zone": "Uldaman",
+    "level": 47,
+    "name": "The Platinum Discs",
+    "stage": "Platinum Discs: deliver to Ironforge",
+    "giver": "The Discs of Norgannon",
+    "coordinates": "",
+    "area": "Uldaman",
+    "objective": "Take the miniature version of the Discs of Norgannon to the Explorers' League in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 40; Inside the instance; no measured quest pickup coordinates",
+    "sources": [
+      "https://foreverchanges.pro/quest/2279/the-platinum-discs",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2278",
+        "name": "The Platinum Discs",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2361",
+    "zone": "Uldaman",
+    "level": 44,
+    "name": "Restoring the Necklace",
+    "stage": "Necklace: claim the reward",
+    "giver": "Talvash del Kissel",
+    "coordinates": "36.4, 3.6",
+    "area": "Ironforge",
+    "objective": "Speak with Talvash del Kissel in Ironforge to receive Talvash's Enhancing Necklace.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 37; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/2361/restoring-the-necklace",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2204",
+        "name": "Restoring the Necklace",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2398",
+    "zone": "Uldaman",
+    "level": 40,
+    "name": "The Lost Dwarves",
+    "stage": "The Hidden Chamber introduction",
+    "giver": "Prospector Stormpike",
+    "coordinates": "74.6, 11.7",
+    "area": "Ironforge",
+    "objective": "Find Baelog in Uldaman.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/2398/the-lost-dwarves",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2418",
+    "zone": "Uldaman",
+    "level": 36,
+    "name": "Power Stones",
+    "stage": "",
+    "giver": "Rigglefuzz",
+    "coordinates": "42.4, 52.9",
+    "area": "Badlands",
+    "objective": "Bring 8 Dentrium Power Stones and 8 An'Alleum Power Stones to Rigglefuzz in the Badlands.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 30; Power stones can be collected from Shadowforge dwarves on the entrance approach",
+    "sources": [
+      "https://foreverchanges.pro/quest/2418/power-stones",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2439",
+    "zone": "Uldaman",
+    "level": 47,
+    "name": "The Platinum Discs",
+    "stage": "Platinum Discs: reward voucher",
+    "giver": "High Explorer Magellas",
+    "coordinates": "69.9, 18.6",
+    "area": "Ironforge",
+    "objective": "Take your reward voucher to Dinita Stonemantle in the Vault of Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 40; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/2439/the-platinum-discs",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2279",
+        "name": "The Platinum Discs",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2500",
+    "zone": "Uldaman",
+    "level": 39,
+    "name": "Badlands Reagent Run",
+    "stage": "Uldaman Reagent Run prerequisite",
+    "giver": "Ghak Healtouch",
+    "coordinates": "37.1, 49.4",
+    "area": "Loch Modan",
+    "objective": "Acquire the reagents Ghak Healtouch needs from the Badlands, then return to him in Thelsamar.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 36",
+    "sources": [
+      "https://foreverchanges.pro/quest/2500/badlands-reagent-run",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2946",
+    "zone": "Uldaman",
+    "level": 50,
+    "name": "Seeing What Happens",
+    "stage": "Uldum follow-up: Tanaris",
+    "giver": "Historian Karnik",
+    "coordinates": "77.5, 11.8",
+    "area": "Ironforge",
+    "objective": "Bring the miniature platinum discs to the gates of Uldum in Tanaris and look for clues as to the connection between the two.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 45; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/2946/seeing-what-happens",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2963",
+        "name": "Portents of Uldum",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2954",
+    "zone": "Uldaman",
+    "level": 50,
+    "name": "The Stone Watcher",
+    "stage": "Uldum follow-up: the watcher",
+    "giver": "Stone Watcher of Norgannon",
+    "coordinates": "",
+    "area": "Uldum gates (Tanaris)",
+    "objective": "Learn the purpose of the Stone Watcher of Norgannon, and then interact with the Uldum Pedestal in the Tanaris desert.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 45; Summoned Stone Watcher; no measured pickup coordinates; Shared watcher has alternative faction introductions; only the Alliance path is linked as an earlier step",
+    "sources": [
+      "https://foreverchanges.pro/quest/2954/the-stone-watcher",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "2946",
+        "name": "Seeing What Happens",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2963",
+    "zone": "Uldaman",
+    "level": 50,
+    "name": "Portents of Uldum",
+    "stage": "Uldum follow-up: Karnik",
+    "giver": "High Explorer Magellas",
+    "coordinates": "69.9, 18.6",
+    "area": "Ironforge",
+    "objective": "Speak with Historian Karnik in the Hall of Explorers within Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 45; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/2963/portents-of-uldum",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2439",
+        "name": "The Platinum Discs",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2964",
+    "zone": "Uldaman",
+    "level": 50,
+    "name": "A Future Task",
+    "stage": "Uldum follow-up: final report",
+    "giver": "Historian Karnik",
+    "coordinates": "77.5, 11.8",
+    "area": "Ironforge",
+    "objective": "Speak with High Explorer Magellas in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 45; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/2964/a-future-task",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2977",
+        "name": "Return to Ironforge",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2977",
+    "zone": "Uldaman",
+    "level": 50,
+    "name": "Return to Ironforge",
+    "stage": "Uldum follow-up: return",
+    "giver": "Uldum Pedestal",
+    "coordinates": "37.6, 81.4",
+    "area": "Tanaris",
+    "objective": "Speak with Historian Karnik in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 45",
+    "sources": [
+      "https://foreverchanges.pro/quest/2977/return-to-ironforge",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "2954",
+        "name": "The Stone Watcher",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3375",
+    "zone": "Uldaman",
+    "level": 42,
+    "name": "Replacement Phial",
+    "stage": "Optional replacement phial",
+    "giver": "Talvash del Kissel",
+    "coordinates": "36.4, 3.6",
+    "area": "Ironforge",
+    "objective": "Bring a Mana Potion, Coal, and Sweet Nectar to Talvash del Kissel in Ironforge to get a replacement for Talvash's Phial of Scrying.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 37; Uses Ironforge city-map coordinates from the Classic NPC reference; Classic condition: Back to Uldaman active or completed, Restoring the Necklace (2204) not rewarded, and no phial in inventory/bank",
+    "sources": [
+      "https://foreverchanges.pro/quest/3375/replacement-phial",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "2200",
+        "name": "Back to Uldaman",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ]
   }
 ]

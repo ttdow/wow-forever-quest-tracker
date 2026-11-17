@@ -1,0 +1,1768 @@
+{
+  "checked": "2026-11-16",
+  "questieRevision": "e1652ce62113c152da682baf2d6fb85f1396bcfb",
+  "att": "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua",
+  "index": "https://foreverchanges.pro/quests/uldaman",
+  "dungeon": "https://foreverdb.net/data/dungeons/70.json",
+  "includedQuestCount": 36,
+  "candidates": [
+    {
+      "id": "17",
+      "name": "Uldaman Reagent Run",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "Uldaman Reagent Run",
+        "facts": {
+          "Start": "Ghak Healtouch Loch Modan 37.1 , 49.4",
+          "End": "Ghak Healtouch Loch Modan 37.1 , 49.4",
+          "Level": "42 , requires level 38",
+          "Difficulty": "38 40 45 53",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "17",
+          "giver": "Ghak Healtouch"
+        },
+        "pickup": [
+          "Loch Modan 37.1 , 49.4"
+        ],
+        "objective": "Bring 12 Magenta Fungus Caps to Ghak Healtouch in Thelsamar.",
+        "requirements": [
+          "12 Magenta Fungus Cap"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/17/uldaman-reagent-run",
+        "sheetText": "Quest Objectives | Bring 12 Magenta Fungus Caps to Ghak Healtouch in Thelsamar. | 12 | Magenta Fungus Cap | Description | I've heard about a newly discovered plant called the magenta fungus caps.  They grow in clusters at the Uldaman dig site and can be found in the early tunnels and deep within the less-explored areas.  I want to study their potential use in alchemy, and that's where you come in. | Find the magenta cap clusters and bring me a dozen caps.  Be warned, the clusters may spew out poison spores if jostled. | Do this for me, and I'll whip up a batch of one of my famous restorative elixirs for you! | Rewards | New in Forever: Greater Mender's Potion. | You will receive: | 5 | Greater Mender's Potion | Money: | 55 | 0 gold, 55 silver, 0 copper | Experience: | 3,450 | +100 reputation with Ironforge | When you come back | Have you obtained the magenta fungus caps I need for my alchemical work? No caps - no reward! | When you hand it in | Well done â€¹nameâ€º, you've proven your worth once again! The caps will be an interesting study, yon verily! | And now, as promised, enjoy a taste of one of my more potent restorative brews from my personal stock... | If you are a skilled alchemist, then perhaps we might have some additional business to conduct. Regardless, I thank you for your assistance!"
+      }
+    },
+    {
+      "id": "704",
+      "name": "Agmond's Fate",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "Agmond's Fate",
+        "facts": {
+          "Start": "Prospector Ironband Loch Modan 65.9 , 65.6",
+          "End": "Prospector Ironband Loch Modan 65.9 , 65.6",
+          "Level": "38 , requires level 30",
+          "Difficulty": "30 34 36 41 48",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "704",
+          "giver": "Prospector Ironband"
+        },
+        "pickup": [
+          "Loch Modan 65.9 , 65.6"
+        ],
+        "objective": "Bring 4 Carved Stone Urns to Prospector Ironband in Loch Modan.",
+        "requirements": [
+          "4 Carved Stone Urn"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/704/agmonds-fate",
+        "sheetText": "Quest Objectives | Bring 4 Carved Stone Urns to Prospector Ironband in Loch Modan. | 4 | Carved Stone Urn | Description | The last report I received from Agmond is troubling, more so now that he's dead!  He mentioned that his diggers uncovered \"ancient urns\" at the dig site outside Uldaman.  I fear that the urns he found at that site incited the troggs, just as did the idols I found here. | I need you to get those urns for our studies.  Go to the Uldaman site, gather the urns, then return to me. | Rewards | You will be able to choose one of these rewards: | Prospector Gloves | Restorer's Fine Gloves | Excavator Gauntlets | New in Forever: Restorer's Fine Gloves, Excavator Gauntlets. | Experience: | 2,850 | +100 reputation with Ironforge | When you come back | Did you find those urns, â€¹nameâ€º? We must find the link between them and the troggs! | When you hand it in | Well done! With luck and diligence, we will find whatever link exists between the troggs and these ancient artifacts. | You have done a great deed for the Prospectors, â€¹nameâ€º. Your efforts will not be forgotten. And neither will Agmond."
+      }
+    },
+    {
+      "id": "707",
+      "name": "Ironband Wants You!",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "Ironband Wants You!",
+        "facts": {
+          "Start": "Prospector Stormpike Dun Morogh 63.1 , 23",
+          "End": "Prospector Ironband Loch Modan 65.9 , 65.6",
+          "Level": "37 , requires level 30",
+          "Difficulty": "30 33 35 40 47",
+          "Side": "Alliance",
+          "Shareable": "Yes",
+          "Quest ID": "707",
+          "giver": "Prospector Stormpike"
+        },
+        "pickup": [
+          "Dun Morogh 63.1 , 23"
+        ],
+        "objective": "Speak with Prospector Ironband at Ironband's Excavation Site in Loch Modan.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/707/ironband-wants-you",
+        "sheetText": "Quest Objectives | Speak with Prospector Ironband at Ironband's Excavation Site in Loch Modan. | Description | ‹name›.  I received reports from Prospector Ironband at his excavation site in Loch Modan--he needs some legwork done concerning another of our excavations. | I don't have more details than that, but if you want to stretch your legs then go speak with Ironband. | Rewards | Experience: | 700 | +25 reputation with Ironforge | When you hand it in | So Stormpike sent you, did he? Good. | I have a big task for you..."
+      }
+    },
+    {
+      "id": "709",
+      "name": "Solution to Doom",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "Solution to Doom",
+        "facts": {
+          "Start": "Theldurin the Lost Badlands 51.4 , 76.9",
+          "End": "Theldurin the Lost Badlands 51.4 , 76.9",
+          "Level": "40 , requires level 30",
+          "Difficulty": "30 36 38 43 51",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "709",
+          "giver": "Theldurin the Lost"
+        },
+        "pickup": [
+          "Badlands 51.4 , 76.9"
+        ],
+        "objective": "Bring the Tablet of Ryun'eh to Theldurin the Lost.",
+        "requirements": [
+          "Tablet of Ryun'eh"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/709/solution-to-doom",
+        "sheetText": "Quest Objectives | Bring the Tablet of Ryun'eh to Theldurin the Lost. | Tablet of Ryun'eh | Description | Oh my!  Oh my!  There is a doom approaching.  Mark me!  A doom! | No, I cannot speak of it...cannot utter their names or they may hear me!  But if we learn, yes, if we learn more of them...then maybe we can learn how to foil them! | Maybe. | Go into Uldaman.  No!  I said it!  You must find...find the tablet of...Ryun'eh.  Yes, find it!  And don't make me speak that name again! | It is deep in that place, in an ancient chest.  That's where it hides...in a chest crafted before the works of any dwarf. | Rewards | You will be able to choose one of these rewards: | Doomsayer's Robe | Doomcaller's Pants | Fists of Impending Doom | New in Forever: Doomcaller's Pants, Fists of Impending Doom. | Experience: | 3,150 | When you come back | Did you find the tablet? It must hold secrets! Secrets to save us! | When you hand it in | Oh, fortune is with us! Thank you! We may yet be saved!"
+      }
+    },
+    {
+      "id": "719",
+      "name": "A Dwarf and His Tools",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "A Dwarf and His Tools",
+        "facts": {
+          "Start": "Prospector Ryedol Badlands 53.4 , 43.4",
+          "End": "Prospector Ryedol Badlands 53.4 , 43.4",
+          "Level": "35 , requires level 35",
+          "Difficulty": "35 38 44",
+          "Side": "Alliance",
+          "Shareable": "Yes",
+          "Quest ID": "719",
+          "giver": "Prospector Ryedol"
+        },
+        "pickup": [
+          "Badlands 53.4 , 43.4"
+        ],
+        "objective": "Find Ryedol's Lucky Pick and return it to Prospector Ryedol south of Hammertoe's Dig Site.",
+        "requirements": [
+          "Ryedol's Lucky Pick"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/719/a-dwarf-and-his-tools",
+        "sheetText": "Quest Objectives | Find Ryedol's Lucky Pick and return it to Prospector Ryedol south of Hammertoe's Dig Site. | Ryedol's Lucky Pick | Description | Hey, ‹name›. Be careful 'round here. There be Dark Iron dwarves all around--looked like the Shadowforge clan. | They just attacked the excavation site I was workin' at--killed nearly everyone there, including my boss Hammertoe. I barely escaped with me life. | The site's just to the north of here, and I'm tryin' to plan a way to get some of our supplies back, especially me lucky pick. | Think you'd be up to helpin' me out some? One of those damned Dark Iron must have my pick! Could be anyone of them. | Rewards | You will receive: | Ryedol's Hammer | Experience: | 2,750 | +100 reputation with Ironforge | When you come back | Not sure what the Shadowforge were lookin' for, but they definitely had a purpose. | When you hand it in | Ye're me savior, ‹class›. I'm glad someone could teach those Shadowforge a lesson or two. Thanks for yer help."
+      }
+    },
+    {
+      "id": "720",
+      "name": "A Sign of Hope",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "A Sign of Hope",
+        "facts": {
+          "Start": "Crumpled Map Badlands 53 , 33.9",
+          "End": "Prospector Ryedol Badlands 53.4 , 43.4",
+          "Level": "35 , requires level 35",
+          "Difficulty": "35 38 44",
+          "Side": "Alliance",
+          "Shareable": "Yes",
+          "Quest ID": "720",
+          "giver": "Crumpled Map"
+        },
+        "pickup": [
+          "Badlands 53 , 33.9"
+        ],
+        "objective": "Find Prospector Ryedol and let him know Hammertoe Grez is alive.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/720/a-sign-of-hope",
+        "sheetText": "Quest Objectives | Find Prospector Ryedol and let him know Hammertoe Grez is alive. | Description | <There is text roughly scribbled in chalk on the map.> | \"Ryedol, \nThey're taking me to Uldaman. Send help.\n-Hammertoe\" | Rewards | Experience: | 1,350 | +50 reputation with Ironforge | When you hand it in | Hammertoe's alive?! This is amazin', ‹name›!"
+      }
+    },
+    {
+      "id": "721",
+      "name": "A Sign of Hope",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "A Sign of Hope",
+        "facts": {
+          "Start": "Prospector Ryedol Badlands 53.4 , 43.4",
+          "End": "Hammertoe Grez Loch Modan 37.3 , 85.8",
+          "Level": "35 , requires level 35",
+          "Difficulty": "35 38 44",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "721",
+          "giver": "Prospector Ryedol"
+        },
+        "pickup": [
+          "Badlands 53.4 , 43.4"
+        ],
+        "objective": "Find Hammertoe Grez in Uldaman.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/721/a-sign-of-hope",
+        "sheetText": "Quest Objectives | Find Hammertoe Grez in Uldaman. | Description | â€¹nameâ€º, can ye find him? Can you find Hammertoe in Uldaman? | If those dirty Shadowforge are holdin' him hostage to figure out what he knows about the titan excavations, then all of Ironforge could be in huge trouble. | For a long time now those Dark Irons have been lookin' for magics to make more powerful golems. Hammertoe was doin' the same, of course, but only to stop them. | They're probably keepin' him alive until they learn what he knows.Ye've got to hurry if you're gonna save him! | Rewards | Experience: | 2,750 | +100 reputation with Ironforge | When you hand it in | Yes? Ah'm sorry... <cough> Feel so weak. Can ye come closer, â€¹classâ€º? | Ryedol sent ye? Muradin be praised, that boy's not as slow in the head as I once thought. <cough>"
+      }
+    },
+    {
+      "id": "722",
+      "name": "Amulet of Secrets",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "Amulet of Secrets",
+        "facts": {
+          "Start": "Hammertoe Grez Loch Modan 37.3 , 85.8",
+          "End": "Hammertoe Grez Loch Modan 37.3 , 85.8",
+          "Level": "40 , requires level 35",
+          "Difficulty": "35 36 38 43 51",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "722",
+          "giver": "Hammertoe Grez"
+        },
+        "pickup": [
+          "Loch Modan 37.3 , 85.8"
+        ],
+        "objective": "Find Hammertoe's Amulet and return it to him in Uldaman.",
+        "requirements": [
+          "Hammertoe's Amulet"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/722/amulet-of-secrets",
+        "sheetText": "Quest Objectives | Find Hammertoe's Amulet and return it to him in Uldaman. | Hammertoe's Amulet | Description | Ye're brave... <cough>... to come into Uldaman fer me, â€¹classâ€º. | If ye're really here to help... ol' Hammertoe, then... <cough>... you'll need to find... me amulet. | Deepshadow's got it... Magregan Deepshadow. He's 'round here... in the ruins fer sure. That amulet'll lead 'em... <cough>...  right to the scrolls if he ain't stopped. It's up to you, â€¹nameâ€º. Please... get that amulet. | The scrolls will surely help the Dark Irons create even more powerful golems. I just know it. I can feel it in me bones. | Rewards | Experience: | 3,150 | +100 reputation with Ironforge | When you come back | The Shadowforge clan... <cough> is dangerous. Be careful. <cough> You must find the amulet. | When you hand it in | Ha! <cough cough> | Ah knew you'd find me amulet, â€¹nameâ€º. | <weeze> Well done indeed, â€¹nameâ€º. <cough>"
+      }
+    },
+    {
+      "id": "723",
+      "name": "Prospect of Faith",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "Prospect of Faith",
+        "facts": {
+          "Start": "Hammertoe Grez Loch Modan 37.3 , 85.8",
+          "End": "Prospector Ryedol Badlands 53.4 , 43.4",
+          "Level": "40 , requires level 35",
+          "Difficulty": "35 36 38 43 51",
+          "Side": "Alliance",
+          "Shareable": "No",
+          "Quest ID": "723",
+          "giver": "Hammertoe Grez"
+        },
+        "pickup": [
+          "Loch Modan 37.3 , 85.8"
+        ],
+        "objective": "Take Hammertoe's Amulet to Prospector Ryedol in the Badlands.",
+        "requirements": [
+          "Hammertoe's Amulet"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/723/prospect-of-faith",
+        "sheetText": "Quest Objectives | Take Hammertoe's Amulet to Prospector Ryedol in the Badlands. | Hammertoe's Amulet | Provided: | Hammertoe's Amulet | Description | <Hammertoe holds his wounds and takes a moment to regain his composure before speaking again.> | Find Ryedol, ‹name›. Bring 'im me amulet. <cough cough> He'll... <cough> figure out what to do. He knows I was seeking the origins of our people, and he... <cough>... knows it was also my mission to stop the Shadowforge clan. They must not be allowed to find the scrolls... <cough> | Rewards | Experience: | 2,350 | +75 reputation with Ironforge | When you come back | I'd say it was a bad day, but this is the Badlands: every day's a bad day. | When you hand it in | Hammertoe's amulet? I think my spirits were higher when I thought he was dead. Knowin' fer sure only makes the pain worse. This amulet was his life's work. I can't let his death be in vain."
+      }
+    },
+    {
+      "id": "724",
+      "name": "Prospect of Faith",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "Prospect of Faith",
+        "facts": {
+          "Start": "Prospector Ryedol Badlands 53.4 , 43.4",
+          "End": "Historian Karnik Dun Morogh 63.5 , 23",
+          "Level": "40 , requires level 35",
+          "Difficulty": "35 36 38 43 51",
+          "Side": "Alliance",
+          "Shareable": "No",
+          "Quest ID": "724",
+          "giver": "Prospector Ryedol"
+        },
+        "pickup": [
+          "Badlands 53.4 , 43.4"
+        ],
+        "objective": "Take Hammertoe's Amulet to Historian Karnik in Ironforge.",
+        "requirements": [
+          "Hammertoe's Amulet"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/724/prospect-of-faith",
+        "sheetText": "Quest Objectives | Take Hammertoe's Amulet to Historian Karnik in Ironforge. | Hammertoe's Amulet | Provided: | Hammertoe's Amulet | Description | Okay, okay... who would know what to do? | Historian Karnik! That's it! | He's in Ironforge. He'll be able to help. He and Hammertoe were workin' together to find the lost artifacts in Uldaman. | Guess the Shadowforge found out the two of them knew more than they were lettin' on. | Tell Karnik what's happened to Hammertoe and give him the amulet--he'll tell you what needs to be done next. | Rewards | Experience: | 3,150 | +100 reputation with Ironforge | When you come back | Ah, yes. Another traveler seeking something from the dwarves. | Ma'am, I'm truly sorry, but I've no time to answer meaningless questions right now. | When you hand it in | Oh! Well, this is a different matter entirely. You probably don't realize the gravity of this matter yet, do you? | I care deeply about Hammertoe's demise, but if he sent you here with his amulet, then he understood what's at stake. | We will have to take time to mourn his death later. | Let me show you one of the reasons this amulet is so valuable."
+      }
+    },
+    {
+      "id": "725",
+      "name": "Passing Word of a Threat",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "Passing Word of a Threat",
+        "facts": {
+          "Start": "Historian Karnik Dun Morogh 63.5 , 23",
+          "End": "Advisor Belgrum Dun Morogh 63.5 , 22.6",
+          "Level": "40 , requires level 35",
+          "Difficulty": "35 36 38 43 51",
+          "Side": "Alliance",
+          "Shareable": "No",
+          "Quest ID": "725",
+          "giver": "Historian Karnik"
+        },
+        "pickup": [
+          "Dun Morogh 63.5 , 23"
+        ],
+        "objective": "Find Advisor Belgrum and give him his note.",
+        "requirements": [
+          "Sealed Note to Advisor Belgrum"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/725/passing-word-of-a-threat",
+        "sheetText": "Quest Objectives | Find Advisor Belgrum and give him his note. | Sealed Note to Advisor Belgrum | Provided: | Sealed Note to Advisor Belgrum | Description | ‹name›, run and find Advisor Belgrum as quickly as you can. Tell him what you've witnessed and ask him how he wants us to proceed. This note will explain more to him. | In the meantime, I will take the time to speak to Hammertoe's spirit. Maybe he knows something that will help us put a stop to those Shadowforge cretins' activities in the Badlands. We can only pray. | Rewards | Experience: | 1,550 | +50 reputation with Ironforge | When you come back | Hmm? Yes, ‹class›. | When you hand it in | Ah, word from Historian Karnik. Excellent. | I always have time for his business. | <Advisor Belgrum opens the note and begins to read.>"
+      }
+    },
+    {
+      "id": "726",
+      "name": "Passing Word of a Threat",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "Passing Word of a Threat",
+        "facts": {
+          "Start": "Advisor Belgrum Dun Morogh 63.5 , 22.6",
+          "End": "Historian Karnik Dun Morogh 63.5 , 23",
+          "Level": "40 , requires level 35",
+          "Difficulty": "35 36 38 43 51",
+          "Side": "Alliance",
+          "Shareable": "Yes",
+          "Quest ID": "726",
+          "giver": "Advisor Belgrum"
+        },
+        "pickup": [
+          "Dun Morogh 63.5 , 22.6"
+        ],
+        "objective": "Speak to Historian Karnik.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/726/passing-word-of-a-threat",
+        "sheetText": "Quest Objectives | Speak to Historian Karnik. | Description | <Advisor Belgrum reaches the end of the note, and his eyes widen for a moment.> | Och, these are evil tidings. | ‹name›, please return to Historian Karnik and tell him on the king's authority to act on this information swiftly and decisively. He must halt the Shadowforge's activities in the Badlands. | Rewards | Experience: | 2,350 | +75 reputation with Ironforge | When you hand it in | You're treating this matter with an urgency I'd expect from the king himself, ‹name›. | All right, then. I know what'll bring the Shadowforge down. | Their presence in Uldaman can be slowed if we strike them at their base of operations: Angor Fortress."
+      }
+    },
+    {
+      "id": "738",
+      "name": "Find Agmond",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "Find Agmond",
+        "facts": {
+          "Start": "Prospector Ironband Loch Modan 65.9 , 65.6",
+          "End": "Battered Dwarven Skeleton Badlands 50.9 , 62.4",
+          "Level": "38 , requires level 30",
+          "Difficulty": "30 34 36 41 48",
+          "Side": "Alliance",
+          "Shareable": "Yes",
+          "Quest ID": "738",
+          "giver": "Prospector Ironband"
+        },
+        "pickup": [
+          "Loch Modan 65.9 , 65.6"
+        ],
+        "objective": "Find Agmond.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/738/find-agmond",
+        "sheetText": "Quest Objectives | Find Agmond. | Description | Prospector Agmond was in charge of our excavation sites in the Badlands, to the southwest.  I say \"was\" because...well, I haven't heard from him in weeks.  I need you to find Agmond so I can get his report. | Last I heard Agmond was at the southernmost dig site in the Badlands--a tiny operation past the Angor Fortress.  I'd start your search for him there. | Rewards | You will receive: | Ripped Prospector Belt | Jade | 2 | Gold Ore | Money: | 4 | 0 gold, 4 silver, 0 copper | Experience: | 1,450 | +50 reputation with Ironforge | When you hand it in | This skeleton must be the unfortunate remains of Agmond. His body is broken and battered, and his bones picked clean."
+      }
+    },
+    {
+      "id": "739",
+      "name": "Murdaloc",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "Murdaloc",
+        "facts": {
+          "Start": "Battered Dwarven Skeleton Badlands 50.9 , 62.4",
+          "End": "Prospector Ironband Loch Modan 65.9 , 65.6",
+          "Level": "42 , requires level 30",
+          "Difficulty": "30 38 40 45 53",
+          "Side": "Alliance",
+          "Shareable": "Yes",
+          "Quest ID": "739",
+          "giver": "Battered Dwarven Skeleton"
+        },
+        "pickup": [
+          "Badlands 50.9 , 62.4"
+        ],
+        "objective": "Slay Agmond's killer, Murdaloc. Slay 12 Stonevault Bonesnappers. Report to Prospector Ironband in Loch Modan.",
+        "requirements": [
+          "Murdaloc slain",
+          "Stonevault Bonesnapper slain : 0/ 12"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/739/murdaloc",
+        "sheetText": "Quest Objectives | Slay Agmond's killer, Murdaloc. | Slay 12 Stonevault Bonesnappers. | Report to Prospector Ironband in Loch Modan. | Murdaloc slain | Stonevault Bonesnapper slain | : | 0/ | 12 | Description | Agmond's tracks lead from the west.  It is easy to tell from the bloody smears across rock and sand that the dwarf crawled some distance. | And here he died. | Upon close inspection, the word \"Murdaloc\" is roughly scrawled in a patch of Badlands sandstone. | Scrawled next to Agmond's dead hand. | Rewards | You will receive: | Rock Pulverizer | Experience: | 3,450 | +100 reputation with Ironforge | When you come back | Do you have news of Agmond's fate? Did you find him? | When you hand it in | This is sobering news, ‹name›. But Agmond had a strong arm and a fierce hammer-swing, and his skull was as thick as they come! Although he was killed by those cursed troggs I'm sure he took a lot of them down with him."
+      }
+    },
+    {
+      "id": "762",
+      "name": "An Ambassador of Evil",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "An Ambassador of Evil",
+        "facts": {
+          "Start": "Historian Karnik Dun Morogh 63.5 , 23",
+          "End": "Advisor Belgrum Dun Morogh 63.5 , 22.6",
+          "Level": "44 , requires level 35",
+          "Difficulty": "35 40 42 47 56",
+          "Side": "Alliance",
+          "Type": "Elite",
+          "Shareable": "Yes",
+          "Quest ID": "762",
+          "giver": "Historian Karnik"
+        },
+        "pickup": [
+          "Dun Morogh 63.5 , 23"
+        ],
+        "objective": "Kill Ambassador Infernus in Angor Fortress and bring proof of his death to Advisor Belgrum in Ironforge.",
+        "requirements": [
+          "Ambassador Infernus' Bracer"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/762/an-ambassador-of-evil",
+        "sheetText": "Quest Objectives | Kill Ambassador Infernus in Angor Fortress and bring proof of his death to Advisor Belgrum in Ironforge. | Ambassador Infernus' Bracer | Description | Ambassador Infernus was sent to Angor Fortress by Ragnaros himself to mind the Shadowforge seeking lost artifacts in Uldaman. | It has already meant tremendous casualties for our people, but it has obviously grown worse. I hesitate to guess how many artifacts they would be able to find and use against Ironforge. | Our goal is simple, ‹class›. Return to the Badlands and destroy Ambassador Infernus. Once the threat is eliminated, return to Advisor Belgrum with proof of your victory. | It is in your hands now. | Rewards | You will be able to choose one of these rewards: | Dwarf Captain's Sword | Thane's Hammer | Ironforge Agent's Gloves | New in Forever: Thane's Hammer, Ironforge Agent's Gloves. | Money: | 1 | 25 | 1 gold, 25 silver, 0 copper | Experience: | 4,650 | +150 reputation with Ironforge | When you come back | Time is of the essence, ‹name›. Ragnaros will not wait for us to prepare. | When you hand it in | ‹name›, your dedication to Ironforge and to the dwarven people cannot be refuted. I thank you for your help in this matter. | I shall send word to Historian Karnik informing him that you have succeeded, and I shall also have aid sent to the Badlands as soon as possible to help recover the excavation site. Thank you again. | Before you go, there is one more thing I would ask of you in the name of King Bronzebeard."
+      }
+    },
+    {
+      "id": "1139",
+      "name": "The Lost Tablets of Will",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "The Lost Tablets of Will",
+        "facts": {
+          "Start": "Advisor Belgrum Dun Morogh 63.5 , 22.6",
+          "End": "Advisor Belgrum Dun Morogh 63.5 , 22.6",
+          "Level": "45 , requires level 35",
+          "Difficulty": "35 41 43 48 57",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "1139",
+          "giver": "Advisor Belgrum"
+        },
+        "pickup": [
+          "Dun Morogh 63.5 , 22.6"
+        ],
+        "objective": "Find the Tablet of Will, and return them to Advisor Belgrum in Ironforge.",
+        "requirements": [
+          "Tablet of Will"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/1139/the-lost-tablets-of-will",
+        "sheetText": "Quest Objectives | Find the Tablet of Will, and return them to Advisor Belgrum in Ironforge. | Tablet of Will | Description | We've slowed the Shadowforge clan by cutting them off from Blackrock Spire, but Hammertoe's quest is still unfulfilled. His death must not be in vain. He dreamt of finding the Tablet of Will: a stone shard inscribed with magic by the titans themselves to help imbue their creations with life--making them have a will of their own, or so the legends say. | We must still recover the Tablet before the Shadowforge clan finds it. | Return to Uldaman, find the tablet, and return here immediately. | Rewards | You will be able to choose one of these rewards: | Medal of Courage | Medal of Valor | New in Forever: Medal of Valor. | Money: | 1 | 30 | 1 gold, 30 silver, 0 copper | Experience: | 5,850 | +200 reputation with Ironforge | When you come back | Hammertoe's quest must be actualized, â€¹nameâ€º. I owe him that much. | Your return to Uldaman is imperative not only to that goal, but also to the safety of all dwarven kind. With the tablet in the hands of the Dark Irons who knows how powerful their army of golems would become. | When you hand it in | <Advisor Belgrum shakes his head in disbelief as you hand him the stone shard.> | â€¹nameâ€º, this is amazing. I shall have this brought to the king's mages as soon as possible. They will want to study it to find out if the legends are true. But that is a discussion for another time: you have aided our people more than I would have ever expected--thank you."
+      }
+    },
+    {
+      "id": "1360",
+      "name": "Reclaimed Treasures",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "Reclaimed Treasures",
+        "facts": {
+          "Start": "Krom Stoutarm Dun Morogh 63 , 22.6",
+          "End": "Krom Stoutarm Dun Morogh 63 , 22.6",
+          "Level": "43 , requires level 33",
+          "Difficulty": "33 39 41 46 54",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "1360",
+          "giver": "Krom Stoutarm"
+        },
+        "pickup": [
+          "Dun Morogh 63 , 22.6"
+        ],
+        "objective": "Get Krom Stoutarm's treasured possession from his chest in the North Common Hall of Uldaman, and bring it to him in Ironforge.",
+        "requirements": [
+          "Krom Stoutarm's Treasure"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/1360/reclaimed-treasures",
+        "sheetText": "Quest Objectives | Get Krom Stoutarm's treasured possession from his chest in the North Common Hall of Uldaman, and bring it to him in Ironforge. | Krom Stoutarm's Treasure | Description | I had myself a fine job as a digger at the Uldaman excavation site in the Badlands... that is until those blasted troggs showed up.  I escaped with my hide barely intact, and nothing else.  In the chaos, I left my most treasured possession.  It's safe from the troggs in my chest, sure, but it's right in the thick of 'em. | I'd be in your debt, both in honor and coin, if you could fetch it for me!  A chest with my name on it is at the end of the North Common Hall.  That's the one you need to get in. | Rewards | Money: | 60 | 0 gold, 60 silver, 0 copper | Experience: | 3,600 | +100 reputation with Ironforge | When you come back | Well now, we're you able to get slap around those troggs long enough to get into my chest and nab my treasure? | When you hand it in | Ah, I feel complete again - thank you kindly. | Some dwarves may treasure the luster of metal, and some may treasure the glint of gems... but a Stoutarm without a treasured stein in hand is hardly a Stoutarm at all!"
+      }
+    },
+    {
+      "id": "1956",
+      "name": "Power in Uldaman",
+      "indexed": false,
+      "decision": "non-Rogue class",
+      "page": {
+        "name": "Power in Uldaman",
+        "facts": {
+          "Start": "Tabetha Dustwallow Marsh 46.1 , 57.1",
+          "End": "Tabetha Dustwallow Marsh 46.1 , 57.1",
+          "Level": "40 , requires level 35",
+          "Difficulty": "35 36 38 43 51",
+          "Side": "Both factions",
+          "Class": "Mage",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "1956",
+          "giver": "Tabetha"
+        },
+        "pickup": [
+          "Dustwallow Marsh 46.1 , 57.1"
+        ],
+        "objective": "Retrieve an Obsidian Power Source and bring it to Tabetha in Dustwallow Marsh.",
+        "requirements": [
+          "Obsidian Power Source"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/1956/power-in-uldaman",
+        "sheetText": "Quest Objectives | Retrieve an Obsidian Power Source and bring it to Tabetha in Dustwallow Marsh. | Obsidian Power Source | Description | Now that the demon has been removed, we must gain a power source.  Unfortunately, the best power sources are usually the oldest and the hardest to get.  It's neat how fate likes to take a bite out of you sometimes, isn't it? | So you're going to need to go to Uldaman and defeat the obsidian sentinel there.  He's big, he's tough, and his power source packs a punch! | I wish you the best of luck, ‹name›.  And if you don't get lucky then, well... it was nice knowing you. | Rewards | Experience: | 3,900 | When you come back | Have you been to Uldaman, ‹name›?  Did you defeat the obsidian sentinel? | When you hand it in | You did it?  Well done! | I was chatting with some of my colleagues and when your name came up they said, \"You know that ‹name› sure works well under stress!\" | But when I told them I sent you to Uldaman against the obsidian sentinel, they said I was crazy!  They said, \"Tabetha, you're crazy!  There's no way ‹name› could take on that sentinel!\" | And I said, \"We'll see\", and then they said \"Yeah, we'll see...\" | Well we sure showed them, didn't we!"
+      }
+    },
+    {
+      "id": "2198",
+      "name": "The Shattered Necklace",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "The Shattered Necklace",
+        "facts": {
+          "Start": "an item: Shattered Necklace",
+          "End": "Talvash del Kissel Dun Morogh 56.9 , 21.7",
+          "Level": "41 , requires level 37",
+          "Difficulty": "37 39 44 52",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "2198",
+          "giver": "an item: Shattered Necklace"
+        },
+        "pickup": [],
+        "objective": "Search for the original creator of the shattered necklace to learn of its potential value.",
+        "requirements": [
+          "Shattered Necklace"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2198/the-shattered-necklace",
+        "sheetText": "Quest Objectives | Search for the original creator of the shattered necklace to learn of its potential value. | Shattered Necklace | Provided: | Shattered Necklace | Description | You have found a tarnished necklace, though the tarnish belies intricate and magical craftsmanship.  The necklace has been shattered, as its setting appears to be missing three gems.  On the underside of the necklace is the faint imprint of the city seal for Ironforge.  Below the seal are three tiny, engraved letters: \"TdK\". | If there is anything to be gleaned from the necklace, you will need to learn about its origins.  Perhaps the seal and the initials are a start... | Rewards | Experience: | 3,300 | When you come back | You've got the wrong gnome, pal! I was never there! You can't prove anything! | Wait a second... who are you? What the... where did you find this necklace at? | When you hand it in | Yes... I am the jeweler who made this necklace. I also am not in the business of handing out information as though it were free. Information is never free, friend. If I am going to help you out, you need to help ME out first."
+      }
+    },
+    {
+      "id": "2199",
+      "name": "Lore for a Price",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "Lore for a Price",
+        "facts": {
+          "Start": "Talvash del Kissel Dun Morogh 56.9 , 21.7",
+          "End": "Talvash del Kissel Dun Morogh 56.9 , 21.7",
+          "Level": "41 , requires level 37",
+          "Difficulty": "37 39 44 52",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2199",
+          "giver": "Talvash del Kissel"
+        },
+        "pickup": [
+          "Dun Morogh 56.9 , 21.7"
+        ],
+        "objective": "Bring five silver bars to Talvash del Kissel in Ironforge.",
+        "requirements": [
+          "5 Silver Bar"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2199/lore-for-a-price",
+        "sheetText": "Quest Objectives | Bring five silver bars to Talvash del Kissel in Ironforge. | 5 | Silver Bar | Description | I am a jeweler of great renown here in Ironforge!  Well, former renown anyway... I have fallen onto hard times due to the chicanery of a competitor!  A bad reputation in this business spells financial disaster.  As a result, I find myself without a copper to my good-though-currently-sullied name. | I want you to get me five silver bars to finish an order I received - the first in what seems like an eternity. | You get me those five silver bars, and I'll answer your questions on the necklace. | Rewards | Experience: | 2,450 | +75 reputation with Gnomeregan Exiles | When you come back | Have you got the five silver bars I asked for?  I will share my sad tale of woe with you concerning the necklace you now possess... but only after I get those bars!  Please, help a gnome out, won't ya? | When you hand it in | You're all right in my book; I don't care what everyone else has been saying... I kid, I kid!  Seriously, thank you my friend. | Now, the necklace you have is one of my finest creations, but it is missing three gems that help bind magic power to it.  I crafted it for a paladin some time ago.  He was on a self-appointed quest to clear out the \"evil taint\" present at an excavation site in the Badlands called Uldaman. | Well... that paladin died in Uldaman, and that was just the beginning of my woes."
+      }
+    },
+    {
+      "id": "2200",
+      "name": "Back to Uldaman",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "Back to Uldaman",
+        "facts": {
+          "Start": "Talvash del Kissel Dun Morogh 56.9 , 21.7",
+          "End": "Remains of a Paladin",
+          "Level": "42 , requires level 37",
+          "Difficulty": "37 38 40 45 53",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "2200",
+          "giver": "Talvash del Kissel"
+        },
+        "pickup": [
+          "Dun Morogh 56.9 , 21.7"
+        ],
+        "objective": "Search for clues as to the current disposition of Talvash's necklace within Uldaman.  The slain paladin he mentioned was the person who had it last.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2200/back-to-uldaman",
+        "sheetText": "Quest Objectives | Search for clues as to the current disposition of Talvash's necklace within Uldaman.  The slain paladin he mentioned was the person who had it last. | Provided: | Talvash's Phial of Scrying | Description | A competitor of mine started a rumor that my necklace cursed the paladin.  Needless to say, no one wants to buy cursed items from a jeweler. | â€¹nameâ€º, I'll make you a deal - find the gems and I'll reassemble the necklace, so long as you'll advertise that I do NOT make cursed items! | Try looking for clues in Uldaman; maybe see if the paladin's body is down there, since he's the one who we know had it last!  When you find the gems you should use this; it'll allow you to contact me here in Ironforge. | Rewards | Experience: | 2,550 | +75 reputation with Gnomeregan Exiles | When you hand it in | Remains of a paladin: Reading the journal reveals that after much effort, the paladin had identified the location of all three missing gems: | The Shadowforge dwarves hid the ruby in their barricaded area as they battled the Troggs for control of Uldaman. | The troggs stashed the topaz in an urn located near some unusual inhabitants of Uldaman - Alliance dwarves! | Finally, the trogg elder himself took the sapphire as his own."
+      }
+    },
+    {
+      "id": "2201",
+      "name": "Find the Gems",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "Find the Gems",
+        "facts": {
+          "Start": "Remains of a Paladin",
+          "End": "Talvash's Scrying Bowl",
+          "Level": "43 , requires level 37",
+          "Difficulty": "37 39 41 46 54",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "2201",
+          "giver": "Remains of a Paladin"
+        },
+        "pickup": [],
+        "objective": "Find the ruby, sapphire, and topaz that are scattered throughout Uldaman.  Once acquired, contact Talvash del Kissel remotely by using the Phial of Scrying he previously gave you. From the journal, you know...\n* The ruby has been stashed in a barricaded Shadowforge area.\n* The topaz has been hidden in an urn in one of the Trogg areas, near some Alliance dwarves. * The sapphire has been claimed by Grimlok, the trogg leader.",
+        "requirements": [
+          "Shattered Necklace Ruby",
+          "Shattered Necklace Sapphire",
+          "Shattered Necklace Topaz"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/2201/find-the-gems",
+        "sheetText": "Quest Objectives | Find the ruby, sapphire, and topaz that are scattered throughout Uldaman.  Once acquired, contact Talvash del Kissel remotely by using the Phial of Scrying he previously gave you. | From the journal, you know...\n* The ruby has been stashed in a barricaded Shadowforge area.\n* The topaz has been hidden in an urn in one of the Trogg areas, near some Alliance dwarves. | * The sapphire has been claimed by Grimlok, the trogg leader. | Shattered Necklace Ruby | Shattered Necklace Sapphire | Shattered Necklace Topaz | Provided: | Bloodstained Journal | Description | The paladin's journal has provided perhaps the only clues that Uldaman will yield as to the location of the necklace's gems.  If the paladin's scribing remains accurate, then the Shadowforge dwarves and the troggs that vie for control of the dig site will need to be dealt with. | Armed with this knowledge, the search for the gems begins in earnest.  When all the gems have been acquired, Talvash in Ironforge should be notified via the Phial of Scrying as per his instructions. | Rewards | Experience: | 3,600 | When you come back | Talvash's image comes into focus from the waters of the scrying bowl. | \"Wow, you're still alive! Did you manage to find the gems? Are you truly the savior of my reputation I have hoped for? Please tell me you didn't waste a charge on the phial just to chat; those things are NOT cheap, and I'm already in dire financial straits.\" | When you hand it in | Yep, those indeed are the three gems.  Good job!  Unfortunately, your work isn't quite over just yet. | No, I'm not trying to pull a fast one here, silly â€¹classâ€º.  This is about making magic jewelry - Talvash del Kissel quality-level jewelry!  You need a strong power source to give it some oomph.  Well, that necklace has no more oomph to give."
+      }
+    },
+    {
+      "id": "2202",
+      "name": "Uldaman Reagent Run",
+      "indexed": true,
+      "decision": "Horde-only",
+      "page": {
+        "name": "Uldaman Reagent Run",
+        "facts": {
+          "Start": "Jarkal Mossmeld Badlands 2.4 , 46.1",
+          "End": "Jarkal Mossmeld Badlands 2.4 , 46.1",
+          "Level": "42 , requires level 36",
+          "Difficulty": "36 38 40 45 53",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2202",
+          "giver": "Jarkal Mossmeld"
+        },
+        "pickup": [
+          "Badlands 2.4 , 46.1"
+        ],
+        "objective": "Bring 12 Magenta Fungus Caps to Jarkal Mossmeld in Kargath.",
+        "requirements": [
+          "12 Magenta Fungus Cap"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2202/uldaman-reagent-run",
+        "sheetText": "Quest Objectives | Bring 12 Magenta Fungus Caps to Jarkal Mossmeld in Kargath. | 12 | Magenta Fungus Cap | Description | I've heard about a newly discovered plant called the magenta fungus caps.  They grow in clusters at the Uldaman dig site and can be found in the early tunnels and deep within the less-explored areas.  I want to study their potential use in alchemy, and that's where you come in. | Find the magenta cap clusters and bring me a dozen caps.  Be warned, the clusters may spew out poison spores if jostled. | Do this for me, and I'll whip up a batch of one of my famous restorative elixirs for you! | Rewards | You will receive: | 5 | Restorative Potion | Money: | 55 | 0 gold, 55 silver, 0 copper | Experience: | 3,450 | +100 reputation with Darkspear Trolls | When you come back | Have you obtained the magenta fungus caps I need for my alchemical work? No caps - no reward! | When you hand it in | Well done â€¹nameâ€º, you've proven your worth once again! The caps will be an interesting study, you betcha. | And now, as promised, enjoy a taste of one of my more potent restorative brews from my personal stock... | If you are a skilled alchemist, then perhaps we might have some additional business to conduct. Regardless, I thank you for your assistance!"
+      }
+    },
+    {
+      "id": "2204",
+      "name": "Restoring the Necklace",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "Restoring the Necklace",
+        "facts": {
+          "Start": "Talvash's Scrying Bowl",
+          "End": "Talvash del Kissel Dun Morogh 56.9 , 21.7",
+          "Level": "44 , requires level 37",
+          "Difficulty": "37 40 42 47 56",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2204",
+          "giver": "Talvash's Scrying Bowl"
+        },
+        "pickup": [],
+        "objective": "Obtain a power source from the most powerful construct you can find in Uldaman, and deliver it to Talvash del Kissel in Ironforge.",
+        "requirements": [
+          "Shattered Necklace Power Source"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2204/restoring-the-necklace",
+        "sheetText": "Quest Objectives | Obtain a power source from the most powerful construct you can find in Uldaman, and deliver it to Talvash del Kissel in Ironforge. | Shattered Necklace Power Source | Description | You are going to need to find some \"oomph\" for the necklace, and Uldaman is probably the best place for it, actually.  I guess there are a lot of constructs running around in there, yeah?  Well, take out the biggest, baddest construct in that place and grab its power source!  I am pretty sure I can fuse that source into the necklace. | Without that power source, fixing the necklace will be impossible.  Come back to me here to Ironforge when you have it, and we'll get it all fixed up for you! | Rewards | Experience: | 925 | When you come back | You didn't even stop to tidy yourself up after leaving Uldaman, did you.  You just came straight here, lingering dungeon odors be damned.  Well, let's hope this visit is merely an odiferous one, and not a useless one to boot. | Do you have the power source for the necklace? | When you hand it in | Well I'll be - I sure am glad to see you and this power source in one piece.  It will take me a moment to magically fuse the power source with the necklace now that the gems have been reunited with it.  Once it is done, however, the necklace will be yours! | You're excited, aren't you?  All tingly with anticipation?  Now where did I put that spell focus at..."
+      }
+    },
+    {
+      "id": "2240",
+      "name": "The Hidden Chamber",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "The Hidden Chamber",
+        "facts": {
+          "Start": "Baelog",
+          "End": "Prospector Stormpike Dun Morogh 63.1 , 23",
+          "Level": "40 , requires level 35",
+          "Difficulty": "35 36 38 43 51",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2240",
+          "giver": "Baelog"
+        },
+        "pickup": [],
+        "objective": "Read Baelog's Journal, explore the hidden chamber, then report to Prospector Stormpike.",
+        "requirements": [
+          "Find the place the quest sends you to."
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/2240/the-hidden-chamber",
+        "sheetText": "Quest Objectives | Read Baelog's Journal, explore the hidden chamber, then report to Prospector Stormpike. | Find the place the quest sends you to. | Description | Now for the task at hand. | There is a secret chamber, the Chamber of Khaz'mul, that must be explored.  The problem is that the chamber's behind a huge, locked door!  It's a lucky thing I know how to open it. | I've described everything in my journal, here on the table.  My band and I are stuck here for now... so you, â€¹nameâ€º, must find the chamber of Khaz'mul for us! | Read my journal, explore the chamber, then report to Prospector Stormpike at the Explorers' League in Ironforge. | Rewards | You will be able to choose one of these rewards: | Dwarven Charge | Explorer's League Lodestar | Guardian Staff | New in Forever: Guardian Staff. | Experience: | 3,900 | +150 reputation with Ironforge | When you come back | Do you have something to report? | When you hand it in | You have seen the Chamber of Khaz'mul? Amazing! Baelog was sure it existed, but I must admit that I had my doubts. | Thank you, â€¹nameâ€º. With luck your finding will incite our leaders to renew their efforts to retake Uldaman. And if it is ever again under Ironforge control, then the secrets of the Chamber of Khaz'mul will be ours!"
+      }
+    },
+    {
+      "id": "2278",
+      "name": "The Platinum Discs",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "The Platinum Discs",
+        "facts": {
+          "Start": "The Discs of Norgannon",
+          "End": "The Discs of Norgannon",
+          "Level": "47 , requires level 40",
+          "Difficulty": "40 43 45 50 59",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "2278",
+          "giver": "The Discs of Norgannon"
+        },
+        "pickup": [],
+        "objective": "Speak with stone watcher and learn what ancient lore it keeps.  Once you have learned what lore it has to offer, activate the Discs of Norgannon.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2278/the-platinum-discs",
+        "sheetText": "Quest Objectives | Speak with stone watcher and learn what ancient lore it keeps.  Once you have learned what lore it has to offer, activate the Discs of Norgannon. | Description | The centerpieces of this treasure chamber are four huge platinum discs, each adorned with numerous sigils of an unknown origin.  Touching them makes your hand tingle.  Just after touching the discs, the visage of a large stone watcher springs forth. | \"Salutations.  I am a keeper of knowledge.  The Creators' synthesis of the Earthen has been chronicled and stored here for this world in the Discs of Norgannon.\" | You have uncovered a wealth of previously undiscovered worldly lore! | Rewards | Experience: | 4,200 | When you come back | The voice of the stone watcher seems to resonate within your very inner being: | \"You must first satisfy the data assimilation prerequisite of Discs of Norgannon; once you fulfill this requirement, you will then be permitted to obtain a portable version of the stored data. Please be sure you have fully explored the information within this repository first.\" | When you hand it in | Following the instructions of the stone watcher, you once again access the Discs of Norgannon now that you have learned about the history of the Earthen, the troggs, and the dwarves. A faint, brief hum is heard from within the discs. The stone watcher then speaks: | \"The discs have now been synthesized. Access the Discs of Norgannon once more to receive your personal copy.\""
+      }
+    },
+    {
+      "id": "2279",
+      "name": "The Platinum Discs",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "The Platinum Discs",
+        "facts": {
+          "Start": "The Discs of Norgannon",
+          "End": "High Explorer Magellas Dun Morogh 62.3 , 24.1",
+          "Level": "47 , requires level 40",
+          "Difficulty": "40 43 45 50 59",
+          "Side": "Alliance",
+          "Shareable": "No",
+          "Quest ID": "2279",
+          "giver": "The Discs of Norgannon"
+        },
+        "pickup": [],
+        "objective": "Take the miniature version of the Discs of Norgannon to the Explorers' League in Ironforge.",
+        "requirements": [
+          "Miniature Platinum Discs"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2279/the-platinum-discs",
+        "sheetText": "Quest Objectives | Take the miniature version of the Discs of Norgannon to the Explorers' League in Ironforge. | Miniature Platinum Discs | Provided: | Miniature Platinum Discs | Description | Touching the Discs of Norgannon once again makes your hand tingle.  This time, however, a strange grinding noise is heard from inside the discs. | Your backpack suddenly becomes heavier than it was before.  Inside, you discover a miniature version of the discs! | No doubt, an item of this sort would be invaluable for someone interested in the ancient history of Azeroth.  The Explorers' League in Ironforge is such a group, known throughout the Alliance; perhaps they can make good use of it. | Rewards | Experience: | 5,250 | +150 reputation with Ironforge | When you come back | Yes, may I help you with something?  I assure you I am a very busy right now.  If it is grave importance to the Explorers' League, however, then I am all ears! | When you hand it in | What do you have there... oh my.  You found this where? | No, really? | You spoke to whom about what? | NO, REALLY?! | My fine â€¹classâ€º, you may have just made the archaeological find of the year!  By the Gods who am I kidding, the find of the century!  If these discs are what I think them to be, then this could be the very key we have been looking for!  This may well prove outright once and for all the legitimacy of the Dwarves' enchanted creation!"
+      }
+    },
+    {
+      "id": "2280",
+      "name": "The Platinum Discs",
+      "indexed": true,
+      "decision": "Horde-only",
+      "page": {
+        "name": "The Platinum Discs",
+        "facts": {
+          "Start": "The Discs of Norgannon",
+          "End": "Sage Truthseeker Thunder Bluff 34.4 , 46.9",
+          "Level": "47 , requires level 40",
+          "Difficulty": "40 43 45 50 59",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "2280",
+          "giver": "The Discs of Norgannon"
+        },
+        "pickup": [],
+        "objective": "Take the miniature version of the Discs of Norgannon to the one of the sages in Thunder Bluff.",
+        "requirements": [
+          "Miniature Platinum Discs"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2280/the-platinum-discs",
+        "sheetText": "Quest Objectives | Take the miniature version of the Discs of Norgannon to the one of the sages in Thunder Bluff. | Miniature Platinum Discs | Provided: | Miniature Platinum Discs | Description | Touching the Discs of Norgannon once again makes your hand tingle.  This time, however, a strange grinding noise is heard from inside the discs. | Your backpack suddenly becomes heavier than it was before.  Inside, you discover a miniature version of the discs! | No doubt, an item of this sort would be invaluable for someone interested in the ancient history of Azeroth.  The sages of Thunder Bluff are such historians, known throughout the Horde; perhaps they can make good use of it. | Rewards | Experience: | 5,250 | +150 reputation with Thunder Bluff | When you come back | Yes young one, I see you marching into my tent with intensity in your stride... with determination in your purpose. You seek my counsel is some matter of grave importance to the Horde? Perhaps you wish a mystery of the universe revealed to you? | When you hand it in | What are these here then? | Impressive, young one! These discs, in them I sense secrets that the earth has held on to tightly for many years. You were very wise to bring them here to me."
+      }
+    },
+    {
+      "id": "2283",
+      "name": "Necklace Recovery",
+      "indexed": true,
+      "decision": "Horde-only",
+      "page": {
+        "name": "Necklace Recovery",
+        "facts": {
+          "Start": "Dran Droffers Orgrimmar 59.6 , 36.5",
+          "End": "Dran Droffers Orgrimmar 59.6 , 36.5",
+          "Level": "41 , requires level 37",
+          "Difficulty": "37 39 44 52",
+          "Side": "Orc, Undead, Tauren, Troll",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2283",
+          "giver": "Dran Droffers"
+        },
+        "pickup": [
+          "Orgrimmar 59.6 , 36.5"
+        ],
+        "objective": "Look for a valuable necklace within the Uldaman dig site and bring it back to Dran Droffers in Orgrimmar.  The necklace may be damaged.",
+        "requirements": [
+          "Shattered Necklace"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2283/necklace-recovery",
+        "sheetText": "Quest Objectives | Look for a valuable necklace within the Uldaman dig site and bring it back to Dran Droffers in Orgrimmar.  The necklace may be damaged. | Shattered Necklace | Description | We've got work for you, that is if you've got the guts to do it! | Deep in the Badlands is the Uldaman dig site.  We've heard a tale about some idiot paladin who died there recently.  Why we even care is that he had a very valuable necklace on him.  It's supposedly got three large gems: a ruby, a sapphire, and a topaz. | The shot: we want it, and we're payin' TOP SILVER to get it.  It may be damaged, but that's neither here nor there; we'll fix whatever scratches are on it. | Rewards | Experience: | 2,450 | +75 reputation with Orgrimmar | When you come back | Well, do you have the necklace?  You won't see a copper from us if you don't have that necklace! | When you hand it in | Mmmm salvage!  I can smell the necklace from here.  Now let's look at that beauty... | Hey, what do you think you're trying to do here?  This necklace is missing the gems!  You think we wouldn't notice?  Even Malton could see that the gems are gone. | Well, maybe you didn't steal them... but this necklace is worthless without those gems!  Your job isn't done here yet, not by a long shot!"
+      }
+    },
+    {
+      "id": "2284",
+      "name": "Necklace Recovery, Take 2",
+      "indexed": true,
+      "decision": "Horde-only",
+      "page": {
+        "name": "Necklace Recovery, Take 2",
+        "facts": {
+          "Start": "Dran Droffers Orgrimmar 59.6 , 36.5",
+          "End": "Remains of a Paladin",
+          "Level": "41 , requires level 37",
+          "Difficulty": "37 39 44 52",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2284",
+          "giver": "Dran Droffers"
+        },
+        "pickup": [
+          "Orgrimmar 59.6 , 36.5"
+        ],
+        "objective": "Find a clue as to the gems' whereabouts in the depths of Uldaman.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2284/necklace-recovery-take-2",
+        "sheetText": "Quest Objectives | Find a clue as to the gems' whereabouts in the depths of Uldaman. | Description | As sure as Malton is a dummy, those gems are still in Uldaman somewhere.  You're going to have to go back there and look for them. | Like I said before, if the information we have is correct then there's a ruby, a sapphire, and a topaz that go with the necklace.  Find them and put them in the necklace. | As to where the gems are, who knows?  Maybe you'll get lucky and find the corpse of the Paladin.  If he's not been stripped clean already, then maybe he's got them on him still. | Rewards | Experience: | 2,450 | +75 reputation with Orgrimmar | When you hand it in | You seem to have found the remains of the paladin that Dran had mentioned from before. Searching the remains uncovers what would appear to be his journal. The book is in poor condition, as dried blood has stained most of the text in the book. What you can read, however, is gibberish; it is written in the native tongue of the humans, to the best of your knowledge. | You will need the book translated if you are to glean any knowledge from it."
+      }
+    },
+    {
+      "id": "2318",
+      "name": "Translating the Journal",
+      "indexed": true,
+      "decision": "Horde-only",
+      "page": {
+        "name": "Translating the Journal",
+        "facts": {
+          "Start": "Remains of a Paladin",
+          "End": "Jarkal Mossmeld Badlands 2.4 , 46.1",
+          "Level": "42 , requires level 37",
+          "Difficulty": "37 38 40 45 53",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "2318",
+          "giver": "Remains of a Paladin"
+        },
+        "pickup": [],
+        "objective": "Find someone who can translate the paladin's journal.  The closest location that might have someone is Kargath, in the Badlands.",
+        "requirements": [],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/2318/translating-the-journal",
+        "sheetText": "Quest Objectives | Find someone who can translate the paladin's journal.  The closest location that might have someone is Kargath, in the Badlands. | Provided: | Untranslated Journal | Description | At an impasse of sorts, you know that you will need the book translated into a language you can understand.  There certainly are a number of people in the world who could do it; the closest location that might have someone who could, however, is the Kargath outpost in the Badlands.  Perhaps that is a good place to start. | Rewards | Experience: | 3,450 | +100 reputation with Darkspear Trolls | When you hand it in | Mighty â€¹classâ€º, I know what you are doing out here in the Badlands. I know you seek my gift of tongues. You're after the parts to that necklace you found in Uldaman. | Surprised? Don't be - it's my job to know such things. Instead, let's discuss what you're going to do for a translated journal. Trust me - I'm the only one you'll find that can translate it. | Better still, let me make you a better offer than Dran Droffers is, and it'll let you still complete your deal with them. Interested now, yes?"
+      }
+    },
+    {
+      "id": "2338",
+      "name": "Translating the Journal",
+      "indexed": true,
+      "decision": "Horde-only",
+      "page": {
+        "name": "Translating the Journal",
+        "facts": {
+          "Start": "Jarkal Mossmeld Badlands 2.4 , 46.1",
+          "End": "Jarkal Mossmeld Badlands 2.4 , 46.1",
+          "Level": "42 , requires level 37",
+          "Difficulty": "37 38 40 45 53",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "2338",
+          "giver": "Jarkal Mossmeld"
+        },
+        "pickup": [
+          "Badlands 2.4 , 46.1"
+        ],
+        "objective": "Let Jarkal borrow the necklace.  In exchange, he will translate the journal for you.",
+        "requirements": [
+          "Untranslated Journal"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2338/translating-the-journal",
+        "sheetText": "Quest Objectives | Let Jarkal borrow the necklace.  In exchange, he will translate the journal for you. | Untranslated Journal | Provided: | Untranslated Journal | Description | Droffers and Son Salvage aren't smart enough to restore the magic in the necklace, but I am.  All I want to do is study the necklace so I can learn to make them myself.  To do that, I will need your necklace.  Let me borrow it, and in exchange for the time I get to study it I will translate the journal for you.  While you are searching for the gems, I should have enough time to learn what I need to. | It's a simple deal, and no one else will be the wiser.  Whatcha wanna do? | Rewards | Experience: | 350 | +10 reputation with Darkspear Trolls | When you come back | You've thought about it, yes? You're a smart â€¹classâ€º if you take this deal - you and I will get what we both want, and Droffers and Son Salvage will think they're getting what they want. | When you hand it in | You know a good deal when you see one - I knew I could count on you. | It will be just a moment while I cast a spell to quickly translate the human tongue into a form you will understand. I am a troll of my word; ask anyone in the Horde about Jarkal Mossmeld. Now, let's get this started..."
+      }
+    },
+    {
+      "id": "2339",
+      "name": "Find the Gems and Power Source",
+      "indexed": true,
+      "decision": "Horde-only",
+      "page": {
+        "name": "Find the Gems and Power Source",
+        "facts": {
+          "Start": "Jarkal Mossmeld Badlands 2.4 , 46.1",
+          "End": "Jarkal Mossmeld Badlands 2.4 , 46.1",
+          "Level": "44 , requires level 37",
+          "Difficulty": "37 40 42 47 56",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "2339",
+          "giver": "Jarkal Mossmeld"
+        },
+        "pickup": [
+          "Badlands 2.4 , 46.1"
+        ],
+        "objective": "Recover all three gems and a power source for the necklace from Uldaman, and then bring them to Jarkal Mossmeld in Kargath.  Jarkal believes a power source might be found on the strongest construct present in Uldaman. From the journal, you know...\n* The ruby has been stashed in a barricaded Shadowforge area.\n* The topaz has been hidden in an urn in one of the Trogg areas, near some Alliance dwarves.\n* The sapphire has been claimed by Grimlok, the trogg leader.",
+        "requirements": [
+          "Shattered Necklace Ruby",
+          "Shattered Necklace Sapphire",
+          "Shattered Necklace Topaz",
+          "Shattered Necklace Power Source"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2339/find-the-gems-and-power-source",
+        "sheetText": "Quest Objectives | Recover all three gems and a power source for the necklace from Uldaman, and then bring them to Jarkal Mossmeld in Kargath.  Jarkal believes a power source might be found on the strongest construct present in Uldaman. | From the journal, you know...\n* The ruby has been stashed in a barricaded Shadowforge area.\n* The topaz has been hidden in an urn in one of the Trogg areas, near some Alliance dwarves.\n* The sapphire has been claimed by Grimlok, the trogg leader. | Shattered Necklace Ruby | Shattered Necklace Sapphire | Shattered Necklace Topaz | Shattered Necklace Power Source | Provided: | Bloodstained Journal | Description | Here is the journal, translated for you to read on your own.  The crux of it says dwarves hid the ruby, the troggs hid the topaz, and a trogg named Grimlok has the sapphire. | Look - you're going to need a power source to make the necklace work again.  Dran Droffers doesn't know this.  To find one, here's what I'd do: go as deep as you can in Uldaman and kill whatever construct there is the strongest.  No doubt whatever that is would have it. | When you have everything collected, come back here! | Rewards | Experience: | 3,750 | +100 reputation with Darkspear Trolls | When you come back | You've got another trip into the depths of Uldaman in store for yourself if you don't have the gems and a power source capable of channeling magical power back into the necklace. | You'll be getting the gems back to deliver to the goons in Orgrimmar; I will be keeping the power source, since it will be the thing that will make the necklace work in the first place... | When you hand it in | Very well done, â€¹classâ€º.  Now the fruits of our redirection will pay themselves out handsomely.  I'm finished with the necklace itself, and I am confident I can duplicate the construction process consistently. | But first, I will use a specially prepared incantation to quickly analyze those gems before you take them and the necklace back to Orgrimmar.  This will take just a brief moment to do."
+      }
+    },
+    {
+      "id": "2340",
+      "name": "Deliver the Gems",
+      "indexed": true,
+      "decision": "Horde-only",
+      "page": {
+        "name": "Deliver the Gems",
+        "facts": {
+          "Start": "Jarkal Mossmeld Badlands 2.4 , 46.1",
+          "End": "Dran Droffers Orgrimmar 59.6 , 36.5",
+          "Level": "44 , requires level 37",
+          "Difficulty": "37 40 42 47 56",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "2340",
+          "giver": "Jarkal Mossmeld"
+        },
+        "pickup": [
+          "Badlands 2.4 , 46.1"
+        ],
+        "objective": "Deliver the Necklace and Gem Salvage to Dran Droffers in Orgrimmar.",
+        "requirements": [
+          "Necklace and Gem Salvage"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2340/deliver-the-gems",
+        "sheetText": "Quest Objectives | Deliver the Necklace and Gem Salvage to Dran Droffers in Orgrimmar. | Necklace and Gem Salvage | Provided: | Necklace and Gem Salvage | Description | Any necklace setting and gem will work, so long as they are the same material.  This power source, however, is what will bring the magic back to the necklace... I hope. | I'll gladly supply the gems needed for your version of the necklace, so long as the power source actually works. | Head to Orgrimmar and keep your end of the bargain with Droffers and Son Salvage.  Just keep your mouth shut about our deal, and when you get back I might have a wonderful surprise for you. | Rewards | Money: | 1 | 25 | 1 gold, 25 silver, 0 copper | Experience: | 1,850 | +50 reputation with Orgrimmar | When you come back | Well, look who it is! Took your sweet time getting here, I see. Let's hope this isn't a waste of my time! You'll not get paid unless you have everything I asked for. And trust me on this - we'll be double and triple checking everything! | When you hand it in | Yep, it's all here. Say, mind if we keep the bag too? No? Thanks, appreciate it! Har! | This necklace will be our greatest haul yet! Don't feel too bad though; I'm sure the necklace wouldn't fit you anyway. Har again! | A deal is a deal, so here's your fee for the salvage. Our business is done here for now; check back later to see if we have more work. Until then, beat it!"
+      }
+    },
+    {
+      "id": "2341",
+      "name": "Necklace Recovery, Take 3",
+      "indexed": true,
+      "decision": "Horde-only",
+      "page": {
+        "name": "Necklace Recovery, Take 3",
+        "facts": {
+          "Start": "Dran Droffers Orgrimmar 59.6 , 36.5",
+          "End": "Jarkal Mossmeld Badlands 2.4 , 46.1",
+          "Level": "44 , requires level 37",
+          "Difficulty": "37 40 42 47 56",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2341",
+          "giver": "Dran Droffers"
+        },
+        "pickup": [
+          "Orgrimmar 59.6 , 36.5"
+        ],
+        "objective": "Visit Jarkal Mossmeld in Kargath to see if he was successful.",
+        "requirements": [],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/2341/necklace-recovery-take-3",
+        "sheetText": "Quest Objectives | Visit Jarkal Mossmeld in Kargath to see if he was successful. | Description | As Dran and Malton Droffers begin to squabble over their new salvage, half of the deal is now complete.  A trip to the Badlands is now in order to finish things up, as Jarkal Mossmeld in Kargath might have a special reward waiting for you there. | Rewards | You will receive: | Jarkal's Enhancing Necklace | Experience: | 5,600 | +100 reputation with Darkspear Trolls | When you hand it in | The power source you gave me exceeded every expectation I had for it. I was able to make both you and me a necklace, and I have enough left over to make at least three more. They will fetch quite the fee, with Droffers and Son Salvage none the wiser. | Here you go, my friend. I give you my thanks on a splendid job... and something quite special for your trouble."
+      }
+    },
+    {
+      "id": "2342",
+      "name": "Reclaimed Treasures",
+      "indexed": true,
+      "decision": "Horde-only",
+      "page": {
+        "name": "Reclaimed Treasures",
+        "facts": {
+          "Start": "Patrick Garrett Undercity 62.3 , 48.6",
+          "End": "Patrick Garrett Undercity 62.3 , 48.6",
+          "Level": "43 , requires level 33",
+          "Difficulty": "33 39 41 46 54",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2342",
+          "giver": "Patrick Garrett"
+        },
+        "pickup": [
+          "Undercity 62.3 , 48.6"
+        ],
+        "objective": "Get Patrick Garrett's family treasure from their family chest in the South Common Hall of Uldaman, and bring it to him in the Undercity.",
+        "requirements": [
+          "Garrett Family Treasure"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2342/reclaimed-treasures",
+        "sheetText": "Quest Objectives | Get Patrick Garrett's family treasure from their family chest in the South Common Hall of Uldaman, and bring it to him in the Undercity. | Garrett Family Treasure | Description | Sweeping the bat pens with this broom is not befitting a Garrett!  I've earned a little coin from this accursed job, and I'm willing to spend it on you to better my station. | The Garrett family weapon of choice is locked away in our chest in the South Common Hall of Uldaman from when we Garretts toiled there as diggers.  Without it, I will be stuck here forever - literally - sweeping up after these infernal bats. | Reclaim my family's treasure and bring it to me!  Help me restore my birthright! | Rewards | Money: | 60 | 0 gold, 60 silver, 0 copper | Experience: | 3,600 | +100 reputation with Undercity | When you come back | The sweeping never ends... these bats are prolific in their mockery of me and my broom.  Please tell me you've reclaimed my family's treasure!  I've offered you my silver - is that not enough?! | When you hand it in | At last - a broom worthy of a Garrett.  You're bloody well worth every silver I spent on you, I say! | Do you hear me, foul bats?  I now wield the Garrett family weapon of choice!  Tremble, bats, tremble!!"
+      }
+    },
+    {
+      "id": "2361",
+      "name": "Restoring the Necklace",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "Restoring the Necklace",
+        "facts": {
+          "Start": "Talvash del Kissel Dun Morogh 56.9 , 21.7",
+          "End": "Talvash del Kissel Dun Morogh 56.9 , 21.7",
+          "Level": "44 , requires level 37",
+          "Difficulty": "37 40 42 47 56",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2361",
+          "giver": "Talvash del Kissel"
+        },
+        "pickup": [
+          "Dun Morogh 56.9 , 21.7"
+        ],
+        "objective": "",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2361/restoring-the-necklace",
+        "sheetText": "Quest Objectives | Rewards | You will receive: | Talvash's Enhancing Necklace | Experience: | 5,600 | +200 reputation with Gnomeregan Exiles | When you hand it in | I gladly give you this necklace, mighty â€¹classâ€º.  You have done me an invaluable service, and for that I thank you.  Wear it with pride, and make sure you mention loudly and repeatedly who made it for you! | Also, if you could toss in the fact that it really isn't cursed, that would be great."
+      }
+    },
+    {
+      "id": "2398",
+      "name": "The Lost Dwarves",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "The Lost Dwarves",
+        "facts": {
+          "Start": "Prospector Stormpike Dun Morogh 63.1 , 23",
+          "End": "Baelog",
+          "Level": "40 , requires level 35",
+          "Difficulty": "35 36 38 43 51",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2398",
+          "giver": "Prospector Stormpike"
+        },
+        "pickup": [
+          "Dun Morogh 63.1 , 23"
+        ],
+        "objective": "Find Baelog in Uldaman.",
+        "requirements": [],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/2398/the-lost-dwarves",
+        "sheetText": "Quest Objectives | Find Baelog in Uldaman. | Description | The dig site at Uldaman wasn't always overrun.  We Ironforge dwarves used to control the area, but... that was before the troggs came.  They came so fast and in such numbers that not even dwarven might could stop them! | In fact, their attack was so sudden that I fear some of our people may be trapped behind enemy lines. | My friend Baelog led a small band of dwarves deep within the site just before the troggs showed up.  If he and his company live, then I want you to find them. | Rewards | Money: | 5 | 0 gold, 5 silver, 0 copper | Experience: | 320 | When you hand it in | It's about time you showed up! I was in danger of losing a bet with Olaf! | He wagered that his beard would grow to his knees before he saw another living â€¹raceâ€º. Well here you are, and as you can see Olaf's beard has a few more inches to go. | Thanks, â€¹nameâ€º. I'll split the winnings with you."
+      }
+    },
+    {
+      "id": "2418",
+      "name": "Power Stones",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "Power Stones",
+        "facts": {
+          "Start": "Rigglefuzz Badlands 42.4 , 52.9",
+          "End": "Rigglefuzz Badlands 42.4 , 52.9",
+          "Level": "36 , requires level 30",
+          "Difficulty": "30 32 34 39 46",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "2418",
+          "giver": "Rigglefuzz"
+        },
+        "pickup": [
+          "Badlands 42.4 , 52.9"
+        ],
+        "objective": "Bring 8 Dentrium Power Stones and 8 An'Alleum Power Stones to Rigglefuzz in the Badlands.",
+        "requirements": [
+          "8 Dentrium Power Stone",
+          "8 An'Alleum Power Stone"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/2418/power-stones",
+        "sheetText": "Quest Objectives | Bring 8 Dentrium Power Stones and 8 An'Alleum Power Stones to Rigglefuzz in the Badlands. | 8 | Dentrium Power Stone | 8 | An'Alleum Power Stone | Description | A while ago, I had an incident with the Shadowforge Dwarves.  They brought me to Angor Fortress to study two types of strange stones from Uldaman.  I discovered that the stones were sustained, stable power sources if treated correctly.  It's amazing the things one can find in that old dig site! | Anyway, after I told them the secret of the stones they kicked me out of Angor Fortress and began digging for more in Uldaman. | I want those stones for myself!  Bring me both types and I'll pay you plenty! | Rewards | You will be able to choose one of these rewards: | Energized Stone Circle | Duracin Bracers | Everlast Boots | Charged Leather Bracers | New in Forever: Charged Leather Bracers. | Experience: | 3,500 | +150 reputation with Booty Bay | -750 reputation with Bloodsail Buccaneers | When you come back | Do you have the power stones, â€¹nameâ€º?  I have a robotic rodent that needs a power supply... | When you hand it in | That's great, you found some!  Thanks a lot, â€¹nameâ€º.  You're the most dependable â€¹raceâ€º I've met! | I can't wait to try these on some devices I've been tinkering with.  I bet that, under the right circumstances, devices powered with these stones will keep going, and going, and going..."
+      }
+    },
+    {
+      "id": "2439",
+      "name": "The Platinum Discs",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "The Platinum Discs",
+        "facts": {
+          "Start": "High Explorer Magellas Dun Morogh 62.3 , 24.1",
+          "End": "Dinita Stonemantle Dun Morogh 56.5 , 30.6",
+          "Level": "47 , requires level 40",
+          "Difficulty": "40 43 45 50 59",
+          "Side": "Alliance",
+          "Shareable": "No",
+          "Quest ID": "2439",
+          "giver": "High Explorer Magellas"
+        },
+        "pickup": [
+          "Dun Morogh 62.3 , 24.1"
+        ],
+        "objective": "Take your reward voucher to Dinita Stonemantle in the Vault of Ironforge.",
+        "requirements": [
+          "Reward Voucher"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2439/the-platinum-discs",
+        "sheetText": "Quest Objectives | Take your reward voucher to Dinita Stonemantle in the Vault of Ironforge. | Reward Voucher | Provided: | Reward Voucher | Description | This object is an incredible find.  The ancient Titans, or the Creators as these discs refer to them as, are the link to our enchanted creation, if the lore stored in here is correct!  We'll need to invest as much research time into this as possible. | As for you, heroic ‹class›, take this voucher to Dinita Stonemantle at the vault.  It grants you what I think is a fitting for such a tremendous find! | Return to me directly when you are ready; there is much more to do for the Explorers' League! | Rewards | You will be able to choose one of these rewards: | 5 | Superior Healing Potion | 5 | Greater Mana Potion | You will also receive: | Thawpelt Sack | Experience: | 420 | When you come back | Welcome to the Vault of Ironforge, ‹name›.  What may I do for you today? | When you hand it in | As yes, a voucher from the Explorers' League... and quite the valuable one, might I add. | The Explorers' League lends me the authority to offer you a choice in your compensation directly from their vault.  You are to receive this item, and you may choose between five superior healing potions or five greater mana potions as your reward."
+      }
+    },
+    {
+      "id": "2440",
+      "name": "The Platinum Discs",
+      "indexed": false,
+      "decision": "Horde-only",
+      "page": {
+        "name": "The Platinum Discs",
+        "facts": {
+          "Start": "Sage Truthseeker Thunder Bluff 34.4 , 46.9",
+          "End": "Bena Winterhoof Thunder Bluff 46.6 , 33.2",
+          "Level": "47 , requires level 40",
+          "Difficulty": "40 43 45 50 59",
+          "Side": "Horde",
+          "Shareable": "No",
+          "Quest ID": "2440",
+          "giver": "Sage Truthseeker"
+        },
+        "pickup": [
+          "Thunder Bluff 34.4 , 46.9"
+        ],
+        "objective": "Take the reward voucher to Bena Winterhoof in Thunder Bluff.",
+        "requirements": [
+          "Reward Voucher"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2440/the-platinum-discs",
+        "sheetText": "Quest Objectives | Take the reward voucher to Bena Winterhoof in Thunder Bluff. | Reward Voucher | Provided: | Reward Voucher | Description | I shall focus my energies on these discs; they will reveal their true workings to me in due time. | As for you ‹name›, I will now reward you for your diligence in bringing this to my attention.  Take this voucher to Bena Winterhoof, the alchemy trainer for Thunder Bluff.  She will give you a special item I believe you will find appealing, and she will supply you with a choice of potions from my personal stock. | Return to me soon, as I sense there is much more at hand for us to do regarding this find. | Rewards | You will be able to choose one of these rewards: | 5 | Superior Healing Potion | 5 | Greater Mana Potion | You will also receive: | Thawpelt Sack | Experience: | 420 | +10 reputation with Thunder Bluff | When you come back | Greetings, ‹class›! Are you here for alchemy training, or perhaps something else? | When you hand it in | Well ‹name›, you must have pleased Sage Truthseeker greatly for him to give you this item. You are also to be granted a gift from his cache of potions; you may choose between 5 superior healing potions or 5 greater mana potions as your reward."
+      }
+    },
+    {
+      "id": "2500",
+      "name": "Badlands Reagent Run",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "Badlands Reagent Run",
+        "facts": {
+          "Start": "Ghak Healtouch Loch Modan 37.1 , 49.4",
+          "End": "Ghak Healtouch Loch Modan 37.1 , 49.4",
+          "Level": "39 , requires level 36",
+          "Difficulty": "36 37 42 49",
+          "Side": "Alliance",
+          "Shareable": "Yes",
+          "Quest ID": "2500",
+          "giver": "Ghak Healtouch"
+        },
+        "pickup": [
+          "Loch Modan 37.1 , 49.4"
+        ],
+        "objective": "Acquire the reagents Ghak Healtouch needs from the Badlands, then return to him in Thelsamar.",
+        "requirements": [
+          "5 Buzzard Gizzard",
+          "10 Crag Coyote Fang",
+          "5 Rock Elemental Shard"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2500/badlands-reagent-run",
+        "sheetText": "Quest Objectives | Acquire the reagents Ghak Healtouch needs from the Badlands, then return to him in Thelsamar. | 5 | Buzzard Gizzard | 10 | Crag Coyote Fang | 5 | Rock Elemental Shard | Description | ‹class›, I would make use of your services.  I am an alchemist of some note, and I seek your aid in acquiring some reagents found out in the Badlands. | I need the following items to replenish my stocks: five buzzard gizzards, ten crag coyote fangs, and five rock elemental shards.  Obviously, you can get them off of the beasties themselves; if you're not the fighting type, then find friends who are. | Acquire these items for me, you'll get some coin out of the deal. | Well, what say ye? | Rewards | Money: | 45 | 0 gold, 45 silver, 0 copper | Experience: | 3,000 | +100 reputation with Ironforge | When you come back | Have you gotten the things I need yet?  You won't get paid unless you bring me those reagents. | When you hand it in | Ah, well done ‹name›.  These should last me for a little while at least.  Here is your pay, as promised. | If you're interested, I have some more reagents I could use.  These, however, are only found in the depths of the Uldaman excavation.  They will not be easy to get, but I will make it worth your while if you are interested in helping me again. | Perhaps something more than some shiny coins, yes?"
+      }
+    },
+    {
+      "id": "2946",
+      "name": "Seeing What Happens",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "Seeing What Happens",
+        "facts": {
+          "Start": "Historian Karnik Dun Morogh 63.5 , 23",
+          "End": "Uldum Pedestal Tanaris 37.6 , 81.4",
+          "Level": "50 , requires level 45",
+          "Difficulty": "45 46 48 53 60",
+          "Side": "Alliance",
+          "Type": "Elite",
+          "Shareable": "No",
+          "Quest ID": "2946",
+          "giver": "Historian Karnik"
+        },
+        "pickup": [
+          "Dun Morogh 63.5 , 23"
+        ],
+        "objective": "Bring the miniature platinum discs to the gates of Uldum in Tanaris and look for clues as to the connection between the two.",
+        "requirements": [
+          "Miniature Platinum Discs"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2946/seeing-what-happens",
+        "sheetText": "Quest Objectives | Bring the miniature platinum discs to the gates of Uldum in Tanaris and look for clues as to the connection between the two. | Miniature Platinum Discs | Provided: | Miniature Platinum Discs | Description | We want you to take the miniature discs you found to the sealed gates of Uldum.  We... we aren't sure what will happen when you do this. | This sounds risky, sure, we acknowledge that.  It might, however, do nothing.  You might need to use the discs on something.  Perhaps the doors unlock when you have the discs in your possession.  Be open to try anything, and be ready for anything to happen. | When you've found out what happens, return to Ironforge.  We'll have a lot to analyze when you're done! | Rewards | Experience: | 4,700 | +100 reputation with Ironforge | When you come back | This familiar looking pedestal sticks out of the hot sand. Perhaps there is something to its presence here... | When you hand it in | As you touch the pedestal, the miniature discs from Uldaman hum and glow in your backpack. A familiar feeling tingle washes over your hands, as the image of another Stone Watcher springs to life in front of the gates of Uldum. | \"Salutations. I am a guardian of entry. The discs that have been used for access are missing the correct entry discs, the Plates of Uldum. Please incorporate these plates with the disc structure and repeat your access sequencing. Thank you.\""
+      }
+    },
+    {
+      "id": "2954",
+      "name": "The Stone Watcher",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "The Stone Watcher",
+        "facts": {
+          "Start": "Stone Watcher of Norgannon",
+          "End": "Uldum Pedestal Tanaris 37.6 , 81.4",
+          "Level": "50 , requires level 45",
+          "Difficulty": "45 46 48 53 60",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Elite",
+          "Shareable": "No",
+          "Quest ID": "2954",
+          "giver": "Stone Watcher of Norgannon"
+        },
+        "pickup": [],
+        "objective": "Learn the purpose of the Stone Watcher of Norgannon, and then interact with the Uldum Pedestal in the Tanaris desert.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2954/the-stone-watcher",
+        "sheetText": "Quest Objectives | Learn the purpose of the Stone Watcher of Norgannon, and then interact with the Uldum Pedestal in the Tanaris desert. | Description | \"Salutations - I am a guardian of entry.  Unless you have the Plates of Uldum already integrated with your disc set, I will not allow for entry into the Uldum compound.\" | The appearance of the Stone Watcher of Norgannon must be the reaction that was hoped for in sending you out to the Tanaris desert with the platinum discs.  As instructed, you will need to find out what the story behind the Stone Watcher is before continuing on. | Rewards | Experience: | 4,700 | When you come back | The purpose of the stone watcher must be learned before continuing on... | When you hand it in | The stone watcher's voice resonates with power and authority: | \"Your discs will be returned to you once you access the pedestal. When you have obtained the Plates of Uldum and incorporated them into your existing disc set, you may then enter the complex.\""
+      }
+    },
+    {
+      "id": "2963",
+      "name": "Portents of Uldum",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "Portents of Uldum",
+        "facts": {
+          "Start": "High Explorer Magellas Dun Morogh 62.3 , 24.1",
+          "End": "Historian Karnik Dun Morogh 63.5 , 23",
+          "Level": "50 , requires level 45",
+          "Difficulty": "45 46 48 53 60",
+          "Side": "Alliance",
+          "Shareable": "Yes",
+          "Quest ID": "2963",
+          "giver": "High Explorer Magellas"
+        },
+        "pickup": [
+          "Dun Morogh 62.3 , 24.1"
+        ],
+        "objective": "Speak with Historian Karnik in the Hall of Explorers within Ironforge.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2963/portents-of-uldum",
+        "sheetText": "Quest Objectives | Speak with Historian Karnik in the Hall of Explorers within Ironforge. | Description | Greetings once again, ‹name›!  Your discovery inside Uldaman has set the Explorers' League abuzz with excitement.  The League has been working to unlock the secrets of the miniature platinum discs you found.  Your fortuitous arrival here in the Hall allows me to share with you that we are quite possibly on to something! | Historian Karnik has uncovered some important clues as to the true origins of the Valley of the Watchers in the Tanaris desert.  He would like to speak with you as soon as possible! | Rewards | Experience: | 470 | +10 reputation with Ironforge | When you hand it in | I am glad you're maintaining your interest in exploration, ‹name›!  With your natural talent and moxie, we could crack open secrets that we never thought were possible! | The Discs of Norgannon in Uldaman were a repository of vast information; you were only permitted to access the top layers, as it were, of the information stored there.  The Creators were rumored to have more repositories located throughout Azeroth.  This now brings us to Uldum..."
+      }
+    },
+    {
+      "id": "2964",
+      "name": "A Future Task",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "A Future Task",
+        "facts": {
+          "Start": "Historian Karnik Dun Morogh 63.5 , 23",
+          "End": "High Explorer Magellas Dun Morogh 62.3 , 24.1",
+          "Level": "50 , requires level 45",
+          "Difficulty": "45 46 48 53 60",
+          "Side": "Alliance",
+          "Shareable": "Yes",
+          "Quest ID": "2964",
+          "giver": "Historian Karnik"
+        },
+        "pickup": [
+          "Dun Morogh 63.5 , 23"
+        ],
+        "objective": "Speak with High Explorer Magellas in Ironforge.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2964/a-future-task",
+        "sheetText": "Quest Objectives | Speak with High Explorer Magellas in Ironforge. | Description | Well ‹name›... we seem to be at a temporary dead end here.  We know what we need - the Plates of Uldum - but we have no idea where they might be.  We'll need to do quite a bit of research on this to come up with a solid plan of attack.  I have a couple ideas where to start looking; I have high hopes that soon, we'll be asking you to head out and recover them. | The High Explorer needs to be informed on this, ‹name›; no doubt, he also wants to thank you personally for once again aiding the League. | Rewards | Money: | 2 | 20 | 2 gold, 20 silver, 0 copper | Experience: | 4,700 | +100 reputation with Ironforge | When you hand it in | We're all in agreement then - the best plan of attack is putting this on hold until we can narrow down the areas where these plates might lie hidden.  You've brought us this far ‹name›, and I hope you will be the one to head back in to the field to unlock Uldum for us all! | Allow me to give you this honorarium in the meantime; this should cover any expenses you've encountered in assisting us, and a little something extra.  Be sure to check back with us soon... Uldum beckons!"
+      }
+    },
+    {
+      "id": "2965",
+      "name": "Portents of Uldum",
+      "indexed": false,
+      "decision": "Horde-only",
+      "page": {
+        "name": "Portents of Uldum",
+        "facts": {
+          "Start": "Sage Truthseeker Thunder Bluff 34.4 , 46.9",
+          "End": "Nara Wildmane Thunder Bluff 75.6 , 31.6",
+          "Level": "50 , requires level 45",
+          "Difficulty": "45 46 48 53 60",
+          "Side": "Horde",
+          "Shareable": "Yes",
+          "Quest ID": "2965",
+          "giver": "Sage Truthseeker"
+        },
+        "pickup": [
+          "Thunder Bluff 34.4 , 46.9"
+        ],
+        "objective": "Speak with Nara Wildmane on the Elder Rise in Thunder Bluff.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2965/portents-of-uldum",
+        "sheetText": "Quest Objectives | Speak with Nara Wildmane on the Elder Rise in Thunder Bluff. | Description | Ah, ‹name›, it is fortuitous that you have come to me again.  Your revelations at the Uldaman dig site have certainly given us sages much discuss.  I was doing just that with one of the druids, Nara Wildmane, when it dawned on me that her past adventuring experiences may have some great importance as to the next step we need to take. | I would like for you to speak with her concerning her travels to the Valley of the Watchers in the Tanaris desert.  She waits for you on the Elder Rise. | Rewards | Experience: | 470 | +10 reputation with Thunder Bluff | When you hand it in | There is a place deep in the Tanaris desert called the Valley of the Watchers.  The discs that you recovered... their translated glyphs make mention of a place called Uldum.  Most think this place to be a myth. | I know this to be false; Uldum exists.  I've been there.  Well... outside, at any rate. | The crux is this, ‹name›: we think there is a connection between the discs and Uldum, and we want you to go there."
+      }
+    },
+    {
+      "id": "2966",
+      "name": "Seeing What Happens",
+      "indexed": false,
+      "decision": "Horde-only",
+      "page": {
+        "name": "Seeing What Happens",
+        "facts": {
+          "Start": "Nara Wildmane Thunder Bluff 75.6 , 31.6",
+          "End": "Uldum Pedestal Tanaris 37.6 , 81.4",
+          "Level": "50 , requires level 45",
+          "Difficulty": "45 46 48 53 60",
+          "Side": "Horde",
+          "Type": "Elite",
+          "Shareable": "No",
+          "Quest ID": "2966",
+          "giver": "Nara Wildmane"
+        },
+        "pickup": [
+          "Thunder Bluff 75.6 , 31.6"
+        ],
+        "objective": "Bring the miniature platinum discs to the gates of Uldum in Tanaris and look for clues as to the connection between the two.",
+        "requirements": [
+          "Miniature Platinum Discs"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2966/seeing-what-happens",
+        "sheetText": "Quest Objectives | Bring the miniature platinum discs to the gates of Uldum in Tanaris and look for clues as to the connection between the two. | Miniature Platinum Discs | Provided: | Miniature Platinum Discs | Description | Sage Truthseeker and I would like you to take the miniature discs you found to the sealed gates of Uldum.  We... we aren't sure what will happen when you do this. | This sounds risky, sure, we acknowledge that.  It might, however, do nothing.  You might need to use the discs on something.  Perhaps the doors unlock when you have the discs in your possession.  Be open to try anything, and be ready for anything to happen. | Learn what you can, then return to me. We will have much to discuss. | Rewards | Experience: | 4,700 | +100 reputation with Thunder Bluff | When you come back | This familiar looking pedestal sticks out of the hot sand.  Perhaps there is something to its presence here... | When you hand it in | As you touch the pedestal, the miniature discs from Uldaman hum and glow in your backpack.  A familiar feeling tingle washes over your hands, as the image of another Stone Watcher springs to life in front of the gates of Uldum. | \"Salutations.  I am a guardian of entry.  The discs that have been used for access are missing the correct entry discs, the Plates of Uldum.  Please incorporate these plates with the disc structure and repeat your access sequencing.  Thank you.\""
+      }
+    },
+    {
+      "id": "2967",
+      "name": "Return to Thunder Bluff",
+      "indexed": false,
+      "decision": "Horde-only",
+      "page": {
+        "name": "Return to Thunder Bluff",
+        "facts": {
+          "Start": "Uldum Pedestal Tanaris 37.6 , 81.4",
+          "End": "Nara Wildmane Thunder Bluff 75.6 , 31.6",
+          "Level": "50 , requires level 45",
+          "Difficulty": "45 46 48 53 60",
+          "Side": "Horde",
+          "Type": "Elite",
+          "Shareable": "No",
+          "Quest ID": "2967",
+          "giver": "Uldum Pedestal"
+        },
+        "pickup": [
+          "Tanaris 37.6 , 81.4"
+        ],
+        "objective": "Speak with Nara Wildmane in Thunder Bluff.",
+        "requirements": [
+          "Miniature Platinum Discs"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2967/return-to-thunder-bluff",
+        "sheetText": "Quest Objectives | Speak with Nara Wildmane in Thunder Bluff. | Miniature Platinum Discs | Provided: | Miniature Platinum Discs | Description | You access the pedestal again; the platinum discs suddenly appear once more in your backpack. | With the knowledge of the stone watcher learned and the discs returned to your possession, the time has come to return to Thunder Bluff and inform the Nara Wildmane of your discovery. | Rewards | Experience: | 470 | +10 reputation with Thunder Bluff | When you come back | Welcome back ‹name›.  Were you able to use the discs to your advantage, or was it for naught? | When you hand it in | You were missing some discs?  Interestingly enough, it seems that the discs of Norgannon are only parts of the complete set - like keys on a key ring, if you will. | If we can find the Plates of Uldum, then we could actually access the Uldum complex itself.  I don't know whether to be excited by that prospect, or be terrified. | We may need to risk everything to ensure that those secrets the earth keeps which would destroy us all remain just that - secrets."
+      }
+    },
+    {
+      "id": "2968",
+      "name": "A Future Task",
+      "indexed": false,
+      "decision": "Horde-only",
+      "page": {
+        "name": "A Future Task",
+        "facts": {
+          "Start": "Nara Wildmane Thunder Bluff 75.6 , 31.6",
+          "End": "Sage Truthseeker Thunder Bluff 34.4 , 46.9",
+          "Level": "50 , requires level 45",
+          "Difficulty": "45 46 48 53 60",
+          "Side": "Horde",
+          "Shareable": "Yes",
+          "Quest ID": "2968",
+          "giver": "Nara Wildmane"
+        },
+        "pickup": [
+          "Thunder Bluff 75.6 , 31.6"
+        ],
+        "objective": "Speak with Sage Truthseeker in Thunder Bluff.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2968/a-future-task",
+        "sheetText": "Quest Objectives | Speak with Sage Truthseeker in Thunder Bluff. | Description | Well ‹name›... we seem to be at an unfortunate impasse.  We know what we need - the Plates of Uldum - but we have no idea where they might be.  We will research this, and then devise a solid plan of attack.  I have a couple ideas where to start looking; I have high hopes that soon, we'll be asking you to rejoin our efforts to discover the truth. | Sage Truthseeker needs to be informed on this, ‹name›; no doubt, he also wants to thank you personally for once again heeding the call. | Rewards | Money: | 2 | 20 | 2 gold, 20 silver, 0 copper | Experience: | 4,700 | +100 reputation with Thunder Bluff | When you hand it in | We're all in agreement then - the best course of action is to wait until we can narrow down the areas where these plates might lie hidden. You've brought us this far ‹name›, and I hope you will be the one to head back in to the field to confront the secrets of Uldum. | Allow me to give you this honorarium in the meantime; this should cover any expenses you've encountered in assisting us, and a little something extra. Be sure to check back with us soon... Uldum beckons us all, young one."
+      }
+    },
+    {
+      "id": "2977",
+      "name": "Return to Ironforge",
+      "indexed": false,
+      "decision": "include",
+      "page": {
+        "name": "Return to Ironforge",
+        "facts": {
+          "Start": "Uldum Pedestal Tanaris 37.6 , 81.4",
+          "End": "Historian Karnik Dun Morogh 63.5 , 23",
+          "Level": "50 , requires level 45",
+          "Difficulty": "45 46 48 53 60",
+          "Side": "Alliance",
+          "Type": "Elite",
+          "Shareable": "No",
+          "Quest ID": "2977",
+          "giver": "Uldum Pedestal"
+        },
+        "pickup": [
+          "Tanaris 37.6 , 81.4"
+        ],
+        "objective": "Speak with Historian Karnik in Ironforge.",
+        "requirements": [
+          "Miniature Platinum Discs"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/2977/return-to-ironforge",
+        "sheetText": "Quest Objectives | Speak with Historian Karnik in Ironforge. | Miniature Platinum Discs | Provided: | Miniature Platinum Discs | Description | You access the pedestal again; the platinum discs suddenly appear once more in your backpack. | With the knowledge of the stone watcher learned and the discs returned to your possession, the time has come to return to Ironforge and inform the Explorers' League of your discovery. | Rewards | Experience: | 470 | +10 reputation with Ironforge | When you come back | Welcome back ‹name›.  Were you able to use the discs to your advantage, or did it end up being a wild goose chase? | When you hand it in | You were missing some discs?  Interestingly enough, it seems that the discs of Norgannon are only parts of the complete set - like keys on a key ring, if you will. | If we can find the Plates of Uldum, then we could actually access the Uldum complex itself!  Imagine actually exploring the place where the Creators worked without having to bring a huge shovel! | Not that there's anything wrong with shovels... or digging..."
+      }
+    },
+    {
+      "id": "3375",
+      "name": "Replacement Phial",
+      "indexed": true,
+      "decision": "include",
+      "page": {
+        "name": "Replacement Phial",
+        "facts": {
+          "Start": "Talvash del Kissel Dun Morogh 56.9 , 21.7",
+          "End": "Talvash del Kissel Dun Morogh 56.9 , 21.7",
+          "Level": "42 , requires level 37",
+          "Difficulty": "37 38 40 45 53",
+          "Side": "Alliance",
+          "Shareable": "Yes",
+          "Repeatable": "Yes",
+          "Quest ID": "3375",
+          "giver": "Talvash del Kissel"
+        },
+        "pickup": [
+          "Dun Morogh 56.9 , 21.7"
+        ],
+        "objective": "Bring a Mana Potion, Coal, and Sweet Nectar to Talvash del Kissel in Ironforge to get a replacement for Talvash's Phial of Scrying.",
+        "requirements": [
+          "Mana Potion",
+          "Coal",
+          "Sweet Nectar"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/3375/replacement-phial",
+        "sheetText": "Quest Objectives | Bring a Mana Potion, Coal, and Sweet Nectar to Talvash del Kissel in Ironforge to get a replacement for Talvash's Phial of Scrying. | Mana Potion | Coal | Sweet Nectar | Description | Um... you need another phial of scrying?  You're kidding, right?  What did you do with the first one?!  We have a lot of work ahead of us here, â€¹raceâ€º.  Those phials don't grow on trees!  Actually, I wish they did, because I'd go there and pick one off since I don't have another one!! | in order to make you one, I need the following: a mana potion, a piece of coal, and some sweet nectar.  Don't ask why, just bring me what I ask and I'll make you a new one. | Rewards | You will receive: | Talvash's Phial of Scrying | When you come back | To make another phial I need a mana potion, a piece of coal, and some sweet nectar. | That, and a whole lotta patience apparently. | When you hand it in | The mighty adventurer delivers. Hooray for me. By the way, I lied - I had another phial. Ungh, take it. | Well, what did you expect?! \"Oh, here, have another one! I'm just some goofball who has nothing better to do than hand out magical communication devices to adventurers!\" Rest assured though, what you have given to me will be enough make you another phial when you lose that too. | Please prove me wrong and don't lose the new one, okay?"
+      }
+    }
+  ],
+  "includedItemIds": [
+    "9375",
+    "9378",
+    "9382",
+    "9387",
+    "9388",
+    "9389",
+    "9390",
+    "9407",
+    "9408",
+    "9409",
+    "274425",
+    "9410",
+    "9411",
+    "9412",
+    "9419",
+    "11310",
+    "11311",
+    "9414",
+    "9415",
+    "9416",
+    "9413",
+    "9418",
+    "11118",
+    "274432"
+  ],
+  "excludedHordeEncounterItems": [
+    "9394",
+    "9398",
+    "9400",
+    "9401",
+    "9403",
+    "9404"
+  ],
+  "hordeEncounterEvidence": {
+    "Baelog": {
+      "1": "Baelog",
+      "2": 4755,
+      "3": 4755,
+      "4": 41,
+      "5": 41,
+      "6": 1,
+      "7": {
+        "1337": {
+          "1": {
+            "1": -1,
+            "2": -1
+          }
+        }
+      },
+      "8": null,
+      "9": 1337,
+      "10": {
+        "1": 2240
+      },
+      "11": {
+        "1": 2398
+      },
+      "12": 122,
+      "13": "A",
+      "14": null,
+      "15": 2
+    },
+    "Eric": {
+      "1": "Eric \"The Swift\"",
+      "2": 4572,
+      "3": 4572,
+      "4": 40,
+      "5": 40,
+      "6": 1,
+      "7": {
+        "1337": {
+          "1": {
+            "1": -1,
+            "2": -1
+          }
+        }
+      },
+      "8": null,
+      "9": 1337,
+      "10": null,
+      "11": null,
+      "12": 122,
+      "13": "A",
+      "14": null,
+      "15": 2
+    },
+    "Olaf": {
+      "1": "Olaf",
+      "2": 5334,
+      "3": 5334,
+      "4": 40,
+      "5": 40,
+      "6": 1,
+      "7": {
+        "1337": {
+          "1": {
+            "1": -1,
+            "2": -1
+          }
+        }
+      },
+      "8": null,
+      "9": 1337,
+      "10": null,
+      "11": null,
+      "12": 122,
+      "13": "A",
+      "14": null,
+      "15": 2
+    }
+  },
+  "optionalPhialCondition": {
+    "condition_entry": 1394,
+    "type": -1,
+    "value1": 1393,
+    "value2": 1390,
+    "value3": 0,
+    "value4": 0,
+    "flags": 0,
+    "comments": "((NOT (Quest ID 2204 Rewarded) AND (Quest ID 2200 Taken OR Quest ID 2200 Rewarded)) AND Player Has Less Than 1 of Item ID 7667 in Inventory/Bank)"
+  },
+  "classicSnapshot": {
+    "url": "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+    "releasePublished": "2026-11-13T13:34:58Z",
+    "sha256": "daa16e44b95a9d4a0d17b8f8e3a91cf0b4be1af7d9b3bfc8ac71707a02399f5f"
+  },
+  "sourceHashes": {
+    "att.lua": "83b0dc5e4d1b94f6bf3619c5e68859fd6d53080de469855fec795655b0faaae8",
+    "candidate-ids.json": "a0c8688ae88e7de5cbaa0fe5633f369593e6fc3a90c63c41b6b05ca454101929",
+    "dungeon.json": "02afe795ec94dc99cb4fb3edf70bb8cbe01388d23fca77aa25f10bd94dbc8c2a",
+    "extra-candidates.json": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f",
+    "extra-fetch.json": "0982a93976b7c8beccd7c00d802bf9e8b9902a32f83a095fd3040a864222e26f",
+    "fdb-guide.html": "e16ce214a54486309daed87055e27f781f35f7be64b407c968d0b6f466419951",
+    "foreverBaseNpc.lua": "e75c057a2d4e878b93d4b56e78c28c5413bac385e0ec2f90922f9a8888ce3fd1",
+    "foreverBaseObject.lua": "fbc11217b65a99aa7141226f92d6703d47d3df376932c094defe8944469e915c",
+    "foreverBaseQuest.lua": "1173a45e948a67e06f8f4dcabfac8a0cfdf9f6022e2dc2094341abfb82d2ec45",
+    "foreverNpcTraces.lua": "9b0dbf4d3d999230c910dae9021e206d38d7876e874f3e785c300c0920ed9cec",
+    "foreverObjectTraces.lua": "7bdd318c713d5d040408bf45048e6b7d1998911c49cb7f34840390b355bd1de8",
+    "foreverQuestRelationTraces.lua": "cb791f09a508dc5ad96bbc31d7eaab1bb7181aa5ed46552ca305bd4f0275abc5",
+    "foreverQuestTraces.lua": "261910d3453f8f7c123cd7ae9bcc11e2155f29ce7ab41958e85bc712db892630",
+    "index.html": "c896994a37f764f1594edacf816e896e626d3745fd94cedc13d7f43e4dd740e4",
+    "item-11118.json": "e773100a8bcd98c5e1ef19faf222e50a19bd9388aacf5262a03996694223900a",
+    "item-11310.json": "ef9c7b1c8899d694709e68e0ff84787011ea43f1a210a038ec97acbb8e7cd6b2",
+    "item-11311.json": "68d3732213b085b9cfed345643df01b6a80f9f792ff300c60ebbb38ce2384f5f",
+    "item-1177.json": "693e89c90ff82d00e853ddc754ab0fac84aa97606d1014b27ac3ce7cc1ca8391",
+    "item-12037.json": "346dde36284b4e54e1e2feaa140b889258a7cc1d88dcaa6f880a2d0dc0d78a0e",
+    "item-2459.json": "5f3bd17942124537b6fda2c95923b9982f526a25a081535cba4c66c584b2f774",
+    "item-274425.json": "615efa0e463c9b9f42d5dac08f9e92c615e153d786a39b19379c348b95c68056",
+    "item-274432.json": "dad128e5ea7b0bba069df0db205a4de383b5f303d08e81a95ceb7feb2c129eea",
+    "item-5824.json": "306391346ff3fec614a929746123c0d28a528027f3aad4d0f154898283d609f4",
+    "item-6064.json": "db915701a265d827ce39ffc3661b996007844dfd0eb36f99f3945148709e2d91",
+    "item-7666.json": "3f544a1259c361f2161774c447b77e44089f3345273a5c2ee918bf35499348f9",
+    "item-7669.json": "8245ff2bf625a6f579a9753caace34e91524c742367df6d03600cbb4110e0f5c",
+    "item-7670.json": "54f1a7c2e4a665b0569dbe298d7fc5816f7660486572cae6994eed7f6b35e40c",
+    "item-7671.json": "4ae3bc5803a7f7daf70a8c77b2b9259abc1b65cc4dd83f0136c25f4f9e663edc",
+    "item-7672.json": "d151c4c2ea3680a219324f3d4a1cc4e165f10ae3ef1ff7b25b8b08bf53215c4e",
+    "item-7733.json": "9c5e3be24525277f6a67702f4f93f41ebfdde67f4a315b422795dc6b6a09e977",
+    "item-7740.json": "e1018b02b1f7f22296164cb370a46fe0a096d623a1fe4b9ad86eadc5fc306788",
+    "item-7741.json": "2506c88f8374f2880aa132032ef2f560660054ca568609e2f57e1595d3bc2a40",
+    "item-7886.json": "d2ec337ba059c11717ad12c21b82d26bc5fc62b87e44388c5b8b5ce36124bdfa",
+    "item-7912.json": "5085c03c76d3247d8973069d858c92f6bcd38ba1d88e9e2d67135b0d704a8c58",
+    "item-8009.json": "834b0ca18df1af6e5c50bfd0ab0e1bc01e102360845f679e46cd14b4e53930ec",
+    "item-8052.json": "7a14c34dd9e2181365d5aea5f0e99fc5a4982145e134b0ebd3e4dc64784fbc84",
+    "item-8053.json": "8d7fc061c28ad894ac1547bb7d862731a700cb340e4447efe2a7b144d82d35c9",
+    "item-9375.json": "1c9db188ae914723d00a789249afe9852762716b7d3c1344a86e8c9259e1f09f",
+    "item-9378.json": "b8595b3dfbc1948301444b9b14b322d73ce9b9105630654e99ad07ff77371a8d",
+    "item-9382.json": "43533e45a327cb19ac11dea543fd6ec943f6be29912b34dfff918deaf96cf082",
+    "item-9387.json": "a9eb9550a1d2ac482e0eb2474ca1273f62aaaeaf88ae09cedf6b5435c3885b59",
+    "item-9388.json": "6327d0033628f4469e93795e384206a4d9a769a24bd6832aaf1ef29f86558f01",
+    "item-9389.json": "0783e3fa179716f7e878729e3d6bfea615d41b670438d5fb90efb5c3ca204698",
+    "item-9390.json": "6a155cef98b3df266666c8ee779d90b550d7329422d34ee38a87f6222e996ca8",
+    "item-9394.json": "7c09dc99418b22a0f5d126eb08780bf37e4a36c45641ca6856c9fc3fed7b8a90",
+    "item-9398.json": "50b5fe758fbe7111bdf31c6d722fd34fdd46e0747460b5bb8e97aeb89299aa52",
+    "item-9399.json": "2a9af6b3a3b75a1277765bd3bb1bfc0079b2138ce052bc9f0ea52e492d5e274a",
+    "item-9400.json": "091f7fc5bcc3e2307a6063de0dc6e0c55ee832aa57ad2915429ce71254cea6b5",
+    "item-9401.json": "8fbc8d8949eb9f5bf7dcc4491ea272c96c5a1f6881d3faff282ddd2463bae196",
+    "item-9403.json": "ca66c3530171ab430fc7011a5e7901544facbc00db0b33ef6240e4784b73eb20",
+    "item-9404.json": "aed9165b3cd6617119e4d6a068b7d7f17aa2b9c78a1618853590c365d2cd2eeb",
+    "item-9407.json": "a889de46614f6765919a746aabc505173c8a0419d6aa0f41bd010d5dd0f93d58",
+    "item-9408.json": "f6b357204419a1f3d0f747a0aaaa89d5d715f1fd2306076c4f6cb31dc087513e",
+    "item-9409.json": "999aa10caca9e32951c785a561012eb69dd45c4a8b31933461ff5869e888bf96",
+    "item-9410.json": "b9c02b0795052246b3f6ea7b5d80b6805cac6374247419cde023c7198b4e603d",
+    "item-9411.json": "3c856748a83ff29c9adfc073f1845ebab267af61d1d6c83226c9b307020821b0",
+    "item-9412.json": "da681dac7cd4a7e44a5245f94f8ad06fb0e4e3c686db12f19194b6cd7c930939",
+    "item-9413.json": "b47879693130bc69c98f2b3b56ad5f61d1930c6acf59d3bfae035b7c63a46486",
+    "item-9414.json": "d39e90bf891197311a6a478f94cebac781e02ebcb252519274caaa12006a82d1",
+    "item-9415.json": "9e513b1d36d78895b536405b455fe0223366ffbdb85cf6cf5cccbd49077b756b",
+    "item-9416.json": "afb97b62cf9b1e0f97f963e5b246385c8c394f87a4234129ae263389d3ecb481",
+    "item-9418.json": "e14b06cb4fcd7882ba3311f345f8be1bca991c9e05269d98ebe57a2fa795b2ae",
+    "item-9419.json": "2499e18f2d5574c0a1287745e55c1be0cceff08d23e6dbeb6e7b485d8be9a376",
+    "item-fetch.json": "4c5326b6948dfd3c4fa2b8e082383d6bfb954c17634cd1d7c9f6ee2932c16065",
+    "merged-npcs.json": "1b3e608845b5e3d91977bddb57349e698ec639dd6aed541bffb1be6dabfc6b8d",
+    "merged-objects.json": "753694ac0cde3ae02da13acb2b337fa573da0adf16efc18561698b220d58a9f8",
+    "merged-quests.json": "842dd15130b57538ab5188e41c807d4c90266e4f657550eff71ad70e1acd6057",
+    "quest-1139.html": "4f87baf54bc5e48c54139afd3b9ecfbaea72cd4c382b678cc15018844013f78d",
+    "quest-1360.html": "3122cfdfe45aa93561f52fe31c0cb95a4190b285f96535be35e2e83b54d2a47a",
+    "quest-17.html": "e73c6907367d5db4a905c9a382c451a80e90164527da9aa7937dd91ec6725c0e",
+    "quest-1956.html": "a9a725c9c8b0002ea5742a9fd97f0850c0cc8dd5b6eef0b29777d36e15e80313",
+    "quest-2198.html": "688a7960907809bda7612955048bca231a5ea41108488f4ecb0d80054435c6e5",
+    "quest-2199.html": "8ade2388023f64689f41a94c9cca539631ec78e9ffbee5efbc4216224610feb6",
+    "quest-2200.html": "7a7c8ae6e75460ad8666353e6f50bf79c18cb96a4ba60fa32afaf1b74a6c7729",
+    "quest-2201.html": "1c6febeac8bc2088e3863474ec8da0bb25468d3e282646ac9514dc3445cdf41a",
+    "quest-2202.html": "68184f946d7b9aaaa7a84a4196d37138052658578590ec725bf3f9072c660b45",
+    "quest-2204.html": "8fac7aad33fdf82bea16e6fb4ce3e6d23abb798f09eda70ce50fb42c2976d873",
+    "quest-2240.html": "2261fa8f74fe55f1a79cef063d236759b76c66412b8768fd0840c3e25a21b6f7",
+    "quest-2278.html": "9e7ff22b5053def70102082ce327bbef910e32ec55d5a6a60284dfec04678042",
+    "quest-2279.html": "3550d3def853dcf4d3cda5ee2fc589c245b431425cb6e7552b0b30e58a01d2ae",
+    "quest-2280.html": "a157dfeaa2bd70594f6058cc029d347be9d91a6116eca3bac06775c8552206b2",
+    "quest-2283.html": "5bbcfbd8317e134607dbe6a9451f219306242997a58a262f07a0720b697ab927",
+    "quest-2284.html": "8b81ff52b5c25187d074865c2c7e70b51c96d7a0567a2f4c6ddfd312df01c4e5",
+    "quest-2318.html": "3f3f8b52368e9185c6db02a6c96d089e445582026b1b35bf7de43cc0180b2cdb",
+    "quest-2338.html": "80641213f76f372d1e1b270064e179731a0b29eb44ca3926dcee6d2778022f3b",
+    "quest-2339.html": "bdd31da4d465b6e82c41444de58694ba618327d3726262c8d3a0dbce7d090edf",
+    "quest-2340.html": "e8e88def1e90f02df0381f4ad579a71df996f29d5766c735531723997d7e82b6",
+    "quest-2341.html": "b0eb0132325d1caf8cd7b7b27198d595380a748a35082b5a6d252e469e548905",
+    "quest-2342.html": "7376a1b45e3ddd23aa739ea2ce012e5f272b2f748dd024aa335812a2f596db05",
+    "quest-2361.html": "450b9cd058bb6f306661a89b592ebb4399e6069374fc78b1841420fd7d3fd864",
+    "quest-2398.html": "d9ecb3e1cae38d59d338ec744343fa8f41e129a85c897b486075f11be90fcd6c",
+    "quest-2418.html": "e937a5c0b0dcf89ea0f3dc32c473ccb45242c83b2e4ccfdac032be0fe3fa19e0",
+    "quest-2439.html": "21073581a533f4147dd7aa9e1907a5cf1024a5cc6fe084e00666ea78609e100f",
+    "quest-2440.html": "2e261858e953260f3dd62cf8cf6f67ca55ccfd87b3e8fc5b04ed91b3449f6e8f",
+    "quest-2500.html": "6bf25b4a01827505f3c030bb94e5bf54e06f762822b6b9c7cea9322709f068a7",
+    "quest-2946.html": "b49c8d3878a96fc77c039d882680f2de6e452e1179dd3fde4aada02191cfbd3f",
+    "quest-2954.html": "287499dd36da73bb8aa641a056a8178d232b38995afda0d18a4d4e255c239fc3",
+    "quest-2963.html": "300332f203e2cc963fc52798d996bc7c2be404763d6f361be97946813c313eaa",
+    "quest-2964.html": "c0326d5c430514922771594fd8eeb8538c8f068bdc48f98139f1962405043534",
+    "quest-2965.html": "acf4584286ed007924bd4707fabe49ed83ab7a9779633138ca48459a92566b6c",
+    "quest-2966.html": "4c49a43246fbb079c8766f1fdffa7197c4f16e63140cbc600e26462add90cb39",
+    "quest-2967.html": "1789310fcf7388fab0b2af356ce80191b83424f4f042ced314007e41a302b359",
+    "quest-2968.html": "8e922d53e2058bc71ccd3fdb1c01174c4f769a0eab78a7221f190eae55a9dbfa",
+    "quest-2977.html": "a892cd3fedf46840eed5a8371dfdafd569b4c0b10cb34cb9429691c5bee5cacc",
+    "quest-3375.html": "d579fa897597f6938d2628b79a8c51615ccdbad2f3b18f2bdb14de66b79b0176",
+    "quest-704.html": "2d46cc7335b4033e8d91f3d5b3732a688e706cfccfb275c79550f0883146c93c",
+    "quest-707.html": "5aceb23e8e9865b6dd60ce2a9eb83bd99f38dfe0f9f14f42a3640cb049601a57",
+    "quest-709.html": "3cbd81471cff0338665dbcf32eabd50eedbb3d44b779b6cbd51a2dfa09e146ca",
+    "quest-719.html": "280c881ecd51924d03820f73857d3388999c928bb53191c4fe029539611cdee9",
+    "quest-720.html": "6b5aaad960d5749b712fd2e4094b29b7ec44e8ccc6d5702014fb10ddd68b9e8c",
+    "quest-721.html": "066a9099d58b1f01898b6233c3a51df5daad756bcf33012ed92932c876577561",
+    "quest-722.html": "e8d40d0aee1cc5e79da88608d0a1a89d32ecb947f81e4b3205e6c738f3848b78",
+    "quest-723.html": "004da9b7c9da5376eb9b7cc98c8c6f0ded498561f6475c4728c49315ebd9505b",
+    "quest-724.html": "ce54caab02085a86c3af0aafe1c8a27e8de63a6abf816002feb98c27f86a3ede",
+    "quest-725.html": "30b6c7bcdc68b18410c87740a0714285a4558b9f5709ed6bea49577aa63c0d91",
+    "quest-726.html": "7ed168bbe4b9f1249cb14547a90a3a75976f16d40ad553d5e7fb56aae95dd739",
+    "quest-738.html": "88fb98a2c062a273bb1eed6da7d51a37fae528b05581d805a3dff13a3017b165",
+    "quest-739.html": "38621c350a513a654b0ff0c8c730d0f4431708ff39373bf8b789021954e75318",
+    "quest-762.html": "bbcf9658a3d71bb62a5422e025934f0e0b5322d2da3e7c2aaccbb61904452f72",
+    "quest-fetch.json": "107cd71d8d37fa61bee6f966c33936f93a64efb1fb3dfaf7f0c38c789d33900c"
+  },
+  "limits": [
+    "No map added.",
+    "Lost Dwarves are friendly Alliance quest NPCs; their Horde-only equipment is excluded.",
+    "Instance pickup positions and unverified cave positions stay blank.",
+    "Random enchantments remain unspecified."
+  ]
+}

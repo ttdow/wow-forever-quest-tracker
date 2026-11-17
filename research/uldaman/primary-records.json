@@ -1,0 +1,3291 @@
+{
+  "17": {
+    "merged": {
+      "1": "Uldaman Reagent Run",
+      "2": {
+        "1": {
+          "1": 1470
+        }
+      },
+      "3": {
+        "1": {
+          "1": 1470
+        }
+      },
+      "4": 36,
+      "5": 42,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Bring 12 Magenta Fungus Caps to Ghak Healtouch in Thelsamar."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 8047
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2500
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 17,
+      "Title": "Uldaman Reagent Run",
+      "MinLevel": 36,
+      "QuestLevel": 42,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2500,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "704": {
+    "merged": {
+      "1": "Agmond's Fate",
+      "2": {
+        "1": {
+          "1": 1344
+        }
+      },
+      "3": {
+        "1": {
+          "1": 1344
+        }
+      },
+      "4": 30,
+      "5": 38,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Bring 4 Carved Stone Urns to Prospector Ironband in Loch Modan."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 4610
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 739
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 704,
+      "Title": "Agmond's Fate",
+      "MinLevel": 30,
+      "QuestLevel": 38,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 739,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "707": {
+    "merged": {
+      "1": "Ironband Wants You!",
+      "2": {
+        "1": {
+          "1": 1356
+        }
+      },
+      "3": {
+        "1": {
+          "1": 1344
+        }
+      },
+      "4": 30,
+      "5": 37,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Speak with Prospector Ironband at Ironband's Excavation Site in Loch Modan."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1537,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 738,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 25
+        }
+      }
+    },
+    "classic": {
+      "entry": 707,
+      "Title": "Ironband Wants You!",
+      "MinLevel": 30,
+      "QuestLevel": 37,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 738,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "709": {
+    "merged": {
+      "1": "Solution to Doom",
+      "2": {
+        "1": {
+          "1": 2785
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2785
+        }
+      },
+      "4": 30,
+      "5": 40,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Bring the Tablet of Ryun'eh to Theldurin the Lost."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 4631
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "classic": {
+      "entry": 709,
+      "Title": "Solution to Doom",
+      "MinLevel": 30,
+      "QuestLevel": 40,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "719": {
+    "merged": {
+      "1": "A Dwarf and His Tools",
+      "2": {
+        "1": {
+          "1": 2910
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2910
+        }
+      },
+      "4": 35,
+      "5": 35,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Find Ryedol's Lucky Pick and return it to Prospector Ryedol south of Hammertoe's Dig Site."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 4616
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 3,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 719,
+      "Title": "A Dwarf and His Tools",
+      "MinLevel": 35,
+      "QuestLevel": 35,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "720": {
+    "merged": {
+      "1": "A Sign of Hope",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 2868
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2910
+        }
+      },
+      "4": 35,
+      "5": 35,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Find Prospector Ryedol and let him know Hammertoe Grez is alive."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 3,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 721,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 75
+        }
+      }
+    },
+    "classic": {
+      "entry": 720,
+      "Title": "A Sign of Hope",
+      "MinLevel": 35,
+      "QuestLevel": 35,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 721,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "721": {
+    "merged": {
+      "1": "A Sign of Hope",
+      "2": {
+        "1": {
+          "1": 2910
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2909
+        }
+      },
+      "4": 35,
+      "5": 35,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Find Hammertoe Grez in Uldaman."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 720
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 722,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 721,
+      "Title": "A Sign of Hope",
+      "MinLevel": 35,
+      "QuestLevel": 35,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 720,
+      "NextQuestInChain": 722,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "722": {
+    "merged": {
+      "1": "Amulet of Secrets",
+      "2": {
+        "1": {
+          "1": 2909
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2909
+        }
+      },
+      "4": 35,
+      "5": 40,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Find Hammertoe's Amulet and return it to him in Uldaman."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 4635
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 721
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 723,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 722,
+      "Title": "Amulet of Secrets",
+      "MinLevel": 35,
+      "QuestLevel": 40,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 721,
+      "NextQuestInChain": 723,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "723": {
+    "merged": {
+      "1": "Prospect of Faith",
+      "2": {
+        "1": {
+          "1": 2909
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2910
+        }
+      },
+      "4": 35,
+      "5": 40,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Take Hammertoe's Amulet to Prospector Ryedol in the Badlands."
+      },
+      "9": null,
+      "10": null,
+      "11": 4635,
+      "12": null,
+      "13": {
+        "1": 722
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 3,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 724,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 150
+        }
+      }
+    },
+    "classic": {
+      "entry": 723,
+      "Title": "Prospect of Faith",
+      "MinLevel": 35,
+      "QuestLevel": 40,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 722,
+      "NextQuestInChain": 724,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "724": {
+    "merged": {
+      "1": "Prospect of Faith",
+      "2": {
+        "1": {
+          "1": 2910
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2916
+        }
+      },
+      "4": 35,
+      "5": 40,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Take Hammertoe's Amulet to Historian Karnik in Ironforge."
+      },
+      "9": null,
+      "10": null,
+      "11": 4635,
+      "12": null,
+      "13": {
+        "1": 723
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 3,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 724,
+      "Title": "Prospect of Faith",
+      "MinLevel": 35,
+      "QuestLevel": 40,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 723,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "725": {
+    "merged": {
+      "1": "Passing Word of a Threat",
+      "2": {
+        "1": {
+          "1": 2916
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2918
+        }
+      },
+      "4": 35,
+      "5": 40,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Find Advisor Belgrum and give him his note."
+      },
+      "9": null,
+      "10": null,
+      "11": 4622,
+      "12": null,
+      "13": {
+        "1": 724
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 3,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 726,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 75
+        }
+      }
+    },
+    "classic": {
+      "entry": 725,
+      "Title": "Passing Word of a Threat",
+      "MinLevel": 35,
+      "QuestLevel": 40,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 724,
+      "NextQuestInChain": 726,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "726": {
+    "merged": {
+      "1": "Passing Word of a Threat",
+      "2": {
+        "1": {
+          "1": 2918
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2916
+        }
+      },
+      "4": 35,
+      "5": 40,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Speak to Historian Karnik."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 725
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 3,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 762,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 150
+        }
+      }
+    },
+    "classic": {
+      "entry": 726,
+      "Title": "Passing Word of a Threat",
+      "MinLevel": 35,
+      "QuestLevel": 40,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 725,
+      "NextQuestInChain": 762,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "738": {
+    "merged": {
+      "1": "Find Agmond",
+      "2": {
+        "1": {
+          "1": 1344
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 2875
+        }
+      },
+      "4": 30,
+      "5": 38,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Find Agmond."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 707
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 3,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 739,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 75
+        }
+      }
+    },
+    "classic": {
+      "entry": 738,
+      "Title": "Find Agmond",
+      "MinLevel": 30,
+      "QuestLevel": 38,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 707,
+      "NextQuestInChain": 739,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "739": {
+    "merged": {
+      "1": "Murdaloc",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 2875
+        }
+      },
+      "3": {
+        "1": {
+          "1": 1344
+        }
+      },
+      "4": 30,
+      "5": 42,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Slay Agmond's killer, Murdaloc.",
+        "2": "",
+        "3": "Slay 12 Stonevault Bonesnappers.",
+        "4": "",
+        "5": "Report to Prospector Ironband in Loch Modan."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 2945
+          },
+          "2": {
+            "1": 2893
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 738
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 3,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 704,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 739,
+      "Title": "Murdaloc",
+      "MinLevel": 30,
+      "QuestLevel": 42,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 738,
+      "NextQuestInChain": 704,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "762": {
+    "merged": {
+      "1": "An Ambassador of Evil",
+      "2": {
+        "1": {
+          "1": 2916
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2918
+        }
+      },
+      "4": 35,
+      "5": 44,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Kill Ambassador Infernus in Angor Fortress and bring proof of his death to Advisor Belgrum in Ironforge."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 4621
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 726
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 3,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 1139,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 350
+        }
+      }
+    },
+    "classic": {
+      "entry": 762,
+      "Title": "An Ambassador of Evil",
+      "MinLevel": 35,
+      "QuestLevel": 44,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 726,
+      "NextQuestInChain": 1139,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "1139": {
+    "merged": {
+      "1": "The Lost Tablets of Will",
+      "2": {
+        "1": {
+          "1": 2918
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2918
+        }
+      },
+      "4": 35,
+      "5": 45,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Find the Tablet of Will, and return them to Advisor Belgrum in Ironforge."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 5824
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 762
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 500
+        }
+      }
+    },
+    "classic": {
+      "entry": 1139,
+      "Title": "The Lost Tablets of Will",
+      "MinLevel": 35,
+      "QuestLevel": 45,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 762,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "1360": {
+    "merged": {
+      "1": "Reclaimed Treasures",
+      "2": {
+        "1": {
+          "1": 6294
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6294
+        }
+      },
+      "4": 33,
+      "5": 43,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Get Krom Stoutarm's treasured possession from his chest in the North Common Hall of Uldaman, and bring it to him in Ironforge."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 8027
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 1360,
+      "Title": "Reclaimed Treasures",
+      "MinLevel": 33,
+      "QuestLevel": 43,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "1956": {
+    "merged": {
+      "1": "Power in Uldaman",
+      "2": {
+        "1": {
+          "1": 6546
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6546
+        }
+      },
+      "4": 35,
+      "5": 40,
+      "6": 0,
+      "7": 128,
+      "8": {
+        "1": "Retrieve an Obsidian Power Source and bring it to Tabetha in Dustwallow Marsh."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 8053
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 1955
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": -161,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 1957,
+      "23": 8
+    },
+    "classic": {
+      "entry": 1956,
+      "Title": "Power in Uldaman",
+      "MinLevel": 35,
+      "QuestLevel": 40,
+      "RequiredRaces": 0,
+      "RequiredClasses": 128,
+      "RequiredCondition": 0,
+      "PrevQuestId": 1955,
+      "NextQuestInChain": 1957,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2198": {
+    "merged": {
+      "1": "The Shattered Necklace",
+      "2": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": 7666
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6826
+        }
+      },
+      "4": 37,
+      "5": 41,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Search for the original creator of the shattered necklace to learn of its potential value."
+      },
+      "9": null,
+      "10": null,
+      "11": 7666,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2199
+    },
+    "classic": {
+      "entry": 2198,
+      "Title": "The Shattered Necklace",
+      "MinLevel": 37,
+      "QuestLevel": 41,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 2199,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2199": {
+    "merged": {
+      "1": "Lore for a Price",
+      "2": {
+        "1": {
+          "1": 6826
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6826
+        }
+      },
+      "4": 37,
+      "5": 41,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Bring five silver bars to Talvash del Kissel in Ironforge."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 2842
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2198
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2200,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 54,
+          "2": 150
+        }
+      }
+    },
+    "classic": {
+      "entry": 2199,
+      "Title": "Lore for a Price",
+      "MinLevel": 37,
+      "QuestLevel": 41,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2198,
+      "NextQuestInChain": 2200,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2200": {
+    "merged": {
+      "1": "Back to Uldaman",
+      "2": {
+        "1": {
+          "1": 6826
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6912
+        }
+      },
+      "4": 37,
+      "5": 42,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Search for clues as to the current disposition of Talvash's necklace within Uldaman. The slain paladin he mentioned was the person who had it last."
+      },
+      "9": null,
+      "10": null,
+      "11": 7667,
+      "12": null,
+      "13": {
+        "1": 2199
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2201,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 54,
+          "2": 150
+        }
+      }
+    },
+    "classic": {
+      "entry": 2200,
+      "Title": "Back to Uldaman",
+      "MinLevel": 37,
+      "QuestLevel": 42,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2199,
+      "NextQuestInChain": 2201,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2201": {
+    "merged": {
+      "1": "Find the Gems",
+      "2": {
+        "1": {
+          "1": 6912
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 112877
+        }
+      },
+      "4": 40,
+      "5": 43,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Find the ruby, sapphire, and topaz that are scattered throughout Uldaman. Once acquired, contact Talvash del Kissel remotely by using the Phial of Scrying he previously gave you.",
+        "2": "",
+        "3": "From the journal, you know...",
+        "4": "* The ruby has been stashed in a barricaded Shadowforge area.",
+        "5": "* The topaz has been hidden in an urn in one of the Trogg areas, near some Alliance dwarves.",
+        "6": "",
+        "7": "* The sapphire has been claimed by Grimlok, the trogg leader."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 7669
+          },
+          "2": {
+            "1": 7670
+          },
+          "3": {
+            "1": 7671
+          }
+        }
+      },
+      "11": 7668,
+      "12": null,
+      "13": {
+        "1": 2200
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2204
+    },
+    "classic": {
+      "entry": 2201,
+      "Title": "Find the Gems",
+      "MinLevel": 40,
+      "QuestLevel": 43,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2200,
+      "NextQuestInChain": 2204,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2202": {
+    "merged": {
+      "1": "Uldaman Reagent Run",
+      "2": {
+        "1": {
+          "1": 6868
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6868
+        }
+      },
+      "4": 36,
+      "5": 42,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Bring 12 Magenta Fungus Caps to Jarkal Mossmeld in Kargath."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 8047
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2258
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 530,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 2202,
+      "Title": "Uldaman Reagent Run",
+      "MinLevel": 36,
+      "QuestLevel": 42,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2258,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2204": {
+    "merged": {
+      "1": "Restoring the Necklace",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 112877
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6826
+        }
+      },
+      "4": 37,
+      "5": 44,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Obtain a power source from the most powerful construct you can find in Uldaman, and deliver it to Talvash del Kissel in Ironforge."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 7672
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2201
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "classic": {
+      "entry": 2204,
+      "Title": "Restoring the Necklace",
+      "MinLevel": 37,
+      "QuestLevel": 44,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2201,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2240": {
+    "merged": {
+      "1": "The Hidden Chamber",
+      "2": {
+        "1": {
+          "1": 6906
+        }
+      },
+      "3": {
+        "1": {
+          "1": 1356
+        }
+      },
+      "4": 35,
+      "5": 40,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Read Baelog's Journal, explore the hidden chamber, then report to Prospector Stormpike."
+      },
+      "9": {
+        "1": "Explore the Hidden Chamber",
+        "2": null
+      },
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2398
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 12,
+      "24": 2,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 350
+        }
+      }
+    },
+    "classic": {
+      "entry": 2240,
+      "Title": "The Hidden Chamber",
+      "MinLevel": 35,
+      "QuestLevel": 40,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2398,
+      "NextQuestInChain": 0,
+      "QuestFlags": 12,
+      "SpecialFlags": 2
+    },
+    "relations": null
+  },
+  "2278": {
+    "merged": {
+      "1": "The Platinum Discs",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 131474
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 131474
+        }
+      },
+      "4": 40,
+      "5": 47,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Speak with stone watcher and learn what ancient lore it keeps. Once you have learned what lore it has to offer, activate the Discs of Norgannon."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 2,
+      "24": 2
+    },
+    "classic": {
+      "entry": 2278,
+      "Title": "The Platinum Discs",
+      "MinLevel": 40,
+      "QuestLevel": 47,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 2,
+      "SpecialFlags": 2
+    },
+    "relations": null
+  },
+  "2279": {
+    "merged": {
+      "1": "The Platinum Discs",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 131474
+        }
+      },
+      "3": {
+        "1": {
+          "1": 5387
+        }
+      },
+      "4": 40,
+      "5": 47,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Take the miniature version of the Discs of Norgannon to the Explorers' League in Ironforge."
+      },
+      "9": null,
+      "10": null,
+      "11": 6064,
+      "12": null,
+      "13": {
+        "1": 2278
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2439,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 350
+        }
+      }
+    },
+    "classic": {
+      "entry": 2279,
+      "Title": "The Platinum Discs",
+      "MinLevel": 40,
+      "QuestLevel": 47,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2278,
+      "NextQuestInChain": 2439,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2280": {
+    "merged": {
+      "1": "The Platinum Discs",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 131474
+        }
+      },
+      "3": {
+        "1": {
+          "1": 3978
+        }
+      },
+      "4": 40,
+      "5": 47,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Take the miniature version of the Discs of Norgannon to the one of the sages in Thunder Bluff."
+      },
+      "9": null,
+      "10": null,
+      "11": 6064,
+      "12": null,
+      "13": {
+        "1": 2278
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2440,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 81,
+          "2": 350
+        }
+      }
+    },
+    "classic": {
+      "entry": 2280,
+      "Title": "The Platinum Discs",
+      "MinLevel": 40,
+      "QuestLevel": 47,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2278,
+      "NextQuestInChain": 2440,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2283": {
+    "merged": {
+      "1": "Necklace Recovery",
+      "2": {
+        "1": {
+          "1": 6986
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6986
+        }
+      },
+      "4": 37,
+      "5": 41,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Look for a valuable necklace within the Uldaman dig site and bring it back to Dran Droffers in Orgrimmar. The necklace may be damaged."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 7666
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2284,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 76,
+          "2": 150
+        }
+      }
+    },
+    "classic": {
+      "entry": 2283,
+      "Title": "Necklace Recovery",
+      "MinLevel": 37,
+      "QuestLevel": 41,
+      "RequiredRaces": 690,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 2284,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2284": {
+    "merged": {
+      "1": "Necklace Recovery, Take 2",
+      "2": {
+        "1": {
+          "1": 6986
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6912
+        }
+      },
+      "4": 37,
+      "5": 41,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Find a clue as to the gems' whereabouts in the depths of Uldaman."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2283
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2318,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 76,
+          "2": 150
+        }
+      }
+    },
+    "classic": {
+      "entry": 2284,
+      "Title": "Necklace Recovery, Take 2",
+      "MinLevel": 37,
+      "QuestLevel": 41,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2283,
+      "NextQuestInChain": 2318,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2318": {
+    "merged": {
+      "1": "Translating the Journal",
+      "2": {
+        "1": {
+          "1": 6912
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6868
+        }
+      },
+      "4": 37,
+      "5": 42,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Find someone who can translate the paladin's journal. The closest location that might have someone is Kargath, in the Badlands."
+      },
+      "9": null,
+      "10": null,
+      "11": 7886,
+      "12": null,
+      "13": {
+        "1": 2284
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2338,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 530,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 2318,
+      "Title": "Translating the Journal",
+      "MinLevel": 37,
+      "QuestLevel": 42,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2284,
+      "NextQuestInChain": 2338,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2338": {
+    "merged": {
+      "1": "Translating the Journal",
+      "2": {
+        "1": {
+          "1": 6868
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6868
+        }
+      },
+      "4": 37,
+      "5": 42,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Let Jarkal borrow the necklace. In exchange, he will translate the journal for you."
+      },
+      "9": null,
+      "10": null,
+      "11": 7886,
+      "12": null,
+      "13": {
+        "1": 2318
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 530,
+          "2": 10
+        }
+      }
+    },
+    "classic": {
+      "entry": 2338,
+      "Title": "Translating the Journal",
+      "MinLevel": 37,
+      "QuestLevel": 42,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2318,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2339": {
+    "merged": {
+      "1": "Find the Gems and Power Source",
+      "2": {
+        "1": {
+          "1": 6868
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6868
+        }
+      },
+      "4": 37,
+      "5": 44,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Recover all three gems and a power source for the necklace from Uldaman, and then bring them to Jarkal Mossmeld in Kargath. Jarkal believes a power source might be found on the strongest construct present in Uldaman.",
+        "2": "",
+        "3": "From the journal, you know...",
+        "4": "* The ruby has been stashed in a barricaded Shadowforge area.",
+        "5": "* The topaz has been hidden in an urn in one of the Trogg areas, near some Alliance dwarves.",
+        "6": "* The sapphire has been claimed by Grimlok, the trogg leader."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 7669
+          },
+          "2": {
+            "1": 7670
+          },
+          "3": {
+            "1": 7671
+          },
+          "4": {
+            "1": 7672
+          }
+        }
+      },
+      "11": 7668,
+      "12": null,
+      "13": {
+        "1": 2338
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 530,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 2339,
+      "Title": "Find the Gems and Power Source",
+      "MinLevel": 37,
+      "QuestLevel": 44,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2338,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2340": {
+    "merged": {
+      "1": "Deliver the Gems",
+      "2": {
+        "1": {
+          "1": 6868
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6986
+        }
+      },
+      "4": 37,
+      "5": 44,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Deliver the Necklace and Gem Salvage to Dran Droffers in Orgrimmar."
+      },
+      "9": null,
+      "10": null,
+      "11": 7887,
+      "12": null,
+      "13": {
+        "1": 2339
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2341,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 76,
+          "2": 75
+        }
+      }
+    },
+    "classic": {
+      "entry": 2340,
+      "Title": "Deliver the Gems",
+      "MinLevel": 37,
+      "QuestLevel": 44,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2339,
+      "NextQuestInChain": 2341,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2341": {
+    "merged": {
+      "1": "Necklace Recovery, Take 3",
+      "2": {
+        "1": {
+          "1": 6986
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6868
+        }
+      },
+      "4": 40,
+      "5": 44,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Visit Jarkal Mossmeld in Kargath to see if he was successful."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2340
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 530,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 2341,
+      "Title": "Necklace Recovery, Take 3",
+      "MinLevel": 40,
+      "QuestLevel": 44,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2340,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2342": {
+    "merged": {
+      "1": "Reclaimed Treasures",
+      "2": {
+        "1": {
+          "1": 5651
+        }
+      },
+      "3": {
+        "1": {
+          "1": 5651
+        }
+      },
+      "4": 33,
+      "5": 43,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Get Patrick Garrett's family treasure from their family chest in the South Common Hall of Uldaman, and bring it to him in the Undercity."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 8026
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 68,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 2342,
+      "Title": "Reclaimed Treasures",
+      "MinLevel": 33,
+      "QuestLevel": 43,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2361": {
+    "merged": {
+      "1": "Restoring the Necklace",
+      "2": {
+        "1": {
+          "1": 6826
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6826
+        }
+      },
+      "4": 37,
+      "5": 44,
+      "6": 4294967373,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2204
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 54,
+          "2": 500
+        }
+      }
+    },
+    "classic": {
+      "entry": 2361,
+      "Title": "Restoring the Necklace",
+      "MinLevel": 37,
+      "QuestLevel": 44,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2204,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2398": {
+    "merged": {
+      "1": "The Lost Dwarves",
+      "2": {
+        "1": {
+          "1": 1356
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6906
+        }
+      },
+      "4": 35,
+      "5": 40,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Find Baelog in Uldaman."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2240,
+      "23": 8
+    },
+    "classic": {
+      "entry": 2398,
+      "Title": "The Lost Dwarves",
+      "MinLevel": 35,
+      "QuestLevel": 40,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 2240,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2418": {
+    "merged": {
+      "1": "Power Stones",
+      "2": {
+        "1": {
+          "1": 2817
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2817
+        }
+      },
+      "4": 30,
+      "5": 36,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Bring 8 Dentrium Power Stones and 8 An'Alleum Power Stones to Rigglefuzz in the Badlands."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 8009
+          },
+          "2": {
+            "1": 8052
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 21,
+          "2": 350
+        },
+        "2": {
+          "1": 87,
+          "2": -350
+        }
+      }
+    },
+    "classic": {
+      "entry": 2418,
+      "Title": "Power Stones",
+      "MinLevel": 30,
+      "QuestLevel": 36,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2439": {
+    "merged": {
+      "1": "The Platinum Discs",
+      "2": {
+        "1": {
+          "1": 5387
+        }
+      },
+      "3": {
+        "1": {
+          "1": 7292
+        }
+      },
+      "4": 40,
+      "5": 47,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Take your reward voucher to Dinita Stonemantle in the Vault of Ironforge."
+      },
+      "9": null,
+      "10": null,
+      "11": 8070,
+      "12": null,
+      "13": {
+        "1": 2279
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1537
+    },
+    "classic": {
+      "entry": 2439,
+      "Title": "The Platinum Discs",
+      "MinLevel": 40,
+      "QuestLevel": 47,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2279,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2440": {
+    "merged": {
+      "1": "The Platinum Discs",
+      "2": {
+        "1": {
+          "1": 3978
+        }
+      },
+      "3": {
+        "1": {
+          "1": 3009
+        }
+      },
+      "4": 40,
+      "5": 47,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Take the reward voucher to Bena Winterhoof in Thunder Bluff."
+      },
+      "9": null,
+      "10": null,
+      "11": 8070,
+      "12": null,
+      "13": {
+        "1": 2280
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1638,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 81,
+          "2": 10
+        }
+      }
+    },
+    "classic": {
+      "entry": 2440,
+      "Title": "The Platinum Discs",
+      "MinLevel": 40,
+      "QuestLevel": 47,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2280,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2500": {
+    "merged": {
+      "1": "Badlands Reagent Run",
+      "2": {
+        "1": {
+          "1": 1470
+        }
+      },
+      "3": {
+        "1": {
+          "1": 1470
+        }
+      },
+      "4": 36,
+      "5": 39,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Acquire the reagents Ghak Healtouch needs from the Badlands, then return to him in Thelsamar."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 7847
+          },
+          "2": {
+            "1": 7846
+          },
+          "3": {
+            "1": 7848
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 38,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 2500,
+      "Title": "Badlands Reagent Run",
+      "MinLevel": 36,
+      "QuestLevel": 39,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2946": {
+    "merged": {
+      "1": "Seeing What Happens",
+      "2": {
+        "1": {
+          "1": 2916
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 142343
+        }
+      },
+      "4": 45,
+      "5": 50,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Bring the miniature platinum discs to the gates of Uldum in Tanaris and look for clues as to the connection between the two."
+      },
+      "9": null,
+      "10": null,
+      "11": 6064,
+      "12": null,
+      "13": {
+        "1": 2963
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1537,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 2946,
+      "Title": "Seeing What Happens",
+      "MinLevel": 45,
+      "QuestLevel": 50,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2963,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2954": {
+    "merged": {
+      "1": "The Stone Watcher",
+      "2": {
+        "1": {
+          "1": 7918
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 142343
+        }
+      },
+      "4": 45,
+      "5": 50,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Learn the purpose of the Stone Watcher of Norgannon, and then interact with the Uldum Pedestal in the Tanaris desert."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2946,
+        "2": 2966
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 440,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 2,
+      "24": 2
+    },
+    "classic": {
+      "entry": 2954,
+      "Title": "The Stone Watcher",
+      "MinLevel": 45,
+      "QuestLevel": 50,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 2,
+      "SpecialFlags": 2
+    },
+    "relations": null
+  },
+  "2963": {
+    "merged": {
+      "1": "Portents of Uldum",
+      "2": {
+        "1": {
+          "1": 5387
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2916
+        }
+      },
+      "4": 45,
+      "5": 50,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Speak with Historian Karnik in the Hall of Explorers within Ironforge."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2439
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1537,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2946,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 10
+        }
+      }
+    },
+    "classic": {
+      "entry": 2963,
+      "Title": "Portents of Uldum",
+      "MinLevel": 45,
+      "QuestLevel": 50,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2439,
+      "NextQuestInChain": 2946,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2964": {
+    "merged": {
+      "1": "A Future Task",
+      "2": {
+        "1": {
+          "1": 2916
+        }
+      },
+      "3": {
+        "1": {
+          "1": 5387
+        }
+      },
+      "4": 45,
+      "5": 50,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Speak with High Explorer Magellas in Ironforge."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2977
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1537,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 2964,
+      "Title": "A Future Task",
+      "MinLevel": 45,
+      "QuestLevel": 50,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2977,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2965": {
+    "merged": {
+      "1": "Portents of Uldum",
+      "2": {
+        "1": {
+          "1": 3978
+        }
+      },
+      "3": {
+        "1": {
+          "1": 5770
+        }
+      },
+      "4": 45,
+      "5": 50,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Speak with Nara Wildmane on the Elder Rise in Thunder Bluff."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2440
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1638,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2966,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 81,
+          "2": 10
+        }
+      }
+    },
+    "classic": {
+      "entry": 2965,
+      "Title": "Portents of Uldum",
+      "MinLevel": 45,
+      "QuestLevel": 50,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2440,
+      "NextQuestInChain": 2966,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2966": {
+    "merged": {
+      "1": "Seeing What Happens",
+      "2": {
+        "1": {
+          "1": 5770
+        }
+      },
+      "3": {
+        "1": null,
+        "2": {
+          "1": 142343
+        }
+      },
+      "4": 45,
+      "5": 50,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Bring the miniature platinum discs to the gates of Uldum in Tanaris and look for clues as to the connection between the two."
+      },
+      "9": null,
+      "10": null,
+      "11": 6064,
+      "12": null,
+      "13": {
+        "1": 2965
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1638,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 81,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 2966,
+      "Title": "Seeing What Happens",
+      "MinLevel": 45,
+      "QuestLevel": 50,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2965,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2967": {
+    "merged": {
+      "1": "Return to Thunder Bluff",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 142343
+        }
+      },
+      "3": {
+        "1": {
+          "1": 5770
+        }
+      },
+      "4": 45,
+      "5": 50,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Speak with Nara Wildmane in Thunder Bluff."
+      },
+      "9": null,
+      "10": null,
+      "11": 6064,
+      "12": null,
+      "13": {
+        "1": 2954
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1638,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2968,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 81,
+          "2": 10
+        }
+      }
+    },
+    "classic": {
+      "entry": 2967,
+      "Title": "Return to Thunder Bluff",
+      "MinLevel": 45,
+      "QuestLevel": 50,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2954,
+      "NextQuestInChain": 2968,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2968": {
+    "merged": {
+      "1": "A Future Task",
+      "2": {
+        "1": {
+          "1": 5770
+        }
+      },
+      "3": {
+        "1": {
+          "1": 3978
+        }
+      },
+      "4": 45,
+      "5": 50,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Speak with Sage Truthseeker in Thunder Bluff."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 2967
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1638,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 81,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 2968,
+      "Title": "A Future Task",
+      "MinLevel": 45,
+      "QuestLevel": 50,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2967,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "2977": {
+    "merged": {
+      "1": "Return to Ironforge",
+      "2": {
+        "1": null,
+        "2": {
+          "1": 142343
+        }
+      },
+      "3": {
+        "1": {
+          "1": 2916
+        }
+      },
+      "4": 45,
+      "5": 50,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Speak with Historian Karnik in Ironforge."
+      },
+      "9": null,
+      "10": null,
+      "11": 6064,
+      "12": null,
+      "13": {
+        "1": 2954
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1537,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": 2964,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 47,
+          "2": 10
+        }
+      }
+    },
+    "classic": {
+      "entry": 2977,
+      "Title": "Return to Ironforge",
+      "MinLevel": 45,
+      "QuestLevel": 50,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 2954,
+      "NextQuestInChain": 2964,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "relations": null
+  },
+  "3375": {
+    "merged": {
+      "1": "Replacement Phial",
+      "2": {
+        "1": {
+          "1": 6826
+        }
+      },
+      "3": {
+        "1": {
+          "1": 6826
+        }
+      },
+      "4": 37,
+      "5": 42,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Bring a Mana Potion, Coal, and Sweet Nectar to Talvash del Kissel in Ironforge to get a replacement for Talvash's Phial of Scrying."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 3827
+          },
+          "2": {
+            "1": 3857
+          },
+          "3": {
+            "1": 1708
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 1517,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": 1
+    },
+    "classic": {
+      "entry": 3375,
+      "Title": "Replacement Phial",
+      "MinLevel": 37,
+      "QuestLevel": 42,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 1394,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 1
+    },
+    "relations": null
+  }
+}

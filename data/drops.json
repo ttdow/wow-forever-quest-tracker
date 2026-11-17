@@ -6300,6 +6300,622 @@
           ]
         }
       ]
+    },
+    "Uldaman": {
+      "id": 70,
+      "build": "1.60.1.70938",
+      "source": "https://foreverdb.net/dungeon/70-uldaman",
+      "items": [
+        {
+          "id": "9375",
+          "name": "Expert Goldminer's Helmet",
+          "quality": 3,
+          "requiredLevel": 35,
+          "itemLevel": 40,
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "99 Armor",
+            "+7 Agility",
+            "+8 Stamina",
+            "Reduces chance to be Dodged or Parried by 1.1%",
+            "+1 Axes"
+          ],
+          "source": "Digmaster Shovelphlange (rare, entrance caves)",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9375",
+            "https://nether.wowhead.com/forever/tooltip/item/9375",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9378",
+          "name": "Shovelphlange's Mining Axe",
+          "quality": 3,
+          "requiredLevel": 35,
+          "itemLevel": 40,
+          "slot": "One-hand",
+          "type": "Axe",
+          "stats": [
+            "53–100 damage · 2.80s · 27.32 DPS",
+            "+7 Strength",
+            "+11 Attack Power",
+            "Unique"
+          ],
+          "source": "Digmaster Shovelphlange (rare, entrance caves)",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9378",
+            "https://nether.wowhead.com/forever/tooltip/item/9378",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9382",
+          "name": "Tromping Miner's Boots",
+          "quality": 2,
+          "requiredLevel": 35,
+          "itemLevel": 40,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "76 Armor",
+            "+9 Strength",
+            "+8 Stamina"
+          ],
+          "source": "Digmaster Shovelphlange (rare, entrance caves)",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9382",
+            "https://nether.wowhead.com/forever/tooltip/item/9382",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9387",
+          "name": "Revelosh's Boots",
+          "quality": 3,
+          "requiredLevel": 40,
+          "itemLevel": 42,
+          "slot": "Feet",
+          "type": "Plate",
+          "stats": [
+            "257 Armor",
+            "Random enchantment"
+          ],
+          "source": "Revelosh",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9387",
+            "https://nether.wowhead.com/forever/tooltip/item/9387",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9388",
+          "name": "Revelosh's Armguards",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Wrist",
+          "type": "Mail",
+          "stats": [
+            "115 Armor",
+            "Random enchantment"
+          ],
+          "source": "Revelosh",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9388",
+            "https://nether.wowhead.com/forever/tooltip/item/9388",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9389",
+          "name": "Revelosh's Spaulders",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Shoulder",
+          "type": "Leather",
+          "stats": [
+            "95 Armor",
+            "Random enchantment"
+          ],
+          "source": "Revelosh",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9389",
+            "https://nether.wowhead.com/forever/tooltip/item/9389",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9390",
+          "name": "Revelosh's Gloves",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "38 Armor",
+            "Random enchantment"
+          ],
+          "source": "Revelosh",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9390",
+            "https://nether.wowhead.com/forever/tooltip/item/9390",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9407",
+          "name": "Stoneweaver Leggings",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "53 Armor",
+            "+9 Stamina",
+            "+8 Intellect",
+            "+12 Spirit",
+            "+20 Healing",
+            "+7 Spell Damage"
+          ],
+          "source": "Ironaya",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9407",
+            "https://nether.wowhead.com/forever/tooltip/item/9407",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9408",
+          "name": "Ironshod Bludgeon",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "74–112 damage · 2.50s · 37.20 DPS",
+            "+8 Strength",
+            "+20 Stamina"
+          ],
+          "source": "Ironaya",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9408",
+            "https://nether.wowhead.com/forever/tooltip/item/9408",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9409",
+          "name": "Ironaya's Bracers",
+          "quality": 3,
+          "requiredLevel": 37,
+          "itemLevel": 42,
+          "slot": "Wrist",
+          "type": "Mail",
+          "stats": [
+            "115 Armor",
+            "Random enchantment",
+            "+50 Armor"
+          ],
+          "source": "Ironaya",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9409",
+            "https://nether.wowhead.com/forever/tooltip/item/9409",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "274425",
+          "name": "White Obsidian Wand",
+          "quality": 3,
+          "requiredLevel": 39,
+          "itemLevel": 44,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "49–92 Arcane damage · 1.70s · 41.47 DPS",
+            "+6 Spell Damage and Healing",
+            "Chance on hit: Reduce the mana cost of your next spell within 10 sec by 24."
+          ],
+          "source": "Obsidian Sentinel",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274425",
+            "https://nether.wowhead.com/forever/tooltip/item/274425",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9410",
+          "name": "Cragfists",
+          "quality": 3,
+          "requiredLevel": 41,
+          "itemLevel": 46,
+          "slot": "Hands",
+          "type": "Plate",
+          "stats": [
+            "306 Armor",
+            "Random enchantment",
+            "+5 Defense"
+          ],
+          "source": "Ancient Stone Keeper",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9410",
+            "https://nether.wowhead.com/forever/tooltip/item/9410",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9411",
+          "name": "Rockshard Pauldrons",
+          "quality": 3,
+          "requiredLevel": 41,
+          "itemLevel": 46,
+          "slot": "Shoulder",
+          "type": "Mail",
+          "stats": [
+            "209 Armor",
+            "+3 Strength",
+            "+13 Intellect",
+            "+6 Spirit",
+            "+12 Spell Damage and Healing"
+          ],
+          "source": "Ancient Stone Keeper",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9411",
+            "https://nether.wowhead.com/forever/tooltip/item/9411",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9412",
+          "name": "Galgann's Fireblaster",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Ranged",
+          "type": "Gun",
+          "stats": [
+            "44–84 damage · 2.60s · 24.62 DPS",
+            "Chance on hit: Strike your ranged target for 22–34 Fire damage."
+          ],
+          "source": "Galgann Firehammer",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9412",
+            "https://nether.wowhead.com/forever/tooltip/item/9412",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9419",
+          "name": "Galgann's Firehammer",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Main hand",
+          "type": "Mace",
+          "stats": [
+            "32–60 damage · 2.20s · 20.91 DPS",
+            "+54 Spell Damage and Healing",
+            "Chance on harmful spell cast: Blast a target for 64–90 Fire damage."
+          ],
+          "source": "Galgann Firehammer",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9419",
+            "https://nether.wowhead.com/forever/tooltip/item/9419",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "11310",
+          "name": "Flameseer Mantle",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Shoulder",
+          "type": "Cloth",
+          "stats": [
+            "51 Armor",
+            "+10 Spirit",
+            "+14 Fire Spell Damage"
+          ],
+          "source": "Galgann Firehammer",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=11310",
+            "https://nether.wowhead.com/forever/tooltip/item/11310",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "11311",
+          "name": "Emberscale Cape",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "34 Armor",
+            "+14 Stamina",
+            "+4 Fire Resistance"
+          ],
+          "source": "Galgann Firehammer",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=11311",
+            "https://nether.wowhead.com/forever/tooltip/item/11311",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9414",
+          "name": "Oilskin Leggings",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "122 Armor",
+            "+18 Agility",
+            "+11 Spirit",
+            "+1 Feral Combat"
+          ],
+          "source": "Grimlok",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9414",
+            "https://nether.wowhead.com/forever/tooltip/item/9414",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9415",
+          "name": "Grimlok's Tribal Vestments",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "68 Armor",
+            "+10 Stamina",
+            "+5 Intellect",
+            "+14 Spirit",
+            "+29 Healing",
+            "+10 Spell Damage"
+          ],
+          "source": "Grimlok",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9415",
+            "https://nether.wowhead.com/forever/tooltip/item/9415",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9416",
+          "name": "Grimlok's Charge",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Two-hand",
+          "type": "Polearm",
+          "stats": [
+            "88–133 damage · 2.70s · 40.93 DPS",
+            "+10 Strength",
+            "+15 Agility",
+            "+15 Stamina"
+          ],
+          "source": "Grimlok",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9416",
+            "https://nether.wowhead.com/forever/tooltip/item/9416",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9413",
+          "name": "The Rockpounder",
+          "quality": 3,
+          "requiredLevel": 44,
+          "itemLevel": 49,
+          "slot": "Two-hand",
+          "type": "Two-hand mace",
+          "stats": [
+            "126–190 damage · 3.70s · 42.70 DPS",
+            "+5 Strength",
+            "+2% Critical Strike"
+          ],
+          "source": "Archaedas",
+          "sourceOrder": 8,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9413",
+            "https://nether.wowhead.com/forever/tooltip/item/9413",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "9418",
+          "name": "Stoneslayer",
+          "quality": 3,
+          "requiredLevel": 44,
+          "itemLevel": 49,
+          "slot": "Two-hand",
+          "type": "Two-hand sword",
+          "stats": [
+            "133–200 damage · 3.90s · 42.69 DPS",
+            "Chance on hit: Deal 196 Physical damage; triple damage against Earth Elementals, Golems, and Titan-forged."
+          ],
+          "source": "Archaedas",
+          "sourceOrder": 8,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=9418",
+            "https://nether.wowhead.com/forever/tooltip/item/9418",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "11118",
+          "name": "Archaedic Stone",
+          "quality": 3,
+          "requiredLevel": 42,
+          "itemLevel": 47,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "Random enchantment",
+            "+50 Armor",
+            "Unique-Equipped"
+          ],
+          "source": "Archaedas",
+          "sourceOrder": 8,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=11118",
+            "https://nether.wowhead.com/forever/tooltip/item/11118",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        },
+        {
+          "id": "274432",
+          "name": "Stone Keeper Spire",
+          "quality": 3,
+          "requiredLevel": 44,
+          "itemLevel": 49,
+          "slot": "Two-hand",
+          "type": "Staff",
+          "stats": [
+            "81–122 damage · 3.20s · 31.72 DPS",
+            "+19 Stamina",
+            "+180 Armor",
+            "+105 Healing",
+            "+35 Spell Damage"
+          ],
+          "source": "Archaedas",
+          "sourceOrder": 8,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=274432",
+            "https://nether.wowhead.com/forever/tooltip/item/274432",
+            "https://foreverdb.net/dungeon/70-uldaman",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        }
+      ]
     }
   }
 }

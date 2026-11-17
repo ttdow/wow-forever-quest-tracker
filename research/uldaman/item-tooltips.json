@@ -1,0 +1,345 @@
+{
+  "1177": {
+    "name": "Oil of Olaf",
+    "quality": 1,
+    "icon": "inv_potion_12",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Oil of Olaf</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->8</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Use: <!--useEffect:0:1--><a href=\"/forever/spell=673/elixir-of-minor-defense\" class=\"q2\">Increases armor by 50 for 1 hour.</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">Max Stack: 10</div><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneycopper\">3</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Olaf</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 19.05%</div></td></tr></table>",
+    "spells": []
+  },
+  "2459": {
+    "name": "Swiftness Potion",
+    "quality": 1,
+    "icon": "inv_potion_95",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Swiftness Potion</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->15</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td>Requires Level <!--rlvl-->5<br><br><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Use: <!--useEffect:0:1--><a href=\"/forever/spell=2379/speed\" class=\"q2\">Increases run speed by 50% for 15 sec.</a> (2 Min Cooldown)<!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">Max Stack: 5</div><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneycopper\">25</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Eric \"The Swift\"</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 13.55%</div></td></tr></table>",
+    "spells": []
+  },
+  "5824": {
+    "name": "Tablet of Will",
+    "quality": 1,
+    "icon": "inv_misc_rune_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Tablet of Will</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->1</span><!--bo--><br>Quest Item<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--></td></tr></table>",
+    "spells": []
+  },
+  "6064": {
+    "name": "Miniature Platinum Discs",
+    "quality": 1,
+    "icon": "inv_misc_platnumdisks",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Miniature Platinum Discs</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->1</span><!--bo--><br>Quest Item<br>Unique<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--></td></tr></table>",
+    "spells": []
+  },
+  "7666": {
+    "name": "Shattered Necklace",
+    "quality": 2,
+    "icon": "inv_jewelry_necklace_02",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q2\">Shattered Necklace</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->37</span><!--bo--><br>Binds when picked up<br>Unique<!--ue--><!--ue--><br><a href=\"https://www.wowhead.com/forever/quest=2198/the-shattered-necklace\" class=\"q1\">This Item Begins a Quest</a><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td>Requires Level <!--rlvl-->37<!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--></td></tr></table>",
+    "spells": []
+  },
+  "7669": {
+    "name": "Shattered Necklace Ruby",
+    "quality": 1,
+    "icon": "inv_misc_gem_ruby_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Shattered Necklace Ruby</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->1</span><!--bo--><br>Quest Item<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--></td></tr></table>",
+    "spells": []
+  },
+  "7670": {
+    "name": "Shattered Necklace Sapphire",
+    "quality": 1,
+    "icon": "inv_misc_gem_sapphire_02",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Shattered Necklace Sapphire</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->1</span><!--bo--><br>Quest Item<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-droppedby\">Dropped by: Grimlok</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 14.17%</div></td></tr></table>",
+    "spells": []
+  },
+  "7671": {
+    "name": "Shattered Necklace Topaz",
+    "quality": 1,
+    "icon": "inv_misc_gem_topaz_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Shattered Necklace Topaz</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->1</span><!--bo--><br>Quest Item<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--></td></tr></table>",
+    "spells": []
+  },
+  "7672": {
+    "name": "Shattered Necklace Power Source",
+    "quality": 1,
+    "icon": "inv_misc_orb_03",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Shattered Necklace Power Source</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->1</span><!--bo--><br>Quest Item<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-droppedby\">Dropped by: Archaedas</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 11.97%</div></td></tr></table>",
+    "spells": []
+  },
+  "7733": {
+    "name": "Staff of Prehistoria",
+    "quality": 1,
+    "icon": "inv_staff_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Staff of Prehistoria</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->1</span><!--bo--><br>Quest Item<br>Unique<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Use: <!--useEffect:0:1--><a href=\"/forever/spell=9577/uldaman-key-staff\" class=\"q2\">Place in the Uldaman map room.</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--></td></tr></table>",
+    "spells": []
+  },
+  "7740": {
+    "name": "Gni'kiv Medallion",
+    "quality": 1,
+    "icon": "inv_jewelry_amulet_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Gni'kiv Medallion</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->1</span><!--bo--><br>Unique<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Use: <!--useEffect:0:1--><a href=\"/forever/spell=9594/attach-medallion-to-shaft\" class=\"q2\">Attach to the Shaft of Tsol.</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-droppedby\">Dropped by: Baelog</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 2.73%</div></td></tr></table>",
+    "spells": []
+  },
+  "7741": {
+    "name": "The Shaft of Tsol",
+    "quality": 1,
+    "icon": "inv_staff_goldfeathered_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">The Shaft of Tsol</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->1</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Use: <!--useEffect:0:1--><a href=\"/forever/spell=9595/attach-shaft-to-medallion\" class=\"q2\">Attach to the Gni'kiv Medallion.</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-droppedby\">Dropped by: Revelosh</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 11.59%</div></td></tr></table>",
+    "spells": []
+  },
+  "7886": {
+    "name": "Untranslated Journal",
+    "quality": 1,
+    "icon": "inv_misc_book_04",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Untranslated Journal</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->1</span><!--bo--><br>Quest Item<br>Unique<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><span class=\"q\">&quot;You do not understand the writing in the journal.&quot;</span><br><!--pvpEquip--><!--pvpEquip--></td></tr></table>",
+    "spells": []
+  },
+  "7912": {
+    "name": "Solid Stone",
+    "quality": 1,
+    "icon": "inv_stone_10",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Solid Stone</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->35</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><span class=\"toycolor\">Crafting Reagent</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">Max Stack: 20</div><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">1</span></div></td></tr></table>",
+    "spells": []
+  },
+  "8009": {
+    "name": "Dentrium Power Stone",
+    "quality": 1,
+    "icon": "inv_battery_02",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Dentrium Power Stone</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->1</span><!--bo--><br>Quest Item<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">Max Stack: 20</div></td></tr></table>",
+    "spells": []
+  },
+  "8052": {
+    "name": "An'Alleum Power Stone",
+    "quality": 1,
+    "icon": "inv_battery_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">An'Alleum Power Stone</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->1</span><!--bo--><br>Quest Item<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">Max Stack: 20</div></td></tr></table>",
+    "spells": []
+  },
+  "8053": {
+    "name": "Obsidian Power Source",
+    "quality": 1,
+    "icon": "inv_misc_orb_03",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Obsidian Power Source</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->1</span><!--bo--><br>Quest Item<!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-droppedby\">Dropped by: Obsidian Sentinel</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 1.63%</div></td></tr></table>",
+    "spells": []
+  },
+  "9375": {
+    "name": "Expert Goldminer's Helmet",
+    "quality": 3,
+    "icon": "inv_helmet_18",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Expert Goldminer's Helmet</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->40</span><!--bo--><br>Binds when equipped<!--ue--><!--ue--><table width=\"100%\"><tr><td>Head</td><th><!--scstart4:2--><span class=\"q1\">Leather</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->99 Armor</span><br><span><!--stat3-->+7 Agility</span><br><span><!--stat7-->+8 Stamina</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 60 / 60</td></tr></table><table><tr><td>Requires Level <!--rlvl-->35<br><!--rr--><span class=\"q2\">Equip: Reduces chance to be Dodged or Parried by 1.1%.</span><br><span class=\"q2\">Equip: Increased Axes +<!--rtg93-->1.</span><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">42</span> <span class=\"moneycopper\">20</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Digmaster Shovelphlange</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 20.00%</div></td></tr></table><!--i?9375:1:60:35-->",
+    "spells": []
+  },
+  "9378": {
+    "name": "Shovelphlange's Mining Axe",
+    "quality": 3,
+    "icon": "inv_pick_02",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Shovelphlange's Mining Axe</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->40</span><!--bo--><br>Binds when equipped<br>Unique<!--ue--><!--ue--><table width=\"100%\"><tr><td>One-Hand</td><th><!--scstart2:0--><span class=\"q1\">Axe</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->53 - 100 Damage</span></td>\n    <th>Speed <!--spd-->2.80</th>\n</tr></table><!--dps-->(27.32 damage per second)<br><span><!--stat4-->+7 Strength</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 90 / 90</td></tr></table><table><tr><td>Requires Level <!--rlvl-->35<br><!--rr--><span class=\"q2\">Equip: +<!--rtg38-->11 Attack Power.</span><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneygold\">1</span> <span class=\"moneysilver\">13</span> <span class=\"moneycopper\">80</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Digmaster Shovelphlange</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 20.00%</div></td></tr></table><!--i?9378:1:60:35-->",
+    "spells": []
+  },
+  "9382": {
+    "name": "Tromping Miner's Boots",
+    "quality": 2,
+    "icon": "inv_boots_08",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q2\">Tromping Miner's Boots</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->40</span><!--bo--><br>Binds when equipped<!--ue--><!--ue--><table width=\"100%\"><tr><td>Feet</td><th><!--scstart4:2--><span class=\"q1\">Leather</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->76 Armor</span><br><span><!--stat4-->+9 Strength</span><br><span><!--stat7-->+8 Stamina</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 45 / 45</td></tr></table><table><tr><td>Requires Level <!--rlvl-->35<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">36</span> <span class=\"moneycopper\">7</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Digmaster Shovelphlange</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 40.00%</div></td></tr></table>",
+    "spells": []
+  },
+  "9387": {
+    "name": "Revelosh's Boots",
+    "quality": 3,
+    "icon": "inv_boots_plate_06",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Revelosh's Boots</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->42</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Feet</td><th><!--scstart4:4--><span class=\"q1\">Plate</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->257 Armor</span><br><!--re--><span class=\"q2\">&lt;Random enchantment&gt;</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 55 / 55</td></tr></table><table><tr><td>Requires Level <!--rlvl-->40<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">80</span> <span class=\"moneycopper\">87</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Revelosh</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 24.94%</div></td></tr></table>",
+    "spells": []
+  },
+  "9388": {
+    "name": "Revelosh's Armguards",
+    "quality": 3,
+    "icon": "inv_bracer_16",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Revelosh's Armguards</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->42</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Wrist</td><th><!--scstart4:3--><span class=\"q1\">Mail</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->115 Armor</span><br><!--re--><span class=\"q2\">&lt;Random enchantment&gt;</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 35 / 35</td></tr></table><table><tr><td>Requires Level <!--rlvl-->37<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">46</span> <span class=\"moneycopper\">30</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Revelosh</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 22.67%</div></td></tr></table>",
+    "spells": []
+  },
+  "9389": {
+    "name": "Revelosh's Spaulders",
+    "quality": 3,
+    "icon": "inv_shoulder_25",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Revelosh's Spaulders</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->42</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Shoulder</td><th><!--scstart4:2--><span class=\"q1\">Leather</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->95 Armor</span><br><!--re--><span class=\"q2\">&lt;Random enchantment&gt;</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 50 / 50</td></tr></table><table><tr><td>Requires Level <!--rlvl-->37<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">58</span> <span class=\"moneycopper\">3</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Revelosh</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 22.67%</div></td></tr></table>",
+    "spells": []
+  },
+  "9390": {
+    "name": "Revelosh's Gloves",
+    "quality": 3,
+    "icon": "inv_gauntlets_17",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Revelosh's Gloves</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->42</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Hands</td><th><!--scstart4:1--><span class=\"q1\">Cloth</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->38 Armor</span><br><!--re--><span class=\"q2\">&lt;Random enchantment&gt;</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 25 / 25</td></tr></table><table><tr><td>Requires Level <!--rlvl-->37<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">30</span> <span class=\"moneycopper\">87</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Revelosh</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 22.42%</div></td></tr></table>",
+    "spells": []
+  },
+  "9394": {
+    "name": "Horned Viking Helmet",
+    "quality": 3,
+    "icon": "inv_helmet_25",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Horned Viking Helmet</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->42</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Head</td><th><!--scstart4:4--><span class=\"q1\">Plate</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->303 Armor</span><br><span><!--stat3-->+10 Agility</span><br><span><!--stat7-->+15 Stamina</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 80 / 80</td></tr></table><table><tr><td>Requires Level <!--rlvl-->40<br><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Use: <!--useEffect:0:1--><a href=\"/forever/spell=22641/reckless-charge\" class=\"q2\">Charge an enemy, knocking it silly for 30 seconds. Also knocks you down, stunning you for a short period of time. Any damage caused will revive the target.</a> (30 Min Cooldown)<!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">80</span> <span class=\"moneycopper\">87</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Eric \"The Swift\"</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 45.02%</div></td></tr></table>",
+    "spells": []
+  },
+  "9398": {
+    "name": "Worn Running Boots",
+    "quality": 3,
+    "icon": "inv_boots_02",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Worn Running Boots</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->42</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Feet</td><th><!--scstart4:2--><span class=\"q1\">Leather</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->87 Armor</span><br><span><!--stat3-->+13 Agility</span><br><span><!--stat7-->+10 Stamina</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 45 / 45</td></tr></table><table><tr><td>Requires Level <!--rlvl-->37<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">58</span> <span class=\"moneycopper\">3</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Eric \"The Swift\"</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 38.25%</div></td></tr></table>",
+    "spells": []
+  },
+  "9399": {
+    "name": "Precision Arrow",
+    "quality": 2,
+    "icon": "inv_ammo_arrow_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q2\">Precision Arrow</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->40</span><!--bo--><!--ue--><!--ue--><table width=\"100%\"><tr><td>Ammo</td><th><!--scstart6:2--><span class=\"q1\">Arrow</span><!--scend--></th></tr></table><!--rf--><span>Adds 11.5 damage per second</span>\n<!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td>Requires Level <!--rlvl-->35<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">Max Stack: 200</div><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneycopper\">3</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Baelog</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 81.42%</div></td></tr></table>",
+    "spells": []
+  },
+  "9400": {
+    "name": "Baelog's Shortbow",
+    "quality": 3,
+    "icon": "inv_weapon_bow_11",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Baelog's Shortbow</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->43</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Ranged</td><th><!--scstart2:2--><span class=\"q1\">Bow</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->36 - 68 Damage</span></td>\n    <th>Speed <!--spd-->2.30</th>\n</tr></table><!--dps-->(22.61 damage per second)<br><span><!--stat4-->+5 Strength</span><br><span><!--stat7-->+5 Stamina</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 65 / 65</td></tr></table><table><tr><td>Requires Level <!--rlvl-->38<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneygold\">1</span> <span class=\"moneysilver\">25</span> <span class=\"moneycopper\">2</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Baelog</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 40.44%</div></td></tr></table>",
+    "spells": []
+  },
+  "9401": {
+    "name": "Nordic Longshank",
+    "quality": 3,
+    "icon": "inv_sword_24",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Nordic Longshank</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->43</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>One-Hand</td><th><!--scstart2:7--><span class=\"q1\">Sword</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->45 - 84 Damage</span></td>\n    <th>Speed <!--spd-->2.20</th>\n</tr></table><!--dps-->(29.32 damage per second)<br><span><!--stat3-->+8 Agility</span><br><span><!--stat7-->+5 Stamina</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 90 / 90</td></tr></table><table><tr><td>Requires Level <!--rlvl-->38<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneygold\">1</span> <span class=\"moneysilver\">66</span> <span class=\"moneycopper\">69</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Baelog</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 50.27%</div></td></tr></table>",
+    "spells": []
+  },
+  "9403": {
+    "name": "Battered Viking Shield",
+    "quality": 3,
+    "icon": "inv_shield_07",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Battered Viking Shield</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->42</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Off Hand</td><th><!--scstart4:6--><span class=\"q1\">Shield</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->1287 Armor</span><br>22 Block<br><span><!--stat6-->+10 Spirit</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 85 / 85</td></tr></table><table><tr><td>Requires Level <!--rlvl-->37<br><!--rr--><span class=\"q2\">Equip: Increases healing done by up to <span><!--rtg41-->13</span> and damage done by up to <span><!--rtg42-->5</span> for all magical spells and effects.</span><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">98</span> <span class=\"moneycopper\">78</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Olaf</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 38.10%</div></td></tr></table><!--i?9403:1:60:37-->",
+    "spells": []
+  },
+  "9404": {
+    "name": "Olaf's All Purpose Shield",
+    "quality": 3,
+    "icon": "inv_shield_02",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Olaf's All Purpose Shield</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->42</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Off Hand</td><th><!--scstart4:6--><span class=\"q1\">Shield</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->1287 Armor</span><br>22 Block<br><span><!--stat7-->+11 Stamina</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 100 / 100</td></tr></table><table><tr><td>Requires Level <!--rlvl-->37<br><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Use: <!--useEffect:0:1--><a href=\"/forever/spell=12438/slow-fall\" class=\"q2\">Reduces your fall speed for 10 sec.</a> (30 Min Cooldown)<!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">98</span> <span class=\"moneycopper\">78</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Olaf</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 54.17%</div></td></tr></table>",
+    "spells": []
+  },
+  "9407": {
+    "name": "Stoneweaver Leggings",
+    "quality": 3,
+    "icon": "inv_pants_01",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Stoneweaver Leggings</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->42</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Legs</td><th><!--scstart4:1--><span class=\"q1\">Cloth</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->53 Armor</span><br><span><!--stat7-->+9 Stamina</span><br><span><!--stat5-->+8 Intellect</span><br><span><!--stat6-->+12 Spirit</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 65 / 65</td></tr></table><table><tr><td>Requires Level <!--rlvl-->37<br><!--rr--><span class=\"q2\">Equip: Increases healing done by up to <span><!--rtg41-->20</span> and damage done by up to <span><!--rtg42-->7</span> for all magical spells and effects.</span><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">61</span> <span class=\"moneycopper\">74</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Ironaya</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 27.92%</div></td></tr></table><!--i?9407:1:60:37-->",
+    "spells": []
+  },
+  "9408": {
+    "name": "Ironshod Bludgeon",
+    "quality": 3,
+    "icon": "inv_staff_28",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Ironshod Bludgeon</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->42</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Two-Hand</td><th><!--scstart2:10--><span class=\"q1\">Staff</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->74 - 112 Damage</span></td>\n    <th>Speed <!--spd-->2.50</th>\n</tr></table><!--dps-->(37.20 damage per second)<br><span><!--stat4-->+8 Strength</span><br><span><!--stat7-->+20 Stamina</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 100 / 100</td></tr></table><table><tr><td>Requires Level <!--rlvl-->37<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneygold\">1</span> <span class=\"moneysilver\">92</span> <span class=\"moneycopper\">93</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Ironaya</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 29.68%</div></td></tr></table>",
+    "spells": []
+  },
+  "9409": {
+    "name": "Ironaya's Bracers",
+    "quality": 3,
+    "icon": "inv_bracer_19",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Ironaya's Bracers</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->42</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Wrist</td><th><!--scstart4:3--><span class=\"q1\">Mail</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->115 Armor</span><br><!--re--><span class=\"q2\">&lt;Random enchantment&gt;</span><br><span><!--stat50-->+50 Armor</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 40 / 40</td></tr></table><table><tr><td>Requires Level <!--rlvl-->37<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">46</span> <span class=\"moneycopper\">30</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Ironaya</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 31.63%</div></td></tr></table>",
+    "spells": []
+  },
+  "9410": {
+    "name": "Cragfists",
+    "quality": 3,
+    "icon": "inv_gauntlets_12",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Cragfists</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->46</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Hands</td><th><!--scstart4:4--><span class=\"q1\">Plate</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->306 Armor</span><br><!--re--><span class=\"q2\">&lt;Random enchantment&gt;</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 45 / 45</td></tr></table><table><tr><td>Requires Level <!--rlvl-->41<br><!--rr--><span class=\"q2\">Equip: Increased Defense +<!--rtg12-->5.</span><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">73</span> <span class=\"moneycopper\">91</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Ancient Stone Keeper</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 29.16%</div></td></tr></table><!--i?9410:1:60:41-->",
+    "spells": []
+  },
+  "9411": {
+    "name": "Rockshard Pauldrons",
+    "quality": 3,
+    "icon": "inv_shoulder_02",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Rockshard Pauldrons</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->46</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Shoulder</td><th><!--scstart4:3--><span class=\"q1\">Mail</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->209 Armor</span><br><span><!--stat4-->+3 Strength</span><br><span><!--stat5-->+13 Intellect</span><br><span><!--stat6-->+6 Spirit</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 60 / 60</td></tr></table><table><tr><td>Requires Level <!--rlvl-->41<br><!--rr--><span class=\"q2\">Equip: Increases damage and healing done by magical spells and effects by up to <span><!--rtg41-->12</span>.</span><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">94</span> <span class=\"moneycopper\">91</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Ancient Stone Keeper</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 33.05%</div></td></tr></table><!--i?9411:1:60:41-->",
+    "spells": []
+  },
+  "9412": {
+    "name": "Galgann's Fireblaster",
+    "quality": 3,
+    "icon": "inv_weapon_rifle_07",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Galgann's Fireblaster</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->47</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Ranged</td><th><!--scstart2:3--><span class=\"q1\">Gun</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->44 - 84 Damage</span></td>\n    <th>Speed <!--spd-->2.60</th>\n</tr></table><!--dps-->(24.62 damage per second)<!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 75 / 75</td></tr></table><table><tr><td>Requires Level <!--rlvl-->42<br><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Chance on hit: <!--useEffect:0:1--><a href=\"/forever/spell=29644/fire-blast\" class=\"q2\">Strike your ranged target with a Fire Blast for 22 to 34 Fire damage.</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneygold\">1</span> <span class=\"moneysilver\">70</span> <span class=\"moneycopper\">9</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Galgann Firehammer</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 22.46%</div></td></tr></table>",
+    "spells": []
+  },
+  "9413": {
+    "name": "The Rockpounder",
+    "quality": 3,
+    "icon": "inv_hammer_12",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">The Rockpounder</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->49</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Two-Hand</td><th><!--scstart2:5--><span class=\"q1\">Mace</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->126 - 190 Damage</span></td>\n    <th>Speed <!--spd-->3.70</th>\n</tr></table><!--dps-->(42.70 damage per second)<br><span><!--stat4-->+5 Strength</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 100 / 100</td></tr></table><table><tr><td>Requires Level <!--rlvl-->44<br><!--rr--><span class=\"q2\">Equip: Improves your chance to get a critical strike by 2.0%.</span><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneygold\">3</span> <span class=\"moneysilver\">27</span> <span class=\"moneycopper\">60</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Archaedas</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 28.94%</div></td></tr></table><!--i?9413:1:60:44-->",
+    "spells": []
+  },
+  "9414": {
+    "name": "Oilskin Leggings",
+    "quality": 3,
+    "icon": "inv_pants_06",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Oilskin Leggings</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->47</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Legs</td><th><!--scstart4:2--><span class=\"q1\">Leather</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->122 Armor</span><br><span><!--stat3-->+18 Agility</span><br><span><!--stat6-->+11 Spirit</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 65 / 65</td></tr></table><table><tr><td>Requires Level <!--rlvl-->42<br><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Equip: <!--useEffect:0:1--><a href=\"/forever/spell=1320726/increased-feral-combat\" class=\"q2\">Increases Feral Combat +1.</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneygold\">1</span> <span class=\"moneysilver\">13</span> <span class=\"moneycopper\">39</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Grimlok</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 29.13%</div></td></tr></table>",
+    "spells": []
+  },
+  "9415": {
+    "name": "Grimlok's Tribal Vestments",
+    "quality": 3,
+    "icon": "inv_shirt_05",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Grimlok's Tribal Vestments</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->47</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Chest</td><th><!--scstart4:1--><span class=\"q1\">Cloth</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->68 Armor</span><br><span><!--stat7-->+10 Stamina</span><br><span><!--stat5-->+5 Intellect</span><br><span><!--stat6-->+14 Spirit</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 80 / 80</td></tr></table><table><tr><td>Requires Level <!--rlvl-->42<br><!--rr--><span class=\"q2\">Equip: Increases healing done by up to <span><!--rtg41-->29</span> and damage done by up to <span><!--rtg42-->10</span> for all magical spells and effects.</span><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">90</span> <span class=\"moneycopper\">71</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Grimlok</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 32.82%</div></td></tr></table><!--i?9415:1:60:42-->",
+    "spells": []
+  },
+  "9416": {
+    "name": "Grimlok's Charge",
+    "quality": 3,
+    "icon": "inv_spear_08",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Grimlok's Charge</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->47</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Two-Hand</td><th><!--scstart2:6--><span class=\"q1\">Polearm</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->88 - 133 Damage</span></td>\n    <th>Speed <!--spd-->2.70</th>\n</tr></table><!--dps-->(40.93 damage per second)<br><span><!--stat4-->+10 Strength</span><br><span><!--stat3-->+15 Agility</span><br><span><!--stat7-->+15 Stamina</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 100 / 100</td></tr></table><table><tr><td>Requires Level <!--rlvl-->42<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">83</span> <span class=\"moneycopper\">48</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Grimlok</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 34.76%</div></td></tr></table>",
+    "spells": []
+  },
+  "9418": {
+    "name": "Stoneslayer",
+    "quality": 3,
+    "icon": "inv_sword_47",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Stoneslayer</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->49</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Two-Hand</td><th><!--scstart2:8--><span class=\"q1\">Sword</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->133 - 200 Damage</span></td>\n    <th>Speed <!--spd-->3.90</th>\n</tr></table><!--dps-->(42.69 damage per second)<!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 100 / 100</td></tr></table><table><tr><td>Requires Level <!--rlvl-->44<br><!--rr--><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Chance on hit: <!--useEffect:0:1--><a href=\"/forever/spell=12731/strength-of-stone\" class=\"q2\">Rend earth and stone, dealing 196 Physical damage. Deals 3 times as much damage to Earth Elementals, Golems, and Titan-forged.</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneygold\">3</span> <span class=\"moneysilver\">27</span> <span class=\"moneycopper\">60</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Archaedas</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 32.52%</div></td></tr></table>",
+    "spells": []
+  },
+  "9419": {
+    "name": "Galgann's Firehammer",
+    "quality": 3,
+    "icon": "inv_hammer_17",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Galgann's Firehammer</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->47</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Main Hand</td><th><!--scstart2:4--><span class=\"q1\">Mace</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->32 - 60 Damage</span></td>\n    <th>Speed <!--spd-->2.20</th>\n</tr></table><!--dps-->(20.91 damage per second)<!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 75 / 75</td></tr></table><table><tr><td>Requires Level <!--rlvl-->42<br><!--rr--><span class=\"q2\">Equip: Increases damage and healing done by magical spells and effects by up to <span><!--rtg41-->54</span>.</span><br><br><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Equip: <!--useEffect:0:1--><a href=\"/forever/spell=1293980/firebolt\" class=\"q2\">Chance on harmful spell cast to blast a target for 64 to 90 Fire damage. (100ms cooldown)</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneygold\">2</span> <span class=\"moneysilver\">26</span> <span class=\"moneycopper\">79</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Galgann Firehammer</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 25.21%</div></td></tr></table><!--i?9419:1:60:42-->",
+    "spells": []
+  },
+  "11118": {
+    "name": "Archaedic Stone",
+    "quality": 3,
+    "icon": "inv_stone_15",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Archaedic Stone</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->47</span><!--bo--><br>Binds when picked up<br>Unique-Equipped<!--ue--><!--ue--><table width=\"100%\"><tr><td>Finger</td><th><!--scstart4:-2--><span class=\"q1\"></span><!--scend--></th></tr></table><!--rf--><!--re--><span class=\"q2\">&lt;Random enchantment&gt;</span><br><span><!--stat50-->+50 Armor</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--></td></tr></table><table><tr><td>Requires Level <!--rlvl-->42<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">90</span> <span class=\"moneycopper\">71</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Archaedas</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 95.47%</div></td></tr></table>",
+    "spells": []
+  },
+  "11310": {
+    "name": "Flameseer Mantle",
+    "quality": 3,
+    "icon": "inv_shoulder_05",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Flameseer Mantle</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->47</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Shoulder</td><th><!--scstart4:1--><span class=\"q1\">Cloth</span><!--scend--></th></tr></table><!--rf--><span><!--amr-->51 Armor</span><br><span><!--stat6-->+10 Spirit</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 50 / 50</td></tr></table><table><tr><td>Requires Level <!--rlvl-->42<br><!--rr--><span class=\"q2\">Equip: Increases damage done by Fire spells and effects by up to <!--rtg85-->14.</span><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">68</span> <span class=\"moneycopper\">3</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Galgann Firehammer</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 22.25%</div></td></tr></table><!--i?11310:1:60:42-->",
+    "spells": []
+  },
+  "11311": {
+    "name": "Emberscale Cape",
+    "quality": 3,
+    "icon": "inv_misc_cape_08",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Emberscale Cape</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->47</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Back</td></tr></table><!--rf--><span><!--amr-->34 Armor</span><br><span><!--stat7-->+14 Stamina</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><br>+4 Fire Resistance<!--e--><!--ps--></td></tr></table><table><tr><td>Requires Level <!--rlvl-->42<br><!--rr--><!--itemEffects:0--><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneysilver\">68</span> <span class=\"moneycopper\">3</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Galgann Firehammer</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 28.60%</div></td></tr></table>",
+    "spells": []
+  },
+  "12037": {
+    "name": "Mystery Meat",
+    "quality": 1,
+    "icon": "inv_misc_food_67",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q1\">Mystery Meat</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q whtt-extra whtt-ilvl\"><br>Item Level <!--ilvl-->30</span><!--bo--><!--ue--><!--ue--><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--></td></tr></table><table><tr><td><!--itemEffects:0--><span class=\"toycolor\">Crafting Reagent</span><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-extra whtt-maxstack\">Max Stack: 20</div><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneycopper\">87</span></div></td></tr></table>",
+    "spells": []
+  },
+  "274425": {
+    "name": "White Obsidian Wand",
+    "quality": 3,
+    "icon": "inv_wand_07",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">White Obsidian Wand</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->44</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Ranged</td><th><!--scstart2:19--><span class=\"q1\">Wand</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->49 - 92 Arcane Damage</span></td>\n    <th>Speed <!--spd-->1.70</th>\n</tr></table><!--dps-->(41.47 damage per second)<!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 65 / 65</td></tr></table><table><tr><td>Requires Level <!--rlvl-->39<br><!--rr--><span class=\"q2\">Equip: Increases damage and healing done by magical spells and effects by up to <span><!--rtg41-->6</span>.</span><br><br><!--useText:0:1--><span id=\"useText1\" class=\"q2\">Equip: <!--useEffect:0:1--><a href=\"/forever/spell=1294055/white-obsidian\" class=\"q2\">Chance on hit to reduce the mana cost of your next spell cast within 10 sec by 24. (10ms cooldown)</a><!--useEffect:1--></span><!--useText:1--><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneygold\">1</span> <span class=\"moneysilver\">36</span> <span class=\"moneycopper\">87</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Obsidian Sentinel</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 28.57%</div></td></tr></table><!--i?274425:1:60:39-->",
+    "spells": []
+  },
+  "274432": {
+    "name": "Stone Keeper Spire",
+    "quality": 3,
+    "icon": "inv_staff_11",
+    "tooltip": "<table><tr><td><!--nstart--><b class=\"q3\">Stone Keeper Spire</b><!--nend--><!--ndstart--><!--ndend--><span class=\"q\"><br>Item Level <!--ilvl-->49</span><!--bo--><br>Binds when picked up<!--ue--><!--ue--><table width=\"100%\"><tr><td>Two-Hand</td><th><!--scstart2:10--><span class=\"q1\">Staff</span><!--scend--></th></tr></table><!--rf--><table width=\"100%\"><tr>\n    <td><span><!--dmg-->81 - 122 Damage</span></td>\n    <th>Speed <!--spd-->3.20</th>\n</tr></table><!--dps-->(31.72 damage per second)<br><span><!--stat7-->+19 Stamina</span><br><span><!--stat50-->+180 Armor</span><!--ebstats--><!--egstats--><!--eistats--><!--nameDescStats--><!--rs--><!--e--><!--ps--><br>Durability 100 / 100</td></tr></table><table><tr><td>Requires Level <!--rlvl-->44<br><!--rr--><span class=\"q2\">Equip: Increases healing done by up to <span><!--rtg41-->105</span> and damage done by up to <span><!--rtg42-->35</span> for all magical spells and effects.</span><!--itemEffects:1--><br><!--pvpEquip--><!--pvpEquip--><div class=\"whtt-sellprice\">Sell Price: <span class=\"moneygold\">3</span> <span class=\"moneysilver\">16</span> <span class=\"moneycopper\">39</span></div><div class=\"whtt-extra whtt-droppedby\">Dropped by: Archaedas</div><div class=\"whtt-extra whtt-dropchance\">Drop Chance: 32.85%</div></td></tr></table><!--i?274432:1:60:44-->",
+    "spells": []
+  }
+}
