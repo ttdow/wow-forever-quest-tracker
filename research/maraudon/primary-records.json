@@ -1,0 +1,795 @@
+{
+  "7028": {
+    "merged": {
+      "1": "Twisted Evils",
+      "2": {
+        "1": {
+          "1": 13656
+        }
+      },
+      "3": {
+        "1": {
+          "1": 13656
+        }
+      },
+      "4": 41,
+      "5": 47,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Collect 15 Theradric Crystal Carvings for Willow in Desolace."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 17684
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 2100,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "classic": {
+      "entry": 7028,
+      "Title": "Twisted Evils",
+      "MinLevel": 41,
+      "QuestLevel": 47,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "7029": {
+    "merged": {
+      "1": "Vyletongue Corruption",
+      "2": {
+        "1": {
+          "1": 11823
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11823
+        }
+      },
+      "4": 41,
+      "5": 47,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon.",
+        "2": "",
+        "3": "Use the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge.",
+        "4": "",
+        "5": "Heal 8 plants by killing these Noxxious Scion, then return to Vark Battlescar in Shadowprey Village."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 13696,
+            "2": "Vylestem Vines healed"
+          }
+        },
+        "2": null,
+        "3": {
+          "1": {
+            "1": 17696
+          }
+        }
+      },
+      "11": 17693,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 2100
+    },
+    "classic": {
+      "entry": 7029,
+      "Title": "Vyletongue Corruption",
+      "MinLevel": 41,
+      "QuestLevel": 47,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "traces": {
+      "foreverQuestRelationTraces.lua": " -- Vyletongue Corruption https://wowhead.com/forever/quest=7029\n            -- 7041 \"Vyletongue Corruption\" https://wowhead.com/forever/quest=7041\n            -- Assumption: the server completes it and 7041 together (cooccurrence; high; 100+ characters)\n            [questKeys.exclusiveTo] = {7041},\n"
+    }
+  },
+  "7041": {
+    "merged": {
+      "1": "Vyletongue Corruption",
+      "2": {
+        "1": {
+          "1": 11715
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11715
+        }
+      },
+      "4": 41,
+      "5": 47,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon.",
+        "2": "",
+        "3": "Use the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge.",
+        "4": "",
+        "5": "Heal 8 plants by killing these Noxxious Scion, then return to Talendria in Nijel's Point."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 13696,
+            "2": "Vylestem Vines healed"
+          }
+        },
+        "2": null,
+        "3": {
+          "1": {
+            "1": 17696
+          }
+        }
+      },
+      "11": 17693,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 2100
+    },
+    "classic": {
+      "entry": 7041,
+      "Title": "Vyletongue Corruption",
+      "MinLevel": 41,
+      "QuestLevel": 47,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "traces": {
+      "foreverQuestRelationTraces.lua": " -- Vyletongue Corruption https://wowhead.com/forever/quest=7041\n            -- 7029 \"Vyletongue Corruption\" https://wowhead.com/forever/quest=7029\n            -- Assumption: the server completes it and 7029 together (cooccurrence; high; 100+ characters)\n            [questKeys.exclusiveTo] = {7029},\n"
+    }
+  },
+  "7044": {
+    "merged": {
+      "1": "Legends of Maraudon",
+      "2": {
+        "1": {
+          "1": 13697
+        }
+      },
+      "3": {
+        "1": {
+          "1": 13716
+        }
+      },
+      "4": 41,
+      "5": 49,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Recover the two parts of the Scepter of Celebras: the Celebrian Rod and the Celebrian Diamond.",
+        "2": "",
+        "3": "Find a way to speak with Celebras."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 17703
+          },
+          "2": {
+            "1": 17702
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 2100,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8
+    },
+    "classic": {
+      "entry": 7044,
+      "Title": "Legends of Maraudon",
+      "MinLevel": 41,
+      "QuestLevel": 49,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "7046": {
+    "merged": {
+      "1": "The Scepter of Celebras",
+      "2": {
+        "1": {
+          "1": 13716
+        }
+      },
+      "3": {
+        "1": {
+          "1": 13716
+        }
+      },
+      "4": 41,
+      "5": 49,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Assist Celebras the Redeemed while he creates the Scepter of Celebras.",
+        "2": "",
+        "3": "Speak with him when the ritual is complete."
+      },
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 7044
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 2100,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 2,
+      "24": 2
+    },
+    "classic": {
+      "entry": 7046,
+      "Title": "The Scepter of Celebras",
+      "MinLevel": 41,
+      "QuestLevel": 49,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 7044,
+      "NextQuestInChain": 0,
+      "QuestFlags": 2,
+      "SpecialFlags": 2
+    },
+    "traces": {}
+  },
+  "7064": {
+    "merged": {
+      "1": "Corruption of Earth and Seed",
+      "2": {
+        "1": {
+          "1": 13699
+        }
+      },
+      "3": {
+        "1": {
+          "1": 13699
+        }
+      },
+      "4": 45,
+      "5": 51,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Slay Princess Theradras and return to Selendra near Shadowprey Village in Desolace."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 12201
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 2100,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 609,
+          "2": 150
+        }
+      }
+    },
+    "classic": {
+      "entry": 7064,
+      "Title": "Corruption of Earth and Seed",
+      "MinLevel": 45,
+      "QuestLevel": 51,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {
+      "foreverQuestRelationTraces.lua": " -- Corruption of Earth and Seed https://wowhead.com/forever/quest=7064\n            -- 7065 \"Corruption of Earth and Seed\" https://wowhead.com/forever/quest=7065\n            -- Assumption: the server completes it and 7065 together (cooccurrence; medium; 100+ characters)\n            [questKeys.exclusiveTo] = {7065},\n"
+    }
+  },
+  "7065": {
+    "merged": {
+      "1": "Corruption of Earth and Seed",
+      "2": {
+        "1": {
+          "1": 13698
+        }
+      },
+      "3": {
+        "1": {
+          "1": 13698
+        }
+      },
+      "4": 45,
+      "5": 51,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Slay Princess Theradras and return to Keeper Marandis at Nijel's Point in Desolace."
+      },
+      "9": null,
+      "10": {
+        "1": {
+          "1": {
+            "1": 12201
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 2100,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 609,
+          "2": 150
+        }
+      }
+    },
+    "classic": {
+      "entry": 7065,
+      "Title": "Corruption of Earth and Seed",
+      "MinLevel": 45,
+      "QuestLevel": 51,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {
+      "foreverQuestRelationTraces.lua": " -- Corruption of Earth and Seed https://wowhead.com/forever/quest=7065\n            -- 7064 \"Corruption of Earth and Seed\" https://wowhead.com/forever/quest=7064\n            -- Assumption: the server completes it and 7064 together (cooccurrence; medium; 100+ characters)\n            [questKeys.exclusiveTo] = {7064},\n"
+    }
+  },
+  "7066": {
+    "merged": {
+      "1": "Seed of Life",
+      "2": {
+        "1": {
+          "1": 12238
+        }
+      },
+      "3": {
+        "1": {
+          "1": 11832
+        }
+      },
+      "4": 45,
+      "5": 51,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Seek out Remulos in Moonglade and give him the Seed of Life."
+      },
+      "9": null,
+      "10": null,
+      "11": 17760,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 2100,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": null,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 609,
+          "2": 150
+        }
+      }
+    },
+    "classic": {
+      "entry": 7066,
+      "Title": "Seed of Life",
+      "MinLevel": 45,
+      "QuestLevel": 51,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "7067": {
+    "merged": {
+      "1": "The Pariah's Instructions",
+      "2": {
+        "1": {
+          "1": 13717
+        }
+      },
+      "3": {
+        "1": {
+          "1": 13717
+        }
+      },
+      "4": 39,
+      "5": 48,
+      "6": 0,
+      "7": null,
+      "8": {
+        "1": "Read the Pariah's Instructions. Afterwards, obtain the Amulet of Union from Maraudon and return it to the Centaur Pariah in southern Desolace."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 17758
+          }
+        }
+      },
+      "11": 17781,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 2100,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": {
+        "1": 17757
+      }
+    },
+    "classic": {
+      "entry": 7067,
+      "Title": "The Pariah's Instructions",
+      "MinLevel": 39,
+      "QuestLevel": 48,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 0,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "7068": {
+    "merged": {
+      "1": "Shadowshard Fragments",
+      "2": {
+        "1": {
+          "1": 7311
+        }
+      },
+      "3": {
+        "1": {
+          "1": 7311
+        }
+      },
+      "4": 38,
+      "5": 42,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Collect 10 Shadowshard Fragments from Maraudon and return them to Uthel'nay in Orgrimmar."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 17756
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 2100,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 530,
+          "2": 350
+        }
+      }
+    },
+    "classic": {
+      "entry": 7068,
+      "Title": "Shadowshard Fragments",
+      "MinLevel": 38,
+      "QuestLevel": 42,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {
+      "foreverQuestRelationTraces.lua": " -- Shadowshard Fragments https://wowhead.com/forever/quest=7068\n            -- 7070 \"Shadowshard Fragments\" https://wowhead.com/forever/quest=7070\n            -- Assumption: the server completes it and 7070 together (cooccurrence; medium; 10+ characters)\n            [questKeys.exclusiveTo] = {7070},\n"
+    }
+  },
+  "7070": {
+    "merged": {
+      "1": "Shadowshard Fragments",
+      "2": {
+        "1": {
+          "1": 4967
+        }
+      },
+      "3": {
+        "1": {
+          "1": 4967
+        }
+      },
+      "4": 38,
+      "5": 42,
+      "6": 4294967373,
+      "7": null,
+      "8": {
+        "1": "Collect 10 Shadowshard Fragments from Maraudon and return them to Archmage Tervosh in Theramore on the coast of Dustwallow Marsh."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 17756
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 2100,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 72,
+          "2": 350
+        }
+      }
+    },
+    "classic": {
+      "entry": 7070,
+      "Title": "Shadowshard Fragments",
+      "MinLevel": 38,
+      "QuestLevel": 42,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {
+      "foreverQuestRelationTraces.lua": " -- Shadowshard Fragments https://wowhead.com/forever/quest=7070\n            -- 7068 \"Shadowshard Fragments\" https://wowhead.com/forever/quest=7068\n            -- Assumption: the server completes it and 7068 together (cooccurrence; medium; 10+ characters)\n            [questKeys.exclusiveTo] = {7068},\n"
+    }
+  },
+  "771": {
+    "merged": {
+      "1": "Rite of Vision",
+      "2": {
+        "1": {
+          "1": 3054
+        }
+      },
+      "3": {
+        "1": {
+          "1": 3054
+        }
+      },
+      "4": 3,
+      "5": 7,
+      "6": 8589934770,
+      "7": null,
+      "8": {
+        "1": "Collect 2 Well Stones and 2 Ambercorn and bring them back to Zarlman Two-Moons in Bloodhoof Village."
+      },
+      "9": null,
+      "10": {
+        "1": null,
+        "2": null,
+        "3": {
+          "1": {
+            "1": 4808
+          },
+          "2": {
+            "1": 4809
+          }
+        }
+      },
+      "11": null,
+      "12": null,
+      "13": {
+        "1": 767
+      },
+      "14": null,
+      "15": null,
+      "16": null,
+      "17": 215,
+      "18": null,
+      "19": null,
+      "20": null,
+      "21": null,
+      "22": null,
+      "23": 8,
+      "24": null,
+      "25": null,
+      "26": {
+        "1": {
+          "1": 81,
+          "2": 250
+        }
+      }
+    },
+    "classic": {
+      "entry": 771,
+      "Title": "Rite of Vision",
+      "MinLevel": 3,
+      "QuestLevel": 7,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredCondition": 0,
+      "PrevQuestId": 767,
+      "NextQuestInChain": 0,
+      "QuestFlags": 8,
+      "SpecialFlags": 0
+    },
+    "traces": {}
+  },
+  "93404": {
+    "merged": null,
+    "classic": null,
+    "traces": {
+      "foreverQuestTraces.lua": "\n            [questKeys.name] = \"Rot and Regret\",\n            [questKeys.questLevel] = 49,\n            [questKeys.objectives] = {{{254674}},nil,{{258296}}},\n            [questKeys.objectivesText] = {\"Venture to Maraudon and recover a Vial of Earth Song Water and return it to Woodwyrd at the Forlorn Gardens in Desolace.\"},\n            [questKeys.startedBy_add] = {{254674}},\n            [questKeys.finishedBy_add] = {{254674}},\n",
+      "foreverQuestRelationTraces.lua": " -- Rot and Regret https://wowhead.com/forever/quest=93404\n            -- 93594 \"Word of the Woods\" https://wowhead.com/forever/quest=93594\n            -- Assumption: offered right after 93594 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {93594},\n            -- 93601 \"Passing the Blame\" https://wowhead.com/forever/quest=93601\n            -- Assumption: turning it in led straight to 93601 (handoff; medium; 10+ characters)\n            [questKeys.nextQuestInChain] = 93601,\n"
+    }
+  },
+  "93594": {
+    "merged": null,
+    "classic": null,
+    "traces": {
+      "foreverQuestTraces.lua": "\n            [questKeys.name] = \"Word of the Woods\",\n            [questKeys.questLevel] = 43,\n            [questKeys.objectivesText] = {\"Find Woodwyrd in the Forlorn Gardens at Shen'dralas in the Desolace.\"},\n            [questKeys.startedBy_add] = {{254578}},\n            [questKeys.finishedBy_add] = {{254674}},\n",
+      "foreverQuestRelationTraces.lua": " -- Word of the Woods https://wowhead.com/forever/quest=93594\n            -- 93341 \"Forlorn Gardens\" https://wowhead.com/forever/quest=93341\n            -- Assumption: offered right after 93341 was turned in (handoff, offer-set, absence, cooccurrence; very high; 100+ characters)\n            [questKeys.preQuestSingle] = {93341},\n            -- 93404 \"Rot and Regret\" https://wowhead.com/forever/quest=93404\n            -- Assumption: turning it in led straight to 93404 (handoff; medium; 100+ characters)\n            [questKeys.nextQuestInChain] = 93404,\n"
+    }
+  },
+  "96776": {
+    "merged": null,
+    "classic": null,
+    "traces": {
+      "foreverBaseQuest.lua": " -- An'she's Radiance : https://wowhead.com/forever/quest=96776/anshes-radiance\n            [questKeys.name] = \"An'she's Radiance\",\n            [questKeys.startedBy] = {{268557}},\n            [questKeys.requiredLevel] = 43,\n            [questKeys.questLevel] = 51,\n            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,\n            [questKeys.objectivesText] = {\"Recover the crystal known as An'she's Radiance from Maraudon.\"},\n            [questKeys.objectives] = {nil, nil, {{277140}}},\n            [questKeys.zoneOrSort] = zoneIDs.MARAUDON,\n            [questKeys.reputationReward] = {{81, 200}, {2787, 300}},\n",
+      "foreverQuestTraces.lua": "\n            [questKeys.name] = \"An'she's Radiance\",\n            [questKeys.questLevel] = 51,\n            [questKeys.objectives] = {nil,nil,{{277140}}},\n            [questKeys.objectivesText] = {\"Recover the crystal known as An'she's Radiance from Maraudon.\"},\n            [questKeys.startedBy_add] = {{268557}},\n            [questKeys.finishedBy_add] = {{268557}},\n            [questKeys.reputationReward] = {{67,50},{68,50},{76,50},{81,200},{530,50},{2787,300}},\n"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "build": "1.60.1.70862",
   "instances": {
     "Deadmines": {
@@ -6913,6 +6913,905 @@
             "https://nether.wowhead.com/forever/tooltip/item/274432",
             "https://foreverdb.net/dungeon/70-uldaman",
             "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+          ]
+        }
+      ]
+    },
+    "Maraudon": {
+      "id": 349,
+      "build": "1.60.1.70938",
+      "source": "https://foreverdb.net/dungeon/349-maraudon",
+      "items": [
+        {
+          "id": "17744",
+          "name": "Heart of Noxxion",
+          "quality": 3,
+          "requiredLevel": 46,
+          "itemLevel": 51,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "+12 Nature Resistance",
+            "Reduces duration of poison effects by 10%",
+            "Use: Removes 1 poison effect (5 min cooldown)",
+            "Unique-Equipped"
+          ],
+          "source": "Noxxion",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17744",
+            "https://nether.wowhead.com/forever/tooltip/item/17744",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17745",
+          "name": "Noxious Shooter",
+          "quality": 3,
+          "requiredLevel": 46,
+          "itemLevel": 51,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "56–104 Nature Damage",
+            "Speed 1.60 (50.00 DPS)",
+            "+5 Stamina",
+            "+5 Nature Resistance",
+            "+5 Spell Damage and Healing"
+          ],
+          "source": "Noxxion",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17745",
+            "https://nether.wowhead.com/forever/tooltip/item/17745",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17746",
+          "name": "Noxxion's Shackles",
+          "quality": 3,
+          "requiredLevel": 46,
+          "itemLevel": 51,
+          "slot": "Wrist",
+          "type": "Plate",
+          "stats": [
+            "235 Armor",
+            "+5 Strength",
+            "+9 Stamina",
+            "+10 Nature Resistance"
+          ],
+          "source": "Noxxion",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17746",
+            "https://nether.wowhead.com/forever/tooltip/item/17746",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17748",
+          "name": "Vinerot Sandals",
+          "quality": 3,
+          "requiredLevel": 46,
+          "itemLevel": 51,
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "50 Armor",
+            "+9 Intellect",
+            "+10 Spirit",
+            "+12 Nature Resistance",
+            "+18 Healing",
+            "+6 Spell Damage"
+          ],
+          "source": "Razorlash",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17748",
+            "https://nether.wowhead.com/forever/tooltip/item/17748",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17749",
+          "name": "Phytoskin Spaulders",
+          "quality": 3,
+          "requiredLevel": 46,
+          "itemLevel": 51,
+          "slot": "Shoulder",
+          "type": "Leather",
+          "stats": [
+            "111 Armor",
+            "+15 Agility",
+            "+9 Stamina",
+            "+10 Nature Resistance"
+          ],
+          "source": "Razorlash",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17749",
+            "https://nether.wowhead.com/forever/tooltip/item/17749",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17750",
+          "name": "Chloromesh Girdle",
+          "quality": 3,
+          "requiredLevel": 46,
+          "itemLevel": 51,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "41 Armor",
+            "+6 Stamina",
+            "+20 Nature Resistance"
+          ],
+          "source": "Razorlash",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17750",
+            "https://nether.wowhead.com/forever/tooltip/item/17750",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17751",
+          "name": "Brusslehide Leggings",
+          "quality": 3,
+          "requiredLevel": 46,
+          "itemLevel": 51,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "130 Armor",
+            "+12 Stamina",
+            "+7 Intellect",
+            "+10 Nature Resistance",
+            "+23 Spell Damage and Healing"
+          ],
+          "source": "Razorlash",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17751",
+            "https://nether.wowhead.com/forever/tooltip/item/17751",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17752",
+          "name": "Satyr's Lash",
+          "quality": 3,
+          "requiredLevel": 45,
+          "itemLevel": 50,
+          "slot": "One-Hand",
+          "type": "Dagger",
+          "stats": [
+            "39–74 Damage",
+            "Speed 1.70 (33.24 DPS)",
+            "+5 Agility",
+            "Chance on hit: Deals 55–85 Shadow damage",
+            "Unique-Equipped"
+          ],
+          "source": "Lord Vyletongue",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17752",
+            "https://nether.wowhead.com/forever/tooltip/item/17752",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17754",
+          "name": "Infernal Trickster Leggings",
+          "quality": 3,
+          "requiredLevel": 45,
+          "itemLevel": 50,
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "263 Armor",
+            "+20 Agility",
+            "+8 Intellect",
+            "+10 Spirit",
+            "+1% Ranged Hit"
+          ],
+          "source": "Lord Vyletongue",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17754",
+            "https://nether.wowhead.com/forever/tooltip/item/17754",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17755",
+          "name": "Satyrmane Sash",
+          "quality": 3,
+          "requiredLevel": 45,
+          "itemLevel": 50,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "40 Armor",
+            "+7 Stamina",
+            "+10 Intellect",
+            "+10 Shadow Resistance",
+            "+14 Spell Damage and Healing"
+          ],
+          "source": "Lord Vyletongue",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17755",
+            "https://nether.wowhead.com/forever/tooltip/item/17755",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17741",
+          "name": "Nature's Embrace",
+          "quality": 3,
+          "requiredLevel": 46,
+          "itemLevel": 51,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "73 Armor",
+            "Restores 8 mana per 5 sec",
+            "+29 Holy Spell Damage",
+            "+29 Nature Spell Damage"
+          ],
+          "source": "Meshlok the Harvester (rare)",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17741",
+            "https://nether.wowhead.com/forever/tooltip/item/17741",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17742",
+          "name": "Fungus Shroud Armor",
+          "quality": 3,
+          "requiredLevel": 46,
+          "itemLevel": 51,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "148 Armor",
+            "+25 Agility",
+            "+10 Stamina"
+          ],
+          "source": "Meshlok the Harvester (rare)",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17742",
+            "https://nether.wowhead.com/forever/tooltip/item/17742",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17767",
+          "name": "Bloomsprout Headpiece",
+          "quality": 3,
+          "requiredLevel": 46,
+          "itemLevel": 51,
+          "slot": "Head",
+          "type": "Mail",
+          "stats": [
+            "249 Armor",
+            "+15 Stamina",
+            "+10 Nature Resistance",
+            "+36 Attack Power"
+          ],
+          "source": "Meshlok the Harvester (rare)",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17767",
+            "https://nether.wowhead.com/forever/tooltip/item/17767",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17738",
+          "name": "Claw of Celebras",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Off Hand",
+          "type": "Fist Weapon",
+          "stats": [
+            "43–81 Damage",
+            "Speed 1.80 (34.44 DPS)",
+            "Chance on hit: Deals 13 Nature damage every 1 sec for 7 sec"
+          ],
+          "source": "Celebras the Cursed",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17738",
+            "https://nether.wowhead.com/forever/tooltip/item/17738",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17739",
+          "name": "Grovekeeper's Drape",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "37 Armor",
+            "+12 Stamina",
+            "+10 Nature Resistance",
+            "Reduces chance for Charm effects to hit you by 5%"
+          ],
+          "source": "Celebras the Cursed",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17739",
+            "https://nether.wowhead.com/forever/tooltip/item/17739",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17740",
+          "name": "Soothsayer's Headdress",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "122 Armor",
+            "+7 Stamina",
+            "+15 Intellect",
+            "+8 Spirit",
+            "+23 Spell Damage and Healing"
+          ],
+          "source": "Celebras the Cursed",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17740",
+            "https://nether.wowhead.com/forever/tooltip/item/17740",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17734",
+          "name": "Helm of the Mountain",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Head",
+          "type": "Plate",
+          "stats": [
+            "453 Armor",
+            "+3 Stamina",
+            "+230 Armor",
+            "+10 Nature Resistance",
+            "+7 Defense"
+          ],
+          "source": "Landslide",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17734",
+            "https://nether.wowhead.com/forever/tooltip/item/17734",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17736",
+          "name": "Rockgrip Gauntlets",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Hands",
+          "type": "Mail",
+          "stats": [
+            "198 Armor",
+            "+10 Stamina",
+            "+11 Intellect",
+            "+28 Attack Power"
+          ],
+          "source": "Landslide",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17736",
+            "https://nether.wowhead.com/forever/tooltip/item/17736",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17737",
+          "name": "Cloud Stone",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Held In Off-hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "+8 Intellect",
+            "+10 Arcane Resistance",
+            "+0.8% Hit"
+          ],
+          "source": "Landslide",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17737",
+            "https://nether.wowhead.com/forever/tooltip/item/17737",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17943",
+          "name": "Fist of Stone",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Main Hand",
+          "type": "Mace",
+          "stats": [
+            "44–83 Damage",
+            "Speed 1.80 (35.28 DPS)",
+            "+40 Armor",
+            "Chance on hit: Restores 32 mana; tripled against Earth Elementals, Golems, or Titanforged"
+          ],
+          "source": "Landslide",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17943",
+            "https://nether.wowhead.com/forever/tooltip/item/17943",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17717",
+          "name": "Megashot Rifle",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Ranged",
+          "type": "Gun",
+          "stats": [
+            "48–89 Damage",
+            "Speed 2.50 (27.40 DPS)",
+            "+19 Ranged Attack Power",
+            "+5 Arcane Resistance"
+          ],
+          "source": "Tinkerer Gizlock",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17717",
+            "https://nether.wowhead.com/forever/tooltip/item/17717",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17718",
+          "name": "Gizlock's Hypertech Buckler",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Off Hand",
+          "type": "Shield",
+          "stats": [
+            "1835 Armor",
+            "32 Block",
+            "+10 Intellect",
+            "Restores 4 mana per 5 sec",
+            "+13 Healing",
+            "+5 Spell Damage"
+          ],
+          "source": "Tinkerer Gizlock",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17718",
+            "https://nether.wowhead.com/forever/tooltip/item/17718",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17719",
+          "name": "Inventor's Focal Sword",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Main Hand",
+          "type": "Sword",
+          "stats": [
+            "36–67 Damage",
+            "Speed 2.20 (23.41 DPS)",
+            "+1% Critical Strike",
+            "+60 Spell Damage and Healing"
+          ],
+          "source": "Tinkerer Gizlock",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17719",
+            "https://nether.wowhead.com/forever/tooltip/item/17719",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17728",
+          "name": "Albino Crocscale Boots",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "105 Armor",
+            "+20 Agility",
+            "+5 Stamina",
+            "+6 Nature Resistance"
+          ],
+          "source": "Rotgrip",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17728",
+            "https://nether.wowhead.com/forever/tooltip/item/17728",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17730",
+          "name": "Gatorbite Axe",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Two-Hand",
+          "type": "Axe",
+          "stats": [
+            "117–176 Damage",
+            "Speed 3.20 (45.78 DPS)",
+            "Chance on hit: Deals 210 bleed damage over 7 sec"
+          ],
+          "source": "Rotgrip",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17730",
+            "https://nether.wowhead.com/forever/tooltip/item/17730",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17732",
+          "name": "Rotgrip Mantle",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Shoulder",
+          "type": "Cloth",
+          "stats": [
+            "57 Armor",
+            "+18 Intellect",
+            "+13 Spell Damage and Healing"
+          ],
+          "source": "Rotgrip",
+          "sourceOrder": 8,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17732",
+            "https://nether.wowhead.com/forever/tooltip/item/17732",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17707",
+          "name": "Gemshard Heart",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Neck",
+          "type": "Necklace",
+          "stats": [
+            "+10 Stamina",
+            "+9 Intellect",
+            "+15 Healing",
+            "+5 Spell Damage"
+          ],
+          "source": "Princess Theradras",
+          "sourceOrder": 9,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17707",
+            "https://nether.wowhead.com/forever/tooltip/item/17707",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17710",
+          "name": "Charstone Dirk",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Main Hand",
+          "type": "Dagger",
+          "stats": [
+            "26–50 Damage",
+            "Speed 1.60 (23.75 DPS)",
+            "+11 Intellect",
+            "Restores 2 mana per 5 sec",
+            "+116 Healing",
+            "+38 Spell Damage"
+          ],
+          "source": "Princess Theradras",
+          "sourceOrder": 9,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17710",
+            "https://nether.wowhead.com/forever/tooltip/item/17710",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17711",
+          "name": "Elemental Rockridge Leggings",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Legs",
+          "type": "Plate",
+          "stats": [
+            "496 Armor",
+            "+20 Strength",
+            "+16 Stamina",
+            "+10 Nature Resistance"
+          ],
+          "source": "Princess Theradras",
+          "sourceOrder": 9,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17711",
+            "https://nether.wowhead.com/forever/tooltip/item/17711",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17713",
+          "name": "Blackstone Ring",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+6 Stamina",
+            "+1% Hit",
+            "+20 Attack Power",
+            "Unique-Equipped"
+          ],
+          "source": "Princess Theradras",
+          "sourceOrder": 9,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17713",
+            "https://nether.wowhead.com/forever/tooltip/item/17713",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17714",
+          "name": "Bracers of the Stone Princess",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Wrist",
+          "type": "Mail",
+          "stats": [
+            "141 Armor",
+            "+6 Stamina",
+            "+5 Intellect",
+            "+28 Attack Power"
+          ],
+          "source": "Princess Theradras",
+          "sourceOrder": 9,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17714",
+            "https://nether.wowhead.com/forever/tooltip/item/17714",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17715",
+          "name": "Eye of Theradras",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "63 Armor",
+            "+10 Stamina",
+            "+19 Intellect",
+            "+10 Spirit",
+            "+1% Critical Strike"
+          ],
+          "source": "Princess Theradras",
+          "sourceOrder": 9,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17715",
+            "https://nether.wowhead.com/forever/tooltip/item/17715",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17766",
+          "name": "Princess Theradras' Scepter",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Two-Hand",
+          "type": "Mace",
+          "stats": [
+            "126–190 Damage",
+            "Speed 3.40 (46.47 DPS)",
+            "Chance on hit: Deals 168 damage and lowers target armor by 100"
+          ],
+          "source": "Princess Theradras",
+          "sourceOrder": 9,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17766",
+            "https://nether.wowhead.com/forever/tooltip/item/17766",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+          ]
+        },
+        {
+          "id": "17780",
+          "name": "Blade of Eternal Darkness",
+          "quality": 4,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Main Hand",
+          "type": "Dagger",
+          "stats": [
+            "21–57 Damage",
+            "Speed 1.50 (26.07 DPS)",
+            "+62 Spell Damage and Healing",
+            "Chance on damaging spell: Deals 112 Shadow damage and restores 104 mana",
+            "Unique-Equipped"
+          ],
+          "source": "Princess Theradras",
+          "sourceOrder": 9,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "sources": [
+            "https://www.wowhead.com/forever/item=17780",
+            "https://nether.wowhead.com/forever/tooltip/item/17780",
+            "https://foreverdb.net/dungeon/349-maraudon",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
           ]
         }
       ]

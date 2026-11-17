@@ -1,0 +1,893 @@
+{
+  "checked": "2026-11-17",
+  "questieRevision": "e1652ce62113c152da682baf2d6fb85f1396bcfb",
+  "att": "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua",
+  "index": "https://foreverchanges.pro/quests/maraudon",
+  "dungeon": "https://foreverdb.net/data/dungeons/349.json",
+  "suggestedLevels": {
+    "rec": 42,
+    "min": 46,
+    "max": 55,
+    "enter": 25
+  },
+  "includedQuestCount": 10,
+  "candidates": [
+    {
+      "id": "771",
+      "name": "Rite of Vision",
+      "indexed": false,
+      "decision": "exclude",
+      "reason": "Unrelated Horde Mulgore quest incorrectly present in dungeon registry",
+      "page": {
+        "name": "Rite of Vision",
+        "facts": {
+          "Start": "Zarlman Two-Moons Mulgore 46.9 , 61.2",
+          "End": "Zarlman Two-Moons Mulgore 46.9 , 61.2",
+          "Level": "7 , requires level 3",
+          "Difficulty": "3 5 10 13",
+          "Side": "Horde",
+          "Shareable": "Yes",
+          "Quest ID": "771",
+          "giver": "Zarlman Two-Moons"
+        },
+        "pickup": [
+          "Mulgore 46.9 , 61.2"
+        ],
+        "objective": "Collect 2 Well Stones and 2 Ambercorn and bring them back to Zarlman Two-Moons in Bloodhoof Village.",
+        "requirements": [
+          "2 Well Stone",
+          "2 Ambercorn"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/771/rite-of-vision",
+        "sheetText": "Quest Objectives | Collect 2 Well Stones and 2 Ambercorn and bring them back to Zarlman Two-Moons in Bloodhoof Village. | 2 | Well Stone | 2 | Ambercorn | Description | In order to pass through the Rite of Vision, you must gather the reagents needed to make the Water of the Seers. | I will need well stones, which can be found around the water wells in Mulgore. With those I will combine Ambercorn, which fall beneath the mighty trees in our land. | These reagents contain magical elements, and when brewed and consumed before the tribal fire, will cause you to encounter a vision. Follow it, and it will lead you to the next step of this holy quest. | Rewards | Experience: | 625 | +100 reputation with Thunder Bluff | When you come back | Once you have gathered enough well stones from around the water wells and Ambercorn from beneath the trees, I will prepare the Water of the Seers for you. | When you hand it in | I see you have learned to gather from our sacred land, ‹name›. It will take but a moment for me to brew the Water of the Seers."
+      }
+    },
+    {
+      "id": "7028",
+      "name": "Twisted Evils",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest",
+      "page": {
+        "name": "Twisted Evils",
+        "facts": {
+          "Start": "Willow Desolace 62.2 , 39.6",
+          "End": "Willow Desolace 62.2 , 39.6",
+          "Level": "47 , requires level 41",
+          "Difficulty": "41 43 45 50 59",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "7028",
+          "giver": "Willow"
+        },
+        "pickup": [
+          "Desolace 62.2 , 39.6"
+        ],
+        "objective": "Collect 15 Theradric Crystal Carvings for Willow in Desolace.",
+        "requirements": [
+          "15 Theradric Crystal Carving"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/7028/twisted-evils",
+        "sheetText": "Quest Objectives | Collect 15 Theradric Crystal Carvings for Willow in Desolace. | 15 | Theradric Crystal Carving | Description | The crystal caverns of Terramok lie to the west, deep within Maraudon... It is an ancient place with much history. And I am looking to get my hands on some of it, ‹class›. Relics of the old gods lie hidden behind the giant doors. | If you are willing to brave the twisted evils found in Maraudon, I believe I can make it worth your time. Collect the theradric crystal carvings you find, and return them to me. | Once I get the carvings, I will be able to... study them. These powers have been too long at rest... | Rewards | You will be able to choose one of these rewards: | Acumen Robes | Sprightring Helm | Relentless Chain | Hulkstone Pauldrons | Experience: | 5,250 | When you come back | Don't ask questions! | You have my request. | When you hand it in | Ha ha ha! I knew you'd be back. | <Willow mutters> | ...So easy to convince. | ...Will do anything for the right price. Heh heh heh..."
+      }
+    },
+    {
+      "id": "7029",
+      "name": "Vyletongue Corruption",
+      "indexed": true,
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "page": {
+        "name": "Vyletongue Corruption",
+        "facts": {
+          "Start": "Vark Battlescar Desolace 23.2 , 70.3",
+          "End": "Vark Battlescar Desolace 23.2 , 70.3",
+          "Level": "47 , requires level 41",
+          "Difficulty": "41 43 45 50 59",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "7029",
+          "giver": "Vark Battlescar"
+        },
+        "pickup": [
+          "Desolace 23.2 , 70.3"
+        ],
+        "objective": "Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon. Use the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge. Heal 8 plants by killing these Noxxious Scion, then return to Vark Battlescar in Shadowprey Village.",
+        "requirements": [
+          "Filled Cerulean Vial",
+          "Vylestem Vines healed : 0/ 8"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/7029/vyletongue-corruption",
+        "sheetText": "Quest Objectives | Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon. | Use the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge. | Heal 8 plants by killing these Noxxious Scion, then return to Vark Battlescar in Shadowprey Village. | Filled Cerulean Vial | Vylestem Vines healed | : | 0/ | 8 | Provided: | Coated Cerulean Vial | Description | A satyr known as Vyletongue has corrupted the caverns of Maraudon, stunting the growth of many of the plants inside. | Take this vial, ‹name›. Fill it at the orange crystal pool found inside the caverns; the coating inside the vial will counter the toxins, turning it into a healing agent. | Find the Vylestem vines inside the orange caverns, and use the purified liquid on them. The corruption will be purged from the plant, but do know that Vyletongue will still control it. He may use it against you... | Rewards | You will be able to choose one of these rewards: | Woodseed Hoop | Sagebrush Girdle | Branchclaw Gauntlets | Experience: | 5,250 | When you come back | If you are able to heal the plant, it will again begin to grow. We must do what we can, ‹name›... | When you hand it in | Thank you for returning this, ‹name›. With the remaining liquid you brought me, I can continue my studies. | While there is still much to do, you have helped to heal some of the corruption that Vyletongue spread through Maraudon. Please take this with my gratitude."
+      }
+    },
+    {
+      "id": "7041",
+      "name": "Vyletongue Corruption",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest",
+      "page": {
+        "name": "Vyletongue Corruption",
+        "facts": {
+          "Start": "Talendria Desolace 68.5 , 8.9",
+          "End": "Talendria Desolace 68.5 , 8.9",
+          "Level": "47 , requires level 41",
+          "Difficulty": "41 43 45 50 59",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "7041",
+          "giver": "Talendria"
+        },
+        "pickup": [
+          "Desolace 68.5 , 8.9"
+        ],
+        "objective": "Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon. Use the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge. Heal 8 plants by killing these Noxxious Scion, then return to Talendria in Nijel's Point.",
+        "requirements": [
+          "Filled Cerulean Vial",
+          "Vylestem Vines healed : 0/ 8"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/7041/vyletongue-corruption",
+        "sheetText": "Quest Objectives | Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon. | Use the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge. | Heal 8 plants by killing these Noxxious Scion, then return to Talendria in Nijel's Point. | Filled Cerulean Vial | Vylestem Vines healed | : | 0/ | 8 | Provided: | Coated Cerulean Vial | Description | A satyr known as Vyletongue has corrupted the caverns of Maraudon, stunting the growth of many of the plants inside. | Take this vial, ‹name›. Fill it at the corrupted orange pool found inside the caverns; the coating inside the vial will counter the toxins, turning it into a healing agent. | Find the Vylestem vines inside the orange caverns, and use the purified liquid on them. The corruption will be purged from the plant, but do know that Vyletongue will still control it. He may use it against you... | Rewards | You will be able to choose one of these rewards: | Woodseed Hoop | Sagebrush Girdle | Branchclaw Gauntlets | Experience: | 5,250 | When you come back | If you are able to heal the plant, it will again begin to grow. We must do what we can, ‹name›... | When you hand it in | Thank you for returning this, ‹name›. With the remaining liquid you brought me, I can continue my studies. | While there is still much to do, you have helped to heal some of the corruption that Vyletongue spread through Maraudon. Please take this with my gratitude."
+      }
+    },
+    {
+      "id": "7044",
+      "name": "Legends of Maraudon",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest",
+      "page": {
+        "name": "Legends of Maraudon",
+        "facts": {
+          "Start": "Cavindra Desolace 32.1 , 64",
+          "End": "Celebras the Redeemed",
+          "Level": "49 , requires level 41",
+          "Difficulty": "41 45 47 52 60",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "7044",
+          "giver": "Cavindra"
+        },
+        "pickup": [
+          "Desolace 32.1 , 64"
+        ],
+        "objective": "Recover the two parts of the Scepter of Celebras: the Celebrian Rod and the Celebrian Diamond. Find a way to speak with Celebras.",
+        "requirements": [
+          "Celebrian Diamond",
+          "Celebrian Rod"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/7044/legends-of-maraudon",
+        "sheetText": "Quest Objectives | Recover the two parts of the Scepter of Celebras: the Celebrian Rod and the Celebrian Diamond. | Find a way to speak with Celebras. | Celebrian Diamond | Celebrian Rod | Description | A dark satyr called Lord Vyletongue spread his evil through these twisting caves, poisoning the minds of all inside. He still resides beyond the purple crystals. | Vyletongue also created a living symbol of his corruption called Noxxion that dwells beyond the orange crystals. Together, they have stolen the two parts of my brother's scepter. Celebras, my brother... he wanders blindly inside, cursed by corruption. | You must help him! Find the pieces, and speak to my brother... somehow. | Rewards | Experience: | 3,400 | When you come back | I have awoken from a nightmare that seemed it would never end... | When you hand it in | Now that you have recovered the two parts of my scepter, I have hope that Maraudon may one day be rid of the Vyle corruption."
+      }
+    },
+    {
+      "id": "7046",
+      "name": "The Scepter of Celebras",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest",
+      "page": {
+        "name": "The Scepter of Celebras",
+        "facts": {
+          "Start": "Celebras the Redeemed",
+          "End": "Celebras the Redeemed",
+          "Level": "49 , requires level 41",
+          "Difficulty": "41 45 47 52 60",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "7046",
+          "giver": "Celebras the Redeemed"
+        },
+        "pickup": [],
+        "objective": "Assist Celebras the Redeemed while he creates the Scepter of Celebras. Speak with him when the ritual is complete.",
+        "requirements": [],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/7046/the-scepter-of-celebras",
+        "sheetText": "Quest Objectives | Assist Celebras the Redeemed while he creates the Scepter of Celebras. | Speak with him when the ritual is complete. | Description | My scepter was once a source of hope for me. Its power allowed me the freedom to travel quickly through these caverns. I had hoped to bring peace to the spirit of my uncle... It is a task that I now pass to you. | For the two parts to once again become one, I will need your assistance in performing the ritual. Please follow me, and listen to my instructions while I channel the energy required to reunite the rod with the diamond. | Together, we shall create the Scepter of Celebras once again! | Rewards | You will receive: | Scepter of Celebras | Experience: | 5,700 | When you come back | If you wish to restart the ritual, please abandon our first attempt and then speak to me again. | When you hand it in | Please take this, and know that the power allotted to you now must be used for good. Continue your journey through the caverns, and with hope, you will find the remains of my uncle. Much danger awaits you, ‹name›. | Speak with me again should the need arise."
+      }
+    },
+    {
+      "id": "7064",
+      "name": "Corruption of Earth and Seed",
+      "indexed": true,
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "page": {
+        "name": "Corruption of Earth and Seed",
+        "facts": {
+          "Start": "Selendra Desolace 26.9 , 77.7",
+          "End": "Selendra Desolace 26.9 , 77.7",
+          "Level": "51 , requires level 45",
+          "Difficulty": "45 47 49 54 60",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "7064",
+          "giver": "Selendra"
+        },
+        "pickup": [
+          "Desolace 26.9 , 77.7"
+        ],
+        "objective": "Slay Princess Theradras and return to Selendra near Shadowprey Village in Desolace.",
+        "requirements": [
+          "Princess Theradras slain"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/7064/corruption-of-earth-and-seed",
+        "sheetText": "Quest Objectives | Slay Princess Theradras and return to Selendra near Shadowprey Village in Desolace. | Princess Theradras slain | Description | Deep in Maraudon lives an evil creature of chaos--Princess Theradras is an elemental force of earth related to the Old Gods. Ages ago, she and Zaetar, first son of Cenarius, began a relationship. The offspring of their time together became known to the people of Kalimdor as centaur. Ever-thankful creatures, the centaur killed Zaetar, and now hold Zaetar's remains. My quest here is to find those powerful enough to slay Theradras so we may recover Zaetar's remains before returning to Stonetalon. | Rewards | You will be able to choose one of these rewards: | Thrash Blade | Resurgence Rod | Verdant Keeper's Aim | Experience: | 6,100 | +150 reputation with Cenarion Circle | When you come back | I would prefer to fight this battle on our own, but we are left with no other options--we need those more powerful, and the races of Azeroth have proven without a doubt they can overcome such things when they work together. So it is to you we turn for help. | I only hope it is enough. | Zaetar, brother to Remulos, brought many pains to this world, and ultimately it caused his own death. I just hope I have not caused more death by asking you to aid us. | When you hand it in | This is most wonderful news, ‹name›! Thank you! | I will speak with Marandis and ask his wisdom on the topic of Zaetar's remains, but at least you have overcome the hardest of the tasks. | I was told that if we were successful in our mission, I had permission to reward those who aided us. I was given these items as tokens from our people--you may choose one."
+      }
+    },
+    {
+      "id": "7065",
+      "name": "Corruption of Earth and Seed",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest",
+      "page": {
+        "name": "Corruption of Earth and Seed",
+        "facts": {
+          "Start": "Keeper Marandis Desolace 63.8 , 10.7",
+          "End": "Keeper Marandis Desolace 63.8 , 10.7",
+          "Level": "51 , requires level 45",
+          "Difficulty": "45 47 49 54 60",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "7065",
+          "giver": "Keeper Marandis"
+        },
+        "pickup": [
+          "Desolace 63.8 , 10.7"
+        ],
+        "objective": "Slay Princess Theradras and return to Keeper Marandis at Nijel's Point in Desolace.",
+        "requirements": [
+          "Princess Theradras slain"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/7065/corruption-of-earth-and-seed",
+        "sheetText": "Quest Objectives | Slay Princess Theradras and return to Keeper Marandis at Nijel's Point in Desolace. | Princess Theradras slain | Description | In the depths of Maraudon lives a creature of chaos and evil, ‹name›. Princess Theradras is an elemental force of earth related somehow to the Old Gods. Ages ago, she was sought out by Zaetar, first son of Cenarius. The offspring of their... relationship are the creatures known as centaur. Ever-thankful creatures, the centaur killed Zaetar, and now Theradras keeps his remains. My quest here is to find those powerful enough to slay Theradras so we may recover Zaetar's remains before returning to Stonetalon. | Rewards | You will be able to choose one of these rewards: | Thrash Blade | Resurgence Rod | Verdant Keeper's Aim | Experience: | 6,100 | +150 reputation with Cenarion Circle | When you come back | I feel the weight of imposing my plea on the mortal races, but we are left with no other options. The races of Azeroth have proven without a doubt they can overcome such things when they work together, so it is to them I ask for help. | I only hope it is enough. | Zaetar, brother to Remulos, brought many pains to this world, and ultimately it caused his own death. There is a lesson there to all of us if we are wise enough to see it. | When you hand it in | This is most wonderful news, ‹name›! Thank you! | Although it concerns me that you were not able to bring back Zaetar's remains, who am I to question the will of Cenarius' first born. Perhaps now the will of the centaur will break and their thirst for blood will lesson--we can only hope. | If successful in our mission, I was given these items to reward any who aided us. You may choose one as a token of thanks."
+      }
+    },
+    {
+      "id": "7066",
+      "name": "Seed of Life",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest",
+      "page": {
+        "name": "Seed of Life",
+        "facts": {
+          "Start": "Zaetar's Spirit",
+          "End": "Keeper Remulos Moonglade 36.2 , 41.8",
+          "Level": "51 , requires level 39",
+          "Difficulty": "39 47 49 54 60",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "7066",
+          "giver": "Zaetar's Spirit"
+        },
+        "pickup": [],
+        "objective": "Seek out Remulos in Moonglade and give him the Seed of Life.",
+        "requirements": [
+          "Seed of Life"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/7066/seed-of-life",
+        "sheetText": "Quest Objectives | Seek out Remulos in Moonglade and give him the Seed of Life. | Seed of Life | Provided: | Seed of Life | Description | The misbegotten centaur--my sons and daughters--have need of their father. | Look around you--this place rings of hope and all that my father Cenarius preaches. It sprung from me! And I cannot take that away from them... not even for their crimes against me. | But there is one thing I would ask of you to ease my brother's mind. Take this... it is the first seed that fell from the life my remains nourished. Tell him my spirit remains here, and that I live on. I am sure he will understand. | Rewards | Money: | 1 | 50 | 1 gold, 50 silver, 0 copper | Experience: | 6,100 | +150 reputation with Cenarion Circle | When you come back | You have the scent of corruption on you, ‹name›... much like many adventurers these days. But something about you is different. Is there something you've come to speak to me about? You have an aura about you that seems familiar, but I cannot place it. | Please, I implore you, tell me why you've sought an audience with me. | When you hand it in | So my brother has finally found peace? I am proud to have lived to see this day. In all his arrogance and anger, I truly thought he was lost to us, but this... this symbol of his sacrifice only proves that he is not lost--he has only been reborn. He takes his place in nature as was his duty. | Thank you, ‹name›. By bringing this to me, you have secured a small amount of hope that I thought I had once lost. This seed will be important to the people of this war-torn land some day... I can sense it."
+      }
+    },
+    {
+      "id": "7067",
+      "name": "The Pariah's Instructions",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest",
+      "page": {
+        "name": "The Pariah's Instructions",
+        "facts": {
+          "Start": "Centaur Pariah Desolace 50.4 , 86.7",
+          "End": "Centaur Pariah Desolace 50.4 , 86.7",
+          "Level": "48 , requires level 39",
+          "Difficulty": "39 44 46 51 60",
+          "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+          "Type": "Dungeon",
+          "Shareable": "No",
+          "Quest ID": "7067",
+          "giver": "Centaur Pariah"
+        },
+        "pickup": [
+          "Desolace 50.4 , 86.7"
+        ],
+        "objective": "Read the Pariah's Instructions. Afterwards, obtain the Amulet of Union from Maraudon and return it to the Centaur Pariah in southern Desolace.",
+        "requirements": [
+          "Amulet of Union"
+        ],
+        "classic": true,
+        "url": "https://foreverchanges.pro/quest/7067/the-pariahs-instructions",
+        "sheetText": "Quest Objectives | Read the Pariah's Instructions. Afterwards, obtain the Amulet of Union from Maraudon and return it to the Centaur Pariah in southern Desolace. | Amulet of Union | Provided: | The Pariah's Instructions | Description | Though exiled as a heretic, my beliefs still ring true--that alone drives me onward. But for my destiny to be complete, I need the aid of an outsider... one not of any centaur tribe. | The task requires someone to enter the holy halls of Maraudon--a tomb my people protect, and only the most devout are ever allowed to enter. | If you agree to aid me, then you need only nod. I will pass you a parchment with my instructions on it. Read it over and consider my words. | Rewards | You will receive: | Mark of the Chosen | Money: | 1 | 40 | 1 gold, 40 silver, 0 copper | Experience: | 5,450 | When you come back | What did you decide, ‹name›? Can you help me? Will you set foot on holy ground to help me forge one great centaur tribe!? | When you hand it in | This is it, ‹race›! This is it! Now I can begin the great task of uniting the tribes. Thank you. | Take this for your efforts, please. I hope when next we meet, it will be on much different terms."
+      }
+    },
+    {
+      "id": "7068",
+      "name": "Shadowshard Fragments",
+      "indexed": true,
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "page": {
+        "name": "Shadowshard Fragments",
+        "facts": {
+          "Start": "Uthel'nay Orgrimmar 39.2 , 86.3",
+          "End": "Uthel'nay Orgrimmar 39.2 , 86.3",
+          "Level": "42 , requires level 39",
+          "Difficulty": "39 40 45 53",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "7068",
+          "giver": "Uthel'nay"
+        },
+        "pickup": [
+          "Orgrimmar 39.2 , 86.3"
+        ],
+        "objective": "Collect 10 Shadowshard Fragments from Maraudon and return them to Uthel'nay in Orgrimmar.",
+        "requirements": [
+          "10 Shadowshard Fragment"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/7068/shadowshard-fragments",
+        "sheetText": "Quest Objectives | Collect 10 Shadowshard Fragments from Maraudon and return them to Uthel'nay in Orgrimmar. | 10 | Shadowshard Fragment | Description | Strong magics be found in the centaur holy place... the holy place of Maraudon. The Desolace tribes of centaur protect that place wit' their lives, but they canna stop us from takin' what we need. | You, you head to this Maraudon place and find the rock creatures made of shadowshard. You bring me the purple crystals, and Uthel'nay make you somethin' for your time. | The place be dangerous, so maybe you be bringing some friends. | Rewards | You will be able to choose one of these rewards: | Zealous Shadowshard Pendant | Prodigious Shadowshard Pendant | Experience: | 3,450 | +150 reputation with Darkspear Trolls | When you come back | You find the crystals yet? Rituals of power, spells of great strength - those shadowshards maybe very helpful in all kind of arcane magics. | When you hand it in | Ah, these be perfect for me magics. Here, you take one of these trinkets and be on your way... me got much studyin' to do."
+      }
+    },
+    {
+      "id": "7070",
+      "name": "Shadowshard Fragments",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest",
+      "page": {
+        "name": "Shadowshard Fragments",
+        "facts": {
+          "Start": "Archmage Tervosh Dustwallow Marsh 66.4 , 49.3",
+          "End": "Archmage Tervosh Dustwallow Marsh 66.4 , 49.3",
+          "Level": "42 , requires level 39",
+          "Difficulty": "39 40 45 53",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "7070",
+          "giver": "Archmage Tervosh"
+        },
+        "pickup": [
+          "Dustwallow Marsh 66.4 , 49.3"
+        ],
+        "objective": "Collect 10 Shadowshard Fragments from Maraudon and return them to Archmage Tervosh in Theramore on the coast of Dustwallow Marsh.",
+        "requirements": [
+          "10 Shadowshard Fragment"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/7070/shadowshard-fragments",
+        "sheetText": "Quest Objectives | Collect 10 Shadowshard Fragments from Maraudon and return them to Archmage Tervosh in Theramore on the coast of Dustwallow Marsh. | 10 | Shadowshard Fragment | Description | I've recently begun testing various crystals and their arcane properties. Lady Proudmoore has given me leave to ask travelers heading into Desolace to seek out a place called Maraudon. Within the ruined temple are great elementals composed of purplish stones I've named shadowshards. | If you decide to head that direction and find some of the crystals, I would be very thankful. I could even fashion you a trinket from them if you so desired. | Rewards | You will be able to choose one of these rewards: | Zealous Shadowshard Pendant | Prodigious Shadowshard Pendant | Experience: | 3,450 | +150 reputation with Stormwind | When you come back | Have you made the trip yet? I realize it'd be quite dangerous, but if you were successful, it would very much be worth it. | When you hand it in | These are perfect, ‹name›. I actually had other adventurers return from there also and from them I was able to fashion these... please, feel free to take one for your hard work. And thank you again for more samples to study."
+      }
+    },
+    {
+      "id": "93404",
+      "name": "Rot and Regret",
+      "indexed": true,
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest",
+      "page": {
+        "name": "Rot and Regret",
+        "facts": {
+          "Start": "Woodwyrd Shen'dralas 69.7 , 71.9",
+          "Level": "49 , requires level 35",
+          "Difficulty": "35 45 47 52 60",
+          "Side": "Both factions",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "93404",
+          "giver": "Woodwyrd"
+        },
+        "pickup": [
+          "Shen'dralas 69.7 , 71.9"
+        ],
+        "objective": "Venture to Maraudon and recover a Vial of Earth Song Water and return it to Woodwyrd at the Forlorn Gardens in Desolace.",
+        "requirements": [
+          "Vial of Earth Song Water",
+          "Woodwyrd extinguished"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/93404/rot-and-regret",
+        "sheetText": "Quest Objectives | Venture to Maraudon and recover a Vial of Earth Song Water and return it to Woodwyrd at the Forlorn Gardens in Desolace. | Vial of Earth Song Water | Woodwyrd extinguished | Description | I am the ancient. Towering above us. That which still burns despite many rains. I feel its flames in death. Forever burdened by my last mistake. | I do not know why I am cursed to haunt this place. I do not understand why death was not the end. | Please put out the flame. Seek pristine water from a sacred ravine. Such a place exists across Mashan'she. I have heard murmurs of the place in the wind. | Maraudon. | Rewards | You will be able to choose one of these rewards: | Overgrown Cuffs | Thornplated Cord | Experience: | 11,100"
+      }
+    },
+    {
+      "id": "93594",
+      "name": "Word of the Woods",
+      "indexed": false,
+      "decision": "include",
+      "reason": "Direct introduction to Rot and Regret",
+      "page": {
+        "name": "Word of the Woods",
+        "facts": {
+          "Start": "Mithera Shen'dralas 53.2 , 75.9",
+          "End": "Woodwyrd Shen'dralas 69.7 , 71.9",
+          "Level": "43 , requires level 35",
+          "Difficulty": "35 39 41 46 54",
+          "Side": "Both factions",
+          "Shareable": "Yes",
+          "Quest ID": "93594",
+          "giver": "Mithera"
+        },
+        "pickup": [
+          "Shen'dralas 53.2 , 75.9"
+        ],
+        "objective": "Find Woodwyrd in the Forlorn Gardens at Shen'dralas in the Desolace.",
+        "requirements": [],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/93594/word-of-the-woods",
+        "sheetText": "Quest Objectives | Find Woodwyrd in the Forlorn Gardens at Shen'dralas in the Desolace. | Description | Among the treants borne of the necklace, one in particular stood above all the others to have received the gift of life and sentience. I suspect if they have fallen, he may be the only one that remains. | He spent his days tending to each and every bloom and bud, and his evenings rooted in the ground to serve as a nest for the smaller critters. | If he is alive, and I pray that to be true, then he may know what happened. | I am holding out hope for my good friend, Woodwyrd. | When you hand it in | It is too late. For these gardens. | I am the last of my generation of caretakers. Without the gift, more cannot take my place. | The weeds have overtaken the land. The flowers are restless. The trees wither. | <Woodwyrd slowly turns toward the towering ancient illuminating the sky with its endless fire.>"
+      }
+    },
+    {
+      "id": "96776",
+      "name": "An'she's Radiance",
+      "indexed": true,
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "page": {
+        "name": "An'she's Radiance",
+        "facts": {
+          "Level": "51 , requires level 43",
+          "Difficulty": "43 47 49 54 60",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "96776"
+        },
+        "pickup": [],
+        "objective": "Recover the crystal known as An'she's Radiance from Maraudon.",
+        "requirements": [
+          "An'she's Radiance"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/96776/anshes-radiance",
+        "sheetText": "Quest Objectives | Recover the crystal known as An'she's Radiance from Maraudon. | An'she's Radiance | Description | I have had a vision. | Deep in the place known as Maraudon, past the earth song falls, there is a chamber filled with brilliant white crystals and guarded by mighty giants. At the highest part of this chamber is a crystal of exceptional brilliance. It is an aspect of the sun god, the right eye of the Earthmother herself--An'she. | I've dreamed of its radiance and it calls to me. ‹class›, remove An'she's Radiance from that place and bring it here where it belongs, under the open skies of Mulgore. | Rewards | Money: | 75 | 0 gold, 75 silver, 0 copper | Experience: | 11,900 | +300 reputation with Earthen Ring | +200 reputation with Thunder Bluff"
+      }
+    }
+  ],
+  "classicSnapshot": {
+    "url": "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+    "releasePublished": "2026-11-13T13:34:58Z",
+    "sha256": "daa16e44b95a9d4a0d17b8f8e3a91cf0b4be1af7d9b3bfc8ac71707a02399f5f"
+  },
+  "questScan": {
+    "category": 2100,
+    "mergedCategoryIds": [
+      "7028",
+      "7029",
+      "7041",
+      "7044",
+      "7046",
+      "7064",
+      "7065",
+      "7066",
+      "7067",
+      "7068",
+      "7070"
+    ],
+    "method": "Current index plus active primary category/objective and generated Forever scans; direct shared-chain introduction; no additional Rogue-specific candidate found."
+  },
+  "equipmentCount": 34,
+  "rogueEquipmentCount": 23,
+  "observedEquipmentCount": 9,
+  "equipmentSources": {
+    "17744": "Noxxion",
+    "17745": "Noxxion",
+    "17746": "Noxxion",
+    "17748": "Razorlash",
+    "17749": "Razorlash",
+    "17750": "Razorlash",
+    "17751": "Razorlash",
+    "17752": "Lord Vyletongue",
+    "17754": "Lord Vyletongue",
+    "17755": "Lord Vyletongue",
+    "17741": "Meshlok the Harvester (rare)",
+    "17742": "Meshlok the Harvester (rare)",
+    "17767": "Meshlok the Harvester (rare)",
+    "17738": "Celebras the Cursed",
+    "17739": "Celebras the Cursed",
+    "17740": "Celebras the Cursed",
+    "17734": "Landslide",
+    "17736": "Landslide",
+    "17737": "Landslide",
+    "17943": "Landslide",
+    "17717": "Tinkerer Gizlock",
+    "17718": "Tinkerer Gizlock",
+    "17719": "Tinkerer Gizlock",
+    "17728": "Rotgrip",
+    "17730": "Rotgrip",
+    "17732": "Rotgrip",
+    "17707": "Princess Theradras",
+    "17710": "Princess Theradras",
+    "17711": "Princess Theradras",
+    "17713": "Princess Theradras",
+    "17714": "Princess Theradras",
+    "17715": "Princess Theradras",
+    "17766": "Princess Theradras",
+    "17780": "Princess Theradras"
+  },
+  "excludedLoot": {
+    "4808": "Well Stone",
+    "10286": "Heart of the Wild",
+    "17684": "Theradric Crystal Carving",
+    "17702": "Celebrian Rod",
+    "17703": "Celebrian Diamond"
+  },
+  "fetches": {
+    "urls": {
+      "quest-7028.html": "https://foreverchanges.pro/quest/7028/twisted-evils",
+      "quest-7029.html": "https://foreverchanges.pro/quest/7029/vyletongue-corruption",
+      "quest-7041.html": "https://foreverchanges.pro/quest/7041/vyletongue-corruption",
+      "quest-7044.html": "https://foreverchanges.pro/quest/7044/legends-of-maraudon",
+      "quest-7046.html": "https://foreverchanges.pro/quest/7046/the-scepter-of-celebras",
+      "quest-7064.html": "https://foreverchanges.pro/quest/7064/corruption-of-earth-and-seed",
+      "quest-7065.html": "https://foreverchanges.pro/quest/7065/corruption-of-earth-and-seed",
+      "quest-7066.html": "https://foreverchanges.pro/quest/7066/seed-of-life",
+      "quest-7067.html": "https://foreverchanges.pro/quest/7067/the-pariahs-instructions",
+      "quest-7068.html": "https://foreverchanges.pro/quest/7068/shadowshard-fragments",
+      "quest-7070.html": "https://foreverchanges.pro/quest/7070/shadowshard-fragments",
+      "quest-93404.html": "https://foreverchanges.pro/quest/93404/rot-and-regret",
+      "quest-96776.html": "https://foreverchanges.pro/quest/96776/anshes-radiance",
+      "quest-93594.html": "https://foreverchanges.pro/quest/93594/word-of-the-woods",
+      "quest-771.html": "https://foreverchanges.pro/quest/771/rite-of-vision",
+      "item-17684.json": "https://nether.wowhead.com/forever/tooltip/item/17684",
+      "item-17943.json": "https://nether.wowhead.com/forever/tooltip/item/17943",
+      "item-17702.json": "https://nether.wowhead.com/forever/tooltip/item/17702",
+      "item-17703.json": "https://nether.wowhead.com/forever/tooltip/item/17703",
+      "item-17707.json": "https://nether.wowhead.com/forever/tooltip/item/17707",
+      "item-17710.json": "https://nether.wowhead.com/forever/tooltip/item/17710",
+      "item-17711.json": "https://nether.wowhead.com/forever/tooltip/item/17711",
+      "item-10286.json": "https://nether.wowhead.com/forever/tooltip/item/10286",
+      "item-17713.json": "https://nether.wowhead.com/forever/tooltip/item/17713",
+      "item-17714.json": "https://nether.wowhead.com/forever/tooltip/item/17714",
+      "item-17715.json": "https://nether.wowhead.com/forever/tooltip/item/17715",
+      "item-17717.json": "https://nether.wowhead.com/forever/tooltip/item/17717",
+      "item-17718.json": "https://nether.wowhead.com/forever/tooltip/item/17718",
+      "item-17719.json": "https://nether.wowhead.com/forever/tooltip/item/17719",
+      "item-17728.json": "https://nether.wowhead.com/forever/tooltip/item/17728",
+      "item-17730.json": "https://nether.wowhead.com/forever/tooltip/item/17730",
+      "item-17732.json": "https://nether.wowhead.com/forever/tooltip/item/17732",
+      "item-17734.json": "https://nether.wowhead.com/forever/tooltip/item/17734",
+      "item-4808.json": "https://nether.wowhead.com/forever/tooltip/item/4808",
+      "item-17736.json": "https://nether.wowhead.com/forever/tooltip/item/17736",
+      "item-17738.json": "https://nether.wowhead.com/forever/tooltip/item/17738",
+      "item-17739.json": "https://nether.wowhead.com/forever/tooltip/item/17739",
+      "item-17740.json": "https://nether.wowhead.com/forever/tooltip/item/17740",
+      "item-17737.json": "https://nether.wowhead.com/forever/tooltip/item/17737",
+      "item-17741.json": "https://nether.wowhead.com/forever/tooltip/item/17741",
+      "item-17742.json": "https://nether.wowhead.com/forever/tooltip/item/17742",
+      "item-17744.json": "https://nether.wowhead.com/forever/tooltip/item/17744",
+      "item-17745.json": "https://nether.wowhead.com/forever/tooltip/item/17745",
+      "item-17746.json": "https://nether.wowhead.com/forever/tooltip/item/17746",
+      "item-17748.json": "https://nether.wowhead.com/forever/tooltip/item/17748",
+      "item-17749.json": "https://nether.wowhead.com/forever/tooltip/item/17749",
+      "item-17750.json": "https://nether.wowhead.com/forever/tooltip/item/17750",
+      "item-17751.json": "https://nether.wowhead.com/forever/tooltip/item/17751",
+      "item-17752.json": "https://nether.wowhead.com/forever/tooltip/item/17752",
+      "item-17754.json": "https://nether.wowhead.com/forever/tooltip/item/17754",
+      "item-17755.json": "https://nether.wowhead.com/forever/tooltip/item/17755",
+      "item-17766.json": "https://nether.wowhead.com/forever/tooltip/item/17766",
+      "item-17767.json": "https://nether.wowhead.com/forever/tooltip/item/17767",
+      "item-17780.json": "https://nether.wowhead.com/forever/tooltip/item/17780"
+    },
+    "results": [
+      [
+        "quest-7028.html",
+        200
+      ],
+      [
+        "quest-7029.html",
+        200
+      ],
+      [
+        "quest-7041.html",
+        200
+      ],
+      [
+        "quest-7044.html",
+        200
+      ],
+      [
+        "quest-7046.html",
+        200
+      ],
+      [
+        "quest-7064.html",
+        200
+      ],
+      [
+        "quest-7065.html",
+        200
+      ],
+      [
+        "quest-7066.html",
+        200
+      ],
+      [
+        "quest-7067.html",
+        200
+      ],
+      [
+        "quest-7068.html",
+        200
+      ],
+      [
+        "quest-7070.html",
+        200
+      ],
+      [
+        "quest-93404.html",
+        200
+      ],
+      [
+        "quest-96776.html",
+        200
+      ],
+      [
+        "quest-93594.html",
+        200
+      ],
+      [
+        "quest-771.html",
+        200
+      ],
+      [
+        "item-17684.json",
+        200
+      ],
+      [
+        "item-17943.json",
+        200
+      ],
+      [
+        "item-17702.json",
+        200
+      ],
+      [
+        "item-17703.json",
+        200
+      ],
+      [
+        "item-17707.json",
+        200
+      ],
+      [
+        "item-17710.json",
+        200
+      ],
+      [
+        "item-17711.json",
+        200
+      ],
+      [
+        "item-10286.json",
+        200
+      ],
+      [
+        "item-17713.json",
+        200
+      ],
+      [
+        "item-17714.json",
+        200
+      ],
+      [
+        "item-17715.json",
+        200
+      ],
+      [
+        "item-17717.json",
+        200
+      ],
+      [
+        "item-17718.json",
+        200
+      ],
+      [
+        "item-17719.json",
+        200
+      ],
+      [
+        "item-17728.json",
+        200
+      ],
+      [
+        "item-17730.json",
+        200
+      ],
+      [
+        "item-17732.json",
+        200
+      ],
+      [
+        "item-17734.json",
+        200
+      ],
+      [
+        "item-4808.json",
+        200
+      ],
+      [
+        "item-17736.json",
+        200
+      ],
+      [
+        "item-17738.json",
+        200
+      ],
+      [
+        "item-17739.json",
+        200
+      ],
+      [
+        "item-17740.json",
+        200
+      ],
+      [
+        "item-17737.json",
+        200
+      ],
+      [
+        "item-17741.json",
+        200
+      ],
+      [
+        "item-17742.json",
+        200
+      ],
+      [
+        "item-17744.json",
+        200
+      ],
+      [
+        "item-17745.json",
+        200
+      ],
+      [
+        "item-17746.json",
+        200
+      ],
+      [
+        "item-17748.json",
+        200
+      ],
+      [
+        "item-17749.json",
+        200
+      ],
+      [
+        "item-17750.json",
+        200
+      ],
+      [
+        "item-17751.json",
+        200
+      ],
+      [
+        "item-17752.json",
+        200
+      ],
+      [
+        "item-17754.json",
+        200
+      ],
+      [
+        "item-17755.json",
+        200
+      ],
+      [
+        "item-17766.json",
+        200
+      ],
+      [
+        "item-17767.json",
+        200
+      ],
+      [
+        "item-17780.json",
+        200
+      ]
+    ]
+  },
+  "sha256": {
+    "att.lua": "6df1da64886ae88bf08fcaab5bdd1168333cbca3a611125fe8f12dfc77bf8c1c",
+    "dungeon.json": "a835340140e6531aac277e40d7feb22b51bba5dd4ec4ea35ebef6e8c94f0dc6d",
+    "facts.json": "15484fe7c3cd54cface26ae4a4f41f5b6ebdc284c8c21332a3ef21d93b580fc3",
+    "fetch-log.json": "075b6f1556550d289a590dc854efb3f7bea5dcb9cc49c3ff95dff93aaa71a435",
+    "foreverBaseNpc.lua": "e75c057a2d4e878b93d4b56e78c28c5413bac385e0ec2f90922f9a8888ce3fd1",
+    "foreverBaseObject.lua": "fbc11217b65a99aa7141226f92d6703d47d3df376932c094defe8944469e915c",
+    "foreverBaseQuest.lua": "1173a45e948a67e06f8f4dcabfac8a0cfdf9f6022e2dc2094341abfb82d2ec45",
+    "foreverNpcTraces.lua": "9b0dbf4d3d999230c910dae9021e206d38d7876e874f3e785c300c0920ed9cec",
+    "foreverObjectTraces.lua": "7bdd318c713d5d040408bf45048e6b7d1998911c49cb7f34840390b355bd1de8",
+    "foreverQuestRelationTraces.lua": "cb791f09a508dc5ad96bbc31d7eaab1bb7181aa5ed46552ca305bd4f0275abc5",
+    "foreverQuestTraces.lua": "261910d3453f8f7c123cd7ae9bcc11e2155f29ce7ab41958e85bc712db892630",
+    "guide.html": "e41e8c79a5745807ffbb6b672acfad00826c3cf70f4f13f10a584f844618ced6",
+    "index.html": "8727a8a7fbcd3d18575c8dff57da9b7f89e59b346b45edf87e5c37b935ffd816",
+    "item-10286.json": "fc64c89c52dbfc6a7e26e601fb4c6ba27ef229b75da80f1775cc43108e25c2d1",
+    "item-17684.json": "504bdba94e8da2a050b36f3d5429ed80bff3ef3d3b946b4e155514871560b90f",
+    "item-17702.json": "078c085347fdfd86080667427865cf8fc78e69d3c9a1451badfe59bd2e45811d",
+    "item-17703.json": "1f815799b9f7db2494d1d2f160389655f2c7132b140f1f926942ed837fb0d779",
+    "item-17707.json": "4b729cf51130e781a597d527e2bbee6485048b15c6a50e00ce12e9e3d4827eea",
+    "item-17710.json": "4ced6a016d4058f22171495fe3103b2f986605e690c28b2de5ff64bce328358f",
+    "item-17711.json": "394efc42b8865ffd1621e1c89896b13741f898161aae5194f413223366556a05",
+    "item-17713.json": "14b46eca3dff1f6840c81fbdb10f6cf61fda1b55080ccea5446925496e736bdf",
+    "item-17714.json": "2a62d83c7fadbe713739b8a7fce685d4aa8bab56c5e6f7d3cf7e8e7c23c268ec",
+    "item-17715.json": "a0e6dd0bfae97200bbcf868146bfc0945016e5a876fe5886306f6dadf730fc1a",
+    "item-17717.json": "75b0525a27b463787ad8e8e49a7584f21f71ccd4a400303862806bac020e4b05",
+    "item-17718.json": "bc79ef356cbd9fc33f907883f7a01e31f4471664d435fd66904861fd1ea0e4e9",
+    "item-17719.json": "5cb1bf602d74e1d5d1c8d12e358ce888bf8e3f7392d193ecb902848990828306",
+    "item-17728.json": "2c4b88f60472055cb904055d1eb524580a75ee74419e59a1c4e30f94eab0c327",
+    "item-17730.json": "78138f80864d82b7cfcac4977b1c0d27eca0ec13f8f3fe302c6ad7c316f2d079",
+    "item-17732.json": "16aad45e4c44a9df7a11af0b467a8e5f4794cc7c37540964de13bf86e6cc1d9f",
+    "item-17734.json": "0dabe6d5767ba1bc1a4ee630ab32d517c63099498e504e15e3858f7a7148365e",
+    "item-17736.json": "8a0be11bcf05cafddf08daa5bd33eab80f7a9d2f4c3d2254e20f8d2f36599075",
+    "item-17737.json": "52de11756a8f318d40a5138cc459d24cf49f8f41c64bd8f64ad29a25bdc2bcc9",
+    "item-17738.json": "e90feb859a20b5e0e2f9d0edb306d95e08ad7f6c4ab0805b563079465998a4ec",
+    "item-17739.json": "880bac2b9158d0c3157eb8e0b74e1825fee1aae54775493d104cb752c834c8de",
+    "item-17740.json": "b0ab44be6886b0d13d410d1d2f4593a88ba76baf30956c0050ea4667296b6ed9",
+    "item-17741.json": "141bd2bce8b2d05f99d4e31693670b64aa105310a29663a464fed4a33095287e",
+    "item-17742.json": "507a5877503718a5ef4a885f92229fbbaf3a2a96c76ec1ae65b94b9e4b237f1b",
+    "item-17744.json": "d375becffa6f1cbb77c83fd35807b4ca5cd29f6d5983716c5b6a8c9febd681ae",
+    "item-17745.json": "5114d302849344f54540a43fd42b94c1414ddcf57a6c217b24833dd09f2cc179",
+    "item-17746.json": "03aaae308c5c7373ecabc89c59f80fc29f9cfeb0d80ced16076280f4a213d1da",
+    "item-17748.json": "b493c5392d9c9ac322cca44890ebdf4dec6090408217d45ccad2543017490037",
+    "item-17749.json": "35c8e7c23e9770914fc7aa862b317e7a5eae15557a671ffae1bd7d55505c82c6",
+    "item-17750.json": "88c86550b0757ca42f7207014fe3d4ab8a799e291718edf0d4440aaeace6ca5c",
+    "item-17751.json": "ed932d41ac2dab455f07fc56c54f40fe87b06c3a08c8f257d6813cb3404c6db7",
+    "item-17752.json": "b8ee9948577b8413db020e017d1315d270826aa20c0e95129b573f89d1fd4565",
+    "item-17754.json": "a7c56abf634cc417b0fbee7dcce3fda19fc8314552f83fcf26e4fc47981bc311",
+    "item-17755.json": "b07964c82665804d7344ea2439c0466afebfd2d9f0289d961e73a1d4e4f67409",
+    "item-17766.json": "11e9505e6bb6032d1bb00c77e8eb5b0c375123857f55516417605c7f4ee81744",
+    "item-17767.json": "e06e10b107d64c846d3661eb48ae57028a06156b2b48bd758b183bded621fee1",
+    "item-17780.json": "78d6ba507faae76eff41131232c3839985cb076e79db95e395a8dbf46a5bb43e",
+    "item-17943.json": "bd2daab8bc0d73642786b7db65fa44173f75d16caf3f352bcc0603b1395986aa",
+    "item-4808.json": "4b0c51f6669b9d838b37b416a90cc3f6b63a58551854c6e2859d2446882a8a3a",
+    "merged-npcs.json": "1b3e608845b5e3d91977bddb57349e698ec639dd6aed541bffb1be6dabfc6b8d",
+    "merged-objects.json": "753694ac0cde3ae02da13acb2b337fa573da0adf16efc18561698b220d58a9f8",
+    "merged-quests.json": "842dd15130b57538ab5188e41c807d4c90266e4f657550eff71ad70e1acd6057",
+    "quest-7028.html": "cef7183a11cd5e5c65c4f3bbc4fc693d184b60e2c1d46f1e401fa43ae9100a02",
+    "quest-7029.html": "0bcbdbdd02d645062f22f901aa1c63078a3d3a7343a5a0a13342cb9457495dcd",
+    "quest-7041.html": "6c46063ca6f3c17f14c5c290d000805853781cc7f1ff1efa7310b7860dd322a6",
+    "quest-7044.html": "c87a654609eb44c057cee2fd859c900cef2f87f9b1f71d2b233fccb3d45b6d37",
+    "quest-7046.html": "58e0f19a13fb33ac738c2ad4e934d8585ade0cd144b6111270037cb0efdb5465",
+    "quest-7064.html": "7dbb9936cd7e90e62bebb2f96e766d0dc5250b8973fe07246de4208c809f1ab5",
+    "quest-7065.html": "c94edc0206c082c148421112a57ceea2757ee3a68f6f1f0413cdc71c4a7fd933",
+    "quest-7066.html": "ee7af3e3c9155ff4be68cd741cff85a39f16cbb2324bfd0ae5b6c2a1aac09b86",
+    "quest-7067.html": "96f6b080d75383cb6e458aff5f36cc0b841fcac215f74f24acac6a2efeeef306",
+    "quest-7068.html": "d67c5b798ab3675f07ebf217e561e37e39149bd617136a265cdcbf5cf16c5ed4",
+    "quest-7070.html": "3df7ec26ea689535e0709a4711dbba0c34885d4ff7cf17e67267ca42ab6dd5cd",
+    "quest-771.html": "35c0779301e4d68f0e1067e2cfa222c6463310453c7db5f9d7da8753c33e1002",
+    "quest-93404.html": "500c723bf145dc4cc542487fdff0a8d14218d80fd2d280e0b9f5e022b1ed0926",
+    "quest-93594.html": "ba8a5c953a2f49e78fba03cfbdd81291bbdb424be3975efe16ba337007f89766",
+    "quest-96776.html": "992273c8602d0921b465f1b4dfe004f007b616a455333f2203547ec42ae642c1",
+    "tree.json": "515fd0509a0feb4b24e952a6eb725220c7e3ad68bd20aec80274d3c04951261b"
+  },
+  "limits": [
+    "No map added",
+    "Coverage bounded by inspected published/primary sources; no claim that undocumented quests cannot exist",
+    "Outdoor coordinates remain Classic references; instance pickup coordinates blank",
+    "No loot percentages asserted"
+  ]
+}

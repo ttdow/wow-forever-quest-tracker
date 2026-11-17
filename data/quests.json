@@ -22829,5 +22829,347 @@
         ]
       }
     ]
+  },
+  {
+    "id": "7028",
+    "zone": "Maraudon",
+    "level": 47,
+    "name": "Twisted Evils",
+    "stage": "",
+    "giver": "Willow",
+    "coordinates": "62.2, 39.6",
+    "area": "Desolace",
+    "objective": "Collect 15 Theradric Crystal Carvings for Willow in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 41; Both factions; No class restriction recorded; Pickup coordinates are published Classic references, not newly measured Forever positions",
+    "sources": [
+      "https://foreverchanges.pro/quest/7028/twisted-evils",
+      "https://foreverchanges.pro/quests/maraudon",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7041",
+    "zone": "Maraudon",
+    "level": 47,
+    "name": "Vyletongue Corruption",
+    "stage": "Orange entrance approach",
+    "giver": "Talendria",
+    "coordinates": "68.5, 8.9",
+    "area": "Nijel's Point (Desolace)",
+    "objective": "Fill the Coated Cerulean Vial at the orange crystal pool in Maraudon. Use the Filled Cerulean Vial on the Vylestem Vines to force the corrupted Noxxious Scion to emerge. Heal 8 plants by killing these Noxxious Scion, then return to Talendria in Nijel's Point.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 41; Alliance; No class restriction recorded; Pickup coordinates are published Classic references, not newly measured Forever positions",
+    "sources": [
+      "https://foreverchanges.pro/quest/7041/vyletongue-corruption",
+      "https://foreverchanges.pro/quests/maraudon",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7044",
+    "zone": "Maraudon",
+    "level": 49,
+    "name": "Legends of Maraudon",
+    "stage": "Scepter of Celebras: collect both parts",
+    "giver": "Cavindra",
+    "coordinates": "32.1, 64",
+    "area": "Maraudon entrance caves (Desolace)",
+    "objective": "Recover the Celebrian Rod from Noxxion and the Celebrian Diamond from Lord Vyletongue, then speak with Celebras inside Maraudon.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 41; Both factions; No class restriction recorded; Pickup coordinates are published Classic references, not newly measured Forever positions; Cavindra is in the entrance caves; Celebras is inside the instance",
+    "sources": [
+      "https://foreverchanges.pro/quest/7044/legends-of-maraudon",
+      "https://foreverchanges.pro/quests/maraudon",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7046",
+    "zone": "Maraudon",
+    "level": 49,
+    "name": "The Scepter of Celebras",
+    "stage": "Scepter of Celebras: ritual",
+    "giver": "Celebras the Redeemed",
+    "coordinates": "",
+    "area": "Maraudon",
+    "objective": "Assist Celebras the Redeemed while he creates the Scepter of Celebras. Speak with him when the ritual is complete.",
+    "areaConfidence": "High",
+    "notes": "Minimum level 41; Both factions; No class restriction recorded",
+    "sources": [
+      "https://foreverchanges.pro/quest/7046/the-scepter-of-celebras",
+      "https://foreverchanges.pro/quests/maraudon",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges-and-addon",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [
+      {
+        "id": "7044",
+        "name": "Legends of Maraudon",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "7065",
+    "zone": "Maraudon",
+    "level": 51,
+    "name": "Corruption of Earth and Seed",
+    "stage": "",
+    "giver": "Keeper Marandis",
+    "coordinates": "63.8, 10.7",
+    "area": "Nijel's Point (Desolace)",
+    "objective": "Slay Princess Theradras and return to Keeper Marandis at Nijel's Point in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45; Alliance; No class restriction recorded; Pickup coordinates are published Classic references, not newly measured Forever positions",
+    "sources": [
+      "https://foreverchanges.pro/quest/7065/corruption-of-earth-and-seed",
+      "https://foreverchanges.pro/quests/maraudon",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7066",
+    "zone": "Maraudon",
+    "level": 51,
+    "name": "Seed of Life",
+    "stage": "After defeating Princess Theradras",
+    "giver": "Zaetar's Spirit",
+    "coordinates": "",
+    "area": "Maraudon — Earth Song Falls",
+    "objective": "Seek out Remulos in Moonglade and give him the Seed of Life.",
+    "areaConfidence": "High",
+    "notes": "Minimum level 39; Both factions; No class restriction recorded; Zaetar's Spirit appears after Princess Theradras is defeated; completing Corruption of Earth and Seed is not a recorded prerequisite",
+    "sources": [
+      "https://foreverchanges.pro/quest/7066/seed-of-life",
+      "https://foreverchanges.pro/quests/maraudon",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges-and-addon",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7067",
+    "zone": "Maraudon",
+    "level": 48,
+    "name": "The Pariah's Instructions",
+    "stage": "Entrance caves and instance",
+    "giver": "Centaur Pariah",
+    "coordinates": "50.4, 86.7",
+    "area": "Southern Desolace",
+    "objective": "Use the Amulet of Spirits from the Nameless Prophet to collect the five Khan gems. Combine them into the Amulet of Union and return it to the Centaur Pariah in southern Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 39; Both factions; No class restriction recorded; Pickup coordinates are published Classic references, not newly measured Forever positions; Centaur Pariah roams; the coordinate is an approximate reference; No Gelkis or Magram allegiance requirement recorded",
+    "sources": [
+      "https://foreverchanges.pro/quest/7067/the-pariahs-instructions",
+      "https://foreverchanges.pro/quests/maraudon",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7070",
+    "zone": "Maraudon",
+    "level": 42,
+    "name": "Shadowshard Fragments",
+    "stage": "Entrance caves",
+    "giver": "Archmage Tervosh",
+    "coordinates": "66.4, 49.3",
+    "area": "Theramore (Dustwallow Marsh)",
+    "objective": "Collect 10 Shadowshard Fragments from Maraudon and return them to Archmage Tervosh in Theramore on the coast of Dustwallow Marsh.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 39; Alliance; No class restriction recorded; Pickup coordinates are published Classic references, not newly measured Forever positions",
+    "sources": [
+      "https://foreverchanges.pro/quest/7070/shadowshard-fragments",
+      "https://foreverchanges.pro/quests/maraudon",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/maraudon.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "93594",
+    "zone": "Maraudon",
+    "level": 43,
+    "name": "Word of the Woods",
+    "stage": "Shared — Forlorn Gardens / Agamaggan's Blood",
+    "giver": "Mithera",
+    "coordinates": "53.2, 75.9",
+    "area": "Temple (Shen'dralas)",
+    "objective": "Find Woodwyrd in the Forlorn Gardens at Shen'dralas in the Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93594",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93341",
+        "name": "Forlorn Gardens",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "93404",
+    "zone": "Maraudon",
+    "level": 49,
+    "name": "Rot and Regret",
+    "stage": "Shared — Forlorn Gardens / Agamaggan's Blood",
+    "giver": "Woodwyrd",
+    "coordinates": "69.7, 71.9",
+    "area": "Forlorn Gardens (Shen'dralas)",
+    "objective": "Venture to Maraudon and recover a Vial of Earth Song Water and return it to Woodwyrd at the Forlorn Gardens in Desolace.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions in the current published quest page; No class restriction listed in page/primary traces; Minimum level 35; Shared quest with no Magram reputation requirement recorded; Chain links are observed offer order, not confirmed mandatory prerequisites",
+    "sources": [
+      "https://foreverchanges.pro/quests/shendralas",
+      "https://foreverchanges.pro/quest/93404",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges-and-questie-trace",
+      "level": "foreverchanges",
+      "objective": "questie-trace",
+      "faction": "foreverchanges",
+      "classRestriction": "none-recorded",
+      "route": "shared-no-magram-requirement-recorded",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "93594",
+        "name": "Word of the Woods",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/4dbb82440a27856f8dccf57094a5d792cdc7cc9b/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ],
+        "relation": "Offered after"
+      }
+    ]
   }
 ]
