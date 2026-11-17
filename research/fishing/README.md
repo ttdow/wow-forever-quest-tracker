@@ -8,7 +8,7 @@ Both By fish and By area use this expanded dataset. Different skill bands and wa
 
 Included: fish eaten raw, fish with usable effects, and raw fish used as crafting reagents. Newly added species are **Oily Blackmouth, Firefin Snapper, Stonescale Eel, Lightning Eel, Sickly Looking Fish, Oil Covered Fish, and Darkshore Grouper**. Darkshore Grouper is edible, and Raw Plated Armorfish has a current Forever Cooking recipe, so they qualify despite quest associations.
 
-Excluded: quest-only fish without a food/reagent use, tournament-only catches, trophy weights, bloated loot containers, non-fish loot, cooked products, and fish without a supported fishing source. Raw Spinefin Halibut has a current recipe, but the inspected acquisition records supply world/drop references rather than a fishing source; a recipe does not establish a catch location. Cooking recipes and cooked bonuses remain deferred in the interface.
+Excluded: quest-only fish without a food/reagent use, tournament-only catches, trophy weights, bloated loot containers, non-fish loot, cooked products, and fish without a supported fishing source. Raw Spinefin Halibut has a current recipe, but the inspected acquisition records supply world/drop references rather than a fishing source; a recipe does not establish a catch location. Cooking recipes and cooked bonuses are now shown in the separate [Cooking view](../cooking/README.md).
 
 ## Source coverage
 
@@ -56,7 +56,7 @@ The two user-supplied Riverglades possibilities stay in the table with **Unverif
 
 ## Data and interface
 
-`data/professions/fishing.json` remains the maintained source, with no conversion or runtime server required. Each row is a catch group with its own water/skill values and explicit `locations`. Location records include named area, detailed waters, source URLs, and evidence. The compact combined `location` text is for By fish; By area shows the fuller local details. Item IDs remain stable for future Cooking links. Existing quest saves are unrelated to this data.
+`data/professions/fishing.json` remains the maintained source, with no conversion or runtime server required. Each row is a catch group with its own water/skill values and explicit `locations`. Location records include named area, detailed waters, source URLs, and evidence. The compact combined `location` text is for By fish; By area shows the fuller local details. Stable item IDs support the two-way Cooking links added November 16, 2026. Existing quest saves are unrelated to this data.
 
 By fish counts unique fish and catch groups. By area lists the corresponding catches under each named zone/dungeon and scopes searches to that area's waters. Searching a named lake, school, or shore also works in By fish. Unknown source labels and optional metadata remain nonblocking; errors in Fishing do not block quests, maps, or drops.
 

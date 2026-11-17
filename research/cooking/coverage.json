@@ -1,0 +1,2167 @@
+{
+  "checked": "2026-11-16",
+  "catalogRecipeCount": 132,
+  "includedCount": 39,
+  "unverifiedAvailabilityIds": [
+    "1225763",
+    "1225762",
+    "470359",
+    "470370",
+    "1247741"
+  ],
+  "decisions": [
+    {
+      "id": "1255241",
+      "name": "Cleansing Stew",
+      "ingredients": [
+        [
+          252948,
+          1
+        ],
+        [
+          5471,
+          1
+        ],
+        [
+          12207,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1229737",
+      "name": "Basic Campfire",
+      "ingredients": [
+        [
+          4470,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "7751",
+      "name": "Brilliant Smallfish",
+      "ingredients": [
+        [
+          6291,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "2538",
+      "name": "Charred Wolf Meat",
+      "ingredients": [
+        [
+          2672,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "15935",
+      "name": "Crispy Bat Wing",
+      "ingredients": [
+        [
+          12223,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "21143",
+      "name": "Gingerbread Cookie",
+      "ingredients": [
+        [
+          6889,
+          1
+        ],
+        [
+          17194,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "8604",
+      "name": "Herb Baked Egg",
+      "ingredients": [
+        [
+          6889,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "2540",
+      "name": "Roasted Boar Meat",
+      "ingredients": [
+        [
+          769,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "7752",
+      "name": "Slitherskin Mackerel",
+      "ingredients": [
+        [
+          6303,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "6412",
+      "name": "Kaldorei Spider Kabob",
+      "ingredients": [
+        [
+          5465,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "2539",
+      "name": "Spiced Wolf Meat",
+      "ingredients": [
+        [
+          2672,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "6413",
+      "name": "Scorpid Surprise",
+      "ingredients": [
+        [
+          5466,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1249957",
+      "name": "Peace Tea",
+      "ingredients": [
+        [
+          159,
+          1
+        ],
+        [
+          2447,
+          2
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1270633",
+      "name": "Skywall Souffle",
+      "ingredients": [
+        [
+          6889,
+          2
+        ],
+        [
+          10284,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1249963",
+      "name": "Venomous Smoothie",
+      "ingredients": [
+        [
+          159,
+          1
+        ],
+        [
+          2678,
+          1
+        ],
+        [
+          1475,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1250156",
+      "name": "Tasty Raptor Bites",
+      "ingredients": [
+        [
+          3685,
+          1
+        ],
+        [
+          2678,
+          4
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "2795",
+      "name": "Beer Basted Boar Ribs",
+      "ingredients": [
+        [
+          2886,
+          1
+        ],
+        [
+          2894,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1270635",
+      "name": "Pincer Bites",
+      "ingredients": [
+        [
+          2675,
+          1
+        ],
+        [
+          10284,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "21144",
+      "name": "Egg Nog",
+      "ingredients": [
+        [
+          6889,
+          1
+        ],
+        [
+          1179,
+          1
+        ],
+        [
+          17196,
+          1
+        ],
+        [
+          17194,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "6414",
+      "name": "Roasted Kodo Meat",
+      "ingredients": [
+        [
+          5467,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "8607",
+      "name": "Smoked Bear Meat",
+      "ingredients": [
+        [
+          3173,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "6499",
+      "name": "Boiled Clams",
+      "ingredients": [
+        [
+          5503,
+          1
+        ],
+        [
+          159,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "2541",
+      "name": "Coyote Steak",
+      "ingredients": [
+        [
+          2673,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "6415",
+      "name": "Fillet of Frenzy",
+      "ingredients": [
+        [
+          5468,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "2542",
+      "name": "Goretusk Liver Pie",
+      "ingredients": [
+        [
+          723,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "7754",
+      "name": "Loch Frenzy Delight",
+      "ingredients": [
+        [
+          6317,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "7753",
+      "name": "Longjaw Mud Snapper",
+      "ingredients": [
+        [
+          6289,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "7827",
+      "name": "Rainbow Fin Albacore",
+      "ingredients": [
+        [
+          6361,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "6416",
+      "name": "Strider Stew",
+      "ingredients": [
+        [
+          5469,
+          1
+        ],
+        [
+          4536,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "3371",
+      "name": "Blood Sausage",
+      "ingredients": [
+        [
+          3173,
+          1
+        ],
+        [
+          3172,
+          1
+        ],
+        [
+          3174,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "9513",
+      "name": "Thistle Tea",
+      "ingredients": [
+        [
+          2452,
+          1
+        ],
+        [
+          159,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1250157",
+      "name": "Breakfast Omelette",
+      "ingredients": [
+        [
+          6889,
+          1
+        ],
+        [
+          2678,
+          4
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "2544",
+      "name": "Crab Cake",
+      "ingredients": [
+        [
+          2674,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "1250154",
+      "name": "Twice-Spiced Raptor Slice",
+      "ingredients": [
+        [
+          12184,
+          1
+        ],
+        [
+          2678,
+          2
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "2543",
+      "name": "Westfall Stew",
+      "ingredients": [
+        [
+          729,
+          1
+        ],
+        [
+          730,
+          1
+        ],
+        [
+          731,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1270632",
+      "name": "Critter Cookie",
+      "ingredients": [
+        [
+          10284,
+          5
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "3370",
+      "name": "Crocolisk Steak",
+      "ingredients": [
+        [
+          2924,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "2546",
+      "name": "Dry Pork Ribs",
+      "ingredients": [
+        [
+          2677,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "25704",
+      "name": "Smoked Sagefish",
+      "ingredients": [
+        [
+          21071,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "2545",
+      "name": "Cooked Crab Claw",
+      "ingredients": [
+        [
+          2675,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "8238",
+      "name": "Savory Deviate Delight",
+      "ingredients": [
+        [
+          6522,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "1252566",
+      "name": "Savory Whimsyfin Delight",
+      "ingredients": [
+        [
+          251524,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "1283400",
+      "name": "Journeyman Campfire",
+      "ingredients": [
+        [
+          11291,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "6501",
+      "name": "Clam Chowder",
+      "ingredients": [
+        [
+          5503,
+          1
+        ],
+        [
+          1179,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "6417",
+      "name": "Dig Rat Stew",
+      "ingredients": [
+        [
+          5051,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "3372",
+      "name": "Murloc Fin Soup",
+      "ingredients": [
+        [
+          1468,
+          2
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1249958",
+      "name": "Royal Tea",
+      "ingredients": [
+        [
+          1179,
+          1
+        ],
+        [
+          785,
+          2
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1249964",
+      "name": "Slimy Smoothie",
+      "ingredients": [
+        [
+          1179,
+          1
+        ],
+        [
+          2678,
+          2
+        ],
+        [
+          3174,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "2547",
+      "name": "Redridge Goulash",
+      "ingredients": [
+        [
+          1081,
+          1
+        ],
+        [
+          1080,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "7755",
+      "name": "Bristle Whisker Catfish",
+      "ingredients": [
+        [
+          6308,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "6418",
+      "name": "Crispy Lizard Tail",
+      "ingredients": [
+        [
+          5470,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "2549",
+      "name": "Seasoned Wolf Kabob",
+      "ingredients": [
+        [
+          1015,
+          2
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "2548",
+      "name": "Succulent Pork Ribs",
+      "ingredients": [
+        [
+          2677,
+          2
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "3397",
+      "name": "Big Bear Steak",
+      "ingredients": [
+        [
+          3730,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "3377",
+      "name": "Gooey Spider Cake",
+      "ingredients": [
+        [
+          2251,
+          2
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "6419",
+      "name": "Lean Venison",
+      "ingredients": [
+        [
+          5471,
+          1
+        ],
+        [
+          2678,
+          4
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "3373",
+      "name": "Crocolisk Gumbo",
+      "ingredients": [
+        [
+          3667,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1249965",
+      "name": "Mrrggl Smrrthle",
+      "ingredients": [
+        [
+          1205,
+          1
+        ],
+        [
+          2692,
+          2
+        ],
+        [
+          1468,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1249959",
+      "name": "Root Tea",
+      "ingredients": [
+        [
+          1205,
+          1
+        ],
+        [
+          3357,
+          2
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "6500",
+      "name": "Goblin Deviled Clams",
+      "ingredients": [
+        [
+          5504,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "15853",
+      "name": "Lean Wolf Steak",
+      "ingredients": [
+        [
+          1015,
+          1
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "3398",
+      "name": "Hot Lion Chops",
+      "ingredients": [
+        [
+          3731,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "3376",
+      "name": "Curiously Tasty Omelet",
+      "ingredients": [
+        [
+          3685,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1262978",
+      "name": "Cookie's Feast",
+      "ingredients": [
+        [
+          12037,
+          2
+        ],
+        [
+          12204,
+          1
+        ],
+        [
+          3713,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "24418",
+      "name": "Heavy Crocolisk Stew",
+      "ingredients": [
+        [
+          3667,
+          2
+        ],
+        [
+          3713,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "3399",
+      "name": "Tasty Lion Steak",
+      "ingredients": [
+        [
+          3731,
+          2
+        ],
+        [
+          3713,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "7828",
+      "name": "Rockscale Cod",
+      "ingredients": [
+        [
+          6362,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "1250155",
+      "name": "Giant Scrambled Eggs",
+      "ingredients": [
+        [
+          12207,
+          2
+        ],
+        [
+          2692,
+          4
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1250151",
+      "name": "Bear Brisket",
+      "ingredients": [
+        [
+          3730,
+          2
+        ],
+        [
+          2692,
+          3
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "4094",
+      "name": "Barbecued Buzzard Wing",
+      "ingredients": [
+        [
+          3404,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "15863",
+      "name": "Carrion Surprise",
+      "ingredients": [
+        [
+          12037,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "7213",
+      "name": "Giant Clam Scorcho",
+      "ingredients": [
+        [
+          4655,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "15856",
+      "name": "Hot Wolf Ribs",
+      "ingredients": [
+        [
+          12203,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "15861",
+      "name": "Jungle Stew",
+      "ingredients": [
+        [
+          12202,
+          1
+        ],
+        [
+          159,
+          1
+        ],
+        [
+          4536,
+          2
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "20916",
+      "name": "Mithril Headed Trout",
+      "ingredients": [
+        [
+          8365,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "15865",
+      "name": "Mystery Stew",
+      "ingredients": [
+        [
+          12037,
+          1
+        ],
+        [
+          2596,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "15855",
+      "name": "Roast Raptor",
+      "ingredients": [
+        [
+          12184,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "25954",
+      "name": "Sagefish Delight",
+      "ingredients": [
+        [
+          21153,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "3400",
+      "name": "Soothing Turtle Bisque",
+      "ingredients": [
+        [
+          3712,
+          1
+        ],
+        [
+          3713,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1249966",
+      "name": "Calcified Smoothie",
+      "ingredients": [
+        [
+          1708,
+          1
+        ],
+        [
+          2692,
+          3
+        ],
+        [
+          5637,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1249960",
+      "name": "Triage Tea",
+      "ingredients": [
+        [
+          1708,
+          1
+        ],
+        [
+          3818,
+          2
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1250150",
+      "name": "Raging Raptor Ribs",
+      "ingredients": [
+        [
+          12184,
+          2
+        ],
+        [
+          2692,
+          3
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1295834",
+      "name": "Plain Ol' Paletusk",
+      "ingredients": [
+        [
+          769,
+          2
+        ],
+        [
+          2678,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1291341",
+      "name": "Expert Campfire",
+      "ingredients": [
+        [
+          272941,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1249967",
+      "name": "Spicy Smoothie",
+      "ingredients": [
+        [
+          1645,
+          1
+        ],
+        [
+          3713,
+          3
+        ],
+        [
+          4402,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1295805",
+      "name": "Briny Seafood Stew",
+      "ingredients": [
+        [
+          730,
+          2
+        ],
+        [
+          12206,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "1249961",
+      "name": "Sunny Tea",
+      "ingredients": [
+        [
+          1645,
+          1
+        ],
+        [
+          8838,
+          2
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "15906",
+      "name": "Dragonbreath Chili",
+      "ingredients": [
+        [
+          12037,
+          1
+        ],
+        [
+          4402,
+          1
+        ],
+        [
+          2692,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "15910",
+      "name": "Heavy Kodo Stew",
+      "ingredients": [
+        [
+          12204,
+          2
+        ],
+        [
+          3713,
+          1
+        ],
+        [
+          159,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "21175",
+      "name": "Spider Sausage",
+      "ingredients": [
+        [
+          12205,
+          2
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1247741",
+      "name": "Spinefin Halibut",
+      "ingredients": [
+        [
+          8959,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "13028",
+      "name": "Goldthorn Tea",
+      "ingredients": [
+        [
+          3821,
+          1
+        ],
+        [
+          159,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1250153",
+      "name": "Raptor Rouladen",
+      "ingredients": [
+        [
+          12184,
+          2
+        ],
+        [
+          2692,
+          4
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1250142",
+      "name": "Savory Stag Sliders",
+      "ingredients": [
+        [
+          5471,
+          2
+        ],
+        [
+          2692,
+          3
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1319313",
+      "name": "Plated Armorfish",
+      "ingredients": [
+        [
+          13890,
+          1
+        ],
+        [
+          3713,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "18239",
+      "name": "Cooked Glossy Mightfish",
+      "ingredients": [
+        [
+          13754,
+          1
+        ],
+        [
+          3713,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "18241",
+      "name": "Filet of Redgill",
+      "ingredients": [
+        [
+          13758,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "15933",
+      "name": "Monster Omelet",
+      "ingredients": [
+        [
+          12207,
+          1
+        ],
+        [
+          3713,
+          2
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "15915",
+      "name": "Spiced Chili Crab",
+      "ingredients": [
+        [
+          12206,
+          1
+        ],
+        [
+          2692,
+          2
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "18238",
+      "name": "Spotted Yellowtail",
+      "ingredients": [
+        [
+          4603,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "22480",
+      "name": "Tender Wolf Steak",
+      "ingredients": [
+        [
+          12208,
+          1
+        ],
+        [
+          3713,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "20626",
+      "name": "Undermine Clam Chowder",
+      "ingredients": [
+        [
+          7974,
+          2
+        ],
+        [
+          2692,
+          1
+        ],
+        [
+          1179,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "18240",
+      "name": "Grilled Squid",
+      "ingredients": [
+        [
+          13755,
+          1
+        ],
+        [
+          3713,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "18242",
+      "name": "Hot Smoked Bass",
+      "ingredients": [
+        [
+          13756,
+          1
+        ],
+        [
+          2692,
+          2
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "1249968",
+      "name": "Wicked Smoothie",
+      "ingredients": [
+        [
+          8766,
+          1
+        ],
+        [
+          3713,
+          4
+        ],
+        [
+          8146,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1225759",
+      "name": "Filet o' Flank",
+      "ingredients": [
+        [
+          12203,
+          2
+        ],
+        [
+          239016,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1225758",
+      "name": "Prowler Steak",
+      "ingredients": [
+        [
+          12202,
+          2
+        ],
+        [
+          239016,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1249962",
+      "name": "Sage's Tea",
+      "ingredients": [
+        [
+          8766,
+          1
+        ],
+        [
+          13465,
+          2
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1225760",
+      "name": "Sunrise Omelette",
+      "ingredients": [
+        [
+          12207,
+          2
+        ],
+        [
+          239016,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "18243",
+      "name": "Nightfin Soup",
+      "ingredients": [
+        [
+          13759,
+          1
+        ],
+        [
+          159,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "18244",
+      "name": "Poached Sunscale Salmon",
+      "ingredients": [
+        [
+          13760,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "1250144",
+      "name": "Bat Hachee",
+      "ingredients": [
+        [
+          12223,
+          3
+        ],
+        [
+          3713,
+          2
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1250147",
+      "name": "Bear Bruscitti",
+      "ingredients": [
+        [
+          3730,
+          3
+        ],
+        [
+          3713,
+          3
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1250158",
+      "name": "Clam Linguine",
+      "ingredients": [
+        [
+          7974,
+          3
+        ],
+        [
+          3713,
+          4
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "1250152",
+      "name": "Prehistoric Pulled Raptor",
+      "ingredients": [
+        [
+          12184,
+          3
+        ],
+        [
+          3713,
+          4
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1250145",
+      "name": "Savory Turtle Stew",
+      "ingredients": [
+        [
+          3712,
+          3
+        ],
+        [
+          3713,
+          3
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1250143",
+      "name": "Soaring Pamplona",
+      "ingredients": [
+        [
+          3404,
+          3
+        ],
+        [
+          3713,
+          3
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1250148",
+      "name": "Steaming Stag Steak",
+      "ingredients": [
+        [
+          5471,
+          3
+        ],
+        [
+          3713,
+          4
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1294014",
+      "name": "Sweetpaw Jam",
+      "ingredients": [
+        [
+          249796,
+          3
+        ],
+        [
+          3713,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1250149",
+      "name": "Swiftstrike Steak",
+      "ingredients": [
+        [
+          12202,
+          3
+        ],
+        [
+          3713,
+          2
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1250146",
+      "name": "Flank au Poivre",
+      "ingredients": [
+        [
+          12203,
+          3
+        ],
+        [
+          3713,
+          3
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "18247",
+      "name": "Baked Salmon",
+      "ingredients": [
+        [
+          13889,
+          1
+        ],
+        [
+          3713,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "18245",
+      "name": "Lobster Stew",
+      "ingredients": [
+        [
+          13888,
+          1
+        ],
+        [
+          159,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "18246",
+      "name": "Mightfish Steak",
+      "ingredients": [
+        [
+          13893,
+          1
+        ],
+        [
+          2692,
+          1
+        ],
+        [
+          3713,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "22761",
+      "name": "Runn Tum Tuber Surprise",
+      "ingredients": [
+        [
+          18255,
+          1
+        ],
+        [
+          3713,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "1225763",
+      "name": "Grand Lobster Banquet",
+      "ingredients": [
+        [
+          13888,
+          12
+        ],
+        [
+          3712,
+          4
+        ],
+        [
+          3404,
+          3
+        ],
+        [
+          239017,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "1225762",
+      "name": "Specklefin Feast",
+      "ingredients": [
+        [
+          4603,
+          12
+        ],
+        [
+          12184,
+          4
+        ],
+        [
+          6362,
+          3
+        ],
+        [
+          239017,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "1263067",
+      "name": "Iron Oven",
+      "ingredients": [
+        [
+          10284,
+          10
+        ],
+        [
+          159,
+          5
+        ],
+        [
+          3713,
+          4
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "470359",
+      "name": "Darkclaw Bisque",
+      "ingredients": [
+        [
+          13888,
+          1
+        ],
+        [
+          227813,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "25659",
+      "name": "Dirge's Kickin' Chimaerok Chops",
+      "ingredients": [
+        [
+          2692,
+          1
+        ],
+        [
+          9061,
+          1
+        ],
+        [
+          8150,
+          1
+        ],
+        [
+          21024,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    },
+    {
+      "id": "470370",
+      "name": "Smoked Redgill",
+      "ingredients": [
+        [
+          13758,
+          1
+        ]
+      ],
+      "decision": "include"
+    },
+    {
+      "id": "24801",
+      "name": "Smoked Desert Dumplings",
+      "ingredients": [
+        [
+          20424,
+          1
+        ],
+        [
+          3713,
+          1
+        ]
+      ],
+      "decision": "outside fish/shellfish scope"
+    }
+  ],
+  "sources": [
+    "https://foreverdb.net/data/professions/cooking.json",
+    "https://foreverchanges.pro/professions/cooking"
+  ],
+  "sourceHashes": {
+    "cooking.html": "46ff834e6b49a4c3fcd4be9652093c359b26bddf93c9af20d703a7bb9790b08d",
+    "cooking.json": "28916959d5849765b3c3bd6a65c5760d5e7ea10f0cf0fc30fd4fed4fbdb28a94",
+    "fdb-cooking.html": "905a4878ed0c429d36db0e402a2ad945604540f15e29b98ee1996666c28f7862",
+    "item-10284.json": "6a5bdd2fb1b12664ccabc4d8f08de95621b28317d4b5c479f23279c2a7007350",
+    "item-1179.json": "ef0e7e25bfb82487f75ca738659d1afa42cc7dfcf1b1fea9fc0d65628d7350b5",
+    "item-12184.json": "ab6752a084cc7a0a31f436e64fdac87d2b524e77bc4a3a68f459502684bd631d",
+    "item-12206.json": "2737aa494d1018a7514b5a40ee59cd67331869c62bc44b4f728632cd5f94e95a",
+    "item-12216.json": "d3595817ab6ceefc9f40c16fe37916e5e525cb65e5ef9d478fb166ffee9cf5a0",
+    "item-13754.json": "c0a36c8169d6edcd5d15eb15a8c264f984101d883f9a38603153eeb433897782",
+    "item-13755.json": "4de5d123db44c201a3a8c2deb44721ddee2892c02b1a4557a92d12bef415382f",
+    "item-13756.json": "e6660b7aa4953afc509fd0c94f177d1fbc3b0989799fc2937b34654a206236fa",
+    "item-13758.json": "23b44e6f7e73d7ea89853f7da6778421235dd544ff96aa7c06b1983f75dac738",
+    "item-13759.json": "05659a1b75a5268d1b1e324eda038ea6cf88f74bdffecb32aa86797d65501b09",
+    "item-13760.json": "9ae26a6d9c6d979cfd0ab6030cc9e18dd4b663ef7d9fb43dfa7719ecf95932f1",
+    "item-13888.json": "7476a3539bfc6bcfe9990d4bb3906684c8482ef5f92954b602655396f6d79357",
+    "item-13889.json": "56e14bf8c392b5c23208babd02ec8e3e629784f0700a91827ec563dd75746ae9",
+    "item-13890.json": "217e6d7546125b19c95162577bbc2f1e11159a1274a1792ed7719d021ddcb6ef",
+    "item-13893.json": "dbde9a847e5222b177ad338b0b61ec15820de64d793a3839aaa102fa26e87217",
+    "item-13927.json": "2880ba7c48ee08a16b1ac4da568eb30fddf2aa3067ab700522e5b081e0b6b424",
+    "item-13928.json": "919a4cf532a277008284c20d79b9a8e6de898800a9902dfcc65a999c6526f8d0",
+    "item-13929.json": "7ce5f7bf0ed779eac1070ee64702d27b98cab769c4b34ca81aab51fc7db38427",
+    "item-13930.json": "d6abd267fce8b984496168efe79658190142439ae4db6f65738a6bc5bc75206a",
+    "item-13931.json": "331c469e743f3a70376b0641d546a811e7b3c2cd71fe9ca7f8af7658df08b13f",
+    "item-13932.json": "c1849f8d11368259d9d066b98ee4ecac94173bcf98ade082203009c5fa72f69d",
+    "item-13933.json": "360232042b4e80b643d2c14dbed15b87b71d1abb62a96caefbd1bf02d003dd91",
+    "item-13934.json": "ffab6e3c45a6ad81b773e7bb98c9a549feef3b934122506052534d8264207a18",
+    "item-13935.json": "e4dbd78592da4b4a442647374f3772794d00c30fb67e314eb0144e6b5c4ec679",
+    "item-13939.json": "9cb4e951879b8a5da4afef252306b4dac7b0d2a8ffb990698e1809eee9f00927",
+    "item-13940.json": "5803bd44e404981dad150eceb8dbf4953774ae34319ab8b5ef7371dc3df8719f",
+    "item-13941.json": "a787db21ffd848714dca6b6229fb6ec0b7ce8c79cc65c44e224aec81696fa8a9",
+    "item-13942.json": "e0b9351c1726d6e17e5c08015c2fd3acc438f08b9f11e8fac737aaf9b4043e38",
+    "item-13943.json": "ed23d824eee8e3e7c1d703b58c8eeb19236a344e9d07457e018608cf1baf6804",
+    "item-13945.json": "df5e52c6674bdcf60fca7489d4e8b205e7b570312832ec3dba79461a6b343bd7",
+    "item-13946.json": "c19ed3492f1232e749e829786ccc7e30e9da4e68390329f5f6f21298ffae0f97",
+    "item-13947.json": "cb9170eb62a8997171468467d4851cd71f5361d5f85859d83af450a8eb8d0183",
+    "item-13948.json": "e5a937f5fc56bd6c85244d4854c459f1f826063768a4e0e61fb007ed8969b511",
+    "item-13949.json": "49ffd35064156db11c0e63282f43714a8cdbb1a431c61418fe0f14a9812e7e2b",
+    "item-159.json": "4ffcee7363924b9e0b3e6a147914c8e6870abd20310c8a5c6939f4a33dff4ab8",
+    "item-16111.json": "5ef7b456761c69d20244d53a99dbcb2a5ba64e60248677259fd0ea712a073fdf",
+    "item-16766.json": "f75c06e549d61ff413d3ea620bc0d53bba11f3aa70487424f3bb3e9715a8212e",
+    "item-16767.json": "36892db7dd74c44f9781958e22994069811ad58b37ff54196131b9ab99bdc17f",
+    "item-17062.json": "c690febfb20df1bfbe4efa3be4837870c6d3022820e7af0621b9a53bae684769",
+    "item-21071.json": "ccb277aa572e20e3a66946839c4415a29f80446c61c451b54079a9b6dd96d31c",
+    "item-21072.json": "a8bfcead1f9707133efe20b5fd4da94121d7d7b9d1cc2ace6efbe0d45ac57c0c",
+    "item-21099.json": "fe7b9507192287d3840cae0a0ef4a4ea891857bff4fd83a0f957137c9dc3bb3f",
+    "item-21153.json": "ff3793e6b83f7ee805bf4ffafa9c71f16dc21e5df4aff36756f72f7aeba21398",
+    "item-21217.json": "993f9f43ed6c48e651ff01755a929e4c2aab6d1046be31a5c0c48fc8b850f294",
+    "item-21219.json": "a51719dd2f27bca51b6ca205bd433595badf74ec8926c5a484b237bca07d2ffd",
+    "item-227813.json": "29137e34e9902d5f183b61a037150ede82e95a9749d8850a02c8bc09df9f6e98",
+    "item-232436.json": "eb2ded4e820ddb6c47d4eac6f29b701c7bc9d5064b73f30e7b74839c8b6571a7",
+    "item-232437.json": "98fed9b733045fb99c52efd455530f6311072d13b22e9cd14792c1874f123197",
+    "item-232438.json": "c55c594c5d17cfbc0419c7f1aacc1aefe6cc8dd5d2e67a059eaaf009297270d4",
+    "item-232443.json": "a1b7cab9d37573cc258109f6a3bfd1120ae122b5603e5bdd4d8b3c15116da3ec",
+    "item-238641.json": "c58dd9d86a727095b67851d17920a58e2f919cd9862aef2315aae39be0a3c231",
+    "item-238642.json": "f111cc278f54cd7c54eb45b62e6fd3b4ca62ca44a5d085c63ccd7e63779b57b0",
+    "item-238649.json": "55d12b48f35eff0d81033e23f77e20689adda01a8c11f89d6c455399f20b26b0",
+    "item-238650.json": "7fd55cd761c6ab25d5f701eaee68b95081d213df7fd66936ebba6ca7cbe92786",
+    "item-239017.json": "40c013553d4a604cf7141bd340097bef2b507dcdf929ad3be58cad8fc377c9df",
+    "item-250081.json": "ee06798b7a502d4c58d8d1f7fb5024641d85fc34026c17eb4f4b8e5dfa69217a",
+    "item-250189.json": "8fb6c70b1837338879031a06d38bf618b40bc70b3b9b8e614784c46876b804e7",
+    "item-251524.json": "98abbcf50009400a32dbc8a225d01e588f171c728aec7e1461056e5c43387e52",
+    "item-251525.json": "618e9939658637a70565190c511f7669becd0bc5f993f1a95c4e14087c3a4009",
+    "item-251526.json": "0a4a6d2a6dfc68cb12e787d06229ec023bcd31ca1e4c2b212ab2de6f924c7be5",
+    "item-263512.json": "5b5c2366ca3312a67d7dc373fe5f4c35d0adcec9861a501e79f713383dac6a19",
+    "item-263513.json": "d9c67b8354dbb63232828bf2a68dd6552a7fdaccfb3811ef8dde32acfb5a76c8",
+    "item-2674.json": "afe63fb0926daf6ebf1b3815136873aa364fb0d37c4631a127517e645fa2a5ef",
+    "item-2675.json": "c1745f2ef4ef1645e8487e0f8f94f3f5dd8e2fd4a53e481921ba15902777a68b",
+    "item-2678.json": "8b0a8335ed2ce4d5166879beb14115c663a42a2eb7c1f585f63cda580900bf85",
+    "item-2682.json": "8e783f7940b60006104b7852f55d54fe934e1286ccce749c5910032d61208cf7",
+    "item-2683.json": "9204ddbff95e02d41574e13a9d9b75bdf8d7ac191e28bde4f211b14a3e069e26",
+    "item-2692.json": "cce655cbbe002d6e5b8015b68759f5d6c6024846702a2891c0e0b4bb15a56ec2",
+    "item-2698.json": "4459edd17b68235d19e5b93e518168a8e139ea96767652333e54a3acb970527c",
+    "item-274971.json": "160629b3a1246cfaf18cd084519dc11188e6d73c1aa0f4973ae07f2db8452eba",
+    "item-274972.json": "b492b4658054add6308df6e9a22739ea2d6c10c1cdc0821c1d352bcf0426d679",
+    "item-286152.json": "bab0cd3b151382f12daa92ff0bf50b082a47c49d45ee314b9305f91747d585f8",
+    "item-286153.json": "63e14f9b597725eb4484933297648a0a53fce9cda0ee2be5b2a5e907f77ad854",
+    "item-3404.json": "6d67392dcbc827b0bcc9d82f7b2a9141d75d1162262ffbecab6b5c2d39bfa4b3",
+    "item-3712.json": "c9c99e819ab2b21fea7b4370b05d218e9b0fe1403f0efb2fdaecc209334235e7",
+    "item-3713.json": "20c5a08791fc9d7bde7116def1ef238e49a011278afd40b43b25745795267ad4",
+    "item-4592.json": "02dd7104998fc4c432b804c37300ade331af64885af1aa4bb4270f9951cdc9ed",
+    "item-4593.json": "3bcb12e1236f71de16aa14db1108d530ec899950d7b22f75ebf7fbf25fd5cf14",
+    "item-4594.json": "acb7a690146d56646b9e53c40f2f51996522f86519909166ea6a6e3f4bb8ba80",
+    "item-4603.json": "5106a1fd96421dadcdb8b0bf138880006fad2ac726014e0577a40e46b9c2c31e",
+    "item-4655.json": "3f7d5d45d4634b2cfad27ddaf3167dee0f33eb8dd63a9f6e4ad4de4868552eba",
+    "item-5095.json": "e06d9e64e0a08042fae161ebe5911073806940571243ced5a70dda69f0582003",
+    "item-5503.json": "29360afd8179bf9936b7cbcee5e0ae1a41dfcd7b84bb06d5d1aafd4c4a0917ca",
+    "item-5504.json": "d137878ab2f70f8ff9b43aac4d15e3c6a183dbccb77a48a61a63550f40219d67",
+    "item-5525.json": "97578464a7174349cea7f26610108f9acd08b83921ba6e6e9e25bc9b69167696",
+    "item-5526.json": "1d65162b2e980631e34c4c4636e6d2cef3b8fbf82f6e9a94178de7230b73d73c",
+    "item-5527.json": "d904574c8c7bef38df077ea4e8485661de4d53c1e3972151ceac26fd54c1b646",
+    "item-5528.json": "2d0e86f7d808622109406edb90e904d99bdf0291685501820fb71ddbbfd626ea",
+    "item-6038.json": "d36f86dd10139795c334dca37e75453b0e4677a7d737f4a6708a92647ddac2cb",
+    "item-6039.json": "8c9818142d8250f7b4dfd2b5d6b98bf5eec7b03541b9f3ea7d7e704bd226b869",
+    "item-6289.json": "f1ce37e89f51a6a3a4ce5ebd08669d271612d6d07576f7f6d6ec837db07d6f8e",
+    "item-6290.json": "572a33b6428e6e27b508c14e4787c0b7e55d3a94135ff5ebd21ecdf1cb70ce7d",
+    "item-6291.json": "52ab349fa2722ca144277e9dbe7d19df2459731db996de8e75e71d1bb33c9150",
+    "item-6303.json": "664e8a9de09dd21ddfa548cb3d037788d49608a310c7380397ef71de44020a53",
+    "item-6308.json": "f0594228b854d88c72b3a79409f7fbe5fad4b510f9c9a36c00f036e7c51abba2",
+    "item-6316.json": "40acfa2828600033a571e0f3d74846e876291ba63a5a11e75ebe0a823c8c9ecb",
+    "item-6317.json": "42bb1441a4898048e458a5b0e5b275ec8dbb8d7800aecfd47047ad334cf4368d",
+    "item-6325.json": "7267d3ea2727291cc69dbb62c4d4a7f64925b8d1286ad03ffa3a342dc1223eec",
+    "item-6326.json": "2f56e5cb95c06f98351f236699dd6b35275ade25a4e85c48a155ba316ac9355c",
+    "item-6328.json": "475c8f7b03bea5691c628f27f08090d7124203e35f46a07a6e3204b84161d229",
+    "item-6329.json": "76433970d01c638299d4c9554d8f7e09ae4bf04844d7384ee2bbc8035ba82a30",
+    "item-6330.json": "7b2c7403dac97f28402672e096bb80471a25880d09d7b32c1d5282a92e39c849",
+    "item-6361.json": "1ae4328e500b06ed940168800f497195892095eb09de2f1381fd5bcc0c70f86f",
+    "item-6362.json": "2e77b4d0232df9be06fee2d779adaaef89dc620ddd96afa1de8f06c6dab78dfd",
+    "item-6368.json": "d5fd1daab6ad58a12b93700378d2318f78ea74be092609e11831cc7c1291821e",
+    "item-6369.json": "c3bd705512fc9e4ef8f342a1fd7d574fbff2690185f8de2a93e986ed72eed12d",
+    "item-6522.json": "82bbbef53af50228a61b3ff04f8a75b938033d67303d7f45d6765c6feafc239b",
+    "item-6657.json": "ed33b84e1098d2f489f26f548928d28b16c0d024475984d0d8c0f2b806bc7ef3",
+    "item-6661.json": "90fe545ffd1460b231386240dc4df8a7b91bb2a8cf742a62097f485531aa99e9",
+    "item-6887.json": "bfc30883d2741fbf9c5837500a7eba8eb935e74dc7b7c2f32bc4a2dcd1923d37",
+    "item-730.json": "4727039429ce7336e76f562d42874e6c3647d69f297dac23372b1be13f9931c1",
+    "item-787.json": "bb3289fbcf38cb938075c0241b3474f1799be37ff90de6e1fab4a0b9fe6509e4",
+    "item-7974.json": "8b33f08f92c1963d8a7cd0f1f1cbeaa7e009490f49a5789595fd335122d7769b",
+    "item-8364.json": "2531382f38eb1bcea268d40cf6b782b501e8595256e875159789276eed665924",
+    "item-8365.json": "151047a6eec0c87817aff3a736aa3bfba3448103f903d66b49ad364f7e3cf6e6",
+    "item-8957.json": "eda63805ef9d04eaf451e9b900b1349b118f664336281ec1c4948e935b921ea3",
+    "item-8959.json": "7a6c4546a4cf370d82d769927698de90214a3efa9cedd0eb9104a7f76ec90ed7",
+    "spell-1225762.json": "19a737ea993905719ed9df1119c78e0f68c6559171f8cfc27337b8a9e56e028f",
+    "spell-1225763.json": "0211907e614f58bf1b9bb2c3ed7ab23788cbd8c0ce47dc14259e51286e3c666a",
+    "spell-1247741.json": "f8e00c9c319c84df99df6d252ad853488dc8ec96473a2b6c52e90612d8edfbb5",
+    "spell-1250158.json": "17187cda8c96c1678e75db7c14dd2ced8c6e0c7ed9b3d38766e4e02d3cc7b923",
+    "spell-1252566.json": "5fe66a9aeacefe3e4eae4971b9f4d9e33cfdeb219f3f190bd37c9274677e668f",
+    "spell-1270635.json": "0a0875f9007e2919cf98856ced3acdf162b83d4f2f9d2815015082c423c0b044",
+    "spell-1295805.json": "8784c5b24975a302d0ec4ec2f97513f7cbc0d5b746a02a440aa758249fc02085",
+    "spell-1319313.json": "035f3b395a7d2b4b8c0ef52266a404ead8cfab969ae3ae870fb9f5ac549e0191",
+    "spell-15915.json": "ece5fefc29bdc7dc76ceeaf94629c3018a085ac4312cf00d25edfaa41e1a56d9",
+    "spell-18238.json": "0e70cf7520afa38b54a4420652634c17369a693214a46a3767768faafa32912c",
+    "spell-18239.json": "0c3b1be8c572f534e56ef370b026b77f23dc4cce71577420d1dae12d211b7d3e",
+    "spell-18240.json": "1cfb7400a50384e3ed92480a63b68e60ee156d44c5f3fb802deaac144dea59ad",
+    "spell-18241.json": "9db6b12bc534072505084c1c64856b753b852658514c532f2f549e14656b0bbc",
+    "spell-18242.json": "fb58db373d6752e6d61afd89a9892d9c6565850190d16524ec9b14563c11b83b",
+    "spell-18243.json": "8dd073d304941187c5bf68a41453db04bb70eb1cbaebc926e361a4b15e65e83f",
+    "spell-18244.json": "1649563f9301540eef575e57044a6a02c8273c1e268159675e3b5b0b3264d50f",
+    "spell-18245.json": "1502ceaaf702cdbfb29fede89a8634713043ea4a9f66031f13ca5972b594ba9c",
+    "spell-18246.json": "441f110181472ff0c61df0d8f97090109790d2522974d2bba822fbf56bf85fc6",
+    "spell-18247.json": "409cf945f23126d647f13e9b9a8a91c950f5c6c034b1e19cd3658242d9171230",
+    "spell-20626.json": "9759cf92ebfcf4d1430abc2d40065a7b2ffa5091538a715bc6cc7971afaa7167",
+    "spell-20916.json": "97ee9b70b66fcf8dcaa209a9949e745f83c8ac1b4912f07ac5c65f2f93210e3f",
+    "spell-2544.json": "851665680053339132803d32595b5fa256147a181683707d74b80971192bf6b2",
+    "spell-2545.json": "c2a9c7d4a15064b3b142b8276127a48283fa7656043ebaf6668a81d89a96b5db",
+    "spell-25704.json": "f908c7871847c84c0a0bf0674b50b2dfd305c6877a784ed4dc38893c4717e1c7",
+    "spell-25954.json": "5209856d1e5101cc4d4f4bc090d5e5bfa1b3ab41324df49c222c729b0202fc90",
+    "spell-470359.json": "19c6a5fc638e64981f6c79e16d125be3eba3700fd812166746d0a2a5bbad3a87",
+    "spell-470370.json": "ba259f2ee725547fee0395b95af6246b8bfb0dbbd5e41973635448d662a90432",
+    "spell-6499.json": "4ee568a4dbf55a3a0f851eafdb82fb89838235f368ff170b0b6b48a1197a4874",
+    "spell-6500.json": "1f17c318a240b2cb2d8b9a13442dd3716378373d1ff11f98d2cf96eba87d94c7",
+    "spell-6501.json": "979008936f7fe554f252a189d247913ebbee05ad70036cc1577c8e6f22d389c8",
+    "spell-7213.json": "959fa8dd07d11a9246888ef2b04b947acdd6c6674b0c17bd59a45bbe95a61396",
+    "spell-7751.json": "7e67bbea71549fa47372971de234848dc91e139350c0a4d8050ee1f7f45aacb5",
+    "spell-7752.json": "a889686f90649fed7d56fcbf6c56dcc8cde1961e72c1a32b8fdf05950383f09c",
+    "spell-7753.json": "56b7b26dacfc08be05f3187cb1469119fa7440bfa81e36d4996fecda7ccc6e58",
+    "spell-7754.json": "89780b4f740747fd9d427c210d43d5383ee662fb6c82de64d71828afbd118bbe",
+    "spell-7755.json": "db7b48f1fd7e5c54ff5e00aa3e076a6e36ce8309b09ea3cbbdcbf43f086c1825",
+    "spell-7827.json": "a6bfb38ad26e3edac78d457314d0f27b6bce4c9aa304894c9462330e86a5e1d7",
+    "spell-7828.json": "3d49253ac15288590fe598c53d7e2688452436447a4a6af28e06a6d0cc0e559b",
+    "spell-8238.json": "e6b81e38465d9c52216fe8e7f8279e5b2d88253f930816cc626efc93ecb4a7fb"
+  }
+}

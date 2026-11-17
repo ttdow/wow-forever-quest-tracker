@@ -2,7 +2,7 @@
 'use strict';
 const $ = selector => document.querySelector(selector);
 const panel = $('#profession-panel');
-const state = { data: null, pending: null, active: false, version: 0, view: 'fish' };
+const state = { data: null, pending: null, active: false, version: 0, view: 'fish', itemId: '' };
 const waterLabels = { freshwater: 'Freshwater', ocean: 'Ocean' };
 const waterLabel = fish => typeof fish.catchType === 'string' && fish.catchType.trim() ? fish.catchType.trim() : typeof fish.waterType === 'string' && Object.hasOwn(waterLabels, fish.waterType) ? waterLabels[fish.waterType] : 'Unverified';
 
@@ -48,6 +48,12 @@ function fishRow(entry, locationText = entry.location, unverified = entry.verifi
   link.href = `https://www.wowhead.com/forever/item=${entry.itemId}`;
   link.target = '_blank'; link.rel = 'noopener noreferrer';
   name.append(link);
+  if (globalThis.CookingGuide?.hasRecipesFor(entry.itemId)) {
+    const recipes = document.createElement('a');
+    recipes.href = `#${new URLSearchParams({ profession: 'Cooking', item: entry.itemId })}`;
+    recipes.className = 'fish-cooking-link'; recipes.textContent = 'Cooking';
+    recipes.title = 'Show recipes using this fish'; name.append(' ', recipes);
+  }
   const location = cell(locationText, 'fish-location', state.view === 'area' ? 'Where in area' : 'Where to catch');
   if (unverified) markUnverified(location);
   const water = cell(waterLabel(entry), 'fish-water', 'Water / catch type');
@@ -69,6 +75,7 @@ function locations(fish) {
 }
 
 function matches(fish, location, query) {
+  if (state.itemId && fish.itemId !== state.itemId) return false;
   return !query || [fish.name, fish.itemId, location, waterLabel(fish), typeof fish.waterDetail === 'string' ? fish.waterDetail : '', fish.verification === 'unverified' ? 'unverified' : ''].join(' ').toLocaleLowerCase().includes(query);
 }
 
@@ -138,12 +145,18 @@ async function show(profession) {
   if (profession !== 'Fishing') return;
   state.active = true; panel.hidden = false;
   const version = ++state.version;
+  globalThis.CookingGuide?.prepareLinks().then(() => {
+    if (state.active && version === state.version) render();
+  }).catch(() => {});
   $('#profession-error').hidden = true;
   $('#fishing-empty').hidden = true;
   $('#fishing-result-count').textContent = 'Loading Fishing…';
   try {
     await load();
-    if (state.active && version === state.version && !panel.hidden) render();
+    if (state.active && version === state.version && !panel.hidden) {
+      if (state.itemId) $('#fishing-search').value = state.data.fish.find(fish => fish.itemId === state.itemId)?.name || state.itemId;
+      render();
+    }
   } catch {
     if (!state.active || version !== state.version || panel.hidden) return;
     $('#profession-error').hidden = false;
@@ -153,7 +166,7 @@ async function show(profession) {
   }
 }
 
-$('#fishing-search').addEventListener('input', render);
+$('#fishing-search').addEventListener('input', () => { state.itemId = ''; render(); });
 $('#fishing-views').addEventListener('click', event => {
   const button = event.target.closest('button[data-fishing-view]');
   if (!button || !['fish', 'area'].includes(button.dataset.fishingView)) return;
@@ -162,7 +175,23 @@ $('#fishing-views').addEventListener('click', event => {
 });
 $('#profession-retry').addEventListener('click', () => { state.data = null; show('Fishing'); });
 globalThis.ProfessionGuide = Object.freeze({
-  hasProfession: profession => profession === 'Fishing', show,
-  hide: () => { state.active = false; ++state.version; panel.hidden = true; },
+  hasProfession: profession => ['Fishing', 'Cooking'].includes(profession),
+  show: profession => {
+    if (profession === 'Cooking') {
+      state.active = false; ++state.version; panel.hidden = true;
+      globalThis.CookingGuide.show();
+    } else {
+      globalThis.CookingGuide.hide(); show('Fishing');
+    }
+  },
+  hide: () => { state.active = false; ++state.version; panel.hidden = true; globalThis.CookingGuide.hide(); },
+  prepareFishingLinks: load,
+  hasFishingItem: itemId => Boolean(state.data?.fish.some(fish => fish.itemId === itemId)),
+  filterItem: (profession, itemId) => {
+    if (!/^\d+$/.test(itemId || '')) return;
+    if (profession === 'Cooking') return globalThis.CookingGuide.filterItem(itemId);
+    state.itemId = itemId; state.view = 'fish';
+    $('#fishing-search').value = state.data?.fish.find(fish => fish.itemId === itemId)?.name || itemId;
+  },
 });
 })();

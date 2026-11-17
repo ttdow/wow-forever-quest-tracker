@@ -8,13 +8,14 @@
   <title>Quest tracker · WoW Forever</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%232f6850'/%3E%3Cpath d='m11 21 6 6 12-14' fill='none' stroke='white' stroke-width='4'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="./vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="./style.css?v=54">
-  <script src="./progress.js?v=54" defer></script>
-  <script src="./drops.js?v=54" defer></script>
+  <link rel="stylesheet" href="./style.css?v=55">
+  <script src="./progress.js?v=55" defer></script>
+  <script src="./drops.js?v=55" defer></script>
   <script src="./vendor/leaflet/leaflet.js" defer></script>
-  <script src="./map.js?v=54" defer></script>
-  <script src="./professions.js?v=54" defer></script>
-  <script src="./app.js?v=54" defer></script>
+  <script src="./map.js?v=55" defer></script>
+  <script src="./cooking.js?v=55" defer></script>
+  <script src="./professions.js?v=55" defer></script>
+  <script src="./app.js?v=55" defer></script>
 </head>
 <body>
   <noscript>Enable JavaScript to use the quest tracker.</noscript>
@@ -32,7 +33,7 @@
       </div>
       <div id="zones-list" class="zone-list" role="group" aria-label="Zones" hidden></div>
       <div id="dungeons-list" class="zone-list" role="group" aria-label="Dungeons" hidden></div>
-      <div id="professions-list" class="zone-list" role="group" aria-label="Professions" hidden><button type="button" data-profession="Fishing" aria-pressed="false">Fishing</button></div>
+      <div id="professions-list" class="zone-list" role="group" aria-label="Professions" hidden><button type="button" data-profession="Fishing" aria-pressed="false">Fishing</button><button type="button" data-profession="Cooking" aria-pressed="false">Cooking</button></div>
     </nav>
     <nav id="views" aria-label="Zone view" hidden>
       <button type="button" data-view="quests" aria-pressed="true">Quests</button>
@@ -109,6 +110,23 @@
       <div id="fishing-areas" hidden></div>
       <p id="fishing-empty" class="empty" role="status" hidden>No fish match your search.</p>
       <footer class="panel-footer"><span id="fishing-result-count" aria-live="polite"></span><a href="./research/fishing/README.md" target="_blank" rel="noopener noreferrer">Sources</a></footer>
+    </section>
+    <section id="cooking-panel" class="quest-panel" aria-label="Cooking" hidden>
+      <div class="toolbar">
+        <div class="search-wrap"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="cooking-search" type="search" placeholder="Search recipes, ingredients, effects…" aria-label="Search Cooking"></div>
+        <div class="filters"><label class="sr-only" for="cooking-skill">Your Cooking skill</label><input id="cooking-skill" type="number" min="1" max="300" step="1" placeholder="Cooking skill (all)"></div>
+      </div>
+      <div id="cooking-error" class="error" role="alert" hidden><span>Could not load Cooking.</span><button id="cooking-retry" type="button">Retry</button></div>
+      <div class="table-wrap">
+        <table class="cooking-table">
+          <caption class="sr-only">Fish and shellfish Cooking recipes, ingredients, effects, and learning sources</caption>
+          <colgroup><col class="col-cooking-name"><col class="col-cooking-skill"><col class="col-cooking-ingredients"><col class="col-cooking-effect"><col class="col-cooking-learn"></colgroup>
+          <thead><tr><th scope="col">Recipe</th><th scope="col">Cooking</th><th scope="col">Ingredients</th><th scope="col">Food effect</th><th scope="col">Learn from</th></tr></thead>
+          <tbody id="cooking-rows"></tbody>
+        </table>
+      </div>
+      <p id="cooking-empty" class="empty" role="status" hidden>No recipes match your search.</p>
+      <footer class="panel-footer"><span id="cooking-result-count" aria-live="polite"></span><a href="./research/cooking/README.md" target="_blank" rel="noopener noreferrer">Sources</a></footer>
     </section>
   </main>
 </body>

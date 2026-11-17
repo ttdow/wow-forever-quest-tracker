@@ -1,0 +1,2019 @@
+{
+  "profession": "Cooking",
+  "updated": "2026-11-16",
+  "scope": "Fish and shellfish recipes",
+  "recipes": [
+    {
+      "id": "7751",
+      "name": "Brilliant Smallfish",
+      "itemId": "6290",
+      "itemName": "Brilliant Smallfish",
+      "yieldCount": 1,
+      "requiredLevel": 0,
+      "cookingSkill": 1,
+      "ingredients": [
+        {
+          "itemId": "6291",
+          "name": "Raw Brilliant Smallfish",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+2 Attack Power · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 59,
+        "seconds": 18
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "6325",
+            "name": "Recipe: Brilliant Smallfish"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/7751",
+        "https://nether.wowhead.com/forever/tooltip/item/6290",
+        "https://nether.wowhead.com/forever/tooltip/item/6325"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "7752",
+      "name": "Slitherskin Mackerel",
+      "itemId": "787",
+      "itemName": "Slitherskin Mackerel",
+      "yieldCount": 1,
+      "requiredLevel": 0,
+      "cookingSkill": 1,
+      "ingredients": [
+        {
+          "itemId": "6303",
+          "name": "Raw Slitherskin Mackerel",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+6 Attack Power · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 234,
+        "seconds": 21
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "6326",
+            "name": "Recipe: Slitherskin Mackerel"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/7752",
+        "https://nether.wowhead.com/forever/tooltip/item/787",
+        "https://nether.wowhead.com/forever/tooltip/item/6326"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "1270635",
+      "name": "Pincer Bites",
+      "itemId": "263512",
+      "itemName": "Pincer Bites",
+      "yieldCount": 1,
+      "requiredLevel": 5,
+      "cookingSkill": 35,
+      "ingredients": [
+        {
+          "itemId": "2675",
+          "name": "Crawler Claw",
+          "quantity": 1
+        },
+        {
+          "itemId": "10284",
+          "name": "Simple Flour",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+1 Intellect · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 59,
+        "seconds": 18
+      },
+      "acquisition": {
+        "kind": "Quest reward",
+        "items": [
+          {
+            "itemId": "263513",
+            "name": "Recipe: Pincer Bites"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/1270635",
+        "https://nether.wowhead.com/forever/tooltip/item/263512",
+        "https://nether.wowhead.com/forever/tooltip/item/263513"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "6499",
+      "name": "Boiled Clams",
+      "itemId": "5525",
+      "itemName": "Boiled Clams",
+      "yieldCount": 1,
+      "requiredLevel": 0,
+      "cookingSkill": 50,
+      "ingredients": [
+        {
+          "itemId": "5503",
+          "name": "Clam Meat",
+          "quantity": 1
+        },
+        {
+          "itemId": "159",
+          "name": "Refreshing Spring Water",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "59 health over 18 sec",
+      "extraEffects": [],
+      "restoration": {
+        "health": 59,
+        "seconds": 18
+      },
+      "acquisition": {
+        "kind": "Trainer",
+        "items": []
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/6499",
+        "https://nether.wowhead.com/forever/tooltip/item/5525"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "classic"
+      }
+    },
+    {
+      "id": "7754",
+      "name": "Loch Frenzy Delight",
+      "itemId": "6316",
+      "itemName": "Loch Frenzy Delight",
+      "yieldCount": 1,
+      "requiredLevel": 5,
+      "cookingSkill": 50,
+      "ingredients": [
+        {
+          "itemId": "6317",
+          "name": "Raw Loch Frenzy",
+          "quantity": 1
+        },
+        {
+          "itemId": "2678",
+          "name": "Mild Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+3 Fishing Skill · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 59,
+        "seconds": 18
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "6329",
+            "name": "Recipe: Loch Frenzy Delight"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/7754",
+        "https://nether.wowhead.com/forever/tooltip/item/6316",
+        "https://nether.wowhead.com/forever/tooltip/item/6329"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "7753",
+      "name": "Longjaw Mud Snapper",
+      "itemId": "4592",
+      "itemName": "Longjaw Mud Snapper",
+      "yieldCount": 1,
+      "requiredLevel": 5,
+      "cookingSkill": 50,
+      "ingredients": [
+        {
+          "itemId": "6289",
+          "name": "Raw Longjaw Mud Snapper",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+10 Attack Power · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 531,
+        "seconds": 24
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "6328",
+            "name": "Recipe: Longjaw Mud Snapper"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/7753",
+        "https://nether.wowhead.com/forever/tooltip/item/4592",
+        "https://nether.wowhead.com/forever/tooltip/item/6328"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "7827",
+      "name": "Rainbow Fin Albacore",
+      "itemId": "5095",
+      "itemName": "Rainbow Fin Albacore",
+      "yieldCount": 1,
+      "requiredLevel": 5,
+      "cookingSkill": 50,
+      "ingredients": [
+        {
+          "itemId": "6361",
+          "name": "Raw Rainbow Fin Albacore",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+1 Spell Damage · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 59,
+        "seconds": 18
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "6368",
+            "name": "Recipe: Rainbow Fin Albacore"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/7827",
+        "https://nether.wowhead.com/forever/tooltip/item/5095",
+        "https://nether.wowhead.com/forever/tooltip/item/6368"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "2544",
+      "name": "Crab Cake",
+      "itemId": "2683",
+      "itemName": "Crab Cake",
+      "yieldCount": 1,
+      "requiredLevel": 5,
+      "cookingSkill": 75,
+      "ingredients": [
+        {
+          "itemId": "2674",
+          "name": "Crawler Meat",
+          "quantity": 1
+        },
+        {
+          "itemId": "2678",
+          "name": "Mild Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+3 Intellect · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 234,
+        "seconds": 21
+      },
+      "acquisition": {
+        "kind": "Trainer",
+        "items": []
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/2544",
+        "https://nether.wowhead.com/forever/tooltip/item/2683"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "classic"
+      }
+    },
+    {
+      "id": "25704",
+      "name": "Smoked Sagefish",
+      "itemId": "21072",
+      "itemName": "Smoked Sagefish",
+      "yieldCount": 1,
+      "requiredLevel": 10,
+      "cookingSkill": 80,
+      "ingredients": [
+        {
+          "itemId": "21071",
+          "name": "Raw Sagefish",
+          "quantity": 1
+        },
+        {
+          "itemId": "2678",
+          "name": "Mild Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+4 Spell Damage · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 234,
+        "seconds": 21
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "21099",
+            "name": "Recipe: Smoked Sagefish"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/25704",
+        "https://nether.wowhead.com/forever/tooltip/item/21072",
+        "https://nether.wowhead.com/forever/tooltip/item/21099"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "2545",
+      "name": "Cooked Crab Claw",
+      "itemId": "2682",
+      "itemName": "Cooked Crab Claw",
+      "yieldCount": 1,
+      "requiredLevel": 0,
+      "cookingSkill": 85,
+      "ingredients": [
+        {
+          "itemId": "2675",
+          "name": "Crawler Claw",
+          "quantity": 1
+        },
+        {
+          "itemId": "2678",
+          "name": "Mild Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+1 Intellect · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 59,
+        "seconds": 18
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "2698",
+            "name": "Recipe: Cooked Crab Claw"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/2545",
+        "https://nether.wowhead.com/forever/tooltip/item/2682",
+        "https://nether.wowhead.com/forever/tooltip/item/2698"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "8238",
+      "name": "Savory Deviate Delight",
+      "itemId": "6657",
+      "itemName": "Savory Deviate Delight",
+      "yieldCount": 1,
+      "requiredLevel": 0,
+      "cookingSkill": 85,
+      "ingredients": [
+        {
+          "itemId": "6522",
+          "name": "Deviate Fish",
+          "quantity": 1
+        },
+        {
+          "itemId": "2678",
+          "name": "Mild Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "Random transformation",
+      "extraEffects": [],
+      "restoration": null,
+      "acquisition": {
+        "kind": "Dropped recipe",
+        "items": [
+          {
+            "itemId": "6661",
+            "name": "Recipe: Savory Deviate Delight"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/8238",
+        "https://nether.wowhead.com/forever/tooltip/item/6657",
+        "https://nether.wowhead.com/forever/tooltip/item/6661"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "classic",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "1252566",
+      "name": "Savory Whimsyfin Delight",
+      "itemId": "251525",
+      "itemName": "Savory Whimsyfin Delight",
+      "yieldCount": 1,
+      "requiredLevel": 0,
+      "cookingSkill": 85,
+      "ingredients": [
+        {
+          "itemId": "251524",
+          "name": "Whimsyfin",
+          "quantity": 1
+        },
+        {
+          "itemId": "2678",
+          "name": "Mild Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "Random transformation",
+      "extraEffects": [],
+      "restoration": null,
+      "acquisition": {
+        "kind": "Recipe",
+        "items": [
+          {
+            "itemId": "251526",
+            "name": "Recipe: Savory Whimsyfin Delight"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [
+        "Transformation supported by the published Whimsyfin community guide; item tooltip only says Eat me"
+      ],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/1252566",
+        "https://nether.wowhead.com/forever/tooltip/item/251525",
+        "https://nether.wowhead.com/forever/tooltip/item/251526",
+        "https://foreverchanges.pro/savory-whimsyfin-delight"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "community",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "6501",
+      "name": "Clam Chowder",
+      "itemId": "5526",
+      "itemName": "Clam Chowder",
+      "yieldCount": 1,
+      "requiredLevel": 5,
+      "cookingSkill": 90,
+      "ingredients": [
+        {
+          "itemId": "5503",
+          "name": "Clam Meat",
+          "quantity": 1
+        },
+        {
+          "itemId": "1179",
+          "name": "Ice Cold Milk",
+          "quantity": 1
+        },
+        {
+          "itemId": "2678",
+          "name": "Mild Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "234 health over 21 sec",
+      "extraEffects": [],
+      "restoration": {
+        "health": 234,
+        "seconds": 21
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "5528",
+            "name": "Recipe: Clam Chowder"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/6501",
+        "https://nether.wowhead.com/forever/tooltip/item/5526",
+        "https://nether.wowhead.com/forever/tooltip/item/5528"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "7755",
+      "name": "Bristle Whisker Catfish",
+      "itemId": "4593",
+      "itemName": "Bristle Whisker Catfish",
+      "yieldCount": 1,
+      "requiredLevel": 15,
+      "cookingSkill": 100,
+      "ingredients": [
+        {
+          "itemId": "6308",
+          "name": "Raw Bristle Whisker Catfish",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+8 Fishing Skill · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 531,
+        "seconds": 24
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "6330",
+            "name": "Recipe: Bristle Whisker Catfish"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/7755",
+        "https://nether.wowhead.com/forever/tooltip/item/4593",
+        "https://nether.wowhead.com/forever/tooltip/item/6330"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "6500",
+      "name": "Goblin Deviled Clams",
+      "itemId": "5527",
+      "itemName": "Goblin Deviled Clams",
+      "yieldCount": 1,
+      "requiredLevel": 15,
+      "cookingSkill": 125,
+      "ingredients": [
+        {
+          "itemId": "5504",
+          "name": "Tangy Clam Meat",
+          "quantity": 1
+        },
+        {
+          "itemId": "2692",
+          "name": "Hot Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+6 Stamina and Spirit · 15 min",
+      "extraEffects": [],
+      "restoration": {
+        "health": 531,
+        "seconds": 24
+      },
+      "acquisition": {
+        "kind": "Trainer",
+        "items": []
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/6500",
+        "https://nether.wowhead.com/forever/tooltip/item/5527"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "classic"
+      }
+    },
+    {
+      "id": "7213",
+      "name": "Giant Clam Scorcho",
+      "itemId": "6038",
+      "itemName": "Giant Clam Scorcho",
+      "yieldCount": 1,
+      "requiredLevel": 25,
+      "cookingSkill": 175,
+      "ingredients": [
+        {
+          "itemId": "4655",
+          "name": "Giant Clam Meat",
+          "quantity": 1
+        },
+        {
+          "itemId": "2692",
+          "name": "Hot Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+10 Stamina · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 841,
+        "seconds": 27
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "6039",
+            "name": "Recipe: Giant Clam Scorcho"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/7213",
+        "https://nether.wowhead.com/forever/tooltip/item/6038",
+        "https://nether.wowhead.com/forever/tooltip/item/6039"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "20916",
+      "name": "Mithril Headed Trout",
+      "itemId": "8364",
+      "itemName": "Mithril Head Trout",
+      "yieldCount": 1,
+      "requiredLevel": 25,
+      "cookingSkill": 175,
+      "ingredients": [
+        {
+          "itemId": "8365",
+          "name": "Raw Mithril Head Trout",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+20 Attack Power · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 841,
+        "seconds": 27
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "17062",
+            "name": "Recipe: Mithril Head Trout"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/20916",
+        "https://nether.wowhead.com/forever/tooltip/item/8364",
+        "https://nether.wowhead.com/forever/tooltip/item/17062"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "7828",
+      "name": "Rockscale Cod",
+      "itemId": "4594",
+      "itemName": "Rockscale Cod",
+      "yieldCount": 1,
+      "requiredLevel": 25,
+      "cookingSkill": 175,
+      "ingredients": [
+        {
+          "itemId": "6362",
+          "name": "Raw Rockscale Cod",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+12 Fishing Skill · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 841,
+        "seconds": 27
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "6369",
+            "name": "Recipe: Rockscale Cod"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/7828",
+        "https://nether.wowhead.com/forever/tooltip/item/4594",
+        "https://nether.wowhead.com/forever/tooltip/item/6369"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "25954",
+      "name": "Sagefish Delight",
+      "itemId": "21217",
+      "itemName": "Sagefish Delight",
+      "yieldCount": 1,
+      "requiredLevel": 30,
+      "cookingSkill": 175,
+      "ingredients": [
+        {
+          "itemId": "21153",
+          "name": "Raw Greater Sagefish",
+          "quantity": 1
+        },
+        {
+          "itemId": "2692",
+          "name": "Hot Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+7 Spell Damage · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 531,
+        "seconds": 24
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "21219",
+            "name": "Recipe: Sagefish Delight"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/25954",
+        "https://nether.wowhead.com/forever/tooltip/item/21217",
+        "https://nether.wowhead.com/forever/tooltip/item/21219"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "1295805",
+      "name": "Briny Seafood Stew",
+      "itemId": "274971",
+      "itemName": "Briny Seafood Stew",
+      "yieldCount": 1,
+      "requiredLevel": 25,
+      "cookingSkill": 200,
+      "ingredients": [
+        {
+          "itemId": "730",
+          "name": "Murloc Eye",
+          "quantity": 2
+        },
+        {
+          "itemId": "12206",
+          "name": "Tender Crab Meat",
+          "quantity": 1
+        },
+        {
+          "itemId": "2692",
+          "name": "Hot Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+14 Spell Damage · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 841,
+        "seconds": 27
+      },
+      "acquisition": {
+        "kind": "Quest reward",
+        "items": [
+          {
+            "itemId": "274972",
+            "name": "Recipe: Briny Seafood Stew"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/1295805",
+        "https://nether.wowhead.com/forever/tooltip/item/274971",
+        "https://nether.wowhead.com/forever/tooltip/item/274972"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "18239",
+      "name": "Cooked Glossy Mightfish",
+      "itemId": "13927",
+      "itemName": "Cooked Glossy Mightfish",
+      "yieldCount": 1,
+      "requiredLevel": 35,
+      "cookingSkill": 225,
+      "ingredients": [
+        {
+          "itemId": "13754",
+          "name": "Raw Glossy Mightfish",
+          "quantity": 1
+        },
+        {
+          "itemId": "3713",
+          "name": "Soothing Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+30 Attack Power · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 1338,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "13940",
+            "name": "Recipe: Cooked Glossy Mightfish"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/18239",
+        "https://nether.wowhead.com/forever/tooltip/item/13927",
+        "https://nether.wowhead.com/forever/tooltip/item/13940"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "18241",
+      "name": "Filet of Redgill",
+      "itemId": "13930",
+      "itemName": "Filet of Redgill",
+      "yieldCount": 1,
+      "requiredLevel": 35,
+      "cookingSkill": 225,
+      "ingredients": [
+        {
+          "itemId": "13758",
+          "name": "Raw Redgill",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+18 Fishing Skill · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 1338,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "13941",
+            "name": "Recipe: Filet of Redgill"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/18241",
+        "https://nether.wowhead.com/forever/tooltip/item/13930",
+        "https://nether.wowhead.com/forever/tooltip/item/13941"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "1319313",
+      "name": "Plated Armorfish",
+      "itemId": "286152",
+      "itemName": "Plated Armorfish",
+      "yieldCount": 1,
+      "requiredLevel": 35,
+      "cookingSkill": 225,
+      "ingredients": [
+        {
+          "itemId": "13890",
+          "name": "Raw Plated Armorfish",
+          "quantity": 1
+        },
+        {
+          "itemId": "3713",
+          "name": "Soothing Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+150 Armor · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 1338,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Recipe",
+        "items": [
+          {
+            "itemId": "286153",
+            "name": "Recipe: Plated Armorfish"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/1319313",
+        "https://nether.wowhead.com/forever/tooltip/item/286152",
+        "https://nether.wowhead.com/forever/tooltip/item/286153"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "15915",
+      "name": "Spiced Chili Crab",
+      "itemId": "12216",
+      "itemName": "Spiced Chili Crab",
+      "yieldCount": 1,
+      "requiredLevel": 25,
+      "cookingSkill": 225,
+      "ingredients": [
+        {
+          "itemId": "12206",
+          "name": "Tender Crab Meat",
+          "quantity": 1
+        },
+        {
+          "itemId": "2692",
+          "name": "Hot Spices",
+          "quantity": 2
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+10 Intellect · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 841,
+        "seconds": 27
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "16111",
+            "name": "Recipe: Spiced Chili Crab"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/15915",
+        "https://nether.wowhead.com/forever/tooltip/item/12216",
+        "https://nether.wowhead.com/forever/tooltip/item/16111"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "18238",
+      "name": "Spotted Yellowtail",
+      "itemId": "6887",
+      "itemName": "Spotted Yellowtail",
+      "yieldCount": 1,
+      "requiredLevel": 35,
+      "cookingSkill": 225,
+      "ingredients": [
+        {
+          "itemId": "4603",
+          "name": "Raw Spotted Yellowtail",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+22 Spell Damage · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 1338,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "13939",
+            "name": "Recipe: Spotted Yellowtail"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/18238",
+        "https://nether.wowhead.com/forever/tooltip/item/6887",
+        "https://nether.wowhead.com/forever/tooltip/item/13939"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "20626",
+      "name": "Undermine Clam Chowder",
+      "itemId": "16766",
+      "itemName": "Undermine Clam Chowder",
+      "yieldCount": 2,
+      "requiredLevel": 35,
+      "cookingSkill": 225,
+      "ingredients": [
+        {
+          "itemId": "7974",
+          "name": "Zesty Clam Meat",
+          "quantity": 2
+        },
+        {
+          "itemId": "2692",
+          "name": "Hot Spices",
+          "quantity": 1
+        },
+        {
+          "itemId": "1179",
+          "name": "Ice Cold Milk",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "1338 health over 30 sec",
+      "extraEffects": [],
+      "restoration": {
+        "health": 1338,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "16767",
+            "name": "Recipe: Undermine Clam Chowder"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/20626",
+        "https://nether.wowhead.com/forever/tooltip/item/16766",
+        "https://nether.wowhead.com/forever/tooltip/item/16767"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "18240",
+      "name": "Grilled Squid",
+      "itemId": "13928",
+      "itemName": "Grilled Squid",
+      "yieldCount": 1,
+      "requiredLevel": 35,
+      "cookingSkill": 240,
+      "ingredients": [
+        {
+          "itemId": "13755",
+          "name": "Raw Winter Squid",
+          "quantity": 1
+        },
+        {
+          "itemId": "3713",
+          "name": "Soothing Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Iron Oven",
+      "effect": "+1% Critical Strike chance · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 2065,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "13942",
+            "name": "Recipe: Grilled Squid"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/18240",
+        "https://nether.wowhead.com/forever/tooltip/item/13928",
+        "https://nether.wowhead.com/forever/tooltip/item/13942"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "18242",
+      "name": "Hot Smoked Bass",
+      "itemId": "13929",
+      "itemName": "Hot Smoked Bass",
+      "yieldCount": 1,
+      "requiredLevel": 35,
+      "cookingSkill": 240,
+      "ingredients": [
+        {
+          "itemId": "13756",
+          "name": "Raw Summer Bass",
+          "quantity": 1
+        },
+        {
+          "itemId": "2692",
+          "name": "Hot Spices",
+          "quantity": 2
+        }
+      ],
+      "station": "Iron Oven",
+      "effect": "+1% Critical Strike chance · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 2065,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "13943",
+            "name": "Recipe: Hot Smoked Bass"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/18242",
+        "https://nether.wowhead.com/forever/tooltip/item/13929",
+        "https://nether.wowhead.com/forever/tooltip/item/13943"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "18243",
+      "name": "Nightfin Soup",
+      "itemId": "13931",
+      "itemName": "Nightfin Soup",
+      "yieldCount": 1,
+      "requiredLevel": 35,
+      "cookingSkill": 250,
+      "ingredients": [
+        {
+          "itemId": "13759",
+          "name": "Raw Nightfin Snapper",
+          "quantity": 1
+        },
+        {
+          "itemId": "159",
+          "name": "Refreshing Spring Water",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+22 Spell Damage · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 1338,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "13945",
+            "name": "Recipe: Nightfin Soup"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/18243",
+        "https://nether.wowhead.com/forever/tooltip/item/13931",
+        "https://nether.wowhead.com/forever/tooltip/item/13945"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "18244",
+      "name": "Poached Sunscale Salmon",
+      "itemId": "13932",
+      "itemName": "Poached Sunscale Salmon",
+      "yieldCount": 1,
+      "requiredLevel": 35,
+      "cookingSkill": 250,
+      "ingredients": [
+        {
+          "itemId": "13760",
+          "name": "Raw Sunscale Salmon",
+          "quantity": 1
+        }
+      ],
+      "station": "Iron Oven",
+      "effect": "+40 Attack Power · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 2065,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "13946",
+            "name": "Recipe: Poached Sunscale Salmon"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/18244",
+        "https://nether.wowhead.com/forever/tooltip/item/13932",
+        "https://nether.wowhead.com/forever/tooltip/item/13946"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "18247",
+      "name": "Baked Salmon",
+      "itemId": "13935",
+      "itemName": "Baked Salmon",
+      "yieldCount": 1,
+      "requiredLevel": 45,
+      "cookingSkill": 275,
+      "ingredients": [
+        {
+          "itemId": "13889",
+          "name": "Raw Whitescale Salmon",
+          "quantity": 1
+        },
+        {
+          "itemId": "3713",
+          "name": "Soothing Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Iron Oven",
+      "effect": "+28 Spell Damage · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 2065,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "13949",
+            "name": "Recipe: Baked Salmon"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/18247",
+        "https://nether.wowhead.com/forever/tooltip/item/13935",
+        "https://nether.wowhead.com/forever/tooltip/item/13949"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "1250158",
+      "name": "Clam Linguine",
+      "itemId": "250081",
+      "itemName": "Clam Linguine",
+      "yieldCount": 1,
+      "requiredLevel": 45,
+      "cookingSkill": 275,
+      "ingredients": [
+        {
+          "itemId": "7974",
+          "name": "Zesty Clam Meat",
+          "quantity": 3
+        },
+        {
+          "itemId": "3713",
+          "name": "Soothing Spices",
+          "quantity": 4
+        }
+      ],
+      "station": "Iron Oven",
+      "effect": "2065 health over 30 sec",
+      "extraEffects": [],
+      "restoration": {
+        "health": 2065,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Recipe",
+        "items": [
+          {
+            "itemId": "250189",
+            "name": "Recipe: Clam Linguine"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/1250158",
+        "https://nether.wowhead.com/forever/tooltip/item/250081",
+        "https://nether.wowhead.com/forever/tooltip/item/250189"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "18245",
+      "name": "Lobster Stew",
+      "itemId": "13933",
+      "itemName": "Lobster Stew",
+      "yieldCount": 1,
+      "requiredLevel": 45,
+      "cookingSkill": 275,
+      "ingredients": [
+        {
+          "itemId": "13888",
+          "name": "Darkclaw Lobster",
+          "quantity": 1
+        },
+        {
+          "itemId": "159",
+          "name": "Refreshing Spring Water",
+          "quantity": 1
+        }
+      ],
+      "station": "Iron Oven",
+      "effect": "+28 Spell Damage · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 2065,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "13947",
+            "name": "Recipe: Lobster Stew"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/18245",
+        "https://nether.wowhead.com/forever/tooltip/item/13933",
+        "https://nether.wowhead.com/forever/tooltip/item/13947"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "18246",
+      "name": "Mightfish Steak",
+      "itemId": "13934",
+      "itemName": "Mightfish Steak",
+      "yieldCount": 1,
+      "requiredLevel": 45,
+      "cookingSkill": 275,
+      "ingredients": [
+        {
+          "itemId": "13893",
+          "name": "Large Raw Mightfish",
+          "quantity": 1
+        },
+        {
+          "itemId": "2692",
+          "name": "Hot Spices",
+          "quantity": 1
+        },
+        {
+          "itemId": "3713",
+          "name": "Soothing Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Iron Oven",
+      "effect": "+40 Attack Power · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 2065,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Vendor recipe",
+        "items": [
+          {
+            "itemId": "13948",
+            "name": "Recipe: Mightfish Steak"
+          }
+        ]
+      },
+      "availability": "recorded",
+      "notes": [],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/18246",
+        "https://nether.wowhead.com/forever/tooltip/item/13934",
+        "https://nether.wowhead.com/forever/tooltip/item/13948"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "1225763",
+      "name": "Grand Lobster Banquet",
+      "itemId": "238642",
+      "itemName": "Grand Lobster Banquet",
+      "yieldCount": 1,
+      "requiredLevel": 55,
+      "cookingSkill": 280,
+      "ingredients": [
+        {
+          "itemId": "13888",
+          "name": "Darkclaw Lobster",
+          "quantity": 12
+        },
+        {
+          "itemId": "3712",
+          "name": "Turtle Meat",
+          "quantity": 4
+        },
+        {
+          "itemId": "3404",
+          "name": "Buzzard Wing",
+          "quantity": 3
+        },
+        {
+          "itemId": "239017",
+          "name": "Exquisite Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+20 Attack Power, 23 Spell Damage, 44 Healing Power, and 10 Stamina · 45 min",
+      "extraEffects": [
+        "Feast · serves 40 · lasts 3 min"
+      ],
+      "restoration": {
+        "health": 2452,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Recipe",
+        "items": [
+          {
+            "itemId": "238650",
+            "name": "Recipe: Grand Lobster Banquet"
+          }
+        ]
+      },
+      "availability": "unverified",
+      "notes": [
+        "Season of Discovery client reference; recipe tooltip explicitly warns it may not be available in Forever"
+      ],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/1225763",
+        "https://nether.wowhead.com/forever/tooltip/item/238642",
+        "https://nether.wowhead.com/forever/tooltip/item/238650"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "1225762",
+      "name": "Specklefin Feast",
+      "itemId": "238641",
+      "itemName": "Specklefin Feast",
+      "yieldCount": 1,
+      "requiredLevel": 55,
+      "cookingSkill": 280,
+      "ingredients": [
+        {
+          "itemId": "4603",
+          "name": "Raw Spotted Yellowtail",
+          "quantity": 12
+        },
+        {
+          "itemId": "12184",
+          "name": "Raptor Flesh",
+          "quantity": 4
+        },
+        {
+          "itemId": "6362",
+          "name": "Raw Rockscale Cod",
+          "quantity": 3
+        },
+        {
+          "itemId": "239017",
+          "name": "Exquisite Spices",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+20 Attack Power, 23 Spell Damage, 44 Healing Power, and 10 Stamina · 45 min",
+      "extraEffects": [
+        "Feast · serves 40 · lasts 3 min"
+      ],
+      "restoration": {
+        "health": 2452,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Recipe",
+        "items": [
+          {
+            "itemId": "238649",
+            "name": "Recipe: Specklefin Feast"
+          }
+        ]
+      },
+      "availability": "unverified",
+      "notes": [
+        "Season of Discovery client reference; recipe tooltip explicitly warns it may not be available in Forever"
+      ],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/1225762",
+        "https://nether.wowhead.com/forever/tooltip/item/238641",
+        "https://nether.wowhead.com/forever/tooltip/item/238649"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "470359",
+      "name": "Darkclaw Bisque",
+      "itemId": "232436",
+      "itemName": "Darkclaw Bisque",
+      "yieldCount": 1,
+      "requiredLevel": 45,
+      "cookingSkill": 300,
+      "ingredients": [
+        {
+          "itemId": "13888",
+          "name": "Darkclaw Lobster",
+          "quantity": 1
+        },
+        {
+          "itemId": "227813",
+          "name": "Drinkable Stratholme Holy Water",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+12 Spell Damage · 10 min",
+      "extraEffects": [],
+      "restoration": {
+        "health": 2065,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Recipe",
+        "items": [
+          {
+            "itemId": "232437",
+            "name": "Recipe: Darkclaw Bisque"
+          }
+        ]
+      },
+      "availability": "unverified",
+      "notes": [
+        "Legacy client recipe; no acquisition or in-game availability record established"
+      ],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/470359",
+        "https://nether.wowhead.com/forever/tooltip/item/232436",
+        "https://nether.wowhead.com/forever/tooltip/item/232437"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "470370",
+      "name": "Smoked Redgill",
+      "itemId": "232438",
+      "itemName": "Smoked Redgill",
+      "yieldCount": 1,
+      "requiredLevel": 35,
+      "cookingSkill": 300,
+      "ingredients": [
+        {
+          "itemId": "13758",
+          "name": "Raw Redgill",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+22 Healing · 10 min",
+      "extraEffects": [],
+      "restoration": {
+        "health": 1338,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Recipe",
+        "items": [
+          {
+            "itemId": "232443",
+            "name": "Recipe: Smoked Redgill"
+          }
+        ]
+      },
+      "availability": "unverified",
+      "notes": [
+        "Legacy client recipe; no acquisition or in-game availability record established"
+      ],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/470370",
+        "https://nether.wowhead.com/forever/tooltip/item/232438",
+        "https://nether.wowhead.com/forever/tooltip/item/232443"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "wowhead"
+      }
+    },
+    {
+      "id": "1247741",
+      "name": "Spinefin Halibut",
+      "itemId": "8957",
+      "itemName": "Spinefin Halibut",
+      "yieldCount": 1,
+      "requiredLevel": 45,
+      "cookingSkill": null,
+      "ingredients": [
+        {
+          "itemId": "8959",
+          "name": "Raw Spinefin Halibut",
+          "quantity": 1
+        }
+      ],
+      "station": "Cooking Fire",
+      "effect": "+18 Fishing Skill · 15 min",
+      "extraEffects": [
+        "+5% kill XP"
+      ],
+      "restoration": {
+        "health": 1338,
+        "seconds": 30
+      },
+      "acquisition": {
+        "kind": "Unverified",
+        "items": []
+      },
+      "availability": "unverified",
+      "notes": [
+        "Cooking skill and learning source unrecorded; a recipe does not establish a fishing location for the raw ingredient"
+      ],
+      "sources": [
+        "https://foreverdb.net/data/professions/cooking.json",
+        "https://nether.wowhead.com/forever/tooltip/spell/1247741",
+        "https://nether.wowhead.com/forever/tooltip/item/8957"
+      ],
+      "evidence": {
+        "recipe": "client",
+        "ingredients": "wowhead",
+        "effect": "wowhead",
+        "skill": "unverified"
+      }
+    }
+  ]
+}

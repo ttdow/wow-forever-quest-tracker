@@ -47,7 +47,7 @@ function renderZoneNavigation() {
   const professionToggle = $('[data-zone-group="professions"]');
   professionToggle.setAttribute('aria-expanded', String(navigation.open === 'professions'));
   $('#professions-list').hidden = navigation.open !== 'professions';
-  $('[data-profession="Fishing"]').setAttribute('aria-pressed', String(state.section === 'professions' && state.profession === 'Fishing'));
+  for (const button of document.querySelectorAll('[data-profession]')) button.setAttribute('aria-pressed', String(state.section === 'professions' && state.profession === button.dataset.profession));
   for (const group of ['zones', 'dungeons']) {
     const toggle = $(`[data-zone-group="${group}"]`);
     const list = $(`#${group}-list`);
@@ -93,14 +93,17 @@ function selectZone(zone) {
   $(`[data-zone-group="${isDungeon(zone) ? 'dungeons' : 'zones'}"]`).focus({ preventScroll: true });
 }
 
-function selectProfession(profession, updateHistory = true) {
+function selectProfession(profession, updateHistory = true, itemId = null) {
   if (!globalThis.ProfessionGuide?.hasProfession(profession)) return false;
   state.section = 'professions';
   state.profession = profession;
   navigation.open = null;
-  const route = `#${new URLSearchParams({ profession })}`;
-  if (updateHistory && location.hash !== route) history.pushState({ section: 'professions', profession }, '', route);
-  else history.replaceState({ section: 'professions', profession }, '', location.href);
+  const params = new URLSearchParams({ profession });
+  const item = typeof itemId === 'string' && /^\d+$/.test(itemId) ? itemId : null;
+  if (item) { params.set('item', item); globalThis.ProfessionGuide.filterItem(profession, item); }
+  const route = `#${params}`;
+  if (updateHistory && location.hash !== route) history.pushState({ section: 'professions', profession, itemId: item }, '', route);
+  else history.replaceState({ section: 'professions', profession, itemId: item }, '', location.href);
   render();
   return true;
 }
@@ -140,7 +143,10 @@ function viewURL(zone, view) {
 
 function restoreHistoryView() {
   state.section = history.state?.section === 'professions' && globalThis.ProfessionGuide?.hasProfession(history.state?.profession) ? 'professions' : 'quests';
-  if (state.section === 'professions') state.profession = history.state.profession;
+  if (state.section === 'professions') {
+    state.profession = history.state.profession;
+    if (history.state.itemId) globalThis.ProfessionGuide.filterItem(state.profession, history.state.itemId);
+  }
   const zone = history.state?.zone;
   if (isDungeon(zone) || hasMap(zone) || state.quests.some(quest => quest.zone === zone)) state.zone = zone;
   state.view = supportsView(state.zone, history.state?.view) ? history.state.view : 'quests';
@@ -169,7 +175,7 @@ function revealQuest(id, zone, updateHistory = true) {
 
 function revealHashRoute() {
   const params = new URLSearchParams(location.hash.slice(1));
-  if (selectProfession(params.get('profession'), false)) return true;
+  if (selectProfession(params.get('profession'), false, params.get('item'))) return true;
   if (['drops', 'map'].includes(params.get('view')) && supportsView(params.get('zone'), params.get('view'))) {
     state.section = 'quests';
     state.zone = params.get('zone');
@@ -429,7 +435,7 @@ $('#sort').addEventListener('change', render);
 
 renderZoneNavigation();
 // Profession references load independently of the quest list and its saves.
-selectProfession(new URLSearchParams(location.hash.slice(1)).get('profession'), false);
+selectProfession(new URLSearchParams(location.hash.slice(1)).get('profession'), false, new URLSearchParams(location.hash.slice(1)).get('item'));
 
 try {
   const response = await fetch('./data/quests.json', { cache: 'no-store' });
