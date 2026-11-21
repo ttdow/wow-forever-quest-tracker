@@ -163,6 +163,7 @@ tr.completed { background: #1b261e; }
 .cooking-ingredients ul { list-style: none; padding: 0; margin: 0; }.cooking-ingredients li + li { margin-top: 4px; }
 #cooking-skill { width: 155px; padding: 8px 10px; }
 .leatherworking-note { margin: 0; padding: 12px 20px; color: #a3b3a5; border-bottom: 1px solid #344237; line-height: 1.5; }
+.leatherworking-save-error { margin: 0; }
 #leatherworking-panel .filters { flex-wrap: wrap; }
 #leatherworking-skill { width: 175px; padding: 8px 10px; }
 .col-leatherworking-name { width: 22%; }
@@ -172,8 +173,12 @@ tr.completed { background: #1b261e; }
 .leatherworking-table td { padding: 14px 12px; vertical-align: top; white-space: normal; overflow-wrap: anywhere; }
 .leatherworking-table a { color: #dce6dd; text-decoration: underline; text-decoration-color: #627a68; text-underline-offset: 3px; }
 .leatherworking-table a:hover { color: #adddb9; }
-.leatherworking-name > a { font-weight: 650; }
+.leatherworking-recipe { display: grid; grid-template-columns: 24px minmax(0, 1fr); align-items: start; gap: 8px; }
+.leatherworking-known { display: grid; width: 24px; height: 24px; place-items: center; cursor: pointer; }
+.leatherworking-known input { margin: 0; }
+.leatherworking-recipe-name { font-weight: 650; }
 .leatherworking-detail { display: block; margin-top: 3px; color: #a3b3a5; font-size: 12px; line-height: 1.5; }
+.leatherworking-table a.leatherworking-detail { width: fit-content; color: #bdcbbf; }
 .leatherworking-table ul { margin: 0; padding: 0; list-style: none; }
 .leatherworking-table li + li { margin-top: 3px; }
 .leatherworking-pattern + .leatherworking-pattern { margin-top: 8px; }

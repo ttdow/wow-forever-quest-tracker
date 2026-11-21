@@ -8,4 +8,8 @@ Acquisition details combine the catalog's trainer listings, ForeverDB's player-o
 
 The snapshot has 110 entries with no documented acquisition method. Some other entries have only Classic or community acquisition references. The table flags unverified Forever availability. Three reagent IDs in legacy client entries have no resolved name in the inspected records. Winter Boots has a documented learning skill of 285 and no published color thresholds in the catalog. [Pattern: Winter Boots](https://foreverdiff.com/items/pattern-winter-boots-34262/)
 
+Binding labels refer to the crafted output and link to that item's record. The `Bonding` field in the Forever client’s `ItemSparse` table supplies 482 bindings. ForeverDB's item catalog supplies 32 more. The table shows 347 BoE, 126 BoP, 41 unbound, and 78 unverified outputs. [WoW Forever ItemSparse, build 1.60.1.71037](https://wago.tools/db2/ItemSparse/csv?build=1.60.1.71037) · [ForeverDB item data](https://foreverdb.net/data/items.json)
+
+The checkbox marks a recipe as known. Filter the list to find recipes you still need. This browser saves the collection by recipe spell ID.
+
 The browser loads the [checked-in recipe data](../../data/professions/leatherworking.json). Each entry uses the recipe's spell ID and includes its output, ingredient IDs and quantities, skill thresholds, patterns, and available sources. A static checkout or GitHub Pages serves the catalog without an API key or build step.

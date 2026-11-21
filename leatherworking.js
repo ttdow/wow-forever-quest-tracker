@@ -3,13 +3,21 @@
 const $ = selector => document.querySelector(selector);
 const panel = $('#leatherworking-panel');
 const search = $('#leatherworking-search');
+const collectionFilter = $('#leatherworking-collection');
 const skillFilter = $('#leatherworking-skill');
 const sourceFilter = $('#leatherworking-source');
 const rows = $('#leatherworking-rows');
 const count = $('#leatherworking-result-count');
 const empty = $('#leatherworking-empty');
 const error = $('#leatherworking-error');
+const saveError = $('#leatherworking-save-error');
+const progress = globalThis.LeatherworkingProgress;
 const colors = ['Orange', 'Yellow', 'Green', 'Grey'];
+const bindingLabels = new Map([
+  ['boe', ['BoE', 'Binds when equipped']],
+  ['bop', ['BoP', 'Binds when picked up']],
+  ['unbound', ['Unbound', 'Unbound']],
+]);
 const sourceLabels = {
   automatic: 'Learned with Apprentice Leatherworking',
   trainer: 'Trainer',
@@ -21,6 +29,8 @@ const sourceLabels = {
 let entries;
 let pending;
 let version = 0;
+let knownRecipes = new Set();
+let progressReady = false;
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -77,12 +87,34 @@ function appendSources(container, sources) {
 
 function recipeRow(recipe) {
   const row = element('tr');
-  row.dataset.recipeId = recipe.spellId;
+  const id = String(recipe.spellId);
+  row.dataset.recipeId = id;
   const name = cell('Recipe', 'leatherworking-name');
-  name.append(reference(recipe.name, `spell/${recipe.spellId}`));
-  if (recipe.yield > 1) name.append(` ×${recipe.yield}`);
-  if (recipe.station) name.append(detail(`Requires ${recipe.station}`));
-  if (recipe.availability) name.append(detail(recipe.availability));
+  const heading = element('div', 'leatherworking-recipe');
+  const known = element('label', 'leatherworking-known');
+  const checkbox = element('input');
+  checkbox.type = 'checkbox';
+  checkbox.dataset.knownRecipe = id;
+  known.append(checkbox, element('span', 'sr-only', `Known recipe: ${recipe.name}`));
+  const description = element('div');
+  const recipeLink = reference(recipe.name, `spell/${recipe.spellId}`);
+  recipeLink.className = 'leatherworking-recipe-name';
+  description.append(recipeLink);
+  if (recipe.yield > 1) description.append(` ×${recipe.yield}`);
+  const binding = bindingLabels.get(recipe.binding);
+  if (binding) {
+    const link = reference(binding[0], `item/${recipe.itemId}`);
+    link.className = 'leatherworking-detail';
+    link.title = binding[1];
+    link.setAttribute('aria-label', `Crafted item: ${recipe.name}, ${binding[1]}`);
+    description.append(link);
+  } else {
+    description.append(detail('Binding unverified'));
+  }
+  if (recipe.station) description.append(detail(`Requires ${recipe.station}`));
+  if (recipe.availability) description.append(detail(recipe.availability));
+  heading.append(known, description);
+  name.append(heading);
 
   const ingredients = cell('Ingredients per craft');
   const materials = element('ul');
@@ -124,7 +156,7 @@ function recipeRow(recipe) {
   }
   appendSources(acquisition, recipe.patterns.length > 1 ? recipe.sources.filter(source => !source.patternId) : recipe.sources);
   row.append(name, ingredients, skill, acquisition);
-  return row;
+  return { row, checkbox };
 }
 
 async function load() {
@@ -138,9 +170,10 @@ async function load() {
     }
     const recipes = data.recipes.map(recipe => ({
       recipe,
-      row: recipeRow(recipe),
+      ...recipeRow(recipe),
       terms: [
         recipe.name, recipe.spellId, recipe.itemId, recipe.station, recipe.availability,
+        ...(bindingLabels.get(recipe.binding) ?? ['binding unverified']),
         ...recipe.ingredients.flatMap(item => [item.name, item.itemId]),
         ...recipe.patterns.flatMap(item => [item.name, item.itemId]),
         ...recipe.sources.flatMap(source => [sourceLabels[source.type], source.name, source.location, source.requirements]),
@@ -155,26 +188,70 @@ async function load() {
 function render() {
   if (panel.hidden || !entries) return;
   const terms = search.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const collection = progressReady ? collectionFilter.value : '';
   const maxSkill = skillFilter.valueAsNumber;
   const source = sourceFilter.value;
   let matches = 0;
+  let knownCount = 0;
   for (const entry of entries) {
-    const { recipe } = entry;
+    const { recipe, row, checkbox } = entry;
+    const known = knownRecipes.has(checkbox.dataset.knownRecipe);
     const show = (!Number.isFinite(maxSkill) || (recipe.skill.learn !== null && recipe.skill.learn <= maxSkill)) &&
       (!source || recipe.sources.some(location => location.type === source)) &&
+      (!collection || known === (collection === 'known')) &&
       terms.every(term => entry.terms.includes(term));
-    entry.row.hidden = !show;
+    row.hidden = !show;
+    checkbox.checked = known;
+    checkbox.disabled = !progressReady;
     if (show) matches++;
+    if (known) knownCount++;
   }
-  count.textContent = `${matches} of ${entries.length} recipes`;
+  const totals = progressReady ? ` · ${knownCount} known · ${entries.length - knownCount} needed` : '';
+  count.textContent = `${matches} of ${entries.length} recipes${totals}`;
   empty.hidden = matches > 0;
 }
+
+function readProgress() {
+  try {
+    knownRecipes = progress.load();
+    progressReady = true;
+    saveError.hidden = true;
+  } catch {
+    progressReady = false;
+    saveError.textContent = 'Could not read saved recipes. Allow browser storage for this site and reload to try again.';
+    saveError.hidden = false;
+  }
+  collectionFilter.disabled = !progressReady;
+}
+
+rows.addEventListener('change', event => {
+  const checkbox = event.target.closest('input[data-known-recipe]');
+  if (!checkbox || !progressReady) return;
+  const id = checkbox.dataset.knownRecipe;
+  const hadFocus = document.activeElement === checkbox;
+  try {
+    // Merge with progress saved by other tabs since this view was rendered.
+    const next = progress.load();
+    if (checkbox.checked) next.add(id); else next.delete(id);
+    progress.save(next);
+    knownRecipes = next;
+    saveError.hidden = true;
+  } catch {
+    saveError.textContent = 'Could not save this recipe. Your previous status was restored.';
+    saveError.hidden = false;
+  }
+  render();
+  if (hadFocus && checkbox.closest('tr').hidden) {
+    (rows.querySelector('tr:not([hidden]) input') ?? collectionFilter).focus();
+  }
+});
 
 async function show() {
   const request = ++version;
   panel.hidden = false;
   error.hidden = true;
   empty.hidden = true;
+  readProgress();
   if (!entries) count.textContent = 'Loading Leatherworking…';
   try {
     await load();
@@ -187,9 +264,15 @@ async function show() {
 }
 
 search.addEventListener('input', render);
+collectionFilter.addEventListener('change', render);
 skillFilter.addEventListener('input', render);
 sourceFilter.addEventListener('change', render);
 $('#leatherworking-retry').addEventListener('click', show);
+window.addEventListener('storage', event => {
+  if (panel.hidden || (event.key !== progress.key && event.key !== null)) return;
+  readProgress();
+  render();
+});
 globalThis.LeatherworkingGuide = Object.freeze({
   show,
   hide: () => { ++version; panel.hidden = true; },

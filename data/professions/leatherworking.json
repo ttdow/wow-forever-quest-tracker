@@ -5,6 +5,7 @@
     {
       "spellId": 2149,
       "itemId": 2302,
+      "binding": "unbound",
       "name": "Handstitched Leather Boots",
       "yield": 1,
       "skill": {"learn": 1, "orange": 1, "yellow": 40, "green": 55, "grey": 70},
@@ -18,6 +19,7 @@
     {
       "spellId": 9059,
       "itemId": 7277,
+      "binding": "unbound",
       "name": "Handstitched Leather Bracers",
       "yield": 1,
       "skill": {"learn": 1, "orange": 1, "yellow": 40, "green": 55, "grey": 70},
@@ -31,6 +33,7 @@
     {
       "spellId": 9058,
       "itemId": 7276,
+      "binding": "unbound",
       "name": "Handstitched Leather Cloak",
       "yield": 1,
       "skill": {"learn": 1, "orange": 1, "yellow": 40, "green": 55, "grey": 70},
@@ -44,6 +47,7 @@
     {
       "spellId": 7126,
       "itemId": 5957,
+      "binding": "boe",
       "name": "Handstitched Leather Vest",
       "yield": 1,
       "skill": {"learn": 1, "orange": 1, "yellow": 40, "green": 55, "grey": 70},
@@ -57,6 +61,7 @@
     {
       "spellId": 2152,
       "itemId": 2304,
+      "binding": "unbound",
       "name": "Light Armor Kit",
       "yield": 1,
       "skill": {"learn": 1, "orange": 1, "yellow": 30, "green": 45, "grey": 60},
@@ -67,6 +72,7 @@
     {
       "spellId": 2881,
       "itemId": 2318,
+      "binding": "unbound",
       "name": "Light Leather",
       "yield": 1,
       "skill": {"learn": 1, "orange": 1, "yellow": 20, "green": 30, "grey": 40},
@@ -77,6 +83,7 @@
     {
       "spellId": 2153,
       "itemId": 2303,
+      "binding": "boe",
       "name": "Handstitched Leather Pants",
       "yield": 1,
       "skill": {"learn": 15, "orange": 15, "yellow": 45, "green": 60, "grey": 75, "orangeSource": "classic"},
@@ -94,6 +101,7 @@
     {
       "spellId": 1229432,
       "itemId": 279978,
+      "binding": "unbound",
       "name": "Camp Tent",
       "yield": 1,
       "station": "Campfire",
@@ -109,6 +117,7 @@
     {
       "spellId": 3753,
       "itemId": 4237,
+      "binding": "boe",
       "name": "Handstitched Leather Belt",
       "yield": 1,
       "skill": {"learn": 25, "orange": 25, "yellow": 55, "green": 70, "grey": 85, "orangeSource": "classic"},
@@ -126,6 +135,7 @@
     {
       "spellId": 9060,
       "itemId": 7278,
+      "binding": "unbound",
       "name": "Light Leather Quiver",
       "yield": 1,
       "skill": {"learn": 30, "orange": 30, "yellow": 55, "green": 70, "grey": 85, "orangeSource": "classic"},
@@ -143,6 +153,7 @@
     {
       "spellId": 1302604,
       "itemId": 277715,
+      "binding": "boe",
       "name": "Light Leather Reagent Bag",
       "yield": 1,
       "skill": {"learn": 30, "orange": 30, "yellow": 40, "green": 45, "grey": 50},
@@ -161,6 +172,7 @@
     {
       "spellId": 9064,
       "itemId": 7280,
+      "binding": "boe",
       "name": "Rugged Leather Pants",
       "yield": 1,
       "skill": {"learn": 30, "orange": 30, "yellow": 60, "green": 75, "grey": 90},
@@ -189,6 +201,7 @@
     {
       "spellId": 9062,
       "itemId": 7279,
+      "binding": "unbound",
       "name": "Small Leather Ammo Pouch",
       "yield": 1,
       "skill": {"learn": 30, "orange": 30, "yellow": 55, "green": 70, "grey": 85, "orangeSource": "classic"},
@@ -206,6 +219,7 @@
     {
       "spellId": 1255146,
       "itemId": 252424,
+      "binding": "bop",
       "name": "Black Whelp Slippers",
       "yield": 1,
       "skill": {"learn": 35, "orange": 35, "yellow": 40, "green": 40, "grey": 40},
@@ -225,6 +239,7 @@
     {
       "spellId": 3816,
       "itemId": 4231,
+      "binding": "unbound",
       "name": "Cured Light Hide",
       "yield": 1,
       "skill": {"learn": 35, "orange": 35, "yellow": 50, "green": 60, "grey": 70, "orangeSource": "classic"},
@@ -242,6 +257,7 @@
     {
       "spellId": 1255145,
       "itemId": 252425,
+      "binding": "bop",
       "name": "Dark Leather Boots",
       "yield": 1,
       "skill": {"learn": 35, "orange": 35, "yellow": 40, "green": 40, "grey": 40},
@@ -261,6 +277,7 @@
     {
       "spellId": 5244,
       "itemId": 5081,
+      "binding": "unbound",
       "name": "Kodo Hide Bag",
       "yield": 1,
       "skill": {"learn": 35, "orange": 35, "yellow": 65, "green": 80, "grey": 95},
@@ -275,6 +292,7 @@
     {
       "spellId": 1255143,
       "itemId": 252427,
+      "binding": "bop",
       "name": "Moonglow Boots",
       "yield": 1,
       "skill": {"learn": 35, "orange": 35, "yellow": 40, "green": 40, "grey": 40},
@@ -294,6 +312,7 @@
     {
       "spellId": 1255144,
       "itemId": 252426,
+      "binding": "bop",
       "name": "Murloc Scale Shoes",
       "yield": 1,
       "skill": {"learn": 35, "orange": 35, "yellow": 40, "green": 40, "grey": 40},
@@ -313,6 +332,7 @@
     {
       "spellId": 2160,
       "itemId": 2300,
+      "binding": "boe",
       "name": "Embossed Leather Vest",
       "yield": 1,
       "skill": {"learn": 40, "orange": 40, "yellow": 65, "green": 80, "grey": 95, "orangeSource": "classic"},
@@ -330,6 +350,7 @@
     {
       "spellId": 2163,
       "itemId": 2311,
+      "binding": "boe",
       "name": "White Leather Jerkin",
       "yield": 1,
       "skill": {"learn": 40, "orange": 40, "yellow": 70, "green": 85, "grey": 100},
@@ -355,6 +376,7 @@
     {
       "spellId": 1301454,
       "itemId": 277025,
+      "binding": "boe",
       "name": "Azure Gustwoven Belt",
       "yield": 1,
       "skill": {"learn": 50, "orange": 50, "yellow": 55, "green": 57, "grey": 60},
@@ -368,6 +390,7 @@
     {
       "spellId": 1301452,
       "itemId": 277023,
+      "binding": "boe",
       "name": "Azure Gustwoven Bracers",
       "yield": 1,
       "skill": {"learn": 50, "orange": 50, "yellow": 55, "green": 57, "grey": 60},
@@ -381,6 +404,7 @@
     {
       "spellId": 1301458,
       "itemId": 277029,
+      "binding": "boe",
       "name": "Azure Windraveled Armguards",
       "yield": 1,
       "skill": {"learn": 50, "orange": 50, "yellow": 55, "green": 57, "grey": 60},
@@ -394,6 +418,7 @@
     {
       "spellId": 1301460,
       "itemId": 277031,
+      "binding": "boe",
       "name": "Azure Windraveled Strap",
       "yield": 1,
       "skill": {"learn": 50, "orange": 50, "yellow": 55, "green": 57, "grey": 60},
@@ -407,6 +432,7 @@
     {
       "spellId": 1301430,
       "itemId": 277001,
+      "binding": "boe",
       "name": "Cloudy Gustwoven Belt",
       "yield": 1,
       "skill": {"learn": 50, "orange": 50, "yellow": 55, "green": 57, "grey": 60},
@@ -420,6 +446,7 @@
     {
       "spellId": 1301428,
       "itemId": 276999,
+      "binding": "boe",
       "name": "Cloudy Gustwoven Bracers",
       "yield": 1,
       "skill": {"learn": 50, "orange": 50, "yellow": 55, "green": 57, "grey": 60},
@@ -433,6 +460,7 @@
     {
       "spellId": 1301434,
       "itemId": 277005,
+      "binding": "boe",
       "name": "Cloudy Windraveled Armguards",
       "yield": 1,
       "skill": {"learn": 50, "orange": 50, "yellow": 55, "green": 57, "grey": 60},
@@ -446,6 +474,7 @@
     {
       "spellId": 1301436,
       "itemId": 277007,
+      "binding": "boe",
       "name": "Cloudy Windraveled Strap",
       "yield": 1,
       "skill": {"learn": 50, "orange": 50, "yellow": 55, "green": 57, "grey": 60},
@@ -459,6 +488,7 @@
     {
       "spellId": 2164,
       "itemId": 2312,
+      "binding": "boe",
       "name": "Fine Leather Gloves",
       "yield": 1,
       "skill": {"learn": 50, "orange": 50, "yellow": 80, "green": 95, "grey": 110},
@@ -487,6 +517,7 @@
     {
       "spellId": 1301456,
       "itemId": 277027,
+      "binding": "boe",
       "name": "Azure Gustwoven Boots",
       "yield": 1,
       "skill": {"learn": 55, "orange": 55, "yellow": 60, "green": 62, "grey": 65},
@@ -500,6 +531,7 @@
     {
       "spellId": 1301453,
       "itemId": 277024,
+      "binding": "boe",
       "name": "Azure Gustwoven Gloves",
       "yield": 1,
       "skill": {"learn": 55, "orange": 55, "yellow": 60, "green": 62, "grey": 65},
@@ -513,6 +545,7 @@
     {
       "spellId": 1301462,
       "itemId": 277033,
+      "binding": "boe",
       "name": "Azure Windraveled Footwraps",
       "yield": 1,
       "skill": {"learn": 55, "orange": 55, "yellow": 60, "green": 62, "grey": 65},
@@ -526,6 +559,7 @@
     {
       "spellId": 1301459,
       "itemId": 277030,
+      "binding": "boe",
       "name": "Azure Windraveled Mitts",
       "yield": 1,
       "skill": {"learn": 55, "orange": 55, "yellow": 60, "green": 62, "grey": 65},
@@ -539,6 +573,7 @@
     {
       "spellId": 1301432,
       "itemId": 277003,
+      "binding": "boe",
       "name": "Cloudy Gustwoven Boots",
       "yield": 1,
       "skill": {"learn": 55, "orange": 55, "yellow": 60, "green": 62, "grey": 65},
@@ -552,6 +587,7 @@
     {
       "spellId": 1301429,
       "itemId": 277000,
+      "binding": "boe",
       "name": "Cloudy Gustwoven Gloves",
       "yield": 1,
       "skill": {"learn": 55, "orange": 55, "yellow": 60, "green": 62, "grey": 65},
@@ -565,6 +601,7 @@
     {
       "spellId": 1301438,
       "itemId": 277009,
+      "binding": "boe",
       "name": "Cloudy Windraveled Footwraps",
       "yield": 1,
       "skill": {"learn": 55, "orange": 55, "yellow": 60, "green": 62, "grey": 65},
@@ -578,6 +615,7 @@
     {
       "spellId": 1301435,
       "itemId": 277006,
+      "binding": "boe",
       "name": "Cloudy Windraveled Mitts",
       "yield": 1,
       "skill": {"learn": 55, "orange": 55, "yellow": 60, "green": 62, "grey": 65},
@@ -591,6 +629,7 @@
     {
       "spellId": 2161,
       "itemId": 2309,
+      "binding": "boe",
       "name": "Embossed Leather Boots",
       "yield": 1,
       "skill": {"learn": 55, "orange": 55, "yellow": 80, "green": 95, "grey": 110, "orangeSource": "classic"},
@@ -608,6 +647,7 @@
     {
       "spellId": 3756,
       "itemId": 4239,
+      "binding": "boe",
       "name": "Embossed Leather Gloves",
       "yield": 1,
       "skill": {"learn": 55, "orange": 55, "yellow": 70, "green": 85, "grey": 100, "orangeSource": "classic"},
@@ -625,6 +665,7 @@
     {
       "spellId": 1301451,
       "itemId": 277022,
+      "binding": "boe",
       "name": "Azure Gustwoven Harness",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 65, "green": 67, "grey": 70},
@@ -639,6 +680,7 @@
     {
       "spellId": 1301455,
       "itemId": 277026,
+      "binding": "boe",
       "name": "Azure Gustwoven Trousers",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 65, "green": 67, "grey": 70},
@@ -652,6 +694,7 @@
     {
       "spellId": 1301457,
       "itemId": 277028,
+      "binding": "boe",
       "name": "Azure Windraveled Jerkin",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 65, "green": 67, "grey": 70},
@@ -666,6 +709,7 @@
     {
       "spellId": 1301461,
       "itemId": 277032,
+      "binding": "boe",
       "name": "Azure Windraveled Pants",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 65, "green": 67, "grey": 70},
@@ -679,6 +723,7 @@
     {
       "spellId": 1255142,
       "itemId": 252428,
+      "binding": "bop",
       "name": "Brawler's Leather Belt",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 90, "green": 105, "grey": 120},
@@ -698,6 +743,7 @@
     {
       "spellId": 1301427,
       "itemId": 276998,
+      "binding": "boe",
       "name": "Cloudy Gustwoven Harness",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 65, "green": 67, "grey": 70},
@@ -712,6 +758,7 @@
     {
       "spellId": 1301431,
       "itemId": 277002,
+      "binding": "boe",
       "name": "Cloudy Gustwoven Trousers",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 65, "green": 67, "grey": 70},
@@ -725,6 +772,7 @@
     {
       "spellId": 1301433,
       "itemId": 277004,
+      "binding": "boe",
       "name": "Cloudy Windraveled Jerkin",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 65, "green": 67, "grey": 70},
@@ -739,6 +787,7 @@
     {
       "spellId": 1301437,
       "itemId": 277008,
+      "binding": "boe",
       "name": "Cloudy Windraveled Pants",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 65, "green": 67, "grey": 70},
@@ -752,6 +801,7 @@
     {
       "spellId": 1255140,
       "itemId": 252430,
+      "binding": "bop",
       "name": "Defender's Leather Belt",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 90, "green": 105, "grey": 120},
@@ -771,6 +821,7 @@
     {
       "spellId": 2162,
       "itemId": 2310,
+      "binding": "boe",
       "name": "Embossed Leather Cloak",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 70, "green": 85, "grey": 100, "orangeSource": "classic"},
@@ -788,6 +839,7 @@
     {
       "spellId": 1255138,
       "itemId": 252432,
+      "binding": "bop",
       "name": "Stormrider's Leather Belt",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 90, "green": 105, "grey": 120},
@@ -807,6 +859,7 @@
     {
       "spellId": 1255139,
       "itemId": 252431,
+      "binding": "bop",
       "name": "Totemic Leather Belt",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 90, "green": 105, "grey": 120},
@@ -826,6 +879,7 @@
     {
       "spellId": 1255141,
       "itemId": 252429,
+      "binding": "bop",
       "name": "Trapper's Leather Belt",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 90, "green": 105, "grey": 120},
@@ -845,6 +899,7 @@
     {
       "spellId": 1255137,
       "itemId": 252433,
+      "binding": "bop",
       "name": "Wisdom's Leather Belt",
       "yield": 1,
       "skill": {"learn": 60, "orange": 60, "yellow": 90, "green": 105, "grey": 120},
@@ -864,6 +919,7 @@
     {
       "spellId": 7953,
       "itemId": 6466,
+      "binding": "boe",
       "name": "Deviate Scale Cloak",
       "yield": 1,
       "skill": {"learn": 65, "orange": 65, "yellow": 95, "green": 110, "grey": 125},
@@ -878,6 +934,7 @@
     {
       "spellId": 2158,
       "itemId": 2307,
+      "binding": "boe",
       "name": "Fine Leather Boots",
       "yield": 1,
       "skill": {"learn": 65, "orange": 65, "yellow": 95, "green": 110, "grey": 125},
@@ -908,6 +965,7 @@
     {
       "spellId": 8322,
       "itemId": 6709,
+      "binding": "boe",
       "name": "Moonglow Vest",
       "yield": 1,
       "skill": {"learn": 65, "orange": 65, "yellow": 90, "green": 105, "grey": 120},
@@ -923,6 +981,7 @@
     {
       "spellId": 6702,
       "itemId": 5780,
+      "binding": "boe",
       "name": "Murloc Scale Belt",
       "yield": 1,
       "skill": {"learn": 65, "orange": 65, "yellow": 95, "green": 110, "grey": 125},
@@ -943,6 +1002,7 @@
     {
       "spellId": 2159,
       "itemId": 2308,
+      "binding": "boe",
       "name": "Fine Leather Cloak",
       "yield": 1,
       "skill": {"learn": 70, "orange": null, "yellow": 70, "green": 85, "grey": 100, "orangeSource": "classic"},
@@ -960,6 +1020,7 @@
     {
       "spellId": 9065,
       "itemId": 7281,
+      "binding": "boe",
       "name": "Light Leather Bracers",
       "yield": 1,
       "skill": {"learn": 70, "orange": 70, "yellow": 75, "green": 90, "grey": 105, "orangeSource": "classic"},
@@ -977,6 +1038,7 @@
     {
       "spellId": 6703,
       "itemId": 5781,
+      "binding": "boe",
       "name": "Murloc Scale Breastplate",
       "yield": 1,
       "skill": {"learn": 70, "orange": 70, "yellow": 100, "green": 115, "grey": 130},
@@ -998,6 +1060,7 @@
     {
       "spellId": 9070,
       "itemId": 7283,
+      "binding": "boe",
       "name": "Black Whelp Cloak",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 100, "green": 112, "grey": 125},
@@ -1015,6 +1078,7 @@
     {
       "spellId": 24940,
       "itemId": 20575,
+      "binding": "boe",
       "name": "Black Whelp Tunic",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 100, "green": 112, "grey": 125},
@@ -1033,6 +1097,7 @@
     {
       "spellId": 1255136,
       "itemId": 252490,
+      "binding": "bop",
       "name": "Brawler's Leather Armor",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 80, "green": 80, "grey": 80},
@@ -1053,6 +1118,7 @@
     {
       "spellId": 1255130,
       "itemId": 252494,
+      "binding": "bop",
       "name": "Brawler's Leather Gloves",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 100, "green": 112, "grey": 125},
@@ -1072,6 +1138,7 @@
     {
       "spellId": 2169,
       "itemId": 2317,
+      "binding": "boe",
       "name": "Dark Leather Tunic",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 100, "green": 112, "grey": 125},
@@ -1108,6 +1175,7 @@
     {
       "spellId": 1255134,
       "itemId": 252434,
+      "binding": "bop",
       "name": "Defender's Leather Armor",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 80, "green": 80, "grey": 80},
@@ -1128,6 +1196,7 @@
     {
       "spellId": 1255128,
       "itemId": 252496,
+      "binding": "bop",
       "name": "Defender's Leather Gloves",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 100, "green": 112, "grey": 125},
@@ -1147,6 +1216,7 @@
     {
       "spellId": 3759,
       "itemId": 4242,
+      "binding": "boe",
       "name": "Embossed Leather Pants",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 80, "green": 95, "grey": 110, "orangeSource": "classic"},
@@ -1165,6 +1235,7 @@
     {
       "spellId": 3762,
       "itemId": 4244,
+      "binding": "boe",
       "name": "Hillman's Leather Vest",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 100, "green": 112, "grey": 125},
@@ -1197,6 +1268,7 @@
     {
       "spellId": 20648,
       "itemId": 2319,
+      "binding": "unbound",
       "name": "Medium Leather",
       "yield": 1,
       "skill": {"learn": 75, "orange": null, "yellow": 75, "green": 80, "grey": 85, "orangeSource": "classic"},
@@ -1211,6 +1283,7 @@
     {
       "spellId": 1255132,
       "itemId": 252492,
+      "binding": "bop",
       "name": "Stormrider's Leather Armor",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 80, "green": 80, "grey": 80},
@@ -1225,6 +1298,7 @@
     {
       "spellId": 1255126,
       "itemId": 252498,
+      "binding": "bop",
       "name": "Stormrider's Leather Gloves",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 100, "green": 112, "grey": 125},
@@ -1244,6 +1318,7 @@
     {
       "spellId": 1255133,
       "itemId": 252435,
+      "binding": "bop",
       "name": "Totemic Leather Armor",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 80, "green": 80, "grey": 80},
@@ -1262,6 +1337,7 @@
     {
       "spellId": 1255127,
       "itemId": 252497,
+      "binding": "bop",
       "name": "Totemic Leather Gloves",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 100, "green": 112, "grey": 125},
@@ -1281,6 +1357,7 @@
     {
       "spellId": 1255135,
       "itemId": 252491,
+      "binding": "bop",
       "name": "Trapper's Leather Armor",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 80, "green": 80, "grey": 80},
@@ -1299,6 +1376,7 @@
     {
       "spellId": 1255129,
       "itemId": 252495,
+      "binding": "bop",
       "name": "Trapper's Leather Gloves",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 100, "green": 112, "grey": 125},
@@ -1318,6 +1396,7 @@
     {
       "spellId": 1255131,
       "itemId": 252493,
+      "binding": "bop",
       "name": "Wisdom's Leather Armor",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 80, "green": 80, "grey": 80},
@@ -1332,6 +1411,7 @@
     {
       "spellId": 1255125,
       "itemId": 252499,
+      "binding": "bop",
       "name": "Wisdom's Leather Gloves",
       "yield": 1,
       "skill": {"learn": 75, "orange": 75, "yellow": 100, "green": 112, "grey": 125},
@@ -1351,6 +1431,7 @@
     {
       "spellId": 7954,
       "itemId": 6467,
+      "binding": "boe",
       "name": "Deviate Scale Gloves",
       "yield": 1,
       "skill": {"learn": 80, "orange": 80, "yellow": 105, "green": 117, "grey": 130},
@@ -1365,6 +1446,7 @@
     {
       "spellId": 3763,
       "itemId": 4246,
+      "binding": "boe",
       "name": "Fine Leather Belt",
       "yield": 1,
       "skill": {"learn": 80, "orange": 80, "yellow": 85, "green": 100, "grey": 115, "orangeSource": "classic"},
@@ -1382,6 +1464,7 @@
     {
       "spellId": 7133,
       "itemId": 5958,
+      "binding": "boe",
       "name": "Fine Leather Pants",
       "yield": 1,
       "skill": {"learn": 80, "orange": 80, "yellow": 105, "green": 117, "grey": 130},
@@ -1414,6 +1497,7 @@
     {
       "spellId": 1255123,
       "itemId": 252437,
+      "binding": "unbound",
       "name": "Forceful Medium Armor Kit",
       "yield": 1,
       "skill": {"learn": 80, "orange": 80, "yellow": 95, "green": 102, "grey": 110},
@@ -1437,6 +1521,7 @@
     {
       "spellId": 1255124,
       "itemId": 252436,
+      "binding": "unbound",
       "name": "Mystic Medium Armor Kit",
       "yield": 1,
       "skill": {"learn": 80, "orange": 80, "yellow": 95, "green": 102, "grey": 110},
@@ -1460,6 +1545,7 @@
     {
       "spellId": 1255121,
       "itemId": 252439,
+      "binding": "bop",
       "name": "Brawler's Leather Boots",
       "yield": 1,
       "skill": {"learn": 85, "orange": 85, "yellow": 110, "green": 122, "grey": 135},
@@ -1479,6 +1565,7 @@
     {
       "spellId": 1255119,
       "itemId": 252441,
+      "binding": "bop",
       "name": "Defender's Leather Boots",
       "yield": 1,
       "skill": {"learn": 85, "orange": 85, "yellow": 110, "green": 122, "grey": 135},
@@ -1498,6 +1585,7 @@
     {
       "spellId": 3761,
       "itemId": 4243,
+      "binding": "boe",
       "name": "Fine Leather Tunic",
       "yield": 1,
       "skill": {"learn": 85, "orange": 85, "yellow": 90, "green": 105, "grey": 120, "orangeSource": "classic"},
@@ -1516,6 +1604,7 @@
     {
       "spellId": 1255117,
       "itemId": 252443,
+      "binding": "bop",
       "name": "Stormrider's Leather Boots",
       "yield": 1,
       "skill": {"learn": 85, "orange": 85, "yellow": 110, "green": 122, "grey": 135},
@@ -1535,6 +1624,7 @@
     {
       "spellId": 1255118,
       "itemId": 252442,
+      "binding": "bop",
       "name": "Totemic Leather Boots",
       "yield": 1,
       "skill": {"learn": 85, "orange": 85, "yellow": 110, "green": 122, "grey": 135},
@@ -1554,6 +1644,7 @@
     {
       "spellId": 1255120,
       "itemId": 252440,
+      "binding": "bop",
       "name": "Trapper's Leather Boots",
       "yield": 1,
       "skill": {"learn": 85, "orange": 85, "yellow": 110, "green": 122, "grey": 135},
@@ -1573,6 +1664,7 @@
     {
       "spellId": 1255116,
       "itemId": 252444,
+      "binding": "bop",
       "name": "Wisdom's Leather Boots",
       "yield": 1,
       "skill": {"learn": 85, "orange": 85, "yellow": 110, "green": 122, "grey": 135},
@@ -1592,6 +1684,7 @@
     {
       "spellId": 3817,
       "itemId": 4233,
+      "binding": "unbound",
       "name": "Cured Medium Hide",
       "yield": 1,
       "skill": {"learn": 90, "orange": null, "yellow": 90, "green": 97, "grey": 105, "orangeSource": "classic"},
@@ -1609,6 +1702,7 @@
     {
       "spellId": 7955,
       "itemId": 6468,
+      "binding": "boe",
       "name": "Deviate Scale Belt",
       "yield": 1,
       "skill": {"learn": 90, "orange": 90, "yellow": 115, "green": 127, "grey": 140},
@@ -1623,6 +1717,7 @@
     {
       "spellId": 2165,
       "itemId": 2313,
+      "binding": "unbound",
       "name": "Medium Armor Kit",
       "yield": 1,
       "skill": {"learn": 90, "orange": null, "yellow": 90, "green": 97, "grey": 105, "orangeSource": "classic"},
@@ -1640,6 +1735,7 @@
     {
       "spellId": 3765,
       "itemId": 4248,
+      "binding": "boe",
       "name": "Dark Leather Gloves",
       "yield": 1,
       "skill": {"learn": 95, "orange": 95, "yellow": 140, "green": 152, "grey": 165},
@@ -1670,6 +1766,7 @@
     {
       "spellId": 3767,
       "itemId": 4250,
+      "binding": "boe",
       "name": "Hillman's Belt",
       "yield": 1,
       "skill": {"learn": 95, "orange": 95, "yellow": 125, "green": 137, "grey": 150},
@@ -1704,6 +1801,7 @@
     {
       "spellId": 9068,
       "itemId": 7282,
+      "binding": "boe",
       "name": "Light Leather Pants",
       "yield": 1,
       "skill": {"learn": 95, "orange": 95, "yellow": 100, "green": 115, "grey": 130, "orangeSource": "classic"},
@@ -1722,6 +1820,7 @@
     {
       "spellId": 9072,
       "itemId": 7284,
+      "binding": "boe",
       "name": "Red Whelp Gloves",
       "yield": 1,
       "skill": {"learn": 95, "orange": 95, "yellow": 120, "green": 132, "grey": 145},
@@ -1739,6 +1838,7 @@
     {
       "spellId": 1255109,
       "itemId": 252504,
+      "binding": "bop",
       "name": "Brawler's Leather Hood",
       "yield": 1,
       "skill": {"learn": 100, "orange": 100, "yellow": 125, "green": 137, "grey": 150},
@@ -1758,6 +1858,7 @@
     {
       "spellId": 1255115,
       "itemId": 252500,
+      "binding": "bop",
       "name": "Brawler's Leather Pants",
       "yield": 1,
       "skill": {"learn": 100, "orange": 100, "yellow": 105, "green": 105, "grey": 105},
@@ -1772,6 +1873,7 @@
     {
       "spellId": 1255107,
       "itemId": 252447,
+      "binding": "bop",
       "name": "Defender's Leather Hood",
       "yield": 1,
       "skill": {"learn": 100, "orange": 100, "yellow": 125, "green": 137, "grey": 150},
@@ -1791,6 +1893,7 @@
     {
       "spellId": 1255113,
       "itemId": 252445,
+      "binding": "bop",
       "name": "Defender's Leather Pants",
       "yield": 1,
       "skill": {"learn": 100, "orange": 100, "yellow": 105, "green": 105, "grey": 105},
@@ -1809,6 +1912,7 @@
     {
       "spellId": 2167,
       "itemId": 2315,
+      "binding": "boe",
       "name": "Gray Leather Boots",
       "yield": 1,
       "skill": {"learn": 100, "orange": null, "yellow": 100, "green": 112, "grey": 125, "orangeSource": "classic"},
@@ -1827,6 +1931,7 @@
     {
       "spellId": 1255105,
       "itemId": 252506,
+      "binding": "bop",
       "name": "Stormrider's Leather Hood",
       "yield": 1,
       "skill": {"learn": 100, "orange": 100, "yellow": 125, "green": 137, "grey": 150},
@@ -1846,6 +1951,7 @@
     {
       "spellId": 1255111,
       "itemId": 252502,
+      "binding": "bop",
       "name": "Stormrider's Leather Pants",
       "yield": 1,
       "skill": {"learn": 100, "orange": 100, "yellow": 105, "green": 105, "grey": 105},
@@ -1865,6 +1971,7 @@
     {
       "spellId": 1255106,
       "itemId": 252448,
+      "binding": "bop",
       "name": "Totemic Leather Hood",
       "yield": 1,
       "skill": {"learn": 100, "orange": 100, "yellow": 125, "green": 137, "grey": 150},
@@ -1884,6 +1991,7 @@
     {
       "spellId": 1255112,
       "itemId": 252446,
+      "binding": "bop",
       "name": "Totemic Leather Pants",
       "yield": 1,
       "skill": {"learn": 100, "orange": 100, "yellow": 105, "green": 105, "grey": 105},
@@ -1903,6 +2011,7 @@
     {
       "spellId": 1255108,
       "itemId": 252505,
+      "binding": "bop",
       "name": "Trapper's Leather Hood",
       "yield": 1,
       "skill": {"learn": 100, "orange": 100, "yellow": 125, "green": 137, "grey": 150},
@@ -1922,6 +2031,7 @@
     {
       "spellId": 1255114,
       "itemId": 252501,
+      "binding": "bop",
       "name": "Trapper's Leather Pants",
       "yield": 1,
       "skill": {"learn": 100, "orange": 100, "yellow": 105, "green": 105, "grey": 105},
@@ -1940,6 +2050,7 @@
     {
       "spellId": 1255104,
       "itemId": 252507,
+      "binding": "bop",
       "name": "Wisdom's Leather Hood",
       "yield": 1,
       "skill": {"learn": 100, "orange": 100, "yellow": 125, "green": 137, "grey": 150},
@@ -1959,6 +2070,7 @@
     {
       "spellId": 1255110,
       "itemId": 252503,
+      "binding": "bop",
       "name": "Wisdom's Leather Pants",
       "yield": 1,
       "skill": {"learn": 100, "orange": 100, "yellow": 105, "green": 105, "grey": 105},
@@ -1979,6 +2091,7 @@
     {
       "spellId": 1255102,
       "itemId": 252508,
+      "binding": "bop",
       "name": "Brawler's Leather Tunic",
       "yield": 1,
       "skill": {"learn": 110, "orange": 110, "yellow": 135, "green": 147, "grey": 160},
@@ -1998,6 +2111,7 @@
     {
       "spellId": 2168,
       "itemId": 2316,
+      "binding": "boe",
       "name": "Dark Leather Cloak",
       "yield": 1,
       "skill": {"learn": 110, "orange": null, "yellow": 110, "green": 122, "grey": 135, "orangeSource": "classic"},
@@ -2016,6 +2130,7 @@
     {
       "spellId": 1255100,
       "itemId": 252450,
+      "binding": "bop",
       "name": "Defender's Leather Tunic",
       "yield": 1,
       "skill": {"learn": 110, "orange": 110, "yellow": 135, "green": 147, "grey": 160},
@@ -2035,6 +2150,7 @@
     {
       "spellId": 9147,
       "itemId": 7352,
+      "binding": "boe",
       "name": "Earthen Leather Shoulders",
       "yield": 1,
       "skill": {"learn": 110, "orange": 110, "yellow": 135, "green": 147, "grey": 160},
@@ -2049,6 +2165,7 @@
     {
       "spellId": 9146,
       "itemId": 7349,
+      "binding": "boe",
       "name": "Herbalist's Gloves",
       "yield": 1,
       "skill": {"learn": 110, "orange": 110, "yellow": 135, "green": 147, "grey": 160},
@@ -2063,6 +2180,7 @@
     {
       "spellId": 1255103,
       "itemId": 252449,
+      "binding": "boe",
       "name": "Hillman's Leather Boots",
       "yield": 1,
       "skill": {"learn": 110, "orange": 110, "yellow": 135, "green": 147, "grey": 160},
@@ -2077,6 +2195,7 @@
     {
       "spellId": 1255098,
       "itemId": 252510,
+      "binding": "bop",
       "name": "Stormrider's Leather Tunic",
       "yield": 1,
       "skill": {"learn": 110, "orange": 110, "yellow": 135, "green": 147, "grey": 160},
@@ -2096,6 +2215,7 @@
     {
       "spellId": 1255099,
       "itemId": 252451,
+      "binding": "bop",
       "name": "Totemic Leather Tunic",
       "yield": 1,
       "skill": {"learn": 110, "orange": 110, "yellow": 135, "green": 147, "grey": 160},
@@ -2115,6 +2235,7 @@
     {
       "spellId": 1255101,
       "itemId": 252509,
+      "binding": "bop",
       "name": "Trapper's Leather Tunic",
       "yield": 1,
       "skill": {"learn": 110, "orange": 110, "yellow": 135, "green": 147, "grey": 160},
@@ -2134,6 +2255,7 @@
     {
       "spellId": 1255097,
       "itemId": 252511,
+      "binding": "bop",
       "name": "Wisdom's Leather Tunic",
       "yield": 1,
       "skill": {"learn": 110, "orange": 110, "yellow": 135, "green": 147, "grey": 160},
@@ -2153,6 +2275,7 @@
     {
       "spellId": 7135,
       "itemId": 5961,
+      "binding": "boe",
       "name": "Dark Leather Pants",
       "yield": 1,
       "skill": {"learn": 115, "orange": null, "yellow": 115, "green": 127, "grey": 140, "orangeSource": "classic"},
@@ -2171,6 +2294,7 @@
     {
       "spellId": 3769,
       "itemId": 4252,
+      "binding": "boe",
       "name": "Dark Leather Shoulders",
       "yield": 1,
       "skill": {"learn": 115, "orange": 115, "yellow": 140, "green": 152, "grey": 165},
@@ -2205,6 +2329,7 @@
     {
       "spellId": 9148,
       "itemId": 7358,
+      "binding": "boe",
       "name": "Pilferer's Gloves",
       "yield": 1,
       "skill": {"learn": 115, "orange": 115, "yellow": 140, "green": 152, "grey": 165},
@@ -2234,6 +2359,7 @@
     {
       "spellId": 9149,
       "itemId": 7359,
+      "binding": "boe",
       "name": "Heavy Earthen Gloves",
       "yield": 1,
       "skill": {"learn": 120, "orange": 120, "yellow": 145, "green": 157, "grey": 170},
@@ -2268,6 +2394,7 @@
     {
       "spellId": 9074,
       "itemId": 7285,
+      "binding": "boe",
       "name": "Nimble Leather Gloves",
       "yield": 1,
       "skill": {"learn": 120, "orange": null, "yellow": 120, "green": 132, "grey": 145, "orangeSource": "classic"},
@@ -2286,6 +2413,7 @@
     {
       "spellId": 2166,
       "itemId": 2314,
+      "binding": "boe",
       "name": "Toughened Leather Armor",
       "yield": 1,
       "skill": {"learn": 120, "orange": null, "yellow": 120, "green": 132, "grey": 145, "orangeSource": "classic"},
@@ -2304,6 +2432,7 @@
     {
       "spellId": 3771,
       "itemId": 4254,
+      "binding": "boe",
       "name": "Barbaric Gloves",
       "yield": 1,
       "skill": {"learn": 125, "orange": 125, "yellow": 150, "green": 160, "grey": 170},
@@ -2337,6 +2466,7 @@
     {
       "spellId": 1255093,
       "itemId": 252512,
+      "binding": "bop",
       "name": "Brawler's Leather Helm",
       "yield": 1,
       "skill": {"learn": 125, "orange": 125, "yellow": 130, "green": 130, "grey": 130},
@@ -2351,6 +2481,7 @@
     {
       "spellId": 1255087,
       "itemId": 252516,
+      "binding": "bop",
       "name": "Brawler's Leather Legguards",
       "yield": 1,
       "station": "Tanning Rack",
@@ -2371,6 +2502,7 @@
     {
       "spellId": 3766,
       "itemId": 4249,
+      "binding": "boe",
       "name": "Dark Leather Belt",
       "yield": 1,
       "skill": {"learn": 125, "orange": null, "yellow": 125, "green": 137, "grey": 150, "orangeSource": "classic"},
@@ -2390,6 +2522,7 @@
     {
       "spellId": 1255091,
       "itemId": 252455,
+      "binding": "bop",
       "name": "Defender's Leather Helm",
       "yield": 1,
       "skill": {"learn": 125, "orange": 125, "yellow": 130, "green": 130, "grey": 130},
@@ -2404,6 +2537,7 @@
     {
       "spellId": 1255085,
       "itemId": 252457,
+      "binding": "bop",
       "name": "Defender's Leather Kilt",
       "yield": 1,
       "station": "Tanning Rack",
@@ -2424,6 +2558,7 @@
     {
       "spellId": 9145,
       "itemId": 7348,
+      "binding": "boe",
       "name": "Fletcher's Gloves",
       "yield": 1,
       "skill": {"learn": 125, "orange": null, "yellow": 125, "green": 137, "grey": 150, "orangeSource": "classic"},
@@ -2442,6 +2577,7 @@
     {
       "spellId": 20649,
       "itemId": 4234,
+      "binding": "unbound",
       "name": "Heavy Leather",
       "yield": 1,
       "skill": {"learn": 125, "orange": null, "yellow": 125, "green": 130, "grey": 135, "orangeSource": "classic"},
@@ -2456,6 +2592,7 @@
     {
       "spellId": 23190,
       "itemId": 18662,
+      "binding": "unbound",
       "name": "Heavy Leather Ball",
       "yield": 1,
       "skill": {"learn": 125, "orange": null, "yellow": 125, "green": 130, "grey": 135},
@@ -2472,6 +2609,7 @@
     {
       "spellId": 1255089,
       "itemId": 252514,
+      "binding": "bop",
       "name": "Stormrider's Leather Helm",
       "yield": 1,
       "skill": {"learn": 125, "orange": 125, "yellow": 130, "green": 130, "grey": 130},
@@ -2489,6 +2627,7 @@
     {
       "spellId": 1255083,
       "itemId": 252518,
+      "binding": "bop",
       "name": "Stormrider's Leather Kilt",
       "yield": 1,
       "station": "Tanning Rack",
@@ -2509,6 +2648,7 @@
     {
       "spellId": 1263031,
       "itemId": 279941,
+      "binding": "unbound",
       "name": "Tanning Rack",
       "yield": 1,
       "station": "Campfire",
@@ -2527,6 +2667,7 @@
     {
       "spellId": 1255090,
       "itemId": 252456,
+      "binding": "bop",
       "name": "Totemic Leather Helm",
       "yield": 1,
       "skill": {"learn": 125, "orange": 125, "yellow": 130, "green": 130, "grey": 130},
@@ -2541,6 +2682,7 @@
     {
       "spellId": 1255084,
       "itemId": 252458,
+      "binding": "bop",
       "name": "Totemic Leather Leggings",
       "yield": 1,
       "station": "Tanning Rack",
@@ -2561,6 +2703,7 @@
     {
       "spellId": 1255092,
       "itemId": 252513,
+      "binding": "bop",
       "name": "Trapper's Leather Helm",
       "yield": 1,
       "skill": {"learn": 125, "orange": 125, "yellow": 130, "green": 130, "grey": 130},
@@ -2578,6 +2721,7 @@
     {
       "spellId": 1255086,
       "itemId": 252517,
+      "binding": "bop",
       "name": "Trapper's Leather Legguards",
       "yield": 1,
       "station": "Tanning Rack",
@@ -2598,6 +2742,7 @@
     {
       "spellId": 1255088,
       "itemId": 252515,
+      "binding": "bop",
       "name": "Wisdom's Leather Helm",
       "yield": 1,
       "skill": {"learn": 125, "orange": 125, "yellow": 130, "green": 130, "grey": 130},
@@ -2617,6 +2762,7 @@
     {
       "spellId": 1255082,
       "itemId": 252519,
+      "binding": "bop",
       "name": "Wisdom's Leather Leggings",
       "yield": 1,
       "station": "Tanning Rack",
@@ -2637,6 +2783,7 @@
     {
       "spellId": 23399,
       "itemId": 18948,
+      "binding": "boe",
       "name": "Barbaric Bracers",
       "yield": 1,
       "station": "Tanning Rack",
@@ -2657,6 +2804,7 @@
     {
       "spellId": 3772,
       "itemId": 4255,
+      "binding": "boe",
       "name": "Green Leather Armor",
       "yield": 1,
       "skill": {"learn": 130, "orange": 130, "yellow": 150, "green": 160, "grey": 170},
@@ -2675,6 +2823,7 @@
     {
       "spellId": 3768,
       "itemId": 4251,
+      "binding": "boe",
       "name": "Hillman's Shoulders",
       "yield": 1,
       "skill": {"learn": 130, "orange": null, "yellow": 130, "green": 142, "grey": 155, "orangeSource": "classic"},
@@ -2693,6 +2842,7 @@
     {
       "spellId": 3818,
       "itemId": 4236,
+      "binding": "unbound",
       "name": "Cured Heavy Hide",
       "yield": 1,
       "skill": {"learn": 135, "orange": null, "yellow": 135, "green": 140, "grey": 145, "orangeSource": "classic"},
@@ -2710,6 +2860,7 @@
     {
       "spellId": 1255095,
       "itemId": 252453,
+      "binding": "unbound",
       "name": "Forceful Heavy Armor Kit",
       "yield": 1,
       "skill": {"learn": 135, "orange": 135, "yellow": 155, "green": 165, "grey": 175},
@@ -2729,6 +2880,7 @@
     {
       "spellId": 1255096,
       "itemId": 252452,
+      "binding": "unbound",
       "name": "Mystic Heavy Armor Kit",
       "yield": 1,
       "skill": {"learn": 135, "orange": 135, "yellow": 155, "green": 165, "grey": 175},
@@ -2748,6 +2900,7 @@
     {
       "spellId": 3770,
       "itemId": 4253,
+      "binding": "boe",
       "name": "Toughened Leather Gloves",
       "yield": 1,
       "skill": {"learn": 135, "orange": null, "yellow": 135, "green": 147, "grey": 160, "orangeSource": "classic"},
@@ -2768,6 +2921,7 @@
     {
       "spellId": 9195,
       "itemId": 7373,
+      "binding": "boe",
       "name": "Dusky Leather Leggings",
       "yield": 1,
       "skill": {"learn": 140, "orange": 140, "yellow": 160, "green": 170, "grey": 180},
@@ -2793,6 +2947,7 @@
     {
       "spellId": 4097,
       "itemId": 4456,
+      "binding": "boe",
       "name": "Raptor Hide Belt",
       "yield": 1,
       "skill": {"learn": 140, "orange": 140, "yellow": 160, "green": 170, "grey": 180},
@@ -2807,6 +2962,7 @@
     {
       "spellId": 4096,
       "itemId": 4455,
+      "binding": "boe",
       "name": "Raptor Hide Harness",
       "yield": 1,
       "skill": {"learn": 140, "orange": 140, "yellow": 160, "green": 170, "grey": 180},
@@ -2821,6 +2977,7 @@
     {
       "spellId": 7149,
       "itemId": 5963,
+      "binding": "boe",
       "name": "Barbaric Leggings",
       "yield": 1,
       "skill": {"learn": 145, "orange": 145, "yellow": 165, "green": 175, "grey": 185},
@@ -2841,6 +2998,7 @@
     {
       "spellId": 3775,
       "itemId": 4258,
+      "binding": "boe",
       "name": "Guardian Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -2862,6 +3020,7 @@
     {
       "spellId": 3780,
       "itemId": 4265,
+      "binding": "unbound",
       "name": "Heavy Armor Kit",
       "yield": 1,
       "skill": {"learn": 145, "orange": null, "yellow": 145, "green": 155, "grey": 165, "orangeSource": "classic"},
@@ -2879,6 +3038,7 @@
     {
       "spellId": 9194,
       "itemId": 7372,
+      "binding": "unbound",
       "name": "Heavy Leather Ammo Pouch",
       "yield": 1,
       "skill": {"learn": 145, "orange": null, "yellow": 145, "green": 155, "grey": 165, "orangeSource": "classic"},
@@ -2896,6 +3056,7 @@
     {
       "spellId": 9193,
       "itemId": 7371,
+      "binding": "unbound",
       "name": "Heavy Quiver",
       "yield": 1,
       "skill": {"learn": 145, "orange": null, "yellow": 145, "green": 155, "grey": 165, "orangeSource": "classic"},
@@ -2913,6 +3074,7 @@
     {
       "spellId": 3760,
       "itemId": 3719,
+      "binding": "boe",
       "name": "Hillman's Cloak",
       "yield": 1,
       "skill": {"learn": 145, "orange": null, "yellow": 145, "green": 155, "grey": 165, "orangeSource": "classic"},
@@ -2930,6 +3092,7 @@
     {
       "spellId": 3764,
       "itemId": 4247,
+      "binding": "boe",
       "name": "Hillman's Leather Gloves",
       "yield": 1,
       "skill": {"learn": 145, "orange": null, "yellow": 145, "green": 157, "grey": 170, "orangeSource": "classic"},
@@ -2947,6 +3110,7 @@
     {
       "spellId": 6704,
       "itemId": 5782,
+      "binding": "boe",
       "name": "Thick Murloc Armor",
       "yield": 1,
       "skill": {"learn": 145, "orange": 145, "yellow": 165, "green": 175, "grey": 185},
@@ -2968,6 +3132,7 @@
     {
       "spellId": 9197,
       "itemId": 7375,
+      "binding": "boe",
       "name": "Green Whelp Armor",
       "yield": 1,
       "skill": {"learn": 150, "orange": 150, "yellow": 170, "green": 180, "grey": 190},
@@ -2993,6 +3158,7 @@
     {
       "spellId": 3773,
       "itemId": 4256,
+      "binding": "boe",
       "name": "Guardian Armor",
       "yield": 1,
       "skill": {"learn": 150, "orange": 150, "yellow": 170, "green": 180, "grey": 190},
@@ -3015,6 +3181,7 @@
     {
       "spellId": 1255075,
       "itemId": 252523,
+      "binding": "bop",
       "name": "Mender's Leather Belt",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3035,6 +3202,7 @@
     {
       "spellId": 1255081,
       "itemId": 252459,
+      "binding": "bop",
       "name": "Prowler's Leather Belt",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3055,6 +3223,7 @@
     {
       "spellId": 1255077,
       "itemId": 252461,
+      "binding": "bop",
       "name": "Skirmisher's Leather Belt",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3075,6 +3244,7 @@
     {
       "spellId": 1255080,
       "itemId": 252520,
+      "binding": "bop",
       "name": "Skulker's Leather Belt",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3095,6 +3265,7 @@
     {
       "spellId": 1255076,
       "itemId": 252522,
+      "binding": "bop",
       "name": "Skycaller's Leather Belt",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3115,6 +3286,7 @@
     {
       "spellId": 1255079,
       "itemId": 252521,
+      "binding": "bop",
       "name": "Stalker's Leather Belt",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3135,6 +3307,7 @@
     {
       "spellId": 1255078,
       "itemId": 252460,
+      "binding": "bop",
       "name": "Warden's Leather Belt",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3155,6 +3328,7 @@
     {
       "spellId": 3774,
       "itemId": 4257,
+      "binding": "boe",
       "name": "Green Leather Belt",
       "yield": 1,
       "skill": {"learn": 155, "orange": null, "yellow": 155, "green": 165, "grey": 175, "orangeSource": "classic"},
@@ -3174,6 +3348,7 @@
     {
       "spellId": 7147,
       "itemId": 5962,
+      "binding": "boe",
       "name": "Guardian Pants",
       "yield": 1,
       "skill": {"learn": 155, "orange": null, "yellow": 155, "green": 165, "grey": 175, "orangeSource": "classic"},
@@ -3192,6 +3367,7 @@
     {
       "spellId": 3778,
       "itemId": 4262,
+      "binding": "boe",
       "name": "Gem-studded Leather Belt",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3209,6 +3385,7 @@
     {
       "spellId": 7153,
       "itemId": 5965,
+      "binding": "boe",
       "name": "Guardian Cloak",
       "yield": 1,
       "skill": {"learn": 160, "orange": 160, "yellow": 180, "green": 190, "grey": 200},
@@ -3233,6 +3410,7 @@
     {
       "spellId": 21943,
       "itemId": 17721,
+      "binding": "boe",
       "name": "Gloves of the Greatfather",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -3251,6 +3429,7 @@
     {
       "spellId": 9202,
       "itemId": 7386,
+      "binding": "boe",
       "name": "Green Whelp Bracers",
       "yield": 1,
       "skill": {"learn": 165, "orange": 165, "yellow": 185, "green": 195, "grey": 205},
@@ -3271,6 +3450,7 @@
     {
       "spellId": 6705,
       "itemId": 5783,
+      "binding": "boe",
       "name": "Murloc Scale Bracers",
       "yield": 1,
       "skill": {"learn": 165, "orange": 165, "yellow": 185, "green": 195, "grey": 205},
@@ -3291,6 +3471,7 @@
     {
       "spellId": 7151,
       "itemId": 5964,
+      "binding": "boe",
       "name": "Barbaric Shoulders",
       "yield": 1,
       "skill": {"learn": 170, "orange": null, "yellow": 170, "green": 180, "grey": 190, "orangeSource": "classic"},
@@ -3305,6 +3486,7 @@
     {
       "spellId": 9196,
       "itemId": 7374,
+      "binding": "boe",
       "name": "Dusky Leather Armor",
       "yield": 1,
       "skill": {"learn": 170, "orange": null, "yellow": 170, "green": 180, "grey": 190, "orangeSource": "classic"},
@@ -3323,6 +3505,7 @@
     {
       "spellId": 439112,
       "itemId": 217265,
+      "binding": null,
       "name": "Guardian Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -3339,6 +3522,7 @@
     {
       "spellId": 3777,
       "itemId": 4260,
+      "binding": "boe",
       "name": "Guardian Leather Bracers",
       "yield": 1,
       "skill": {"learn": 170, "orange": 170, "yellow": 190, "green": 200, "grey": 210},
@@ -3366,6 +3550,7 @@
     {
       "spellId": 1301536,
       "itemId": 277050,
+      "binding": "boe",
       "name": "Azure Gustwoven Hood",
       "yield": 1,
       "skill": {"learn": 175, "orange": 175, "yellow": 185, "green": 187, "grey": 190},
@@ -3381,6 +3566,7 @@
     {
       "spellId": 1301537,
       "itemId": 277051,
+      "binding": "boe",
       "name": "Azure Gustwoven Spaulders",
       "yield": 1,
       "skill": {"learn": 175, "orange": 175, "yellow": 185, "green": 187, "grey": 190},
@@ -3396,6 +3582,7 @@
     {
       "spellId": 1301538,
       "itemId": 277052,
+      "binding": "boe",
       "name": "Azure Windraveled Cover",
       "yield": 1,
       "skill": {"learn": 175, "orange": 175, "yellow": 185, "green": 187, "grey": 190},
@@ -3411,6 +3598,7 @@
     {
       "spellId": 1301539,
       "itemId": 277053,
+      "binding": "boe",
       "name": "Azure Windraveled Drapes",
       "yield": 1,
       "skill": {"learn": 175, "orange": 175, "yellow": 185, "green": 187, "grey": 190},
@@ -3426,6 +3614,7 @@
     {
       "spellId": 3779,
       "itemId": 4264,
+      "binding": "boe",
       "name": "Barbaric Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -3450,6 +3639,7 @@
     {
       "spellId": 1301528,
       "itemId": 277042,
+      "binding": "boe",
       "name": "Cloudy Gustwoven Hood",
       "yield": 1,
       "skill": {"learn": 175, "orange": 175, "yellow": 185, "green": 187, "grey": 190},
@@ -3465,6 +3655,7 @@
     {
       "spellId": 1301529,
       "itemId": 277043,
+      "binding": "boe",
       "name": "Cloudy Gustwoven Spaulders",
       "yield": 1,
       "skill": {"learn": 175, "orange": 175, "yellow": 185, "green": 187, "grey": 190},
@@ -3480,6 +3671,7 @@
     {
       "spellId": 1301530,
       "itemId": 277044,
+      "binding": "boe",
       "name": "Cloudy Windraveled Cover",
       "yield": 1,
       "skill": {"learn": 175, "orange": 175, "yellow": 185, "green": 187, "grey": 190},
@@ -3495,6 +3687,7 @@
     {
       "spellId": 1301531,
       "itemId": 277045,
+      "binding": "boe",
       "name": "Cloudy Windraveled Drapes",
       "yield": 1,
       "skill": {"learn": 175, "orange": 175, "yellow": 185, "green": 187, "grey": 190},
@@ -3510,6 +3703,7 @@
     {
       "spellId": 10490,
       "itemId": 8174,
+      "binding": "boe",
       "name": "Comfortable Leather Hat",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -3532,6 +3726,7 @@
     {
       "spellId": 10482,
       "itemId": 8172,
+      "binding": "unbound",
       "name": "Cured Thick Hide",
       "yield": 1,
       "skill": {"learn": 175, "orange": null, "yellow": 175, "green": 175, "grey": 175, "orangeSource": "classic"},
@@ -3548,6 +3743,7 @@
     {
       "spellId": 9207,
       "itemId": 7390,
+      "binding": "boe",
       "name": "Dusky Boots",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -3570,6 +3766,7 @@
     {
       "spellId": 9198,
       "itemId": 7377,
+      "binding": "boe",
       "name": "Frost Leather Cloak",
       "yield": 1,
       "skill": {"learn": 175, "orange": null, "yellow": 175, "green": 185, "grey": 195, "orangeSource": "classic"},
@@ -3589,6 +3786,7 @@
     {
       "spellId": 3776,
       "itemId": 4259,
+      "binding": "boe",
       "name": "Green Leather Bracers",
       "yield": 1,
       "skill": {"learn": 175, "orange": null, "yellow": 175, "green": 185, "grey": 195, "orangeSource": "classic"},
@@ -3608,6 +3806,7 @@
     {
       "spellId": 1255065,
       "itemId": 252530,
+      "binding": "bop",
       "name": "Mender's Leather Gloves",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3629,6 +3828,7 @@
     {
       "spellId": 1255071,
       "itemId": 252524,
+      "binding": "bop",
       "name": "Prowler's Leather Gloves",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3650,6 +3850,7 @@
     {
       "spellId": 22711,
       "itemId": 18238,
+      "binding": "boe",
       "name": "Shadowskin Gloves",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3668,6 +3869,7 @@
     {
       "spellId": 1255067,
       "itemId": 252528,
+      "binding": "bop",
       "name": "Skirmisher's Leather Gloves",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3689,6 +3891,7 @@
     {
       "spellId": 1255070,
       "itemId": 252525,
+      "binding": "bop",
       "name": "Skulker's Leather Gloves",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3710,6 +3913,7 @@
     {
       "spellId": 1255066,
       "itemId": 252529,
+      "binding": "bop",
       "name": "Skycaller's Leather Gloves",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3731,6 +3935,7 @@
     {
       "spellId": 1255069,
       "itemId": 252526,
+      "binding": "bop",
       "name": "Stalker's Leather Gloves",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3752,6 +3957,7 @@
     {
       "spellId": 9208,
       "itemId": 7391,
+      "binding": "boe",
       "name": "Swift Boots",
       "yield": 1,
       "skill": {"learn": 175, "orange": 175, "yellow": 195, "green": 205, "grey": 215},
@@ -3779,6 +3985,7 @@
     {
       "spellId": 20650,
       "itemId": 4304,
+      "binding": "unbound",
       "name": "Thick Leather",
       "yield": 1,
       "skill": {"learn": 175, "orange": null, "yellow": 175, "green": 177, "grey": 180, "orangeSource": "classic"},
@@ -3792,6 +3999,7 @@
     {
       "spellId": 1255068,
       "itemId": 252527,
+      "binding": "bop",
       "name": "Warden's Leather Gloves",
       "yield": 1,
       "station": "Tanning Rack",
@@ -3813,6 +4021,7 @@
     {
       "spellId": 9201,
       "itemId": 7378,
+      "binding": "boe",
       "name": "Dusky Bracers",
       "yield": 1,
       "skill": {"learn": 180, "orange": null, "yellow": 180, "green": 190, "grey": 200, "orangeSource": "classic"},
@@ -3831,6 +4040,7 @@
     {
       "spellId": 10509,
       "itemId": 8187,
+      "binding": "boe",
       "name": "Turtle Scale Gloves",
       "yield": 1,
       "skill": {"learn": 180, "orange": 180, "yellow": 200, "green": 210, "grey": 220},
@@ -3859,6 +4069,7 @@
     {
       "spellId": 6661,
       "itemId": 5739,
+      "binding": "boe",
       "name": "Barbaric Harness",
       "yield": 1,
       "skill": {"learn": 185, "orange": null, "yellow": 185, "green": 195, "grey": 205, "orangeSource": "classic"},
@@ -3877,6 +4088,7 @@
     {
       "spellId": 1255073,
       "itemId": 252463,
+      "binding": "unbound",
       "name": "Forceful Thick Armor Kit",
       "yield": 1,
       "skill": {"learn": 185, "orange": 185, "yellow": 205, "green": 215, "grey": 225},
@@ -3894,6 +4106,7 @@
     {
       "spellId": 7156,
       "itemId": 5966,
+      "binding": "boe",
       "name": "Guardian Gloves",
       "yield": 1,
       "skill": {"learn": 185, "orange": null, "yellow": 185, "green": 195, "grey": 205, "orangeSource": "classic"},
@@ -3912,6 +4125,7 @@
     {
       "spellId": 1255074,
       "itemId": 252462,
+      "binding": "unbound",
       "name": "Mystic Thick Armor Kit",
       "yield": 1,
       "skill": {"learn": 185, "orange": 185, "yellow": 205, "green": 215, "grey": 225},
@@ -3930,6 +4144,7 @@
     {
       "spellId": 10516,
       "itemId": 8192,
+      "binding": "boe",
       "name": "Nightscape Shoulders",
       "yield": 1,
       "skill": {"learn": 185, "orange": 185, "yellow": 205, "green": 215, "grey": 225},
@@ -3947,6 +4162,7 @@
     {
       "spellId": 10520,
       "itemId": 8200,
+      "binding": "boe",
       "name": "Big Voodoo Robe",
       "yield": 1,
       "skill": {"learn": 190, "orange": 190, "yellow": 210, "green": 220, "grey": 230},
@@ -3973,6 +4189,7 @@
     {
       "spellId": 9206,
       "itemId": 7387,
+      "binding": "boe",
       "name": "Dusky Belt",
       "yield": 1,
       "skill": {"learn": 190, "orange": null, "yellow": 190, "green": 200, "grey": 210, "orangeSource": "classic"},
@@ -3992,6 +4209,7 @@
     {
       "spellId": 10531,
       "itemId": 8201,
+      "binding": "boe",
       "name": "Big Voodoo Mask",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -4017,6 +4235,7 @@
     {
       "spellId": 439110,
       "itemId": 217263,
+      "binding": null,
       "name": "Guardian Leather Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -4032,6 +4251,7 @@
     {
       "spellId": 10487,
       "itemId": 8173,
+      "binding": "unbound",
       "name": "Thick Armor Kit",
       "yield": 1,
       "skill": {"learn": 195, "orange": null, "yellow": 195, "green": 205, "grey": 215, "orangeSource": "classic"},
@@ -4048,6 +4268,7 @@
     {
       "spellId": 10533,
       "itemId": 8205,
+      "binding": "boe",
       "name": "Tough Scorpid Bracers",
       "yield": 1,
       "skill": {"learn": 195, "orange": 195, "yellow": 215, "green": 225, "grey": 235},
@@ -4062,6 +4283,7 @@
     {
       "spellId": 10525,
       "itemId": 8203,
+      "binding": "boe",
       "name": "Tough Scorpid Breastplate",
       "yield": 1,
       "skill": {"learn": 195, "orange": 195, "yellow": 215, "green": 225, "grey": 235},
@@ -4076,6 +4298,7 @@
     {
       "spellId": 10529,
       "itemId": 8210,
+      "binding": "boe",
       "name": "Wild Leather Shoulders",
       "yield": 1,
       "skill": {"learn": 195, "orange": 195, "yellow": 215, "green": 225, "grey": 235},
@@ -4093,6 +4316,7 @@
     {
       "spellId": 435819,
       "itemId": 213369,
+      "binding": "unbound",
       "name": "Faintly Glowing Leather",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -4107,6 +4331,7 @@
     {
       "spellId": 1255060,
       "itemId": 252533,
+      "binding": "bop",
       "name": "Mender's Leather Shoes",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4125,6 +4350,7 @@
     {
       "spellId": 1255008,
       "itemId": 252565,
+      "binding": "bop",
       "name": "Mender's Mail Boots",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4140,6 +4366,7 @@
     {
       "spellId": 10507,
       "itemId": 8176,
+      "binding": "boe",
       "name": "Nightscape Headband",
       "yield": 1,
       "skill": {"learn": 200, "orange": null, "yellow": 200, "green": 210, "grey": 220, "orangeSource": "classic"},
@@ -4156,6 +4383,7 @@
     {
       "spellId": 10499,
       "itemId": 8175,
+      "binding": "boe",
       "name": "Nightscape Tunic",
       "yield": 1,
       "skill": {"learn": 200, "orange": null, "yellow": 200, "green": 210, "grey": 220, "orangeSource": "classic"},
@@ -4173,6 +4401,7 @@
     {
       "spellId": 1255064,
       "itemId": 252465,
+      "binding": "bop",
       "name": "Prowler's Leather Shoes",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4188,6 +4417,7 @@
     {
       "spellId": 1255009,
       "itemId": 252564,
+      "binding": "bop",
       "name": "Skirmisher's Mail Boots",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4207,6 +4437,7 @@
     {
       "spellId": 1255063,
       "itemId": 252531,
+      "binding": "bop",
       "name": "Skulker's Leather Shoes",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4222,6 +4453,7 @@
     {
       "spellId": 1255061,
       "itemId": 252532,
+      "binding": "bop",
       "name": "Skycaller's Leather Shoes",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4238,6 +4470,7 @@
     {
       "spellId": 1255010,
       "itemId": 252563,
+      "binding": "bop",
       "name": "Skycaller's Mail Boots",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4254,6 +4487,7 @@
     {
       "spellId": 1255011,
       "itemId": 252562,
+      "binding": "bop",
       "name": "Stalker's Mail Boots",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4269,6 +4503,7 @@
     {
       "spellId": 10542,
       "itemId": 8204,
+      "binding": "boe",
       "name": "Tough Scorpid Gloves",
       "yield": 1,
       "skill": {"learn": 200, "orange": 200, "yellow": 220, "green": 230, "grey": 240},
@@ -4283,6 +4518,7 @@
     {
       "spellId": 1255062,
       "itemId": 252466,
+      "binding": "bop",
       "name": "Warden's Leather Shoes",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4298,6 +4534,7 @@
     {
       "spellId": 10546,
       "itemId": 8214,
+      "binding": "boe",
       "name": "Wild Leather Helmet",
       "yield": 1,
       "skill": {"learn": 200, "orange": 200, "yellow": 220, "green": 230, "grey": 240},
@@ -4315,6 +4552,7 @@
     {
       "spellId": 10544,
       "itemId": 8211,
+      "binding": "boe",
       "name": "Wild Leather Vest",
       "yield": 1,
       "skill": {"learn": 200, "orange": 200, "yellow": 220, "green": 230, "grey": 240},
@@ -4332,6 +4570,7 @@
     {
       "spellId": 10550,
       "itemId": 8195,
+      "binding": "boe",
       "name": "Nightscape Cloak",
       "yield": 1,
       "skill": {"learn": 205, "orange": 205, "yellow": 225, "green": 235, "grey": 245},
@@ -4345,6 +4584,7 @@
     {
       "spellId": 10518,
       "itemId": 8198,
+      "binding": "boe",
       "name": "Turtle Scale Bracers",
       "yield": 1,
       "skill": {"learn": 205, "orange": null, "yellow": 205, "green": 215, "grey": 225, "orangeSource": "classic"},
@@ -4363,6 +4603,7 @@
     {
       "spellId": 10511,
       "itemId": 8189,
+      "binding": "boe",
       "name": "Turtle Scale Breastplate",
       "yield": 1,
       "skill": {"learn": 205, "orange": null, "yellow": 205, "green": 215, "grey": 225, "orangeSource": "classic"},
@@ -4381,6 +4622,7 @@
     {
       "spellId": 439118,
       "itemId": 217270,
+      "binding": "boe",
       "name": "Turtle Scale Gloves",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -4396,6 +4638,7 @@
     {
       "spellId": 1255055,
       "itemId": 252538,
+      "binding": "bop",
       "name": "Mender's Leather Shoulders",
       "yield": 1,
       "skill": {"learn": 210, "orange": 210, "yellow": 230, "green": 240, "grey": 250},
@@ -4416,6 +4659,7 @@
     {
       "spellId": 1255004,
       "itemId": 252569,
+      "binding": "bop",
       "name": "Mender's Mail Shoulders",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4437,6 +4681,7 @@
     {
       "spellId": 1255059,
       "itemId": 252534,
+      "binding": "bop",
       "name": "Prowler's Leather Shoulders",
       "yield": 1,
       "skill": {"learn": 210, "orange": 210, "yellow": 230, "green": 240, "grey": 250},
@@ -4457,6 +4702,7 @@
     {
       "spellId": 1255005,
       "itemId": 252568,
+      "binding": "bop",
       "name": "Skirmisher's Mail Shoulders",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4478,6 +4724,7 @@
     {
       "spellId": 1255058,
       "itemId": 252535,
+      "binding": "bop",
       "name": "Skulker's Leather Shoulders",
       "yield": 1,
       "skill": {"learn": 210, "orange": 210, "yellow": 230, "green": 240, "grey": 250},
@@ -4498,6 +4745,7 @@
     {
       "spellId": 1255056,
       "itemId": 252537,
+      "binding": "bop",
       "name": "Skycaller's Leather Shoulders",
       "yield": 1,
       "skill": {"learn": 210, "orange": 210, "yellow": 230, "green": 240, "grey": 250},
@@ -4518,6 +4766,7 @@
     {
       "spellId": 1255006,
       "itemId": 252567,
+      "binding": "bop",
       "name": "Skycaller's Mail Shoulders",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4539,6 +4788,7 @@
     {
       "spellId": 1255007,
       "itemId": 252566,
+      "binding": "bop",
       "name": "Stalker's Mail Shoulders",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4560,6 +4810,7 @@
     {
       "spellId": 10554,
       "itemId": 8209,
+      "binding": "boe",
       "name": "Tough Scorpid Boots",
       "yield": 1,
       "skill": {"learn": 210, "orange": 210, "yellow": 230, "green": 240, "grey": 250},
@@ -4574,6 +4825,7 @@
     {
       "spellId": 1255057,
       "itemId": 252536,
+      "binding": "bop",
       "name": "Warden's Leather Shoulders",
       "yield": 1,
       "skill": {"learn": 210, "orange": 210, "yellow": 230, "green": 240, "grey": 250},
@@ -4594,6 +4846,7 @@
     {
       "spellId": 10562,
       "itemId": 8216,
+      "binding": "boe",
       "name": "Big Voodoo Cloak",
       "yield": 1,
       "skill": {"learn": 215, "orange": 215, "yellow": 235, "green": 245, "grey": 255},
@@ -4621,6 +4874,7 @@
     {
       "spellId": 10560,
       "itemId": 8202,
+      "binding": "boe",
       "name": "Big Voodoo Pants",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -4646,6 +4900,7 @@
     {
       "spellId": 439108,
       "itemId": 217261,
+      "binding": null,
       "name": "Big Voodoo Robe",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -4661,6 +4916,7 @@
     {
       "spellId": 10564,
       "itemId": 8207,
+      "binding": "boe",
       "name": "Tough Scorpid Shoulders",
       "yield": 1,
       "skill": {"learn": 215, "orange": 215, "yellow": 235, "green": 245, "grey": 255},
@@ -4679,6 +4935,7 @@
     {
       "spellId": 439105,
       "itemId": 217259,
+      "binding": null,
       "name": "Big Voodoo Mask",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -4694,6 +4951,7 @@
     {
       "spellId": 10619,
       "itemId": 8347,
+      "binding": "boe",
       "name": "Dragonscale Gauntlets",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4711,6 +4969,7 @@
     {
       "spellId": 14930,
       "itemId": 8217,
+      "binding": "unbound",
       "name": "Quickdraw Quiver",
       "yield": 1,
       "skill": {"learn": 220, "orange": null, "yellow": 220, "green": 230, "grey": 240, "orangeSource": "classic"},
@@ -4729,6 +4988,7 @@
     {
       "spellId": 14932,
       "itemId": 8218,
+      "binding": "unbound",
       "name": "Thick Leather Ammo Pouch",
       "yield": 1,
       "skill": {"learn": 220, "orange": null, "yellow": 220, "green": 230, "grey": 240, "orangeSource": "classic"},
@@ -4747,6 +5007,7 @@
     {
       "spellId": 10568,
       "itemId": 8206,
+      "binding": "boe",
       "name": "Tough Scorpid Leggings",
       "yield": 1,
       "skill": {"learn": 220, "orange": 220, "yellow": 240, "green": 250, "grey": 260},
@@ -4761,6 +5022,7 @@
     {
       "spellId": 10566,
       "itemId": 8213,
+      "binding": "boe",
       "name": "Wild Leather Boots",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -4779,6 +5041,7 @@
     {
       "spellId": 10621,
       "itemId": 8345,
+      "binding": "boe",
       "name": "Wolfshead Helm",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4797,6 +5060,7 @@
     {
       "spellId": 19047,
       "itemId": 15407,
+      "binding": "unbound",
       "name": "Cured Rugged Hide",
       "yield": 2,
       "station": "Tanning Rack",
@@ -4811,6 +5075,7 @@
     {
       "spellId": 10630,
       "itemId": 8346,
+      "binding": "boe",
       "name": "Gauntlets of the Sea",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4829,6 +5094,7 @@
     {
       "spellId": 435904,
       "itemId": 215166,
+      "binding": null,
       "name": "Glowing Gneuro-Linked Cowl",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -4845,6 +5111,7 @@
     {
       "spellId": 435949,
       "itemId": 215114,
+      "binding": null,
       "name": "Glowing Hyperconductive Scale Coif",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -4861,6 +5128,7 @@
     {
       "spellId": 435951,
       "itemId": 215381,
+      "binding": null,
       "name": "Gneuro-Conductive Channeler's Hood",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -4877,6 +5145,7 @@
     {
       "spellId": 1255050,
       "itemId": 252543,
+      "binding": "bop",
       "name": "Mender's Leather Bracers",
       "yield": 1,
       "skill": {"learn": 225, "orange": 225, "yellow": 245, "green": 255, "grey": 265},
@@ -4897,6 +5166,7 @@
     {
       "spellId": 1255000,
       "itemId": 252573,
+      "binding": "bop",
       "name": "Mender's Mail Bracers",
       "yield": 1,
       "station": "Tanning Rack",
@@ -4918,6 +5188,7 @@
     {
       "spellId": 10548,
       "itemId": 8193,
+      "binding": "boe",
       "name": "Nightscape Pants",
       "yield": 1,
       "skill": {"learn": 225, "orange": null, "yellow": 225, "green": 235, "grey": 245, "orangeSource": "classic"},
@@ -4931,6 +5202,7 @@
     {
       "spellId": 1255054,
       "itemId": 252539,
+      "binding": "bop",
       "name": "Prowler's Leather Bracers",
       "yield": 1,
       "skill": {"learn": 225, "orange": 225, "yellow": 245, "green": 255, "grey": 265},
@@ -4951,6 +5223,7 @@
     {
       "spellId": 435953,
       "itemId": 215382,
+      "binding": null,
       "name": "Rad-Resistant Scale Hood",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -4967,6 +5240,7 @@
     {
       "spellId": 19058,
       "itemId": 15564,
+      "binding": "unbound",
       "name": "Rugged Armor Kit",
       "yield": 1,
       "skill": {"learn": 225, "orange": null, "yellow": 225, "green": 235, "grey": 245, "orangeSource": "classic"},
@@ -4977,6 +5251,7 @@
     {
       "spellId": 22331,
       "itemId": 8170,
+      "binding": "unbound",
       "name": "Rugged Leather",
       "yield": 1,
       "skill": {"learn": 225, "orange": null, "yellow": 225, "green": 225, "grey": 225, "orangeSource": "classic"},
@@ -4987,6 +5262,7 @@
     {
       "spellId": 1255001,
       "itemId": 252572,
+      "binding": "bop",
       "name": "Skirmisher's Mail Bracers",
       "yield": 1,
       "station": "Tanning Rack",
@@ -5008,6 +5284,7 @@
     {
       "spellId": 1255053,
       "itemId": 252540,
+      "binding": "bop",
       "name": "Skulker's Leather Bracers",
       "yield": 1,
       "skill": {"learn": 225, "orange": 225, "yellow": 245, "green": 255, "grey": 265},
@@ -5028,6 +5305,7 @@
     {
       "spellId": 1255051,
       "itemId": 252542,
+      "binding": "bop",
       "name": "Skycaller's Leather Bracers",
       "yield": 1,
       "skill": {"learn": 225, "orange": 225, "yellow": 245, "green": 255, "grey": 265},
@@ -5048,6 +5326,7 @@
     {
       "spellId": 1255002,
       "itemId": 252571,
+      "binding": "bop",
       "name": "Skycaller's Mail Bracers",
       "yield": 1,
       "station": "Tanning Rack",
@@ -5069,6 +5348,7 @@
     {
       "spellId": 1255003,
       "itemId": 252570,
+      "binding": "bop",
       "name": "Stalker's Mail Bracers",
       "yield": 1,
       "station": "Tanning Rack",
@@ -5090,6 +5370,7 @@
     {
       "spellId": 10570,
       "itemId": 8208,
+      "binding": "boe",
       "name": "Tough Scorpid Helm",
       "yield": 1,
       "skill": {"learn": 225, "orange": 225, "yellow": 245, "green": 255, "grey": 265},
@@ -5108,6 +5389,7 @@
     {
       "spellId": 10552,
       "itemId": 8191,
+      "binding": "boe",
       "name": "Turtle Scale Helm",
       "yield": 1,
       "skill": {"learn": 225, "orange": null, "yellow": 225, "green": 235, "grey": 245, "orangeSource": "classic"},
@@ -5125,6 +5407,7 @@
     {
       "spellId": 1255052,
       "itemId": 252541,
+      "binding": "bop",
       "name": "Warden's Leather Bracers",
       "yield": 1,
       "skill": {"learn": 225, "orange": 225, "yellow": 245, "green": 255, "grey": 265},
@@ -5145,6 +5428,7 @@
     {
       "spellId": 10574,
       "itemId": 8215,
+      "binding": "boe",
       "name": "Wild Leather Cloak",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5163,6 +5447,7 @@
     {
       "spellId": 10572,
       "itemId": 8212,
+      "binding": "boe",
       "name": "Wild Leather Leggings",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5181,6 +5466,7 @@
     {
       "spellId": 1254998,
       "itemId": 252575,
+      "binding": "boe",
       "name": "Charged Scorpid Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5196,6 +5482,7 @@
     {
       "spellId": 10558,
       "itemId": 8197,
+      "binding": "boe",
       "name": "Nightscape Boots",
       "yield": 1,
       "skill": {"learn": 230, "orange": null, "yellow": 230, "green": 240, "grey": 250, "orangeSource": "classic"},
@@ -5212,6 +5499,7 @@
     {
       "spellId": 1254999,
       "itemId": 252574,
+      "binding": "boe",
       "name": "Supple Scorpid Boots",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5227,6 +5515,7 @@
     {
       "spellId": 10556,
       "itemId": 8185,
+      "binding": "boe",
       "name": "Turtle Scale Leggings",
       "yield": 1,
       "skill": {"learn": 230, "orange": null, "yellow": 230, "green": 240, "grey": 250, "orangeSource": "classic"},
@@ -5244,6 +5533,7 @@
     {
       "spellId": 1255048,
       "itemId": 252467,
+      "binding": "boe",
       "name": "Blue Suede Shoes",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5259,6 +5549,7 @@
     {
       "spellId": 1254965,
       "itemId": 252488,
+      "binding": "unbound",
       "name": "Forceful Rugged Armor Kit",
       "yield": 1,
       "skill": {"learn": 235, "orange": null, "yellow": 235, "green": 245, "grey": 255},
@@ -5278,6 +5569,7 @@
     {
       "spellId": 19050,
       "itemId": 15045,
+      "binding": "boe",
       "name": "Green Dragonscale Breastplate",
       "yield": 1,
       "station": "Tanning Rack",
@@ -5296,6 +5588,7 @@
     {
       "spellId": 1255043,
       "itemId": 252472,
+      "binding": "bop",
       "name": "Mender's Leather Boots",
       "yield": 1,
       "skill": {"learn": 235, "orange": 235, "yellow": 255, "green": 265, "grey": 275},
@@ -5316,6 +5609,7 @@
     {
       "spellId": 1254994,
       "itemId": 252579,
+      "binding": "bop",
       "name": "Mender's Mail Sabatons",
       "yield": 1,
       "skill": {"learn": 235, "orange": 235, "yellow": 255, "green": 265, "grey": 275},
@@ -5336,6 +5630,7 @@
     {
       "spellId": 1254966,
       "itemId": 252487,
+      "binding": "unbound",
       "name": "Mystic Rugged Armor Kit",
       "yield": 1,
       "skill": {"learn": 235, "orange": null, "yellow": 235, "green": 245, "grey": 255},
@@ -5355,6 +5650,7 @@
     {
       "spellId": 1255047,
       "itemId": 252468,
+      "binding": "bop",
       "name": "Prowler's Leather Boots",
       "yield": 1,
       "skill": {"learn": 235, "orange": 235, "yellow": 255, "green": 265, "grey": 275},
@@ -5375,6 +5671,7 @@
     {
       "spellId": 1254995,
       "itemId": 252578,
+      "binding": "bop",
       "name": "Skirmisher's Mail Sabatons",
       "yield": 1,
       "skill": {"learn": 235, "orange": 235, "yellow": 255, "green": 265, "grey": 275},
@@ -5395,6 +5692,7 @@
     {
       "spellId": 1255046,
       "itemId": 252469,
+      "binding": "bop",
       "name": "Skulker's Leather Boots",
       "yield": 1,
       "skill": {"learn": 235, "orange": 235, "yellow": 255, "green": 265, "grey": 275},
@@ -5415,6 +5713,7 @@
     {
       "spellId": 1255044,
       "itemId": 252471,
+      "binding": "bop",
       "name": "Skycaller's Leather Boots",
       "yield": 1,
       "skill": {"learn": 235, "orange": 235, "yellow": 255, "green": 265, "grey": 275},
@@ -5435,6 +5734,7 @@
     {
       "spellId": 1254996,
       "itemId": 252577,
+      "binding": "bop",
       "name": "Skycaller's Mail Sabatons",
       "yield": 1,
       "skill": {"learn": 235, "orange": 235, "yellow": 255, "green": 265, "grey": 275},
@@ -5455,6 +5755,7 @@
     {
       "spellId": 1254997,
       "itemId": 252576,
+      "binding": "bop",
       "name": "Stalker's Mail Sabatons",
       "yield": 1,
       "skill": {"learn": 235, "orange": 235, "yellow": 255, "green": 265, "grey": 275},
@@ -5475,6 +5776,7 @@
     {
       "spellId": 1255049,
       "itemId": 252544,
+      "binding": "boe",
       "name": "Tooled Leather Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5490,6 +5792,7 @@
     {
       "spellId": 1255045,
       "itemId": 252470,
+      "binding": "bop",
       "name": "Warden's Leather Boots",
       "yield": 1,
       "skill": {"learn": 235, "orange": 235, "yellow": 255, "green": 265, "grey": 275},
@@ -5510,6 +5813,7 @@
     {
       "spellId": 19049,
       "itemId": 15083,
+      "binding": "boe",
       "name": "Wicked Leather Gauntlets",
       "yield": 1,
       "skill": {"learn": 235, "orange": 235, "yellow": 255, "green": 265, "grey": 275},
@@ -5527,6 +5831,7 @@
     {
       "spellId": 1255041,
       "itemId": 252546,
+      "binding": "boe",
       "name": "Blue Suede Gloves",
       "yield": 1,
       "skill": {"learn": 240, "orange": 240, "yellow": 260, "green": 270, "grey": 280},
@@ -5541,6 +5846,7 @@
     {
       "spellId": 1254992,
       "itemId": 252581,
+      "binding": "boe",
       "name": "Charged Scorpid Helm",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5557,6 +5863,7 @@
     {
       "spellId": 19053,
       "itemId": 15074,
+      "binding": "boe",
       "name": "Chimeric Gloves",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5572,6 +5879,7 @@
     {
       "spellId": 19051,
       "itemId": 15076,
+      "binding": "boe",
       "name": "Heavy Scorpid Vest",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5590,6 +5898,7 @@
     {
       "spellId": 1254993,
       "itemId": 252580,
+      "binding": "boe",
       "name": "Supple Scorpid Leggings",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5605,6 +5914,7 @@
     {
       "spellId": 1255042,
       "itemId": 252545,
+      "binding": "boe",
       "name": "Tooled Leather Boots",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5620,6 +5930,7 @@
     {
       "spellId": 19052,
       "itemId": 15084,
+      "binding": "boe",
       "name": "Wicked Leather Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5635,6 +5946,7 @@
     {
       "spellId": 10647,
       "itemId": 8349,
+      "binding": "boe",
       "name": "Feathered Breastplate",
       "yield": 1,
       "station": "Tanning Rack",
@@ -5653,6 +5965,7 @@
     {
       "spellId": 19060,
       "itemId": 15046,
+      "binding": "boe",
       "name": "Green Dragonscale Leggings",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5668,6 +5981,7 @@
     {
       "spellId": 10632,
       "itemId": 8348,
+      "binding": "boe",
       "name": "Helm of Fire",
       "yield": 1,
       "station": "Tanning Rack",
@@ -5686,6 +6000,7 @@
     {
       "spellId": 19062,
       "itemId": 15067,
+      "binding": "boe",
       "name": "Ironfeather Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5702,6 +6017,7 @@
     {
       "spellId": 19061,
       "itemId": 15061,
+      "binding": "boe",
       "name": "Living Shoulders",
       "yield": 1,
       "skill": {"learn": 245, "orange": 245, "yellow": 265, "green": 275, "grey": 285},
@@ -5719,6 +6035,7 @@
     {
       "spellId": 19055,
       "itemId": 15091,
+      "binding": "boe",
       "name": "Runic Leather Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5743,6 +6060,7 @@
     {
       "spellId": 19059,
       "itemId": 15054,
+      "binding": "boe",
       "name": "Volcanic Leggings",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5759,6 +6077,7 @@
     {
       "spellId": 16650,
       "itemId": 12624,
+      "binding": "boe",
       "name": "Wildthorn Mail",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5786,6 +6105,7 @@
     {
       "spellId": 1254990,
       "itemId": 252583,
+      "binding": "boe",
       "name": "Charged Scorpid Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5802,6 +6122,7 @@
     {
       "spellId": 19063,
       "itemId": 15073,
+      "binding": "boe",
       "name": "Chimeric Boots",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 270, "green": 280, "grey": 290},
@@ -5826,6 +6147,7 @@
     {
       "spellId": 10650,
       "itemId": 8367,
+      "binding": "boe",
       "name": "Dragonscale Breastplate",
       "yield": 1,
       "station": "Tanning Rack",
@@ -5843,6 +6165,7 @@
     {
       "spellId": 19066,
       "itemId": 15071,
+      "binding": "boe",
       "name": "Frostsaber Boots",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5858,6 +6181,7 @@
     {
       "spellId": 19064,
       "itemId": 15078,
+      "binding": "boe",
       "name": "Heavy Scorpid Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5873,6 +6197,7 @@
     {
       "spellId": 1255036,
       "itemId": 252551,
+      "binding": "bop",
       "name": "Mender's Leather Gauntlets",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 255, "green": 255, "grey": 255},
@@ -5887,6 +6212,7 @@
     {
       "spellId": 1255031,
       "itemId": 252477,
+      "binding": "bop",
       "name": "Mender's Leather Waistguard",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 270, "green": 280, "grey": 290},
@@ -5907,6 +6233,7 @@
     {
       "spellId": 1254982,
       "itemId": 252591,
+      "binding": "bop",
       "name": "Mender's Mail Belt",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 270, "green": 280, "grey": 290},
@@ -5927,6 +6254,7 @@
     {
       "spellId": 1254986,
       "itemId": 252587,
+      "binding": "bop",
       "name": "Mender's Mail Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5942,6 +6270,7 @@
     {
       "spellId": 1255040,
       "itemId": 252547,
+      "binding": "bop",
       "name": "Prowler's Leather Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -5957,6 +6286,7 @@
     {
       "spellId": 1255035,
       "itemId": 252473,
+      "binding": "bop",
       "name": "Prowler's Leather Waistguard",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 270, "green": 280, "grey": 290},
@@ -5977,6 +6307,7 @@
     {
       "spellId": 19065,
       "itemId": 15092,
+      "binding": "boe",
       "name": "Runic Leather Bracers",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 270, "green": 280, "grey": 290},
@@ -5992,6 +6323,7 @@
     {
       "spellId": 1224628,
       "itemId": 238285,
+      "binding": null,
       "name": "Scarlet Huntsman's Clasp",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -6007,6 +6339,7 @@
     {
       "spellId": 1224626,
       "itemId": 238283,
+      "binding": null,
       "name": "Scarlet Huntsman's Wristguards",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -6019,6 +6352,7 @@
     {
       "spellId": 1224620,
       "itemId": 238277,
+      "binding": null,
       "name": "Scarlet Infiltrator's Belt",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -6034,6 +6368,7 @@
     {
       "spellId": 1224618,
       "itemId": 238275,
+      "binding": null,
       "name": "Scarlet Infiltrator's Bracers",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -6046,6 +6381,7 @@
     {
       "spellId": 1254983,
       "itemId": 252590,
+      "binding": "bop",
       "name": "Skirmisher's Mail Belt",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 270, "green": 280, "grey": 290},
@@ -6066,6 +6402,7 @@
     {
       "spellId": 1254987,
       "itemId": 252586,
+      "binding": "bop",
       "name": "Skirmisher's Mail Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6081,6 +6418,7 @@
     {
       "spellId": 1255039,
       "itemId": 252548,
+      "binding": "bop",
       "name": "Skulker's Leather Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6096,6 +6434,7 @@
     {
       "spellId": 1255034,
       "itemId": 252474,
+      "binding": "bop",
       "name": "Skulker's Leather Waistguard",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 270, "green": 280, "grey": 290},
@@ -6116,6 +6455,7 @@
     {
       "spellId": 1255037,
       "itemId": 252550,
+      "binding": "bop",
       "name": "Skycaller's Leather Gauntlets",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 255, "green": 255, "grey": 255},
@@ -6130,6 +6470,7 @@
     {
       "spellId": 1255032,
       "itemId": 252476,
+      "binding": "bop",
       "name": "Skycaller's Leather Waistguard",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 270, "green": 280, "grey": 290},
@@ -6150,6 +6491,7 @@
     {
       "spellId": 1254984,
       "itemId": 252589,
+      "binding": "bop",
       "name": "Skycaller's Mail Belt",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 270, "green": 280, "grey": 290},
@@ -6170,6 +6512,7 @@
     {
       "spellId": 1254988,
       "itemId": 252585,
+      "binding": "bop",
       "name": "Skycaller's Mail Gauntlets",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 255, "green": 255, "grey": 255},
@@ -6187,6 +6530,7 @@
     {
       "spellId": 1254985,
       "itemId": 252588,
+      "binding": "bop",
       "name": "Stalker's Mail Belt",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 270, "green": 280, "grey": 290},
@@ -6207,6 +6551,7 @@
     {
       "spellId": 1254989,
       "itemId": 252584,
+      "binding": "bop",
       "name": "Stalker's Mail Gauntlets",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 255, "green": 255, "grey": 255},
@@ -6221,6 +6566,7 @@
     {
       "spellId": 19067,
       "itemId": 15057,
+      "binding": "boe",
       "name": "Stormshroud Pants",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 270, "green": 280, "grey": 290},
@@ -6239,6 +6585,7 @@
     {
       "spellId": 1254991,
       "itemId": 252582,
+      "binding": "boe",
       "name": "Supple Scorpid Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6254,6 +6601,7 @@
     {
       "spellId": 19068,
       "itemId": 15064,
+      "binding": "boe",
       "name": "Warbear Harness",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6280,6 +6628,7 @@
     {
       "spellId": 1255038,
       "itemId": 252549,
+      "binding": "bop",
       "name": "Warden's Leather Gauntlets",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 255, "green": 255, "grey": 255},
@@ -6294,6 +6643,7 @@
     {
       "spellId": 1255033,
       "itemId": 252475,
+      "binding": "bop",
       "name": "Warden's Leather Waistguard",
       "yield": 1,
       "skill": {"learn": 250, "orange": 250, "yellow": 270, "green": 280, "grey": 290},
@@ -6314,6 +6664,7 @@
     {
       "spellId": 1255029,
       "itemId": 252478,
+      "binding": "boe",
       "name": "Blue Suede Pants",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6330,6 +6681,7 @@
     {
       "spellId": 1254980,
       "itemId": 252593,
+      "binding": "boe",
       "name": "Charged Scorpid Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6346,6 +6698,7 @@
     {
       "spellId": 1254977,
       "itemId": 252596,
+      "binding": "boe",
       "name": "Charged Scorpid Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6362,6 +6715,7 @@
     {
       "spellId": 19073,
       "itemId": 15072,
+      "binding": "boe",
       "name": "Chimeric Leggings",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6385,6 +6739,7 @@
     {
       "spellId": 19070,
       "itemId": 15082,
+      "binding": "boe",
       "name": "Heavy Scorpid Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6408,6 +6763,7 @@
     {
       "spellId": 1254979,
       "itemId": 252594,
+      "binding": "boe",
       "name": "Heavy Scorpid Boots",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6423,6 +6779,7 @@
     {
       "spellId": 19048,
       "itemId": 15077,
+      "binding": "boe",
       "name": "Heavy Scorpid Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6438,6 +6795,7 @@
     {
       "spellId": 19072,
       "itemId": 15093,
+      "binding": "boe",
       "name": "Runic Leather Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6462,6 +6820,7 @@
     {
       "spellId": 1254978,
       "itemId": 252595,
+      "binding": "boe",
       "name": "Supple Scorpid Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6477,6 +6836,7 @@
     {
       "spellId": 1254981,
       "itemId": 252592,
+      "binding": "boe",
       "name": "Supple Scorpid Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6492,6 +6852,7 @@
     {
       "spellId": 1255030,
       "itemId": 252552,
+      "binding": "boe",
       "name": "Tooled Leather Armor",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6509,6 +6870,7 @@
     {
       "spellId": 19071,
       "itemId": 15086,
+      "binding": "boe",
       "name": "Wicked Leather Headband",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6524,6 +6886,7 @@
     {
       "spellId": 19077,
       "itemId": 15048,
+      "binding": "boe",
       "name": "Blue Dragonscale Breastplate",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6540,6 +6903,7 @@
     {
       "spellId": 1255026,
       "itemId": 252554,
+      "binding": "boe",
       "name": "Blue Suede Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6555,6 +6919,7 @@
     {
       "spellId": 1254975,
       "itemId": 252598,
+      "binding": "boe",
       "name": "Charged Scorpid Vest",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6571,6 +6936,7 @@
     {
       "spellId": 19074,
       "itemId": 15069,
+      "binding": "boe",
       "name": "Frostsaber Leggings",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6586,6 +6952,7 @@
     {
       "spellId": 19075,
       "itemId": 15079,
+      "binding": "boe",
       "name": "Heavy Scorpid Leggings",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6601,6 +6968,7 @@
     {
       "spellId": 461720,
       "itemId": 227879,
+      "binding": null,
       "name": "Living Green Dragonscale Breastplate",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6616,6 +6984,7 @@
     {
       "spellId": 19078,
       "itemId": 15060,
+      "binding": "boe",
       "name": "Living Leggings",
       "yield": 1,
       "skill": {"learn": 260, "orange": 260, "yellow": 280, "green": 290, "grey": 300},
@@ -6631,6 +7000,7 @@
     {
       "spellId": 1224630,
       "itemId": 238287,
+      "binding": null,
       "name": "Scarlet Huntsman's Boots",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -6646,6 +7016,7 @@
     {
       "spellId": 1224627,
       "itemId": 238284,
+      "binding": null,
       "name": "Scarlet Huntsman's Handguards",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -6661,6 +7032,7 @@
     {
       "spellId": 1224619,
       "itemId": 238276,
+      "binding": null,
       "name": "Scarlet Infiltrator's Gloves",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -6676,6 +7048,7 @@
     {
       "spellId": 1224622,
       "itemId": 238279,
+      "binding": null,
       "name": "Scarlet Infiltrator's Shoes",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -6691,6 +7064,7 @@
     {
       "spellId": 19079,
       "itemId": 15056,
+      "binding": "boe",
       "name": "Stormshroud Armor",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6708,6 +7082,7 @@
     {
       "spellId": 1254976,
       "itemId": 252597,
+      "binding": "boe",
       "name": "Supple Scorpid Helm",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6723,6 +7098,7 @@
     {
       "spellId": 1255027,
       "itemId": 252553,
+      "binding": "boe",
       "name": "Tooled Leather Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6738,6 +7114,7 @@
     {
       "spellId": 19076,
       "itemId": 15053,
+      "binding": "boe",
       "name": "Volcanic Breastplate",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6754,6 +7131,7 @@
     {
       "spellId": 19080,
       "itemId": 15065,
+      "binding": "boe",
       "name": "Warbear Woolies",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6769,6 +7147,7 @@
     {
       "spellId": 1255028,
       "itemId": 252479,
+      "binding": "boe",
       "name": "Wicked Leather Boots",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6784,6 +7163,7 @@
     {
       "spellId": 19085,
       "itemId": 15050,
+      "binding": "boe",
       "name": "Black Dragonscale Breastplate",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6800,6 +7180,7 @@
     {
       "spellId": 1255024,
       "itemId": 252480,
+      "binding": "boe",
       "name": "Blue Suede Armor",
       "yield": 1,
       "skill": {"learn": 265, "orange": 265, "yellow": 285, "green": 295, "grey": 305},
@@ -6816,6 +7197,7 @@
     {
       "spellId": 19081,
       "itemId": 15075,
+      "binding": "boe",
       "name": "Chimeric Vest",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6839,6 +7221,7 @@
     {
       "spellId": 23705,
       "itemId": 19052,
+      "binding": "boe",
       "name": "Dawn Treaders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6860,6 +7243,7 @@
     {
       "spellId": 19084,
       "itemId": 15063,
+      "binding": "boe",
       "name": "Devilsaur Gauntlets",
       "yield": 1,
       "skill": {"learn": 265, "orange": 265, "yellow": 285, "green": 295, "grey": 305},
@@ -6874,6 +7258,7 @@
     {
       "spellId": 23628,
       "itemId": 19043,
+      "binding": "boe",
       "name": "Heavy Timbermaw Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6890,6 +7275,7 @@
     {
       "spellId": 19086,
       "itemId": 15066,
+      "binding": "boe",
       "name": "Ironfeather Breastplate",
       "yield": 1,
       "skill": {"learn": 265, "orange": 265, "yellow": 285, "green": 295, "grey": 305},
@@ -6906,6 +7292,7 @@
     {
       "spellId": 23703,
       "itemId": 19044,
+      "binding": "boe",
       "name": "Might of the Timbermaw",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6923,6 +7310,7 @@
     {
       "spellId": 19082,
       "itemId": 15094,
+      "binding": "boe",
       "name": "Runic Leather Headband",
       "yield": 1,
       "skill": {"learn": 265, "orange": 265, "yellow": 285, "green": 295, "grey": 305},
@@ -6937,6 +7325,7 @@
     {
       "spellId": 1255025,
       "itemId": 252555,
+      "binding": "boe",
       "name": "Tooled Leather Crown",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6952,6 +7341,7 @@
     {
       "spellId": 19083,
       "itemId": 15087,
+      "binding": "boe",
       "name": "Wicked Leather Pants",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -6976,6 +7366,7 @@
     {
       "spellId": 19094,
       "itemId": 15051,
+      "binding": "boe",
       "name": "Black Dragonscale Shoulders",
       "yield": 1,
       "station": "Sewing Machine",
@@ -6993,6 +7384,7 @@
     {
       "spellId": 19089,
       "itemId": 15049,
+      "binding": "boe",
       "name": "Blue Dragonscale Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7010,6 +7402,7 @@
     {
       "spellId": 1255021,
       "itemId": 252481,
+      "binding": "boe",
       "name": "Blue Suede Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7025,6 +7418,7 @@
     {
       "spellId": 1254973,
       "itemId": 252600,
+      "binding": "boe",
       "name": "Charged Scorpid Leggings",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7041,6 +7435,7 @@
     {
       "spellId": 19087,
       "itemId": 15070,
+      "binding": "boe",
       "name": "Frostsaber Gloves",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7056,6 +7451,7 @@
     {
       "spellId": 19088,
       "itemId": 15080,
+      "binding": "boe",
       "name": "Heavy Scorpid Helm",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7072,6 +7468,7 @@
     {
       "spellId": 461677,
       "itemId": 227878,
+      "binding": null,
       "name": "Living Green Dragonscale Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7087,6 +7484,7 @@
     {
       "spellId": 461649,
       "itemId": 227877,
+      "binding": null,
       "name": "Living Green Dragonscale Leggings",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7102,6 +7500,7 @@
     {
       "spellId": 461665,
       "itemId": 227867,
+      "binding": null,
       "name": "Masterwork Volcanic Leggings",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7118,6 +7517,7 @@
     {
       "spellId": 1224629,
       "itemId": 238286,
+      "binding": null,
       "name": "Scarlet Huntsman's Legguards",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -7134,6 +7534,7 @@
     {
       "spellId": 1224621,
       "itemId": 238278,
+      "binding": null,
       "name": "Scarlet Infiltrator's Trousers",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -7150,6 +7551,7 @@
     {
       "spellId": 16661,
       "itemId": 12632,
+      "binding": "boe",
       "name": "Storm Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7171,6 +7573,7 @@
     {
       "spellId": 19090,
       "itemId": 15058,
+      "binding": "boe",
       "name": "Stormshroud Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7188,6 +7591,7 @@
     {
       "spellId": 1254974,
       "itemId": 252599,
+      "binding": "boe",
       "name": "Supple Scorpid Vest",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7203,6 +7607,7 @@
     {
       "spellId": 1255022,
       "itemId": 252557,
+      "binding": "boe",
       "name": "Tooled Leather Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7218,6 +7623,7 @@
     {
       "spellId": 1255023,
       "itemId": 252556,
+      "binding": "boe",
       "name": "Wicked Leather Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7234,6 +7640,7 @@
     {
       "spellId": 1255019,
       "itemId": 252559,
+      "binding": "boe",
       "name": "Blue Suede Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7249,6 +7656,7 @@
     {
       "spellId": 24655,
       "itemId": 20296,
+      "binding": "boe",
       "name": "Green Dragonscale Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7265,6 +7673,7 @@
     {
       "spellId": 19091,
       "itemId": 15095,
+      "binding": "boe",
       "name": "Runic Leather Pants",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7289,6 +7698,7 @@
     {
       "spellId": 1226690,
       "itemId": 238926,
+      "binding": null,
       "name": "Scarlet Ammo Pouch",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7304,6 +7714,7 @@
     {
       "spellId": 1226689,
       "itemId": 238925,
+      "binding": null,
       "name": "Scarlet Quiver",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7319,6 +7730,7 @@
     {
       "spellId": 1255020,
       "itemId": 252558,
+      "binding": "boe",
       "name": "Tooled Leather Epaulets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7335,6 +7747,7 @@
     {
       "spellId": 19092,
       "itemId": 15088,
+      "binding": "boe",
       "name": "Wicked Leather Belt",
       "yield": 1,
       "skill": {"learn": 275, "orange": 275, "yellow": 295, "green": 305, "grey": 315},
@@ -7349,6 +7762,7 @@
     {
       "spellId": 1255017,
       "itemId": 252482,
+      "binding": "boe",
       "name": "Blue Suede Hat",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7364,6 +7778,7 @@
     {
       "spellId": 1254971,
       "itemId": 252602,
+      "binding": "boe",
       "name": "Charged Scorpid Boots",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7380,6 +7795,7 @@
     {
       "spellId": 19100,
       "itemId": 15081,
+      "binding": "boe",
       "name": "Heavy Scorpid Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7396,6 +7812,7 @@
     {
       "spellId": 1224625,
       "itemId": 238282,
+      "binding": null,
       "name": "Scarlet Huntsman's Chain",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -7412,6 +7829,7 @@
     {
       "spellId": 1224623,
       "itemId": 238280,
+      "binding": null,
       "name": "Scarlet Huntsman's Coif",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -7428,6 +7846,7 @@
     {
       "spellId": 1224624,
       "itemId": 238281,
+      "binding": null,
       "name": "Scarlet Huntsman's Pauldrons",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -7443,6 +7862,7 @@
     {
       "spellId": 1224615,
       "itemId": 238272,
+      "binding": null,
       "name": "Scarlet Infiltrator's Bandana",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -7459,6 +7879,7 @@
     {
       "spellId": 1224616,
       "itemId": 238273,
+      "binding": null,
       "name": "Scarlet Infiltrator's Shoulderpads",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -7474,6 +7895,7 @@
     {
       "spellId": 1224617,
       "itemId": 238274,
+      "binding": null,
       "name": "Scarlet Infiltrator's Vest",
       "yield": 1,
       "station": "Crusader's Tanning Rack",
@@ -7490,6 +7912,7 @@
     {
       "spellId": 1254972,
       "itemId": 252601,
+      "binding": "boe",
       "name": "Supple Scorpid Sabatons",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7505,6 +7928,7 @@
     {
       "spellId": 1255018,
       "itemId": 252560,
+      "binding": "boe",
       "name": "Tooled Leather Pants",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7521,6 +7945,7 @@
     {
       "spellId": 19101,
       "itemId": 15055,
+      "binding": "boe",
       "name": "Volcanic Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7537,6 +7962,7 @@
     {
       "spellId": 19098,
       "itemId": 15085,
+      "binding": "boe",
       "name": "Wicked Leather Armor",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7554,6 +7980,7 @@
     {
       "spellId": 1297126,
       "itemId": 275610,
+      "binding": "boe",
       "name": "Bileblister Claws",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7571,6 +7998,7 @@
     {
       "spellId": 1297135,
       "itemId": 275619,
+      "binding": "boe",
       "name": "Broodwatcher's Clenchers",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7588,6 +8016,7 @@
     {
       "spellId": 1297129,
       "itemId": 275613,
+      "binding": "boe",
       "name": "Hivethrasher's Claws",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7605,6 +8034,7 @@
     {
       "spellId": 461673,
       "itemId": 227875,
+      "binding": null,
       "name": "Honed Blue Dragonscale Breastplate",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7621,6 +8051,7 @@
     {
       "spellId": 461661,
       "itemId": 227868,
+      "binding": null,
       "name": "Masterwork Volcanic Breastplate",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7637,6 +8068,7 @@
     {
       "spellId": 19102,
       "itemId": 15090,
+      "binding": "boe",
       "name": "Runic Leather Armor",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7654,6 +8086,7 @@
     {
       "spellId": 19103,
       "itemId": 15096,
+      "binding": "boe",
       "name": "Runic Leather Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7671,6 +8104,7 @@
     {
       "spellId": 1297132,
       "itemId": 275616,
+      "binding": "boe",
       "name": "Scalegut Clenchers",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7688,6 +8122,7 @@
     {
       "spellId": 44953,
       "itemId": 34086,
+      "binding": "boe",
       "name": "Winter Boots",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7704,6 +8139,7 @@
     {
       "spellId": 1297127,
       "itemId": 275611,
+      "binding": "boe",
       "name": "Bileblister Girdle",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7721,6 +8157,7 @@
     {
       "spellId": 19107,
       "itemId": 15052,
+      "binding": "boe",
       "name": "Black Dragonscale Leggings",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7739,6 +8176,7 @@
     {
       "spellId": 1297136,
       "itemId": 275620,
+      "binding": "boe",
       "name": "Broodwatcher's Belt",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7756,6 +8194,7 @@
     {
       "spellId": 461722,
       "itemId": 227848,
+      "binding": null,
       "name": "Devilcore Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7772,6 +8211,7 @@
     {
       "spellId": 19097,
       "itemId": 15062,
+      "binding": "boe",
       "name": "Devilsaur Leggings",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7794,6 +8234,7 @@
     {
       "spellId": 19104,
       "itemId": 15068,
+      "binding": "boe",
       "name": "Frostsaber Tunic",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7810,6 +8251,7 @@
     {
       "spellId": 22921,
       "itemId": 18504,
+      "binding": "boe",
       "name": "Girdle of Insight",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7830,6 +8272,7 @@
     {
       "spellId": 461655,
       "itemId": 227851,
+      "binding": null,
       "name": "Hardened Black Dragonscale Breastplate",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7846,6 +8289,7 @@
     {
       "spellId": 16728,
       "itemId": 12636,
+      "binding": "boe",
       "name": "Helm of the Great Chief",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -7871,6 +8315,7 @@
     {
       "spellId": 1297130,
       "itemId": 275614,
+      "binding": "boe",
       "name": "Hivethrasher's Girdle",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7888,6 +8333,7 @@
     {
       "spellId": 19095,
       "itemId": 15059,
+      "binding": "boe",
       "name": "Living Breastplate",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7906,6 +8352,7 @@
     {
       "spellId": 22922,
       "itemId": 18506,
+      "binding": "boe",
       "name": "Mongoose Boots",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7924,6 +8371,7 @@
     {
       "spellId": 19054,
       "itemId": 15047,
+      "binding": "boe",
       "name": "Red Dragonscale Breastplate",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7940,6 +8388,7 @@
     {
       "spellId": 1297133,
       "itemId": 275617,
+      "binding": "boe",
       "name": "Scalegut Belt",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7957,6 +8406,7 @@
     {
       "spellId": 26279,
       "itemId": 21278,
+      "binding": "boe",
       "name": "Stormshroud Gloves",
       "yield": 1,
       "station": "Sewing Machine",
@@ -7978,6 +8428,7 @@
     {
       "spellId": 22923,
       "itemId": 18508,
+      "binding": "boe",
       "name": "Swift Flight Bracers",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8001,6 +8452,7 @@
     {
       "spellId": 1297128,
       "itemId": 275612,
+      "binding": "boe",
       "name": "Bileblister Boots",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8018,6 +8470,7 @@
     {
       "spellId": 1297137,
       "itemId": 275621,
+      "binding": "boe",
       "name": "Broodwatcher's Treaders",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8035,6 +8488,7 @@
     {
       "spellId": 20853,
       "itemId": 16982,
+      "binding": "boe",
       "name": "Corehound Boots",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8051,6 +8505,7 @@
     {
       "spellId": 23706,
       "itemId": 19058,
+      "binding": "boe",
       "name": "Golden Mantle of the Dawn",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8077,6 +8532,7 @@
     {
       "spellId": 23629,
       "itemId": 19048,
+      "binding": "boe",
       "name": "Heavy Timbermaw Boots",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8094,6 +8550,7 @@
     {
       "spellId": 1297131,
       "itemId": 275615,
+      "binding": "boe",
       "name": "Hivethrasher's Boots",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8111,6 +8568,7 @@
     {
       "spellId": 461645,
       "itemId": 227873,
+      "binding": null,
       "name": "Honed Blue Dragonscale Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8128,6 +8586,7 @@
     {
       "spellId": 16746,
       "itemId": 12641,
+      "binding": "boe",
       "name": "Invulnerable Mail",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8151,6 +8610,7 @@
     {
       "spellId": 1297134,
       "itemId": 275618,
+      "binding": "boe",
       "name": "Scalegut Treaders",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8168,6 +8628,7 @@
     {
       "spellId": 23704,
       "itemId": 19049,
+      "binding": "boe",
       "name": "Timbermaw Brawlers",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8186,6 +8647,7 @@
     {
       "spellId": 20855,
       "itemId": 16984,
+      "binding": "boe",
       "name": "Black Dragonscale Boots",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8203,6 +8665,7 @@
     {
       "spellId": 1254968,
       "itemId": 252605,
+      "binding": "boe",
       "name": "Black Dragonscale Helm",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8223,6 +8686,7 @@
     {
       "spellId": 24124,
       "itemId": 19688,
+      "binding": "boe",
       "name": "Blood Tiger Breastplate",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8239,6 +8703,7 @@
     {
       "spellId": 24125,
       "itemId": 19689,
+      "binding": "boe",
       "name": "Blood Tiger Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8255,6 +8720,7 @@
     {
       "spellId": 1254969,
       "itemId": 252604,
+      "binding": "boe",
       "name": "Blue Dragonscale Helm",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8275,6 +8741,7 @@
     {
       "spellId": 24654,
       "itemId": 20295,
+      "binding": "boe",
       "name": "Blue Dragonscale Leggings",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8292,6 +8759,7 @@
     {
       "spellId": 461653,
       "itemId": 227869,
+      "binding": null,
       "name": "Brilliant Chromatic Cloak",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8310,6 +8778,7 @@
     {
       "spellId": 22926,
       "itemId": 18509,
+      "binding": "boe",
       "name": "Chromatic Cloak",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8329,6 +8798,7 @@
     {
       "spellId": 23708,
       "itemId": 19157,
+      "binding": "boe",
       "name": "Chromatic Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8347,6 +8817,7 @@
     {
       "spellId": 22727,
       "itemId": 18251,
+      "binding": "unbound",
       "name": "Core Armor Kit",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8369,6 +8840,7 @@
     {
       "spellId": 23709,
       "itemId": 19162,
+      "binding": "boe",
       "name": "Corehound Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8386,6 +8858,7 @@
     {
       "spellId": 1255015,
       "itemId": 252483,
+      "binding": "boe",
       "name": "Dawn Armor",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8406,6 +8879,7 @@
     {
       "spellId": 461724,
       "itemId": 227847,
+      "binding": null,
       "name": "Devilcore Leggings",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8423,6 +8897,7 @@
     {
       "spellId": 1306528,
       "itemId": 279254,
+      "binding": "boe",
       "name": "Elderwild Pants",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8439,6 +8914,7 @@
     {
       "spellId": 1306526,
       "itemId": 279252,
+      "binding": "boe",
       "name": "Elderwild Waistcord",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8455,6 +8931,7 @@
     {
       "spellId": 1306529,
       "itemId": 279255,
+      "binding": "boe",
       "name": "Eternity Pauldrons",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8471,6 +8948,7 @@
     {
       "spellId": 461754,
       "itemId": 227882,
+      "binding": null,
       "name": "Girdle of Arcane Insight",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8487,6 +8965,7 @@
     {
       "spellId": 1292968,
       "itemId": 273931,
+      "binding": "boe",
       "name": "Grimstitch Boots",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8504,6 +8983,7 @@
     {
       "spellId": 1292966,
       "itemId": 273929,
+      "binding": "boe",
       "name": "Grimstitch Gloves",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8521,6 +9001,7 @@
     {
       "spellId": 1292965,
       "itemId": 273928,
+      "binding": "boe",
       "name": "Grimstitch Pants",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8538,6 +9019,7 @@
     {
       "spellId": 1292967,
       "itemId": 273930,
+      "binding": "boe",
       "name": "Grimstitch Spaulders",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8555,6 +9037,7 @@
     {
       "spellId": 1292932,
       "itemId": 273895,
+      "binding": "boe",
       "name": "Grovekeeper Boots",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8572,6 +9055,7 @@
     {
       "spellId": 1292934,
       "itemId": 273897,
+      "binding": "boe",
       "name": "Grovekeeper Gauntlets",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8589,6 +9073,7 @@
     {
       "spellId": 1292921,
       "itemId": 273885,
+      "binding": "boe",
       "name": "Grovekeeper Grips",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8606,6 +9091,7 @@
     {
       "spellId": 1292930,
       "itemId": 273893,
+      "binding": "boe",
       "name": "Grovekeeper Handguards",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8623,6 +9109,7 @@
     {
       "spellId": 1292925,
       "itemId": 273888,
+      "binding": "boe",
       "name": "Grovekeeper Kilt",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8640,6 +9127,7 @@
     {
       "spellId": 1292933,
       "itemId": 273896,
+      "binding": "boe",
       "name": "Grovekeeper Leggings",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8657,6 +9145,7 @@
     {
       "spellId": 1292929,
       "itemId": 273892,
+      "binding": "boe",
       "name": "Grovekeeper Legguards",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8674,6 +9163,7 @@
     {
       "spellId": 1292927,
       "itemId": 273890,
+      "binding": "boe",
       "name": "Grovekeeper Mantle",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8691,6 +9181,7 @@
     {
       "spellId": 1292926,
       "itemId": 273889,
+      "binding": "boe",
       "name": "Grovekeeper Mitts",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8708,6 +9199,7 @@
     {
       "spellId": 1292931,
       "itemId": 273894,
+      "binding": "boe",
       "name": "Grovekeeper Pauldrons",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8725,6 +9217,7 @@
     {
       "spellId": 1292928,
       "itemId": 273891,
+      "binding": "boe",
       "name": "Grovekeeper Sandals",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8742,6 +9235,7 @@
     {
       "spellId": 1292923,
       "itemId": 273886,
+      "binding": "boe",
       "name": "Grovekeeper Shoulderpads",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8759,6 +9253,7 @@
     {
       "spellId": 1292935,
       "itemId": 273898,
+      "binding": "boe",
       "name": "Grovekeeper Spaulders",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8776,6 +9271,7 @@
     {
       "spellId": 1292924,
       "itemId": 273887,
+      "binding": "boe",
       "name": "Grovekeeper Stompers",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8793,6 +9289,7 @@
     {
       "spellId": 1292936,
       "itemId": 273899,
+      "binding": "boe",
       "name": "Grovekeeper Treads",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8810,6 +9307,7 @@
     {
       "spellId": 1292920,
       "itemId": 273884,
+      "binding": "boe",
       "name": "Grovekeeper Trousers",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8827,6 +9325,7 @@
     {
       "spellId": 461657,
       "itemId": 227852,
+      "binding": null,
       "name": "Hardened Black Dragonscale Leggings",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8844,6 +9343,7 @@
     {
       "spellId": 461659,
       "itemId": 227853,
+      "binding": null,
       "name": "Hardened Black Dragonscale Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8861,6 +9361,7 @@
     {
       "spellId": 22927,
       "itemId": 18510,
+      "binding": "boe",
       "name": "Hide of the Wild",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8883,6 +9384,7 @@
     {
       "spellId": 1255012,
       "itemId": 252486,
+      "binding": "boe",
       "name": "Ironfeather Leggings",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8903,6 +9405,7 @@
     {
       "spellId": 23707,
       "itemId": 19149,
+      "binding": "boe",
       "name": "Lava Belt",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8919,6 +9422,7 @@
     {
       "spellId": 1255016,
       "itemId": 252561,
+      "binding": "boe",
       "name": "Living Crown",
       "yield": 1,
       "station": "Sewing Machine",
@@ -8939,6 +9443,7 @@
     {
       "spellId": 461690,
       "itemId": 227854,
+      "binding": null,
       "name": "Mastercrafted Shifting Cloak",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8957,6 +9462,7 @@
     {
       "spellId": 461663,
       "itemId": 227866,
+      "binding": null,
       "name": "Masterwork Volcanic Shoulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8973,6 +9479,7 @@
     {
       "spellId": 23710,
       "itemId": 19163,
+      "binding": "boe",
       "name": "Molten Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -8990,6 +9497,7 @@
     {
       "spellId": 20854,
       "itemId": 16983,
+      "binding": "boe",
       "name": "Molten Helm",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9006,6 +9514,7 @@
     {
       "spellId": 1306531,
       "itemId": 279257,
+      "binding": "boe",
       "name": "Mourning Handguards",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9022,6 +9531,7 @@
     {
       "spellId": 1306527,
       "itemId": 279253,
+      "binding": "boe",
       "name": "Outlaw's Collar",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9038,6 +9548,7 @@
     {
       "spellId": 24123,
       "itemId": 19687,
+      "binding": "boe",
       "name": "Primal Batskin Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9054,6 +9565,7 @@
     {
       "spellId": 24122,
       "itemId": 19686,
+      "binding": "boe",
       "name": "Primal Batskin Gloves",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9070,6 +9582,7 @@
     {
       "spellId": 24121,
       "itemId": 19685,
+      "binding": "boe",
       "name": "Primal Batskin Jerkin",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9086,6 +9599,7 @@
     {
       "spellId": 1254967,
       "itemId": 252606,
+      "binding": "boe",
       "name": "Pristine Scorpid Leggings",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9106,6 +9620,7 @@
     {
       "spellId": 1254970,
       "itemId": 252603,
+      "binding": "boe",
       "name": "Red Dragonscale Leggings",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9126,6 +9641,7 @@
     {
       "spellId": 1263079,
       "itemId": 279945,
+      "binding": "unbound",
       "name": "Sewing Machine",
       "yield": 1,
       "station": "Campfire",
@@ -9141,6 +9657,7 @@
     {
       "spellId": 22928,
       "itemId": 18511,
+      "binding": "boe",
       "name": "Shifting Cloak",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9160,6 +9677,7 @@
     {
       "spellId": 1299917,
       "itemId": 276541,
+      "binding": "boe",
       "name": "Spiritcaller Boots",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9177,6 +9695,7 @@
     {
       "spellId": 1292975,
       "itemId": 273938,
+      "binding": "boe",
       "name": "Spiritcaller Epaulets",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9194,6 +9713,7 @@
     {
       "spellId": 1292974,
       "itemId": 273937,
+      "binding": "boe",
       "name": "Spiritcaller Gauntlets",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9211,6 +9731,7 @@
     {
       "spellId": 1299915,
       "itemId": 276539,
+      "binding": "boe",
       "name": "Spiritcaller Gloves",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9228,6 +9749,7 @@
     {
       "spellId": 1292976,
       "itemId": 273939,
+      "binding": "boe",
       "name": "Spiritcaller Greaves",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9245,6 +9767,7 @@
     {
       "spellId": 1292970,
       "itemId": 273933,
+      "binding": "boe",
       "name": "Spiritcaller Grips",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9262,6 +9785,7 @@
     {
       "spellId": 1299914,
       "itemId": 276538,
+      "binding": "boe",
       "name": "Spiritcaller Kilt",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9279,6 +9803,7 @@
     {
       "spellId": 1292969,
       "itemId": 273932,
+      "binding": "boe",
       "name": "Spiritcaller Leggings",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9296,6 +9821,7 @@
     {
       "spellId": 1299916,
       "itemId": 276540,
+      "binding": "boe",
       "name": "Spiritcaller Mantle",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9313,6 +9839,7 @@
     {
       "spellId": 1292973,
       "itemId": 273936,
+      "binding": "boe",
       "name": "Spiritcaller Pants",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9330,6 +9857,7 @@
     {
       "spellId": 1292971,
       "itemId": 273934,
+      "binding": "boe",
       "name": "Spiritcaller Spaulders",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9347,6 +9875,7 @@
     {
       "spellId": 1292972,
       "itemId": 273935,
+      "binding": "boe",
       "name": "Spiritcaller Treads",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9364,6 +9893,7 @@
     {
       "spellId": 461706,
       "itemId": 227883,
+      "binding": null,
       "name": "Swift Flight Vambraces",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9381,6 +9911,7 @@
     {
       "spellId": 1255014,
       "itemId": 252484,
+      "binding": "boe",
       "name": "Timbermaw Tunic",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9401,6 +9932,7 @@
     {
       "spellId": 1306530,
       "itemId": 279256,
+      "binding": "boe",
       "name": "Tranquil Wristguards",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9417,6 +9949,7 @@
     {
       "spellId": 1255013,
       "itemId": 252485,
+      "binding": "boe",
       "name": "Warbear Helm",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9436,6 +9969,7 @@
     {
       "spellId": 1306532,
       "itemId": 279258,
+      "binding": "unbound",
       "name": "Wild Leather Armor Kit",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9451,6 +9985,7 @@
     {
       "spellId": 1292938,
       "itemId": 273901,
+      "binding": "boe",
       "name": "Wildstalker's Gauntlets",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9468,6 +10003,7 @@
     {
       "spellId": 1292940,
       "itemId": 273903,
+      "binding": "boe",
       "name": "Wildstalker's Greaves",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9485,6 +10021,7 @@
     {
       "spellId": 1292937,
       "itemId": 273900,
+      "binding": "boe",
       "name": "Wildstalker's Legguards",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9502,6 +10039,7 @@
     {
       "spellId": 1292939,
       "itemId": 273902,
+      "binding": "boe",
       "name": "Wildstalker's Spaulders",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9519,6 +10057,7 @@
     {
       "spellId": 28474,
       "itemId": 22761,
+      "binding": "boe",
       "name": "Bramblewood Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9534,6 +10073,7 @@
     {
       "spellId": 1213734,
       "itemId": 234306,
+      "binding": null,
       "name": "Bramblewood Belt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9550,6 +10090,7 @@
     {
       "spellId": 28473,
       "itemId": 22760,
+      "binding": "boe",
       "name": "Bramblewood Boots",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9566,6 +10107,7 @@
     {
       "spellId": 1213736,
       "itemId": 234308,
+      "binding": null,
       "name": "Bramblewood Boots",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9583,6 +10125,7 @@
     {
       "spellId": 28472,
       "itemId": 22759,
+      "binding": "boe",
       "name": "Bramblewood Helm",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9599,6 +10142,7 @@
     {
       "spellId": 1213738,
       "itemId": 234310,
+      "binding": null,
       "name": "Bramblewood Helm",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9615,6 +10159,7 @@
     {
       "spellId": 446186,
       "itemId": 220743,
+      "binding": null,
       "name": "Cacophonous Chain Shoulderguards",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9631,6 +10176,7 @@
     {
       "spellId": 24703,
       "itemId": 20380,
+      "binding": "boe",
       "name": "Dreamscale Breastplate",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9649,6 +10195,7 @@
     {
       "spellId": 1213751,
       "itemId": 234324,
+      "binding": null,
       "name": "Dreamscale Breastplate",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9666,6 +10213,7 @@
     {
       "spellId": 1214303,
       "itemId": 234482,
+      "binding": null,
       "name": "Dreamscale Kilt",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9683,6 +10231,7 @@
     {
       "spellId": 1213513,
       "itemId": 233802,
+      "binding": null,
       "name": "Glowing Chitin Armor Kit",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9698,6 +10247,7 @@
     {
       "spellId": 22815,
       "itemId": 18258,
+      "binding": "unbound",
       "name": "Gordok Ogre Suit",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9714,6 +10264,7 @@
     {
       "spellId": 439114,
       "itemId": 217267,
+      "binding": null,
       "name": "Guardian Pants",
       "yield": 1,
       "skill": {"learn": null, "orange": null, "yellow": 180, "green": 190, "grey": 200},
@@ -9732,6 +10283,7 @@
     {
       "spellId": 462227,
       "itemId": 227874,
+      "binding": null,
       "name": "Honed Blue Dragonscale Leggings",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9748,6 +10300,7 @@
     {
       "spellId": 28224,
       "itemId": 22665,
+      "binding": "boe",
       "name": "Icy Scale Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9765,6 +10318,7 @@
     {
       "spellId": 1223778,
       "itemId": 236698,
+      "binding": null,
       "name": "Icy Scale Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9782,6 +10336,7 @@
     {
       "spellId": 28222,
       "itemId": 22664,
+      "binding": "boe",
       "name": "Icy Scale Breastplate",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9799,6 +10354,7 @@
     {
       "spellId": 1223774,
       "itemId": 236699,
+      "binding": null,
       "name": "Icy Scale Breastplate",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9816,6 +10372,7 @@
     {
       "spellId": 28223,
       "itemId": 22666,
+      "binding": "boe",
       "name": "Icy Scale Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9833,6 +10390,7 @@
     {
       "spellId": 1223776,
       "itemId": 236700,
+      "binding": null,
       "name": "Icy Scale Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9850,6 +10408,7 @@
     {
       "spellId": 446192,
       "itemId": 220745,
+      "binding": null,
       "name": "Membrane of Dark Neurosis",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9866,6 +10425,7 @@
     {
       "spellId": 19106,
       "itemId": 15141,
+      "binding": "boe",
       "name": "Onyxia Scale Breastplate",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9883,6 +10443,7 @@
     {
       "spellId": 19093,
       "itemId": 15138,
+      "binding": "boe",
       "name": "Onyxia Scale Cloak",
       "yield": 1,
       "station": "Sewing Machine",
@@ -9899,6 +10460,7 @@
     {
       "spellId": 446183,
       "itemId": 220747,
+      "binding": null,
       "name": "Paranoia Mantle",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9915,6 +10477,7 @@
     {
       "spellId": 28221,
       "itemId": 22663,
+      "binding": "boe",
       "name": "Polar Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9932,6 +10495,7 @@
     {
       "spellId": 1223784,
       "itemId": 236701,
+      "binding": null,
       "name": "Polar Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9949,6 +10513,7 @@
     {
       "spellId": 28220,
       "itemId": 22662,
+      "binding": "boe",
       "name": "Polar Gloves",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9966,6 +10531,7 @@
     {
       "spellId": 1223782,
       "itemId": 236703,
+      "binding": null,
       "name": "Polar Gloves",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -9983,6 +10549,7 @@
     {
       "spellId": 28219,
       "itemId": 22661,
+      "binding": "boe",
       "name": "Polar Tunic",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10000,6 +10567,7 @@
     {
       "spellId": 1223780,
       "itemId": 236702,
+      "binding": null,
       "name": "Polar Tunic",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10017,6 +10585,7 @@
     {
       "spellId": 1213521,
       "itemId": 233808,
+      "binding": null,
       "name": "Razorbramble Cowl",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10033,6 +10602,7 @@
     {
       "spellId": 1213525,
       "itemId": 233813,
+      "binding": null,
       "name": "Razorbramble Leathers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10049,6 +10619,7 @@
     {
       "spellId": 1213523,
       "itemId": 233804,
+      "binding": null,
       "name": "Razorbramble Shoulderpads",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10065,6 +10636,7 @@
     {
       "spellId": 24849,
       "itemId": 20476,
+      "binding": "boe",
       "name": "Sandstalker Bracers",
       "yield": 1,
       "station": "Sewing Machine",
@@ -10081,6 +10653,7 @@
     {
       "spellId": 1213717,
       "itemId": 234294,
+      "binding": null,
       "name": "Sandstalker Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10097,6 +10670,7 @@
     {
       "spellId": 24851,
       "itemId": 20478,
+      "binding": "boe",
       "name": "Sandstalker Breastplate",
       "yield": 1,
       "station": "Sewing Machine",
@@ -10114,6 +10688,7 @@
     {
       "spellId": 1213723,
       "itemId": 234298,
+      "binding": null,
       "name": "Sandstalker Breastplate",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10131,6 +10706,7 @@
     {
       "spellId": 24850,
       "itemId": 20477,
+      "binding": "boe",
       "name": "Sandstalker Gauntlets",
       "yield": 1,
       "station": "Sewing Machine",
@@ -10148,6 +10724,7 @@
     {
       "spellId": 1213720,
       "itemId": 234296,
+      "binding": null,
       "name": "Sandstalker Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10165,6 +10742,7 @@
     {
       "spellId": 451706,
       "itemId": 220741,
+      "binding": null,
       "name": "Screaming Chain Pauldrons",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10181,6 +10759,7 @@
     {
       "spellId": 1213519,
       "itemId": 233803,
+      "binding": null,
       "name": "Sharpened Chitin Armor Kit",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10196,6 +10775,7 @@
     {
       "spellId": 446189,
       "itemId": 220748,
+      "binding": null,
       "name": "Shoulderpads of Obsession",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10212,6 +10792,7 @@
     {
       "spellId": 446185,
       "itemId": 220742,
+      "binding": null,
       "name": "Shrieking Spaulders",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10228,6 +10809,7 @@
     {
       "spellId": 24846,
       "itemId": 20481,
+      "binding": "boe",
       "name": "Spitfire Bracers",
       "yield": 1,
       "station": "Sewing Machine",
@@ -10244,6 +10826,7 @@
     {
       "spellId": 1213726,
       "itemId": 234300,
+      "binding": null,
       "name": "Spitfire Bracers",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10260,6 +10843,7 @@
     {
       "spellId": 24848,
       "itemId": 20479,
+      "binding": "boe",
       "name": "Spitfire Breastplate",
       "yield": 1,
       "station": "Sewing Machine",
@@ -10277,6 +10861,7 @@
     {
       "spellId": 1213731,
       "itemId": 234304,
+      "binding": null,
       "name": "Spitfire Breastplate",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10294,6 +10879,7 @@
     {
       "spellId": 24847,
       "itemId": 20480,
+      "binding": "boe",
       "name": "Spitfire Gauntlets",
       "yield": 1,
       "station": "Sewing Machine",
@@ -10311,6 +10897,7 @@
     {
       "spellId": 1213728,
       "itemId": 234302,
+      "binding": null,
       "name": "Spitfire Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10328,6 +10915,7 @@
     {
       "spellId": 461692,
       "itemId": 227855,
+      "binding": null,
       "name": "Synthetic Gordok Ogre Suit",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10344,6 +10932,7 @@
     {
       "spellId": 439116,
       "itemId": 217268,
+      "binding": null,
       "name": "Turtle Scale Breastplate",
       "yield": 1,
       "skill": {"learn": null, "orange": null, "yellow": 230, "green": 240, "grey": 250},
@@ -10362,6 +10951,7 @@
     {
       "spellId": 429869,
       "itemId": 211502,
+      "binding": null,
       "name": "Void-Touched Leather Gauntlets",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10376,6 +10966,7 @@
     {
       "spellId": 429354,
       "itemId": 211423,
+      "binding": null,
       "name": "Void-Touched Leather Gloves",
       "yield": 1,
       "availability": "Forever availability unverified",
@@ -10390,6 +10981,7 @@
     {
       "spellId": 446190,
       "itemId": 220744,
+      "binding": null,
       "name": "Wailing Chain Mantle",
       "yield": 1,
       "availability": "Forever availability unverified",
