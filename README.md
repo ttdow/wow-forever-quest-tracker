@@ -12,6 +12,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Click **Zones**, **Dungeons**, or **Professions** to expand its full list. Zone and dungeon lists include completion counts. Names show suggested level ranges, including separate ranges for each Scarlet Monastery wing. Choosing a list collapses the navigation; the current selection stays visible. Click the same tab again or press Escape to collapse it.
 - Choose **Professions → Fishing** for a searchable table of fish, catch locations, water/catch types, minimum Fishing, and no-fail Fishing. Fish with recorded recipes link to Cooking.
 - Choose **Professions → Cooking** for 39 fish/shellfish recipe records with Cooking requirements, ingredient quantities, food effects, and learning references. Search or filter by your Cooking skill; ingredients with Fishing records link back to their catch locations. Unverified recipe availability is labeled.
+- Choose **Professions → Leatherworking** for 592 WoW Forever recipe records. Search by recipe, ingredient, or acquisition source, or filter by Leatherworking skill and learning method. Each row lists quantities per craft, skill color thresholds, and available acquisition details. [Leatherworking data notes](research/leatherworking/README.md)
 - Filter completed / not completed quests, or sort by level, name, or area.
 - In dungeon lists, switch between **Quests** and **Drops**. Each boss with recorded equipment has a card with an expandable loot table. Drops have item names, required levels, base stats/effects, and source evidence, with search, source filtering, and an optional Rogue filter.
 - In **Desolace**, **Feralas**, **Gnomeregan**, **Razorfen Kraul**, **Razorfen Downs**, **Scarlet Monastery Library**, **Scarlet Monastery Armory**, **Scarlet Monastery Cathedral**, **The City of Dalaran**, or **The Drowned City**, choose **Map** for researched location references. Pan, zoom, filter layers, search, and open markers for coordinates and available quest/drop links. Gnomeregan has separate map sections; Razorfen Kraul has bosses, chest positions, quest givers, and an optional Blueleaf Tuber layer. Dalaran has six community boss-guide markers in City and one approximate player-reported Atrexis marker in Sewers. Drowned City uses Santiago Reyes' fan map with entrance and named-area references. Library has both bosses, four possible chest positions, Doan's Strongbox, the Mythology quest book, and its own entrance.
@@ -22,7 +23,7 @@ Progress saves automatically in this browser's local storage. It survives closin
 
 Use a separate repository for this tracker; existing Pages websites are unaffected.
 
-1. Upload `index.html`, `style.css`, `app.js`, `progress.js`, `drops.js`, `map.js`, `cooking.js`, `professions.js`, `.nojekyll`, and the `data/`, `assets/`, `vendor/`, and `research/` folders to the repository root.
+1. Upload `index.html`, `style.css`, `app.js`, `progress.js`, `drops.js`, `map.js`, `cooking.js`, `leatherworking.js`, `professions.js`, `.nojekyll`, and the `data/`, `assets/`, `vendor/`, and `research/` folders to the repository root.
 2. In **Settings → Pages**, choose **Deploy from a branch**.
 3. Select **main** and **/ (root)**, then save.
 4. Open the website URL shown by GitHub Pages after deployment completes.

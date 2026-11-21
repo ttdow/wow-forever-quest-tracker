@@ -8,13 +8,14 @@
   <title>Quest tracker · WoW Forever</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%232f6850'/%3E%3Cpath d='m11 21 6 6 12-14' fill='none' stroke='white' stroke-width='4'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="./vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="./style.css?v=58">
+  <link rel="stylesheet" href="./style.css?v=59">
   <script src="./progress.js?v=58" defer></script>
   <script src="./drops.js?v=58" defer></script>
   <script src="./vendor/leaflet/leaflet.js" defer></script>
   <script src="./map.js?v=58" defer></script>
   <script src="./cooking.js?v=58" defer></script>
-  <script src="./professions.js?v=58" defer></script>
+  <script src="./leatherworking.js?v=59" defer></script>
+  <script src="./professions.js?v=59" defer></script>
   <script src="./app.js?v=58" defer></script>
 </head>
 <body>
@@ -33,7 +34,11 @@
       </div>
       <div id="zones-list" class="zone-list" role="group" aria-label="Zones" hidden></div>
       <div id="dungeons-list" class="zone-list" role="group" aria-label="Dungeons" hidden></div>
-      <div id="professions-list" class="zone-list" role="group" aria-label="Professions" hidden><button type="button" data-profession="Fishing" aria-pressed="false">Fishing</button><button type="button" data-profession="Cooking" aria-pressed="false">Cooking</button></div>
+      <div id="professions-list" class="zone-list" role="group" aria-label="Professions" hidden>
+        <button type="button" data-profession="Fishing" aria-pressed="false">Fishing</button>
+        <button type="button" data-profession="Cooking" aria-pressed="false">Cooking</button>
+        <button type="button" data-profession="Leatherworking" aria-pressed="false">Leatherworking</button>
+      </div>
     </nav>
     <nav id="views" aria-label="Zone view" hidden>
       <button type="button" data-view="quests" aria-pressed="true">Quests</button>
@@ -127,6 +132,37 @@
       </div>
       <p id="cooking-empty" class="empty" role="status" hidden>No recipes match your search.</p>
       <footer class="panel-footer"><span id="cooking-result-count" aria-live="polite"></span><a href="./research/cooking/README.md" target="_blank" rel="noopener noreferrer">Sources</a></footer>
+    </section>
+    <section id="leatherworking-panel" class="quest-panel" aria-label="Leatherworking" hidden>
+      <div class="toolbar">
+        <div class="search-wrap"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="leatherworking-search" type="search" placeholder="Search recipes, materials, or sources…" aria-label="Search Leatherworking recipes, ingredients, or sources"></div>
+        <div class="filters">
+          <label class="sr-only" for="leatherworking-skill">Maximum Leatherworking skill required to learn</label>
+          <input id="leatherworking-skill" type="number" min="1" max="300" step="1" placeholder="Your Leatherworking skill">
+          <label class="sr-only" for="leatherworking-source">Acquisition method</label>
+          <select id="leatherworking-source">
+            <option value="">All sources</option>
+            <option value="automatic">Learned automatically</option>
+            <option value="trainer">Trainer</option>
+            <option value="vendor">Vendor</option>
+            <option value="drop">Drop</option>
+            <option value="quest">Quest</option>
+            <option value="unknown">Unknown method</option>
+          </select>
+        </div>
+      </div>
+      <p class="leatherworking-note">Colors show when skill-up chances change. A dash means the skill is unknown. Green is estimated from the yellow and grey thresholds. When thresholds coincide, the earlier color is skipped.</p>
+      <div id="leatherworking-error" class="error" role="alert" hidden><span>Could not load Leatherworking.</span><button id="leatherworking-retry" type="button">Retry</button></div>
+      <div class="table-wrap">
+        <table class="leatherworking-table">
+          <caption class="sr-only">Leatherworking recipes, ingredients, skill color thresholds, and acquisition sources</caption>
+          <colgroup><col class="col-leatherworking-name"><col class="col-leatherworking-ingredients"><col class="col-leatherworking-skill"><col></colgroup>
+          <thead><tr><th scope="col">Recipe</th><th scope="col">Ingredients per craft</th><th scope="col">Skill colors</th><th scope="col">Learn from</th></tr></thead>
+          <tbody id="leatherworking-rows"></tbody>
+        </table>
+      </div>
+      <p id="leatherworking-empty" class="empty" role="status" hidden>No recipes match your filters.</p>
+      <footer class="panel-footer"><span id="leatherworking-result-count" aria-live="polite"></span><a href="./research/leatherworking/README.md" target="_blank" rel="noopener noreferrer">Sources</a></footer>
     </section>
   </main>
 </body>

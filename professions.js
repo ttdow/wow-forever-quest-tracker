@@ -174,21 +174,29 @@ $('#fishing-views').addEventListener('click', event => {
   render();
 });
 $('#profession-retry').addEventListener('click', () => { state.data = null; show('Fishing'); });
+function hideFishing() {
+  state.active = false; ++state.version; panel.hidden = true;
+}
+
 globalThis.ProfessionGuide = Object.freeze({
-  hasProfession: profession => ['Fishing', 'Cooking'].includes(profession),
+  hasProfession: profession => ['Fishing', 'Cooking', 'Leatherworking'].includes(profession),
   show: profession => {
-    if (profession === 'Cooking') {
-      state.active = false; ++state.version; panel.hidden = true;
-      globalThis.CookingGuide.show();
-    } else {
-      globalThis.CookingGuide.hide(); show('Fishing');
-    }
+    if (profession !== 'Fishing') hideFishing();
+    if (profession !== 'Cooking') globalThis.CookingGuide.hide();
+    if (profession !== 'Leatherworking') globalThis.LeatherworkingGuide.hide();
+    if (profession === 'Fishing') show('Fishing');
+    if (profession === 'Cooking') globalThis.CookingGuide.show();
+    if (profession === 'Leatherworking') globalThis.LeatherworkingGuide.show();
   },
-  hide: () => { state.active = false; ++state.version; panel.hidden = true; globalThis.CookingGuide.hide(); },
+  hide: () => {
+    hideFishing();
+    globalThis.CookingGuide.hide();
+    globalThis.LeatherworkingGuide.hide();
+  },
   prepareFishingLinks: load,
   hasFishingItem: itemId => Boolean(state.data?.fish.some(fish => fish.itemId === itemId)),
   filterItem: (profession, itemId) => {
-    if (!/^\d+$/.test(itemId || '')) return;
+    if (profession === 'Leatherworking' || !/^\d+$/.test(itemId || '')) return;
     if (profession === 'Cooking') return globalThis.CookingGuide.filterItem(itemId);
     state.itemId = itemId; state.view = 'fish';
     $('#fishing-search').value = state.data?.fish.find(fish => fish.itemId === itemId)?.name || itemId;
