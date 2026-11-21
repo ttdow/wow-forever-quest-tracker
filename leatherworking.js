@@ -5,6 +5,9 @@ const panel = $('#leatherworking-panel');
 const search = $('#leatherworking-search');
 const collectionFilter = $('#leatherworking-collection');
 const skillFilter = $('#leatherworking-skill');
+const rangeMin = $('#leatherworking-range-min');
+const rangeMax = $('#leatherworking-range-max');
+const rangeError = $('#leatherworking-range-error');
 const sourceFilter = $('#leatherworking-source');
 const rows = $('#leatherworking-rows');
 const count = $('#leatherworking-result-count');
@@ -189,14 +192,28 @@ function render() {
   if (panel.hidden || !entries) return;
   const terms = search.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const collection = progressReady ? collectionFilter.value : '';
-  const maxSkill = skillFilter.valueAsNumber;
+  const currentSkill = skillFilter.valueAsNumber;
+  const minLearn = rangeMin.valueAsNumber;
+  const maxGrey = rangeMax.valueAsNumber;
+  let rangeMessage = '';
+  if (!rangeMin.validity.valid || !rangeMax.validity.valid) {
+    rangeMessage = 'Enter whole skill values of 1 or higher.';
+  } else if (minLearn > maxGrey) {
+    rangeMessage = 'Maximum grey skill must be at least the minimum learn skill.';
+  }
+  rangeError.textContent = rangeMessage;
+  rangeError.hidden = !rangeMessage;
   const source = sourceFilter.value;
   let matches = 0;
   let knownCount = 0;
   for (const entry of entries) {
     const { recipe, row, checkbox } = entry;
     const known = knownRecipes.has(checkbox.dataset.knownRecipe);
-    const show = (!Number.isFinite(maxSkill) || (recipe.skill.learn !== null && recipe.skill.learn <= maxSkill)) &&
+    const { learn, grey } = recipe.skill;
+    const show = !rangeMessage &&
+      (!Number.isFinite(currentSkill) || (learn !== null && learn <= currentSkill)) &&
+      (!Number.isFinite(minLearn) || (learn !== null && learn >= minLearn)) &&
+      (!Number.isFinite(maxGrey) || (grey !== null && grey <= maxGrey)) &&
       (!source || recipe.sources.some(location => location.type === source)) &&
       (!collection || known === (collection === 'known')) &&
       terms.every(term => entry.terms.includes(term));
@@ -208,7 +225,7 @@ function render() {
   }
   const totals = progressReady ? ` · ${knownCount} known · ${entries.length - knownCount} needed` : '';
   count.textContent = `${matches} of ${entries.length} recipes${totals}`;
-  empty.hidden = matches > 0;
+  empty.hidden = matches > 0 || Boolean(rangeMessage);
 }
 
 function readProgress() {
@@ -266,6 +283,8 @@ async function show() {
 search.addEventListener('input', render);
 collectionFilter.addEventListener('change', render);
 skillFilter.addEventListener('input', render);
+rangeMin.addEventListener('input', render);
+rangeMax.addEventListener('input', render);
 sourceFilter.addEventListener('change', render);
 $('#leatherworking-retry').addEventListener('click', show);
 window.addEventListener('storage', event => {

@@ -166,6 +166,10 @@ tr.completed { background: #1b261e; }
 .leatherworking-save-error { margin: 0; }
 #leatherworking-panel .filters { flex-wrap: wrap; }
 #leatherworking-skill { width: 175px; padding: 8px 10px; }
+.leatherworking-range { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; flex-basis: 100%; }
+.leatherworking-range label { display: inline-flex; align-items: center; gap: 8px; color: #a3b3a5; }
+.leatherworking-range input { width: 80px; padding: 8px 10px; }
+.leatherworking-range p { margin: 0; color: #ffb6a7; }
 .col-leatherworking-name { width: 22%; }
 .col-leatherworking-ingredients { width: 25%; }
 .col-leatherworking-skill { width: 215px; }
