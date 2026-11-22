@@ -4,24 +4,25 @@
   "map": {
     "appearance": "dungeon",
     "coordinateSystem": "guide-image",
-    "source": "https://www.method.gg/wow-forever/dungeons/alcaz-prison#dungeon-map"
+    "source": "https://sreyesmaps.com/mapas/la-prision-de-alcaz",
+    "attribution": "Santiago Reyes · Atlas de Azeroth: Forever"
   },
   "floors": [
     {
       "id": "main",
       "name": "Main Unit",
-      "image": "./assets/maps/alcaz-prison-main.webp",
-      "width": 1100,
-      "height": 580,
-      "note": "Route diagram. Keep The Questioner alive until you accept The Man in the Iron Chains from Mason Connery."
+      "image": "./assets/maps/alcaz-prison-main.jpg",
+      "width": 3000,
+      "height": 2000,
+      "note": "Keep The Questioner alive until you accept The Man in the Iron Chains from Mason Connery."
     },
     {
       "id": "security",
       "name": "Maximum Security Unit",
-      "image": "./assets/maps/alcaz-prison-maximum-security.webp",
-      "width": 1100,
-      "height": 580,
-      "note": "Route diagram. Find Mason Connery and the Perfumed Note near the final encounter."
+      "image": "./assets/maps/alcaz-prison-maximum-security.jpg",
+      "width": 3000,
+      "height": 2000,
+      "note": "Find Mason Connery and the Perfumed Note near the final encounter."
     }
   ],
   "points": [
@@ -30,11 +31,12 @@
       "name": "Prison entrance",
       "category": "entrance",
       "floor": "main",
-      "x": 49.0909,
-      "y": 75.8621,
+      "x": 35.84,
+      "y": 16.54,
       "verification": "community-reference",
       "approximate": true,
       "sources": [
+        "route-pins",
         "official",
         "guide",
         "wowhead"
@@ -46,11 +48,12 @@
       "name": "Tidemistress Ca'zass",
       "category": "boss",
       "floor": "main",
-      "x": 49.0909,
-      "y": 18.9655,
+      "x": 33.89,
+      "y": 68.81,
       "verification": "community-reference",
       "approximate": true,
       "sources": [
+        "route-pins",
         "guide",
         "route"
       ],
@@ -70,11 +73,12 @@
       "name": "Overseer Wrex",
       "category": "boss",
       "floor": "main",
-      "x": 19.0909,
-      "y": 48.2759,
+      "x": 65.04,
+      "y": 33.67,
       "verification": "community-reference",
       "approximate": true,
       "sources": [
+        "route-pins",
         "guide",
         "route"
       ],
@@ -90,11 +94,12 @@
       "name": "The Questioner",
       "category": "boss",
       "floor": "main",
-      "x": 78.3636,
-      "y": 48.2759,
+      "x": 24.61,
+      "y": 14.49,
       "verification": "community-reference",
       "approximate": true,
       "sources": [
+        "route-pins",
         "addon",
         "wowhead",
         "route"
@@ -115,11 +120,12 @@
       "name": "Stairs to Maximum Security",
       "category": "landmark",
       "floor": "main",
-      "x": 78.3636,
-      "y": 75.6897,
+      "x": 23.93,
+      "y": 39.53,
       "verification": "community-reference",
       "approximate": true,
       "sources": [
+        "route-pins",
         "guide",
         "route"
       ],
@@ -130,11 +136,12 @@
       "name": "From the Main Unit",
       "category": "landmark",
       "floor": "security",
-      "x": 16.8182,
-      "y": 58.9655,
+      "x": 25.88,
+      "y": 53.88,
       "verification": "community-reference",
       "approximate": true,
       "sources": [
+        "route-pins",
         "guide",
         "route"
       ],
@@ -148,11 +155,12 @@
       "name": "Katerina the Cleaner",
       "category": "boss",
       "floor": "security",
-      "x": 42.7273,
-      "y": 58.9655,
+      "x": 38.09,
+      "y": 53.44,
       "verification": "community-reference",
       "approximate": true,
       "sources": [
+        "route-pins",
         "guide",
         "route"
       ],
@@ -165,11 +173,12 @@
       "name": "Blazeroar",
       "category": "boss",
       "floor": "security",
-      "x": 67.7273,
-      "y": 58.9655,
+      "x": 65.82,
+      "y": 70.86,
       "verification": "community-reference",
       "approximate": true,
       "sources": [
+        "route-pins",
         "guide",
         "route"
       ],
@@ -189,16 +198,17 @@
       "name": "Perfumed Note",
       "category": "quest-object",
       "floor": "security",
-      "x": 89.5455,
-      "y": 58.9655,
+      "x": 65.82,
+      "y": 70.86,
       "verification": "community-reference",
       "approximate": true,
       "sources": [
+        "route-crosscheck",
         "addon",
         "route",
         "wowhead"
       ],
-      "note": "Read the note near the final encounter to finish The Secret Prison and pick up Somber News.",
+      "note": "Read the note near the final encounter to finish The Secret Prison and pick up Somber News. The pin marks the final encounter room.",
       "questIds": [
         "95262",
         "95263"
@@ -212,16 +222,17 @@
       "name": "Mason Connery",
       "category": "quest-giver",
       "floor": "security",
-      "x": 67.7273,
-      "y": 25.3448,
+      "x": 65.82,
+      "y": 60.5,
       "verification": "community-reference",
       "approximate": true,
       "sources": [
+        "route-crosscheck",
         "addon",
         "route",
         "westfall"
       ],
-      "note": "Pick up his quest after the final encounter while The Questioner is still alive. Once Mason is free, his next quest leads to Connery's Trunk upstairs in the Moonbrook inn in Westfall (43.4, 67.8).",
+      "note": "Pick up his quest after the final encounter while The Questioner is still alive. Once Mason is free, his next quest leads to Connery's Trunk upstairs in the Moonbrook inn in Westfall (43.4, 67.8). The pin marks the nearby cell area.",
       "questIds": [
         "96335",
         "96337"
@@ -265,6 +276,26 @@
     "westfall": {
       "name": "Connery’s Trunk and Document Box guide",
       "url": "https://warcraft.wiki.gg/wiki/Document_Box"
+    },
+    "artwork": {
+      "name": "Santiago Reyes’s Alcaz Prison gallery",
+      "url": "https://sreyesmaps.com/mapas/la-prision-de-alcaz"
+    },
+    "reddit-artwork": {
+      "name": "Santiago Reyes’s Reddit map release",
+      "url": "https://www.reddit.com/r/classicwow/comments/1xw4new/oc_i_have_created_all_the_dungeon_maps_for_phase/"
+    },
+    "artwork-use": {
+      "name": "Atlas de Azeroth: Forever artwork usage terms",
+      "url": "https://sreyesmaps.com/post/proyecto-atlas-de-azeroth-forever"
+    },
+    "route-pins": {
+      "name": "Forever Dungeon Routes map placement references",
+      "url": "https://github.com/Checkov23/ForeverDungeonRoutes/blob/84624cb26544e6cd2649c65f3ad55559dde45491/ForeverDungeonRoutes/Data/DefaultRoutes.lua"
+    },
+    "route-crosscheck": {
+      "name": "ForG Alcaz Prison room and boss references",
+      "url": "https://www.forg.gg/en/forever/dungeons/alcaz-prison"
     }
   }
 }

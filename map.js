@@ -34,8 +34,9 @@ const zones = {
   },
   "Zul'Farrak": { file: 'zulfarrak', guide: 'https://foreverdb.net/dungeon/209-zulfarrak', report: 'zulfarrak-map' },
   'Alcaz Prison': {
-    file: 'alcaz-prison', report: 'alcaz-prison', attribution: 'Route diagram',
-    guide: 'https://www.method.gg/wow-forever/dungeons/alcaz-prison#dungeon-map', provider: 'Method floor plans',
+    file: 'alcaz-prison', report: 'alcaz-prison', attribution: 'Map: Santiago Reyes',
+    guide: 'https://sreyesmaps.com/mapas/la-prision-de-alcaz', provider: 'Atlas de Azeroth: Forever',
+    terms: 'https://sreyesmaps.com/post/proyecto-atlas-de-azeroth-forever',
   },
   'Scarlet Monastery Library': { file: 'scarlet-monastery-library', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-library-map' },
   'Scarlet Monastery Armory': { file: 'scarlet-monastery-armory', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-armory-map' },
@@ -408,7 +409,6 @@ async function show(zone, context = {}) {
     $('#map-guide').textContent = reference.provider || 'ForeverDB';
     $('#map-data-license').href = reference.terms || './research/desolace-map/LICENSE-GPL-3.0.txt';
     $('#map-data-license').textContent = reference.terms ? 'Source terms' : 'Data license';
-    $('#map-data-license').parentElement.hidden = Boolean(attribution);
     $('#map-sources').href = `./research/${zones[zone].report}/README.md`;
     $('#map-floor-control').hidden = data.floors.length < 2;
     $('#map-floor').replaceChildren(...data.floors.map(floor => {

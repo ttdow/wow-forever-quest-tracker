@@ -1,6 +1,6 @@
 # Alcaz Prison
 
-Open **Dungeons → Alcaz Prison** for the quest checklist, five boss drop tables, and a two-section route map. The dungeon is on Alcaz Island in Dustwallow Marsh. Its suggested level range is 48–53, and the Forever client records it as instance 2994 and area 16620. [Blizzard dungeon overview](https://worldofwarcraft.blizzard.com/en-us/news/24301455/) · [Forever client encounters](https://wago.tools/db2/DungeonEncounter/csv?build=1.60.1.71037)
+Open **Dungeons → Alcaz Prison** for the quest checklist, five boss drop tables, and maps of both floors. The dungeon is on Alcaz Island in Dustwallow Marsh. Its suggested level range is 48–53, and the Forever client records it as instance 2994 and area 16620. [Blizzard dungeon overview](https://worldofwarcraft.blizzard.com/en-us/news/24301455/) · [Forever client encounters](https://wago.tools/db2/DungeonEncounter/csv?build=1.60.1.71037)
 
 ## Quest coverage
 
@@ -16,6 +16,8 @@ The tracker lists 15 encounter-specific equipment drops, three each from Tidemis
 
 ## Map
 
-The **Main Unit** has pins for the entrance, the naga and Defias wings, The Questioner's side room, and the stairs. The **Maximum Security Unit** leads from the stairs to Katerina and Blazeroar, with Mason and the Perfumed Note near the final encounter. These are original route diagrams based on the described layout. Pin positions are approximate diagram coordinates. The Map footer links Santiago Reyes's detailed floor plans on Method. [Route and room descriptions](https://mygameacademia.com/forever/dungeon/alcaz-prison) · [Method floor plans](https://www.method.gg/wow-forever/dungeons/alcaz-prison#dungeon-map)
+Both floor plans are by **Santiago Reyes** for **Atlas de Azeroth: Forever**. The Main Unit uses the full-resolution copy of the supplied Reddit image. The Maximum Security Unit uses the matching image from the artist's gallery. Each 3000 × 2000 JPEG is stored unmodified with its original watermarks and credits intact. [Reddit release](https://www.reddit.com/r/classicwow/comments/1xw4new/oc_i_have_created_all_the_dungeon_maps_for_phase/) · [Artist's gallery](https://sreyesmaps.com/mapas/la-prision-de-alcaz) · [Artwork usage terms](https://sreyesmaps.com/post/proyecto-atlas-de-azeroth-forever)
+
+The entrance, five bosses, and both stair endpoints align with the recorded route on the same artwork. The Perfumed Note shares the final encounter room pin with Blazeroar. Mason's pin marks the adjacent cell area. Marker coordinates are approximate percentages of the floor image. [Forever Dungeon Routes positions](https://github.com/Checkov23/ForeverDungeonRoutes/blob/84624cb26544e6cd2649c65f3ad55559dde45491/ForeverDungeonRoutes/Data/DefaultRoutes.lua) · [Room and quest references](https://mygameacademia.com/forever/dungeon/alcaz-prison)
 
 Random treasure chest locations inside Alcaz Prison remain unverified. The known quest chest for Mason's chain is in Westfall, and his pin gives the location. [Map data](../../data/maps/alcaz-prison.json) · [Source inventory](sources.json)

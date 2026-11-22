@@ -35,6 +35,26 @@
     "westfall": {
       "name": "Connery’s Trunk and Document Box guide",
       "url": "https://warcraft.wiki.gg/wiki/Document_Box"
+    },
+    "artwork": {
+      "name": "Santiago Reyes’s Alcaz Prison gallery",
+      "url": "https://sreyesmaps.com/mapas/la-prision-de-alcaz"
+    },
+    "reddit-artwork": {
+      "name": "Santiago Reyes’s Reddit map release",
+      "url": "https://www.reddit.com/r/classicwow/comments/1xw4new/oc_i_have_created_all_the_dungeon_maps_for_phase/"
+    },
+    "artwork-use": {
+      "name": "Atlas de Azeroth: Forever artwork usage terms",
+      "url": "https://sreyesmaps.com/post/proyecto-atlas-de-azeroth-forever"
+    },
+    "route-pins": {
+      "name": "Forever Dungeon Routes map placement references",
+      "url": "https://github.com/Checkov23/ForeverDungeonRoutes/blob/84624cb26544e6cd2649c65f3ad55559dde45491/ForeverDungeonRoutes/Data/DefaultRoutes.lua"
+    },
+    "route-crosscheck": {
+      "name": "ForG Alcaz Prison room and boss references",
+      "url": "https://www.forg.gg/en/forever/dungeons/alcaz-prison"
     }
   },
   "addonRevision": "f79803332c8e5eefc2b5840c4ce9efa17880a304",
@@ -134,19 +154,25 @@
   ],
   "maps": {
     "main": {
-      "sha256": "387a907c51cfee4a359a3e138e60115ff4bf3a68cbed103f90ed75174bd33bec",
-      "width": 1100,
-      "height": 580
+      "source": "https://i.redd.it/ulevw2acel1i1.jpeg",
+      "sha256": "f62aa53eb9c234debcef913d0ffb90bf96217e680f2348462bbe53233dc25408",
+      "width": 3000,
+      "height": 2000
     },
     "security": {
-      "sha256": "7b28be0511cf2e3dcb3e07c922cc7049d7b93ede4528de2dd18e5cfc293ec84e",
-      "width": 1100,
-      "height": 580
+      "source": "https://cdn.sanity.io/images/uomo7a9a/production/faddb79c0a9aeb39a738d1068ce8697d31a221fd-3000x2000.jpg",
+      "sha256": "93e387fe75d9204edb257056394e4ed11e92d5472844a1b6dd994b126c673a98",
+      "width": 3000,
+      "height": 2000
     }
   },
   "referenceFloorPlans": [
-    "https://www.method.gg/wow-forever/dungeons/alcaz-prison#dungeon-map",
-    "https://www.method.gg/images/uploads/guides/alcaz-l1-dungeon-map.jpg",
-    "https://www.method.gg/images/uploads/guides/alcaz-l2-dungeon-map.jpg"
-  ]
+    "https://sreyesmaps.com/mapas/la-prision-de-alcaz",
+    "https://www.reddit.com/r/classicwow/comments/1xw4new/oc_i_have_created_all_the_dungeon_maps_for_phase/"
+  ],
+  "pinPlacement": {
+    "routeRevision": "84624cb26544e6cd2649c65f3ad55559dde45491",
+    "routeSha256": "ca475c3279990c0d9d78a97a9a8e647daa9f669f78692a56a07db79e123c292e",
+    "method": "The entrance, boss and stair references use the route record for the corresponding Santiago Reyes artwork. The Perfumed Note shares the final encounter room pin. Mason Connery uses the approximate cell area."
+  }
 }
