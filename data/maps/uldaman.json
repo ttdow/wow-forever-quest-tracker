@@ -1,0 +1,1869 @@
+{
+  "zone": "Uldaman",
+  "updated": "2026-11-21",
+  "map": {
+    "appearance": "dungeon",
+    "source": "https://foreverdb.net/dungeon/70-uldaman",
+    "attribution": "World of Warcraft © Blizzard Entertainment. Client maps via ForeverDB.",
+    "coordinateSystem": "guide-image"
+  },
+  "floors": [
+    {
+      "id": "main",
+      "name": "Dungeon interior",
+      "image": "./assets/maps/uldaman.webp",
+      "width": 1168,
+      "height": 1208,
+      "worldProjection": {
+        "originX": 208.31,
+        "originY": 490.33,
+        "pixelsPerYard": 2.0
+      },
+      "note": "Classic reference positions on the Forever client minimap. Chest spawn availability may differ in Forever. Choose Badlands approach for entrance-cave quests and Digmaster Shovelphlange."
+    },
+    {
+      "id": "approach",
+      "name": "Badlands approach",
+      "image": "./assets/maps/uldaman-badlands.webp",
+      "width": 1002,
+      "height": 668,
+      "worldBounds": [
+        -7547.9165039062,
+        -4566.6665039062,
+        -5889.5830078125,
+        -2079.1665039062
+      ],
+      "note": "Cave locations are projected onto the surface map. Near the front entrance, zoom in to separate the pins. The cave passages run beneath the terrain shown here."
+    }
+  ],
+  "points": [
+    {
+      "id": "arrival-286",
+      "name": "Front entrance arrival",
+      "category": "entrance",
+      "floor": "main",
+      "x": 76.0665,
+      "y": 72.379,
+      "world": {
+        "map": 70,
+        "x": -228.859,
+        "y": 46.1018,
+        "z": -46.0186
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "triggerId": 286,
+      "note": "Where the front portal places you inside the instance."
+    },
+    {
+      "id": "arrival-902",
+      "name": "Rear entrance arrival",
+      "category": "entrance",
+      "floor": "main",
+      "x": 18.4765,
+      "y": 69.745,
+      "world": {
+        "map": 70,
+        "x": -212.95,
+        "y": 382.427,
+        "z": -38.7486
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "triggerId": 902,
+      "note": "Arrival from the side portal in Badlands, near the Obsidian Sentinel."
+    },
+    {
+      "id": "npc-6910",
+      "name": "Revelosh",
+      "category": "boss",
+      "floor": "main",
+      "x": 56.3538,
+      "y": 71.8391,
+      "world": {
+        "map": 70,
+        "x": -225.598,
+        "y": 161.224,
+        "z": -44.5463
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "npcId": "6910",
+      "spawnGuid": 700124,
+      "drops": true,
+      "questIds": [
+        "2240"
+      ],
+      "note": "Loot the Shaft of Tsol for the Staff of Prehistoria. This is one of the nearby Classic encounter positions."
+    },
+    {
+      "id": "npc-6906",
+      "name": "Baelog and the Lost Dwarves",
+      "category": "quest-giver",
+      "floor": "main",
+      "x": 63.8945,
+      "y": 92.9333,
+      "world": {
+        "map": 70,
+        "x": -353.007,
+        "y": 117.186,
+        "z": -44.3684
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "npcId": "6906",
+      "spawnGuid": 700121,
+      "aliases": [
+        "Dig Two",
+        "Eric the Swift",
+        "Olaf"
+      ],
+      "questIds": [
+        "2398",
+        "2240"
+      ],
+      "note": "Find Baelog in Dig Two to turn in The Lost Dwarves and start The Hidden Chamber. The dwarves are friendly to Alliance players."
+    },
+    {
+      "id": "npc-7228",
+      "name": "Ironaya",
+      "category": "boss",
+      "floor": "main",
+      "x": 30.9402,
+      "y": 73.5071,
+      "world": {
+        "map": 70,
+        "x": -235.673,
+        "y": 309.639,
+        "z": -47.5976
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "npcId": "7228",
+      "drops": true,
+      "questIds": [
+        "2240"
+      ],
+      "note": "Ironaya spawns in the Map Chamber after the Staff of Prehistoria is used at the keystone."
+    },
+    {
+      "id": "npc-7023",
+      "name": "Obsidian Sentinel",
+      "category": "boss",
+      "floor": "main",
+      "x": 17.5236,
+      "y": 61.601,
+      "world": {
+        "map": 70,
+        "x": -163.76,
+        "y": 387.992,
+        "z": -36.3564
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "npcId": "7023",
+      "spawnGuid": 700168,
+      "drops": true,
+      "note": "In the passage by the rear entrance."
+    },
+    {
+      "id": "npc-7206",
+      "name": "Ancient Stone Keeper",
+      "category": "boss",
+      "floor": "main",
+      "x": 46.0748,
+      "y": 40.8508,
+      "world": {
+        "map": 70,
+        "x": -38.429,
+        "y": 221.253,
+        "z": -48.3663
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "npcId": "7206",
+      "spawnGuid": 700228,
+      "drops": true
+    },
+    {
+      "id": "npc-7291",
+      "name": "Galgann Firehammer",
+      "category": "boss",
+      "floor": "main",
+      "x": 12.949,
+      "y": 36.2072,
+      "world": {
+        "map": 70,
+        "x": -10.3813,
+        "y": 414.708,
+        "z": -46.8571
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "npcId": "7291",
+      "spawnGuid": 700231,
+      "drops": true
+    },
+    {
+      "id": "npc-4854",
+      "name": "Grimlok",
+      "category": "boss",
+      "floor": "main",
+      "x": 5.9985,
+      "y": 25.0994,
+      "world": {
+        "map": 70,
+        "x": 56.7096,
+        "y": 455.299,
+        "z": -40.9623
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "npcId": "4854",
+      "spawnGuid": 700076,
+      "drops": true,
+      "questIds": [
+        "2201"
+      ],
+      "note": "Drops the Shattered Necklace Sapphire for Find the Gems."
+    },
+    {
+      "id": "npc-2748",
+      "name": "Archaedas",
+      "category": "boss",
+      "floor": "main",
+      "x": 37.3322,
+      "y": 17.2139,
+      "world": {
+        "map": 70,
+        "x": 104.338,
+        "y": 272.31,
+        "z": -51.6959
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "npcId": "2748",
+      "spawnGuid": 700001,
+      "drops": true,
+      "aliases": [
+        "Khaz'goroth's Seat"
+      ],
+      "questIds": [
+        "2204",
+        "2278"
+      ],
+      "note": "Drops the Shattered Necklace Power Source. Defeat him to open the way to the treasure vault and its discs."
+    },
+    {
+      "id": "npc-6912",
+      "name": "Remains of a Paladin",
+      "category": "quest-giver",
+      "floor": "main",
+      "x": 54.9932,
+      "y": 63.628,
+      "world": {
+        "map": 70,
+        "x": -176.003,
+        "y": 169.17,
+        "z": -47.3276
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "npcId": "6912",
+      "spawnGuid": 700125,
+      "questIds": [
+        "2200",
+        "2201"
+      ],
+      "note": "Inspect the remains for Back to Uldaman and to start Find the Gems."
+    },
+    {
+      "id": "object-123329",
+      "name": "Baelog's Chest",
+      "category": "quest-chest",
+      "floor": "main",
+      "x": 64.6406,
+      "y": 93.4281,
+      "world": {
+        "map": 70,
+        "x": -355.996,
+        "y": 112.829,
+        "z": -43.2036
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "objectId": "123329",
+      "spawnGuid": 700158,
+      "questIds": [
+        "2240"
+      ],
+      "note": "Contains the Gni'kiv Medallion. Combine it with the Shaft of Tsol from Revelosh to make the Staff of Prehistoria."
+    },
+    {
+      "id": "object-123463",
+      "name": "Baelog's Journal",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 64.2938,
+      "y": 93.2662,
+      "world": {
+        "map": 70,
+        "x": -355.018,
+        "y": 114.854,
+        "z": -43.2878
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "objectId": "123463",
+      "spawnGuid": 700159,
+      "questIds": [
+        "2240"
+      ],
+      "note": "Read the journal in Dig Two for The Hidden Chamber."
+    },
+    {
+      "id": "object-124371",
+      "name": "Keystone",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 42.93,
+      "y": 73.344,
+      "world": {
+        "map": 70,
+        "x": -234.688,
+        "y": 239.619,
+        "z": -50.9083
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "objectId": "124371",
+      "spawnGuid": 700164,
+      "questIds": [
+        "2240"
+      ],
+      "note": "Use the Staff of Prehistoria here in the Map Chamber."
+    },
+    {
+      "id": "trigger-822",
+      "name": "Hidden Chamber exploration area",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 29.3156,
+      "y": 73.3036,
+      "world": {
+        "map": 70,
+        "x": -234.444,
+        "y": 319.127,
+        "z": -47.5885
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "forever-triggers",
+        "classic-db",
+        "fdb-instance"
+      ],
+      "triggerId": 822,
+      "approximate": true,
+      "questIds": [
+        "2240"
+      ],
+      "note": "The pin marks the center of the exploration trigger. Enter the chamber after the door opens."
+    },
+    {
+      "id": "object-125477",
+      "name": "Conspicuous Urn",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 69.8123,
+      "y": 92.5695,
+      "world": {
+        "map": 70,
+        "x": -350.81,
+        "y": 82.6264,
+        "z": -51.2318
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "objectId": "125477",
+      "spawnGuid": 700166,
+      "questIds": [
+        "2201"
+      ],
+      "note": "Contains the Shattered Necklace Topaz."
+    },
+    {
+      "id": "object-113757",
+      "name": "Shadowforge Cache",
+      "category": "quest-chest",
+      "floor": "main",
+      "x": 13.0921,
+      "y": 30.9807,
+      "world": {
+        "map": 70,
+        "x": 21.1868,
+        "y": 413.872,
+        "z": -45.0149
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "objectId": "113757",
+      "spawnGuid": 700157,
+      "questIds": [
+        "2201"
+      ],
+      "note": "Contains the Shattered Necklace Ruby."
+    },
+    {
+      "id": "object-142088",
+      "name": "Tablet of Will",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 11.6834,
+      "y": 34.8016,
+      "world": {
+        "map": 70,
+        "x": -1.8917,
+        "y": 422.099,
+        "z": -47.1127
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "objectId": "142088",
+      "spawnGuid": 700188,
+      "questIds": [
+        "1139"
+      ],
+      "note": "Pick up the tablet for The Lost Tablets of Will."
+    },
+    {
+      "id": "object-131474",
+      "name": "The Discs of Norgannon",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 32.8848,
+      "y": 7.696,
+      "world": {
+        "map": 70,
+        "x": 161.826,
+        "y": 298.283,
+        "z": -51.3698
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-instance",
+        "att"
+      ],
+      "objectId": "131474",
+      "spawnGuid": 700182,
+      "aliases": [
+        "Lore Keeper of Norgannon"
+      ],
+      "questIds": [
+        "2278",
+        "2279"
+      ],
+      "note": "Interact with the discs in the final vault after defeating Archaedas. Talk to the summoned Lore Keeper, then return to the discs."
+    },
+    {
+      "id": "chest-700183",
+      "name": "Large Mithril Bound Chest · site 1",
+      "category": "dungeon-chest",
+      "floor": "main",
+      "x": 49.412,
+      "y": 59.3503,
+      "world": {
+        "map": 70,
+        "x": -150.166,
+        "y": 201.764,
+        "z": -49.9121
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "objectId": "131978",
+      "spawnGuid": 700183,
+      "poolId": 45691,
+      "note": "Possible chest position. The two listed sites share one Classic spawn pool."
+    },
+    {
+      "id": "chest-700184",
+      "name": "Large Mithril Bound Chest · site 2",
+      "category": "dungeon-chest",
+      "floor": "main",
+      "x": 38.53,
+      "y": 46.6586,
+      "world": {
+        "map": 70,
+        "x": -73.5079,
+        "y": 265.315,
+        "z": -47.6291
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "objectId": "131978",
+      "spawnGuid": 700184,
+      "poolId": 45691,
+      "note": "Possible chest position. The two listed sites share one Classic spawn pool."
+    },
+    {
+      "id": "object-141979",
+      "name": "Ancient Treasure",
+      "category": "dungeon-chest",
+      "floor": "main",
+      "x": 34.4587,
+      "y": 9.0927,
+      "world": {
+        "map": 70,
+        "x": 153.39,
+        "y": 289.091,
+        "z": -52.2262
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "objectId": "141979",
+      "spawnGuid": 700187,
+      "note": "Fixed treasure chest in the final vault beyond Archaedas."
+    },
+    {
+      "id": "portal-286",
+      "name": "Front instance portal",
+      "category": "entrance",
+      "floor": "approach",
+      "x": 35.1945,
+      "y": 9.8983,
+      "world": {
+        "map": 0,
+        "x": -6053.73,
+        "y": -2954.6299,
+        "z": 213.686
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-triggers",
+        "fdb-badlands"
+      ],
+      "triggerId": 286,
+      "note": "Enter through the northern Uldaman excavation and follow the caves to the main portal."
+    },
+    {
+      "id": "portal-902",
+      "name": "Rear instance portal",
+      "category": "entrance",
+      "floor": "approach",
+      "x": 67.6592,
+      "y": 43.23,
+      "world": {
+        "map": 0,
+        "x": -6606.48,
+        "y": -3762.1899,
+        "z": 266.91
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-triggers",
+        "fdb-badlands"
+      ],
+      "triggerId": 902,
+      "note": "The side entrance in eastern Badlands leads to the passage by the Obsidian Sentinel."
+    },
+    {
+      "id": "npc-7057",
+      "name": "Digmaster Shovelphlange",
+      "category": "rare",
+      "floor": "approach",
+      "x": 34.5987,
+      "y": 23.1043,
+      "world": {
+        "map": 0,
+        "x": -6272.73,
+        "y": -2939.8101,
+        "z": 222.31
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "npcId": "7057",
+      "spawnGuid": 7862,
+      "drops": true,
+      "aliases": [
+        "Uldaman entrance caves"
+      ],
+      "note": "Rare spawn in the entrance caves before the instance portal."
+    },
+    {
+      "id": "npc-2909",
+      "name": "Hammertoe Grez",
+      "category": "quest-giver",
+      "floor": "approach",
+      "x": 37.9041,
+      "y": 10.6044,
+      "world": {
+        "map": 0,
+        "x": -6065.4399,
+        "y": -3022.03,
+        "z": 230.348
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "npcId": "2909",
+      "spawnGuid": 7723,
+      "aliases": [
+        "Uldaman entrance caves"
+      ],
+      "questIds": [
+        "721",
+        "722",
+        "723"
+      ],
+      "note": "Find him in the entrance caves to turn in A Sign of Hope and continue his quest chain."
+    },
+    {
+      "id": "npc-2932",
+      "name": "Magregan Deepshadow",
+      "category": "quest-object",
+      "floor": "approach",
+      "x": 39.1185,
+      "y": 19.6967,
+      "world": {
+        "map": 0,
+        "x": -6216.2202,
+        "y": -3052.24,
+        "z": 216.798
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "npcId": "2932",
+      "spawnGuid": 8194,
+      "moving": true,
+      "movementNote": "Patrols the entrance caves. The pin marks a Classic spawn reference.",
+      "questIds": [
+        "722"
+      ],
+      "note": "Drops Hammertoe's Amulet for Amulet of Secrets."
+    },
+    {
+      "id": "object-126260",
+      "name": "Ancient Chest · Sealed Hall",
+      "category": "quest-chest",
+      "floor": "approach",
+      "x": 39.3312,
+      "y": 18.8187,
+      "world": {
+        "map": 0,
+        "x": -6201.6602,
+        "y": -3057.53,
+        "z": 212.239
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "126260",
+      "spawnGuid": 10919,
+      "questIds": [
+        "709"
+      ],
+      "note": "Contains the Tablet of Ryun’eh for Solution to Doom. Look in the caves before the front portal."
+    },
+    {
+      "id": "object-124389",
+      "name": "Krom Stoutarm's Chest",
+      "category": "quest-chest",
+      "floor": "approach",
+      "x": 35.5551,
+      "y": 23.5065,
+      "world": {
+        "map": 0,
+        "x": -6279.3999,
+        "y": -2963.6001,
+        "z": 223.618
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "124389",
+      "spawnGuid": 11413,
+      "questIds": [
+        "1360"
+      ],
+      "note": "Find Krom Stoutarm’s Treasure in the North Common Hall before entering the instance."
+    },
+    {
+      "id": "npc-2910",
+      "name": "Prospector Ryedol",
+      "category": "quest-giver",
+      "floor": "approach",
+      "x": 53.4208,
+      "y": 43.3934,
+      "world": {
+        "map": 0,
+        "x": -6609.1899,
+        "y": -3408.01,
+        "z": 279.195
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "npcId": "2910",
+      "spawnGuid": 7161,
+      "questIds": [
+        "719",
+        "720",
+        "721",
+        "724"
+      ],
+      "note": "At the camp south of Hammertoe's Digsite."
+    },
+    {
+      "id": "object-2868",
+      "name": "Crumpled Map",
+      "category": "quest-object",
+      "floor": "approach",
+      "x": 53.0269,
+      "y": 33.9405,
+      "world": {
+        "map": 0,
+        "x": -6452.4302,
+        "y": -3398.21,
+        "z": 241.579
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2868",
+      "spawnGuid": 10750,
+      "questIds": [
+        "720"
+      ],
+      "note": "Starts A Sign of Hope at Hammertoe's Digsite."
+    },
+    {
+      "id": "npc-2739",
+      "name": "Shadowforge Tunneler",
+      "category": "quest-object",
+      "floor": "approach",
+      "x": 53.4281,
+      "y": 33.4382,
+      "world": {
+        "map": 0,
+        "x": -6444.1001,
+        "y": -3408.1899,
+        "z": 229.793
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "npcId": "2739",
+      "spawnGuid": 7075,
+      "questIds": [
+        "719"
+      ],
+      "note": "One recorded spot for the Shadowforge mobs that drop Ryedol's Lucky Pick at Hammertoe's Digsite."
+    },
+    {
+      "id": "npc-4846",
+      "name": "Shadowforge Digger",
+      "category": "quest-object",
+      "floor": "approach",
+      "x": 38.729,
+      "y": 16.9759,
+      "world": {
+        "map": 0,
+        "x": -6171.1001,
+        "y": -3042.55,
+        "z": 220.586
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "npcId": "4846",
+      "spawnGuid": 7084,
+      "questIds": [
+        "2418"
+      ],
+      "note": "One recorded spot for Shadowforge dwarves that drop both types of Power Stone in the entrance caves."
+    },
+    {
+      "id": "npc-2785",
+      "name": "Theldurin the Lost",
+      "category": "quest-giver",
+      "floor": "approach",
+      "x": 51.3867,
+      "y": 76.8746,
+      "world": {
+        "map": 0,
+        "x": -7164.4199,
+        "y": -3357.4099,
+        "z": 244.933
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "npcId": "2785",
+      "spawnGuid": 6857,
+      "questIds": [
+        "709"
+      ]
+    },
+    {
+      "id": "npc-2817",
+      "name": "Rigglefuzz",
+      "category": "quest-giver",
+      "floor": "approach",
+      "x": 42.3893,
+      "y": 52.9295,
+      "world": {
+        "map": 0,
+        "x": -6767.3301,
+        "y": -3133.6001,
+        "z": 240.675
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "npcId": "2817",
+      "spawnGuid": 6862,
+      "questIds": [
+        "2418"
+      ]
+    },
+    {
+      "id": "object-2875",
+      "name": "Battered Dwarven Skeleton",
+      "category": "quest-object",
+      "floor": "approach",
+      "x": 50.891,
+      "y": 62.4022,
+      "world": {
+        "map": 0,
+        "x": -6924.4199,
+        "y": -3345.0801,
+        "z": 243.462
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2875",
+      "spawnGuid": 10827,
+      "questIds": [
+        "738",
+        "739"
+      ],
+      "note": "Find Agmond's remains here. The skeleton starts Murdaloc."
+    },
+    {
+      "id": "npc-2945",
+      "name": "Murdaloc",
+      "category": "quest-object",
+      "floor": "approach",
+      "x": 49.6267,
+      "y": 66.3055,
+      "world": {
+        "map": 0,
+        "x": -6989.1499,
+        "y": -3313.6299,
+        "z": 244.636
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "npcId": "2945",
+      "spawnGuid": 7661,
+      "questIds": [
+        "739"
+      ],
+      "note": "Kill Murdaloc and nearby Stonevault Bonesnappers for the quest."
+    },
+    {
+      "id": "fungus-700167",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 47.2096,
+      "y": 68.2099,
+      "world": {
+        "map": 70,
+        "x": -203.678,
+        "y": 214.626,
+        "z": -46.4375
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 700167,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-700168",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 28.6932,
+      "y": 25.0088,
+      "world": {
+        "map": 70,
+        "x": 57.257,
+        "y": 322.762,
+        "z": -41.8984
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 700168,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-700169",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 43.4887,
+      "y": 34.2232,
+      "world": {
+        "map": 70,
+        "x": 1.6017,
+        "y": 236.356,
+        "z": -32.3796
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 700169,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-700170",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 26.1878,
+      "y": 50.2397,
+      "world": {
+        "map": 70,
+        "x": -95.1379,
+        "y": 337.393,
+        "z": -47.0908
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 700170,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-700171",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 44.4688,
+      "y": 53.0972,
+      "world": {
+        "map": 70,
+        "x": -112.397,
+        "y": 230.632,
+        "z": -52.1536
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 700171,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-700172",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 18.1301,
+      "y": 55.8646,
+      "world": {
+        "map": 70,
+        "x": -129.112,
+        "y": 384.45,
+        "z": -39.9942
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 700172,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-700173",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 66.7079,
+      "y": 93.8591,
+      "world": {
+        "map": 70,
+        "x": -358.599,
+        "y": 100.756,
+        "z": -53.1931
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 700173,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-700174",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 32.3034,
+      "y": 61.7467,
+      "world": {
+        "map": 70,
+        "x": -164.64,
+        "y": 301.678,
+        "z": -53.1614
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "classic-sql",
+        "fdb-instance"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 700174,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-11427",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 33.461,
+      "y": 13.8227,
+      "world": {
+        "map": 0,
+        "x": -6118.8101,
+        "y": -2911.51,
+        "z": 210.97
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 11427,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-11434",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 38.2237,
+      "y": 17.0296,
+      "world": {
+        "map": 0,
+        "x": -6171.9902,
+        "y": -3029.98,
+        "z": 222.44
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 11434,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-11436",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 34.0363,
+      "y": 24.4201,
+      "world": {
+        "map": 0,
+        "x": -6294.5498,
+        "y": -2925.8201,
+        "z": 232.211
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 11436,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-11457",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 40.6848,
+      "y": 10.5261,
+      "world": {
+        "map": 0,
+        "x": -6064.1401,
+        "y": -3091.2,
+        "z": 250.611
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 11457,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-11458",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 36.2019,
+      "y": 12.5027,
+      "world": {
+        "map": 0,
+        "x": -6096.9199,
+        "y": -2979.6899,
+        "z": 207.402
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 11458,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-11460",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 41.0064,
+      "y": 15.0052,
+      "world": {
+        "map": 0,
+        "x": -6138.4199,
+        "y": -3099.2,
+        "z": 223.775
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 11460,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-11461",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 37.5724,
+      "y": 15.2525,
+      "world": {
+        "map": 0,
+        "x": -6142.52,
+        "y": -3013.78,
+        "z": 220.446
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 11461,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "fungus-11518",
+      "name": "Magenta Cap Clusters",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 37.8024,
+      "y": 10.3861,
+      "world": {
+        "map": 0,
+        "x": -6061.8198,
+        "y": -3019.5,
+        "z": 230.494
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "aliases": [
+        "Magenta Fungus Cap"
+      ],
+      "objectIds": [
+        "126049",
+        "128293"
+      ],
+      "spawnGuid": 11518,
+      "questIds": [
+        "17"
+      ],
+      "note": "Collect Magenta Fungus Caps for Uldaman Reagent Run."
+    },
+    {
+      "id": "urn-11410",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 34.7177,
+      "y": 23.9449,
+      "world": {
+        "map": 0,
+        "x": -6286.6699,
+        "y": -2942.77,
+        "z": 222.23
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11410,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    },
+    {
+      "id": "urn-11411",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 34.9726,
+      "y": 22.0997,
+      "world": {
+        "map": 0,
+        "x": -6256.0698,
+        "y": -2949.1101,
+        "z": 222.229
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11411,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    },
+    {
+      "id": "urn-11412",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 39.7935,
+      "y": 19.6738,
+      "world": {
+        "map": 0,
+        "x": -6215.8398,
+        "y": -3069.03,
+        "z": 220.102
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11412,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    },
+    {
+      "id": "urn-11422",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 34.089,
+      "y": 18.5196,
+      "world": {
+        "map": 0,
+        "x": -6196.7002,
+        "y": -2927.1299,
+        "z": 214.346
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11422,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    },
+    {
+      "id": "urn-11423",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 34.1268,
+      "y": 21.5353,
+      "world": {
+        "map": 0,
+        "x": -6246.71,
+        "y": -2928.0701,
+        "z": 222.229
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11423,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    },
+    {
+      "id": "urn-11424",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 32.2249,
+      "y": 15.9544,
+      "world": {
+        "map": 0,
+        "x": -6154.1602,
+        "y": -2880.76,
+        "z": 211.567
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11424,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    },
+    {
+      "id": "urn-11425",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 33.1925,
+      "y": 13.798,
+      "world": {
+        "map": 0,
+        "x": -6118.3999,
+        "y": -2904.8301,
+        "z": 211.556
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11425,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    },
+    {
+      "id": "urn-11428",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 39.5712,
+      "y": 18.4672,
+      "world": {
+        "map": 0,
+        "x": -6195.8301,
+        "y": -3063.5,
+        "z": 215.167
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11428,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    },
+    {
+      "id": "urn-11429",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 35.5262,
+      "y": 16.3686,
+      "world": {
+        "map": 0,
+        "x": -6161.0298,
+        "y": -2962.8799,
+        "z": 210.048
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11429,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    },
+    {
+      "id": "urn-11432",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 35.8836,
+      "y": 11.6356,
+      "world": {
+        "map": 0,
+        "x": -6082.54,
+        "y": -2971.77,
+        "z": 209.072
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11432,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    },
+    {
+      "id": "urn-11433",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 40.9923,
+      "y": 16.0135,
+      "world": {
+        "map": 0,
+        "x": -6155.1401,
+        "y": -3098.8501,
+        "z": 223.09
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11433,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    },
+    {
+      "id": "urn-11455",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 37.9748,
+      "y": 13.9234,
+      "world": {
+        "map": 0,
+        "x": -6120.48,
+        "y": -3023.79,
+        "z": 220.767
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11455,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    },
+    {
+      "id": "urn-11456",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 40.6249,
+      "y": 12.0891,
+      "world": {
+        "map": 0,
+        "x": -6090.0601,
+        "y": -3089.71,
+        "z": 244.347
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11456,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    },
+    {
+      "id": "urn-11493",
+      "name": "Carved Stone Urn",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 42.8058,
+      "y": 9.9526,
+      "world": {
+        "map": 0,
+        "x": -6054.6299,
+        "y": -3143.96,
+        "z": 253.707
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-badlands"
+      ],
+      "objectId": "2743",
+      "spawnGuid": 11493,
+      "questIds": [
+        "704"
+      ],
+      "note": "Collect a Carved Stone Urn for Agmond's Fate."
+    }
+  ],
+  "sources": {
+    "fdb-instance": {
+      "name": "ForeverDB client minimap and projection",
+      "url": "https://foreverdb.net/data/dungeons/70.json"
+    },
+    "fdb-badlands": {
+      "name": "ForeverDB Badlands map and client zone bounds",
+      "url": "https://foreverdb.net/maps/1418"
+    },
+    "classic-sql": {
+      "name": "CMaNGOS Uldaman spawn and encounter script",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/070_uldaman.sql"
+    },
+    "classic-db": {
+      "name": "CMaNGOS Classic spawn and quest database",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "classic-triggers": {
+      "name": "Classic Era portal triggers",
+      "url": "https://wago.tools/db2/AreaTrigger/csv?build=1.15.9.70576"
+    },
+    "forever-triggers": {
+      "name": "Forever client area trigger table",
+      "url": "https://wago.tools/db2/AreaTrigger/csv?build=1.60.1.70959"
+    },
+    "att": {
+      "name": "All The Things Forever Uldaman quest and encounter data",
+      "url": "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+    }
+  }
+}

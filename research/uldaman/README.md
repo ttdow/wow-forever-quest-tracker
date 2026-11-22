@@ -1,6 +1,6 @@
 # Uldaman
 
-Researched November 16, 2026. Added under **Dungeons** with **36 Alliance/shared quest entries** and **24 unique boss equipment drops across eight cards**. **13 items** pass the Rogue equipment filter. Maintained data: [quests.json](../../data/quests.json) and [drops.json](../../data/drops.json). No map is added by this change.
+Researched November 16, 2026. Added under **Dungeons** with **36 Alliance/shared quest entries** and **24 unique boss equipment drops across eight cards**. **13 items** pass the Rogue equipment filter. Maintained data: [quests.json](../../data/quests.json) and [drops.json](../../data/drops.json). See also the [Uldaman map research](../uldaman-map/README.md).
 
 Sources include the [current quest index](https://foreverchanges.pro/quests/uldaman), individual current quest pages, [ForeverDB's dungeon data](https://foreverdb.net/data/dungeons/70.json) at build **1.60.1.70938**, Questie at revision `e1652ce62113c152da682baf2d6fb85f1396bcfb`, the [All The Things dungeon record](addon.lua) at revision `36684dda55e4aa297de3ea24475a77687b54c620`, current Wowhead Forever item tooltips, and the read-only CMaNGOS Classic snapshot released November 13, 2026. Public pages and player observations take precedence over older conflicting metadata; Classic references retain their provenance.
 

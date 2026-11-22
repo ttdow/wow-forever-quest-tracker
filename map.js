@@ -10,6 +10,7 @@ const categories = {
   'quest-giver': { label: 'Quest givers', symbol: '!', color: '#b7efb5' },
   rare: { label: 'Rares', symbol: '◆', color: '#d1afff' },
   'quest-object': { label: 'Quest objects', symbol: '?', color: '#e3e7df' },
+  'quest-material': { label: 'Quest materials', symbol: '+', color: '#b7d9ed' },
   'quest-chest': { label: 'Quest chests', symbol: '▣', color: '#f4d484' },
   'dungeon-chest': { label: 'Chest spawns', symbol: '▣', color: '#f4d484' },
   'supply-crate': { label: 'Supply crates', symbol: '▤', color: '#edbb78' },
@@ -24,6 +25,10 @@ const zones = {
   Gnomeregan: { file: 'gnomeregan', guide: 'https://foreverdb.net/dungeon/90-gnomeregan', report: 'gnomeregan-map' },
   'Razorfen Kraul': { file: 'razorfen-kraul', guide: 'https://foreverdb.net/dungeon/47-razorfen-kraul', report: 'razorfen-kraul-map', defaultHiddenLayers: ['quest-object'] },
   'Razorfen Downs': { file: 'razorfen-downs', guide: 'https://foreverdb.net/dungeon/129-razorfen-downs', report: 'razorfen-downs-map' },
+  Uldaman: {
+    file: 'uldaman', guide: 'https://foreverdb.net/dungeon/70-uldaman', report: 'uldaman-map', defaultHiddenLayers: ['quest-material'],
+    sections: { approach: { guide: 'https://foreverdb.net/maps/1418' } },
+  },
   'Scarlet Monastery Library': { file: 'scarlet-monastery-library', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-library-map' },
   'Scarlet Monastery Armory': { file: 'scarlet-monastery-armory', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-armory-map' },
   'Scarlet Monastery Cathedral': { file: 'scarlet-monastery-cathedral', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-cathedral' },

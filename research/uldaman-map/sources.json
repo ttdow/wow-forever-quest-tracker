@@ -1,0 +1,94 @@
+{
+  "checked": "2026-11-21",
+  "dungeonId": 70,
+  "build": "1.60.1.70959",
+  "sources": {
+    "fdb-instance": {
+      "name": "ForeverDB client minimap and projection",
+      "url": "https://foreverdb.net/data/dungeons/70.json"
+    },
+    "fdb-badlands": {
+      "name": "ForeverDB Badlands map and client zone bounds",
+      "url": "https://foreverdb.net/maps/1418"
+    },
+    "classic-sql": {
+      "name": "CMaNGOS Uldaman spawn and encounter script",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/070_uldaman.sql"
+    },
+    "classic-db": {
+      "name": "CMaNGOS Classic spawn and quest database",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "classic-triggers": {
+      "name": "Classic Era portal triggers",
+      "url": "https://wago.tools/db2/AreaTrigger/csv?build=1.15.9.70576"
+    },
+    "forever-triggers": {
+      "name": "Forever client area trigger table",
+      "url": "https://wago.tools/db2/AreaTrigger/csv?build=1.60.1.70959"
+    },
+    "att": {
+      "name": "All The Things Forever Uldaman quest and encounter data",
+      "url": "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"
+    }
+  },
+  "images": [
+    {
+      "floor": "main",
+      "url": "https://foreverdb.net/img/dungeonmaps/70/1.webp",
+      "width": 1168,
+      "height": 1208,
+      "sha256": "ff494c641f120c31fe695631df9d1911efe8ec1f79978f59f0399789e3db232d"
+    },
+    {
+      "floor": "approach",
+      "url": "https://foreverdb.net/img/maps/game/1418.webp",
+      "width": 1002,
+      "height": 668,
+      "sha256": "55e348b4eb12d0f2309d6c9e9c01a260c4dacafc8fe60896a6d15a714a32ffc6"
+    }
+  ],
+  "classicSnapshot": {
+    "release": "2026-11-21T13:50:52Z",
+    "archiveSha256": "c33cde85e096c141af05fe95517128e92eeeaf3b473a480ff658623333053eef",
+    "databaseSha256": "bfcfa547ca56e0dcaa52b7d7e483f43f22badf5805cab2c1568e902aa5eabc57",
+    "sqlRevision": "09000ea8d7333856727204e4e2d30f772149b7a8",
+    "sqlSha256": "34a86225d915c297994d809aa23141d4ee2cd07271d657766d6f878ac0bd837f"
+  },
+  "chestPool": {
+    "id": 45691,
+    "maxActiveInClassic": 1,
+    "spawnGuids": [
+      700183,
+      700184
+    ],
+    "objectId": 131978
+  },
+  "reveloshSpawnGroup": {
+    "id": 700002,
+    "referenceGuid": 700124,
+    "otherGuids": [
+      700025,
+      700044
+    ]
+  },
+  "counts": {
+    "main": {
+      "entrance": 2,
+      "boss": 7,
+      "quest-giver": 2,
+      "quest-chest": 2,
+      "quest-object": 6,
+      "dungeon-chest": 3,
+      "quest-material": 8
+    },
+    "approach": {
+      "entrance": 2,
+      "rare": 1,
+      "quest-giver": 4,
+      "quest-object": 6,
+      "quest-chest": 2,
+      "quest-material": 22
+    }
+  }
+}
