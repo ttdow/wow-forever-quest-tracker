@@ -10,6 +10,7 @@ const categories = {
   'quest-giver': { label: 'Quest givers', symbol: '!', color: '#b7efb5' },
   rare: { label: 'Rares', symbol: '◆', color: '#d1afff' },
   'quest-object': { label: 'Quest objects', symbol: '?', color: '#e3e7df' },
+  'quest-jewel': { label: 'Quest jewels', symbol: '◈', color: '#91d9dc' },
   'quest-material': { label: 'Quest materials', symbol: '+', color: '#b7d9ed' },
   'quest-chest': { label: 'Quest chests', symbol: '▣', color: '#f4d484' },
   'dungeon-chest': { label: 'Chest spawns', symbol: '▣', color: '#f4d484' },
@@ -98,7 +99,8 @@ function buildLayers() {
   const fragment = document.createDocumentFragment();
   fragment.append(element('legend', 'Map layers and legend', 'sr-only'));
   for (const [key, category] of Object.entries(categories)) {
-    const total = state.data.points.filter(point => point.floor === state.floor.id && point.category === key).length;
+    const total = state.data.points.filter(point => point.floor === state.floor.id &&
+      (point.category === key || point.secondaryLayer === key)).length;
     if (!total) continue;
     const label = element('label');
     const check = element('input');
@@ -286,14 +288,17 @@ function render() {
   const selected = preferences().enabled;
   const matching = state.data.points.filter(point => {
     const extra = point.coverage === 'additional-snapshot-only';
-    if (!selected.has(point.category) || (evidence === 'shared' && extra) || (evidence === 'additional' && !extra) ||
+    if ((!selected.has(point.category) && !selected.has(point.secondaryLayer)) ||
+      (evidence === 'shared' && extra) || (evidence === 'additional' && !extra) ||
       (evidence === 'forever' && point.verification !== 'forever-confirmed')) return false;
     const questIDs = Array.isArray(point.questIds) ? point.questIds : [];
     const names = questIDs.map(id => state.context.quests?.find(quest => quest.id === id)?.name || '');
     const variants = Array.isArray(point.variants) ? point.variants.map(variant => variant?.name || '') : [];
     const objectIDs = Array.isArray(point.objectIds) ? point.objectIds : [];
     const aliases = Array.isArray(point.aliases) ? point.aliases.filter(alias => typeof alias === 'string') : [];
-    return !query || [point.name, ...aliases, point.npcId, point.objectId, ...objectIDs, ...variants, point.x, point.y, `${point.x}, ${point.y}`, ...questIDs, ...names].join(' ').toLocaleLowerCase().includes(query);
+    const secondaryLabel = categories[point.secondaryLayer]?.label;
+    return !query || [point.name, secondaryLabel, ...aliases, point.npcId, point.objectId, ...objectIDs, ...variants,
+      point.x, point.y, `${point.x}, ${point.y}`, ...questIDs, ...names].join(' ').toLocaleLowerCase().includes(query);
   });
   const points = matching.filter(point => point.floor === state.floor.id);
   state.map.closePopup();
@@ -307,7 +312,7 @@ function render() {
   }
   for (const group of groups.values()) {
     const point = group[0];
-    const category = categories[point.category];
+    const category = categories[selected.has(point.secondaryLayer) ? point.secondaryLayer : point.category];
     const extra = group.every(point => point.coverage === 'additional-snapshot-only');
     const icon = L.divIcon({
       className: 'map-marker', iconSize: [24, 24], iconAnchor: [12, 12], popupAnchor: [0, -12],

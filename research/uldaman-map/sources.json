@@ -27,6 +27,10 @@
       "name": "Forever client area trigger table",
       "url": "https://wago.tools/db2/AreaTrigger/csv?build=1.60.1.70959"
     },
+    "forever-jewels": {
+      "name": "Wowhead Forever Uldaman guide and jewel sources",
+      "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards"
+    },
     "att": {
       "name": "All The Things Forever Uldaman quest and encounter data",
       "url": "https://github.com/ATTWoWAddon/AllTheThings/blob/36684dda55e4aa297de3ea24475a77687b54c620/.contrib/.db/forever/dungeons%20%26%20raids/uldaman.lua"

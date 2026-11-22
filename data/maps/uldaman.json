@@ -19,7 +19,7 @@
         "originY": 490.33,
         "pixelsPerYard": 2.0
       },
-      "note": "Classic reference positions on the Forever client minimap. Chest spawn availability may differ in Forever. Choose Badlands approach for entrance-cave quests and Digmaster Shovelphlange."
+      "note": "Search Shattered Necklace to show the three quest jewels. Positions use Classic references on the Forever client minimap. Choose Badlands approach for entrance-cave quests and Digmaster Shovelphlange."
     },
     {
       "id": "approach",
@@ -238,8 +238,9 @@
     },
     {
       "id": "npc-4854",
-      "name": "Grimlok",
+      "name": "Grimlok · Shattered Necklace Sapphire",
       "category": "boss",
+      "secondaryLayer": "quest-jewel",
       "floor": "main",
       "x": 5.9985,
       "y": 25.0994,
@@ -253,7 +254,8 @@
       "sources": [
         "classic-db",
         "classic-sql",
-        "fdb-instance"
+        "fdb-instance",
+        "forever-jewels"
       ],
       "npcId": "4854",
       "spawnGuid": 700076,
@@ -261,7 +263,7 @@
       "questIds": [
         "2201"
       ],
-      "note": "Drops the Shattered Necklace Sapphire for Find the Gems."
+      "note": "Loot the sapphire from Grimlok in the Stone Vault for Find the Gems."
     },
     {
       "id": "npc-2748",
@@ -427,8 +429,9 @@
     },
     {
       "id": "object-125477",
-      "name": "Conspicuous Urn",
+      "name": "Shattered Necklace Topaz · Conspicuous Urn",
       "category": "quest-object",
+      "secondaryLayer": "quest-jewel",
       "floor": "main",
       "x": 69.8123,
       "y": 92.5695,
@@ -442,19 +445,21 @@
       "sources": [
         "classic-db",
         "classic-sql",
-        "fdb-instance"
+        "fdb-instance",
+        "forever-jewels"
       ],
       "objectId": "125477",
       "spawnGuid": 700166,
       "questIds": [
         "2201"
       ],
-      "note": "Contains the Shattered Necklace Topaz."
+      "note": "Open the Conspicuous Urn in Dig Two, near Baelog and the Lost Dwarves."
     },
     {
       "id": "object-113757",
-      "name": "Shadowforge Cache",
+      "name": "Shattered Necklace Ruby · Shadowforge Cache",
       "category": "quest-chest",
+      "secondaryLayer": "quest-jewel",
       "floor": "main",
       "x": 13.0921,
       "y": 30.9807,
@@ -468,14 +473,15 @@
       "sources": [
         "classic-db",
         "classic-sql",
-        "fdb-instance"
+        "fdb-instance",
+        "forever-jewels"
       ],
       "objectId": "113757",
       "spawnGuid": 700157,
       "questIds": [
         "2201"
       ],
-      "note": "Contains the Shattered Necklace Ruby."
+      "note": "Open the Shadowforge Cache in the room with Galgann Firehammer."
     },
     {
       "id": "object-142088",
@@ -1860,6 +1866,10 @@
     "forever-triggers": {
       "name": "Forever client area trigger table",
       "url": "https://wago.tools/db2/AreaTrigger/csv?build=1.60.1.70959"
+    },
+    "forever-jewels": {
+      "name": "Wowhead Forever Uldaman guide and jewel sources",
+      "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards"
     },
     "att": {
       "name": "All The Things Forever Uldaman quest and encounter data",
