@@ -2,6 +2,8 @@
 
 Researched November 16, 2026. **80 Alliance/shared quest entries** are added under **Zones**. The maintained data is [quests.json](../../data/quests.json). Sources include the current public quest pages, both zone indexes, Questie's generated records and player traces at revision `e1652ce62113c152da682baf2d6fb85f1396bcfb`, and the read-only CMaNGOS Classic snapshot released November 13, 2026. Current pages report build **1.60.1.70938**.
 
+The [Felwood map](../felwood-map/README.md) links all 80 quests from local givers, turn-ins, and objective locations.
+
 ## Coverage
 
 All **95 entries** in the [current ForeverChanges Felwood index](https://foreverchanges.pro/quests/felwood) are accounted for:

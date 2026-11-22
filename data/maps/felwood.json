@@ -1,0 +1,2018 @@
+{
+  "zone": "Felwood",
+  "updated": "2026-11-22",
+  "map": {
+    "image": "./assets/maps/felwood.webp",
+    "width": 1002,
+    "height": 668,
+    "source": "https://foreverdb.net/maps/1448",
+    "coordinateSystem": "zone-percent",
+    "region": [
+      3300.0,
+      -4108.3,
+      7133.3,
+      1641.7
+    ],
+    "attribution": "World of Warcraft © Blizzard Entertainment; client map via ForeverDB"
+  },
+  "note": "Classic locations unless labeled otherwise. Shadow Hold objectives are below ground. Nearby entries share approximate pins.",
+  "points": [
+    {
+      "id": "npc-9116",
+      "name": "Eridan Bluewind",
+      "category": "quest-giver",
+      "x": 51.149,
+      "y": 81.7637,
+      "world": {
+        "map": 1,
+        "x": 4008.810059,
+        "y": -1310.939941,
+        "z": 254.580002
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "givers",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "9116",
+      "spawnGuid": 39098,
+      "questIds": [
+        "939",
+        "3942",
+        "4005",
+        "4084",
+        "4421",
+        "4441",
+        "4442",
+        "4906"
+      ],
+      "sourceCoordinates": {
+        "x": 51.3503,
+        "y": 81.5091
+      },
+      "approximate": true,
+      "displayGroup": "Emerald Sanctuary",
+      "note": "Emerald Sanctuary shared marker. Source position 51.35, 81.51."
+    },
+    {
+      "id": "npc-9528",
+      "name": "Arathandris Silversky",
+      "category": "quest-giver",
+      "x": 54.149,
+      "y": 86.8328,
+      "world": {
+        "map": 1,
+        "x": 3804.73999,
+        "y": -1471.869995,
+        "z": 210.386002
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "givers",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "9528",
+      "spawnGuid": 39091,
+      "note": "Complete Cleansing Felwood here to open the Alliance Cenarion Plant Salve turn-ins.",
+      "questIds": [
+        "4101",
+        "4103",
+        "4104",
+        "4105",
+        "4106",
+        "4107",
+        "5882",
+        "5883",
+        "5884",
+        "5885",
+        "5886"
+      ]
+    },
+    {
+      "id": "npc-10920",
+      "name": "Kelek Skykeeper",
+      "category": "quest-giver",
+      "x": 51.149,
+      "y": 81.7637,
+      "world": {
+        "map": 1,
+        "x": 3999.429932,
+        "y": -1298.660034,
+        "z": 254.257996
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "10920",
+      "spawnGuid": 39099,
+      "questIds": [
+        "5128",
+        "86577"
+      ],
+      "sourceCoordinates": {
+        "x": 51.1367,
+        "y": 81.7538
+      },
+      "approximate": true,
+      "displayGroup": "Emerald Sanctuary",
+      "note": "Emerald Sanctuary shared marker. Source position 51.14, 81.75."
+    },
+    {
+      "id": "npc-10921",
+      "name": "Taronn Redfeather",
+      "category": "quest-giver",
+      "x": 51.149,
+      "y": 81.7637,
+      "world": {
+        "map": 1,
+        "x": 4004.649902,
+        "y": -1284.459961,
+        "z": 254.348999
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "givers",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "10921",
+      "spawnGuid": 39101,
+      "questIds": [
+        "5156"
+      ],
+      "sourceCoordinates": {
+        "x": 50.8897,
+        "y": 81.6177
+      },
+      "approximate": true,
+      "displayGroup": "Emerald Sanctuary",
+      "note": "Emerald Sanctuary shared marker. Source position 50.89, 81.62."
+    },
+    {
+      "id": "npc-10922",
+      "name": "Greta Mosshoof",
+      "category": "quest-giver",
+      "x": 51.149,
+      "y": 81.7637,
+      "world": {
+        "map": 1,
+        "x": 3985.840088,
+        "y": -1303.030029,
+        "z": 251.154007
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "givers",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "10922",
+      "spawnGuid": 39100,
+      "questIds": [
+        "5155",
+        "5157",
+        "5158",
+        "5159",
+        "5165",
+        "5242",
+        "91952"
+      ],
+      "sourceCoordinates": {
+        "x": 51.2127,
+        "y": 82.1084
+      },
+      "approximate": true,
+      "displayGroup": "Emerald Sanctuary",
+      "note": "Emerald Sanctuary shared marker. Source position 51.21, 82.11."
+    },
+    {
+      "id": "npc-10924",
+      "name": "Ivy Leafrunner",
+      "category": "quest-giver",
+      "x": 51.149,
+      "y": 81.7637,
+      "world": {
+        "map": 1,
+        "x": 4006.030029,
+        "y": -1288.359985,
+        "z": 254.367996
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "givers",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "10924",
+      "spawnGuid": 39103,
+      "questIds": [
+        "5249"
+      ],
+      "sourceCoordinates": {
+        "x": 50.9576,
+        "y": 81.5817
+      },
+      "approximate": true,
+      "displayGroup": "Emerald Sanctuary",
+      "note": "Emerald Sanctuary shared marker. Source position 50.96, 81.58."
+    },
+    {
+      "id": "npc-11016",
+      "name": "Captured Arko'narin",
+      "category": "quest-giver",
+      "x": 36.2067,
+      "y": 55.4647,
+      "world": {
+        "map": 1,
+        "x": 5007.169922,
+        "y": -440.187012,
+        "z": 319.141998
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "givers",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "11016",
+      "spawnGuid": 40428,
+      "note": "Bring the Blood Red Key here to start the escort inside Shadow Hold. The key drops from Jaedenar mobs.",
+      "questIds": [
+        "5202",
+        "5203"
+      ]
+    },
+    {
+      "id": "npc-11019",
+      "name": "Jessir Moonbow",
+      "category": "quest-giver",
+      "x": 51.149,
+      "y": 81.7637,
+      "world": {
+        "map": 1,
+        "x": 3989.550049,
+        "y": -1310.75,
+        "z": 253.619995
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "givers",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "11019",
+      "spawnGuid": 39077,
+      "questIds": [
+        "5203",
+        "5204",
+        "5385"
+      ],
+      "sourceCoordinates": {
+        "x": 51.347,
+        "y": 82.0116
+      },
+      "approximate": true,
+      "displayGroup": "Emerald Sanctuary",
+      "note": "Emerald Sanctuary shared marker. Source position 51.35, 82.01."
+    },
+    {
+      "id": "npc-11020",
+      "name": "Remains of Trey Lightforge",
+      "category": "quest-object",
+      "x": 38.4995,
+      "y": 50.4137,
+      "world": {
+        "map": 1,
+        "x": 5200.790039,
+        "y": -572.023987,
+        "z": 289.174988
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "givers",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "11020",
+      "spawnGuid": 39094,
+      "note": "Find the remains below ground in Shadow Hold after defeating Rakaiah.",
+      "questIds": [
+        "5204",
+        "5385"
+      ]
+    },
+    {
+      "id": "npc-11554",
+      "name": "Grazle",
+      "category": "quest-giver",
+      "x": 50.9268,
+      "y": 85.0061,
+      "world": {
+        "map": 1,
+        "x": 3874.76001,
+        "y": -1286.589966,
+        "z": 220.490005
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "givers",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "11554",
+      "spawnGuid": 39107,
+      "questIds": [
+        "8460",
+        "8462",
+        "8466"
+      ]
+    },
+    {
+      "id": "npc-11555",
+      "name": "Gorn One Eye",
+      "category": "quest-giver",
+      "x": 65.4579,
+      "y": 3.0013,
+      "world": {
+        "map": 1,
+        "x": 7030.720215,
+        "y": -2106.320068,
+        "z": 587.465027
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "givers",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "11555",
+      "spawnGuid": 39065,
+      "questIds": [
+        "8481",
+        "8484"
+      ],
+      "sourceCoordinates": {
+        "x": 65.183,
+        "y": 2.676
+      },
+      "approximate": true,
+      "displayGroup": "Timbermaw Hold",
+      "note": "Timbermaw Hold shared marker. Source position 65.18, 2.68."
+    },
+    {
+      "id": "npc-11557",
+      "name": "Meilosh",
+      "category": "quest-giver",
+      "x": 65.4579,
+      "y": 3.0013,
+      "world": {
+        "map": 1,
+        "x": 7025.629883,
+        "y": -2135.689941,
+        "z": 586.40802
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "givers",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "11557",
+      "spawnGuid": 39349,
+      "questIds": [
+        "6031",
+        "6032"
+      ],
+      "sourceCoordinates": {
+        "x": 65.6937,
+        "y": 2.8088
+      },
+      "approximate": true,
+      "displayGroup": "Timbermaw Hold",
+      "note": "Timbermaw Hold shared marker. Source position 65.69, 2.81."
+    },
+    {
+      "id": "npc-11558",
+      "name": "Kernda",
+      "category": "quest-giver",
+      "x": 65.4579,
+      "y": 3.0013,
+      "world": {
+        "map": 1,
+        "x": 6998.399902,
+        "y": -2124.379883,
+        "z": 589.21698
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "11558",
+      "spawnGuid": 39359,
+      "questIds": [
+        "8470"
+      ],
+      "sourceCoordinates": {
+        "x": 65.497,
+        "y": 3.5192
+      },
+      "approximate": true,
+      "displayGroup": "Timbermaw Hold",
+      "note": "Timbermaw Hold shared marker. Source position 65.50, 3.52."
+    },
+    {
+      "id": "npc-15395",
+      "name": "Nafien",
+      "category": "quest-giver",
+      "x": 64.7689,
+      "y": 8.1249,
+      "world": {
+        "map": 1,
+        "x": 6821.850098,
+        "y": -2082.51001,
+        "z": 623.27002
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "givers",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "15395",
+      "spawnGuid": 39108,
+      "questIds": [
+        "8461",
+        "8462",
+        "8465",
+        "8467"
+      ]
+    },
+    {
+      "id": "npc-15603",
+      "name": "Elder Nightwind",
+      "category": "quest-giver",
+      "x": 37.6415,
+      "y": 53.0006,
+      "world": {
+        "map": 1,
+        "x": 5101.629883,
+        "y": -522.687988,
+        "z": 335.059998
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "givers",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "15603",
+      "spawnGuid": 70573,
+      "questIds": [
+        "8723"
+      ]
+    },
+    {
+      "id": "object-174602",
+      "name": "Corrupted Windblossom",
+      "category": "quest-plant",
+      "x": 57.5,
+      "y": 20.0,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174602",
+      "aliases": [
+        "Windblossom Berries"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Windblossom Berries.",
+      "questIds": [
+        "996"
+      ]
+    },
+    {
+      "id": "object-174603",
+      "name": "Corrupted Windblossom",
+      "category": "quest-plant",
+      "x": 55.8,
+      "y": 7.0,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174603",
+      "aliases": [
+        "Windblossom Berries"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Windblossom Berries.",
+      "questIds": [
+        "998"
+      ]
+    },
+    {
+      "id": "object-174709",
+      "name": "Corrupted Windblossom",
+      "category": "quest-plant",
+      "x": 55.2,
+      "y": 23.5,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174709",
+      "aliases": [
+        "Windblossom Berries"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Windblossom Berries.",
+      "questIds": [
+        "1514"
+      ]
+    },
+    {
+      "id": "object-164886",
+      "name": "Corrupted Songflower",
+      "category": "quest-plant",
+      "x": 52.9,
+      "y": 87.8,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "164886",
+      "aliases": [
+        "Songflower Serenade"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Songflower Serenade.",
+      "questIds": [
+        "2523"
+      ]
+    },
+    {
+      "id": "object-174594",
+      "name": "Corrupted Songflower",
+      "category": "quest-plant",
+      "x": 63.3,
+      "y": 22.6,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174594",
+      "aliases": [
+        "Songflower Serenade"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Songflower Serenade.",
+      "questIds": [
+        "2878"
+      ]
+    },
+    {
+      "id": "object-174595",
+      "name": "Corrupted Songflower",
+      "category": "quest-plant",
+      "x": 63.9,
+      "y": 6.1,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174595",
+      "aliases": [
+        "Songflower Serenade"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Songflower Serenade.",
+      "questIds": [
+        "3363"
+      ]
+    },
+    {
+      "id": "object-174596",
+      "name": "Corrupted Songflower",
+      "category": "quest-plant",
+      "x": 55.8,
+      "y": 10.4,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174596",
+      "aliases": [
+        "Songflower Serenade"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Songflower Serenade.",
+      "questIds": [
+        "4113"
+      ]
+    },
+    {
+      "id": "object-174597",
+      "name": "Corrupted Songflower",
+      "category": "quest-plant",
+      "x": 50.6,
+      "y": 13.9,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174597",
+      "aliases": [
+        "Songflower Serenade"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Songflower Serenade.",
+      "questIds": [
+        "4114"
+      ]
+    },
+    {
+      "id": "object-173327",
+      "name": "Corrupted Windblossom",
+      "category": "quest-plant",
+      "x": 50.0,
+      "y": 80.0,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "173327",
+      "aliases": [
+        "Windblossom Berries"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Windblossom Berries.",
+      "questIds": [
+        "4115"
+      ]
+    },
+    {
+      "id": "object-174598",
+      "name": "Corrupted Songflower",
+      "category": "quest-plant",
+      "x": 34.3,
+      "y": 52.2,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174598",
+      "aliases": [
+        "Songflower Serenade"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Songflower Serenade.",
+      "questIds": [
+        "4116"
+      ]
+    },
+    {
+      "id": "object-164888",
+      "name": "Corrupted Whipper Root",
+      "category": "quest-plant",
+      "x": 40.1,
+      "y": 85.2,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "164888",
+      "aliases": [
+        "Whipper Root Tuber"
+      ],
+      "note": "Requires 3 Cenarion Plant Salves to cleanse. The cleansed plant provides Whipper Root Tuber.",
+      "questIds": [
+        "4117"
+      ]
+    },
+    {
+      "id": "object-174712",
+      "name": "Corrupted Songflower",
+      "category": "quest-plant",
+      "x": 40.1,
+      "y": 56.5,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174712",
+      "aliases": [
+        "Songflower Serenade"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Songflower Serenade.",
+      "questIds": [
+        "4118"
+      ]
+    },
+    {
+      "id": "object-164885",
+      "name": "Corrupted Night Dragon",
+      "category": "quest-plant",
+      "x": 40.7,
+      "y": 78.3,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "164885",
+      "aliases": [
+        "Night Dragon's Breath"
+      ],
+      "note": "Requires 4 Cenarion Plant Salves to cleanse. The cleansed plant provides Night Dragon's Breath.",
+      "questIds": [
+        "4119"
+      ]
+    },
+    {
+      "id": "object-174599",
+      "name": "Corrupted Windblossom",
+      "category": "quest-plant",
+      "x": 39.0,
+      "y": 59.1,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174599",
+      "aliases": [
+        "Windblossom Berries"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Windblossom Berries.",
+      "questIds": [
+        "4221"
+      ]
+    },
+    {
+      "id": "object-174600",
+      "name": "Corrupted Windblossom",
+      "category": "quest-plant",
+      "x": 34.3,
+      "y": 48.7,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174600",
+      "aliases": [
+        "Windblossom Berries"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Windblossom Berries.",
+      "questIds": [
+        "4222"
+      ]
+    },
+    {
+      "id": "object-164887",
+      "name": "Corrupted Windblossom",
+      "category": "quest-plant",
+      "x": 38.8,
+      "y": 21.9,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "164887",
+      "aliases": [
+        "Windblossom Berries"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Windblossom Berries.",
+      "questIds": [
+        "4343"
+      ]
+    },
+    {
+      "id": "object-174713",
+      "name": "Corrupted Songflower",
+      "category": "quest-plant",
+      "x": 40.1,
+      "y": 44.3,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174713",
+      "aliases": [
+        "Songflower Serenade"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Songflower Serenade.",
+      "questIds": [
+        "4401"
+      ]
+    },
+    {
+      "id": "object-174601",
+      "name": "Corrupted Windblossom",
+      "category": "quest-plant",
+      "x": 45.4,
+      "y": 18.3,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174601",
+      "aliases": [
+        "Windblossom Berries"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Windblossom Berries.",
+      "questIds": [
+        "4403"
+      ]
+    },
+    {
+      "id": "object-173284",
+      "name": "Corrupted Whipper Root",
+      "category": "quest-plant",
+      "x": 50.6,
+      "y": 18.3,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "173284",
+      "aliases": [
+        "Whipper Root Tuber"
+      ],
+      "note": "Requires 3 Cenarion Plant Salves to cleanse. The cleansed plant provides Whipper Root Tuber.",
+      "questIds": [
+        "4443"
+      ]
+    },
+    {
+      "id": "object-174605",
+      "name": "Corrupted Whipper Root",
+      "category": "quest-plant",
+      "x": 49.4,
+      "y": 12.2,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174605",
+      "aliases": [
+        "Whipper Root Tuber"
+      ],
+      "note": "Requires 3 Cenarion Plant Salves to cleanse. The cleansed plant provides Whipper Root Tuber.",
+      "questIds": [
+        "4444"
+      ]
+    },
+    {
+      "id": "object-174606",
+      "name": "Corrupted Whipper Root",
+      "category": "quest-plant",
+      "x": 40.7,
+      "y": 19.1,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174606",
+      "aliases": [
+        "Whipper Root Tuber"
+      ],
+      "note": "Requires 3 Cenarion Plant Salves to cleanse. The cleansed plant provides Whipper Root Tuber.",
+      "questIds": [
+        "4445"
+      ]
+    },
+    {
+      "id": "object-174607",
+      "name": "Corrupted Whipper Root",
+      "category": "quest-plant",
+      "x": 43.0,
+      "y": 47.0,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174607",
+      "aliases": [
+        "Whipper Root Tuber"
+      ],
+      "note": "Requires 3 Cenarion Plant Salves to cleanse. The cleansed plant provides Whipper Root Tuber.",
+      "questIds": [
+        "4446"
+      ]
+    },
+    {
+      "id": "object-173324",
+      "name": "Corrupted Night Dragon",
+      "category": "quest-plant",
+      "x": 50.6,
+      "y": 30.4,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "173324",
+      "aliases": [
+        "Night Dragon's Breath"
+      ],
+      "note": "Requires 4 Cenarion Plant Salves to cleanse. The cleansed plant provides Night Dragon's Breath.",
+      "questIds": [
+        "4447"
+      ]
+    },
+    {
+      "id": "object-174608",
+      "name": "Corrupted Night Dragon",
+      "category": "quest-plant",
+      "x": 42.5,
+      "y": 13.9,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174608",
+      "aliases": [
+        "Night Dragon's Breath"
+      ],
+      "note": "Requires 4 Cenarion Plant Salves to cleanse. The cleansed plant provides Night Dragon's Breath.",
+      "questIds": [
+        "4448"
+      ]
+    },
+    {
+      "id": "object-174686",
+      "name": "Corrupted Whipper Root",
+      "category": "quest-plant",
+      "x": 34.1,
+      "y": 60.2,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174686",
+      "aliases": [
+        "Whipper Root Tuber"
+      ],
+      "note": "Requires 3 Cenarion Plant Salves to cleanse. The cleansed plant provides Whipper Root Tuber.",
+      "questIds": [
+        "4461"
+      ]
+    },
+    {
+      "id": "object-174684",
+      "name": "Corrupted Night Dragon",
+      "category": "quest-plant",
+      "x": 35.1,
+      "y": 58.9,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174684",
+      "aliases": [
+        "Night Dragon's Breath"
+      ],
+      "note": "Requires 4 Cenarion Plant Salves to cleanse. The cleansed plant provides Night Dragon's Breath.",
+      "questIds": [
+        "4462"
+      ]
+    },
+    {
+      "id": "object-171942",
+      "name": "Corrupted Songflower",
+      "category": "quest-plant",
+      "x": 48.3,
+      "y": 75.7,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "171942",
+      "aliases": [
+        "Songflower Serenade"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Songflower Serenade.",
+      "questIds": [
+        "4464"
+      ]
+    },
+    {
+      "id": "object-171939",
+      "name": "Corrupted Songflower",
+      "category": "quest-plant",
+      "x": 45.9,
+      "y": 85.2,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "171939",
+      "aliases": [
+        "Songflower Serenade"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Songflower Serenade.",
+      "questIds": [
+        "4465"
+      ]
+    },
+    {
+      "id": "object-174604",
+      "name": "Corrupted Windblossom",
+      "category": "quest-plant",
+      "x": 36.6,
+      "y": 62.0,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174604",
+      "aliases": [
+        "Windblossom Berries"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Windblossom Berries.",
+      "questIds": [
+        "4466"
+      ]
+    },
+    {
+      "id": "object-174708",
+      "name": "Corrupted Windblossom",
+      "category": "quest-plant",
+      "x": 44.8,
+      "y": 41.7,
+      "verification": "classic-derived",
+      "sources": [
+        "plant-pages",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "174708",
+      "aliases": [
+        "Windblossom Berries"
+      ],
+      "note": "Requires 2 Cenarion Plant Salves to cleanse. The cleansed plant provides Windblossom Berries.",
+      "questIds": [
+        "4467"
+      ]
+    },
+    {
+      "id": "object-176091",
+      "name": "Deadwood Cauldron",
+      "category": "quest-object",
+      "x": 60.2056,
+      "y": 5.8427,
+      "world": {
+        "map": 1,
+        "x": 6909.330078,
+        "y": -1820.119995,
+        "z": 570.554993
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "176091",
+      "spawnGuid": 48871,
+      "note": "Examine the cauldron in the northern Deadwood camp to finish Falling to Corruption and start Mystery Goo.",
+      "questIds": [
+        "5084",
+        "5085"
+      ]
+    },
+    {
+      "id": "object-661778",
+      "name": "Statue of Malorne",
+      "category": "quest-object",
+      "x": 42.04,
+      "y": 47.35,
+      "verification": "player-reported",
+      "sources": [
+        "statue-trace",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "661778",
+      "note": "Starts the Alliance Stag Lord's Bauble quest. The quest sends you to Talonbranch Glade.",
+      "questIds": [
+        "86611"
+      ]
+    },
+    {
+      "id": "object-177275",
+      "name": "Jaedenar Moon Well",
+      "category": "quest-object",
+      "x": 35.1464,
+      "y": 59.7939,
+      "world": {
+        "map": 1,
+        "x": 4841.220215,
+        "y": -379.21701,
+        "z": 349.549011
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "moonwell",
+        "bounds"
+      ],
+      "objectId": "177275",
+      "spawnGuid": 48818,
+      "note": "Fill Greta's Empty Canteen at this surface moonwell.",
+      "questIds": [
+        "5157"
+      ]
+    },
+    {
+      "id": "shadow-hold-entrance",
+      "name": "Shadow Hold entrance",
+      "category": "entrance",
+      "x": 35.38,
+      "y": 58.5,
+      "verification": "community-reference",
+      "sources": [
+        "shadow-entrance",
+        "bounds"
+      ],
+      "approximate": true,
+      "note": "Cave entrance reference in Jaedenar. The braziers, prisoner, equipment chest, and final targets are below ground.",
+      "questIds": [
+        "5165",
+        "5202",
+        "5203",
+        "5204",
+        "5242",
+        "5385"
+      ]
+    },
+    {
+      "id": "object-176158",
+      "name": "Brazier of Pain",
+      "category": "quest-object",
+      "x": 36.2658,
+      "y": 56.3001,
+      "world": {
+        "map": 1,
+        "x": 4975.149902,
+        "y": -443.583008,
+        "z": 316.032013
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "176158",
+      "spawnGuid": 48841,
+      "note": "Use the Purified Moon Well Water at this brazier inside Shadow Hold. There are four braziers in total.",
+      "questIds": [
+        "5165"
+      ]
+    },
+    {
+      "id": "object-176159",
+      "name": "Brazier of Malice",
+      "category": "quest-object",
+      "x": 37.7584,
+      "y": 52.7196,
+      "world": {
+        "map": 1,
+        "x": 5113.600098,
+        "y": -524.669983,
+        "z": 296.589996
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "176159",
+      "spawnGuid": 48838,
+      "note": "Use the Purified Moon Well Water at this brazier inside Shadow Hold. There are four braziers in total. Shadow Hold equipment room shared marker. Source position 37.68, 52.69.",
+      "questIds": [
+        "5165"
+      ],
+      "sourceCoordinates": {
+        "x": 37.676,
+        "y": 52.6883
+      },
+      "approximate": true,
+      "displayGroup": "Shadow Hold equipment room"
+    },
+    {
+      "id": "object-176160",
+      "name": "Brazier of Suffering",
+      "category": "quest-object",
+      "x": 36.7306,
+      "y": 53.2648,
+      "world": {
+        "map": 1,
+        "x": 5091.5,
+        "y": -470.30899,
+        "z": 298.158997
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "176160",
+      "spawnGuid": 48842,
+      "note": "Use the Purified Moon Well Water at this brazier inside Shadow Hold. There are four braziers in total.",
+      "questIds": [
+        "5165"
+      ]
+    },
+    {
+      "id": "object-176161",
+      "name": "Brazier of Hatred",
+      "category": "quest-object",
+      "x": 36.4849,
+      "y": 55.1874,
+      "world": {
+        "map": 1,
+        "x": 5017.799805,
+        "y": -456.18399,
+        "z": 321.928009
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "objectId": "176161",
+      "spawnGuid": 48839,
+      "note": "Use the Purified Moon Well Water at this brazier inside Shadow Hold. There are four braziers in total.",
+      "questIds": [
+        "5165"
+      ]
+    },
+    {
+      "id": "object-176225",
+      "name": "Arko'niran's Chest",
+      "category": "quest-chest",
+      "x": 37.7584,
+      "y": 52.7196,
+      "world": {
+        "map": 1,
+        "x": 5111.200195,
+        "y": -534.14502,
+        "z": 296.677002
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rescue",
+        "bounds"
+      ],
+      "objectId": "176225",
+      "spawnGuid": 48860,
+      "aliases": [
+        "Arko'narin's equipment chest",
+        "Shadow Hold"
+      ],
+      "note": "Arko'narin retrieves her equipment here during the escort. Shadow Hold equipment room shared marker. Source position 37.84, 52.75.",
+      "questIds": [
+        "5203"
+      ],
+      "sourceCoordinates": {
+        "x": 37.8408,
+        "y": 52.7509
+      },
+      "approximate": true,
+      "displayGroup": "Shadow Hold equipment room"
+    },
+    {
+      "id": "npc-9518",
+      "name": "Rakaiah",
+      "category": "quest-object",
+      "x": 38.3036,
+      "y": 50.51,
+      "world": {
+        "map": 1,
+        "x": 5197.100098,
+        "y": -560.755981,
+        "z": 287.182007
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "9518",
+      "spawnGuid": 40660,
+      "note": "Defeat Rakaiah inside Shadow Hold before finding the Remains of Trey Lightforge.",
+      "questIds": [
+        "5204"
+      ]
+    },
+    {
+      "id": "npc-9517",
+      "name": "Shadow Lord Fel'dan",
+      "category": "quest-object",
+      "x": 38.8185,
+      "y": 46.7803,
+      "world": {
+        "map": 1,
+        "x": 5340.069824,
+        "y": -590.364014,
+        "z": 247.141006
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "9517",
+      "spawnGuid": 40675,
+      "aliases": [
+        "Moora",
+        "Salia",
+        "Shadow Hold"
+      ],
+      "note": "Moora and Salia share the final chamber. Return to Greta with Shadow Lord Fel'dan's Head.",
+      "questIds": [
+        "5242"
+      ]
+    },
+    {
+      "id": "npc-9454",
+      "name": "Xavathras",
+      "category": "quest-object",
+      "x": 32.2337,
+      "y": 67.108,
+      "world": {
+        "map": 1,
+        "x": 4560.850098,
+        "y": -211.738998,
+        "z": 299.94101
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "9454",
+      "spawnGuid": 40724,
+      "aliases": [
+        "Jadefire Glen"
+      ],
+      "note": "Xavathras is the named target in Jadefire Glen. The other Jadefire targets are in the same area.",
+      "questIds": [
+        "4421"
+      ]
+    },
+    {
+      "id": "npc-10648",
+      "name": "Xavaric",
+      "category": "quest-object",
+      "x": 39.0689,
+      "y": 22.3512,
+      "world": {
+        "map": 1,
+        "x": 6276.509766,
+        "y": -604.760986,
+        "z": 468.638
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "10648",
+      "spawnGuid": 40708,
+      "aliases": [
+        "Jadefire Run"
+      ],
+      "note": "Xavaric is the named target in Jadefire Run and drops the Flute of Xavaric that starts the follow-up.",
+      "questIds": [
+        "939",
+        "4906"
+      ]
+    },
+    {
+      "id": "arei-summon",
+      "name": "Arei summon site",
+      "category": "quest-giver",
+      "x": 49,
+      "y": 31,
+      "verification": "community-reference",
+      "sources": [
+        "arei",
+        "quests",
+        "bounds"
+      ],
+      "approximate": true,
+      "npcId": "9598",
+      "note": "Use the Flute of the Ancients near the elven statue in Irontree Woods to summon Arei for the escort.",
+      "questIds": [
+        "4261"
+      ]
+    },
+    {
+      "id": "npc-9878",
+      "name": "Shatter Scar Vale",
+      "category": "quest-material",
+      "x": 45.7044,
+      "y": 38.6022,
+      "world": {
+        "map": 1,
+        "x": 5653.560059,
+        "y": -986.302979,
+        "z": 377.195007
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "npcId": "9878",
+      "spawnGuid": 40692,
+      "note": "Representative Entropic Beast and Entropic Horror spawn for Verifying the Corruption.",
+      "questIds": [
+        "5156"
+      ]
+    },
+    {
+      "id": "npc-7112",
+      "name": "Jaedenar",
+      "category": "quest-material",
+      "x": 35.1295,
+      "y": 61.2084,
+      "world": {
+        "map": 1,
+        "x": 4787,
+        "y": -378.243988,
+        "z": 351.558014
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "npcId": "7112",
+      "spawnGuid": 40652,
+      "note": "Representative Jaedenar Cultist position. The other required enemies are in Jaedenar.",
+      "questIds": [
+        "5155"
+      ]
+    },
+    {
+      "id": "npc-7154",
+      "name": "Deadwood Village",
+      "category": "quest-material",
+      "x": 46.3017,
+      "y": 90.618,
+      "world": {
+        "map": 1,
+        "x": 3659.639893,
+        "y": -1020.650024,
+        "z": 221.612
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "npcId": "7154",
+      "spawnGuid": 40721,
+      "note": "Southern Deadwood camp with Warriors, Pathfinders, and Gardeners.",
+      "questIds": [
+        "8460",
+        "8466",
+        "8470"
+      ]
+    },
+    {
+      "id": "npc-7157",
+      "name": "Northern Deadwood camp",
+      "category": "quest-material",
+      "x": 62.7271,
+      "y": 10.0616,
+      "world": {
+        "map": 1,
+        "x": 6747.609863,
+        "y": -1965.109985,
+        "z": 551.002991
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "npcId": "7157",
+      "spawnGuid": 40413,
+      "note": "Northern Deadwood camp with Den Watchers, Avengers, and Shamans.",
+      "questIds": [
+        "8461",
+        "8467",
+        "8470"
+      ]
+    },
+    {
+      "id": "npc-12578",
+      "name": "Talonbranch Glade flight path",
+      "category": "landmark",
+      "x": 62.4892,
+      "y": 24.2407,
+      "world": {
+        "map": 1,
+        "x": 6204.080078,
+        "y": -1951.430054,
+        "z": 571.580994
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "map",
+        "bounds"
+      ],
+      "npcId": "12578",
+      "spawnGuid": 39069,
+      "note": "Alliance flight master Mishellena."
+    },
+    {
+      "id": "npc-14339-40656",
+      "name": "Death Howl",
+      "category": "rare",
+      "x": 50.0308,
+      "y": 77.1129,
+      "world": {
+        "map": 1,
+        "x": 4177.330078,
+        "y": -1235.069946,
+        "z": 343.257996
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "14339",
+      "spawnGuid": 40656,
+      "aliases": [
+        "Level 49"
+      ],
+      "note": "Level 49 rare. Classic spawn reference."
+    },
+    {
+      "id": "npc-14339-84972",
+      "name": "Death Howl",
+      "category": "rare",
+      "x": 47.8612,
+      "y": 74.8183,
+      "world": {
+        "map": 1,
+        "x": 4265.290039,
+        "y": -1110.319946,
+        "z": 319.876007
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "14339",
+      "spawnGuid": 84972,
+      "aliases": [
+        "Level 49"
+      ],
+      "note": "Level 49 rare. Classic spawn reference."
+    },
+    {
+      "id": "npc-14339-84973",
+      "name": "Death Howl",
+      "category": "rare",
+      "x": 48.3403,
+      "y": 78.1773,
+      "world": {
+        "map": 1,
+        "x": 4136.529785,
+        "y": -1137.869995,
+        "z": 295.424011
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "14339",
+      "spawnGuid": 84973,
+      "aliases": [
+        "Level 49"
+      ],
+      "note": "Level 49 rare. Classic spawn reference."
+    },
+    {
+      "id": "npc-14339-84974",
+      "name": "Death Howl",
+      "category": "rare",
+      "x": 56.1649,
+      "y": 89.2594,
+      "world": {
+        "map": 1,
+        "x": 3711.719971,
+        "y": -1587.780029,
+        "z": 202.667007
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "14339",
+      "spawnGuid": 84974,
+      "aliases": [
+        "Level 49"
+      ],
+      "note": "Level 49 rare. Classic spawn reference."
+    },
+    {
+      "id": "npc-14344-51895",
+      "name": "Mongress",
+      "category": "rare",
+      "x": 42.1485,
+      "y": 75.2154,
+      "world": {
+        "map": 1,
+        "x": 4250.069824,
+        "y": -781.841003,
+        "z": 262.326996
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "14344",
+      "spawnGuid": 51895,
+      "aliases": [
+        "Level 50"
+      ],
+      "note": "Level 50 rare. Classic spawn reference."
+    },
+    {
+      "id": "npc-14344-140771",
+      "name": "Mongress",
+      "category": "rare",
+      "x": 39.7707,
+      "y": 80.336,
+      "world": {
+        "map": 1,
+        "x": 4053.780029,
+        "y": -645.117004,
+        "z": 298.640991
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "14344",
+      "spawnGuid": 140771,
+      "aliases": [
+        "Level 50"
+      ],
+      "note": "Level 50 rare. Classic spawn reference."
+    },
+    {
+      "id": "npc-14344-140772",
+      "name": "Mongress",
+      "category": "rare",
+      "x": 43.3237,
+      "y": 76.6183,
+      "world": {
+        "map": 1,
+        "x": 4196.290039,
+        "y": -849.411011,
+        "z": 258.506012
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "14344",
+      "spawnGuid": 140772,
+      "aliases": [
+        "Level 50"
+      ],
+      "note": "Level 50 rare. Classic spawn reference."
+    },
+    {
+      "id": "npc-14344-140773",
+      "name": "Mongress",
+      "category": "rare",
+      "x": 47.0497,
+      "y": 83.959,
+      "world": {
+        "map": 1,
+        "x": 3914.899902,
+        "y": -1063.660034,
+        "z": 243.251999
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "14344",
+      "spawnGuid": 140773,
+      "aliases": [
+        "Level 50"
+      ],
+      "note": "Level 50 rare. Classic spawn reference."
+    },
+    {
+      "id": "npc-14342-51893",
+      "name": "Ragepaw",
+      "category": "rare",
+      "x": 47.736,
+      "y": 93.0626,
+      "world": {
+        "map": 1,
+        "x": 3565.929932,
+        "y": -1103.119995,
+        "z": 221.942993
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "14342",
+      "spawnGuid": 51893,
+      "aliases": [
+        "Level 51"
+      ],
+      "note": "Level 51 rare. Classic spawn reference."
+    },
+    {
+      "id": "npc-14345-51896",
+      "name": "The Ongar",
+      "category": "rare",
+      "x": 42.2195,
+      "y": 49.9003,
+      "world": {
+        "map": 1,
+        "x": 5220.470215,
+        "y": -785.919006,
+        "z": 346.77301
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "14345",
+      "spawnGuid": 51896,
+      "aliases": [
+        "Level 51"
+      ],
+      "note": "Level 51 rare. Classic spawn reference."
+    },
+    {
+      "id": "npc-14343-51897",
+      "name": "Olm the Wise",
+      "category": "rare",
+      "x": 50.1657,
+      "y": 32.8085,
+      "world": {
+        "map": 1,
+        "x": 5875.649902,
+        "y": -1242.829956,
+        "z": 403.303986
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "14343",
+      "spawnGuid": 51897,
+      "aliases": [
+        "Level 52"
+      ],
+      "note": "Level 52 rare. Classic spawn reference."
+    },
+    {
+      "id": "npc-14340-51894",
+      "name": "Alshirr Banebreath",
+      "category": "rare",
+      "x": 38.2086,
+      "y": 81.0471,
+      "world": {
+        "map": 1,
+        "x": 4026.523,
+        "y": -555.293,
+        "z": 342.505
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "14340",
+      "spawnGuid": 51894,
+      "aliases": [
+        "Level 54"
+      ],
+      "note": "Level 54 rare. Classic spawn reference."
+    },
+    {
+      "id": "npc-7104-51898",
+      "name": "Dessecus",
+      "category": "rare",
+      "x": 57.7583,
+      "y": 22.3262,
+      "world": {
+        "map": 1,
+        "x": 6277.470215,
+        "y": -1679.400024,
+        "z": 432.518005
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "7104",
+      "spawnGuid": 51898,
+      "aliases": [
+        "Level 56"
+      ],
+      "note": "Level 56 rare elite. Classic spawn reference."
+    },
+    {
+      "id": "npc-7137-39624",
+      "name": "Immolatus",
+      "category": "rare",
+      "x": 43.1175,
+      "y": 41.3886,
+      "world": {
+        "map": 1,
+        "x": 5546.75,
+        "y": -837.557983,
+        "z": 357.029999
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "rares",
+        "bounds"
+      ],
+      "npcId": "7137",
+      "spawnGuid": 39624,
+      "aliases": [
+        "Level 56"
+      ],
+      "note": "Level 56 rare elite. Classic spawn reference."
+    }
+  ],
+  "sources": {
+    "map": {
+      "name": "ForeverDB Felwood client map",
+      "url": "https://foreverdb.net/maps/1448"
+    },
+    "bounds": {
+      "name": "Forever client zone boundaries",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "index": {
+      "name": "ForeverDB client map image index",
+      "url": "https://foreverdb.net/data/maps/index.json"
+    },
+    "givers": {
+      "name": "ForeverDB Classic quest-giver references",
+      "url": "https://foreverdb.net/data/maps/layer-questgivers.json"
+    },
+    "classic": {
+      "name": "CMaNGOS Classic spawn and quest database",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "rares": {
+      "name": "The Forever Era Classic rare references",
+      "url": "https://theforeverera.com/data/map-layers/r.json?v=20261108113959"
+    },
+    "chests": {
+      "name": "The Forever Era Classic chest references",
+      "url": "https://theforeverera.com/data/map-layers/k.json?v=20261108113959"
+    },
+    "quests": {
+      "name": "Felwood quest sources and selection",
+      "url": "https://github.com/ttdow/wow-forever-quest-tracker/blob/main/research/felwood/README.md"
+    },
+    "plant-pages": {
+      "name": "ForeverChanges Felwood quest index",
+      "url": "https://foreverchanges.pro/quests/felwood"
+    },
+    "statue-trace": {
+      "name": "Questie Forever Statue of Malorne trace",
+      "url": "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverObjectTraces.lua"
+    },
+    "moonwell": {
+      "name": "Classic player report for the Jaedenar Moon Well",
+      "url": "https://www.wowhead.com/classic/quest=5157/collection-of-the-corrupt-water#comments"
+    },
+    "shadow-entrance": {
+      "name": "Classic player report for the Shadow Hold entrance",
+      "url": "https://www.wowhead.com/classic/quest=5165/dousing-the-flames-of-protection#comments"
+    },
+    "arei": {
+      "name": "Arei summon reference for the Flute of the Ancients",
+      "url": "https://warcraft.wiki.gg/wiki/Flute_of_the_Ancients"
+    },
+    "rescue": {
+      "name": "Forever Rescue From Jaedenar objective",
+      "url": "https://questing.wiki/wow-forever/quests/5203/"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "checked": "2026-11-22",
+  "zone": "Felwood",
+  "uiMapId": 1448,
+  "areaId": 361,
+  "sources": {
+    "map": {
+      "name": "ForeverDB Felwood client map",
+      "url": "https://foreverdb.net/maps/1448"
+    },
+    "bounds": {
+      "name": "Forever client zone boundaries",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "index": {
+      "name": "ForeverDB client map image index",
+      "url": "https://foreverdb.net/data/maps/index.json"
+    },
+    "givers": {
+      "name": "ForeverDB Classic quest-giver references",
+      "url": "https://foreverdb.net/data/maps/layer-questgivers.json"
+    },
+    "classic": {
+      "name": "CMaNGOS Classic spawn and quest database",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "rares": {
+      "name": "The Forever Era Classic rare references",
+      "url": "https://theforeverera.com/data/map-layers/r.json?v=20261108113959"
+    },
+    "chests": {
+      "name": "The Forever Era Classic chest references",
+      "url": "https://theforeverera.com/data/map-layers/k.json?v=20261108113959"
+    },
+    "quests": {
+      "name": "Felwood quest sources and selection",
+      "url": "https://github.com/ttdow/wow-forever-quest-tracker/blob/main/research/felwood/README.md"
+    },
+    "plant-pages": {
+      "name": "ForeverChanges Felwood quest index",
+      "url": "https://foreverchanges.pro/quests/felwood"
+    },
+    "statue-trace": {
+      "name": "Questie Forever Statue of Malorne trace",
+      "url": "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverObjectTraces.lua"
+    },
+    "moonwell": {
+      "name": "Classic player report for the Jaedenar Moon Well",
+      "url": "https://www.wowhead.com/classic/quest=5157/collection-of-the-corrupt-water#comments"
+    },
+    "shadow-entrance": {
+      "name": "Classic player report for the Shadow Hold entrance",
+      "url": "https://www.wowhead.com/classic/quest=5165/dousing-the-flames-of-protection#comments"
+    },
+    "arei": {
+      "name": "Arei summon reference for the Flute of the Ancients",
+      "url": "https://warcraft.wiki.gg/wiki/Flute_of_the_Ancients"
+    },
+    "rescue": {
+      "name": "Forever Rescue From Jaedenar objective",
+      "url": "https://questing.wiki/wow-forever/quests/5203/"
+    }
+  },
+  "image": {
+    "url": "https://foreverdb.net/img/maps/game/1448.webp",
+    "width": 1002,
+    "height": 668,
+    "sha256": "71a98d7bb7529f131b08e8cf5f8391d4f089b91c932c6a34ed06f6c5f3674b91"
+  },
+  "sourceHashes": {
+    "bounds": "062342dd05d8507b961cac5f25808e727228fc8be93926a6b9b65dcc266a5747",
+    "index": "6c18202bd5843c325191a05f328a1cc5d813b87f955693b0ec8a389d3a3667c4",
+    "givers": "df6f55fdf26d6de63c781cae27c1042b2ae311615697b606286c80dcb0520508",
+    "rares": "faa8021f4c6b7fbad488d92cee5f808894c636a1b7fe57552601184ff634d525",
+    "chests": "ba3a9d4433cf235f76f563f4898d41d58ae641fabee74de5b68bf2908267ec21"
+  },
+  "classicSnapshot": {
+    "release": "2026-11-21T13:50:52Z",
+    "archiveSha256": "c33cde85e096c141af05fe95517128e92eeeaf3b473a480ff658623333053eef",
+    "databaseSha256": "bfcfa547ca56e0dcaa52b7d7e483f43f22badf5805cab2c1568e902aa5eabc57"
+  },
+  "coverage": {
+    "entries": 78,
+    "trackedQuestIds": 80,
+    "categories": {
+      "entrance": 1,
+      "landmark": 1,
+      "quest-chest": 1,
+      "quest-giver": 15,
+      "quest-material": 4,
+      "quest-object": 12,
+      "quest-plant": 30,
+      "rare": 14
+    },
+    "sharedMarkerGroups": [
+      "Emerald Sanctuary",
+      "Timbermaw Hold",
+      "Shadow Hold equipment room"
+    ]
+  },
+  "randomChests": {
+    "zoneRowsInClassicChestLayer": 0,
+    "inZoneTreasureChestsInSnapshot": 0,
+    "questChestObjectId": 176225
+  }
+}

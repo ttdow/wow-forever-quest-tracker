@@ -12,6 +12,7 @@ const categories = {
   'quest-object': { label: 'Quest objects', symbol: '?', color: '#e3e7df' },
   'quest-jewel': { label: 'Quest jewels', symbol: '◈', color: '#91d9dc' },
   'quest-material': { label: 'Quest materials', symbol: '+', color: '#b7d9ed' },
+  'quest-plant': { label: 'Corrupted plants', symbol: '✿', color: '#a8d998' },
   'quest-chest': { label: 'Quest chests', symbol: '▣', color: '#f4d484' },
   'dungeon-chest': { label: 'Chest spawns', symbol: '▣', color: '#f4d484' },
   'supply-crate': { label: 'Supply crates', symbol: '▤', color: '#edbb78' },
@@ -23,6 +24,7 @@ const categories = {
 const zones = {
   Desolace: { file: 'desolace', guide: 'https://foreverdb.net/maps/1443', report: 'desolace-map' },
   Feralas: { file: 'feralas', guide: 'https://foreverdb.net/maps/1444', report: 'feralas-map' },
+  Felwood: { file: 'felwood', guide: 'https://foreverdb.net/maps/1448', report: 'felwood-map' },
   Gnomeregan: { file: 'gnomeregan', guide: 'https://foreverdb.net/dungeon/90-gnomeregan', report: 'gnomeregan-map' },
   'Razorfen Kraul': { file: 'razorfen-kraul', guide: 'https://foreverdb.net/dungeon/47-razorfen-kraul', report: 'razorfen-kraul-map', defaultHiddenLayers: ['quest-object'] },
   'Razorfen Downs': { file: 'razorfen-downs', guide: 'https://foreverdb.net/dungeon/129-razorfen-downs', report: 'razorfen-downs-map' },
