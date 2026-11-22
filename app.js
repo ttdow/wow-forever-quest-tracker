@@ -58,7 +58,14 @@ function renderZoneNavigation() {
     toggle.setAttribute('aria-expanded', String(navigation.open === group));
     list.hidden = navigation.open !== group;
     if (!list.childElementCount) {
-      for (const zone of zones.filter(zone => isDungeon(zone) === (group === 'dungeons'))) {
+      const entries = zones.filter(zone => isDungeon(zone) === (group === 'dungeons'));
+      const unranked = [Number.MAX_SAFE_INTEGER, Number.MAX_SAFE_INTEGER];
+      entries.sort((a, b) => {
+        const [minA, maxA] = suggestedLevels[a] ?? unranked;
+        const [minB, maxB] = suggestedLevels[b] ?? unranked;
+        return minA - minB || maxA - maxB;
+      });
+      for (const zone of entries) {
         const button = document.createElement('button');
         button.type = 'button';
         button.dataset.zone = zone;
