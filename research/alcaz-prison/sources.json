@@ -1,0 +1,152 @@
+{
+  "checked": "2026-11-22",
+  "mapId": 2994,
+  "areaId": 16620,
+  "build": "1.60.1.71037",
+  "sources": {
+    "official": {
+      "name": "Blizzard dungeon overview and suggested levels",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24301455/"
+    },
+    "addon": {
+      "name": "All The Things Alcaz Prison quest and encounter records",
+      "url": "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+    },
+    "guide": {
+      "name": "Method Alcaz Prison guide and Santiago Reyes floor plans",
+      "url": "https://www.method.gg/wow-forever/dungeons/alcaz-prison#dungeon-map"
+    },
+    "wowhead": {
+      "name": "Wowhead Forever strategy and quest guide",
+      "url": "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards"
+    },
+    "route": {
+      "name": "Alcaz Prison route and quest locations",
+      "url": "https://mygameacademia.com/forever/dungeon/alcaz-prison"
+    },
+    "observed": {
+      "name": "PatchVault player-recorded encounter drops",
+      "url": "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+    },
+    "journal": {
+      "name": "Forever client DungeonEncounter table",
+      "url": "https://wago.tools/db2/DungeonEncounter/csv?build=1.60.1.71037"
+    },
+    "westfall": {
+      "name": "Connery’s Trunk and Document Box guide",
+      "url": "https://warcraft.wiki.gg/wiki/Document_Box"
+    }
+  },
+  "addonRevision": "f79803332c8e5eefc2b5840c4ce9efa17880a304",
+  "addonSha256": "d893f3dd2a3da7ffa7bd7aec74b84aa5d0e61c39dae7d3f64451ecc41013a107",
+  "journalSha256": "8e0b39eacaef229c083dff18ad4926ccf8fd3babd586ac0a2300586bb00ad245",
+  "questsIncluded": [
+    "95194",
+    "95196",
+    "95198",
+    "96381",
+    "95262",
+    "95263",
+    "95264",
+    "96772",
+    "96335",
+    "96337",
+    "96377",
+    "96379"
+  ],
+  "hordeDungeonQuestsExcluded": [
+    "95283",
+    "95284",
+    "95285",
+    "95309",
+    "95454",
+    "95483",
+    "96332",
+    "96334",
+    "96369",
+    "96376"
+  ],
+  "encounters": [
+    {
+      "npcId": 255997,
+      "encounterId": 3410,
+      "name": "Tidemistress Ca'zass",
+      "items": [
+        276735,
+        276736,
+        276737
+      ]
+    },
+    {
+      "npcId": 255391,
+      "encounterId": 3403,
+      "name": "Overseer Wrex",
+      "items": [
+        276732,
+        276733,
+        276734
+      ]
+    },
+    {
+      "npcId": 257016,
+      "encounterId": 3418,
+      "name": "Katerina the Cleaner",
+      "items": [
+        276738,
+        276739,
+        276740
+      ]
+    },
+    {
+      "npcId": 255702,
+      "encounterId": 3409,
+      "name": "Blazeroar",
+      "items": [
+        276744,
+        276745,
+        276746
+      ]
+    },
+    {
+      "npcId": 256236,
+      "encounterId": 3415,
+      "name": "The Questioner",
+      "items": [
+        276741,
+        276742,
+        276743
+      ]
+    }
+  ],
+  "playerRecordedBossEquipmentIds": [
+    276732,
+    276734,
+    276735,
+    276736,
+    276737,
+    276738,
+    276739,
+    276740,
+    276742,
+    276743,
+    276745,
+    276746
+  ],
+  "maps": {
+    "main": {
+      "sha256": "387a907c51cfee4a359a3e138e60115ff4bf3a68cbed103f90ed75174bd33bec",
+      "width": 1100,
+      "height": 580
+    },
+    "security": {
+      "sha256": "7b28be0511cf2e3dcb3e07c922cc7049d7b93ede4528de2dd18e5cfc293ec84e",
+      "width": 1100,
+      "height": 580
+    }
+  },
+  "referenceFloorPlans": [
+    "https://www.method.gg/wow-forever/dungeons/alcaz-prison#dungeon-map",
+    "https://www.method.gg/images/uploads/guides/alcaz-l1-dungeon-map.jpg",
+    "https://www.method.gg/images/uploads/guides/alcaz-l2-dungeon-map.jpg"
+  ]
+}

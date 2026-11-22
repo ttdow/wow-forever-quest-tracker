@@ -1,0 +1,270 @@
+{
+  "zone": "Alcaz Prison",
+  "updated": "2026-11-22",
+  "map": {
+    "appearance": "dungeon",
+    "coordinateSystem": "guide-image",
+    "source": "https://www.method.gg/wow-forever/dungeons/alcaz-prison#dungeon-map"
+  },
+  "floors": [
+    {
+      "id": "main",
+      "name": "Main Unit",
+      "image": "./assets/maps/alcaz-prison-main.webp",
+      "width": 1100,
+      "height": 580,
+      "note": "Route diagram. Keep The Questioner alive until you accept The Man in the Iron Chains from Mason Connery."
+    },
+    {
+      "id": "security",
+      "name": "Maximum Security Unit",
+      "image": "./assets/maps/alcaz-prison-maximum-security.webp",
+      "width": 1100,
+      "height": 580,
+      "note": "Route diagram. Find Mason Connery and the Perfumed Note near the final encounter."
+    }
+  ],
+  "points": [
+    {
+      "id": "entrance",
+      "name": "Prison entrance",
+      "category": "entrance",
+      "floor": "main",
+      "x": 49.0909,
+      "y": 75.8621,
+      "verification": "community-reference",
+      "approximate": true,
+      "sources": [
+        "official",
+        "guide",
+        "wowhead"
+      ],
+      "note": "The outdoor portal is in the basement of the keep on northern Alcaz Island, northeast of Theramore in Dustwallow Marsh."
+    },
+    {
+      "id": "npc-255997",
+      "name": "Tidemistress Ca'zass",
+      "category": "boss",
+      "floor": "main",
+      "x": 49.0909,
+      "y": 18.9655,
+      "verification": "community-reference",
+      "approximate": true,
+      "sources": [
+        "guide",
+        "route"
+      ],
+      "note": "The naga wing is straight ahead from the entrance. Defeat the Strashaz here and loot Ca'zass's Head for Sully.",
+      "questIds": [
+        "96381"
+      ],
+      "npcId": "255997",
+      "aliases": [
+        "Strashaz Soldiers",
+        "Strashaz Enchantresses"
+      ],
+      "drops": true
+    },
+    {
+      "id": "npc-255391",
+      "name": "Overseer Wrex",
+      "category": "boss",
+      "floor": "main",
+      "x": 19.0909,
+      "y": 48.2759,
+      "verification": "community-reference",
+      "approximate": true,
+      "sources": [
+        "guide",
+        "route"
+      ],
+      "note": "Wrex patrols the round hall and its three side rooms. Loot the Overseer's Keyring to unlock the route onward.",
+      "npcId": "255391",
+      "aliases": [
+        "Overseer's Keyring"
+      ],
+      "drops": true
+    },
+    {
+      "id": "npc-256236",
+      "name": "The Questioner",
+      "category": "boss",
+      "floor": "main",
+      "x": 78.3636,
+      "y": 48.2759,
+      "verification": "community-reference",
+      "approximate": true,
+      "sources": [
+        "addon",
+        "wowhead",
+        "route"
+      ],
+      "note": "Leave him alive until you accept The Man in the Iron Chains from Mason Connery below. Then return here for the Ornate Shackle Key.",
+      "questIds": [
+        "96335"
+      ],
+      "npcId": "256236",
+      "aliases": [
+        "Ornate Shackle Key",
+        "Mason Connery"
+      ],
+      "drops": true
+    },
+    {
+      "id": "stairs-down",
+      "name": "Stairs to Maximum Security",
+      "category": "landmark",
+      "floor": "main",
+      "x": 78.3636,
+      "y": 75.6897,
+      "verification": "community-reference",
+      "approximate": true,
+      "sources": [
+        "guide",
+        "route"
+      ],
+      "note": "Switch to the Maximum Security Unit section for Katerina, Blazeroar, and Mason Connery."
+    },
+    {
+      "id": "stairs-up",
+      "name": "From the Main Unit",
+      "category": "landmark",
+      "floor": "security",
+      "x": 16.8182,
+      "y": 58.9655,
+      "verification": "community-reference",
+      "approximate": true,
+      "sources": [
+        "guide",
+        "route"
+      ],
+      "note": "Return upstairs to reach The Questioner after accepting The Man in the Iron Chains.",
+      "questIds": [
+        "96335"
+      ]
+    },
+    {
+      "id": "npc-257016",
+      "name": "Katerina the Cleaner",
+      "category": "boss",
+      "floor": "security",
+      "x": 42.7273,
+      "y": 58.9655,
+      "verification": "community-reference",
+      "approximate": true,
+      "sources": [
+        "guide",
+        "route"
+      ],
+      "note": "Katerina is in the guard hall on the lower route, before the final encounter.",
+      "npcId": "257016",
+      "drops": true
+    },
+    {
+      "id": "npc-255702",
+      "name": "Blazeroar",
+      "category": "boss",
+      "floor": "security",
+      "x": 67.7273,
+      "y": 58.9655,
+      "verification": "community-reference",
+      "approximate": true,
+      "sources": [
+        "guide",
+        "route"
+      ],
+      "note": "The encounter starts as Zarla Ober. Blazeroar drops Zarla's Journal. The Perfumed Note and Mason Connery are in this part of the prison.",
+      "questIds": [
+        "96772"
+      ],
+      "npcId": "255702",
+      "aliases": [
+        "Zarla Ober",
+        "Zarla's Journal"
+      ],
+      "drops": true
+    },
+    {
+      "id": "perfumed-note",
+      "name": "Perfumed Note",
+      "category": "quest-object",
+      "floor": "security",
+      "x": 89.5455,
+      "y": 58.9655,
+      "verification": "community-reference",
+      "approximate": true,
+      "sources": [
+        "addon",
+        "route",
+        "wowhead"
+      ],
+      "note": "Read the note near the final encounter to finish The Secret Prison and pick up Somber News.",
+      "questIds": [
+        "95262",
+        "95263"
+      ],
+      "aliases": [
+        "Varian Wrynn"
+      ]
+    },
+    {
+      "id": "mason-connery",
+      "name": "Mason Connery",
+      "category": "quest-giver",
+      "floor": "security",
+      "x": 67.7273,
+      "y": 25.3448,
+      "verification": "community-reference",
+      "approximate": true,
+      "sources": [
+        "addon",
+        "route",
+        "westfall"
+      ],
+      "note": "Pick up his quest after the final encounter while The Questioner is still alive. Once Mason is free, his next quest leads to Connery's Trunk upstairs in the Moonbrook inn in Westfall (43.4, 67.8).",
+      "questIds": [
+        "96335",
+        "96337"
+      ],
+      "aliases": [
+        "Connery's Trunk",
+        "Loose Floorboard",
+        "Document Box"
+      ]
+    }
+  ],
+  "sources": {
+    "official": {
+      "name": "Blizzard dungeon overview and suggested levels",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24301455/"
+    },
+    "addon": {
+      "name": "All The Things Alcaz Prison quest and encounter records",
+      "url": "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+    },
+    "guide": {
+      "name": "Method Alcaz Prison guide and Santiago Reyes floor plans",
+      "url": "https://www.method.gg/wow-forever/dungeons/alcaz-prison#dungeon-map"
+    },
+    "wowhead": {
+      "name": "Wowhead Forever strategy and quest guide",
+      "url": "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards"
+    },
+    "route": {
+      "name": "Alcaz Prison route and quest locations",
+      "url": "https://mygameacademia.com/forever/dungeon/alcaz-prison"
+    },
+    "observed": {
+      "name": "PatchVault player-recorded encounter drops",
+      "url": "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+    },
+    "journal": {
+      "name": "Forever client DungeonEncounter table",
+      "url": "https://wago.tools/db2/DungeonEncounter/csv?build=1.60.1.71037"
+    },
+    "westfall": {
+      "name": "Connery’s Trunk and Document Box guide",
+      "url": "https://warcraft.wiki.gg/wiki/Document_Box"
+    }
+  }
+}

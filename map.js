@@ -33,6 +33,10 @@ const zones = {
     sections: { approach: { guide: 'https://foreverdb.net/maps/1418' } },
   },
   "Zul'Farrak": { file: 'zulfarrak', guide: 'https://foreverdb.net/dungeon/209-zulfarrak', report: 'zulfarrak-map' },
+  'Alcaz Prison': {
+    file: 'alcaz-prison', report: 'alcaz-prison', attribution: 'Route diagram',
+    guide: 'https://www.method.gg/wow-forever/dungeons/alcaz-prison#dungeon-map', provider: 'Method floor plans',
+  },
   'Scarlet Monastery Library': { file: 'scarlet-monastery-library', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-library-map' },
   'Scarlet Monastery Armory': { file: 'scarlet-monastery-armory', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-armory-map' },
   'Scarlet Monastery Cathedral': { file: 'scarlet-monastery-cathedral', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-cathedral' },
@@ -398,10 +402,13 @@ async function show(zone, context = {}) {
     $('#zone-map').setAttribute('aria-label', `${zone} locations. Use arrow keys to pan and plus or minus to zoom.`);
     $('#map-note').textContent = typeof floor.note === 'string' ? floor.note : typeof data.note === 'string' ? data.note : 'Classic reference locations. Spawns may differ in Forever. Dashed markers are extra candidates.';
     const reference = zones[zone].sections?.[floor.id] || zones[zone];
+    const attribution = zones[zone].attribution;
+    $('#map-attribution').textContent = attribution || 'Map: © Blizzard';
     $('#map-guide').href = reference.guide;
     $('#map-guide').textContent = reference.provider || 'ForeverDB';
     $('#map-data-license').href = reference.terms || './research/desolace-map/LICENSE-GPL-3.0.txt';
     $('#map-data-license').textContent = reference.terms ? 'Source terms' : 'Data license';
+    $('#map-data-license').parentElement.hidden = Boolean(attribution);
     $('#map-sources').href = `./research/${zones[zone].report}/README.md`;
     $('#map-floor-control').hidden = data.floors.length < 2;
     $('#map-floor').replaceChildren(...data.floors.map(floor => {

@@ -28593,5 +28593,439 @@
         "relation": "Offered after"
       }
     ]
+  },
+  {
+    "id": "95194",
+    "zone": "Alcaz Prison",
+    "level": 53,
+    "name": "Our Man in Theramore",
+    "stage": "Alliance introduction",
+    "giver": "Master Mathias Shaw",
+    "coordinates": "78.4, 70.6",
+    "area": "Old Town, Stormwind City",
+    "objective": "Find the SI:7 agent on Theramore Isle.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 48 · Alliance",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=95194",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+      "https://nether.wowhead.com/forever/tooltip/npc/332"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "forever-records",
+      "minimumLevel": "addon",
+      "objective": "wowhead",
+      "giver": "addon",
+      "pickupLocation": "addon",
+      "faction": "addon"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "95196",
+    "zone": "Alcaz Prison",
+    "level": 53,
+    "name": "Watch Yer Back",
+    "stage": "Alliance introduction",
+    "giver": "Sully McCleary",
+    "coordinates": "66.2, 45.2",
+    "area": "Theramore Isle, Dustwallow Marsh",
+    "objective": "Meet Sully McCleary at his next location in Dustwallow Marsh to get the briefing.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 48 · Alliance · Initial Sully pickup on Theramore. The next meeting is by the graveyard.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=95196",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+      "https://nether.wowhead.com/forever/tooltip/npc/260146"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "forever-records",
+      "minimumLevel": "addon",
+      "objective": "wowhead",
+      "giver": "addon",
+      "pickupLocation": "addon",
+      "faction": "addon"
+    },
+    "prerequisites": [
+      {
+        "id": "95194",
+        "name": "Our Man in Theramore",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "95198",
+    "zone": "Alcaz Prison",
+    "level": 53,
+    "name": "The Return of the King?",
+    "stage": "Alliance introduction",
+    "giver": "Sully McCleary",
+    "coordinates": "63.4, 42.4",
+    "area": "Theramore Graveyard, Dustwallow Marsh",
+    "objective": "Use the SI:7 Disguise Kit, relieve the guard near Archmage Tervosh in the Theramore tower, and listen to the conversation.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 48 · Alliance",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=95198",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+      "https://nether.wowhead.com/forever/tooltip/npc/260271"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "forever-records",
+      "minimumLevel": "addon",
+      "objective": "wowhead",
+      "giver": "addon",
+      "pickupLocation": "addon",
+      "faction": "addon"
+    },
+    "prerequisites": [
+      {
+        "id": "95196",
+        "name": "Watch Yer Back",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96381",
+    "zone": "Alcaz Prison",
+    "level": 53,
+    "name": "A Bit of Wet Work",
+    "stage": "Dungeon objective",
+    "giver": "Sully McCleary",
+    "coordinates": "63.4, 42.4",
+    "area": "Theramore Graveyard, Dustwallow Marsh",
+    "objective": "Defeat 15 Strashaz Soldiers and eight Strashaz Enchantresses in Alcaz Prison. Loot Ca'zass's Head from Tidemistress Ca'zass and return to Sully.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 48 · Alliance",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=96381",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+      "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "wowhead",
+      "minimumLevel": "addon",
+      "objective": "wowhead",
+      "giver": "addon",
+      "pickupLocation": "addon",
+      "faction": "addon"
+    },
+    "prerequisites": [
+      {
+        "id": "95198",
+        "name": "The Return of the King?",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "95262",
+    "zone": "Alcaz Prison",
+    "level": 53,
+    "name": "The Secret Prison",
+    "stage": "Alliance prison investigation",
+    "giver": "Sully McCleary",
+    "coordinates": "63.4, 42.4",
+    "area": "Theramore Graveyard, Dustwallow Marsh",
+    "objective": "Enter Alcaz Prison and look for evidence of what happened to Varian Wrynn. Read the Perfumed Note near the final encounter.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 48 · Alliance",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=95262",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+      "https://mygameacademia.com/forever/dungeon/alcaz-prison"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "wowhead",
+      "minimumLevel": "addon",
+      "objective": "wowhead",
+      "giver": "addon",
+      "pickupLocation": "addon",
+      "faction": "addon"
+    },
+    "prerequisites": [
+      {
+        "id": "95198",
+        "name": "The Return of the King?",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "95263",
+    "zone": "Alcaz Prison",
+    "level": 53,
+    "name": "Somber News",
+    "stage": "Alliance prison investigation",
+    "giver": "Perfumed Note",
+    "coordinates": "",
+    "area": "Maximum Security Unit, Alcaz Prison",
+    "objective": "Bring the news from the Perfumed Note to Sully McCleary near the Theramore graveyard at 63.4, 42.4 in Dustwallow Marsh.",
+    "areaConfidence": "",
+    "notes": "Minimum level 48 · Alliance",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=95263",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+      "https://mygameacademia.com/forever/dungeon/alcaz-prison"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "wowhead",
+      "minimumLevel": "addon",
+      "objective": "wowhead",
+      "giver": "community",
+      "pickupLocation": "unknown",
+      "faction": "addon"
+    },
+    "prerequisites": [
+      {
+        "id": "95262",
+        "name": "The Secret Prison",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "95264",
+    "zone": "Alcaz Prison",
+    "level": 53,
+    "name": "Shaw Needs To Know",
+    "stage": "Alliance delivery",
+    "giver": "Sully McCleary",
+    "coordinates": "63.4, 42.4",
+    "area": "Theramore Graveyard, Dustwallow Marsh",
+    "objective": "Report what you learned to Master Mathias Shaw in Stormwind City.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 48 · Alliance",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=95264",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+      "https://nether.wowhead.com/forever/tooltip/npc/332"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "forever-records",
+      "minimumLevel": "addon",
+      "objective": "wowhead",
+      "giver": "addon",
+      "pickupLocation": "addon",
+      "faction": "addon"
+    },
+    "prerequisites": [
+      {
+        "id": "95263",
+        "name": "Somber News",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96772",
+    "zone": "Alcaz Prison",
+    "level": 53,
+    "name": "The Dragon's Journal",
+    "stage": "Dungeon objective",
+    "giver": "Archmage Lan'dalock",
+    "coordinates": "15.4, 73.8",
+    "area": "Dalaran, Alterac Mountains",
+    "objective": "Recover Zarla's Journal from Blazeroar and return it to Archmage Lan'dalock.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 46 · Alliance",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=96772",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+      "https://nether.wowhead.com/forever/tooltip/npc/20735",
+      "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "wowhead",
+      "minimumLevel": "addon",
+      "objective": "wowhead",
+      "giver": "addon",
+      "pickupLocation": "addon",
+      "faction": "addon"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "96335",
+    "zone": "Alcaz Prison",
+    "level": 53,
+    "name": "The Man in the Iron Chains",
+    "stage": "Mason Connery chain",
+    "giver": "Mason Connery",
+    "coordinates": "",
+    "area": "Maximum Security Unit, Alcaz Prison",
+    "objective": "Accept the quest from Mason near the final encounter while The Questioner is alive. Return to The Questioner, loot the Ornate Shackle Key, and bring it back to Mason.",
+    "areaConfidence": "",
+    "notes": "Minimum level 48 · Both factions · Save The Questioner for after accepting this quest.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=96335",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+      "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards",
+      "https://mygameacademia.com/forever/dungeon/alcaz-prison"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "wowhead",
+      "minimumLevel": "addon",
+      "objective": "wowhead",
+      "giver": "community",
+      "pickupLocation": "unknown",
+      "faction": "addon"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "96337",
+    "zone": "Alcaz Prison",
+    "level": 53,
+    "name": "More Valuable Than Gold",
+    "stage": "Mason Connery chain",
+    "giver": "Mason Connery",
+    "coordinates": "",
+    "area": "Maximum Security Unit, Alcaz Prison",
+    "objective": "Follow Mason's Note to the upstairs floorboards and Connery's Trunk in the Moonbrook inn, Westfall 43.4, 67.8. Recover the Document Box.",
+    "areaConfidence": "",
+    "notes": "Minimum level 48 · Both factions",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=96337",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+      "https://warcraft.wiki.gg/wiki/Document_Box",
+      "https://nether.wowhead.com/forever/tooltip/object/653847",
+      "https://nether.wowhead.com/forever/tooltip/object/611086"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "wowhead",
+      "minimumLevel": "addon",
+      "objective": "wowhead",
+      "giver": "community",
+      "pickupLocation": "unknown",
+      "faction": "addon"
+    },
+    "prerequisites": [
+      {
+        "id": "96335",
+        "name": "The Man in the Iron Chains",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96377",
+    "zone": "Alcaz Prison",
+    "level": 53,
+    "name": "State Secrets",
+    "stage": "State Secrets · Alliance option",
+    "giver": "Renzik “The Shiv”",
+    "coordinates": "78.4, 71.0",
+    "area": "Old Town, Stormwind City",
+    "objective": "Deliver the Document Box to Renzik for a Fractured Insignia.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 48 · Alliance · Optional hand-in instead of delivering this Document Box to Rix Xizzix.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=96377",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+      "https://nether.wowhead.com/forever/tooltip/npc/6946",
+      "https://warcraft.wiki.gg/wiki/Document_Box"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "forever-records",
+      "minimumLevel": "addon",
+      "objective": "wowhead",
+      "giver": "addon",
+      "pickupLocation": "addon",
+      "faction": "addon"
+    },
+    "prerequisites": [
+      {
+        "id": "96337",
+        "name": "More Valuable Than Gold",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96379",
+    "zone": "Alcaz Prison",
+    "level": 53,
+    "name": "State Secrets",
+    "stage": "State Secrets · Shared option",
+    "giver": "Rix Xizzix",
+    "coordinates": "28.4, 75.8",
+    "area": "Booty Bay, Stranglethorn Vale",
+    "objective": "Deliver the Document Box to Rix Xizzix for a Fractured Insignia.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 48 · Both factions · Alternative hand-in for the same Document Box.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=96379",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+      "https://warcraft.wiki.gg/wiki/Document_Box"
+    ],
+    "evidence": {
+      "quest": "wowhead",
+      "level": "forever-records",
+      "minimumLevel": "addon",
+      "objective": "wowhead",
+      "giver": "addon",
+      "pickupLocation": "addon",
+      "faction": "addon"
+    },
+    "prerequisites": [
+      {
+        "id": "96337",
+        "name": "More Valuable Than Gold",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
   }
 ]

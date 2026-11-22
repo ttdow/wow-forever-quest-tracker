@@ -8816,6 +8816,410 @@
           ]
         }
       ]
+    },
+    "Alcaz Prison": {
+      "id": 2994,
+      "build": "1.60.1.71037",
+      "source": "https://www.method.gg/wow-forever/dungeons/alcaz-prison",
+      "items": [
+        {
+          "id": "276735",
+          "name": "Tidesong Wand",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "71–133 Frost damage · 2.00s · 51.0 DPS",
+            "+3 Stamina",
+            "+4 Intellect",
+            "+0.5% critical strike"
+          ],
+          "source": "Tidemistress Ca'zass",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=276735",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276735",
+            "https://nether.wowhead.com/forever/tooltip/item/276735",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "276736",
+          "name": "Seascale Bracers",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Wrist",
+          "type": "Mail",
+          "stats": [
+            "136 Armor",
+            "+8 Stamina",
+            "+10 Spell Power",
+            "Spells pierce 3 Magical Resistance."
+          ],
+          "source": "Tidemistress Ca'zass",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=276736",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276736",
+            "https://nether.wowhead.com/forever/tooltip/item/276736",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "276737",
+          "name": "Cloak of the Tidemistress",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Back",
+          "type": "Cloth",
+          "stats": [
+            "37 Armor",
+            "+13 Stamina",
+            "+60 Armor",
+            "+0.5% hit"
+          ],
+          "source": "Tidemistress Ca'zass",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=276737",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276737",
+            "https://nether.wowhead.com/forever/tooltip/item/276737",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "276732",
+          "name": "Alcaz Willcrusher",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Two-Hand",
+          "type": "Mace",
+          "stats": [
+            "115–173 damage · 3.20s · 45.0 DPS",
+            "+20 Strength",
+            "+1% dodge",
+            "+1% critical strike"
+          ],
+          "source": "Overseer Wrex",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=276732",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276732",
+            "https://nether.wowhead.com/forever/tooltip/item/276732",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "276733",
+          "name": "Grips of Control",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Hands",
+          "type": "Plate",
+          "stats": [
+            "342 Armor",
+            "+12 Stamina",
+            "+12 Intellect",
+            "+5 mana per 5 sec."
+          ],
+          "source": "Overseer Wrex",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=276733",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276733",
+            "https://nether.wowhead.com/forever/tooltip/item/276733",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+          ]
+        },
+        {
+          "id": "276734",
+          "name": "Wrex's Pinky Ring",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Finger",
+          "type": "Accessory",
+          "stats": [
+            "+11 Agility",
+            "+9 Stamina",
+            "+9 health per 5 sec."
+          ],
+          "source": "Overseer Wrex",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=276734",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276734",
+            "https://nether.wowhead.com/forever/tooltip/item/276734",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "276738",
+          "name": "Katerina's Shanker",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "One-Hand",
+          "type": "Dagger",
+          "stats": [
+            "42–79 damage · 1.70s · 35.59 DPS",
+            "+7 Agility",
+            "+0.5% dodge",
+            "+21 Attack Power against Humanoids."
+          ],
+          "source": "Katerina the Cleaner",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=276738",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276738",
+            "https://nether.wowhead.com/forever/tooltip/item/276738",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "276739",
+          "name": "Cutthroat Chestguard",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Chest",
+          "type": "Mail",
+          "stats": [
+            "322 Armor",
+            "+20 Stamina",
+            "+1% hit",
+            "+32 Attack Power"
+          ],
+          "source": "Katerina the Cleaner",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=276739",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276739",
+            "https://nether.wowhead.com/forever/tooltip/item/276739",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "276740",
+          "name": "Sentimental Locket",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Neck",
+          "type": "Accessory",
+          "stats": [
+            "+7 Strength",
+            "+9 Shadow Resistance",
+            "+1% hit"
+          ],
+          "source": "Katerina the Cleaner",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=276740",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276740",
+            "https://nether.wowhead.com/forever/tooltip/item/276740",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "276744",
+          "name": "Zarla's Snack Pouch",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Trinket",
+          "type": "Accessory",
+          "stats": [
+            "+13 Nature Resistance",
+            "+11 Spell Power",
+            "Use: Summons a Black Dragon Whelp for a short time (15 min cooldown)."
+          ],
+          "source": "Blazeroar",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=276744",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276744",
+            "https://nether.wowhead.com/forever/tooltip/item/276744",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+          ]
+        },
+        {
+          "id": "276745",
+          "name": "Beastbond Robe",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "78 Armor",
+            "+16 Intellect",
+            "+16 Spirit",
+            "Spells pierce 5 Magical Resistance."
+          ],
+          "source": "Blazeroar",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=276745",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276745",
+            "https://nether.wowhead.com/forever/tooltip/item/276745",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "276746",
+          "name": "Defias Enforcer's Legguards",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "138 Armor",
+            "+20 Agility",
+            "+16 Fire Resistance",
+            "+1% hit"
+          ],
+          "source": "Blazeroar",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=276746",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276746",
+            "https://nether.wowhead.com/forever/tooltip/item/276746",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "276741",
+          "name": "Defias Enforcer's Shoulderpads",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Shoulder",
+          "type": "Leather",
+          "stats": [
+            "115 Armor",
+            "+13 Stamina",
+            "+0.5% critical strike",
+            "+28 Attack Power"
+          ],
+          "source": "The Questioner",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=276741",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276741",
+            "https://nether.wowhead.com/forever/tooltip/item/276741",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua"
+          ]
+        },
+        {
+          "id": "276742",
+          "name": "Girdle of Extracted Answers",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Waist",
+          "type": "Plate",
+          "stats": [
+            "313 Armor",
+            "+12 Strength",
+            "+15 Stamina",
+            "Deals 20 to 30 Physical damage on block."
+          ],
+          "source": "The Questioner",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=276742",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276742",
+            "https://nether.wowhead.com/forever/tooltip/item/276742",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "276743",
+          "name": "Fingerbreaker Stamp",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Trinket",
+          "type": "Accessory",
+          "stats": [
+            "+6 Defense",
+            "Increases Strength by 38 while affected by a Bleed."
+          ],
+          "source": "The Questioner",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=276743",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276743",
+            "https://nether.wowhead.com/forever/tooltip/item/276743",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        }
+      ]
     }
   }
 }

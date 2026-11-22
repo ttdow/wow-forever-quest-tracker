@@ -1,0 +1,50 @@
+{
+  "95194": {
+    "name": "Our Man in Theramore",
+    "tooltip": "<table><tr><td><b class=\"q\">Our Man in Theramore</b></td></tr></table><table><tr><td><br />Seek out the SI:7 agent stationed on Theramore Isle.<br /><br /><span class=\"q\">Requirements:</span><br /> - Find Shaw's Agent in Theramore</td></tr></table>"
+  },
+  "95196": {
+    "name": "Watch Yer Back",
+    "tooltip": "<table><tr><td><b class=\"q\">Watch Yer Back</b></td></tr></table><table><tr><td><br />Meet Sully McCleary in Dustwallow Marsh and learn more about your mission.<br /><br /><span class=\"q\">Requirements:</span><br /> - Speak with Sully</td></tr></table>"
+  },
+  "95198": {
+    "name": "The Return of the King?",
+    "tooltip": "<table><tr><td><b class=\"q\">The Return of the King?</b></td></tr></table><table><tr><td><br />Use the SI:7 Disguise Kit to eavesdrop on Jaina and her inner circle at the Theramore Mage Tower.<br /><br /><span class=\"q\">Requirements:</span><br /> - Relieve Jaina's guard and eavesdrop</td></tr></table>"
+  },
+  "96381": {
+    "name": "A Bit of Wet Work",
+    "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><b class=\"q\">A Bit of Wet Work</b></td><th><b class=\"q0\">Level 53</b></th></tr></table></td></tr></table><table><tr><td><br />Enter the Alcaz Prison and slay 15 &nbsp;Strashasz Soldiers, 8 Strashaz Enchantresses, and bring the head of Tidemistress Ca'zass to Sully McCleary.<br /><br /><span class=\"q\">Requirements:</span><br /> - Strashaz Soldier x 15<br /> - Strashaz Enchantress x 8<br /> - Ca'zass's Head</td></tr></table>"
+  },
+  "95262": {
+    "name": "The Secret Prison",
+    "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><b class=\"q\">The Secret Prison</b></td><th><b class=\"q0\">Level 53</b></th></tr></table></td></tr></table><table><tr><td><br />Enter Alcaz Prison and learn what became of the King of Stormwind.<br /><br /><span class=\"q\">Requirements:</span><br /> - Explore Alcaz Prison<br /> - Learn what became of Varian Wrynn</td></tr></table>"
+  },
+  "95263": {
+    "name": "Somber News",
+    "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><b class=\"q\">Somber News</b></td><th><b class=\"q0\">Level 53</b></th></tr></table></td></tr></table><table><tr><td><br />Return to Sully McCleary in Dustwallow Marsh.</td></tr></table>"
+  },
+  "95264": {
+    "name": "Shaw Needs To Know",
+    "tooltip": "<table><tr><td><b class=\"q\">Shaw Needs To Know</b></td></tr></table><table><tr><td><br />Bring the news to Matthias Shaw in Stormwind.</td></tr></table>"
+  },
+  "96772": {
+    "name": "The Dragon's Journal",
+    "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><b class=\"q\">The Dragon's Journal</b></td><th><b class=\"q0\">Level 53</b></th></tr></table></td></tr></table><table><tr><td><br />Recover Zarla's Journal from the depths of Alcaz Prison.<br /><br /><span class=\"q\">Requirements:</span><br /> - Zarla's Journal</td></tr></table>"
+  },
+  "96335": {
+    "name": "The Man in the Iron Chains",
+    "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><b class=\"q\">The Man in the Iron Chains</b></td><th><b class=\"q0\">Level 53</b></th></tr></table></td></tr></table><table><tr><td><br />Recover the Alcaz Shackle Key from The Questioner in Alcaz Prison.<br /><br /><span class=\"q\">Requirements:</span><br /> - Ornate Shackle Key</td></tr></table>"
+  },
+  "96337": {
+    "name": "More Valuable Than Gold",
+    "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><b class=\"q\">More Valuable Than Gold</b></td><th><b class=\"q0\">Level 53</b></th></tr></table></td></tr></table><table><tr><td><br />Use the note provided by Mason Connery to find his hidden treasure.<br /><br /><span class=\"q\">Requirements:</span><br /> - Find Mason Connery's Treasure</td></tr></table>"
+  },
+  "96377": {
+    "name": "State Secrets",
+    "tooltip": "<table><tr><td><b class=\"q\">State Secrets</b></td></tr></table><table><tr><td><br />&lt;It occurs to you that Shaw's right-hand goblin might be interested to see the documents you've recovered from Westfall. Ask him if any of these documents make any sense to him.&gt;<br /><br /><span class=\"q\">Requirements:</span><br /> - Document Box</td></tr></table>"
+  },
+  "96379": {
+    "name": "State Secrets",
+    "tooltip": "<table><tr><td><b class=\"q\">State Secrets</b></td></tr></table><table><tr><td><br />&lt;It occurs to you that a goblin who deals in asset recovery might be very interested to see the documents you've recovered from Westfall. Ask him if any of these documents make any sense to him... and more importantly, what he might be willing to pay you for them.&gt;<br /><br /><span class=\"q\">Requirements:</span><br /> - Document Box</td></tr></table>"
+  }
+}

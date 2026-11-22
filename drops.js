@@ -1,7 +1,7 @@
 (() => {
 'use strict';
 const $ = selector => document.querySelector(selector);
-const instances = new Set(['Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Razorfen Downs', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'Scarlet Monastery Cathedral', 'The Drowned City', "Krol'dok Stronghold", 'Uldaman', 'Maraudon', "Zul'Farrak"]);
+const instances = new Set(['Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Razorfen Downs', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'Scarlet Monastery Cathedral', 'The Drowned City', "Krol'dok Stronghold", 'Uldaman', 'Maraudon', "Zul'Farrak", 'Alcaz Prison']);
 const panel = $('#drops-panel');
 const state = { zone: '', data: null, pending: null, openCards: new Set() };
 
@@ -124,7 +124,7 @@ function itemRow(item) {
     const link = document.createElement('a');
     link.className = 'drop-name';
     link.dataset.quality = item.quality;
-    link.href = `https://foreverdb.net/item/${item.id}`;
+    link.href = item.url || `https://foreverdb.net/item/${item.id}`;
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
     link.textContent = item.name;
