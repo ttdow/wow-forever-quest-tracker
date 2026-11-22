@@ -1,0 +1,618 @@
+{
+  "zone": "Zul'Farrak",
+  "updated": "2026-11-21",
+  "map": {
+    "appearance": "dungeon",
+    "image": "./assets/maps/zulfarrak.webp",
+    "width": 1357,
+    "height": 1495,
+    "worldProjection": {
+      "originX": 1936.2,
+      "originY": 1313.89,
+      "pixelsPerYard": 2.0
+    },
+    "source": "https://foreverdb.net/dungeon/209-zulfarrak",
+    "attribution": "World of Warcraft © Blizzard Entertainment; client map via ForeverDB",
+    "coordinateSystem": "guide-image"
+  },
+  "note": "Classic spawn references on a Forever client map. The Spellbound War Chest shows the approximate pyramid-top location reported by a Forever player.",
+  "points": [
+    {
+      "id": "entrance-924",
+      "name": "Zul'Farrak entrance",
+      "category": "entrance",
+      "x": 69.5431,
+      "y": 96.7933,
+      "world": {
+        "map": 209,
+        "x": 1212.67,
+        "y": 842.04,
+        "z": 8.93346
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-db",
+        "fdb-map"
+      ],
+      "areaTrigger": 924,
+      "note": "Arrival point inside the instance. The portal is in northwestern Tanaris at 38.73, 19.90."
+    },
+    {
+      "id": "npc-8127",
+      "name": "Antu'sul",
+      "category": "boss",
+      "x": 94.8412,
+      "y": 16.1008,
+      "world": {
+        "map": 209,
+        "x": 1815.846191,
+        "y": 670.392273,
+        "z": 15.022971
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "kazdor",
+        "fdb-map"
+      ],
+      "npcId": "8127",
+      "spawnGuid": 2090283,
+      "drops": true,
+      "note": "Antu'sul is in the cave. On the solo Rogue quest, use a Vile Concoction in his cauldron and recover the Offering of Bone from his satchel.",
+      "aliases": [
+        "Offering of Bone",
+        "Vile Concoction"
+      ],
+      "questIds": [
+        "80411"
+      ]
+    },
+    {
+      "id": "scarab-area",
+      "name": "Scarab Shells area",
+      "category": "quest-material",
+      "x": 61.2127,
+      "y": 16.1641,
+      "world": {
+        "map": 209,
+        "x": 1815.373535,
+        "y": 898.561951,
+        "z": 8.960156
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "forever-quests",
+        "fdb-map"
+      ],
+      "npcId": "7269",
+      "spawnGuid": 2090214,
+      "note": "Loot Uncracked Scarab Shells from scarabs around this courtyard and elsewhere in the dungeon.",
+      "questIds": [
+        "2865"
+      ]
+    },
+    {
+      "id": "npc-7272",
+      "name": "Theka the Martyr",
+      "category": "boss",
+      "x": 67.0409,
+      "y": 21.098,
+      "world": {
+        "map": 209,
+        "x": 1778.4924,
+        "y": 859.0172,
+        "z": 9.001786
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "forever-quests",
+        "fdb-map"
+      ],
+      "npcId": "7272",
+      "spawnGuid": 2090250,
+      "drops": true,
+      "moving": true,
+      "movementNote": "Patrols the scarab courtyard. The pin marks his Classic spawn.",
+      "note": "Drops the First Mosh'aru Tablet.",
+      "aliases": [
+        "First Mosh'aru Tablet"
+      ],
+      "questIds": [
+        "3527"
+      ]
+    },
+    {
+      "id": "npc-7271",
+      "name": "Witch Doctor Zum'rah",
+      "category": "boss",
+      "x": 43.888,
+      "y": 3.2143,
+      "world": {
+        "map": 209,
+        "x": 1912.173218,
+        "y": 1016.10968,
+        "z": 11.598835
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "quest-research",
+        "kazdor",
+        "fdb-map"
+      ],
+      "npcId": "7271",
+      "spawnGuid": 2090249,
+      "drops": true,
+      "note": "Drops Zum'rah's Head. On the solo Rogue quest, use the second Vile Concoction in his cauldron, recover the Ward of the Dead, then use it to reveal the grave with the Offering of Flesh.",
+      "aliases": [
+        "Offering of Flesh",
+        "Ward of the Dead",
+        "Vile Concoction"
+      ],
+      "questIds": [
+        "96770",
+        "80411"
+      ]
+    },
+    {
+      "id": "object-141596",
+      "name": "Witch Doctor's Chest",
+      "category": "dungeon-chest",
+      "x": 43.6133,
+      "y": 3.76,
+      "world": {
+        "map": 209,
+        "x": 1908.09375,
+        "y": 1017.973877,
+        "z": 11.515286
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "chest",
+        "fdb-map"
+      ],
+      "objectId": "141596",
+      "spawnGuid": 2090050,
+      "note": "Treasure chest beside Zum'rah's cauldron in the graveyard. The location comes from the Classic spawn record."
+    },
+    {
+      "id": "npc-7274",
+      "name": "Sandfury Executioner",
+      "category": "quest-material",
+      "x": 3.5375,
+      "y": 6.6089,
+      "world": {
+        "map": 209,
+        "x": 1886.798584,
+        "y": 1289.888062,
+        "z": 45.962513
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "classic-db",
+        "fdb-map"
+      ],
+      "npcId": "7274",
+      "spawnGuid": 2090251,
+      "drops": false,
+      "note": "The Executioner at the top of the pyramid is one source of Troll Temper. Other Sandfury trolls throughout the instance also drop it. Open a Troll Cage here to start the pyramid event.",
+      "aliases": [
+        "Grand Pyramid",
+        "Troll Cages"
+      ],
+      "questIds": [
+        "3042"
+      ]
+    },
+    {
+      "id": "npc-7796",
+      "name": "Nekrum Gutchewer",
+      "category": "boss",
+      "x": 16.5718,
+      "y": 7.208,
+      "world": {
+        "map": 209,
+        "x": 1882.32,
+        "y": 1201.45,
+        "z": 8.96
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "forever-quests",
+        "fdb-map"
+      ],
+      "drops": true,
+      "npcId": "7796",
+      "scriptId": 2609,
+      "note": "Spawns at the foot of the pyramid during the final wave of the group event and drops Nekrum's Medallion.",
+      "questIds": [
+        "2991"
+      ]
+    },
+    {
+      "id": "npc-7275",
+      "name": "Shadowpriest Sezz'ziz",
+      "category": "boss",
+      "x": 16.5718,
+      "y": 7.208,
+      "world": {
+        "map": 209,
+        "x": 1882.32,
+        "y": 1201.45,
+        "z": 8.96
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "forever-quests",
+        "fdb-map"
+      ],
+      "drops": true,
+      "npcId": "7275",
+      "scriptId": 2609,
+      "scriptedSpawn": {
+        "x": 1883.98,
+        "y": 1201.66,
+        "z": 8.96
+      },
+      "note": "Spawns beside Nekrum in the final wave of the group event. Both bosses share the encounter marker."
+    },
+    {
+      "id": "npc-7604",
+      "name": "Sergeant Bly",
+      "category": "boss",
+      "x": 2.1553,
+      "y": 7.1321,
+      "world": {
+        "map": 209,
+        "x": 1882.887329,
+        "y": 1299.266357,
+        "z": 48.38435
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "forever-quests",
+        "fdb-map"
+      ],
+      "npcId": "7604",
+      "spawnGuid": 2090252,
+      "drops": true,
+      "note": "This pin marks his cage at the top of the pyramid. After the pyramid event, speak to Bly and defeat him for the Divino-matic Rod.",
+      "questIds": [
+        "2768"
+      ]
+    },
+    {
+      "id": "spellbound-war-chest",
+      "name": "Spellbound War Chest",
+      "category": "quest-chest",
+      "x": 2.1553,
+      "y": 7.1321,
+      "world": {
+        "map": 209,
+        "x": 1882.887329,
+        "y": 1299.266357,
+        "z": 48.38435
+      },
+      "verification": "player-reported",
+      "sources": [
+        "kazdor",
+        "classic-sql",
+        "fdb-map"
+      ],
+      "approximate": true,
+      "note": "On the solo Rogue quest, look for this chest atop the pyramid near Nekrum. Loot the Hollow Emblem from the Sandfury Cache on the pyramid courtyard wall. Combine the two offerings, then use the Blood Magic Essence with the Hollow Emblem to open the chest.",
+      "aliases": [
+        "Grand Pyramid",
+        "Sandfury Cache",
+        "Hollow Emblem",
+        "Emblem of Blood Magic",
+        "Talisman of Kazdor"
+      ],
+      "questIds": [
+        "80411"
+      ]
+    },
+    {
+      "id": "npc-7795",
+      "name": "Hydromancer Velratha",
+      "category": "boss",
+      "x": 13.0863,
+      "y": 34.206,
+      "world": {
+        "map": 209,
+        "x": 1680.51,
+        "y": 1225.0992,
+        "z": 8.987229
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "forever-quests",
+        "fdb-map"
+      ],
+      "npcId": "7795",
+      "spawnGuid": 2090257,
+      "drops": true,
+      "moving": true,
+      "movementNote": "Patrols near Gahz'rilla's pool. The pin marks her Classic spawn.",
+      "note": "Drops the Tiara of the Deep and Second Mosh'aru Tablet.",
+      "aliases": [
+        "Second Mosh'aru Tablet"
+      ],
+      "questIds": [
+        "2846",
+        "3527"
+      ]
+    },
+    {
+      "id": "object-141832",
+      "name": "Gong of Zul'Farrak",
+      "category": "quest-object",
+      "x": 20.9295,
+      "y": 38.1657,
+      "world": {
+        "map": 209,
+        "x": 1650.911499,
+        "y": 1171.883667,
+        "z": 10.901013
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "forever-quests",
+        "fdb-map"
+      ],
+      "objectId": "141832",
+      "spawnGuid": 2090051,
+      "note": "Ring the gong with the Mallet of Zul'Farrak to summon Gahz'rilla.",
+      "questIds": [
+        "2770"
+      ]
+    },
+    {
+      "id": "npc-7273",
+      "name": "Gahz'rilla",
+      "category": "boss",
+      "x": 18.175,
+      "y": 35.9411,
+      "world": {
+        "map": 209,
+        "x": 1667.540649,
+        "y": 1190.572388,
+        "z": -2.804439
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "forever-quests",
+        "fdb-map"
+      ],
+      "drops": true,
+      "npcId": "7273",
+      "scriptId": 2488,
+      "note": "The pin marks the scripted summon in the pool. Gahz'rilla moves out of the water and drops the Electrified Scale.",
+      "questIds": [
+        "2770"
+      ]
+    },
+    {
+      "id": "npc-7267",
+      "name": "Chief Ukorz Sandscalp",
+      "category": "boss",
+      "x": 43.5638,
+      "y": 28.0224,
+      "world": {
+        "map": 209,
+        "x": 1726.732666,
+        "y": 1018.309875,
+        "z": 54.972313
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "fdb-map"
+      ],
+      "npcId": "7267",
+      "spawnGuid": 2090176,
+      "drops": true,
+      "note": "After the pyramid event, Weegli Blastfuse can open the gate to this area."
+    },
+    {
+      "id": "npc-7797",
+      "name": "Ruuzlu",
+      "category": "boss",
+      "x": 43.97,
+      "y": 27.5267,
+      "world": {
+        "map": 209,
+        "x": 1730.437988,
+        "y": 1015.553589,
+        "z": 54.961262
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "fdb-map"
+      ],
+      "npcId": "7797",
+      "spawnGuid": 2090258,
+      "drops": true,
+      "note": "Fights alongside Chief Ukorz Sandscalp."
+    },
+    {
+      "id": "npc-10080-2090288",
+      "name": "Sandarr Dunereaver",
+      "category": "rare",
+      "x": 48.4842,
+      "y": 55.8673,
+      "world": {
+        "map": 209,
+        "x": 1518.592285,
+        "y": 984.924805,
+        "z": 9.126776
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "fdb-map"
+      ],
+      "npcId": "10080",
+      "spawnGuid": 2090288,
+      "drops": true,
+      "poolId": 46101,
+      "note": "One of two possible spawn sites. This site has a recorded patrol."
+    },
+    {
+      "id": "npc-10080-2090289",
+      "name": "Sandarr Dunereaver",
+      "category": "rare",
+      "x": 60.9325,
+      "y": 36.7478,
+      "world": {
+        "map": 209,
+        "x": 1661.51,
+        "y": 900.463,
+        "z": 8.91101
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "fdb-map"
+      ],
+      "npcId": "10080",
+      "spawnGuid": 2090289,
+      "drops": true,
+      "poolId": 46101,
+      "note": "One of two possible spawn sites."
+    },
+    {
+      "id": "npc-10081-2090291",
+      "name": "Dustwraith",
+      "category": "rare",
+      "x": 18.7237,
+      "y": 41.3017,
+      "world": {
+        "map": 209,
+        "x": 1627.47,
+        "y": 1186.85,
+        "z": 8.87693
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "fdb-map"
+      ],
+      "npcId": "10081",
+      "spawnGuid": 2090291,
+      "drops": true,
+      "poolId": 46102,
+      "note": "One of the documented Classic spawn sites. This site has a local wander radius."
+    },
+    {
+      "id": "npc-10081-2090292",
+      "name": "Dustwraith",
+      "category": "rare",
+      "x": 54.6544,
+      "y": 16.5151,
+      "world": {
+        "map": 209,
+        "x": 1812.75,
+        "y": 943.06,
+        "z": 8.96523
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "fdb-map"
+      ],
+      "npcId": "10081",
+      "spawnGuid": 2090292,
+      "drops": true,
+      "poolId": 46102,
+      "note": "One of the documented Classic spawn sites."
+    },
+    {
+      "id": "npc-10081-2090293",
+      "name": "Dustwraith",
+      "category": "rare",
+      "x": 17.3943,
+      "y": 3.2107,
+      "world": {
+        "map": 209,
+        "x": 1912.2,
+        "y": 1195.87,
+        "z": 8.99582
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "fdb-map"
+      ],
+      "npcId": "10081",
+      "spawnGuid": 2090293,
+      "drops": true,
+      "poolId": 46102,
+      "note": "One of the documented Classic spawn sites."
+    },
+    {
+      "id": "npc-10082-2090296",
+      "name": "Zerillis",
+      "category": "rare",
+      "x": 63.739,
+      "y": 30.5405,
+      "world": {
+        "map": 209,
+        "x": 1707.91,
+        "y": 881.421,
+        "z": 11.9567
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "classic-sql",
+        "fdb-map"
+      ],
+      "npcId": "10082",
+      "spawnGuid": 2090296,
+      "drops": true,
+      "poolId": 46103,
+      "note": "Optional rare with a patrol. The pin marks the Classic spawn."
+    }
+  ],
+  "sources": {
+    "fdb-map": {
+      "name": "ForeverDB client minimap and projection",
+      "url": "https://foreverdb.net/data/dungeons/209.json"
+    },
+    "classic-sql": {
+      "name": "CMaNGOS Zul'Farrak spawn and encounter script",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/209_zulfarrak.sql"
+    },
+    "classic-db": {
+      "name": "CMaNGOS Classic spawn and loot database",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "forever-quests": {
+      "name": "Wowhead Forever Zul'Farrak guide",
+      "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards"
+    },
+    "quest-research": {
+      "name": "Tracker Zul'Farrak quest research",
+      "url": "https://github.com/ttdow/wow-forever-quest-tracker/blob/main/research/zulfarrak/README.md"
+    },
+    "kazdor": {
+      "name": "Forever quest and player walkthrough",
+      "url": "https://www.wowhead.com/forever/quest=80411/the-talisman-of-kazdor#comments"
+    },
+    "chest": {
+      "name": "Witch Doctor’s Chest in the Forever object catalog",
+      "url": "https://azeroth.wiki/forever/objects/witch-doctor-s-chest"
+    }
+  }
+}

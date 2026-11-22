@@ -1,0 +1,49 @@
+{
+  "checked": "2026-11-21",
+  "dungeonId": 209,
+  "build": "1.60.1.71037",
+  "sources": {
+    "fdb-map": {
+      "name": "ForeverDB client minimap and projection",
+      "url": "https://foreverdb.net/data/dungeons/209.json"
+    },
+    "classic-sql": {
+      "name": "CMaNGOS Zul'Farrak spawn and encounter script",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/209_zulfarrak.sql"
+    },
+    "classic-db": {
+      "name": "CMaNGOS Classic spawn and loot database",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "forever-quests": {
+      "name": "Wowhead Forever Zul'Farrak guide",
+      "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards"
+    },
+    "quest-research": {
+      "name": "Tracker Zul'Farrak quest research",
+      "url": "https://github.com/ttdow/wow-forever-quest-tracker/blob/main/research/zulfarrak/README.md"
+    },
+    "kazdor": {
+      "name": "Forever quest and player walkthrough",
+      "url": "https://www.wowhead.com/forever/quest=80411/the-talisman-of-kazdor#comments"
+    },
+    "chest": {
+      "name": "Witch Doctor’s Chest in the Forever object catalog",
+      "url": "https://azeroth.wiki/forever/objects/witch-doctor-s-chest"
+    }
+  },
+  "image": {
+    "url": "https://foreverdb.net/img/dungeonmaps/209/1.webp",
+    "width": 1357,
+    "height": 1495,
+    "sha256": "e74246db634c136822126d3cd77c5cdb9212e6b9fcc351576ee3537573684ba6"
+  },
+  "mapMetadataSha256": "4c5ef8140703206098dabc5c7fcfad65ce047543d3a48c2e8d881ce20d443b27",
+  "classicSnapshot": {
+    "release": "2026-11-21T13:50:52Z",
+    "archiveSha256": "c33cde85e096c141af05fe95517128e92eeeaf3b473a480ff658623333053eef",
+    "databaseSha256": "bfcfa547ca56e0dcaa52b7d7e483f43f22badf5805cab2c1568e902aa5eabc57",
+    "sqlRevision": "09000ea8d7333856727204e4e2d30f772149b7a8",
+    "sqlSha256": "49966f8d290f88d164731140a6af2f2dd5a497c5fb7e3a0ebd990de783cec098"
+  }
+}

@@ -30,6 +30,7 @@ const zones = {
     file: 'uldaman', guide: 'https://foreverdb.net/dungeon/70-uldaman', report: 'uldaman-map', defaultHiddenLayers: ['quest-material'],
     sections: { approach: { guide: 'https://foreverdb.net/maps/1418' } },
   },
+  "Zul'Farrak": { file: 'zulfarrak', guide: 'https://foreverdb.net/dungeon/209-zulfarrak', report: 'zulfarrak-map' },
   'Scarlet Monastery Library': { file: 'scarlet-monastery-library', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-library-map' },
   'Scarlet Monastery Armory': { file: 'scarlet-monastery-armory', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-armory-map' },
   'Scarlet Monastery Cathedral': { file: 'scarlet-monastery-cathedral', guide: 'https://foreverdb.net/dungeon/189-scarlet-monastery', report: 'scarlet-monastery-cathedral' },

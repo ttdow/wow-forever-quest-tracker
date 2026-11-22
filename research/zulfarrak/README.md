@@ -37,7 +37,7 @@ Fool Me Twice → The Talisman of Kazdor is recorded by Questie as observed offe
 
 Pickups show their actual areas in Tanaris, Thousand Needles, Dustwallow, Ironforge, Stormwind, the Hinterlands, Blasted Lands, and Dalaran/Ravenholdt in Alterac Mountains. Klockmort and Bink use approximate **Ironforge city-map** coordinates from the addon, not broad Dun Morogh coordinates. Fahrad uses a Classic NPC reference at approximately **84.5, 80.3** in Alterac Mountains. Older outdoor pickup coordinates remain references, not newly measured Forever positions.
 
-Gahz'rilla's note describes the party's Mallet of Zul'Farrak/gong requirement. Preparing the mallet is an item process, not a separate quest to invent. There is no speculative dungeon pickup pin or map in this change.
+Gahz'rilla's note describes the party's Mallet of Zul'Farrak requirement for ringing the gong. The [dungeon map](../zulfarrak-map/README.md) marks the gong and the summon position.
 
 ## Boss equipment
 
