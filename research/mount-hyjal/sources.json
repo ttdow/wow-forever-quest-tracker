@@ -1,0 +1,2934 @@
+{
+  "reviewedOn": "2026-11-23",
+  "questieRevision": "47a4756b775e8c73687fd3066d6c13f0bc43a55e",
+  "indexes": {
+    "fc": "https://foreverchanges.pro/quests/mount-hyjal",
+    "legacy": "https://legacyofwarcraft.com/db/forever/quests/mount-hyjal.html",
+    "pc": "https://pullcall.com/forever/db/zone/616-hyjal",
+    "xp": "https://www.forever-xp.com/quests/zone/mount-hyjal/",
+    "fdb": "https://foreverdb.net/quests/mount-hyjal",
+    "outpost": "https://www.wofwforever.com/en/zones/mount-hyjal/",
+    "og": "https://outof.games/realms/forever/quests/zone/616-mount-hyjal/",
+    "polestar": "https://polestar.guide/guides/50-60/mount-hyjal",
+    "icy": "https://db.icy-veins.com/wow-forever/quests/zones/mount-hyjal/"
+  },
+  "candidates": [
+    {
+      "id": 84138,
+      "name": "Frosty Favors",
+      "decision": "Quest starts and takes place in neighboring zone or separate dungeon",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=84138/frosty-favors"
+    },
+    {
+      "id": 84146,
+      "name": "Red Bag Blues",
+      "decision": "Quest starts and takes place in neighboring zone or separate dungeon",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=84146/red-bag-blues"
+    },
+    {
+      "id": 84211,
+      "name": "Poacher's Den",
+      "decision": "Quest starts and takes place in neighboring zone or separate dungeon",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=84211/poachers-den"
+    },
+    {
+      "id": 84212,
+      "name": "Bookin' it Back",
+      "decision": "Quest starts and takes place in neighboring zone or separate dungeon",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=84212/bookin-it-back"
+    },
+    {
+      "id": 90487,
+      "name": "Ancient Allies",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/90487/ancient-allies"
+    },
+    {
+      "id": 90647,
+      "name": "The Staff of the Mountain",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/90647/the-staff-of-the-mountain"
+    },
+    {
+      "id": 90702,
+      "name": "Disturbed Grave",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/90702-disturbed-grave"
+    },
+    {
+      "id": 90750,
+      "name": "More Work?",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/90750"
+    },
+    {
+      "id": 90854,
+      "name": "Leather for Inclement Weather",
+      "decision": "Horde-only",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/90854-leather-for-inclement-weather"
+    },
+    {
+      "id": 90865,
+      "name": "Eyes of the Watchers",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/90865/eyes-of-the-watchers"
+    },
+    {
+      "id": 91564,
+      "name": "Itching for a Fixing",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/91564-itching-for-a-fixing"
+    },
+    {
+      "id": 91688,
+      "name": "To the Summit of Eternity",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91688/to-the-summit-of-eternity"
+    },
+    {
+      "id": 91696,
+      "name": "Open Season",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "og",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/91696"
+    },
+    {
+      "id": 91697,
+      "name": "Meet the Elders",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91697/meet-the-elders"
+    },
+    {
+      "id": 91698,
+      "name": "Barkskin Breakout",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/91698-barkskin-breakout"
+    },
+    {
+      "id": 91754,
+      "name": "Rub Some Dirt In It",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "fdb",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91754/rub-some-dirt-in-it"
+    },
+    {
+      "id": 91755,
+      "name": "Leaves to Ligatures",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91755/leaves-to-ligatures"
+    },
+    {
+      "id": 91770,
+      "name": "Bark Bite",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91770/bark-bite"
+    },
+    {
+      "id": 91794,
+      "name": "Flags of Our Forebears",
+      "decision": "Horde-only",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91794/flags-of-our-forebears"
+    },
+    {
+      "id": 91877,
+      "name": "Demon Hunter's Hunter",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://zephras.com/forever/enUS/quest/91877/"
+    },
+    {
+      "id": 91881,
+      "name": "The Western Post",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91881/the-western-post"
+    },
+    {
+      "id": 91882,
+      "name": "The Grand Alliance",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=91882/the-grand-alliance"
+    },
+    {
+      "id": 91883,
+      "name": "Spear of the Skylord",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91883/spear-of-the-skylord"
+    },
+    {
+      "id": 91923,
+      "name": "Celastrus the Bitter",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91923/celastrus-the-bitter"
+    },
+    {
+      "id": 91952,
+      "name": "The Source of the Corruption",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=91952/the-source-of-the-corruption"
+    },
+    {
+      "id": 92008,
+      "name": "Premiere Parts",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92008/premiere-parts"
+    },
+    {
+      "id": 92009,
+      "name": "Crate Expectations",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92009/crate-expectations"
+    },
+    {
+      "id": 92011,
+      "name": "Rubble Rummage",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92011/rubble-rummage"
+    },
+    {
+      "id": 92014,
+      "name": "Fox Hole",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/92014-fox-hole"
+    },
+    {
+      "id": 92015,
+      "name": "Area Denial Skunks",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/92015-area-denial-skunks"
+    },
+    {
+      "id": 92016,
+      "name": "Rootwork",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92016/rootwork"
+    },
+    {
+      "id": 92017,
+      "name": "Cleansing Winds",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92017/cleansing-winds"
+    },
+    {
+      "id": 92020,
+      "name": "Hol'anyee's Big Book of Big Lizards",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=92020/holanyees-big-book-of-big-lizards"
+    },
+    {
+      "id": 92064,
+      "name": "Tree Free",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92064/tree-free"
+    },
+    {
+      "id": 92094,
+      "name": "Rocket Gnomes",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/92094-rocket-gnomes"
+    },
+    {
+      "id": 92100,
+      "name": "Anywhere But Here",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92100/anywhere-but-here"
+    },
+    {
+      "id": 92101,
+      "name": "Lifted by Legacy",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92101/lifted-by-legacy"
+    },
+    {
+      "id": 92102,
+      "name": "Praise",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/92102-praise"
+    },
+    {
+      "id": 92111,
+      "name": "Of Friend and Fur",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92111/of-friend-and-fur"
+    },
+    {
+      "id": 92147,
+      "name": "Highfeather Helper",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92147/highfeather-helper"
+    },
+    {
+      "id": 92169,
+      "name": "Paying Back the Pact",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92169/paying-back-the-pact"
+    },
+    {
+      "id": 92171,
+      "name": "Taking to New Heights",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92171/taking-to-new-heights"
+    },
+    {
+      "id": 92189,
+      "name": "Back to the Grind",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/92189-back-to-the-grind"
+    },
+    {
+      "id": 92317,
+      "name": "Stolen Life",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92317/stolen-life"
+    },
+    {
+      "id": 92328,
+      "name": "Siegecraft",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92328/siegecraft"
+    },
+    {
+      "id": 92329,
+      "name": "Drum Up Trouble",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92329/drum-up-trouble"
+    },
+    {
+      "id": 92335,
+      "name": "Ashes of the Legion Ascent",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92335/ashes-of-the-legion-ascent"
+    },
+    {
+      "id": 92343,
+      "name": "Get to the Roots of It",
+      "decision": "Horde-only",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=92343/get-to-the-roots-of-it"
+    },
+    {
+      "id": 92344,
+      "name": "Get to the Roots of It",
+      "decision": "Quest starts and takes place in neighboring zone or separate dungeon",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=92344/get-to-the-roots-of-it"
+    },
+    {
+      "id": 92433,
+      "name": "Now We're Cooking",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/92433-now-were-cooking"
+    },
+    {
+      "id": 92446,
+      "name": "Head Scratcher",
+      "decision": "Horde-only",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92446/head-scratcher"
+    },
+    {
+      "id": 92449,
+      "name": "Blight No More",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92449/blight-no-more"
+    },
+    {
+      "id": 92500,
+      "name": "A Bit of the Sky",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92500/a-bit-of-the-sky"
+    },
+    {
+      "id": 92521,
+      "name": "The Demon Tower",
+      "decision": "Level-zero record with no corroborated pickup",
+      "indexes": [
+        "fc",
+        "legacy",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92521/the-demon-tower"
+    },
+    {
+      "id": 92533,
+      "name": "Twisted Tools",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92533/twisted-tools"
+    },
+    {
+      "id": 92545,
+      "name": "Ravenlock's Quest",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/92545.html"
+    },
+    {
+      "id": 92591,
+      "name": "Final Death",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92591/final-death"
+    },
+    {
+      "id": 92592,
+      "name": "Final Death",
+      "decision": "Horde-only",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92592/final-death"
+    },
+    {
+      "id": 92593,
+      "name": "Avalanche of Corruption",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92593/avalanche-of-corruption"
+    },
+    {
+      "id": 92594,
+      "name": "Kindling, Kinda",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "fdb",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92594/kindling-kinda"
+    },
+    {
+      "id": 92609,
+      "name": "Feathers in Flight",
+      "decision": "Horde-only",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92609/feathers-in-flight"
+    },
+    {
+      "id": 92612,
+      "name": "Aid from Moonglade",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://zephras.com/forever/enUS/quest/92612/"
+    },
+    {
+      "id": 92702,
+      "name": "Branch Out",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92702/branch-out"
+    },
+    {
+      "id": 92833,
+      "name": "Ve'han's Fall",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92833/vehans-fall"
+    },
+    {
+      "id": 92842,
+      "name": "A Cousin Abroad",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=92842/a-cousin-abroad"
+    },
+    {
+      "id": 92959,
+      "name": "The Dying Ancients",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92959/the-dying-ancients"
+    },
+    {
+      "id": 92960,
+      "name": "Siphoned Ephemeral Essence",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92960/siphoned-ephemeral-essence"
+    },
+    {
+      "id": 93127,
+      "name": "Summit Sentries",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93127/summit-sentries"
+    },
+    {
+      "id": 93197,
+      "name": "Mending Communications",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93197/mending-communications"
+    },
+    {
+      "id": 93269,
+      "name": "Top of the Post",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "og",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/93269"
+    },
+    {
+      "id": 93383,
+      "name": "Contents Under Pressure",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93383/contents-under-pressure"
+    },
+    {
+      "id": 93406,
+      "name": "Unfrozen Deliveries",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93406/unfrozen-deliveries"
+    },
+    {
+      "id": 93407,
+      "name": "A Thorn in the Paw",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93407/a-thorn-in-the-paw"
+    },
+    {
+      "id": 93422,
+      "name": "Blackthorne Blackout",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93422/blackthorne-blackout"
+    },
+    {
+      "id": 93444,
+      "name": "Bait the Beast",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93444/bait-the-beast"
+    },
+    {
+      "id": 93510,
+      "name": "Wake Memories",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93510/wake-memories"
+    },
+    {
+      "id": 93521,
+      "name": "Challenger of the Gods",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/93521-challenger-of-the-gods"
+    },
+    {
+      "id": 93547,
+      "name": "A Thorny Solution",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93547/a-thorny-solution"
+    },
+    {
+      "id": 93551,
+      "name": "Praise",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/93551-praise"
+    },
+    {
+      "id": 93567,
+      "name": "Ends Meet",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/93567"
+    },
+    {
+      "id": 93584,
+      "name": "Cult Closure",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93584/cult-closure"
+    },
+    {
+      "id": 93615,
+      "name": "Kits and Cats",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93615/kits-and-cats"
+    },
+    {
+      "id": 93617,
+      "name": "Prey and Predator",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "og",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/93617"
+    },
+    {
+      "id": 93747,
+      "name": "Violence Into Verdure",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93747/violence-into-verdure"
+    },
+    {
+      "id": 93759,
+      "name": "The Bounty of Nature",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93759/the-bounty-of-nature"
+    },
+    {
+      "id": 93773,
+      "name": "The Pact",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93773/the-pact"
+    },
+    {
+      "id": 93799,
+      "name": "The Eyes of the Spire",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/93799.html"
+    },
+    {
+      "id": 93825,
+      "name": "Barkbound Blessings",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93825/barkbound-blessings"
+    },
+    {
+      "id": 93826,
+      "name": "Deal Dread to Deadwood",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93826/deal-dread-to-deadwood"
+    },
+    {
+      "id": 93827,
+      "name": "Windswept Wards",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93827/windswept-wards"
+    },
+    {
+      "id": 93828,
+      "name": "Herbs of the Hollow",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/93828-herbs-of-the-hollow"
+    },
+    {
+      "id": 93830,
+      "name": "Water of Hyjal",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/93830-water-of-hyjal"
+    },
+    {
+      "id": 93831,
+      "name": "Sweetpaw Jam",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93831/sweetpaw-jam"
+    },
+    {
+      "id": 93832,
+      "name": "Shatter the Stonewatchers",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/93832"
+    },
+    {
+      "id": 93833,
+      "name": "Wicked Wisdom",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/93833-wicked-wisdom"
+    },
+    {
+      "id": 93834,
+      "name": "Burrow Beetles",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/93834-burrow-beetles"
+    },
+    {
+      "id": 93848,
+      "name": "Work Well Done",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/93848-work-well-done"
+    },
+    {
+      "id": 93925,
+      "name": "Beads for Brerufa",
+      "decision": "Included",
+      "indexes": [
+        "xp"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/93925"
+    },
+    {
+      "id": 93952,
+      "name": "Balance Through Strength",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/93952/balance-through-strength"
+    },
+    {
+      "id": 94479,
+      "name": "One Person's Trash",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/94479/one-persons-trash"
+    },
+    {
+      "id": 94504,
+      "name": "Barkskin Beginnings",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "fdb",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/94504/barkskin-beginnings"
+    },
+    {
+      "id": 94782,
+      "name": "The Western Post",
+      "decision": "Horde-only",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/94782/the-western-post"
+    },
+    {
+      "id": 94832,
+      "name": "Belle's Ring",
+      "decision": "Included",
+      "indexes": [
+        "outpost"
+      ],
+      "reference": "https://www.wofwforever.com/en/zones/mount-hyjal/"
+    },
+    {
+      "id": 95006,
+      "name": "Stolen Power",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://zephras.com/forever/enUS/quest/95006/"
+    },
+    {
+      "id": 95026,
+      "name": "Blight No More",
+      "decision": "Horde-only",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95026/blight-no-more"
+    },
+    {
+      "id": 95027,
+      "name": "Feathers in Flight",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95027/feathers-in-flight"
+    },
+    {
+      "id": 95107,
+      "name": "Deeproar Down",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "og",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/95107"
+    },
+    {
+      "id": 95108,
+      "name": "Mystic Mix",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/95108"
+    },
+    {
+      "id": 95218,
+      "name": "More of the Same",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/95218-more-of-the-same"
+    },
+    {
+      "id": 95248,
+      "name": "To the Summit of Eternity",
+      "decision": "Horde-only",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95248/to-the-summit-of-eternity"
+    },
+    {
+      "id": 95273,
+      "name": "Water of Hyjal",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/95273-water-of-hyjal"
+    },
+    {
+      "id": 95316,
+      "name": "The Experimental Method",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95316/the-experimental-method"
+    },
+    {
+      "id": 95317,
+      "name": "Notation, Notation, Notation",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95317/notation-notation-notation"
+    },
+    {
+      "id": 95318,
+      "name": "Taste of Ash",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95318/taste-of-ash"
+    },
+    {
+      "id": 95319,
+      "name": "Crystalline Collection",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95319/crystalline-collection"
+    },
+    {
+      "id": 95320,
+      "name": "A Curious Question",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "fdb",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95320/a-curious-question"
+    },
+    {
+      "id": 95378,
+      "name": "The Hydra's Head",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95378/the-hydras-head"
+    },
+    {
+      "id": 95379,
+      "name": "A Revenge So Sweet",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95379/a-revenge-so-sweet"
+    },
+    {
+      "id": 95380,
+      "name": "A Prolific Source",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95380/a-prolific-source"
+    },
+    {
+      "id": 95568,
+      "name": "Seeds for a New Season",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95568/seeds-for-a-new-season"
+    },
+    {
+      "id": 95569,
+      "name": "Hope for Hatchlings",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95569/hope-for-hatchlings"
+    },
+    {
+      "id": 95611,
+      "name": "Rites of Respect",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95611/rites-of-respect"
+    },
+    {
+      "id": 95766,
+      "name": "Fine Feathered Friend",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/95766"
+    },
+    {
+      "id": 95769,
+      "name": "Threading a Solution",
+      "decision": "Horde-only",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/95769-threading-a-solution"
+    },
+    {
+      "id": 95793,
+      "name": "Stemming the Demon Tide",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "fdb",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/95793/stemming-the-demon-tide"
+    },
+    {
+      "id": 96003,
+      "name": "Drawing Down the Malevolent",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96003/drawing-down-the-malevolent"
+    },
+    {
+      "id": 96025,
+      "name": "As the Crow Flies",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96025"
+    },
+    {
+      "id": 96077,
+      "name": "Belle's Ring",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96077/belles-ring"
+    },
+    {
+      "id": 96131,
+      "name": "An Oldstone But An Old Friend",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96131/an-oldstone-but-an-old-friend"
+    },
+    {
+      "id": 96145,
+      "name": "Past Wing and Claw",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96145/past-wing-and-claw"
+    },
+    {
+      "id": 96209,
+      "name": "The Ancient, Orokai",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://wowf.io/en/quests/96209"
+    },
+    {
+      "id": 96252,
+      "name": "Tarnished Treasures",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96252/tarnished-treasures"
+    },
+    {
+      "id": 96255,
+      "name": "Amalgamated Marrow",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96255/amalgamated-marrow"
+    },
+    {
+      "id": 96262,
+      "name": "Prickly Pinecones",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96262/prickly-pinecones"
+    },
+    {
+      "id": 96296,
+      "name": "Fetid Corruption",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96296/fetid-corruption"
+    },
+    {
+      "id": 96301,
+      "name": "Power Wash",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96301"
+    },
+    {
+      "id": 96302,
+      "name": "Arch Absolution",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96302"
+    },
+    {
+      "id": 96303,
+      "name": "Memory Mist",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96303/memory-mist"
+    },
+    {
+      "id": 96321,
+      "name": "The Dying God",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96321/the-dying-god"
+    },
+    {
+      "id": 96322,
+      "name": "A Revenge Now Bitter",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/96322-a-revenge-now-bitter"
+    },
+    {
+      "id": 96344,
+      "name": "Friendly Advice",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96344.html"
+    },
+    {
+      "id": 96351,
+      "name": "Skill Issue",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96351.html"
+    },
+    {
+      "id": 96366,
+      "name": "Honorable Mentions",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96366.html"
+    },
+    {
+      "id": 96367,
+      "name": "A Crafter's Reverence",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy",
+        "og"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96367.html"
+    },
+    {
+      "id": 96368,
+      "name": "Exalted At Last",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96368.html"
+    },
+    {
+      "id": 96404,
+      "name": "A Useful Concoction",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96404.html"
+    },
+    {
+      "id": 96405,
+      "name": "Another Useful Concoction",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96405.html"
+    },
+    {
+      "id": 96406,
+      "name": "Yet Another Useful Concoction",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96406.html"
+    },
+    {
+      "id": 96407,
+      "name": "One Last Useful Concoction",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96407.html"
+    },
+    {
+      "id": 96414,
+      "name": "Choice Ammunition",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96414.html"
+    },
+    {
+      "id": 96415,
+      "name": "Your Aim is Always True",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96415.html"
+    },
+    {
+      "id": 96422,
+      "name": "Dust to Dust",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96422.html"
+    },
+    {
+      "id": 96423,
+      "name": "Essence to Essence",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96423.html"
+    },
+    {
+      "id": 96424,
+      "name": "Shards to Shards",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96424.html"
+    },
+    {
+      "id": 96425,
+      "name": "Crystals to Crystals",
+      "decision": "Profession or reputation registry record without verified quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96425.html"
+    },
+    {
+      "id": 96435,
+      "name": "A Fitting End",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/96435-a-fitting-end"
+    },
+    {
+      "id": 96494,
+      "name": "Gathering Storm",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/96494-gathering-storm"
+    },
+    {
+      "id": 96529,
+      "name": "A Shaw Deal",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/96529-a-shaw-deal"
+    },
+    {
+      "id": 96550,
+      "name": "Battle Recall",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/96550-battle-recall"
+    },
+    {
+      "id": 96558,
+      "name": "Soldier's Solace",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "og",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96558"
+    },
+    {
+      "id": 96559,
+      "name": "Supply Drop",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96559/supply-drop"
+    },
+    {
+      "id": 96561,
+      "name": "Last Wishes",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96561"
+    },
+    {
+      "id": 96616,
+      "name": "Herbs for the Bruised and Weary",
+      "decision": "Horde-only",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96616/herbs-for-the-bruised-and-weary"
+    },
+    {
+      "id": 96622,
+      "name": "A Rest Without Pain",
+      "decision": "Horde-only",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=96622/a-rest-without-pain"
+    },
+    {
+      "id": 96666,
+      "name": "Burrow Bonding",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/96666-burrow-bonding"
+    },
+    {
+      "id": 96674,
+      "name": "Ewe Wandered Off",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://zephras.com/forever/enUS/quest/96674/"
+    },
+    {
+      "id": 96676,
+      "name": "Unsealing Blackthorne Pact",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/96676-unsealing-blackthorne-pact"
+    },
+    {
+      "id": 96769,
+      "name": "The Darkened Glaive",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96769.html"
+    },
+    {
+      "id": 96796,
+      "name": "Woods Workshop",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96796/woods-workshop"
+    },
+    {
+      "id": 96830,
+      "name": "Farsight Guided",
+      "decision": "Horde-only",
+      "indexes": [
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96830"
+    },
+    {
+      "id": 96833,
+      "name": "Venom Maws",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96833"
+    },
+    {
+      "id": 96930,
+      "name": "The Capricious Corvid",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96930"
+    },
+    {
+      "id": 96931,
+      "name": "Heading Up the Mountain",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96931/heading-up-the-mountain"
+    },
+    {
+      "id": 96939,
+      "name": "The Balance of Life and Death",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96939"
+    },
+    {
+      "id": 96957,
+      "name": "Bone Sweet Bone",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96957"
+    },
+    {
+      "id": 96959,
+      "name": "Blademaster's Bonfires",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96959/blademasters-bonfires"
+    },
+    {
+      "id": 96964,
+      "name": "A Clever Creature",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "og",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96964"
+    },
+    {
+      "id": 96971,
+      "name": "To Outfox a Demon",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "fdb",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96971"
+    },
+    {
+      "id": 96978,
+      "name": "Violent Venison",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96978"
+    },
+    {
+      "id": 96979,
+      "name": "Sacred Refreshment",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96979/sacred-refreshment"
+    },
+    {
+      "id": 96983,
+      "name": "Yashiro's Windwalk",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96983/yashiros-windwalk"
+    },
+    {
+      "id": 96991,
+      "name": "Trail Assist",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "xp",
+        "fdb",
+        "icy"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96991"
+    },
+    {
+      "id": 96992,
+      "name": "Resupply",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96992/resupply"
+    },
+    {
+      "id": 96998,
+      "name": "Tribal Colors",
+      "decision": "Horde-only",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96998/tribal-colors"
+    },
+    {
+      "id": 96999,
+      "name": "Wrap Return",
+      "decision": "Horde-only",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/96999/wrap-return"
+    },
+    {
+      "id": 97000,
+      "name": "Grain of Memory",
+      "decision": "Horde-only",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/97000/grain-of-memory"
+    },
+    {
+      "id": 97001,
+      "name": "Sawyer's Legacy",
+      "decision": "Horde-only",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/97001-sawyers-legacy"
+    },
+    {
+      "id": 97006,
+      "name": "Notarized Claim",
+      "decision": "Horde-only",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/97006-notarized-claim"
+    },
+    {
+      "id": 97007,
+      "name": "Wood Remains",
+      "decision": "Horde-only",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/97007-wood-remains"
+    },
+    {
+      "id": 97009,
+      "name": "Maerion's Misery",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "xp",
+        "outpost",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/97009/maerions-misery"
+    },
+    {
+      "id": 97010,
+      "name": "Blind Vengeance",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/97010-blind-vengeance"
+    },
+    {
+      "id": 97119,
+      "name": "Now We're Cooking",
+      "decision": "Horde-only",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/97119-now-were-cooking"
+    },
+    {
+      "id": 97272,
+      "name": "The Darkened Glaive",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/97272.html"
+    },
+    {
+      "id": 97319,
+      "name": "A Cousin Abroad",
+      "decision": "Horde-only",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=97319/a-cousin-abroad"
+    },
+    {
+      "id": 97490,
+      "name": "Halt the Hail",
+      "decision": "Included",
+      "indexes": [
+        "fc",
+        "legacy",
+        "pc",
+        "xp",
+        "fdb",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://foreverchanges.pro/quest/97490/halt-the-hail"
+    },
+    {
+      "id": 98968,
+      "name": "The Eyes of the Spire",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98968.html"
+    },
+    {
+      "id": 98969,
+      "name": "The Eyes of the Spire",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98969.html"
+    },
+    {
+      "id": 98970,
+      "name": "The Eyes of the Spire",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98970.html"
+    },
+    {
+      "id": 98971,
+      "name": "The Eyes of the Spire",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98971.html"
+    },
+    {
+      "id": 98972,
+      "name": "The Eyes of the Spire",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98972.html"
+    },
+    {
+      "id": 98974,
+      "name": "The Eyes of the Spire",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98974.html"
+    },
+    {
+      "id": 98975,
+      "name": "The Eyes of the Spire",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98975.html"
+    },
+    {
+      "id": 98976,
+      "name": "The Eyes of the Spire",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98976.html"
+    },
+    {
+      "id": 98978,
+      "name": "The Weight of the World",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98978.html"
+    },
+    {
+      "id": 98979,
+      "name": "The Weight of the World",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98979.html"
+    },
+    {
+      "id": 98980,
+      "name": "The Weight of the World",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98980.html"
+    },
+    {
+      "id": 98981,
+      "name": "The Weight of the World",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98981.html"
+    },
+    {
+      "id": 98982,
+      "name": "The Weight of the World",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98982.html"
+    },
+    {
+      "id": 98985,
+      "name": "The Weight of the World",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/98985.html"
+    },
+    {
+      "id": 99004,
+      "name": "The Weight of the World",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99004.html"
+    },
+    {
+      "id": 99005,
+      "name": "The Weight of the World",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99005.html"
+    },
+    {
+      "id": 99006,
+      "name": "The Weight of the World",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99006.html"
+    },
+    {
+      "id": 99007,
+      "name": "Blood Pact",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99007.html"
+    },
+    {
+      "id": 99008,
+      "name": "Blood Pact",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99008.html"
+    },
+    {
+      "id": 99009,
+      "name": "Blood Pact",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99009.html"
+    },
+    {
+      "id": 99010,
+      "name": "Blood Pact",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99010.html"
+    },
+    {
+      "id": 99011,
+      "name": "Blood Pact",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99011.html"
+    },
+    {
+      "id": 99012,
+      "name": "Blood Pact",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99012.html"
+    },
+    {
+      "id": 99013,
+      "name": "Blood Pact",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99013.html"
+    },
+    {
+      "id": 99014,
+      "name": "Blood Pact",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99014.html"
+    },
+    {
+      "id": 99015,
+      "name": "Blood Pact",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99015.html"
+    },
+    {
+      "id": 99016,
+      "name": "Heart of Flesh, Heart of Stone",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99016.html"
+    },
+    {
+      "id": 99017,
+      "name": "A Kingly Tribute",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99017.html"
+    },
+    {
+      "id": 99018,
+      "name": "Heart of Flesh, Heart of Stone",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99018.html"
+    },
+    {
+      "id": 99019,
+      "name": "Heart of Flesh, Heart of Stone",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99019.html"
+    },
+    {
+      "id": 99020,
+      "name": "Heart of Flesh, Heart of Stone",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99020.html"
+    },
+    {
+      "id": 99021,
+      "name": "Heart of Flesh, Heart of Stone",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99021.html"
+    },
+    {
+      "id": 99022,
+      "name": "Heart of Flesh, Heart of Stone",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99022.html"
+    },
+    {
+      "id": 99023,
+      "name": "Heart of Flesh, Heart of Stone",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99023.html"
+    },
+    {
+      "id": 99024,
+      "name": "Heart of Flesh, Heart of Stone",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99024.html"
+    },
+    {
+      "id": 99025,
+      "name": "Heart of Flesh, Heart of Stone",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99025.html"
+    },
+    {
+      "id": 99026,
+      "name": "A Kingly Tribute",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99026.html"
+    },
+    {
+      "id": 99027,
+      "name": "A Kingly Tribute",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99027.html"
+    },
+    {
+      "id": 99028,
+      "name": "A Kingly Tribute",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy",
+        "og"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99028.html"
+    },
+    {
+      "id": 99029,
+      "name": "A Kingly Tribute",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99029.html"
+    },
+    {
+      "id": 99030,
+      "name": "A Kingly Tribute",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99030.html"
+    },
+    {
+      "id": 99031,
+      "name": "A Kingly Tribute",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99031.html"
+    },
+    {
+      "id": 99032,
+      "name": "A Kingly Tribute",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99032.html"
+    },
+    {
+      "id": 99033,
+      "name": "A Kingly Tribute",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99033.html"
+    },
+    {
+      "id": 99034,
+      "name": "The Path of Frost",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99034.html"
+    },
+    {
+      "id": 99035,
+      "name": "The Path of Frost",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99035.html"
+    },
+    {
+      "id": 99036,
+      "name": "The Path of Frost",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99036.html"
+    },
+    {
+      "id": 99037,
+      "name": "The Path of Frost",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99037.html"
+    },
+    {
+      "id": 99038,
+      "name": "The Path of Frost",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99038.html"
+    },
+    {
+      "id": 99039,
+      "name": "The Path of Frost",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99039.html"
+    },
+    {
+      "id": 99040,
+      "name": "The Path of Frost",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99040.html"
+    },
+    {
+      "id": 99041,
+      "name": "The Path of Frost",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99041.html"
+    },
+    {
+      "id": 99042,
+      "name": "The Path of Frost",
+      "decision": "Registry record with no corroborated outdoor quest pickup",
+      "indexes": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/99042.html"
+    },
+    {
+      "id": 99670,
+      "name": "Return to Jereman",
+      "decision": "Included",
+      "indexes": [
+        "legacy",
+        "pc",
+        "xp",
+        "outpost",
+        "og",
+        "icy"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/99670-return-to-jereman"
+    }
+  ]
+}
