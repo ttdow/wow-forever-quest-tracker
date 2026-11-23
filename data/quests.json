@@ -32236,5 +32236,2682 @@
       }
     ],
     "previousQuests": []
+  },
+  {
+    "id": "2205",
+    "giver": "Keryn Sylvius",
+    "area": "Elwynn Forest",
+    "coordinates": "43.9, 65.9",
+    "zone": "Rogue",
+    "name": "Seek out SI:7",
+    "level": 10,
+    "stage": "Stormwind trainer route",
+    "faction": "Alliance",
+    "objective": "Take Keryn’s package to Master Mathias Shaw in the Stormwind Barracks.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2205/seek-out-si-7",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 10,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2206",
+    "giver": "Master Mathias Shaw",
+    "area": "Stormwind City",
+    "coordinates": "78.3, 70.7",
+    "zone": "Rogue",
+    "name": "Snatch and Grab",
+    "level": 10,
+    "stage": "Stormwind trainer route",
+    "faction": "Alliance",
+    "objective": "Recover the Shipping Schedule from the Defias Dockmaster near Jerod’s Landing and take it to Mathias Shaw.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2206/snatch-and-grab",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 10,
+    "prerequisites": [
+      {
+        "id": "2205",
+        "name": "Seek out SI: 7",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2206/snatch-and-grab",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2218",
+    "giver": "Hogral Bakkan",
+    "area": "Dun Morogh",
+    "coordinates": "47.6, 52.6",
+    "zone": "Rogue",
+    "name": "Road to Salvation",
+    "level": 10,
+    "stage": "Ironforge trainer route",
+    "faction": "Alliance",
+    "objective": "Find Hulfdan Blackbeard in Ironforge’s Forlorn Cavern.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2218/road-to-salvation",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 10,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2238",
+    "giver": "Hulfdan Blackbeard",
+    "area": "Forlorn Cavern, Ironforge",
+    "coordinates": "52.0, 14.8",
+    "zone": "Rogue",
+    "name": "Simple Subterfugin'",
+    "level": 10,
+    "stage": "Ironforge trainer route",
+    "faction": "Alliance",
+    "objective": "Meet Onin MacHammar outside Gnomeregan.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2238/simple-subterfugin",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 10,
+    "prerequisites": [
+      {
+        "id": "2218",
+        "name": "Road to Salvation",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2238/simple-subterfugin",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2239",
+    "giver": "Onin MacHammar",
+    "area": "Dun Morogh",
+    "coordinates": "25.2, 44.5",
+    "zone": "Rogue",
+    "name": "Onin's Report",
+    "level": 10,
+    "stage": "Ironforge trainer route",
+    "faction": "Alliance",
+    "objective": "Deliver Onin’s Report to Hulfdan Blackbeard in Ironforge.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2239/onins-report",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 10,
+    "prerequisites": [
+      {
+        "id": "2238",
+        "name": "Simple Subterfugin'",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2239/onins-report",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2241",
+    "zone": "Rogue",
+    "level": 10,
+    "name": "The Apple Falls",
+    "stage": "Darnassus trainer route",
+    "giver": "Jannok Breezesong",
+    "coordinates": "56.3, 60.1",
+    "area": "Dolanaar",
+    "objective": "Deliver Jannok’s Rose to Syurna in Darnassus.",
+    "areaConfidence": "High",
+    "notes": "Alliance; Rogue-only; pickup seen in Forever; in character completion export",
+    "prerequisites": [],
+    "previousQuests": [],
+    "faction": "Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/2241/the-apple-falls",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 10
+  },
+  {
+    "id": "2242",
+    "giver": "Syurna",
+    "area": "Darnassus",
+    "coordinates": "37, 21.9",
+    "zone": "Rogue",
+    "name": "Destiny Calls",
+    "level": 10,
+    "stage": "Darnassus trainer route",
+    "faction": "Alliance",
+    "objective": "Recover Sethir’s Journal from Sethir the Ancient in Teldrassil and give it to Syurna.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2242/destiny-calls",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 10,
+    "prerequisites": [
+      {
+        "id": "2241",
+        "name": "The Apple Falls",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2242/destiny-calls",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2259",
+    "giver": "Jannok Breezesong",
+    "area": "Teldrassil",
+    "coordinates": "56.4, 60.1",
+    "zone": "Rogue",
+    "name": "Erion Shadewhisper",
+    "level": 16,
+    "stage": "Lockpicking",
+    "faction": "Alliance",
+    "objective": "Visit Erion Shadewhisper in the Cenarion Enclave in Darnassus.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2259/erion-shadewhisper",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 16,
+    "prerequisites": [
+      {
+        "id": "2241",
+        "name": "The Apple Falls",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2259/erion-shadewhisper",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2260",
+    "giver": "Erion Shadewhisper",
+    "area": "Darnassus",
+    "coordinates": "34.5, 25.9",
+    "zone": "Rogue",
+    "name": "Erion's Behest",
+    "level": 16,
+    "stage": "Lockpicking",
+    "faction": "Alliance",
+    "objective": "Find Renzik “The Shiv” in Stormwind’s Old Town.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2260/erions-behest",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 16,
+    "prerequisites": [
+      {
+        "id": "2259",
+        "name": "Erion Shadewhisper",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2260/erions-behest",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2281",
+    "giver": "Renzik \"The Shiv\"",
+    "area": "Stormwind City",
+    "coordinates": "78.3, 71.1",
+    "zone": "Rogue",
+    "name": "Redridge Rendezvous",
+    "level": 16,
+    "stage": "Lockpicking",
+    "faction": "Alliance",
+    "objective": "Meet Lucius on the north side of Lakeshire. The Alliance trainer routes are alternative introductions.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2281/redridge-rendezvous",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 16,
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "2260",
+        "name": "Erion's Behest",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2281/redridge-rendezvous",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ],
+        "relation": "Offered after"
+      },
+      {
+        "id": "2298",
+        "name": "Kingly Shakedown",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2281/redridge-rendezvous",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ],
+        "relation": "Offered after"
+      },
+      {
+        "id": "2300",
+        "name": "SI:7",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2281/redridge-rendezvous",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "2282",
+    "giver": "Lucius",
+    "area": "Redridge Mountains",
+    "coordinates": "23, 52",
+    "zone": "Rogue",
+    "name": "Alther's Mill",
+    "level": 20,
+    "stage": "Lockpicking · min. level 16",
+    "faction": "Alliance",
+    "objective": "Practice on the lockboxes at Alther’s Mill, then open Lucius’s Lockbox and return the Token of Thievery to him.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2282/althers-mill",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 16,
+    "prerequisites": [
+      {
+        "id": "2281",
+        "name": "Redridge Rendezvous",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2282/althers-mill",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2298",
+    "giver": "Hulfdan Blackbeard",
+    "area": "Forlorn Cavern, Ironforge",
+    "coordinates": "52.0, 14.8",
+    "zone": "Rogue",
+    "name": "Kingly Shakedown",
+    "level": 16,
+    "stage": "Lockpicking",
+    "faction": "Alliance",
+    "objective": "Report to Renzik “The Shiv” in Stormwind.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2298/kingly-shakedown",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 16,
+    "prerequisites": [
+      {
+        "id": "2299",
+        "name": "To Hulfdan!",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2298/kingly-shakedown",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2299",
+    "giver": "Hogral Bakkan",
+    "area": "Dun Morogh",
+    "coordinates": "47.6, 52.6",
+    "zone": "Rogue",
+    "name": "To Hulfdan!",
+    "level": 16,
+    "stage": "Lockpicking",
+    "faction": "Alliance",
+    "objective": "Report to Hulfdan Blackbeard in the Forlorn Cavern in Ironforge.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2299/to-hulfdan",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 16,
+    "prerequisites": [
+      {
+        "id": "2218",
+        "name": "Road to Salvation",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2299/to-hulfdan",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2300",
+    "giver": "Keryn Sylvius",
+    "area": "Elwynn Forest",
+    "coordinates": "43.9, 65.9",
+    "zone": "Rogue",
+    "name": "SI:7",
+    "level": 16,
+    "stage": "Lockpicking",
+    "faction": "Alliance",
+    "objective": "Report to Renzik “The Shiv” at the Stormwind Barracks.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2300/si-7",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 16,
+    "prerequisites": [
+      {
+        "id": "2205",
+        "name": "Seek out SI: 7",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2300/si-7",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2358",
+    "giver": "Arantir",
+    "area": "Redridge Mountains",
+    "coordinates": "23, 52.3",
+    "zone": "Rogue",
+    "name": "Horns of Nez'ra",
+    "level": 22,
+    "stage": "Redridge · min. level 16 · Availability unverified · Classic reference",
+    "faction": "Alliance",
+    "objective": "Recover the Horns of Nez’ra from a Blackrock orc in Redridge Mountains and take them to Arantir’s Shadow in Lakeshire. Forever pickup is unverified.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2358/horns-of-nezra",
+      "https://www.wowhead.com/classic/quest=2358",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 16,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2359",
+    "giver": "Agent Kearnen",
+    "area": "Westfall",
+    "coordinates": "68.5, 70.1",
+    "zone": "Rogue",
+    "name": "Klaven's Tower",
+    "level": 24,
+    "stage": "Poisons · min. level 20",
+    "faction": "Alliance",
+    "objective": "Pickpocket the Defias Tower Key, open the Duskwood Chest in the tower, and bring the journal back to Mathias Shaw. Read Kearnen’s Journal before entering.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2359/klavens-tower",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 20,
+    "prerequisites": [
+      {
+        "id": "2360",
+        "name": "Mathias and the Defias",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2359/klavens-tower",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2360",
+    "giver": "Master Mathias Shaw",
+    "area": "Stormwind City",
+    "coordinates": "78.3, 70.7",
+    "zone": "Rogue",
+    "name": "Mathias and the Defias",
+    "level": 20,
+    "stage": "Poisons",
+    "faction": "Alliance",
+    "objective": "Leave Stormwind for the southeast corner of Westfall and report to Agent Kearnen.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2360/mathias-and-the-defias",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 20,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2607",
+    "giver": "Master Mathias Shaw",
+    "area": "Stormwind City",
+    "coordinates": "78.3, 70.7",
+    "zone": "Rogue",
+    "name": "The Touch of Zanzil",
+    "level": 20,
+    "stage": "Poisons",
+    "faction": "Alliance",
+    "objective": "Find Doc Mixilpixil in the cellar of the Stormwind Barracks.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2607/the-touch-of-zanzil",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 20,
+    "prerequisites": [
+      {
+        "id": "2359",
+        "name": "Klaven's Tower",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2607/the-touch-of-zanzil",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2608",
+    "giver": "Doc Mixilpixil",
+    "area": "Stormwind City",
+    "coordinates": "80.1, 69.9",
+    "zone": "Rogue",
+    "name": "The Touch of Zanzil",
+    "level": 20,
+    "stage": "Poisons",
+    "faction": "Alliance",
+    "objective": "Use /lay in front of Doc Mixilpixil so he can examine you.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2608/the-touch-of-zanzil",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 20,
+    "prerequisites": [
+      {
+        "id": "2607",
+        "name": "The Touch of Zanzil",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2608/the-touch-of-zanzil",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2609",
+    "giver": "Doc Mixilpixil",
+    "area": "Stormwind City",
+    "coordinates": "80.1, 69.9",
+    "zone": "Rogue",
+    "name": "The Touch of Zanzil",
+    "level": 20,
+    "stage": "Poisons",
+    "faction": "Alliance",
+    "objective": "Bring the doctor Simple Wildflowers, a Leaded Vial, a Bronze Tube, and Light Chartreuse Silk Thread, one of each.",
+    "sources": [
+      "https://foreverchanges.pro/quest/2609/the-touch-of-zanzil",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 20,
+    "prerequisites": [
+      {
+        "id": "2608",
+        "name": "The Touch of Zanzil",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/2609/the-touch-of-zanzil",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3102",
+    "giver": "Marshal McBride",
+    "area": "Elwynn Forest",
+    "coordinates": "48.9, 41.6",
+    "zone": "Rogue",
+    "name": "Encrypted Letter",
+    "level": 1,
+    "stage": "Human starter",
+    "faction": "Alliance",
+    "objective": "Read the Encrypted Letter, then find Jorik Kerridan in the stable behind Northshire Abbey.",
+    "sources": [
+      "https://foreverchanges.pro/quest/3102/encrypted-letter",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 1,
+    "prerequisites": [
+      {
+        "id": "7",
+        "name": "Kobold Camp Cleanup",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/3102/encrypted-letter",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3109",
+    "giver": "Sten Stoutarm",
+    "area": "Dun Morogh",
+    "coordinates": "29.9, 71.2",
+    "zone": "Rogue",
+    "name": "Encrypted Rune",
+    "level": 1,
+    "stage": "Dwarf starter",
+    "faction": "Alliance",
+    "objective": "Read the Encrypted Rune and visit Solm Hargrin in Anvilmar.",
+    "sources": [
+      "https://foreverchanges.pro/quest/3109/encrypted-rune",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 1,
+    "prerequisites": [
+      {
+        "id": "179",
+        "name": "Dwarven Outfitters",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/3109/encrypted-rune",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3113",
+    "giver": "Sten Stoutarm",
+    "area": "Dun Morogh",
+    "coordinates": "29.9, 71.2",
+    "zone": "Rogue",
+    "name": "Encrypted Memorandum",
+    "level": 1,
+    "stage": "Gnome starter",
+    "faction": "Alliance",
+    "objective": "Read the Encrypted Memorandum and visit Solm Hargrin in Anvilmar.",
+    "sources": [
+      "https://foreverchanges.pro/quest/3113/encrypted-memorandum",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 1,
+    "prerequisites": [
+      {
+        "id": "179",
+        "name": "Dwarven Outfitters",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/3113/encrypted-memorandum",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3118",
+    "zone": "Rogue",
+    "level": 1,
+    "name": "Encrypted Sigil",
+    "stage": "Night Elf starter",
+    "giver": "Conservator Ilthalaine",
+    "coordinates": "58.7, 44.3",
+    "area": "Shadowglen / Aldrassil",
+    "objective": "Read the Encrypted Sigil and visit Frahun Shadewhisper in Shadowglen.",
+    "areaConfidence": "High",
+    "notes": "Alliance; Rogue-only; Classic reference; in character completion export",
+    "prerequisites": [
+      {
+        "id": "456",
+        "name": "The Balance of Nature",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/3118/encrypted-sigil",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "faction": "Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/3118/encrypted-sigil",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 1
+  },
+  {
+    "id": "6681",
+    "giver": "Elegant Letter (from Master Mathias Shaw)",
+    "area": "Stormwind Barracks, Stormwind City",
+    "coordinates": "78.3, 70.7",
+    "zone": "Rogue",
+    "name": "The Manor, Ravenholdt",
+    "level": 24,
+    "stage": "Ravenholdt",
+    "faction": "Both",
+    "objective": "Train Detect Traps, then ask Master Mathias Shaw for the Elegant Letter. Use it to start the quest, approach the trapped chest on the path to Ravenholdt Manor for the Rite of Cunning, and take the Seal of Ravenholdt to Fahrad.",
+    "sources": [
+      "https://foreverchanges.pro/quest/6681/the-manor-ravenholdt",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://forg.gg/en/forever/tips/rogue-quests",
+      "https://www.wowhead.com/forever/item=17126/elegant-letter",
+      "https://www.wowhead.com/forever/quest=6681/the-manor-ravenholdt",
+      "https://dailyrespawn.com/article/how-to-get-to-ravenholdt-manor-as-a-rogue-in-wow-forever-the-manor-ravenholdt"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records",
+      "giver": "player-report"
+    },
+    "minimumLevel": 24,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6701",
+    "giver": "Ravenholdt Guard",
+    "area": "Alterac Mountains",
+    "coordinates": "81.4, 76.9",
+    "zone": "Rogue",
+    "name": "Syndicate Emblems",
+    "level": 60,
+    "stage": "Ravenholdt · min. level 24 · Repeatable",
+    "faction": "Both",
+    "objective": "Pickpocket a Syndicate Emblem and give it to a Ravenholdt Guard at the manor entrance. The hand-in is repeatable while eligible.",
+    "sources": [
+      "https://foreverchanges.pro/quest/6701/syndicate-emblems",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 24,
+    "prerequisites": [
+      {
+        "id": "6681",
+        "name": "The Manor, Ravenholdt",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/6701/syndicate-emblems",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "7498",
+    "giver": "Garona: A Study on Stealth and Treachery",
+    "area": "Item start · Dire Maul",
+    "coordinates": "",
+    "zone": "Rogue",
+    "name": "Garona: A Study on Stealth and Treachery",
+    "level": 60,
+    "stage": "Dire Maul class book · min. level 54 · Availability unverified · Classic reference",
+    "faction": "Both",
+    "objective": "Loot the class book in Dire Maul and take it to Lorekeeper Kildrath in the Athenaeum for the Royal Seal of Eldre’Thalas.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=7498",
+      "https://www.wowhead.com/classic/quest=7498",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://zephras.com/forever/enUS/quest/7498/"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 54,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8063",
+    "zone": "Rogue",
+    "level": 60,
+    "name": "Paragons of Power: The Madcap's Bracers",
+    "stage": "Zul'Gurub gear · Availability unverified",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Bring Falthir the Sightless a Primal Hakkari Armsplint.  You must also have a reputation equal to or greater than Friendly with the Zandalar Tribe. Falthir the Sightless is located on Yojamba Isle, Stranglethorn Vale.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8063",
+      "https://www.wowhead.com/classic/quest=8063",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://foreverchanges.pro/quest/8063/paragons-of-power-the-madcaps-bracers",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": [],
+    "faction": "Both"
+  },
+  {
+    "id": "8072",
+    "zone": "Rogue",
+    "level": 60,
+    "name": "Paragons of Power: The Madcap's Mantle",
+    "stage": "Zul'Gurub gear · Availability unverified",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Bring Falthir the Sightless a Primal Hakkari Girdle.  You must also have a reputation equal to or greater than Honored with the Zandalar Tribe. Falthir the Sightless is located on Yojamba Isle, Stranglethorn Vale.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8072",
+      "https://www.wowhead.com/classic/quest=8072",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://foreverchanges.pro/quest/8072/paragons-of-power-the-madcaps-mantle",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": [],
+    "faction": "Both"
+  },
+  {
+    "id": "8073",
+    "zone": "Rogue",
+    "level": 60,
+    "name": "Paragons of Power: The Madcap's Tunic",
+    "stage": "Zul'Gurub gear · Availability unverified",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Bring Falthir the Sightless a Primal Hakkari Aegis.  You must also have a reputation equal to or greater than Revered with the Zandalar Tribe. Falthir the Sightless is located on Yojamba Isle, Stranglethorn Vale.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8073",
+      "https://www.wowhead.com/classic/quest=8073",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://foreverchanges.pro/quest/8073/paragons-of-power-the-madcaps-tunic",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": [],
+    "faction": "Both"
+  },
+  {
+    "id": "8141",
+    "zone": "Rogue",
+    "level": 60,
+    "name": "Zandalarian Shadow Talisman",
+    "stage": "Zul'Gurub gear · Availability unverified",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Speak with Falthir the Sightless on Yojamba Isle while Friendly with the Zandalar Tribe to receive a Zandalarian Shadow Talisman.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58; Reputation condition is a Classic reference",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8141",
+      "https://www.wowhead.com/classic/quest=8141",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://foreverchanges.pro/quest/8141/zandalarian-shadow-talisman",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": [],
+    "faction": "Both"
+  },
+  {
+    "id": "8142",
+    "zone": "Rogue",
+    "level": 60,
+    "name": "Zandalarian Shadow Talisman",
+    "stage": "Zul'Gurub gear · Availability unverified",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Return your Zandalarian Shadow Talisman to Falthir the Sightless for an upgrade; requires Honored with the Zandalar Tribe.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58; Reputation condition is a Classic reference",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8142",
+      "https://www.wowhead.com/classic/quest=8142",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://foreverchanges.pro/quest/8142/zandalarian-shadow-talisman",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "8141",
+        "name": "Zandalarian Shadow Talisman",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=8142",
+          "https://www.wowhead.com/classic/quest=8142"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "faction": "Both"
+  },
+  {
+    "id": "8143",
+    "zone": "Rogue",
+    "level": 60,
+    "name": "Zandalarian Shadow Talisman",
+    "stage": "Zul'Gurub gear · Availability unverified",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Return your Zandalarian Shadow Talisman to Falthir the Sightless for an upgrade; requires Revered with the Zandalar Tribe.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58; Reputation condition is a Classic reference",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8143",
+      "https://www.wowhead.com/classic/quest=8143",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://foreverchanges.pro/quest/8143/zandalarian-shadow-talisman",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "8142",
+        "name": "Zandalarian Shadow Talisman",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=8143",
+          "https://www.wowhead.com/classic/quest=8143"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "faction": "Both"
+  },
+  {
+    "id": "8144",
+    "zone": "Rogue",
+    "level": 60,
+    "name": "Zandalarian Shadow Mastery Talisman",
+    "stage": "Zul'Gurub gear · Availability unverified",
+    "giver": "Falthir the Sightless",
+    "coordinates": "14.1, 13.7",
+    "area": "Yojamba Isle (Stranglethorn Vale)",
+    "objective": "Return your Zandalarian Shadow Talisman to Falthir the Sightless for its final upgrade; requires Exalted with the Zandalar Tribe.",
+    "areaConfidence": "High",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; Rogue only; Minimum level 58; Reputation condition is a Classic reference",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8144",
+      "https://www.wowhead.com/classic/quest=8144",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://foreverchanges.pro/quest/8144/zandalarian-shadow-mastery-talisman",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "8143",
+        "name": "Zandalarian Shadow Talisman",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=8144",
+          "https://www.wowhead.com/classic/quest=8144"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "faction": "Both"
+  },
+  {
+    "id": "8233",
+    "giver": "Alliance Rogue trainers",
+    "area": "Stormwind, Ironforge, or Darnassus",
+    "coordinates": "",
+    "zone": "Rogue",
+    "name": "A Simple Request",
+    "level": 52,
+    "stage": "Azure Key · min. level 50",
+    "faction": "Both",
+    "objective": "Pick up the quest from an Alliance Rogue trainer such as Osborne the Night Man in Stormwind, Hulfdan Blackbeard in Ironforge, or Syurna in Darnassus. Meet Lord Jorach Ravenholdt at the manor in Alterac Mountains.",
+    "sources": [
+      "https://foreverchanges.pro/quest/8233/a-simple-request",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://zephras.com/forever/enUS/quest/8233/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 50,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8234",
+    "zone": "Rogue",
+    "level": 52,
+    "name": "Sealed Azure Bag",
+    "stage": "Azure Key · min. level 50",
+    "giver": "Lord Jorach Ravenholdt",
+    "coordinates": "86.0, 78.9",
+    "area": "Ravenholdt Manor, Alterac Mountains",
+    "objective": "Recover the Sealed Azure Bag from Timbermaw Shamans in Azshara. Deliver it to Archmage Xylem at Bear's Head (29.3, 40.2).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 50 · Both factions · Rogue only.",
+    "sources": [
+      "https://foreverchanges.pro/quest/8234/sealed-azure-bag",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://questing.wiki/wow-forever/quests/8234/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "8233",
+        "name": "A Simple Request",
+        "evidence": "forever-records",
+        "sources": [
+          "https://questing.wiki/wow-forever/quests/8234/"
+        ],
+        "relation": "Offered after"
+      }
+    ],
+    "faction": "Both",
+    "minimumLevel": 50
+  },
+  {
+    "id": "8235",
+    "zone": "Rogue",
+    "level": 52,
+    "name": "Encoded Fragments",
+    "stage": "Azure Key · min. level 50",
+    "giver": "Archmage Xylem",
+    "coordinates": "29.2, 40.2",
+    "area": "Archmage Xylem's tower, Azshara",
+    "objective": "Collect 10 Encoded Fragments from creatures in Azshara, such as thunderhead hippogryphs, and take them to Xylem.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 50 · Both factions · Rogue only.",
+    "sources": [
+      "https://foreverchanges.pro/quest/8235/encoded-fragments",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://questing.wiki/wow-forever/quests/8235/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "8234",
+        "name": "Sealed Azure Bag",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/8235/encoded-fragments",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "faction": "Both",
+    "minimumLevel": 50
+  },
+  {
+    "id": "8236",
+    "zone": "Rogue",
+    "level": 52,
+    "name": "The Azure Key",
+    "stage": "Azure Key · min. level 50",
+    "giver": "Archmage Xylem",
+    "coordinates": "29.2, 40.2",
+    "area": "Archmage Xylem's tower, Azshara",
+    "objective": "Defeat Morphaz in Sunken Temple and take the Azure Key to Lord Jorach Ravenholdt in Alterac Mountains (86.0, 78.9).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 50 · Both factions · Rogue only.",
+    "sources": [
+      "https://foreverchanges.pro/quest/8236/the-azure-key",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://questing.wiki/wow-forever/quests/8236/",
+      "https://www.wowhead.com/forever/quest=8236/the-azure-key",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "8235",
+        "name": "Encoded Fragments",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/8236/the-azure-key",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "faction": "Both",
+    "minimumLevel": 50
+  },
+  {
+    "id": "8249",
+    "giver": "Fahrad",
+    "area": "Alterac Mountains",
+    "coordinates": "84.4, 80.3",
+    "zone": "Rogue",
+    "name": "Junkboxes Needed",
+    "level": 60,
+    "stage": "Ravenholdt · min. level 50 · Classic reference · Availability unverified",
+    "faction": "Both",
+    "objective": "Turn in 5 Heavy Junkboxes to Fahrad. The Classic quest uses this ID, and a Forever hand-in is recorded under #98529.",
+    "sources": [
+      "https://foreverchanges.pro/quest/8249/junkboxes-needed",
+      "https://www.wowhead.com/classic/quest=8249",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 50,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8378",
+    "giver": "Geologist Larksbane",
+    "area": "Cenarion Hold, Silithus",
+    "coordinates": "49.7, 37.5",
+    "zone": "Rogue",
+    "name": "Armaments of War",
+    "level": 60,
+    "stage": "Silithus armaments · min. level 58 · Availability unverified · Classic reference",
+    "faction": "Both",
+    "objective": "Speak to Geologist Larksbane at Cenarion Hold after The Calling to collect the Rogue armaments.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8378",
+      "https://www.wowhead.com/classic/quest=8378",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 58,
+    "prerequisites": [
+      {
+        "id": "8315",
+        "name": "The Calling",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=8378",
+          "https://www.wowhead.com/classic/quest=8378"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8637",
+    "giver": "Kandrostrasz",
+    "area": "Temple of Ahn'Qiraj",
+    "coordinates": "",
+    "zone": "Rogue",
+    "name": "Deathdealer's Boots",
+    "level": 60,
+    "stage": "Ahn'Qiraj gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Exchange Qiraji Bindings of Command, 2 Idols of Strife, 5 Crystal Scarabs, and 5 Bone Scarabs for the set piece. Requires Neutral reputation with Brood of Nozdormu.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8637",
+      "https://www.wowhead.com/classic/quest=8637",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [
+      {
+        "id": "8579",
+        "name": "Mortal Champions",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=8637",
+          "https://www.wowhead.com/classic/quest=8637"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8638",
+    "giver": "Vethsera",
+    "area": "Temple of Ahn'Qiraj",
+    "coordinates": "",
+    "zone": "Rogue",
+    "name": "Deathdealer's Vest",
+    "level": 60,
+    "stage": "Ahn'Qiraj gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Exchange Carapace of the Old God, 2 Idols of Strife, 5 Bronze Scarabs, and 5 Ivory Scarabs for the set piece. Requires Honored reputation with Brood of Nozdormu.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8638",
+      "https://www.wowhead.com/classic/quest=8638",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [
+      {
+        "id": "8579",
+        "name": "Mortal Champions",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=8638",
+          "https://www.wowhead.com/classic/quest=8638"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8639",
+    "giver": "Andorgos",
+    "area": "Temple of Ahn'Qiraj",
+    "coordinates": "",
+    "zone": "Rogue",
+    "name": "Deathdealer's Helm",
+    "level": 60,
+    "stage": "Ahn'Qiraj gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Exchange Vek’lor’s Diadem, 2 Idols of the War, 5 Gold Scarabs, and 5 Clay Scarabs for the set piece. Requires Friendly reputation with Brood of Nozdormu.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8639",
+      "https://www.wowhead.com/classic/quest=8639",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [
+      {
+        "id": "8579",
+        "name": "Mortal Champions",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=8639",
+          "https://www.wowhead.com/classic/quest=8639"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8640",
+    "giver": "Kandrostrasz",
+    "area": "Temple of Ahn'Qiraj",
+    "coordinates": "",
+    "zone": "Rogue",
+    "name": "Deathdealer's Leggings",
+    "level": 60,
+    "stage": "Ahn'Qiraj gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Exchange Ouro’s Intact Hide, 2 Idols of Night, 5 Stone Scarabs, and 5 Crystal Scarabs for the set piece. Requires Friendly reputation with Brood of Nozdormu.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8640",
+      "https://www.wowhead.com/classic/quest=8640",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [
+      {
+        "id": "8579",
+        "name": "Mortal Champions",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=8640",
+          "https://www.wowhead.com/classic/quest=8640"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8641",
+    "giver": "Andorgos",
+    "area": "Temple of Ahn'Qiraj",
+    "coordinates": "",
+    "zone": "Rogue",
+    "name": "Deathdealer's Spaulders",
+    "level": 60,
+    "stage": "Ahn'Qiraj gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Exchange Qiraji Bindings of Command, 2 Idols of the Sun, 5 Silver Scarabs, and 5 Clay Scarabs for the set piece. Requires Neutral reputation with Brood of Nozdormu.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8641",
+      "https://www.wowhead.com/classic/quest=8641",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [
+      {
+        "id": "8579",
+        "name": "Mortal Champions",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=8641",
+          "https://www.wowhead.com/classic/quest=8641"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8693",
+    "giver": "Keyl Swiftclaw",
+    "area": "Cenarion Hold, Silithus",
+    "coordinates": "51.8, 39.5",
+    "zone": "Rogue",
+    "name": "Cloak of Veiled Shadows",
+    "level": 60,
+    "stage": "Ahn'Qiraj gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Exchange Qiraji Martial Drape, 2 Azure Idols, 5 Bronze Scarabs, and 5 Ivory Scarabs for the set piece. Requires Revered reputation with Cenarion Circle.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8693",
+      "https://www.wowhead.com/classic/quest=8693",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8701",
+    "giver": "Windcaller Yessendra",
+    "area": "Cenarion Hold, Silithus",
+    "coordinates": "52.1, 38.2",
+    "zone": "Rogue",
+    "name": "Band of Veiled Shadows",
+    "level": 60,
+    "stage": "Ahn'Qiraj gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Exchange Qiraji Ceremonial Ring, 2 Onyx Idols, 5 Stone Scarabs, and 5 Crystal Scarabs for the set piece. Requires Honored reputation with Cenarion Circle.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8701",
+      "https://www.wowhead.com/classic/quest=8701",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8709",
+    "giver": "Warden Haro",
+    "area": "Cenarion Hold, Silithus",
+    "coordinates": "51.1, 38.9",
+    "zone": "Rogue",
+    "name": "Dagger of Veiled Shadows",
+    "level": 60,
+    "stage": "Ahn'Qiraj gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Exchange Qiraji Spiked Hilt, 2 Vermillion Idols, 5 Gold Scarabs, and 5 Clay Scarabs for the set piece. Requires Exalted reputation with Cenarion Circle.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8709",
+      "https://www.wowhead.com/classic/quest=8709",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8910",
+    "giver": "Deliana",
+    "area": "Ironforge",
+    "coordinates": "43.5, 52.6",
+    "zone": "Rogue",
+    "name": "An Earnest Proposition",
+    "level": 60,
+    "stage": "Darkmantle gear · min. level 58 · Availability unverified · Classic reference",
+    "faction": "Alliance",
+    "objective": "Give Deliana Shadowcraft Bracers, 15 Winterspring Blood Samples, and 20 gold to start the Darkmantle upgrades.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8910",
+      "https://www.wowhead.com/classic/quest=8910",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 58,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8935",
+    "giver": "Deliana",
+    "area": "Ironforge",
+    "coordinates": "43.5, 52.6",
+    "zone": "Rogue",
+    "name": "Just Compensation",
+    "level": 60,
+    "stage": "Darkmantle gear · min. level 58 · Availability unverified · Classic reference",
+    "faction": "Alliance",
+    "objective": "Give Deliana Shadowcraft Belt and Shadowcraft Gloves for their Darkmantle upgrades.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8935",
+      "https://www.wowhead.com/classic/quest=8935",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 58,
+    "prerequisites": [
+      {
+        "id": "8977",
+        "name": "Return to Deliana",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=8935",
+          "https://www.wowhead.com/classic/quest=8935"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8956",
+    "giver": "Anthion Harmon",
+    "area": "Outside Stratholme, Eastern Plaguelands",
+    "coordinates": "26.1, 11.3",
+    "zone": "Rogue",
+    "name": "Anthion's Parting Words",
+    "level": 60,
+    "stage": "Darkmantle gear · min. level 58 · Availability unverified · Classic reference",
+    "faction": "Alliance",
+    "objective": "Return from Anthion Harmon to Deliana with Shadowcraft Boots, Shadowcraft Pants, and Shadowcraft Spaulders.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8956",
+      "https://www.wowhead.com/classic/quest=8956",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 58,
+    "prerequisites": [
+      {
+        "id": "9015",
+        "name": "The Challenge",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=8956",
+          "https://www.wowhead.com/classic/quest=8956"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "9004",
+    "giver": "Deliana",
+    "area": "Ironforge",
+    "coordinates": "43.5, 52.6",
+    "zone": "Rogue",
+    "name": "Saving the Best for Last",
+    "level": 60,
+    "stage": "Darkmantle gear · min. level 58 · Availability unverified · Classic reference",
+    "faction": "Alliance",
+    "objective": "Exchange Shadowcraft Cap and Shadowcraft Tunic with Deliana for the final Darkmantle pieces.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=9004",
+      "https://www.wowhead.com/classic/quest=9004",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 58,
+    "prerequisites": [
+      {
+        "id": "8997",
+        "name": "Back to the Beginning",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=9004",
+          "https://www.wowhead.com/classic/quest=9004"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "9077",
+    "giver": "Rohan the Assassin",
+    "area": "Light's Hope Chapel, Eastern Plaguelands",
+    "coordinates": "71.6, 48.9",
+    "zone": "Rogue",
+    "name": "Bonescythe Breastplate",
+    "level": 60,
+    "stage": "Naxxramas gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Give Rohan the Desecrated Breastplate, 25 Wartorn Leather Scraps, 2 Arcanite Bars, and 6 Cured Rugged Hides for the Bonescythe upgrade.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=9077",
+      "https://www.wowhead.com/classic/quest=9077",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [
+      {
+        "id": "9033",
+        "name": "Echoes of War",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=9077",
+          "https://www.wowhead.com/classic/quest=9077"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "9078",
+    "giver": "Rohan the Assassin",
+    "area": "Light's Hope Chapel, Eastern Plaguelands",
+    "coordinates": "71.6, 48.9",
+    "zone": "Rogue",
+    "name": "Bonescythe Legplates",
+    "level": 60,
+    "stage": "Naxxramas gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Give Rohan the Desecrated Legplates, 20 Wartorn Leather Scraps, 1 Arcanite Bar, 8 Cured Rugged Hides, and 100 gold for the Bonescythe upgrade.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=9078",
+      "https://www.wowhead.com/classic/quest=9078",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [
+      {
+        "id": "9033",
+        "name": "Echoes of War",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=9078",
+          "https://www.wowhead.com/classic/quest=9078"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "9079",
+    "giver": "Rohan the Assassin",
+    "area": "Light's Hope Chapel, Eastern Plaguelands",
+    "coordinates": "71.6, 48.9",
+    "zone": "Rogue",
+    "name": "Bonescythe Helmet",
+    "level": 60,
+    "stage": "Naxxramas gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Give Rohan the Desecrated Helmet, 15 Wartorn Leather Scraps, 8 Cured Rugged Hides, 1 Nexus Crystal, and 75 gold for the Bonescythe upgrade.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=9079",
+      "https://www.wowhead.com/classic/quest=9079",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [
+      {
+        "id": "9033",
+        "name": "Echoes of War",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=9079",
+          "https://www.wowhead.com/classic/quest=9079"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "9080",
+    "giver": "Rohan the Assassin",
+    "area": "Light's Hope Chapel, Eastern Plaguelands",
+    "coordinates": "71.6, 48.9",
+    "zone": "Rogue",
+    "name": "Bonescythe Pauldrons",
+    "level": 60,
+    "stage": "Naxxramas gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Give Rohan the Desecrated Pauldrons, 12 Wartorn Leather Scraps, 5 Cured Rugged Hides, 1 Nexus Crystal, and 50 gold for the Bonescythe upgrade.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=9080",
+      "https://www.wowhead.com/classic/quest=9080",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [
+      {
+        "id": "9033",
+        "name": "Echoes of War",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=9080",
+          "https://www.wowhead.com/classic/quest=9080"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "9081",
+    "giver": "Rohan the Assassin",
+    "area": "Light's Hope Chapel, Eastern Plaguelands",
+    "coordinates": "71.6, 48.9",
+    "zone": "Rogue",
+    "name": "Bonescythe Sabatons",
+    "level": 60,
+    "stage": "Naxxramas gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Give Rohan the Desecrated Sabatons, 12 Wartorn Leather Scraps, 3 Cured Rugged Hides, 2 Nexus Crystals, and 25 gold for the Bonescythe upgrade.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=9081",
+      "https://www.wowhead.com/classic/quest=9081",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [
+      {
+        "id": "9033",
+        "name": "Echoes of War",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=9081",
+          "https://www.wowhead.com/classic/quest=9081"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "9082",
+    "giver": "Rohan the Assassin",
+    "area": "Light's Hope Chapel, Eastern Plaguelands",
+    "coordinates": "71.6, 48.9",
+    "zone": "Rogue",
+    "name": "Bonescythe Gauntlets",
+    "level": 60,
+    "stage": "Naxxramas gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Give Rohan the Desecrated Gauntlets, 8 Wartorn Leather Scraps, 1 Arcanite Bar, and 5 Cured Rugged Hides for the Bonescythe upgrade.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=9082",
+      "https://www.wowhead.com/classic/quest=9082",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [
+      {
+        "id": "9033",
+        "name": "Echoes of War",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=9082",
+          "https://www.wowhead.com/classic/quest=9082"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "9083",
+    "giver": "Rohan the Assassin",
+    "area": "Light's Hope Chapel, Eastern Plaguelands",
+    "coordinates": "71.6, 48.9",
+    "zone": "Rogue",
+    "name": "Bonescythe Waistguard",
+    "level": 60,
+    "stage": "Naxxramas gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Give Rohan the Desecrated Waistguard, 8 Wartorn Leather Scraps, 5 Cured Rugged Hides, 1 Nexus Crystal, and 15 gold for the Bonescythe upgrade.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=9083",
+      "https://www.wowhead.com/classic/quest=9083",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [
+      {
+        "id": "9033",
+        "name": "Echoes of War",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=9083",
+          "https://www.wowhead.com/classic/quest=9083"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "9084",
+    "giver": "Rohan the Assassin",
+    "area": "Light's Hope Chapel, Eastern Plaguelands",
+    "coordinates": "71.6, 48.9",
+    "zone": "Rogue",
+    "name": "Bonescythe Bracers",
+    "level": 60,
+    "stage": "Naxxramas gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Give Rohan the Desecrated Bracers, 6 Wartorn Leather Scraps, 1 Arcanite Bar, 2 Cured Rugged Hides, and 10 gold for the Bonescythe upgrade.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=9084",
+      "https://www.wowhead.com/classic/quest=9084",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [
+      {
+        "id": "9033",
+        "name": "Echoes of War",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=9084",
+          "https://www.wowhead.com/classic/quest=9084"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "78261",
+    "giver": "Dead Drop",
+    "area": "Near Pyrewood Village, Silverpine Forest",
+    "coordinates": "47.2, 71.1",
+    "zone": "Rogue",
+    "name": "The Horn of Xelthos",
+    "level": 23,
+    "stage": "Shadowfang Keep solo job",
+    "faction": "Both",
+    "objective": "Enter Shadowfang Keep solo. Get both half-keys from the siblings, combine them, and use the key on the stable chest for the Horn of Xelthos. Return it to the Dead Drop outside Pyrewood Village.",
+    "sources": [
+      "https://foreverchanges.pro/quest/78261/the-horn-of-xelthos",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://polestar.guide/guides/class/rogue/the-horn-of-xelthos"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 1,
+    "prerequisites": [],
+    "previousQuests": [],
+    "notes": "The quest record specifies a minimum of 1. The heist takes place in the level-23 Shadowfang Keep chain."
+  },
+  {
+    "id": "78270",
+    "giver": "Veenix",
+    "area": "Windshear Crag, Stonetalon Mountains",
+    "coordinates": "58.2, 51.7",
+    "zone": "Rogue",
+    "name": "Goblin Lockpicks",
+    "level": 23,
+    "stage": "Shadowfang Keep preparation",
+    "faction": "Both",
+    "objective": "With The Horn of Xelthos active, pickpocket a Venture Co. Work Order from a Venture Co. goblin in Windshear Crag and trade it to Veenix for a Breaching Charge.",
+    "sources": [
+      "https://foreverchanges.pro/quest/78270/goblin-lockpicks",
+      "https://github.com/Questie/QuestieDB/tree/47a4756b775e8c73687fd3066d6c13f0bc43a55e",
+      "https://polestar.guide/guides/class/rogue/the-horn-of-xelthos",
+      "https://pullcall.com/forever/db/quest/78270-goblin-lockpicks"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 1,
+    "prerequisites": [
+      {
+        "id": "78261",
+        "name": "The Horn of Xelthos",
+        "evidence": "forever-records",
+        "sources": [
+          "https://polestar.guide/guides/class/rogue/the-horn-of-xelthos"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "notes": "The quest record specifies a minimum of 1. The heist takes place in the level-23 Shadowfang Keep chain."
+  },
+  {
+    "id": "78307",
+    "giver": "Dead Drop",
+    "area": "Near Pyrewood Village, Silverpine Forest",
+    "coordinates": "47.2, 71.1",
+    "zone": "Rogue",
+    "name": "The Horn of Xelthos",
+    "level": 23,
+    "stage": "Shadowfang Keep reward",
+    "faction": "Both",
+    "objective": "After turning in the horn, check your mail for C’s letter and revisit the Dead Drop to collect the Pyrewood Signet Ring.",
+    "sources": [
+      "https://foreverchanges.pro/quest/78307/the-horn-of-xelthos",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://polestar.guide/guides/class/rogue/the-horn-of-xelthos"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 1,
+    "prerequisites": [
+      {
+        "id": "78261",
+        "name": "The Horn of Xelthos",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/78307/the-horn-of-xelthos",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": [],
+    "notes": "The quest record specifies a minimum of 1. The heist takes place in the level-23 Shadowfang Keep chain."
+  },
+  {
+    "id": "78676",
+    "giver": "Dead Drop",
+    "area": "Near Pyrewood Village, Silverpine Forest",
+    "coordinates": "47.2, 71.1",
+    "zone": "Rogue",
+    "name": "The Eye of Bhossca",
+    "level": 35,
+    "stage": "Scarlet Monastery solo job · min. level 25",
+    "faction": "Both",
+    "objective": "Go solo. Pickpocket a Scryer’s Key in the Scarlet Monastery Graveyard, use it to recover the Eye from the locked reliquary in the Library, and return to the Silverpine Dead Drop. Players report getting the letter at level 30.",
+    "sources": [
+      "https://foreverchanges.pro/quest/78676/the-eye-of-bhossca",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://forg.gg/en/forever/tips/rogue-quests",
+      "https://polestar.guide/guides/class/rogue/the-eye-of-bhossca"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 25,
+    "prerequisites": [
+      {
+        "id": "78307",
+        "name": "The Horn of Xelthos",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/78676/the-eye-of-bhossca",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "78699",
+    "giver": "Dead Drop",
+    "area": "Near Pyrewood Village, Silverpine Forest",
+    "coordinates": "47.2, 71.1",
+    "zone": "Rogue",
+    "name": "The Eye of Bhossca",
+    "level": 35,
+    "stage": "Scarlet Monastery reward · min. level 25",
+    "faction": "Both",
+    "objective": "After returning the eye, check your mail for C’s letter and open the Dead Drop again to collect the Ruby-Adorned Blade.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/78699-the-eye-of-bhossca",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://polestar.guide/guides/class/rogue/the-eye-of-bhossca"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 25,
+    "prerequisites": [
+      {
+        "id": "78676",
+        "name": "The Eye of Bhossca",
+        "evidence": "forever-records",
+        "sources": [
+          "https://pullcall.com/forever/db/quest/78699-the-eye-of-bhossca",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "80411",
+    "zone": "Rogue",
+    "level": 50,
+    "name": "The Talisman of Kazdor",
+    "stage": "Zul'Farrak solo questline · min. level 45",
+    "giver": "Fahrad",
+    "coordinates": "84.5, 80.3",
+    "area": "Ravenholdt Manor, Alterac Mountains",
+    "objective": "Enter Zul’Farrak solo, recover the Talisman of Kazdor from the Spellbound War Chest, and bring it back to Fahrad.",
+    "areaConfidence": "Approximate",
+    "notes": "Rogue only; Minimum level 45; Shared-faction access supported by primary generated data; Current Wowhead quest tooltip and player traces confirm identity/objective; Pickup coordinate is a Classic NPC reference; Chain link is observed offer order, not a confirmed mandatory prerequisite",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/80411-the-talisman-of-kazdor",
+      "https://github.com/Questie/QuestieDB/tree/47a4756b775e8c73687fd3066d6c13f0bc43a55e",
+      "https://www.wowhead.com/forever/quest=80411",
+      "https://nether.wowhead.com/forever/tooltip/quest/80411",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua",
+      "https://www.wowhead.com/forever/quest=80526/fool-me-twice"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "80526",
+        "name": "Fool Me Twice",
+        "evidence": "community",
+        "relation": "Offered after",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua"
+        ]
+      }
+    ],
+    "faction": "Both",
+    "minimumLevel": 45
+  },
+  {
+    "id": "80453",
+    "giver": "Fahrad",
+    "area": "Ravenholdt Manor, Alterac Mountains",
+    "coordinates": "84.5, 80.3",
+    "zone": "Rogue",
+    "name": "Best Laid Plans",
+    "level": 50,
+    "stage": "Zul'Farrak solo questline · min. level 45",
+    "faction": "Both",
+    "objective": "Take the recovered talisman downstairs to Zan Shivsproket in Ravenholdt Manor.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/80453-best-laid-plans",
+      "https://github.com/Questie/QuestieDB/tree/47a4756b775e8c73687fd3066d6c13f0bc43a55e",
+      "https://forg.gg/en/forever/tips/rogue-quests",
+      "https://www.wowhead.com/forever/quest=80526/fool-me-twice"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 45,
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "80411",
+        "name": "The Talisman of Kazdor",
+        "evidence": "forever-records",
+        "sources": [
+          "https://pullcall.com/forever/db/quest/80453-best-laid-plans",
+          "https://github.com/Questie/QuestieDB/tree/47a4756b775e8c73687fd3066d6c13f0bc43a55e"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "80454",
+    "giver": "Zan Shivsproket",
+    "area": "Ravenholdt Manor cellar, Alterac Mountains",
+    "coordinates": "86.0, 80.0",
+    "zone": "Rogue",
+    "name": "One Last Drop",
+    "level": 50,
+    "stage": "Zul'Farrak solo questline · min. level 45",
+    "faction": "Both",
+    "objective": "Deliver the Modified Talisman to Caius’s Dead Drop near Pyrewood Village.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/80454-one-last-drop",
+      "https://github.com/Questie/QuestieDB/tree/47a4756b775e8c73687fd3066d6c13f0bc43a55e",
+      "https://forg.gg/en/forever/tips/rogue-quests",
+      "https://www.wowhead.com/forever/quest=80526/fool-me-twice"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 45,
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "80453",
+        "name": "Best Laid Plans",
+        "evidence": "forever-records",
+        "sources": [
+          "https://pullcall.com/forever/db/quest/80454-one-last-drop",
+          "https://github.com/Questie/QuestieDB/tree/47a4756b775e8c73687fd3066d6c13f0bc43a55e"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "80455",
+    "giver": "Dead Drop",
+    "area": "Near Pyrewood Village, Silverpine Forest",
+    "coordinates": "47.2, 71.1",
+    "zone": "Rogue",
+    "name": "Biding Our Time",
+    "level": 50,
+    "stage": "Zul'Farrak solo questline · min. level 45",
+    "faction": "Both",
+    "objective": "Return to Fahrad at Ravenholdt Manor to claim the Filcher’s Cowl.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/80455-biding-our-time",
+      "https://github.com/Questie/QuestieDB/tree/47a4756b775e8c73687fd3066d6c13f0bc43a55e",
+      "https://forg.gg/en/forever/tips/rogue-quests",
+      "https://www.wowhead.com/forever/quest=80526/fool-me-twice"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 45,
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "80454",
+        "name": "One Last Drop",
+        "evidence": "forever-records",
+        "sources": [
+          "https://pullcall.com/forever/db/quest/80455-biding-our-time",
+          "https://github.com/Questie/QuestieDB/tree/47a4756b775e8c73687fd3066d6c13f0bc43a55e"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "80526",
+    "zone": "Rogue",
+    "level": 50,
+    "name": "Fool Me Twice",
+    "stage": "Zul'Farrak solo questline · min. level 45",
+    "giver": "Fahrad",
+    "coordinates": "84.5, 80.3",
+    "area": "Ravenholdt Manor, Alterac Mountains",
+    "objective": "Speak to Fahrad at Ravenholdt Manor about the Zul’Farrak job. Players report receiving his letter at level 45 after the two earlier heists and The Manor, Ravenholdt.",
+    "areaConfidence": "Approximate",
+    "notes": "Rogue only; Minimum level 45; Shared-faction access supported by primary generated data; Current Wowhead quest tooltip and player traces confirm identity/objective; Pickup coordinate is a Classic NPC reference; Chain link is observed offer order, not a confirmed mandatory prerequisite",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/80526-fool-me-twice",
+      "https://github.com/Questie/QuestieDB/tree/47a4756b775e8c73687fd3066d6c13f0bc43a55e",
+      "https://www.wowhead.com/forever/quest=80526",
+      "https://nether.wowhead.com/forever/tooltip/quest/80526",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua",
+      "https://www.wowhead.com/forever/quest=80526/fool-me-twice"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "78307",
+        "name": "The Horn of Xelthos",
+        "evidence": "community",
+        "relation": "Offered after",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=80526/fool-me-twice"
+        ]
+      },
+      {
+        "id": "78699",
+        "name": "The Eye of Bhossca",
+        "evidence": "community",
+        "relation": "Offered after",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=80526/fool-me-twice"
+        ]
+      },
+      {
+        "id": "6681",
+        "name": "The Manor, Ravenholdt",
+        "evidence": "community",
+        "relation": "Offered after",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=80526/fool-me-twice"
+        ]
+      }
+    ],
+    "faction": "Both",
+    "minimumLevel": 45
+  },
+  {
+    "id": "92483",
+    "giver": "Rorian the Dayseeker",
+    "area": "Zephras Isle",
+    "coordinates": "42.1, 23.5",
+    "zone": "Rogue",
+    "name": "At Home in the Shadows",
+    "level": 2,
+    "stage": "Skyborne starter",
+    "faction": "Both",
+    "objective": "Read the Simple Note, then meet Akeri Duskblade in the Thendal Grove watchtower on Zephras Isle.",
+    "sources": [
+      "https://foreverchanges.pro/quest/92483/at-home-in-the-shadows",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://www.stillsixty.com/guides/rogue-class-quests"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 2,
+    "prerequisites": [
+      {
+        "id": "92461",
+        "name": "Harmony in Balance",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/92483/at-home-in-the-shadows",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96779",
+    "giver": "Myrokos Silentform",
+    "area": "Alterac Mountains",
+    "coordinates": "85, 80.4",
+    "zone": "Rogue",
+    "name": "Syndicate Sabotage",
+    "level": 24,
+    "stage": "Durnholde Keep",
+    "faction": "Both",
+    "objective": "Kill Lord Tomas inside Durnholde Keep in Hillsbrad Foothills, then report to Myrokos Silentform at Ravenholdt Manor.",
+    "sources": [
+      "https://foreverchanges.pro/quest/96779/syndicate-sabotage",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://dailyrespawn.com/article/how-to-complete-the-rogue-syndicate-quests-in-wow-forever"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 24,
+    "prerequisites": [
+      {
+        "id": "6681",
+        "name": "The Manor, Ravenholdt",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/96779/syndicate-sabotage",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96781",
+    "giver": "Myrokos Silentform",
+    "area": "Alterac Mountains",
+    "coordinates": "85, 80.4",
+    "zone": "Rogue",
+    "name": "What's the Big Idea?",
+    "level": 36,
+    "stage": "Alterac ruins · min. level 24",
+    "faction": "Both",
+    "objective": "Pickpocket Barton’s Scouting Report in Alterac and bring it to Myrokos Silentform.",
+    "sources": [
+      "https://foreverchanges.pro/quest/96781/whats-the-big-idea",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://dailyrespawn.com/article/how-to-complete-the-rogue-syndicate-quests-in-wow-forever"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 24,
+    "prerequisites": [
+      {
+        "id": "6681",
+        "name": "The Manor, Ravenholdt",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/96781/whats-the-big-idea",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96782",
+    "giver": "Myrokos Silentform",
+    "area": "Alterac Mountains",
+    "coordinates": "85.1, 80.4",
+    "zone": "Rogue",
+    "name": "Covert Extraction",
+    "level": 36,
+    "stage": "Alterac ruins · min. level 24",
+    "faction": "Both",
+    "objective": "Recover the Blade of House Perenolde and the Royal Aegis of Perenolde in the Ruins of Alterac, then return to Myrokos.",
+    "sources": [
+      "https://foreverchanges.pro/quest/96782/covert-extraction",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://dailyrespawn.com/article/how-to-complete-the-rogue-syndicate-quests-in-wow-forever"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 24,
+    "prerequisites": [
+      {
+        "id": "96781",
+        "name": "What's the Big Idea?",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/96782/covert-extraction",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96783",
+    "giver": "Myrokos Silentform",
+    "area": "Alterac Mountains",
+    "coordinates": "85, 80.4",
+    "zone": "Rogue",
+    "name": "A Way In",
+    "level": 34,
+    "stage": "Stromgarde infiltration · min. level 24",
+    "faction": "Both",
+    "objective": "Go to Northfold Manor and use the Syndicate Footlocker to obtain a disguise for Stromgarde Keep.",
+    "sources": [
+      "https://foreverchanges.pro/quest/96783/a-way-in",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://dailyrespawn.com/article/how-to-complete-the-rogue-syndicate-quests-in-wow-forever"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 24,
+    "prerequisites": [
+      {
+        "id": "6681",
+        "name": "The Manor, Ravenholdt",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/96783/a-way-in",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96784",
+    "giver": "Syndicate Footlocker",
+    "area": "Northfold Manor, Arathi Highlands",
+    "coordinates": "32.3, 26.6",
+    "zone": "Rogue",
+    "name": "Master of Disguise",
+    "level": 34,
+    "stage": "Stromgarde infiltration · min. level 24",
+    "faction": "Both",
+    "objective": "Put on the Syndicate Uniform and find Anastasia Miller in Stromgarde Keep.",
+    "sources": [
+      "https://foreverchanges.pro/quest/96784/master-of-disguise",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://dailyrespawn.com/article/how-to-complete-the-rogue-syndicate-quests-in-wow-forever"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 24,
+    "prerequisites": [
+      {
+        "id": "96783",
+        "name": "A Way In",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/96784/master-of-disguise",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96785",
+    "giver": "Anastasia Miller",
+    "area": "Arathi Highlands",
+    "coordinates": "26.7, 63.7",
+    "zone": "Rogue",
+    "name": "Ain't No Telling",
+    "level": 34,
+    "stage": "Stromgarde infiltration · min. level 24",
+    "faction": "Both",
+    "objective": "Find the Stolen Funds in Stromgarde Keep and use them to get Anastasia to reveal the deal.",
+    "sources": [
+      "https://foreverchanges.pro/quest/96785/aint-no-telling",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://dailyrespawn.com/article/how-to-complete-the-rogue-syndicate-quests-in-wow-forever"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 24,
+    "prerequisites": [
+      {
+        "id": "96784",
+        "name": "Master of Disguise",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/96785/aint-no-telling",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96786",
+    "giver": "Anastasia Miller",
+    "area": "Arathi Highlands",
+    "coordinates": "26.8, 63.6",
+    "zone": "Rogue",
+    "name": "The Syndicate Sting",
+    "level": 34,
+    "stage": "Stromgarde infiltration · min. level 24",
+    "faction": "Both",
+    "objective": "Intercept the Syndicate’s deal in Stromgarde Keep, then take the Intercepted Shipment to Myrokos at Ravenholdt Manor.",
+    "sources": [
+      "https://foreverchanges.pro/quest/96786/the-syndicate-sting",
+      "https://www.wofwforever.com/en/questlines/rogue-class-quests/",
+      "https://dailyrespawn.com/article/how-to-complete-the-rogue-syndicate-quests-in-wow-forever"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 24,
+    "prerequisites": [
+      {
+        "id": "96785",
+        "name": "Ain't No Telling",
+        "evidence": "forever-records",
+        "sources": [
+          "https://foreverchanges.pro/quest/96786/the-syndicate-sting",
+          "https://www.wofwforever.com/en/questlines/rogue-class-quests/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "98529",
+    "giver": "Fahrad",
+    "area": "Ravenholdt Manor, Alterac Mountains",
+    "coordinates": "84.5, 80.3",
+    "zone": "Rogue",
+    "name": "Junkboxes Needed",
+    "level": 60,
+    "stage": "Ravenholdt · min. level 50 · Repeatable",
+    "faction": "Both",
+    "objective": "Bring 5 Heavy Junkboxes to Fahrad in Ravenholdt Manor for a repeatable reputation hand-in.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/98529-junkboxes-needed",
+      "https://github.com/Questie/QuestieDB/tree/47a4756b775e8c73687fd3066d6c13f0bc43a55e",
+      "https://forever-tool.com/de/quests/98529/"
+    ],
+    "evidence": {
+      "identity": "forever-records",
+      "availability": "forever-records",
+      "objective": "forever-records"
+    },
+    "minimumLevel": 50,
+    "prerequisites": [],
+    "previousQuests": []
   }
 ]

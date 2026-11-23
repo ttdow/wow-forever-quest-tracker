@@ -1,0 +1,13 @@
+# Alliance Rogue class quests
+
+Reviewed November 23, 2026. The Class tab includes 79 quest IDs available to Alliance Rogues or recorded in Classic for Alliance Rogues. There are 48 entries from Forever sources and 31 references with unverified Forever availability.
+
+## Coverage
+
+- The starter routes include Human, Dwarf, Gnome, Night Elf, and Alliance Skyborne. The level 10 trainer routes, level 16 lockpicking, and level 20 poisons retain separate quest IDs and their chain links. [ForeverChanges quest index](https://foreverchanges.pro/quests/rogue) · [Rogue questline index](https://www.wofwforever.com/en/questlines/rogue-class-quests/)
+- Shared Forever quests include the Shadowfang Keep, Scarlet Monastery, and Zul'Farrak solo jobs, Ravenholdt's three Syndicate branches, and the Azure Key chain. The Horn and Eye each have a separate reward hand-in. Goblin Lockpicks uses the Work Order requirement and Veenix's hand-in, which are more specific than its reused quest text. [QuestieDB](https://github.com/Questie/QuestieDB/tree/47a4756b775e8c73687fd3066d6c13f0bc43a55e) · [Shadowfang Keep steps](https://polestar.guide/guides/class/rogue/the-horn-of-xelthos) · [Scarlet Monastery steps](https://polestar.guide/guides/class/rogue/the-eye-of-bhossca) · [Syndicate walkthrough](https://dailyrespawn.com/article/how-to-complete-the-rogue-syndicate-quests-in-wow-forever)
+- Classic records cover Dire Maul, the Darkmantle upgrades, Silithus armaments, Zul'Gurub, Ahn'Qiraj, Naxxramas, and the older Horns of Nez'ra and Junkboxes Needed IDs. The live Forever Junkboxes Needed record uses #98529. Raid records preserve their Classic requirements, with availability labeled in each entry. [CMaNGOS Classic DB](https://github.com/cmangos/classic-db/releases/tag/latest) · [Blizzard's Forever roadmap](https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap) · [Forever Junkboxes Needed](https://www.wowhead.com/forever/quest=98529/junkboxes-needed)
+
+The audit compared the class catalogs with quest class masks and NPC, item, and object start records. It omits Horde-only routes, Season of Discovery rune quests carried in client indexes, and the Rokar Bladeshadow entries, which lacked corroborating Forever quest starts or objectives. Shared prerequisites outside the Rogue list are linked by their own IDs. [Wowhead Forever class index](https://www.wowhead.com/forever/quests/classes/rogue) · [Legacy of Warcraft class index](https://legacyofwarcraft.com/db/forever/quests/rogue.html)
+
+Fourteen IDs already appear in the geographic lists. Class tracking uses the same IDs, so existing completion marks apply automatically.

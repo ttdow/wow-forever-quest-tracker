@@ -3,6 +3,7 @@
 const $ = selector => document.querySelector(selector);
 const state = { quests: [], forwardLinks: new Map(), completed: new Set(), expanded: new Set(), zone: 'Teldrassil', view: 'quests', section: 'quests', profession: 'Fishing', storageReady: false, loaded: false };
 const rows = $('#quests');
+const classLists = ['Rogue'];
 const zones = ['Teldrassil', 'Darkshore', 'Ashenvale', 'Stonetalon Mountains', 'Desolace', "Shen'dralas", 'Feralas', 'Stranglethorn Vale', 'Felwood', 'Azshara', 'Riverglades', 'Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Razorfen Downs', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'Scarlet Monastery Cathedral', 'The Drowned City', "Krol'dok Stronghold", 'Uldaman', 'Maraudon', "Zul'Farrak", 'Alcaz Prison', 'Sunken Temple'];
 // Suggested leveling bands; keep the underlying names stable for routes and saves.
 const suggestedLevels = {
@@ -46,6 +47,11 @@ function zoneLabel(zone) {
   return range ? `${zone} (${range[0]}–${range[1]})` : zone;
 }
 
+function questListGroup(zone) {
+  if (classLists.includes(zone)) return 'classes';
+  return isDungeon(zone) ? 'dungeons' : 'zones';
+}
+
 function renderZoneNavigation() {
   const selection = state.section === 'professions' ? state.profession : state.zone;
   if (navigation.zone !== selection) { navigation.zone = selection; navigation.open = null; }
@@ -54,14 +60,14 @@ function renderZoneNavigation() {
   professionToggle.setAttribute('aria-expanded', String(navigation.open === 'professions'));
   $('#professions-list').hidden = navigation.open !== 'professions';
   for (const button of document.querySelectorAll('[data-profession]')) button.setAttribute('aria-pressed', String(state.section === 'professions' && state.profession === button.dataset.profession));
-  for (const group of ['zones', 'dungeons']) {
+  for (const group of ['zones', 'dungeons', 'classes']) {
     const toggle = $(`[data-zone-group="${group}"]`);
     const list = $(`#${group}-list`);
     toggle.disabled = !state.loaded;
     toggle.setAttribute('aria-expanded', String(navigation.open === group));
     list.hidden = navigation.open !== group;
     if (!list.childElementCount) {
-      const entries = zones.filter(zone => isDungeon(zone) === (group === 'dungeons'));
+      const entries = group === 'classes' ? [...classLists] : zones.filter(zone => questListGroup(zone) === group);
       const unranked = [Number.MAX_SAFE_INTEGER, Number.MAX_SAFE_INTEGER];
       entries.sort((a, b) => {
         const [minA, maxA] = suggestedLevels[a] ?? unranked;
@@ -92,18 +98,20 @@ function renderZoneNavigation() {
   }
 }
 
-function selectZone(zone) {
-  if (!zones.includes(zone)) return;
+function selectZone(zone, updateHistory = true) {
+  if (!(zones.includes(zone) || classLists.includes(zone))) return;
   navigation.open = null;
-  if (zone !== state.zone || state.section === 'professions') {
+  if (!updateHistory || zone !== state.zone || state.section === 'professions') {
     state.section = 'quests';
     state.zone = zone;
-    if (!supportsView(state.zone, state.view)) state.view = 'quests';
+    if (!updateHistory || !supportsView(state.zone, state.view)) state.view = 'quests';
     if (isDungeon(state.zone) && !state.quests.some(quest => quest.zone === state.zone)) state.view = 'drops';
-    history.pushState({ zone: state.zone, view: state.view }, '', viewURL(state.zone, state.view));
+    const routeState = { zone: state.zone, view: state.view };
+    if (updateHistory) history.pushState(routeState, '', viewURL(state.zone, state.view));
+    else history.replaceState(routeState, '', location.href);
     render();
   } else renderZoneNavigation();
-  $(`[data-zone-group="${isDungeon(zone) ? 'dungeons' : 'zones'}"]`).focus({ preventScroll: true });
+  if (updateHistory) $(`[data-zone-group="${questListGroup(zone)}"]`).focus({ preventScroll: true });
 }
 
 function selectProfession(profession, updateHistory = true, itemId = null) {
@@ -135,7 +143,8 @@ function questElementID(quest) {
 }
 
 function questHash(quest) {
-  return `#${new URLSearchParams({ zone: quest.zone, id: quest.id })}`;
+  const key = classLists.includes(quest.zone) ? 'class' : 'zone';
+  return `#${new URLSearchParams({ [key]: quest.zone, id: quest.id })}`;
 }
 
 function isDungeon(zone) {
@@ -151,6 +160,7 @@ function supportsView(zone, view) {
 }
 
 function viewURL(zone, view) {
+  if (classLists.includes(zone)) return `#${new URLSearchParams({ class: zone })}`;
   return view === 'quests' ? location.pathname + location.search : `#${new URLSearchParams({ zone, view })}`;
 }
 
@@ -189,6 +199,11 @@ function revealQuest(id, zone, updateHistory = true) {
 function revealHashRoute() {
   const params = new URLSearchParams(location.hash.slice(1));
   if (selectProfession(params.get('profession'), false, params.get('item'))) return true;
+  const className = params.get('class');
+  if (state.loaded && classLists.includes(className)) {
+    if (!revealQuest(params.get('id'), className, false)) selectZone(className, false);
+    return true;
+  }
   if (['drops', 'map'].includes(params.get('view')) && supportsView(params.get('zone'), params.get('view'))) {
     state.section = 'quests';
     state.zone = params.get('zone');

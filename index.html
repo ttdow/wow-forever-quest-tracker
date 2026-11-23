@@ -16,7 +16,7 @@
   <script src="./cooking.js?v=58" defer></script>
   <script src="./leatherworking.js?v=61" defer></script>
   <script src="./professions.js?v=59" defer></script>
-  <script src="./app.js?v=71" defer></script>
+  <script src="./app.js?v=73" defer></script>
 </head>
 <body>
   <noscript>Enable JavaScript to use the quest tracker.</noscript>
@@ -29,11 +29,13 @@
       <div class="zone-groups">
         <button type="button" data-zone-group="zones" aria-expanded="false" aria-controls="zones-list" disabled>Zones</button>
         <button type="button" data-zone-group="dungeons" aria-expanded="false" aria-controls="dungeons-list" disabled>Dungeons</button>
+        <button type="button" data-zone-group="classes" aria-expanded="false" aria-controls="classes-list" disabled>Class</button>
         <button type="button" data-zone-group="professions" aria-expanded="false" aria-controls="professions-list">Professions</button>
         <span id="selected-zone">Teldrassil (1–10)</span>
       </div>
       <div id="zones-list" class="zone-list" role="group" aria-label="Zones" hidden></div>
       <div id="dungeons-list" class="zone-list" role="group" aria-label="Dungeons" hidden></div>
+      <div id="classes-list" class="zone-list" role="group" aria-label="Class" hidden></div>
       <div id="professions-list" class="zone-list" role="group" aria-label="Professions" hidden>
         <button type="button" data-profession="Fishing" aria-pressed="false">Fishing</button>
         <button type="button" data-profession="Cooking" aria-pressed="false">Cooking</button>
