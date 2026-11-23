@@ -55,4 +55,4 @@ Quest items/components, quest rewards, Heart of the Wild, consumables, recipes, 
 
 [sources.json](sources.json) records candidate decisions, parsed quest facts, source revisions, fetch URLs, hashes, the Classic snapshot identity, and item source decisions. [primary-records.json](primary-records.json) preserves relevant primary metadata/relationships; [addon.lua](addon.lua) preserves the inspected addon revision.
 
-No map is added by this change. Coverage is bounded by the inspected current sources; undocumented changes may exist. Existing quest/drop records, professions, saved IDs, and the progress-storage key remain unchanged. Totals are **774 list entries / 745 unique quest IDs** and **307 equipment entries**. The site remains static, with no hosting runtime or build dependency.
+The [Maraudon map](../maraudon-map/README.md) links the boss drops and quests to their locations in the instance and on the Desolace approach.

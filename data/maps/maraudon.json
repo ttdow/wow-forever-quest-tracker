@@ -1,0 +1,1493 @@
+{
+  "zone": "Maraudon",
+  "updated": "2026-11-22",
+  "map": {
+    "appearance": "dungeon",
+    "coordinateSystem": "guide-image",
+    "source": "https://foreverdb.net/dungeon/349-maraudon",
+    "attribution": "World of Warcraft © Blizzard Entertainment; client maps via ForeverDB"
+  },
+  "floors": [
+    {
+      "id": "main",
+      "name": "Dungeon interior",
+      "image": "./assets/maps/maraudon-main.webp",
+      "width": 1712,
+      "height": 2048,
+      "worldProjection": {
+        "originX": 1192.87,
+        "originY": 317.36,
+        "pixelsPerYard": 1.48539
+      },
+      "note": "Both wing entrances and the inner route. Some passages appear on the Landslide and Orange tunnel detail sections."
+    },
+    {
+      "id": "landslide",
+      "name": "Landslide caverns",
+      "image": "./assets/maps/maraudon-landslide.webp",
+      "width": 508,
+      "height": 647,
+      "worldProjection": {
+        "originX": 396.53,
+        "originY": -66.38,
+        "pixelsPerYard": 2.0
+      },
+      "note": "Take the inner route from Earth Song Falls to reach Landslide."
+    },
+    {
+      "id": "orange-tunnels",
+      "name": "Orange tunnel detail",
+      "image": "./assets/maps/maraudon-orange-tunnels.webp",
+      "width": 498,
+      "height": 499,
+      "worldProjection": {
+        "originX": 1085.99,
+        "originY": -179.75,
+        "pixelsPerYard": 2.0
+      },
+      "note": "An overlapping minimap section of the Orange wing, showing five of the Vylestem Vines."
+    },
+    {
+      "id": "approach",
+      "name": "Desolace and entrance caves",
+      "image": "./assets/maps/desolace.webp",
+      "width": 1002,
+      "height": 668,
+      "worldBounds": [
+        -2545.8,
+        -262.5,
+        452.1,
+        4233.3
+      ],
+      "note": "The cave pins are projected onto the Desolace surface map. Zoom near the Valley of Spears or open the Classic cave plan for the passages. Solid Chest pins are above ground."
+    }
+  ],
+  "points": [
+    {
+      "id": "portal-3133",
+      "name": "Orange wing entrance",
+      "category": "entrance",
+      "floor": "main",
+      "x": 67.318,
+      "y": 12.768,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "client"
+      ],
+      "areaTrigger": 3133,
+      "note": "Arrival inside the Orange portal. Fill the vial at the orange pool in the entrance caves before coming in.",
+      "world": {
+        "map": 349,
+        "x": 1016.83,
+        "y": -458.52,
+        "z": -43.4737
+      }
+    },
+    {
+      "id": "portal-3134",
+      "name": "Purple wing entrance",
+      "category": "entrance",
+      "floor": "main",
+      "x": 81.1287,
+      "y": 31.7525,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "client"
+      ],
+      "areaTrigger": 3134,
+      "note": "Arrival inside the Purple portal. Follow the satyr passage into the Wicked Grotto.",
+      "world": {
+        "map": 349,
+        "x": 755.078,
+        "y": -617.696,
+        "z": -32.9222
+      }
+    },
+    {
+      "id": "npc-13282",
+      "name": "Noxxion",
+      "category": "boss",
+      "floor": "main",
+      "x": 44.1367,
+      "y": 4.5309,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "npcId": "13282",
+      "spawnGuid": 3490511,
+      "drops": true,
+      "note": "Drops the Celebrian Rod for Legends of Maraudon.",
+      "aliases": [
+        "Celebrian Rod",
+        "Orange wing"
+      ],
+      "world": {
+        "map": 349,
+        "x": 1130.4,
+        "y": -191.342,
+        "z": -80.0014
+      },
+      "questIds": [
+        "7044"
+      ]
+    },
+    {
+      "id": "npc-12258",
+      "name": "Razorlash",
+      "category": "boss",
+      "floor": "main",
+      "x": 28.4161,
+      "y": 15.5199,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "npcId": "12258",
+      "spawnGuid": 3490488,
+      "drops": true,
+      "aliases": [
+        "Orange wing"
+      ],
+      "world": {
+        "map": 349,
+        "x": 978.887,
+        "y": -10.152,
+        "z": -62.5035
+      }
+    },
+    {
+      "id": "npc-12236",
+      "name": "Lord Vyletongue",
+      "category": "boss",
+      "floor": "main",
+      "x": 46.5926,
+      "y": 32.2025,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "npcId": "12236",
+      "spawnGuid": 3490484,
+      "drops": true,
+      "note": "Drops the Celebrian Diamond for Legends of Maraudon.",
+      "aliases": [
+        "Celebrian Diamond",
+        "Purple wing"
+      ],
+      "world": {
+        "map": 349,
+        "x": 748.874,
+        "y": -219.647,
+        "z": -47.6926
+      },
+      "questIds": [
+        "7044"
+      ]
+    },
+    {
+      "id": "npc-12237",
+      "name": "Meshlok the Harvester",
+      "category": "rare",
+      "floor": "main",
+      "x": 35.553,
+      "y": 40.6719,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "npcId": "12237",
+      "spawnGuid": 3490485,
+      "drops": true,
+      "poolId": 46901,
+      "note": "Optional rare at Poison Falls. The pin marks his recorded Classic spawn near his patrol.",
+      "world": {
+        "map": 349,
+        "x": 632.101,
+        "y": -92.409,
+        "z": -57.4999
+      }
+    },
+    {
+      "id": "npc-12225",
+      "name": "Celebras the Cursed",
+      "category": "boss",
+      "floor": "main",
+      "x": 20.7697,
+      "y": 33.8538,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "npcId": "12225",
+      "spawnGuid": 3490483,
+      "drops": true,
+      "note": "Defeat corrupted Celebras and speak with Celebras the Redeemed.",
+      "world": {
+        "map": 349,
+        "x": 726.106,
+        "y": 77.9764,
+        "z": -86.5913
+      }
+    },
+    {
+      "id": "npc-13716",
+      "name": "Celebras the Redeemed",
+      "category": "quest-giver",
+      "floor": "main",
+      "x": 20.7697,
+      "y": 33.8538,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "quests",
+        "client"
+      ],
+      "approximate": true,
+      "npcId": "13716",
+      "note": "Encounter-area reference. Speak to him after defeating Celebras the Cursed, then follow him to the ritual stone.",
+      "world": {
+        "map": 349,
+        "x": 726.106,
+        "y": 77.9764,
+        "z": -86.5913
+      },
+      "questIds": [
+        "7044",
+        "7046"
+      ]
+    },
+    {
+      "id": "object-178965-3490026",
+      "name": "Incantation of Celebras",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 21.0533,
+      "y": 39.1974,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "objectId": "178965",
+      "spawnGuid": 3490026,
+      "note": "Interact with the book during the ritual for the Scepter of Celebras.",
+      "aliases": [
+        "Scepter ritual",
+        "Ritual stone"
+      ],
+      "world": {
+        "map": 349,
+        "x": 652.431,
+        "y": 74.7087,
+        "z": -85.3355
+      },
+      "questIds": [
+        "7046"
+      ]
+    },
+    {
+      "id": "npc-12242",
+      "name": "Spirit of Maraudos",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 67.1679,
+      "y": 33.1182,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "npcId": "12242",
+      "spawnGuid": 3490486,
+      "aliases": [
+        "Gem of the Fourth Khan"
+      ],
+      "note": "Use the Amulet of Spirits to fight this Khan and retrieve the fourth gem. The pin marks the Classic patrol origin.",
+      "world": {
+        "map": 349,
+        "x": 736.248,
+        "y": -456.79,
+        "z": -52.8932
+      },
+      "questIds": [
+        "7067"
+      ]
+    },
+    {
+      "id": "npc-12243",
+      "name": "Spirit of Veng",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 64.3353,
+      "y": 9.9713,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "npcId": "12243",
+      "spawnGuid": 3490487,
+      "aliases": [
+        "Gem of the Fifth Khan"
+      ],
+      "note": "Use the Amulet of Spirits to fight this Khan and retrieve the fifth gem. The pin marks the Classic patrol origin.",
+      "world": {
+        "map": 349,
+        "x": 1055.39,
+        "y": -424.143,
+        "z": -31.7116
+      },
+      "questIds": [
+        "7067"
+      ]
+    },
+    {
+      "id": "scepter-arrival",
+      "name": "Earth Song Falls shortcut arrival",
+      "category": "entrance",
+      "floor": "main",
+      "x": 26.1496,
+      "y": 50.4561,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "portal",
+        "client"
+      ],
+      "spellId": 21128,
+      "note": "Where the Scepter of Celebras portal arrives inside Maraudon.",
+      "world": {
+        "map": 349,
+        "x": 497.2,
+        "y": 15.97,
+        "z": -96.31
+      },
+      "questIds": [
+        "7046"
+      ]
+    },
+    {
+      "id": "npc-12203",
+      "name": "Landslide",
+      "category": "boss",
+      "floor": "landslide",
+      "x": 46.8799,
+      "y": 12.3181,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "npcId": "12203",
+      "spawnGuid": 3490203,
+      "drops": true,
+      "world": {
+        "map": 349,
+        "x": 356.681,
+        "y": -185.455,
+        "z": -59.8156
+      }
+    },
+    {
+      "id": "npc-13601",
+      "name": "Tinkerer Gizlock",
+      "category": "boss",
+      "floor": "main",
+      "x": 54.7556,
+      "y": 76.7332,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "npcId": "13601",
+      "spawnGuid": 3490596,
+      "drops": true,
+      "aliases": [
+        "Goblin"
+      ],
+      "world": {
+        "map": 349,
+        "x": 134.902,
+        "y": -313.731,
+        "z": -173.555
+      }
+    },
+    {
+      "id": "npc-13596",
+      "name": "Rotgrip",
+      "category": "boss",
+      "floor": "main",
+      "x": 33.2574,
+      "y": 83.4652,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "npcId": "13596",
+      "spawnGuid": 3490569,
+      "drops": true,
+      "moving": true,
+      "movementNote": "Patrols underwater. The pin marks his Classic spawn.",
+      "world": {
+        "map": 349,
+        "x": 42.0826,
+        "y": -65.9511,
+        "z": -199.554
+      }
+    },
+    {
+      "id": "earth-song-water",
+      "name": "Vial of Earth Song Water",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 33.2574,
+      "y": 83.4652,
+      "verification": "player-reported",
+      "sources": [
+        "water",
+        "client"
+      ],
+      "approximate": true,
+      "itemId": 258296,
+      "note": "This pin marks Rotgrip's pool. Look for a water spout beneath the stone bridge toward the eastern side of the pool, below Princess Theradras.",
+      "questIds": [
+        "93404"
+      ]
+    },
+    {
+      "id": "npc-12201",
+      "name": "Princess Theradras",
+      "category": "boss",
+      "floor": "main",
+      "x": 20.3171,
+      "y": 84.494,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "npcId": "12201",
+      "spawnGuid": 3490202,
+      "drops": true,
+      "moving": true,
+      "movementNote": "Moves around Zaetar’s Grave. The pin marks her Classic spawn.",
+      "world": {
+        "map": 349,
+        "x": 27.8981,
+        "y": 83.1932,
+        "z": -124.483
+      },
+      "questIds": [
+        "7065"
+      ]
+    },
+    {
+      "id": "npc-12238",
+      "name": "Zaetar's Spirit",
+      "category": "quest-giver",
+      "floor": "main",
+      "x": 20.3171,
+      "y": 84.494,
+      "verification": "community-reference",
+      "sources": [
+        "guide",
+        "quests",
+        "client"
+      ],
+      "approximate": true,
+      "npcId": "12238",
+      "note": "Arena reference. Zaetar's Spirit appears after Princess Theradras dies and offers Seed of Life.",
+      "questIds": [
+        "7066"
+      ]
+    },
+    {
+      "id": "carvings-example",
+      "name": "Theradric Crystal Carvings area",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 46.1978,
+      "y": 27.1473,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "client"
+      ],
+      "npcId": "12224",
+      "note": "Representative Cavern Shambler position. Many enemies on both wings and the inner route drop carvings.",
+      "world": {
+        "map": 349,
+        "x": 818.573,
+        "y": -215.097,
+        "z": -77.1489
+      },
+      "questIds": [
+        "7028"
+      ]
+    },
+    {
+      "id": "object-178905-3490013",
+      "name": "Vylestem Vine",
+      "category": "quest-material",
+      "floor": "orange-tunnels",
+      "x": 85.4024,
+      "y": 38.6164,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "objectId": "178905",
+      "spawnGuid": 3490013,
+      "aliases": [
+        "Noxxious Scion",
+        "Orange wing"
+      ],
+      "note": "Use the Filled Cerulean Vial to summon a Noxxious Scion, then defeat it. Heal eight vines in total.",
+      "world": {
+        "map": 349,
+        "x": 989.642,
+        "y": -392.402,
+        "z": -50.3576
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "object-178905-3490014",
+      "name": "Vylestem Vine",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 60.1087,
+      "y": 9.2779,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "objectId": "178905",
+      "spawnGuid": 3490014,
+      "aliases": [
+        "Noxxious Scion",
+        "Orange wing"
+      ],
+      "note": "Use the Filled Cerulean Vial to summon a Noxxious Scion, then defeat it. Heal eight vines in total.",
+      "world": {
+        "map": 349,
+        "x": 1064.95,
+        "y": -375.428,
+        "z": -36.3821
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "object-178905-3490015",
+      "name": "Vylestem Vine",
+      "category": "quest-material",
+      "floor": "orange-tunnels",
+      "x": 60.6185,
+      "y": 18.004,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "objectId": "178905",
+      "spawnGuid": 3490015,
+      "aliases": [
+        "Noxxious Scion",
+        "Orange wing"
+      ],
+      "note": "Use the Filled Cerulean Vial to summon a Noxxious Scion, then defeat it. Heal eight vines in total.",
+      "world": {
+        "map": 349,
+        "x": 1041.07,
+        "y": -330.69,
+        "z": -38.209
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "object-178905-3490016",
+      "name": "Vylestem Vine",
+      "category": "quest-material",
+      "floor": "orange-tunnels",
+      "x": 69.1016,
+      "y": 53.9836,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "objectId": "178905",
+      "spawnGuid": 3490016,
+      "aliases": [
+        "Noxxious Scion",
+        "Orange wing"
+      ],
+      "note": "Use the Filled Cerulean Vial to summon a Noxxious Scion, then defeat it. Heal eight vines in total.",
+      "world": {
+        "map": 349,
+        "x": 951.301,
+        "y": -351.813,
+        "z": -50.2403
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "object-178905-3490017",
+      "name": "Vylestem Vine",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 52.7677,
+      "y": 7.9419,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "objectId": "178905",
+      "spawnGuid": 3490017,
+      "aliases": [
+        "Noxxious Scion",
+        "Orange wing"
+      ],
+      "note": "Use the Filled Cerulean Vial to summon a Noxxious Scion, then defeat it. Heal eight vines in total.",
+      "world": {
+        "map": 349,
+        "x": 1083.37,
+        "y": -290.819,
+        "z": -72.6456
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "object-178905-3490018",
+      "name": "Vylestem Vine",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 49.7975,
+      "y": 11.292,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "objectId": "178905",
+      "spawnGuid": 3490018,
+      "aliases": [
+        "Noxxious Scion",
+        "Orange wing"
+      ],
+      "note": "Use the Filled Cerulean Vial to summon a Noxxious Scion, then defeat it. Heal eight vines in total.",
+      "world": {
+        "map": 349,
+        "x": 1037.18,
+        "y": -256.586,
+        "z": -72.4103
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "object-178905-3490019",
+      "name": "Vylestem Vine",
+      "category": "quest-material",
+      "floor": "orange-tunnels",
+      "x": 32.1112,
+      "y": 50.493,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "objectId": "178905",
+      "spawnGuid": 3490019,
+      "aliases": [
+        "Noxxious Scion",
+        "Orange wing"
+      ],
+      "note": "Use the Filled Cerulean Vial to summon a Noxxious Scion, then defeat it. Heal eight vines in total.",
+      "world": {
+        "map": 349,
+        "x": 960.01,
+        "y": -259.707,
+        "z": -49.0976
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "object-178905-3490020",
+      "name": "Vylestem Vine",
+      "category": "quest-material",
+      "floor": "orange-tunnels",
+      "x": 20.8683,
+      "y": 64.6597,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "objectId": "178905",
+      "spawnGuid": 3490020,
+      "aliases": [
+        "Noxxious Scion",
+        "Orange wing"
+      ],
+      "note": "Use the Filled Cerulean Vial to summon a Noxxious Scion, then defeat it. Heal eight vines in total.",
+      "world": {
+        "map": 349,
+        "x": 924.664,
+        "y": -231.712,
+        "z": -46.6095
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "object-178905-3490021",
+      "name": "Vylestem Vine",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 39.3879,
+      "y": 18.2092,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "objectId": "178905",
+      "spawnGuid": 3490021,
+      "aliases": [
+        "Noxxious Scion",
+        "Orange wing"
+      ],
+      "note": "Use the Filled Cerulean Vial to summon a Noxxious Scion, then defeat it. Heal eight vines in total.",
+      "world": {
+        "map": 349,
+        "x": 941.809,
+        "y": -136.609,
+        "z": -61.1079
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "object-178905-3490022",
+      "name": "Vylestem Vine",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 33.371,
+      "y": 22.4326,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "objectId": "178905",
+      "spawnGuid": 3490022,
+      "aliases": [
+        "Noxxious Scion",
+        "Orange wing"
+      ],
+      "note": "Use the Filled Cerulean Vial to summon a Noxxious Scion, then defeat it. Heal eight vines in total.",
+      "world": {
+        "map": 349,
+        "x": 883.578,
+        "y": -67.2601,
+        "z": -59.2139
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "object-178905-3490023",
+      "name": "Vylestem Vine",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 33.4264,
+      "y": 15.2001,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "objectId": "178905",
+      "spawnGuid": 3490023,
+      "aliases": [
+        "Noxxious Scion",
+        "Orange wing"
+      ],
+      "note": "Use the Filled Cerulean Vial to summon a Noxxious Scion, then defeat it. Heal eight vines in total.",
+      "world": {
+        "map": 349,
+        "x": 983.297,
+        "y": -67.8987,
+        "z": -62.0587
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "object-178905-3490024",
+      "name": "Vylestem Vine",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 28.4568,
+      "y": 16.861,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "objectId": "178905",
+      "spawnGuid": 3490024,
+      "aliases": [
+        "Noxxious Scion",
+        "Orange wing"
+      ],
+      "note": "Use the Filled Cerulean Vial to summon a Noxxious Scion, then defeat it. Heal eight vines in total.",
+      "world": {
+        "map": 349,
+        "x": 960.397,
+        "y": -10.6216,
+        "z": -62.9832
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "stone-doors",
+      "name": "Maraudon stone doors",
+      "category": "entrance",
+      "floor": "approach",
+      "x": 29.1,
+      "y": 62.87,
+      "verification": "community-reference",
+      "sources": [
+        "client",
+        "cave-plan",
+        "bounds"
+      ],
+      "note": "Client entrance marker in the Valley of Spears. Continue underground to reach the colored portals."
+    },
+    {
+      "id": "portal-3131",
+      "name": "Orange portal · entrance caves",
+      "category": "entrance",
+      "floor": "approach",
+      "x": 36.0134,
+      "y": 64.0548,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "areaTrigger": 3131,
+      "note": "Orange portal in the entrance caves. The Classic exit destination provides the position.",
+      "world": {
+        "map": 1,
+        "x": -1468.2,
+        "y": 2614.21,
+        "z": 76.3804
+      }
+    },
+    {
+      "id": "portal-3126",
+      "name": "Purple portal · entrance caves",
+      "category": "entrance",
+      "floor": "approach",
+      "x": 30.1586,
+      "y": 54.5348,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "areaTrigger": 3126,
+      "note": "Purple portal in the entrance caves. The Classic exit destination provides the position.",
+      "world": {
+        "map": 1,
+        "x": -1182.8,
+        "y": 2877.43,
+        "z": 85.908
+      }
+    },
+    {
+      "id": "object-178400-99844",
+      "name": "Scepter of Celebras shortcut",
+      "category": "entrance",
+      "floor": "approach",
+      "x": 29.2408,
+      "y": 61.1778,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "cave-plan",
+        "portal",
+        "bounds"
+      ],
+      "objectId": "178400",
+      "spawnGuid": 99844,
+      "note": "Use the Scepter in the middle cave to open the shortcut to Earth Song Falls.",
+      "world": {
+        "map": 1,
+        "x": -1381.949951,
+        "y": 2918.689941,
+        "z": 73.121803
+      },
+      "questIds": [
+        "7046"
+      ]
+    },
+    {
+      "id": "object-178907-99893",
+      "name": "Orange crystal pool",
+      "category": "quest-object",
+      "floor": "approach",
+      "x": 33.2161,
+      "y": 65.6703,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide",
+        "bounds"
+      ],
+      "objectId": "178907",
+      "spawnGuid": 99893,
+      "note": "Fill the Coated Cerulean Vial here outside the Orange portal. Use it on vines inside.",
+      "world": {
+        "map": 1,
+        "x": -1516.630005,
+        "y": 2739.969971,
+        "z": 85.25
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "npc-13697",
+      "name": "Cavindra",
+      "category": "quest-giver",
+      "floor": "approach",
+      "x": 32.0988,
+      "y": 63.9598,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "cave-plan",
+        "bounds"
+      ],
+      "npcId": "13697",
+      "spawnGuid": 29063,
+      "note": "Pick up Legends of Maraudon on the way to the Orange portal.",
+      "world": {
+        "map": 1,
+        "x": -1465.349976,
+        "y": 2790.199951,
+        "z": 94.573898
+      },
+      "questIds": [
+        "7044"
+      ]
+    },
+    {
+      "id": "npc-13718",
+      "name": "The Nameless Prophet",
+      "category": "quest-object",
+      "floor": "approach",
+      "x": 28.1536,
+      "y": 62.393,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "cave-plan",
+        "bounds"
+      ],
+      "npcId": "13718",
+      "spawnGuid": 29070,
+      "moving": true,
+      "movementNote": "Wanders near the entrance-cave fork. The pin is one Classic spawn reference.",
+      "note": "Loot the Amulet of Spirits before approaching the Khans.",
+      "aliases": [
+        "Amulet of Spirits"
+      ],
+      "world": {
+        "map": 1,
+        "x": -1418.380005,
+        "y": 2967.570068,
+        "z": 124.252998
+      },
+      "questIds": [
+        "7067"
+      ]
+    },
+    {
+      "id": "npc-12240",
+      "name": "Spirit of Kolk",
+      "category": "quest-object",
+      "floor": "approach",
+      "x": 29.6639,
+      "y": 60.4777,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "cave-plan",
+        "bounds"
+      ],
+      "npcId": "12240",
+      "spawnGuid": 29115,
+      "aliases": [
+        "Gem of the First Khan"
+      ],
+      "note": "Near the Scepter shortcut chamber. Use the Amulet of Spirits to fight this Khan for the first gem.",
+      "world": {
+        "map": 1,
+        "x": -1360.959961,
+        "y": 2899.669922,
+        "z": 73.4338
+      },
+      "questIds": [
+        "7067"
+      ]
+    },
+    {
+      "id": "npc-12239",
+      "name": "Spirit of Gelk",
+      "category": "quest-object",
+      "floor": "approach",
+      "x": 29.4319,
+      "y": 56.9272,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "cave-plan",
+        "bounds"
+      ],
+      "npcId": "12239",
+      "spawnGuid": 29114,
+      "aliases": [
+        "Gem of the Second Khan"
+      ],
+      "note": "In the tunnels below the Purple portal. Use the Amulet of Spirits to fight this Khan for the second gem.",
+      "world": {
+        "map": 1,
+        "x": -1254.52002,
+        "y": 2910.100098,
+        "z": 73.338997
+      },
+      "questIds": [
+        "7067"
+      ]
+    },
+    {
+      "id": "npc-12241",
+      "name": "Spirit of Magra",
+      "category": "quest-object",
+      "floor": "approach",
+      "x": 35.793,
+      "y": 60.4333,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "cave-plan",
+        "bounds"
+      ],
+      "npcId": "12241",
+      "spawnGuid": 29116,
+      "aliases": [
+        "Gem of the Third Khan"
+      ],
+      "note": "Near the stairs on the Orange side. Use the Amulet of Spirits to fight this Khan for the third gem.",
+      "world": {
+        "map": 1,
+        "x": -1359.630005,
+        "y": 2624.120117,
+        "z": 79.335403
+      },
+      "questIds": [
+        "7067"
+      ]
+    },
+    {
+      "id": "shadowshard-area",
+      "name": "Shadowshard Fragment area",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 29.7589,
+      "y": 56.1733,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "cave-plan",
+        "bounds"
+      ],
+      "npcId": "11777",
+      "note": "Representative Shadowshard Rumbler position. Rumblers and Smashers outside the Purple portal drop the fragments.",
+      "world": {
+        "map": 1,
+        "x": -1231.920044,
+        "y": 2895.399902,
+        "z": 87.052498
+      },
+      "questIds": [
+        "7070"
+      ]
+    },
+    {
+      "id": "npc-13656",
+      "name": "Willow",
+      "category": "quest-giver",
+      "floor": "approach",
+      "x": 62.1954,
+      "y": 39.6265,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "13656",
+      "spawnGuid": 28149,
+      "note": "Pick up and return Twisted Evils here.",
+      "world": {
+        "map": 1,
+        "x": -735.862976,
+        "y": 1437.119995,
+        "z": 91.279404
+      },
+      "questIds": [
+        "7028"
+      ]
+    },
+    {
+      "id": "npc-11715",
+      "name": "Talendria",
+      "category": "quest-giver",
+      "floor": "approach",
+      "x": 68.5008,
+      "y": 8.8782,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "11715",
+      "spawnGuid": 29112,
+      "note": "Alliance pickup and turn-in for Vyletongue Corruption.",
+      "world": {
+        "map": 1,
+        "x": 185.940002,
+        "y": 1153.640015,
+        "z": 168.343994
+      },
+      "questIds": [
+        "7041"
+      ]
+    },
+    {
+      "id": "npc-13698",
+      "name": "Keeper Marandis",
+      "category": "quest-giver",
+      "floor": "approach",
+      "x": 63.8253,
+      "y": 10.67,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "13698",
+      "spawnGuid": 29064,
+      "note": "Alliance pickup and turn-in for Corruption of Earth and Seed.",
+      "world": {
+        "map": 1,
+        "x": 132.223999,
+        "y": 1363.839966,
+        "z": 199.158005
+      },
+      "questIds": [
+        "7065"
+      ]
+    },
+    {
+      "id": "npc-13717",
+      "name": "Centaur Pariah",
+      "category": "quest-giver",
+      "floor": "approach",
+      "x": 50.4222,
+      "y": 86.6543,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests",
+        "bounds"
+      ],
+      "npcId": "13717",
+      "spawnGuid": 29069,
+      "note": "Roaming giver in southern Desolace. The pin marks his Classic patrol origin.",
+      "world": {
+        "map": 1,
+        "x": -2145.709961,
+        "y": 1966.420044,
+        "z": 84.491898
+      },
+      "questIds": [
+        "7067"
+      ]
+    },
+    {
+      "id": "object-2857-30182",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "floor": "approach",
+      "x": 35.1548,
+      "y": 61.437,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "objectId": "2857",
+      "spawnGuid": 30182,
+      "poolId": 31139,
+      "note": "Possible Solid Chest location on the surface in the Valley of Spears. The Classic pool selects one of eight sites.",
+      "world": {
+        "map": 1,
+        "x": -1389.719971,
+        "y": 2652.810059,
+        "z": 111.556
+      }
+    },
+    {
+      "id": "object-2857-30184",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "floor": "approach",
+      "x": 32.6247,
+      "y": 61.1168,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "objectId": "2857",
+      "spawnGuid": 30184,
+      "poolId": 31139,
+      "note": "Possible Solid Chest location on the surface in the Valley of Spears. The Classic pool selects one of eight sites.",
+      "world": {
+        "map": 1,
+        "x": -1380.119995,
+        "y": 2766.560059,
+        "z": 112.531998
+      }
+    },
+    {
+      "id": "object-2857-85861",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "floor": "approach",
+      "x": 29.5689,
+      "y": 58.0183,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "objectId": "2857",
+      "spawnGuid": 85861,
+      "poolId": 31139,
+      "note": "Possible Solid Chest location on the surface in the Valley of Spears. The Classic pool selects one of eight sites.",
+      "world": {
+        "map": 1,
+        "x": -1287.22998,
+        "y": 2903.939941,
+        "z": 113.556999
+      }
+    },
+    {
+      "id": "object-2857-300147",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "floor": "approach",
+      "x": 29.2962,
+      "y": 60.5847,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "objectId": "2857",
+      "spawnGuid": 300147,
+      "poolId": 31139,
+      "note": "Possible Solid Chest location on the surface in the Valley of Spears. The Classic pool selects one of eight sites.",
+      "world": {
+        "map": 1,
+        "x": -1364.170044,
+        "y": 2916.199951,
+        "z": 127.252998
+      }
+    },
+    {
+      "id": "object-2857-300149",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "floor": "approach",
+      "x": 32.7519,
+      "y": 59.5527,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "objectId": "2857",
+      "spawnGuid": 300149,
+      "poolId": 31139,
+      "note": "Possible Solid Chest location on the surface in the Valley of Spears. The Classic pool selects one of eight sites.",
+      "world": {
+        "map": 1,
+        "x": -1333.22998,
+        "y": 2760.840088,
+        "z": 113.198997
+      }
+    },
+    {
+      "id": "object-2857-300152",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "floor": "approach",
+      "x": 32.7412,
+      "y": 55.1089,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "objectId": "2857",
+      "spawnGuid": 300152,
+      "poolId": 31139,
+      "note": "Possible Solid Chest location on the surface in the Valley of Spears. The Classic pool selects one of eight sites.",
+      "world": {
+        "map": 1,
+        "x": -1200.01001,
+        "y": 2761.320068,
+        "z": 111.420998
+      }
+    },
+    {
+      "id": "object-2857-300153",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "floor": "approach",
+      "x": 30.5289,
+      "y": 54.8217,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "objectId": "2857",
+      "spawnGuid": 300153,
+      "poolId": 31139,
+      "note": "Possible Solid Chest location on the surface in the Valley of Spears. The Classic pool selects one of eight sites.",
+      "world": {
+        "map": 1,
+        "x": -1191.400024,
+        "y": 2860.780029,
+        "z": 139.005005
+      }
+    },
+    {
+      "id": "object-2857-300155",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "floor": "approach",
+      "x": 34.2255,
+      "y": 52.902,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "objectId": "2857",
+      "spawnGuid": 300155,
+      "poolId": 31139,
+      "note": "Possible Solid Chest location on the surface in the Valley of Spears. The Classic pool selects one of eight sites.",
+      "world": {
+        "map": 1,
+        "x": -1133.849976,
+        "y": 2694.590088,
+        "z": 111.414001
+      }
+    }
+  ],
+  "sources": {
+    "client": {
+      "name": "ForeverDB Maraudon client minimaps and projection",
+      "url": "https://foreverdb.net/data/dungeons/349.json"
+    },
+    "classic": {
+      "name": "CMaNGOS Classic spawn and teleport snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "instance": {
+      "name": "CMaNGOS Maraudon spawn and event script",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/349_maraudon.sql"
+    },
+    "quests": {
+      "name": "Maraudon Forever quest coverage",
+      "url": "https://github.com/ttdow/wow-forever-quest-tracker/blob/main/research/maraudon/README.md"
+    },
+    "guide": {
+      "name": "Wowhead Maraudon Forever dungeon guide",
+      "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards"
+    },
+    "bounds": {
+      "name": "ForeverDB Desolace client map bounds",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "cave-plan": {
+      "name": "BradyGames Classic entrance-cave floor plan",
+      "url": "https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/wow/maraudon/maraudon_lr.pdf"
+    },
+    "water": {
+      "name": "Forever player reports for Rot and Regret",
+      "url": "https://www.wowhead.com/forever/quest=93404/rot-and-regret#comments"
+    },
+    "portal": {
+      "name": "Scepter of Celebras portal effect",
+      "url": "https://www.wowhead.com/classic/item=17191/scepter-of-celebras"
+    }
+  }
+}

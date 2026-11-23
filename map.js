@@ -32,6 +32,10 @@ const zones = {
     file: 'uldaman', guide: 'https://foreverdb.net/dungeon/70-uldaman', report: 'uldaman-map', defaultHiddenLayers: ['quest-material'],
     sections: { approach: { guide: 'https://foreverdb.net/maps/1418' } },
   },
+  Maraudon: {
+    file: 'maraudon', guide: 'https://foreverdb.net/dungeon/349-maraudon', report: 'maraudon-map',
+    sections: { approach: { guide: 'https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/wow/maraudon/maraudon_lr.pdf#page=5', provider: 'Classic cave plan' } },
+  },
   "Zul'Farrak": { file: 'zulfarrak', guide: 'https://foreverdb.net/dungeon/209-zulfarrak', report: 'zulfarrak-map' },
   'Alcaz Prison': {
     file: 'alcaz-prison', report: 'alcaz-prison', attribution: 'Map: Santiago Reyes',

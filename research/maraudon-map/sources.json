@@ -1,0 +1,85 @@
+{
+  "checked": "2026-11-22",
+  "instanceId": 349,
+  "build": "1.60.1.71037",
+  "sources": {
+    "client": {
+      "name": "ForeverDB Maraudon client minimaps and projection",
+      "url": "https://foreverdb.net/data/dungeons/349.json"
+    },
+    "classic": {
+      "name": "CMaNGOS Classic spawn and teleport snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "instance": {
+      "name": "CMaNGOS Maraudon spawn and event script",
+      "url": "https://github.com/cmangos/classic-db/blob/09000ea8d7333856727204e4e2d30f772149b7a8/Updates/Instances/349_maraudon.sql"
+    },
+    "quests": {
+      "name": "Maraudon Forever quest coverage",
+      "url": "https://github.com/ttdow/wow-forever-quest-tracker/blob/main/research/maraudon/README.md"
+    },
+    "guide": {
+      "name": "Wowhead Maraudon Forever dungeon guide",
+      "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards"
+    },
+    "bounds": {
+      "name": "ForeverDB Desolace client map bounds",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "cave-plan": {
+      "name": "BradyGames Classic entrance-cave floor plan",
+      "url": "https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/wow/maraudon/maraudon_lr.pdf"
+    },
+    "water": {
+      "name": "Forever player reports for Rot and Regret",
+      "url": "https://www.wowhead.com/forever/quest=93404/rot-and-regret#comments"
+    },
+    "portal": {
+      "name": "Scepter of Celebras portal effect",
+      "url": "https://www.wowhead.com/classic/item=17191/scepter-of-celebras"
+    }
+  },
+  "images": {
+    "main": {
+      "url": "https://foreverdb.net/img/dungeonmaps/349/1.webp",
+      "sha256": "024c70791240eddc54ddc3ff9803cd1ebb8dd7523325acf706f1fb145fb7b605"
+    },
+    "landslide": {
+      "url": "https://foreverdb.net/img/dungeonmaps/349/2.webp",
+      "sha256": "984f3d93d89399bcc180e9a9bbe876e1be9f0c84fcd3e22ea93f92a3020490a1"
+    },
+    "orange-tunnels": {
+      "url": "https://foreverdb.net/img/dungeonmaps/349/3.webp",
+      "sha256": "2d6d56c870ddfbb5d416578976c5feccd5a41d89b180814f7ae7d48d8de937c9"
+    },
+    "approach": {
+      "url": "https://foreverdb.net/img/maps/game/1443.webp",
+      "sha256": "fdae99ff186ced6f48c23c8957fd94bd1a73319d2faf75da7dbd45f5b4ce132e"
+    }
+  },
+  "dungeonMetadataSha256": "397ae0b71390bb1da8e57c87afe6b7ac342b7125b3908ebf43c992d0aa38a5e2",
+  "zoneMetadataSha256": "062342dd05d8507b961cac5f25808e727228fc8be93926a6b9b65dcc266a5747",
+  "classicSnapshot": {
+    "released": "2026-11-21T13:50:52Z",
+    "archiveSha256": "c33cde85e096c141af05fe95517128e92eeeaf3b473a480ff658623333053eef",
+    "databaseSha256": "bfcfa547ca56e0dcaa52b7d7e483f43f22badf5805cab2c1568e902aa5eabc57",
+    "sqlSha256": "2856dedf651dcf5f64506513945325b308ff49828e616a282b675ca2873a0425"
+  },
+  "surfaceChestPool": {
+    "map": 1,
+    "id": 31139,
+    "classicMaxActive": 1,
+    "spawnGuids": [
+      30182,
+      30184,
+      85861,
+      300147,
+      300149,
+      300152,
+      300153,
+      300155
+    ]
+  },
+  "interiorChestsInSnapshot": 0
+}
