@@ -1,0 +1,1841 @@
+{
+  "zone": "Sunken Temple",
+  "updated": "2026-11-23",
+  "map": {
+    "appearance": "dungeon",
+    "coordinateSystem": "guide-image",
+    "source": "https://foreverdb.net/dungeon/109-sunken-temple",
+    "attribution": "World of Warcraft © Blizzard Entertainment; client maps via ForeverDB"
+  },
+  "floors": [
+    {
+      "id": "main",
+      "name": "Main halls and dragons",
+      "image": "./assets/maps/sunken-temple-main.webp",
+      "width": 1011,
+      "height": 957,
+      "worldProjection": {
+        "originX": -253.84,
+        "originY": 348.1,
+        "pixelsPerYard": 2.0
+      },
+      "note": "The west chamber holds Avatar of Hakkar, the east chamber holds Jammal’an, and the southern rooms lead to the Shade. Clear the six defenders on the Upper balconies section first."
+    },
+    {
+      "id": "entrance",
+      "name": "Entrance and outer ring",
+      "image": "./assets/maps/sunken-temple-entrance.webp",
+      "width": 526,
+      "height": 697,
+      "worldProjection": {
+        "originX": -253.17,
+        "originY": 227.05,
+        "pixelsPerYard": 2.0
+      },
+      "note": "Start at the portal. The stair branches at the entrance lead to the upper balconies and the lower statue route. Spawn of Hakkar patrols the outer ring of the lower halls."
+    },
+    {
+      "id": "lower",
+      "name": "Lower statues and pit",
+      "image": "./assets/maps/sunken-temple-main.webp",
+      "width": 1011,
+      "height": 957,
+      "worldProjection": {
+        "originX": -253.84,
+        "originY": 348.1,
+        "pixelsPerYard": 2.0
+      },
+      "note": "Take the descending stairs from the entrance hall. Statue order: S → N → SW → SE → NW → NE. The altar is below the north statue, and Atal’alarion and the idol are in the pit."
+    },
+    {
+      "id": "balconies",
+      "name": "Upper defender balconies",
+      "image": "./assets/maps/sunken-temple-balconies.webp",
+      "width": 686,
+      "height": 858,
+      "worldProjection": {
+        "originX": -221.17,
+        "originY": 266.74,
+        "pixelsPerYard": 2.0
+      },
+      "note": "Take the ascending stairs from the entrance hall. Clear one defender on each of the six balconies to open Jammal’an’s chamber. Individual names are not assigned to fixed balconies in the Classic records."
+    },
+    {
+      "id": "approach",
+      "name": "Swamp of Sorrows approach",
+      "image": "./assets/maps/swamp-of-sorrows.webp",
+      "width": 1002,
+      "height": 668,
+      "worldBounds": [
+        -11150,
+        -4516.7,
+        -9620.8,
+        -2222.9
+      ],
+      "note": "Enter the ruins from the south side of the Pool of Tears, then descend to the portal. Underground pins project onto the surface map. Enable Quest materials for the tablet locations."
+    }
+  ],
+  "points": [
+    {
+      "id": "npc-5708",
+      "name": "Spawn of Hakkar",
+      "category": "boss",
+      "floor": "entrance",
+      "x": 87.1647,
+      "y": 61.5343,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -467.61713,
+        "y": -2.193203,
+        "z": -148.80229
+      },
+      "note": "Patrols the outer ring in the lower halls. This elite has its own loot. The pin marks the start of the Classic patrol.",
+      "npcId": "5708",
+      "spawnGuid": 1090001,
+      "drops": true
+    },
+    {
+      "id": "npc-5709",
+      "name": "Shade of Eranikus",
+      "category": "boss",
+      "floor": "main",
+      "x": 75.5951,
+      "y": 84.8807,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -659.994263,
+        "y": -34.033051,
+        "z": -90.751808
+      },
+      "note": "Drops the Essence of Eranikus quest starter. Look for the Essence Font along the chamber wall.",
+      "questIds": [
+        "3373"
+      ],
+      "npcId": "5709",
+      "spawnGuid": 1090002,
+      "drops": true
+    },
+    {
+      "id": "npc-5710",
+      "name": "Jammal'an the Prophet",
+      "category": "boss",
+      "floor": "main",
+      "x": 85.8235,
+      "y": 36.1207,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -426.67749,
+        "y": -85.737572,
+        "z": -88.140717
+      },
+      "note": "Defeat the six defenders on the upper balconies first to open this chamber. Loot his head for the Hinterlands quest.",
+      "questIds": [
+        "1446"
+      ],
+      "npcId": "5710",
+      "spawnGuid": 1090003,
+      "drops": true
+    },
+    {
+      "id": "npc-5711",
+      "name": "Ogom the Wretched",
+      "category": "boss",
+      "floor": "main",
+      "x": 86.7266,
+      "y": 35.2179,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -422.357635,
+        "y": -90.302834,
+        "z": -88.140739
+      },
+      "note": "Fights beside Jammal’an and has a separate loot table.",
+      "npcId": "5711",
+      "spawnGuid": 1090004,
+      "drops": true
+    },
+    {
+      "id": "npc-5719",
+      "name": "Morphaz",
+      "category": "boss",
+      "floor": "main",
+      "x": 44.704,
+      "y": 82.0563,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -646.479614,
+        "y": 122.121429,
+        "z": -90.829498
+      },
+      "note": "Rogues loot the Azure Key here. Hazzas patrols nearby. This pin marks the Classic spawn.",
+      "questIds": [
+        "8236"
+      ],
+      "npcId": "5719",
+      "spawnGuid": 1090011,
+      "drops": true
+    },
+    {
+      "id": "npc-5722",
+      "name": "Hazzas",
+      "category": "boss",
+      "floor": "main",
+      "x": 42.8297,
+      "y": 82.7249,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -649.678528,
+        "y": 131.595963,
+        "z": -90.829018
+      },
+      "note": "Patrols with Morphaz near the south rooms. This pin marks the Classic spawn.",
+      "npcId": "5722",
+      "spawnGuid": 1090012,
+      "drops": true
+    },
+    {
+      "id": "npc-5720",
+      "name": "Weaver",
+      "category": "boss",
+      "floor": "main",
+      "x": 48.5425,
+      "y": 42.7761,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -458.52356,
+        "y": 102.71765,
+        "z": -94.52078
+      },
+      "note": "Patrols the central hall after Jammal’an is defeated. This pin marks a reference point from the Classic movement path.",
+      "npcId": "5720",
+      "drops": true
+    },
+    {
+      "id": "npc-5721",
+      "name": "Dreamscythe",
+      "category": "boss",
+      "floor": "main",
+      "x": 52.6016,
+      "y": 41.1099,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -450.55096,
+        "y": 82.19909,
+        "z": -93.527275
+      },
+      "note": "Patrols the central hall after Jammal’an is defeated. This pin marks a reference point from the Classic movement path.",
+      "npcId": "5721",
+      "drops": true
+    },
+    {
+      "id": "npc-8443",
+      "name": "Avatar of Hakkar",
+      "category": "boss",
+      "floor": "main",
+      "x": 14.9927,
+      "y": 44.5198,
+      "verification": "classic-derived",
+      "sources": [
+        "summons",
+        "guide",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -466.8673,
+        "y": 272.31204,
+        "z": -90.7441
+      },
+      "note": "Use the Egg of Hakkar in this chamber. Loot blood from Hakkari Bloodkeepers to put out the four Eternal Flames. Defeat the Avatar and use its Essence to fill the egg.",
+      "questIds": [
+        "3528"
+      ],
+      "npcId": "8443",
+      "drops": true
+    },
+    {
+      "id": "object-148418",
+      "name": "Eternal Flame · Northeast",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 19.5302,
+      "y": 38.0638,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -435.975342,
+        "y": 249.375076,
+        "z": -90.827499
+      },
+      "note": "Use Hakkari Blood to extinguish this flame while summoning the Avatar of Hakkar.",
+      "questIds": [
+        "3528"
+      ],
+      "objectId": "148418",
+      "spawnGuid": 1090001
+    },
+    {
+      "id": "object-148419",
+      "name": "Eternal Flame · Southeast",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 19.3208,
+      "y": 51.1784,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -498.728851,
+        "y": 250.433167,
+        "z": -90.827454
+      },
+      "note": "Use Hakkari Blood to extinguish this flame while summoning the Avatar of Hakkar.",
+      "questIds": [
+        "3528"
+      ],
+      "objectId": "148419",
+      "spawnGuid": 1090002
+    },
+    {
+      "id": "object-148420",
+      "name": "Eternal Flame · Southwest",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 9.0291,
+      "y": 51.0452,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -498.091461,
+        "y": 302.457855,
+        "z": -90.827469
+      },
+      "note": "Use Hakkari Blood to extinguish this flame while summoning the Avatar of Hakkar.",
+      "questIds": [
+        "3528"
+      ],
+      "objectId": "148420",
+      "spawnGuid": 1090003
+    },
+    {
+      "id": "object-148421",
+      "name": "Eternal Flame · Northwest",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 9.1185,
+      "y": 37.9444,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -435.404053,
+        "y": 302.006104,
+        "z": -90.827507
+      },
+      "note": "Use Hakkari Blood to extinguish this flame while summoning the Avatar of Hakkar.",
+      "questIds": [
+        "3528"
+      ],
+      "objectId": "148421",
+      "spawnGuid": 1090004
+    },
+    {
+      "id": "object-148512",
+      "name": "Essence Font",
+      "category": "quest-object",
+      "floor": "main",
+      "x": 79.1325,
+      "y": 79.5219,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -634.352478,
+        "y": -51.914955,
+        "z": -90.835152
+      },
+      "note": "Use the Essence looted from the Shade here to complete the first Eranikus quest.",
+      "questIds": [
+        "3373"
+      ],
+      "objectId": "148512",
+      "spawnGuid": 1090005
+    },
+    {
+      "id": "npc-15362",
+      "name": "Malfurion Stormrage",
+      "category": "quest-giver",
+      "floor": "main",
+      "x": 72.1685,
+      "y": 84.9922,
+      "verification": "classic-derived",
+      "sources": [
+        "summons",
+        "event",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -660.5277,
+        "y": -16.7117,
+        "z": -90.8357
+      },
+      "note": "Classic scripted appearance for the green scepter chain after The Charge of the Dragonflights. Current Forever phase availability is unverified.",
+      "questIds": [
+        "8733"
+      ],
+      "npcId": "15362"
+    },
+    {
+      "id": "npc-15593",
+      "name": "Elder Starsong",
+      "category": "npc",
+      "floor": "main",
+      "x": 67.7967,
+      "y": 33.646,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -414.836,
+        "y": 5.38781,
+        "z": -90.772
+      },
+      "note": "Lunar Festival visitor. This Classic event spawn is seasonal.",
+      "npcId": "15593",
+      "spawnGuid": 1090364,
+      "aliases": [
+        "Starsong the Elder",
+        "Lunar Festival"
+      ]
+    },
+    {
+      "id": "object-148830",
+      "name": "Atal'ai Statue 1 · South",
+      "category": "quest-object",
+      "floor": "lower",
+      "x": 50.0182,
+      "y": 54.6945,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "summons",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -515.552979,
+        "y": 95.258209,
+        "z": -148.740158
+      },
+      "note": "Statue 1 of 6 in the activation order for Secret of the Circle.",
+      "questIds": [
+        "3447"
+      ],
+      "objectId": "148830",
+      "spawnGuid": 1090006
+    },
+    {
+      "id": "object-148831",
+      "name": "Atal'ai Statue 2 · North",
+      "category": "quest-object",
+      "floor": "lower",
+      "x": 50.1714,
+      "y": 34.6936,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "summons",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -419.848663,
+        "y": 94.483681,
+        "z": -148.740326
+      },
+      "note": "Statue 2 of 6 in the activation order for Secret of the Circle. The altar is on the level below this statue.",
+      "questIds": [
+        "3447"
+      ],
+      "objectId": "148831",
+      "spawnGuid": 1090007
+    },
+    {
+      "id": "object-148832",
+      "name": "Atal'ai Statue 3 · Southwest",
+      "category": "quest-object",
+      "floor": "lower",
+      "x": 41.9644,
+      "y": 49.6469,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "summons",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -491.400299,
+        "y": 135.969757,
+        "z": -148.740112
+      },
+      "note": "Statue 3 of 6 in the activation order for Secret of the Circle.",
+      "questIds": [
+        "3447"
+      ],
+      "objectId": "148832",
+      "spawnGuid": 1090008
+    },
+    {
+      "id": "object-148833",
+      "name": "Atal'ai Statue 4 · Southeast",
+      "category": "quest-object",
+      "floor": "lower",
+      "x": 58.2825,
+      "y": 49.6658,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "summons",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -491.490936,
+        "y": 53.481792,
+        "z": -148.740387
+      },
+      "note": "Statue 4 of 6 in the activation order for Secret of the Circle.",
+      "questIds": [
+        "3447"
+      ],
+      "objectId": "148833",
+      "spawnGuid": 1090009
+    },
+    {
+      "id": "object-148834",
+      "name": "Atal'ai Statue 5 · Northwest",
+      "category": "quest-object",
+      "floor": "lower",
+      "x": 41.9385,
+      "y": 39.7105,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "summons",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -443.854889,
+        "y": 136.100662,
+        "z": -148.74025
+      },
+      "note": "Statue 5 of 6 in the activation order for Secret of the Circle.",
+      "questIds": [
+        "3447"
+      ],
+      "objectId": "148834",
+      "spawnGuid": 1090010
+    },
+    {
+      "id": "object-148835",
+      "name": "Atal'ai Statue 6 · Northeast",
+      "category": "quest-object",
+      "floor": "lower",
+      "x": 58.2134,
+      "y": 39.619,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "summons",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -443.417084,
+        "y": 53.831238,
+        "z": -148.740311
+      },
+      "note": "Statue 6 of 6 in the activation order for Secret of the Circle.",
+      "questIds": [
+        "3447"
+      ],
+      "objectId": "148835",
+      "spawnGuid": 1090011
+    },
+    {
+      "id": "object-148836",
+      "name": "Altar of Hakkar",
+      "category": "quest-object",
+      "floor": "lower",
+      "x": 50.1714,
+      "y": 34.6936,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -420.84845,
+        "y": 94.748711,
+        "z": -174.196472
+      },
+      "note": "Below the north statue on the lower stair landing. Use the provided Atal’ai Stone Circle here for Into the Depths.",
+      "questIds": [
+        "3446"
+      ],
+      "objectId": "148836",
+      "spawnGuid": 1090012
+    },
+    {
+      "id": "npc-8580",
+      "name": "Atal'alarion",
+      "category": "boss",
+      "floor": "lower",
+      "x": 50.03,
+      "y": 44.4458,
+      "verification": "classic-derived",
+      "sources": [
+        "summons",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -466.513,
+        "y": 95.1982,
+        "z": -189.646
+      },
+      "note": "Appears in the Pit of Refuse after the six statues are activated in order.",
+      "questIds": [
+        "3447"
+      ],
+      "npcId": "8580",
+      "drops": true
+    },
+    {
+      "id": "object-148838",
+      "name": "Idol of Hakkar",
+      "category": "quest-object",
+      "floor": "lower",
+      "x": 50.1856,
+      "y": 46.4847,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client"
+      ],
+      "world": {
+        "map": 109,
+        "x": -476.269318,
+        "y": 94.411987,
+        "z": -189.72966
+      },
+      "note": "Appears on the pit floor after the statue puzzle. Defeat Atal’alarion and interact with the idol to complete Secret of the Circle.",
+      "questIds": [
+        "3447"
+      ],
+      "objectId": "148838",
+      "spawnGuid": 1090013
+    },
+    {
+      "id": "defender-1090005",
+      "name": "Atal'ai Defender · Southwest balcony",
+      "category": "boss",
+      "floor": "balconies",
+      "x": 40.1176,
+      "y": 71.097,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -526.176086,
+        "y": 129.136658,
+        "z": -66.993561
+      },
+      "note": "One of six Atal’ai Defenders. Clear all six to open Jammal’an’s chamber. The Classic group can assign a different defender to this balcony.",
+      "questIds": [
+        "1446"
+      ],
+      "spawnGuid": 1090005,
+      "drops": true,
+      "aliases": [
+        "Gasher",
+        "Hukku",
+        "Loro",
+        "Mijan",
+        "Zolo",
+        "Zul'Lor"
+      ]
+    },
+    {
+      "id": "defender-1090006",
+      "name": "Atal'ai Defender · Southeast balcony",
+      "category": "boss",
+      "floor": "balconies",
+      "x": 60.1569,
+      "y": 71.6505,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -528.550537,
+        "y": 60.401821,
+        "z": -66.993553
+      },
+      "note": "One of six Atal’ai Defenders. Clear all six to open Jammal’an’s chamber. The Classic group can assign a different defender to this balcony.",
+      "questIds": [
+        "1446"
+      ],
+      "spawnGuid": 1090006,
+      "drops": true,
+      "aliases": [
+        "Gasher",
+        "Hukku",
+        "Loro",
+        "Mijan",
+        "Zolo",
+        "Zul'Lor"
+      ]
+    },
+    {
+      "id": "defender-1090007",
+      "name": "Atal'ai Defender · East balcony",
+      "category": "boss",
+      "floor": "balconies",
+      "x": 70.0959,
+      "y": 57.3444,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -467.177582,
+        "y": 26.311174,
+        "z": -66.983246
+      },
+      "note": "One of six Atal’ai Defenders. Clear all six to open Jammal’an’s chamber. The Classic group can assign a different defender to this balcony.",
+      "questIds": [
+        "1446"
+      ],
+      "spawnGuid": 1090007,
+      "drops": true,
+      "aliases": [
+        "Gasher",
+        "Hukku",
+        "Loro",
+        "Mijan",
+        "Zolo",
+        "Zul'Lor"
+      ]
+    },
+    {
+      "id": "defender-1090008",
+      "name": "Atal'ai Defender · Northeast balcony",
+      "category": "boss",
+      "floor": "balconies",
+      "x": 60.1968,
+      "y": 43.0969,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -406.055573,
+        "y": 60.264874,
+        "z": -66.984436
+      },
+      "note": "One of six Atal’ai Defenders. Clear all six to open Jammal’an’s chamber. The Classic group can assign a different defender to this balcony.",
+      "questIds": [
+        "1446"
+      ],
+      "spawnGuid": 1090008,
+      "drops": true,
+      "aliases": [
+        "Gasher",
+        "Hukku",
+        "Loro",
+        "Mijan",
+        "Zolo",
+        "Zul'Lor"
+      ]
+    },
+    {
+      "id": "defender-1090009",
+      "name": "Atal'ai Defender · West balcony",
+      "category": "boss",
+      "floor": "balconies",
+      "x": 29.2097,
+      "y": 57.3572,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -467.232483,
+        "y": 166.550797,
+        "z": -67.017479
+      },
+      "note": "One of six Atal’ai Defenders. Clear all six to open Jammal’an’s chamber. The Classic group can assign a different defender to this balcony.",
+      "questIds": [
+        "1446"
+      ],
+      "spawnGuid": 1090009,
+      "drops": true,
+      "aliases": [
+        "Gasher",
+        "Hukku",
+        "Loro",
+        "Mijan",
+        "Zolo",
+        "Zul'Lor"
+      ]
+    },
+    {
+      "id": "defender-1090010",
+      "name": "Atal'ai Defender · Northwest balcony",
+      "category": "boss",
+      "floor": "balconies",
+      "x": 39.4552,
+      "y": 43.1281,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -406.189728,
+        "y": 131.40863,
+        "z": -67.229889
+      },
+      "note": "One of six Atal’ai Defenders. Clear all six to open Jammal’an’s chamber. The Classic group can assign a different defender to this balcony.",
+      "questIds": [
+        "1446"
+      ],
+      "spawnGuid": 1090010,
+      "drops": true,
+      "aliases": [
+        "Gasher",
+        "Hukku",
+        "Loro",
+        "Mijan",
+        "Zolo",
+        "Zul'Lor"
+      ]
+    },
+    {
+      "id": "portal-446",
+      "name": "Instance portal · arrival",
+      "category": "entrance",
+      "floor": "entrance",
+      "x": 48.2331,
+      "y": 18.0009,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "client",
+        "route"
+      ],
+      "world": {
+        "map": 109,
+        "x": -315.903,
+        "y": 100.197,
+        "z": -131.849
+      },
+      "note": "Arrival inside the instance. Use the descending branch for the lower statues, the ascending branch for the defenders, or continue into the main halls.",
+      "areaTrigger": 446
+    },
+    {
+      "id": "haze-pit",
+      "name": "Atal’ai Haze · lower pit",
+      "category": "quest-material",
+      "floor": "lower",
+      "x": 50.1484,
+      "y": 49.3396,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "guide",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -489.93,
+        "y": 94.6,
+        "z": -189.72966
+      },
+      "note": "Haze drops from eligible lower-hall mobs such as Deep Lurkers, Murk Worms and Saturated Oozes. This pin marks the pit area.",
+      "questIds": [
+        "4143"
+      ]
+    },
+    {
+      "id": "haze-ring",
+      "name": "Atal’ai Haze · outer ring",
+      "category": "quest-material",
+      "floor": "entrance",
+      "x": 87.1647,
+      "y": 61.5343,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "guide",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -467.61713,
+        "y": -2.193203,
+        "z": -148.80229
+      },
+      "note": "Check eligible ooze and worm packs along the lower ring.",
+      "questIds": [
+        "4143"
+      ]
+    },
+    {
+      "id": "tablet-1090062",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "entrance",
+      "x": 89.9332,
+      "y": 61.6502,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -468.020782,
+        "y": -9.474244,
+        "z": -147.575882
+      },
+      "note": "One of the Classic tablet locations inside the instance. The outdoor approach also has tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 1090062
+    },
+    {
+      "id": "tablet-1090076",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "entrance",
+      "x": 57.0928,
+      "y": 28.1625,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -351.316376,
+        "y": 76.895889,
+        "z": -130.942291
+      },
+      "note": "One of the Classic tablet locations inside the instance. The outdoor approach also has tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 1090076
+    },
+    {
+      "id": "tablet-1090073",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "main",
+      "x": 20.7584,
+      "y": 22.6668,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -362.30069,
+        "y": 243.166077,
+        "z": -90.832619
+      },
+      "note": "One of the Classic tablet locations inside the instance. The outdoor approach also has tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 1090073
+    },
+    {
+      "id": "tablet-1090055",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "lower",
+      "x": 53.7719,
+      "y": 56.3883,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -523.657837,
+        "y": 76.283104,
+        "z": -172.938675
+      },
+      "note": "One of the Classic tablet locations inside the instance. The outdoor approach also has tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 1090055
+    },
+    {
+      "id": "tablet-1090058",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "lower",
+      "x": 39.3712,
+      "y": 49.4982,
+      "verification": "classic-derived",
+      "sources": [
+        "instance",
+        "client",
+        "quests"
+      ],
+      "world": {
+        "map": 109,
+        "x": -490.689087,
+        "y": 149.078568,
+        "z": -172.938675
+      },
+      "note": "One of the Classic tablet locations inside the instance. The outdoor approach also has tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 1090058
+    },
+    {
+      "id": "temple-ruins",
+      "name": "Temple ruins · Pool of Tears",
+      "category": "entrance",
+      "floor": "approach",
+      "x": 70.0,
+      "y": 52.9,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "route"
+      ],
+      "note": "Surface landmark for In Search of The Temple. Swim to the south-facing stairs, then follow the inner halls through the Hall of Masks to the portal.",
+      "questIds": [
+        "1448",
+        "1475"
+      ]
+    },
+    {
+      "id": "portal-448",
+      "name": "Instance portal · below the ruins",
+      "category": "entrance",
+      "floor": "approach",
+      "x": 77.2713,
+      "y": 36.3458,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "route"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10176.6,
+        "y": -3995.35,
+        "z": -112.185
+      },
+      "note": "Underground portal area, projected onto the surface. This pin uses the Classic return location immediately outside the portal.",
+      "areaTrigger": 448
+    },
+    {
+      "id": "npc-5353",
+      "name": "Itharius",
+      "category": "quest-giver",
+      "floor": "approach",
+      "x": 13.6703,
+      "y": 71.7172,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10717.5,
+        "y": -2536.469971,
+        "z": 28.292299
+      },
+      "note": "Find Itharius in the cave. His first hand-in consumes the Chained Essence of Eranikus trinket.",
+      "questIds": [
+        "3374",
+        "3512"
+      ],
+      "npcId": "5353",
+      "spawnGuid": 31845
+    },
+    {
+      "id": "npc-5401",
+      "name": "Kazkaz the Unholy",
+      "category": "rare",
+      "floor": "approach",
+      "x": 76.0167,
+      "y": 48.5156,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "route"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10362.700195,
+        "y": -3966.570068,
+        "z": -84.586998
+      },
+      "note": "Classic encounter in the underground approach before the instance portal. The marker is projected onto the surface.",
+      "npcId": "5401",
+      "spawnGuid": 38944
+    },
+    {
+      "id": "npc-5399",
+      "name": "Veyzhak the Cannibal",
+      "category": "rare",
+      "floor": "approach",
+      "x": 78.8155,
+      "y": 43.8334,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "route"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10291.099609,
+        "y": -4030.77002,
+        "z": -76.354103
+      },
+      "note": "Classic encounter in the underground approach before the instance portal. The marker is projected onto the surface.",
+      "npcId": "5399",
+      "spawnGuid": 160358
+    },
+    {
+      "id": "npc-5400",
+      "name": "Zekkis",
+      "category": "rare",
+      "floor": "approach",
+      "x": 77.495,
+      "y": 39.4063,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "route"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10223.400391,
+        "y": -4000.47998,
+        "z": -109.797997
+      },
+      "note": "Classic encounter in the underground approach before the instance portal. The marker is projected onto the surface.",
+      "npcId": "5400",
+      "spawnGuid": 160355
+    },
+    {
+      "id": "tablet-30342",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 76.1723,
+      "y": 43.7876,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10290.400391,
+        "y": -3970.139893,
+        "z": -73.653
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30342
+    },
+    {
+      "id": "tablet-30344",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 78.2675,
+      "y": 49.5423,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10378.400391,
+        "y": -4018.199951,
+        "z": -76.218597
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30344
+    },
+    {
+      "id": "tablet-30345",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 76.6087,
+      "y": 49.0518,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10370.900391,
+        "y": -3980.149902,
+        "z": -77.191498
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30345
+    },
+    {
+      "id": "tablet-30351",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 74.6966,
+      "y": 43.8399,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10291.200195,
+        "y": -3936.290039,
+        "z": -70.654503
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30351
+    },
+    {
+      "id": "tablet-30352",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 72.0852,
+      "y": 45.2197,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10312.299805,
+        "y": -3876.389893,
+        "z": -37.339699
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30352
+    },
+    {
+      "id": "tablet-30353",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 72.825,
+      "y": 47.6524,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10349.5,
+        "y": -3893.360107,
+        "z": -96.762802
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30353
+    },
+    {
+      "id": "tablet-30354",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 70.9979,
+      "y": 46.8872,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10337.799805,
+        "y": -3851.449951,
+        "z": -52.642899
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30354
+    },
+    {
+      "id": "tablet-30355",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 74.7676,
+      "y": 46.7107,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10335.099609,
+        "y": -3937.919922,
+        "z": -96.762901
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30355
+    },
+    {
+      "id": "tablet-30357",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 70.5497,
+      "y": 44.5266,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10301.700195,
+        "y": -3841.169922,
+        "z": -37.3536
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30357
+    },
+    {
+      "id": "tablet-30358",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 75.8048,
+      "y": 49.3984,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10376.200195,
+        "y": -3961.709961,
+        "z": -83.0998
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30358
+    },
+    {
+      "id": "tablet-30359",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 75.8506,
+      "y": 48.2998,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10359.400391,
+        "y": -3962.76001,
+        "z": -82.2519
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30359
+    },
+    {
+      "id": "tablet-30366",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 76.705,
+      "y": 51.3079,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10405.400391,
+        "y": -3982.360107,
+        "z": -81.791496
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30366
+    },
+    {
+      "id": "tablet-30367",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 75.3052,
+      "y": 49.5096,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10377.900391,
+        "y": -3950.25,
+        "z": -96.805298
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30367
+    },
+    {
+      "id": "tablet-30368",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 76.0725,
+      "y": 47.4431,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10346.299805,
+        "y": -3967.850098,
+        "z": -83.106697
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 30368
+    },
+    {
+      "id": "tablet-88572",
+      "name": "Atal'ai Tablet",
+      "category": "quest-material",
+      "floor": "approach",
+      "x": 75.6753,
+      "y": 44.9516,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds",
+        "quests"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10308.200195,
+        "y": -3958.73999,
+        "z": -70.652802
+      },
+      "note": "Tablet in the uninstanced ruins. This position is under the surface map and may be on another level than nearby tablets.",
+      "questIds": [
+        "1475"
+      ],
+      "objectId": "37099",
+      "spawnGuid": 88572
+    },
+    {
+      "id": "footlocker-30566",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179493",
+      "floor": "approach",
+      "x": 67.6838,
+      "y": 48.8883,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10368.400391,
+        "y": -3775.429932,
+        "z": -6.92094
+      },
+      "note": "Classic lockbox location in the Pool of Tears. It is outside the instance.",
+      "objectId": "179493",
+      "spawnGuid": 30566,
+      "lockpicking": 175
+    },
+    {
+      "id": "footlocker-30567",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179493",
+      "floor": "approach",
+      "x": 66.2625,
+      "y": 58.3704,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10513.400391,
+        "y": -3742.830078,
+        "z": -19.338699
+      },
+      "note": "Classic lockbox location in the Pool of Tears. It is outside the instance.",
+      "objectId": "179493",
+      "spawnGuid": 30567,
+      "lockpicking": 175
+    },
+    {
+      "id": "footlocker-30570",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179493",
+      "floor": "approach",
+      "x": 71.6972,
+      "y": 48.2344,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10358.400391,
+        "y": -3867.48999,
+        "z": -12.0961
+      },
+      "note": "Classic lockbox location in the Pool of Tears. It is outside the instance.",
+      "objectId": "179493",
+      "spawnGuid": 30570,
+      "lockpicking": 175
+    },
+    {
+      "id": "footlocker-30572",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179493",
+      "floor": "approach",
+      "x": 65.3893,
+      "y": 51.746,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10412.099609,
+        "y": -3722.800049,
+        "z": -17.9972
+      },
+      "note": "Classic lockbox location in the Pool of Tears. It is outside the instance.",
+      "objectId": "179493",
+      "spawnGuid": 30572,
+      "lockpicking": 175
+    },
+    {
+      "id": "footlocker-30576",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179493",
+      "floor": "approach",
+      "x": 74.197,
+      "y": 58.5077,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10515.5,
+        "y": -3924.830078,
+        "z": -19.629101
+      },
+      "note": "Classic lockbox location in the Pool of Tears. It is outside the instance.",
+      "objectId": "179493",
+      "spawnGuid": 30576,
+      "lockpicking": 175
+    },
+    {
+      "id": "footlocker-30580",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179493",
+      "floor": "approach",
+      "x": 73.3931,
+      "y": 51.0986,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10402.200195,
+        "y": -3906.389893,
+        "z": -4.55802
+      },
+      "note": "Classic lockbox location in the Pool of Tears. It is outside the instance.",
+      "objectId": "179493",
+      "spawnGuid": 30580,
+      "lockpicking": 175
+    },
+    {
+      "id": "footlocker-30582",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179493",
+      "floor": "approach",
+      "x": 68.9245,
+      "y": 48.0055,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "world": {
+        "map": 0,
+        "x": -10354.900391,
+        "y": -3803.889893,
+        "z": -3.47278
+      },
+      "note": "Classic lockbox location in the Pool of Tears. It is outside the instance.",
+      "objectId": "179493",
+      "spawnGuid": 30582,
+      "lockpicking": 175
+    }
+  ],
+  "sources": {
+    "client": {
+      "name": "Forever client minimaps and projection",
+      "url": "https://foreverdb.net/data/dungeons/109.json"
+    },
+    "bounds": {
+      "name": "Forever client zone map bounds",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "classic": {
+      "name": "CMaNGOS Classic spawn and teleport snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "instance": {
+      "name": "Classic instance creatures, objects, groups and waypoints",
+      "url": "https://github.com/cmangos/classic-db/blob/13e933726f386399d9820138fbd1123e7cda86c8/Updates/Instances/109_sunken_temple.sql"
+    },
+    "summons": {
+      "name": "Classic scripted summon positions and statue order",
+      "url": "https://github.com/cmangos/mangos-classic/blob/28a26c388a3c817f34cdb4737847a345841b6a08/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/sunken_temple/sunken_temple.h"
+    },
+    "event": {
+      "name": "Classic encounter and Malfurion quest script",
+      "url": "https://github.com/cmangos/mangos-classic/blob/28a26c388a3c817f34cdb4737847a345841b6a08/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/sunken_temple/sunken_templeScripts.cpp"
+    },
+    "guide": {
+      "name": "Forever dungeon guide and quest locations",
+      "url": "https://mobalytics.gg/wow-forever/profile/phaseshifter/dungeons/sunken-temple-dungeon-guide-bosses-loot-and-quests"
+    },
+    "route": {
+      "name": "Classic entrance and route walkthrough",
+      "url": "https://www.wowhead.com/classic/guide/temple-of-atalhakkar-sunken-temple-dungeon-strategy-wow-classic"
+    },
+    "quests": {
+      "name": "Sunken Temple quest and equipment research",
+      "url": "https://github.com/ttdow/wow-forever-quest-tracker/blob/main/research/sunken-temple/README.md"
+    }
+  }
+}

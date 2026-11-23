@@ -37,6 +37,11 @@ const zones = {
     sections: { approach: { guide: 'https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/wow/maraudon/maraudon_lr.pdf#page=5', provider: 'Classic cave plan' } },
   },
   "Zul'Farrak": { file: 'zulfarrak', guide: 'https://foreverdb.net/dungeon/209-zulfarrak', report: 'zulfarrak-map' },
+  'Sunken Temple': {
+    file: 'sunken-temple', guide: 'https://foreverdb.net/dungeon/109-sunken-temple', report: 'sunken-temple-map',
+    defaultHiddenLayers: ['quest-material'],
+    sections: { approach: { guide: 'https://www.wowhead.com/classic/guide/temple-of-atalhakkar-sunken-temple-dungeon-strategy-wow-classic', provider: 'Entrance walkthrough' } },
+  },
   'Alcaz Prison': {
     file: 'alcaz-prison', report: 'alcaz-prison', attribution: 'Map: Santiago Reyes',
     guide: 'https://sreyesmaps.com/mapas/la-prision-de-alcaz', provider: 'Atlas de Azeroth: Forever',

@@ -1,0 +1,102 @@
+{
+  "checked": "2026-11-23",
+  "instanceId": 109,
+  "build": "1.60.1.71037",
+  "sources": {
+    "client": {
+      "name": "Forever client minimaps and projection",
+      "url": "https://foreverdb.net/data/dungeons/109.json"
+    },
+    "bounds": {
+      "name": "Forever client zone map bounds",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "classic": {
+      "name": "CMaNGOS Classic spawn and teleport snapshot",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "instance": {
+      "name": "Classic instance creatures, objects, groups and waypoints",
+      "url": "https://github.com/cmangos/classic-db/blob/13e933726f386399d9820138fbd1123e7cda86c8/Updates/Instances/109_sunken_temple.sql"
+    },
+    "summons": {
+      "name": "Classic scripted summon positions and statue order",
+      "url": "https://github.com/cmangos/mangos-classic/blob/28a26c388a3c817f34cdb4737847a345841b6a08/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/sunken_temple/sunken_temple.h"
+    },
+    "event": {
+      "name": "Classic encounter and Malfurion quest script",
+      "url": "https://github.com/cmangos/mangos-classic/blob/28a26c388a3c817f34cdb4737847a345841b6a08/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/sunken_temple/sunken_templeScripts.cpp"
+    },
+    "guide": {
+      "name": "Forever dungeon guide and quest locations",
+      "url": "https://mobalytics.gg/wow-forever/profile/phaseshifter/dungeons/sunken-temple-dungeon-guide-bosses-loot-and-quests"
+    },
+    "route": {
+      "name": "Classic entrance and route walkthrough",
+      "url": "https://www.wowhead.com/classic/guide/temple-of-atalhakkar-sunken-temple-dungeon-strategy-wow-classic"
+    },
+    "quests": {
+      "name": "Sunken Temple quest and equipment research",
+      "url": "https://github.com/ttdow/wow-forever-quest-tracker/blob/main/research/sunken-temple/README.md"
+    }
+  },
+  "images": {
+    "sunken-temple-entrance.webp": {
+      "url": "https://foreverdb.net/img/dungeonmaps/109/1.webp",
+      "sha256": "2a7bf09c7541de37f8eee652d4fda677910a087ae8cc7edbed701dfb74d58cb5",
+      "width": 526,
+      "height": 697
+    },
+    "sunken-temple-main.webp": {
+      "url": "https://foreverdb.net/img/dungeonmaps/109/2.webp",
+      "sha256": "f86f44df36f970cc0be1d815a3b1f3dcc33d43b6e5f63d68023550184c0f7880",
+      "width": 1011,
+      "height": 957
+    },
+    "sunken-temple-balconies.webp": {
+      "url": "https://foreverdb.net/img/dungeonmaps/109/3.webp",
+      "sha256": "1b84e76aad3088e6f6c90db24672a1b072ef8181b178425eb0868ce8d673e169",
+      "width": 686,
+      "height": 858
+    },
+    "swamp-of-sorrows.webp": {
+      "url": "https://foreverdb.net/img/maps/game/1435.webp",
+      "sha256": "1179059a2def1cb9a4e7a33a3804af06fe9f4b90a3a55c25237d54583779a885",
+      "width": 1002,
+      "height": 668
+    }
+  },
+  "dungeonMetadataSha256": "489fdbd120356116d6d84572f2a0ae4699ae0d629cb391c520b984786e26796e",
+  "zoneMetadataSha256": "062342dd05d8507b961cac5f25808e727228fc8be93926a6b9b65dcc266a5747",
+  "classicSnapshot": {
+    "archiveSha256": "c33cde85e096c141af05fe95517128e92eeeaf3b473a480ff658623333053eef",
+    "databaseSha256": "bfcfa547ca56e0dcaa52b7d7e483f43f22badf5805cab2c1568e902aa5eabc57",
+    "instanceSqlSha256": "1781648df2a422a950a8ce7c36df492bcfa7c24a484ed6927dd4ea9d77145c02"
+  },
+  "markerCounts": {
+    "entrance": 5,
+    "main": 16,
+    "lower": 12,
+    "balconies": 6,
+    "approach": 28
+  },
+  "providerProjectionCheck": {
+    "positionsChecked": 5,
+    "maxDifferencePercentagePoints": 0.0049
+  },
+  "tabletCoverage": {
+    "allApproachPositions": 15,
+    "mappedIndoorExamples": 5,
+    "classicIndoorPositions": 40
+  },
+  "outdoorFootlockerSpawnGuids": [
+    30566,
+    30567,
+    30570,
+    30572,
+    30576,
+    30580,
+    30582
+  ],
+  "genericTreasureChestSpawnsInsideInstanceInSnapshot": 0
+}
