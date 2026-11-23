@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-23",
   "build": "1.60.1.70862",
   "instances": {
     "Deadmines": {
@@ -9217,6 +9217,1006 @@
             "https://nether.wowhead.com/forever/tooltip/item/276743",
             "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
             "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        }
+      ]
+    },
+    "Sunken Temple": {
+      "id": 109,
+      "source": "https://foreverdb.net/dungeon/109-sunken-temple",
+      "items": [
+        {
+          "id": "10801",
+          "name": "Slitherscale Boots",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "104 Armor",
+            "+5 Strength",
+            "+12 Stamina",
+            "+10 Spirit",
+            "Equip: Increased Defense +7."
+          ],
+          "source": "Spawn of Hakkar",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10801",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10801",
+            "https://nether.wowhead.com/forever/tooltip/item/10801",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10802",
+          "name": "Wingveil Cloak",
+          "quality": 2,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "34 Armor",
+            "+11 Spirit",
+            "Equip: Increases healing done by up to 7 and damage done by up to 2 for all magical spells and effects."
+          ],
+          "source": "Spawn of Hakkar",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10802",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10802",
+            "https://nether.wowhead.com/forever/tooltip/item/10802",
+            "https://foreverdb.net/data/dungeons/109.json"
+          ]
+        },
+        {
+          "id": "10798",
+          "name": "Atal'alarion's Tusk Ring",
+          "quality": 3,
+          "requiredLevel": 46,
+          "itemLevel": 51,
+          "slot": "Waist",
+          "type": "Plate",
+          "stats": [
+            "302 Armor",
+            "+18 Strength",
+            "+8 Stamina",
+            "Restores 8 health per 5 sec."
+          ],
+          "source": "Atal'alarion",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=10798",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10798",
+            "https://nether.wowhead.com/forever/tooltip/item/10798",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10799",
+          "name": "Headspike",
+          "quality": 3,
+          "requiredLevel": 46,
+          "itemLevel": 51,
+          "slot": "Two-hand",
+          "type": "Two-hand polearm",
+          "stats": [
+            "106–159 damage · 3.00s · 44.17 DPS",
+            "+15 Strength",
+            "+18 Stamina",
+            "Equip: Increased Defense +7."
+          ],
+          "source": "Atal'alarion",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=10799",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10799",
+            "https://nether.wowhead.com/forever/tooltip/item/10799",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10800",
+          "name": "Darkwater Bracers",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Wrist",
+          "type": "Leather",
+          "stats": [
+            "66 Armor",
+            "+7 Shadow Resistance",
+            "Random enchantment"
+          ],
+          "source": "Atal'alarion",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10800",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10800",
+            "https://nether.wowhead.com/forever/tooltip/item/10800",
+            "https://foreverdb.net/data/dungeons/109.json"
+          ]
+        },
+        {
+          "id": "10783",
+          "name": "Atal'ai Spaulders",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Shoulder",
+          "type": "Leather",
+          "stats": [
+            "113 Armor",
+            "+80 Armor",
+            "Random enchantment"
+          ],
+          "source": "Atal'ai Defenders",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10783",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10783",
+            "https://nether.wowhead.com/forever/tooltip/item/10783",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10784",
+          "name": "Atal'ai Breastplate",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Chest",
+          "type": "Mail",
+          "stats": [
+            "311 Armor",
+            "Random enchantment",
+            "Equip: +22 Attack Power."
+          ],
+          "source": "Atal'ai Defenders",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=10784",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10784",
+            "https://nether.wowhead.com/forever/tooltip/item/10784",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10785",
+          "name": "Atal'ai Leggings",
+          "quality": 2,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "120 Armor",
+            "Random enchantment"
+          ],
+          "source": "Atal'ai Defenders",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10785",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10785",
+            "https://nether.wowhead.com/forever/tooltip/item/10785",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10786",
+          "name": "Atal'ai Boots",
+          "quality": 2,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Feet",
+          "type": "Mail",
+          "stats": [
+            "195 Armor",
+            "Random enchantment"
+          ],
+          "source": "Atal'ai Defenders",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=10786",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10786",
+            "https://nether.wowhead.com/forever/tooltip/item/10786",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10787",
+          "name": "Atal'ai Gloves",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "47 Armor",
+            "Random enchantment",
+            "Equip: Increases damage done to Humanoids by magical spells and effects by up to 14."
+          ],
+          "source": "Atal'ai Defenders",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10787",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10787",
+            "https://nether.wowhead.com/forever/tooltip/item/10787",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10788",
+          "name": "Atal'ai Girdle",
+          "quality": 2,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Waist",
+          "type": "Plate",
+          "stats": [
+            "280 Armor",
+            "Random enchantment"
+          ],
+          "source": "Atal'ai Defenders",
+          "sourceOrder": 3,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=10788",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10788",
+            "https://nether.wowhead.com/forever/tooltip/item/10788",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10838",
+          "name": "Might of Hakkar",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Main hand",
+          "type": "Main hand mace",
+          "stats": [
+            "60–112 damage · 2.40s · 35.83 DPS",
+            "+11 Stamina",
+            "+3 Spirit",
+            "Equip: Improves your chance to hit by 0.5%."
+          ],
+          "source": "Avatar of Hakkar",
+          "sourceOrder": 4,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10838",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10838",
+            "https://nether.wowhead.com/forever/tooltip/item/10838",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10842",
+          "name": "Windscale Sarong",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "136 Armor",
+            "+10 Stamina",
+            "+20 Spirit",
+            "Equip: Improves your chance to hit by 1.0%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 8."
+          ],
+          "source": "Avatar of Hakkar",
+          "sourceOrder": 4,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10842",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10842",
+            "https://nether.wowhead.com/forever/tooltip/item/10842",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10843",
+          "name": "Featherskin Cape",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "39 Armor",
+            "+4 Stamina",
+            "+15 Spirit",
+            "Equip: Increases healing done by up to 9 and damage done by up to 3 for all magical spells and effects."
+          ],
+          "source": "Avatar of Hakkar",
+          "sourceOrder": 4,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10843",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10843",
+            "https://nether.wowhead.com/forever/tooltip/item/10843",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10844",
+          "name": "Spire of Hakkar",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Two-hand",
+          "type": "Two-hand staff",
+          "stats": [
+            "94–142 damage · 3.40s · 34.71 DPS",
+            "+16 Stamina",
+            "+16 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 62.",
+            "Equip: Harmful spell casts have a chance to steal 112 life from the target enemy over 8 sec."
+          ],
+          "source": "Avatar of Hakkar",
+          "sourceOrder": 4,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=10844",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10844",
+            "https://nether.wowhead.com/forever/tooltip/item/10844",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10845",
+          "name": "Warrior's Embrace",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Chest",
+          "type": "Plate",
+          "stats": [
+            "567 Armor",
+            "+6 Agility",
+            "+14 Stamina",
+            "Equip: Increased Defense +8.",
+            "Equip: Increases your chance to Dodge an attack by 1.5%."
+          ],
+          "source": "Avatar of Hakkar",
+          "sourceOrder": 4,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=10845",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10845",
+            "https://nether.wowhead.com/forever/tooltip/item/10845",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10846",
+          "name": "Bloodshot Greaves",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Feet",
+          "type": "Mail",
+          "stats": [
+            "221 Armor",
+            "+5 Strength",
+            "+6 Agility",
+            "+14 Stamina",
+            "+13 Intellect"
+          ],
+          "source": "Avatar of Hakkar",
+          "sourceOrder": 4,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=10846",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10846",
+            "https://nether.wowhead.com/forever/tooltip/item/10846",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "12462",
+          "name": "Embrace of the Wind Serpent",
+          "quality": 4,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "86 Armor",
+            "+10 Intellect",
+            "+30 Spirit",
+            "+10 Nature Resistance",
+            "Equip: Increases healing done by up to 33 and damage done by up to 11 for all magical spells and effects."
+          ],
+          "source": "Avatar of Hakkar",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=12462",
+          "sources": [
+            "https://www.wowhead.com/forever/item=12462",
+            "https://nether.wowhead.com/forever/tooltip/item/12462",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10803",
+          "name": "Blade of the Wretched",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Main hand",
+          "type": "Main hand sword",
+          "stats": [
+            "52–98 damage · 2.10s · 35.71 DPS",
+            "Chance on hit: Corrupts the target, causing 90 damage over 3 sec."
+          ],
+          "source": "Ogom the Wretched",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10803",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10803",
+            "https://nether.wowhead.com/forever/tooltip/item/10803",
+            "https://foreverdb.net/data/dungeons/109.json"
+          ]
+        },
+        {
+          "id": "10804",
+          "name": "Fist of the Damned",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "One-hand",
+          "type": "One-hand mace",
+          "stats": [
+            "47–89 damage · 1.90s · 35.79 DPS",
+            "Equip: Increased Defense +2.",
+            "Chance on hit: Steals 56 life from target enemy."
+          ],
+          "source": "Ogom the Wretched",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10804",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10804",
+            "https://nether.wowhead.com/forever/tooltip/item/10804",
+            "https://foreverdb.net/data/dungeons/109.json"
+          ]
+        },
+        {
+          "id": "10805",
+          "name": "Eater of the Dead",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Main hand",
+          "type": "Main hand axe",
+          "stats": [
+            "55–103 damage · 2.20s · 35.91 DPS",
+            "Equip: +16 Attack Power.",
+            "Equip: +15 Attack Power against Undead.",
+            "Chance on hit: Steals 21 life from the target enemy. Deals 3 times as much damage to Undead."
+          ],
+          "source": "Ogom the Wretched",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10805",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10805",
+            "https://nether.wowhead.com/forever/tooltip/item/10805",
+            "https://foreverdb.net/data/dungeons/109.json"
+          ]
+        },
+        {
+          "id": "10806",
+          "name": "Vestments of the Atal'ai Prophet",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "78 Armor",
+            "+22 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 13.",
+            "Equip: Your spells pierce 3 Magical Resistance."
+          ],
+          "source": "Jammal'an the Prophet",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10806",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10806",
+            "https://nether.wowhead.com/forever/tooltip/item/10806",
+            "https://foreverdb.net/data/dungeons/109.json"
+          ]
+        },
+        {
+          "id": "10807",
+          "name": "Kilt of the Atal'ai Prophet",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "69 Armor",
+            "+9 Stamina",
+            "+18 Intellect",
+            "+18 Spirit",
+            "Equip: Increases healing done by up to 9 and damage done by up to 3 for all magical spells and effects."
+          ],
+          "source": "Jammal'an the Prophet",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10807",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10807",
+            "https://nether.wowhead.com/forever/tooltip/item/10807",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10808",
+          "name": "Gloves of the Atal'ai Prophet",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "49 Armor",
+            "+6 Stamina",
+            "+20 Spirit",
+            "Equip: Increases healing done by up to 13 and damage done by up to 4 for all magical spells and effects."
+          ],
+          "source": "Jammal'an the Prophet",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10808",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10808",
+            "https://nether.wowhead.com/forever/tooltip/item/10808",
+            "https://foreverdb.net/data/dungeons/109.json"
+          ]
+        },
+        {
+          "id": "10795",
+          "name": "Drakeclaw Band",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "Random enchantment",
+            "Equip: Increased Defense +4."
+          ],
+          "source": "Dreamscythe, Weaver, Morphaz and Hazzas",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10795",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10795",
+            "https://nether.wowhead.com/forever/tooltip/item/10795",
+            "https://foreverdb.net/data/dungeons/109.json"
+          ]
+        },
+        {
+          "id": "10796",
+          "name": "Drakestone",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Held off-hand",
+          "type": "Held off-hand",
+          "stats": [
+            "Random enchantment",
+            "Equip: Increases damage done to Dragonkin by magical spells and effects by up to 11."
+          ],
+          "source": "Dreamscythe, Weaver, Morphaz and Hazzas",
+          "sourceOrder": 7,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10796",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10796",
+            "https://nether.wowhead.com/forever/tooltip/item/10796",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10797",
+          "name": "Firebreather",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "One-hand",
+          "type": "One-hand sword",
+          "stats": [
+            "54–101 damage · 2.20s · 35.23 DPS",
+            "Chance on hit: Hurls a fiery ball that causes 77 Fire damage and an additional 14 damage over 7 sec."
+          ],
+          "source": "Dreamscythe, Weaver, Morphaz and Hazzas",
+          "sourceOrder": 7,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10797",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10797",
+            "https://nether.wowhead.com/forever/tooltip/item/10797",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "12243",
+          "name": "Smoldering Claw",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Two-hand",
+          "type": "Two-hand polearm",
+          "stats": [
+            "108–162 damage · 2.90s · 46.55 DPS",
+            "+10 Fire Resistance",
+            "Chance on hit: Hurls a fiery ball that causes 171 Fire damage and an additional 18 damage over 6 sec."
+          ],
+          "source": "Dreamscythe, Weaver, Morphaz and Hazzas",
+          "sourceOrder": 7,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=12243",
+          "sources": [
+            "https://www.wowhead.com/forever/item=12243",
+            "https://nether.wowhead.com/forever/tooltip/item/12243",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "12463",
+          "name": "Drakefang Butcher",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Two-hand",
+          "type": "Two-hand sword",
+          "stats": [
+            "99–149 damage · 2.70s · 45.93 DPS",
+            "+15 Strength",
+            "Chance on hit: Wounds the target causing them to bleed for 161 damage over 7 sec. Deals 2 times as much damage to Dragonkin."
+          ],
+          "source": "Dreamscythe, Weaver, Morphaz and Hazzas",
+          "sourceOrder": 7,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=12463",
+          "sources": [
+            "https://www.wowhead.com/forever/item=12463",
+            "https://nether.wowhead.com/forever/tooltip/item/12463",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "12464",
+          "name": "Bloodfire Talons",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "96 Armor",
+            "+5 Intellect",
+            "+9 Spirit",
+            "+15 Fire Resistance",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 12."
+          ],
+          "source": "Dreamscythe, Weaver, Morphaz and Hazzas",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=12464",
+          "sources": [
+            "https://www.wowhead.com/forever/item=12464",
+            "https://nether.wowhead.com/forever/tooltip/item/12464",
+            "https://foreverdb.net/data/dungeons/109.json"
+          ]
+        },
+        {
+          "id": "12465",
+          "name": "Nightfall Drape",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "38 Armor",
+            "+14 Stamina",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 9."
+          ],
+          "source": "Dreamscythe, Weaver, Morphaz and Hazzas",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=12465",
+          "sources": [
+            "https://www.wowhead.com/forever/item=12465",
+            "https://nether.wowhead.com/forever/tooltip/item/12465",
+            "https://foreverdb.net/data/dungeons/109.json"
+          ]
+        },
+        {
+          "id": "12466",
+          "name": "Dawnspire Cord",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "43 Armor",
+            "+19 Intellect",
+            "Equip: Increases healing done by up to 18 and damage done by up to 6 for all magical spells and effects."
+          ],
+          "source": "Dreamscythe, Weaver, Morphaz and Hazzas",
+          "sourceOrder": 7,
+          "dropEvidence": "classic",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=12466",
+          "sources": [
+            "https://www.wowhead.com/forever/item=12466",
+            "https://nether.wowhead.com/forever/tooltip/item/12466",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10828",
+          "name": "Dire Nail",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Main hand",
+          "type": "Main hand dagger",
+          "stats": [
+            "38–72 damage · 1.50s · 36.67 DPS",
+            "+5 Shadow Resistance",
+            "Random enchantment"
+          ],
+          "source": "Shade of Eranikus",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10828",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10828",
+            "https://nether.wowhead.com/forever/tooltip/item/10828",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10829",
+          "name": "Dragon's Eye",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Neck",
+          "type": "Necklace",
+          "stats": [
+            "+15 Spirit",
+            "Equip: Increases healing done by up to 13 and damage done by up to 4 for all magical spells and effects."
+          ],
+          "source": "Shade of Eranikus",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10829",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10829",
+            "https://nether.wowhead.com/forever/tooltip/item/10829",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10833",
+          "name": "Horns of Eranikus",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Head",
+          "type": "Mail",
+          "stats": [
+            "271 Armor",
+            "+27 Intellect",
+            "+10 Spirit",
+            "Equip: Increases healing done by up to 11 and damage done by up to 4 for all magical spells and effects."
+          ],
+          "source": "Shade of Eranikus",
+          "sourceOrder": 8,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=10833",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10833",
+            "https://nether.wowhead.com/forever/tooltip/item/10833",
+            "https://foreverdb.net/data/dungeons/109.json"
+          ]
+        },
+        {
+          "id": "10835",
+          "name": "Crest of Supremacy",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Off hand",
+          "type": "Shield",
+          "stats": [
+            "1930 Armor",
+            "35 Block",
+            "+6 Strength",
+            "+6 Agility",
+            "+7 Stamina",
+            "+7 Intellect",
+            "Equip: Increased Defense +5."
+          ],
+          "source": "Shade of Eranikus",
+          "sourceOrder": 8,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=10835",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10835",
+            "https://nether.wowhead.com/forever/tooltip/item/10835",
+            "https://foreverdb.net/data/dungeons/109.json"
+          ]
+        },
+        {
+          "id": "10836",
+          "name": "Rod of Corrosion",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "50–93 nature damage · 1.30s · 55.00 DPS",
+            "+10 Nature Resistance"
+          ],
+          "source": "Shade of Eranikus",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=10836",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10836",
+            "https://nether.wowhead.com/forever/tooltip/item/10836",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        },
+        {
+          "id": "10837",
+          "name": "Tooth of Eranikus",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Main hand",
+          "type": "Main hand axe",
+          "stats": [
+            "62–116 damage · 2.40s · 37.08 DPS",
+            "+6 Strength",
+            "Equip: Improves your chance to hit by 1.0%.",
+            "Equip: Reduces the hit chance of Sleep effects against you by 3%."
+          ],
+          "source": "Shade of Eranikus",
+          "sourceOrder": 8,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10837",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10837",
+            "https://nether.wowhead.com/forever/tooltip/item/10837",
+            "https://foreverdb.net/data/dungeons/109.json"
+          ]
+        },
+        {
+          "id": "10847",
+          "name": "Dragon's Call",
+          "quality": 4,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "One-hand",
+          "type": "One-hand sword",
+          "stats": [
+            "72–135 damage · 2.50s · 41.40 DPS",
+            "Chance on hit: Calls forth an Emerald Dragon Whelp to protect you in battle for a short period of time."
+          ],
+          "source": "Shade of Eranikus",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=10847",
+          "sources": [
+            "https://www.wowhead.com/forever/item=10847",
+            "https://nether.wowhead.com/forever/tooltip/item/10847",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
           ]
         }
       ]

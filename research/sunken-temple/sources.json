@@ -1,0 +1,1349 @@
+{
+  "checked": "2026-11-23",
+  "questieRevision": "47a4756b775e8c73687fd3066d6c13f0bc43a55e",
+  "attRevision": "f7a819bfdd1767f36c92f76b233d044143ed6b5f",
+  "attSource": "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua",
+  "currentIndex": "https://foreverchanges.pro/quests/sunken-temple",
+  "registry": "https://foreverdb.net/data/dungeons/109.json",
+  "registryBuild": "1.60.1.71037",
+  "groupFinderLevels": {
+    "rec": 45,
+    "min": 50,
+    "max": 60,
+    "enter": 45
+  },
+  "registryQuestIds": [
+    1475,
+    1445,
+    3446,
+    3447,
+    3380,
+    8257,
+    4146,
+    1446,
+    3528,
+    3373,
+    8733
+  ],
+  "classicReference": "https://github.com/cmangos/classic-db",
+  "quests": {
+    "1448": {
+      "name": "In Search of The Temple",
+      "decision": "include",
+      "sources": [
+        "https://questing.wiki/wow-forever/quests/1448/",
+        "https://pullcall.com/forever/db/npc/5384-brohann-caskbelly"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 38,
+        "QuestLevel": 43,
+        "PrevQuestId": 0,
+        "NextQuestId": 0,
+        "NextQuestInChain": 1449,
+        "RequiredClasses": 0,
+        "RequiredRaces": 77
+      }
+    },
+    "1449": {
+      "name": "To The Hinterlands",
+      "decision": "include",
+      "sources": [
+        "https://questing.wiki/wow-forever/quests/1449/",
+        "https://pullcall.com/forever/db/npc/5384-brohann-caskbelly"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 38,
+        "QuestLevel": 43,
+        "PrevQuestId": 1448,
+        "NextQuestId": 0,
+        "NextQuestInChain": 1450,
+        "RequiredClasses": 0,
+        "RequiredRaces": 77
+      }
+    },
+    "1450": {
+      "name": "Gryphon Master Talonaxe",
+      "decision": "include",
+      "sources": [
+        "https://questing.wiki/wow-forever/quests/1450/"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 38,
+        "QuestLevel": 43,
+        "PrevQuestId": 1449,
+        "NextQuestId": 0,
+        "NextQuestInChain": 1451,
+        "RequiredClasses": 0,
+        "RequiredRaces": 77
+      }
+    },
+    "1451": {
+      "name": "Rhapsody Shindigger",
+      "decision": "include",
+      "sources": [
+        "https://questing.wiki/wow-forever/quests/1451/"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 38,
+        "QuestLevel": 43,
+        "PrevQuestId": 1450,
+        "NextQuestId": 0,
+        "NextQuestInChain": 1452,
+        "RequiredClasses": 0,
+        "RequiredRaces": 77
+      }
+    },
+    "1452": {
+      "name": "Rhapsody's Kalimdor Kocktail",
+      "decision": "include",
+      "sources": [
+        "https://questing.wiki/wow-forever/quests/1452/"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 38,
+        "QuestLevel": 43,
+        "PrevQuestId": 1451,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 0,
+        "RequiredRaces": 77
+      }
+    },
+    "1469": {
+      "name": "Rhapsody's Tale",
+      "decision": "include",
+      "sources": [
+        "https://questing.wiki/wow-forever/quests/1469/"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 38,
+        "QuestLevel": 43,
+        "PrevQuestId": 1452,
+        "NextQuestId": 0,
+        "NextQuestInChain": 1475,
+        "RequiredClasses": 0,
+        "RequiredRaces": 77
+      }
+    },
+    "1475": {
+      "name": "Into The Temple of Atal'Hakkar",
+      "decision": "include",
+      "sources": [
+        "https://foreverchanges.pro/quest/1475/into-the-temple-of-atalhakkar",
+        "https://pullcall.com/forever/db/npc/5384-brohann-caskbelly"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 41,
+        "QuestLevel": 50,
+        "PrevQuestId": 1469,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 0,
+        "RequiredRaces": 77
+      }
+    },
+    "3445": {
+      "name": "The Sunken Temple",
+      "decision": "include",
+      "sources": [
+        "https://questing.wiki/wow-forever/quests/3445/"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 46,
+        "QuestLevel": 51,
+        "PrevQuestId": 0,
+        "NextQuestId": 3444,
+        "NextQuestInChain": 3444,
+        "RequiredClasses": 0,
+        "RequiredRaces": 77
+      }
+    },
+    "3444": {
+      "name": "The Stone Circle",
+      "decision": "include",
+      "sources": [
+        "https://questing.wiki/wow-forever/quests/3444/",
+        "https://foreverchanges.pro/quest/3444/the-stone-circle",
+        "https://questing.wiki/wow-forever/quests/3445/"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 46,
+        "QuestLevel": 51,
+        "PrevQuestId": 0,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 0,
+        "RequiredRaces": 0
+      }
+    },
+    "3446": {
+      "name": "Into the Depths",
+      "decision": "include",
+      "sources": [
+        "https://foreverchanges.pro/quest/3446/into-the-depths",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 46,
+        "QuestLevel": 51,
+        "PrevQuestId": 3444,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 0,
+        "RequiredRaces": 0
+      }
+    },
+    "3447": {
+      "name": "Secret of the Circle",
+      "decision": "include",
+      "sources": [
+        "https://foreverchanges.pro/quest/3447/secret-of-the-circle",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 46,
+        "QuestLevel": 51,
+        "PrevQuestId": 3444,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 0,
+        "RequiredRaces": 0
+      }
+    },
+    "1446": {
+      "name": "Jammal'an the Prophet",
+      "decision": "include",
+      "sources": [
+        "https://foreverchanges.pro/quest/1446/jammalan-the-prophet",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 38,
+        "QuestLevel": 53,
+        "PrevQuestId": 0,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 0,
+        "RequiredRaces": 0
+      }
+    },
+    "3528": {
+      "name": "The God Hakkar",
+      "decision": "include",
+      "sources": [
+        "https://foreverchanges.pro/quest/3528/the-god-hakkar",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 40,
+        "QuestLevel": 53,
+        "PrevQuestId": 4787,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 0,
+        "RequiredRaces": 0
+      }
+    },
+    "4141": {
+      "name": "Muigin and Larion",
+      "decision": "include",
+      "sources": [
+        "https://questing.wiki/wow-forever/quests/4141/"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 47,
+        "QuestLevel": 52,
+        "PrevQuestId": 0,
+        "NextQuestId": 0,
+        "NextQuestInChain": 4142,
+        "RequiredClasses": 0,
+        "RequiredRaces": 77
+      }
+    },
+    "4142": {
+      "name": "A Visit to Gregan",
+      "decision": "include",
+      "sources": [
+        "https://questing.wiki/wow-forever/quests/4142/"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 47,
+        "QuestLevel": 52,
+        "PrevQuestId": 4141,
+        "NextQuestId": 0,
+        "NextQuestInChain": 4143,
+        "RequiredClasses": 0,
+        "RequiredRaces": 77
+      }
+    },
+    "4143": {
+      "name": "Haze of Evil",
+      "decision": "include",
+      "sources": [
+        "https://questing.wiki/wow-forever/quests/4143/",
+        "https://foreverchanges.pro/quest/4143/haze-of-evil",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 47,
+        "QuestLevel": 52,
+        "PrevQuestId": 4142,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 0,
+        "RequiredRaces": 77
+      }
+    },
+    "3373": {
+      "name": "The Essence of Eranikus",
+      "decision": "include",
+      "sources": [
+        "https://foreverchanges.pro/quest/3373/the-essence-of-eranikus",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 48,
+        "QuestLevel": 55,
+        "PrevQuestId": 0,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 0,
+        "RequiredRaces": 0
+      }
+    },
+    "3374": {
+      "name": "The Essence of Eranikus",
+      "decision": "include",
+      "sources": [
+        "https://questing.wiki/wow-forever/quests/3374/",
+        "https://foreverchanges.pro/quest/3374/the-essence-of-eranikus",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 48,
+        "QuestLevel": 55,
+        "PrevQuestId": 3373,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 0,
+        "RequiredRaces": 0
+      }
+    },
+    "3512": {
+      "name": "In Eranikus' Own Words",
+      "decision": "include",
+      "sources": [
+        "https://foreverchanges.pro/quest/3512/in-eranikus-own-words",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 48,
+        "QuestLevel": 55,
+        "PrevQuestId": 3374,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 0,
+        "RequiredRaces": 0
+      }
+    },
+    "8733": {
+      "name": "Eranikus, Tyrant of the Dream",
+      "decision": "include",
+      "sources": [
+        "https://foreverchanges.pro/quest/8733/eranikus-tyrant-of-the-dream",
+        "https://questing.wiki/wow-forever/quests/8733/",
+        "https://www.forever-xp.com/quests/8733/"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 60,
+        "QuestLevel": 60,
+        "PrevQuestId": 0,
+        "NextQuestId": 0,
+        "NextQuestInChain": 8734,
+        "RequiredClasses": 0,
+        "RequiredRaces": 0
+      }
+    },
+    "8236": {
+      "name": "The Azure Key",
+      "decision": "include",
+      "sources": [
+        "https://questing.wiki/wow-forever/quests/8236/",
+        "https://www.wowhead.com/forever/quest=8236/the-azure-key",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "classicQuestRecord": {
+        "MinLevel": 50,
+        "QuestLevel": 52,
+        "PrevQuestId": 8235,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 8,
+        "RequiredRaces": 0
+      }
+    },
+    "1445": {
+      "decision": "exclude",
+      "reason": "Horde-only Fetishes of Hakkar quest",
+      "sources": [
+        "https://foreverchanges.pro/quest/1445/the-temple-of-atalhakkar",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "name": "The Temple of Atal'Hakkar",
+      "classicQuestRecord": {
+        "MinLevel": 38,
+        "QuestLevel": 50,
+        "PrevQuestId": 1444,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 0,
+        "RequiredRaces": 178
+      }
+    },
+    "3380": {
+      "decision": "exclude",
+      "reason": "Horde-only Marvon introduction",
+      "sources": [
+        "https://foreverchanges.pro/quest/3380/the-sunken-temple",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "name": "The Sunken Temple",
+      "classicQuestRecord": {
+        "MinLevel": 46,
+        "QuestLevel": 51,
+        "PrevQuestId": 0,
+        "NextQuestId": 3444,
+        "NextQuestInChain": 3444,
+        "RequiredClasses": 0,
+        "RequiredRaces": 178
+      }
+    },
+    "4146": {
+      "decision": "exclude",
+      "reason": "Horde-only alternative to Haze of Evil",
+      "sources": [
+        "https://foreverchanges.pro/quest/4146/zapper-fuel",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "name": "Zapper Fuel",
+      "classicQuestRecord": {
+        "MinLevel": 47,
+        "QuestLevel": 52,
+        "PrevQuestId": 4147,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 0,
+        "RequiredRaces": 178
+      }
+    },
+    "2868": {
+      "decision": "exclude",
+      "reason": "Unimplemented-looking <TXT> record without verified pickup or completion",
+      "sources": [
+        "https://www.wowhead.com/forever/quest=2868",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "name": "<TXT> The Shriveled Heart"
+    },
+    "8257": {
+      "decision": "exclude",
+      "reason": "Priest",
+      "sources": [
+        "https://www.wowhead.com/forever/quest=8257",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "name": "Blood of Morphaz",
+      "classicQuestRecord": {
+        "MinLevel": 50,
+        "QuestLevel": 52,
+        "PrevQuestId": 8256,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 16,
+        "RequiredRaces": 0
+      }
+    },
+    "8253": {
+      "decision": "exclude",
+      "reason": "Mage",
+      "sources": [
+        "https://www.wowhead.com/forever/quest=8253",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "name": "Destroy Morphaz",
+      "classicQuestRecord": {
+        "MinLevel": 50,
+        "QuestLevel": 52,
+        "PrevQuestId": 8252,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 128,
+        "RequiredRaces": 0
+      }
+    },
+    "9053": {
+      "decision": "exclude",
+      "reason": "Druid",
+      "sources": [
+        "https://www.wowhead.com/forever/quest=9053",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "name": "A Better Ingredient",
+      "classicQuestRecord": {
+        "MinLevel": 50,
+        "QuestLevel": 52,
+        "PrevQuestId": 9051,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 1024,
+        "RequiredRaces": 0
+      }
+    },
+    "8413": {
+      "decision": "exclude",
+      "reason": "Shaman",
+      "sources": [
+        "https://www.wowhead.com/forever/quest=8413",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "name": "Da Voodoo",
+      "classicQuestRecord": {
+        "MinLevel": 50,
+        "QuestLevel": 52,
+        "PrevQuestId": 8412,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 64,
+        "RequiredRaces": 178
+      }
+    },
+    "8418": {
+      "decision": "exclude",
+      "reason": "Paladin",
+      "sources": [
+        "https://www.wowhead.com/forever/quest=8418",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "name": "Forging the Mightstone",
+      "classicQuestRecord": {
+        "MinLevel": 50,
+        "QuestLevel": 52,
+        "PrevQuestId": 8416,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 2,
+        "RequiredRaces": 5
+      }
+    },
+    "8232": {
+      "decision": "exclude",
+      "reason": "Hunter",
+      "sources": [
+        "https://www.wowhead.com/forever/quest=8232",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "name": "The Green Drake",
+      "classicQuestRecord": {
+        "MinLevel": 50,
+        "QuestLevel": 52,
+        "PrevQuestId": 8231,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 4,
+        "RequiredRaces": 0
+      }
+    },
+    "8422": {
+      "decision": "exclude",
+      "reason": "Warlock",
+      "sources": [
+        "https://www.wowhead.com/forever/quest=8422",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "name": "Trolls of a Feather",
+      "classicQuestRecord": {
+        "MinLevel": 50,
+        "QuestLevel": 52,
+        "PrevQuestId": 8421,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 256,
+        "RequiredRaces": 0
+      }
+    },
+    "8425": {
+      "decision": "exclude",
+      "reason": "Warrior",
+      "sources": [
+        "https://www.wowhead.com/forever/quest=8425",
+        "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+      ],
+      "name": "Voodoo Feathers",
+      "classicQuestRecord": {
+        "MinLevel": 50,
+        "QuestLevel": 52,
+        "PrevQuestId": 8424,
+        "NextQuestId": 0,
+        "NextQuestInChain": 0,
+        "RequiredClasses": 1,
+        "RequiredRaces": 0
+      }
+    }
+  },
+  "equipment": {
+    "10801": {
+      "tooltipSources": [
+        "Spawn of Hakkar"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10801,
+          "src": "classic",
+          "pct": 50.0,
+          "trash": true,
+          "from": "Spawn of Hakkar"
+        }
+      ],
+      "dropEvidence": "wowhead"
+    },
+    "10802": {
+      "tooltipSources": [
+        "Spawn of Hakkar"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10802,
+          "src": "seen",
+          "count": 1,
+          "trash": true,
+          "from": "Spawn of Hakkar",
+          "seenToo": 1
+        }
+      ],
+      "dropEvidence": "seen"
+    },
+    "10798": {
+      "tooltipSources": [
+        "Atal'alarion"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10798,
+          "src": "classic",
+          "pct": 40.0,
+          "boss": "Atal'alarion"
+        }
+      ],
+      "dropEvidence": "wowhead"
+    },
+    "10799": {
+      "tooltipSources": [
+        "Atal'alarion"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10799,
+          "src": "classic",
+          "pct": 20.0,
+          "boss": "Atal'alarion",
+          "worth": [
+            "top pick for Feral Combat Druid at level 50"
+          ],
+          "picks": [
+            {
+              "spec": "Feral Combat Druid",
+              "slot": "main",
+              "lv": 50
+            }
+          ]
+        }
+      ],
+      "dropEvidence": "wowhead"
+    },
+    "10800": {
+      "tooltipSources": [
+        "Atal'alarion"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10800,
+          "src": "seen",
+          "count": 8,
+          "classicPct": 40.0,
+          "seenToo": 8,
+          "boss": "Atal'alarion"
+        }
+      ],
+      "dropEvidence": "seen"
+    },
+    "10783": {
+      "tooltipSources": [],
+      "registryDropRows": [],
+      "dropEvidence": "classic"
+    },
+    "10784": {
+      "tooltipSources": [],
+      "registryDropRows": [],
+      "dropEvidence": "classic"
+    },
+    "10785": {
+      "tooltipSources": [],
+      "registryDropRows": [],
+      "dropEvidence": "classic"
+    },
+    "10786": {
+      "tooltipSources": [],
+      "registryDropRows": [],
+      "dropEvidence": "classic"
+    },
+    "10787": {
+      "tooltipSources": [],
+      "registryDropRows": [],
+      "dropEvidence": "classic"
+    },
+    "10788": {
+      "tooltipSources": [],
+      "registryDropRows": [],
+      "dropEvidence": "classic"
+    },
+    "10838": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 10838,
+          "src": "classic",
+          "pct": 20.0,
+          "boss": "Avatar of Hakkar",
+          "worth": [
+            "top pick for Protection Paladin and 1 more spec at level 50"
+          ],
+          "picks": [
+            {
+              "spec": "Protection Paladin",
+              "slot": "main",
+              "lv": 50
+            },
+            {
+              "spec": "Protection Warrior",
+              "slot": "main",
+              "lv": 50
+            }
+          ]
+        }
+      ],
+      "dropEvidence": "classic"
+    },
+    "10842": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 10842,
+          "src": "classic",
+          "pct": 40.0,
+          "boss": "Avatar of Hakkar"
+        }
+      ],
+      "dropEvidence": "classic"
+    },
+    "10843": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 10843,
+          "src": "classic",
+          "pct": 40.0,
+          "boss": "Avatar of Hakkar"
+        }
+      ],
+      "dropEvidence": "classic"
+    },
+    "10844": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 10844,
+          "src": "classic",
+          "pct": 20.0,
+          "boss": "Avatar of Hakkar"
+        }
+      ],
+      "dropEvidence": "classic"
+    },
+    "10845": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 10845,
+          "src": "classic",
+          "pct": 39.75,
+          "boss": "Avatar of Hakkar",
+          "worth": [
+            "top pick for Protection Paladin and 1 more spec at level 50"
+          ],
+          "picks": [
+            {
+              "spec": "Protection Paladin",
+              "slot": "chest",
+              "lv": 50
+            },
+            {
+              "spec": "Protection Warrior",
+              "slot": "chest",
+              "lv": 50
+            }
+          ]
+        }
+      ],
+      "dropEvidence": "classic"
+    },
+    "10846": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 10846,
+          "src": "classic",
+          "pct": 39.75,
+          "boss": "Avatar of Hakkar"
+        }
+      ],
+      "dropEvidence": "classic"
+    },
+    "12462": {
+      "tooltipSources": [
+        "Shade of Hakkar"
+      ],
+      "registryDropRows": [],
+      "dropEvidence": "wowhead"
+    },
+    "10803": {
+      "tooltipSources": [
+        "Ogom the Wretched"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10803,
+          "src": "seen",
+          "count": 2,
+          "trash": true,
+          "from": "Ogom the Wretched",
+          "classicPct": 33.33,
+          "seenToo": 2
+        }
+      ],
+      "dropEvidence": "seen"
+    },
+    "10804": {
+      "tooltipSources": [
+        "Ogom the Wretched"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10804,
+          "src": "seen",
+          "count": 1,
+          "trash": true,
+          "from": "Ogom the Wretched",
+          "classicPct": 33.33,
+          "seenToo": 1
+        }
+      ],
+      "dropEvidence": "seen"
+    },
+    "10805": {
+      "tooltipSources": [
+        "Ogom the Wretched"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10805,
+          "src": "seen",
+          "count": 1,
+          "trash": true,
+          "from": "Ogom the Wretched",
+          "classicPct": 33.33,
+          "seenToo": 1
+        }
+      ],
+      "dropEvidence": "seen"
+    },
+    "10806": {
+      "tooltipSources": [
+        "Jammal'an the Prophet"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10806,
+          "src": "seen",
+          "count": 10,
+          "classicPct": 33.33,
+          "seenToo": 10,
+          "boss": "Jammal'an the Prophet"
+        }
+      ],
+      "dropEvidence": "seen"
+    },
+    "10807": {
+      "tooltipSources": [
+        "Jammal'an the Prophet"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10807,
+          "src": "classic",
+          "pct": 33.33,
+          "boss": "Jammal'an the Prophet"
+        }
+      ],
+      "dropEvidence": "wowhead"
+    },
+    "10808": {
+      "tooltipSources": [
+        "Jammal'an the Prophet"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10808,
+          "src": "seen",
+          "count": 2,
+          "classicPct": 33.33,
+          "seenToo": 2,
+          "boss": "Jammal'an the Prophet"
+        }
+      ],
+      "dropEvidence": "seen"
+    },
+    "10795": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 10795,
+          "src": "seen",
+          "count": 1,
+          "classicPct": 6.25,
+          "seenToo": 1,
+          "boss": "Hazzas"
+        },
+        {
+          "id": 10795,
+          "src": "classic",
+          "pct": 6.25,
+          "seenToo": 1,
+          "boss": "Morphaz"
+        },
+        {
+          "id": 10795,
+          "src": "seen",
+          "count": 1,
+          "classicPct": 6.25,
+          "seenToo": 1,
+          "boss": "Weaver"
+        },
+        {
+          "id": 10795,
+          "src": "classic",
+          "pct": 6.25,
+          "seenToo": 1,
+          "boss": "Dreamscythe"
+        }
+      ],
+      "dropEvidence": "seen"
+    },
+    "10796": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 10796,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Hazzas"
+        },
+        {
+          "id": 10796,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Morphaz"
+        },
+        {
+          "id": 10796,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Weaver"
+        },
+        {
+          "id": 10796,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Dreamscythe"
+        }
+      ],
+      "dropEvidence": "classic"
+    },
+    "10797": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 10797,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Hazzas"
+        },
+        {
+          "id": 10797,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Morphaz"
+        },
+        {
+          "id": 10797,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Weaver"
+        },
+        {
+          "id": 10797,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Dreamscythe"
+        }
+      ],
+      "dropEvidence": "classic"
+    },
+    "12243": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 12243,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Hazzas"
+        },
+        {
+          "id": 12243,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Morphaz"
+        },
+        {
+          "id": 12243,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Weaver"
+        },
+        {
+          "id": 12243,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Dreamscythe"
+        }
+      ],
+      "dropEvidence": "classic"
+    },
+    "12463": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 12463,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Hazzas"
+        },
+        {
+          "id": 12463,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Morphaz"
+        },
+        {
+          "id": 12463,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Weaver"
+        },
+        {
+          "id": 12463,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Dreamscythe"
+        }
+      ],
+      "dropEvidence": "classic"
+    },
+    "12464": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 12464,
+          "src": "classic",
+          "pct": 6.25,
+          "seenToo": 1,
+          "boss": "Hazzas"
+        },
+        {
+          "id": 12464,
+          "src": "seen",
+          "count": 1,
+          "classicPct": 6.25,
+          "seenToo": 1,
+          "boss": "Morphaz"
+        },
+        {
+          "id": 12464,
+          "src": "classic",
+          "pct": 6.25,
+          "seenToo": 1,
+          "boss": "Weaver"
+        },
+        {
+          "id": 12464,
+          "src": "classic",
+          "pct": 6.25,
+          "seenToo": 1,
+          "boss": "Dreamscythe"
+        }
+      ],
+      "dropEvidence": "seen"
+    },
+    "12465": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 12465,
+          "src": "classic",
+          "pct": 6.25,
+          "seenToo": 1,
+          "boss": "Hazzas",
+          "worth": [
+            "top pick for Affliction Warlock and 2 more specs at level 50"
+          ],
+          "picks": [
+            {
+              "spec": "Protection Paladin",
+              "slot": "back",
+              "lv": 50
+            },
+            {
+              "spec": "Affliction Warlock",
+              "slot": "back",
+              "lv": 50
+            },
+            {
+              "spec": "Demonology Warlock",
+              "slot": "back",
+              "lv": 50
+            }
+          ]
+        },
+        {
+          "id": 12465,
+          "src": "seen",
+          "count": 1,
+          "classicPct": 6.25,
+          "seenToo": 1,
+          "boss": "Morphaz",
+          "worth": [
+            "top pick for Affliction Warlock and 2 more specs at level 50"
+          ],
+          "picks": [
+            {
+              "spec": "Protection Paladin",
+              "slot": "back",
+              "lv": 50
+            },
+            {
+              "spec": "Affliction Warlock",
+              "slot": "back",
+              "lv": 50
+            },
+            {
+              "spec": "Demonology Warlock",
+              "slot": "back",
+              "lv": 50
+            }
+          ]
+        },
+        {
+          "id": 12465,
+          "src": "classic",
+          "pct": 6.25,
+          "seenToo": 1,
+          "boss": "Weaver",
+          "worth": [
+            "top pick for Affliction Warlock and 2 more specs at level 50"
+          ],
+          "picks": [
+            {
+              "spec": "Protection Paladin",
+              "slot": "back",
+              "lv": 50
+            },
+            {
+              "spec": "Affliction Warlock",
+              "slot": "back",
+              "lv": 50
+            },
+            {
+              "spec": "Demonology Warlock",
+              "slot": "back",
+              "lv": 50
+            }
+          ]
+        },
+        {
+          "id": 12465,
+          "src": "classic",
+          "pct": 6.25,
+          "seenToo": 1,
+          "boss": "Dreamscythe",
+          "worth": [
+            "top pick for Affliction Warlock and 2 more specs at level 50"
+          ],
+          "picks": [
+            {
+              "spec": "Protection Paladin",
+              "slot": "back",
+              "lv": 50
+            },
+            {
+              "spec": "Affliction Warlock",
+              "slot": "back",
+              "lv": 50
+            },
+            {
+              "spec": "Demonology Warlock",
+              "slot": "back",
+              "lv": 50
+            }
+          ]
+        }
+      ],
+      "dropEvidence": "seen"
+    },
+    "12466": {
+      "tooltipSources": [],
+      "registryDropRows": [
+        {
+          "id": 12466,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Hazzas"
+        },
+        {
+          "id": 12466,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Morphaz"
+        },
+        {
+          "id": 12466,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Weaver"
+        },
+        {
+          "id": 12466,
+          "src": "classic",
+          "pct": 6.25,
+          "boss": "Dreamscythe"
+        }
+      ],
+      "dropEvidence": "classic"
+    },
+    "10828": {
+      "tooltipSources": [
+        "Shade of Eranikus"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10828,
+          "src": "classic",
+          "pct": 20.0,
+          "boss": "Shade of Eranikus"
+        }
+      ],
+      "dropEvidence": "wowhead"
+    },
+    "10829": {
+      "tooltipSources": [
+        "Shade of Eranikus"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10829,
+          "src": "classic",
+          "pct": 40.0,
+          "boss": "Shade of Eranikus"
+        }
+      ],
+      "dropEvidence": "wowhead"
+    },
+    "10833": {
+      "tooltipSources": [
+        "Shade of Eranikus"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10833,
+          "src": "seen",
+          "count": 2,
+          "classicPct": 40.0,
+          "seenToo": 2,
+          "boss": "Shade of Eranikus"
+        }
+      ],
+      "dropEvidence": "seen"
+    },
+    "10835": {
+      "tooltipSources": [
+        "Shade of Eranikus"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10835,
+          "src": "seen",
+          "count": 1,
+          "classicPct": 39.75,
+          "seenToo": 1,
+          "boss": "Shade of Eranikus"
+        }
+      ],
+      "dropEvidence": "seen"
+    },
+    "10836": {
+      "tooltipSources": [
+        "Shade of Eranikus"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10836,
+          "src": "classic",
+          "pct": 39.75,
+          "boss": "Shade of Eranikus"
+        }
+      ],
+      "dropEvidence": "wowhead"
+    },
+    "10837": {
+      "tooltipSources": [
+        "Shade of Eranikus"
+      ],
+      "registryDropRows": [
+        {
+          "id": 10837,
+          "src": "seen",
+          "count": 1,
+          "classicPct": 20.0,
+          "seenToo": 1,
+          "boss": "Shade of Eranikus"
+        }
+      ],
+      "dropEvidence": "seen"
+    },
+    "10847": {
+      "tooltipSources": [
+        "Shade of Eranikus"
+      ],
+      "registryDropRows": [],
+      "dropEvidence": "wowhead"
+    }
+  }
+}

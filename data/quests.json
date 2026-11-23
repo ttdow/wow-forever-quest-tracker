@@ -30783,11 +30783,13 @@
     "giver": "Archmage Xylem",
     "coordinates": "29.2, 40.2",
     "area": "Archmage Xylem's tower, Bear's Head",
-    "objective": "Take the Azure Key from Xylem to Lord Jorach Ravenholdt in Alterac Mountains (86.0, 78.9).",
+    "objective": "Defeat Morphaz in Sunken Temple and take the Azure Key to Lord Jorach Ravenholdt in Alterac Mountains (86.0, 78.9).",
     "areaConfidence": "Approximate",
     "notes": "Minimum level 50 · Both factions · Rogue only.",
     "sources": [
-      "https://questing.wiki/wow-forever/quests/8236/"
+      "https://questing.wiki/wow-forever/quests/8236/",
+      "https://www.wowhead.com/forever/quest=8236/the-azure-key",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
     ],
     "evidence": {
       "quest": "forever-records",
@@ -31524,6 +31526,715 @@
       "faction": "forever-records"
     },
     "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1448",
+    "zone": "Sunken Temple",
+    "level": 43,
+    "name": "In Search of The Temple",
+    "stage": "Brohann's investigation · 1",
+    "giver": "Brohann Caskbelly",
+    "coordinates": "69.5, 40.4",
+    "area": "Dwarven District, Stormwind City",
+    "objective": "Find the ruins of the Temple of Atal'Hakkar in the Pool of Tears, Swamp of Sorrows (around 70.0, 52.9), then report to Brohann.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 38 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/1448/",
+      "https://pullcall.com/forever/db/npc/5384-brohann-caskbelly"
+    ],
+    "evidence": {
+      "quest": "classic-reference",
+      "level": "classic-reference",
+      "objective": "classic-reference",
+      "giver": "classic-reference",
+      "pickupLocation": "classic-reference",
+      "faction": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1449",
+    "zone": "Sunken Temple",
+    "level": 43,
+    "name": "To The Hinterlands",
+    "stage": "Brohann's investigation · 2",
+    "giver": "Brohann Caskbelly",
+    "coordinates": "69.5, 40.4",
+    "area": "Dwarven District, Stormwind City",
+    "objective": "Find High Thane Falstad Wildhammer at Aerie Peak in the Hinterlands (11.8, 46.8).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 38 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/1449/",
+      "https://pullcall.com/forever/db/npc/5384-brohann-caskbelly"
+    ],
+    "evidence": {
+      "quest": "classic-reference",
+      "level": "classic-reference",
+      "objective": "classic-reference",
+      "giver": "classic-reference",
+      "pickupLocation": "classic-reference",
+      "faction": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "1448",
+        "name": "In Search of The Temple",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1450",
+    "zone": "Sunken Temple",
+    "level": 43,
+    "name": "Gryphon Master Talonaxe",
+    "stage": "Brohann's investigation · 3",
+    "giver": "High Thane Falstad Wildhammer",
+    "coordinates": "11.8, 46.8",
+    "area": "Aerie Peak, The Hinterlands",
+    "objective": "Speak to Gryphon Master Talonaxe in the Aerie Peak aviary (9.8, 44.5).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 38 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/1450/"
+    ],
+    "evidence": {
+      "quest": "classic-reference",
+      "level": "classic-reference",
+      "objective": "classic-reference",
+      "giver": "classic-reference",
+      "pickupLocation": "classic-reference",
+      "faction": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "1449",
+        "name": "To The Hinterlands",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1451",
+    "zone": "Sunken Temple",
+    "level": 43,
+    "name": "Rhapsody Shindigger",
+    "stage": "Brohann's investigation · 4",
+    "giver": "Gryphon Master Talonaxe",
+    "coordinates": "9.8, 44.5",
+    "area": "Aerie Peak, The Hinterlands",
+    "objective": "Find Rhapsody Shindigger at his camp in the Hinterlands (26.9, 48.6).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 38 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/1451/"
+    ],
+    "evidence": {
+      "quest": "classic-reference",
+      "level": "classic-reference",
+      "objective": "classic-reference",
+      "giver": "classic-reference",
+      "pickupLocation": "classic-reference",
+      "faction": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "1450",
+        "name": "Gryphon Master Talonaxe",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1452",
+    "zone": "Sunken Temple",
+    "level": 43,
+    "name": "Rhapsody's Kalimdor Kocktail",
+    "stage": "Brohann's investigation · 5",
+    "giver": "Rhapsody Shindigger",
+    "coordinates": "26.9, 48.6",
+    "area": "Shindigger's Camp, The Hinterlands",
+    "objective": "Bring Rhapsody 3 Roc Gizzards from Tanaris, plus 3 Groddoc Livers and 3 Ironfur Livers from Feralas.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 38 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/1452/"
+    ],
+    "evidence": {
+      "quest": "classic-reference",
+      "level": "classic-reference",
+      "objective": "classic-reference",
+      "giver": "classic-reference",
+      "pickupLocation": "classic-reference",
+      "faction": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "1451",
+        "name": "Rhapsody Shindigger",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1469",
+    "zone": "Sunken Temple",
+    "level": 43,
+    "name": "Rhapsody's Tale",
+    "stage": "Brohann's investigation · 6",
+    "giver": "Rhapsody Shindigger",
+    "coordinates": "26.9, 48.6",
+    "area": "Shindigger's Camp, The Hinterlands",
+    "objective": "Deliver Rhapsody's Atal'ai Tablet Fragment to Brohann in Stormwind's Dwarven District (69.5, 40.4).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 38 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/1469/"
+    ],
+    "evidence": {
+      "quest": "classic-reference",
+      "level": "classic-reference",
+      "objective": "classic-reference",
+      "giver": "classic-reference",
+      "pickupLocation": "classic-reference",
+      "faction": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "1452",
+        "name": "Rhapsody's Kalimdor Kocktail",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1475",
+    "zone": "Sunken Temple",
+    "level": 50,
+    "name": "Into The Temple of Atal'Hakkar",
+    "stage": "Brohann's investigation · 7",
+    "giver": "Brohann Caskbelly",
+    "coordinates": "69.5, 40.4",
+    "area": "Dwarven District, Stormwind City",
+    "objective": "Collect 10 Atal'ai Tablets in the temple ruins, including the approach to the instance portal, and return them to Brohann.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 38 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/1475/into-the-temple-of-atalhakkar",
+      "https://pullcall.com/forever/db/npc/5384-brohann-caskbelly"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "1469",
+        "name": "Rhapsody's Tale",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3445",
+    "zone": "Sunken Temple",
+    "level": 51,
+    "name": "The Sunken Temple",
+    "stage": "Marvon Rivetseeker · Introduction",
+    "giver": "Angelas Moonbreeze",
+    "coordinates": "31.8, 45.6",
+    "area": "Feathermoon Stronghold, Feralas",
+    "objective": "Find Marvon Rivetseeker at the Broken Pillar in Tanaris (52.7, 45.9).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 46 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/3445/"
+    ],
+    "evidence": {
+      "quest": "classic-reference",
+      "level": "classic-reference",
+      "objective": "classic-reference",
+      "giver": "classic-reference",
+      "pickupLocation": "classic-reference",
+      "faction": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3444",
+    "zone": "Sunken Temple",
+    "level": 51,
+    "name": "The Stone Circle",
+    "stage": "Marvon Rivetseeker · Preparation",
+    "giver": "Marvon Rivetseeker",
+    "coordinates": "52.7, 45.9",
+    "area": "The Broken Pillar, Tanaris",
+    "objective": "Recover Marvon's Stone Circle from his chest in Ratchet and bring it back to him in Tanaris.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 46 · Both factions · The prerequisite link uses the Alliance version of The Sunken Temple.",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/3444/",
+      "https://foreverchanges.pro/quest/3444/the-stone-circle",
+      "https://questing.wiki/wow-forever/quests/3445/"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3445",
+        "name": "The Sunken Temple",
+        "evidence": "forever-records",
+        "sources": [
+          "https://questing.wiki/wow-forever/quests/3445/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3446",
+    "zone": "Sunken Temple",
+    "level": 51,
+    "name": "Into the Depths",
+    "stage": "Marvon Rivetseeker · Altar",
+    "giver": "Marvon Rivetseeker",
+    "coordinates": "52.7, 45.9",
+    "area": "The Broken Pillar, Tanaris",
+    "objective": "Take the provided Atal'ai Stone Circle to the Altar of Hakkar in the lower temple.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 46 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/3446/into-the-depths",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3444",
+        "name": "The Stone Circle",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3447",
+    "zone": "Sunken Temple",
+    "level": 51,
+    "name": "Secret of the Circle",
+    "stage": "Marvon Rivetseeker · Statues",
+    "giver": "Marvon Rivetseeker",
+    "coordinates": "52.7, 45.9",
+    "area": "The Broken Pillar, Tanaris",
+    "objective": "In the lower temple, activate the statues in this order: south, north, southwest, southeast, northwest, northeast. Defeat Atal'alarion and interact with the Idol of Hakkar in the pit.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 46 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/3447/secret-of-the-circle",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3444",
+        "name": "The Stone Circle",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1446",
+    "zone": "Sunken Temple",
+    "level": 53,
+    "name": "Jammal'an the Prophet",
+    "stage": "",
+    "giver": "Atal'ai Exile",
+    "coordinates": "33.8, 75.2",
+    "area": "Shadra'Alor, The Hinterlands",
+    "objective": "Defeat the six Atal'ai Defenders to open the way to Jammal'an. Kill Jammal'an and take his head to the Atal'ai Exile.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 38 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/1446/jammalan-the-prophet",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3528",
+    "zone": "Sunken Temple",
+    "level": 53,
+    "name": "The God Hakkar",
+    "stage": "Yeh'kinya · After The Ancient Egg",
+    "giver": "Yeh'kinya",
+    "coordinates": "67.0, 22.4",
+    "area": "Steamwheedle Port, Tanaris",
+    "objective": "Use the Egg of Hakkar in the Sanctum of the Fallen God. Use blood from Hakkari Bloodkeepers to extinguish all four flames, then defeat the Avatar of Hakkar. Fill the egg with the Essence of Hakkar and return it to Yeh'kinya.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/3528/the-god-hakkar",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "4787",
+        "name": "The Ancient Egg",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4141",
+    "zone": "Sunken Temple",
+    "level": 52,
+    "name": "Muigin and Larion",
+    "stage": "Atal'ai Haze · 1",
+    "giver": "Muigin",
+    "coordinates": "42.9, 9.6",
+    "area": "Marshal's Refuge, Un'Goro Crater",
+    "objective": "Collect 15 Bloodpetals from Bloodpetal lashers, flayers, threshers, or trappers and return them to Muigin.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/4141/"
+    ],
+    "evidence": {
+      "quest": "classic-reference",
+      "level": "classic-reference",
+      "objective": "classic-reference",
+      "giver": "classic-reference",
+      "pickupLocation": "classic-reference",
+      "faction": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4142",
+    "zone": "Sunken Temple",
+    "level": 52,
+    "name": "A Visit to Gregan",
+    "stage": "Atal'ai Haze · 2",
+    "giver": "Muigin",
+    "coordinates": "42.9, 9.6",
+    "area": "Marshal's Refuge, Un'Goro Crater",
+    "objective": "Take Muigin's Bloodpetal sample to Gregan Brewspewer in Feralas (45.1, 25.6).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/4142/"
+    ],
+    "evidence": {
+      "quest": "classic-reference",
+      "level": "classic-reference",
+      "objective": "classic-reference",
+      "giver": "classic-reference",
+      "pickupLocation": "classic-reference",
+      "faction": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4141",
+        "name": "Muigin and Larion",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4143",
+    "zone": "Sunken Temple",
+    "level": 52,
+    "name": "Haze of Evil",
+    "stage": "Atal'ai Haze · 3",
+    "giver": "Gregan Brewspewer",
+    "coordinates": "45.1, 25.6",
+    "area": "Near the Twin Colossals, Feralas",
+    "objective": "Collect 5 samples of Atal'ai Haze from enemies in Sunken Temple and return them to Muigin at Marshal's Refuge in Un'Goro Crater (42.9, 9.6).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/4143/",
+      "https://foreverchanges.pro/quest/4143/haze-of-evil",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "4142",
+        "name": "A Visit to Gregan",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3373",
+    "zone": "Sunken Temple",
+    "level": 55,
+    "name": "The Essence of Eranikus",
+    "stage": "Eranikus's essence · 1",
+    "giver": "Essence of Eranikus (item)",
+    "coordinates": "",
+    "area": "Shade of Eranikus's lair, Sunken Temple",
+    "objective": "Loot the Essence of Eranikus from the Shade, use it to start the quest, and place it in the Essence Font in the same room. Keep the rewarded Chained Essence of Eranikus for Itharius if you plan to continue the chain.",
+    "areaConfidence": "Named room",
+    "notes": "Minimum level 48 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/3373/the-essence-of-eranikus",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3374",
+    "zone": "Sunken Temple",
+    "level": 55,
+    "name": "The Essence of Eranikus",
+    "stage": "Eranikus's essence · 2",
+    "giver": "Oathstone of Ysera's Dragonflight (item)",
+    "coordinates": "13.7, 71.7",
+    "area": "Itharius's Cave, Swamp of Sorrows",
+    "objective": "Show Itharius the Chained Essence of Eranikus to receive the Oathstone. Use it to start the quest, then give both items to Itharius. This consumes the trinket.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 48 · Both factions",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/3374/",
+      "https://foreverchanges.pro/quest/3374/the-essence-of-eranikus",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3373",
+        "name": "The Essence of Eranikus",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3512",
+    "zone": "Sunken Temple",
+    "level": 55,
+    "name": "In Eranikus' Own Words",
+    "stage": "Eranikus's essence · 3",
+    "giver": "Itharius",
+    "coordinates": "13.7, 71.7",
+    "area": "Itharius's Cave, Swamp of Sorrows",
+    "objective": "Speak to Umbranse the Spiritspeaker in eastern Winterspring (67.8, 27.4).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 48 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/3512/in-eranikus-own-words",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3374",
+        "name": "The Essence of Eranikus",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8733",
+    "zone": "Sunken Temple",
+    "level": 60,
+    "name": "Eranikus, Tyrant of the Dream",
+    "stage": "Green Scepter Shard · Availability unverified",
+    "giver": "Malfurion Stormrage",
+    "coordinates": "",
+    "area": "Shade of Eranikus's lair, Sunken Temple",
+    "objective": "On the Scepter of the Shifting Sands quest line, speak to Malfurion in the temple, then find the Forest Wisp outside Darnassus in Teldrassil (37.6, 47.9). Requires Neutral with Brood of Nozdormu. Current phase availability is unverified.",
+    "areaConfidence": "Named room",
+    "notes": "Minimum level 60 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/8733/eranikus-tyrant-of-the-dream",
+      "https://questing.wiki/wow-forever/quests/8733/",
+      "https://www.forever-xp.com/quests/8733/"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "8555",
+        "name": "The Charge of the Dragonflights",
+        "evidence": "forever-records",
+        "sources": [
+          "https://questing.wiki/wow-forever/quests/8733/"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8236",
+    "zone": "Sunken Temple",
+    "level": 52,
+    "name": "The Azure Key",
+    "stage": "Rogue · The Azure Key",
+    "giver": "Archmage Xylem",
+    "coordinates": "29.2, 40.2",
+    "area": "Archmage Xylem's tower, Azshara",
+    "objective": "Defeat Morphaz in Sunken Temple and take the Azure Key to Lord Jorach Ravenholdt in Alterac Mountains (86.0, 78.9).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 50 · Both factions · Rogue only.",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/8236/",
+      "https://www.wowhead.com/forever/quest=8236/the-azure-key",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "8235",
+        "name": "Encoded Fragments",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
     "previousQuests": []
   }
 ]
