@@ -1,0 +1,1490 @@
+{
+  "reviewedOn": "2026-11-23",
+  "questieRevision": "e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+  "indexes": {
+    "fc": "https://foreverchanges.pro/quests/winterspring",
+    "legacy": "https://legacyofwarcraft.com/db/forever/quests/winterspring.html",
+    "pull": "https://pullcall.com/forever/db/zone/618-winterspring",
+    "wq": "https://questing.wiki/wow-forever/zones/618/",
+    "xp": "https://www.forever-xp.com/quests/zone/winterspring/",
+    "fdb": "https://foreverdb.net/quests/winterspring"
+  },
+  "candidates": [
+    {
+      "id": 969,
+      "name": "Luck Be With You",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/969/luck-be-with-you"
+    },
+    {
+      "id": 975,
+      "name": "Cache of Mau'ari",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/975/cache-of-mauari"
+    },
+    {
+      "id": 977,
+      "name": "Are We There, Yeti?",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/977/are-we-there-yeti"
+    },
+    {
+      "id": 978,
+      "name": "Moontouched Wildkin",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=978/moontouched-wildkin"
+    },
+    {
+      "id": 979,
+      "name": "Find Ranshalla",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/979/find-ranshalla"
+    },
+    {
+      "id": 980,
+      "name": "The New Springs",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/980/the-new-springs"
+    },
+    {
+      "id": 1123,
+      "name": "Rabine Saturna",
+      "decision": "Geographic mention or objective elsewhere.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=1123"
+    },
+    {
+      "id": 3512,
+      "name": "In Eranikus' Own Words",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3512/in-eranikus-own-words"
+    },
+    {
+      "id": 3783,
+      "name": "Are We There, Yeti?",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3783/are-we-there-yeti"
+    },
+    {
+      "id": 3908,
+      "name": "It's a Secret to Everybody",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3908/its-a-secret-to-everybody"
+    },
+    {
+      "id": 3909,
+      "name": "The Videre Elixir",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3909/the-videre-elixir"
+    },
+    {
+      "id": 3912,
+      "name": "Meet at the Grave",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3912/meet-at-the-grave"
+    },
+    {
+      "id": 4521,
+      "name": "Wild Guardians",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=4521"
+    },
+    {
+      "id": 4721,
+      "name": "Wild Guardians",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=4721"
+    },
+    {
+      "id": 4726,
+      "name": "Broodling Essence",
+      "decision": "Burning Steppes prerequisite. Linked from Felnok Steelspring.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=4726"
+    },
+    {
+      "id": 4741,
+      "name": "Wild Guardians",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=4741"
+    },
+    {
+      "id": 4801,
+      "name": "Frostsaber E'ko",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4801/frostsaber-eko"
+    },
+    {
+      "id": 4802,
+      "name": "Winterfall E'ko",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4802/winterfall-eko"
+    },
+    {
+      "id": 4803,
+      "name": "Shardtooth E'ko",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4803/shardtooth-eko"
+    },
+    {
+      "id": 4804,
+      "name": "Chillwind E'ko",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4804/chillwind-eko"
+    },
+    {
+      "id": 4805,
+      "name": "Ice Thistle E'ko",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4805/ice-thistle-eko"
+    },
+    {
+      "id": 4806,
+      "name": "Frostmaul E'ko",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4806/frostmaul-eko"
+    },
+    {
+      "id": 4807,
+      "name": "Wildkin E'ko",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4807/wildkin-eko"
+    },
+    {
+      "id": 4808,
+      "name": "Felnok Steelspring",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4808/felnok-steelspring"
+    },
+    {
+      "id": 4809,
+      "name": "Chillwind Horns",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4809/chillwind-horns"
+    },
+    {
+      "id": 4810,
+      "name": "Return to Tinkee",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4810/return-to-tinkee"
+    },
+    {
+      "id": 4842,
+      "name": "Strange Sources",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4842/strange-sources"
+    },
+    {
+      "id": 4861,
+      "name": "Enraged Wildkin",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4861/enraged-wildkin"
+    },
+    {
+      "id": 4863,
+      "name": "Enraged Wildkin",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4863/enraged-wildkin"
+    },
+    {
+      "id": 4864,
+      "name": "Enraged Wildkin",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4864/enraged-wildkin"
+    },
+    {
+      "id": 4882,
+      "name": "Guarding Secrets",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/4882.html"
+    },
+    {
+      "id": 4883,
+      "name": "Guarding Secrets",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/4883.html"
+    },
+    {
+      "id": 4901,
+      "name": "Guardians of the Altar",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4901/guardians-of-the-altar"
+    },
+    {
+      "id": 4902,
+      "name": "Wildkin of Elune",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4902/wildkin-of-elune"
+    },
+    {
+      "id": 4907,
+      "name": "Tinkee Steamboil",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4907/tinkee-steamboil"
+    },
+    {
+      "id": 4970,
+      "name": "Frostsaber Provisions",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4970/frostsaber-provisions"
+    },
+    {
+      "id": 5047,
+      "name": "Finkle Einhorn, At Your Service!",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5047/finkle-einhorn-at-your-service"
+    },
+    {
+      "id": 5054,
+      "name": "Ursius of the Shardtooth",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/5054.html"
+    },
+    {
+      "id": 5055,
+      "name": "Brumeran of the Chillwind",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/5055.html"
+    },
+    {
+      "id": 5056,
+      "name": "Shy-Rotam",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/5056.html"
+    },
+    {
+      "id": 5057,
+      "name": "Past Endeavors",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/5057.html"
+    },
+    {
+      "id": 5063,
+      "name": "Cap of the Scarlet Savant",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5063/cap-of-the-scarlet-savant"
+    },
+    {
+      "id": 5067,
+      "name": "Leggings of Arcana",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5067/leggings-of-arcana"
+    },
+    {
+      "id": 5068,
+      "name": "Breastplate of Bloodthirst",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5068/breastplate-of-bloodthirst"
+    },
+    {
+      "id": 5082,
+      "name": "Threat of the Winterfall",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5082/threat-of-the-winterfall"
+    },
+    {
+      "id": 5083,
+      "name": "Winterfall Firewater",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5083/winterfall-firewater"
+    },
+    {
+      "id": 5084,
+      "name": "Falling to Corruption",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5084/falling-to-corruption"
+    },
+    {
+      "id": 5085,
+      "name": "Mystery Goo",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5085/mystery-goo"
+    },
+    {
+      "id": 5086,
+      "name": "Toxic Horrors",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5086/toxic-horrors"
+    },
+    {
+      "id": 5087,
+      "name": "Winterfall Runners",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5087/winterfall-runners"
+    },
+    {
+      "id": 5103,
+      "name": "Hot Fiery Death",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5103/hot-fiery-death"
+    },
+    {
+      "id": 5121,
+      "name": "High Chief Winterfall",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5121/high-chief-winterfall"
+    },
+    {
+      "id": 5123,
+      "name": "The Final Piece",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5123/the-final-piece"
+    },
+    {
+      "id": 5124,
+      "name": "Fiery Plate Gauntlets",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5124/fiery-plate-gauntlets"
+    },
+    {
+      "id": 5126,
+      "name": "Lorax's Tale",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "wq",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5126/loraxs-tale"
+    },
+    {
+      "id": 5127,
+      "name": "The Demon Forge",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5127/the-demon-forge"
+    },
+    {
+      "id": 5128,
+      "name": "Words of the High Chief",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5128/words-of-the-high-chief"
+    },
+    {
+      "id": 5160,
+      "name": "The Matron Protectorate",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5160/the-matron-protectorate"
+    },
+    {
+      "id": 5161,
+      "name": "Wrath of the Blue Flight",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5161/wrath-of-the-blue-flight"
+    },
+    {
+      "id": 5162,
+      "name": "Wrath of the Blue Flight",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5162/wrath-of-the-blue-flight"
+    },
+    {
+      "id": 5163,
+      "name": "Are We There, Yeti?",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5163/are-we-there-yeti"
+    },
+    {
+      "id": 5201,
+      "name": "Winterfall Intrusion",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5201/winterfall-intrusion"
+    },
+    {
+      "id": 5244,
+      "name": "The Ruins of Kel'Theril",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5244/the-ruins-of-keltheril"
+    },
+    {
+      "id": 5245,
+      "name": "Troubled Spirits of Kel'Theril",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5245/troubled-spirits-of-keltheril"
+    },
+    {
+      "id": 5246,
+      "name": "Fragments of the Past",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=5246/fragments-of-the-past"
+    },
+    {
+      "id": 5247,
+      "name": "Fragments of the Past",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=5247/fragments-of-the-past"
+    },
+    {
+      "id": 5248,
+      "name": "Tormented By the Past",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5248/tormented-by-the-past"
+    },
+    {
+      "id": 5249,
+      "name": "To Winterspring!",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5249/to-winterspring"
+    },
+    {
+      "id": 5250,
+      "name": "Starfall",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5250/starfall"
+    },
+    {
+      "id": 5252,
+      "name": "Remorseful Highborne",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5252/remorseful-highborne"
+    },
+    {
+      "id": 5253,
+      "name": "The Crystal of Zin-Malor",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "wq",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5253/the-crystal-of-zin-malor"
+    },
+    {
+      "id": 5305,
+      "name": "Sweet Serenity",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5305/sweet-serenity"
+    },
+    {
+      "id": 5306,
+      "name": "Snakestone of the Shadow Huntress",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5306/snakestone-of-the-shadow-huntress"
+    },
+    {
+      "id": 5307,
+      "name": "Corruption",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5307/corruption"
+    },
+    {
+      "id": 5601,
+      "name": "Sister Pamela",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5601/sister-pamela"
+    },
+    {
+      "id": 5981,
+      "name": "Rampaging Giants",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5981/rampaging-giants"
+    },
+    {
+      "id": 6028,
+      "name": "The Everlook Report",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/6028/the-everlook-report"
+    },
+    {
+      "id": 6029,
+      "name": "The Everlook Report",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/6029.html"
+    },
+    {
+      "id": 6030,
+      "name": "Duke Nicholas Zverenhoff",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/6030/duke-nicholas-zverenhoff"
+    },
+    {
+      "id": 6501,
+      "name": "The Dragon's Eye",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=6501/the-dragons-eye"
+    },
+    {
+      "id": 6502,
+      "name": "Drakefire Amulet",
+      "decision": "Included",
+      "indexKeys": [
+        "wq"
+      ],
+      "reference": "https://foreverchanges.pro/quest/6502/drakefire-amulet"
+    },
+    {
+      "id": 6582,
+      "name": "The Test of Skulls, Scryer",
+      "decision": "Horde-only.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=6582"
+    },
+    {
+      "id": 6603,
+      "name": "Trouble in Winterspring!",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/6603/trouble-in-winterspring"
+    },
+    {
+      "id": 6604,
+      "name": "Enraged Wildkin",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/6604/enraged-wildkin"
+    },
+    {
+      "id": 6605,
+      "name": "A Strange One",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/6605.html"
+    },
+    {
+      "id": 6606,
+      "name": "A Little Luck",
+      "decision": "Horde-only in the published Battle.net data. Inherited Classic records conflict.",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://forever-tool.com/de/quests/6606/"
+    },
+    {
+      "id": 6762,
+      "name": "Rabine Saturna",
+      "decision": "Geographic mention or objective elsewhere.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=6762"
+    },
+    {
+      "id": 7582,
+      "name": "The Prison's Casing",
+      "decision": "Warlock-only.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=7582"
+    },
+    {
+      "id": 8464,
+      "name": "Winterfall Activity",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://foreverchanges.pro/quest/8464/winterfall-activity"
+    },
+    {
+      "id": 8465,
+      "name": "Speak to Salfa",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://foreverchanges.pro/quest/8465/speak-to-salfa"
+    },
+    {
+      "id": 8469,
+      "name": "Beads for Salfa",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://foreverchanges.pro/quest/8469/beads-for-salfa"
+    },
+    {
+      "id": 8470,
+      "name": "Deadwood Ritual Totem",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://foreverchanges.pro/quest/8470/deadwood-ritual-totem"
+    },
+    {
+      "id": 8471,
+      "name": "Winterfall Ritual Totem",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/8471/winterfall-ritual-totem"
+    },
+    {
+      "id": 8481,
+      "name": "The Root of All Evil",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://foreverchanges.pro/quest/8481/the-root-of-all-evil"
+    },
+    {
+      "id": 8484,
+      "name": "The Brokering of Peace",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://foreverchanges.pro/quest/8484/the-brokering-of-peace"
+    },
+    {
+      "id": 8485,
+      "name": "The Brokering of Peace",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=8485"
+    },
+    {
+      "id": 8606,
+      "name": "Decoy!",
+      "decision": "Classic AQ event reference. Forever availability unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=8606"
+    },
+    {
+      "id": 8672,
+      "name": "Stonespire the Elder",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://foreverchanges.pro/quest/8672/stonespire-the-elder"
+    },
+    {
+      "id": 8726,
+      "name": "Brightspear the Elder",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://foreverchanges.pro/quest/8726/brightspear-the-elder"
+    },
+    {
+      "id": 8798,
+      "name": "A Yeti of Your Own",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "pull",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/8798/a-yeti-of-your-own"
+    },
+    {
+      "id": 8905,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=8905"
+    },
+    {
+      "id": 8906,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=8906"
+    },
+    {
+      "id": 8907,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=8907"
+    },
+    {
+      "id": 8908,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=8908"
+    },
+    {
+      "id": 8909,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=8909"
+    },
+    {
+      "id": 8910,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=8910"
+    },
+    {
+      "id": 8911,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=8911"
+    },
+    {
+      "id": 8912,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=8912"
+    },
+    {
+      "id": 8924,
+      "name": "Hunting for Ectoplasm",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=8924"
+    },
+    {
+      "id": 8928,
+      "name": "A Shifty Merchant",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=8928"
+    },
+    {
+      "id": 9266,
+      "name": "Making Amends",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://foreverchanges.pro/quest/9266/making-amends"
+    },
+    {
+      "id": 9322,
+      "name": "Wild Fires in Kalimdor",
+      "decision": "Classic multi-zone seasonal reference. Forever availability unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=9322"
+    },
+    {
+      "id": 84138,
+      "name": "Frosty Favors",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=84138/frosty-favors"
+    },
+    {
+      "id": 84146,
+      "name": "Red Bag Blues",
+      "decision": "Included",
+      "indexKeys": [
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/84146-red-bag-blues"
+    },
+    {
+      "id": 84147,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=84147"
+    },
+    {
+      "id": 84148,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=84148"
+    },
+    {
+      "id": 84149,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=84149"
+    },
+    {
+      "id": 84150,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=84150"
+    },
+    {
+      "id": 84151,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=84151"
+    },
+    {
+      "id": 84152,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=84152"
+    },
+    {
+      "id": 84153,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=84153"
+    },
+    {
+      "id": 84154,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=84154"
+    },
+    {
+      "id": 84211,
+      "name": "Poacher's Den",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=84211/poachers-den"
+    },
+    {
+      "id": 84212,
+      "name": "Bookin' it Back",
+      "decision": "Included",
+      "indexKeys": [
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/84212-bookin-it-back"
+    },
+    {
+      "id": 84384,
+      "name": "Demonic Deceptions",
+      "decision": "Index record without a corroborated Forever pickup, objective, or playable local route.",
+      "indexKeys": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/84384.html"
+    },
+    {
+      "id": 84495,
+      "name": "Fiery Plate Gauntlets",
+      "decision": "Index record without a corroborated Forever pickup, objective, or playable local route.",
+      "indexKeys": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/84495.html"
+    },
+    {
+      "id": 92008,
+      "name": "Premiere Parts",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=92008/premiere-parts"
+    },
+    {
+      "id": 92009,
+      "name": "Crate Expectations",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=92009/crate-expectations"
+    },
+    {
+      "id": 92859,
+      "name": "Shroud of the Winter Wilds",
+      "decision": "Included",
+      "indexKeys": [
+        "fc",
+        "legacy",
+        "xp",
+        "fdb"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92859/shroud-of-the-winter-wilds"
+    },
+    {
+      "id": 93197,
+      "name": "Mending Communications",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=93197/mending-communications"
+    },
+    {
+      "id": 93269,
+      "name": "Top of the Post",
+      "decision": "Included",
+      "indexKeys": [
+        "xp"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=93269/top-of-the-post"
+    },
+    {
+      "id": 93406,
+      "name": "Unfrozen Deliveries",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=93406/unfrozen-deliveries"
+    },
+    {
+      "id": 95108,
+      "name": "Mystic Mix",
+      "decision": "Geographic mention or objective elsewhere.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=95108"
+    },
+    {
+      "id": 95570,
+      "name": "Cleansing the Corruption",
+      "decision": "Index record without a corroborated Forever pickup, objective, or playable local route.",
+      "indexKeys": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/95570.html"
+    },
+    {
+      "id": 96265,
+      "name": "Secret of the Barrow Deeps",
+      "decision": "Included",
+      "indexKeys": [
+        "legacy"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=96265/secret-of-the-barrow-deeps"
+    },
+    {
+      "id": 96266,
+      "name": "Secret of the Barrow Deeps",
+      "decision": "Index record without a corroborated Forever pickup, objective, or playable local route.",
+      "indexKeys": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/96266.html"
+    },
+    {
+      "id": 97235,
+      "name": "A Ring of Gems",
+      "decision": "Index record without a corroborated Forever pickup, objective, or playable local route.",
+      "indexKeys": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/97235.html"
+    },
+    {
+      "id": 97252,
+      "name": "Secret of the Barrow Deeps",
+      "decision": "Index record without a corroborated Forever pickup, objective, or playable local route.",
+      "indexKeys": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/97252.html"
+    },
+    {
+      "id": 97264,
+      "name": "Shardtooth Pulling",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/97264.html"
+    },
+    {
+      "id": 97266,
+      "name": "First One's Free",
+      "decision": "Index record without a corroborated Forever pickup, objective, or playable local route.",
+      "indexKeys": [
+        "legacy"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/97266.html"
+    },
+    {
+      "id": 97403,
+      "name": "Two-Headed Ravagers",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/97403.html"
+    },
+    {
+      "id": 97404,
+      "name": "Too Bad to Bear",
+      "decision": "Horde-only or requires a Horde-only quest.",
+      "indexKeys": [
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/97404.html"
+    },
+    {
+      "id": 97447,
+      "name": "An Earnest Proposition",
+      "decision": "Class or endgame upgrade record outside the Winterspring list. Live quest availability or ID is unverified.",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=97447"
+    },
+    {
+      "id": 97490,
+      "name": "Halt the Hail",
+      "decision": "Included",
+      "indexKeys": [],
+      "reference": "https://www.wowhead.com/forever/quest=97490/halt-the-hail"
+    },
+    {
+      "id": 98462,
+      "name": "Shroud of the Winter Wilds",
+      "decision": "Included",
+      "indexKeys": [
+        "legacy",
+        "pull",
+        "xp"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/98462-shroud-of-the-winter-wilds"
+    }
+  ]
+}

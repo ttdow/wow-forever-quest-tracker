@@ -34913,5 +34913,3282 @@
     "minimumLevel": 50,
     "prerequisites": [],
     "previousQuests": []
+  },
+  {
+    "id": "3908",
+    "zone": "Winterspring",
+    "level": 52,
+    "name": "It's a Secret to Everybody",
+    "giver": "Linken",
+    "area": "Un'Goro Crater",
+    "coordinates": "44.7, 8.1",
+    "stage": "Linken’s sword · Delivery",
+    "objective": "Take Linken’s Training Sword from Marshal’s Refuge to Donova Snowden at Frostfire Hot Springs.",
+    "faction": "Both",
+    "minimumLevel": 47,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/3908/its-a-secret-to-everybody",
+      "https://questing.wiki/wow-forever/quests/3908/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "3845",
+        "name": "It's a Secret to Everybody",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3909",
+    "zone": "Winterspring",
+    "level": 52,
+    "name": "The Videre Elixir",
+    "giver": "Donova Snowden",
+    "area": "Frostfire Hot Springs, Winterspring",
+    "coordinates": "31.3, 45.2",
+    "stage": "Linken’s sword · Videre Elixir",
+    "objective": "Obtain the Videre Elixir from Gregan Brewspewer in northern Feralas and return to Donova.",
+    "faction": "Both",
+    "minimumLevel": 47,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/3909/the-videre-elixir",
+      "https://questing.wiki/wow-forever/quests/3909/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "3908",
+        "name": "It's a Secret to Everybody",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3912",
+    "zone": "Winterspring",
+    "level": 52,
+    "name": "Meet at the Grave",
+    "giver": "Donova Snowden",
+    "area": "Frostfire Hot Springs, Winterspring",
+    "coordinates": "31.3, 45.2",
+    "stage": "Linken’s sword · Graveyard",
+    "objective": "Use the Videre Elixir in the graveyard north of Gadgetzan and speak to Gaeriyan while in spirit form.",
+    "faction": "Both",
+    "minimumLevel": 47,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/3912/meet-at-the-grave",
+      "https://questing.wiki/wow-forever/quests/3912/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "3909",
+        "name": "The Videre Elixir",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "6028",
+    "zone": "Winterspring",
+    "level": 52,
+    "name": "The Everlook Report",
+    "giver": "Gregor Greystone",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.3, 39.0",
+    "stage": "Argent Dawn · Alliance delivery",
+    "objective": "Take the report to Argent Officer Pureheart at Chillwind Camp in Western Plaguelands.",
+    "faction": "Both",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/6028/the-everlook-report",
+      "https://legacyofwarcraft.com/db/forever/quest/6028.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6030",
+    "zone": "Winterspring",
+    "level": 52,
+    "name": "Duke Nicholas Zverenhoff",
+    "giver": "Gregor Greystone",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.3, 39.0",
+    "stage": "Argent Dawn · Light’s Hope delivery",
+    "objective": "Bring Studies in Spirit Speaking to Duke Nicholas Zverenhoff at Light’s Hope Chapel in Eastern Plaguelands.",
+    "faction": "Both",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/6030/duke-nicholas-zverenhoff",
+      "https://legacyofwarcraft.com/db/forever/quest/6030.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4808",
+    "zone": "Winterspring",
+    "level": 54,
+    "name": "Felnok Steelspring",
+    "giver": "Tinkee Steamboil",
+    "area": "Burning Steppes",
+    "coordinates": "65.2, 24.0",
+    "stage": "Broodling chain · Delivery",
+    "objective": "Bring Tinkee’s letter from Flame Crest to Felnok Steelspring in Everlook (61.6, 38.6).",
+    "faction": "Both",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4808/felnok-steelspring",
+      "https://questing.wiki/wow-forever/quests/4808/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "4726",
+        "name": "Broodling Essence",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4809",
+    "zone": "Winterspring",
+    "level": 54,
+    "name": "Chillwind Horns",
+    "giver": "Felnok Steelspring",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.6, 38.6",
+    "stage": "Broodling chain · Collection",
+    "objective": "Collect 8 Uncracked Chillwind Horns from the local chimaeras and deliver them to Felnok.",
+    "faction": "Both",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4809/chillwind-horns",
+      "https://legacyofwarcraft.com/db/forever/quest/4809.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "4808",
+        "name": "Felnok Steelspring",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4810",
+    "zone": "Winterspring",
+    "level": 54,
+    "name": "Return to Tinkee",
+    "giver": "Felnok Steelspring",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.6, 38.6",
+    "stage": "Broodling chain · Return",
+    "objective": "Carry Felnok’s Package back to Tinkee Steamboil at Flame Crest in the Burning Steppes.",
+    "faction": "Both",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4810/return-to-tinkee",
+      "https://legacyofwarcraft.com/db/forever/quest/4810.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "4809",
+        "name": "Chillwind Horns",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "978",
+    "zone": "Winterspring",
+    "level": 55,
+    "name": "Moontouched Wildkin",
+    "giver": "Erelas Ambersky",
+    "area": "Rut'theran Village, Teldrassil",
+    "coordinates": "55.5, 92.0",
+    "stage": "Altar of Elune · 1",
+    "objective": "Gather 10 Moontouched Feathers in Winterspring and take them to Erelas Ambersky in Rut’theran Village.",
+    "faction": "Alliance",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=978/moontouched-wildkin",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+      "https://questing.wiki/wow-forever/quests/978/",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "questie",
+      "objective": "questie",
+      "level": "questie",
+      "giver": "questie"
+    },
+    "prerequisites": [
+      {
+        "id": "3661",
+        "name": "Favored of Elune?",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "980",
+    "zone": "Winterspring",
+    "level": 55,
+    "name": "The New Springs",
+    "giver": "Krakle",
+    "area": "Un'Goro Crater",
+    "coordinates": "30.9, 50.4",
+    "stage": "Hot springs · Introduction",
+    "objective": "From Un’Goro, travel to Frostfire Hot Springs and meet Donova Snowden at 31.3, 45.2.",
+    "faction": "Both",
+    "minimumLevel": 51,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/980/the-new-springs",
+      "https://questing.wiki/wow-forever/quests/980/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "974",
+        "name": "Finding the Source",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3512",
+    "zone": "Winterspring",
+    "level": 55,
+    "name": "In Eranikus' Own Words",
+    "giver": "Itharius",
+    "area": "Swamp of Sorrows",
+    "coordinates": "13.7, 71.7",
+    "stage": "Eranikus’s essence · Availability unverified",
+    "objective": "Travel from Itharius’s cave in the Swamp of Sorrows to Umbranse the Spiritspeaker in eastern Winterspring (67.8, 27.4).",
+    "faction": "Both",
+    "minimumLevel": 48,
+    "areaConfidence": "Approximate",
+    "notes": "Live quest availability is unverified.",
+    "sources": [
+      "https://foreverchanges.pro/quest/3512/in-eranikus-own-words",
+      "https://questing.wiki/wow-forever/quests/3512/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever",
+      "availability": "unverified"
+    },
+    "prerequisites": [
+      {
+        "id": "3374",
+        "name": "The Essence of Eranikus",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5601",
+    "zone": "Winterspring",
+    "level": 55,
+    "name": "Sister Pamela",
+    "giver": "Jessica Redpath",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.3, 39.0",
+    "stage": "Darrowshire · Introduction",
+    "objective": "Find Pamela Redpath in the ruins of Darrowshire in Eastern Plaguelands.",
+    "faction": "Both",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5601/sister-pamela",
+      "https://questing.wiki/wow-forever/quests/5601/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8465",
+    "zone": "Winterspring",
+    "level": 55,
+    "name": "Speak to Salfa",
+    "giver": "Nafien",
+    "area": "Timbermaw Hold approach, Felwood",
+    "coordinates": "64.8, 8.1",
+    "stage": "Timbermaw Hold · Introduction",
+    "objective": "Cross Timbermaw Hold from Felwood and speak to Salfa near the Winterspring exit (27.7, 34.5).",
+    "faction": "Both",
+    "minimumLevel": 45,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/8465/speak-to-salfa",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "8461",
+        "name": "Deadwood of the North",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8470",
+    "zone": "Winterspring",
+    "level": 55,
+    "name": "Deadwood Ritual Totem",
+    "giver": "Deadwood Ritual Totem (item)",
+    "area": "Deadwood furbolgs, northern Felwood",
+    "coordinates": "",
+    "stage": "Timbermaw Hold · Felwood totem",
+    "objective": "Use the Deadwood Ritual Totem dropped by Felwood furbolgs and deliver it to Kernda inside Timbermaw Hold. Requires Neutral reputation.",
+    "faction": "Both",
+    "minimumLevel": 45,
+    "areaConfidence": "No fixed outdoor pickup",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/8470/deadwood-ritual-totem",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3783",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Are We There, Yeti?",
+    "giver": "Umi Rumplesnicker",
+    "area": "Everlook, Winterspring",
+    "coordinates": "60.9, 37.6",
+    "stage": "Mechanical Yeti · 1",
+    "objective": "Collect 10 Thick Yeti Furs from Ice Thistle Yetis near Everlook and return to Umi.",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/3783/are-we-there-yeti",
+      "https://legacyofwarcraft.com/db/forever/quest/3783.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4842",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Strange Sources",
+    "giver": "Donova Snowden",
+    "area": "Frostfire Hot Springs, Winterspring",
+    "coordinates": "31.3, 45.2",
+    "stage": "Hot springs · Exploration",
+    "objective": "Follow the southern road to Darkwhisper Gorge. Get exploration credit near 59.8, 74.3 and then report to Donova.",
+    "faction": "Both",
+    "minimumLevel": 51,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4842/strange-sources",
+      "https://legacyofwarcraft.com/db/forever/quest/4842.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "980",
+        "name": "The New Springs",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5082",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Threat of the Winterfall",
+    "giver": "Donova Snowden",
+    "area": "Frostfire Hot Springs, Winterspring",
+    "coordinates": "31.3, 45.2",
+    "stage": "Winterfall hunt",
+    "objective": "Defeat 8 Winterfall Pathfinders, 8 Den Watchers, and 8 Totemics. Report to Donova at the hot springs.",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "The introduction from Meggi is optional. The original Classic quest table has no mandatory prerequisite.",
+    "sources": [
+      "https://foreverchanges.pro/quest/5082/threat-of-the-winterfall",
+      "https://legacyofwarcraft.com/db/forever/quest/5082.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "6603",
+        "name": "Trouble in Winterspring!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5083",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Winterfall Firewater",
+    "giver": "Empty Firewater Flask (item)",
+    "area": "Winterfall furbolgs, Winterspring",
+    "coordinates": "",
+    "stage": "Winterfall investigation · Item start",
+    "objective": "Loot an Empty Firewater Flask from the Winterfall furbolgs and use it to start the quest. Deliver it to Donova.",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "No fixed outdoor pickup",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5083/winterfall-firewater",
+      "https://legacyofwarcraft.com/db/forever/quest/5083.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5084",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Falling to Corruption",
+    "giver": "Donova Snowden",
+    "area": "Frostfire Hot Springs, Winterspring",
+    "coordinates": "31.3, 45.2",
+    "stage": "Winterfall investigation · Felwood",
+    "objective": "Investigate the Deadwood Cauldron at 60.2, 5.8 in northern Felwood.",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5084/falling-to-corruption",
+      "https://legacyofwarcraft.com/db/forever/quest/5084.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5083",
+        "name": "Winterfall Firewater",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5085",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Mystery Goo",
+    "giver": "Deadwood Cauldron",
+    "area": "Felwood",
+    "coordinates": "60.2, 5.8",
+    "stage": "Winterfall investigation · Return",
+    "objective": "Take the Flask of Mystery Goo from the Deadwood Cauldron to Donova at Frostfire Hot Springs.",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5085/mystery-goo",
+      "https://legacyofwarcraft.com/db/forever/quest/5085.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5084",
+        "name": "Falling to Corruption",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5086",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Toxic Horrors",
+    "giver": "Donova Snowden",
+    "area": "Frostfire Hot Springs, Winterspring",
+    "coordinates": "31.3, 45.2",
+    "stage": "Winterfall investigation · Felwood",
+    "objective": "Collect 3 Toxic Horror Droplets in northern Felwood and bring them to Donova.",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5086/toxic-horrors",
+      "https://legacyofwarcraft.com/db/forever/quest/5086.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5085",
+        "name": "Mystery Goo",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5244",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "The Ruins of Kel'Theril",
+    "giver": "Wynd Nightchaser",
+    "area": "Starfall Village, Winterspring",
+    "coordinates": "52.0, 30.4",
+    "stage": "Kel’Theril · Introduction",
+    "objective": "Meet Jaron Stoneshaper in Starfall Village.",
+    "faction": "Alliance",
+    "minimumLevel": 53,
+    "areaConfidence": "Approximate",
+    "notes": "Felwood and Teldrassil introductions are alternative breadcrumbs.",
+    "sources": [
+      "https://foreverchanges.pro/quest/5244/the-ruins-of-keltheril",
+      "https://legacyofwarcraft.com/db/forever/quest/5244.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "5249",
+        "name": "To Winterspring!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      },
+      {
+        "id": "5250",
+        "name": "Starfall",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5245",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Troubled Spirits of Kel'Theril",
+    "giver": "Jaron Stoneshaper",
+    "area": "Starfall Village, Winterspring",
+    "coordinates": "52.1, 30.4",
+    "stage": "Kel’Theril · Relics",
+    "objective": "Use Jaron’s Pick to recover all four Highborne Relic Fragments at Lake Kel’Theril. Bring them to Aurora Skycaller in Eastern Plaguelands.",
+    "faction": "Alliance",
+    "minimumLevel": 53,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5245/troubled-spirits-of-keltheril",
+      "https://legacyofwarcraft.com/db/forever/quest/5245.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5244",
+        "name": "The Ruins of Kel'Theril",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5246",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Fragments of the Past",
+    "giver": "Aurora Skycaller",
+    "area": "Northpass Tower, Eastern Plaguelands",
+    "coordinates": "46.5, 16.0",
+    "stage": "Kel’Theril · Azshara detour",
+    "objective": "Retrieve the Sacred Highborne Writings from the Temple of Zin-Malor in Azshara and bring them to Aurora Skycaller near Northpass Tower.",
+    "faction": "Alliance",
+    "minimumLevel": 53,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=5246/fragments-of-the-past",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "questie",
+      "objective": "questie",
+      "level": "questie",
+      "giver": "questie"
+    },
+    "prerequisites": [
+      {
+        "id": "5245",
+        "name": "Troubled Spirits of Kel'Theril",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5249",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "To Winterspring!",
+    "giver": "Ivy Leafrunner",
+    "area": "Emerald Sanctuary, Felwood",
+    "coordinates": "51.0, 81.6",
+    "stage": "Starfall Village · Felwood introduction",
+    "objective": "Travel from Emerald Sanctuary to Wynd Nightchaser in Starfall Village (52.0, 30.4).",
+    "faction": "Alliance",
+    "minimumLevel": 53,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5249/to-winterspring",
+      "https://questing.wiki/wow-forever/quests/5249/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5250",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Starfall",
+    "giver": "Daryn Lightwind",
+    "area": "Rut'theran Village, Teldrassil",
+    "coordinates": "55.4, 92.2",
+    "stage": "Starfall Village · Teldrassil introduction",
+    "objective": "Travel from Rut’theran Village to Wynd Nightchaser in Starfall Village (52.0, 30.4).",
+    "faction": "Alliance",
+    "minimumLevel": 53,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5250/starfall",
+      "https://questing.wiki/wow-forever/quests/5250/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6603",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Trouble in Winterspring!",
+    "giver": "Meggi Peppinrocker",
+    "area": "Everlook, Winterspring",
+    "coordinates": "60.7, 38.2",
+    "stage": "Winterfall hunt · Introduction",
+    "objective": "Meet Donova Snowden at Frostfire Hot Springs (31.3, 45.2).",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/6603/trouble-in-winterspring",
+      "https://legacyofwarcraft.com/db/forever/quest/6603.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8469",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Beads for Salfa",
+    "giver": "Salfa",
+    "area": "Timbermaw Hold, Winterspring exit",
+    "coordinates": "27.7, 34.5",
+    "stage": "Timbermaw Hold · Repeatable",
+    "objective": "Bring Salfa batches of 5 Winterfall Spirit Beads from the furbolgs.",
+    "faction": "Both",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/8469/beads-for-salfa",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "8464",
+        "name": "Winterfall Activity",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8471",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Winterfall Ritual Totem",
+    "giver": "Winterfall Ritual Totem (item)",
+    "area": "Winterfall furbolgs, Winterspring",
+    "coordinates": "",
+    "stage": "Timbermaw Hold · Winterspring totem",
+    "objective": "Use the Winterfall Ritual Totem dropped by Winterspring furbolgs and deliver it to Kernda inside Timbermaw Hold. Requires Neutral reputation.",
+    "faction": "Both",
+    "minimumLevel": 50,
+    "areaConfidence": "No fixed outdoor pickup",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/8471/winterfall-ritual-totem",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+      "https://legacyofwarcraft.com/db/forever/quest/8471.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "92008",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Premiere Parts",
+    "giver": "Kaylaena Springwhisper",
+    "area": "Mount Hyjal",
+    "coordinates": "60.1, 61.2",
+    "stage": "Hyjal workshop · Everlook introduction",
+    "objective": "Visit Nami in Everlook (61.3, 36.9) for Kaylaena Springwhisper’s parts order.",
+    "faction": "Both",
+    "minimumLevel": 54,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=92008/premiere-parts",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "91920",
+        "name": "Wild Eyes",
+        "evidence": "community",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92009",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Crate Expectations",
+    "giver": "Nami",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.3, 36.9",
+    "stage": "Hyjal workshop · Timed delivery",
+    "objective": "Deliver the Crate of Exotic Parts to Kaylaena Springwhisper in Mount Hyjal (60.1, 61.2) before it expires.",
+    "faction": "Both",
+    "minimumLevel": 54,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=92009/crate-expectations",
+      "https://zephras.com/forever/enUS/quest/92009/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "92008",
+        "name": "Premiere Parts",
+        "evidence": "questie",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "93406",
+    "zone": "Winterspring",
+    "level": 56,
+    "name": "Unfrozen Deliveries",
+    "giver": "Innkeeper Vizzie",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.4, 38.8",
+    "stage": "Hyjal Postal Satchel · 2",
+    "objective": "Recover 4 pieces of Missing Mail from Ice Thistle yetis near Everlook. Return the mail to Vizzie.",
+    "faction": "Both",
+    "minimumLevel": 56,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=93406/unfrozen-deliveries",
+      "https://www.method.gg/wow-forever/get-a-free-18-slot-bag-and-running-speed-trinket-in-wow-forever-hyjal-quest-chain",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "93197",
+        "name": "Mending Communications",
+        "evidence": "questie",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "979",
+    "zone": "Winterspring",
+    "level": 57,
+    "name": "Find Ranshalla",
+    "giver": "Erelas Ambersky",
+    "area": "Teldrassil",
+    "coordinates": "55.5, 92.0",
+    "stage": "Altar of Elune · 2",
+    "objective": "Find Ranshalla at the entrance to Owl Wing Thicket in Winterspring (63.1, 59.5).",
+    "faction": "Alliance",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/979/find-ranshalla",
+      "https://questing.wiki/wow-forever/quests/979/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "978",
+        "name": "Moontouched Wildkin",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4902",
+    "zone": "Winterspring",
+    "level": 57,
+    "name": "Wildkin of Elune",
+    "giver": "Erelas Ambersky",
+    "area": "Teldrassil",
+    "coordinates": "55.5, 92.0",
+    "stage": "Altar of Elune · Report",
+    "objective": "Report Ranshalla’s findings to Arch Druid Fandral Staghelm in Darnassus.",
+    "faction": "Alliance",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4902/wildkin-of-elune",
+      "https://legacyofwarcraft.com/db/forever/quest/4902.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "4901",
+        "name": "Guardians of the Altar",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5087",
+    "zone": "Winterspring",
+    "level": 57,
+    "name": "Winterfall Runners",
+    "giver": "Donova Snowden",
+    "area": "Frostfire Hot Springs, Winterspring",
+    "coordinates": "31.3, 45.2",
+    "stage": "Winterfall investigation · Runners",
+    "objective": "Intercept a Winterfall Runner patrol on the road and recover its Winterfall Crate for Donova.",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5087/winterfall-runners",
+      "https://legacyofwarcraft.com/db/forever/quest/5087.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5086",
+        "name": "Toxic Horrors",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5247",
+    "zone": "Winterspring",
+    "level": 57,
+    "name": "Fragments of the Past",
+    "giver": "Aurora Skycaller",
+    "area": "Northpass Tower, Eastern Plaguelands",
+    "coordinates": "46.5, 16.0",
+    "stage": "Kel’Theril · Restore the crystal",
+    "objective": "Bring Aurora an Enchanted Thorium Bar, 5 Crystal Restores, and a Vial of Dire Water. Get the water from the pool in Dire Maul.",
+    "faction": "Alliance",
+    "minimumLevel": 53,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=5247/fragments-of-the-past",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "questie",
+      "objective": "questie",
+      "level": "questie",
+      "giver": "questie"
+    },
+    "prerequisites": [
+      {
+        "id": "5246",
+        "name": "Fragments of the Past",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "977",
+    "zone": "Winterspring",
+    "level": 58,
+    "name": "Are We There, Yeti?",
+    "giver": "Umi Rumplesnicker",
+    "area": "Everlook, Winterspring",
+    "coordinates": "60.9, 37.6",
+    "stage": "Mechanical Yeti · 2",
+    "objective": "Loot 2 Pristine Yeti Horns from Ice Thistle Matriarchs or Patriarchs and take them to Umi.",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/977/are-we-there-yeti",
+      "https://legacyofwarcraft.com/db/forever/quest/977.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "3783",
+        "name": "Are We There, Yeti?",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5163",
+    "zone": "Winterspring",
+    "level": 58,
+    "name": "Are We There, Yeti?",
+    "giver": "Umi Rumplesnicker",
+    "area": "Everlook, Winterspring",
+    "coordinates": "60.9, 37.6",
+    "stage": "Mechanical Yeti · 3",
+    "objective": "Use Umi’s Mechanical Yeti to scare Legacki in Everlook, Sprinkle in Gadgetzan, and Quixxil in Marshal’s Refuge. Return to Umi.",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5163/are-we-there-yeti",
+      "https://legacyofwarcraft.com/db/forever/quest/5163.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "977",
+        "name": "Are We There, Yeti?",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5248",
+    "zone": "Winterspring",
+    "level": 58,
+    "name": "Tormented By the Past",
+    "giver": "Aurora Skycaller",
+    "area": "Eastern Plaguelands",
+    "coordinates": "46.5, 16.0",
+    "stage": "Kel’Theril · Return",
+    "objective": "Bring the Crystal of Zin-Malor to a Remorseful Highborne spirit at Lake Kel’Theril (56.1, 44.4).",
+    "faction": "Alliance",
+    "minimumLevel": 53,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5248/tormented-by-the-past",
+      "https://questing.wiki/wow-forever/quests/5248/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5247",
+        "name": "Fragments of the Past",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5252",
+    "zone": "Winterspring",
+    "level": 58,
+    "name": "Remorseful Highborne",
+    "giver": "Remorseful Highborne",
+    "area": "Lake Kel'Theril, Winterspring",
+    "coordinates": "56.1, 44.4",
+    "stage": "Kel’Theril · Crystal",
+    "objective": "Ask Wynd Nightchaser in Starfall Village what to do with the Crystal of Zin-Malor.",
+    "faction": "Alliance",
+    "minimumLevel": 53,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5252/remorseful-highborne",
+      "https://legacyofwarcraft.com/db/forever/quest/5252.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5248",
+        "name": "Tormented By the Past",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5253",
+    "zone": "Winterspring",
+    "level": 58,
+    "name": "The Crystal of Zin-Malor",
+    "giver": "Wynd Nightchaser",
+    "area": "Starfall Village, Winterspring",
+    "coordinates": "52.0, 30.4",
+    "stage": "Kel’Theril · Darnassus handoff",
+    "objective": "Deliver the Crystal of Zin-Malor to Fandral Staghelm in the Cenarion Enclave of Darnassus.",
+    "faction": "Alliance",
+    "minimumLevel": 53,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5253/the-crystal-of-zin-malor",
+      "https://legacyofwarcraft.com/db/forever/quest/5253.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5252",
+        "name": "Remorseful Highborne",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8464",
+    "zone": "Winterspring",
+    "level": 58,
+    "name": "Winterfall Activity",
+    "giver": "Salfa",
+    "area": "Timbermaw Hold, Winterspring exit",
+    "coordinates": "27.7, 34.5",
+    "stage": "Timbermaw Hold · Winterfall hunt",
+    "objective": "Defeat 8 Winterfall Shaman, 8 Den Watchers, and 8 Ursa. Report to Salfa just outside the Winterspring tunnel exit.",
+    "faction": "Both",
+    "minimumLevel": 45,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/8464/winterfall-activity",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "8465",
+        "name": "Speak to Salfa",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "93197",
+    "zone": "Winterspring",
+    "level": 58,
+    "name": "Mending Communications",
+    "giver": "Sebelia",
+    "area": "Summit of Eternity, Mount Hyjal",
+    "coordinates": "70.9, 51.5",
+    "stage": "Hyjal Postal Satchel · 1",
+    "objective": "Bring Sebelia’s Parcel of Mail from the Summit of Eternity to Innkeeper Vizzie in Everlook (61.4, 38.8).",
+    "faction": "Both",
+    "minimumLevel": 56,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=93197/mending-communications",
+      "https://www.method.gg/wow-forever/get-a-free-18-slot-bag-and-running-speed-trinket-in-wow-forever-hyjal-quest-chain",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "93269",
+    "zone": "Winterspring",
+    "level": 58,
+    "name": "Top of the Post",
+    "giver": "Innkeeper Vizzie",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.4, 38.8",
+    "stage": "Hyjal Postal Satchel · 3",
+    "objective": "Take Vizzie’s outgoing mail back to Sebelia at the Summit of Eternity in Mount Hyjal. Rewards the 18-slot Hyjal Postal Satchel and Hyjal Postal Clasp.",
+    "faction": "Both",
+    "minimumLevel": 56,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=93269/top-of-the-post",
+      "https://www.method.gg/wow-forever/get-a-free-18-slot-bag-and-running-speed-trinket-in-wow-forever-hyjal-quest-chain",
+      "https://www.forever-xp.com/quests/93269/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "93406",
+        "name": "Unfrozen Deliveries",
+        "evidence": "questie",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4861",
+    "zone": "Winterspring",
+    "level": 59,
+    "name": "Enraged Wildkin",
+    "giver": "Jaron Stoneshaper",
+    "area": "Starfall Village, Winterspring",
+    "coordinates": "52.1, 30.4",
+    "stage": "Wildkin · Wrecked camp",
+    "objective": "Find the Damaged Crate at Jaron’s wrecked camp in southern Winterspring (59.0, 59.8).",
+    "faction": "Alliance",
+    "minimumLevel": 53,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4861/enraged-wildkin",
+      "https://legacyofwarcraft.com/db/forever/quest/4861.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "6604",
+        "name": "Enraged Wildkin",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4863",
+    "zone": "Winterspring",
+    "level": 59,
+    "name": "Enraged Wildkin",
+    "giver": "Damaged Crate",
+    "area": "Wrecked camp, southern Winterspring",
+    "coordinates": "59.0, 59.8",
+    "stage": "Wildkin · Wagon",
+    "objective": "From the damaged crate, find Jaron’s Wagon farther east at 61.4, 60.7.",
+    "faction": "Alliance",
+    "minimumLevel": 53,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4863/enraged-wildkin",
+      "https://legacyofwarcraft.com/db/forever/quest/4863.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "4861",
+        "name": "Enraged Wildkin",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4864",
+    "zone": "Winterspring",
+    "level": 59,
+    "name": "Enraged Wildkin",
+    "giver": "Jaron's Wagon",
+    "area": "Southern Winterspring",
+    "coordinates": "61.4, 60.7",
+    "stage": "Wildkin · Recovery",
+    "objective": "Recover Jaron’s Supplies by the wagon and the Blue-feathered Amulet from an owlbeast. Take both to Jaron in Starfall Village.",
+    "faction": "Alliance",
+    "minimumLevel": 53,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4864/enraged-wildkin",
+      "https://legacyofwarcraft.com/db/forever/quest/4864.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "4863",
+        "name": "Enraged Wildkin",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4901",
+    "zone": "Winterspring",
+    "level": 59,
+    "name": "Guardians of the Altar",
+    "giver": "Ranshalla",
+    "area": "Owl Wing Thicket, Winterspring",
+    "coordinates": "63.1, 59.5",
+    "stage": "Altar of Elune · Escort",
+    "objective": "Escort Ranshalla to the altar, helping with the torches along the way. Report to Erelas in Rut’theran Village.",
+    "faction": "Alliance",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4901/guardians-of-the-altar",
+      "https://legacyofwarcraft.com/db/forever/quest/4901.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "979",
+        "name": "Find Ranshalla",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5121",
+    "zone": "Winterspring",
+    "level": 59,
+    "name": "High Chief Winterfall",
+    "giver": "Donova Snowden",
+    "area": "Frostfire Hot Springs, Winterspring",
+    "coordinates": "31.3, 45.2",
+    "stage": "Winterfall investigation · Elite",
+    "objective": "Defeat High Chief Winterfall in Winterfall Village and report to Donova. Check the chief for the quest-starting log.",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5121/high-chief-winterfall",
+      "https://legacyofwarcraft.com/db/forever/quest/5121.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5087",
+        "name": "Winterfall Runners",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5123",
+    "zone": "Winterspring",
+    "level": 59,
+    "name": "The Final Piece",
+    "giver": "Crudely-written Log (item)",
+    "area": "High Chief Winterfall, Winterfall Village",
+    "coordinates": "",
+    "stage": "Winterfall investigation · Item start",
+    "objective": "Loot the Crudely-written Log from High Chief Winterfall. Use it to start the quest and take it to Donova.",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "No fixed outdoor pickup",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5123/the-final-piece",
+      "https://legacyofwarcraft.com/db/forever/quest/5123.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5087",
+        "name": "Winterfall Runners",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5128",
+    "zone": "Winterspring",
+    "level": 59,
+    "name": "Words of the High Chief",
+    "giver": "Donova Snowden",
+    "area": "Frostfire Hot Springs, Winterspring",
+    "coordinates": "31.3, 45.2",
+    "stage": "Winterfall investigation · Felwood handoff",
+    "objective": "Carry the Crudely-written Log to Kelek Skykeeper at Emerald Sanctuary in Felwood (51.1, 81.8).",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5128/words-of-the-high-chief",
+      "https://legacyofwarcraft.com/db/forever/quest/5128.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5123",
+        "name": "The Final Piece",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "6604",
+    "zone": "Winterspring",
+    "level": 59,
+    "name": "Enraged Wildkin",
+    "giver": "Harlo Wigglesworth",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.1, 38.4",
+    "stage": "Wildkin · Introduction",
+    "objective": "Speak to Jaron Stoneshaper in Starfall Village (52.1, 30.4).",
+    "faction": "Alliance",
+    "minimumLevel": 53,
+    "areaConfidence": "Approximate",
+    "notes": "Optional introduction to Jaron’s quest series.",
+    "sources": [
+      "https://foreverchanges.pro/quest/6604/enraged-wildkin",
+      "https://legacyofwarcraft.com/db/forever/quest/6604.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "969",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Luck Be With You",
+    "giver": "Witch Doctor Mau'ari",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.9, 38.3",
+    "stage": "Mau’ari’s cache",
+    "objective": "Collect 4 Frostmaul Shards from the giants or shard deposits in Frostwhisper Gorge and return to Mau’ari in Everlook.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/969/luck-be-with-you",
+      "https://legacyofwarcraft.com/db/forever/quest/969.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "975",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Cache of Mau'ari",
+    "giver": "Witch Doctor Mau'ari",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.9, 38.3",
+    "stage": "Mau’ari’s cache",
+    "objective": "Speak to Mau’ari again for her Cache. Keep it with you to collect E’ko from Winterspring creatures.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/975/cache-of-mauari",
+      "https://legacyofwarcraft.com/db/forever/quest/975.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "969",
+        "name": "Luck Be With You",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4801",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Frostsaber E'ko",
+    "giver": "Witch Doctor Mau'ari",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.9, 38.3",
+    "stage": "Repeatable · Juju Flurry",
+    "objective": "Bring Mau’ari 3 Frostsaber E’ko from the cats of northern Winterspring.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4801/frostsaber-eko",
+      "https://legacyofwarcraft.com/db/forever/quest/4801.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "975",
+        "name": "Cache of Mau'ari",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4802",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Winterfall E'ko",
+    "giver": "Witch Doctor Mau'ari",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.9, 38.3",
+    "stage": "Repeatable · Juju Power",
+    "objective": "Bring Mau’ari 3 Winterfall E’ko from Winterfall furbolgs.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4802/winterfall-eko",
+      "https://legacyofwarcraft.com/db/forever/quest/4802.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "975",
+        "name": "Cache of Mau'ari",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4803",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Shardtooth E'ko",
+    "giver": "Witch Doctor Mau'ari",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.9, 38.3",
+    "stage": "Repeatable · Juju Ember",
+    "objective": "Bring Mau’ari 3 Shardtooth E’ko from Shardtooth bears.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4803/shardtooth-eko",
+      "https://legacyofwarcraft.com/db/forever/quest/4803.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+      "https://zephras.com/forever/enUS/quest/4803/"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "975",
+        "name": "Cache of Mau'ari",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4804",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Chillwind E'ko",
+    "giver": "Witch Doctor Mau'ari",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.9, 38.3",
+    "stage": "Repeatable · Juju Chill",
+    "objective": "Bring Mau’ari 3 Chillwind E’ko from Chillwind chimaeras.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4804/chillwind-eko",
+      "https://legacyofwarcraft.com/db/forever/quest/4804.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "975",
+        "name": "Cache of Mau'ari",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4805",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Ice Thistle E'ko",
+    "giver": "Witch Doctor Mau'ari",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.9, 38.3",
+    "stage": "Repeatable · Juju Escape",
+    "objective": "Bring Mau’ari 3 Ice Thistle E’ko from Ice Thistle yetis.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4805/ice-thistle-eko",
+      "https://legacyofwarcraft.com/db/forever/quest/4805.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "975",
+        "name": "Cache of Mau'ari",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4806",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Frostmaul E'ko",
+    "giver": "Witch Doctor Mau'ari",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.9, 38.3",
+    "stage": "Repeatable · Juju Might",
+    "objective": "Bring Mau’ari 3 Frostmaul E’ko from Frostmaul Giants or Preservers.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4806/frostmaul-eko",
+      "https://legacyofwarcraft.com/db/forever/quest/4806.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "975",
+        "name": "Cache of Mau'ari",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4807",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Wildkin E'ko",
+    "giver": "Witch Doctor Mau'ari",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.9, 38.3",
+    "stage": "Repeatable · Juju Guile",
+    "objective": "Bring Mau’ari 3 Wildkin E’ko from the owlbeasts in Winterspring.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4807/wildkin-eko",
+      "https://legacyofwarcraft.com/db/forever/quest/4807.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "975",
+        "name": "Cache of Mau'ari",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4907",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Tinkee Steamboil",
+    "giver": "Felnok Steelspring",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.6, 38.6",
+    "stage": "Broodling chain · Handoff",
+    "objective": "Speak with Tinkee Steamboil at Flame Crest in the Burning Steppes.",
+    "faction": "Both",
+    "minimumLevel": 57,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4907/tinkee-steamboil",
+      "https://questing.wiki/wow-forever/quests/4907/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "4810",
+        "name": "Return to Tinkee",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4970",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Frostsaber Provisions",
+    "giver": "Rivern Frostwind",
+    "area": "Frostsaber Rock, Winterspring",
+    "coordinates": "49.9, 9.8",
+    "stage": "Wintersaber Trainers · Repeatable",
+    "objective": "Bring Rivern 5 Shardtooth Meats from bears and 5 Chillwind Meats from chimaeras.",
+    "faction": "Alliance",
+    "minimumLevel": 58,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/4970/frostsaber-provisions",
+      "https://wowalmanac.com/en/reputations/reputation-wintersaber-trainers/",
+      "https://legacyofwarcraft.com/db/forever/quest/4970.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5047",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Finkle Einhorn, At Your Service!",
+    "giver": "Finkle Einhorn",
+    "area": "Upper Blackrock Spire, The Beast’s room",
+    "coordinates": "",
+    "stage": "Blackrock Spire · Everlook handoff",
+    "objective": "After The Beast is skinned in Upper Blackrock Spire, speak to Finkle. Take the Glowing Hunk of the Beast’s Flesh he gives you to Malyfous in Everlook.",
+    "faction": "Both",
+    "minimumLevel": 57,
+    "areaConfidence": "No fixed outdoor pickup",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5047/finkle-einhorn-at-your-service",
+      "https://questing.wiki/wow-forever/quests/5047/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+      "https://conquestcapped.com/guides/wow-forever/wow-forever-blackrock-spire-quests/"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5063",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Cap of the Scarlet Savant",
+    "giver": "Malyfous's Catalogue",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.0, 38.8",
+    "stage": "Malyfous’s Catalogue",
+    "objective": "Bring Malyfous a Pristine Hide of the Beast, 5 Frayed Abomination Stitchings, 8 Arcane Crystals, 5 Enchanted Scarlet Threads, and 50 gold.",
+    "faction": "Both",
+    "minimumLevel": 57,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5063/cap-of-the-scarlet-savant",
+      "https://legacyofwarcraft.com/db/forever/quest/5063.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5047",
+        "name": "Finkle Einhorn, At Your Service!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5067",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Leggings of Arcana",
+    "giver": "Malyfous's Catalogue",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.0, 38.8",
+    "stage": "Malyfous’s Catalogue",
+    "objective": "Bring Malyfous a Pristine Hide of the Beast, 5 Frayed Abomination Stitchings, 5 Arcanite Bars, 5 Frostwhisper’s Embalming Fluids, and 50 gold.",
+    "faction": "Both",
+    "minimumLevel": 57,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5067/leggings-of-arcana",
+      "https://legacyofwarcraft.com/db/forever/quest/5067.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5047",
+        "name": "Finkle Einhorn, At Your Service!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5068",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Breastplate of Bloodthirst",
+    "giver": "Malyfous's Catalogue",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.0, 38.8",
+    "stage": "Malyfous’s Catalogue",
+    "objective": "Bring Malyfous a Pristine Hide of the Beast, 10 Frayed Abomination Stitchings, 5 Arcanite Bars, 5 Skins of Shadow, and 50 gold.",
+    "faction": "Both",
+    "minimumLevel": 57,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5068/breastplate-of-bloodthirst",
+      "https://legacyofwarcraft.com/db/forever/quest/5068.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5047",
+        "name": "Finkle Einhorn, At Your Service!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5103",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Hot Fiery Death",
+    "giver": "Human Remains",
+    "area": "Lower Blackrock Spire, Firebrand lava passage",
+    "coordinates": "",
+    "stage": "Blacksmithing 275 · Everlook handoff",
+    "objective": "With Blacksmithing 275, search the Human Remains by the lava below the Firebrand orc camp. Collect the Unfired Plate Gauntlets and visit Malyfous in Everlook.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "No fixed outdoor pickup",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5103/hot-fiery-death",
+      "https://questing.wiki/wow-forever/quests/5103/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+      "https://mygameacademia.com/forever/dungeon/lower-blackrock-spire"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5124",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Fiery Plate Gauntlets",
+    "giver": "Malyfous Darkhammer",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.0, 38.8",
+    "stage": "Malyfous’s Catalogue",
+    "objective": "Bring Malyfous the Unfired Plate Gauntlets, 6 Enchanted Thorium Bars, 2 Essences of Fire, and 4 Star Rubies.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5124/fiery-plate-gauntlets",
+      "https://legacyofwarcraft.com/db/forever/quest/5124.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5103",
+        "name": "Hot Fiery Death",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5126",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Lorax's Tale",
+    "giver": "Lorax",
+    "area": "Darkwhisper Gorge approach, Winterspring",
+    "coordinates": "63.8, 73.8",
+    "stage": "Lorax · Introduction",
+    "objective": "Listen to Lorax’s story at the edge of Darkwhisper Gorge.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5126/loraxs-tale",
+      "https://legacyofwarcraft.com/db/forever/quest/5126.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5127",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "The Demon Forge",
+    "giver": "Lorax",
+    "area": "Darkwhisper Gorge approach, Winterspring",
+    "coordinates": "63.8, 73.8",
+    "stage": "Lorax · Upper Blackrock Spire",
+    "objective": "Defeat Goraluk Anvilcrack. Use Lorax’s pike on his body and collect the Unforged Runic Breastplate, then return both to Lorax.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5127/the-demon-forge",
+      "https://questing.wiki/wow-forever/quests/5127/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5126",
+        "name": "Lorax's Tale",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5160",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "The Matron Protectorate",
+    "giver": "Awbee",
+    "area": "Upper Blackrock Spire",
+    "coordinates": "",
+    "stage": "Blue Dragonflight · Introduction",
+    "objective": "Bring Awbee’s Scale to Mazthoril in Winterspring. Stand on a cobalt rune with the scale to reach Haleh (54.5, 51.2).",
+    "faction": "Both",
+    "minimumLevel": 57,
+    "areaConfidence": "No fixed outdoor pickup",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5160/the-matron-protectorate",
+      "https://questing.wiki/wow-forever/quests/5160/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5161",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Wrath of the Blue Flight",
+    "giver": "Haleh",
+    "area": "Mazthoril, Winterspring",
+    "coordinates": "54.5, 51.2",
+    "stage": "Blue Dragonflight · Haleh",
+    "objective": "Speak with Haleh at Mazthoril to continue.",
+    "faction": "Both",
+    "minimumLevel": 57,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5161/wrath-of-the-blue-flight",
+      "https://legacyofwarcraft.com/db/forever/quest/5161.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5160",
+        "name": "The Matron Protectorate",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5162",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Wrath of the Blue Flight",
+    "giver": "Haleh",
+    "area": "Mazthoril, Winterspring",
+    "coordinates": "54.5, 51.2",
+    "stage": "Blue Dragonflight · Andorhal handoff",
+    "objective": "Find Jeziba in Andorhal, Western Plaguelands (39.4, 66.8).",
+    "faction": "Both",
+    "minimumLevel": 57,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5162/wrath-of-the-blue-flight",
+      "https://questing.wiki/wow-forever/quests/5162/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5161",
+        "name": "Wrath of the Blue Flight",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5201",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Winterfall Intrusion",
+    "giver": "Rivern Frostwind",
+    "area": "Frostsaber Rock, Winterspring",
+    "coordinates": "49.9, 9.8",
+    "stage": "Wintersaber Trainers · Repeatable",
+    "objective": "Defeat 5 Winterfall Shaman and 5 Winterfall Ursa for Rivern. Unlocks as your Wintersaber Trainers reputation rises.",
+    "faction": "Alliance",
+    "minimumLevel": 58,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5201/winterfall-intrusion",
+      "https://wowalmanac.com/en/reputations/reputation-wintersaber-trainers/",
+      "https://legacyofwarcraft.com/db/forever/quest/5201.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5305",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Sweet Serenity",
+    "giver": "Lilith the Lithe",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.3, 37.1",
+    "stage": "Blacksmithing · Swordsmith",
+    "objective": "Kill the Crimson Hammersmith in Stratholme and return his apron to Lilith in Everlook.",
+    "faction": "Both",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5305/sweet-serenity",
+      "https://questing.wiki/wow-forever/quests/5305/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5306",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Snakestone of the Shadow Huntress",
+    "giver": "Kilram",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.3, 37.1",
+    "stage": "Blacksmithing · Hammersmith",
+    "objective": "Defeat Shadow Hunter Vosh’gajin in Lower Blackrock Spire and return her Snakestone to Kilram in Everlook.",
+    "faction": "Both",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5306/snakestone-of-the-shadow-huntress",
+      "https://questing.wiki/wow-forever/quests/5306/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5307",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Corruption",
+    "giver": "Seril Scourgebane",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.3, 37.2",
+    "stage": "Blacksmithing · Axesmith",
+    "objective": "Defeat the Black Guard Swordsmith in Stratholme and return the Insignia of the Black Guard to Seril in Everlook.",
+    "faction": "Both",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5307/corruption",
+      "https://questing.wiki/wow-forever/quests/5307/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5981",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Rampaging Giants",
+    "giver": "Rivern Frostwind",
+    "area": "Frostsaber Rock, Winterspring",
+    "coordinates": "49.9, 9.8",
+    "stage": "Wintersaber Trainers · Elite · Repeatable",
+    "objective": "Defeat 4 Frostmaul Giants and 4 Frostmaul Preservers for Rivern. Unlocks at higher Wintersaber Trainers reputation.",
+    "faction": "Alliance",
+    "minimumLevel": 58,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5981/rampaging-giants",
+      "https://wowalmanac.com/en/reputations/reputation-wintersaber-trainers/",
+      "https://legacyofwarcraft.com/db/forever/quest/5981.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6501",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "The Dragon's Eye",
+    "giver": "Highlord Bolvar Fordragon",
+    "area": "Stormwind Keep, Stormwind City",
+    "coordinates": "80.2, 38.4",
+    "stage": "Onyxia attunement · Delivery",
+    "objective": "Take the Fragment of the Dragon’s Eye from Stormwind to Haleh at Mazthoril in Winterspring.",
+    "faction": "Alliance",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=6501/the-dragons-eye",
+      "https://www.method.gg/wow-forever/onyxias-lair-attunement-in-wow-forever-how-to-get-the-drakefire-amulet",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "questie",
+      "objective": "questie",
+      "level": "questie",
+      "giver": "questie"
+    },
+    "prerequisites": [
+      {
+        "id": "6403",
+        "name": "The Great Masquerade",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "6502",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Drakefire Amulet",
+    "giver": "Haleh",
+    "area": "Mazthoril, Winterspring",
+    "coordinates": "54.5, 51.2",
+    "stage": "Onyxia attunement · Final step",
+    "objective": "Defeat General Drakkisath in Upper Blackrock Spire and bring the Blood of the Black Dragon Champion to Haleh.",
+    "faction": "Alliance",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/6502/drakefire-amulet",
+      "https://www.method.gg/wow-forever/onyxias-lair-attunement-in-wow-forever-how-to-get-the-drakefire-amulet",
+      "https://questing.wiki/wow-forever/quests/6502/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "6501",
+        "name": "The Dragon's Eye",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8481",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "The Root of All Evil",
+    "giver": "Gorn One Eye",
+    "area": "Timbermaw Hold, Felwood",
+    "coordinates": "65.2, 2.7",
+    "stage": "Timbermaw Hold · Exalted",
+    "objective": "Use Gorn’s torch at the entrance to High Chief Winterfall’s cave. Defeat Xandivious and bring the essence to Gorn. Requires Exalted reputation.",
+    "faction": "Both",
+    "minimumLevel": 45,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/8481/the-root-of-all-evil",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8484",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "The Brokering of Peace",
+    "giver": "Gorn One Eye",
+    "area": "Timbermaw Hold, Felwood",
+    "coordinates": "65.2, 2.7",
+    "stage": "Timbermaw Hold · Alliance handoff",
+    "objective": "Bring the Timbermaw Offering of Peace to King Magni Bronzebeard in Ironforge. Requires Exalted reputation.",
+    "faction": "Alliance",
+    "minimumLevel": 45,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/8484/the-brokering-of-peace",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "8481",
+        "name": "The Root of All Evil",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8672",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Stonespire the Elder",
+    "giver": "Elder Stonespire",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.5, 37.8",
+    "stage": "Lunar Festival",
+    "objective": "Speak with Elder Stonespire in Everlook during the Lunar Festival.",
+    "faction": "Both",
+    "minimumLevel": 1,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/8672/stonespire-the-elder",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8726",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Brightspear the Elder",
+    "giver": "Elder Brightspear",
+    "area": "Lake Kel'Theril, Winterspring",
+    "coordinates": "55.6, 43.7",
+    "stage": "Lunar Festival",
+    "objective": "Speak with Elder Brightspear near Lake Kel’Theril during the Lunar Festival.",
+    "faction": "Both",
+    "minimumLevel": 1,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/8726/brightspear-the-elder",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8798",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "A Yeti of Your Own",
+    "giver": "Umi Rumplesnicker",
+    "area": "Everlook, Winterspring",
+    "coordinates": "60.9, 37.6",
+    "stage": "Engineering",
+    "objective": "With Engineering, speak with Umi after finishing the Mechanical Yeti chain to learn to craft a Tranquil Mechanical Yeti.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "Quest records confirm an Engineering requirement. References disagree on the skill needed to receive the quest.",
+    "sources": [
+      "https://foreverchanges.pro/quest/8798/a-yeti-of-your-own",
+      "https://legacyofwarcraft.com/db/forever/quest/8798.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+      "https://questing.wiki/wow-forever/quests/8798/",
+      "https://www.wowhead.com/forever/spell=26011/tranquil-mechanical-yeti"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "5163",
+        "name": "Are We There, Yeti?",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "9266",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Making Amends",
+    "giver": "Bronn Fitzwrench",
+    "area": "Road southwest of Everlook, Winterspring",
+    "coordinates": "59.8, 39.7",
+    "stage": "Everlook reputation · Repeatable",
+    "objective": "When Unfriendly or worse with Everlook, take 40 Runecloth and 4 Coal to Bronn Fitzwrench outside town.",
+    "faction": "Both",
+    "minimumLevel": 40,
+    "areaConfidence": "Approximate",
+    "notes": "Current data confirms the reputation eligibility and material requirements. Forever reputation reward amount is unverified.",
+    "sources": [
+      "https://foreverchanges.pro/quest/9266/making-amends",
+      "https://forever-tool.com/en/quests/9266/",
+      "https://pullcall.com/forever/db/quest/9266-making-amends",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "84138",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Frosty Favors",
+    "giver": "Sebastian Jurgens",
+    "area": "D.E.L.T.A. lab, southern Tanaris",
+    "coordinates": "55.3, 95.5",
+    "stage": "Red Bag · Introduction",
+    "objective": "Go from the D.E.L.T.A. lab to Nami in Everlook (61.3, 36.9) to ask about Fantastic Inventions.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=84138/frosty-favors",
+      "https://wow.gg/guides/wow-forever-free-16-slot-red-bag",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "84137",
+        "name": "Mechanical Romance",
+        "evidence": "community",
+        "sources": [
+          "https://wow.gg/guides/wow-forever-free-16-slot-red-bag"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "84146",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Red Bag Blues",
+    "giver": "Nami",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.3, 36.9",
+    "stage": "Red Bag · 16-slot bag",
+    "objective": "Find the Red Bag on a table in the Burning Steppes camp around 53.0, 24.8. Reach the camp via the pass near 59.0, 29.0. The bag itself completes the quest.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/84146-red-bag-blues",
+      "https://wow.gg/guides/wow-forever-free-16-slot-red-bag",
+      "https://legacyofwarcraft.com/db/forever/quest/84146.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "84138",
+        "name": "Frosty Favors",
+        "evidence": "community",
+        "sources": [
+          "https://wow.gg/guides/wow-forever-free-16-slot-red-bag"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "84211",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Poacher's Den",
+    "giver": "Red Bag",
+    "area": "Smugglers’ camp, Burning Steppes",
+    "coordinates": "53.0, 24.8",
+    "stage": "Red Bag · Follow-up",
+    "objective": "From the Red Bag, gather 5 Brass-fitted Flam-Tamp Flanges and check that you have 5 Vertically Composited Patch Hamplers. Return to Nami in Everlook.",
+    "faction": "Both",
+    "minimumLevel": 58,
+    "areaConfidence": "Approximate",
+    "notes": "Live walkthroughs list the Red Bag chain as available to all classes. An inherited addon class field still reflects its original Warrior quest.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=84211/poachers-den",
+      "https://wow4ever.quest/en/quests/poachers-den",
+      "https://wow.gg/guides/wow-forever-free-16-slot-red-bag",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+      "https://www.duskforge.gg/news/wow-forever-free-16-slot-red-bag"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "84146",
+        "name": "Red Bag Blues",
+        "evidence": "community",
+        "sources": [
+          "https://wow4ever.quest/en/quests/poachers-den"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "84212",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Bookin' it Back",
+    "giver": "Nami",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.3, 36.9",
+    "stage": "Red Bag · Book delivery",
+    "objective": "Take Fantastic Inventions from Nami in Everlook back to Sebastian Jurgens at the D.E.L.T.A. lab.",
+    "faction": "Both",
+    "minimumLevel": 58,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/84212-bookin-it-back",
+      "https://wow.gg/guides/wow-forever-free-16-slot-red-bag",
+      "https://legacyofwarcraft.com/db/forever/quest/84212.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "84211",
+        "name": "Poacher's Den",
+        "evidence": "community",
+        "sources": [
+          "https://wow.gg/guides/wow-forever-free-16-slot-red-bag"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92859",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Shroud of the Winter Wilds",
+    "giver": "Evie Whirlbrew",
+    "area": "Everlook, Winterspring",
+    "coordinates": "60.8, 37.8",
+    "stage": "Winterspring shrouding · First hand-in",
+    "objective": "Bring Evie 5 Chillwind Chimaera Fur and 5 Winterspring Owl Feathers for the first batch of shrouding potions.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/92859/shroud-of-the-winter-wilds",
+      "https://legacyofwarcraft.com/db/forever/quest/92859.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "96265",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Secret of the Barrow Deeps",
+    "giver": "Corrupted Gemstone (item)",
+    "area": "Pickup not recorded",
+    "coordinates": "",
+    "stage": "Barrow Deeps · Availability unverified",
+    "objective": "Take the Corrupted Gemstone to Thera Duskwhisper in Winterspring. The quest record shows shards combining into the gem. Pickup and live availability are unverified.",
+    "faction": "Both",
+    "minimumLevel": 60,
+    "areaConfidence": "Unverified",
+    "notes": "Live quest availability is unverified.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=96265/secret-of-the-barrow-deeps",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap",
+      "https://legacyofwarcraft.com/db/forever/quest/96265.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "unverified",
+      "availability": "unverified"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97490",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Halt the Hail",
+    "giver": "Umaron Stragarelm",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.9, 38.2",
+    "stage": "Hailspite · Elite",
+    "objective": "Defeat Hailspite in the hills south of Everlook and bring Hailspite Frostmoss to Umaron.",
+    "faction": "Both",
+    "minimumLevel": 56,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=97490/halt-the-hail",
+      "https://zephras.com/forever/enUS/quest/97490/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "98462",
+    "zone": "Winterspring",
+    "level": 60,
+    "name": "Shroud of the Winter Wilds",
+    "giver": "Evie Whirlbrew",
+    "area": "Everlook, Winterspring",
+    "coordinates": "60.8, 37.8",
+    "stage": "Winterspring shrouding · Repeatable",
+    "objective": "Trade Evie 5 Chillwind Chimaera Fur and 5 Winterspring Owl Feathers for another Potion of Winterspring Shrouding.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/98462-shroud-of-the-winter-wilds",
+      "https://legacyofwarcraft.com/db/forever/quest/98462.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "92859",
+        "name": "Shroud of the Winter Wilds",
+        "evidence": "questie",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+        ]
+      }
+    ],
+    "previousQuests": []
   }
 ]

@@ -4,7 +4,7 @@ Static HTML, CSS, and JavaScript. No installation, application server, package m
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Chrome, Firefox, or another modern browser.
 
-- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Stranglethorn Vale, Azshara, Felwood, Riverglades, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, Krol'dok Stronghold, Uldaman, Maraudon, Zul'Farrak, Alcaz Prison, or Sunken Temple.
+- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Stranglethorn Vale, Azshara, Felwood, Riverglades, Winterspring, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, Krol'dok Stronghold, Uldaman, Maraudon, Zul'Farrak, Alcaz Prison, or Sunken Temple.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
@@ -37,7 +37,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 1,104 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 1,199 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
@@ -50,6 +50,7 @@ The browser loads all 1,104 quest entries directly from `data/quests.json`. This
 - Azshara: 76 Alliance/shared entries, including the Talrendis Point and Saria Fairmoon chains, the Blackmaw refugees and their dungeon handoffs, and the Rogue Azure Key chain. [Azshara research](research/azshara/README.md)
 - Felwood: 80 Alliance/shared entries, including Forever additions, 30 distinct plant quests, first-time/repeatable salves, and relevant cross-zone handoffs; Horde-only, other-class, Winterspring-only tasks, and the older unassigned Timbermaw Ally variant are excluded
 - Riverglades: 121 Alliance/shared entries, including 13 introductions/deliveries/local dungeon stages outside the main index; Horde-only quests, misfiled Duskwood/Hyjal quests, and unimplemented records are excluded
+- Winterspring: 95 Alliance/shared entries, from the Winterfall investigation and Frostsaber reputation to the Red Bag and Hyjal Postal Satchel chains. Thirteen IDs also appear in another list. [Winterspring research](research/winterspring/README.md)
 - Deadmines: 24 quests, including prerequisites and excluding Paladin-only quests
 - Wailing Caverns: 7 quests, including Raptor Horns and the Alliance In Nightmares follow-up
 - Blackfathom Deeps: 6 quests, including the Corruption Abroad introduction
@@ -72,7 +73,7 @@ The browser loads all 1,104 quest entries directly from `data/quests.json`. This
 - Sunken Temple: 21 Alliance/shared entries, including Brohann's investigation, Marvon's statue and altar quests, the Hakkar and Eranikus chains, and the Rogue quest The Azure Key. [Sunken Temple research](research/sunken-temple/README.md)
 - Rogue: 79 Alliance/shared entries, with 48 drawn from Forever records and 31 labeled references with unverified availability. Fourteen IDs also appear in the existing geographic lists. [Rogue quest research](research/rogue-class/README.md)
 
-The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 1,044 unique quest IDs across 1,104 list entries. When the same ID occurs in several lists, changing its completion in any list updates all of those entries.
+The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 1,126 unique quest IDs across 1,199 list entries. When the same ID occurs in several lists, changing its completion in any list updates all of those entries.
 
 Each quest has `id`, `zone`, `level`, `name`, `stage`, `giver`, `coordinates`, `area`, and `objective` fields. `areaConfidence` and `notes` preserve additional source details. Researched entries include `sources` links and field-level provenance in `evidence`. Keep IDs as strings and preserve existing IDs so saved completion status continues to match. Use an empty string for unavailable text fields.
 

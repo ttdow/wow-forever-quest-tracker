@@ -4,7 +4,7 @@ const $ = selector => document.querySelector(selector);
 const state = { quests: [], forwardLinks: new Map(), completed: new Set(), expanded: new Set(), zone: 'Teldrassil', view: 'quests', section: 'quests', profession: 'Fishing', storageReady: false, loaded: false };
 const rows = $('#quests');
 const classLists = ['Rogue'];
-const zones = ['Teldrassil', 'Darkshore', 'Ashenvale', 'Stonetalon Mountains', 'Desolace', "Shen'dralas", 'Feralas', 'Stranglethorn Vale', 'Felwood', 'Azshara', 'Riverglades', 'Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Razorfen Downs', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'Scarlet Monastery Cathedral', 'The Drowned City', "Krol'dok Stronghold", 'Uldaman', 'Maraudon', "Zul'Farrak", 'Alcaz Prison', 'Sunken Temple'];
+const zones = ['Teldrassil', 'Darkshore', 'Ashenvale', 'Stonetalon Mountains', 'Desolace', "Shen'dralas", 'Feralas', 'Stranglethorn Vale', 'Felwood', 'Azshara', 'Riverglades', 'Winterspring', 'Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Razorfen Downs', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'Scarlet Monastery Cathedral', 'The Drowned City', "Krol'dok Stronghold", 'Uldaman', 'Maraudon', "Zul'Farrak", 'Alcaz Prison', 'Sunken Temple'];
 // Suggested leveling bands; keep the underlying names stable for routes and saves.
 const suggestedLevels = {
   'Teldrassil': [1, 10],
@@ -18,6 +18,7 @@ const suggestedLevels = {
   'Felwood': [48, 55],
   'Azshara': [45, 55],
   'Riverglades': [38, 44],
+  'Winterspring': [55, 60],
   'Deadmines': [17, 26],
   'Wailing Caverns': [17, 24],
   'Blackfathom Deeps': [24, 32],
@@ -200,19 +201,26 @@ function revealHashRoute() {
   const params = new URLSearchParams(location.hash.slice(1));
   if (selectProfession(params.get('profession'), false, params.get('item'))) return true;
   const className = params.get('class');
+  const id = params.get('id');
   if (state.loaded && classLists.includes(className)) {
-    if (!revealQuest(params.get('id'), className, false)) selectZone(className, false);
+    if (!revealQuest(id, className, false)) selectZone(className, false);
     return true;
   }
-  if (['drops', 'map'].includes(params.get('view')) && supportsView(params.get('zone'), params.get('view'))) {
+  const zone = params.get('zone');
+  const view = params.get('view');
+  if (['drops', 'map'].includes(view) && supportsView(zone, view)) {
     state.section = 'quests';
-    state.zone = params.get('zone');
-    state.view = params.get('view');
+    state.zone = zone;
+    state.view = view;
     history.replaceState({ zone: state.zone, view: state.view }, '', location.href);
     render();
     return true;
   }
-  return revealQuest(params.get('id'), params.get('zone'), false);
+  if (state.loaded && !id && zones.includes(zone)) {
+    selectZone(zone, false);
+    return true;
+  }
+  return revealQuest(id, zone, false);
 }
 
 function buildForwardLinks(quests) {
