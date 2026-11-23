@@ -1,0 +1,1457 @@
+{
+  "reviewedOn": "2026-11-23",
+  "questieRevision": "e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+  "indexSources": {
+    "ForeverChanges": "https://foreverchanges.pro/quests/azshara",
+    "ForeverDB": "https://foreverdb.net/quests/azshara",
+    "PullCall": "https://pullcall.com/forever/db/zone/16-azshara",
+    "Questing Wiki": "https://questing.wiki/wow-forever/zones/16/",
+    "Legacy of Warcraft": "https://legacyofwarcraft.com/db/forever/quests/azshara.html"
+  },
+  "candidates": [
+    {
+      "id": 2744,
+      "name": "The Demon Hunter",
+      "decision": "Included",
+      "indexes": [
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://questing.wiki/wow-forever/quests/2744/"
+    },
+    {
+      "id": 3141,
+      "name": "Loramus",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3141/loramus"
+    },
+    {
+      "id": 3381,
+      "name": "A Meeting with the Master",
+      "decision": "Legacy two-feather teleport. Current NPC quest records and player traces establish the free 3503 teleport. Availability of 3381 is unconfirmed.",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3381/a-meeting-with-the-master"
+    },
+    {
+      "id": 3382,
+      "name": "A Crew Under Fire",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3382/a-crew-under-fire"
+    },
+    {
+      "id": 3421,
+      "name": "Return Trip",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3421/return-trip"
+    },
+    {
+      "id": 3449,
+      "name": "Arcane Runes",
+      "decision": "Included",
+      "indexes": [
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://questing.wiki/wow-forever/quests/3449/"
+    },
+    {
+      "id": 3461,
+      "name": "Return to Tymor",
+      "decision": "Included",
+      "indexes": [
+        "Questing Wiki"
+      ],
+      "reference": "https://questing.wiki/wow-forever/quests/3461/"
+    },
+    {
+      "id": 3503,
+      "name": "Meeting with the Master",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "PullCall",
+        "Questie merged zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3503/meeting-with-the-master"
+    },
+    {
+      "id": 3504,
+      "name": "Betrayed",
+      "decision": "Horde-only",
+      "indexes": [
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://questing.wiki/wow-forever/quests/3504/"
+    },
+    {
+      "id": 3505,
+      "name": "Betrayed",
+      "decision": "Horde-only",
+      "indexes": [
+        "Legacy of Warcraft",
+        "Questing Wiki"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/3505.html"
+    },
+    {
+      "id": 3506,
+      "name": "Betrayed",
+      "decision": "Horde-only",
+      "indexes": [
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://questing.wiki/wow-forever/quests/3506/"
+    },
+    {
+      "id": 3507,
+      "name": "Betrayed",
+      "decision": "Horde-only",
+      "indexes": [
+        "Questing Wiki"
+      ],
+      "reference": "https://questing.wiki/wow-forever/quests/3507/"
+    },
+    {
+      "id": 3508,
+      "name": "Breaking the Ward",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3508/breaking-the-ward"
+    },
+    {
+      "id": 3509,
+      "name": "The Name of the Beast",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3509/the-name-of-the-beast"
+    },
+    {
+      "id": 3510,
+      "name": "The Name of the Beast",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3510/the-name-of-the-beast"
+    },
+    {
+      "id": 3511,
+      "name": "The Name of the Beast",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3511/the-name-of-the-beast"
+    },
+    {
+      "id": 3517,
+      "name": "Stealing Knowledge",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3517/stealing-knowledge"
+    },
+    {
+      "id": 3518,
+      "name": "Delivery to Magatha",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3518/delivery-to-magatha"
+    },
+    {
+      "id": 3541,
+      "name": "Delivery to Jes'rimon",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3541/delivery-to-jesrimon"
+    },
+    {
+      "id": 3542,
+      "name": "Delivery to Andron Gant",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3542/delivery-to-andron-gant"
+    },
+    {
+      "id": 3561,
+      "name": "Delivery to Archmage Xylem",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3561/delivery-to-archmage-xylem"
+    },
+    {
+      "id": 3562,
+      "name": "Magatha's Payment to Jediga",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3562/magathas-payment-to-jediga"
+    },
+    {
+      "id": 3563,
+      "name": "Jes'rimon's Payment to Jediga",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3563/jesrimons-payment-to-jediga"
+    },
+    {
+      "id": 3564,
+      "name": "Andron's Payment to Jediga",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3564/androns-payment-to-jediga"
+    },
+    {
+      "id": 3565,
+      "name": "Xylem's Payment to Jediga",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3565/xylems-payment-to-jediga"
+    },
+    {
+      "id": 3568,
+      "name": "Seeping Corruption",
+      "decision": "Horde-only",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=3568"
+    },
+    {
+      "id": 3601,
+      "name": "Kim'jael Indeed!",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3601/kimjael-indeed"
+    },
+    {
+      "id": 3602,
+      "name": "Azsharite",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3602/azsharite"
+    },
+    {
+      "id": 3621,
+      "name": "The Formation of Felbane",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3621/the-formation-of-felbane"
+    },
+    {
+      "id": 5141,
+      "name": "Dragonscale Leatherworking",
+      "decision": "Included",
+      "indexes": [
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://questing.wiki/wow-forever/quests/5141/"
+    },
+    {
+      "id": 5246,
+      "name": "Fragments of the Past",
+      "decision": "Included",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://questing.wiki/wow-forever/quests/5246/"
+    },
+    {
+      "id": 5534,
+      "name": "Kim'jael's \"Missing\" Equipment",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5534/kimjaels-missing-equipment"
+    },
+    {
+      "id": 5535,
+      "name": "Spiritual Unrest",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5535/spiritual-unrest"
+    },
+    {
+      "id": 5536,
+      "name": "A Land Filled with Hatred",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5536/a-land-filled-with-hatred"
+    },
+    {
+      "id": 6804,
+      "name": "Poisoned Water",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text"
+      ],
+      "reference": "https://foreverchanges.pro/quest/6804/poisoned-water"
+    },
+    {
+      "id": 6805,
+      "name": "Stormers and Rumblers",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text"
+      ],
+      "reference": "https://foreverchanges.pro/quest/6805/stormers-and-rumblers"
+    },
+    {
+      "id": 6821,
+      "name": "Eye of the Emberseer",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/6821/eye-of-the-emberseer"
+    },
+    {
+      "id": 6822,
+      "name": "The Molten Core",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text"
+      ],
+      "reference": "https://foreverchanges.pro/quest/6822/the-molten-core"
+    },
+    {
+      "id": 6823,
+      "name": "Agent of Hydraxis",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text"
+      ],
+      "reference": "https://foreverchanges.pro/quest/6823/agent-of-hydraxis"
+    },
+    {
+      "id": 6824,
+      "name": "Hands of the Enemy",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text"
+      ],
+      "reference": "https://foreverchanges.pro/quest/6824/hands-of-the-enemy"
+    },
+    {
+      "id": 7486,
+      "name": "A Hero's Reward",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questing Wiki"
+      ],
+      "reference": "https://foreverchanges.pro/quest/7486/a-heros-reward"
+    },
+    {
+      "id": 7602,
+      "name": "Flawless Fel Essence",
+      "decision": "Other class",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=7602"
+    },
+    {
+      "id": 8151,
+      "name": "The Hunter's Charm",
+      "decision": "Other class",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=8151"
+    },
+    {
+      "id": 8153,
+      "name": "Courser Antlers",
+      "decision": "Other class",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=8153"
+    },
+    {
+      "id": 8231,
+      "name": "Wavethrashing",
+      "decision": "Other class",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=8231"
+    },
+    {
+      "id": 8232,
+      "name": "The Green Drake",
+      "decision": "Other class",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=8232"
+    },
+    {
+      "id": 8234,
+      "name": "Sealed Azure Bag",
+      "decision": "Included",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://questing.wiki/wow-forever/quests/8234/"
+    },
+    {
+      "id": 8235,
+      "name": "Encoded Fragments",
+      "decision": "Included",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://questing.wiki/wow-forever/quests/8235/"
+    },
+    {
+      "id": 8236,
+      "name": "The Azure Key",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://questing.wiki/wow-forever/quests/8236/"
+    },
+    {
+      "id": 8250,
+      "name": "Magecraft",
+      "decision": "Other class",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=8250"
+    },
+    {
+      "id": 8251,
+      "name": "Magic Dust",
+      "decision": "Other class",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=8251"
+    },
+    {
+      "id": 8252,
+      "name": "The Siren's Coral",
+      "decision": "Other class",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=8252"
+    },
+    {
+      "id": 8253,
+      "name": "Destroy Morphaz",
+      "decision": "Other class",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=8253"
+    },
+    {
+      "id": 8254,
+      "name": "Cenarion Aid",
+      "decision": "Other class",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=8254"
+    },
+    {
+      "id": 8255,
+      "name": "Of Coursers We Know",
+      "decision": "Other class",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=8255"
+    },
+    {
+      "id": 8256,
+      "name": "The Ichor of Undeath",
+      "decision": "Other class",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=8256"
+    },
+    {
+      "id": 8257,
+      "name": "Blood of Morphaz",
+      "decision": "Other class",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=8257"
+    },
+    {
+      "id": 8575,
+      "name": "Azuregos's Magical Ledger",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/8575/azuregoss-magical-ledger"
+    },
+    {
+      "id": 8720,
+      "name": "Skygleam the Elder",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://questing.wiki/wow-forever/quests/8720/"
+    },
+    {
+      "id": 8729,
+      "name": "The Wrath of Neptulon",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie merged zone",
+        "Questie objective text"
+      ],
+      "reference": "https://foreverchanges.pro/quest/8729/the-wrath-of-neptulon"
+    },
+    {
+      "id": 9322,
+      "name": "Wild Fires in Kalimdor",
+      "decision": "Classic Midsummer reference only. Forever availability was not verified.",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=9322"
+    },
+    {
+      "id": 9362,
+      "name": "Warlord Krellian",
+      "decision": "Other class",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=9362"
+    },
+    {
+      "id": 9364,
+      "name": "Fragmented Magic",
+      "decision": "Other class",
+      "indexes": [
+        "Questie objective text"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=9364"
+    },
+    {
+      "id": 84545,
+      "name": "A Hero's Reward",
+      "decision": "Alternate Hero’s Reward record. The Azshara Hydraxian chain sources use 7486.",
+      "indexes": [
+        "Legacy of Warcraft"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/84545.html"
+    },
+    {
+      "id": 86445,
+      "name": "The Wrath of Neptulon",
+      "decision": "Alternate Wrath of Neptulon record. The researched blue shard chain uses 8729.",
+      "indexes": [
+        "Legacy of Warcraft"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/86445.html"
+    },
+    {
+      "id": 86746,
+      "name": "The Legashi Threat",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft"
+      ],
+      "reference": "https://foreverchanges.pro/quest/86746/the-legashi-threat"
+    },
+    {
+      "id": 86747,
+      "name": "Legashi Horns",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft"
+      ],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/86747"
+    },
+    {
+      "id": 86752,
+      "name": "Report to Rageroar",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/86752-report-to-rageroar"
+    },
+    {
+      "id": 86777,
+      "name": "Master Feardred",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/86777-master-feardred"
+    },
+    {
+      "id": 86791,
+      "name": "Missing Blackmaw Scouts",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/86791-missing-blackmaw-scouts"
+    },
+    {
+      "id": 86792,
+      "name": "Thinning Their Forces",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/86792-thinning-their-forces"
+    },
+    {
+      "id": 86796,
+      "name": "Later, Satyr",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/86796-later-satyr"
+    },
+    {
+      "id": 86797,
+      "name": "Return to Rageroar",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/86797-return-to-rageroar"
+    },
+    {
+      "id": 86798,
+      "name": "Timbermaw Reinforcements",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://kovarel.com/wow-forever/quests/86798-timbermaw-reinforcements"
+    },
+    {
+      "id": 86799,
+      "name": "Encroaching Corruption",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/86799-encroaching-corruption"
+    },
+    {
+      "id": 86804,
+      "name": "An Unlikely Source",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft"
+      ],
+      "reference": "https://zephras.com/forever/enUS/quest/86804/"
+    },
+    {
+      "id": 86812,
+      "name": "Transmuted Tincture",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/86812-transmuted-tincture"
+    },
+    {
+      "id": 86813,
+      "name": "Potential Panacea",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/86813-potential-panacea"
+    },
+    {
+      "id": 86814,
+      "name": "Blackmaw Counter-Offensive",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/86814-blackmaw-counter-offensive"
+    },
+    {
+      "id": 86925,
+      "name": "Toil and Trouble",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/86925-toil-and-trouble"
+    },
+    {
+      "id": 86926,
+      "name": "Felfire Burn, Cauldron Bubble",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/86926-felfire-burn-cauldron-bubble"
+    },
+    {
+      "id": 86927,
+      "name": "Running Firewater",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/86927-running-firewater"
+    },
+    {
+      "id": 87346,
+      "name": "Chieftain Bloodmaw",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft"
+      ],
+      "reference": "https://guide.wow4ever.se/uppdrag/87346"
+    },
+    {
+      "id": 88807,
+      "name": "Slay the Spitelash",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/88807/slay-the-spitelash"
+    },
+    {
+      "id": 88809,
+      "name": "Preserving Eldarath",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/88809/preserving-eldarath"
+    },
+    {
+      "id": 88812,
+      "name": "Reclaiming Ravencrest",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/88812/reclaiming-ravencrest"
+    },
+    {
+      "id": 88813,
+      "name": "The Head of the Serpent",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/88813/the-head-of-the-serpent"
+    },
+    {
+      "id": 88821,
+      "name": "Making Contact",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/88821/making-contact"
+    },
+    {
+      "id": 88857,
+      "name": "Saving a Sentinel",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/88857/saving-a-sentinel"
+    },
+    {
+      "id": 88884,
+      "name": "Highborne Tablets",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/88884/highborne-tablets"
+    },
+    {
+      "id": 88917,
+      "name": "Slithering Looters",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/88917/slithering-looters"
+    },
+    {
+      "id": 89001,
+      "name": "Home on the Range",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/89001/home-on-the-range"
+    },
+    {
+      "id": 89013,
+      "name": "Gettin' Buzzed",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "ForeverDB",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/89013/gettin-buzzed"
+    },
+    {
+      "id": 89014,
+      "name": "Summer Frontier Fishery",
+      "decision": "Alliance seasonal entry in the Game Data API. Current pickup, quest level, and actual availability have not been verified.",
+      "indexes": [
+        "Legacy of Warcraft"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/89014.html"
+    },
+    {
+      "id": 89015,
+      "name": "Deadliest Catch",
+      "decision": "Included",
+      "indexes": [
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pullcall.com/forever/db/quest/89015-deadliest-catch"
+    },
+    {
+      "id": 89037,
+      "name": "Murloc Thieves",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/89037/murloc-thieves"
+    },
+    {
+      "id": 89038,
+      "name": "A Monumental Task",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/89038/a-monumental-task"
+    },
+    {
+      "id": 89053,
+      "name": "Your Final Reward",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/89053/your-final-reward"
+    },
+    {
+      "id": 89228,
+      "name": "Winter Frontier Fishery",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/89228/winter-frontier-fishery"
+    },
+    {
+      "id": 89470,
+      "name": "Ill Tidings",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/89470/ill-tidings"
+    },
+    {
+      "id": 90789,
+      "name": "Scalebeard",
+      "decision": "Other class",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=90789"
+    },
+    {
+      "id": 90813,
+      "name": "Pay Dirt!",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://www.wowhead.com/forever/quest=90813/pay-dirt"
+    },
+    {
+      "id": 91488,
+      "name": "Home on the Range",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91488/home-on-the-range"
+    },
+    {
+      "id": 91497,
+      "name": "Seals of the Sin'dorei",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91497/seals-of-the-sindorei"
+    },
+    {
+      "id": 91500,
+      "name": "An Explosive Gambit",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91500/an-explosive-gambit"
+    },
+    {
+      "id": 91531,
+      "name": "Revenge Exacted",
+      "decision": "Horde-only",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=91531"
+    },
+    {
+      "id": 91538,
+      "name": "Sin'dorei Tome of Summoning",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91538/sindorei-tome-of-summoning"
+    },
+    {
+      "id": 91547,
+      "name": "Sin'dorei Tome of Summoning",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91547/sindorei-tome-of-summoning"
+    },
+    {
+      "id": 91568,
+      "name": "Long Walks on the Beach",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91568/long-walks-on-the-beach"
+    },
+    {
+      "id": 91569,
+      "name": "Blue Gold",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91569/blue-gold"
+    },
+    {
+      "id": 91607,
+      "name": "Pay Dirt!",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91607/pay-dirt"
+    },
+    {
+      "id": 91608,
+      "name": "Gettin' Buzzed",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91608/gettin-buzzed"
+    },
+    {
+      "id": 91609,
+      "name": "Summer Frontier Fishery",
+      "decision": "Horde-only",
+      "indexes": [
+        "Legacy of Warcraft"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/91609.html"
+    },
+    {
+      "id": 91610,
+      "name": "Winter Frontier Fishery",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91610/winter-frontier-fishery"
+    },
+    {
+      "id": 91611,
+      "name": "Deadliest Catch",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91611/deadliest-catch"
+    },
+    {
+      "id": 91685,
+      "name": "Ley of the Land",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91685/ley-of-the-land"
+    },
+    {
+      "id": 91734,
+      "name": "Remote Contact",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91734/remote-contact"
+    },
+    {
+      "id": 91735,
+      "name": "Remote Contact",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91735/remote-contact"
+    },
+    {
+      "id": 91737,
+      "name": "Remote Contact",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/91737/remote-contact"
+    },
+    {
+      "id": 91877,
+      "name": "Demon Hunter's Hunter",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft"
+      ],
+      "reference": "https://wow4ever.quest/en/quests/demon-hunters-hunter"
+    },
+    {
+      "id": 92065,
+      "name": "Blackmaw Reclamation",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://www.foreverdb.app/en/forever/quests/92065/blackmaw-reclamation"
+    },
+    {
+      "id": 92066,
+      "name": "The Twin Bears",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/92066"
+    },
+    {
+      "id": 92069,
+      "name": "Claws That Rend, Tusks that Gore",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/92069"
+    },
+    {
+      "id": 92070,
+      "name": "A Lost Memento",
+      "decision": "Pickup and objective outside outdoor Azshara",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=92070"
+    },
+    {
+      "id": 92345,
+      "name": "Beneath Nordrassil",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://mobalytics.gg/wow-forever/dungeons/blackmaw-hold-dungeon-quests"
+    },
+    {
+      "id": 92346,
+      "name": "Beneath Nordrassil",
+      "decision": "Horde-only",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92346/beneath-nordrassil"
+    },
+    {
+      "id": 94316,
+      "name": "Craftsman's Writ: Potion of Demonslaying",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://www.wowhead.com/forever/quest=94316/craftsmans-writ-potion-of-demonslaying"
+    },
+    {
+      "id": 96246,
+      "name": "Blackmaw Pouches",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/96246"
+    },
+    {
+      "id": 97327,
+      "name": "Blackmaw Pouches",
+      "decision": "Included",
+      "indexes": [],
+      "reference": "https://db.icy-veins.com/wow-forever/quests/97327"
+    },
+    {
+      "id": 98096,
+      "name": "Sisters In Duty",
+      "decision": "Included",
+      "indexes": [
+        "ForeverChanges",
+        "Legacy of Warcraft",
+        "PullCall",
+        "Questie base zone"
+      ],
+      "reference": "https://pd.zroot.it/forever/quests/98096"
+    }
+  ]
+}

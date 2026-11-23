@@ -29027,5 +29027,2503 @@
       }
     ],
     "previousQuests": []
+  },
+  {
+    "id": "5535",
+    "zone": "Azshara",
+    "level": 47,
+    "name": "Spiritual Unrest",
+    "stage": "Loh'atu",
+    "giver": "Loh'atu",
+    "coordinates": "11.4, 78.2",
+    "area": "Near Talrendis Point",
+    "objective": "Destroy 6 Highborne Apparitions and 6 Highborne Lichlings at the Shadowsong Shrine, then report to Loh'atu.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/5535/spiritual-unrest"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5536",
+    "zone": "Azshara",
+    "level": 47,
+    "name": "A Land Filled with Hatred",
+    "stage": "Loh'atu",
+    "giver": "Loh'atu",
+    "coordinates": "11.4, 78.2",
+    "area": "Near Talrendis Point",
+    "objective": "At Haldarr Encampment, kill 6 Haldarr Satyrs, 2 Haldarr Tricksters, and 2 Haldarr Felsworn. Return to Loh'atu.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/5536/a-land-filled-with-hatred"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "98096",
+    "zone": "Azshara",
+    "level": 47,
+    "name": "Sisters In Duty",
+    "stage": "Keldara Sunblade",
+    "giver": "Sentinel Dalia Sunblade",
+    "coordinates": "39.6, 89.5",
+    "area": "Temple of the Moon, Darnassus",
+    "objective": "Ask Commander Truesong at Talrendis Point (11.8, 78.3) about Keldara Sunblade.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Alliance",
+    "sources": [
+      "https://pd.zroot.it/forever/quests/98096",
+      "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "98067",
+        "name": "Eyes of the Sentinels",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "88857",
+    "zone": "Azshara",
+    "level": 47,
+    "name": "Saving a Sentinel",
+    "stage": "Keldara Sunblade",
+    "giver": "Sentinel Keldara Sunblade",
+    "coordinates": "20.7, 61.9",
+    "area": "Haldarr Encampment",
+    "objective": "Escort Sentinel Keldara Sunblade out of Haldarr Encampment. Report to Commander Truesong at Talrendis Point (11.8, 78.3).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/88857/saving-a-sentinel"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "88807",
+    "zone": "Azshara",
+    "level": 48,
+    "name": "Slay the Spitelash",
+    "stage": "Commander Truesong",
+    "giver": "Commander Truesong",
+    "coordinates": "11.8, 78.3",
+    "area": "Talrendis Point",
+    "objective": "Defeat 8 Spitelash Warriors and 8 Spitelash Screamers, then report to Commander Truesong.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/88807/slay-the-spitelash"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "88809",
+    "zone": "Azshara",
+    "level": 52,
+    "name": "Preserving Eldarath",
+    "stage": "Commander Truesong",
+    "giver": "Commander Truesong",
+    "coordinates": "11.8, 78.3",
+    "area": "Talrendis Point",
+    "objective": "Recover 12 Eldarath Relics from Spitelash Serpent Guards, Sirens, and Myrmidons. Kill Lord Sarthiss and bring his head and the relics back.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/88809/preserving-eldarath"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "88807",
+        "name": "Slay the Spitelash",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "88812",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "Reclaiming Ravencrest",
+    "stage": "Commander Truesong",
+    "giver": "Commander Truesong",
+    "coordinates": "11.8, 78.3",
+    "area": "Talrendis Point",
+    "objective": "Near Ravencrest Monument, kill 5 Spitelash Battlemasters and 5 Spitelash Enchantresses, and nullify all 3 Naga Power Stones.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/88812/reclaiming-ravencrest"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "88807",
+        "name": "Slay the Spitelash",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "88813",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "The Head of the Serpent",
+    "stage": "Commander Truesong",
+    "giver": "Commander Truesong",
+    "coordinates": "11.8, 78.3",
+    "area": "Talrendis Point",
+    "objective": "Defeat Warlord Krellian and return his head to Commander Truesong.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance · Requires both Preserving Eldarath and Reclaiming Ravencrest.",
+    "sources": [
+      "https://foreverchanges.pro/quest/88813/the-head-of-the-serpent"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "88809",
+        "name": "Preserving Eldarath",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      },
+      {
+        "id": "88812",
+        "name": "Reclaiming Ravencrest",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "88821",
+    "zone": "Azshara",
+    "level": 51,
+    "name": "Making Contact",
+    "stage": "Saria Fairmoon",
+    "giver": "Commander Truesong",
+    "coordinates": "11.8, 78.3",
+    "area": "Talrendis Point",
+    "objective": "Find Saria Fairmoon at the Shattered Strand (50.5, 42.7).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/88821/making-contact"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "88807",
+        "name": "Slay the Spitelash",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "88917",
+    "zone": "Azshara",
+    "level": 52,
+    "name": "Slithering Looters",
+    "stage": "Saria Fairmoon",
+    "giver": "Saria Fairmoon",
+    "coordinates": "50.5, 42.7",
+    "area": "The Shattered Strand",
+    "objective": "Find Lady Sesspira's Key and recover the Staff of Archmage Selwyn in the Ruins of Eldarath. Take the staff to Saria.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/88917/slithering-looters"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "88821",
+        "name": "Making Contact",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "88884",
+    "zone": "Azshara",
+    "level": 52,
+    "name": "Highborne Tablets",
+    "stage": "Saria Fairmoon",
+    "giver": "Saria Fairmoon",
+    "coordinates": "50.5, 42.7",
+    "area": "The Shattered Strand",
+    "objective": "Search the ruins along Southridge Beach for the Tablets of Creation, Manipulation, and Power. Return all three to Saria.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/88884/highborne-tablets"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "88917",
+        "name": "Slithering Looters",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "89037",
+    "zone": "Azshara",
+    "level": 52,
+    "name": "Murloc Thieves",
+    "stage": "Saria Fairmoon",
+    "giver": "Saria Fairmoon",
+    "coordinates": "50.5, 42.7",
+    "area": "The Shattered Strand",
+    "objective": "Defeat Razorgill near the Tower of Eldara and take its Memory Crystal to Saria.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/89037/murloc-thieves"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "88884",
+        "name": "Highborne Tablets",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "89038",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "A Monumental Task",
+    "stage": "Saria Fairmoon",
+    "giver": "Saria Fairmoon",
+    "coordinates": "50.5, 42.7",
+    "area": "The Shattered Strand",
+    "objective": "Recover the Mark of the Queen at Ravencrest Monument and return it to Saria.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/89038/a-monumental-task"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "89037",
+        "name": "Murloc Thieves",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "89053",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "Your Final Reward",
+    "stage": "Saria Fairmoon",
+    "giver": "Saria Fairmoon",
+    "coordinates": "50.5, 42.7",
+    "area": "The Shattered Strand",
+    "objective": "Follow Saria's directions and find her knapsack at 49.5, 41.9 on the Shattered Strand.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/89053/your-final-reward"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "89038",
+        "name": "A Monumental Task",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "89470",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "Ill Tidings",
+    "stage": "Saria Fairmoon",
+    "giver": "Saria's Knapsack",
+    "coordinates": "49.5, 41.9",
+    "area": "The Shattered Strand",
+    "objective": "Take Saria's Knapsack from the strand to Commander Truesong at Talrendis Point (11.8, 78.3).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance · Starts from a world object.",
+    "sources": [
+      "https://foreverchanges.pro/quest/89470/ill-tidings"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "89053",
+        "name": "Your Final Reward",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "89001",
+    "zone": "Azshara",
+    "level": 48,
+    "name": "Home on the Range",
+    "stage": "Berdun Cliffbrew",
+    "giver": "Berdun Cliffbrew",
+    "coordinates": "12.5, 77.3",
+    "area": "Talrendis Point",
+    "objective": "Hunt mosshoof coursers for 5 Mosshoof Hides and take them to Berdun.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/89001/home-on-the-range"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "89013",
+    "zone": "Azshara",
+    "level": 48,
+    "name": "Gettin' Buzzed",
+    "stage": "Berdun Cliffbrew",
+    "giver": "Berdun Cliffbrew",
+    "coordinates": "12.5, 77.3",
+    "area": "Talrendis Point",
+    "objective": "Use Berdun's Pellet Gun to knock down Wasp Nests and collect 5 Wild Honey.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/89013/gettin-buzzed"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "89001",
+        "name": "Home on the Range",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "89228",
+    "zone": "Azshara",
+    "level": 48,
+    "name": "Winter Frontier Fishery",
+    "stage": "Berdun Cliffbrew",
+    "giver": "Berdun Cliffbrew",
+    "coordinates": "12.5, 77.3",
+    "area": "Talrendis Point",
+    "objective": "Bring Berdun 10 Winter Squid. Fish for them along the Azshara coast during their season, or buy them.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Alliance",
+    "sources": [
+      "https://foreverchanges.pro/quest/89228/winter-frontier-fishery"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "89001",
+        "name": "Home on the Range",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "89015",
+    "zone": "Azshara",
+    "level": 56,
+    "name": "Deadliest Catch",
+    "stage": "Berdun Cliffbrew",
+    "giver": "Berdun Cliffbrew",
+    "coordinates": "12.6, 77.4",
+    "area": "Talrendis Point",
+    "objective": "Deliver a Mammoth Shark Steak to Berdun. The steak comes from sharks in Azshara's coastal waters.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 50 · Alliance · Group quest.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/89015-deadliest-catch"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "89228",
+        "name": "Winter Frontier Fishery",
+        "evidence": "addon",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "90813",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Pay Dirt!",
+    "stage": "Berdun Cliffbrew",
+    "giver": "Humongous Crystal (item)",
+    "coordinates": "",
+    "area": "Azshara / Storm Cliffs",
+    "objective": "Use the Humongous Crystal to start the quest, then take it to Berdun Cliffbrew at Talrendis Point (12.5, 77.3) for appraisal.",
+    "areaConfidence": "Unmapped pickup",
+    "notes": "Minimum level 50 · Alliance · Item starter. The crystal drops from giants. Pickup position varies.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=90813/pay-dirt",
+      "https://foreverchanges.pro/quest/90813/pay-dirt"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "unverified",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "86746",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "The Legashi Threat",
+    "stage": "Blackmaw refugees",
+    "giver": "Ekkal",
+    "coordinates": "42.0, 38.9",
+    "area": "Ruins of Eldarath",
+    "objective": "Kill 5 each of the Legashi Satyrs, Legashi Rogues, and Legashi Hellcallers and return to Ekkal.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Ekkal offers this before Neutral with Timbermaw Hold.",
+    "sources": [
+      "https://foreverchanges.pro/quest/86746/the-legashi-threat",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "86747",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Legashi Horns",
+    "stage": "Blackmaw refugees · Repeatable",
+    "giver": "Ekkal",
+    "coordinates": "42.0, 38.9",
+    "area": "Ruins of Eldarath",
+    "objective": "Bring Ekkal 5 Severed Legashi Horns from Legashi satyrs for Timbermaw Hold reputation.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Repeatable Timbermaw Hold reputation hand-in.",
+    "sources": [
+      "https://db.icy-veins.com/wow-forever/quests/86747",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "86746",
+        "name": "The Legashi Threat",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "86752",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Report to Rageroar",
+    "stage": "Blackmaw refugees",
+    "giver": "Ekkal",
+    "coordinates": "42.0, 38.9",
+    "area": "Ruins of Eldarath",
+    "objective": "Report from Ekkal to Gatekeeper Rageroar at Ursolan (42.3, 20.1). Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/86752-report-to-rageroar",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "86746",
+        "name": "The Legashi Threat",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.wowhead.com/forever/guide/blackmaw-hold-dungeon-overview-location-rewards"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "86791",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Missing Blackmaw Scouts",
+    "stage": "Blackmaw refugees",
+    "giver": "Gatekeeper Rageroar",
+    "coordinates": "42.3, 20.1",
+    "area": "Ursolan",
+    "objective": "Find Korsa and the missing scouting party near the Legashi camps east of Ursolan (63.0, 21.4). Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/86791-missing-blackmaw-scouts",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "86752",
+        "name": "Report to Rageroar",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.wowhead.com/forever/guide/blackmaw-hold-dungeon-overview-location-rewards"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "86777",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Master Feardred",
+    "stage": "Blackmaw refugees",
+    "giver": "Korsa",
+    "coordinates": "63.0, 21.4",
+    "area": "Outside Legashi Stronghold",
+    "objective": "Defeat Master Feardred and return his amulet to Korsa. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/86777-master-feardred",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "86791",
+        "name": "Missing Blackmaw Scouts",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.wowhead.com/forever/guide/blackmaw-hold-dungeon-overview-location-rewards"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "86792",
+    "zone": "Azshara",
+    "level": 54,
+    "name": "Thinning Their Forces",
+    "stage": "Blackmaw refugees",
+    "giver": "Korsa",
+    "coordinates": "63.0, 21.4",
+    "area": "Outside Legashi Stronghold",
+    "objective": "Kill 6 Legashi Hellraisers, 4 Legashi Soulstealers, and 2 Legashi Blackguards near the stronghold. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/86792-thinning-their-forces",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "86796",
+    "zone": "Azshara",
+    "level": 54,
+    "name": "Later, Satyr",
+    "stage": "Blackmaw refugees",
+    "giver": "Graal",
+    "coordinates": "66.6, 14.6",
+    "area": "Legashi Stronghold",
+    "objective": "Escort Graal out of the stronghold and return to Korsa (63.0, 21.4). Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/86796-later-satyr",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "86797",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Return to Rageroar",
+    "stage": "Blackmaw refugees",
+    "giver": "Korsa",
+    "coordinates": "63.0, 21.4",
+    "area": "Outside Legashi Stronghold",
+    "objective": "Deliver Korsa's report to Gatekeeper Rageroar in Ursolan (42.3, 20.1). Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/86797-return-to-rageroar",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "86777",
+        "name": "Master Feardred",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.foreverdb.app/en/forever/quests/92065/blackmaw-reclamation"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "86798",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "Timbermaw Reinforcements",
+    "stage": "Blackmaw refugees",
+    "giver": "Gatekeeper Rageroar",
+    "coordinates": "42.3, 20.1",
+    "area": "Ursolan",
+    "objective": "Ask Gorn One Eye in Timbermaw Hold (Felwood entrance 65.2, 2.7) for reinforcements. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://kovarel.com/wow-forever/quests/86798-timbermaw-reinforcements",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "86797",
+        "name": "Return to Rageroar",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.foreverdb.app/en/forever/quests/92065/blackmaw-reclamation"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "87346",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "Chieftain Bloodmaw",
+    "stage": "Blackmaw refugees",
+    "giver": "Gorn One Eye",
+    "coordinates": "65.2, 2.7",
+    "area": "Timbermaw Hold, Felwood entrance",
+    "objective": "Kill Chieftain Bloodmaw in Felpaw Village and take his mace back to Gorn One Eye. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://guide.wow4ever.se/uppdrag/87346",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "86798",
+        "name": "Timbermaw Reinforcements",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.foreverdb.app/en/forever/quests/92065/blackmaw-reclamation"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "86814",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "Blackmaw Counter-Offensive",
+    "stage": "Blackmaw refugees",
+    "giver": "Gorn One Eye",
+    "coordinates": "65.2, 2.7",
+    "area": "Timbermaw Hold, Felwood entrance",
+    "objective": "Plant the Timbermaw War Banner at Legashi Stronghold, kill Prince Halanox, and report to Rageroar at Ursolan (42.3, 20.1). Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Group quest. · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/86814-blackmaw-counter-offensive",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "87346",
+        "name": "Chieftain Bloodmaw",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.foreverdb.app/en/forever/quests/92065/blackmaw-reclamation"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "86799",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Encroaching Corruption",
+    "stage": "Furze and Elder Bramblesnap",
+    "giver": "Furze",
+    "coordinates": "45.3, 22.3",
+    "area": "Ursolan",
+    "objective": "Tell Elder Bramblesnap at Ursolan (41.7, 19.5) about Furze's illness. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/86799-encroaching-corruption",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "86804",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "An Unlikely Source",
+    "stage": "Furze and Elder Bramblesnap",
+    "giver": "Elder Bramblesnap",
+    "coordinates": "41.7, 19.5",
+    "area": "Ursolan",
+    "objective": "Find the Legashi Cauldron (57.7, 21.0) in the Legashi Encampment to investigate the source of Legashi Firewater. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://zephras.com/forever/enUS/quest/86804/",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "86799",
+        "name": "Encroaching Corruption",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=86927/running-firewater"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "86925",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Toil and Trouble",
+    "stage": "Furze and Elder Bramblesnap",
+    "giver": "Legashi Cauldron",
+    "coordinates": "57.7, 21.0",
+    "area": "Legashi Encampment",
+    "objective": "Recover a Legashi Firewater Recipe from the local satyrs and take it to the Legashi Cauldron. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/86925-toil-and-trouble",
+      "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverObjectTraces.lua",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "addon",
+      "pickupLocation": "addon",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "86804",
+        "name": "An Unlikely Source",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=86927/running-firewater"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "86926",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Felfire Burn, Cauldron Bubble",
+    "stage": "Furze and Elder Bramblesnap",
+    "giver": "Legashi Cauldron",
+    "coordinates": "57.7, 21.0",
+    "area": "Legashi Encampment",
+    "objective": "Gather 5 Satyrweed and 1 Fel Mote for the Legashi Cauldron. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/86926-felfire-burn-cauldron-bubble",
+      "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverObjectTraces.lua",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "addon",
+      "pickupLocation": "addon",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "86925",
+        "name": "Toil and Trouble",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=86927/running-firewater"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "86927",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Running Firewater",
+    "stage": "Furze and Elder Bramblesnap",
+    "giver": "Legashi Cauldron",
+    "coordinates": "57.7, 21.0",
+    "area": "Legashi Encampment",
+    "objective": "Carry the Legashi Firewater from the cauldron to Elder Bramblesnap at Ursolan (41.7, 19.5). Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/86927-running-firewater",
+      "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverObjectTraces.lua",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "addon",
+      "pickupLocation": "addon",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "86926",
+        "name": "Felfire Burn, Cauldron Bubble",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=86927/running-firewater"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "86812",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Transmuted Tincture",
+    "stage": "Furze and Elder Bramblesnap",
+    "giver": "Elder Bramblesnap",
+    "coordinates": "41.7, 19.5",
+    "area": "Ursolan",
+    "objective": "Weaken Mosshoof Coursers or Thunderhead Skystormers, then apply Satyrweed Tincture to 3 of them. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/86812-transmuted-tincture",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "86927",
+        "name": "Running Firewater",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=86927/running-firewater"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "86813",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Potential Panacea",
+    "stage": "Furze and Elder Bramblesnap",
+    "giver": "Elder Bramblesnap",
+    "coordinates": "41.7, 19.5",
+    "area": "Ursolan",
+    "objective": "Take Bramblesnap's Panacea to Furze (45.3, 22.3) and give it to him. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://pullcall.com/forever/db/quest/86813-potential-panacea",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "86812",
+        "name": "Transmuted Tincture",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=86927/running-firewater"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "92345",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "Beneath Nordrassil",
+    "stage": "Blackmaw Hold introduction",
+    "giver": "Commander Truesong",
+    "coordinates": "11.8, 78.3",
+    "area": "Talrendis Point",
+    "objective": "Travel to Darnassus and talk to Mathrengyl Bearwalker in the Cenarion Enclave about Blackmaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Alliance",
+    "sources": [
+      "https://mobalytics.gg/wow-forever/dungeons/blackmaw-hold-dungeon-quests",
+      "https://foreverchanges.pro/quest/92345/beneath-nordrassil"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "92065",
+    "zone": "Azshara",
+    "level": 60,
+    "name": "Blackmaw Reclamation",
+    "stage": "Blackmaw Hold",
+    "giver": "Gatekeeper Rageroar",
+    "coordinates": "42.3, 20.1",
+    "area": "Ursolan",
+    "objective": "Kill Varrox Bleakhoof in Blackmaw Hold and return his head to Gatekeeper Rageroar in Ursolan. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Dungeon finale of the outdoor Blackmaw chain. · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://www.foreverdb.app/en/forever/quests/92065/blackmaw-reclamation",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "86814",
+        "name": "Blackmaw Counter-Offensive",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.foreverdb.app/en/forever/quests/92065/blackmaw-reclamation"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "92066",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "The Twin Bears",
+    "stage": "Blackmaw Hold",
+    "giver": "Lorekeeper Nok",
+    "coordinates": "41.3, 20.1",
+    "area": "Ursolan",
+    "objective": "Recover the Totem of Ursoc and Totem of Ursol inside Blackmaw Hold. Return both to Lorekeeper Nok. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Dungeon objective. · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://db.icy-veins.com/wow-forever/quests/92066",
+      "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "92069",
+    "zone": "Azshara",
+    "level": 58,
+    "name": "Claws That Rend, Tusks that Gore",
+    "stage": "Blackmaw Hold",
+    "giver": "Ogtinc",
+    "coordinates": "42.4, 42.6",
+    "area": "Near the Ruins of Eldarath",
+    "objective": "Get the Claws of the Great Bear and the Tusks of the Unbroken inside Blackmaw Hold and take both to Ogtinc.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions · Dungeon objective.",
+    "sources": [
+      "https://db.icy-veins.com/wow-forever/quests/92069"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97327",
+    "zone": "Azshara",
+    "level": 60,
+    "name": "Blackmaw Pouches",
+    "stage": "Blackmaw Hold · First turn-in",
+    "giver": "Ekkal",
+    "coordinates": "42.0, 38.9",
+    "area": "Ruins of Eldarath",
+    "objective": "Collect 5 Blackmaw Pouches inside Blackmaw Hold and take them to Ekkal.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 55 · Both factions · Dungeon objective.",
+    "sources": [
+      "https://db.icy-veins.com/wow-forever/quests/97327",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "96246",
+    "zone": "Azshara",
+    "level": 60,
+    "name": "Blackmaw Pouches",
+    "stage": "Blackmaw Hold · Repeatable",
+    "giver": "Ekkal",
+    "coordinates": "42.0, 38.9",
+    "area": "Ruins of Eldarath",
+    "objective": "Bring Ekkal another 5 Blackmaw Pouches for Timbermaw Hold reputation.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 55 · Both factions · Repeatable follow-up worth 100 reputation.",
+    "sources": [
+      "https://db.icy-veins.com/wow-forever/quests/96246",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "97327",
+        "name": "Blackmaw Pouches",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3601",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Kim'jael Indeed!",
+    "stage": "Kim'jael",
+    "giver": "Kim'jael",
+    "coordinates": "53.5, 21.8",
+    "area": "Bitter Reaches",
+    "objective": "Search Kim'jael's Equipment crates around the Thalassian Base Camp for his compass, scope, stuffed chicken, and wizzlegoober.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/3601/kimjael-indeed"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5534",
+    "zone": "Azshara",
+    "level": 53,
+    "name": "Kim'jael's \"Missing\" Equipment",
+    "stage": "Kim'jael",
+    "giver": "Kim'jael",
+    "coordinates": "53.5, 21.8",
+    "area": "Bitter Reaches",
+    "objective": "Recover Some Rune from the Spitelash naga in the Ruins of Eldarath and return it to Kim'jael.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/5534/kimjaels-missing-equipment"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3601",
+        "name": "Kim'jael Indeed!",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3449",
+    "zone": "Azshara",
+    "level": 52,
+    "name": "Arcane Runes",
+    "stage": "Tymor's runes",
+    "giver": "Tymor",
+    "coordinates": "31.2, 4.6",
+    "area": "Mystic Ward, Ironforge",
+    "objective": "Use Tymor's Drawing Kit to copy the Beth'Amara, Jin'yael, Markri, and Sael'hai runes in the Ruins of Eldarath. Signal Pilot Xiggs Fuselighter at 77.8, 91.4 with the Standard Issue Flare Gun to turn in the rubbings.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Alliance · Get the flare gun from Xiggs in Ironforge before traveling to Azshara.",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/3449/"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3448",
+        "name": "Passing the Burden",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3461",
+    "zone": "Azshara",
+    "level": 52,
+    "name": "Return to Tymor",
+    "stage": "Tymor's runes",
+    "giver": "Pilot Xiggs Fuselighter",
+    "coordinates": "77.8, 91.4",
+    "area": "Island off southeastern Azshara",
+    "objective": "After handing over the rubbings, take the Drawing Kit from Pilot Xiggs back to Tymor in Ironforge's Mystic Ward.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/3461/"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3449",
+        "name": "Arcane Runes",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3382",
+    "zone": "Azshara",
+    "level": 57,
+    "name": "A Crew Under Fire",
+    "stage": "Horizon Scout",
+    "giver": "Captain Vanessa Beltis",
+    "coordinates": "53.1, 87.8",
+    "area": "Horizon Scout wreck",
+    "objective": "Defend Captain Vanessa Beltis, her crew, and the passengers during the naga attack. Keep the captain alive.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 48 · Both factions · Repeatable defense event.",
+    "sources": [
+      "https://foreverchanges.pro/quest/3382/a-crew-under-fire"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3503",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "Meeting with the Master",
+    "stage": "Archmage Xylem",
+    "giver": "Sanath Lim-yo",
+    "coordinates": "28.1, 50.1",
+    "area": "Cliffs below Bear's Head",
+    "objective": "Speak to Sanath Lim-yo to be teleported to the trail to Archmage Xylem's tower.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions · Repeatable teleport.",
+    "sources": [
+      "https://foreverchanges.pro/quest/3503/meeting-with-the-master"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3421",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "Return Trip",
+    "stage": "Archmage Xylem",
+    "giver": "Nyrill",
+    "coordinates": "26.5, 46.3",
+    "area": "Bear's Head",
+    "objective": "Ask Nyrill to teleport you back to the lower camp.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions · Repeatable teleport.",
+    "sources": [
+      "https://foreverchanges.pro/quest/3421/return-trip"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8234",
+    "zone": "Azshara",
+    "level": 52,
+    "name": "Sealed Azure Bag",
+    "stage": "Rogue · The Azure Key",
+    "giver": "Lord Jorach Ravenholdt",
+    "coordinates": "86.0, 78.9",
+    "area": "Ravenholdt Manor, Alterac Mountains",
+    "objective": "Recover the Sealed Azure Bag from Timbermaw Shamans in Azshara. Deliver it to Archmage Xylem at Bear's Head (29.3, 40.2).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 50 · Both factions · Rogue only.",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/8234/"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "8233",
+        "name": "A Simple Request",
+        "evidence": "forever-records",
+        "sources": [
+          "https://questing.wiki/wow-forever/quests/8234/"
+        ],
+        "relation": "Offered after"
+      }
+    ]
+  },
+  {
+    "id": "8235",
+    "zone": "Azshara",
+    "level": 52,
+    "name": "Encoded Fragments",
+    "stage": "Rogue · The Azure Key",
+    "giver": "Archmage Xylem",
+    "coordinates": "29.2, 40.2",
+    "area": "Archmage Xylem's tower, Bear's Head",
+    "objective": "Collect 10 Encoded Fragments from creatures in Azshara, such as thunderhead hippogryphs, and take them to Xylem.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 50 · Both factions · Rogue only.",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/8235/"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "8234",
+        "name": "Sealed Azure Bag",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8236",
+    "zone": "Azshara",
+    "level": 52,
+    "name": "The Azure Key",
+    "stage": "Rogue · The Azure Key",
+    "giver": "Archmage Xylem",
+    "coordinates": "29.2, 40.2",
+    "area": "Archmage Xylem's tower, Bear's Head",
+    "objective": "Take the Azure Key from Xylem to Lord Jorach Ravenholdt in Alterac Mountains (86.0, 78.9).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 50 · Both factions · Rogue only.",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/8236/"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "8235",
+        "name": "Encoded Fragments",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "2744",
+    "zone": "Azshara",
+    "level": 60,
+    "name": "The Demon Hunter",
+    "stage": "Loramus and Felbane",
+    "giver": "Fallen Hero of the Horde",
+    "coordinates": "34.3, 66.1",
+    "area": "Blasted Lands border, Swamp of Sorrows",
+    "objective": "Travel to the island in the Bay of Storms and speak to Loramus Thalipedes (60.8, 66.4).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/2744/"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "2743",
+        "name": "The Cover of Darkness",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3141",
+    "zone": "Azshara",
+    "level": 57,
+    "name": "Loramus",
+    "stage": "Loramus and Felbane",
+    "giver": "Loramus Thalipedes",
+    "coordinates": "60.8, 66.4",
+    "area": "Bay of Storms",
+    "objective": "Listen to Loramus Thalipedes tell his story.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/3141/loramus"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "2744",
+        "name": "The Demon Hunter",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3508",
+    "zone": "Azshara",
+    "level": 58,
+    "name": "Breaking the Ward",
+    "stage": "Loramus and Felbane",
+    "giver": "Loramus Thalipedes",
+    "coordinates": "60.8, 66.4",
+    "area": "Bay of Storms",
+    "objective": "Stay with Loramus while he casts his enlightenment spell.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/3508/breaking-the-ward"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3141",
+        "name": "Loramus",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3509",
+    "zone": "Azshara",
+    "level": 58,
+    "name": "The Name of the Beast",
+    "stage": "Loramus and Felbane · Meet Arkkoroc",
+    "giver": "Loramus Thalipedes",
+    "coordinates": "60.8, 66.4",
+    "area": "Bay of Storms",
+    "objective": "Go to Lord Arkkoroc at the Temple of Arkkoran (77.1, 42.8).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/3509/the-name-of-the-beast"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3508",
+        "name": "Breaking the Ward",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3510",
+    "zone": "Azshara",
+    "level": 58,
+    "name": "The Name of the Beast",
+    "stage": "Loramus and Felbane · Kill Hetaera",
+    "giver": "Lord Arkkoroc",
+    "coordinates": "77.1, 42.8",
+    "area": "Temple of Arkkoran",
+    "objective": "Kill Hetaera and take all three of her heads back to Lord Arkkoroc.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions · Group quest.",
+    "sources": [
+      "https://foreverchanges.pro/quest/3510/the-name-of-the-beast"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3509",
+        "name": "The Name of the Beast",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3511",
+    "zone": "Azshara",
+    "level": 58,
+    "name": "The Name of the Beast",
+    "stage": "Loramus and Felbane · Deliver the blood",
+    "giver": "Lord Arkkoroc",
+    "coordinates": "77.1, 42.8",
+    "area": "Temple of Arkkoran",
+    "objective": "Take Hetaera's Blood from Lord Arkkoroc back to Loramus (60.8, 66.4).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/3511/the-name-of-the-beast"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3510",
+        "name": "The Name of the Beast",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3602",
+    "zone": "Azshara",
+    "level": 58,
+    "name": "Azsharite",
+    "stage": "Loramus and Felbane",
+    "giver": "Loramus Thalipedes",
+    "coordinates": "60.8, 66.4",
+    "area": "Bay of Storms",
+    "objective": "Collect 20 Crystallized Azsharite from deposits in southern Azshara. Use the quest felhound to help locate them.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/3602/azsharite"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3511",
+        "name": "The Name of the Beast",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3621",
+    "zone": "Azshara",
+    "level": 58,
+    "name": "The Formation of Felbane",
+    "stage": "Loramus and Felbane",
+    "giver": "Loramus Thalipedes",
+    "coordinates": "60.8, 66.4",
+    "area": "Bay of Storms",
+    "objective": "Deliver the shipment from Loramus to Galvan the Ancient in Stranglethorn Vale (50.6, 20.5).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/3621/the-formation-of-felbane"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "3602",
+        "name": "Azsharite",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "91877",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "Demon Hunter's Hunter",
+    "stage": "Mount Hyjal introduction",
+    "giver": "Loramus Thalipedes",
+    "coordinates": "60.8, 66.4",
+    "area": "Bay of Storms",
+    "objective": "Find Maerion Thaelemaches on Mount Hyjal (53.4, 33.4).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 55 · Both factions · Player quest traces record Loramus as a giver. Some listings also show Fel-Tainted Remains as an item starter.",
+    "sources": [
+      "https://wow4ever.quest/en/quests/demon-hunters-hunter",
+      "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6804",
+    "zone": "Azshara",
+    "level": 56,
+    "name": "Poisoned Water",
+    "stage": "Hydraxian Waterlords",
+    "giver": "Duke Hydraxis",
+    "coordinates": "79.3, 73.7",
+    "area": "Duke Hydraxis's island, Bay of Storms",
+    "objective": "Use the Aspect of Neptulon on poisoned elementals in Eastern Plaguelands. Take 12 Discordant Bracers and the Aspect back to Duke Hydraxis.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 55 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/6804/poisoned-water"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6805",
+    "zone": "Azshara",
+    "level": 57,
+    "name": "Stormers and Rumblers",
+    "stage": "Hydraxian Waterlords",
+    "giver": "Duke Hydraxis",
+    "coordinates": "79.3, 73.7",
+    "area": "Duke Hydraxis's island, Bay of Storms",
+    "objective": "Kill 15 Dust Stormers and 15 Desert Rumblers in Silithus, then return to Duke Hydraxis.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 55 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/6805/stormers-and-rumblers"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6821",
+    "zone": "Azshara",
+    "level": 60,
+    "name": "Eye of the Emberseer",
+    "stage": "Hydraxian Waterlords",
+    "giver": "Duke Hydraxis",
+    "coordinates": "79.3, 73.7",
+    "area": "Duke Hydraxis's island, Bay of Storms",
+    "objective": "Defeat Pyroguard Emberseer in Upper Blackrock Spire and deliver the Eye of the Emberseer to Duke Hydraxis.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 55 · Both factions · Requires both Poisoned Water and Stormers and Rumblers.",
+    "sources": [
+      "https://foreverchanges.pro/quest/6821/eye-of-the-emberseer"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "6804",
+        "name": "Poisoned Water",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "6805",
+        "name": "Stormers and Rumblers",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "6822",
+    "zone": "Azshara",
+    "level": 60,
+    "name": "The Molten Core",
+    "stage": "Hydraxian Waterlords",
+    "giver": "Duke Hydraxis",
+    "coordinates": "79.3, 73.7",
+    "area": "Duke Hydraxis's island, Bay of Storms",
+    "objective": "In Molten Core, kill a Firelord, a Molten Giant, an Ancient Core Hound, and a Lava Surger. Return to Duke Hydraxis.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 55 · Both factions · Raid objective.",
+    "sources": [
+      "https://foreverchanges.pro/quest/6822/the-molten-core"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "6821",
+        "name": "Eye of the Emberseer",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "6823",
+    "zone": "Azshara",
+    "level": 60,
+    "name": "Agent of Hydraxis",
+    "stage": "Hydraxian Waterlords",
+    "giver": "Duke Hydraxis",
+    "coordinates": "79.3, 73.7",
+    "area": "Duke Hydraxis's island, Bay of Storms",
+    "objective": "Reach Honored with the Hydraxian Waterlords and speak to Duke Hydraxis.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 55 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/6823/agent-of-hydraxis"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "6822",
+        "name": "The Molten Core",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "6824",
+    "zone": "Azshara",
+    "level": 60,
+    "name": "Hands of the Enemy",
+    "stage": "Hydraxian Waterlords",
+    "giver": "Duke Hydraxis",
+    "coordinates": "79.3, 73.7",
+    "area": "Duke Hydraxis's island, Bay of Storms",
+    "objective": "Collect the Hands of Lucifron, Gehennas, Shazzrah, and Sulfuron Harbinger in Molten Core. Take all four to Duke Hydraxis.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 55 · Both factions · Raid objective.",
+    "sources": [
+      "https://foreverchanges.pro/quest/6824/hands-of-the-enemy"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "6823",
+        "name": "Agent of Hydraxis",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "7486",
+    "zone": "Azshara",
+    "level": 60,
+    "name": "A Hero's Reward",
+    "stage": "Hydraxian Waterlords",
+    "giver": "Duke Hydraxis",
+    "coordinates": "79.3, 73.7",
+    "area": "Duke Hydraxis's island, Bay of Storms",
+    "objective": "Open Hydraxis' Coffer (79.2, 74.9) to choose your reward.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 55 · Both factions",
+    "sources": [
+      "https://foreverchanges.pro/quest/7486/a-heros-reward"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "6824",
+        "name": "Hands of the Enemy",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8575",
+    "zone": "Azshara",
+    "level": 60,
+    "name": "Azuregos's Magical Ledger",
+    "stage": "Scepter of the Shifting Sands",
+    "giver": "Magical Ledger (item)",
+    "coordinates": "",
+    "area": "Bay of Storms",
+    "objective": "Speak to the Spirit of Azuregos to get the Magical Ledger, then take the ledger to Narain Soothfancy in Tanaris (65.2, 18.6).",
+    "areaConfidence": "Unmapped pickup",
+    "notes": "Minimum level 60 · Both factions · Item starter. Spirit of Azuregos roams the southern coast. · Blue Scepter Shard quest line.",
+    "sources": [
+      "https://foreverchanges.pro/quest/8575/azuregoss-magical-ledger"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "unverified",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8729",
+    "zone": "Azshara",
+    "level": 60,
+    "name": "The Wrath of Neptulon",
+    "stage": "Scepter of the Shifting Sands",
+    "giver": "Narain Soothfancy",
+    "coordinates": "65.2, 18.6",
+    "area": "Tanaris, north of Steamwheedle Port",
+    "objective": "Use Narain's Arcanite Buoy at the Swirling Maelstrom in the Bay of Storms. Defeat Maws and deliver the Blue Scepter Shard to Anachronos in Tanaris.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 60 · Both factions · Raid objective in Azshara. Starts and ends in Tanaris. · Blue Scepter Shard quest line.",
+    "sources": [
+      "https://foreverchanges.pro/quest/8729/the-wrath-of-neptulon"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "8728",
+        "name": "The Good News and The Bad News",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5246",
+    "zone": "Azshara",
+    "level": 56,
+    "name": "Fragments of the Past",
+    "stage": "Highborne writings",
+    "giver": "Aurora Skycaller",
+    "coordinates": "46.5, 16.0",
+    "area": "Northpass Tower, Eastern Plaguelands",
+    "objective": "Recover the Sacred Highborne Writings from the Temple of Zin-Malor in Azshara. Return them to Aurora Skycaller.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 53 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/5246/"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "5245",
+        "name": "Troubled Spirits of Kel'Theril",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5141",
+    "zone": "Azshara",
+    "level": 55,
+    "name": "Dragonscale Leatherworking",
+    "stage": "Leatherworking specialization",
+    "giver": "Peter Galen",
+    "coordinates": "37.6, 65.4",
+    "area": "Southwest Azshara",
+    "objective": "Deliver 2 Tough Scorpid Breastplates, 2 Tough Scorpid Gloves, and 10 Worn Dragonscales to Peter Galen.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 40 · Alliance · Requires Leatherworking 225. Teaches Dragonscale Leatherworking.",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/5141/"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "94316",
+    "zone": "Azshara",
+    "level": 60,
+    "name": "Craftsman's Writ: Potion of Demonslaying",
+    "stage": "Craftsman's Writ · Daily",
+    "giver": "Craftsman's Writ: Potion of Demonslaying (item)",
+    "coordinates": "",
+    "area": "Item starter",
+    "objective": "Take the writ and 1 Potion of Demon Slaying to Archmage Xylem at Bear's Head (about 29.3, 40.2).",
+    "areaConfidence": "Unmapped pickup",
+    "notes": "Both factions · Transferable writ. Daily.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=94316/craftsmans-writ-potion-of-demonslaying"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "unverified",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8720",
+    "zone": "Azshara",
+    "level": 60,
+    "name": "Skygleam the Elder",
+    "stage": "Lunar Festival",
+    "giver": "Elder Skygleam",
+    "coordinates": "72.5, 85.2",
+    "area": "Ravencrest Monument",
+    "objective": "Speak to Elder Skygleam to collect a Coin of Ancestry during the Lunar Festival.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 1 · Both factions · Seasonal event.",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/8720/"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
   }
 ]
