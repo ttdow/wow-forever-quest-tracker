@@ -1,6 +1,6 @@
 {
   "zone": "Maraudon",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "map": {
     "appearance": "dungeon",
     "coordinateSystem": "guide-image",
@@ -48,8 +48,16 @@
       "note": "An overlapping minimap section of the Orange wing, showing five of the Vylestem Vines."
     },
     {
+      "id": "entrance-caves",
+      "name": "Entrance caves",
+      "image": "https://www.swaziloo.com/wow/image_mara3.jpg",
+      "width": 1264,
+      "height": 1126,
+      "note": "Start at the stone doors and follow the tunnels to the Orange or Purple portal. The Scepter shortcut leads to Earth Song Falls."
+    },
+    {
       "id": "approach",
-      "name": "Desolace and entrance caves",
+      "name": "Desolace approach",
       "image": "./assets/maps/desolace.webp",
       "width": 1002,
       "height": 668,
@@ -59,7 +67,7 @@
         452.1,
         4233.3
       ],
-      "note": "The cave pins are projected onto the Desolace surface map. Zoom near the Valley of Spears or open the Classic cave plan for the passages. Solid Chest pins are above ground."
+      "note": "Surface quest givers, the Valley of Spears stone doors, and possible Solid Chest spawns. Switch to Entrance caves for the underground routes."
     }
   ],
   "points": [
@@ -900,19 +908,34 @@
       "note": "Client entrance marker in the Valley of Spears. Continue underground to reach the colored portals."
     },
     {
+      "id": "stone-doors-caves",
+      "name": "Maraudon stone doors",
+      "category": "entrance",
+      "floor": "entrance-caves",
+      "x": 76.9778,
+      "y": 44.405,
+      "verification": "community-reference",
+      "sources": [
+        "client",
+        "cave-plan",
+        "entrance-map"
+      ],
+      "note": "From the Valley of Spears, enter here to reach the upper passage and the fork for the two portals."
+    },
+    {
       "id": "portal-3131",
       "name": "Orange portal · entrance caves",
       "category": "entrance",
-      "floor": "approach",
-      "x": 36.0134,
-      "y": 64.0548,
-      "verification": "classic-derived",
+      "floor": "entrance-caves",
+      "x": 27.1361,
+      "y": 25.7549,
+      "verification": "community-reference",
       "sources": [
         "classic",
-        "bounds"
+        "entrance-map"
       ],
       "areaTrigger": 3131,
-      "note": "Orange portal in the entrance caves. The Classic exit destination provides the position.",
+      "note": "Enter here for Maraudon's Orange wing.",
       "world": {
         "map": 1,
         "x": -1468.2,
@@ -924,16 +947,16 @@
       "id": "portal-3126",
       "name": "Purple portal · entrance caves",
       "category": "entrance",
-      "floor": "approach",
-      "x": 30.1586,
-      "y": 54.5348,
-      "verification": "classic-derived",
+      "floor": "entrance-caves",
+      "x": 51.5823,
+      "y": 83.3925,
+      "verification": "community-reference",
       "sources": [
         "classic",
-        "bounds"
+        "entrance-map"
       ],
       "areaTrigger": 3126,
-      "note": "Purple portal in the entrance caves. The Classic exit destination provides the position.",
+      "note": "Enter here for Maraudon's Purple wing.",
       "world": {
         "map": 1,
         "x": -1182.8,
@@ -945,15 +968,15 @@
       "id": "object-178400-99844",
       "name": "Scepter of Celebras shortcut",
       "category": "entrance",
-      "floor": "approach",
-      "x": 29.2408,
-      "y": 61.1778,
-      "verification": "classic-derived",
+      "floor": "entrance-caves",
+      "x": 74.6044,
+      "y": 52.5755,
+      "verification": "community-reference",
       "sources": [
         "classic",
         "cave-plan",
         "portal",
-        "bounds"
+        "entrance-map"
       ],
       "objectId": "178400",
       "spawnGuid": 99844,
@@ -972,14 +995,14 @@
       "id": "object-178907-99893",
       "name": "Orange crystal pool",
       "category": "quest-object",
-      "floor": "approach",
-      "x": 33.2161,
-      "y": 65.6703,
-      "verification": "classic-derived",
+      "floor": "entrance-caves",
+      "x": 47.3892,
+      "y": 24.9556,
+      "verification": "community-reference",
       "sources": [
         "classic",
         "guide",
-        "bounds"
+        "entrance-map"
       ],
       "objectId": "178907",
       "spawnGuid": 99893,
@@ -998,14 +1021,14 @@
       "id": "npc-13697",
       "name": "Cavindra",
       "category": "quest-giver",
-      "floor": "approach",
-      "x": 32.0988,
-      "y": 63.9598,
-      "verification": "classic-derived",
+      "floor": "entrance-caves",
+      "x": 54.9051,
+      "y": 36.0568,
+      "verification": "community-reference",
       "sources": [
         "classic",
         "cave-plan",
-        "bounds"
+        "entrance-map"
       ],
       "npcId": "13697",
       "spawnGuid": 29063,
@@ -1024,19 +1047,19 @@
       "id": "npc-13718",
       "name": "The Nameless Prophet",
       "category": "quest-object",
-      "floor": "approach",
-      "x": 28.1536,
-      "y": 62.393,
-      "verification": "classic-derived",
+      "floor": "entrance-caves",
+      "x": 81.7247,
+      "y": 31.4387,
+      "verification": "community-reference",
       "sources": [
         "classic",
         "cave-plan",
-        "bounds"
+        "entrance-map"
       ],
       "npcId": "13718",
       "spawnGuid": 29070,
       "moving": true,
-      "movementNote": "Wanders near the entrance-cave fork. The pin is one Classic spawn reference.",
+      "movementNote": "Wanders in the upper entrance passages. The pin marks the area shown on the cave map.",
       "note": "Loot the Amulet of Spirits before approaching the Khans.",
       "aliases": [
         "Amulet of Spirits"
@@ -1049,20 +1072,21 @@
       },
       "questIds": [
         "7067"
-      ]
+      ],
+      "approximate": true
     },
     {
       "id": "npc-12240",
       "name": "Spirit of Kolk",
       "category": "quest-object",
-      "floor": "approach",
-      "x": 29.6639,
-      "y": 60.4777,
-      "verification": "classic-derived",
+      "floor": "entrance-caves",
+      "x": 71.4399,
+      "y": 53.9076,
+      "verification": "community-reference",
       "sources": [
         "classic",
         "cave-plan",
-        "bounds"
+        "entrance-map"
       ],
       "npcId": "12240",
       "spawnGuid": 29115,
@@ -1084,21 +1108,21 @@
       "id": "npc-12239",
       "name": "Spirit of Gelk",
       "category": "quest-object",
-      "floor": "approach",
-      "x": 29.4319,
-      "y": 56.9272,
-      "verification": "classic-derived",
+      "floor": "entrance-caves",
+      "x": 75.1582,
+      "y": 67.3179,
+      "verification": "community-reference",
       "sources": [
         "classic",
         "cave-plan",
-        "bounds"
+        "entrance-map"
       ],
       "npcId": "12239",
       "spawnGuid": 29114,
       "aliases": [
         "Gem of the Second Khan"
       ],
-      "note": "In the tunnels below the Purple portal. Use the Amulet of Spirits to fight this Khan for the second gem.",
+      "note": "On the Purple branch before the portal. Use the Amulet of Spirits to fight this Khan for the second gem.",
       "world": {
         "map": 1,
         "x": -1254.52002,
@@ -1113,14 +1137,14 @@
       "id": "npc-12241",
       "name": "Spirit of Magra",
       "category": "quest-object",
-      "floor": "approach",
-      "x": 35.793,
-      "y": 60.4333,
-      "verification": "classic-derived",
+      "floor": "entrance-caves",
+      "x": 25.6329,
+      "y": 49.1119,
+      "verification": "community-reference",
       "sources": [
         "classic",
         "cave-plan",
-        "bounds"
+        "entrance-map"
       ],
       "npcId": "12241",
       "spawnGuid": 29116,
@@ -1142,17 +1166,17 @@
       "id": "shadowshard-area",
       "name": "Shadowshard Fragment area",
       "category": "quest-material",
-      "floor": "approach",
-      "x": 29.7589,
-      "y": 56.1733,
-      "verification": "classic-derived",
+      "floor": "entrance-caves",
+      "x": 69.3038,
+      "y": 73.1794,
+      "verification": "community-reference",
       "sources": [
         "classic",
         "cave-plan",
-        "bounds"
+        "entrance-map"
       ],
       "npcId": "11777",
-      "note": "Representative Shadowshard Rumbler position. Rumblers and Smashers outside the Purple portal drop the fragments.",
+      "note": "Shadowshard Rumblers and Smashers in these tunnels outside the Purple portal drop Shadowshard Fragments.",
       "world": {
         "map": 1,
         "x": -1231.920044,
@@ -1161,7 +1185,8 @@
       },
       "questIds": [
         "7070"
-      ]
+      ],
+      "approximate": true
     },
     {
       "id": "npc-13656",
@@ -1479,7 +1504,7 @@
     },
     "cave-plan": {
       "name": "BradyGames Classic entrance-cave floor plan",
-      "url": "https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/wow/maraudon/maraudon_lr.pdf"
+      "url": "https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/wow/maraudon/maraudon_lr.pdf#page=5"
     },
     "water": {
       "name": "Forever player reports for Rot and Regret",
@@ -1488,6 +1513,10 @@
     "portal": {
       "name": "Scepter of Celebras portal effect",
       "url": "https://www.wowhead.com/classic/item=17191/scepter-of-celebras"
+    },
+    "entrance-map": {
+      "name": "Train of Soul pre-instance map",
+      "url": "https://www.swaziloo.com/wow/image_mara3.jpg"
     }
   }
 }

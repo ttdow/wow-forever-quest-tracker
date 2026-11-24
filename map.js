@@ -34,7 +34,10 @@ const zones = {
   },
   Maraudon: {
     file: 'maraudon', guide: 'https://foreverdb.net/dungeon/349-maraudon', report: 'maraudon-map',
-    sections: { approach: { guide: 'https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/wow/maraudon/maraudon_lr.pdf#page=5', provider: 'Classic cave plan' } },
+    sections: {
+      'entrance-caves': { guide: 'https://www.swaziloo.com/wow/mara.html', provider: 'Train of Soul guide', attribution: 'Map via Train of Soul' },
+      approach: { guide: 'https://foreverdb.net/maps/1443' },
+    },
   },
   "Zul'Farrak": { file: 'zulfarrak', guide: 'https://foreverdb.net/dungeon/209-zulfarrak', report: 'zulfarrak-map' },
   'Sunken Temple': {
@@ -412,7 +415,7 @@ async function show(zone, context = {}) {
     $('#zone-map').setAttribute('aria-label', `${zone} locations. Use arrow keys to pan and plus or minus to zoom.`);
     $('#map-note').textContent = typeof floor.note === 'string' ? floor.note : typeof data.note === 'string' ? data.note : 'Classic reference locations. Spawns may differ in Forever. Dashed markers are extra candidates.';
     const reference = zones[zone].sections?.[floor.id] || zones[zone];
-    const attribution = zones[zone].attribution;
+    const attribution = reference.attribution || zones[zone].attribution;
     $('#map-attribution').textContent = attribution || 'Map: © Blizzard';
     $('#map-guide').href = reference.guide;
     $('#map-guide').textContent = reference.provider || 'ForeverDB';

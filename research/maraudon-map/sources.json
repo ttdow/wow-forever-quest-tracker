@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-22",
+  "checked": "2026-11-23",
   "instanceId": 349,
   "build": "1.60.1.71037",
   "sources": {
@@ -29,7 +29,11 @@
     },
     "cave-plan": {
       "name": "BradyGames Classic entrance-cave floor plan",
-      "url": "https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/wow/maraudon/maraudon_lr.pdf"
+      "url": "https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/wow/maraudon/maraudon_lr.pdf#page=5"
+    },
+    "entrance-map": {
+      "name": "Train of Soul pre-instance map",
+      "url": "https://www.swaziloo.com/wow/image_mara3.jpg"
     },
     "water": {
       "name": "Forever player reports for Rot and Regret",
@@ -52,6 +56,13 @@
     "orange-tunnels": {
       "url": "https://foreverdb.net/img/dungeonmaps/349/3.webp",
       "sha256": "2d6d56c870ddfbb5d416578976c5feccd5a41d89b180814f7ae7d48d8de937c9"
+    },
+    "entrance-caves": {
+      "url": "https://www.swaziloo.com/wow/image_mara3.jpg",
+      "sha256": "e8f6864db36eb8deb425417e6e97dd7a7d7b053e4e017ddb76a4e67fffcbc7ba",
+      "width": 1264,
+      "height": 1126,
+      "guide": "https://www.swaziloo.com/wow/mara.html"
     },
     "approach": {
       "url": "https://foreverdb.net/img/maps/game/1443.webp",
