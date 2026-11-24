@@ -7,6 +7,7 @@ const categories = {
   'chest-2857': { label: 'Solid Chest 2857', symbol: '▣', color: '#ed9e6f' },
   'footlocker-179491': { label: 'Waterlogged Footlocker', symbol: '▤', color: '#93caff' },
   'footlocker-179493': { label: 'Mossy Footlocker', symbol: '▤', color: '#77d7c0' },
+  'footlocker-179497': { label: 'Mossy Footlockers', symbol: '▤', color: '#77d7c0' },
   'quest-giver': { label: 'Quest givers', symbol: '!', color: '#b7efb5' },
   rare: { label: 'Rares', symbol: '◆', color: '#d1afff' },
   'quest-object': { label: 'Quest objects', symbol: '?', color: '#e3e7df' },
@@ -25,6 +26,10 @@ const zones = {
   Desolace: { file: 'desolace', guide: 'https://foreverdb.net/maps/1443', report: 'desolace-map' },
   Feralas: { file: 'feralas', guide: 'https://foreverdb.net/maps/1444', report: 'feralas-map' },
   Felwood: { file: 'felwood', guide: 'https://foreverdb.net/maps/1448', report: 'felwood-map' },
+  Azshara: {
+    file: 'azshara', guide: 'https://foreverdb.net/maps/1447', report: 'azshara-map',
+    defaultHiddenLayers: ['dungeon-chest', 'footlocker-179497'],
+  },
   Gnomeregan: { file: 'gnomeregan', guide: 'https://foreverdb.net/dungeon/90-gnomeregan', report: 'gnomeregan-map' },
   'Razorfen Kraul': { file: 'razorfen-kraul', guide: 'https://foreverdb.net/dungeon/47-razorfen-kraul', report: 'razorfen-kraul-map', defaultHiddenLayers: ['quest-object'] },
   'Razorfen Downs': { file: 'razorfen-downs', guide: 'https://foreverdb.net/dungeon/129-razorfen-downs', report: 'razorfen-downs-map' },

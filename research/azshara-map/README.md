@@ -1,0 +1,16 @@
+# Azshara map
+
+Open **Zones → Azshara → Map**. The 116 entries link 75 of the zone’s 76 Alliance and shared quests. Quests picked up elsewhere appear at their Azshara objectives or hand-ins. **Chieftain Bloodmaw** takes place in Felwood and Timbermaw Hold, so it stays in the checklist. The map uses unmodified Blizzard client artwork from ForeverDB, UI map 1447. [Quest coverage](../azshara/README.md) · [Client map](https://foreverdb.net/maps/1447) · [Map data](../../data/maps/azshara.json)
+
+## Quest locations
+
+- **Talrendis Point** groups Commander Truesong, Berdun Cliffbrew, Loh’atu, and the Alliance flight path. **Ursolan** groups Gatekeeper Rageroar, Elder Bramblesnap, and Lorekeeper Nok. The popup preserves their individual coordinates. [Questie NPC observations](https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverNpcTraces.lua)
+- **Reclaiming Ravencrest** marks all three player-reported power stone locations. Saria Fairmoon’s chain marks Sesspira’s Hoard, the three Highborne Tablets, Razorgill, the Mark of the Queen, and Saria’s Knapsack. The map uses the shared **Highborne Tablet** object name for each of the three tablet sites. [Power stone observations](https://www.wowhead.com/forever/quest=88812/reclaiming-ravencrest#comments) · [Questie object observations](https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverObjectTraces.lua)
+- **Blackmaw Hold** marks the carved bear gate at the outdoor tunnel mouth. The path leads northwest and uphill to the instance portal. Search a dungeon quest by name to find its Azshara pickup and the tunnel. [Entrance screenshot and coordinates](https://www.ratchetreserve.com/dungeons/blackmaw-hold) · [Portal route](https://www.warcrafttavern.com/forever/guides/blackmaw-hold)
+- **Arcane Runes** marks one Classic position for each of the four rune tablets and the island where the flare summons Pilot Xiggs. The Rogue **Azure Key** chain links to Archmage Xylem and Sanath Lim-yo’s teleport route via the Meeting with the Master quest. [Arcane Runes](https://questing.wiki/wow-forever/quests/3449/) · [The Azure Key](https://foreverdb.net/quest-chain/the-azure-key)
+
+## Rare and treasure references
+
+The map shows eight Classic spawn positions for seven rares, with Forever quest records for Lady Sesspira, Master Feardred, and Gatekeeper Rageroar. Azuregos and his spirit have Classic patrol references. **Chest spawns** shows 25 possible Solid Chest sites. **Mossy Footlockers** shows 21 Classic lockpicking sites with a skill requirement of 225 in the source data. Both treasure layers are off by default. Their spawn conditions in live Forever remain unverified. [Rare data](https://theforeverera.com/data/map-layers/r.json?v=20261108113959) · [Chest and lockpicking data](https://theforeverera.com/data/map-layers/k.json?v=20261108113959)
+
+Classic spawn data is CMaNGOS-derived under GPL-3.0. Single-location Forever observations provide recorded positions. Roaming quest mobs use representative positions from the traces. [Data license](../desolace-map/LICENSE-GPL-3.0.txt) · [Source inventory](sources.json)

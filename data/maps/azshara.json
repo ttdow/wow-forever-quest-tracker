@@ -1,0 +1,1985 @@
+{
+  "zone": "Azshara",
+  "updated": "2026-11-24",
+  "map": {
+    "image": "./assets/maps/azshara.webp",
+    "width": 1002,
+    "height": 668,
+    "source": "https://foreverdb.net/maps/1447",
+    "coordinateSystem": "zone-percent",
+    "region": [
+      1960.4,
+      -8347.9,
+      5341.7,
+      -3277.1
+    ],
+    "attribution": "World of Warcraft © Blizzard Entertainment; client map via ForeverDB"
+  },
+  "note": "Explore Alliance and shared quest locations. Enable Chest spawns or Mossy Footlockers for Classic spawn references.",
+  "points": [
+    {
+      "id": "npc-239822",
+      "name": "Commander Truesong",
+      "category": "quest-giver",
+      "x": 11.9,
+      "y": 77.8,
+      "verification": "forever-confirmed",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Talrendis Point. Pick up and turn in the Alliance Spitelash quests here. Talrendis Point shared pin. Recorded position 11.81, 78.36.",
+      "npcId": "239822",
+      "questIds": [
+        "88807",
+        "88809",
+        "88812",
+        "88813",
+        "88821",
+        "92345",
+        "98096",
+        "88857",
+        "89470"
+      ],
+      "sourceCoordinates": {
+        "x": 11.81,
+        "y": 78.36
+      },
+      "displayGroup": "Talrendis Point"
+    },
+    {
+      "id": "npc-240482",
+      "name": "Berdun Cliffbrew",
+      "category": "quest-giver",
+      "x": 11.9,
+      "y": 77.8,
+      "verification": "forever-confirmed",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Talrendis Point. Bring the Humongous Crystal here for Pay Dirt! Talrendis Point shared pin. Recorded position 12.60, 77.36.",
+      "npcId": "240482",
+      "questIds": [
+        "89001",
+        "89013",
+        "89228",
+        "89015",
+        "90813"
+      ],
+      "sourceCoordinates": {
+        "x": 12.6,
+        "y": 77.36
+      },
+      "displayGroup": "Talrendis Point"
+    },
+    {
+      "id": "npc-222478",
+      "name": "Sentinel Keldara Sunblade",
+      "category": "quest-giver",
+      "x": 20.62,
+      "y": 61.92,
+      "verification": "forever-confirmed",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Start the escort at Haldarr Encampment and report back to Commander Truesong.",
+      "npcId": "222478",
+      "questIds": [
+        "88857"
+      ]
+    },
+    {
+      "id": "npc-239831",
+      "name": "Saria Fairmoon",
+      "category": "quest-giver",
+      "x": 50.56,
+      "y": 42.7,
+      "verification": "forever-confirmed",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Find Saria at the Shattered Strand during Making Contact.",
+      "npcId": "239831",
+      "questIds": [
+        "88917",
+        "88884",
+        "89037",
+        "89038",
+        "89053",
+        "88821"
+      ]
+    },
+    {
+      "id": "npc-235903",
+      "name": "Ekkal",
+      "category": "quest-giver",
+      "x": 42.0,
+      "y": 38.88,
+      "verification": "forever-confirmed",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Ruins of Eldarath. The Legashi quests build Timbermaw Hold reputation. Bring Blackmaw Pouches here.",
+      "npcId": "235903",
+      "questIds": [
+        "86746",
+        "86747",
+        "86752",
+        "97327",
+        "96246"
+      ]
+    },
+    {
+      "id": "npc-236573",
+      "name": "Gatekeeper Rageroar",
+      "category": "quest-giver",
+      "x": 41.8,
+      "y": 20.0,
+      "verification": "forever-confirmed",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Ursolan. Bring Ekkal’s report, Korsa’s report, and the Blackmaw Counter-Offensive hand-in here. Ursolan shared pin. Recorded position 42.28, 20.13.",
+      "npcId": "236573",
+      "questIds": [
+        "86791",
+        "86798",
+        "92065",
+        "86752",
+        "86797",
+        "86814"
+      ],
+      "sourceCoordinates": {
+        "x": 42.28,
+        "y": 20.13
+      },
+      "displayGroup": "Ursolan"
+    },
+    {
+      "id": "npc-236770",
+      "name": "Korsa",
+      "category": "quest-giver",
+      "x": 63.01,
+      "y": 21.43,
+      "verification": "forever-confirmed",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Meet the scouts outside the Legashi Stronghold.",
+      "npcId": "236770",
+      "questIds": [
+        "86777",
+        "86792",
+        "86797",
+        "86791",
+        "86796"
+      ]
+    },
+    {
+      "id": "npc-237007",
+      "name": "Graal",
+      "category": "quest-giver",
+      "x": 66.58,
+      "y": 14.56,
+      "verification": "forever-confirmed",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Rescue Graal from the Legashi Stronghold and return to Korsa.",
+      "npcId": "237007",
+      "questIds": [
+        "86796"
+      ]
+    },
+    {
+      "id": "npc-235909",
+      "name": "Furze",
+      "category": "quest-giver",
+      "x": 45.29,
+      "y": 22.34,
+      "verification": "forever-confirmed",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Talk to Furze and return here with Bramblesnap’s Panacea.",
+      "npcId": "235909",
+      "questIds": [
+        "86799",
+        "86813"
+      ]
+    },
+    {
+      "id": "npc-235906",
+      "name": "Elder Bramblesnap",
+      "category": "quest-giver",
+      "x": 41.8,
+      "y": 20.0,
+      "verification": "forever-confirmed",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Report Furze’s illness here, then investigate the Legashi Cauldron. Ursolan shared pin. Recorded position 41.67, 19.54.",
+      "npcId": "235906",
+      "questIds": [
+        "86804",
+        "86812",
+        "86813",
+        "86799",
+        "86927"
+      ],
+      "sourceCoordinates": {
+        "x": 41.67,
+        "y": 19.54
+      },
+      "displayGroup": "Ursolan"
+    },
+    {
+      "id": "npc-249853",
+      "name": "Lorekeeper Nok",
+      "category": "quest-giver",
+      "x": 41.8,
+      "y": 20.0,
+      "verification": "forever-confirmed",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Pick up The Twin Bears here and bring back the two totems from Blackmaw Hold. Ursolan shared pin. Recorded position 41.31, 20.10.",
+      "npcId": "249853",
+      "questIds": [
+        "92066"
+      ],
+      "sourceCoordinates": {
+        "x": 41.31,
+        "y": 20.1
+      },
+      "displayGroup": "Ursolan"
+    },
+    {
+      "id": "npc-11548",
+      "name": "Loh'atu",
+      "category": "quest-giver",
+      "x": 11.9,
+      "y": 77.8,
+      "verification": "community-reference",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "note": "Find Loh’atu near the Ashenvale road. Talrendis Point shared pin. Recorded position 11.40, 78.20.",
+      "npcId": "11548",
+      "questIds": [
+        "5535",
+        "5536"
+      ],
+      "sourceCoordinates": {
+        "x": 11.4,
+        "y": 78.2
+      },
+      "displayGroup": "Talrendis Point"
+    },
+    {
+      "id": "npc-8420",
+      "name": "Kim'jael",
+      "category": "quest-giver",
+      "x": 53.5,
+      "y": 21.8,
+      "verification": "community-reference",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "note": "The equipment crates are southeast of Kim’jael around Thalassian Base Camp.",
+      "npcId": "8420",
+      "questIds": [
+        "3601",
+        "5534"
+      ]
+    },
+    {
+      "id": "npc-8379",
+      "name": "Archmage Xylem",
+      "category": "quest-giver",
+      "x": 29.2,
+      "y": 40.2,
+      "verification": "community-reference",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "note": "Take Sanath Lim-yo’s teleport and follow the trail to the tower. Turn in Sealed Azure Bag and the Demonslaying writ here.",
+      "npcId": "8379",
+      "questIds": [
+        "8235",
+        "8236",
+        "8234",
+        "94316"
+      ]
+    },
+    {
+      "id": "npc-8395",
+      "name": "Sanath Lim-yo",
+      "category": "quest-giver",
+      "x": 28.1,
+      "y": 50.1,
+      "verification": "community-reference",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "note": "Speak to Sanath for the free teleport to the trail toward Archmage Xylem.",
+      "npcId": "8395",
+      "questIds": [
+        "3503"
+      ]
+    },
+    {
+      "id": "npc-8399",
+      "name": "Nyrill",
+      "category": "quest-giver",
+      "x": 26.5,
+      "y": 46.3,
+      "verification": "community-reference",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "note": "Speak to Nyrill for the return teleport.",
+      "npcId": "8399",
+      "questIds": [
+        "3421"
+      ]
+    },
+    {
+      "id": "npc-8405",
+      "name": "Ogtinc",
+      "category": "quest-giver",
+      "x": 42.4,
+      "y": 42.6,
+      "verification": "community-reference",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "note": "Near the Ruins of Eldarath. Pick up Claws That Rend, Tusks that Gore before entering Blackmaw Hold.",
+      "npcId": "8405",
+      "questIds": [
+        "92069"
+      ]
+    },
+    {
+      "id": "npc-7866",
+      "name": "Peter Galen",
+      "category": "quest-giver",
+      "x": 37.6,
+      "y": 65.4,
+      "verification": "community-reference",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "note": "Alliance Dragonscale Leatherworking trainer.",
+      "npcId": "7866",
+      "questIds": [
+        "5141"
+      ]
+    },
+    {
+      "id": "npc-8380",
+      "name": "Captain Vanessa Beltis",
+      "category": "quest-giver",
+      "x": 53.1,
+      "y": 87.8,
+      "verification": "community-reference",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "note": "Speak to Vanessa at the Horizon Scout wreck to start the defense event.",
+      "npcId": "8380",
+      "questIds": [
+        "3382"
+      ]
+    },
+    {
+      "id": "npc-7783",
+      "name": "Loramus Thalipedes",
+      "category": "quest-giver",
+      "x": 60.8,
+      "y": 66.4,
+      "verification": "community-reference",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "note": "Find Loramus on the island in the Bay of Storms.",
+      "npcId": "7783",
+      "questIds": [
+        "3141",
+        "3508",
+        "3509",
+        "3602",
+        "3621",
+        "91877",
+        "2744",
+        "3511"
+      ]
+    },
+    {
+      "id": "npc-6134",
+      "name": "Lord Arkkoroc",
+      "category": "quest-giver",
+      "x": 77.1,
+      "y": 42.8,
+      "verification": "community-reference",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "note": "Meet Lord Arkkoroc at the Temple of Arkkoran. Return with Hetaera’s three heads.",
+      "npcId": "6134",
+      "questIds": [
+        "3510",
+        "3511",
+        "3509"
+      ]
+    },
+    {
+      "id": "npc-13278",
+      "name": "Duke Hydraxis",
+      "category": "quest-giver",
+      "x": 79.3,
+      "y": 73.7,
+      "verification": "community-reference",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "note": "Hydraxian Waterlords quest giver on the island east of the Bay of Storms.",
+      "npcId": "13278",
+      "questIds": [
+        "6804",
+        "6805",
+        "6821",
+        "6822",
+        "6823",
+        "6824",
+        "7486"
+      ]
+    },
+    {
+      "id": "npc-15600",
+      "name": "Elder Skygleam",
+      "category": "quest-giver",
+      "x": 72.5,
+      "y": 85.2,
+      "verification": "community-reference",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "note": "Ravencrest Monument. Appears during the Lunar Festival.",
+      "npcId": "15600",
+      "questIds": [
+        "8720"
+      ]
+    },
+    {
+      "id": "npc-8392",
+      "name": "Pilot Xiggs Fuselighter",
+      "category": "quest-giver",
+      "x": 77.8,
+      "y": 91.4,
+      "verification": "community-reference",
+      "sources": [
+        "quests",
+        "runes"
+      ],
+      "note": "Stand at the southern island landing and fire the Standard Issue Flare Gun to summon Xiggs. Hand in the rubbings here and pick up Return to Tymor.",
+      "npcId": "8392",
+      "questIds": [
+        "3449",
+        "3461"
+      ]
+    },
+    {
+      "id": "flight-talrendis",
+      "name": "Talrendis Point flight path",
+      "category": "landmark",
+      "x": 11.9,
+      "y": 77.8,
+      "verification": "community-reference",
+      "sources": [
+        "flight"
+      ],
+      "note": "Alliance flight path. Talrendis Point shared pin. Flight master reference 11.9, 77.5.",
+      "sourceCoordinates": {
+        "x": 11.9,
+        "y": 77.5
+      },
+      "displayGroup": "Talrendis Point"
+    },
+    {
+      "id": "entrance-blackmaw",
+      "name": "Blackmaw Hold tunnel entrance",
+      "category": "entrance",
+      "x": 38.7,
+      "y": 33.2,
+      "verification": "player-reported",
+      "sources": [
+        "blackmaw",
+        "blackmaw-route"
+      ],
+      "note": "Enter at the carved bear gate near the meeting stone. Follow the tunnel northwest and uphill to the dungeon portal.",
+      "approximate": true,
+      "questIds": [
+        "92065",
+        "92066",
+        "92069",
+        "97327",
+        "96246"
+      ]
+    },
+    {
+      "id": "landmark-ursolan",
+      "name": "Ursolan",
+      "category": "landmark",
+      "x": 41.8,
+      "y": 20.0,
+      "verification": "community-reference",
+      "sources": [
+        "quests"
+      ],
+      "note": "Blackmaw refugee quest hub. Timbermaw Hold quests here may require Neutral reputation.",
+      "questIds": [
+        "86798"
+      ]
+    },
+    {
+      "id": "object-506307",
+      "name": "Legashi Cauldron",
+      "category": "quest-object",
+      "x": 57.7,
+      "y": 21.02,
+      "verification": "forever-confirmed",
+      "sources": [
+        "object-traces",
+        "quests"
+      ],
+      "note": "At Legashi Encampment. Investigate the Firewater, then use the cauldron for the follow-up quests.",
+      "objectId": "506307",
+      "questIds": [
+        "86804",
+        "86925",
+        "86926",
+        "86927"
+      ]
+    },
+    {
+      "id": "object-527828",
+      "name": "Saria's Knapsack",
+      "category": "quest-object",
+      "x": 49.42,
+      "y": 41.81,
+      "verification": "forever-confirmed",
+      "sources": [
+        "object-traces",
+        "quests"
+      ],
+      "note": "Find the knapsack on the Shattered Strand, then take it to Commander Truesong.",
+      "objectId": "527828",
+      "questIds": [
+        "89053",
+        "89470"
+      ]
+    },
+    {
+      "id": "object-524759",
+      "name": "Sesspira's Hoard",
+      "category": "quest-chest",
+      "x": 40.98,
+      "y": 50.55,
+      "verification": "forever-confirmed",
+      "sources": [
+        "object-traces",
+        "quests",
+        "hoard"
+      ],
+      "note": "Open with Lady Sesspira’s Key to recover the Staff of Archmage Selwyn.",
+      "objectId": "524759",
+      "aliases": [
+        "Staff of Archmage Selwyn"
+      ],
+      "questIds": [
+        "88917"
+      ]
+    },
+    {
+      "id": "object-525677",
+      "name": "Mark of the Queen",
+      "category": "quest-object",
+      "x": 71.24,
+      "y": 89.5,
+      "verification": "forever-confirmed",
+      "sources": [
+        "object-traces",
+        "quests"
+      ],
+      "note": "Recover the Mark of the Queen among the ruins at Ravencrest Monument.",
+      "objectId": "525677",
+      "questIds": [
+        "89038"
+      ]
+    },
+    {
+      "id": "object-524260",
+      "name": "Highborne Tablet",
+      "category": "quest-object",
+      "x": 49.16,
+      "y": 49.58,
+      "verification": "forever-confirmed",
+      "sources": [
+        "object-traces",
+        "quests",
+        "tablets"
+      ],
+      "note": "Look for a tablet in the naga-guarded structures on Southridge Beach.",
+      "objectId": "524260",
+      "aliases": [
+        "Southridge Beach",
+        "Tablet of Creation",
+        "Tablet of Manipulation",
+        "Tablet of Power"
+      ],
+      "questIds": [
+        "88884"
+      ]
+    },
+    {
+      "id": "object-524284",
+      "name": "Highborne Tablet",
+      "category": "quest-object",
+      "x": 48.85,
+      "y": 55.22,
+      "verification": "forever-confirmed",
+      "sources": [
+        "object-traces",
+        "quests",
+        "tablets"
+      ],
+      "note": "Look for a tablet in the naga-guarded structures on Southridge Beach.",
+      "objectId": "524284",
+      "aliases": [
+        "Southridge Beach",
+        "Tablet of Creation",
+        "Tablet of Manipulation",
+        "Tablet of Power"
+      ],
+      "questIds": [
+        "88884"
+      ]
+    },
+    {
+      "id": "object-524298",
+      "name": "Highborne Tablet",
+      "category": "quest-object",
+      "x": 49.99,
+      "y": 63.8,
+      "verification": "forever-confirmed",
+      "sources": [
+        "object-traces",
+        "quests",
+        "tablets"
+      ],
+      "note": "Look for a tablet in the naga-guarded structures on Southridge Beach.",
+      "objectId": "524298",
+      "aliases": [
+        "Southridge Beach",
+        "Tablet of Creation",
+        "Tablet of Manipulation",
+        "Tablet of Power"
+      ],
+      "questIds": [
+        "88884"
+      ]
+    },
+    {
+      "id": "npc-239939",
+      "name": "Lord Sarthiss",
+      "category": "quest-object",
+      "x": 35.74,
+      "y": 57.0,
+      "verification": "player-reported",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Patrols the Ruins of Eldarath. Bring his head and 12 Eldarath Relics to Commander Truesong.",
+      "npcId": "239939",
+      "approximate": true,
+      "questIds": [
+        "88809"
+      ]
+    },
+    {
+      "id": "npc-239942",
+      "name": "Lady Sesspira",
+      "category": "quest-object",
+      "x": 36.96,
+      "y": 51.18,
+      "verification": "player-reported",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Patrols the Ruins of Eldarath. Loot the key to open Sesspira’s Hoard.",
+      "npcId": "239942",
+      "approximate": true,
+      "questIds": [
+        "88917"
+      ]
+    },
+    {
+      "id": "npc-239971",
+      "name": "Razorgill",
+      "category": "quest-object",
+      "x": 89.06,
+      "y": 31.99,
+      "verification": "player-reported",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Look near the Tower of Eldara on the northeastern coast. Loot the Memory Crystal.",
+      "npcId": "239971",
+      "approximate": true,
+      "questIds": [
+        "89037"
+      ]
+    },
+    {
+      "id": "npc-236496",
+      "name": "Master Feardred",
+      "category": "quest-object",
+      "x": 61.51,
+      "y": 24.29,
+      "verification": "player-reported",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Look for the quest target in the Legashi Encampment. Recover his amulet for Korsa.",
+      "npcId": "236496",
+      "approximate": true,
+      "questIds": [
+        "86777"
+      ]
+    },
+    {
+      "id": "npc-235892",
+      "name": "Prince Halanox",
+      "category": "quest-object",
+      "x": 66.59,
+      "y": 19.57,
+      "verification": "player-reported",
+      "sources": [
+        "npc-traces",
+        "quests"
+      ],
+      "note": "Defeat Prince Halanox and plant the Timbermaw War Banner at Legashi Stronghold.",
+      "npcId": "235892",
+      "approximate": true,
+      "questIds": [
+        "86814"
+      ]
+    },
+    {
+      "id": "power-stone-1",
+      "name": "Naga Power Stone",
+      "category": "quest-object",
+      "x": 66.1,
+      "y": 77.2,
+      "verification": "player-reported",
+      "sources": [
+        "stones"
+      ],
+      "note": "Use the Nullifying Ward near this stone. Nullify all three.",
+      "questIds": [
+        "88812"
+      ]
+    },
+    {
+      "id": "power-stone-2",
+      "name": "Naga Power Stone",
+      "category": "quest-object",
+      "x": 70.6,
+      "y": 81.4,
+      "verification": "player-reported",
+      "sources": [
+        "stones"
+      ],
+      "note": "Use the Nullifying Ward near this stone. Nullify all three.",
+      "questIds": [
+        "88812"
+      ]
+    },
+    {
+      "id": "power-stone-3",
+      "name": "Naga Power Stone",
+      "category": "quest-object",
+      "x": 66.0,
+      "y": 91.0,
+      "verification": "player-reported",
+      "sources": [
+        "stones"
+      ],
+      "note": "Use the Nullifying Ward near this stone. Nullify all three.",
+      "questIds": [
+        "88812"
+      ]
+    },
+    {
+      "id": "object-148513",
+      "name": "Rune of Jin'yael",
+      "category": "quest-object",
+      "x": 36.44,
+      "y": 54.05,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Use Tymor’s Drawing Kit on the Tablet of Jin’yael. One Classic spawn reference.",
+      "objectId": "148513",
+      "questIds": [
+        "3449"
+      ]
+    },
+    {
+      "id": "object-148514",
+      "name": "Rune of Markri",
+      "category": "quest-object",
+      "x": 37.84,
+      "y": 50.01,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Use Tymor’s Drawing Kit on the Tablet of Markri. One Classic spawn reference.",
+      "objectId": "148514",
+      "questIds": [
+        "3449"
+      ]
+    },
+    {
+      "id": "object-148515",
+      "name": "Rune of Sael'hai",
+      "category": "quest-object",
+      "x": 37.14,
+      "y": 60.51,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Use Tymor’s Drawing Kit on the Tablet of Sael’hai. One Classic spawn reference.",
+      "objectId": "148515",
+      "questIds": [
+        "3449"
+      ]
+    },
+    {
+      "id": "object-148516",
+      "name": "Rune of Beth'Amara",
+      "category": "quest-object",
+      "x": 35.19,
+      "y": 58.02,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Use Tymor’s Drawing Kit on the Tablet of Beth’Amara. One Classic spawn reference.",
+      "objectId": "148516",
+      "questIds": [
+        "3449"
+      ]
+    },
+    {
+      "id": "object-176356",
+      "name": "Sacred Highborne Writings",
+      "category": "quest-object",
+      "x": 41.51,
+      "y": 52.54,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Collect the writings in the Temple of Zin-Malor. Return them to Aurora Skycaller in Eastern Plaguelands.",
+      "objectId": "176356",
+      "questIds": [
+        "5246"
+      ]
+    },
+    {
+      "id": "object-180669",
+      "name": "Swirling Maelstrom",
+      "category": "quest-object",
+      "x": 65.89,
+      "y": 54.1,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Use the Arcanite Buoy here to summon Maws during The Wrath of Neptulon.",
+      "objectId": "180669",
+      "questIds": [
+        "8729"
+      ]
+    },
+    {
+      "id": "object-179551",
+      "name": "Hydraxis’ Coffer",
+      "category": "quest-chest",
+      "x": 79.24,
+      "y": 74.87,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Look in the water just south of Duke Hydraxis to claim your reward.",
+      "objectId": "179551",
+      "questIds": [
+        "7486"
+      ]
+    },
+    {
+      "id": "object-153123-1",
+      "name": "Kim'jael's Equipment",
+      "category": "quest-object",
+      "x": 56.09,
+      "y": 30.2,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Search equipment crates around Thalassian Base Camp for Kim’jael’s four missing items. This is one Classic crate position.",
+      "objectId": "153123",
+      "questIds": [
+        "3601"
+      ]
+    },
+    {
+      "id": "object-153123-2",
+      "name": "Kim'jael's Equipment",
+      "category": "quest-object",
+      "x": 57.03,
+      "y": 28.3,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Search equipment crates around Thalassian Base Camp for Kim’jael’s four missing items. This is one Classic crate position.",
+      "objectId": "153123",
+      "questIds": [
+        "3601"
+      ]
+    },
+    {
+      "id": "object-153123-3",
+      "name": "Kim'jael's Equipment",
+      "category": "quest-object",
+      "x": 58.51,
+      "y": 24.97,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Search equipment crates around Thalassian Base Camp for Kim’jael’s four missing items. This is one Classic crate position.",
+      "objectId": "153123",
+      "questIds": [
+        "3601"
+      ]
+    },
+    {
+      "id": "object-153123-4",
+      "name": "Kim'jael's Equipment",
+      "category": "quest-object",
+      "x": 59.15,
+      "y": 32.04,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Search equipment crates around Thalassian Base Camp for Kim’jael’s four missing items. This is one Classic crate position.",
+      "objectId": "153123",
+      "questIds": [
+        "3601"
+      ]
+    },
+    {
+      "id": "npc-8408",
+      "name": "Warlord Krellian",
+      "category": "quest-object",
+      "x": 41.02,
+      "y": 53.05,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Look inside the Temple of Zin-Malor. Bring his head to Commander Truesong.",
+      "npcId": "8408",
+      "questIds": [
+        "88813"
+      ]
+    },
+    {
+      "id": "npc-6140",
+      "name": "Hetaera",
+      "category": "quest-object",
+      "x": 56.73,
+      "y": 44.79,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Look in the Bay of Storms for Hetaera. Collect all three heads.",
+      "npcId": "6140",
+      "questIds": [
+        "3510"
+      ]
+    },
+    {
+      "id": "npc-15481",
+      "name": "Spirit of Azuregos",
+      "category": "quest-object",
+      "x": 52.98,
+      "y": 81.73,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Roams the southern peninsula. Speak to the spirit to receive the Magical Ledger.",
+      "npcId": "15481",
+      "approximate": true,
+      "questIds": [
+        "8575"
+      ]
+    },
+    {
+      "id": "npc-6109",
+      "name": "Azuregos",
+      "category": "boss",
+      "x": 53.26,
+      "y": 80.43,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "azuregos"
+      ],
+      "note": "World boss patrol reference on the southern peninsula.",
+      "npcId": "6109",
+      "approximate": true
+    },
+    {
+      "id": "area-shadowsong",
+      "name": "Shadowsong Shrine",
+      "category": "quest-material",
+      "x": 15.8,
+      "y": 72.7,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Look around the ruins for Highborne Apparitions and Highborne Lichlings.",
+      "approximate": true,
+      "questIds": [
+        "5535"
+      ]
+    },
+    {
+      "id": "area-haldarr",
+      "name": "Haldarr Encampment",
+      "category": "quest-material",
+      "x": 20.4,
+      "y": 63.7,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Look around the encampment for Haldarr Satyrs, Tricksters, and Felsworn.",
+      "approximate": true,
+      "questIds": [
+        "5536"
+      ]
+    },
+    {
+      "id": "area-spitelash",
+      "name": "Spitelash Warrior hunting area",
+      "category": "quest-material",
+      "x": 32.9,
+      "y": 49.8,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Search the approaches to Eldarath for Spitelash Warriors and Screamers.",
+      "approximate": true,
+      "questIds": [
+        "88807"
+      ]
+    },
+    {
+      "id": "area-legashi",
+      "name": "Legashi hunting area",
+      "category": "quest-material",
+      "x": 61.4,
+      "y": 25.2,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Look for Legashi satyrs nearby. Explore the stronghold farther northeast for Hellraisers, Soulstealers, and Blackguards.",
+      "approximate": true,
+      "questIds": [
+        "86746",
+        "86747",
+        "86792"
+      ]
+    },
+    {
+      "id": "area-timbermaw",
+      "name": "Timbermaw Shaman hunting area",
+      "category": "quest-material",
+      "x": 44.4,
+      "y": 26.3,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Check the woods south of Ursolan for Timbermaw Shamans carrying the Sealed Azure Bag.",
+      "approximate": true,
+      "questIds": [
+        "8234"
+      ]
+    },
+    {
+      "id": "rare-6118-1",
+      "name": "Varo'then's Ghost",
+      "category": "rare",
+      "x": 13.2,
+      "y": 74.2,
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ],
+      "note": "Level 48 in the Classic data.",
+      "npcId": "6118"
+    },
+    {
+      "id": "rare-8660-1",
+      "name": "The Evalcharr",
+      "category": "rare",
+      "x": 17.9,
+      "y": 65.6,
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ],
+      "note": "Level 48 in the Classic data.",
+      "npcId": "8660"
+    },
+    {
+      "id": "rare-6648-1",
+      "name": "Antilos",
+      "category": "rare",
+      "x": 16.6,
+      "y": 54.1,
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ],
+      "note": "Level 50 in the Classic data.",
+      "npcId": "6648"
+    },
+    {
+      "id": "rare-6650-1",
+      "name": "General Fangferror",
+      "category": "rare",
+      "x": 41.3,
+      "y": 54,
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ],
+      "note": "Level 50–51 in the Classic data.",
+      "npcId": "6650"
+    },
+    {
+      "id": "rare-6647-1",
+      "name": "Magister Hawkhelm",
+      "category": "rare",
+      "x": 56.9,
+      "y": 28.6,
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ],
+      "note": "Level 51–52 in the Classic data.",
+      "npcId": "6647"
+    },
+    {
+      "id": "rare-6647-2",
+      "name": "Magister Hawkhelm",
+      "category": "rare",
+      "x": 59.6,
+      "y": 31.4,
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ],
+      "note": "Level 51–52 in the Classic data.",
+      "npcId": "6647"
+    },
+    {
+      "id": "rare-13896-1",
+      "name": "Scalebeard",
+      "category": "rare",
+      "x": 52.6,
+      "y": 47.4,
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ],
+      "note": "Level 52 in the Classic data.",
+      "npcId": "13896"
+    },
+    {
+      "id": "rare-6646-1",
+      "name": "Monnos the Elder",
+      "category": "rare",
+      "x": 76.2,
+      "y": 25.4,
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ],
+      "note": "Level 53–54 in the Classic data.",
+      "npcId": "6646"
+    },
+    {
+      "id": "object-153451-15-73.1",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 15,
+      "y": 73.1,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153451"
+    },
+    {
+      "id": "object-153451-17.6-68.9",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 17.6,
+      "y": 68.9,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153451"
+    },
+    {
+      "id": "object-153451-20.5-62.4",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 20.5,
+      "y": 62.4,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153451"
+    },
+    {
+      "id": "object-153451-25.9-61.4",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 25.9,
+      "y": 61.4,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153451"
+    },
+    {
+      "id": "object-153451-26.6-56",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 26.6,
+      "y": 56,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153451"
+    },
+    {
+      "id": "object-153451-29.2-53",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 29.2,
+      "y": 53,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153451"
+    },
+    {
+      "id": "object-153451-32-51.5",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 32,
+      "y": 51.5,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153451"
+    },
+    {
+      "id": "object-153451-32.4-45.3",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 32.4,
+      "y": 45.3,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153451"
+    },
+    {
+      "id": "object-153451-34.7-40.6",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 34.7,
+      "y": 40.6,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153451"
+    },
+    {
+      "id": "object-153451-35.5-35.9",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 35.5,
+      "y": 35.9,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153451"
+    },
+    {
+      "id": "object-153451-35.7-52.4",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 35.7,
+      "y": 52.4,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153451"
+    },
+    {
+      "id": "object-153451-38.4-47.8",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 38.4,
+      "y": 47.8,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153451"
+    },
+    {
+      "id": "object-153451-41.2-49.9",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 41.2,
+      "y": 49.9,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153451"
+    },
+    {
+      "id": "object-153453-38-80.3",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 38,
+      "y": 80.3,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153453"
+    },
+    {
+      "id": "object-153453-41.4-20.3",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 41.4,
+      "y": 20.3,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153453"
+    },
+    {
+      "id": "object-153453-41.9-76.5",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 41.9,
+      "y": 76.5,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153453"
+    },
+    {
+      "id": "object-153453-43.6-81.8",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 43.6,
+      "y": 81.8,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153453"
+    },
+    {
+      "id": "object-153453-44.4-26.1",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 44.4,
+      "y": 26.1,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153453"
+    },
+    {
+      "id": "object-153453-51.2-18.9",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 51.2,
+      "y": 18.9,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153453"
+    },
+    {
+      "id": "object-153453-56.3-28.5",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 56.3,
+      "y": 28.5,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153453"
+    },
+    {
+      "id": "object-153453-61.6-25",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 61.6,
+      "y": 25,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153453"
+    },
+    {
+      "id": "object-153453-62.1-93.6",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 62.1,
+      "y": 93.6,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153453"
+    },
+    {
+      "id": "object-153453-65.9-76.9",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 65.9,
+      "y": 76.9,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153453"
+    },
+    {
+      "id": "object-153453-76.5-45.9",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 76.5,
+      "y": 45.9,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153453"
+    },
+    {
+      "id": "object-153453-77.8-30.8",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 77.8,
+      "y": 30.8,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic treasure chest location.",
+      "objectId": "153453"
+    },
+    {
+      "id": "object-179497-46.4-42.4",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 46.4,
+      "y": 42.4,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-47.4-46.2",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 47.4,
+      "y": 46.2,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-49.6-41.7",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 49.6,
+      "y": 41.7,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-49.9-63.5",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 49.9,
+      "y": 63.5,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-50.5-64.8",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 50.5,
+      "y": 64.8,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-52.6-59.5",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 52.6,
+      "y": 59.5,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-55.1-48.3",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 55.1,
+      "y": 48.3,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-56.4-58.2",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 56.4,
+      "y": 58.2,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-57.9-56.7",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 57.9,
+      "y": 56.7,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-58.2-42.9",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 58.2,
+      "y": 42.9,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-59.2-43.1",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 59.2,
+      "y": 43.1,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-60.6-50.8",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 60.6,
+      "y": 50.8,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-61.2-71.1",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 61.2,
+      "y": 71.1,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-66-32.7",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 66,
+      "y": 32.7,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-71.3-74.4",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 71.3,
+      "y": 74.4,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-73.1-40.9",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 73.1,
+      "y": 40.9,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-77.5-45.6",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 77.5,
+      "y": 45.6,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-78-44.9",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 78,
+      "y": 44.9,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-78.5-85.7",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 78.5,
+      "y": 85.7,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-78.6-39.1",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 78.6,
+      "y": 39.1,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    },
+    {
+      "id": "object-179497-82.5-30.7",
+      "name": "Mossy Footlocker",
+      "category": "footlocker-179497",
+      "x": 82.5,
+      "y": 30.7,
+      "verification": "classic-derived",
+      "sources": [
+        "chests"
+      ],
+      "note": "Possible Classic spawn location in the Bay of Storms and surrounding coast.",
+      "objectId": "179497",
+      "lockpicking": 225
+    }
+  ],
+  "sources": {
+    "map": {
+      "name": "ForeverDB Azshara client map",
+      "url": "https://foreverdb.net/maps/1447"
+    },
+    "bounds": {
+      "name": "Forever client zone boundaries",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "quests": {
+      "name": "Azshara quest coverage and coordinate references",
+      "url": "https://github.com/ttdow/wow-forever-quest-tracker/blob/main/research/azshara/README.md"
+    },
+    "npc-traces": {
+      "name": "Questie Forever player-recorded NPCs",
+      "url": "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    },
+    "object-traces": {
+      "name": "Questie Forever player-recorded objects",
+      "url": "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverObjectTraces.lua"
+    },
+    "classic": {
+      "name": "QuestieDB Classic spawn references",
+      "url": "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    },
+    "givers": {
+      "name": "ForeverDB Classic quest giver records",
+      "url": "https://foreverdb.net/data/maps/layer-questgivers.json"
+    },
+    "rares": {
+      "name": "The Forever Era Classic rare layers",
+      "url": "https://theforeverera.com/data/map-layers/r.json?v=20261108113959"
+    },
+    "chests": {
+      "name": "The Forever Era Classic chest and lockpicking layers",
+      "url": "https://theforeverera.com/data/map-layers/k.json?v=20261108113959"
+    },
+    "blackmaw": {
+      "name": "Blackmaw Hold outdoor tunnel reference",
+      "url": "https://www.ratchetreserve.com/dungeons/blackmaw-hold"
+    },
+    "blackmaw-route": {
+      "name": "Blackmaw Hold entrance route",
+      "url": "https://www.warcrafttavern.com/forever/guides/blackmaw-hold"
+    },
+    "flight": {
+      "name": "Azshara Alliance flight point",
+      "url": "https://maxdps.com/forever/zones/azshara#flight-points"
+    },
+    "stones": {
+      "name": "Reclaiming Ravencrest player waypoints",
+      "url": "https://www.wowhead.com/forever/quest=88812/reclaiming-ravencrest#comments"
+    },
+    "tablets": {
+      "name": "Highborne Tablets quest",
+      "url": "https://www.wowhead.com/forever/quest=88884/highborne-tablets"
+    },
+    "hoard": {
+      "name": "Sesspira's Hoard Forever object record",
+      "url": "https://outof.games/realms/forever/object/524759-sesspiras-hoard/"
+    },
+    "azuregos": {
+      "name": "Azuregos Forever NPC record",
+      "url": "https://www.wowhead.com/forever/npc=6109/azuregos"
+    },
+    "runes": {
+      "name": "Arcane Runes quest references",
+      "url": "https://questing.wiki/wow-forever/quests/3449/"
+    }
+  }
+}

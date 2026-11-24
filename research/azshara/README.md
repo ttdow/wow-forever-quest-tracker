@@ -2,6 +2,8 @@
 
 Researched November 23, 2026. **Zones → Azshara (45–55)** contains 76 Alliance and shared quests available to Rogues. The suggested range is for leveling. Individual quests in the checklist go up to level 60. [Zone level map](https://theforeverera.com/en/map/) · [Quest data](../../data/quests.json)
 
+Open **Map** in Azshara for quest givers, objectives, and the Blackmaw Hold tunnel entrance. [Azshara map research](../azshara-map/README.md)
+
 ## Coverage
 
 The review covers 130 candidates from the public indexes, QuestieDB's Azshara quest and NPC/object records, and quests with objectives in the zone. Of the 69 quests in ForeverChanges, 43 are included, 25 are Horde-only, and one is the unverified older feather teleport. The review also covers the 91-entry Legacy of Warcraft index, 80-entry PullCall index, 33-entry ForeverDB index, and 31 entries with Azshara map points on Questing Wiki. [Candidate decisions and source links](sources.json)

@@ -1,0 +1,107 @@
+{
+  "checked": "2026-11-24",
+  "zone": "Azshara",
+  "uiMapId": 1447,
+  "areaId": 16,
+  "questieRevision": "e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+  "sources": {
+    "map": {
+      "name": "ForeverDB Azshara client map",
+      "url": "https://foreverdb.net/maps/1447"
+    },
+    "bounds": {
+      "name": "Forever client zone boundaries",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "quests": {
+      "name": "Azshara quest coverage and coordinate references",
+      "url": "https://github.com/ttdow/wow-forever-quest-tracker/blob/main/research/azshara/README.md"
+    },
+    "npc-traces": {
+      "name": "Questie Forever player-recorded NPCs",
+      "url": "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    },
+    "object-traces": {
+      "name": "Questie Forever player-recorded objects",
+      "url": "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverObjectTraces.lua"
+    },
+    "classic": {
+      "name": "QuestieDB Classic spawn references",
+      "url": "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    },
+    "givers": {
+      "name": "ForeverDB Classic quest giver records",
+      "url": "https://foreverdb.net/data/maps/layer-questgivers.json"
+    },
+    "rares": {
+      "name": "The Forever Era Classic rare layers",
+      "url": "https://theforeverera.com/data/map-layers/r.json?v=20261108113959"
+    },
+    "chests": {
+      "name": "The Forever Era Classic chest and lockpicking layers",
+      "url": "https://theforeverera.com/data/map-layers/k.json?v=20261108113959"
+    },
+    "blackmaw": {
+      "name": "Blackmaw Hold outdoor tunnel reference",
+      "url": "https://www.ratchetreserve.com/dungeons/blackmaw-hold"
+    },
+    "blackmaw-route": {
+      "name": "Blackmaw Hold entrance route",
+      "url": "https://www.warcrafttavern.com/forever/guides/blackmaw-hold"
+    },
+    "flight": {
+      "name": "Azshara Alliance flight point",
+      "url": "https://maxdps.com/forever/zones/azshara#flight-points"
+    },
+    "stones": {
+      "name": "Reclaiming Ravencrest player waypoints",
+      "url": "https://www.wowhead.com/forever/quest=88812/reclaiming-ravencrest#comments"
+    },
+    "tablets": {
+      "name": "Highborne Tablets quest",
+      "url": "https://www.wowhead.com/forever/quest=88884/highborne-tablets"
+    },
+    "hoard": {
+      "name": "Sesspira's Hoard Forever object record",
+      "url": "https://outof.games/realms/forever/object/524759-sesspiras-hoard/"
+    },
+    "azuregos": {
+      "name": "Azuregos Forever NPC record",
+      "url": "https://www.wowhead.com/forever/npc=6109/azuregos"
+    },
+    "runes": {
+      "name": "Arcane Runes quest references",
+      "url": "https://questing.wiki/wow-forever/quests/3449/"
+    }
+  },
+  "image": {
+    "url": "https://foreverdb.net/img/maps/game/1447.webp",
+    "width": 1002,
+    "height": 668,
+    "sha256": "a744ad250b5c7db82c7cd273f9d33965d64ad82663944e5d8047f2ce339dffd5"
+  },
+  "sourceHashes": {
+    "bounds": "062342dd05d8507b961cac5f25808e727228fc8be93926a6b9b65dcc266a5747",
+    "rares": "d942a4620ce2846ec91a2e8153588bf0c52816ccef395458a6dc336d02fd1153",
+    "chests": "f573a50133f5e37bc72c70eecb44c7f98400ed330121bf2da2f106d2802a59f4"
+  },
+  "coverage": {
+    "entries": 116,
+    "trackedQuestIds": 75,
+    "categories": {
+      "quest-giver": 24,
+      "landmark": 2,
+      "entrance": 1,
+      "quest-object": 27,
+      "quest-chest": 2,
+      "boss": 1,
+      "quest-material": 5,
+      "rare": 8,
+      "dungeon-chest": 25,
+      "footlocker-179497": 21
+    },
+    "outsideAzshara": [
+      "87346"
+    ]
+  }
+}
