@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-25",
   "build": "1.60.1.70862",
   "instances": {
     "Deadmines": {
@@ -10217,6 +10217,3537 @@
             "https://www.wowhead.com/forever/item=10847",
             "https://nether.wowhead.com/forever/tooltip/item/10847",
             "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+          ]
+        }
+      ]
+    },
+    "Blackrock Depths": {
+      "id": 230,
+      "build": "1.60.1.71091",
+      "source": "https://foreverdb.net/dungeon/230-blackrock-depths",
+      "items": [
+        {
+          "id": "11624",
+          "name": "Kentic Amice",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Shoulder",
+          "type": "Cloth",
+          "stats": [
+            "56 Armor",
+            "+6 Stamina",
+            "+13 Intellect",
+            "+6 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 14 ."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "High Interrogator Gerstahn",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11624",
+            "https://nether.wowhead.com/forever/tooltip/item/11624",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11625",
+          "name": "Enthralled Sphere",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Held In Off-hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "+9 Intellect",
+            "+3 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 6 .",
+            "Use: Charm a targeted Dark Iron Dwarf for 20 sec. (15 Min Cooldown)"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "High Interrogator Gerstahn",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11625",
+            "https://nether.wowhead.com/forever/tooltip/item/11625",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11626",
+          "name": "Blackveil Cape",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "38 Armor",
+            "+6 Strength",
+            "+14 Agility",
+            "+4 Spirit"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "High Interrogator Gerstahn",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11626",
+            "https://nether.wowhead.com/forever/tooltip/item/11626",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22240",
+          "name": "Greaves of Withering Despair",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Feet",
+          "type": "Mail",
+          "stats": [
+            "218 Armor",
+            "+10 Stamina",
+            "+10 Intellect",
+            "Equip: Improves your chance to hit by 1.0%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 11 ."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "High Interrogator Gerstahn",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22240",
+            "https://nether.wowhead.com/forever/tooltip/item/22240",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11631",
+          "name": "Stoneshell Guard",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Off Hand",
+          "type": "Shield",
+          "stats": [
+            "1803 Armor",
+            "31 Block",
+            "+7 Strength",
+            "+9 Stamina",
+            "+100 Armor"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Lord Roccor",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11631",
+            "https://nether.wowhead.com/forever/tooltip/item/11631",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11632",
+          "name": "Earthslag Shoulders",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Shoulder",
+          "type": "Plate",
+          "stats": [
+            "410 Armor",
+            "+13 Strength",
+            "+8 Stamina",
+            "+8 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 11 ."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Lord Roccor",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11632",
+            "https://nether.wowhead.com/forever/tooltip/item/11632",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22234",
+          "name": "Mantle of Lost Hope",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Shoulder",
+          "type": "Cloth",
+          "stats": [
+            "57 Armor",
+            "+5 Stamina",
+            "+11 Intellect",
+            "Restores +4 mana per 5 sec.",
+            "Equip: Increases healing done by up to 26 and damage done by up to 9 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Lord Roccor",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22234",
+            "https://nether.wowhead.com/forever/tooltip/item/22234",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22397",
+          "name": "Idol of Ferocity",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Relic",
+          "type": "Idol",
+          "stats": [
+            "Equip: Reduces the energy cost of Claw and Rake by 2."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Lord Roccor",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22397",
+            "https://nether.wowhead.com/forever/tooltip/item/22397",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11623",
+          "name": "Spritecaster Cape",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "37 Armor",
+            "+5 Stamina",
+            "+6 Intellect",
+            "+6 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 14 ."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Houndmaster Grebmar",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11623",
+            "https://nether.wowhead.com/forever/tooltip/item/11623",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11627",
+          "name": "Fleetfoot Greaves",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Feet",
+          "type": "Mail",
+          "stats": [
+            "218 Armor",
+            "+19 Agility",
+            "+6 Stamina",
+            "+6 Intellect"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Houndmaster Grebmar",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11627",
+            "https://nether.wowhead.com/forever/tooltip/item/11627",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11628",
+          "name": "Houndmaster's Bow",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Ranged",
+          "type": "Bow",
+          "stats": [
+            "34 -64 Damage",
+            "Speed 1.80",
+            "27.22 DPS",
+            "+3 Strength",
+            "Equip: +12 Attack Power.",
+            "Equip: +12 Attack Power against Beasts."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Houndmaster Grebmar",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11628",
+            "https://nether.wowhead.com/forever/tooltip/item/11628",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11629",
+          "name": "Houndmaster's Rifle",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Ranged",
+          "type": "Gun",
+          "stats": [
+            "44 -82 Damage",
+            "Speed 2.30",
+            "27.39 DPS",
+            "+3 Agility",
+            "Equip: +12 Attack Power.",
+            "Equip: +12 Attack Power against Beasts."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Houndmaster Grebmar",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11629",
+            "https://nether.wowhead.com/forever/tooltip/item/11629",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11675",
+          "name": "Shadefiend Boots",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "109 Armor",
+            "+10 Strength",
+            "+11 Agility",
+            "+13 Stamina",
+            "+7 Shadow Resistance"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Anub'shiah",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11675",
+            "https://nether.wowhead.com/forever/tooltip/item/11675",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11677",
+          "name": "Graverot Cape",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "39 Armor",
+            "+15 Stamina",
+            "+5 Spirit",
+            "+40 Armor"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Anub'shiah",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11677",
+            "https://nether.wowhead.com/forever/tooltip/item/11677",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11678",
+          "name": "Carapace of Anub'shiah",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Chest",
+          "type": "Plate",
+          "stats": [
+            "577 Armor",
+            "+11 Strength",
+            "+11 Agility",
+            "+22 Stamina",
+            "+5 Shadow Resistance"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Anub'shiah",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11678",
+            "https://nether.wowhead.com/forever/tooltip/item/11678",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11731",
+          "name": "Savage Gladiator Greaves",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Feet",
+          "type": "Mail",
+          "stats": [
+            "233 Armor",
+            "+9 Strength",
+            "+15 Agility",
+            "+13 Stamina",
+            "2-piece set: Reduces the hit chance of Fear effects against you by 8%.",
+            "3-piece set: +20 Attack Power.",
+            "4-piece set: Chance on hit to gain 5% attack speed for 10 sec. Attacks while no allies are within 20 yds are 2 times as likely to activate this effect.",
+            "5-piece set: Improves your chance to get a critical strike by 1.0%."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Anub'shiah",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11731",
+            "https://nether.wowhead.com/forever/tooltip/item/11731",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11679",
+          "name": "Rubicund Armguards",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Wrist",
+          "type": "Mail",
+          "stats": [
+            "143 Armor",
+            "+8 Agility",
+            "+14 Stamina",
+            "+3 Intellect"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Eviscerator",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11679",
+            "https://nether.wowhead.com/forever/tooltip/item/11679",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11685",
+          "name": "Splinthide Shoulders",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Shoulder",
+          "type": "Leather",
+          "stats": [
+            "118 Armor",
+            "+11 Strength",
+            "+10 Stamina",
+            "+10 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 9 ."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Eviscerator",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11685",
+            "https://nether.wowhead.com/forever/tooltip/item/11685",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11686",
+          "name": "Girdle of Beastial Fury",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Waist",
+          "type": "Leather",
+          "stats": [
+            "89 Armor",
+            "+8 Strength",
+            "+10 Stamina",
+            "Equip: Increased Defense +6.",
+            "Equip: +30 Attack Power."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Eviscerator",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11686",
+            "https://nether.wowhead.com/forever/tooltip/item/11686",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11730",
+          "name": "Savage Gladiator Grips",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Hands",
+          "type": "Mail",
+          "stats": [
+            "211 Armor",
+            "+5 Strength",
+            "+9 Agility",
+            "+14 Stamina",
+            "+12 Intellect",
+            "2-piece set: Reduces the hit chance of Fear effects against you by 8%.",
+            "3-piece set: +20 Attack Power.",
+            "4-piece set: Chance on hit to gain 5% attack speed for 10 sec. Attacks while no allies are within 20 yds are 2 times as likely to activate this effect.",
+            "5-piece set: Improves your chance to get a critical strike by 1.0%."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Eviscerator",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11730",
+            "https://nether.wowhead.com/forever/tooltip/item/11730",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11726",
+          "name": "Savage Gladiator Chain",
+          "quality": 4,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Chest",
+          "type": "Mail",
+          "stats": [
+            "369 Armor",
+            "+16 Strength",
+            "+14 Agility",
+            "+18 Stamina",
+            "Equip: Improves your chance to get a critical strike by 1.5%.",
+            "Equip: Reduces the hit chance of Fear effects against you by 4%.",
+            "2-piece set: Reduces the hit chance of Fear effects against you by 8%.",
+            "3-piece set: +20 Attack Power.",
+            "4-piece set: Chance on hit to gain 5% attack speed for 10 sec. Attacks while no allies are within 20 yds are 2 times as likely to activate this effect.",
+            "5-piece set: Improves your chance to get a critical strike by 1.0%."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Gorosh the Dervish",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11726",
+            "https://nether.wowhead.com/forever/tooltip/item/11726",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22257",
+          "name": "Bloodclot Band",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "Unique-Equipped",
+            "+8 Stamina",
+            "+8 Intellect",
+            "+6 Spirit",
+            "Equip: Increases healing done by up to 15 and damage done by up to 5 for all magical spells and effects.",
+            "Equip: Reduces the hit chance of Bleed effects against you by 10%."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Gorosh the Dervish",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22257",
+            "https://nether.wowhead.com/forever/tooltip/item/22257",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22266",
+          "name": "Flarethorn",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Main Hand",
+          "type": "Dagger",
+          "stats": [
+            "31 -59 Damage",
+            "Speed 1.80",
+            "25.00 DPS",
+            "+5 Intellect",
+            "+12 Fire Resistance",
+            "Equip: Increases damage done by Fire spells and effects by up to 81."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Gorosh the Dervish",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22266",
+            "https://nether.wowhead.com/forever/tooltip/item/22266",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22271",
+          "name": "Leggings of Frenzied Magic",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "142 Armor",
+            "+15 Stamina",
+            "+15 Intellect",
+            "Restores +4 mana per 5 sec.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 16 ."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Gorosh the Dervish",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22271",
+            "https://nether.wowhead.com/forever/tooltip/item/22271",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11702",
+          "name": "Grizzle's Skinner",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Main Hand",
+          "type": "Axe",
+          "stats": [
+            "Unique",
+            "61 -114 Damage",
+            "Speed 2.40",
+            "36.46 DPS",
+            "+8 Strength",
+            "+6 Agility",
+            "+6 Stamina",
+            "Use: Skin a Humanoid target. (30 Sec Cooldown)",
+            "30 Charges"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Grizzle",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11702",
+            "https://nether.wowhead.com/forever/tooltip/item/11702",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11703",
+          "name": "Stonewall Girdle",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Waist",
+          "type": "Plate",
+          "stats": [
+            "324 Armor",
+            "+6 Strength",
+            "+12 Stamina",
+            "+160 Armor",
+            "Equip: Increased Defense +4."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Grizzle",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11703",
+            "https://nether.wowhead.com/forever/tooltip/item/11703",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11722",
+          "name": "Dregmetal Spaulders",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Shoulder",
+          "type": "Mail",
+          "stats": [
+            "246 Armor",
+            "+8 Strength",
+            "+6 Stamina",
+            "+17 Intellect",
+            "+9 Spirit"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Grizzle",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11722",
+            "https://nether.wowhead.com/forever/tooltip/item/11722",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22270",
+          "name": "Entrenching Boots",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Feet",
+          "type": "Plate",
+          "stats": [
+            "397 Armor",
+            "+11 Strength",
+            "+10 Stamina",
+            "+10 Intellect",
+            "Equip: Increased Defense +3.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 7 ."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Grizzle",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22270",
+            "https://nether.wowhead.com/forever/tooltip/item/22270",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "277117",
+          "name": "Savage Gladiator Shoulders",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Shoulder",
+          "type": "Mail",
+          "stats": [
+            "254 Armor",
+            "+11 Strength",
+            "+16 Stamina",
+            "Equip: Improves your chance to hit by 1.0%.",
+            "2-piece set: Reduces the hit chance of Fear effects against you by 8%.",
+            "3-piece set: +20 Attack Power.",
+            "4-piece set: Chance on hit to gain 5% attack speed for 10 sec. Attacks while no allies are within 20 yds are 2 times as likely to activate this effect.",
+            "5-piece set: Improves your chance to get a critical strike by 1.0%."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Grizzle",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=277117",
+            "https://nether.wowhead.com/forever/tooltip/item/277117",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11633",
+          "name": "Spiderfang Carapace",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Chest",
+          "type": "Plate",
+          "stats": [
+            "567 Armor",
+            "+14 Strength",
+            "+14 Stamina",
+            "+13 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 13 ."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Hedrum the Creeper",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11633",
+            "https://nether.wowhead.com/forever/tooltip/item/11633",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11634",
+          "name": "Silkweb Gloves",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "48 Armor",
+            "+14 Stamina",
+            "+13 Intellect",
+            "Restores +3 mana per 5 sec.",
+            "Equip: Increases healing done by up to 11 and damage done by up to 4 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Hedrum the Creeper",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11634",
+            "https://nether.wowhead.com/forever/tooltip/item/11634",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11635",
+          "name": "Hookfang Shanker",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "One-Hand",
+          "type": "Dagger",
+          "stats": [
+            "Unique-Equipped",
+            "35 -65 Damage",
+            "Speed 1.40",
+            "35.71 DPS",
+            "Chance on hit: Corrosive acid that deals 13 Nature damage every 2 sec and lowers target's armor by 50 for 14 sec."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Hedrum the Creeper",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11635",
+            "https://nether.wowhead.com/forever/tooltip/item/11635",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11729",
+          "name": "Savage Gladiator Helm",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Head",
+          "type": "Mail",
+          "stats": [
+            "275 Armor",
+            "+8 Strength",
+            "+12 Agility",
+            "+26 Stamina",
+            "2-piece set: Reduces the hit chance of Fear effects against you by 8%.",
+            "3-piece set: +20 Attack Power.",
+            "4-piece set: Chance on hit to gain 5% attack speed for 10 sec. Attacks while no allies are within 20 yds are 2 times as likely to activate this effect.",
+            "5-piece set: Improves your chance to get a critical strike by 1.0%."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Hedrum the Creeper",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11729",
+            "https://nether.wowhead.com/forever/tooltip/item/11729",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11662",
+          "name": "Ban'thok Sash",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "43 Armor",
+            "+10 Stamina",
+            "+10 Intellect",
+            "Equip: Improves your chance to hit by 1.0%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 12 ."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Ok'thor the Breaker",
+          "sourceOrder": 9,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11662",
+            "https://nether.wowhead.com/forever/tooltip/item/11662",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11665",
+          "name": "Ogreseer Fists",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "97 Armor",
+            "+9 Stamina",
+            "+10 Intellect",
+            "+10 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 13 ."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Ok'thor the Breaker",
+          "sourceOrder": 9,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11665",
+            "https://nether.wowhead.com/forever/tooltip/item/11665",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11728",
+          "name": "Savage Gladiator Leggings",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "296 Armor",
+            "+12 Strength",
+            "+18 Agility",
+            "+19 Stamina",
+            "Restores +6 health per 5 sec.",
+            "2-piece set: Reduces the hit chance of Fear effects against you by 8%.",
+            "3-piece set: +20 Attack Power.",
+            "4-piece set: Chance on hit to gain 5% attack speed for 10 sec. Attacks while no allies are within 20 yds are 2 times as likely to activate this effect.",
+            "5-piece set: Improves your chance to get a critical strike by 1.0%."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Ok'thor the Breaker",
+          "sourceOrder": 9,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11728",
+            "https://nether.wowhead.com/forever/tooltip/item/11728",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11824",
+          "name": "Cyclopean Band",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "Unique-Equipped",
+            "+4 Strength",
+            "+8 Stamina",
+            "+7 Intellect",
+            "+4 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 9 ."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Ok'thor the Breaker",
+          "sourceOrder": 9,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11824",
+            "https://nether.wowhead.com/forever/tooltip/item/11824",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22305",
+          "name": "Ironweave Mantle",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Shoulder",
+          "type": "Cloth",
+          "stats": [
+            "65 Armor",
+            "+17 Stamina",
+            "+11 Intellect",
+            "+90 Armor",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 9 .",
+            "2-piece set: +200 Armor.",
+            "3-piece set: Decreases the magical resistances of your spell targets by 5.",
+            "4-piece set: Reduces the hit chance of Silence and Interrupt effects against you by 10%.",
+            "5-piece set: Increases damage and healing done by magical spells and effects by up to 23.",
+            "6-piece set: The Ironweave hardens under duress, reducing damage taken while Stunned by 15%."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Theldren (summoned arena event)",
+          "sourceOrder": 10,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22305",
+            "https://nether.wowhead.com/forever/tooltip/item/22305",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22317",
+          "name": "Lefty's Brass Knuckle",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "One-Hand",
+          "type": "Fist Weapon",
+          "stats": [
+            "42 -78 Damage",
+            "Speed 1.50",
+            "40.00 DPS",
+            "+8 Strength",
+            "+12 Agility"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Theldren (summoned arena event)",
+          "sourceOrder": 10,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22317",
+            "https://nether.wowhead.com/forever/tooltip/item/22317",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "22318",
+          "name": "Malgen's Long Bow",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Ranged",
+          "type": "Bow",
+          "stats": [
+            "63 -118 Damage",
+            "Speed 2.90",
+            "31.21 DPS",
+            "+4 Stamina",
+            "Equip: +18 Attack Power."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Theldren (summoned arena event)",
+          "sourceOrder": 10,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22318",
+            "https://nether.wowhead.com/forever/tooltip/item/22318",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "22330",
+          "name": "Shroud of Arcane Mastery",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "43 Armor",
+            "+10 Stamina",
+            "+10 Intellect",
+            "Equip: Your spells pierce 4 Magical Resistance."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Theldren (summoned arena event)",
+          "sourceOrder": 10,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22330",
+            "https://nether.wowhead.com/forever/tooltip/item/22330",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "11802",
+          "name": "Lavacrest Leggings",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Legs",
+          "type": "Plate",
+          "stats": [
+            "531 Armor",
+            "+27 Strength",
+            "+12 Stamina",
+            "+5 Spirit"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Bael'gar",
+          "sourceOrder": 11,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11802",
+            "https://nether.wowhead.com/forever/tooltip/item/11802",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11803",
+          "name": "Force of Magma",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Two-Hand",
+          "type": "Mace",
+          "stats": [
+            "123 -185 Damage",
+            "Speed 3.20",
+            "48.13 DPS",
+            "+14 Strength",
+            "Chance on hit: Blasts a target for 182 Fire damage."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Bael'gar",
+          "sourceOrder": 11,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11803",
+            "https://nether.wowhead.com/forever/tooltip/item/11803",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11805",
+          "name": "Rubidium Hammer",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Main Hand",
+          "type": "Mace",
+          "stats": [
+            "51 -96 Damage",
+            "Speed 2.00",
+            "36.75 DPS",
+            "+5 Strength",
+            "+120 Armor"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Bael'gar",
+          "sourceOrder": 11,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11805",
+            "https://nether.wowhead.com/forever/tooltip/item/11805",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11807",
+          "name": "Sash of the Burning Heart",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "46 Armor",
+            "+10 Stamina",
+            "+10 Intellect",
+            "+10 Spirit",
+            "Equip: Increases damage done by Fire spells and effects by up to 14."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Bael'gar",
+          "sourceOrder": 11,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11807",
+            "https://nether.wowhead.com/forever/tooltip/item/11807",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11764",
+          "name": "Cinderhide Armsplints",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Wrist",
+          "type": "Leather",
+          "stats": [
+            "71 Armor",
+            "<Random enchantment>",
+            "+10 Fire Resistance"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Lord Incendius",
+          "sourceOrder": 12,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11764",
+            "https://nether.wowhead.com/forever/tooltip/item/11764",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11765",
+          "name": "Pyremail Wristguards",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Wrist",
+          "type": "Mail",
+          "stats": [
+            "148 Armor",
+            "<Random enchantment>",
+            "+10 Fire Resistance"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Lord Incendius",
+          "sourceOrder": 12,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11765",
+            "https://nether.wowhead.com/forever/tooltip/item/11765",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11766",
+          "name": "Flameweave Cuffs",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Wrist",
+          "type": "Cloth",
+          "stats": [
+            "35 Armor",
+            "<Random enchantment>",
+            "+10 Fire Resistance"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Lord Incendius",
+          "sourceOrder": 12,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11766",
+            "https://nether.wowhead.com/forever/tooltip/item/11766",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11767",
+          "name": "Emberplate Armguards",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Wrist",
+          "type": "Plate",
+          "stats": [
+            "261 Armor",
+            "<Random enchantment>",
+            "+10 Fire Resistance"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Lord Incendius",
+          "sourceOrder": 12,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11767",
+            "https://nether.wowhead.com/forever/tooltip/item/11767",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11839",
+          "name": "Chief Architect's Monocle",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "64 Armor",
+            "+10 Stamina",
+            "+24 Intellect",
+            "+3 Spirit",
+            "Equip: Improves your chance to hit by 1.0%."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Fineous Darkvire",
+          "sourceOrder": 13,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11839",
+            "https://nether.wowhead.com/forever/tooltip/item/11839",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11840",
+          "name": "Master Builder's Shirt",
+          "quality": 1,
+          "requiredLevel": 0,
+          "itemLevel": 55,
+          "slot": "Shirt",
+          "type": "Shirt",
+          "stats": [],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Fineous Darkvire",
+          "sourceOrder": 13,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11840",
+            "https://nether.wowhead.com/forever/tooltip/item/11840",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11841",
+          "name": "Senior Designer's Pantaloons",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "69 Armor",
+            "+8 Stamina",
+            "+7 Intellect",
+            "+18 Spirit",
+            "Equip: Increases healing done by up to 37 and damage done by up to 12 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Fineous Darkvire",
+          "sourceOrder": 13,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11841",
+            "https://nether.wowhead.com/forever/tooltip/item/11841",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11842",
+          "name": "Lead Surveyor's Mantle",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Shoulder",
+          "type": "Mail",
+          "stats": [
+            "246 Armor",
+            "+14 Intellect",
+            "+9 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 15 ."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Fineous Darkvire",
+          "sourceOrder": 13,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11842",
+            "https://nether.wowhead.com/forever/tooltip/item/11842",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22223",
+          "name": "Foreman's Head Protector",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Head",
+          "type": "Plate",
+          "stats": [
+            "469 Armor",
+            "+15 Strength",
+            "+14 Stamina",
+            "+11 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 14 ."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Fineous Darkvire",
+          "sourceOrder": 13,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22223",
+            "https://nether.wowhead.com/forever/tooltip/item/22223",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11747",
+          "name": "Flamestrider Robes",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "153 Armor",
+            "+5 Stamina",
+            "+4 Intellect",
+            "+16 Spirit",
+            "+10 Fire Resistance",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 20 ."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Pyromancer Loregrain",
+          "sourceOrder": 14,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11747",
+            "https://nether.wowhead.com/forever/tooltip/item/11747",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11748",
+          "name": "Pyric Caduceus",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "66 -123 Fire Damage",
+            "Speed 1.80",
+            "52.50 DPS",
+            "+3 Spirit",
+            "Equip: Increases damage done by Fire spells and effects by up to 13."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Pyromancer Loregrain",
+          "sourceOrder": 14,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11748",
+            "https://nether.wowhead.com/forever/tooltip/item/11748",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11749",
+          "name": "Searingscale Leggings",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Legs",
+          "type": "Mail",
+          "stats": [
+            "277 Armor",
+            "+13 Agility",
+            "+13 Stamina",
+            "+13 Intellect",
+            "+6 Spirit",
+            "+10 Fire Resistance"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Pyromancer Loregrain",
+          "sourceOrder": 14,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11749",
+            "https://nether.wowhead.com/forever/tooltip/item/11749",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11750",
+          "name": "Kindling Stave",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Two-Hand",
+          "type": "Staff",
+          "stats": [
+            "79 -119 Damage",
+            "Speed 2.90",
+            "34.14 DPS",
+            "+10 Stamina",
+            "+12 Intellect",
+            "+10 Fire Resistance",
+            "Equip: Improves your chance to get a critical strike by 1.0%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 60 .",
+            "Equip: Harmful spell casts have a chance to deal 60 to 81 Fire damage. Deals 3 times as much damage to Plants. (10ms cooldown)"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Pyromancer Loregrain",
+          "sourceOrder": 14,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11750",
+            "https://nether.wowhead.com/forever/tooltip/item/11750",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11782",
+          "name": "Boreal Mantle",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Shoulder",
+          "type": "Cloth",
+          "stats": [
+            "61 Armor",
+            "+5 Stamina",
+            "+8 Intellect",
+            "Equip: Increases damage done by Frost spells and effects by up to 27."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Warder Stilgiss",
+          "sourceOrder": 15,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11782",
+            "https://nether.wowhead.com/forever/tooltip/item/11782",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11783",
+          "name": "Chillsteel Girdle",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "190 Armor",
+            "+16 Intellect",
+            "+7 Spirit",
+            "+10 Frost Resistance",
+            "Equip: Increases healing done by up to 18 and damage done by up to 6 for all magical spells and effects."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Warder Stilgiss",
+          "sourceOrder": 15,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11783",
+            "https://nether.wowhead.com/forever/tooltip/item/11783",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11784",
+          "name": "Arbiter's Blade",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Main Hand",
+          "type": "Sword",
+          "stats": [
+            "39 -73 Damage",
+            "Speed 2.40",
+            "23.33 DPS",
+            "+8 Stamina",
+            "+5 Intellect",
+            "Equip: Improves your chance to hit by 0.7%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 60 ."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Warder Stilgiss",
+          "sourceOrder": 15,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11784",
+            "https://nether.wowhead.com/forever/tooltip/item/11784",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22241",
+          "name": "Dark Warder's Pauldrons",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Shoulder",
+          "type": "Leather",
+          "stats": [
+            "122 Armor",
+            "+11 Strength",
+            "+17 Agility",
+            "+7 Stamina"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Warder Stilgiss",
+          "sourceOrder": 15,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22241",
+            "https://nether.wowhead.com/forever/tooltip/item/22241",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11755",
+          "name": "Verek's Collar",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Neck",
+          "type": "Necklace",
+          "stats": [
+            "+6 Strength",
+            "+7 Stamina",
+            "Equip: Increased Defense +3.",
+            "Equip: Increases your chance to Dodge an attack by 1.0%."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Verek",
+          "sourceOrder": 16,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11755",
+            "https://nether.wowhead.com/forever/tooltip/item/11755",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22242",
+          "name": "Verek's Leash",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "187 Armor",
+            "+8 Strength",
+            "+7 Agility",
+            "+8 Stamina",
+            "+8 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 11 ."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Verek",
+          "sourceOrder": 16,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22242",
+            "https://nether.wowhead.com/forever/tooltip/item/22242",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "276884",
+          "name": "Verek's Loyal Wraps",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Wrist",
+          "type": "Cloth",
+          "stats": [
+            "35 Armor",
+            "+14 Spirit",
+            "Equip: Increases healing done by up to 20 and damage done by up to 7 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Verek",
+          "sourceOrder": 16,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276884",
+            "https://nether.wowhead.com/forever/tooltip/item/276884",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11945",
+          "name": "Dark Iron Ring",
+          "quality": 2,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "<Random enchantment>"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "The Vault — Relic Coffer",
+          "sourceOrder": 17,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11945",
+            "https://nether.wowhead.com/forever/tooltip/item/11945",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "11946",
+          "name": "Fire Opal Necklace",
+          "quality": 2,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Neck",
+          "type": "Necklace",
+          "stats": [
+            "<Random enchantment>"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "The Vault — Relic Coffer",
+          "sourceOrder": 17,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11946",
+            "https://nether.wowhead.com/forever/tooltip/item/11946",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "22205",
+          "name": "Black Steel Bindings",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Wrist",
+          "type": "Plate",
+          "stats": [
+            "261 Armor",
+            "+10 Strength",
+            "+7 Agility",
+            "+10 Stamina"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "The Vault — Secret Safe",
+          "sourceOrder": 18,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22205",
+            "https://nether.wowhead.com/forever/tooltip/item/22205",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "22254",
+          "name": "Wand of Eternal Light",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "58 -109 Holy Damage",
+            "Speed 1.50",
+            "55.67 DPS",
+            "+6 Intellect",
+            "Restores +2 mana per 5 sec.",
+            "Equip: Increases healing done by up to 9 and damage done by up to 3 for all magical spells and effects."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "The Vault — Secret Safe",
+          "sourceOrder": 18,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22254",
+            "https://nether.wowhead.com/forever/tooltip/item/22254",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "22255",
+          "name": "Magma Forged Band",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "Unique-Equipped",
+            "+7 Strength",
+            "+12 Agility",
+            "+7 Stamina"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "The Vault — Secret Safe",
+          "sourceOrder": 18,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22255",
+            "https://nether.wowhead.com/forever/tooltip/item/22255",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "22256",
+          "name": "Mana Shaping Handwraps",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "51 Armor",
+            "+9 Stamina",
+            "+11 Intellect",
+            "+7 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 16 ."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "The Vault — Secret Safe",
+          "sourceOrder": 18,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22256",
+            "https://nether.wowhead.com/forever/tooltip/item/22256",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "11810",
+          "name": "Force of Will",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Unique-Equipped",
+            "Equip: Increased Defense +4.",
+            "Equip: When struck in combat has a chance to reduce all damage taken by 51 for 10 sec. (30s cooldown)"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "General Angerforge",
+          "sourceOrder": 19,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11810",
+            "https://nether.wowhead.com/forever/tooltip/item/11810",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11816",
+          "name": "Angerforge's Battle Axe",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Two-Hand",
+          "type": "Axe",
+          "stats": [
+            "100 -150 Damage",
+            "Speed 2.60",
+            "48.08 DPS",
+            "+22 Strength",
+            "+11 Stamina",
+            "Chance on hit: Deal 109 Physical damage. Trolls and Orcs take 2 times as much damage and are horrified for 4 sec."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "General Angerforge",
+          "sourceOrder": 19,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11816",
+            "https://nether.wowhead.com/forever/tooltip/item/11816",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11817",
+          "name": "Lord General's Sword",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Main Hand",
+          "type": "Sword",
+          "stats": [
+            "67 -125 Damage",
+            "Speed 2.60",
+            "36.92 DPS",
+            "Chance on hit: Increases attack power by 84 for 10 sec."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "General Angerforge",
+          "sourceOrder": 19,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11817",
+            "https://nether.wowhead.com/forever/tooltip/item/11817",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11820",
+          "name": "Royal Decorated Armor",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Chest",
+          "type": "Mail",
+          "stats": [
+            "344 Armor",
+            "+9 Strength",
+            "+12 Agility",
+            "+26 Stamina"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "General Angerforge",
+          "sourceOrder": 19,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11820",
+            "https://nether.wowhead.com/forever/tooltip/item/11820",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11821",
+          "name": "Warstrife Leggings",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "144 Armor",
+            "+8 Strength",
+            "+7 Agility",
+            "+22 Stamina",
+            "Equip: Increased Defense +7.",
+            "Equip: Increases your chance to Dodge an attack by 1.0%."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "General Angerforge",
+          "sourceOrder": 19,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11821",
+            "https://nether.wowhead.com/forever/tooltip/item/11821",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11684",
+          "name": "Ironfoe",
+          "quality": 4,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Main Hand",
+          "type": "Mace",
+          "stats": [
+            "Unique-Equipped",
+            "73 -136 Damage",
+            "Speed 2.40",
+            "43.54 DPS",
+            "Equip: Attacks have a chance to grant 2 extra attacks on your next swing. Attacks against Orcs are 2 times as likely to activate this effect."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Emperor Dagran Thaurissan",
+          "sourceOrder": 20,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11684",
+            "https://nether.wowhead.com/forever/tooltip/item/11684",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11815",
+          "name": "Hand of Justice",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Unique-Equipped",
+            "Equip: +12 Attack Power.",
+            "Equip: 1% chance on Melee hit to gain 1 extra attack. Attacks against Dwarves are 3 times as likely to activate this effect."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Emperor Dagran Thaurissan",
+          "sourceOrder": 20,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11815",
+            "https://nether.wowhead.com/forever/tooltip/item/11815",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11924",
+          "name": "Robes of the Royal Crown",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "85 Armor",
+            "+19 Stamina",
+            "+12 Intellect",
+            "+10 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 18 .",
+            "Equip: Your spells pierce 2 Magical Resistance."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Emperor Dagran Thaurissan",
+          "sourceOrder": 20,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11924",
+            "https://nether.wowhead.com/forever/tooltip/item/11924",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11928",
+          "name": "Thaurissan's Royal Scepter",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Held In Off-hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "+7 Stamina",
+            "+6 Intellect",
+            "+10 Spirit",
+            "Equip: Increases healing done by up to 22 and damage done by up to 7 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Emperor Dagran Thaurissan",
+          "sourceOrder": 20,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11928",
+            "https://nether.wowhead.com/forever/tooltip/item/11928",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11930",
+          "name": "The Emperor's New Cape",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "43 Armor",
+            "+8 Agility",
+            "+16 Stamina"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Emperor Dagran Thaurissan",
+          "sourceOrder": 20,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11930",
+            "https://nether.wowhead.com/forever/tooltip/item/11930",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11931",
+          "name": "Dreadforge Retaliator",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Two-Hand",
+          "type": "Axe",
+          "stats": [
+            "149 -225 Damage",
+            "Speed 3.70",
+            "50.54 DPS",
+            "+8 Stamina",
+            "Equip: Increases your chance to Parry an attack by 1.0%.",
+            "Equip: Improves your chance to get a critical strike by 1.0%.",
+            "Equip: +42 Attack Power."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Emperor Dagran Thaurissan",
+          "sourceOrder": 20,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11931",
+            "https://nether.wowhead.com/forever/tooltip/item/11931",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11932",
+          "name": "Guiding Stave of Wisdom",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Two-Hand",
+          "type": "Staff",
+          "stats": [
+            "99 -149 Damage",
+            "Speed 3.30",
+            "37.58 DPS",
+            "+11 Stamina",
+            "+10 Spirit",
+            "Restores +6 mana per 5 sec.",
+            "+20 Frost Resistance",
+            "Equip: Increases healing done by up to 127 and damage done by up to 42 for all magical spells and effects."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Emperor Dagran Thaurissan",
+          "sourceOrder": 20,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11932",
+            "https://nether.wowhead.com/forever/tooltip/item/11932",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11933",
+          "name": "Imperial Jewel",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Neck",
+          "type": "Necklace",
+          "stats": [
+            "+8 Stamina",
+            "Equip: +32 Attack Power."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Emperor Dagran Thaurissan",
+          "sourceOrder": 20,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11933",
+            "https://nether.wowhead.com/forever/tooltip/item/11933",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11934",
+          "name": "Emperor's Seal",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 61,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "<Random enchantment>",
+            "+6 Arcane Resistance",
+            "+6 Frost Resistance"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Emperor Dagran Thaurissan",
+          "sourceOrder": 20,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11934",
+            "https://nether.wowhead.com/forever/tooltip/item/11934",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22204",
+          "name": "Wristguards of Renown",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Wrist",
+          "type": "Leather",
+          "stats": [
+            "74 Armor",
+            "+9 Strength",
+            "+10 Agility",
+            "+10 Stamina"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Emperor Dagran Thaurissan",
+          "sourceOrder": 20,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22204",
+            "https://nether.wowhead.com/forever/tooltip/item/22204",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22207",
+          "name": "Sash of the Grand Hunt",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "199 Armor",
+            "+15 Agility",
+            "+14 Stamina",
+            "+6 Intellect",
+            "Equip: Improves your chance to hit with ranged weapons by 1.0%."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Emperor Dagran Thaurissan",
+          "sourceOrder": 20,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22207",
+            "https://nether.wowhead.com/forever/tooltip/item/22207",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11669",
+          "name": "Naglering",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "Unique-Equipped",
+            "+10 Stamina",
+            "+60 Armor",
+            "Equip: Increased Defense +5.",
+            "Equip: When struck in combat inflicts 3 Arcane damage to the attacker."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Golem Lord Argelmach",
+          "sourceOrder": 21,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11669",
+            "https://nether.wowhead.com/forever/tooltip/item/11669",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11819",
+          "name": "Second Wind",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Unique-Equipped",
+            "Equip: Increases healing done by up to 15 and damage done by up to 5 for all magical spells and effects.",
+            "Use: Restores 63 Mana every 1 sec for 10 sec. This effect is doubled in Mountainous areas. (15 Min Cooldown)"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Golem Lord Argelmach",
+          "sourceOrder": 21,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11819",
+            "https://nether.wowhead.com/forever/tooltip/item/11819",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11822",
+          "name": "Omnicast Boots",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "58 Armor",
+            "+8 Stamina",
+            "+12 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 20 ."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Golem Lord Argelmach",
+          "sourceOrder": 21,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11822",
+            "https://nether.wowhead.com/forever/tooltip/item/11822",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11823",
+          "name": "Luminary Kilt",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "147 Armor",
+            "+8 Stamina",
+            "+20 Intellect",
+            "+8 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 22 ."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Golem Lord Argelmach",
+          "sourceOrder": 21,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11823",
+            "https://nether.wowhead.com/forever/tooltip/item/11823",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11735",
+          "name": "Ragefury Eyepatch",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "132 Armor",
+            "+6 Strength",
+            "+10 Stamina",
+            "Equip: Improves your chance to get a critical strike by 2.0%."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Hurley Blackbreath",
+          "sourceOrder": 22,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11735",
+            "https://nether.wowhead.com/forever/tooltip/item/11735",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "18043",
+          "name": "Coal Miner Boots",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "112 Armor",
+            "+9 Strength",
+            "+17 Stamina",
+            "+6 Fire Resistance",
+            "Equip: Increased Defense +5."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Hurley Blackbreath",
+          "sourceOrder": 22,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=18043",
+            "https://nether.wowhead.com/forever/tooltip/item/18043",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "18044",
+          "name": "Hurley's Tankard",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Main Hand",
+          "type": "Mace",
+          "stats": [
+            "71 -132 Damage",
+            "Speed 2.70",
+            "37.59 DPS",
+            "+5 Agility",
+            "+12 Stamina",
+            "+3 Spirit"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Hurley Blackbreath",
+          "sourceOrder": 22,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=18044",
+            "https://nether.wowhead.com/forever/tooltip/item/18044",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22275",
+          "name": "Firemoss Boots",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "112 Armor",
+            "+8 Stamina",
+            "+18 Intellect",
+            "Equip: Increases healing done by up to 20 and damage done by up to 7 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Hurley Blackbreath",
+          "sourceOrder": 22,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22275",
+            "https://nether.wowhead.com/forever/tooltip/item/22275",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "2662",
+          "name": "Ribbly's Quiver",
+          "quality": 2,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Bag",
+          "type": "Quiver",
+          "stats": [
+            "Unique",
+            "16 Slot Quiver",
+            "Equip: Increases ranged attack speed by 14%."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Ribbly Screwspigot",
+          "sourceOrder": 23,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=2662",
+            "https://nether.wowhead.com/forever/tooltip/item/2662",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "2663",
+          "name": "Ribbly's Bandolier",
+          "quality": 2,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Bag",
+          "type": "Ammo Pouch",
+          "stats": [
+            "Unique",
+            "16 Slot Ammo Pouch",
+            "Equip: Increases ranged attack speed by 14%."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Ribbly Screwspigot",
+          "sourceOrder": 23,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=2663",
+            "https://nether.wowhead.com/forever/tooltip/item/2663",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11742",
+          "name": "Wayfarer's Knapsack",
+          "quality": 2,
+          "requiredLevel": 0,
+          "itemLevel": 55,
+          "slot": "Bag",
+          "type": "Bag",
+          "stats": [
+            "Unique",
+            "16 Slot Bag"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Ribbly Screwspigot",
+          "sourceOrder": 23,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11742",
+            "https://nether.wowhead.com/forever/tooltip/item/11742",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "12791",
+          "name": "Barman Shanker",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Main Hand",
+          "type": "Dagger",
+          "stats": [
+            "51 -95 Damage",
+            "Speed 2.00",
+            "36.50 DPS",
+            "Chance on hit: Wounds the target causing them to bleed for 98 damage over 7 sec. Deals 2 times as much damage if applied while behind the target."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Plugger Spazzring",
+          "sourceOrder": 24,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=12791",
+            "https://nether.wowhead.com/forever/tooltip/item/12791",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "12793",
+          "name": "Mixologist's Tunic",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "158 Armor",
+            "+18 Strength",
+            "+10 Agility",
+            "+18 Stamina"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Plugger Spazzring",
+          "sourceOrder": 24,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=12793",
+            "https://nether.wowhead.com/forever/tooltip/item/12793",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "276877",
+          "name": "Brewmancer Nightcap",
+          "quality": 3,
+          "requiredLevel": 50,
+          "itemLevel": 55,
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "64 Armor",
+            "+12 Stamina",
+            "+8 Intellect",
+            "Equip: Increases damage done by Shadow spells and effects by up to 29.",
+            "Equip: Increases your effective stealth detection level by 2."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Plugger Spazzring",
+          "sourceOrder": 24,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276877",
+            "https://nether.wowhead.com/forever/tooltip/item/276877",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11744",
+          "name": "Bloodfist",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "One-Hand",
+          "type": "Fist Weapon",
+          "stats": [
+            "38 -72 Damage",
+            "Speed 1.50",
+            "36.67 DPS",
+            "+6 Stamina",
+            "Equip: +12 Attack Power.",
+            "Chance on hit: Wounds the target for 35 damage."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Phalanx",
+          "sourceOrder": 25,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11744",
+            "https://nether.wowhead.com/forever/tooltip/item/11744",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11745",
+          "name": "Fists of Phalanx",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Hands",
+          "type": "Plate",
+          "stats": [
+            "367 Armor",
+            "+20 Strength",
+            "+9 Stamina",
+            "Equip: +4 Attack Power.",
+            "Equip: +6 Attack Power against Elementals."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Phalanx",
+          "sourceOrder": 25,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11745",
+            "https://nether.wowhead.com/forever/tooltip/item/11745",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22212",
+          "name": "Golem Fitted Pauldrons",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Shoulder",
+          "type": "Mail",
+          "stats": [
+            "250 Armor",
+            "+13 Agility",
+            "+17 Stamina",
+            "+6 Intellect"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Phalanx",
+          "sourceOrder": 25,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22212",
+            "https://nether.wowhead.com/forever/tooltip/item/22212",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "276879",
+          "name": "Backroom Bulwark",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Off Hand",
+          "type": "Shield",
+          "stats": [
+            "1930 Armor",
+            "35 Block",
+            "+12 Stamina",
+            "+8 Spirit",
+            "Equip: Increases healing done by up to 18 and damage done by up to 6 for all magical spells and effects."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Phalanx",
+          "sourceOrder": 25,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=276879",
+            "https://nether.wowhead.com/forever/tooltip/item/276879",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11808",
+          "name": "Circle of Flame",
+          "quality": 4,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "74 Armor",
+            "+20 Stamina",
+            "+15 Fire Resistance",
+            "Use: Channels 59 to 99 health into mana every 1 sec for 10 sec. (5 Min Cooldown)"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Ambassador Flamelash",
+          "sourceOrder": 26,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11808",
+            "https://nether.wowhead.com/forever/tooltip/item/11808",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11809",
+          "name": "Flame Wrath",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Two-Hand",
+          "type": "Polearm",
+          "stats": [
+            "127 -191 Damage",
+            "Speed 3.30",
+            "48.18 DPS",
+            "+10 Strength",
+            "+17 Stamina",
+            "Chance on hit: Shoots a ring of fire dealing 133 to 175 Fire damage to all nearby enemies, and envelops the caster with a Fire Shield for 15 sec."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Ambassador Flamelash",
+          "sourceOrder": 26,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11809",
+            "https://nether.wowhead.com/forever/tooltip/item/11809",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11812",
+          "name": "Cape of the Fire Salamander",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "41 Armor",
+            "+9 Stamina",
+            "+6 Spirit",
+            "+12 Fire Resistance",
+            "Equip: Increases your chance to Dodge an attack by 0.5%."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Ambassador Flamelash",
+          "sourceOrder": 26,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11812",
+            "https://nether.wowhead.com/forever/tooltip/item/11812",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11814",
+          "name": "Molten Fists",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Hands",
+          "type": "Mail",
+          "stats": [
+            "215 Armor",
+            "+10 Agility",
+            "+11 Stamina",
+            "+11 Intellect",
+            "+10 Fire Resistance"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Ambassador Flamelash",
+          "sourceOrder": 26,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11814",
+            "https://nether.wowhead.com/forever/tooltip/item/11814",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11832",
+          "name": "Burst of Knowledge",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Unique-Equipped",
+            "Restores +8 mana per 5 sec.",
+            "Use: Reduces the Mana cost of all spells by 150 for 10 sec. (6 Min Cooldown)"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Ambassador Flamelash",
+          "sourceOrder": 26,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11832",
+            "https://nether.wowhead.com/forever/tooltip/item/11832",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11785",
+          "name": "Rock Golem Bulwark",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Off Hand",
+          "type": "Shield",
+          "stats": [
+            "1994 Armor",
+            "36 Block",
+            "+10 Stamina",
+            "+10 Arcane Resistance",
+            "+10 Nature Resistance"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Panzor the Invincible (rare)",
+          "sourceOrder": 27,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11785",
+            "https://nether.wowhead.com/forever/tooltip/item/11785",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11786",
+          "name": "Stone of the Earth",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "123 -185 Damage",
+            "Speed 3.20",
+            "48.13 DPS",
+            "+28 Stamina",
+            "+120 Armor"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Panzor the Invincible (rare)",
+          "sourceOrder": 27,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11786",
+            "https://nether.wowhead.com/forever/tooltip/item/11786",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11787",
+          "name": "Shalehusk Boots",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Feet",
+          "type": "Plate",
+          "stats": [
+            "417 Armor",
+            "+10 Stamina",
+            "+100 Armor",
+            "Equip: Increases your chance to Dodge an attack by 1.5%."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Panzor the Invincible (rare)",
+          "sourceOrder": 27,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11787",
+            "https://nether.wowhead.com/forever/tooltip/item/11787",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22245",
+          "name": "Soot Encrusted Footwear",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "55 Armor",
+            "+8 Stamina",
+            "+9 Intellect",
+            "+14 Spirit",
+            "Equip: Increases healing done by up to 20 and damage done by up to 7 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Panzor the Invincible (rare)",
+          "sourceOrder": 27,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22245",
+            "https://nether.wowhead.com/forever/tooltip/item/22245",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11920",
+          "name": "Wraith Scythe",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Main Hand",
+          "type": "Axe",
+          "stats": [
+            "57 -106 Damage",
+            "Speed 2.20",
+            "37.05 DPS",
+            "Chance on hit: Steals 49 life from target enemy. Deals 2 times as much damage to Undead."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "The Seven",
+          "sourceOrder": 28,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11920",
+            "https://nether.wowhead.com/forever/tooltip/item/11920",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "11921",
+          "name": "Impervious Giant",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Two-Hand",
+          "type": "Mace",
+          "stats": [
+            "105 -159 Damage",
+            "Speed 2.70",
+            "48.89 DPS",
+            "+18 Stamina",
+            "+30 Armor",
+            "Equip: Improves your chance to hit by 1.0%.",
+            "Equip: Improves your chance to get a critical strike by 1.5%."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "The Seven",
+          "sourceOrder": 28,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11921",
+            "https://nether.wowhead.com/forever/tooltip/item/11921",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "11922",
+          "name": "Blood-Etched Blade",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Main Hand",
+          "type": "Dagger",
+          "stats": [
+            "26 -49 Damage",
+            "Speed 1.50",
+            "25.00 DPS",
+            "+12 Stamina",
+            "Restores +8 health per 5 sec.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 66 ."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "The Seven",
+          "sourceOrder": 28,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11922",
+            "https://nether.wowhead.com/forever/tooltip/item/11922",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "11923",
+          "name": "The Hammer of Grace",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Main Hand",
+          "type": "Mace",
+          "stats": [
+            "47 -88 Damage",
+            "Speed 2.70",
+            "25.00 DPS",
+            "Equip: Increases healing done by up to 124 and damage done by up to 41 for all magical spells and effects.",
+            "Equip: Dying heals all party members within 40 yds for 1082 to 1270."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "The Seven",
+          "sourceOrder": 28,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11923",
+            "https://nether.wowhead.com/forever/tooltip/item/11923",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "11925",
+          "name": "Ghostshroud",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "132 Armor",
+            "+10 Strength",
+            "+19 Agility",
+            "+18 Stamina",
+            "+5 Shadow Resistance"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "The Seven",
+          "sourceOrder": 28,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11925",
+            "https://nether.wowhead.com/forever/tooltip/item/11925",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11926",
+          "name": "Deathdealer Breastplate",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Chest",
+          "type": "Mail",
+          "stats": [
+            "338 Armor",
+            "+8 Strength",
+            "+11 Stamina",
+            "Equip: Improves your chance to get a critical strike by 1.5%."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "The Seven",
+          "sourceOrder": 28,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11926",
+            "https://nether.wowhead.com/forever/tooltip/item/11926",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11927",
+          "name": "Legplates of the Eternal Guardian",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Legs",
+          "type": "Plate",
+          "stats": [
+            "522 Armor",
+            "+160 Armor",
+            "Equip: Increased Defense +15.",
+            "Equip: Increases your chance to Block attacks with a shield by 2.0%."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "The Seven",
+          "sourceOrder": 28,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11927",
+            "https://nether.wowhead.com/forever/tooltip/item/11927",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11929",
+          "name": "Haunting Specter Leggings",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "71 Armor",
+            "+12 Intellect",
+            "+26 Spirit",
+            "Equip: Increases damage done by Shadow spells and effects by up to 11."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "The Seven",
+          "sourceOrder": 28,
+          "dropEvidence": "wowhead",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11929",
+            "https://nether.wowhead.com/forever/tooltip/item/11929",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11746",
+          "name": "Golem Skull Helm",
+          "quality": 3,
+          "requiredLevel": 51,
+          "itemLevel": 56,
+          "slot": "Head",
+          "type": "Plate",
+          "stats": [
+            "477 Armor",
+            "+18 Strength",
+            "+18 Stamina",
+            "Equip: Increased Defense +8."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Magmus",
+          "sourceOrder": 29,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11746",
+            "https://nether.wowhead.com/forever/tooltip/item/11746",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "11935",
+          "name": "Magmus Stone",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Held In Off-hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "+7 Stamina",
+            "+15 Fire Resistance",
+            "Equip: Increases healing done by up to 9 and damage done by up to 3 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Magmus",
+          "sourceOrder": 29,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=11935",
+            "https://nether.wowhead.com/forever/tooltip/item/11935",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22208",
+          "name": "Lavastone Hammer",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Two-Hand",
+          "type": "Mace",
+          "stats": [
+            "135 -203 Damage",
+            "Speed 3.40",
+            "49.71 DPS",
+            "+13 Strength",
+            "+14 Stamina",
+            "+12 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 20 ."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Magmus",
+          "sourceOrder": 29,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22208",
+            "https://nether.wowhead.com/forever/tooltip/item/22208",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22395",
+          "name": "Totem of Rage",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Relic",
+          "type": "Totem",
+          "stats": [
+            "Equip: Increases the damage of your Shock spells by 2%."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Magmus",
+          "sourceOrder": 29,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22395",
+            "https://nether.wowhead.com/forever/tooltip/item/22395",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "22400",
+          "name": "Libram of Truth",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Relic",
+          "type": "Libram",
+          "stats": [
+            "Equip: Reduces the Mana cost of Purify and Cleanse by 10%."
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Magmus",
+          "sourceOrder": 29,
+          "dropEvidence": "seen",
+          "sources": [
+            "https://www.wowhead.com/forever/item=22400",
+            "https://nether.wowhead.com/forever/tooltip/item/22400",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+          ]
+        },
+        {
+          "id": "12553",
+          "name": "Swiftwalker Boots",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "115 Armor",
+            "+5 Strength",
+            "+21 Agility",
+            "+8 Stamina"
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Princess Moira Bronzebeard",
+          "sourceOrder": 30,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=12553",
+            "https://nether.wowhead.com/forever/tooltip/item/12553",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "12554",
+          "name": "Hands of the Exalted Herald",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "52 Armor",
+            "+13 Intellect",
+            "+12 Spirit",
+            "Equip: Increases healing done by up to 31 and damage done by up to 10 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Princess Moira Bronzebeard",
+          "sourceOrder": 30,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=12554",
+            "https://nether.wowhead.com/forever/tooltip/item/12554",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "12556",
+          "name": "High Priestess Boots",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "58 Armor",
+            "+10 Stamina",
+            "+7 Spirit",
+            "Equip: Reduces the hit chance of Charm effects against you by 10%."
+          ],
+          "rogueUsable": true,
+          "statsEvidence": "wowhead",
+          "source": "Princess Moira Bronzebeard",
+          "sourceOrder": 30,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=12556",
+            "https://nether.wowhead.com/forever/tooltip/item/12556",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+          ]
+        },
+        {
+          "id": "12557",
+          "name": "Ebonsteel Spaulders",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Shoulder",
+          "type": "Plate",
+          "stats": [
+            "463 Armor",
+            "+8 Strength",
+            "+9 Agility",
+            "+16 Stamina",
+            "+90 Armor"
+          ],
+          "rogueUsable": false,
+          "statsEvidence": "wowhead",
+          "source": "Princess Moira Bronzebeard",
+          "sourceOrder": 30,
+          "dropEvidence": "classic",
+          "sources": [
+            "https://www.wowhead.com/forever/item=12557",
+            "https://nether.wowhead.com/forever/tooltip/item/12557",
+            "https://foreverdb.net/dungeon/230-blackrock-depths",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+            "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
           ]
         }
       ]

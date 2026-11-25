@@ -1,0 +1,1413 @@
+{
+  "zone": "Blackrock Depths",
+  "updated": "2026-11-25",
+  "map": {
+    "appearance": "dungeon",
+    "source": "https://foreverdb.net/dungeon/230-blackrock-depths"
+  },
+  "floors": [
+    {
+      "id": "1",
+      "name": "Main dungeon & lava route",
+      "image": "./assets/maps/blackrock-depths-1.webp",
+      "width": 1863,
+      "height": 2048,
+      "source": "https://foreverdb.net/img/dungeonmaps/230/1.webp"
+    },
+    {
+      "id": "2",
+      "name": "Arena & Forgewright monument",
+      "image": "./assets/maps/blackrock-depths-2.webp",
+      "width": 567,
+      "height": 987,
+      "source": "https://foreverdb.net/img/dungeonmaps/230/2.webp"
+    },
+    {
+      "id": "3",
+      "name": "Grim Guzzler & Flamelash",
+      "image": "./assets/maps/blackrock-depths-3.webp",
+      "width": 786,
+      "height": 1328,
+      "source": "https://foreverdb.net/img/dungeonmaps/230/3.webp"
+    },
+    {
+      "id": "4",
+      "name": "Vault & upper walkways",
+      "image": "./assets/maps/blackrock-depths-4.webp",
+      "width": 1178,
+      "height": 1111,
+      "source": "https://foreverdb.net/img/dungeonmaps/230/4.webp"
+    }
+  ],
+  "note": "Classic encounter and object references. Arena markers share the encounter center; source coordinates use this map section.",
+  "points": [
+    {
+      "id": "boss-1",
+      "name": "High Interrogator Gerstahn",
+      "category": "boss",
+      "floor": "1",
+      "x": 37.526,
+      "y": 94.0475,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 310.6,
+        "y": -146.3,
+        "z": -70.3
+      },
+      "drops": true,
+      "note": "Drops the Prison Cell Key used in the Detention Block."
+    },
+    {
+      "id": "boss-2",
+      "name": "Lord Roccor",
+      "category": "boss",
+      "floor": "1",
+      "x": 39.7745,
+      "y": 67.089,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 654.6,
+        "y": -172.4,
+        "z": -73.6
+      },
+      "drops": true
+    },
+    {
+      "id": "boss-3",
+      "name": "Houndmaster Grebmar",
+      "category": "boss",
+      "floor": "1",
+      "x": 39.9812,
+      "y": 70.7644,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 607.7,
+        "y": -174.8,
+        "z": -84.5
+      },
+      "drops": true
+    },
+    {
+      "id": "boss-5",
+      "name": "Pyromancer Loregrain",
+      "category": "boss",
+      "floor": "2",
+      "x": 56.9312,
+      "y": 91.771,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 530.2,
+        "y": -243.9,
+        "z": -43.0
+      },
+      "drops": true
+    },
+    {
+      "id": "boss-6",
+      "name": "Lord Incendius",
+      "category": "boss",
+      "floor": "1",
+      "x": 47.9329,
+      "y": 48.367,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 893.5,
+        "y": -267.1,
+        "z": -71.9
+      },
+      "questIds": [
+        "4263",
+        "8961"
+      ],
+      "drops": true
+    },
+    {
+      "id": "boss-7",
+      "name": "Warder Stilgiss",
+      "category": "boss",
+      "floor": "1",
+      "x": 54.4113,
+      "y": 53.8605,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 823.4,
+        "y": -342.3,
+        "z": -50.1
+      },
+      "drops": true
+    },
+    {
+      "id": "boss-8",
+      "name": "Fineous Darkvire",
+      "category": "boss",
+      "floor": "1",
+      "x": 54.2907,
+      "y": 43.1555,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 960.0,
+        "y": -340.9,
+        "z": -71.5
+      },
+      "questIds": [
+        "3802"
+      ],
+      "drops": true
+    },
+    {
+      "id": "boss-9",
+      "name": "Bael'Gar",
+      "category": "boss",
+      "floor": "1",
+      "x": 9.0276,
+      "y": 63.343,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 702.4,
+        "y": 184.5,
+        "z": -72.0
+      },
+      "questIds": [
+        "4024"
+      ],
+      "drops": true
+    },
+    {
+      "id": "boss-10",
+      "name": "General Angerforge",
+      "category": "boss",
+      "floor": "1",
+      "x": 23.0787,
+      "y": 67.2614,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 652.4,
+        "y": 21.4,
+        "z": -60.0
+      },
+      "questIds": [
+        "4282"
+      ],
+      "drops": true
+    },
+    {
+      "id": "boss-11",
+      "name": "Golem Lord Argelmach",
+      "category": "boss",
+      "floor": "1",
+      "x": 23.518,
+      "y": 52.0267,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 846.8,
+        "y": 16.3,
+        "z": -53.6
+      },
+      "questIds": [
+        "4282"
+      ],
+      "drops": true
+    },
+    {
+      "id": "boss-13",
+      "name": "Phalanx",
+      "category": "boss",
+      "floor": "1",
+      "x": 44.7453,
+      "y": 51.9484,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 847.8,
+        "y": -230.1,
+        "z": -43.6
+      },
+      "drops": true
+    },
+    {
+      "id": "boss-14",
+      "name": "Ribbly Screwspigot",
+      "category": "boss",
+      "floor": "1",
+      "x": 39.3696,
+      "y": 49.5425,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 878.5,
+        "y": -167.7,
+        "z": -49.7
+      },
+      "questIds": [
+        "4136"
+      ],
+      "drops": true
+    },
+    {
+      "id": "boss-15",
+      "name": "Plugger Spazzring",
+      "category": "boss",
+      "floor": "1",
+      "x": 40.2483,
+      "y": 48.7588,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 888.5,
+        "y": -177.9,
+        "z": -43.0
+      },
+      "drops": true
+    },
+    {
+      "id": "boss-17",
+      "name": "Ambassador Flamelash",
+      "category": "boss",
+      "floor": "3",
+      "x": 40.341,
+      "y": 31.5527,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 1009.8,
+        "y": -239.0,
+        "z": -61.3
+      },
+      "drops": true
+    },
+    {
+      "id": "boss-18",
+      "name": "The Seven",
+      "category": "boss",
+      "floor": "1",
+      "x": 43.9355,
+      "y": 23.1718,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 1215.0,
+        "y": -220.7,
+        "z": -85.6
+      },
+      "questIds": [
+        "4083"
+      ],
+      "drops": true
+    },
+    {
+      "id": "boss-19",
+      "name": "Magmus",
+      "category": "boss",
+      "floor": "1",
+      "x": 81.7208,
+      "y": 10.1862,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 1380.7,
+        "y": -659.3,
+        "z": -92.0
+      },
+      "drops": true
+    },
+    {
+      "id": "boss-20",
+      "name": "Princess Moira Bronzebeard",
+      "category": "boss",
+      "floor": "1",
+      "x": 96.5558,
+      "y": 9.8806,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 1384.6,
+        "y": -831.5,
+        "z": -87.6
+      },
+      "questIds": [
+        "4363"
+      ],
+      "drops": true,
+      "note": "Spare Moira for the Alliance royal rescue quest."
+    },
+    {
+      "id": "boss-21",
+      "name": "Emperor Dagran Thaurissan",
+      "category": "boss",
+      "floor": "1",
+      "x": 96.5644,
+      "y": 10.2254,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 1380.2,
+        "y": -831.6,
+        "z": -87.6
+      },
+      "questIds": [
+        "4362",
+        "96075"
+      ],
+      "drops": true
+    },
+    {
+      "id": "arena-9031",
+      "name": "Anub'shiah",
+      "category": "boss",
+      "floor": "2",
+      "x": 37.5143,
+      "y": 78.581,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 595.293,
+        "y": -188.853,
+        "z": -54.1381
+      },
+      "npcId": "9031",
+      "drops": true,
+      "note": "Ring of Law encounter area; one normal boss is selected. Theldren requires the Banner of Provocation summon, before the normal event progresses.",
+      "approximate": true
+    },
+    {
+      "id": "arena-9029",
+      "name": "Eviscerator",
+      "category": "boss",
+      "floor": "2",
+      "x": 37.5143,
+      "y": 78.581,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 595.293,
+        "y": -188.853,
+        "z": -54.1381
+      },
+      "npcId": "9029",
+      "drops": true,
+      "note": "Ring of Law encounter area; one normal boss is selected. Theldren requires the Banner of Provocation summon, before the normal event progresses.",
+      "approximate": true
+    },
+    {
+      "id": "arena-9027",
+      "name": "Gorosh the Dervish",
+      "category": "boss",
+      "floor": "2",
+      "x": 37.5143,
+      "y": 78.581,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 595.293,
+        "y": -188.853,
+        "z": -54.1381
+      },
+      "npcId": "9027",
+      "drops": true,
+      "note": "Ring of Law encounter area; one normal boss is selected. Theldren requires the Banner of Provocation summon, before the normal event progresses.",
+      "approximate": true
+    },
+    {
+      "id": "arena-9028",
+      "name": "Grizzle",
+      "category": "boss",
+      "floor": "2",
+      "x": 37.5143,
+      "y": 78.581,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 595.293,
+        "y": -188.853,
+        "z": -54.1381
+      },
+      "npcId": "9028",
+      "drops": true,
+      "note": "Ring of Law encounter area; one normal boss is selected. Theldren requires the Banner of Provocation summon, before the normal event progresses.",
+      "approximate": true
+    },
+    {
+      "id": "arena-9032",
+      "name": "Hedrum the Creeper",
+      "category": "boss",
+      "floor": "2",
+      "x": 37.5143,
+      "y": 78.581,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 595.293,
+        "y": -188.853,
+        "z": -54.1381
+      },
+      "npcId": "9032",
+      "drops": true,
+      "note": "Ring of Law encounter area; one normal boss is selected. Theldren requires the Banner of Provocation summon, before the normal event progresses.",
+      "approximate": true
+    },
+    {
+      "id": "arena-9030",
+      "name": "Ok'thor the Breaker",
+      "category": "boss",
+      "floor": "2",
+      "x": 37.5143,
+      "y": 78.581,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 595.293,
+        "y": -188.853,
+        "z": -54.1381
+      },
+      "npcId": "9030",
+      "drops": true,
+      "note": "Ring of Law encounter area; one normal boss is selected. Theldren requires the Banner of Provocation summon, before the normal event progresses.",
+      "approximate": true
+    },
+    {
+      "id": "arena-16059",
+      "name": "Theldren",
+      "category": "boss",
+      "floor": "2",
+      "x": 37.5143,
+      "y": 78.581,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 595.293,
+        "y": -188.853,
+        "z": -54.1381
+      },
+      "npcId": "16059",
+      "questIds": [
+        "9015"
+      ],
+      "drops": true,
+      "note": "Ring of Law encounter area; one normal boss is selected. Theldren requires the Banner of Provocation summon, before the normal event progresses.",
+      "approximate": true
+    },
+    {
+      "id": "npc-8923",
+      "name": "Panzor the Invincible",
+      "category": "rare",
+      "floor": "1",
+      "x": 41.1026,
+      "y": 26.4044,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 1173.75,
+        "y": -187.816,
+        "z": -65.455
+      },
+      "npcId": "8923",
+      "drops": true
+    },
+    {
+      "id": "npc-9042",
+      "name": "Verek",
+      "category": "boss",
+      "floor": "1",
+      "x": 54.2463,
+      "y": 53.9933,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 821.706,
+        "y": -340.384,
+        "z": -50.1076
+      },
+      "npcId": "9042",
+      "drops": true
+    },
+    {
+      "id": "giver-9023",
+      "name": "Marshal Windsor",
+      "category": "quest-giver",
+      "floor": "1",
+      "x": 44.3514,
+      "y": 93.598,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 316.336,
+        "y": -225.528,
+        "z": -77.7258
+      },
+      "npcId": "9023",
+      "questIds": [
+        "4242",
+        "4282",
+        "4322",
+        "4241",
+        "4264"
+      ]
+    },
+    {
+      "id": "giver-9021",
+      "name": "Kharan Mighthammer",
+      "category": "quest-giver",
+      "floor": "1",
+      "x": 43.0437,
+      "y": 85.6277,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 418.039,
+        "y": -210.348,
+        "z": -64.9896
+      },
+      "npcId": "9021",
+      "questIds": [
+        "4342",
+        "4361",
+        "4341"
+      ]
+    },
+    {
+      "id": "giver-9500",
+      "name": "Mistress Nagmara",
+      "category": "quest-giver",
+      "floor": "3",
+      "x": 27.2705,
+      "y": 51.9479,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 874.376,
+        "y": -187.633,
+        "z": -43.6204
+      },
+      "npcId": "9500",
+      "questIds": [
+        "4201"
+      ]
+    },
+    {
+      "id": "giver-9503",
+      "name": "Private Rocknot",
+      "category": "quest-giver",
+      "floor": "3",
+      "x": 29.8891,
+      "y": 49.4145,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 891.198,
+        "y": -197.924,
+        "z": -43.6204
+      },
+      "npcId": "9503",
+      "questIds": [
+        "4295"
+      ]
+    },
+    {
+      "id": "giver-12944",
+      "name": "Lokhtos Darkbargainer",
+      "category": "quest-giver",
+      "floor": "3",
+      "x": 26.8183,
+      "y": 46.2033,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 912.52,
+        "y": -185.856,
+        "z": -43.6204
+      },
+      "npcId": "12944",
+      "questIds": [
+        "6642",
+        "6643",
+        "6644",
+        "6645",
+        "6646",
+        "7604"
+      ]
+    },
+    {
+      "id": "giver-9037",
+      "name": "Gloom'rel",
+      "category": "quest-giver",
+      "floor": "1",
+      "x": 46.1258,
+      "y": 22.2556,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 1226.69,
+        "y": -246.124,
+        "z": -85.5903
+      },
+      "npcId": "9037",
+      "questIds": [
+        "4083"
+      ],
+      "note": "Speak to Gloom'rel before starting The Seven to summon the Spectral Chalice."
+    },
+    {
+      "id": "elder-morndeep",
+      "name": "Elder Morndeep",
+      "category": "quest-giver",
+      "floor": "2",
+      "x": 37.97,
+      "y": 79.1125,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 592.67,
+        "y": -190.145,
+        "z": -54.0991
+      },
+      "npcId": "15549",
+      "questIds": [
+        "8619"
+      ],
+      "note": "Present during Lunar Festival."
+    },
+    {
+      "id": "object-164689",
+      "name": "Monument of Franclorn Forgewright",
+      "category": "quest-object",
+      "floor": "2",
+      "x": 55.1666,
+      "y": 92.812,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 525.062744140625,
+        "y": -238.8974151611328,
+        "z": -41.04233932495117
+      },
+      "objectId": "164689",
+      "questIds": [
+        "3802"
+      ]
+    },
+    {
+      "id": "object-179553",
+      "name": "Core Fragment",
+      "category": "quest-object",
+      "floor": "1",
+      "x": 65.5646,
+      "y": 29.989,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 1128.0093994140625,
+        "y": -471.7634582519531,
+        "z": -104.03201293945312
+      },
+      "objectId": "179553",
+      "questIds": [
+        "7848"
+      ]
+    },
+    {
+      "id": "object-174045",
+      "name": "The Black Forge",
+      "category": "landmark",
+      "floor": "1",
+      "x": 63.1485,
+      "y": 23.4534,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 1211.4066162109375,
+        "y": -443.7178649902344,
+        "z": -102.584716796875
+      },
+      "objectId": "174045",
+      "questIds": [
+        "4083"
+      ]
+    },
+    {
+      "id": "object-161460",
+      "name": "The Shadowforge Lock",
+      "category": "quest-object",
+      "floor": "1",
+      "x": 29.211,
+      "y": 70.1442,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 615.6141357421875,
+        "y": -49.78227996826172,
+        "z": -60.05573272705078
+      },
+      "objectId": "161460",
+      "questIds": [
+        "3802"
+      ]
+    },
+    {
+      "id": "object-169243",
+      "name": "Chest of The Seven",
+      "category": "dungeon-chest",
+      "floor": "1",
+      "x": 49.4834,
+      "y": 19.1868,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 1265.85,
+        "y": -285.098,
+        "z": -78.2193
+      },
+      "objectId": "169243",
+      "drops": true
+    },
+    {
+      "id": "object-161495",
+      "name": "Secret Safe",
+      "category": "dungeon-chest",
+      "floor": "4",
+      "x": 67.2936,
+      "y": 55.6724,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 803.47998046875,
+        "y": -357.44940185546875,
+        "z": -48.941402435302734
+      },
+      "objectId": "161495",
+      "questIds": [
+        "4123"
+      ],
+      "drops": true,
+      "note": "The Heart of the Mountain becomes accessible after the vault event."
+    },
+    {
+      "id": "object-160845",
+      "name": "Dark Coffer",
+      "category": "quest-chest",
+      "floor": "4",
+      "x": 67.108,
+      "y": 55.6039,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 803.8605346679688,
+        "y": -356.35595703125,
+        "z": -47.4639892578125
+      },
+      "objectId": "160845"
+    },
+    {
+      "id": "object-174555",
+      "name": "Vault — Relic Coffer Door",
+      "category": "landmark",
+      "floor": "4",
+      "x": 65.8595,
+      "y": 56.6982,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 797.7815551757812,
+        "y": -349.0025329589844,
+        "z": -49.34221267700195
+      },
+      "objectId": "174555",
+      "questIds": [
+        "4123"
+      ]
+    },
+    {
+      "id": "object-157923",
+      "name": "Giant Doors",
+      "category": "landmark",
+      "floor": "4",
+      "x": 24.5813,
+      "y": 70.1412,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 723.1055908203125,
+        "y": -105.87364959716797,
+        "z": -71.48394775390625
+      },
+      "objectId": "157923"
+    },
+    {
+      "id": "object-161522",
+      "name": "Ring of Law gate",
+      "category": "landmark",
+      "floor": "4",
+      "x": 36.7931,
+      "y": 85.5265,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 637.6404418945312,
+        "y": -177.8012237548828,
+        "z": -52.898780822753906
+      },
+      "objectId": "161522"
+    },
+    {
+      "id": "coffer-2300076",
+      "name": "Relic Coffer",
+      "category": "dungeon-chest",
+      "floor": "4",
+      "x": 66.83,
+      "y": 56.2086,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 800.5010375976562,
+        "y": -354.7187194824219,
+        "z": -48.941139221191406
+      },
+      "objectId": "160836",
+      "questIds": [
+        "4123"
+      ],
+      "drops": true,
+      "note": "Requires a Relic Coffer Key. Opening all coffers triggers the vault encounter."
+    },
+    {
+      "id": "coffer-2300077",
+      "name": "Relic Coffer",
+      "category": "dungeon-chest",
+      "floor": "4",
+      "x": 66.3919,
+      "y": 50.849,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 830.2739868164062,
+        "y": -352.1382751464844,
+        "z": -48.94113540649414
+      },
+      "objectId": "160836",
+      "questIds": [
+        "4123"
+      ],
+      "drops": true,
+      "note": "Requires a Relic Coffer Key. Opening all coffers triggers the vault encounter."
+    },
+    {
+      "id": "coffer-2300078",
+      "name": "Relic Coffer",
+      "category": "dungeon-chest",
+      "floor": "4",
+      "x": 63.4266,
+      "y": 55.2332,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 805.9197998046875,
+        "y": -334.6723937988281,
+        "z": -48.94113540649414
+      },
+      "objectId": "160836",
+      "questIds": [
+        "4123"
+      ],
+      "drops": true,
+      "note": "Requires a Relic Coffer Key. Opening all coffers triggers the vault encounter."
+    },
+    {
+      "id": "coffer-2300079",
+      "name": "Relic Coffer",
+      "category": "dungeon-chest",
+      "floor": "4",
+      "x": 67.6035,
+      "y": 55.2289,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 805.9434814453125,
+        "y": -359.2746276855469,
+        "z": -48.94114303588867
+      },
+      "objectId": "160836",
+      "questIds": [
+        "4123"
+      ],
+      "drops": true,
+      "note": "Requires a Relic Coffer Key. Opening all coffers triggers the vault encounter."
+    },
+    {
+      "id": "coffer-2300080",
+      "name": "Relic Coffer",
+      "category": "dungeon-chest",
+      "floor": "4",
+      "x": 64.1002,
+      "y": 56.0232,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 801.531005859375,
+        "y": -338.6402282714844,
+        "z": -48.94114303588867
+      },
+      "objectId": "160836",
+      "questIds": [
+        "4123"
+      ],
+      "drops": true,
+      "note": "Requires a Relic Coffer Key. Opening all coffers triggers the vault encounter."
+    },
+    {
+      "id": "coffer-2300081",
+      "name": "Relic Coffer",
+      "category": "dungeon-chest",
+      "floor": "4",
+      "x": 62.6934,
+      "y": 54.4604,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 810.2124633789062,
+        "y": -330.3539733886719,
+        "z": -48.94113540649414
+      },
+      "objectId": "160836",
+      "questIds": [
+        "4123"
+      ],
+      "drops": true,
+      "note": "Requires a Relic Coffer Key. Opening all coffers triggers the vault encounter."
+    },
+    {
+      "id": "coffer-2300082",
+      "name": "Relic Coffer",
+      "category": "dungeon-chest",
+      "floor": "4",
+      "x": 67.0589,
+      "y": 51.6139,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 826.0245361328125,
+        "y": -356.0669860839844,
+        "z": -48.941139221191406
+      },
+      "objectId": "160836",
+      "questIds": [
+        "4123"
+      ],
+      "drops": true,
+      "note": "Requires a Relic Coffer Key. Opening all coffers triggers the vault encounter."
+    },
+    {
+      "id": "coffer-2300083",
+      "name": "Relic Coffer",
+      "category": "dungeon-chest",
+      "floor": "4",
+      "x": 67.778,
+      "y": 52.4596,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 821.3269653320312,
+        "y": -360.3026428222656,
+        "z": -48.94114303588867
+      },
+      "objectId": "160836",
+      "questIds": [
+        "4123"
+      ],
+      "drops": true,
+      "note": "Requires a Relic Coffer Key. Opening all coffers triggers the vault encounter."
+    },
+    {
+      "id": "coffer-2300084",
+      "name": "Relic Coffer",
+      "category": "dungeon-chest",
+      "floor": "4",
+      "x": 68.4619,
+      "y": 53.1997,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 817.2156372070312,
+        "y": -364.33050537109375,
+        "z": -48.941131591796875
+      },
+      "objectId": "160836",
+      "questIds": [
+        "4123"
+      ],
+      "drops": true,
+      "note": "Requires a Relic Coffer Key. Opening all coffers triggers the vault encounter."
+    },
+    {
+      "id": "coffer-2300085",
+      "name": "Relic Coffer",
+      "category": "dungeon-chest",
+      "floor": "4",
+      "x": 64.8237,
+      "y": 56.8429,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 796.9779052734375,
+        "y": -342.90179443359375,
+        "z": -48.941131591796875
+      },
+      "objectId": "160836",
+      "questIds": [
+        "4123"
+      ],
+      "drops": true,
+      "note": "Requires a Relic Coffer Key. Opening all coffers triggers the vault encounter."
+    },
+    {
+      "id": "coffer-2300086",
+      "name": "Relic Coffer",
+      "category": "dungeon-chest",
+      "floor": "4",
+      "x": 68.355,
+      "y": 54.4584,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 810.2238159179688,
+        "y": -363.7008361816406,
+        "z": -48.94113540649414
+      },
+      "objectId": "160836",
+      "questIds": [
+        "4123"
+      ],
+      "drops": true,
+      "note": "Requires a Relic Coffer Key. Opening all coffers triggers the vault encounter."
+    },
+    {
+      "id": "coffer-2300087",
+      "name": "Relic Coffer",
+      "category": "dungeon-chest",
+      "floor": "4",
+      "x": 66.0577,
+      "y": 56.9672,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 796.2870483398438,
+        "y": -350.16986083984375,
+        "z": -48.94113540649414
+      },
+      "objectId": "160836",
+      "questIds": [
+        "4123"
+      ],
+      "drops": true,
+      "note": "Requires a Relic Coffer Key. Opening all coffers triggers the vault encounter."
+    },
+    {
+      "id": "hurley-event",
+      "name": "Hurley Blackbreath — Thunderbrew Lager Kegs",
+      "category": "boss",
+      "floor": "4",
+      "x": 31.952,
+      "y": 35.4697,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 915.7056274414062,
+        "y": -149.28747049967447,
+        "z": -49.75705337524414
+      },
+      "npcId": "9537",
+      "questIds": [
+        "4126"
+      ],
+      "drops": true,
+      "note": "Destroy the three Thunderbrew Lager Kegs to summon Hurley; this marker represents the keg event area.",
+      "approximate": true,
+      "sourcePositions": [
+        {
+          "x": 914.375244140625,
+          "y": -146.99118041992188,
+          "z": -49.75654983520508
+        },
+        {
+          "x": 915.7144165039062,
+          "y": -149.28872680664062,
+          "z": -49.75705337524414
+        },
+        {
+          "x": 917.0272216796875,
+          "y": -151.58250427246094,
+          "z": -49.7575569152832
+        }
+      ]
+    },
+    {
+      "id": "arrival",
+      "name": "Dungeon arrival",
+      "category": "entrance",
+      "floor": "1",
+      "x": 21.9846,
+      "y": 82.5823,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "guide"
+      ],
+      "world": {
+        "map": 230,
+        "x": 456.9,
+        "y": 34.1,
+        "z": null
+      }
+    }
+  ],
+  "sources": {
+    "guide": {
+      "name": "BRD client maps and encounter locations",
+      "url": "https://foreverdb.net/dungeon/230-blackrock-depths"
+    },
+    "classic": {
+      "name": "Classic spawn and quest reference data",
+      "url": "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    },
+    "addon": {
+      "name": "All The Things Forever dungeon record",
+      "url": "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+    }
+  }
+}

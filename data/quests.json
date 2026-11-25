@@ -43668,5 +43668,2274 @@
         "relation": "Offered after"
       }
     ]
+  },
+  {
+    "id": "3441",
+    "zone": "Blackrock Depths",
+    "level": 48,
+    "name": "Divine Retribution",
+    "stage": "Optional molt preparation",
+    "giver": "Kalaran Windblade",
+    "coordinates": "39.1, 39",
+    "area": "Searing Gorge",
+    "objective": "Listen as Kalaran Windblade tells his story.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/3441/divine-retribution",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3442",
+    "zone": "Blackrock Depths",
+    "level": 48,
+    "name": "The Flawless Flame",
+    "stage": "Optional molt preparation",
+    "giver": "Kalaran Windblade",
+    "coordinates": "39.1, 39",
+    "area": "Searing Gorge",
+    "objective": "Collect 4 Hearts of Flame and 4 globes of Golem Oil and return the items to Kalaran Windblade.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/3442/the-flawless-flame",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3441",
+        "name": "Divine Retribution",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3443",
+    "zone": "Blackrock Depths",
+    "level": 48,
+    "name": "Forging the Shaft",
+    "stage": "Optional molt preparation",
+    "giver": "Kalaran Windblade",
+    "coordinates": "39.1, 39",
+    "area": "Searing Gorge",
+    "objective": "Bring 8 Thorium Plated Daggers to Kalaran Windblade.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/3443/forging-the-shaft",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3442",
+        "name": "The Flawless Flame",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3452",
+    "zone": "Blackrock Depths",
+    "level": 50,
+    "name": "The Flame's Casing",
+    "stage": "Optional molt preparation",
+    "giver": "Kalaran Windblade",
+    "coordinates": "39.1, 39",
+    "area": "Searing Gorge",
+    "objective": "Find and return a Symbol of Ragnaros to Kalaran Windblade.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/3452/the-flames-casing",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3443",
+        "name": "Forging the Shaft",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3453",
+    "zone": "Blackrock Depths",
+    "level": 50,
+    "name": "The Torch of Retribution",
+    "stage": "Optional molt preparation",
+    "giver": "Kalaran Windblade",
+    "coordinates": "39.1, 39",
+    "area": "Searing Gorge",
+    "objective": "Wait for Kalaran Windblade to complete the Torch of Retribution.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/3453/the-torch-of-retribution",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3452",
+        "name": "The Flame's Casing",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3454",
+    "zone": "Blackrock Depths",
+    "level": 50,
+    "name": "The Torch of Retribution",
+    "stage": "Optional molt preparation",
+    "giver": "Kalaran Windblade",
+    "coordinates": "39.1, 39",
+    "area": "Searing Gorge",
+    "objective": "Take the Torch of Retribution.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/3454/the-torch-of-retribution",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3453",
+        "name": "The Torch of Retribution",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3462",
+    "zone": "Blackrock Depths",
+    "level": 50,
+    "name": "Squire Maltrake",
+    "stage": "Optional molt preparation",
+    "giver": "Kalaran Windblade",
+    "coordinates": "39.1, 39",
+    "area": "Searing Gorge",
+    "objective": "Speak with Squire Maltrake.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/3462/squire-maltrake",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3454",
+        "name": "The Torch of Retribution",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3463",
+    "zone": "Blackrock Depths",
+    "level": 52,
+    "name": "Set Them Ablaze!",
+    "stage": "Optional molt preparation",
+    "giver": "Squire Maltrake",
+    "coordinates": "39.2, 39",
+    "area": "Searing Gorge",
+    "objective": "Set the North, South, East, and West Sentry Towers on fire by using the Torch of Retribution inside each of the buildings.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/3463/set-them-ablaze",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3462",
+        "name": "Squire Maltrake",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3481",
+    "zone": "Blackrock Depths",
+    "level": 50,
+    "name": "Trinkets...",
+    "stage": "Optional molt preparation",
+    "giver": "Hoard of the Black Dragonflight",
+    "coordinates": "38.8, 39",
+    "area": "Searing Gorge",
+    "objective": "Open the chest.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40",
+    "sources": [
+      "https://foreverchanges.pro/quest/3481/trinkets",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3463",
+        "name": "Set Them Ablaze!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3701",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "The Smoldering Ruins of Thaurissan",
+    "stage": "Alliance royal rescue",
+    "giver": "Royal Historian Archesonus",
+    "coordinates": "38.6, 55.6",
+    "area": "High Seat (Ironforge)",
+    "objective": "Venture to the Ruins of Thaurissan in the Burning Steppes and recover information from the Thaurissan Relics. Return to Royal Historian Archesonus when you have recovered the information.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50",
+    "sources": [
+      "https://foreverchanges.pro/quest/3701/the-smoldering-ruins-of-thaurissan",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3702",
+        "name": "The Smoldering Ruins of Thaurissan",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3702",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "The Smoldering Ruins of Thaurissan",
+    "stage": "Alliance royal rescue",
+    "giver": "Royal Historian Archesonus",
+    "coordinates": "38.6, 55.6",
+    "area": "High Seat (Ironforge)",
+    "objective": "Listen to Royal Historian Archesonus recant the history of Thaurissan.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50",
+    "sources": [
+      "https://foreverchanges.pro/quest/3702/the-smoldering-ruins-of-thaurissan",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3801",
+    "zone": "Blackrock Depths",
+    "level": 52,
+    "name": "Dark Iron Legacy",
+    "stage": "",
+    "giver": "Franclorn Forgewright",
+    "coordinates": "",
+    "area": "Forgewright's Tomb (Blackrock Mountain)",
+    "objective": "Speak with Franclorn Forgewright if you are interested in obtaining a key to the city major.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 48; Speak to Franclorn while dead/in ghost form; the tomb is outside the instance",
+    "sources": [
+      "https://foreverchanges.pro/quest/3801/dark-iron-legacy",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3802",
+    "zone": "Blackrock Depths",
+    "level": 52,
+    "name": "Dark Iron Legacy",
+    "stage": "",
+    "giver": "Franclorn Forgewright",
+    "coordinates": "",
+    "area": "Forgewright's Tomb (Blackrock Mountain)",
+    "objective": "Slay Fineous Darkvire and recover the great hammer, Ironfel. Take Ironfel to the Shrine of Thaurissan and place it on the statue of Franclorn Forgewright.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 48; Speak to Franclorn while dead/in ghost form; the tomb is outside the instance",
+    "sources": [
+      "https://foreverchanges.pro/quest/3802/dark-iron-legacy",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3801",
+        "name": "Dark Iron Legacy",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4022",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "A Taste of Flame",
+    "stage": "Alternative introduction: existing molt",
+    "giver": "Cyrus Therepentous",
+    "coordinates": "95.1, 31.6",
+    "area": "Burning Steppes",
+    "objective": "Show Cyrus Therepentous the Black Dragonflight Molt you received from Kalaran Windblade.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 52",
+    "sources": [
+      "https://foreverchanges.pro/quest/4022/a-taste-of-flame",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3481",
+        "name": "Trinkets...",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4023",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "A Taste of Flame",
+    "stage": "Alternative introduction: prove your worth",
+    "giver": "Cyrus Therepentous",
+    "coordinates": "95.1, 31.6",
+    "area": "Burning Steppes",
+    "objective": "Show Cyrus Therepentous proof of your worth. You have a feeling that Cyrus already knows that you are unworthy.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 52",
+    "sources": [
+      "https://foreverchanges.pro/quest/4023/a-taste-of-flame",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4024",
+    "zone": "Blackrock Depths",
+    "level": 58,
+    "name": "A Taste of Flame",
+    "stage": "",
+    "giver": "Cyrus Therepentous",
+    "coordinates": "95.1, 31.6",
+    "area": "Burning Steppes",
+    "objective": "Travel to Blackrock Depths and slay Bael'Gar. You only know that the giant resides inside Blackrock Depths. Remember to use the Altered Black Dragonflight Molt on Bael'Gar's remains to capture the Fiery Essence. Return the Encased Fiery Essence to Cyrus Therepentous.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 52; 4022 and 4023 are alternative introductions in the same exclusive group; both are not required",
+    "sources": [
+      "https://foreverchanges.pro/quest/4024/a-taste-of-flame",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "4022",
+        "name": "A Taste of Flame",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+        ]
+      },
+      {
+        "id": "4023",
+        "name": "A Taste of Flame",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4083",
+    "zone": "Blackrock Depths",
+    "level": 55,
+    "name": "The Spectral Chalice",
+    "stage": "Mining: Smelt Dark Iron",
+    "giver": "Spectral Chalice",
+    "coordinates": "",
+    "area": "The Seven / Summoners' Tomb (Blackrock Depths)",
+    "objective": "With Mining 230, give the Spectral Chalice 2 Star Rubies, 20 Gold Bars, and 10 Truesilver Bars, then speak with Gloom'rel to learn Smelt Dark Iron.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 40; Mining 230 required; speak with Gloom'rel before starting The Seven encounter",
+    "sources": [
+      "https://foreverchanges.pro/quest/4083/the-spectral-chalice",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4123",
+    "zone": "Blackrock Depths",
+    "level": 55,
+    "name": "The Heart of the Mountain",
+    "stage": "",
+    "giver": "Maxwort Uberglint",
+    "coordinates": "65.2, 23.9",
+    "area": "Burning Steppes",
+    "objective": "Bring the Heart of the Mountain to Maxwort Uberglint in the Burning Steppes.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 50",
+    "sources": [
+      "https://foreverchanges.pro/quest/4123/the-heart-of-the-mountain",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4126",
+    "zone": "Blackrock Depths",
+    "level": 55,
+    "name": "Hurley Blackbreath",
+    "stage": "",
+    "giver": "Ragnar Thunderbrew",
+    "coordinates": "46.8, 52.4",
+    "area": "Kharanos (Dun Morogh)",
+    "objective": "Bring the Lost Thunderbrew Recipe to Ragnar Thunderbrew in Kharanos.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50; Optional introduction; primary table has no mandatory completion requirement",
+    "sources": [
+      "https://foreverchanges.pro/quest/4126/hurley-blackbreath",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "4128",
+        "name": "Ragnar Thunderbrew",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4128",
+    "zone": "Blackrock Depths",
+    "level": 55,
+    "name": "Ragnar Thunderbrew",
+    "stage": "",
+    "giver": "Enohar Thunderbrew",
+    "coordinates": "63.6, 20.6",
+    "area": "Blasted Lands",
+    "objective": "Speak with Ragnar Thunderbrew.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50",
+    "sources": [
+      "https://foreverchanges.pro/quest/4128/ragnar-thunderbrew",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4136",
+    "zone": "Blackrock Depths",
+    "level": 53,
+    "name": "Ribbly Screwspigot",
+    "stage": "",
+    "giver": "Yuka Screwspigot",
+    "coordinates": "66.1, 22",
+    "area": "Burning Steppes",
+    "objective": "Bring Ribbly's Head to Yuka Screwspigot in the Burning Steppes.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 48; Optional introduction; primary table has no mandatory completion requirement",
+    "sources": [
+      "https://foreverchanges.pro/quest/4136/ribbly-screwspigot",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "4324",
+        "name": "Yuka Screwspigot",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4182",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "Dragonkin Menace",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "Helendis Riverhorn",
+    "coordinates": "85.8, 68.9",
+    "area": "Burning Steppes",
+    "objective": "Slay 15 Black Broodlings, 10 Black Dragonspawn, 4 Black Wyrmkin and 1 Black Drake. Return to Helendis Riverhorn when the task is complete.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/4182/dragonkin-menace",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4183",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "The True Masters",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "Helendis Riverhorn",
+    "coordinates": "85.8, 68.9",
+    "area": "Burning Steppes",
+    "objective": "Travel to Lakeshire and deliver Helendis Riverhorn's Letter to Magistrate Solomon.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/4183/the-true-masters",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4182",
+        "name": "Dragonkin Menace",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4184",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "The True Masters",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "Magistrate Solomon",
+    "coordinates": "24.9, 44.5",
+    "area": "Redridge Mountains",
+    "objective": "Travel to Stormwind and deliver Solomon's Plea to Highlord Bolvar Fordragon. Bolvar resides in Stormwind Keep.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/4184/the-true-masters",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4183",
+        "name": "The True Masters",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4185",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "The True Masters",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "Highlord Bolvar Fordragon",
+    "coordinates": "80.2, 38.3",
+    "area": "Stormwind City",
+    "objective": "Speak with Highlord Bolvar Fordragon after speaking with Lady Katrana Prestor.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/4185/the-true-masters",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4184",
+        "name": "The True Masters",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4186",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "The True Masters",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "Highlord Bolvar Fordragon",
+    "coordinates": "80.2, 38.3",
+    "area": "Stormwind City",
+    "objective": "Take Bolvar's Decree to Magistrate Solomon in Lakeshire.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/4186/the-true-masters",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4185",
+        "name": "The True Masters",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4201",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "The Love Potion",
+    "stage": "",
+    "giver": "Mistress Nagmara",
+    "coordinates": "",
+    "area": "Grim Guzzler (Blackrock Depths)",
+    "objective": "Bring 4 Gromsblood, 10 Giant Silver Veins and Nagmara's Filled Vial to Mistress Nagmara in Blackrock Depths.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 50",
+    "sources": [
+      "https://foreverchanges.pro/quest/4201/the-love-potion",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4223",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "The True Masters",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "Magistrate Solomon",
+    "coordinates": "24.9, 44.5",
+    "area": "Redridge Mountains",
+    "objective": "Speak with Marshal Maxwell in the Burning Steppes.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/4223/the-true-masters",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4186",
+        "name": "The True Masters",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4224",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "The True Masters",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "Marshal Maxwell",
+    "coordinates": "84.7, 69",
+    "area": "Burning Steppes",
+    "objective": "Speak with Ragged John to learn of Marshal Windsor's fate and return to Marshal Maxwell when you have completed this task. You recall Marshal Maxwell telling you to search for him in a cave to the north.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/4224/the-true-masters",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4223",
+        "name": "The True Masters",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4241",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "Marshal Windsor",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "Marshal Maxwell",
+    "coordinates": "84.7, 69",
+    "area": "Burning Steppes",
+    "objective": "Travel to Blackrock Mountain in the northwest and enter Blackrock Depths. Find out what became of Marshal Windsor. You recall Ragged John talking about Windsor being dragged off to a prison.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/4241/marshal-windsor",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4224",
+        "name": "The True Masters",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4242",
+    "zone": "Blackrock Depths",
+    "level": 54,
+    "name": "Abandoned Hope",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "Marshal Windsor",
+    "coordinates": "",
+    "area": "Detention Block (Blackrock Depths)",
+    "objective": "Give Marshal Maxwell the bad news.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/4242/abandoned-hope",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4241",
+        "name": "Marshal Windsor",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4262",
+    "zone": "Blackrock Depths",
+    "level": 52,
+    "name": "Overmaster Pyron",
+    "stage": "",
+    "giver": "Jalinda Sprig",
+    "coordinates": "85.4, 70.1",
+    "area": "Burning Steppes",
+    "objective": "Slay Overmaster Pyron and return to Jalinda Sprig. You recall Jalinda talking about Pyron guarding the quarry. Perhaps you should search there?",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/4262/overmaster-pyron",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4263",
+    "zone": "Blackrock Depths",
+    "level": 56,
+    "name": "Incendius!",
+    "stage": "",
+    "giver": "Jalinda Sprig",
+    "coordinates": "85.4, 70.1",
+    "area": "Burning Steppes",
+    "objective": "Find Lord Incendius in Blackrock Depths and destroy him!",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/4263/incendius",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4262",
+        "name": "Overmaster Pyron",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4264",
+    "zone": "Blackrock Depths",
+    "level": 58,
+    "name": "A Crumpled Up Note",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "A Crumpled Up Note (item)",
+    "coordinates": "",
+    "area": "Blackrock Depths",
+    "objective": "You may have just stumbled on to something that Marshal Windsor would be interested in seeing. There may be hope, after all.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50; Item-started; no fixed item-drop coordinate is asserted",
+    "sources": [
+      "https://foreverchanges.pro/quest/4264/a-crumpled-up-note",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4242",
+        "name": "Abandoned Hope",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4282",
+    "zone": "Blackrock Depths",
+    "level": 58,
+    "name": "A Shred of Hope",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "Marshal Windsor",
+    "coordinates": "",
+    "area": "Detention Block (Blackrock Depths)",
+    "objective": "Return Marshal Windsor's Lost Information. Marshal Windsor believes that the information is being held by Golem Lord Argelmach and General Angerforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50",
+    "sources": [
+      "https://foreverchanges.pro/quest/4282/a-shred-of-hope",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4264",
+        "name": "A Crumpled Up Note",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4286",
+    "zone": "Blackrock Depths",
+    "level": 56,
+    "name": "The Good Stuff",
+    "stage": "",
+    "giver": "Oralius",
+    "coordinates": "84.6, 68.7",
+    "area": "Burning Steppes",
+    "objective": "Travel to Blackrock Depths and recover 20 Dark Iron Fanny Packs. Return to Oralius when you have completed this task. You assume that the Dark Iron dwarves inside Blackrock Depths carry these 'fanny pack' contraptions.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50",
+    "sources": [
+      "https://foreverchanges.pro/quest/4286/the-good-stuff",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4295",
+    "zone": "Blackrock Depths",
+    "level": 1,
+    "name": "Rocknot's Ale",
+    "stage": "Grim Guzzler shortcut",
+    "giver": "Private Rocknot",
+    "coordinates": "",
+    "area": "Grim Guzzler (Blackrock Depths)",
+    "objective": "Give Dark Iron Ale Mugs to Private Rocknot until he is drunk and opens the Grim Guzzler rear door.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 1",
+    "sources": [
+      "https://foreverchanges.pro/quest/4295/rocknots-ale",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4322",
+    "zone": "Blackrock Depths",
+    "level": 58,
+    "name": "Jail Break!",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "Marshal Windsor",
+    "coordinates": "",
+    "area": "Detention Block (Blackrock Depths)",
+    "objective": "Help Marshal Windsor get his gear back and free his friends. Return to Marshal Maxwell if you succeed.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50",
+    "sources": [
+      "https://foreverchanges.pro/quest/4322/jail-break",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4282",
+        "name": "A Shred of Hope",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4324",
+    "zone": "Blackrock Depths",
+    "level": 53,
+    "name": "Yuka Screwspigot",
+    "stage": "",
+    "giver": "Yorba Screwspigot",
+    "coordinates": "67, 24",
+    "area": "Tanaris",
+    "objective": "Speak with Yuka Screwspigot in the Burning Steppes.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 48",
+    "sources": [
+      "https://foreverchanges.pro/quest/4324/yuka-screwspigot",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4341",
+    "zone": "Blackrock Depths",
+    "level": 59,
+    "name": "Kharan Mighthammer",
+    "stage": "Alliance royal rescue",
+    "giver": "King Magni Bronzebeard",
+    "coordinates": "39.1, 56.2",
+    "area": "High Seat (Ironforge)",
+    "objective": "Travel to Blackrock Depths and find Kharan Mighthammer. The King mentioned that Kharan was being held prisoner there - perhaps you should try looking for a prison.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50",
+    "sources": [
+      "https://foreverchanges.pro/quest/4341/kharan-mighthammer",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "3701",
+        "name": "The Smoldering Ruins of Thaurissan",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4342",
+    "zone": "Blackrock Depths",
+    "level": 59,
+    "name": "Kharan's Tale",
+    "stage": "Alliance royal rescue",
+    "giver": "Kharan Mighthammer",
+    "coordinates": "",
+    "area": "Detention Block (Blackrock Depths)",
+    "objective": "Listen as Kharan Mighthammer tells his story.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50; Conversation step; not modeled as an invented mandatory completion requirement",
+    "sources": [
+      "https://foreverchanges.pro/quest/4342/kharans-tale",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "4341",
+        "name": "Kharan Mighthammer",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4361",
+    "zone": "Blackrock Depths",
+    "level": 59,
+    "name": "The Bearer of Bad News",
+    "stage": "Alliance royal rescue",
+    "giver": "Kharan Mighthammer",
+    "coordinates": "",
+    "area": "Detention Block (Blackrock Depths)",
+    "objective": "Return to Ironforge and deliver the bad news to King Magni Bronzebeard.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50",
+    "sources": [
+      "https://foreverchanges.pro/quest/4361/the-bearer-of-bad-news",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4341",
+        "name": "Kharan Mighthammer",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4362",
+    "zone": "Blackrock Depths",
+    "level": 59,
+    "name": "The Fate of the Kingdom",
+    "stage": "Alliance royal rescue",
+    "giver": "King Magni Bronzebeard",
+    "coordinates": "39.1, 56.2",
+    "area": "High Seat (Ironforge)",
+    "objective": "Slay Emperor Dagran Thaurissan in Blackrock Depths while keeping Princess Moira alive, then speak with her.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50; Kill Emperor Thaurissan and spare Princess Moira for the Alliance rescue route",
+    "sources": [
+      "https://foreverchanges.pro/quest/4362/the-fate-of-the-kingdom",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4361",
+        "name": "The Bearer of Bad News",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4363",
+    "zone": "Blackrock Depths",
+    "level": 59,
+    "name": "The Princess's Surprise",
+    "stage": "Alliance royal rescue",
+    "giver": "Princess Moira Bronzebeard",
+    "coordinates": "",
+    "area": "Imperial Seat (Blackrock Depths)",
+    "objective": "Return to Ironforge and speak with King Magni Bronzebeard.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50",
+    "sources": [
+      "https://foreverchanges.pro/quest/4363/the-princesss-surprise",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4362",
+        "name": "The Fate of the Kingdom",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "6402",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Stormwind Rendezvous",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "Marshal Maxwell",
+    "coordinates": "84.7, 69",
+    "area": "Burning Steppes",
+    "objective": "Travel to Stormwind City and venture to the city gates. Speak with Squire Rowe so that he may let Marshal Windsor know that you have arrived.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50",
+    "sources": [
+      "https://foreverchanges.pro/quest/6402/stormwind-rendezvous",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "4322",
+        "name": "Jail Break!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "6403",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "The Great Masquerade",
+    "stage": "Alliance Onyxia attunement",
+    "giver": "Reginald Windsor",
+    "coordinates": "",
+    "area": "Stormwind City gates",
+    "objective": "Follow Reginald Windsor through Stormwind. Protect him from harm!",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 50",
+    "sources": [
+      "https://foreverchanges.pro/quest/6403/the-great-masquerade",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "6402",
+        "name": "Stormwind Rendezvous",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "6501",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "The Dragon's Eye",
+    "giver": "Highlord Bolvar Fordragon",
+    "area": "Stormwind Keep, Stormwind City",
+    "coordinates": "80.2, 38.4",
+    "stage": "Onyxia attunement · Delivery",
+    "objective": "Take the Fragment of the Dragon’s Eye from Stormwind to Haleh at Mazthoril in Winterspring.",
+    "faction": "Alliance",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=6501/the-dragons-eye",
+      "https://www.method.gg/wow-forever/onyxias-lair-attunement-in-wow-forever-how-to-get-the-drakefire-amulet",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "questie",
+      "objective": "questie",
+      "level": "questie",
+      "giver": "questie"
+    },
+    "prerequisites": [
+      {
+        "id": "6403",
+        "name": "The Great Masquerade",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "6502",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Drakefire Amulet",
+    "giver": "Haleh",
+    "area": "Mazthoril, Winterspring",
+    "coordinates": "54.5, 51.2",
+    "stage": "Onyxia attunement · Final step",
+    "objective": "Defeat General Drakkisath in Upper Blackrock Spire and bring the Blood of the Black Dragon Champion to Haleh.",
+    "faction": "Alliance",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/6502/drakefire-amulet",
+      "https://www.method.gg/wow-forever/onyxias-lair-attunement-in-wow-forever-how-to-get-the-drakefire-amulet",
+      "https://questing.wiki/wow-forever/quests/6502/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "6501",
+        "name": "The Dragon's Eye",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "6642",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Favor Amongst the Brotherhood, Dark Iron Ore",
+    "stage": "Repeatable Thorium Brotherhood hand-in",
+    "giver": "Lokhtos Darkbargainer",
+    "coordinates": "",
+    "area": "Grim Guzzler (Blackrock Depths)",
+    "objective": "Bring 10 Dark Iron Ore to Lokhtos Darkbargainer in the Grim Guzzler for Thorium Brotherhood reputation.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 60",
+    "sources": [
+      "https://foreverchanges.pro/quest/6642/favor-amongst-the-brotherhood-dark-iron-ore",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic-primary-requirements",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6643",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Favor Amongst the Brotherhood, Fiery Core",
+    "stage": "Repeatable Thorium Brotherhood hand-in",
+    "giver": "Lokhtos Darkbargainer",
+    "coordinates": "",
+    "area": "Grim Guzzler (Blackrock Depths)",
+    "objective": "Bring 1 Fiery Core to Lokhtos Darkbargainer in the Grim Guzzler for Thorium Brotherhood reputation.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 60",
+    "sources": [
+      "https://foreverchanges.pro/quest/6643/favor-amongst-the-brotherhood-fiery-core",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic-primary-requirements",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6644",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Favor Amongst the Brotherhood, Lava Core",
+    "stage": "Repeatable Thorium Brotherhood hand-in",
+    "giver": "Lokhtos Darkbargainer",
+    "coordinates": "",
+    "area": "Grim Guzzler (Blackrock Depths)",
+    "objective": "Bring 1 Lava Core to Lokhtos Darkbargainer in the Grim Guzzler for Thorium Brotherhood reputation.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 60",
+    "sources": [
+      "https://foreverchanges.pro/quest/6644/favor-amongst-the-brotherhood-lava-core",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic-primary-requirements",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6645",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Favor Amongst the Brotherhood, Core Leather",
+    "stage": "Repeatable Thorium Brotherhood hand-in",
+    "giver": "Lokhtos Darkbargainer",
+    "coordinates": "",
+    "area": "Grim Guzzler (Blackrock Depths)",
+    "objective": "Bring 2 Core Leather to Lokhtos Darkbargainer in the Grim Guzzler for Thorium Brotherhood reputation.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 60",
+    "sources": [
+      "https://foreverchanges.pro/quest/6645/favor-amongst-the-brotherhood-core-leather",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic-primary-requirements",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6646",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Favor Amongst the Brotherhood, Blood of the Mountain",
+    "stage": "Repeatable Thorium Brotherhood hand-in",
+    "giver": "Lokhtos Darkbargainer",
+    "coordinates": "",
+    "area": "Grim Guzzler (Blackrock Depths)",
+    "objective": "Bring 1 Blood of the Mountain to Lokhtos Darkbargainer in the Grim Guzzler for Thorium Brotherhood reputation.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 60",
+    "sources": [
+      "https://foreverchanges.pro/quest/6646/favor-amongst-the-brotherhood-blood-of-the-mountain",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic-primary-requirements",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7604",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "A Binding Contract",
+    "stage": "",
+    "giver": "Thorium Brotherhood Contract (item)",
+    "coordinates": "",
+    "area": "Blackrock Depths",
+    "objective": "Turn the Thorium Brotherhood Contract in to Lokhtos Darkbargainer if you would like to receive the plans for Sulfuron.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted",
+    "sources": [
+      "https://foreverchanges.pro/quest/7604/a-binding-contract",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7848",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Attunement to the Core",
+    "stage": "",
+    "giver": "Lothos Riftwaker",
+    "coordinates": "",
+    "area": "Blackrock Mountain — Molten Core approach",
+    "objective": "Venture to the Molten Core entry portal in Blackrock Depths and recover a Core Fragment. Return to Lothos Riftwaker in Blackrock Mountain when you have recovered the Core Fragment.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 55; Lothos is outside the instance on the central Blackrock Mountain route; no outdoor-map coordinate is projected into the dungeon",
+    "sources": [
+      "https://foreverchanges.pro/quest/7848/attunement-to-the-core",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8619",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Morndeep the Elder",
+    "stage": "Seasonal: Lunar Festival",
+    "giver": "Elder Morndeep",
+    "coordinates": "",
+    "area": "Blackrock Depths — Ring of Law area",
+    "objective": "Honor Elder Morndeep in Blackrock Depths during Lunar Festival.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 1",
+    "sources": [
+      "https://foreverchanges.pro/quest/8619/morndeep-the-elder",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8945",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Dead Man's Plea",
+    "stage": "Dungeon Set 2 / summoned encounter",
+    "giver": "Anthion Harmon",
+    "coordinates": "26.1, 11.3",
+    "area": "Eastern Plaguelands",
+    "objective": "Go into Stratholme and rescue Ysida Harmon from Baron Rivendare.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8945/dead-mans-plea",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8946",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Proof of Life",
+    "stage": "Dungeon Set 2 / summoned encounter",
+    "giver": "Ysida Harmon",
+    "coordinates": "",
+    "area": "Stratholme",
+    "objective": "Bring Ysida's Locket to Anthion Harmon in Eastern Plaguelands.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8946/proof-of-life",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "8945",
+        "name": "Dead Man's Plea",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8947",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Anthion's Strange Request",
+    "stage": "Dungeon Set 2 / summoned encounter",
+    "giver": "Anthion Harmon",
+    "coordinates": "26.1, 11.3",
+    "area": "Eastern Plaguelands",
+    "objective": "Bring 3 Dark Iron Bars, 20 Enchanted Leather, 3 Mooncloth and 4 Cured Rugged Hides to Anthion Harmon in the Eastern Plaguelands.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8947/anthions-strange-request",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "8946",
+        "name": "Proof of Life",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8948",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Anthion's Old Friend",
+    "stage": "Dungeon Set 2 / summoned encounter",
+    "giver": "Anthion Harmon",
+    "coordinates": "26.1, 11.3",
+    "area": "Eastern Plaguelands",
+    "objective": "Take the incomplete Banner of Provocation to Falrin Treeshaper at the library in Dire Maul.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8948/anthions-old-friend",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "8947",
+        "name": "Anthion's Strange Request",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8949",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Falrin's Vendetta",
+    "stage": "Dungeon Set 2 / summoned encounter",
+    "giver": "Falrin Treeshaper",
+    "coordinates": "",
+    "area": "Dire Maul library",
+    "objective": "Collect 25 Ogre Warbeads from Ogres inside Dire Maul or Blackrock Spire and return to Falrin Treeshaper inside the Athenaeum in Dire Maul.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8949/falrins-vendetta",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "8948",
+        "name": "Anthion's Old Friend",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8950",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "The Instigator's Enchantment",
+    "stage": "Dungeon Set 2 / summoned encounter",
+    "giver": "Falrin Treeshaper",
+    "coordinates": "",
+    "area": "Dire Maul library",
+    "objective": "Bring the following to Falrin Treeshaper inside Dire Maul: 1 Jeering Spectre's Essence, 4 Dark Runes and 8 Large Brilliant Shards.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8950/the-instigators-enchantment",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "8949",
+        "name": "Falrin's Vendetta",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8961",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "Three Kings of Flame",
+    "stage": "Dungeon Set 2 / summoned encounter",
+    "giver": "Bodley",
+    "coordinates": "32.3, 25.8",
+    "area": "Burning Steppes",
+    "objective": "Gather the Incendicite of Incendius, the Ember of Emberseer and the Cinder of Cynders, along with a Hallowed Brazier, and return them to Bodley inside Blackrock Mountain.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8961/three-kings-of-flame",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "9015",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "The Challenge",
+    "stage": "Dungeon Set 2 / summoned encounter",
+    "giver": "Falrin Treeshaper",
+    "coordinates": "",
+    "area": "Dire Maul library",
+    "objective": "Travel to the Ring of the Law in Blackrock Depths and place the Banner of Provocation in its center as you are sentenced by High Justice Grimstone.  Slay Theldren and his gladiators and return to Anthion Harmon in the Eastern Plaguelands with the first piece of Lord Valthalak's amulet.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/9015/the-challenge",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "8950",
+        "name": "The Instigator's Enchantment",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96075",
+    "zone": "Blackrock Depths",
+    "level": 60,
+    "name": "In Demand - Blackrock Legal Records",
+    "stage": "Cross-dungeon delivery",
+    "giver": "Pix Xizzix",
+    "coordinates": "28.52, 75.86",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Recover Nefarian's Remit from General Drakkisath and the Overseer's License from Overlord Wyrmthalak in Blackrock Spire, plus the Bronzebeard Wedding Contract from Emperor Thaurissan in Blackrock Depths. Return all three to Pix Xizzix in Booty Bay.",
+    "areaConfidence": "High",
+    "notes": "Alliance; Minimum level 60; Quest identity/objective and starter are corroborated by current tooltip and primary player traces; The public quest page is unavailable",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=96075",
+      "https://nether.wowhead.com/forever/tooltip/quest/96075",
+      "https://github.com/Questie/QuestieDB/blob/498734b13f1ed25931566298f6ca119ad058c17f/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/498734b13f1ed25931566298f6ca119ad058c17f/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/498734b13f1ed25931566298f6ca119ad058c17f/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "wowhead-and-questie-trace",
+      "level": "questie-generated",
+      "minimumLevel": "questie-generated",
+      "objective": "wowhead-and-questie-trace",
+      "giver": "questie-generated-and-trace",
+      "pickupLocation": "questie-npc-trace",
+      "faction": "questie-generated"
+    },
+    "prerequisites": [],
+    "previousQuests": []
   }
 ]

@@ -1,0 +1,1609 @@
+{
+  "3441": {
+    "classic": {
+      "entry": 3441,
+      "Title": "Divine Retribution",
+      "MinLevel": 40,
+      "QuestLevel": 48,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3442": {
+    "classic": {
+      "entry": 3442,
+      "Title": "The Flawless Flame",
+      "MinLevel": 40,
+      "QuestLevel": 48,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3441,
+      "NextQuestInChain": 3443,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3443": {
+    "classic": {
+      "entry": 3443,
+      "Title": "Forging the Shaft",
+      "MinLevel": 40,
+      "QuestLevel": 48,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3442,
+      "NextQuestInChain": 3452,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3452": {
+    "classic": {
+      "entry": 3452,
+      "Title": "The Flame's Casing",
+      "MinLevel": 40,
+      "QuestLevel": 50,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3443,
+      "NextQuestInChain": 3453,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3453": {
+    "classic": {
+      "entry": 3453,
+      "Title": "The Torch of Retribution",
+      "MinLevel": 40,
+      "QuestLevel": 50,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3452,
+      "NextQuestInChain": 3454,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3454": {
+    "classic": {
+      "entry": 3454,
+      "Title": "The Torch of Retribution",
+      "MinLevel": 40,
+      "QuestLevel": 50,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3453,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3462": {
+    "classic": {
+      "entry": 3462,
+      "Title": "Squire Maltrake",
+      "MinLevel": 40,
+      "QuestLevel": 50,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3454,
+      "NextQuestInChain": 3463,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3463": {
+    "classic": {
+      "entry": 3463,
+      "Title": "Set Them Ablaze!",
+      "MinLevel": 40,
+      "QuestLevel": 52,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3462,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3481": {
+    "classic": {
+      "entry": 3481,
+      "Title": "Trinkets...",
+      "MinLevel": 40,
+      "QuestLevel": 50,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3463,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3701": {
+    "classic": {
+      "entry": 3701,
+      "Title": "The Smoldering Ruins of Thaurissan",
+      "MinLevel": 50,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3702,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3702": {
+    "classic": {
+      "entry": 3702,
+      "Title": "The Smoldering Ruins of Thaurissan",
+      "MinLevel": 50,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 3701,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3801": {
+    "classic": {
+      "entry": 3801,
+      "Title": "Dark Iron Legacy",
+      "MinLevel": 48,
+      "QuestLevel": 52,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 3802,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3802": {
+    "classic": {
+      "entry": 3802,
+      "Title": "Dark Iron Legacy",
+      "MinLevel": 48,
+      "QuestLevel": 52,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3801,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3906": {
+    "classic": {
+      "entry": 3906,
+      "Title": "Disharmony of Flame",
+      "MinLevel": 48,
+      "QuestLevel": 52,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 3907,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3907": {
+    "classic": {
+      "entry": 3907,
+      "Title": "Disharmony of Fire",
+      "MinLevel": 48,
+      "QuestLevel": 56,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3906,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3911": {
+    "classic": null,
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3981": {
+    "classic": {
+      "entry": 3981,
+      "Title": "Commander Gor'shak",
+      "MinLevel": 48,
+      "QuestLevel": 52,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3906,
+      "NextQuestInChain": 3982,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "3982": {
+    "classic": {
+      "entry": 3982,
+      "Title": "What Is Going On?",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3981,
+      "NextQuestInChain": 4001,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4001": {
+    "classic": {
+      "entry": 4001,
+      "Title": "What Is Going On?",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3982,
+      "NextQuestInChain": 4002,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4002": {
+    "classic": {
+      "entry": 4002,
+      "Title": "The Eastern Kingdom",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4001,
+      "NextQuestInChain": 4003,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4003": {
+    "classic": {
+      "entry": 4003,
+      "Title": "The Royal Rescue",
+      "MinLevel": 48,
+      "QuestLevel": 59,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4002,
+      "NextQuestInChain": 4004,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4004": {
+    "classic": {
+      "entry": 4004,
+      "Title": "The Princess Saved?",
+      "MinLevel": 48,
+      "QuestLevel": 60,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4003,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4022": {
+    "classic": {
+      "entry": 4022,
+      "Title": "A Taste of Flame",
+      "MinLevel": 52,
+      "QuestLevel": 54,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3481,
+      "NextQuestInChain": 4024,
+      "ExclusiveGroup": 4022,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4023": {
+    "classic": {
+      "entry": 4023,
+      "Title": "A Taste of Flame",
+      "MinLevel": 52,
+      "QuestLevel": 54,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 4024,
+      "ExclusiveGroup": 4022,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4024": {
+    "classic": {
+      "entry": 4024,
+      "Title": "A Taste of Flame",
+      "MinLevel": 52,
+      "QuestLevel": 58,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4023,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4061": {
+    "classic": {
+      "entry": 4061,
+      "Title": "The Rise of the Machines",
+      "MinLevel": 52,
+      "QuestLevel": 54,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 4062,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4062": {
+    "classic": {
+      "entry": 4062,
+      "Title": "The Rise of the Machines",
+      "MinLevel": 52,
+      "QuestLevel": 54,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4061,
+      "NextQuestInChain": 4063,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4063": {
+    "classic": {
+      "entry": 4063,
+      "Title": "The Rise of the Machines",
+      "MinLevel": 52,
+      "QuestLevel": 58,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4062,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4081": {
+    "classic": {
+      "entry": 4081,
+      "Title": "KILL ON SIGHT: Dark Iron Dwarves",
+      "MinLevel": 48,
+      "QuestLevel": 52,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4082": {
+    "classic": {
+      "entry": 4082,
+      "Title": "KILL ON SIGHT: High Ranking Dark Iron Officials",
+      "MinLevel": 50,
+      "QuestLevel": 54,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4081,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4083": {
+    "classic": {
+      "entry": 4083,
+      "Title": "The Spectral Chalice",
+      "MinLevel": 40,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4121": {
+    "classic": {
+      "entry": 4121,
+      "Title": "Precarious Predicament",
+      "MinLevel": 52,
+      "QuestLevel": 58,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4122,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4122": {
+    "classic": {
+      "entry": 4122,
+      "Title": "Grark Lorkrub",
+      "MinLevel": 52,
+      "QuestLevel": 58,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4123": {
+    "classic": {
+      "entry": 4123,
+      "Title": "The Heart of the Mountain",
+      "MinLevel": 50,
+      "QuestLevel": 55,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4126": {
+    "classic": {
+      "entry": 4126,
+      "Title": "Hurley Blackbreath",
+      "MinLevel": 50,
+      "QuestLevel": 55,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4128": {
+    "classic": {
+      "entry": 4128,
+      "Title": "Ragnar Thunderbrew",
+      "MinLevel": 50,
+      "QuestLevel": 55,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 4126,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4132": {
+    "classic": {
+      "entry": 4132,
+      "Title": "Operation: Death to Angerforge",
+      "MinLevel": 52,
+      "QuestLevel": 58,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4121,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4133": {
+    "classic": {
+      "entry": 4133,
+      "Title": "Vivian Lagrave",
+      "MinLevel": 50,
+      "QuestLevel": 55,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 4134,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4134": {
+    "classic": {
+      "entry": 4134,
+      "Title": "Lost Thunderbrew Recipe",
+      "MinLevel": 50,
+      "QuestLevel": 55,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4136": {
+    "classic": {
+      "entry": 4136,
+      "Title": "Ribbly Screwspigot",
+      "MinLevel": 48,
+      "QuestLevel": 53,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4182": {
+    "classic": {
+      "entry": 4182,
+      "Title": "Dragonkin Menace",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 4183,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4183": {
+    "classic": {
+      "entry": 4183,
+      "Title": "The True Masters",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4182,
+      "NextQuestInChain": 4184,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4184": {
+    "classic": {
+      "entry": 4184,
+      "Title": "The True Masters",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4183,
+      "NextQuestInChain": 4185,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4185": {
+    "classic": {
+      "entry": 4185,
+      "Title": "The True Masters",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4184,
+      "NextQuestInChain": 4186,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4186": {
+    "classic": {
+      "entry": 4186,
+      "Title": "The True Masters",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4185,
+      "NextQuestInChain": 4223,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4201": {
+    "classic": {
+      "entry": 4201,
+      "Title": "The Love Potion",
+      "MinLevel": 50,
+      "QuestLevel": 54,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4223": {
+    "classic": {
+      "entry": 4223,
+      "Title": "The True Masters",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4186,
+      "NextQuestInChain": 4224,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4224": {
+    "classic": {
+      "entry": 4224,
+      "Title": "The True Masters",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4223,
+      "NextQuestInChain": 4241,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4241": {
+    "classic": {
+      "entry": 4241,
+      "Title": "Marshal Windsor",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4224,
+      "NextQuestInChain": 4242,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4242": {
+    "classic": {
+      "entry": 4242,
+      "Title": "Abandoned Hope",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4241,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4262": {
+    "classic": {
+      "entry": 4262,
+      "Title": "Overmaster Pyron",
+      "MinLevel": 48,
+      "QuestLevel": 52,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 4263,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4263": {
+    "classic": {
+      "entry": 4263,
+      "Title": "Incendius!",
+      "MinLevel": 48,
+      "QuestLevel": 56,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4262,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4264": {
+    "classic": {
+      "entry": 4264,
+      "Title": "A Crumpled Up Note",
+      "MinLevel": 50,
+      "QuestLevel": 58,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4242,
+      "NextQuestInChain": 4282,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4282": {
+    "classic": {
+      "entry": 4282,
+      "Title": "A Shred of Hope",
+      "MinLevel": 50,
+      "QuestLevel": 58,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4264,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4286": {
+    "classic": {
+      "entry": 4286,
+      "Title": "The Good Stuff",
+      "MinLevel": 50,
+      "QuestLevel": 56,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4295": {
+    "classic": {
+      "entry": 4295,
+      "Title": "Rocknot's Ale",
+      "MinLevel": 1,
+      "QuestLevel": 1,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4322": {
+    "classic": {
+      "entry": 4322,
+      "Title": "Jail Break!",
+      "MinLevel": 50,
+      "QuestLevel": 58,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4282,
+      "NextQuestInChain": 6402,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4324": {
+    "classic": {
+      "entry": 4324,
+      "Title": "Yuka Screwspigot",
+      "MinLevel": 48,
+      "QuestLevel": 53,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 4136,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4341": {
+    "classic": {
+      "entry": 4341,
+      "Title": "Kharan Mighthammer",
+      "MinLevel": 50,
+      "QuestLevel": 59,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 3701,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4342": {
+    "classic": {
+      "entry": 4342,
+      "Title": "Kharan's Tale",
+      "MinLevel": 50,
+      "QuestLevel": 59,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 4361,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4361": {
+    "classic": {
+      "entry": 4361,
+      "Title": "The Bearer of Bad News",
+      "MinLevel": 50,
+      "QuestLevel": 59,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4341,
+      "NextQuestInChain": 4362,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4362": {
+    "classic": {
+      "entry": 4362,
+      "Title": "The Fate of the Kingdom",
+      "MinLevel": 50,
+      "QuestLevel": 59,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4361,
+      "NextQuestInChain": 4363,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "4363": {
+    "classic": {
+      "entry": 4363,
+      "Title": "The Princess's Surprise",
+      "MinLevel": 50,
+      "QuestLevel": 59,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4362,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "6402": {
+    "classic": {
+      "entry": 6402,
+      "Title": "Stormwind Rendezvous",
+      "MinLevel": 50,
+      "QuestLevel": 60,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 4322,
+      "NextQuestInChain": 6403,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "6403": {
+    "classic": {
+      "entry": 6403,
+      "Title": "The Great Masquerade",
+      "MinLevel": 50,
+      "QuestLevel": 60,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 6402,
+      "NextQuestInChain": 6501,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "6501": {
+    "classic": {
+      "entry": 6501,
+      "Title": "The Dragon's Eye",
+      "MinLevel": 50,
+      "QuestLevel": 60,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 6403,
+      "NextQuestInChain": 6502,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "6502": {
+    "classic": {
+      "entry": 6502,
+      "Title": "Drakefire Amulet",
+      "MinLevel": 50,
+      "QuestLevel": 60,
+      "RequiredRaces": 77,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 6501,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "6642": {
+    "classic": {
+      "entry": 6642,
+      "Title": "Favor Amongst the Brotherhood, Dark Iron Ore",
+      "MinLevel": 60,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "6643": {
+    "classic": {
+      "entry": 6643,
+      "Title": "Favor Amongst the Brotherhood, Fiery Core",
+      "MinLevel": 60,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "6644": {
+    "classic": {
+      "entry": 6644,
+      "Title": "Favor Amongst the Brotherhood, Lava Core",
+      "MinLevel": 60,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "6645": {
+    "classic": {
+      "entry": 6645,
+      "Title": "Favor Amongst the Brotherhood, Core Leather",
+      "MinLevel": 60,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "6646": {
+    "classic": {
+      "entry": 6646,
+      "Title": "Favor Amongst the Brotherhood, Blood of the Mountain",
+      "MinLevel": 60,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "7201": {
+    "classic": {
+      "entry": 7201,
+      "Title": "The Last Element",
+      "MinLevel": 48,
+      "QuestLevel": 54,
+      "RequiredRaces": 178,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "7487": {
+    "classic": null,
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "7604": {
+    "classic": {
+      "entry": 7604,
+      "Title": "A Binding Contract",
+      "MinLevel": 60,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "7848": {
+    "classic": {
+      "entry": 7848,
+      "Title": "Attunement to the Core",
+      "MinLevel": 55,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "8619": {
+    "classic": {
+      "entry": 8619,
+      "Title": "Morndeep the Elder",
+      "MinLevel": 1,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "8945": {
+    "classic": {
+      "entry": 8945,
+      "Title": "Dead Man's Plea",
+      "MinLevel": 58,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 8946,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "8946": {
+    "classic": {
+      "entry": 8946,
+      "Title": "Proof of Life",
+      "MinLevel": 58,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 8945,
+      "NextQuestInChain": 8947,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "8947": {
+    "classic": {
+      "entry": 8947,
+      "Title": "Anthion's Strange Request",
+      "MinLevel": 58,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 8946,
+      "NextQuestInChain": 8948,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "8948": {
+    "classic": {
+      "entry": 8948,
+      "Title": "Anthion's Old Friend",
+      "MinLevel": 58,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 8947,
+      "NextQuestInChain": 8949,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "8949": {
+    "classic": {
+      "entry": 8949,
+      "Title": "Falrin's Vendetta",
+      "MinLevel": 58,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 8948,
+      "NextQuestInChain": 8950,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "8950": {
+    "classic": {
+      "entry": 8950,
+      "Title": "The Instigator's Enchantment",
+      "MinLevel": 58,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 8949,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "8961": {
+    "classic": {
+      "entry": 8961,
+      "Title": "Three Kings of Flame",
+      "MinLevel": 58,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 0,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "9015": {
+    "classic": {
+      "entry": 9015,
+      "Title": "The Challenge",
+      "MinLevel": 58,
+      "QuestLevel": 60,
+      "RequiredRaces": 0,
+      "RequiredClasses": 0,
+      "RequiredSkill": 0,
+      "RequiredSkillValue": 0,
+      "PrevQuestId": 8950,
+      "NextQuestInChain": 0,
+      "ExclusiveGroup": 0,
+      "RequiredCondition": 0
+    },
+    "generated": null,
+    "trace": null,
+    "relations": null
+  },
+  "82062": {
+    "classic": null,
+    "generated": " -- Ever After : https://wowhead.com/forever/quest=82062/ever-after\n            [questKeys.name] = \"Ever After\",\n            [questKeys.finishedBy] = {{222530}},\n            [questKeys.requiredLevel] = 48,\n            [questKeys.questLevel] = 56,\n            [questKeys.requiredRaces] = 0, -- Assumption: DECISIONS.md#42-default-sod-both-quests-to-all-races-when-the-sod-base-agrees; 0 = all races; Forever Side Both and the consumer SoD base mask 0 agree; all races assumed, not proven.\n            [questKeys.objectivesText] = {\"Speak with the Rugged Traveler.\"},\n            [questKeys.zoneOrSort] = zoneIDs.BLACKROCK_DEPTHS,\n            [questKeys.reputationReward] = {{47, 300}, {68, 300}, {72, 300}, {76, 300}},\n",
+    "trace": "\n            [questKeys.name] = \"Ever After\",\n            [questKeys.questLevel] = 56,\n            [questKeys.objectivesText] = {\"Speak with the Rugged Traveler.\"},\n",
+    "relations": null
+  },
+  "96075": {
+    "classic": null,
+    "generated": " -- In Demand - Blackrock Legal Records : https://wowhead.com/forever/quest=96075/in-demand-blackrock-legal-records\n            [questKeys.name] = \"In Demand - Blackrock Legal Records\",\n            [questKeys.startedBy] = {{227853}},\n            [questKeys.finishedBy] = {{227853}},\n            [questKeys.requiredLevel] = 60,\n            [questKeys.questLevel] = 60,\n            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,\n            [questKeys.objectivesText] = {\"Acquire Nefarian's Remit from General Drakkisath in Blackrock Spire, Overseer's License from Overlord Wyrmthalak in Blackrock Spire, and Bronzebeard Wedding Contract from Emperor Thaurissan in Blackrock Depths, and bring them to Pix Xizzix in Booty Bay.\"},\n            [questKeys.objectives] = {nil, nil, {{272017}, {272018}, {272019}}},\n            [questKeys.zoneOrSort] = zoneIDs.STRANGLETHORN_VALE,\n",
+    "trace": "\n            [questKeys.name] = \"In Demand - Blackrock Legal Records\",\n            [questKeys.questLevel] = 60,\n            [questKeys.objectives] = {nil,nil,{{272017},{272018},{272019}}},\n            [questKeys.objectivesText] = {\"Acquire Nefarian's Remit from General Drakkisath in Blackrock Spire, Overseer's License from Overlord Wyrmthalak in Blackrock Spire, and Bronzebeard Wedding Contract from Emperor Thaurissan in Blackrock Depths, and bring them to Pix Xizzix in Booty Bay.\"},\n            [questKeys.startedBy_add] = {{227853}},\n            [questKeys.finishedBy_add] = {{227853}},\n",
+    "relations": null
+  },
+  "97197": {
+    "classic": null,
+    "generated": " -- Fragment of the Firelands : https://wowhead.com/forever/quest=97197/fragment-of-the-firelands\n            [questKeys.name] = \"Fragment of the Firelands\",\n            [questKeys.startedBy] = {{259119}},\n            [questKeys.finishedBy] = {{259119}},\n            [questKeys.requiredLevel] = 46,\n            [questKeys.questLevel] = 55,\n            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,\n            [questKeys.objectivesText] = {\"Recover a Fragment of the Firelands from Blackrock Depths for Alaana Stormwalker in Mulgore.\"},\n            [questKeys.objectives] = {nil, nil, {{277129}}},\n            [questKeys.zoneOrSort] = zoneIDs.BLACKROCK_DEPTHS,\n            [questKeys.reputationReward] = {{2787, 300}},\n",
+    "trace": "\n            [questKeys.name] = \"Fragment of the Firelands\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectives] = {nil,nil,{{277129}}},\n            [questKeys.objectivesText] = {\"Recover a Fragment of the Firelands from Blackrock Depths for Alaana Stormwalker in Mulgore.\"},\n            [questKeys.startedBy_add] = {{259119}},\n            [questKeys.finishedBy_add] = {{259119}},\n            [questKeys.reputationReward] = {{2787,300}},\n",
+    "relations": null
+  }
+}

@@ -49,6 +49,7 @@ const zones = {
     },
   },
   "Zul'Farrak": { file: 'zulfarrak', guide: 'https://foreverdb.net/dungeon/209-zulfarrak', report: 'zulfarrak-map' },
+  'Blackrock Depths': { file: 'blackrock-depths', guide: 'https://foreverdb.net/dungeon/230-blackrock-depths', report: 'blackrock-depths', defaultHiddenLayers: ['dungeon-chest'] },
   'Sunken Temple': {
     file: 'sunken-temple', guide: 'https://foreverdb.net/dungeon/109-sunken-temple', report: 'sunken-temple-map',
     defaultHiddenLayers: ['quest-material'],
