@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101512">
+  <meta name="color-scheme" content="dark">
+  <title>Rogue damage simulator · WoW Forever</title>
+  <link rel="stylesheet" href="../style.css?v=62">
+  <link rel="stylesheet" href="./simulator.css?v=1">
+  <script type="module" src="./page.js?v=1"></script>
+</head>
+<body>
+  <main class="sim-page">
+    <a class="tool-link sim-back" href="../">← Quest tracker</a>
+    <header class="sim-heading">
+      <p class="eyebrow">WOW: FOREVER</p>
+      <h1>Rogue damage simulator</h1>
+      <p>Test auto-attacks and Sinister Strike IV against a single level 29 target.</p>
+    </header>
+    <noscript>Enable JavaScript to run the simulator.</noscript>
+    <p id="sim-error" role="alert" hidden>Could not load the Rogue preset. Reload the page to try again.</p>
+    <div class="sim-layout">
+      <form id="sim-settings" class="quest-panel sim-settings" hidden>
+        <h2>Character and target</h2>
+        <p id="sim-weapons" class="sim-muted"></p>
+        <div class="sim-fields">
+          <label>Attack power<input name="attackPower" type="number" min="0" max="10000" step="1" required></label>
+          <label>Crit (%)<input name="crit" type="number" min="0" max="100" step="0.1" required></label>
+          <label>Bonus hit (%)<input name="hit" type="number" min="0" max="100" step="0.1" required></label>
+          <label>Expertise (%)<input name="expertise" type="number" min="0" max="100" step="0.1" required></label>
+          <label>Target armour<input name="armour" type="number" min="0" max="20000" step="1" value="0" required></label>
+          <label>Attack position<select name="position"><option value="front">In front</option><option value="behind">From behind</option></select></label>
+          <label>Fight length (seconds)<input name="duration" type="number" min="10" max="300" step="1" value="180" required></label>
+        </div>
+        <div class="sim-actions">
+          <button type="submit">Run simulation</button>
+          <button type="reset">Reset preset</button>
+        </div>
+      </form>
+      <section id="sim-results" class="quest-panel sim-results" aria-labelledby="sim-results-heading" hidden>
+        <div class="sim-result-head">
+          <h2 id="sim-results-heading">Damage per second</h2>
+          <div id="sim-summary" role="status"></div>
+          <p id="sim-range" class="sim-muted"></p>
+          <p id="sim-scenario" class="sim-muted"></p>
+        </div>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Damage breakdown">
+          <table class="sim-table">
+            <thead><tr><th scope="col">Attack</th><th scope="col">Raw hit</th><th scope="col">Attempts</th><th scope="col">Expected DPS</th></tr></thead>
+            <tbody id="sim-breakdown"></tbody>
+          </table>
+        </div>
+        <p class="sim-result-note sim-muted">Raw hit ranges are for normal hits before armour. Expected DPS accounts for attack outcomes and armour.</p>
+      </section>
+    </div>
+    <details class="sim-assumptions quest-panel">
+      <summary>Model assumptions</summary>
+      <p>Level 29 Rogue with max weapon skill, 3/3 Aggression, and 2/2 Efficient Strikes. Enter total sheet stats, including gear and talents. The default 0 armour is a reference target.</p>
+      <p>Each fight starts at 100 Energy and regenerates 10 per second. Sinister Strike costs 40 Energy and fires whenever available. An avoided strike uses the full cost in this test. First swings occur after one weapon interval.</p>
+      <p>The model uses Classic-style estimates for armour, glancing blows, and melee attack chances against an equal-level target. It uses a 2.4-second normalization speed and a 50% off-hand damage multiplier. These assumptions still need validation with Forever combat logs.</p>
+      <p>This test covers weapon swings and Sinister Strike. Poisons, Poised, Shank, finishers, buffs, and target death are outside its scope. <a href="https://github.com/ttdow/wow-forever-quest-tracker/blob/main/rogue-model/research.md">Research and sources</a></p>
+    </details>
+  </main>
+</body>
+</html>

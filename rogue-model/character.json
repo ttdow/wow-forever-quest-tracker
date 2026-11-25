@@ -1,0 +1,50 @@
+{
+  "game": "WoW: Forever",
+  "snapshot_date": "2026-11-11",
+  "level": 29,
+  "race": null,
+  "agility": 132,
+  "attack_power": 253,
+  "melee_hit_bonus_percent": 3.4,
+  "melee_critical_strike_percent": 10.4,
+  "expertise_avoidance_reduction_percentage_points": 1.0,
+  "sheet_values_include_equipment_and_talents": true,
+  "main_hand": {
+    "name": "Leaden Mace of the Bandit",
+    "type": "one_handed_mace",
+    "base_damage_min": 32,
+    "base_damage_max": 61,
+    "speed_seconds": 2.9,
+    "weapon_skill": 145,
+    "poison": "instant_poison_rank_1"
+  },
+  "off_hand": {
+    "name": "Cross Dagger of the Bear",
+    "type": "dagger",
+    "base_damage_min": 13,
+    "base_damage_max": 25,
+    "speed_seconds": 1.3,
+    "weapon_skill": 145,
+    "poison": "instant_poison_rank_1"
+  },
+  "talents": {
+    "coup_de_grace": 3,
+    "efficient_strikes": 2,
+    "precision": 3,
+    "composure": 2,
+    "flawless_execution": 1,
+    "weapon_expertise": 1,
+    "aggression": 3
+  },
+  "remaining_talent_points": {
+    "count": 5,
+    "description": "Sprint/Evasion cooldown reduction and removal of movement-impairing effects on Sprint; no direct damage effect in the stationary baseline."
+  },
+  "assumptions": [
+    "Maximum weapon skill, as requested by the user.",
+    "Instant Poison Rank 1 on both weapons; rank confirmed by user, application to both weapons assumed.",
+    "Weapon base damage ranges inherited from supplied context; weapon speeds and DPS corroborated by current Forever search results.",
+    "Highest available Sinister Strike and Eviscerate ranks are assumed trained; both are Rank 4 at this level.",
+    "Race is unspecified; do not infer or add racial abilities."
+  ]
+}

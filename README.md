@@ -11,6 +11,7 @@ Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracke
 - Search quest names, IDs, givers, areas, coordinates, and objectives.
 - Click **Zones**, **Dungeons**, **Class**, or **Professions** to see its lists. Zones and dungeons are ordered by suggested minimum level, then maximum level, with completion counts beside each name. Scarlet Monastery wings have separate ranges. Choosing a list collapses the navigation and keeps the current selection visible. Click the same tab again or press Escape to collapse it.
 - Choose **Class → Rogue** for 79 Alliance and shared quest records, including starter routes, class skills, Ravenholdt, and the solo dungeon heists. Progress is shared with the zone and dungeon lists. Expanded entries label Classic references and unverified availability. [Rogue quest research](research/rogue-class/README.md)
+- Open **Rogue simulator** to test dual-wield swings and Sinister Strike IV for the level 29 preset. Change sheet stats, target armour, attack position, and fight length to compare expected damage and the spread across simulated fights. [Model assumptions and sources](rogue-model/research.md)
 - Choose **Professions → Fishing** for a searchable table of fish, catch locations, water/catch types, minimum Fishing, and no-fail Fishing. Fish with recorded recipes link to Cooking.
 - Choose **Professions → Cooking** for 39 fish/shellfish recipe records with Cooking requirements, ingredient quantities, food effects, and learning references. Search or filter by your Cooking skill; ingredients with Fishing records link back to their catch locations. Unverified recipe availability is labeled.
 - Choose **Professions → Leatherworking** for 592 WoW Forever recipe records. Check recipes you know and filter by known or needed. Progress saves in this browser. Each row lists crafted item binding, ingredient quantities, skill color thresholds, and available acquisition details. Set a minimum learn skill and maximum grey skill to show recipes whose full skill range fits. [Leatherworking data notes](research/leatherworking/README.md)
@@ -28,7 +29,7 @@ Progress saves automatically in this browser's local storage. It survives closin
 
 Use a separate repository for this tracker; existing Pages websites are unaffected.
 
-1. Upload `index.html`, `style.css`, `app.js`, `progress.js`, `drops.js`, `map.js`, `cooking.js`, `leatherworking.js`, `professions.js`, `.nojekyll`, and the `data/`, `assets/`, `vendor/`, and `research/` folders to the repository root.
+1. Upload `index.html`, `style.css`, `app.js`, `progress.js`, `drops.js`, `map.js`, `cooking.js`, `leatherworking.js`, `professions.js`, `.nojekyll`, and the `data/`, `assets/`, `vendor/`, `research/`, and `rogue-model/` folders to the repository root.
 2. In **Settings → Pages**, choose **Deploy from a branch**.
 3. Select **main** and **/ (root)**, then save.
 4. Open the website URL shown by GitHub Pages after deployment completes.

@@ -14,7 +14,9 @@ progress::-moz-progress-bar { background: #8fc69b; }
 button, input, select { font: inherit; }
 .zone-navigation { margin-bottom: 18px; }
 .zone-groups { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
-.zone-groups button { display: flex; align-items: center; gap: 10px; border: 1px solid #405046; border-radius: 5px; padding: 9px 14px; background: #171e19; color: #dce6dd; font-size: 13px; cursor: pointer; }
+.zone-groups button, .tool-link { display: flex; align-items: center; gap: 10px; border: 1px solid #405046; border-radius: 5px; padding: 9px 14px; background: #171e19; color: #dce6dd; font-size: 13px; cursor: pointer; }
+.tool-link { width: fit-content; text-decoration: none; }
+.tool-link:hover { background: #263d2e; color: #adddb9; }
 .zone-groups button::after { content: '›'; color: #8fc69b; font-size: 18px; line-height: 18px; }
 .zone-groups button[aria-expanded="true"] { background: #263d2e; border-color: #55735b; color: #adddb9; }
 .zone-groups button[aria-expanded="true"]::after { transform: rotate(90deg); }

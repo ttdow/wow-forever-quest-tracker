@@ -1,0 +1,34 @@
+.sim-page { max-width: 1050px; }
+.sim-back { margin-bottom: 25px; }
+.sim-heading { margin-bottom: 24px; }
+.sim-heading > p:last-child, .sim-muted { color: #a3b3a5; line-height: 1.55; }
+.sim-layout { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 16px; align-items: start; }
+.sim-page h2 { margin: 0; font-size: 17px; font-weight: 650; }
+.sim-settings, .sim-result-head, .sim-assumptions { padding: 20px; }
+.sim-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; margin-top: 16px; }
+.sim-fields label { display: grid; gap: 5px; font-size: 13px; }
+.sim-fields input, .sim-fields select { width: 100%; min-width: 0; padding-left: 10px; font-size: 14px; }
+.sim-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 19px; }
+.sim-actions button { border: 1px solid #567662; border-radius: 5px; padding: 9px 12px; background: #263d2e; color: #dce6dd; cursor: pointer; }
+.sim-actions button[type="reset"] { background: transparent; }
+.sim-actions button:hover { background: #31503b; }
+.sim-result-head { padding-bottom: 15px; }
+#sim-summary { margin-top: 8px; color: #adddb9; font-size: 29px; font-weight: 650; font-variant-numeric: tabular-nums; }
+#sim-range, #sim-scenario { margin: 5px 0 0; }
+.sim-page .sim-table { display: table; min-width: 0; table-layout: auto; font-variant-numeric: tabular-nums; }
+.sim-page .sim-table thead { display: table-header-group; }
+.sim-page .sim-table tbody { display: table-row-group; }
+.sim-page .sim-table tr { display: table-row; }
+.sim-page .sim-table th, .sim-page .sim-table td { display: table-cell; padding: 9px 10px; white-space: normal; }
+.sim-page .sim-table tbody th { background: transparent; border-top: 1px solid #2a362d; color: #dce6dd; font-size: 12px; text-transform: none; letter-spacing: 0; overflow-wrap: anywhere; }
+.sim-table tr > :not(:first-child) { text-align: right; }
+.sim-result-note { margin: 0; padding: 12px 20px; border-top: 1px solid #344237; font-size: 12px; }
+.sim-assumptions { margin-top: 16px; }
+.sim-assumptions summary { cursor: pointer; font-weight: 650; }
+.sim-assumptions p { color: #a3b3a5; line-height: 1.55; max-width: 72ch; }
+.sim-assumptions p:last-child { margin-bottom: 0; }
+.sim-assumptions a { color: #adddb9; text-underline-offset: 3px; }
+#sim-error { color: #f4b5ad; }
+@media (max-width: 740px) {
+  .sim-layout { grid-template-columns: minmax(0, 1fr); }
+}
