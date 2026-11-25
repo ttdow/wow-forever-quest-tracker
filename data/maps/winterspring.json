@@ -1,0 +1,1355 @@
+{
+  "zone": "Winterspring",
+  "updated": "2026-11-25",
+  "map": {
+    "image": "./assets/maps/winterspring.webp",
+    "width": 1002,
+    "height": 668,
+    "source": "https://foreverdb.net/maps/1452",
+    "coordinateSystem": "zone-percent",
+    "region": [
+      3800.0,
+      -7416.7,
+      8533.3,
+      -316.7
+    ],
+    "attribution": "World of Warcraft © Blizzard Entertainment; client map via ForeverDB"
+  },
+  "note": "Quest pickups, hand-ins, and Classic reference locations. Enable Chest spawns for possible treasure sites; dashed markers are extra candidates.",
+  "points": [
+    {
+      "id": "npc-9298",
+      "name": "Donova Snowden",
+      "category": "quest-giver",
+      "x": 31.3,
+      "y": 45.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "3909",
+        "3912",
+        "4842",
+        "5082",
+        "5084",
+        "5086",
+        "5087",
+        "5121",
+        "5128",
+        "3908",
+        "980",
+        "5083",
+        "5085",
+        "6603",
+        "5123"
+      ],
+      "npcId": "9298"
+    },
+    {
+      "id": "npc-10431",
+      "name": "Gregor Greystone",
+      "category": "quest-giver",
+      "x": 61.0,
+      "y": 39.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "6028",
+        "6030"
+      ],
+      "npcId": "10431",
+      "sourceCoordinates": {
+        "x": 61.3,
+        "y": 39.0
+      },
+      "displayGroup": "Everlook south",
+      "approximate": true,
+      "note": "Shared Everlook south pin; recorded location 61.30, 39.00."
+    },
+    {
+      "id": "npc-10468",
+      "name": "Felnok Steelspring",
+      "category": "quest-giver",
+      "x": 61.0,
+      "y": 39.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "4809",
+        "4810",
+        "4907",
+        "4808"
+      ],
+      "npcId": "10468",
+      "sourceCoordinates": {
+        "x": 61.6,
+        "y": 38.6
+      },
+      "displayGroup": "Everlook south",
+      "approximate": true,
+      "note": "Shared Everlook south pin; recorded location 61.60, 38.60."
+    },
+    {
+      "id": "npc-11629",
+      "name": "Jessica Redpath",
+      "category": "quest-giver",
+      "x": 61.0,
+      "y": 39.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "5601"
+      ],
+      "npcId": "11629",
+      "sourceCoordinates": {
+        "x": 61.3,
+        "y": 39.0
+      },
+      "displayGroup": "Everlook south",
+      "approximate": true,
+      "note": "Shared Everlook south pin; recorded location 61.30, 39.00."
+    },
+    {
+      "id": "npc-10305",
+      "name": "Umi Rumplesnicker",
+      "category": "quest-giver",
+      "x": 61.2,
+      "y": 37.0,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "3783",
+        "977",
+        "5163",
+        "8798"
+      ],
+      "npcId": "10305",
+      "sourceCoordinates": {
+        "x": 60.9,
+        "y": 37.6
+      },
+      "displayGroup": "Everlook north",
+      "approximate": true,
+      "note": "Shared Everlook north pin; recorded location 60.90, 37.60."
+    },
+    {
+      "id": "npc-11079",
+      "name": "Wynd Nightchaser",
+      "category": "quest-giver",
+      "x": 52.05,
+      "y": 30.4,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "5244",
+        "5253",
+        "5249",
+        "5250"
+      ],
+      "npcId": "11079",
+      "sourceCoordinates": {
+        "x": 52.0,
+        "y": 30.4
+      },
+      "displayGroup": "Starfall Village",
+      "approximate": true,
+      "note": "Shared Starfall Village pin; recorded location 52.00, 30.40."
+    },
+    {
+      "id": "npc-10301",
+      "name": "Jaron Stoneshaper",
+      "category": "quest-giver",
+      "x": 52.05,
+      "y": 30.4,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "5245",
+        "4861",
+        "5244",
+        "6604"
+      ],
+      "npcId": "10301",
+      "sourceCoordinates": {
+        "x": 52.1,
+        "y": 30.4
+      },
+      "displayGroup": "Starfall Village",
+      "approximate": true,
+      "note": "Shared Starfall Village pin; recorded location 52.10, 30.40."
+    },
+    {
+      "id": "npc-11754",
+      "name": "Meggi Peppinrocker",
+      "category": "quest-giver",
+      "x": 61.0,
+      "y": 39.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "6603"
+      ],
+      "npcId": "11754",
+      "sourceCoordinates": {
+        "x": 60.7,
+        "y": 38.2
+      },
+      "displayGroup": "Everlook south",
+      "approximate": true,
+      "note": "Shared Everlook south pin; recorded location 60.70, 38.20."
+    },
+    {
+      "id": "npc-11556",
+      "name": "Salfa",
+      "category": "quest-giver",
+      "x": 27.7,
+      "y": 34.5,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "8469",
+        "8464",
+        "8465"
+      ],
+      "npcId": "11556"
+    },
+    {
+      "id": "npc-228216",
+      "name": "Nami",
+      "category": "quest-giver",
+      "x": 61.2,
+      "y": 37.0,
+      "verification": "forever-confirmed",
+      "sources": [
+        "quests",
+        "npc-traces"
+      ],
+      "questIds": [
+        "92009",
+        "84146",
+        "84212",
+        "92008",
+        "84138",
+        "84211"
+      ],
+      "npcId": "228216",
+      "sourceCoordinates": {
+        "x": 61.33,
+        "y": 36.92
+      },
+      "displayGroup": "Everlook north",
+      "approximate": true,
+      "note": "Shared Everlook north pin; recorded location 61.33, 36.92."
+    },
+    {
+      "id": "npc-11118",
+      "name": "Innkeeper Vizzie",
+      "category": "quest-giver",
+      "x": 61.0,
+      "y": 39.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "93406",
+        "93269",
+        "93197"
+      ],
+      "npcId": "11118",
+      "sourceCoordinates": {
+        "x": 61.4,
+        "y": 38.8
+      },
+      "displayGroup": "Everlook south",
+      "approximate": true,
+      "note": "Shared Everlook south pin; recorded location 61.40, 38.80."
+    },
+    {
+      "id": "npc-10684",
+      "name": "Remorseful Highborne",
+      "category": "quest-giver",
+      "x": 56.1,
+      "y": 44.4,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "5252",
+        "5248"
+      ],
+      "npcId": "10684",
+      "note": "Local hand-in for a quest picked up outside Winterspring."
+    },
+    {
+      "id": "object-175587",
+      "name": "Damaged Crate",
+      "category": "quest-object",
+      "x": 59.0,
+      "y": 59.8,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "4863",
+        "4861"
+      ],
+      "objectId": "175587"
+    },
+    {
+      "id": "object-175586",
+      "name": "Jaron's Wagon",
+      "category": "quest-object",
+      "x": 61.4,
+      "y": 60.7,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "4864"
+      ],
+      "objectId": "175586"
+    },
+    {
+      "id": "npc-10300",
+      "name": "Ranshalla",
+      "category": "quest-giver",
+      "x": 63.1,
+      "y": 59.5,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "4901",
+        "979"
+      ],
+      "npcId": "10300"
+    },
+    {
+      "id": "npc-11755",
+      "name": "Harlo Wigglesworth",
+      "category": "quest-giver",
+      "x": 61.0,
+      "y": 39.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "6604"
+      ],
+      "npcId": "11755",
+      "sourceCoordinates": {
+        "x": 61.1,
+        "y": 38.4
+      },
+      "displayGroup": "Everlook south",
+      "approximate": true,
+      "note": "Shared Everlook south pin; recorded location 61.10, 38.40."
+    },
+    {
+      "id": "npc-10307",
+      "name": "Witch Doctor Mau'ari",
+      "category": "quest-giver",
+      "x": 62.2,
+      "y": 38.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "969",
+        "975",
+        "4801",
+        "4802",
+        "4803",
+        "4804",
+        "4805",
+        "4806",
+        "4807"
+      ],
+      "npcId": "10307",
+      "sourceCoordinates": {
+        "x": 61.9,
+        "y": 38.3
+      },
+      "displayGroup": "Everlook east",
+      "approximate": true,
+      "note": "Shared Everlook east pin; recorded location 61.90, 38.30."
+    },
+    {
+      "id": "npc-10618",
+      "name": "Rivern Frostwind",
+      "category": "quest-giver",
+      "x": 49.9,
+      "y": 9.8,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "4970",
+        "5201",
+        "5981"
+      ],
+      "npcId": "10618"
+    },
+    {
+      "id": "object-175927",
+      "name": "Malyfous's Catalogue",
+      "category": "quest-object",
+      "x": 61.0,
+      "y": 39.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "5063",
+        "5067",
+        "5068"
+      ],
+      "objectId": "175927",
+      "sourceCoordinates": {
+        "x": 61.0,
+        "y": 38.8
+      },
+      "displayGroup": "Everlook south",
+      "approximate": true,
+      "note": "Shared Everlook south pin; recorded location 61.00, 38.80."
+    },
+    {
+      "id": "npc-10637",
+      "name": "Malyfous Darkhammer",
+      "category": "quest-giver",
+      "x": 61.0,
+      "y": 39.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "5124",
+        "5047",
+        "5103"
+      ],
+      "npcId": "10637",
+      "sourceCoordinates": {
+        "x": 61.0,
+        "y": 38.8
+      },
+      "displayGroup": "Everlook south",
+      "approximate": true,
+      "note": "Shared Everlook south pin; recorded location 61.00, 38.80."
+    },
+    {
+      "id": "npc-10918",
+      "name": "Lorax",
+      "category": "quest-giver",
+      "x": 63.8,
+      "y": 73.8,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "5126",
+        "5127"
+      ],
+      "npcId": "10918"
+    },
+    {
+      "id": "npc-10929",
+      "name": "Haleh",
+      "category": "quest-giver",
+      "x": 54.5,
+      "y": 51.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "5161",
+        "5162",
+        "6502",
+        "6501",
+        "5160"
+      ],
+      "npcId": "10929",
+      "note": "Local hand-in for a quest picked up outside Winterspring."
+    },
+    {
+      "id": "npc-11191",
+      "name": "Lilith the Lithe",
+      "category": "quest-giver",
+      "x": 61.2,
+      "y": 37.0,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "5305"
+      ],
+      "npcId": "11191",
+      "sourceCoordinates": {
+        "x": 61.3,
+        "y": 37.1
+      },
+      "displayGroup": "Everlook north",
+      "approximate": true,
+      "note": "Shared Everlook north pin; recorded location 61.30, 37.10."
+    },
+    {
+      "id": "npc-11192",
+      "name": "Kilram",
+      "category": "quest-giver",
+      "x": 61.2,
+      "y": 37.0,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "5306"
+      ],
+      "npcId": "11192",
+      "sourceCoordinates": {
+        "x": 61.3,
+        "y": 37.1
+      },
+      "displayGroup": "Everlook north",
+      "approximate": true,
+      "note": "Shared Everlook north pin; recorded location 61.30, 37.10."
+    },
+    {
+      "id": "npc-11193",
+      "name": "Seril Scourgebane",
+      "category": "quest-giver",
+      "x": 61.2,
+      "y": 37.0,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "5307"
+      ],
+      "npcId": "11193",
+      "sourceCoordinates": {
+        "x": 61.3,
+        "y": 37.2
+      },
+      "displayGroup": "Everlook north",
+      "approximate": true,
+      "note": "Shared Everlook north pin; recorded location 61.30, 37.20."
+    },
+    {
+      "id": "npc-15574",
+      "name": "Elder Stonespire",
+      "category": "quest-giver",
+      "x": 61.2,
+      "y": 37.0,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "8672"
+      ],
+      "npcId": "15574",
+      "sourceCoordinates": {
+        "x": 61.5,
+        "y": 37.8
+      },
+      "displayGroup": "Everlook north",
+      "approximate": true,
+      "note": "Shared Everlook north pin; recorded location 61.50, 37.80."
+    },
+    {
+      "id": "npc-15606",
+      "name": "Elder Brightspear",
+      "category": "quest-giver",
+      "x": 55.6,
+      "y": 43.7,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "8726"
+      ],
+      "npcId": "15606"
+    },
+    {
+      "id": "npc-16416",
+      "name": "Bronn Fitzwrench",
+      "category": "quest-giver",
+      "x": 61.0,
+      "y": 39.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "9266"
+      ],
+      "npcId": "16416",
+      "sourceCoordinates": {
+        "x": 59.8,
+        "y": 39.7
+      },
+      "displayGroup": "Everlook south",
+      "approximate": true,
+      "note": "Shared Everlook south pin; recorded location 59.80, 39.70."
+    },
+    {
+      "id": "npc-11188",
+      "name": "Evie Whirlbrew",
+      "category": "quest-giver",
+      "x": 61.2,
+      "y": 37.0,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "92859",
+        "98462"
+      ],
+      "npcId": "11188",
+      "sourceCoordinates": {
+        "x": 60.8,
+        "y": 37.8
+      },
+      "displayGroup": "Everlook north",
+      "approximate": true,
+      "note": "Shared Everlook north pin; recorded location 60.80, 37.80."
+    },
+    {
+      "id": "npc-11757",
+      "name": "Umaron Stragarelm",
+      "category": "quest-giver",
+      "x": 62.2,
+      "y": 38.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "questIds": [
+        "97490"
+      ],
+      "npcId": "11757",
+      "sourceCoordinates": {
+        "x": 61.9,
+        "y": 38.2
+      },
+      "displayGroup": "Everlook east",
+      "approximate": true,
+      "note": "Shared Everlook east pin; recorded location 61.90, 38.20."
+    },
+    {
+      "id": "npc-8588",
+      "npcId": "8588",
+      "name": "Umbranse the Spiritspeaker",
+      "category": "quest-giver",
+      "x": 67.8,
+      "y": 27.4,
+      "verification": "classic-derived",
+      "questIds": [
+        "3512"
+      ],
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "note": "Reference for the hand-in NPC; live quest availability remains unverified in the checklist."
+    },
+    {
+      "id": "npc-268606",
+      "npcId": "268606",
+      "name": "Thera Duskwhisper",
+      "category": "quest-giver",
+      "x": 52.93,
+      "y": 40.4,
+      "verification": "forever-confirmed",
+      "questIds": [
+        "96265"
+      ],
+      "sources": [
+        "quests",
+        "npc-traces"
+      ],
+      "note": "Reference for the hand-in NPC; live quest availability remains unverified in the checklist."
+    },
+    {
+      "id": "npc-10738",
+      "npcId": "10738",
+      "name": "High Chief Winterfall",
+      "category": "npc",
+      "x": 69.8511,
+      "y": 38.1772,
+      "world": {
+        "map": 1,
+        "x": 6726.259765625,
+        "y": -5276.1298828125
+      },
+      "verification": "classic-derived",
+      "questIds": [
+        "5121",
+        "5123"
+      ],
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Classic spawn reference. The Final Piece starts from his dropped log; this is not a guaranteed item spawn."
+    },
+    {
+      "id": "object-175888",
+      "objectId": "175888",
+      "name": "Highborne Relic Fragment",
+      "category": "quest-object",
+      "x": 55.1379,
+      "y": 42.9829,
+      "verification": "classic-derived",
+      "questIds": [
+        "5245"
+      ],
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "world": {
+        "map": 1,
+        "x": 6498.7900390625,
+        "y": -4231.490234375
+      }
+    },
+    {
+      "id": "object-175891",
+      "objectId": "175891",
+      "name": "Highborne Relic Fragment",
+      "category": "quest-object",
+      "x": 50.8814,
+      "y": 41.7144,
+      "verification": "classic-derived",
+      "questIds": [
+        "5245"
+      ],
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "world": {
+        "map": 1,
+        "x": 6558.830078125,
+        "y": -3929.280029296875
+      }
+    },
+    {
+      "id": "object-175892",
+      "objectId": "175892",
+      "name": "Highborne Relic Fragment",
+      "category": "quest-object",
+      "x": 53.3086,
+      "y": 43.4382,
+      "verification": "classic-derived",
+      "questIds": [
+        "5245"
+      ],
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "world": {
+        "map": 1,
+        "x": 6477.240234375,
+        "y": -4101.60986328125
+      }
+    },
+    {
+      "id": "object-175893",
+      "objectId": "175893",
+      "name": "Highborne Relic Fragment",
+      "category": "quest-object",
+      "x": 52.4227,
+      "y": 41.5021,
+      "verification": "classic-derived",
+      "questIds": [
+        "5245"
+      ],
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "world": {
+        "map": 1,
+        "x": 6568.8798828125,
+        "y": -4038.7099609375
+      }
+    },
+    {
+      "id": "rare-10197-792",
+      "npcId": "10197",
+      "name": "Mezzir the Howler",
+      "category": "rare",
+      "x": 45.0,
+      "y": 37.3989,
+      "world": {
+        "map": 1,
+        "x": 6763.1,
+        "y": -3511.7
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ]
+    },
+    {
+      "id": "rare-10196-806",
+      "npcId": "10196",
+      "name": "General Colbatann",
+      "category": "rare",
+      "x": 55.3,
+      "y": 49.8004,
+      "world": {
+        "map": 1,
+        "x": 6176.1,
+        "y": -4243.0
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ]
+    },
+    {
+      "id": "rare-10196-807",
+      "npcId": "10196",
+      "name": "General Colbatann",
+      "category": "rare",
+      "x": 54.2,
+      "y": 50.2989,
+      "world": {
+        "map": 1,
+        "x": 6152.5,
+        "y": -4164.9
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ]
+    },
+    {
+      "id": "rare-10196-808",
+      "npcId": "10196",
+      "name": "General Colbatann",
+      "category": "rare",
+      "x": 59.7,
+      "y": 49.5003,
+      "world": {
+        "map": 1,
+        "x": 6190.3,
+        "y": -4555.4
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ]
+    },
+    {
+      "id": "rare-10200-826",
+      "npcId": "10200",
+      "name": "Rak'shiri",
+      "category": "rare",
+      "x": 51.1,
+      "y": 10.8001,
+      "world": {
+        "map": 1,
+        "x": 8022.1,
+        "y": -3944.8
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ]
+    },
+    {
+      "id": "rare-10202-843",
+      "npcId": "10202",
+      "name": "Azurous",
+      "category": "rare",
+      "x": 66.7,
+      "y": 53.7997,
+      "world": {
+        "map": 1,
+        "x": 5986.8,
+        "y": -5052.4
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ]
+    },
+    {
+      "id": "rare-10199-844",
+      "npcId": "10199",
+      "name": "Grizzle Snowpaw",
+      "category": "rare",
+      "x": 66.9,
+      "y": 35.5988,
+      "world": {
+        "map": 1,
+        "x": 6848.3,
+        "y": -5066.6
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ]
+    },
+    {
+      "id": "rare-10198-856",
+      "npcId": "10198",
+      "name": "Kashoch the Reaver",
+      "category": "rare",
+      "x": 63.4,
+      "y": 70.2005,
+      "world": {
+        "map": 1,
+        "x": 5210.5,
+        "y": -4818.1
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ]
+    },
+    {
+      "id": "rare-10201-867",
+      "npcId": "10201",
+      "name": "Lady Hederine",
+      "category": "rare",
+      "x": 65.0,
+      "y": 80.2992,
+      "world": {
+        "map": 1,
+        "x": 4732.5,
+        "y": -4931.7
+      },
+      "verification": "classic-derived",
+      "sources": [
+        "rares"
+      ]
+    },
+    {
+      "id": "chest-49088",
+      "objectId": "153454",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 55.8439,
+      "y": 44.6914,
+      "world": {
+        "map": 1,
+        "x": 6417.919921875,
+        "y": -4281.6201171875
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "classic",
+        "era-chests",
+        "bounds"
+      ],
+      "note": "Possible Classic chest position; presence and respawn conditions in Forever are unverified."
+    },
+    {
+      "id": "chest-49089",
+      "objectId": "153454",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 41.5118,
+      "y": 42.5207,
+      "world": {
+        "map": 1,
+        "x": 6520.669921875,
+        "y": -3264.0400390625
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "classic",
+        "era-chests",
+        "bounds"
+      ],
+      "note": "Possible Classic chest position; presence and respawn conditions in Forever are unverified."
+    },
+    {
+      "id": "chest-49090",
+      "objectId": "153454",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 33.0899,
+      "y": 36.6854,
+      "world": {
+        "map": 1,
+        "x": 6796.8701171875,
+        "y": -2666.080078125
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "classic",
+        "era-chests",
+        "bounds"
+      ],
+      "note": "Possible Classic chest position; presence and respawn conditions in Forever are unverified."
+    },
+    {
+      "id": "chest-49091",
+      "objectId": "153454",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 68.0753,
+      "y": 36.6958,
+      "world": {
+        "map": 1,
+        "x": 6796.3798828125,
+        "y": -5150.0498046875
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "classic",
+        "era-chests",
+        "bounds"
+      ],
+      "note": "Possible Classic chest position; presence and respawn conditions in Forever are unverified."
+    },
+    {
+      "id": "chest-85799",
+      "objectId": "153454",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 66.6354,
+      "y": 37.0629,
+      "world": {
+        "map": 1,
+        "x": 6779,
+        "y": -5047.81005859375
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "classic",
+        "era-chests",
+        "bounds"
+      ],
+      "note": "Possible Classic chest position; presence and respawn conditions in Forever are unverified."
+    },
+    {
+      "id": "chest-89671",
+      "objectId": "153454",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 67.6289,
+      "y": 35.2767,
+      "world": {
+        "map": 1,
+        "x": 6863.5498046875,
+        "y": -5118.35009765625
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "classic",
+        "era-chests",
+        "bounds"
+      ],
+      "note": "Possible Classic chest position; presence and respawn conditions in Forever are unverified."
+    },
+    {
+      "id": "chest-89672",
+      "objectId": "153454",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 66.3637,
+      "y": 35.886,
+      "world": {
+        "map": 1,
+        "x": 6834.7099609375,
+        "y": -5028.52001953125
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "classic",
+        "era-chests",
+        "bounds"
+      ],
+      "note": "Possible Classic chest position; presence and respawn conditions in Forever are unverified."
+    },
+    {
+      "id": "chest-89673",
+      "objectId": "153454",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 30.4996,
+      "y": 35.7072,
+      "world": {
+        "map": 1,
+        "x": 6843.169921875,
+        "y": -2482.169921875
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "classic",
+        "era-chests",
+        "bounds"
+      ],
+      "note": "Possible Classic chest position; presence and respawn conditions in Forever are unverified."
+    },
+    {
+      "id": "chest-89674",
+      "objectId": "153454",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 46.0231,
+      "y": 35.9743,
+      "world": {
+        "map": 1,
+        "x": 6830.52978515625,
+        "y": -3584.340087890625
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "classic",
+        "era-chests",
+        "bounds"
+      ],
+      "note": "Possible Classic chest position; presence and respawn conditions in Forever are unverified."
+    },
+    {
+      "id": "chest-89675",
+      "objectId": "153454",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 53.0239,
+      "y": 40.4777,
+      "world": {
+        "map": 1,
+        "x": 6617.3701171875,
+        "y": -4081.39990234375
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "classic",
+        "era-chests",
+        "bounds"
+      ],
+      "note": "Possible Classic chest position; presence and respawn conditions in Forever are unverified."
+    },
+    {
+      "id": "chest-89676",
+      "objectId": "153454",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 39.6607,
+      "y": 43.1321,
+      "world": {
+        "map": 1,
+        "x": 6491.72998046875,
+        "y": -3132.610107421875
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "classic",
+        "era-chests",
+        "bounds"
+      ],
+      "note": "Possible Classic chest position; presence and respawn conditions in Forever are unverified."
+    },
+    {
+      "id": "chest-89677",
+      "objectId": "153454",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 29.2735,
+      "y": 46.895,
+      "world": {
+        "map": 1,
+        "x": 6313.6201171875,
+        "y": -2395.1201171875
+      },
+      "verification": "classic-derived",
+      "coverage": "shared-reference",
+      "sources": [
+        "classic",
+        "era-chests",
+        "bounds"
+      ],
+      "note": "Possible Classic chest position; presence and respawn conditions in Forever are unverified."
+    },
+    {
+      "id": "chest-300473",
+      "objectId": "153454",
+      "name": "Solid Chest",
+      "category": "dungeon-chest",
+      "x": 51.2139,
+      "y": 45.9958,
+      "world": {
+        "map": 1,
+        "x": 6356.18,
+        "y": -3952.89
+      },
+      "verification": "classic-derived",
+      "coverage": "additional-snapshot-only",
+      "sources": [
+        "classic",
+        "bounds"
+      ],
+      "note": "Possible Classic chest position; presence and respawn conditions in Forever are unverified."
+    }
+  ],
+  "sources": {
+    "map": {
+      "name": "ForeverDB Winterspring client map",
+      "url": "https://foreverdb.net/maps/1452"
+    },
+    "bounds": {
+      "name": "Forever client zone boundaries and terrain ownership",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "quests": {
+      "name": "Winterspring quest coverage and pickup references",
+      "url": "https://github.com/ttdow/wow-forever-quest-tracker/blob/main/research/winterspring/README.md"
+    },
+    "npc-traces": {
+      "name": "Questie Forever player-recorded NPC locations",
+      "url": "https://github.com/Questie/QuestieDB/blob/498734b13f1ed25931566298f6ca119ad058c17f/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    },
+    "rares": {
+      "name": "Classic rare position references",
+      "url": "https://foreverdb.net/data/maps/layer-rares.json"
+    },
+    "classic": {
+      "name": "CMaNGOS Classic reference locations",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "era-chests": {
+      "name": "Classic chest layer cross-check",
+      "url": "https://theforeverera.com/data/map-layers/k.json"
+    }
+  },
+  "coverage": {
+    "entries": 59,
+    "markers": 43,
+    "categories": {
+      "quest-giver": 29,
+      "quest-object": 7,
+      "npc": 1,
+      "rare": 9,
+      "dungeon-chest": 13
+    },
+    "linkedQuests": 87,
+    "unmapped": [
+      {
+        "id": "978",
+        "name": "Moontouched Wildkin",
+        "area": "Rut'theran Village, Teldrassil"
+      },
+      {
+        "id": "8470",
+        "name": "Deadwood Ritual Totem",
+        "area": "Deadwood furbolgs, northern Felwood"
+      },
+      {
+        "id": "5246",
+        "name": "Fragments of the Past",
+        "area": "Northpass Tower, Eastern Plaguelands"
+      },
+      {
+        "id": "8471",
+        "name": "Winterfall Ritual Totem",
+        "area": "Winterfall furbolgs, Winterspring"
+      },
+      {
+        "id": "4902",
+        "name": "Wildkin of Elune",
+        "area": "Teldrassil"
+      },
+      {
+        "id": "5247",
+        "name": "Fragments of the Past",
+        "area": "Northpass Tower, Eastern Plaguelands"
+      },
+      {
+        "id": "8481",
+        "name": "The Root of All Evil",
+        "area": "Timbermaw Hold, Felwood"
+      },
+      {
+        "id": "8484",
+        "name": "The Brokering of Peace",
+        "area": "Timbermaw Hold, Felwood"
+      }
+    ],
+    "chestShared": 12,
+    "chestAdditional": 1
+  },
+  "license": "GPL-3.0 for CMaNGOS-derived reference positions; Blizzard artwork retains its copyright."
+}

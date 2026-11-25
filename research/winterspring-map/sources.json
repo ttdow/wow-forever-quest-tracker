@@ -1,0 +1,1013 @@
+{
+  "checked": "2026-11-25",
+  "zone": "Winterspring",
+  "uiMapId": 1452,
+  "areaId": 618,
+  "questieRevision": "498734b13f1ed25931566298f6ca119ad058c17f",
+  "sources": {
+    "map": {
+      "name": "ForeverDB Winterspring client map",
+      "url": "https://foreverdb.net/maps/1452"
+    },
+    "bounds": {
+      "name": "Forever client zone boundaries and terrain ownership",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "quests": {
+      "name": "Winterspring quest coverage and pickup references",
+      "url": "https://github.com/ttdow/wow-forever-quest-tracker/blob/main/research/winterspring/README.md"
+    },
+    "npc-traces": {
+      "name": "Questie Forever player-recorded NPC locations",
+      "url": "https://github.com/Questie/QuestieDB/blob/498734b13f1ed25931566298f6ca119ad058c17f/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    },
+    "rares": {
+      "name": "Classic rare position references",
+      "url": "https://foreverdb.net/data/maps/layer-rares.json"
+    },
+    "classic": {
+      "name": "CMaNGOS Classic reference locations",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "era-chests": {
+      "name": "Classic chest layer cross-check",
+      "url": "https://theforeverera.com/data/map-layers/k.json"
+    }
+  },
+  "image": {
+    "url": "https://foreverdb.net/img/maps/game/1452.webp",
+    "sha256": "14d8643b46595e3c92cbea607104e86d2d7cc4935d7aaca90bb93bf987af4c8f",
+    "size": [
+      1002,
+      668
+    ]
+  },
+  "clientZone": {
+    "key": "m1452",
+    "m": 1452,
+    "area": 618,
+    "n": "Winterspring",
+    "c": 1,
+    "new": 0,
+    "label": [
+      11568,
+      5840
+    ],
+    "world": [
+      6716.7,
+      -4583.3
+    ],
+    "chunks": 7092,
+    "es": "Cuna del Invierno",
+    "region": [
+      3800.0,
+      -7416.7,
+      8533.3,
+      -316.7
+    ],
+    "rect": [
+      7472.0,
+      4096.0,
+      14288.0,
+      8640.0
+    ],
+    "labelPct": [
+      60.1,
+      38.4
+    ],
+    "type": 3,
+    "capital": 0,
+    "side": "C",
+    "sideSrc": "client",
+    "lvSrc": "derived",
+    "lv": [
+      53,
+      60
+    ],
+    "lvA": [
+      54,
+      59
+    ],
+    "lvH": [
+      53,
+      60
+    ],
+    "lvWhy": "Alliance from 40 quests and 990 mob spawns; Horde from 36 quests and 990 mob spawns",
+    "hubs": [
+      {
+        "n": "Everlook",
+        "s": "b",
+        "lv": [
+          55,
+          60
+        ],
+        "q": 19,
+        "p": [
+          11637,
+          5841
+        ]
+      },
+      {
+        "n": "Winterspring (31, 45)",
+        "s": "b",
+        "lv": [
+          56,
+          57
+        ],
+        "q": 9,
+        "p": [
+          9605,
+          6150
+        ]
+      },
+      {
+        "n": "Moon Horror Den",
+        "s": "a",
+        "lv": [
+          56,
+          58
+        ],
+        "q": 4,
+        "p": [
+          11016,
+          5477
+        ]
+      }
+    ],
+    "spec": "Speculation: the Forever client has no zone levels; this range is ForeverDB's estimate (ForeverDB's own (derived): Alliance from 40 quests and 990 mob spawns; Horde from 36 quests and 990 mob spawns)",
+    "poly": [
+      [
+        [
+          10992,
+          4176,
+          11024,
+          4240,
+          10992,
+          4272,
+          10640,
+          4272,
+          10640,
+          4592,
+          10480,
+          4880,
+          10480,
+          5008,
+          10544,
+          5104,
+          10736,
+          5232,
+          10800,
+          5328,
+          10768,
+          5392,
+          10704,
+          5392,
+          10704,
+          5520,
+          10640,
+          5584,
+          10000,
+          5616,
+          9936,
+          5520,
+          9488,
+          5520,
+          9360,
+          5456,
+          9296,
+          5552,
+          9296,
+          6608,
+          9616,
+          6576,
+          9872,
+          6416,
+          9968,
+          6416,
+          10160,
+          6320,
+          10448,
+          6320,
+          10928,
+          6512,
+          11120,
+          6704,
+          11248,
+          6768,
+          11248,
+          7152,
+          11184,
+          7248,
+          11152,
+          7472,
+          10992,
+          7632,
+          10992,
+          7856,
+          10864,
+          7984,
+          10768,
+          7984,
+          10768,
+          8496,
+          11184,
+          8560,
+          11568,
+          8464,
+          11728,
+          8368,
+          11856,
+          8368,
+          11920,
+          8304,
+          11920,
+          8176,
+          12112,
+          7984,
+          12112,
+          7184,
+          12208,
+          7152,
+          12208,
+          7088,
+          12304,
+          6992,
+          12336,
+          6768,
+          12400,
+          6640,
+          12400,
+          6064,
+          12464,
+          5872,
+          12464,
+          5488,
+          12272,
+          5168,
+          12272,
+          4624,
+          11920,
+          4624,
+          11792,
+          4496,
+          11568,
+          4400,
+          11504,
+          4336
+        ]
+      ]
+    ]
+  },
+  "stats": {
+    "entries": 59,
+    "markers": 43,
+    "categories": {
+      "quest-giver": 29,
+      "quest-object": 7,
+      "npc": 1,
+      "rare": 9,
+      "dungeon-chest": 13
+    },
+    "linkedQuests": 87,
+    "unmapped": [
+      {
+        "id": "978",
+        "name": "Moontouched Wildkin",
+        "area": "Rut'theran Village, Teldrassil"
+      },
+      {
+        "id": "8470",
+        "name": "Deadwood Ritual Totem",
+        "area": "Deadwood furbolgs, northern Felwood"
+      },
+      {
+        "id": "5246",
+        "name": "Fragments of the Past",
+        "area": "Northpass Tower, Eastern Plaguelands"
+      },
+      {
+        "id": "8471",
+        "name": "Winterfall Ritual Totem",
+        "area": "Winterfall furbolgs, Winterspring"
+      },
+      {
+        "id": "4902",
+        "name": "Wildkin of Elune",
+        "area": "Teldrassil"
+      },
+      {
+        "id": "5247",
+        "name": "Fragments of the Past",
+        "area": "Northpass Tower, Eastern Plaguelands"
+      },
+      {
+        "id": "8481",
+        "name": "The Root of All Evil",
+        "area": "Timbermaw Hold, Felwood"
+      },
+      {
+        "id": "8484",
+        "name": "The Brokering of Peace",
+        "area": "Timbermaw Hold, Felwood"
+      }
+    ],
+    "chestShared": 12,
+    "chestAdditional": 1
+  },
+  "rejectedRectangleOnlyChests": [
+    {
+      "guid": 48267,
+      "id": 179497,
+      "name": "Mossy Footlocker",
+      "X": 3823.43994140625,
+      "Y": -7230.259765625
+    },
+    {
+      "guid": 48269,
+      "id": 179497,
+      "name": "Mossy Footlocker",
+      "X": 3884.800048828125,
+      "Y": -6277.7001953125
+    },
+    {
+      "guid": 48272,
+      "id": 179497,
+      "name": "Mossy Footlocker",
+      "X": 3890.260009765625,
+      "Y": -6230.68017578125
+    },
+    {
+      "guid": 48274,
+      "id": 179497,
+      "name": "Mossy Footlocker",
+      "X": 3958.830078125,
+      "Y": -6984.14990234375
+    },
+    {
+      "guid": 48276,
+      "id": 179497,
+      "name": "Mossy Footlocker",
+      "X": 3932.7900390625,
+      "Y": -5789.89013671875
+    },
+    {
+      "guid": 48278,
+      "id": 179497,
+      "name": "Mossy Footlocker",
+      "X": 3907.0400390625,
+      "Y": -5632.14013671875
+    },
+    {
+      "guid": 48279,
+      "id": 179497,
+      "name": "Mossy Footlocker",
+      "X": 4020.0400390625,
+      "Y": -7264.7998046875
+    },
+    {
+      "guid": 48364,
+      "id": 153451,
+      "name": "Solid Chest",
+      "X": 3810.419921875,
+      "Y": -4919.10009765625
+    },
+    {
+      "guid": 48370,
+      "id": 153453,
+      "name": "Solid Chest",
+      "X": 4654.68017578125,
+      "Y": -5378.009765625
+    },
+    {
+      "guid": 48371,
+      "id": 153453,
+      "name": "Solid Chest",
+      "X": 4495.3798828125,
+      "Y": -6402.1298828125
+    },
+    {
+      "guid": 48695,
+      "id": 106319,
+      "name": "Battered Chest",
+      "X": 6796.759765625,
+      "Y": -766.6489868164062
+    },
+    {
+      "guid": 48727,
+      "id": 2849,
+      "name": "Battered Chest",
+      "X": 7182.60009765625,
+      "Y": -764.208984375
+    },
+    {
+      "guid": 48756,
+      "id": 2849,
+      "name": "Battered Chest",
+      "X": 7531.02001953125,
+      "Y": -1008.9299926757812
+    },
+    {
+      "guid": 55798,
+      "id": 2849,
+      "name": "Battered Chest",
+      "X": 7357.419921875,
+      "Y": -1019.1900024414062
+    },
+    {
+      "guid": 55942,
+      "id": 2849,
+      "name": "Battered Chest",
+      "X": 7194.43017578125,
+      "Y": -718.406982421875
+    },
+    {
+      "guid": 55945,
+      "id": 2849,
+      "name": "Battered Chest",
+      "X": 7186.10009765625,
+      "Y": -746.3740234375
+    },
+    {
+      "guid": 55952,
+      "id": 106319,
+      "name": "Battered Chest",
+      "X": 7214.85009765625,
+      "Y": -386.9049987792969
+    },
+    {
+      "guid": 55957,
+      "id": 153453,
+      "name": "Solid Chest",
+      "X": 4703.35986328125,
+      "Y": -5873.56982421875
+    },
+    {
+      "guid": 85656,
+      "id": 2849,
+      "name": "Battered Chest",
+      "X": 7389.93017578125,
+      "Y": -1117.4599609375
+    },
+    {
+      "guid": 85657,
+      "id": 2849,
+      "name": "Battered Chest",
+      "X": 7487.27978515625,
+      "Y": -1088.5
+    },
+    {
+      "guid": 85658,
+      "id": 2849,
+      "name": "Battered Chest",
+      "X": 7562.18994140625,
+      "Y": -879.4539794921875
+    },
+    {
+      "guid": 85659,
+      "id": 2849,
+      "name": "Battered Chest",
+      "X": 7461.66015625,
+      "Y": -861.2020263671875
+    },
+    {
+      "guid": 85778,
+      "id": 153451,
+      "name": "Solid Chest",
+      "X": 4129.419921875,
+      "Y": -5078.68994140625
+    },
+    {
+      "guid": 85788,
+      "id": 153451,
+      "name": "Solid Chest",
+      "X": 3969.52001953125,
+      "Y": -5034.330078125
+    },
+    {
+      "guid": 170045,
+      "id": 179497,
+      "name": "Mossy Footlocker",
+      "X": 3800.0400390625,
+      "Y": -7206.77978515625
+    },
+    {
+      "guid": 170056,
+      "id": 179497,
+      "name": "Mossy Footlocker",
+      "X": 4237.10986328125,
+      "Y": -6625.89990234375
+    },
+    {
+      "guid": 300237,
+      "id": 153453,
+      "name": "Solid Chest",
+      "X": 4301.3798828125,
+      "Y": -7222.64013671875
+    },
+    {
+      "guid": 300238,
+      "id": 153453,
+      "name": "Solid Chest",
+      "X": 4376.93994140625,
+      "Y": -6132.56005859375
+    },
+    {
+      "guid": 300239,
+      "id": 153453,
+      "name": "Solid Chest",
+      "X": 4459.830078125,
+      "Y": -5529.169921875
+    },
+    {
+      "guid": 300250,
+      "id": 2849,
+      "name": "Battered Chest",
+      "X": 7644.490234375,
+      "Y": -909.2210083007812
+    },
+    {
+      "guid": 300275,
+      "id": 106319,
+      "name": "Battered Chest",
+      "X": 6827.3798828125,
+      "Y": -703.4199829101562
+    },
+    {
+      "guid": 300423,
+      "id": 106319,
+      "name": "Battered Chest",
+      "X": 6750.87,
+      "Y": -694.535
+    },
+    {
+      "guid": 300425,
+      "id": 106319,
+      "name": "Battered Chest",
+      "X": 6719.12,
+      "Y": -642.526
+    },
+    {
+      "guid": 300429,
+      "id": 2849,
+      "name": "Battered Chest",
+      "X": 7355.87,
+      "Y": -799.53
+    },
+    {
+      "guid": 300449,
+      "id": 153453,
+      "name": "Solid Chest",
+      "X": 4322.74,
+      "Y": -5726.07
+    }
+  ],
+  "classicSnapshot": {
+    "url": "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+    "releasePublished": "2026-11-13T13:34:58Z",
+    "sha256": "daa16e44b95a9d4a0d17b8f8e3a91cf0b4be1af7d9b3bfc8ac71707a02399f5f"
+  },
+  "foreverNpcEvidence": {
+    "228216": "\n            [npcKeys.name] = \"Nami\",\n            [npcKeys.minLevel] = 60,\n            [npcKeys.maxLevel] = 60,\n            [npcKeys.spawns] = {[616]={{60.1,61.18}},[618]={{61.33,36.92}}},\n            [npcKeys.zoneID] = 618,\n            [npcKeys.questStarts_add] = {84146,84212,92009},\n            [npcKeys.questEnds_add] = {84138,84211,92008},\n",
+    "268606": "\n            [npcKeys.name] = \"Thera Duskwhisper\",\n            [npcKeys.minLevel] = 63,\n            [npcKeys.maxLevel] = 63,\n            [npcKeys.spawns] = {[618]={{52.93,40.4}}},\n            [npcKeys.zoneID] = 618,\n            [npcKeys.friendlyToFaction] = \"AH\",\n            [npcKeys.rank] = 1,\n"
+  },
+  "fetches": [
+    {
+      "file": "map.html",
+      "url": "https://foreverdb.net/maps/1452",
+      "status": 200
+    },
+    {
+      "file": "map.webp",
+      "url": "https://foreverdb.net/img/maps/game/1452.webp",
+      "status": 200
+    },
+    {
+      "file": "maps-index.json",
+      "url": "https://foreverdb.net/data/maps/index.json",
+      "status": 200
+    },
+    {
+      "file": "zones.json",
+      "url": "https://foreverdb.net/data/maps/zones.json",
+      "status": 200
+    },
+    {
+      "file": "givers.json",
+      "url": "https://foreverdb.net/data/maps/layer-questgivers.json",
+      "status": 200
+    },
+    {
+      "file": "rares.json",
+      "url": "https://foreverdb.net/data/maps/layer-rares.json",
+      "status": 200
+    },
+    {
+      "file": "era-chests.json",
+      "url": "https://theforeverera.com/data/map-layers/k.json",
+      "status": 200
+    },
+    {
+      "file": "quests-index.html",
+      "url": "https://foreverchanges.pro/quests/winterspring",
+      "status": 200
+    },
+    {
+      "file": "quest-969.html",
+      "url": "https://foreverchanges.pro/quest/969",
+      "status": 200
+    },
+    {
+      "file": "quest-975.html",
+      "url": "https://foreverchanges.pro/quest/975",
+      "status": 200
+    },
+    {
+      "file": "quest-977.html",
+      "url": "https://foreverchanges.pro/quest/977",
+      "status": 200
+    },
+    {
+      "file": "quest-3783.html",
+      "url": "https://foreverchanges.pro/quest/3783",
+      "status": 200
+    },
+    {
+      "file": "quest-4801.html",
+      "url": "https://foreverchanges.pro/quest/4801",
+      "status": 200
+    },
+    {
+      "file": "quest-4802.html",
+      "url": "https://foreverchanges.pro/quest/4802",
+      "status": 200
+    },
+    {
+      "file": "quest-4803.html",
+      "url": "https://foreverchanges.pro/quest/4803",
+      "status": 200
+    },
+    {
+      "file": "quest-4804.html",
+      "url": "https://foreverchanges.pro/quest/4804",
+      "status": 200
+    },
+    {
+      "file": "quest-4805.html",
+      "url": "https://foreverchanges.pro/quest/4805",
+      "status": 200
+    },
+    {
+      "file": "quest-4806.html",
+      "url": "https://foreverchanges.pro/quest/4806",
+      "status": 200
+    },
+    {
+      "file": "quest-4807.html",
+      "url": "https://foreverchanges.pro/quest/4807",
+      "status": 200
+    },
+    {
+      "file": "quest-4809.html",
+      "url": "https://foreverchanges.pro/quest/4809",
+      "status": 200
+    },
+    {
+      "file": "quest-4810.html",
+      "url": "https://foreverchanges.pro/quest/4810",
+      "status": 200
+    },
+    {
+      "file": "quest-4842.html",
+      "url": "https://foreverchanges.pro/quest/4842",
+      "status": 200
+    },
+    {
+      "file": "quest-4861.html",
+      "url": "https://foreverchanges.pro/quest/4861",
+      "status": 200
+    },
+    {
+      "file": "quest-4863.html",
+      "url": "https://foreverchanges.pro/quest/4863",
+      "status": 200
+    },
+    {
+      "file": "quest-4864.html",
+      "url": "https://foreverchanges.pro/quest/4864",
+      "status": 200
+    },
+    {
+      "file": "quest-4882.html",
+      "url": "https://foreverchanges.pro/quest/4882",
+      "status": 200
+    },
+    {
+      "file": "quest-4883.html",
+      "url": "https://foreverchanges.pro/quest/4883",
+      "status": 200
+    },
+    {
+      "file": "quest-4901.html",
+      "url": "https://foreverchanges.pro/quest/4901",
+      "status": 200
+    },
+    {
+      "file": "quest-4902.html",
+      "url": "https://foreverchanges.pro/quest/4902",
+      "status": 200
+    },
+    {
+      "file": "quest-4970.html",
+      "url": "https://foreverchanges.pro/quest/4970",
+      "status": 200
+    },
+    {
+      "file": "quest-5054.html",
+      "url": "https://foreverchanges.pro/quest/5054",
+      "status": 200
+    },
+    {
+      "file": "quest-5055.html",
+      "url": "https://foreverchanges.pro/quest/5055",
+      "status": 200
+    },
+    {
+      "file": "quest-5056.html",
+      "url": "https://foreverchanges.pro/quest/5056",
+      "status": 200
+    },
+    {
+      "file": "quest-5057.html",
+      "url": "https://foreverchanges.pro/quest/5057",
+      "status": 200
+    },
+    {
+      "file": "quest-5063.html",
+      "url": "https://foreverchanges.pro/quest/5063",
+      "status": 200
+    },
+    {
+      "file": "quest-5067.html",
+      "url": "https://foreverchanges.pro/quest/5067",
+      "status": 200
+    },
+    {
+      "file": "quest-5068.html",
+      "url": "https://foreverchanges.pro/quest/5068",
+      "status": 200
+    },
+    {
+      "file": "quest-5082.html",
+      "url": "https://foreverchanges.pro/quest/5082",
+      "status": 200
+    },
+    {
+      "file": "quest-5083.html",
+      "url": "https://foreverchanges.pro/quest/5083",
+      "status": 200
+    },
+    {
+      "file": "quest-5084.html",
+      "url": "https://foreverchanges.pro/quest/5084",
+      "status": 200
+    },
+    {
+      "file": "quest-5085.html",
+      "url": "https://foreverchanges.pro/quest/5085",
+      "status": 200
+    },
+    {
+      "file": "quest-5086.html",
+      "url": "https://foreverchanges.pro/quest/5086",
+      "status": 200
+    },
+    {
+      "file": "quest-5087.html",
+      "url": "https://foreverchanges.pro/quest/5087",
+      "status": 200
+    },
+    {
+      "file": "quest-5121.html",
+      "url": "https://foreverchanges.pro/quest/5121",
+      "status": 200
+    },
+    {
+      "file": "quest-5123.html",
+      "url": "https://foreverchanges.pro/quest/5123",
+      "status": 200
+    },
+    {
+      "file": "quest-5124.html",
+      "url": "https://foreverchanges.pro/quest/5124",
+      "status": 200
+    },
+    {
+      "file": "quest-5126.html",
+      "url": "https://foreverchanges.pro/quest/5126",
+      "status": 200
+    },
+    {
+      "file": "quest-5128.html",
+      "url": "https://foreverchanges.pro/quest/5128",
+      "status": 200
+    },
+    {
+      "file": "quest-5161.html",
+      "url": "https://foreverchanges.pro/quest/5161",
+      "status": 200
+    },
+    {
+      "file": "quest-5163.html",
+      "url": "https://foreverchanges.pro/quest/5163",
+      "status": 200
+    },
+    {
+      "file": "quest-5201.html",
+      "url": "https://foreverchanges.pro/quest/5201",
+      "status": 200
+    },
+    {
+      "file": "quest-5244.html",
+      "url": "https://foreverchanges.pro/quest/5244",
+      "status": 200
+    },
+    {
+      "file": "quest-5245.html",
+      "url": "https://foreverchanges.pro/quest/5245",
+      "status": 200
+    },
+    {
+      "file": "quest-5252.html",
+      "url": "https://foreverchanges.pro/quest/5252",
+      "status": 200
+    },
+    {
+      "file": "quest-5253.html",
+      "url": "https://foreverchanges.pro/quest/5253",
+      "status": 200
+    },
+    {
+      "file": "quest-5981.html",
+      "url": "https://foreverchanges.pro/quest/5981",
+      "status": 200
+    },
+    {
+      "file": "quest-6028.html",
+      "url": "https://foreverchanges.pro/quest/6028",
+      "status": 200
+    },
+    {
+      "file": "quest-6029.html",
+      "url": "https://foreverchanges.pro/quest/6029",
+      "status": 200
+    },
+    {
+      "file": "quest-6030.html",
+      "url": "https://foreverchanges.pro/quest/6030",
+      "status": 200
+    },
+    {
+      "file": "quest-6603.html",
+      "url": "https://foreverchanges.pro/quest/6603",
+      "status": 200
+    },
+    {
+      "file": "quest-6604.html",
+      "url": "https://foreverchanges.pro/quest/6604",
+      "status": 200
+    },
+    {
+      "file": "quest-6605.html",
+      "url": "https://foreverchanges.pro/quest/6605",
+      "status": 200
+    },
+    {
+      "file": "quest-6606.html",
+      "url": "https://foreverchanges.pro/quest/6606",
+      "status": 200
+    },
+    {
+      "file": "quest-8471.html",
+      "url": "https://foreverchanges.pro/quest/8471",
+      "status": 200
+    },
+    {
+      "file": "quest-8798.html",
+      "url": "https://foreverchanges.pro/quest/8798",
+      "status": 200
+    },
+    {
+      "file": "quest-9266.html",
+      "url": "https://foreverchanges.pro/quest/9266",
+      "status": 200
+    },
+    {
+      "file": "quest-92859.html",
+      "url": "https://foreverchanges.pro/quest/92859",
+      "status": 200
+    },
+    {
+      "file": "questie-latest.json",
+      "url": "https://api.github.com/repos/Questie/QuestieDB/commits?per_page=1",
+      "status": 200
+    },
+    {
+      "file": "foreverBaseQuest.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/498734b13f1ed25931566298f6ca119ad058c17f/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverNpcTraces.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/498734b13f1ed25931566298f6ca119ad058c17f/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverObjectTraces.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/498734b13f1ed25931566298f6ca119ad058c17f/src/corrections/Forever/traces/foreverObjectTraces.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverQuestFixes.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/498734b13f1ed25931566298f6ca119ad058c17f/src/corrections/Forever/foreverQuestFixes.lua",
+      "status": 200
+    }
+  ],
+  "sha256": {
+    "era-chests.json": "6ad13623ad1ec7af8d7156e618b9f7a59fad5c999a967dc6f7deacf74905cce4",
+    "facts.json": "0bc9dcd648aaa751c52085ff48b7d9a6c0877380953ffbdf4793c88cfa20350a",
+    "fetch-log.json": "a60039f687898d70c48c2116efbe7d39d728a41e93b69b2ef8ff718cd31ef02f",
+    "foreverBaseQuest.lua": "197dff16946293da0cd23722578cb383a498c6e8d046fc49a96a3777883a66c2",
+    "foreverNpcTraces.lua": "8730b60141782a32ac7b85cbc842527931b4f61a3b0cc775e938904d6203f93b",
+    "foreverObjectTraces.lua": "7237e137f57508a9e2cfc6d1391a319c519f58e4d1d3a04a7087a12991b6d1a6",
+    "foreverQuestFixes.lua": "b97d7483fce1d5f62cce97a80823f87ce6f49fbd904329ccabdf6dcf4af819eb",
+    "givers.json": "df6f55fdf26d6de63c781cae27c1042b2ae311615697b606286c80dcb0520508",
+    "map.html": "18ee73f6ee31bfb3b2a852ebbfe163b2bac05bbaf911eff69d59d0ae8c2de790",
+    "map.webp": "14d8643b46595e3c92cbea607104e86d2d7cc4935d7aaca90bb93bf987af4c8f",
+    "maps-index.json": "6c18202bd5843c325191a05f328a1cc5d813b87f955693b0ec8a389d3a3667c4",
+    "quest-3783.html": "1b645254121ff1e1aab5b29021ef9c1d4fde54586ea7363b760691c873275efd",
+    "quest-4801.html": "ce3f3bfffa551687a0702219846d50312bf0de940fba25d37dab1851426c65d2",
+    "quest-4802.html": "40f718d8da09c089481476b197b0a4c3e6a58b2c75d29cce16dda5747db02abe",
+    "quest-4803.html": "d86e580285c401cacaa800f97b6a6db137e0139d58f353ca6b7d200551f292b1",
+    "quest-4804.html": "537926f75e6fdef455542f68798fdb8075ad940a151889f2abdcc1ec8c7706a3",
+    "quest-4805.html": "bd36d7a30a7b5de00f7b5d6cb1433455074810e2c58952e93179eed6945fbafd",
+    "quest-4806.html": "edcf94c965c0df0d08c78762f374a549724867459d257331de236086836d6f1d",
+    "quest-4807.html": "4b1ca81fe248dcbcc748d79242d986cc782653565b60333129630960c414bcaa",
+    "quest-4809.html": "73c8ae2487dfe369c01e69a82ab269ba08752f5a014afbfaadc0e91a6dc3b254",
+    "quest-4810.html": "75717011c5ea713e8b0e2f111782e6e3d2d6bdd42ffac37728a7e057b48bc67c",
+    "quest-4842.html": "574b25bd2598792dbb9fd3291dff10cfc339c604e46de2d9af96eaff88a3ea2b",
+    "quest-4861.html": "ce0d512ae7e34a933f79673c8fe3a4f4ec29c955bf266c6f41676e7341cc91c0",
+    "quest-4863.html": "177ba0059977f8ff86dbe3ba025af06ed772cd7a40f39c9d94a5315b453605ea",
+    "quest-4864.html": "0f0654bbead1b8e0d4ae6378c3f6d58f5bd4ad41a83cad93e6e7d2e6b1d2d210",
+    "quest-4882.html": "9f6b3e31917b6493d415af7389a0f1e23d886cc957765ad97d62caf9f65bd9d0",
+    "quest-4883.html": "c4feba5237ca2aa7edc80d3b650f8fa2351d038cad25b9f4648b3da7e8e14551",
+    "quest-4901.html": "2065c367c5f596c28a0f0bbc57b37447974dd42a96f630a21c06951943268c50",
+    "quest-4902.html": "e59b44c2d59cf22c7f80382d06dc8008e862de985daaf8f40fe88d5480f1b699",
+    "quest-4970.html": "c6295190f4c47e0ce0aaca8c21d43ec46731e5fc39eea64e73aa4c33ceebec9e",
+    "quest-5054.html": "b3da33ddcb891a6b487f4fe5aecb3aeccb4241dff697a7dda3cce298d6379604",
+    "quest-5055.html": "b5d72b9462388deaa59353e3844a6ec74879c5f894a55698a35118fe595103f2",
+    "quest-5056.html": "288a29919363b4a887e6ae06ce0ab09db7c0e4b015d11c326a69e92583261c57",
+    "quest-5057.html": "ce6d66a0f1fc8bec6f8de8555e6509c06d486d020d1ad7f63f569fc57d94009e",
+    "quest-5063.html": "96657eda7df12eeb5545f948005de9974a4af07b89063ffa0aa95b81af91d376",
+    "quest-5067.html": "c324756f567c57b41f837a6ebc5137ed44d4a1a57f6c6792acca2e197dbaaa6c",
+    "quest-5068.html": "b32f4976d95fe2a6dc0bd620f438bb7ee30f7e38135ff9264628a359483b2729",
+    "quest-5082.html": "d76ac9ea11cd4a809026479270ad92f75d59d6564858e197a81e9eeaad43c5bb",
+    "quest-5083.html": "8fab5cbc85d65ca7fb98cf3dca345cc470b5356a32ef256e646a87d0f5f15b81",
+    "quest-5084.html": "df08983b8651198034a9af062cda8e4922da04e5e5bd2868e5831f8eb49025ce",
+    "quest-5085.html": "855b9789fe8a842f05025642c3b21239a6f1d3531069e9cbd24c0467a03aa20f",
+    "quest-5086.html": "0a80175ce7c694054c7c11b348de756cde680159deeaabba8ea56f9f916e6ef9",
+    "quest-5087.html": "70bc513b59b8eac0b97d080c65cd486e52140c558b98a0d7f84e2d2812c166b5",
+    "quest-5121.html": "01bc81ee2aff76e295acd4646d71b78f6bfc1e8af0c2076c9af742cd9de11007",
+    "quest-5123.html": "61044fb8e0333c699ccbdd2fe03bd1c759917200d8d7d97c2ddf0c8452f7159f",
+    "quest-5124.html": "2b2eebc4a9da31c11fd6605172f9eeeed4d18ed29fcc6088d3befafe63565996",
+    "quest-5126.html": "269861af4d149b2244139e131159a4561f63f21969f315a997a095cbd5c8b5bc",
+    "quest-5128.html": "d8ca29d9fad7568477e8afd91de7970c9dfbb54756afa1211e4e0bdf6b0e6c08",
+    "quest-5161.html": "920dc6383897f9efc673950f6c1d13c248f124281d0ca0206deae8138f4387fa",
+    "quest-5163.html": "dce9f9f056275bba191812eacd7718296c8c3788e7766e9214871fa0207bb4fd",
+    "quest-5201.html": "0f661a9634cfe1b06f211feedfba520aeeaef6701772a4e4f883ee6f7e415179",
+    "quest-5244.html": "e8a31a16b1d2593dfcc3d06cc78684e5094c4dc427ced284b8e565ef09d8607d",
+    "quest-5245.html": "bc62e8be5ff0248e0f1423c0efb5eeaac58cbe3c03e5fa64dcddde78be6c29ab",
+    "quest-5252.html": "40d0037964195ccbd53172357da794ec272894154df7409dac65824aac28f5ac",
+    "quest-5253.html": "1c2d5a19e07af70aa926220c17b16837d74925a8ec5ddb1d6bdb31fbda4a6bbe",
+    "quest-5981.html": "71331e9958b8b483482545813d23d8890702f6a9665a8f37bdb5ba3c2697f2d8",
+    "quest-6028.html": "dfd98c315b614ac33e41e624d58821a0f29231e485db06b3d620daf0355d0f47",
+    "quest-6029.html": "d0765bdc479ec4d913b6353b26549b3893e6113486da83f64b67861d68bd0707",
+    "quest-6030.html": "7e346c72806fb4b1e1c57a0e763dcfcd40fb4682ec6d4cd669002a70d0b58044",
+    "quest-6603.html": "47148ae982132ec671fb7d5b737818a3565fc3dad5108ade86bdb8c901e8fbf3",
+    "quest-6604.html": "b75b283ad94e25b9e36298e6a34413b935b284594706e5c117125b50f5e8c2ba",
+    "quest-6605.html": "8b3db9bb9cc6c43dafe0ccd3b8ce564fceb2da62afbaaf6dedde745d68d8eedd",
+    "quest-6606.html": "5f11105e7975bc2a3e8ff39bc789a3a99fc4001be7b073ea4acc3379b05e9184",
+    "quest-8471.html": "265aceef72e390eea64113eb107d99de9bd22b15b76330c6edd0fa6e4721ec32",
+    "quest-8798.html": "62fc48c1c7edbb635addc914bdc019cd21560b76898f0baf8f2cb8e1c77e6cbf",
+    "quest-9266.html": "a36c27ac491aec13d405006386bdf750b6a0c95f9a5bcca8627340617a64a3b1",
+    "quest-92859.html": "32af338812b14043bb54ec5670737e3a599724128c245de636061dfdd03b53b7",
+    "quest-969.html": "217a812f3357575db66f7aa83839a7d334983cbd5613538c922a7da30112f5c4",
+    "quest-975.html": "1f0b8eee665b188860b7b2b98d18a0dd54f0bbd437c75093be964c501efdbfa2",
+    "quest-977.html": "be9b972819256ac2fc29d0d17e97c303313328cf1a24bef33456979d823e0506",
+    "quest-ids.json": "db94324caff53043aedda973190537791556f298d4688778861f2349a5ef6e6a",
+    "questie-latest.json": "78c0cf3ddbbf079153bc5cfa23dc8d2c7a2429649942579e28337f57d50a03c4",
+    "quests-index.html": "f4dc7adfb80f0bab047c4578537224ddb2628ad845fe5ebaaaf7b45856d7f7ed",
+    "rares.json": "e339fae3f3290820429655d89a770ade204815e15ad6e284d4cb71448e9906b6",
+    "utils.py": "8f100324efd0d8cf533d1456be1acbc107c552f1acd188145d6c32b5d9c23fcc",
+    "zones.json": "062342dd05d8507b961cac5f25808e727228fc8be93926a6b9b65dcc266a5747"
+  }
+}

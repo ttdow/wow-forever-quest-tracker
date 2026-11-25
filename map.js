@@ -30,6 +30,10 @@ const zones = {
     file: 'azshara', guide: 'https://foreverdb.net/maps/1447', report: 'azshara-map',
     defaultHiddenLayers: ['dungeon-chest', 'footlocker-179497'],
   },
+  Winterspring: {
+    file: 'winterspring', guide: 'https://foreverdb.net/maps/1452', report: 'winterspring-map',
+    defaultHiddenLayers: ['dungeon-chest'],
+  },
   Gnomeregan: { file: 'gnomeregan', guide: 'https://foreverdb.net/dungeon/90-gnomeregan', report: 'gnomeregan-map' },
   'Razorfen Kraul': { file: 'razorfen-kraul', guide: 'https://foreverdb.net/dungeon/47-razorfen-kraul', report: 'razorfen-kraul-map', defaultHiddenLayers: ['quest-object'] },
   'Razorfen Downs': { file: 'razorfen-downs', guide: 'https://foreverdb.net/dungeon/129-razorfen-downs', report: 'razorfen-downs-map' },
