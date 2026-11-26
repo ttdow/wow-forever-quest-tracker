@@ -8,7 +8,7 @@
   <title>Rogue damage simulator · WoW Forever</title>
   <link rel="stylesheet" href="../style.css?v=62">
   <link rel="stylesheet" href="./simulator.css?v=2">
-  <script type="module" src="./page.js?v=2"></script>
+  <script type="module" src="./page.js?v=3"></script>
 </head>
 <body>
   <main class="sim-page">
@@ -72,17 +72,17 @@
         </div>
         <div class="table-wrap" tabindex="0" role="region" aria-label="Damage breakdown">
           <table class="sim-table">
-            <thead><tr><th scope="col">Attack</th><th scope="col">Raw hit</th><th scope="col">Attempts</th><th scope="col">Expected DPS</th></tr></thead>
+            <thead><tr><th scope="col">Attack</th><th scope="col">Raw hit</th><th scope="col">Avg. attempts</th><th scope="col">Expected DPS</th></tr></thead>
             <tbody id="sim-breakdown"></tbody>
           </table>
         </div>
-        <p class="sim-result-note sim-muted">Raw hit ranges are for normal hits before armour. Expected DPS accounts for attack outcomes and armour.</p>
+        <p class="sim-result-note sim-muted">Raw hit ranges are for normal hits before armour. Sinister Strike attempts vary because avoided strikes refund Energy.</p>
       </section>
     </div>
     <details class="sim-assumptions quest-panel">
       <summary>Model assumptions</summary>
       <p>Assumes max weapon skill, 3/3 Aggression, and 2/2 Efficient Strikes. Enter total sheet stats, including gear and talents. The default 0 armour is a reference target.</p>
-      <p>Each fight starts at 100 Energy and regenerates 10 per second. Sinister Strike costs 40 Energy and fires whenever available. An avoided strike uses the full cost in this test. First swings occur after one weapon interval.</p>
+      <p>Each fight starts at 100 Energy and regenerates 10 per second. Sinister Strike requires 40 Energy to cast. A miss, dodge, or parry refunds 32 Energy in this model. The one-second global cooldown still applies. First swings occur after one weapon interval.</p>
       <p>The model uses Classic-style estimates for armour, glancing blows, and melee attack chances against an equal-level target. It uses 1.7-second Sinister Strike normalization for daggers and 2.4 seconds for other one-handed weapons. Off-hand swings deal 50% damage. These assumptions still need validation with Forever combat logs.</p>
       <p>This test covers weapon swings and Sinister Strike. Poisons, Poised, Shank, finishers, buffs, and target death are outside its scope. <a href="https://github.com/ttdow/wow-forever-quest-tracker/blob/main/rogue-model/research.md">Research and sources</a></p>
     </details>

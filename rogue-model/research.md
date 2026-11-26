@@ -21,7 +21,9 @@ Forever spell tooltips show 45 base Energy across all eight ranks. The simulator
 
 The prototype assumes an equal-level NPC, a fixed attack position, and capped weapon skills. It uses its Classic-style reference table with 24% base dual-wield miss, 5% special miss, 5% dodge, 5% frontal parry, and 10% glancing blows on autos at 95% damage. Hit and expertise reduce their respective outcomes. It uses a single roll for avoidance, glancing blows, crits, and ordinary hits, with double damage for crits and no blocks. Physical damage uses the reference armour formula `armour / (armour + 400 + 85 * attacker level)`, capped at 75%.
 
-The opener starts at full Energy. Sinister Strike attempts fire on cooldown as Energy allows, regardless of past attack outcomes. The first auto-attacks occur after one weapon interval. Attacks exactly at the selected end time count. Fixed attempt counts let the tool compute the analytical mean and also sample the middle 90% of 1,000 repeatable fights. That range describes random fight variance under the selected assumptions. The first version excludes refunds, Poised, Shank, poisons, and finishers.
+The opener starts at full Energy. Sinister Strike fires as soon as the Rogue has 40 Energy and the global cooldown is ready. A landed strike spends 40 Energy. An avoided strike spends 8 after a 32-Energy refund, which can bring the next attempt forward. The November 25 Alcaz Prison log supported an 8-Energy net cost on two dodges. The model extends that rule to misses and parries, which still need direct confirmation. The log is private.
+
+The first auto-attacks occur after one weapon interval. Attacks exactly at the selected end time count. The tool weights each possible Sinister Strike cast time and Energy state by its probability to calculate expected attempts and DPS. It also rolls the outcomes and schedules casts in 1,000 repeatable fights to show the middle 90% of results. That range describes fight-to-fight variance under the selected assumptions. The prototype covers auto-attacks and Sinister Strike.
 
 ## Character inputs
 

@@ -1,4 +1,4 @@
-import { simulate, SINISTER_STRIKE_RANKS } from "./simulator.js?v=2";
+import { simulate, SINISTER_STRIKE_RANKS } from "./simulator.js?v=3";
 
 const form = document.getElementById("sim-settings");
 const fields = form.elements;
@@ -66,7 +66,7 @@ function render() {
     heading.textContent = name;
     row.append(heading);
     row.insertCell().textContent = `${formatDamage.format(min)}–${formatDamage.format(max)}`;
-    row.insertCell().textContent = attempts;
+    row.insertCell().textContent = formatDamage.format(attempts);
     row.insertCell().textContent = formatDps.format(expectedDps);
     return row;
   });

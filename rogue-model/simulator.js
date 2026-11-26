@@ -11,27 +11,44 @@ export const SINISTER_STRIKE_RANKS = [
 
 const SINISTER_STRIKE = {
   energyCost: 40,
+  avoidedCost: 8,
   globalCooldown: 1,
   aggressionMultiplier: 1.15,
 };
+const ENERGY_CAP = 100;
 const ENERGY_PER_SECOND = 10;
 const TRIALS = 1000;
 
-function countStrikes(duration) {
-  let time = 0;
-  let energy = 100;
-  let attempts = 0;
-  while (time <= duration) {
-    attempts++;
-    energy -= SINISTER_STRIKE.energyCost;
-    const wait = Math.max(
-      SINISTER_STRIKE.globalCooldown,
-      (SINISTER_STRIKE.energyCost - energy) / ENERGY_PER_SECOND
-    );
-    time += wait;
-    energy += wait * ENERGY_PER_SECOND;
+function nextStrike(energy, avoided) {
+  const remaining = energy - (avoided ? SINISTER_STRIKE.avoidedCost : SINISTER_STRIKE.energyCost);
+  // One time step is the time needed to regenerate one Energy.
+  const delay = Math.max(
+    SINISTER_STRIKE.globalCooldown * ENERGY_PER_SECOND,
+    SINISTER_STRIKE.energyCost - remaining
+  );
+  return { delay, energy: Math.min(ENERGY_CAP, remaining + delay) };
+}
+
+function expectedStrikes(end, avoidChance) {
+  // Each state is a possible next cast time and its Energy before the cast.
+  const scheduled = Array.from({ length: end + 1 }, () => new Map());
+  scheduled[0].set(ENERGY_CAP, 1);
+  const outcomes = [[false, 1 - avoidChance], [true, avoidChance]];
+  let expected = 0;
+
+  for (const [time, states] of scheduled.entries()) {
+    for (const [energy, probability] of states) {
+      expected += probability;
+      for (const [avoided, chance] of outcomes) {
+        if (chance === 0) continue;
+        const next = nextStrike(energy, avoided);
+        const destination = scheduled[time + next.delay];
+        if (!destination) continue;
+        destination.set(next.energy, (destination.get(next.energy) ?? 0) + probability * chance);
+      }
+    }
   }
-  return attempts;
+  return expected;
 }
 
 function attackTable({ hit, crit, expertise, position }, isSwing) {
@@ -56,15 +73,17 @@ function rawRange(weapon, apDamage, bonus = 0, multiplier = 1) {
   );
 }
 
-function rollDamage(attack, random) {
-  let roll = random();
-  for (const outcome of attack.outcomes) {
-    if (roll < outcome.probability) {
-      return (attack.min + random() * (attack.max - attack.min)) * outcome.multiplier;
-    }
+function rollOutcome(outcomes, roll) {
+  for (const outcome of outcomes) {
+    if (roll < outcome.probability) return outcome;
     roll -= outcome.probability;
   }
-  return attack.max;
+  return outcomes.at(-1);
+}
+
+function rollDamage(attack, random) {
+  const outcome = rollOutcome(attack.outcomes, random());
+  return (attack.min + random() * (attack.max - attack.min)) * outcome.multiplier;
 }
 
 export function simulate(settings, seed = 29) {
@@ -79,8 +98,9 @@ export function simulate(settings, seed = 29) {
   const damageAfterArmour = 1 - armourReduction;
   const swingTable = attackTable(settings, true);
   const strikeTable = attackTable(settings, false);
+  const fightEnd = Math.floor(duration * ENERGY_PER_SECOND + 1e-9);
 
-  const attacks = [
+  const swings = [
     {
       name: "Main-hand swings",
       range: rawRange(mainHand, apDps * mainHand.speed),
@@ -93,14 +113,15 @@ export function simulate(settings, seed = 29) {
       attempts: Math.floor(duration / offHand.speed + 1e-9),
       outcomes: swingTable,
     },
-    {
-      name: `Sinister Strike ${strike.rank}`,
-      range: rawRange(mainHand, apDps * normalizedSpeed,
-        strike.bonusDamage, SINISTER_STRIKE.aggressionMultiplier),
-      attempts: countStrikes(duration),
-      outcomes: strikeTable,
-    },
-  ].map(({ name, range: [min, max], attempts, outcomes }) => {
+  ];
+  const sinisterStrike = {
+    name: `Sinister Strike ${strike.rank}`,
+    range: rawRange(mainHand, apDps * normalizedSpeed,
+      strike.bonusDamage, SINISTER_STRIKE.aggressionMultiplier),
+    attempts: expectedStrikes(fightEnd, strikeTable[0].probability),
+    outcomes: strikeTable,
+  };
+  const attacks = [...swings, sinisterStrike].map(({ name, range: [min, max], attempts, outcomes }) => {
     const averageMultiplier = outcomes.reduce(
       (sum, outcome) => sum + outcome.probability * outcome.multiplier, 0
     );
@@ -114,13 +135,25 @@ export function simulate(settings, seed = 29) {
     state = (Math.imul(1664525, state) + 1013904223) >>> 0;
     return state / 4294967296;
   };
+  const swingAttacks = attacks.slice(0, swings.length);
+  const strikeAttack = attacks.at(-1);
   const trialDps = [];
   for (let trial = 0; trial < TRIALS; trial++) {
     let damage = 0;
-    for (const attack of attacks) {
+    for (const attack of swingAttacks) {
       for (let attempt = 0; attempt < attack.attempts; attempt++) {
         damage += rollDamage(attack, random);
       }
+    }
+    let time = 0;
+    let energy = ENERGY_CAP;
+    while (time <= fightEnd) {
+      const dealt = rollDamage(strikeAttack, random);
+      damage += dealt;
+      // Sinister Strike has positive base damage, so zero means it was avoided.
+      const next = nextStrike(energy, dealt === 0);
+      time += next.delay;
+      energy = next.energy;
     }
     trialDps.push(damage * damageAfterArmour / duration);
   }
