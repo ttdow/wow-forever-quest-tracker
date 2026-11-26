@@ -1,6 +1,15 @@
+export const SINISTER_STRIKE_RANKS = [
+  { rank: "I", level: 1, bonusDamage: 3 },
+  { rank: "II", level: 6, bonusDamage: 6 },
+  { rank: "III", level: 14, bonusDamage: 10 },
+  { rank: "IV", level: 22, bonusDamage: 15 },
+  { rank: "V", level: 30, bonusDamage: 22 },
+  { rank: "VI", level: 38, bonusDamage: 33 },
+  { rank: "VII", level: 46, bonusDamage: 52 },
+  { rank: "VIII", level: 54, bonusDamage: 68 },
+];
+
 const SINISTER_STRIKE = {
-  bonusDamage: 15,
-  normalizedSpeed: 2.4,
   energyCost: 40,
   globalCooldown: 1,
   aggressionMultiplier: 1.15,
@@ -42,7 +51,7 @@ function attackTable({ hit, crit, expertise, position }, isSwing) {
 }
 
 function rawRange(weapon, apDamage, bonus = 0, multiplier = 1) {
-  return [weapon.base_damage_min, weapon.base_damage_max].map(
+  return [weapon.minDamage, weapon.maxDamage].map(
     (damage) => (damage + apDamage + bonus) * multiplier
   );
 }
@@ -58,12 +67,15 @@ function rollDamage(attack, random) {
   return attack.max;
 }
 
-export function simulate(character, settings, seed = 29) {
-  const { attackPower, armour, duration } = settings;
-  const mainHand = character.main_hand;
-  const offHand = character.off_hand;
+export function simulate(settings, seed = 29) {
+  const { attackPower, armour, duration, level, strikeRank, mainHand, offHand } = settings;
+  const strike = SINISTER_STRIKE_RANKS.find(({ rank }) => rank === strikeRank);
+  if (!strike || strike.level > level) {
+    throw new RangeError("Select a Sinister Strike rank available at your level.");
+  }
+  const normalizedSpeed = mainHand.type === "dagger" ? 1.7 : 2.4;
   const apDps = attackPower / 14;
-  const armourReduction = Math.min(0.75, armour / (armour + 400 + 85 * character.level));
+  const armourReduction = Math.min(0.75, armour / (armour + 400 + 85 * level));
   const damageAfterArmour = 1 - armourReduction;
   const swingTable = attackTable(settings, true);
   const strikeTable = attackTable(settings, false);
@@ -71,20 +83,20 @@ export function simulate(character, settings, seed = 29) {
   const attacks = [
     {
       name: "Main-hand swings",
-      range: rawRange(mainHand, apDps * mainHand.speed_seconds),
-      attempts: Math.floor(duration / mainHand.speed_seconds + 1e-9),
+      range: rawRange(mainHand, apDps * mainHand.speed),
+      attempts: Math.floor(duration / mainHand.speed + 1e-9),
       outcomes: swingTable,
     },
     {
       name: "Off-hand swings",
-      range: rawRange(offHand, apDps * offHand.speed_seconds, 0, 0.5),
-      attempts: Math.floor(duration / offHand.speed_seconds + 1e-9),
+      range: rawRange(offHand, apDps * offHand.speed, 0, 0.5),
+      attempts: Math.floor(duration / offHand.speed + 1e-9),
       outcomes: swingTable,
     },
     {
-      name: "Sinister Strike IV",
-      range: rawRange(mainHand, apDps * SINISTER_STRIKE.normalizedSpeed,
-        SINISTER_STRIKE.bonusDamage, SINISTER_STRIKE.aggressionMultiplier),
+      name: `Sinister Strike ${strike.rank}`,
+      range: rawRange(mainHand, apDps * normalizedSpeed,
+        strike.bonusDamage, SINISTER_STRIKE.aggressionMultiplier),
       attempts: countStrikes(duration),
       outcomes: strikeTable,
     },

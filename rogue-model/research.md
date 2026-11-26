@@ -4,6 +4,21 @@ Researched November 11, 2026 using Chrome. The browser prototype covers weapon s
 
 ## Browser prototype
 
+The default level is 53. The editable weapon and sheet stat defaults come from the saved level 29 snapshot below. The selected level determines rank availability and the level used by the armour formula. The target is assumed to be the same level. Enter each weapon's damage range and speed from its item tooltip. For Sinister Strike the prototype applies provisional Classic normalization of 1.7 seconds for a dagger and 2.4 seconds for other one-handed weapons.
+
+| Sinister Strike rank | Required level | Bonus damage |
+| --- | ---: | ---: |
+| [I](https://www.wowhead.com/forever/spell=1752/sinister-strike) | 1 | 3 |
+| [II](https://www.wowhead.com/forever/spell=1757/sinister-strike) | 6 | 6 |
+| [III](https://www.wowhead.com/forever/spell=1758/sinister-strike) | 14 | 10 |
+| [IV](https://www.wowhead.com/forever/spell=1759/sinister-strike) | 22 | 15 |
+| [V](https://www.wowhead.com/forever/spell=1760/sinister-strike) | 30 | 22 |
+| [VI](https://www.wowhead.com/forever/spell=8621/sinister-strike) | 38 | 33 |
+| [VII](https://www.wowhead.com/forever/spell=11293/sinister-strike) | 46 | 52 |
+| [VIII](https://www.wowhead.com/forever/spell=11294/sinister-strike) | 54 | 68 |
+
+Forever spell tooltips show 45 base Energy across all eight ranks. The simulator applies the saved build's 5-Energy Efficient Strikes discount and 15% Aggression damage bonus at all selected levels.
+
 The prototype assumes an equal-level NPC, a fixed attack position, and capped weapon skills. It uses its Classic-style reference table with 24% base dual-wield miss, 5% special miss, 5% dodge, 5% frontal parry, and 10% glancing blows on autos at 95% damage. Hit and expertise reduce their respective outcomes. It uses a single roll for avoidance, glancing blows, crits, and ordinary hits, with double damage for crits and no blocks. Physical damage uses the reference armour formula `armour / (armour + 400 + 85 * attacker level)`, capped at 75%.
 
 The opener starts at full Energy. Sinister Strike attempts fire on cooldown as Energy allows, regardless of past attack outcomes. The first auto-attacks occur after one weapon interval. Attacks exactly at the selected end time count. Fixed attempt counts let the tool compute the analytical mean and also sample the middle 90% of 1,000 repeatable fights. That range describes random fight variance under the selected assumptions. The first version excludes refunds, Poised, Shank, poisons, and finishers.
