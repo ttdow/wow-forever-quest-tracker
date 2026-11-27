@@ -87,14 +87,18 @@ function rollDamage(attack, random) {
 }
 
 export function simulate(settings, seed = 29) {
-  const { attackPower, armour, duration, level, strikeRank, mainHand, offHand } = settings;
+  const {
+    attackPower, armour, duration, level, strikeRank, mainHand, offHand,
+    maceArmourIgnored = 15, offHandDamagePercent = 50,
+  } = settings;
   const strike = SINISTER_STRIKE_RANKS.find(({ rank }) => rank === strikeRank);
   if (!strike || strike.level > level) {
     throw new RangeError("Select a Sinister Strike rank available at your level.");
   }
   const normalizedSpeed = mainHand.type === "dagger" ? 1.7 : 2.4;
   const apDps = attackPower / 14;
-  const armourReduction = Math.min(0.75, armour / (armour + 400 + 85 * level));
+  const effectiveArmour = mainHand.type === "mace" ? armour * (1 - maceArmourIgnored / 100) : armour;
+  const armourReduction = Math.min(0.75, effectiveArmour / (effectiveArmour + 400 + 85 * level));
   const damageAfterArmour = 1 - armourReduction;
   const swingTable = attackTable(settings, true);
   const strikeTable = attackTable(settings, false);
@@ -109,7 +113,7 @@ export function simulate(settings, seed = 29) {
     },
     {
       name: "Off-hand swings",
-      range: rawRange(offHand, apDps * offHand.speed, 0, 0.5),
+      range: rawRange(offHand, apDps * offHand.speed, 0, offHandDamagePercent / 100),
       attempts: Math.floor(duration / offHand.speed + 1e-9),
       outcomes: swingTable,
     },
@@ -160,6 +164,7 @@ export function simulate(settings, seed = 29) {
   trialDps.sort((a, b) => a - b);
   return {
     attacks,
+    effectiveArmour,
     armourReduction,
     expectedDps: attacks.reduce((sum, attack) => sum + attack.expectedDps, 0),
     lowDps: trialDps[Math.floor(TRIALS * 0.05)],

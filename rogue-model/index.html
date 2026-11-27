@@ -8,7 +8,7 @@
   <title>Rogue damage simulator · WoW Forever</title>
   <link rel="stylesheet" href="../style.css?v=62">
   <link rel="stylesheet" href="./simulator.css?v=2">
-  <script type="module" src="./page.js?v=3"></script>
+  <script type="module" src="./page.js?v=4"></script>
 </head>
 <body>
   <main class="sim-page">
@@ -43,11 +43,15 @@
               <select name="mainHandType">
                 <option value="oneHand">Other one-handed weapon</option>
                 <option value="dagger">Dagger</option>
+                <option value="mace">Mace</option>
               </select>
             </label>
             <label>Min. damage<input name="mainHandMin" type="number" min="0" max="10000" step="1" required></label>
             <label>Max. damage<input name="mainHandMax" type="number" min="0" max="10000" step="1" required></label>
             <label>Speed (s)<input name="mainHandSpeed" type="number" min="0.5" max="10" step="0.01" required></label>
+            <label class="sim-full-width" hidden>Hack and Slash armour ignored (%)
+              <input name="maceArmourIgnored" type="number" min="0" max="100" step="0.1" value="15" required disabled>
+            </label>
           </div>
         </fieldset>
         <fieldset class="sim-weapon" aria-describedby="sim-weapon-help">
@@ -56,6 +60,9 @@
             <label>Min. damage<input name="offHandMin" type="number" min="0" max="10000" step="1" required></label>
             <label>Max. damage<input name="offHandMax" type="number" min="0" max="10000" step="1" required></label>
             <label>Speed (s)<input name="offHandSpeed" type="number" min="0.5" max="10" step="0.01" required></label>
+            <label class="sim-full-width">Off-hand damage (% of full damage)
+              <input name="offHandDamagePercent" type="number" min="0" max="100" step="0.1" value="75" required>
+            </label>
           </div>
         </fieldset>
         <div class="sim-actions">
@@ -83,7 +90,8 @@
       <summary>Model assumptions</summary>
       <p>Assumes max weapon skill, 3/3 Aggression, and 2/2 Efficient Strikes. Enter total sheet stats, including gear and talents. The default 0 armour is a reference target.</p>
       <p>Each fight starts at 100 Energy and regenerates 10 per second. Sinister Strike requires 40 Energy to cast. A miss, dodge, or parry refunds 32 Energy in this model. The one-second global cooldown still applies. First swings occur after one weapon interval.</p>
-      <p>The model uses Classic-style estimates for armour, glancing blows, and melee attack chances against an equal-level target. It uses 1.7-second Sinister Strike normalization for daggers and 2.4 seconds for other one-handed weapons. Off-hand swings deal 50% damage. These assumptions still need validation with Forever combat logs.</p>
+      <p>The model uses Classic-style estimates for armour, glancing blows, and melee attack chances against an equal-level target. Sinister Strike uses 1.7-second normalization for daggers and 2.4 seconds for other one-handed weapons.</p>
+      <p>With a main-hand mace, the selected Hack and Slash percentage reduces target armour for both hands and Sinister Strike. Use 15% for the talent tooltip, about 9% to reproduce the measured effect on Saltwater Snapjaws, or 0% to turn it off. Off-hand swings default to 75% damage for 2/2 Dual Wield Specialization.</p>
       <p>This test covers weapon swings and Sinister Strike. Poisons, Poised, Shank, finishers, buffs, and target death are outside its scope. <a href="https://github.com/ttdow/wow-forever-quest-tracker/blob/main/rogue-model/research.md">Research and sources</a></p>
     </details>
   </main>

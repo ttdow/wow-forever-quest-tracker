@@ -1,4 +1,4 @@
-import { simulate, SINISTER_STRIKE_RANKS } from "./simulator.js?v=3";
+import { simulate, SINISTER_STRIKE_RANKS } from "./simulator.js?v=4";
 
 const form = document.getElementById("sim-settings");
 const fields = form.elements;
@@ -29,6 +29,12 @@ function validateDamageRanges() {
   }
 }
 
+function syncMaceArmour() {
+  const hasMace = fields.mainHandType.value === "mace";
+  fields.maceArmourIgnored.disabled = !hasMace;
+  fields.maceArmourIgnored.closest("label").hidden = !hasMace;
+}
+
 function readWeapon(hand) {
   return {
     minDamage: fields.namedItem(`${hand}Min`).valueAsNumber,
@@ -50,6 +56,8 @@ function render() {
     duration: fields.duration.valueAsNumber,
     mainHand: { ...readWeapon("mainHand"), type: fields.mainHandType.value },
     offHand: readWeapon("offHand"),
+    maceArmourIgnored: fields.maceArmourIgnored.disabled ? 0 : fields.maceArmourIgnored.valueAsNumber,
+    offHandDamagePercent: fields.offHandDamagePercent.valueAsNumber,
   };
   const result = simulate(settings);
   document.getElementById("sim-summary").textContent = `${formatDps.format(result.expectedDps)} expected DPS`;
@@ -57,8 +65,11 @@ function render() {
     `${formatDps.format(result.lowDps)}–${formatDps.format(result.highDps)} DPS across the middle 90% of ${result.trials.toLocaleString()} simulated fights`;
   const position = settings.position === "front" ? "in front" : "from behind";
   const reduction = formatDamage.format(100 * result.armourReduction);
+  const effectiveArmour = result.effectiveArmour < settings.armour
+    ? ` · ${formatDamage.format(result.effectiveArmour)} effective armour`
+    : "";
   document.getElementById("sim-scenario").textContent =
-    `Level ${settings.level} target · ${settings.duration}s · ${position} · ${reduction}% armour reduction`;
+    `Level ${settings.level} target · ${settings.duration}s · ${position} · ${reduction}% damage reduction from armour${effectiveArmour}`;
   const rows = result.attacks.map(({ name, min, max, attempts, expectedDps }) => {
     const row = document.createElement("tr");
     const heading = document.createElement("th");
@@ -95,11 +106,13 @@ async function loadPreset() {
     field.defaultValue = value;
     field.value = value;
   }
-  const mainHandType = character.main_hand.type === "dagger" ? "dagger" : "oneHand";
+  const weaponTypes = { dagger: "dagger", one_handed_mace: "mace" };
+  const mainHandType = weaponTypes[character.main_hand.type] ?? "oneHand";
   for (const option of fields.mainHandType.options) {
     option.defaultSelected = option.value === mainHandType;
   }
   fields.mainHandType.value = mainHandType;
+  syncMaceArmour();
 
   const defaultRank = SINISTER_STRIKE_RANKS.findLast(({ level }) => level <= Number(fields.level.defaultValue));
   for (const { rank, level, bonusDamage } of SINISTER_STRIKE_RANKS) {
@@ -111,6 +124,7 @@ async function loadPreset() {
     `The sample weapons and sheet stats come from your saved level ${character.level} build. Replace them with your current gear and stats.`;
   form.addEventListener("input", validateDamageRanges);
   fields.level.addEventListener("input", syncRanks);
+  fields.mainHandType.addEventListener("change", syncMaceArmour);
   form.addEventListener("submit", (event) => {
     event.preventDefault();
     syncRanks();
@@ -121,6 +135,7 @@ async function loadPreset() {
     // The browser applies form defaults after the reset event.
     requestAnimationFrame(() => {
       syncRanks();
+      syncMaceArmour();
       validateDamageRanges();
       render();
     });
