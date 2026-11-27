@@ -1,4 +1,4 @@
-import { simulate, SINISTER_STRIKE_RANKS } from "./simulator.js?v=4";
+import { isSwordOrAxe, simulate, SINISTER_STRIKE_RANKS } from "./simulator.js?v=5";
 
 const form = document.getElementById("sim-settings");
 const fields = form.elements;
@@ -29,14 +29,24 @@ function validateDamageRanges() {
   }
 }
 
-function syncMaceArmour() {
-  const hasMace = fields.mainHandType.value === "mace";
-  fields.maceArmourIgnored.disabled = !hasMace;
-  fields.maceArmourIgnored.closest("label").hidden = !hasMace;
+function showOption(field, visible) {
+  field.disabled = !visible;
+  field.closest("label").hidden = !visible;
+}
+
+function syncHackAndSlash() {
+  const active = fields.hackAndSlash.checked;
+  const mainHasMace = fields.mainHandType.value === "mace";
+  const offType = fields.offHandType.value;
+  const offMaceOption = active && !mainHasMace && offType === "mace";
+  showOption(fields.offHandExtraAttacks, active && isSwordOrAxe(offType));
+  showOption(fields.offHandMaceArmour, offMaceOption);
+  showOption(fields.maceArmourIgnored, active && (mainHasMace || (offMaceOption && fields.offHandMaceArmour.checked)));
 }
 
 function readWeapon(hand) {
   return {
+    type: fields.namedItem(`${hand}Type`).value,
     minDamage: fields.namedItem(`${hand}Min`).valueAsNumber,
     maxDamage: fields.namedItem(`${hand}Max`).valueAsNumber,
     speed: fields.namedItem(`${hand}Speed`).valueAsNumber,
@@ -54,8 +64,11 @@ function render() {
     armour: fields.armour.valueAsNumber,
     position: fields.position.value,
     duration: fields.duration.valueAsNumber,
-    mainHand: { ...readWeapon("mainHand"), type: fields.mainHandType.value },
+    mainHand: readWeapon("mainHand"),
     offHand: readWeapon("offHand"),
+    hackAndSlash: fields.hackAndSlash.checked,
+    offHandExtraAttacks: !fields.offHandExtraAttacks.disabled && fields.offHandExtraAttacks.checked,
+    offHandMaceArmour: !fields.offHandMaceArmour.disabled && fields.offHandMaceArmour.checked,
     maceArmourIgnored: fields.maceArmourIgnored.disabled ? 0 : fields.maceArmourIgnored.valueAsNumber,
     offHandDamagePercent: fields.offHandDamagePercent.valueAsNumber,
   };
@@ -106,13 +119,18 @@ async function loadPreset() {
     field.defaultValue = value;
     field.value = value;
   }
-  const weaponTypes = { dagger: "dagger", one_handed_mace: "mace" };
-  const mainHandType = weaponTypes[character.main_hand.type] ?? "oneHand";
-  for (const option of fields.mainHandType.options) {
-    option.defaultSelected = option.value === mainHandType;
+  const weaponTypes = {
+    one_handed_axe: "axe", dagger: "dagger", fist_weapon: "fist",
+    one_handed_mace: "mace", one_handed_sword: "sword",
+  };
+  for (const [field, weapon] of [
+    [fields.mainHandType, character.main_hand], [fields.offHandType, character.off_hand],
+  ]) {
+    const type = weaponTypes[weapon.type] ?? "oneHand";
+    for (const option of field.options) option.defaultSelected = option.value === type;
+    field.value = type;
   }
-  fields.mainHandType.value = mainHandType;
-  syncMaceArmour();
+  syncHackAndSlash();
 
   const defaultRank = SINISTER_STRIKE_RANKS.findLast(({ level }) => level <= Number(fields.level.defaultValue));
   for (const { rank, level, bonusDamage } of SINISTER_STRIKE_RANKS) {
@@ -124,7 +142,9 @@ async function loadPreset() {
     `The sample weapons and sheet stats come from your saved level ${character.level} build. Replace them with your current gear and stats.`;
   form.addEventListener("input", validateDamageRanges);
   fields.level.addEventListener("input", syncRanks);
-  fields.mainHandType.addEventListener("change", syncMaceArmour);
+  for (const field of [fields.mainHandType, fields.offHandType, fields.hackAndSlash, fields.offHandMaceArmour]) {
+    field.addEventListener("change", syncHackAndSlash);
+  }
   form.addEventListener("submit", (event) => {
     event.preventDefault();
     syncRanks();
@@ -135,7 +155,7 @@ async function loadPreset() {
     // The browser applies form defaults after the reset event.
     requestAnimationFrame(() => {
       syncRanks();
-      syncMaceArmour();
+      syncHackAndSlash();
       validateDamageRanges();
       render();
     });

@@ -14,6 +14,11 @@
 .sim-weapon legend { padding: 0 5px; font-weight: 650; }
 .sim-weapon-fields { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 0; }
 .sim-full-width { grid-column: 1 / -1; }
+.sim-talent { display: grid; gap: 10px; }
+.sim-option { display: flex; align-items: flex-start; gap: 8px; line-height: 1.45; }
+.sim-option input[type="checkbox"] { flex-shrink: 0; }
+.sim-armour-option { display: grid; gap: 5px; max-width: 13rem; }
+.sim-armour-option input { padding-left: 10px; }
 .sim-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 19px; }
 .sim-actions button { border: 1px solid #567662; border-radius: 5px; padding: 9px 12px; background: #263d2e; color: #dce6dd; cursor: pointer; }
 .sim-actions button[type="reset"] { background: transparent; }

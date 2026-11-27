@@ -18,6 +18,31 @@ const SINISTER_STRIKE = {
 const ENERGY_CAP = 100;
 const ENERGY_PER_SECOND = 10;
 const TRIALS = 1000;
+const HACK_AND_SLASH_CRIT_BONUS = 5;
+const HACK_AND_SLASH_PROC_CHANCE = 0.05;
+
+export function isSwordOrAxe(type) {
+  return type === "sword" || type === "axe";
+}
+
+function weaponCritBonus(type) {
+  return type === "dagger" || type === "fist" ? HACK_AND_SLASH_CRIT_BONUS : 0;
+}
+
+function hackAndSlashEffects({
+  mainHand, offHand, hackAndSlash = true, offHandExtraAttacks = false,
+  offHandMaceArmour = false, maceArmourIgnored = 15,
+}) {
+  return {
+    mainCrit: hackAndSlash ? weaponCritBonus(mainHand.type) : 0,
+    offCrit: hackAndSlash ? weaponCritBonus(offHand.type) : 0,
+    mainProc: hackAndSlash && isSwordOrAxe(mainHand.type) ? HACK_AND_SLASH_PROC_CHANCE : 0,
+    offProc: hackAndSlash && offHandExtraAttacks && isSwordOrAxe(offHand.type)
+      ? HACK_AND_SLASH_PROC_CHANCE : 0,
+    armourIgnored: hackAndSlash && (mainHand.type === "mace" || (offHandMaceArmour && offHand.type === "mace"))
+      ? maceArmourIgnored : 0,
+  };
+}
 
 function nextStrike(energy, avoided) {
   const remaining = energy - (avoided ? SINISTER_STRIKE.avoidedCost : SINISTER_STRIKE.energyCost);
@@ -51,14 +76,14 @@ function expectedStrikes(end, avoidChance) {
   return expected;
 }
 
-function attackTable({ hit, crit, expertise, position }, isSwing) {
+function attackTable({ hit, crit, expertise, position }, isSwing, critBonus = 0) {
   // Equal-level NPC estimates with both weapon skills capped.
   const miss = Math.max(0, (isSwing ? 24 : 5) - hit);
   const dodge = Math.max(0, 5 - expertise);
   const parry = position === "front" ? Math.max(0, 5 - expertise) : 0;
   const glance = isSwing ? 10 : 0;
   const avoid = miss + dodge + parry;
-  const critical = Math.min(crit, 100 - avoid - glance);
+  const critical = Math.min(crit + critBonus, 100 - avoid - glance);
   return [
     { probability: avoid / 100, multiplier: 0 },
     { probability: glance / 100, multiplier: 0.95 },
@@ -81,15 +106,19 @@ function rollOutcome(outcomes, roll) {
   return outcomes.at(-1);
 }
 
-function rollDamage(attack, random) {
+function rollDamage(attack, random, extraSwing) {
   const outcome = rollOutcome(attack.outcomes, random());
-  return (attack.min + random() * (attack.max - attack.min)) * outcome.multiplier;
+  const damage = (attack.min + random() * (attack.max - attack.min)) * outcome.multiplier;
+  if (extraSwing && attack.procChance && outcome.multiplier > 0 && random() < attack.procChance) {
+    return damage + rollDamage(extraSwing, random);
+  }
+  return damage;
 }
 
 export function simulate(settings, seed = 29) {
   const {
     attackPower, armour, duration, level, strikeRank, mainHand, offHand,
-    maceArmourIgnored = 15, offHandDamagePercent = 50,
+    offHandDamagePercent = 50,
   } = settings;
   const strike = SINISTER_STRIKE_RANKS.find(({ rank }) => rank === strikeRank);
   if (!strike || strike.level > level) {
@@ -97,40 +126,51 @@ export function simulate(settings, seed = 29) {
   }
   const normalizedSpeed = mainHand.type === "dagger" ? 1.7 : 2.4;
   const apDps = attackPower / 14;
-  const effectiveArmour = mainHand.type === "mace" ? armour * (1 - maceArmourIgnored / 100) : armour;
+  const effects = hackAndSlashEffects(settings);
+  const effectiveArmour = armour * (1 - effects.armourIgnored / 100);
   const armourReduction = Math.min(0.75, effectiveArmour / (effectiveArmour + 400 + 85 * level));
   const damageAfterArmour = 1 - armourReduction;
-  const swingTable = attackTable(settings, true);
-  const strikeTable = attackTable(settings, false);
+  const mainSwingTable = attackTable(settings, true, effects.mainCrit);
+  const offSwingTable = attackTable(settings, true, effects.offCrit);
+  const strikeTable = attackTable(settings, false, effects.mainCrit);
   const fightEnd = Math.floor(duration * ENERGY_PER_SECOND + 1e-9);
 
-  const swings = [
-    {
-      name: "Main-hand swings",
-      range: rawRange(mainHand, apDps * mainHand.speed),
-      attempts: Math.floor(duration / mainHand.speed + 1e-9),
-      outcomes: swingTable,
-    },
-    {
-      name: "Off-hand swings",
-      range: rawRange(offHand, apDps * offHand.speed, 0, offHandDamagePercent / 100),
-      attempts: Math.floor(duration / offHand.speed + 1e-9),
-      outcomes: swingTable,
-    },
-  ];
+  const mainSwing = {
+    name: "Main-hand swings",
+    range: rawRange(mainHand, apDps * mainHand.speed),
+    attempts: Math.floor(duration / mainHand.speed + 1e-9),
+    outcomes: mainSwingTable,
+    procChance: effects.mainProc,
+  };
+  const offSwing = {
+    name: "Off-hand swings",
+    range: rawRange(offHand, apDps * offHand.speed, 0, offHandDamagePercent / 100),
+    attempts: Math.floor(duration / offHand.speed + 1e-9),
+    outcomes: offSwingTable,
+    procChance: effects.offProc,
+  };
   const sinisterStrike = {
     name: `Sinister Strike ${strike.rank}`,
     range: rawRange(mainHand, apDps * normalizedSpeed,
       strike.bonusDamage, SINISTER_STRIKE.aggressionMultiplier),
     attempts: expectedStrikes(fightEnd, strikeTable[0].probability),
     outcomes: strikeTable,
+    procChance: effects.mainProc,
   };
-  const attacks = [...swings, sinisterStrike].map(({ name, range: [min, max], attempts, outcomes }) => {
+  const sources = [mainSwing, offSwing, sinisterStrike];
+  const extraAttempts = sources.reduce(
+    (sum, attack) => sum + attack.attempts * (1 - attack.outcomes[0].probability) * attack.procChance,
+    0
+  );
+  if (extraAttempts > 0) {
+    sources.push({ ...mainSwing, name: "Hack and Slash extra swings", attempts: extraAttempts, procChance: 0 });
+  }
+  const attacks = sources.map(({ name, range: [min, max], attempts, outcomes, procChance }) => {
     const averageMultiplier = outcomes.reduce(
       (sum, outcome) => sum + outcome.probability * outcome.multiplier, 0
     );
     const expectedDps = (min + max) / 2 * averageMultiplier * attempts * damageAfterArmour / duration;
-    return { name, min, max, attempts, outcomes, expectedDps };
+    return { name, min, max, attempts, outcomes, procChance, expectedDps };
   });
 
   // Repeatable trials let changes to stats be compared without a different random seed.
@@ -139,20 +179,20 @@ export function simulate(settings, seed = 29) {
     state = (Math.imul(1664525, state) + 1013904223) >>> 0;
     return state / 4294967296;
   };
-  const swingAttacks = attacks.slice(0, swings.length);
-  const strikeAttack = attacks.at(-1);
+  const [mainAttack, offAttack, strikeAttack, extraSwing] = attacks;
+  const swingAttacks = [mainAttack, offAttack];
   const trialDps = [];
   for (let trial = 0; trial < TRIALS; trial++) {
     let damage = 0;
     for (const attack of swingAttacks) {
       for (let attempt = 0; attempt < attack.attempts; attempt++) {
-        damage += rollDamage(attack, random);
+        damage += rollDamage(attack, random, extraSwing);
       }
     }
     let time = 0;
     let energy = ENERGY_CAP;
     while (time <= fightEnd) {
-      const dealt = rollDamage(strikeAttack, random);
+      const dealt = rollDamage(strikeAttack, random, extraSwing);
       damage += dealt;
       // Sinister Strike has positive base damage, so zero means it was avoided.
       const next = nextStrike(energy, dealt === 0);
