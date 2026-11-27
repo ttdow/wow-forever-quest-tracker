@@ -31,6 +31,8 @@ The opener starts at full Energy. Sinister Strike fires as soon as the Rogue has
 
 The first auto-attacks occur after one weapon interval. Attacks exactly at the selected end time count. The tool weights each possible Sinister Strike cast time and Energy state by its probability to calculate expected attempts and DPS. It also rolls the outcomes and schedules casts in 1,000 repeatable fights to show the middle 90% of results. That range describes fight-to-fight variance under the selected assumptions. The prototype covers auto-attacks, Sinister Strike, and Hack and Slash. Individual weapon procs such as Thrash Blade are outside its scope.
 
+Expandable rows show the sample mean and standard deviation of DPS per fight, including zero contributions in trials without damage from that source. Extra swing damage is counted on the Hack and Slash row. The attack chances use the model’s table per attempt. Mean damage per landed hit accounts for armour, crits, and glancing blows.
+
 ## Character inputs
 
 `character.json` records the latest user-supplied level, weapons, sheet stats and talents. The user confirmed that the remaining five talent points are utility and requested maximum weapon skill. Instant Poison Rank 1 is the available poison; application to both weapons is an assumption.

@@ -85,11 +85,17 @@ function attackTable({ hit, crit, expertise, position }, isSwing, critBonus = 0)
   const avoid = miss + dodge + parry;
   const critical = Math.min(crit + critBonus, 100 - avoid - glance);
   return [
-    { probability: avoid / 100, multiplier: 0 },
-    { probability: glance / 100, multiplier: 0.95 },
-    { probability: critical / 100, multiplier: 2 },
-    { probability: (100 - avoid - glance - critical) / 100, multiplier: 1 },
+    { name: "Miss", probability: miss / 100, multiplier: 0 },
+    { name: "Dodge", probability: dodge / 100, multiplier: 0 },
+    { name: "Parry", probability: parry / 100, multiplier: 0 },
+    { name: "Glancing blow", probability: glance / 100, multiplier: 0.95 },
+    { name: "Critical hit", probability: critical / 100, multiplier: 2 },
+    { name: "Normal hit", probability: (100 - avoid - glance - critical) / 100, multiplier: 1 },
   ];
+}
+
+function avoidChance(outcomes) {
+  return outcomes.reduce((sum, { probability, multiplier }) => sum + (multiplier === 0 ? probability : 0), 0);
 }
 
 function rawRange(weapon, apDamage, bonus = 0, multiplier = 1) {
@@ -106,13 +112,24 @@ function rollOutcome(outcomes, roll) {
   return outcomes.at(-1);
 }
 
-function rollDamage(attack, random, extraSwing) {
+function recordAttack(attack, random, damageBySource, extraSwing) {
   const outcome = rollOutcome(attack.outcomes, random());
   const damage = (attack.min + random() * (attack.max - attack.min)) * outcome.multiplier;
-  if (extraSwing && attack.procChance && outcome.multiplier > 0 && random() < attack.procChance) {
-    return damage + rollDamage(extraSwing, random);
+  damageBySource[attack.index] += damage;
+  const landed = outcome.multiplier > 0;
+  if (extraSwing && attack.procChance && landed && random() < attack.procChance) {
+    recordAttack(extraSwing, random, damageBySource);
   }
-  return damage;
+  return landed;
+}
+
+function summarizeDps(samples) {
+  const meanDps = samples.reduce((sum, value) => sum + value, 0) / samples.length;
+  const squaredDeviations = samples.reduce((sum, value) => sum + (value - meanDps) ** 2, 0);
+  return {
+    meanDps,
+    dpsStandardDeviation: Math.sqrt(squaredDeviations / (samples.length - 1)),
+  };
 }
 
 export function simulate(settings, seed = 29) {
@@ -153,24 +170,26 @@ export function simulate(settings, seed = 29) {
     name: `Sinister Strike ${strike.rank}`,
     range: rawRange(mainHand, apDps * normalizedSpeed,
       strike.bonusDamage, SINISTER_STRIKE.aggressionMultiplier),
-    attempts: expectedStrikes(fightEnd, strikeTable[0].probability),
+    attempts: expectedStrikes(fightEnd, avoidChance(strikeTable)),
     outcomes: strikeTable,
     procChance: effects.mainProc,
   };
   const sources = [mainSwing, offSwing, sinisterStrike];
   const extraAttempts = sources.reduce(
-    (sum, attack) => sum + attack.attempts * (1 - attack.outcomes[0].probability) * attack.procChance,
+    (sum, attack) => sum + attack.attempts * (1 - avoidChance(attack.outcomes)) * attack.procChance,
     0
   );
   if (extraAttempts > 0) {
     sources.push({ ...mainSwing, name: "Hack and Slash extra swings", attempts: extraAttempts, procChance: 0 });
   }
-  const attacks = sources.map(({ name, range: [min, max], attempts, outcomes, procChance }) => {
+  const attacks = sources.map(({ name, range: [min, max], attempts, outcomes, procChance }, index) => {
     const averageMultiplier = outcomes.reduce(
       (sum, outcome) => sum + outcome.probability * outcome.multiplier, 0
     );
-    const expectedDps = (min + max) / 2 * averageMultiplier * attempts * damageAfterArmour / duration;
-    return { name, min, max, attempts, outcomes, procChance, expectedDps };
+    const meanDamagePerAttempt = (min + max) / 2 * averageMultiplier * damageAfterArmour;
+    const meanDamagePerLandedHit = meanDamagePerAttempt / (1 - avoidChance(outcomes));
+    const expectedDps = meanDamagePerAttempt * attempts / duration;
+    return { index, name, min, max, attempts, outcomes, procChance, expectedDps, meanDamagePerLandedHit };
   });
 
   // Repeatable trials let changes to stats be compared without a different random seed.
@@ -181,31 +200,39 @@ export function simulate(settings, seed = 29) {
   };
   const [mainAttack, offAttack, strikeAttack, extraSwing] = attacks;
   const swingAttacks = [mainAttack, offAttack];
+  const damageBySource = new Float64Array(attacks.length);
+  const sourceDps = attacks.map(() => []);
   const trialDps = [];
   for (let trial = 0; trial < TRIALS; trial++) {
-    let damage = 0;
+    damageBySource.fill(0);
     for (const attack of swingAttacks) {
       for (let attempt = 0; attempt < attack.attempts; attempt++) {
-        damage += rollDamage(attack, random, extraSwing);
+        recordAttack(attack, random, damageBySource, extraSwing);
       }
     }
     let time = 0;
     let energy = ENERGY_CAP;
     while (time <= fightEnd) {
-      const dealt = rollDamage(strikeAttack, random, extraSwing);
-      damage += dealt;
-      // Sinister Strike has positive base damage, so zero means it was avoided.
-      const next = nextStrike(energy, dealt === 0);
+      const landed = recordAttack(strikeAttack, random, damageBySource, extraSwing);
+      const next = nextStrike(energy, !landed);
       time += next.delay;
       energy = next.energy;
     }
-    trialDps.push(damage * damageAfterArmour / duration);
+    let totalDps = 0;
+    for (const [index, damage] of damageBySource.entries()) {
+      const dps = damage * damageAfterArmour / duration;
+      sourceDps[index].push(dps);
+      totalDps += dps;
+    }
+    trialDps.push(totalDps);
   }
+  const totalStats = summarizeDps(trialDps);
   trialDps.sort((a, b) => a - b);
   return {
-    attacks,
+    attacks: attacks.map((attack, index) => ({ ...attack, ...summarizeDps(sourceDps[index]) })),
     effectiveArmour,
     armourReduction,
+    ...totalStats,
     expectedDps: attacks.reduce((sum, attack) => sum + attack.expectedDps, 0),
     lowDps: trialDps[Math.floor(TRIALS * 0.05)],
     highDps: trialDps[Math.ceil(TRIALS * 0.95) - 1],

@@ -7,8 +7,8 @@
   <meta name="color-scheme" content="dark">
   <title>Rogue damage simulator · WoW Forever</title>
   <link rel="stylesheet" href="../style.css?v=62">
-  <link rel="stylesheet" href="./simulator.css?v=3">
-  <script type="module" src="./page.js?v=5"></script>
+  <link rel="stylesheet" href="./simulator.css?v=4">
+  <script type="module" src="./page.js?v=6"></script>
 </head>
 <body>
   <main class="sim-page">
@@ -101,6 +101,10 @@
           <div id="sim-summary" role="status"></div>
           <p id="sim-range" class="sim-muted"></p>
           <p id="sim-scenario" class="sim-muted"></p>
+          <details class="sim-total-details">
+            <summary>Total DPS statistics</summary>
+            <dl id="sim-total-stats" class="sim-metrics"></dl>
+          </details>
         </div>
         <div class="table-wrap" tabindex="0" role="region" aria-label="Damage breakdown">
           <table class="sim-table">
@@ -108,7 +112,7 @@
             <tbody id="sim-breakdown"></tbody>
           </table>
         </div>
-        <p class="sim-result-note sim-muted">Raw hit ranges are for normal hits before armour. Sinister Strike attempts vary because avoided strikes refund Energy.</p>
+        <p class="sim-result-note sim-muted">Expand any attack for simulated DPS statistics and its chances per attempt. Raw hit ranges are for normal hits before armour.</p>
       </section>
     </div>
     <details class="sim-assumptions quest-panel">

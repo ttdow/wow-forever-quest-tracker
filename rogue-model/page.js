@@ -1,11 +1,14 @@
-import { isSwordOrAxe, simulate, SINISTER_STRIKE_RANKS } from "./simulator.js?v=5";
+import { isSwordOrAxe, simulate, SINISTER_STRIKE_RANKS } from "./simulator.js?v=6";
 
 const form = document.getElementById("sim-settings");
 const fields = form.elements;
 const results = document.getElementById("sim-results");
 const breakdown = document.getElementById("sim-breakdown");
+const totalStats = document.getElementById("sim-total-stats");
+const expandedAttacks = new Set();
 const formatDamage = new Intl.NumberFormat(undefined, { maximumFractionDigits: 1 });
 const formatDps = new Intl.NumberFormat(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const formatProbability = new Intl.NumberFormat(undefined, { style: "percent", maximumFractionDigits: 1 });
 
 function syncRanks() {
   if (!fields.level.validity.valid) return;
@@ -53,6 +56,79 @@ function readWeapon(hand) {
   };
 }
 
+function metric({ label, value }) {
+  const pair = document.createElement("div");
+  const term = document.createElement("dt");
+  const description = document.createElement("dd");
+  term.textContent = label;
+  description.textContent = value;
+  pair.append(term, description);
+  return pair;
+}
+
+function dpsMetrics({ meanDps, dpsStandardDeviation }) {
+  return [
+    { label: "Mean simulated DPS", value: formatDps.format(meanDps) },
+    { label: "DPS standard deviation", value: formatDps.format(dpsStandardDeviation) },
+  ].map(metric);
+}
+
+function attackRows(attack) {
+  const { index, name, min, max, attempts, expectedDps, meanDamagePerLandedHit, outcomes } = attack;
+  const row = document.createElement("tr");
+  const heading = document.createElement("th");
+  heading.scope = "row";
+  const toggle = document.createElement("button");
+  toggle.type = "button";
+  toggle.className = "sim-attack-toggle";
+  toggle.textContent = name;
+  heading.append(toggle);
+  row.append(heading);
+  row.insertCell().textContent = `${formatDamage.format(min)}–${formatDamage.format(max)}`;
+  row.insertCell().textContent = formatDamage.format(attempts);
+  row.insertCell().textContent = formatDps.format(expectedDps);
+
+  const detail = document.createElement("tr");
+  detail.className = "sim-attack-detail";
+  detail.id = `sim-attack-detail-${index}`;
+  const cell = detail.insertCell();
+  cell.colSpan = row.cells.length;
+
+  const stats = document.createElement("dl");
+  stats.className = "sim-metrics";
+  stats.append(...dpsMetrics(attack), metric({
+    label: "Mean damage per landed hit",
+    value: formatDps.format(meanDamagePerLandedHit),
+  }));
+
+  const outcomeLabel = document.createElement("p");
+  outcomeLabel.className = "sim-outcome-label";
+  outcomeLabel.textContent = "Attack chances per attempt";
+  const chances = document.createElement("dl");
+  chances.className = "sim-metrics";
+  chances.append(...outcomes.map(({ name, probability }) =>
+    metric({ label: name, value: formatProbability.format(probability) })
+  ));
+  cell.append(stats, outcomeLabel, chances);
+
+  toggle.setAttribute("aria-controls", detail.id);
+  function showDetail(expanded) {
+    detail.hidden = !expanded;
+    toggle.setAttribute("aria-expanded", String(expanded));
+  }
+  showDetail(expandedAttacks.has(index));
+  toggle.addEventListener("click", () => {
+    if (detail.hidden) {
+      expandedAttacks.add(index);
+      showDetail(true);
+    } else {
+      expandedAttacks.delete(index);
+      showDetail(false);
+    }
+  });
+  return [row, detail];
+}
+
 function render() {
   const settings = {
     level: fields.level.valueAsNumber,
@@ -83,18 +159,8 @@ function render() {
     : "";
   document.getElementById("sim-scenario").textContent =
     `Level ${settings.level} target · ${settings.duration}s · ${position} · ${reduction}% damage reduction from armour${effectiveArmour}`;
-  const rows = result.attacks.map(({ name, min, max, attempts, expectedDps }) => {
-    const row = document.createElement("tr");
-    const heading = document.createElement("th");
-    heading.scope = "row";
-    heading.textContent = name;
-    row.append(heading);
-    row.insertCell().textContent = `${formatDamage.format(min)}–${formatDamage.format(max)}`;
-    row.insertCell().textContent = formatDamage.format(attempts);
-    row.insertCell().textContent = formatDps.format(expectedDps);
-    return row;
-  });
-  breakdown.replaceChildren(...rows);
+  totalStats.replaceChildren(...dpsMetrics(result));
+  breakdown.replaceChildren(...result.attacks.flatMap(attackRows));
   results.hidden = false;
 }
 
