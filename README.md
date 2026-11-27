@@ -4,7 +4,7 @@ Static HTML, CSS, and JavaScript. No installation, application server, package m
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Chrome, Firefox, or another modern browser.
 
-- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Stranglethorn Vale, Azshara, Felwood, Riverglades, Winterspring, Mount Hyjal, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, Krol'dok Stronghold, Uldaman, Maraudon, Zul'Farrak, Alcaz Prison, Sunken Temple, or Blackrock Depths.
+- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Stranglethorn Vale, Azshara, Felwood, Riverglades, Winterspring, Mount Hyjal, Silithus, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, Krol'dok Stronghold, Uldaman, Maraudon, Zul'Farrak, Alcaz Prison, Sunken Temple, or Blackrock Depths.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
@@ -38,7 +38,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 1,414 quest entries directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 1,530 quest entries (1,443 unique IDs) directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
@@ -53,6 +53,7 @@ The browser loads all 1,414 quest entries directly from `data/quests.json`. This
 - Riverglades: 121 Alliance/shared entries, including 13 introductions/deliveries/local dungeon stages outside the main index; Horde-only quests, misfiled Duskwood/Hyjal quests, and unimplemented records are excluded
 - Winterspring: 95 Alliance/shared entries, from the Winterfall investigation and Frostsaber reputation to the Red Bag and Hyjal Postal Satchel chains. Thirteen IDs also appear in another list. [Winterspring research](research/winterspring/README.md)
 - Mount Hyjal: 150 Alliance/shared entries, including Elderwild, Barkskin Burrow, the Wild Gods, the Blackthorne Pact, and the Hyjal Postal Satchel. Eight IDs also appear in another list. [Mount Hyjal research](research/mount-hyjal/README.md)
+- Silithus: 116 Alliance/shared entries, including Cenarion Hold, Southwind Village, the Twilight Council, Field Duty assignments, Cooking, Rogue raid hand-ins, and conditional Ahn'Qiraj/seasonal tasks. Four IDs share progress with the Rogue list. [Silithus research](research/silithus/README.md)
 - Deadmines: 24 quests, including prerequisites and excluding Paladin-only quests
 - Wailing Caverns: 7 quests, including Raptor Horns and the Alliance In Nightmares follow-up
 - Blackfathom Deeps: 6 quests, including the Corruption Abroad introduction

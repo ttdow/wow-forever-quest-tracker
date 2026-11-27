@@ -1,0 +1,4618 @@
+{
+  "reviewedOn": "2026-11-27",
+  "build": "1.60.1.71139",
+  "questieRevision": "0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba",
+  "indexes": {
+    "index.html": "https://foreverchanges.pro/quests/silithus",
+    "secondary.html": "https://foreverdb.net/quests/silithus",
+    "legacy.html": "https://legacyofwarcraft.com/db/forever/quests/silithus.html"
+  },
+  "suggestedLevels": {
+    "range": [
+      55,
+      60
+    ],
+    "basis": "Suggested leveling band based on the ordinary level 55–60 zone quests; not the minimum level of every event or introduction"
+  },
+  "candidates": [
+    {
+      "id": "1124",
+      "name": "Wasteland",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/1124/wasteland",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 1123,
+          "2": 6762
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "1125",
+      "name": "The Spirits of Southwind",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/1125/the-spirits-of-southwind",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 1124
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "1126",
+      "name": "Hive in the Tower",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/1126/hive-in-the-tower",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 1125
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "5527",
+      "name": "A Reliquary of Purity",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/5527/a-reliquary-of-purity",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "6844",
+      "name": "Umber, Archivist",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/6844/umber-archivist",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 1126
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "7785",
+      "name": "Examine the Vessel",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/7785/examine-the-vessel",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "7786",
+      "name": "Thunderaan the Windseeker",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/7786/thunderaan-the-windseeker",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 7785
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "7787",
+      "name": "Rise, Thunderfury!",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/7787/rise-thunderfury",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 7786
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8275",
+      "name": "Taking Back Silithus",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8275/taking-back-silithus",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8276",
+      "name": "Taking Back Silithus",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8276/taking-back-silithus",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8277",
+      "name": "Deadly Desert Venom",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8277/deadly-desert-venom",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8278",
+      "name": "Noggle's Last Hope",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8278/noggles-last-hope",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8277
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8279",
+      "name": "The Twilight Lexicon",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8279/the-twilight-lexicon",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8285
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8280",
+      "name": "Securing the Supply Lines",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8280/securing-the-supply-lines",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8281",
+      "name": "Stepping Up Security",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8281/stepping-up-security",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8280
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8282",
+      "name": "Noggle's Lost Satchel",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8282/noggles-lost-satchel",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8278
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8283",
+      "name": "Wanted - Deathclasp, Terror of the Sands",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8283/wanted-deathclasp-terror-of-the-sands",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8284",
+      "name": "The Twilight Mystery",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8284/the-twilight-mystery",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8285",
+      "name": "The Deserter",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8285/the-deserter",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8284
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8286",
+      "name": "What Tomorrow Brings",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8286/what-tomorrow-brings",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8287",
+      "name": "A Terrible Purpose",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8287/a-terrible-purpose",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8279
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8288",
+      "name": "Only One May Rise",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8288/only-one-may-rise",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8286
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8301",
+      "name": "The Path of the Righteous",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8301/the-path-of-the-righteous",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8288
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8302",
+      "name": "The Hand of the Righteous",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8302/the-hand-of-the-righteous",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8301
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8303",
+      "name": "Anachronos",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8303/anachronos",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8301
+        },
+        "18": null,
+        "19": {
+          "1": 910,
+          "2": 0
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8304",
+      "name": "Dearest Natalia",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8304/dearest-natalia",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8305",
+      "name": "Long Forgotten Memories",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8305/long-forgotten-memories",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8303
+        },
+        "18": null,
+        "19": {
+          "1": 910,
+          "2": 0
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8306",
+      "name": "Into The Maw of Madness",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8306/into-the-maw-of-madness",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8304
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8307",
+      "name": "Desert Recipe",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8307/desert-recipe",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": {
+          "1": 185,
+          "2": 285
+        },
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8308",
+      "name": "Brann Bronzebeard's Lost Letter",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8308/brann-bronzebeards-lost-letter",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8309",
+      "name": "Glyph Chasing",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8309/glyph-chasing",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8304
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8310",
+      "name": "Breaking the Code",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8310/breaking-the-code",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8304
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8313",
+      "name": "Sharing the Knowledge",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8313/sharing-the-knowledge",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8307
+        },
+        "18": {
+          "1": 185,
+          "2": 285
+        },
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8314",
+      "name": "Unraveling the Mystery",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8314/unraveling-the-mystery",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": {
+          "1": 8309,
+          "2": 8310
+        },
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8315",
+      "name": "The Calling",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8315/the-calling",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8314
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8316",
+      "name": "Armaments of War",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8316/armaments-of-war",
+      "primary": {
+        "6": 0,
+        "7": 1,
+        "12": null,
+        "13": {
+          "1": 8315
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8317",
+      "name": "Kitchen Assistance",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8317/kitchen-assistance",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8313
+        },
+        "18": {
+          "1": 185,
+          "2": 285
+        },
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8318",
+      "name": "Secret Communication",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8318/secret-communication",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8319",
+      "name": "Encrypted Twilight Texts",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8319/encrypted-twilight-texts",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8318
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8320",
+      "name": "Twilight Geolords",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8320/twilight-geolords",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8321",
+      "name": "Vyral the Vile",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8321/vyral-the-vile",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8320
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8323",
+      "name": "True Believers",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8323/true-believers",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8279
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8324",
+      "name": "Still Believing",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8324/still-believing",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8323
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8331",
+      "name": "Aurel Goldleaf",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8331/aurel-goldleaf",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": {
+          "1": 609,
+          "2": 3000
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8332",
+      "name": "Dukes of the Council",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8332/dukes-of-the-council",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8331
+        },
+        "18": null,
+        "19": {
+          "1": 609,
+          "2": 3000
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8333",
+      "name": "Medallion of Station",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8333/medallion-of-station",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8332
+        },
+        "18": null,
+        "19": {
+          "1": 609,
+          "2": 3000
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8341",
+      "name": "Lords of the Council",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8341/lords-of-the-council",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8343
+        },
+        "18": null,
+        "19": {
+          "1": 609,
+          "2": 21000
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8342",
+      "name": "Twilight Ring of Lordship",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8342/twilight-ring-of-lordship",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8341
+        },
+        "18": null,
+        "19": {
+          "1": 609,
+          "2": 21000
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8343",
+      "name": "Goldleaf's Discovery",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8343/goldleafs-discovery",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": {
+          "1": 609,
+          "2": 21000
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8348",
+      "name": "Signet of the Dukes",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8348/signet-of-the-dukes",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8349
+        },
+        "18": null,
+        "19": {
+          "1": 609,
+          "2": 3000
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8349",
+      "name": "Bor Wildmane",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8349/bor-wildmane",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8332
+        },
+        "18": null,
+        "19": {
+          "1": 609,
+          "2": 3000
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8351",
+      "name": "Bor Wishes to Speak",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8351/bor-wishes-to-speak",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8341
+        },
+        "18": null,
+        "19": {
+          "1": 609,
+          "2": 21000
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8352",
+      "name": "Scepter of the Council",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8352/scepter-of-the-council",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8351
+        },
+        "18": null,
+        "19": {
+          "1": 609,
+          "2": 21000
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8361",
+      "name": "Abyssal Contacts",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8361/abyssal-contacts",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8362",
+      "name": "Abyssal Crests",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8362/abyssal-crests",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8361
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8363",
+      "name": "Abyssal Signets",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8363/abyssal-signets",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8348
+        },
+        "18": null,
+        "19": {
+          "1": 609,
+          "2": 9000
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8364",
+      "name": "Abyssal Scepters",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8364/abyssal-scepters",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8352
+        },
+        "18": null,
+        "19": {
+          "1": 609,
+          "2": 21000
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8376",
+      "name": "Armaments of War",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8376/armaments-of-war",
+      "primary": {
+        "6": 4294967373,
+        "7": 2,
+        "12": null,
+        "13": {
+          "1": 8315
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8377",
+      "name": "Armaments of War",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8377/armaments-of-war",
+      "primary": {
+        "6": 0,
+        "7": 4,
+        "12": null,
+        "13": {
+          "1": 8315
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8378",
+      "name": "Armaments of War",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8378/armaments-of-war",
+      "primary": {
+        "6": 0,
+        "7": 8,
+        "12": null,
+        "13": {
+          "1": 8315
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8379",
+      "name": "Armaments of War",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8379/armaments-of-war",
+      "primary": {
+        "6": 0,
+        "7": 16,
+        "12": null,
+        "13": {
+          "1": 8315
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8380",
+      "name": "Armaments of War",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8380/armaments-of-war",
+      "primary": {
+        "6": 8589934770,
+        "7": 64,
+        "12": null,
+        "13": {
+          "1": 8315
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8381",
+      "name": "Armaments of War",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8381/armaments-of-war",
+      "primary": {
+        "6": 0,
+        "7": 384,
+        "12": null,
+        "13": {
+          "1": 8315
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8382",
+      "name": "Armaments of War",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8382/armaments-of-war",
+      "primary": {
+        "6": 0,
+        "7": 1024,
+        "12": null,
+        "13": {
+          "1": 8315
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8496",
+      "name": "Bandages for the Field",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8496/bandages-for-the-field",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8497",
+      "name": "Desert Survival Kits",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8497/desert-survival-kits",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8498",
+      "name": "Twilight Battle Orders",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8498/twilight-battle-orders",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8501",
+      "name": "Target: Hive'Ashi Stingers",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8501/target-hiveashi-stingers",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8502",
+      "name": "Target: Hive'Ashi Workers",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8502/target-hiveashi-workers",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8507",
+      "name": "Field Duty",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8507/field-duty",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8508",
+      "name": "Field Duty Papers",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8508/field-duty-papers",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": 8507
+      }
+    },
+    {
+      "id": "8519",
+      "name": "A Pawn on the Eternal Board",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8519/a-pawn-on-the-eternal-board",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8305
+        },
+        "18": null,
+        "19": {
+          "1": 910,
+          "2": 0
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8534",
+      "name": "Hive'Zora Scout Report",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8534/hivezora-scout-report",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8535",
+      "name": "Hoary Templar",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8535/hoary-templar",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8536",
+      "name": "Earthen Templar",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8536/earthen-templar",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8537",
+      "name": "Crimson Templar",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8537/crimson-templar",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8538",
+      "name": "The Four Dukes",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8538/the-four-dukes",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8539",
+      "name": "Target: Hive'Zora Hive Sisters",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8539/target-hivezora-hive-sisters",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8540",
+      "name": "Boots for the Guard",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8540/boots-for-the-guard",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8541",
+      "name": "Grinding Stones for the Guard",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8541/grinding-stones-for-the-guard",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8548",
+      "name": "Volunteer's Battlegear",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8548/volunteers-battlegear",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8556",
+      "name": "Signet of Unyielding Strength",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8556/signet-of-unyielding-strength",
+      "primary": {
+        "6": 0,
+        "7": 1,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8557",
+      "name": "Drape of Unyielding Strength",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8557/drape-of-unyielding-strength",
+      "primary": {
+        "6": 0,
+        "7": 1,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8558",
+      "name": "Sickle of Unyielding Strength",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8558/sickle-of-unyielding-strength",
+      "primary": {
+        "6": 0,
+        "7": 1,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8572",
+      "name": "Veteran's Battlegear",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8572/veterans-battlegear",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8573",
+      "name": "Champion's Battlegear",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8573/champions-battlegear",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8574",
+      "name": "Stalwart's Battlegear",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8574/stalwarts-battlegear",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8800
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8654",
+      "name": "Primestone the Elder",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8654/primestone-the-elder",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8687",
+      "name": "Target: Hive'Zora Tunnelers",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8687/target-hivezora-tunnelers",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8689",
+      "name": "Shroud of Infinite Wisdom",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8689/shroud-of-infinite-wisdom",
+      "primary": {
+        "6": 0,
+        "7": 16,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8690",
+      "name": "Cloak of the Gathering Storm",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8690/cloak-of-the-gathering-storm",
+      "primary": {
+        "6": 8589934770,
+        "7": 64,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8691",
+      "name": "Drape of Vaulted Secrets",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8691/drape-of-vaulted-secrets",
+      "primary": {
+        "6": 0,
+        "7": 128,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8692",
+      "name": "Cloak of Unending Life",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8692/cloak-of-unending-life",
+      "primary": {
+        "6": 0,
+        "7": 1024,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8693",
+      "name": "Cloak of Veiled Shadows",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8693/cloak-of-veiled-shadows",
+      "primary": {
+        "6": 0,
+        "7": 8,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8694",
+      "name": "Shroud of Unspoken Names",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8694/shroud-of-unspoken-names",
+      "primary": {
+        "6": 0,
+        "7": 256,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8695",
+      "name": "Cape of Eternal Justice",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8695/cape-of-eternal-justice",
+      "primary": {
+        "6": 4294967373,
+        "7": 2,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8696",
+      "name": "Cloak of the Unseen Path",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8696/cloak-of-the-unseen-path",
+      "primary": {
+        "6": 0,
+        "7": 4,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8697",
+      "name": "Ring of Infinite Wisdom",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8697/ring-of-infinite-wisdom",
+      "primary": {
+        "6": 0,
+        "7": 16,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8698",
+      "name": "Ring of the Gathering Storm",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8698/ring-of-the-gathering-storm",
+      "primary": {
+        "6": 8589934770,
+        "7": 64,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8699",
+      "name": "Band of Vaulted Secrets",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8699/band-of-vaulted-secrets",
+      "primary": {
+        "6": 0,
+        "7": 128,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8700",
+      "name": "Band of Unending Life",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8700/band-of-unending-life",
+      "primary": {
+        "6": 0,
+        "7": 1024,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8701",
+      "name": "Band of Veiled Shadows",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8701/band-of-veiled-shadows",
+      "primary": {
+        "6": 0,
+        "7": 8,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8702",
+      "name": "Ring of Unspoken Names",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8702/ring-of-unspoken-names",
+      "primary": {
+        "6": 0,
+        "7": 256,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8703",
+      "name": "Ring of Eternal Justice",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8703/ring-of-eternal-justice",
+      "primary": {
+        "6": 4294967373,
+        "7": 2,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8704",
+      "name": "Signet of the Unseen Path",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8704/signet-of-the-unseen-path",
+      "primary": {
+        "6": 0,
+        "7": 4,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8705",
+      "name": "Gavel of Infinite Wisdom",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8705/gavel-of-infinite-wisdom",
+      "primary": {
+        "6": 0,
+        "7": 16,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8706",
+      "name": "Hammer of the Gathering Storm",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8706/hammer-of-the-gathering-storm",
+      "primary": {
+        "6": 8589934770,
+        "7": 64,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8707",
+      "name": "Blade of Vaulted Secrets",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8707/blade-of-vaulted-secrets",
+      "primary": {
+        "6": 0,
+        "7": 128,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8708",
+      "name": "Mace of Unending Life",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8708/mace-of-unending-life",
+      "primary": {
+        "6": 0,
+        "7": 1024,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8709",
+      "name": "Dagger of Veiled Shadows",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8709/dagger-of-veiled-shadows",
+      "primary": {
+        "6": 0,
+        "7": 8,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8710",
+      "name": "Kris of Unspoken Names",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8710/kris-of-unspoken-names",
+      "primary": {
+        "6": 0,
+        "7": 256,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8711",
+      "name": "Blade of Eternal Justice",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8711/blade-of-eternal-justice",
+      "primary": {
+        "6": 4294967373,
+        "7": 2,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8712",
+      "name": "Scythe of the Unseen Path",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8712/scythe-of-the-unseen-path",
+      "primary": {
+        "6": 0,
+        "7": 4,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8719",
+      "name": "Bladesing the Elder",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8719/bladesing-the-elder",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8731",
+      "name": "Field Duty",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8731/field-duty",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8732",
+      "name": "Field Duty Papers",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8732/field-duty-papers",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": 8731
+      }
+    },
+    {
+      "id": "8737",
+      "name": "Azure Templar",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8737/azure-templar",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8738",
+      "name": "Hive'Regal Scout Report",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8738/hiveregal-scout-report",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8739",
+      "name": "Hive'Ashi Scout Report",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8739/hiveashi-scout-report",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8740",
+      "name": "Twilight Marauders",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8740/twilight-marauders",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8742",
+      "name": "The Might of Kalimdor",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8742/the-might-of-kalimdor",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": {
+          "1": 8729,
+          "2": 8730,
+          "3": 8741
+        },
+        "13": null,
+        "18": null,
+        "19": {
+          "1": 910,
+          "2": 0
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8743",
+      "name": "Bang a Gong!",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8743/bang-a-gong",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8742
+        },
+        "18": null,
+        "19": {
+          "1": 910,
+          "2": 0
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8745",
+      "name": "Treasure of the Timeless One",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8745/treasure-of-the-timeless-one",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8742
+        },
+        "18": null,
+        "19": {
+          "1": 910,
+          "2": 0
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "8770",
+      "name": "Target: Hive'Ashi Defenders",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8770/target-hiveashi-defenders",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8771",
+      "name": "Target: Hive'Ashi Sandstalkers",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8771/target-hiveashi-sandstalkers",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8772",
+      "name": "Target: Hive'Zora Waywatchers",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8772/target-hivezora-waywatchers",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8773",
+      "name": "Target: Hive'Zora Reavers",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8773/target-hivezora-reavers",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8774",
+      "name": "Target: Hive'Regal Ambushers",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8774/target-hiveregal-ambushers",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8775",
+      "name": "Target: Hive'Regal Spitfires",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8775/target-hiveregal-spitfires",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8776",
+      "name": "Target: Hive'Regal Slavemakers",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8776/target-hiveregal-slavemakers",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8777",
+      "name": "Target: Hive'Regal Burrowers",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8777/target-hiveregal-burrowers",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8778",
+      "name": "The Ironforge Brigade Needs Explosives!",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8778/the-ironforge-brigade-needs-explosives",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8779",
+      "name": "Scrying Materials",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8779/scrying-materials",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8780",
+      "name": "Armor Kits for the Field",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8780/armor-kits-for-the-field",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8781",
+      "name": "Arms for the Field",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8781/arms-for-the-field",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8782",
+      "name": "Uniform Supplies",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8782/uniform-supplies",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8783",
+      "name": "Extraordinary Materials",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8783/extraordinary-materials",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8785",
+      "name": "The Orgrimmar Legion Needs Mojo!",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8785/the-orgrimmar-legion-needs-mojo",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8786",
+      "name": "Arms for the Field",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8786/arms-for-the-field",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8787",
+      "name": "Armor Kits for the Field",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8787/armor-kits-for-the-field",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8791",
+      "name": "The Fall of Ossirian",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8791/the-fall-of-ossirian",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8800",
+      "name": "Cenarion Battlegear",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8800/cenarion-battlegear",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8804",
+      "name": "Desert Survival Kits",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8804/desert-survival-kits",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8805",
+      "name": "Boots for the Guard",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8805/boots-for-the-guard",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8806",
+      "name": "Grinding Stones for the Guard",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8806/grinding-stones-for-the-guard",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8807",
+      "name": "Scrying Materials",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8807/scrying-materials",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8808",
+      "name": "Uniform Supplies",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8808/uniform-supplies",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8809",
+      "name": "Extraordinary Materials",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8809/extraordinary-materials",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8810",
+      "name": "Bandages for the Field",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/8810/bandages-for-the-field",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8829",
+      "name": "The Ultimate Deception",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8829/the-ultimate-deception",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8856",
+      "name": "Desert Survival Kits",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Unassigned older Desert Survival Kits variant: no starter, level 0, and objective/required items conflict; use Alliance 8497",
+      "reference": "https://foreverchanges.pro/quest/8856/desert-survival-kits",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8857",
+      "name": "Secrets of the Colossus - Ashi",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8857/secrets-of-the-colossus-ashi",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8858",
+      "name": "Secrets of the Colossus - Regal",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8858/secrets-of-the-colossus-regal",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8859",
+      "name": "Secrets of the Colossus - Zora",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8859/secrets-of-the-colossus-zora",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "8924",
+      "name": "Hunting for Ectoplasm",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/8924/hunting-for-ectoplasm",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 8921
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "9023",
+      "name": "The Perfect Poison",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/9023/the-perfect-poison",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "9248",
+      "name": "A Humble Offering",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/9248/a-humble-offering",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": {
+          "1": 609,
+          "2": 9000
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "9322",
+      "name": "Wild Fires in Kalimdor",
+      "indexes": [],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/9322/wild-fires-in-kalimdor",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "9338",
+      "name": "Allegiance to Cenarion Circle",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/9338/allegiance-to-cenarion-circle",
+      "primary": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "9415",
+      "name": "Report to Marshal Bluewall",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/9415/report-to-marshal-bluewall",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "9416",
+      "name": "Report to General Kirika",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/9416/report-to-general-kirika",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "9419",
+      "name": "Scouring the Desert",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "include",
+      "reason": "Eligible Silithus quest or direct introduction/handoff",
+      "reference": "https://foreverchanges.pro/quest/9419/scouring-the-desert",
+      "primary": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 9415
+        },
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "9422",
+      "name": "Scouring the Desert",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/9422/scouring-the-desert",
+      "primary": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "19": null,
+        "25": null
+      }
+    },
+    {
+      "id": "61547",
+      "name": "Bang a Gong!",
+      "indexes": [
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "API-index-only record: no usable starter, level, or eligibility data; not corroborated by current quest tooltips or primary addon records",
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/61547.html",
+      "primary": null
+    },
+    {
+      "id": "84155",
+      "name": "An Earnest Proposition",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/84155.html",
+      "primary": null
+    },
+    {
+      "id": "84156",
+      "name": "An Earnest Proposition",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/84156.html",
+      "primary": null
+    },
+    {
+      "id": "84157",
+      "name": "An Earnest Proposition",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/84157.html",
+      "primary": null
+    },
+    {
+      "id": "84158",
+      "name": "An Earnest Proposition",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/84158.html",
+      "primary": null
+    },
+    {
+      "id": "84159",
+      "name": "An Earnest Proposition",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/84159.html",
+      "primary": null
+    },
+    {
+      "id": "84160",
+      "name": "An Earnest Proposition",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/84160.html",
+      "primary": null
+    },
+    {
+      "id": "84161",
+      "name": "An Earnest Proposition",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/84161.html",
+      "primary": null
+    },
+    {
+      "id": "84162",
+      "name": "An Earnest Proposition",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/84162.html",
+      "primary": null
+    },
+    {
+      "id": "86449",
+      "name": "Treasure of the Timeless One",
+      "indexes": [
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "API-index-only record: no usable starter, level, or eligibility data; not corroborated by current quest tooltips or primary addon records",
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/86449.html",
+      "primary": null
+    },
+    {
+      "id": "86674",
+      "name": "The Perfect Poison",
+      "indexes": [
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "API-index-only record: no usable starter, level, or eligibility data; not corroborated by current quest tooltips or primary addon records",
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/86674.html",
+      "primary": null
+    },
+    {
+      "id": "86724",
+      "name": "Dust to Dust",
+      "indexes": [
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "API-index-only record: no usable starter, level, or eligibility data; not corroborated by current quest tooltips or primary addon records",
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/86724.html",
+      "primary": null
+    },
+    {
+      "id": "86725",
+      "name": "Dust to Dust",
+      "indexes": [
+        "legacy.html"
+      ],
+      "decision": "exclude",
+      "reason": "API-index-only record: no usable starter, level, or eligibility data; not corroborated by current quest tooltips or primary addon records",
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/86725.html",
+      "primary": null
+    },
+    {
+      "id": "97411",
+      "name": "An Earnest Proposition",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/97411/an-earnest-proposition",
+      "primary": null
+    },
+    {
+      "id": "98067",
+      "name": "Eyes of the Sentinels",
+      "indexes": [],
+      "decision": "exclude",
+      "reason": "Darnassus quest; Cenarion Hold depths here is a Darnassus objective, not the Silithus settlement",
+      "reference": "https://foreverchanges.pro/quest/98067/eyes-of-the-sentinels",
+      "primary": null
+    }
+  ],
+  "counts": {
+    "included": 116,
+    "indexedIncluded": 97,
+    "sharedIds": [
+      "8378",
+      "8693",
+      "8701",
+      "8709"
+    ],
+    "prerequisites": 50,
+    "earlierLinks": 2
+  },
+  "primarySources": [
+    "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua",
+    "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverNpcDB.lua",
+    "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverObjectDB.lua",
+    "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseQuest.lua",
+    "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/foreverQuestFixes.lua"
+  ],
+  "classicSnapshot": {
+    "released": "2026-11-13T13:34:58Z",
+    "sha256": "daa16e44b95a9d4a0d17b8f8e3a91cf0b4be1af7d9b3bfc8ac71707a02399f5f",
+    "url": "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+  },
+  "fetches": [
+    {
+      "file": "index.html",
+      "url": "https://foreverchanges.pro/quests/silithus",
+      "status": 200
+    },
+    {
+      "file": "secondary.html",
+      "url": "https://foreverdb.net/quests/silithus",
+      "status": 200
+    },
+    {
+      "file": "legacy.html",
+      "url": "https://legacyofwarcraft.com/db/forever/quests/silithus.html",
+      "status": 200
+    },
+    {
+      "file": "questie-latest.json",
+      "url": "https://api.github.com/repos/Questie/QuestieDB/commits?per_page=1",
+      "status": 200
+    },
+    {
+      "file": "foreverBaseQuest.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverBaseNpc.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseNpc.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverBaseObject.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseObject.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverQuestTraces.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverNpcTraces.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverObjectTraces.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverObjectTraces.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverQuestRelationTraces.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverQuestFixes.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/foreverQuestFixes.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverNPCFixes.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/foreverNPCFixes.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverObjectFixes.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/foreverObjectFixes.lua",
+      "status": 200
+    },
+    {
+      "file": "quest-1125.html",
+      "url": "https://foreverchanges.pro/quest/1125",
+      "status": 200
+    },
+    {
+      "file": "quest-1126.html",
+      "url": "https://foreverchanges.pro/quest/1126",
+      "status": 200
+    },
+    {
+      "file": "quest-6844.html",
+      "url": "https://foreverchanges.pro/quest/6844",
+      "status": 200
+    },
+    {
+      "file": "quest-8277.html",
+      "url": "https://foreverchanges.pro/quest/8277",
+      "status": 200
+    },
+    {
+      "file": "quest-8278.html",
+      "url": "https://foreverchanges.pro/quest/8278",
+      "status": 200
+    },
+    {
+      "file": "quest-8279.html",
+      "url": "https://foreverchanges.pro/quest/8279",
+      "status": 200
+    },
+    {
+      "file": "quest-8280.html",
+      "url": "https://foreverchanges.pro/quest/8280",
+      "status": 200
+    },
+    {
+      "file": "quest-8281.html",
+      "url": "https://foreverchanges.pro/quest/8281",
+      "status": 200
+    },
+    {
+      "file": "quest-8282.html",
+      "url": "https://foreverchanges.pro/quest/8282",
+      "status": 200
+    },
+    {
+      "file": "quest-8283.html",
+      "url": "https://foreverchanges.pro/quest/8283",
+      "status": 200
+    },
+    {
+      "file": "quest-8284.html",
+      "url": "https://foreverchanges.pro/quest/8284",
+      "status": 200
+    },
+    {
+      "file": "quest-8285.html",
+      "url": "https://foreverchanges.pro/quest/8285",
+      "status": 200
+    },
+    {
+      "file": "quest-8286.html",
+      "url": "https://foreverchanges.pro/quest/8286",
+      "status": 200
+    },
+    {
+      "file": "quest-8287.html",
+      "url": "https://foreverchanges.pro/quest/8287",
+      "status": 200
+    },
+    {
+      "file": "quest-8301.html",
+      "url": "https://foreverchanges.pro/quest/8301",
+      "status": 200
+    },
+    {
+      "file": "quest-8302.html",
+      "url": "https://foreverchanges.pro/quest/8302",
+      "status": 200
+    },
+    {
+      "file": "quest-8303.html",
+      "url": "https://foreverchanges.pro/quest/8303",
+      "status": 200
+    },
+    {
+      "file": "quest-8304.html",
+      "url": "https://foreverchanges.pro/quest/8304",
+      "status": 200
+    },
+    {
+      "file": "quest-8305.html",
+      "url": "https://foreverchanges.pro/quest/8305",
+      "status": 200
+    },
+    {
+      "file": "quest-8306.html",
+      "url": "https://foreverchanges.pro/quest/8306",
+      "status": 200
+    },
+    {
+      "file": "quest-8308.html",
+      "url": "https://foreverchanges.pro/quest/8308",
+      "status": 200
+    },
+    {
+      "file": "quest-8309.html",
+      "url": "https://foreverchanges.pro/quest/8309",
+      "status": 200
+    },
+    {
+      "file": "quest-8310.html",
+      "url": "https://foreverchanges.pro/quest/8310",
+      "status": 200
+    },
+    {
+      "file": "quest-8314.html",
+      "url": "https://foreverchanges.pro/quest/8314",
+      "status": 200
+    },
+    {
+      "file": "quest-8315.html",
+      "url": "https://foreverchanges.pro/quest/8315",
+      "status": 200
+    },
+    {
+      "file": "quest-8316.html",
+      "url": "https://foreverchanges.pro/quest/8316",
+      "status": 200
+    },
+    {
+      "file": "quest-8318.html",
+      "url": "https://foreverchanges.pro/quest/8318",
+      "status": 200
+    },
+    {
+      "file": "quest-8319.html",
+      "url": "https://foreverchanges.pro/quest/8319",
+      "status": 200
+    },
+    {
+      "file": "quest-8320.html",
+      "url": "https://foreverchanges.pro/quest/8320",
+      "status": 200
+    },
+    {
+      "file": "quest-8321.html",
+      "url": "https://foreverchanges.pro/quest/8321",
+      "status": 200
+    },
+    {
+      "file": "quest-8323.html",
+      "url": "https://foreverchanges.pro/quest/8323",
+      "status": 200
+    },
+    {
+      "file": "quest-8324.html",
+      "url": "https://foreverchanges.pro/quest/8324",
+      "status": 200
+    },
+    {
+      "file": "quest-8331.html",
+      "url": "https://foreverchanges.pro/quest/8331",
+      "status": 200
+    },
+    {
+      "file": "quest-8332.html",
+      "url": "https://foreverchanges.pro/quest/8332",
+      "status": 200
+    },
+    {
+      "file": "quest-8333.html",
+      "url": "https://foreverchanges.pro/quest/8333",
+      "status": 200
+    },
+    {
+      "file": "quest-8341.html",
+      "url": "https://foreverchanges.pro/quest/8341",
+      "status": 200
+    },
+    {
+      "file": "quest-8342.html",
+      "url": "https://foreverchanges.pro/quest/8342",
+      "status": 200
+    },
+    {
+      "file": "quest-8343.html",
+      "url": "https://foreverchanges.pro/quest/8343",
+      "status": 200
+    },
+    {
+      "file": "quest-8348.html",
+      "url": "https://foreverchanges.pro/quest/8348",
+      "status": 200
+    },
+    {
+      "file": "quest-8349.html",
+      "url": "https://foreverchanges.pro/quest/8349",
+      "status": 200
+    },
+    {
+      "file": "quest-8351.html",
+      "url": "https://foreverchanges.pro/quest/8351",
+      "status": 200
+    },
+    {
+      "file": "quest-8352.html",
+      "url": "https://foreverchanges.pro/quest/8352",
+      "status": 200
+    },
+    {
+      "file": "quest-8361.html",
+      "url": "https://foreverchanges.pro/quest/8361",
+      "status": 200
+    },
+    {
+      "file": "quest-8362.html",
+      "url": "https://foreverchanges.pro/quest/8362",
+      "status": 200
+    },
+    {
+      "file": "quest-8363.html",
+      "url": "https://foreverchanges.pro/quest/8363",
+      "status": 200
+    },
+    {
+      "file": "quest-8364.html",
+      "url": "https://foreverchanges.pro/quest/8364",
+      "status": 200
+    },
+    {
+      "file": "quest-8376.html",
+      "url": "https://foreverchanges.pro/quest/8376",
+      "status": 200
+    },
+    {
+      "file": "quest-8377.html",
+      "url": "https://foreverchanges.pro/quest/8377",
+      "status": 200
+    },
+    {
+      "file": "quest-8378.html",
+      "url": "https://foreverchanges.pro/quest/8378",
+      "status": 200
+    },
+    {
+      "file": "quest-8379.html",
+      "url": "https://foreverchanges.pro/quest/8379",
+      "status": 200
+    },
+    {
+      "file": "quest-8380.html",
+      "url": "https://foreverchanges.pro/quest/8380",
+      "status": 200
+    },
+    {
+      "file": "quest-8381.html",
+      "url": "https://foreverchanges.pro/quest/8381",
+      "status": 200
+    },
+    {
+      "file": "quest-8382.html",
+      "url": "https://foreverchanges.pro/quest/8382",
+      "status": 200
+    },
+    {
+      "file": "quest-8496.html",
+      "url": "https://foreverchanges.pro/quest/8496",
+      "status": 200
+    },
+    {
+      "file": "quest-8497.html",
+      "url": "https://foreverchanges.pro/quest/8497",
+      "status": 200
+    },
+    {
+      "file": "quest-8498.html",
+      "url": "https://foreverchanges.pro/quest/8498",
+      "status": 200
+    },
+    {
+      "file": "quest-8501.html",
+      "url": "https://foreverchanges.pro/quest/8501",
+      "status": 200
+    },
+    {
+      "file": "quest-8502.html",
+      "url": "https://foreverchanges.pro/quest/8502",
+      "status": 200
+    },
+    {
+      "file": "quest-8507.html",
+      "url": "https://foreverchanges.pro/quest/8507",
+      "status": 200
+    },
+    {
+      "file": "quest-8508.html",
+      "url": "https://foreverchanges.pro/quest/8508",
+      "status": 200
+    },
+    {
+      "file": "quest-8519.html",
+      "url": "https://foreverchanges.pro/quest/8519",
+      "status": 200
+    },
+    {
+      "file": "quest-8534.html",
+      "url": "https://foreverchanges.pro/quest/8534",
+      "status": 200
+    },
+    {
+      "file": "quest-8535.html",
+      "url": "https://foreverchanges.pro/quest/8535",
+      "status": 200
+    },
+    {
+      "file": "quest-8536.html",
+      "url": "https://foreverchanges.pro/quest/8536",
+      "status": 200
+    },
+    {
+      "file": "quest-8537.html",
+      "url": "https://foreverchanges.pro/quest/8537",
+      "status": 200
+    },
+    {
+      "file": "quest-8538.html",
+      "url": "https://foreverchanges.pro/quest/8538",
+      "status": 200
+    },
+    {
+      "file": "quest-8539.html",
+      "url": "https://foreverchanges.pro/quest/8539",
+      "status": 200
+    },
+    {
+      "file": "quest-8540.html",
+      "url": "https://foreverchanges.pro/quest/8540",
+      "status": 200
+    },
+    {
+      "file": "quest-8541.html",
+      "url": "https://foreverchanges.pro/quest/8541",
+      "status": 200
+    },
+    {
+      "file": "quest-8548.html",
+      "url": "https://foreverchanges.pro/quest/8548",
+      "status": 200
+    },
+    {
+      "file": "quest-8572.html",
+      "url": "https://foreverchanges.pro/quest/8572",
+      "status": 200
+    },
+    {
+      "file": "quest-8573.html",
+      "url": "https://foreverchanges.pro/quest/8573",
+      "status": 200
+    },
+    {
+      "file": "quest-8574.html",
+      "url": "https://foreverchanges.pro/quest/8574",
+      "status": 200
+    },
+    {
+      "file": "quest-8687.html",
+      "url": "https://foreverchanges.pro/quest/8687",
+      "status": 200
+    },
+    {
+      "file": "quest-8731.html",
+      "url": "https://foreverchanges.pro/quest/8731",
+      "status": 200
+    },
+    {
+      "file": "quest-8732.html",
+      "url": "https://foreverchanges.pro/quest/8732",
+      "status": 200
+    },
+    {
+      "file": "quest-8737.html",
+      "url": "https://foreverchanges.pro/quest/8737",
+      "status": 200
+    },
+    {
+      "file": "quest-8738.html",
+      "url": "https://foreverchanges.pro/quest/8738",
+      "status": 200
+    },
+    {
+      "file": "quest-8739.html",
+      "url": "https://foreverchanges.pro/quest/8739",
+      "status": 200
+    },
+    {
+      "file": "quest-8740.html",
+      "url": "https://foreverchanges.pro/quest/8740",
+      "status": 200
+    },
+    {
+      "file": "quest-8743.html",
+      "url": "https://foreverchanges.pro/quest/8743",
+      "status": 200
+    },
+    {
+      "file": "quest-8745.html",
+      "url": "https://foreverchanges.pro/quest/8745",
+      "status": 200
+    },
+    {
+      "file": "quest-8770.html",
+      "url": "https://foreverchanges.pro/quest/8770",
+      "status": 200
+    },
+    {
+      "file": "quest-8771.html",
+      "url": "https://foreverchanges.pro/quest/8771",
+      "status": 200
+    },
+    {
+      "file": "quest-8772.html",
+      "url": "https://foreverchanges.pro/quest/8772",
+      "status": 200
+    },
+    {
+      "file": "quest-8773.html",
+      "url": "https://foreverchanges.pro/quest/8773",
+      "status": 200
+    },
+    {
+      "file": "quest-8774.html",
+      "url": "https://foreverchanges.pro/quest/8774",
+      "status": 200
+    },
+    {
+      "file": "quest-8775.html",
+      "url": "https://foreverchanges.pro/quest/8775",
+      "status": 200
+    },
+    {
+      "file": "quest-8776.html",
+      "url": "https://foreverchanges.pro/quest/8776",
+      "status": 200
+    },
+    {
+      "file": "quest-8777.html",
+      "url": "https://foreverchanges.pro/quest/8777",
+      "status": 200
+    },
+    {
+      "file": "quest-8778.html",
+      "url": "https://foreverchanges.pro/quest/8778",
+      "status": 200
+    },
+    {
+      "file": "quest-8779.html",
+      "url": "https://foreverchanges.pro/quest/8779",
+      "status": 200
+    },
+    {
+      "file": "quest-8780.html",
+      "url": "https://foreverchanges.pro/quest/8780",
+      "status": 200
+    },
+    {
+      "file": "quest-8781.html",
+      "url": "https://foreverchanges.pro/quest/8781",
+      "status": 200
+    },
+    {
+      "file": "quest-8782.html",
+      "url": "https://foreverchanges.pro/quest/8782",
+      "status": 200
+    },
+    {
+      "file": "quest-8783.html",
+      "url": "https://foreverchanges.pro/quest/8783",
+      "status": 200
+    },
+    {
+      "file": "quest-8785.html",
+      "url": "https://foreverchanges.pro/quest/8785",
+      "status": 200
+    },
+    {
+      "file": "quest-8786.html",
+      "url": "https://foreverchanges.pro/quest/8786",
+      "status": 200
+    },
+    {
+      "file": "quest-8787.html",
+      "url": "https://foreverchanges.pro/quest/8787",
+      "status": 200
+    },
+    {
+      "file": "quest-8800.html",
+      "url": "https://foreverchanges.pro/quest/8800",
+      "status": 200
+    },
+    {
+      "file": "quest-8804.html",
+      "url": "https://foreverchanges.pro/quest/8804",
+      "status": 200
+    },
+    {
+      "file": "quest-8805.html",
+      "url": "https://foreverchanges.pro/quest/8805",
+      "status": 200
+    },
+    {
+      "file": "quest-8806.html",
+      "url": "https://foreverchanges.pro/quest/8806",
+      "status": 200
+    },
+    {
+      "file": "quest-8807.html",
+      "url": "https://foreverchanges.pro/quest/8807",
+      "status": 200
+    },
+    {
+      "file": "quest-8808.html",
+      "url": "https://foreverchanges.pro/quest/8808",
+      "status": 200
+    },
+    {
+      "file": "quest-8809.html",
+      "url": "https://foreverchanges.pro/quest/8809",
+      "status": 200
+    },
+    {
+      "file": "quest-8810.html",
+      "url": "https://foreverchanges.pro/quest/8810",
+      "status": 200
+    },
+    {
+      "file": "quest-8829.html",
+      "url": "https://foreverchanges.pro/quest/8829",
+      "status": 200
+    },
+    {
+      "file": "quest-8856.html",
+      "url": "https://foreverchanges.pro/quest/8856",
+      "status": 200
+    },
+    {
+      "file": "quest-8857.html",
+      "url": "https://foreverchanges.pro/quest/8857",
+      "status": 200
+    },
+    {
+      "file": "quest-8858.html",
+      "url": "https://foreverchanges.pro/quest/8858",
+      "status": 200
+    },
+    {
+      "file": "quest-8859.html",
+      "url": "https://foreverchanges.pro/quest/8859",
+      "status": 200
+    },
+    {
+      "file": "quest-9023.html",
+      "url": "https://foreverchanges.pro/quest/9023",
+      "status": 200
+    },
+    {
+      "file": "quest-9248.html",
+      "url": "https://foreverchanges.pro/quest/9248",
+      "status": 200
+    },
+    {
+      "file": "quest-9338.html",
+      "url": "https://foreverchanges.pro/quest/9338",
+      "status": 200
+    },
+    {
+      "file": "quest-9415.html",
+      "url": "https://foreverchanges.pro/quest/9415",
+      "status": 200
+    },
+    {
+      "file": "quest-9416.html",
+      "url": "https://foreverchanges.pro/quest/9416",
+      "status": 200
+    },
+    {
+      "file": "quest-9419.html",
+      "url": "https://foreverchanges.pro/quest/9419",
+      "status": 200
+    },
+    {
+      "file": "quest-9422.html",
+      "url": "https://foreverchanges.pro/quest/9422",
+      "status": 200
+    },
+    {
+      "file": "quest-61547.html",
+      "url": "https://foreverchanges.pro/quest/61547",
+      "status": 404
+    },
+    {
+      "file": "quest-86449.html",
+      "url": "https://foreverchanges.pro/quest/86449",
+      "status": 404
+    },
+    {
+      "file": "quest-86674.html",
+      "url": "https://foreverchanges.pro/quest/86674",
+      "status": 404
+    },
+    {
+      "file": "quest-86724.html",
+      "url": "https://foreverchanges.pro/quest/86724",
+      "status": 404
+    },
+    {
+      "file": "quest-86725.html",
+      "url": "https://foreverchanges.pro/quest/86725",
+      "status": 404
+    },
+    {
+      "file": "quest-1124.html",
+      "url": "https://foreverchanges.pro/quest/1124",
+      "status": 200
+    },
+    {
+      "file": "quest-7786.html",
+      "url": "https://foreverchanges.pro/quest/7786",
+      "status": 200
+    },
+    {
+      "file": "quest-8288.html",
+      "url": "https://foreverchanges.pro/quest/8288",
+      "status": 200
+    },
+    {
+      "file": "quest-8307.html",
+      "url": "https://foreverchanges.pro/quest/8307",
+      "status": 200
+    },
+    {
+      "file": "quest-8317.html",
+      "url": "https://foreverchanges.pro/quest/8317",
+      "status": 200
+    },
+    {
+      "file": "quest-8556.html",
+      "url": "https://foreverchanges.pro/quest/8556",
+      "status": 200
+    },
+    {
+      "file": "quest-8557.html",
+      "url": "https://foreverchanges.pro/quest/8557",
+      "status": 200
+    },
+    {
+      "file": "quest-8558.html",
+      "url": "https://foreverchanges.pro/quest/8558",
+      "status": 200
+    },
+    {
+      "file": "quest-8654.html",
+      "url": "https://foreverchanges.pro/quest/8654",
+      "status": 200
+    },
+    {
+      "file": "quest-8689.html",
+      "url": "https://foreverchanges.pro/quest/8689",
+      "status": 200
+    },
+    {
+      "file": "quest-8690.html",
+      "url": "https://foreverchanges.pro/quest/8690",
+      "status": 200
+    },
+    {
+      "file": "quest-8691.html",
+      "url": "https://foreverchanges.pro/quest/8691",
+      "status": 200
+    },
+    {
+      "file": "quest-8692.html",
+      "url": "https://foreverchanges.pro/quest/8692",
+      "status": 200
+    },
+    {
+      "file": "quest-8693.html",
+      "url": "https://foreverchanges.pro/quest/8693",
+      "status": 200
+    },
+    {
+      "file": "quest-8694.html",
+      "url": "https://foreverchanges.pro/quest/8694",
+      "status": 200
+    },
+    {
+      "file": "quest-8695.html",
+      "url": "https://foreverchanges.pro/quest/8695",
+      "status": 200
+    },
+    {
+      "file": "quest-8696.html",
+      "url": "https://foreverchanges.pro/quest/8696",
+      "status": 200
+    },
+    {
+      "file": "quest-8697.html",
+      "url": "https://foreverchanges.pro/quest/8697",
+      "status": 200
+    },
+    {
+      "file": "quest-8698.html",
+      "url": "https://foreverchanges.pro/quest/8698",
+      "status": 200
+    },
+    {
+      "file": "quest-8699.html",
+      "url": "https://foreverchanges.pro/quest/8699",
+      "status": 200
+    },
+    {
+      "file": "quest-8700.html",
+      "url": "https://foreverchanges.pro/quest/8700",
+      "status": 200
+    },
+    {
+      "file": "quest-8701.html",
+      "url": "https://foreverchanges.pro/quest/8701",
+      "status": 200
+    },
+    {
+      "file": "quest-8702.html",
+      "url": "https://foreverchanges.pro/quest/8702",
+      "status": 200
+    },
+    {
+      "file": "quest-8703.html",
+      "url": "https://foreverchanges.pro/quest/8703",
+      "status": 200
+    },
+    {
+      "file": "quest-8704.html",
+      "url": "https://foreverchanges.pro/quest/8704",
+      "status": 200
+    },
+    {
+      "file": "quest-8705.html",
+      "url": "https://foreverchanges.pro/quest/8705",
+      "status": 200
+    },
+    {
+      "file": "quest-8706.html",
+      "url": "https://foreverchanges.pro/quest/8706",
+      "status": 200
+    },
+    {
+      "file": "quest-8707.html",
+      "url": "https://foreverchanges.pro/quest/8707",
+      "status": 200
+    },
+    {
+      "file": "quest-8708.html",
+      "url": "https://foreverchanges.pro/quest/8708",
+      "status": 200
+    },
+    {
+      "file": "quest-8709.html",
+      "url": "https://foreverchanges.pro/quest/8709",
+      "status": 200
+    },
+    {
+      "file": "quest-8710.html",
+      "url": "https://foreverchanges.pro/quest/8710",
+      "status": 200
+    },
+    {
+      "file": "quest-8711.html",
+      "url": "https://foreverchanges.pro/quest/8711",
+      "status": 200
+    },
+    {
+      "file": "quest-8712.html",
+      "url": "https://foreverchanges.pro/quest/8712",
+      "status": 200
+    },
+    {
+      "file": "quest-8719.html",
+      "url": "https://foreverchanges.pro/quest/8719",
+      "status": 200
+    },
+    {
+      "file": "quest-8742.html",
+      "url": "https://foreverchanges.pro/quest/8742",
+      "status": 200
+    },
+    {
+      "file": "quest-61547.html",
+      "url": "https://foreverchanges.pro/quest/61547",
+      "status": 404
+    },
+    {
+      "file": "quest-84155.html",
+      "url": "https://foreverchanges.pro/quest/84155",
+      "status": 404
+    },
+    {
+      "file": "quest-84156.html",
+      "url": "https://foreverchanges.pro/quest/84156",
+      "status": 404
+    },
+    {
+      "file": "quest-84157.html",
+      "url": "https://foreverchanges.pro/quest/84157",
+      "status": 404
+    },
+    {
+      "file": "quest-84158.html",
+      "url": "https://foreverchanges.pro/quest/84158",
+      "status": 404
+    },
+    {
+      "file": "quest-84159.html",
+      "url": "https://foreverchanges.pro/quest/84159",
+      "status": 404
+    },
+    {
+      "file": "quest-84160.html",
+      "url": "https://foreverchanges.pro/quest/84160",
+      "status": 404
+    },
+    {
+      "file": "quest-84161.html",
+      "url": "https://foreverchanges.pro/quest/84161",
+      "status": 404
+    },
+    {
+      "file": "quest-84162.html",
+      "url": "https://foreverchanges.pro/quest/84162",
+      "status": 404
+    },
+    {
+      "file": "quest-86449.html",
+      "url": "https://foreverchanges.pro/quest/86449",
+      "status": 404
+    },
+    {
+      "file": "quest-86674.html",
+      "url": "https://foreverchanges.pro/quest/86674",
+      "status": 404
+    },
+    {
+      "file": "quest-86724.html",
+      "url": "https://foreverchanges.pro/quest/86724",
+      "status": 404
+    },
+    {
+      "file": "quest-86725.html",
+      "url": "https://foreverchanges.pro/quest/86725",
+      "status": 404
+    },
+    {
+      "file": "quest-97411.html",
+      "url": "https://foreverchanges.pro/quest/97411",
+      "status": 200
+    },
+    {
+      "file": "quest-98067.html",
+      "url": "https://foreverchanges.pro/quest/98067",
+      "status": 200
+    },
+    {
+      "file": "tooltip-61547.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/61547",
+      "status": 404
+    },
+    {
+      "file": "tooltip-86449.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/86449",
+      "status": 404
+    },
+    {
+      "file": "tooltip-86674.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/86674",
+      "status": 404
+    },
+    {
+      "file": "tooltip-86724.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/86724",
+      "status": 404
+    },
+    {
+      "file": "tooltip-86725.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/86725",
+      "status": 404
+    },
+    {
+      "file": "tooltip-8856.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/8856",
+      "status": 200
+    },
+    {
+      "file": "legacy-61547.html",
+      "url": "https://legacyofwarcraft.com/db/forever/quest/61547.html",
+      "status": 200
+    },
+    {
+      "file": "legacy-86449.html",
+      "url": "https://legacyofwarcraft.com/db/forever/quest/86449.html",
+      "status": 200
+    },
+    {
+      "file": "legacy-86674.html",
+      "url": "https://legacyofwarcraft.com/db/forever/quest/86674.html",
+      "status": 200
+    },
+    {
+      "file": "legacy-86724.html",
+      "url": "https://legacyofwarcraft.com/db/forever/quest/86724.html",
+      "status": 200
+    },
+    {
+      "file": "legacy-86725.html",
+      "url": "https://legacyofwarcraft.com/db/forever/quest/86725.html",
+      "status": 200
+    },
+    {
+      "file": "quest-8275.html",
+      "url": "https://foreverchanges.pro/quest/8275",
+      "status": 200
+    },
+    {
+      "file": "quest-8276.html",
+      "url": "https://foreverchanges.pro/quest/8276",
+      "status": 200
+    },
+    {
+      "file": "quest-7785.html",
+      "url": "https://foreverchanges.pro/quest/7785",
+      "status": 200
+    },
+    {
+      "file": "quest-7787.html",
+      "url": "https://foreverchanges.pro/quest/7787",
+      "status": 200
+    },
+    {
+      "file": "quest-5527.html",
+      "url": "https://foreverchanges.pro/quest/5527",
+      "status": 200
+    },
+    {
+      "file": "quest-8791.html",
+      "url": "https://foreverchanges.pro/quest/8791",
+      "status": 200
+    },
+    {
+      "file": "quest-8924.html",
+      "url": "https://foreverchanges.pro/quest/8924",
+      "status": 200
+    },
+    {
+      "file": "quest-9322.html",
+      "url": "https://foreverchanges.pro/quest/9322",
+      "status": 200
+    },
+    {
+      "file": "foreverQuestDB.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverNpcDB.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverNpcDB.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverObjectDB.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverObjectDB.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverNpcDB.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverNpcDB.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverObjectDB.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverObjectDB.lua",
+      "status": 200
+    },
+    {
+      "file": "quest-8313.html",
+      "url": "https://foreverchanges.pro/quest/8313",
+      "status": 200
+    }
+  ]
+}

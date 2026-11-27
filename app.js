@@ -4,7 +4,7 @@ const $ = selector => document.querySelector(selector);
 const state = { quests: [], forwardLinks: new Map(), completed: new Set(), expanded: new Set(), zone: 'Teldrassil', view: 'quests', section: 'quests', profession: 'Fishing', storageReady: false, loaded: false };
 const rows = $('#quests');
 const classLists = ['Rogue'];
-const zones = ['Teldrassil', 'Darkshore', 'Ashenvale', 'Stonetalon Mountains', 'Desolace', "Shen'dralas", 'Feralas', 'Stranglethorn Vale', 'Felwood', 'Azshara', 'Riverglades', 'Winterspring', 'Mount Hyjal', 'Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Razorfen Downs', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'Scarlet Monastery Cathedral', 'The Drowned City', "Krol'dok Stronghold", 'Uldaman', 'Maraudon', "Zul'Farrak", 'Alcaz Prison', 'Sunken Temple', 'Blackrock Depths'];
+const zones = ['Teldrassil', 'Darkshore', 'Ashenvale', 'Stonetalon Mountains', 'Desolace', "Shen'dralas", 'Feralas', 'Stranglethorn Vale', 'Felwood', 'Azshara', 'Riverglades', 'Winterspring', 'Mount Hyjal', 'Silithus', 'Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Razorfen Downs', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'Scarlet Monastery Cathedral', 'The Drowned City', "Krol'dok Stronghold", 'Uldaman', 'Maraudon', "Zul'Farrak", 'Alcaz Prison', 'Sunken Temple', 'Blackrock Depths'];
 // Suggested leveling bands; keep the underlying names stable for routes and saves.
 const suggestedLevels = {
   'Teldrassil': [1, 10],
@@ -20,6 +20,7 @@ const suggestedLevels = {
   'Riverglades': [38, 44],
   'Winterspring': [55, 60],
   'Mount Hyjal': [55, 60],
+  'Silithus': [55, 60],
   'Deadmines': [17, 26],
   'Wailing Caverns': [17, 24],
   'Blackfathom Deeps': [24, 32],

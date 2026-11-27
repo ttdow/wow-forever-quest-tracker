@@ -45937,5 +45937,3713 @@
     },
     "prerequisites": [],
     "previousQuests": []
+  },
+  {
+    "id": "1124",
+    "zone": "Silithus",
+    "level": 55,
+    "name": "Wasteland",
+    "stage": "min. level 54",
+    "giver": "Rabine Saturna",
+    "coordinates": "51.7, 45.1",
+    "area": "Nighthaven (Moonglade)",
+    "objective": "Speak with Layo Starstrike near the Valor's Rest graveyard of Silithus, showing him Rabine's Letter.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54",
+    "sources": [
+      "https://foreverchanges.pro/quest/1124/wasteland",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "6762",
+        "name": "Rabine Saturna",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1125",
+    "zone": "Silithus",
+    "level": 55,
+    "name": "The Spirits of Southwind",
+    "stage": "min. level 54",
+    "giver": "Layo Starstrike",
+    "coordinates": "81.9, 18.9",
+    "area": "Valor's Rest (Silithus)",
+    "objective": "Free the spirits of 8 Tortured Druids and 8 Tortured Sentinels in Southwind Village, and then return to Layo Starstrike at the Valor's Rest graveyard of Silithus.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54",
+    "sources": [
+      "https://foreverchanges.pro/quest/1125/the-spirits-of-southwind",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "1124",
+        "name": "Wasteland",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1126",
+    "zone": "Silithus",
+    "level": 57,
+    "name": "Hive in the Tower",
+    "stage": "min. level 54",
+    "giver": "Layo Starstrike",
+    "coordinates": "81.9, 18.9",
+    "area": "Valor's Rest (Silithus)",
+    "objective": "Scale the tower of Southwind Village and locate a means to stir the silithid hive into activity. Bring back anything unusual you may uncover when doing so to Layo Starstrike at the Valor's Rest graveyard of Silithus.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54",
+    "sources": [
+      "https://foreverchanges.pro/quest/1126/hive-in-the-tower",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "1125",
+        "name": "The Spirits of Southwind",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5527",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "A Reliquary of Purity",
+    "stage": "min. level 56",
+    "giver": "Rabine Saturna",
+    "coordinates": "51.7, 45.1",
+    "area": "Nighthaven (Moonglade)",
+    "objective": "Travel to Silithus and search for a Reliquary of Purity within the ruins of Southwind Village. If you are able to find it, return with it to Rabine Saturna in Nighthaven, Moonglade.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 56",
+    "sources": [
+      "https://foreverchanges.pro/quest/5527/a-reliquary-of-purity",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "6844",
+    "zone": "Silithus",
+    "level": 57,
+    "name": "Umber, Archivist",
+    "stage": "min. level 54",
+    "giver": "Layo Starstrike",
+    "coordinates": "81.9, 18.9",
+    "area": "Valor's Rest (Silithus)",
+    "objective": "Take the Encrusted Silithid Object to Umber - the Cenarion Circle's archivist - in the village of Nighthaven, Moonglade.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54",
+    "sources": [
+      "https://foreverchanges.pro/quest/6844/umber-archivist",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "1126",
+        "name": "Hive in the Tower",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "7785",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Examine the Vessel",
+    "stage": "Thunderfury · min. level 60 · Availability unverified · Classic reference",
+    "giver": "Vessel of Rebirth (item)",
+    "coordinates": "",
+    "area": "Silithus",
+    "objective": "Examine the Vessel of Rebirth and return it to Highlord Demitrian.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Legendary raid-material chain; Classic reference, current availability not independently confirmed",
+    "sources": [
+      "https://foreverchanges.pro/quest/7785/examine-the-vessel",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7786",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Thunderaan the Windseeker",
+    "stage": "Thunderfury · min. level 60 · Raid · Availability unverified · Classic reference",
+    "giver": "Highlord Demitrian",
+    "coordinates": "21.7, 8.6",
+    "area": "Crystal Vale (Silithus)",
+    "objective": "To free Thunderaan the Windseeker from his prison, you must present the right and left halves of the Bindings of the Windseeker, 10 bars of Elementium, and the Essence of the Firelord to Highlord Demitrian in Silithus.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Raid; Legendary raid-material chain; Classic reference, current availability not independently confirmed",
+    "sources": [
+      "https://foreverchanges.pro/quest/7786/thunderaan-the-windseeker",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "7785",
+        "name": "Examine the Vessel",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "7787",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Rise, Thunderfury!",
+    "stage": "Thunderfury · min. level 60 · Availability unverified · Classic reference",
+    "giver": "Dormant Wind Kissed Blade (item)",
+    "coordinates": "",
+    "area": "Silithus",
+    "objective": "Present the Dormant Wind Kissed Blade to Highlord Demitrian.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Legendary raid-material chain; Classic reference, current availability not independently confirmed",
+    "sources": [
+      "https://foreverchanges.pro/quest/7787/rise-thunderfury",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "7786",
+        "name": "Thunderaan the Windseeker",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8275",
+    "zone": "Silithus",
+    "level": 55,
+    "name": "Taking Back Silithus",
+    "stage": "min. level 54",
+    "giver": "Cenarion Emissary Jademoon",
+    "coordinates": "58.54, 47.32",
+    "area": "Ironforge",
+    "objective": "Talk to Windcaller Proudhorn at Cenarion Hold in Silithus.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 54; Uses Ironforge city coordinates; the public page projects this city NPC onto Dun Morogh",
+    "sources": [
+      "https://foreverchanges.pro/quest/8275/taking-back-silithus",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8277",
+    "zone": "Silithus",
+    "level": 55,
+    "name": "Deadly Desert Venom",
+    "stage": "min. level 54",
+    "giver": "Beetix Ficklespragg",
+    "coordinates": "51.6, 38.6",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Beetix Ficklespragg at Cenarion Hold in Silithus wants you to gather 8 Stonelash Scorpid Stingers and 8 Sand Skitterer Fangs. Return to her when you have completed the task.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54",
+    "sources": [
+      "https://foreverchanges.pro/quest/8277/deadly-desert-venom",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8278",
+    "zone": "Silithus",
+    "level": 57,
+    "name": "Noggle's Last Hope",
+    "stage": "min. level 54",
+    "giver": "Beetix Ficklespragg",
+    "coordinates": "51.6, 38.6",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Beetix Ficklespragg at Cenarion Hold in Silithus wants you to gather 3 Stonelash Pincer Stingers, 3 Stonelash Flayer Stingers and 3 Rock Stalker Fangs.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54",
+    "sources": [
+      "https://foreverchanges.pro/quest/8278/noggles-last-hope",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8277",
+        "name": "Deadly Desert Venom",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8279",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "The Twilight Lexicon",
+    "stage": "min. level 54",
+    "giver": "Hermit Ortell",
+    "coordinates": "67.2, 69.8",
+    "area": "Ortell's Hideout (Silithus)",
+    "objective": "Bring the three chapters of the Twilight Lexicon to Hermit Ortell in Silithus.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54",
+    "sources": [
+      "https://foreverchanges.pro/quest/8279/the-twilight-lexicon",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8285",
+        "name": "The Deserter",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8280",
+    "zone": "Silithus",
+    "level": 55,
+    "name": "Securing the Supply Lines",
+    "stage": "min. level 54",
+    "giver": "Windcaller Proudhorn",
+    "coordinates": "51.2, 38.3",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Windcaller Proudhorn at Cenarion Hold in Silithus wants you to kill 15 Dredge Strikers.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54; Taking Back Silithus is an optional introduction, not a mandatory completion requirement",
+    "sources": [
+      "https://foreverchanges.pro/quest/8280/securing-the-supply-lines",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "8275",
+        "name": "Taking Back Silithus",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8281",
+    "zone": "Silithus",
+    "level": 57,
+    "name": "Stepping Up Security",
+    "stage": "min. level 54",
+    "giver": "Windcaller Proudhorn",
+    "coordinates": "51.2, 38.3",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Windcaller Proudhorn at Cenarion Hold in Silithus wants you to slay 20 Dredge Crushers.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54",
+    "sources": [
+      "https://foreverchanges.pro/quest/8281/stepping-up-security",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8280",
+        "name": "Securing the Supply Lines",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8282",
+    "zone": "Silithus",
+    "level": 58,
+    "name": "Noggle's Lost Satchel",
+    "stage": "min. level 54",
+    "giver": "Noggle Ficklespragg",
+    "coordinates": "51.6, 38.5",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Retrieve Noggle's Satchel from the mountains in the south of Silithus and return it to him at Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54",
+    "sources": [
+      "https://foreverchanges.pro/quest/8282/noggles-lost-satchel",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8278",
+        "name": "Noggle's Last Hope",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8283",
+    "zone": "Silithus",
+    "level": 59,
+    "name": "Wanted - Deathclasp, Terror of the Sands",
+    "stage": "min. level 54 · Elite",
+    "giver": "Wanted Poster: Deathclasp",
+    "coordinates": "51.4, 38.3",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring Deathclasp's Pincer to Vish Kozus, Captain of the Guard.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8283/wanted-deathclasp-terror-of-the-sands",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8284",
+    "zone": "Silithus",
+    "level": 58,
+    "name": "The Twilight Mystery",
+    "stage": "min. level 54",
+    "giver": "Geologist Larksbane",
+    "coordinates": "49.7, 37.5",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Geologist Larksbane at Cenarion Hold in Silithus wants you to collect 8 Twilight Tablet Fragments.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54",
+    "sources": [
+      "https://foreverchanges.pro/quest/8284/the-twilight-mystery",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8285",
+    "zone": "Silithus",
+    "level": 59,
+    "name": "The Deserter",
+    "stage": "min. level 54",
+    "giver": "Geologist Larksbane",
+    "coordinates": "49.7, 37.5",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Take the restored tablet to Hermit Ortell in Silithus.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54",
+    "sources": [
+      "https://foreverchanges.pro/quest/8285/the-deserter",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8284",
+        "name": "The Twilight Mystery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8286",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "What Tomorrow Brings",
+    "stage": "Scepter of the Shifting Sands · min. level 60 · Ahn'Qiraj phase/event dependent",
+    "giver": "Baristolth of the Shifting Sands",
+    "coordinates": "49.5, 36.4",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Venture to the Caverns of Time in Tanaris and find Anachronos, Brood of Nozdormu.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression",
+    "sources": [
+      "https://foreverchanges.pro/quest/8286/what-tomorrow-brings",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8287",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "A Terrible Purpose",
+    "stage": "min. level 54",
+    "giver": "Hermit Ortell",
+    "coordinates": "67.2, 69.8",
+    "area": "Ortell's Hideout (Silithus)",
+    "objective": "Take the Decoded Tablet Parchment to Commander Mar'alith.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54",
+    "sources": [
+      "https://foreverchanges.pro/quest/8287/a-terrible-purpose",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8279",
+        "name": "The Twilight Lexicon",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8288",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Only One May Rise",
+    "stage": "Scepter of the Shifting Sands · min. level 60 · Raid · Ahn'Qiraj phase/event dependent",
+    "giver": "Baristolth of the Shifting Sands",
+    "coordinates": "49.5, 36.4",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Return the Head of the Broodlord Lashlayer to Baristolth of the Shifting Sands at Cenarion Hold in Silithus.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Raid; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression",
+    "sources": [
+      "https://foreverchanges.pro/quest/8288/only-one-may-rise",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8286",
+        "name": "What Tomorrow Brings",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8301",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "The Path of the Righteous",
+    "stage": "Scepter of the Shifting Sands · min. level 60 · Elite · Ahn'Qiraj phase/event dependent",
+    "giver": "Baristolth of the Shifting Sands",
+    "coordinates": "49.5, 36.4",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Collect 200 Silithid Carapace Fragments and return to Baristolth.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Elite; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression",
+    "sources": [
+      "https://foreverchanges.pro/quest/8301/the-path-of-the-righteous",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8288",
+        "name": "Only One May Rise",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8302",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "The Hand of the Righteous",
+    "stage": "Scepter of the Shifting Sands · min. level 60 · Repeatable · Elite · Ahn'Qiraj phase/event dependent",
+    "giver": "Baristolth of the Shifting Sands",
+    "coordinates": "49.5, 36.4",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Collect 200 Silithid Carapace Fragments and return to Baristolth.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Repeatable; Elite; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression",
+    "sources": [
+      "https://foreverchanges.pro/quest/8302/the-hand-of-the-righteous",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8301",
+        "name": "The Path of the Righteous",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8303",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Anachronos",
+    "stage": "Scepter of the Shifting Sands · min. level 60 · Ahn'Qiraj phase/event dependent · Requires Neutral with Brood of Nozdormu",
+    "giver": "Baristolth of the Shifting Sands",
+    "coordinates": "49.5, 36.4",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Seek out Anachronos at the Caverns of Time in Tanaris.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression; Requires Neutral with Brood of Nozdormu (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8303/anachronos",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8301",
+        "name": "The Path of the Righteous",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8304",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Dearest Natalia",
+    "stage": "min. level 58 · Elite",
+    "giver": "Commander Mar'alith",
+    "coordinates": "49.2, 34.2",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Commander Mar'alith at Cenarion Hold in Silithus wants you to question the inhabitants of Bronzebeard's Encampment. You will find Bronzebeard's Encampment south of Cenarion Hold. Once you have gathered the requested information, return to Commander Mar'alith.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 58; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8304/dearest-natalia",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8305",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Long Forgotten Memories",
+    "stage": "Scepter of the Shifting Sands · min. level 60 · Ahn'Qiraj phase/event dependent · Requires Neutral with Brood of Nozdormu",
+    "giver": "Anachronos",
+    "coordinates": "65.3, 50",
+    "area": "Caverns of Time (Tanaris)",
+    "objective": "Locate the Crystalline Tear in Silithus and gaze into its depths.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression; Requires Neutral with Brood of Nozdormu (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8305/long-forgotten-memories",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8303",
+        "name": "Anachronos",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8306",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Into The Maw of Madness",
+    "stage": "min. level 58 · Elite",
+    "giver": "Commander Mar'alith",
+    "coordinates": "49.2, 34.2",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Find Mistress Natalia Mar'alith in Hive'Regal and recover the proof requested by Commander Mar'alith. Return to him at Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 58; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8306/into-the-maw-of-madness",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges-objective-and-required-items",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8304",
+        "name": "Dearest Natalia",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8307",
+    "zone": "Silithus",
+    "level": 57,
+    "name": "Desert Recipe",
+    "stage": "Cooking 285 — Smoked Desert Dumplings · min. level 54",
+    "giver": "Calandrath",
+    "coordinates": "51.9, 39.2",
+    "area": "Cenarion Hold inn (Silithus)",
+    "objective": "Look for information about cooking Sandworm Meat at the Twilight's Hammer camp west of Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54; Requires Cooking 285",
+    "sources": [
+      "https://foreverchanges.pro/quest/8307/desert-recipe",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8308",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Brann Bronzebeard's Lost Letter",
+    "stage": "min. level 58 · Elite",
+    "giver": "Brann Bronzebeard's Lost Letter (item)",
+    "coordinates": "",
+    "area": "Silithus",
+    "objective": "Take Brann Bronzebeard's Letter to Bronzebeard's Encampment in southern Silithus.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 58; Item-started; no fixed item-drop coordinate is asserted; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8308/brann-bronzebeards-lost-letter",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8309",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Glyph Chasing",
+    "stage": "min. level 58 · Elite",
+    "giver": "Rutgar Glyphshaper",
+    "coordinates": "41.3, 88.5",
+    "area": "Bronzebeard's Encampment (Silithus)",
+    "objective": "Rutgar Glyphshaper at Bronzebeard's Encampment in Silithus wants you to venture to Hive'Ashi, Hive'Zora, and Hive'Regal and recover Glyphed Rubbings from the Glyphed Crystals of each hive. Use the Geologist's Transcription Kit to make a reasonable facsimile of the ancient glyphs. Return to Rutgar Glyphshaper when you complete this task.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 58; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8309/glyph-chasing",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8304",
+        "name": "Dearest Natalia",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8310",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Breaking the Code",
+    "stage": "min. level 58 · Elite",
+    "giver": "Frankal Stonebridge",
+    "coordinates": "40.8, 88.9",
+    "area": "Bronzebeard's Encampment (Silithus)",
+    "objective": "Frankal Stonebridge at Bronzebeard's Encampment in Silithus wants you to recover a Hive'Zora Silithid Brain, Hive'Ashi Silithid Brain, and a Hive'Regal Silithid Brain. Return to Frankal when you have completed this task.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 58; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8310/breaking-the-code",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8304",
+        "name": "Dearest Natalia",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8313",
+    "zone": "Silithus",
+    "level": 57,
+    "name": "Sharing the Knowledge",
+    "stage": "Cooking 285 — Smoked Desert Dumplings · min. level 54",
+    "giver": "Sandy Cookbook",
+    "coordinates": "37.9, 45.3",
+    "area": "Twilight's Hammer camp west of Cenarion Hold (Silithus)",
+    "objective": "Bring the Torn Recipe Page to Calandrath at the inn in Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54; Requires Cooking 285",
+    "sources": [
+      "https://foreverchanges.pro/quest/8313/sharing-the-knowledge",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8307",
+        "name": "Desert Recipe",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8314",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Unraveling the Mystery",
+    "stage": "min. level 58 · Elite",
+    "giver": "Rutgar Glyphshaper",
+    "coordinates": "41.3, 88.5",
+    "area": "Bronzebeard's Encampment (Silithus)",
+    "objective": "Rutgar Glyphshaper at Bronzebeard's Encampment wants you to deliver the Glyphed Crystal Prism to Geologist Larksbane at the Cenarion Hold in Silithus.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 58; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8314/unraveling-the-mystery",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8309",
+        "name": "Glyph Chasing",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "8310",
+        "name": "Breaking the Code",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8315",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "The Calling",
+    "stage": "min. level 58 · Elite , 2 players",
+    "giver": "Geologist Larksbane",
+    "coordinates": "49.7, 37.5",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Geologist Larksbane at Cenarion Hold in Silithus wants you to recover the Crystal Unlocking Mechanism from the Qiraji Emissary. You have been instructed to take the Glyphs of Calling to the Bones of Grakkarond, south of Cenarion Hold, and draw them in the sand. Should the Qiraji Emissary appear, slay it and recover the Crystal Unlocking Mechanism. Return to Geologist Larksbane if you succeed. Assemble an army for this task, ‹name›!",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 58; Elite , 2 players",
+    "sources": [
+      "https://foreverchanges.pro/quest/8315/the-calling",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8314",
+        "name": "Unraveling the Mystery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8317",
+    "zone": "Silithus",
+    "level": 57,
+    "name": "Kitchen Assistance",
+    "stage": "Cooking 285 — Smoked Desert Dumplings · min. level 54",
+    "giver": "Calandrath",
+    "coordinates": "51.9, 39.2",
+    "area": "Cenarion Hold inn (Silithus)",
+    "objective": "Calandrath at Cenarion Hold needs a batch of 10 Smoked Desert Dumplings.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54; Requires Cooking 285",
+    "sources": [
+      "https://foreverchanges.pro/quest/8317/kitchen-assistance",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8313",
+        "name": "Sharing the Knowledge",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8318",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Secret Communication",
+    "stage": "min. level 57",
+    "giver": "Bor Wildmane",
+    "coordinates": "48.6, 37.8",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring 10 Encrypted Twilight Texts to Bor Wildmane in Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 57",
+    "sources": [
+      "https://foreverchanges.pro/quest/8318/secret-communication",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8319",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Encrypted Twilight Texts",
+    "stage": "min. level 57 · Repeatable",
+    "giver": "Bor Wildmane",
+    "coordinates": "48.6, 37.8",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring 10 Encrypted Twilight Text to Bor Wildmane.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 57; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8319/encrypted-twilight-texts",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges-required-items",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8318",
+        "name": "Secret Communication",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8320",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Twilight Geolords",
+    "stage": "min. level 60",
+    "giver": "Huum Wildmane",
+    "coordinates": "48.6, 37.9",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Kill 10 Twilight Geolords, then return to Huum Wildmane in Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60",
+    "sources": [
+      "https://foreverchanges.pro/quest/8320/twilight-geolords",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8321",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Vyral the Vile",
+    "stage": "min. level 60",
+    "giver": "Huum Wildmane",
+    "coordinates": "48.6, 37.9",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring Vyral's Signet Ring to Huum Wildmane in Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60",
+    "sources": [
+      "https://foreverchanges.pro/quest/8321/vyral-the-vile",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8320",
+        "name": "Twilight Geolords",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8323",
+    "zone": "Silithus",
+    "level": 59,
+    "name": "True Believers",
+    "stage": "min. level 54",
+    "giver": "Hermit Ortell",
+    "coordinates": "67.2, 69.8",
+    "area": "Ortell's Hideout (Silithus)",
+    "objective": "Hermit Ortell wants you to bring him 10 Encrypted Twilight Texts",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54",
+    "sources": [
+      "https://foreverchanges.pro/quest/8323/true-believers",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8279",
+        "name": "The Twilight Lexicon",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8324",
+    "zone": "Silithus",
+    "level": 59,
+    "name": "Still Believing",
+    "stage": "min. level 54 · Repeatable",
+    "giver": "Hermit Ortell",
+    "coordinates": "67.2, 69.8",
+    "area": "Ortell's Hideout (Silithus)",
+    "objective": "Bring 10 Encrypted Twilight Text to Hermit Ortell.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 54; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8324/still-believing",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges-required-items",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8323",
+        "name": "True Believers",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8331",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Aurel Goldleaf",
+    "stage": "min. level 60 · Elite · Requires Friendly with Cenarion Circle",
+    "giver": "Huum Wildmane",
+    "coordinates": "48.6, 37.9",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Speak with Aurel Goldleaf in Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Elite; Requires Friendly with Cenarion Circle (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8331/aurel-goldleaf",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8332",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Dukes of the Council",
+    "stage": "min. level 60 · Elite · Requires Friendly with Cenarion Circle",
+    "giver": "Aurel Goldleaf",
+    "coordinates": "52, 38.2",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring 1 Large Brilliant Shard and 3 Abyssal Crests to Aurel Goldleaf in Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Elite; Requires Friendly with Cenarion Circle (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8332/dukes-of-the-council",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8331",
+        "name": "Aurel Goldleaf",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8333",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Medallion of Station",
+    "stage": "min. level 60 · Repeatable · Requires Friendly with Cenarion Circle",
+    "giver": "Aurel Goldleaf",
+    "coordinates": "52, 38.2",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring Large Brilliant Shard, 3 Abyssal Crest to Aurel Goldleaf.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Repeatable; Requires Friendly with Cenarion Circle (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8333/medallion-of-station",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges-required-items",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8332",
+        "name": "Dukes of the Council",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8341",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Lords of the Council",
+    "stage": "min. level 60 · Elite · Requires Revered with Cenarion Circle",
+    "giver": "Aurel Goldleaf",
+    "coordinates": "52, 38.2",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring 5 Large Brilliant Shards and 3 Abyssal Signets to Aurel Goldleaf in Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Elite; Requires Revered with Cenarion Circle (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8341/lords-of-the-council",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8343",
+        "name": "Goldleaf's Discovery",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8342",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Twilight Ring of Lordship",
+    "stage": "min. level 60 · Repeatable · Requires Revered with Cenarion Circle",
+    "giver": "Aurel Goldleaf",
+    "coordinates": "52, 38.2",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring 3 Abyssal Signet, 5 Large Brilliant Shard to Aurel Goldleaf.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Repeatable; Requires Revered with Cenarion Circle (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8342/twilight-ring-of-lordship",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges-required-items",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8341",
+        "name": "Lords of the Council",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8343",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Goldleaf's Discovery",
+    "stage": "min. level 60 · Requires Revered with Cenarion Circle",
+    "giver": "Huum Wildmane",
+    "coordinates": "48.6, 37.9",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Speak with Aurel Goldleaf in Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Requires Revered with Cenarion Circle (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8343/goldleafs-discovery",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8348",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Signet of the Dukes",
+    "stage": "min. level 60 · Elite , 2 players · Requires Friendly with Cenarion Circle",
+    "giver": "Bor Wildmane",
+    "coordinates": "48.6, 37.8",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring the Abyssal Signet to Bor Wildmane in Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Elite , 2 players; Requires Friendly with Cenarion Circle (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8348/signet-of-the-dukes",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8349",
+        "name": "Bor Wildmane",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8349",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Bor Wildmane",
+    "stage": "min. level 60 · Elite · Requires Friendly with Cenarion Circle",
+    "giver": "Aurel Goldleaf",
+    "coordinates": "52, 38.2",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Speak with Bor Wildmane in Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Elite; Requires Friendly with Cenarion Circle (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8349/bor-wildmane",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8332",
+        "name": "Dukes of the Council",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8351",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Bor Wishes to Speak",
+    "stage": "min. level 60 · Raid · Requires Revered with Cenarion Circle",
+    "giver": "Aurel Goldleaf",
+    "coordinates": "52, 38.2",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Speak with Bor Wildmane in Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Raid; Requires Revered with Cenarion Circle (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8351/bor-wishes-to-speak",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8341",
+        "name": "Lords of the Council",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8352",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Scepter of the Council",
+    "stage": "min. level 60 · Raid · Requires Revered with Cenarion Circle",
+    "giver": "Bor Wildmane",
+    "coordinates": "48.6, 37.8",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring an Abyssal Scepter to Bor Wildmane in Cenarion Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Raid; Requires Revered with Cenarion Circle (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8352/scepter-of-the-council",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8351",
+        "name": "Bor Wishes to Speak",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8361",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Abyssal Contacts",
+    "stage": "min. level 60 · Elite",
+    "giver": "Bor Wildmane",
+    "coordinates": "48.6, 37.8",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bor Wildmane at Cenarion Hold in Silithus wants you to destroy an Abyssal Templar and bring him an Abyssal Crest as proof of the deed.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8361/abyssal-contacts",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8362",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Abyssal Crests",
+    "stage": "min. level 60 · Repeatable · Elite",
+    "giver": "Bor Wildmane",
+    "coordinates": "48.6, 37.8",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring 3 Abyssal Crest to Bor Wildmane.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8362/abyssal-crests",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges-required-items",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8361",
+        "name": "Abyssal Contacts",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8363",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Abyssal Signets",
+    "stage": "min. level 60 · Repeatable · Elite , 2 players · Requires Honored with Cenarion Circle",
+    "giver": "Bor Wildmane",
+    "coordinates": "48.6, 37.8",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring 3 Abyssal Signet to Bor Wildmane.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Repeatable; Elite , 2 players; Requires Honored with Cenarion Circle (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8363/abyssal-signets",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges-required-items",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8348",
+        "name": "Signet of the Dukes",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8364",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Abyssal Scepters",
+    "stage": "min. level 60 · Repeatable · Raid · Requires Revered with Cenarion Circle",
+    "giver": "Bor Wildmane",
+    "coordinates": "48.6, 37.8",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring 3 Abyssal Scepter to Bor Wildmane.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Repeatable; Raid; Requires Revered with Cenarion Circle (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8364/abyssal-scepters",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges-required-items",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8352",
+        "name": "Scepter of the Council",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8378",
+    "giver": "Geologist Larksbane",
+    "area": "Cenarion Hold, Silithus",
+    "coordinates": "49.7, 37.5",
+    "zone": "Silithus",
+    "name": "Armaments of War",
+    "level": 60,
+    "stage": "Silithus armaments · min. level 58 · Availability unverified · Classic reference",
+    "faction": "Both",
+    "objective": "Speak to Geologist Larksbane at Cenarion Hold after The Calling to collect the Rogue armaments.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8378",
+      "https://www.wowhead.com/classic/quest=8378",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 58,
+    "prerequisites": [
+      {
+        "id": "8315",
+        "name": "The Calling",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://www.wowhead.com/forever/quest=8378",
+          "https://www.wowhead.com/classic/quest=8378"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8496",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Bandages for the Field",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable",
+    "giver": "Logistics Task Briefing X (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Bring 30 Heavy Runecloth Bandages, 30 Heavy Silk Bandages and 30 Heavy Mageweave Bandages to Windcaller Proudhorn at Cenarion Hold in Silithus. You must also bring Logistics Task Briefing X in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8496/bandages-for-the-field",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8497",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Desert Survival Kits",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable",
+    "giver": "Logistics Task Briefing I (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Bring 4 Globes of Water, 4 Powerful Anti-Venom and 4 Smoked Desert Dumplings to Calandrath at the inn in Cenarion Hold in Silithus. You must also bring Logistics Task Briefing I in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8497/desert-survival-kits",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8498",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Twilight Battle Orders",
+    "stage": "Field Duty assignment · min. level 60 · Elite",
+    "giver": "Tactical Task Briefing X (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Obtain the Twilight Battle Orders and bring them Commander Mar'alith at Cenarion Hold in Silithus. You must also bring Tactical Task Briefing X in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8498/twilight-battle-orders",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8501",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Target: Hive'Ashi Stingers",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Combat Task Briefing XII (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Kill 30 Hive'Ashi Stingers and report back to Commander Mar'alith at Cenarion Hold in Silithus. You must also bring Combat Task Briefing XII in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8501/target-hiveashi-stingers",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8502",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Target: Hive'Ashi Workers",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Combat Task Briefing III (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Slay 30 Hive'Ashi Workers and report back to Commander Mar'alith at Cenarion Hold in Silithus. You must also bring Combat Task Briefing III in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8502/target-hiveashi-workers",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8507",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Field Duty",
+    "stage": "min. level 60 · Repeatable · Elite",
+    "giver": "Windcaller Kaldon",
+    "coordinates": "50, 36.4",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Report for duty at the Ironforge Brigade post near Hive'Zora. Prepare your Unsigned Field Duty Papers and obtain Signed Field Duty Papers from Captain Blackanvil and return to Windcaller Kaldon at Cenarion Hold in Silithus. Note: Healing or casting beneficial spells on a member of the Ironforge Brigade will flag you for PvP.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 60; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8507/field-duty",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8508",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Field Duty Papers",
+    "stage": "min. level 60 · Repeatable",
+    "giver": "Captain Blackanvil",
+    "coordinates": "",
+    "area": "Ironforge Brigade post near Hive'Zora (Silithus)",
+    "objective": "Present Prepared Field Duty Papers to Captain Blackanvil at the Ironforge Brigade post after the Hive'Zora attack, while Field Duty is active.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 60; Repeatable; Requires Field Duty (8507) active and Prepared Field Duty Papers; this is not a requirement to have already completed Field Duty",
+    "sources": [
+      "https://foreverchanges.pro/quest/8508/field-duty-papers",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges-required-items",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "8507",
+        "name": "Field Duty",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ],
+        "relation": "Requires active quest"
+      }
+    ]
+  },
+  {
+    "id": "8519",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "A Pawn on the Eternal Board",
+    "stage": "Scepter of the Shifting Sands · min. level 60 · Ahn'Qiraj phase/event dependent · Requires Neutral with Brood of Nozdormu",
+    "giver": "Crystalline Tear",
+    "coordinates": "28.7, 89.1",
+    "area": "Scarab Wall (Silithus)",
+    "objective": "Learn all that you can of the past, then speak with Anachronos at the Caverns of Time in Tanaris.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression; Requires Neutral with Brood of Nozdormu (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8519/a-pawn-on-the-eternal-board",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8305",
+        "name": "Long Forgotten Memories",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8534",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Hive'Zora Scout Report",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Tactical Task Briefing VI (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Contact Cenarion Scout Azenel inside Hive'Zora and return the Hive'Zora Scout Report to Windcaller Proudhorn at Cenarion Hold. You must also bring Tactical Task Briefing VI in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8534/hivezora-scout-report",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8535",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Hoary Templar",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Tactical Task Briefing IV (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Summon and slay a Hoary Templar and report back to Bor Wildmane in Cenarion Hold. You must also bring Tactical Task Briefing IV in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8535/hoary-templar",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8536",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Earthen Templar",
+    "stage": "Field Duty assignment · min. level 60 · Elite",
+    "giver": "Tactical Task Briefing III (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Summon and slay an Earthen Templar and report back to Bor Wildmane in Cenarion Hold. You must also bring Tactical Task Briefing III in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8536/earthen-templar",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8537",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Crimson Templar",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Tactical Task Briefing II (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Summon and slay a Crimson Templar and report back to Bor Wildmane in Cenarion Hold. You must also bring Tactical Task Briefing II in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8537/crimson-templar",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8538",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "The Four Dukes",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite , 2 players",
+    "giver": "Tactical Task Briefing V (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Find a way to summon and slay the Duke of Cynders, the Duke of Fathoms, the Duke of Zephyrs and the Duke of Shards and report back to Commander Mar'alith in Cenarion Hold. You must also bring Tactical Task Briefing V in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite , 2 players",
+    "sources": [
+      "https://foreverchanges.pro/quest/8538/the-four-dukes",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8539",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Target: Hive'Zora Hive Sisters",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Combat Task Briefing V (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Slay 30 Hive'Zora Hive Sisters and report back to Commander Mar'alith at Cenarion Hold in Silithus. You must also bring Combat Task Briefing V in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8539/target-hivezora-hive-sisters",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8540",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Boots for the Guard",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable",
+    "giver": "Logistics Task Briefing II (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Bring 3 Ornate Mithril Boots to Vish Kozus, Captain of the Guard at Cenarion Hold in Silithus. You must also bring Logistics Task Briefing II in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8540/boots-for-the-guard",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8541",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Grinding Stones for the Guard",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable",
+    "giver": "Logistics Task Briefing III (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Bring 10 Dense Grinding Stones, 10 Solid Grinding Stones and 10 Heavy Grinding Stones to Vish Kozus, Captain of the Guard at Cenarion Hold in Silithus. You must also bring Logistics Task Briefing III in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8541/grinding-stones-for-the-guard",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8548",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Volunteer's Battlegear",
+    "stage": "min. level 60 · Repeatable",
+    "giver": "Vargus",
+    "coordinates": "51.2, 38.9",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring 5 Cenarion Combat Badges, 3 Cenarion Logistics Badges and 7 Cenarion Tactical Badges to Vargus at Cenarion Hold in Silithus. You must also attain Friendly reputation with Cenarion Circle to be able to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8548/volunteers-battlegear",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8572",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Veteran's Battlegear",
+    "stage": "min. level 60 · Repeatable",
+    "giver": "Vargus",
+    "coordinates": "51.2, 38.9",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring 7 Cenarion Combat Badges, 4 Cenarion Logistics Badges and 4 Cenarion Tactical Badges to Vargus at Cenarion Hold in Silithus. You must also attain Honored reputation with Cenarion Circle to be able to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8572/veterans-battlegear",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8573",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Champion's Battlegear",
+    "stage": "min. level 60 · Repeatable",
+    "giver": "Vargus",
+    "coordinates": "51.2, 38.9",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring 15 Cenarion Combat Badges, 20 Cenarion Logistics Badges, 20 Cenarion Tactical Badges and 1 Mark of Cenarius to Vargus at Cenarion Hold in Silithus. You must also attain Exalted reputation with Cenarion Circle to be able to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8573/champions-battlegear",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8574",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Stalwart's Battlegear",
+    "stage": "min. level 60 · Repeatable",
+    "giver": "Vargus",
+    "coordinates": "51.2, 38.9",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring 15 Cenarion Combat Badges, 20 Cenarion Logistics Badges, 17 Cenarion Tactical Badges and 1 Mark of Remulos to Vargus at Cenarion Hold in Silithus. You must also attain Revered reputation with Cenarion Circle to be able to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8574/stalwarts-battlegear",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8800",
+        "name": "Cenarion Battlegear",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8654",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Primestone the Elder",
+    "stage": "Seasonal: Lunar Festival · min. level 1",
+    "giver": "Elder Primestone",
+    "coordinates": "21.1, 10.5",
+    "area": "Crystal Vale (Silithus)",
+    "objective": "Honor Elder Primestone in Crystal Vale during Lunar Festival.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 1; Available during the named seasonal event",
+    "sources": [
+      "https://foreverchanges.pro/quest/8654/primestone-the-elder",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic-quest-text-and-requirements",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8687",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Target: Hive'Zora Tunnelers",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Combat Task Briefing VII (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Slay 30 Hive'Zora Tunnelers and report back to Commander Mar'alith at Cenarion Hold in Silithus. You must also bring Combat Task Briefing VII in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8687/target-hivezora-tunnelers",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8693",
+    "giver": "Keyl Swiftclaw",
+    "area": "Cenarion Hold, Silithus",
+    "coordinates": "51.8, 39.5",
+    "zone": "Silithus",
+    "name": "Cloak of Veiled Shadows",
+    "level": 60,
+    "stage": "Ahn'Qiraj gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Exchange Qiraji Martial Drape, 2 Azure Idols, 5 Bronze Scarabs, and 5 Ivory Scarabs for the set piece. Requires Revered reputation with Cenarion Circle.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8693",
+      "https://www.wowhead.com/classic/quest=8693",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8701",
+    "giver": "Windcaller Yessendra",
+    "area": "Cenarion Hold, Silithus",
+    "coordinates": "52.1, 38.2",
+    "zone": "Silithus",
+    "name": "Band of Veiled Shadows",
+    "level": 60,
+    "stage": "Ahn'Qiraj gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Exchange Qiraji Ceremonial Ring, 2 Onyx Idols, 5 Stone Scarabs, and 5 Crystal Scarabs for the set piece. Requires Honored reputation with Cenarion Circle.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8701",
+      "https://www.wowhead.com/classic/quest=8701",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8709",
+    "giver": "Warden Haro",
+    "area": "Cenarion Hold, Silithus",
+    "coordinates": "51.1, 38.9",
+    "zone": "Silithus",
+    "name": "Dagger of Veiled Shadows",
+    "level": 60,
+    "stage": "Ahn'Qiraj gear · Availability unverified",
+    "faction": "Both",
+    "objective": "Exchange Qiraji Spiked Hilt, 2 Vermillion Idols, 5 Gold Scarabs, and 5 Clay Scarabs for the set piece. Requires Exalted reputation with Cenarion Circle.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=8709",
+      "https://www.wowhead.com/classic/quest=8709",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://news.blizzard.com/en-us/article/24303862/world-of-warcraft-forever-whats-next-panel-recap"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 60,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8719",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Bladesing the Elder",
+    "stage": "Seasonal: Lunar Festival · min. level 1",
+    "giver": "Elder Bladesing",
+    "coordinates": "49, 37.7",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Honor Elder Bladesing in Cenarion Hold during Lunar Festival.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 1; Available during the named seasonal event",
+    "sources": [
+      "https://foreverchanges.pro/quest/8719/bladesing-the-elder",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic-quest-text-and-requirements",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8737",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Azure Templar",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Tactical Task Briefing I (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Summon and slay an Azure Templar and report back to Bor Wildmane in Cenarion Hold. You must also bring Tactical Task Briefing I in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8737/azure-templar",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8738",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Hive'Regal Scout Report",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Tactical Task Briefing VII (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Contact Cenarion Scout Landion inside Hive'Regal and return the Hive'Regal Scout Report to Windcaller Proudhorn at Cenarion Hold. You must also bring Tactical Task Briefing VII in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8738/hiveregal-scout-report",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8739",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Hive'Ashi Scout Report",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Tactical Task Briefing VIII (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Contact Cenarion Scout Jalia inside Hive'Ashi and return the Hive'Ashi Scout Report to Windcaller Proudhorn at Cenarion Hold. You must also bring Tactical Task Briefing VIII in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8739/hiveashi-scout-report",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8740",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Twilight Marauders",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Tactical Task Briefing IX (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Slay Twilight Marauder Morna and 5 Twilight Marauders. Report to Windcaller Proudhorn when your task is finished. You must also bring Tactical Task Briefing IX in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8740/twilight-marauders",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8742",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "The Might of Kalimdor",
+    "stage": "Scepter of the Shifting Sands · min. level 60 · Ahn'Qiraj phase/event dependent · Requires Neutral with Brood of Nozdormu",
+    "giver": "Anachronos",
+    "coordinates": "65.3, 50",
+    "area": "Caverns of Time (Tanaris)",
+    "objective": "Speak with Anachronos at the Caverns of Time after returning all three Scepter Shards to receive the Scepter of the Shifting Sands.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression; Requires Neutral with Brood of Nozdormu (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8742/the-might-of-kalimdor",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic-quest-text-and-requirements",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8729",
+        "name": "The Wrath of Neptulon",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "8730",
+        "name": "Nefarius's Corruption",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "8741",
+        "name": "The Champion Returns",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8743",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Bang a Gong!",
+    "stage": "Scepter of the Shifting Sands · min. level 60 · World event · Ahn'Qiraj phase/event dependent · Requires Neutral with Brood of Nozdormu",
+    "giver": "The Scarab Gong",
+    "coordinates": "25.7, 90.9",
+    "area": "Scarab Wall (Silithus)",
+    "objective": "Use the Scepter of the Shifting Sands to ring the Scarab Gong at the Scarab Wall during the Ahn'Qiraj opening event.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; World event; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression; Requires Neutral with Brood of Nozdormu (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8743/bang-a-gong",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges-required-items",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8742",
+        "name": "The Might of Kalimdor",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8745",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Treasure of the Timeless One",
+    "stage": "Scepter of the Shifting Sands · min. level 60 · Ahn'Qiraj phase/event dependent · Requires Neutral with Brood of Nozdormu",
+    "giver": "Jonathan the Revelator",
+    "coordinates": "25.9, 91",
+    "area": "Silithus",
+    "objective": "Speak with Jonathan the Revelator near the Scarab Wall to claim the Treasure of the Timeless One.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression; Requires Neutral with Brood of Nozdormu (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/8745/treasure-of-the-timeless-one",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "classic-quest-text-and-requirements",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8742",
+        "name": "The Might of Kalimdor",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8770",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Target: Hive'Ashi Defenders",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Combat Task Briefing I (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Slay 30 Hive'Ashi Defenders and report back to Commander Mar'alith at Cenarion Hold in Silithus. You must also bring Combat Task Briefing I in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8770/target-hiveashi-defenders",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8771",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Target: Hive'Ashi Sandstalkers",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Combat Task Briefing II (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Slay 30 Hive'Ashi Sandstalkers and report back to Commander Mar'alith at Cenarion Hold in Silithus. You must also bring Combat Task Briefing II in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8771/target-hiveashi-sandstalkers",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8772",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Target: Hive'Zora Waywatchers",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Combat Task Briefing VI (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Slay 30 Hive'Zora Waywatchers and report back to Commander Mar'alith at Cenarion Hold in Silithus. You must also bring Combat Task Briefing VI in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8772/target-hivezora-waywatchers",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8773",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Target: Hive'Zora Reavers",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Combat Task Briefing IV (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Slay 30 Hive'Zora Reavers and report back to Commander Mar'alith at Cenarion Hold in Silithus. You must also bring Combat Task Briefing IV in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8773/target-hivezora-reavers",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8774",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Target: Hive'Regal Ambushers",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Combat Task Briefing VIII (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Kill 30 Hive'Regal Ambushers and report back to Commander Mar'alith at Cenarion Hold in Silithus. You must also bring Combat Task Briefing VIII in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8774/target-hiveregal-ambushers",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8775",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Target: Hive'Regal Spitfires",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Combat Task Briefing IX (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Kill 30 Hive'Regal Spitfires and report back to Commander Mar'alith at Cenarion Hold in Silithus. You must also bring Combat Task Briefing IX in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8775/target-hiveregal-spitfires",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8776",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Target: Hive'Regal Slavemakers",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Combat Task Briefing X (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Kill 30 Hive'Regal Slavemakers and report back to Commander Mar'alith at Cenarion Hold in Silithus. You must also bring Combat Task Briefing X in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8776/target-hiveregal-slavemakers",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8777",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Target: Hive'Regal Burrowers",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable · Elite",
+    "giver": "Combat Task Briefing XI (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Kill 30 Hive'Regal Burrowers and report back to Commander Mar'alith at Cenarion Hold in Silithus. You must also bring Combat Task Briefing XI in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8777/target-hiveregal-burrowers",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8778",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "The Ironforge Brigade Needs Explosives!",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable",
+    "giver": "Logistics Task Briefing IV (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Bring 6 Oils of Immolation, 5 Goblin Rocket Fuel and 10 Dense Blasting Powder to Arcanist Nozzlespring near Hive'Zora in Silithus. You must also bring Logistics Task Briefing IV in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8778/the-ironforge-brigade-needs-explosives",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8779",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Scrying Materials",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable",
+    "giver": "Logistics Task Briefing V (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Bring 1 Large Brilliant Shard, 1 Large Radiant Shard and 1 Huge Emerald to Geologist Larksbane at Cenarion Hold in Silithus. You must also bring Logistics Task Briefing V in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8779/scrying-materials",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8780",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Armor Kits for the Field",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable",
+    "giver": "Logistics Task Briefing VII (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Bring 8 Rugged Armor Kits and 8 Heavy Armor Kits to Janela Stouthammer at the Ironforge Brigade Outpost near Hive'Zora in Silithus. You must also bring Logistics Task Briefing VII in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8780/armor-kits-for-the-field",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8781",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Arms for the Field",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable",
+    "giver": "Logistics Task Briefing VI (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Bring 2 Moonsteel Broadswords to Janela Stouthammer at the Ironforge Brigade Outpost outside of Hive'Zora. You must also bring Logistics Task Briefing VI in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8781/arms-for-the-field",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8782",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Uniform Supplies",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable",
+    "giver": "Logistics Task Briefing VIII (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Bring 1 Mooncloth, 2 Bolts of Runecloth and 1 Ironweb Spider Silk to Windcaller Proudhorn at Cenarion Hold in Silithus. You must also bring Logistics Task Briefing VIII in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8782/uniform-supplies",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8783",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Extraordinary Materials",
+    "stage": "Field Duty assignment · min. level 60 · Repeatable",
+    "giver": "Logistics Task Briefing IX (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Bring 2 Enchanted Thorium Bars and 2 Enchanted Leather to Vargus at Cenarion Hold in Silithus. You must also bring Logistics Task Briefing IX in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/8783/extraordinary-materials",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8791",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "The Fall of Ossirian",
+    "stage": "Raid hand-in · min. level 60 · Raid · Ahn'Qiraj phase/event dependent",
+    "giver": "Head of Ossirian the Unscarred (item)",
+    "coordinates": "",
+    "area": "Silithus",
+    "objective": "Deliver the Head of Ossirian the Unscarred to Commander Mar'alith at Cenarion Hold in Silithus.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Raid; Requires raid access/materials; availability depends on the current Ahn'Qiraj content phase",
+    "sources": [
+      "https://foreverchanges.pro/quest/8791/the-fall-of-ossirian",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8800",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Cenarion Battlegear",
+    "stage": "min. level 60",
+    "giver": "Windcaller Kaldon",
+    "coordinates": "50, 36.4",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Talk to Vargus at Cenarion Hold in Silithus.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60",
+    "sources": [
+      "https://foreverchanges.pro/quest/8800/cenarion-battlegear",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8829",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "The Ultimate Deception",
+    "stage": "Field Duty assignment · min. level 60 · Elite",
+    "giver": "Logistics Task Briefing XI (item)",
+    "coordinates": "",
+    "area": "Silithus — assignment briefing",
+    "objective": "Bring a Skin of Shadow, 3 Frayed Abomination Stitchings and 1 Twilight Cultist Robe to Aurel Goldleaf at Cenarion Hold in Silithus. You must also bring Logistics Task Briefing XI in order to complete this quest.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Item-started; no fixed item-drop coordinate is asserted; Requires the named briefing item from the Field Duty assignment system; Elite",
+    "sources": [
+      "https://foreverchanges.pro/quest/8829/the-ultimate-deception",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8857",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Secrets of the Colossus - Ashi",
+    "stage": "Ahn'Qiraj opening event · min. level 51 · Available during the gate-opening event",
+    "giver": "Colossus Researcher Nestor",
+    "coordinates": "49.5, 37.3",
+    "area": "Silithus",
+    "objective": "Take the Colossus of Ashi's Husk to Oglethorpe Obnoticus in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 51; Event-dependent Classic quest; researcher availability is not guaranteed outside the gate-opening event",
+    "sources": [
+      "https://foreverchanges.pro/quest/8857/secrets-of-the-colossus-ashi",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8858",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Secrets of the Colossus - Regal",
+    "stage": "Ahn'Qiraj opening event · min. level 51 · Available during the gate-opening event",
+    "giver": "Colossus Researcher Eazel",
+    "coordinates": "49.6, 37.3",
+    "area": "Silithus",
+    "objective": "Take the Colossus of Regal's Husk to Overseer Oilfist in Searing Gorge.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 51; Event-dependent Classic quest; researcher availability is not guaranteed outside the gate-opening event",
+    "sources": [
+      "https://foreverchanges.pro/quest/8858/secrets-of-the-colossus-regal",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8859",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Secrets of the Colossus - Zora",
+    "stage": "Ahn'Qiraj opening event · min. level 51 · Available during the gate-opening event",
+    "giver": "Colossus Researcher Sophia",
+    "coordinates": "49.5, 37.4",
+    "area": "Silithus",
+    "objective": "Take the Colossus of Zora's Husk to Lord Maxwell Tyrosus at Light's Hope Chapel in the Eastern Plaguelands.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 51; Event-dependent Classic quest; researcher availability is not guaranteed outside the gate-opening event",
+    "sources": [
+      "https://foreverchanges.pro/quest/8859/secrets-of-the-colossus-zora",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8924",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Hunting for Ectoplasm",
+    "stage": "min. level 58",
+    "giver": "Mux Manascrambler",
+    "coordinates": "52.5, 27.2",
+    "area": "Gadgetzan (Tanaris)",
+    "objective": "Use the Ectoplasmic Distiller near incorporeal undead to collect 12 Scorched Ectoplasms in Silithus, 12 Frozen Ectoplasms in Winterspring and 12 Stable Ectoplasms in the Eastern Plaguelands. Bring them along with the Ectoplasmic Distiller back to Mux Manascrambler in Gadgetzan.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8924/hunting-for-ectoplasm",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "8921",
+        "name": "The Ectoplasmic Distiller",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "9023",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "The Perfect Poison",
+    "stage": "Raid hand-in · min. level 60 · Raid · Ahn'Qiraj phase/event dependent",
+    "giver": "Dirk Thunderwood",
+    "coordinates": "52.1, 39.1",
+    "area": "Silithus",
+    "objective": "Dirk Thunderwood at Cenarion Hold wants you to bring him Venoxis's Venom Sac and Kurinnaxx's Venom Sac.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Raid; Requires raid access/materials; availability depends on the current Ahn'Qiraj content phase",
+    "sources": [
+      "https://foreverchanges.pro/quest/9023/the-perfect-poison",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "9248",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "A Humble Offering",
+    "stage": "min. level 58 · Requires Honored with Cenarion Circle",
+    "giver": "Aurel Goldleaf",
+    "coordinates": "52, 38.2",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Aurel Goldleaf at Cenarion Hold in Silithus wants you to bring her 1 Abyssal Scepter. You must also be Honored with the Cenarion Circle.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 58; Requires Honored with Cenarion Circle (Classic primary requirement)",
+    "sources": [
+      "https://foreverchanges.pro/quest/9248/a-humble-offering",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "9322",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Wild Fires in Kalimdor",
+    "stage": "Seasonal: Midsummer · min. level 1",
+    "giver": "Festival Flamekeeper",
+    "coordinates": "49.39, 71.86",
+    "area": "Stormwind City (also Ironforge and other capitals)",
+    "objective": "Visit the Midsummer camps located in Azshara, Silithus, Un'Goro Crater, and Winterspring, then return to the Festival Flamekeeper.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 1; Available during the named seasonal event; Alliance-accessible Festival Flamekeeper reference; the public page selects an Orgrimmar spawn of this shared NPC",
+    "sources": [
+      "https://foreverchanges.pro/quest/9322/wild-fires-in-kalimdor",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "9338",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Allegiance to Cenarion Circle",
+    "stage": "min. level 60 · Repeatable",
+    "giver": "Windcaller Kaldon",
+    "coordinates": "50, 36.4",
+    "area": "Cenarion Hold (Silithus)",
+    "objective": "Bring Cenarion Combat Badge, Cenarion Logistics Badge, Cenarion Tactical Badge to Windcaller Kaldon.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 60; Repeatable",
+    "sources": [
+      "https://foreverchanges.pro/quest/9338/allegiance-to-cenarion-circle",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges-required-items",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "9415",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Report to Marshal Bluewall",
+    "stage": "Silithyst / PvP · min. level 1",
+    "giver": "Rifleman Torrig",
+    "coordinates": "50.7, 34.7",
+    "area": "Silithus",
+    "objective": "Speak with Marshal Bluewall at the Alliance encampment near Hive'Zora.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 1; Current page retains minimum level 1; quest level remains 60",
+    "sources": [
+      "https://foreverchanges.pro/quest/9415/report-to-marshal-bluewall",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "9419",
+    "zone": "Silithus",
+    "level": 60,
+    "name": "Scouring the Desert",
+    "stage": "Silithyst / PvP · min. level 1 · PvP",
+    "giver": "Marshal Bluewall",
+    "coordinates": "33.3, 51.1",
+    "area": "Alliance encampment near Hive'Zora (Silithus)",
+    "objective": "Find and deliver Silithyst to the Silithyst Extractor, then speak with Marshal Bluewall at the Alliance encampment near Hive'Zora.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; Minimum level 1; PvP; Current page retains minimum level 1; quest level remains 60",
+    "sources": [
+      "https://foreverchanges.pro/quest/9419/scouring-the-desert",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [
+      {
+        "id": "9415",
+        "name": "Report to Marshal Bluewall",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
   }
 ]
