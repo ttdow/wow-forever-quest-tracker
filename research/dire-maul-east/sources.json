@@ -1,0 +1,552 @@
+{
+  "reviewedOn": "2026-11-27",
+  "build": "1.60.1.71139",
+  "attRevision": "789b0feb395396c181999063b691f854167595c6",
+  "questieRevision": "189e66d3c644ea795a781439dda7a43e6ab17173",
+  "mapId": 429,
+  "suggestedLevels": [
+    54,
+    60
+  ],
+  "sources": [
+    "https://foreverchanges.pro/dungeons/dire-maul-east",
+    "https://foreverdb.net/dungeon/429-dire-maul",
+    "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+    "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+    "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+    "https://patchvaultapp.com/forever/dungeons/dire-maul-east/"
+  ],
+  "counts": {
+    "quests": 7,
+    "sharedIds": [
+      "7498",
+      "96076"
+    ],
+    "equipment": 33,
+    "cards": 7,
+    "rogueUsable": 18,
+    "seen": 26
+  },
+  "questCandidates": [
+    {
+      "id": "1193",
+      "name": "A Broken Trap",
+      "decision": "exclude",
+      "reason": "Outside East: North",
+      "reference": "https://foreverchanges.pro/quest/1193/a-broken-trap"
+    },
+    {
+      "id": "1318",
+      "name": "Unfinished Gordok Business",
+      "decision": "exclude",
+      "reason": "Outside East: North / West",
+      "reference": "https://foreverchanges.pro/quest/1318/unfinished-gordok-business"
+    },
+    {
+      "id": "3062",
+      "name": "Dark Heart",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/3062/dark-heart"
+    },
+    {
+      "id": "3063",
+      "name": "Vengeance on the Northspring",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/3063/vengeance-on-the-northspring"
+    },
+    {
+      "id": "4120",
+      "name": "The Strength of Corruption",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/4120/the-strength-of-corruption"
+    },
+    {
+      "id": "5518",
+      "name": "The Gordok Ogre Suit",
+      "decision": "exclude",
+      "reason": "Outside East: North",
+      "reference": "https://foreverchanges.pro/quest/5518/the-gordok-ogre-suit"
+    },
+    {
+      "id": "5519",
+      "name": "The Gordok Ogre Suit",
+      "decision": "exclude",
+      "reason": "Outside East: North",
+      "reference": "https://foreverchanges.pro/quest/5519/the-gordok-ogre-suit"
+    },
+    {
+      "id": "5525",
+      "name": "Free Knot!",
+      "decision": "exclude",
+      "reason": "Outside East: North",
+      "reference": "https://foreverchanges.pro/quest/5525/free-knot"
+    },
+    {
+      "id": "5526",
+      "name": "Shards of the Felvine",
+      "decision": "include",
+      "reason": "Eligible East objective, acquisition, or direct introduction",
+      "reference": "https://foreverchanges.pro/quest/5526/shards-of-the-felvine"
+    },
+    {
+      "id": "5527",
+      "name": "A Reliquary of Purity",
+      "decision": "linked",
+      "reason": "Existing Silithus prerequisite to Shards of the Felvine",
+      "reference": "https://foreverchanges.pro/quest/5527/a-reliquary-of-purity"
+    },
+    {
+      "id": "5528",
+      "name": "The Gordok Taste Test",
+      "decision": "exclude",
+      "reason": "Outside East: North",
+      "reference": "https://foreverchanges.pro/quest/5528/the-gordok-taste-test"
+    },
+    {
+      "id": "7429",
+      "name": "Free Knot!",
+      "decision": "exclude",
+      "reason": "Outside East: North",
+      "reference": "https://foreverchanges.pro/quest/7429/free-knot"
+    },
+    {
+      "id": "7441",
+      "name": "Pusillin and the Elder Azj'Tordin",
+      "decision": "include",
+      "reason": "Eligible East objective, acquisition, or direct introduction",
+      "reference": "https://foreverchanges.pro/quest/7441/pusillin-and-the-elder-azjtordin"
+    },
+    {
+      "id": "7461",
+      "name": "The Madness Within",
+      "decision": "exclude",
+      "reason": "Outside East: West",
+      "reference": "https://foreverchanges.pro/quest/7461/the-madness-within"
+    },
+    {
+      "id": "7462",
+      "name": "The Treasure of the Shen'dralar",
+      "decision": "exclude",
+      "reason": "Outside East: West",
+      "reference": "https://foreverchanges.pro/quest/7462/the-treasure-of-the-shendralar"
+    },
+    {
+      "id": "7463",
+      "name": "Arcane Refreshment",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/7463/arcane-refreshment"
+    },
+    {
+      "id": "7481",
+      "name": "Elven Legends",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/7481/elven-legends"
+    },
+    {
+      "id": "7482",
+      "name": "Elven Legends",
+      "decision": "exclude",
+      "reason": "Outside East: Athenaeum via West or North",
+      "reference": "https://foreverchanges.pro/quest/7482/elven-legends"
+    },
+    {
+      "id": "7483",
+      "name": "Libram of Rapidity",
+      "decision": "exclude",
+      "reason": "Outside East: Athenaeum",
+      "reference": "https://foreverchanges.pro/quest/7483/libram-of-rapidity"
+    },
+    {
+      "id": "7484",
+      "name": "Libram of Focus",
+      "decision": "exclude",
+      "reason": "Outside East: Athenaeum",
+      "reference": "https://foreverchanges.pro/quest/7484/libram-of-focus"
+    },
+    {
+      "id": "7485",
+      "name": "Libram of Protection",
+      "decision": "exclude",
+      "reason": "Outside East: Athenaeum",
+      "reference": "https://foreverchanges.pro/quest/7485/libram-of-protection"
+    },
+    {
+      "id": "7488",
+      "name": "Lethtendris's Web",
+      "decision": "include",
+      "reason": "Eligible East objective, acquisition, or direct introduction",
+      "reference": "https://foreverchanges.pro/quest/7488/lethtendriss-web"
+    },
+    {
+      "id": "7489",
+      "name": "Lethtendris's Web",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/7489/lethtendriss-web"
+    },
+    {
+      "id": "7492",
+      "name": "Camp Mojache",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/7492/camp-mojache"
+    },
+    {
+      "id": "7494",
+      "name": "Feathermoon Stronghold",
+      "decision": "include",
+      "reason": "Eligible East objective, acquisition, or direct introduction",
+      "reference": "https://foreverchanges.pro/quest/7494/feathermoon-stronghold"
+    },
+    {
+      "id": "7498",
+      "name": "Garona: A Study on Stealth and Treachery",
+      "decision": "include",
+      "reason": "Eligible East objective, acquisition, or direct introduction",
+      "reference": "https://foreverchanges.pro/quest/7498/garona-a-study-on-stealth-and-treachery"
+    },
+    {
+      "id": "7499",
+      "name": "Codex of Defense",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/7499/codex-of-defense"
+    },
+    {
+      "id": "7500",
+      "name": "The Arcanist's Cookbook",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/7500/the-arcanists-cookbook"
+    },
+    {
+      "id": "7501",
+      "name": "The Light and How To Swing It",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/7501/the-light-and-how-to-swing-it"
+    },
+    {
+      "id": "7502",
+      "name": "Harnessing Shadows",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/7502/harnessing-shadows"
+    },
+    {
+      "id": "7503",
+      "name": "The Greatest Race of Hunters",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/7503/the-greatest-race-of-hunters"
+    },
+    {
+      "id": "7504",
+      "name": "Holy Bologna: What the Light Won't Tell You",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/7504/holy-bologna-what-the-light-wont-tell-you"
+    },
+    {
+      "id": "7505",
+      "name": "Frost Shock and You",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/7505/frost-shock-and-you"
+    },
+    {
+      "id": "7506",
+      "name": "The Emerald Dream...",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/7506/the-emerald-dream"
+    },
+    {
+      "id": "7507",
+      "name": "Foror's Compendium",
+      "decision": "exclude",
+      "reason": "Compendium starter item is Warrior/Paladin only",
+      "reference": "https://foreverchanges.pro/quest/7507/forors-compendium"
+    },
+    {
+      "id": "7508",
+      "name": "The Forging of Quel'Serrar",
+      "decision": "exclude",
+      "reason": "Compendium starter item is Warrior/Paladin only",
+      "reference": "https://foreverchanges.pro/quest/7508/the-forging-of-quelserrar"
+    },
+    {
+      "id": "7509",
+      "name": "The Forging of Quel'Serrar",
+      "decision": "exclude",
+      "reason": "Compendium starter item is Warrior/Paladin only",
+      "reference": "https://foreverchanges.pro/quest/7509/the-forging-of-quelserrar"
+    },
+    {
+      "id": "7581",
+      "name": "The Prison's Bindings",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/7581/the-prisons-bindings"
+    },
+    {
+      "id": "7643",
+      "name": "Ancient Equine Spirit",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/7643/ancient-equine-spirit"
+    },
+    {
+      "id": "7703",
+      "name": "Unfinished Gordok Business",
+      "decision": "exclude",
+      "reason": "Outside East: North / West",
+      "reference": "https://foreverchanges.pro/quest/7703/unfinished-gordok-business"
+    },
+    {
+      "id": "7877",
+      "name": "The Treasure of the Shen'dralar",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/7877/the-treasure-of-the-shendralar"
+    },
+    {
+      "id": "8926",
+      "name": "Just Compensation",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8926/just-compensation"
+    },
+    {
+      "id": "8929",
+      "name": "In Search of Anthion",
+      "decision": "exclude",
+      "reason": "Outside East: Stratholme",
+      "reference": "https://foreverchanges.pro/quest/8929/in-search-of-anthion"
+    },
+    {
+      "id": "8948",
+      "name": "Anthion's Old Friend",
+      "decision": "exclude",
+      "reason": "Outside East: Athenaeum",
+      "reference": "https://foreverchanges.pro/quest/8948/anthions-old-friend"
+    },
+    {
+      "id": "8949",
+      "name": "Falrin's Vendetta",
+      "decision": "exclude",
+      "reason": "Outside East: North / Blackrock Spire",
+      "reference": "https://foreverchanges.pro/quest/8949/falrins-vendetta"
+    },
+    {
+      "id": "8950",
+      "name": "The Instigator's Enchantment",
+      "decision": "exclude",
+      "reason": "Outside East: West / Athenaeum",
+      "reference": "https://foreverchanges.pro/quest/8950/the-instigators-enchantment"
+    },
+    {
+      "id": "8951",
+      "name": "Anthion's Parting Words",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8951/anthions-parting-words"
+    },
+    {
+      "id": "8967",
+      "name": "The Left Piece of Lord Valthalak's Amulet",
+      "decision": "exclude",
+      "reason": "Isalien left-piece branch is assigned to Druids/Warlocks",
+      "reference": "https://foreverchanges.pro/quest/8967/the-left-piece-of-lord-valthalaks-amulet"
+    },
+    {
+      "id": "8985",
+      "name": "More Components of Importance",
+      "decision": "linked",
+      "reason": "Bodley prerequisite with a Teldrassil objective",
+      "reference": "https://foreverchanges.pro/quest/8985/more-components-of-importance"
+    },
+    {
+      "id": "8990",
+      "name": "The Right Piece of Lord Valthalak's Amulet",
+      "decision": "include",
+      "reason": "Eligible East objective, acquisition, or direct introduction",
+      "reference": "https://foreverchanges.pro/quest/8990/the-right-piece-of-lord-valthalaks-amulet"
+    },
+    {
+      "id": "9015",
+      "name": "The Challenge",
+      "decision": "exclude",
+      "reason": "Outside East: Blackrock Depths",
+      "reference": "https://foreverchanges.pro/quest/9015/the-challenge"
+    },
+    {
+      "id": "9319",
+      "name": "A Light in Dark Places",
+      "decision": "exclude",
+      "reason": "Seasonal quest with no verified East bonfire location in the inspected records",
+      "reference": "https://foreverchanges.pro/quest/9319/a-light-in-dark-places"
+    },
+    {
+      "id": "9386",
+      "name": "A Light in Dark Places",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/9386/a-light-in-dark-places"
+    },
+    {
+      "id": "84555",
+      "name": "Nostro's Compendium",
+      "decision": "exclude",
+      "reason": "Compendium starter item is Warrior/Paladin only",
+      "reference": "https://www.wowhead.com/forever/quest=84555"
+    },
+    {
+      "id": "96076",
+      "name": "In Demand - Ancient Elven Curiosities",
+      "decision": "include",
+      "reason": "Eligible East objective, acquisition, or direct introduction",
+      "reference": "https://foreverchanges.pro/quest/96076/in-demand-ancient-elven-curiosities"
+    },
+    {
+      "id": "97182",
+      "name": "An Offering of Vengeance",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://www.wowhead.com/forever/quest=97182"
+    },
+    {
+      "id": "97270",
+      "name": "Brawl at the Maul",
+      "decision": "exclude",
+      "reason": "Outside East: Outdoor arena",
+      "reference": "https://www.wowhead.com/forever/quest=97270"
+    },
+    {
+      "id": "99233",
+      "name": "Brawl at the Maul",
+      "decision": "exclude",
+      "reason": "Outside East: Outdoor arena",
+      "reference": "https://www.wowhead.com/forever/quest=99233"
+    },
+    {
+      "id": "99234",
+      "name": "Brawl at the Maul",
+      "decision": "exclude",
+      "reason": "Outside East: Outdoor arena",
+      "reference": "https://www.wowhead.com/forever/quest=99234"
+    }
+  ],
+  "excludedEquipment": [
+    {
+      "id": "7080",
+      "name": "Essence of Water",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18249",
+      "name": "Crescent Key",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18255",
+      "name": "Runn Tum Tuber",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18261",
+      "name": "Book of Incantations",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18267",
+      "name": "Recipe: Runn Tum Tuber Surprise",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18289",
+      "name": "Barbed Thorn Necklace",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18295",
+      "name": "Phasing Boots",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18296",
+      "name": "Marksman Bands",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18298",
+      "name": "Unbridled Leggings",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18299",
+      "name": "Hydrospawn Essence",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18348",
+      "name": "Quel'Serrar",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18356",
+      "name": "Garona: A Study on Stealth and Treachery",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18359",
+      "name": "The Light and How to Swing It",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18401",
+      "name": "Nostro's Compendium of Dragon Slaying",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18426",
+      "name": "Lethtendris's Web",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18501",
+      "name": "Felvine Shard",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18513",
+      "name": "A Dull and Flat Elven Blade",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "18603",
+      "name": "Satyr Blood",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "19268",
+      "name": "Ace of Elementals",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "22046",
+      "name": "Right Piece of Lord Valthalak's Amulet",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    },
+    {
+      "id": "252891",
+      "name": "Pattern: Living Crown",
+      "reason": "Non-equipment, quest/reward, or source outside unique East encounter loot"
+    }
+  ]
+}

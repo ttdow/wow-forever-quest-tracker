@@ -14563,6 +14563,884 @@
           ]
         }
       ]
+    },
+    "Dire Maul East": {
+      "id": 429,
+      "build": "1.60.1.71139",
+      "source": "https://foreverchanges.pro/dungeons/dire-maul-east",
+      "items": [
+        {
+          "id": "18316",
+          "name": "Obsidian Bauble",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Held In Off-hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "+9 Intellect",
+            "Equip: Improves your chance to get a critical strike by 0.5%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 15 ."
+          ],
+          "rogueUsable": true,
+          "source": "Pusillin",
+          "sourceOrder": 1,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18316",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18316",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua"
+          ]
+        },
+        {
+          "id": "18320",
+          "name": "Demondash Spaulders",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Shoulder",
+          "type": "Mail",
+          "stats": [
+            "258 Armor",
+            "+9 Strength",
+            "+14 Agility",
+            "+14 Stamina"
+          ],
+          "rogueUsable": false,
+          "source": "Pusillin",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18320",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18320",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://patchvaultapp.com/forever/dungeons/dire-maul-east/"
+          ]
+        },
+        {
+          "id": "18301",
+          "name": "Lethtendris's Wand",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Ranged",
+          "type": "Wand",
+          "stats": [
+            "67 -126 Shadow Damage",
+            "Speed 1.70",
+            "56.76 DPS",
+            "+5 Arcane Resistance",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 9 ."
+          ],
+          "rogueUsable": false,
+          "source": "Lethtendris",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18301",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18301",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18302",
+          "name": "Band of Vigor",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "Unique-Equipped",
+            "+8 Strength",
+            "+7 Agility",
+            "+7 Stamina",
+            "+10 Spirit"
+          ],
+          "rogueUsable": true,
+          "source": "Lethtendris",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18302",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18302",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18311",
+          "name": "Quel'dorai Channeling Rod",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Two-Hand",
+          "type": "Staff",
+          "stats": [
+            "82 -124 Damage",
+            "Speed 2.80",
+            "36.79 DPS",
+            "+8 Stamina",
+            "+18 Intellect",
+            "+8 Spirit",
+            "Restores +8 mana per 5 sec.",
+            "Equip: Increases healing done by up to 124 and damage done by up to 41 for all magical spells and effects."
+          ],
+          "rogueUsable": false,
+          "source": "Lethtendris",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18311",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18311",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18325",
+          "name": "Felhide Cap",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "134 Armor",
+            "+21 Agility",
+            "+14 Stamina",
+            "+8 Arcane Resistance",
+            "+10 Fire Resistance",
+            "+9 Shadow Resistance"
+          ],
+          "rogueUsable": true,
+          "source": "Lethtendris",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18325",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18325",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18354",
+          "name": "Pimgib's Collar",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Unique-Equipped",
+            "Classes: Warlock",
+            "Equip: Increases damage done by Fire spells and effects by up to 14.",
+            "Equip: Restores 9 mana per 5 sec to your Imp."
+          ],
+          "rogueUsable": false,
+          "source": "Pimgib",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18354",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18354",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://patchvaultapp.com/forever/dungeons/dire-maul-east/"
+          ]
+        },
+        {
+          "id": "18305",
+          "name": "Breakwater Legguards",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Legs",
+          "type": "Plate",
+          "stats": [
+            "531 Armor",
+            "+22 Strength",
+            "+10 Frost Resistance",
+            "Equip: Increases your chance to Parry an attack by 1.0%."
+          ],
+          "rogueUsable": false,
+          "source": "Hydrospawn",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18305",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18305",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18307",
+          "name": "Riptide Shoes",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "57 Armor",
+            "+9 Intellect",
+            "+10 Frost Resistance",
+            "Equip: Increases damage done by Frost spells and effects by up to 24."
+          ],
+          "rogueUsable": true,
+          "source": "Hydrospawn",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18307",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18307",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18317",
+          "name": "Tempest Talisman",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Neck",
+          "type": "Necklace",
+          "stats": [
+            "+6 Intellect",
+            "+6 Spirit",
+            "Equip: Improves your chance to get a critical strike by 1.0%.",
+            "Equip: Increases healing done by up to 7 and damage done by up to 2 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "source": "Hydrospawn",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18317",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18317",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18322",
+          "name": "Waterspout Boots",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "114 Armor",
+            "+8 Intellect",
+            "+9 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 22 ."
+          ],
+          "rogueUsable": true,
+          "source": "Hydrospawn",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18322",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18322",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18324",
+          "name": "Waveslicer",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Two-Hand",
+          "type": "Axe",
+          "stats": [
+            "123 -185 Damage",
+            "Speed 3.10",
+            "49.68 DPS",
+            "+23 Strength",
+            "Equip: Improves your chance to get a critical strike by 1.0%.",
+            "Chance on hit: Slice the target, dealing 70 Nature damage. Deals 3 times as much damage to Aquatic enemies."
+          ],
+          "rogueUsable": false,
+          "source": "Hydrospawn",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18324",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18324",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18306",
+          "name": "Gloves of Shadowy Mist",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "52 Armor",
+            "+16 Stamina",
+            "Restores +4 mana per 5 sec.",
+            "Equip: Increases damage done by Shadow spells and effects by up to 19."
+          ],
+          "rogueUsable": true,
+          "source": "Zevrim Thornhoof",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18306",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18306",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18308",
+          "name": "Clever Hat",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "134 Armor",
+            "+6 Stamina",
+            "+15 Intellect",
+            "Restores +2 mana per 5 sec.",
+            "Equip: Decreases all threat generated by 4%."
+          ],
+          "rogueUsable": true,
+          "source": "Zevrim Thornhoof",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18308",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18308",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18313",
+          "name": "Helm of Awareness",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Head",
+          "type": "Plate",
+          "stats": [
+            "493 Armor",
+            "+17 Stamina",
+            "Equip: Increases your chance to Dodge an attack by 2.0%.",
+            "Equip: Increases your effective stealth detection level by 1."
+          ],
+          "rogueUsable": false,
+          "source": "Zevrim Thornhoof",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18313",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18313",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18319",
+          "name": "Fervent Helm",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Head",
+          "type": "Mail",
+          "stats": [
+            "279 Armor",
+            "<Random enchantment>",
+            "+14 Stamina",
+            "Restores +12 health per 5 sec.",
+            "Equip: Increases your chance to Parry an attack by 1.0%."
+          ],
+          "rogueUsable": false,
+          "source": "Zevrim Thornhoof",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18319",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18319",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18323",
+          "name": "Satyr's Bow",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Ranged",
+          "type": "Bow",
+          "stats": [
+            "50 -93 Damage",
+            "Speed 2.40",
+            "29.79 DPS",
+            "Equip: Improves your chance to hit by 1.0%.",
+            "Equip: +4 Attack Power.",
+            "Equip: +6 Attack Power against Elementals."
+          ],
+          "rogueUsable": true,
+          "source": "Zevrim Thornhoof",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18323",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18323",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18309",
+          "name": "Gloves of Restoration",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "105 Armor",
+            "+13 Stamina",
+            "+12 Intellect",
+            "Equip: Increases healing done by up to 31 and damage done by up to 10 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "source": "Alzzin the Wildshaper",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18309",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18309",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18310",
+          "name": "Fiendish Machete",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "One-Hand",
+          "type": "Sword",
+          "stats": [
+            "65 -121 Damage",
+            "Speed 2.40",
+            "38.75 DPS",
+            "+5 Agility",
+            "Equip: +18 Attack Power.",
+            "Equip: +18 Attack Power against Elementals."
+          ],
+          "rogueUsable": true,
+          "source": "Alzzin the Wildshaper",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18310",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18310",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18312",
+          "name": "Energized Chestplate",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Chest",
+          "type": "Plate",
+          "stats": [
+            "617 Armor",
+            "+13 Strength",
+            "+20 Stamina",
+            "+12 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 15 ."
+          ],
+          "rogueUsable": false,
+          "source": "Alzzin the Wildshaper",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18312",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18312",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18314",
+          "name": "Ring of Demonic Guile",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+10 Intellect",
+            "Restores +4 mana per 5 sec.",
+            "Equip: Improves your chance to hit by 1.0%."
+          ],
+          "rogueUsable": true,
+          "source": "Alzzin the Wildshaper",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18314",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18314",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18315",
+          "name": "Ring of Demonic Potency",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "+10 Stamina",
+            "Restores +12 health per 5 sec.",
+            "Equip: Increased Defense +7."
+          ],
+          "rogueUsable": true,
+          "source": "Alzzin the Wildshaper",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18315",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18315",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18318",
+          "name": "Merciful Greaves",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Feet",
+          "type": "Mail",
+          "stats": [
+            "240 Armor",
+            "+14 Stamina",
+            "+14 Intellect",
+            "Equip: Increases healing done by up to 20 and damage done by up to 7 for all magical spells and effects."
+          ],
+          "rogueUsable": false,
+          "source": "Alzzin the Wildshaper",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18318",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18318",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18321",
+          "name": "Energetic Rod",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Main Hand",
+          "type": "Mace",
+          "stats": [
+            "41 -78 Damage",
+            "Speed 2.30",
+            "25.87 DPS",
+            "+5 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 68 .",
+            "Equip: Chance on landing a damaging spell to restore 48 mana to you."
+          ],
+          "rogueUsable": true,
+          "source": "Alzzin the Wildshaper",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18321",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18321",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18326",
+          "name": "Razor Gauntlets",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Hands",
+          "type": "Plate",
+          "stats": [
+            "386 Armor",
+            "+9 Strength",
+            "Equip: When struck in combat, inflicts 7 Nature damage to the attacker."
+          ],
+          "rogueUsable": false,
+          "source": "Alzzin the Wildshaper",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18326",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18326",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18327",
+          "name": "Whipvine Cord",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "47 Armor",
+            "+9 Intellect",
+            "Restores +6 mana per 5 sec.",
+            "Equip: Increases healing done by up to 29 and damage done by up to 10 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "source": "Alzzin the Wildshaper",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18327",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18327",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "18328",
+          "name": "Shadewood Cloak",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "42 Armor",
+            "+13 Strength",
+            "+8 Stamina",
+            "+8 Nature Resistance"
+          ],
+          "rogueUsable": true,
+          "source": "Alzzin the Wildshaper",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=18328",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/18328",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+            "https://foreverchanges.pro/dungeons/dire-maul-east"
+          ]
+        },
+        {
+          "id": "22304",
+          "name": "Ironweave Gloves",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "54 Armor",
+            "+17 Stamina",
+            "+11 Intellect",
+            "+90 Armor",
+            "Equip: Your spells pierce 3 Magical Resistance.",
+            "2-piece set: +200 Armor.",
+            "3-piece set: Decreases the magical resistances of your spell targets by 5.",
+            "4-piece set: Reduces the hit chance of Silence and Interrupt effects against you by 10%.",
+            "5-piece set: Increases damage and healing done by magical spells and effects by up to 23.",
+            "6-piece set: The Ironweave hardens under duress, reducing damage taken while Stunned by 15%.",
+            "Classes: Priest, Mage, Warlock"
+          ],
+          "rogueUsable": false,
+          "source": "Isalien (summoned)",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22304",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22304",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua"
+          ]
+        },
+        {
+          "id": "22314",
+          "name": "Huntsman's Harpoon",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Two-Hand",
+          "type": "Polearm",
+          "stats": [
+            "150 -226 Damage",
+            "Speed 3.60",
+            "52.22 DPS",
+            "+30 Agility",
+            "Equip: +36 Attack Power against Beasts."
+          ],
+          "rogueUsable": false,
+          "source": "Isalien (summoned)",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22314",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22314",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua"
+          ]
+        },
+        {
+          "id": "22315",
+          "name": "Hammer of Revitalization",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Main Hand",
+          "type": "Mace",
+          "stats": [
+            "50 -94 Damage",
+            "Speed 2.70",
+            "26.67 DPS",
+            "+5 Stamina",
+            "Restores +5 mana per 5 sec.",
+            "Equip: Increases healing done by up to 131 and damage done by up to 43 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "source": "Isalien (summoned)",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22315",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22315",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua"
+          ]
+        },
+        {
+          "id": "22345",
+          "name": "Totem of Tides",
+          "quality": 3,
+          "requiredLevel": 57,
+          "itemLevel": 62,
+          "slot": "Relic",
+          "type": "Totem",
+          "stats": [
+            "Equip: Reduces the Mana cost of Riptide by 5%."
+          ],
+          "rogueUsable": false,
+          "source": "Isalien (summoned)",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22345",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22345",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua"
+          ]
+        },
+        {
+          "id": "22401",
+          "name": "Libram of Hope",
+          "quality": 3,
+          "requiredLevel": 57,
+          "itemLevel": 62,
+          "slot": "Relic",
+          "type": "Libram",
+          "stats": [
+            "Equip: Increases the duration of your Seal spells by 4 sec."
+          ],
+          "rogueUsable": false,
+          "source": "Isalien (summoned)",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22401",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22401",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua"
+          ]
+        },
+        {
+          "id": "22472",
+          "name": "Boots of Ferocity",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "118 Armor",
+            "+12 Strength",
+            "+9 Agility",
+            "+13 Stamina",
+            "Equip: Increased Defense +6."
+          ],
+          "rogueUsable": true,
+          "source": "Isalien (summoned)",
+          "sourceOrder": 7,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22472",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22472",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua"
+          ]
+        }
+      ]
     }
   }
 }

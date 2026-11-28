@@ -53344,5 +53344,213 @@
     },
     "prerequisites": [],
     "previousQuests": []
+  },
+  {
+    "id": "7494",
+    "zone": "Dire Maul East",
+    "level": 57,
+    "name": "Feathermoon Stronghold",
+    "stage": "Alliance · Optional introduction · min. level 54",
+    "giver": "Crier Goodman",
+    "area": "Stormwind City",
+    "coordinates": "56.4, 74.1",
+    "objective": "Speak with Latronicus Moonspear at Feathermoon Stronghold in Feralas. Also offered by Courier Hammerfall in Ironforge and Herald Moonstalker in Darnassus.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/7494/feathermoon-stronghold",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "pickupLocation": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "7488",
+    "zone": "Dire Maul East",
+    "level": 57,
+    "name": "Lethtendris's Web",
+    "stage": "Alliance · min. level 54",
+    "giver": "Latronicus Moonspear",
+    "area": "Feathermoon Stronghold (Feralas)",
+    "coordinates": "30.4, 46.2",
+    "objective": "Defeat Lethtendris in Dire Maul East and bring her web to Latronicus Moonspear at Feathermoon Stronghold.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/7488/lethtendriss-web",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "pickupLocation": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "7494",
+        "name": "Feathermoon Stronghold",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ],
+        "relation": "Optional introduction"
+      }
+    ]
+  },
+  {
+    "id": "7441",
+    "zone": "Dire Maul East",
+    "level": 58,
+    "name": "Pusillin and the Elder Azj'Tordin",
+    "stage": "Pusillin chase · min. level 54",
+    "giver": "Azj'Tordin",
+    "area": "Lariss Pavilion (Feralas)",
+    "coordinates": "76.9, 37.4",
+    "objective": "Speak with Pusillin and follow his route through Dire Maul East. Defeat him at the end of the chase and return his Book of Incantations to Azj'Tordin.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/7441/pusillin-and-the-elder-azjtordin",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "pickupLocation": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5526",
+    "zone": "Dire Maul East",
+    "level": 60,
+    "name": "Shards of the Felvine",
+    "stage": "Felvine · min. level 56",
+    "giver": "Rabine Saturna",
+    "area": "Nighthaven (Moonglade)",
+    "coordinates": "51.7, 45.1",
+    "objective": "Defeat Alzzin the Wildshaper, collect the nearby Felvine Shard, and seal it in the Reliquary of Purity. Return the sealed reliquary to Rabine Saturna in Moonglade.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/5526/shards-of-the-felvine",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "pickupLocation": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "5527",
+        "name": "A Reliquary of Purity",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8990",
+    "zone": "Dire Maul East",
+    "level": 60,
+    "name": "The Right Piece of Lord Valthalak's Amulet",
+    "stage": "Dungeon Set 2 · Warrior/Rogue branch · Summoned encounter · min. level 58",
+    "giver": "Bodley",
+    "area": "Blackrock Mountain (Burning Steppes approach)",
+    "coordinates": "32.3, 25.8",
+    "objective": "Use the Brazier of Beckoning in Alzzin’s room to summon Isalien. Defeat her, combine the amulet pieces, and return the recombined amulet and brazier to Bodley in Blackrock Mountain.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/8990/the-right-piece-of-lord-valthalaks-amulet",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/dire%20maul.lua",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "pickupLocation": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "8985",
+        "name": "More Components of Importance",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "7498",
+    "giver": "Garona: A Study on Stealth and Treachery",
+    "area": "Item start · Dire Maul",
+    "coordinates": "",
+    "zone": "Dire Maul East",
+    "name": "Garona: A Study on Stealth and Treachery",
+    "level": 60,
+    "stage": "Dire Maul class book · min. level 54 · Availability unverified · Classic reference",
+    "faction": "Both",
+    "objective": "Loot the class book in Dire Maul and take it to Lorekeeper Kildrath in the Athenaeum for the Royal Seal of Eldre’Thalas.",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=7498",
+      "https://www.wowhead.com/classic/quest=7498",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://zephras.com/forever/enUS/quest/7498/"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "availability": "unverified",
+      "objective": "classic-reference"
+    },
+    "minimumLevel": 54,
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "96076",
+    "zone": "Dire Maul East",
+    "level": 60,
+    "name": "In Demand - Ancient Elven Curiosities",
+    "stage": "",
+    "giver": "Pix Xizzix",
+    "coordinates": "28.5, 75.9",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Travel to Dire Maul to acquire a Felvine Seed from Alzzin the Wildshaper, an Ancient Memento from Prince Tortheldrin, and an Earthstone Diamond Pinky Ring from King Gordok, and bring them to Pix Xizzix in Booty Bay.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 60; Starter from player observations; pickup coordinates are community references",
+    "sources": [
+      "https://foreverchanges.pro/quest/96076/in-demand-ancient-elven-curiosities",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "community",
+      "pickupLocation": "community",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
   }
 ]
