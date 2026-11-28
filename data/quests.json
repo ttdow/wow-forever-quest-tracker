@@ -49645,5 +49645,318 @@
       }
     ],
     "previousQuests": []
+  },
+  {
+    "id": "92345",
+    "zone": "Blackmaw Hold",
+    "level": 55,
+    "name": "Beneath Nordrassil",
+    "stage": "Blackmaw Hold introduction",
+    "giver": "Commander Truesong",
+    "coordinates": "11.8, 78.3",
+    "area": "Talrendis Point",
+    "objective": "Travel to Darnassus and talk to Mathrengyl Bearwalker in the Cenarion Enclave about Blackmaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Alliance",
+    "sources": [
+      "https://mobalytics.gg/wow-forever/dungeons/blackmaw-hold-dungeon-quests",
+      "https://foreverchanges.pro/quest/92345/beneath-nordrassil"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "92344",
+    "zone": "Blackmaw Hold",
+    "level": 55,
+    "name": "Get to the Roots of It",
+    "stage": "Dungeon · min. level 45 · Alliance",
+    "giver": "Mathrengyl Bearwalker",
+    "coordinates": "35.2, 8.0",
+    "area": "Cenarion Enclave (Darnassus)",
+    "objective": "Gather 10 Nordrassil Root Caps inside Blackmaw Hold and return them to Mathrengyl Bearwalker in Darnassus.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://nether.wowhead.com/forever/tooltip/quest/92344",
+      "https://foreverchanges.pro/quest/92344/get-to-the-roots-of-it"
+    ],
+    "evidence": {
+      "identity": "wowhead-and-questie",
+      "objective": "wowhead-and-questie",
+      "level": "questie-and-wowhead",
+      "faction": "questie-and-guide",
+      "giver": "questie-and-addon",
+      "pickupLocation": "current-guide-and-records"
+    },
+    "prerequisites": [
+      {
+        "id": "92345",
+        "name": "Beneath Nordrassil",
+        "evidence": "forever-records",
+        "sources": [
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua",
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "92065",
+    "zone": "Blackmaw Hold",
+    "level": 60,
+    "name": "Blackmaw Reclamation",
+    "stage": "Blackmaw Hold",
+    "giver": "Gatekeeper Rageroar",
+    "coordinates": "42.3, 20.1",
+    "area": "Ursolan",
+    "objective": "Kill Varrox Bleakhoof in Blackmaw Hold and return his head to Gatekeeper Rageroar in Ursolan. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Dungeon finale of the outdoor Blackmaw chain. · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://www.foreverdb.app/en/forever/quests/92065/blackmaw-reclamation",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "86814",
+        "name": "Blackmaw Counter-Offensive",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.foreverdb.app/en/forever/quests/92065/blackmaw-reclamation"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "92066",
+    "zone": "Blackmaw Hold",
+    "level": 55,
+    "name": "The Twin Bears",
+    "stage": "Blackmaw Hold",
+    "giver": "Lorekeeper Nok",
+    "coordinates": "41.3, 20.1",
+    "area": "Ursolan",
+    "objective": "Recover the Totem of Ursoc and Totem of Ursol inside Blackmaw Hold. Return both to Lorekeeper Nok. Requires Neutral or higher with Timbermaw Hold.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Both factions · Dungeon objective. · Neutral or higher with Timbermaw Hold.",
+    "sources": [
+      "https://db.icy-veins.com/wow-forever/quests/92066",
+      "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "92069",
+    "zone": "Blackmaw Hold",
+    "level": 58,
+    "name": "Claws That Rend, Tusks that Gore",
+    "stage": "Blackmaw Hold",
+    "giver": "Ogtinc",
+    "coordinates": "42.4, 42.6",
+    "area": "Near the Ruins of Eldarath",
+    "objective": "Get the Claws of the Great Bear and the Tusks of the Unbroken inside Blackmaw Hold and take both to Ogtinc.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 45 · Both factions · Dungeon objective.",
+    "sources": [
+      "https://db.icy-veins.com/wow-forever/quests/92069"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97173",
+    "zone": "Blackmaw Hold",
+    "level": 59,
+    "name": "Blackmaw Magic",
+    "stage": "Dungeon · min. level 52 · Alliance",
+    "giver": "Archmage Timear",
+    "coordinates": "15.37, 74.09",
+    "area": "Dalaran (Alterac Mountains)",
+    "objective": "Recover a Blackmaw Ritual Totem from Elder Shaman Bloodmane in Blackmaw Hold and return it to Archmage Timear in Dalaran.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://nether.wowhead.com/forever/tooltip/quest/97173",
+      "https://foreverchanges.pro/quest/97173/blackmaw-magic",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "identity": "wowhead-and-questie",
+      "objective": "wowhead-and-questie",
+      "level": "questie-and-wowhead",
+      "faction": "questie-and-guide",
+      "giver": "questie-and-addon",
+      "pickupLocation": "questie-npc-trace"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97327",
+    "zone": "Blackmaw Hold",
+    "level": 60,
+    "name": "Blackmaw Pouches",
+    "stage": "Blackmaw Hold · First turn-in",
+    "giver": "Ekkal",
+    "coordinates": "42.0, 38.9",
+    "area": "Ruins of Eldarath",
+    "objective": "Collect 5 Blackmaw Pouches inside Blackmaw Hold and take them to Ekkal.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 55 · Both factions · Dungeon objective.",
+    "sources": [
+      "https://db.icy-veins.com/wow-forever/quests/97327",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "96246",
+    "zone": "Blackmaw Hold",
+    "level": 60,
+    "name": "Blackmaw Pouches",
+    "stage": "Blackmaw Hold · Repeatable",
+    "giver": "Ekkal",
+    "coordinates": "42.0, 38.9",
+    "area": "Ruins of Eldarath",
+    "objective": "Bring Ekkal another 5 Blackmaw Pouches for Timbermaw Hold reputation.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 55 · Both factions · Repeatable follow-up worth 100 reputation.",
+    "sources": [
+      "https://db.icy-veins.com/wow-forever/quests/96246",
+      "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "97327",
+        "name": "Blackmaw Pouches",
+        "evidence": "forever-records",
+        "sources": [
+          "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "92070",
+    "zone": "Blackmaw Hold",
+    "level": 55,
+    "name": "A Lost Memento",
+    "stage": "Dungeon · min. level 47 · Requires Neutral with Timbermaw Hold",
+    "giver": "Feathered Charm Necklace (item)",
+    "coordinates": "",
+    "area": "Blackmaw Hold",
+    "objective": "Find the Feathered Charm Necklace inside Blackmaw Hold and return it to Unele at Ursolan in Azshara (43.2, 18.2).",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://nether.wowhead.com/forever/tooltip/quest/92070",
+      "https://nether.wowhead.com/forever/tooltip/npc/249855"
+    ],
+    "evidence": {
+      "identity": "wowhead-and-questie",
+      "objective": "wowhead-and-questie",
+      "level": "questie-and-wowhead",
+      "faction": "questie-and-guide",
+      "giver": "questie-and-addon",
+      "pickupLocation": "current-guide-and-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "92067",
+    "zone": "Blackmaw Hold",
+    "level": 55,
+    "name": "Feeding Time!",
+    "stage": "Dungeon · min. level 45 · Repeatable",
+    "giver": "Flesh-Eating Lasher",
+    "coordinates": "",
+    "area": "Blackmaw Hold",
+    "objective": "Bring 1 Fel-Tainted Flesh to the Flesh-Eating Lasher inside Blackmaw Hold for a Regurgitated Seed Pod.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://nether.wowhead.com/forever/tooltip/quest/92067",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/foreverQuestFixes.lua",
+      "https://nether.wowhead.com/forever/tooltip/npc/249717"
+    ],
+    "evidence": {
+      "identity": "wowhead-and-questie",
+      "objective": "wowhead-required-item-and-addon",
+      "level": "questie-authored-correction",
+      "faction": "questie-and-guide",
+      "giver": "questie-and-addon",
+      "pickupLocation": "current-guide-and-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
   }
 ]

@@ -1,0 +1,963 @@
+{
+  "reviewedOn": "2026-11-27",
+  "build": "1.60.1.71139",
+  "attRevision": "789b0feb395396c181999063b691f854167595c6",
+  "questieRevision": "0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba",
+  "dungeonId": 2974,
+  "suggestedLevels": [
+    55,
+    60
+  ],
+  "sources": {
+    "official": "https://worldofwarcraft.blizzard.com/en-us/news/24301455/",
+    "guide": "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+    "current": "https://foreverchanges.pro/dungeons/blackmaw-hold",
+    "index": "https://foreverchanges.pro/quests/blackmaw-hold",
+    "addon": "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+  },
+  "counts": {
+    "quests": 10,
+    "sharedIds": [
+      "92345",
+      "92065",
+      "92066",
+      "92069",
+      "97327",
+      "96246"
+    ],
+    "equipment": 29,
+    "bossCards": 11,
+    "rareCards": 4,
+    "rogueUsable": 17,
+    "seen": 22
+  },
+  "candidates": [
+    {
+      "id": "92065",
+      "name": "Blackmaw Reclamation",
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or introduction",
+      "generated": " -- Blackmaw Reclamation : https://wowhead.com/forever/quest=92065/blackmaw-reclamation\n            [questKeys.name] = \"Blackmaw Reclamation\",\n            [questKeys.startedBy] = {{236573}},\n            [questKeys.finishedBy] = {{236573}},\n            [questKeys.requiredLevel] = 47,\n            [questKeys.questLevel] = 60,\n            [questKeys.objectivesText] = {\"Bring Varrox Bleakhoof's Head to Gatekeeper Rageroar at Ursolan.\"},\n            [questKeys.objectives] = {nil, nil, {{249692}}},\n            [questKeys.reputationReward] = {{576, 150}},\n",
+      "trace": "\n            [questKeys.name] = \"Blackmaw Reclamation\",\n            [questKeys.questLevel] = 60,\n            [questKeys.objectives] = {nil,nil,{{249692}}},\n            [questKeys.objectivesText] = {\"Bring Varrox Bleakhoof's Head to Gatekeeper Rageroar at Ursolan.\"},\n            [questKeys.startedBy_add] = {{236573}},\n            [questKeys.finishedBy_add] = {{236573}},\n",
+      "authoredCorrection": " -- Blackmaw Reclamation\n            [questKeys.requiredRaces] = raceIDs.NONE, -- unverified\n            [questKeys.zoneOrSort] = zoneIDs.BLACKMAW_HOLD,\n",
+      "page": null
+    },
+    {
+      "id": "92066",
+      "name": "The Twin Bears",
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or introduction",
+      "generated": " -- The Twin Bears : https://wowhead.com/forever/quest=92066/the-twin-bears\n            [questKeys.name] = \"The Twin Bears\",\n            [questKeys.startedBy] = {{249853}},\n            [questKeys.finishedBy] = {{249853}},\n            [questKeys.requiredLevel] = 47,\n            [questKeys.questLevel] = 55,\n            [questKeys.objectivesText] = {\"Find the Totem of Ursoc and the Totem of Ursol inside Blackmaw Hold. Then, return them to Lorekeeper Nok at Ursolan.\"},\n            [questKeys.objectives] = {nil, nil, {{249694}, {249693}}},\n            [questKeys.reputationReward] = {{576, 150}},\n",
+      "trace": "\n            [questKeys.name] = \"The Twin Bears\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectives] = {nil,nil,{{249694},{249693}}},\n            [questKeys.objectivesText] = {\"Find the Totem of Ursoc and the Totem of Ursol inside Blackmaw Hold. Then, return them to Lorekeeper Nok at Ursolan.\"},\n            [questKeys.startedBy_add] = {{249853}},\n            [questKeys.finishedBy_add] = {{249853}},\n            [questKeys.reputationReward] = {{576,150}},\n",
+      "authoredCorrection": " -- The Twin Bears\n            [questKeys.requiredRaces] = raceIDs.NONE, -- unverified\n            [questKeys.zoneOrSort] = zoneIDs.BLACKMAW_HOLD,\n",
+      "page": {
+        "name": "The Twin Bears",
+        "facts": {
+          "Level": "55 , requires level 47",
+          "Difficulty": "47 51 53 58",
+          "Side": "Both factions",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "92066"
+        },
+        "pickup": [],
+        "objective": "Find the Totem of Ursoc and the Totem of Ursol inside Blackmaw Hold. Then, return them to Lorekeeper Nok at Ursolan.",
+        "requirements": [
+          "Totem of Ursoc",
+          "Totem of Ursol"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/92066/the-twin-bears",
+        "sheetText": "Quest Objectives | Find the Totem of Ursoc and the Totem of Ursol inside Blackmaw Hold. Then, return them to Lorekeeper Nok at Ursolan. | Totem of Ursoc | Totem of Ursol | Description | When the Legashi invaded, many precious things were left behind in the commotion. Of particular value to me are two totems. They depict legends of our twin gods, Ursoc and Ursol. | I know our immediate survival is of greatest concern, but we must also think of saving our people's history. | Those totems are likely still in our former hold. If they are, you would be doing a great kindness by returning them to me. | Rewards | You will be able to choose one of these rewards: | Guidance of Ursoc | Wisdom of Ursol | Experience: | 11,300 | +150 reputation with Timbermaw Hold"
+      }
+    },
+    {
+      "id": "92067",
+      "name": "Feeding Time!",
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or introduction",
+      "generated": null,
+      "trace": "\n            [questKeys.name] = \"Feeding Time!\",\n",
+      "authoredCorrection": " -- Feeding Time!\n            [questKeys.requiredLevel] = 45,\n            [questKeys.questLevel] = 55,\n            [questKeys.requiredRaces] = raceIDs.NONE,\n            [questKeys.zoneOrSort] = zoneIDs.BLACKMAW_HOLD,\n",
+      "page": null
+    },
+    {
+      "id": "92069",
+      "name": "Claws That Rend, Tusks that Gore",
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or introduction",
+      "generated": null,
+      "trace": "\n            [questKeys.name] = \"Claws That Rend, Tusks that Gore\",\n            [questKeys.questLevel] = 58,\n            [questKeys.objectives] = {nil,nil,{{249697},{249696}}},\n            [questKeys.objectivesText] = {\"Bring the Claws of the Great Bear and the Tusks of the Unbroken to Ogtinc, in Azshara.\"},\n            [questKeys.startedBy_add] = {{8405}},\n            [questKeys.finishedBy_add] = {{8405}},\n            [questKeys.reputationReward] = {{576,150}},\n",
+      "authoredCorrection": " -- Claws That Rend, Tusks that Gore\n            [questKeys.requiredLevel] = 45,\n            [questKeys.requiredRaces] = raceIDs.NONE,\n            [questKeys.zoneOrSort] = zoneIDs.BLACKMAW_HOLD,\n",
+      "page": {
+        "name": "Claws That Rend, Tusks that Gore",
+        "facts": {
+          "Start": "Ogtinc Azshara 42.3 , 42.7",
+          "Level": "58 , requires level 45",
+          "Difficulty": "45 54 56",
+          "Side": "Both factions",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "92069",
+          "giver": "Ogtinc"
+        },
+        "pickup": [
+          "Azshara 42.3 , 42.7"
+        ],
+        "objective": "Bring the Claws of the Great Bear and the Tusks of the Unbroken to Ogtinc, in Azshara.",
+        "requirements": [
+          "Claws of the Great Bear",
+          "Tusks of the Unbroken"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/92069/claws-that-rend-tusks-that-gore",
+        "sheetText": "Quest Objectives | Bring the Claws of the Great Bear and the Tusks of the Unbroken to Ogtinc, in Azshara. | Claws of the Great Bear | Tusks of the Unbroken | Description | Two behemoths patrol the place the Blackmaw once called home: Bonesnout, the Unbroken and Withermaw, the great bear. Generations of hunters have tried to fell them, and all have failed. | I take no joy in asking you to slay these magnificent beasts, but my people need to be able to return home. The least I can do is ensure their deaths are not in vain. If you bring me their remains, I will fashion a weapon in memory of their strength. | Rewards | You will be able to choose one of these rewards: | Wild Malleus | Experience: | 12,400 | +150 reputation with Timbermaw Hold"
+      }
+    },
+    {
+      "id": "92070",
+      "name": "A Lost Memento",
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or introduction",
+      "generated": " -- A Lost Memento : https://wowhead.com/forever/quest=92070/a-lost-memento\n            [questKeys.name] = \"A Lost Memento\",\n            [questKeys.startedBy] = {nil, nil, {249698}},\n            [questKeys.finishedBy] = {{249855}},\n            [questKeys.requiredLevel] = 47,\n            [questKeys.questLevel] = 55,\n            [questKeys.objectivesText] = {\"Find the owner of the Feathered Charm Necklace.\"},\n            [questKeys.objectives] = {nil, nil, {{249698}}},\n            [questKeys.reputationReward] = {{576, 100}},\n",
+      "trace": "\n            [questKeys.name] = \"A Lost Memento\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectives] = {nil,nil,{{249698}}},\n            [questKeys.objectivesText] = {\"Find the owner of the Feathered Charm Necklace.\"},\n            [questKeys.finishedBy_add] = {{249855}},\n            [questKeys.reputationReward] = {{576,100}},\n",
+      "authoredCorrection": " -- A Lost Memento\n            [questKeys.requiredRaces] = raceIDs.NONE,\n            [questKeys.zoneOrSort] = zoneIDs.BLACKMAW_HOLD,\n",
+      "page": null
+    },
+    {
+      "id": "92343",
+      "name": "\"Get to the Roots of It\"",
+      "decision": "exclude",
+      "reason": "Horde-only variant",
+      "generated": " -- Get to the Roots of It : https://wowhead.com/forever/quest=92343/get-to-the-roots-of-it\n            [questKeys.name] = \"Get to the Roots of It\",\n            [questKeys.startedBy] = {{5770}},\n            [questKeys.finishedBy] = {{5770}},\n            [questKeys.requiredLevel] = 45,\n            [questKeys.questLevel] = 55,\n            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,\n            [questKeys.objectivesText] = {\"Gather 10 Nordrassil Root Caps inside Blackmaw Hold for Nara Wildmane in Thunder Bluff.\"},\n            [questKeys.objectives] = {nil, nil, {{250773}}},\n            [questKeys.reputationReward] = {{81, 150}},\n",
+      "trace": "\n            [questKeys.name] = \"Get to the Roots of It\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectives] = {nil,nil,{{250773}}},\n            [questKeys.objectivesText] = {\"Gather 10 Nordrassil Root Caps inside Blackmaw Hold for Nara Wildmane in Thunder Bluff.\"},\n            [questKeys.startedBy_add] = {{5770}},\n            [questKeys.finishedBy_add] = {{5770}},\n            [questKeys.reputationReward] = {{67,37.5},{68,37.5},{76,37.5},{81,150},{530,37.5}},\n",
+      "authoredCorrection": " -- Get to the Roots of It\n            [questKeys.preQuestSingle] = {92345,92346},\n            [questKeys.zoneOrSort] = zoneIDs.BLACKMAW_HOLD,\n",
+      "page": {
+        "name": "Get to the Roots of It",
+        "facts": {
+          "Start": "Nara Wildmane Thunder Bluff 75.8 , 31.1",
+          "Level": "55 , requires level 45",
+          "Difficulty": "45 51 53 58",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "92343",
+          "giver": "Nara Wildmane"
+        },
+        "pickup": [
+          "Thunder Bluff 75.8 , 31.1"
+        ],
+        "objective": "Gather 10 Nordrassil Root Caps inside Blackmaw Hold for Nara Wildmane in Thunder Bluff.",
+        "requirements": [
+          "10 Nordrassil Root Cap"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/92343/get-to-the-roots-of-it",
+        "sheetText": "Quest Objectives | Gather 10 Nordrassil Root Caps inside Blackmaw Hold for Nara Wildmane in Thunder Bluff. | 10 | Nordrassil Root Cap | Description | The burrow you speak of is a tunnel to Blackmaw Hold. In the past, the furbolg have guarded it fiercely, making it inaccessible to outsiders. With this satyr situation, however, we can get inside. | So close to Nordrassil, there would be actively growing roots. Older roots can be seen on the world's surface, but newer ones can only be found deep underground. Little is known of their magical properties. | If you were to bring me some samples to study, the druids of Thunder Bluff would be in your debt."
+      }
+    },
+    {
+      "id": "92344",
+      "name": "Get to the Roots of It",
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or introduction",
+      "generated": " -- Get to the Roots of It : https://wowhead.com/forever/quest=92344/get-to-the-roots-of-it\n            [questKeys.name] = \"Get to the Roots of It\",\n            [questKeys.requiredLevel] = 45,\n            [questKeys.questLevel] = 55,\n            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,\n            [questKeys.objectivesText] = {\"Gather 10 Nordrassil Root Caps inside Blackmaw Hold for Mathrengyl Bearwalker in Darnassus.\"},\n            [questKeys.objectives] = {nil, nil, {{250773}}},\n            [questKeys.reputationReward] = {{69, 150}},\n",
+      "trace": "\n            [questKeys.name] = \"Get to the Roots of It\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectives] = {nil,nil,{{250773}}},\n            [questKeys.objectivesText] = {\"Gather 10 Nordrassil Root Caps inside Blackmaw Hold for Mathrengyl Bearwalker in Darnassus.\"},\n            [questKeys.startedBy_add] = {{4217}},\n            [questKeys.finishedBy_add] = {{4217}},\n            [questKeys.reputationReward] = {{47,37.5},{54,37.5},{69,150},{72,37.5},{469,37.5}},\n",
+      "authoredCorrection": " -- Get to the Roots of It\n            [questKeys.preQuestSingle] = {92345,92346},\n            [questKeys.zoneOrSort] = zoneIDs.BLACKMAW_HOLD,\n",
+      "page": {
+        "name": "Get to the Roots of It",
+        "facts": {
+          "Start": "Mathrengyl Bearwalker Darnassus 35.2 , 8",
+          "Level": "55 , requires level 45",
+          "Difficulty": "45 51 53 58",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "92344",
+          "giver": "Mathrengyl Bearwalker"
+        },
+        "pickup": [
+          "Darnassus 35.2 , 8"
+        ],
+        "objective": "Gather 10 Nordrassil Root Caps inside Blackmaw Hold for Mathrengyl Bearwalker in Darnassus.",
+        "requirements": [
+          "10 Nordrassil Root Cap"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/92344/get-to-the-roots-of-it",
+        "sheetText": "Quest Objectives | Gather 10 Nordrassil Root Caps inside Blackmaw Hold for Mathrengyl Bearwalker in Darnassus. | 10 | Nordrassil Root Cap | Description | The burrow you speak of is a tunnel to Blackmaw Hold. In the past, the furbolg have guarded it fiercely, making it inaccessible to outsiders. With this satyr situation, however, we can get inside. | So close to Nordrassil, there would be actively growing roots. Older roots can be seen on the world's surface, but newer ones can only be found deep underground. Little is known of their magical properties. | If you were to bring me some samples to study, the Cenarion Circle would be in your debt."
+      }
+    },
+    {
+      "id": "92345",
+      "name": "Beneath Nordrassil",
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or introduction",
+      "generated": " -- Beneath Nordrassil : https://wowhead.com/forever/quest=92345/beneath-nordrassil\n            [questKeys.name] = \"Beneath Nordrassil\",\n            [questKeys.requiredLevel] = 45,\n            [questKeys.questLevel] = 55,\n            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,\n            [questKeys.objectivesText] = {\"Speak to Mathrengyl Bearwalker at the Cenarion Enclave in Darnassus.\"},\n            [questKeys.zoneOrSort] = zoneIDs.AZSHARA,\n",
+      "trace": "\n            [questKeys.name] = \"Beneath Nordrassil\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectivesText] = {\"Speak to Mathrengyl Bearwalker at the Cenarion Enclave in Darnassus.\"},\n            [questKeys.startedBy_add] = {{239822}},\n            [questKeys.requiredRaces] = 4294967373,\n            [questKeys.finishedBy_add] = {{4217}},\n",
+      "authoredCorrection": " -- Beneath Nordrassil\n            [questKeys.nextQuestInChain] = 92344,\n            [questKeys.exclusiveTo] = {92346},\n",
+      "page": {
+        "name": "Beneath Nordrassil",
+        "facts": {
+          "Start": "Commander Truesong Azshara 11.8 , 78.3",
+          "Level": "55 , requires level 45",
+          "Difficulty": "45 51 53 58",
+          "Side": "Alliance",
+          "Shareable": "Yes",
+          "Quest ID": "92345",
+          "giver": "Commander Truesong"
+        },
+        "pickup": [
+          "Azshara 11.8 , 78.3"
+        ],
+        "objective": "Speak to Mathrengyl Bearwalker at the Cenarion Enclave in Darnassus.",
+        "requirements": [],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/92345/beneath-nordrassil",
+        "sheetText": "Quest Objectives | Speak to Mathrengyl Bearwalker at the Cenarion Enclave in Darnassus. | Description | You may have noticed the furbolg and satyr north of here fighting over a burrow. The conflict does not interest me as much as what could be inside. That burrow seems to lead beneath Nordrassil. | I don't think I need to tell you how this could be of interest to the Kaldorei. | We have our hands full here as it is, but the druids of Darnassus should be informed. Find Mathrengyl Bearwalker in the Cenarion Enclave. He can decide if this is something worth pursuing."
+      }
+    },
+    {
+      "id": "92346",
+      "name": "Beneath Nordrassil",
+      "decision": "exclude",
+      "reason": "Horde-only variant",
+      "generated": " -- Beneath Nordrassil : https://wowhead.com/forever/quest=92346/beneath-nordrassil\n            [questKeys.name] = \"Beneath Nordrassil\",\n            [questKeys.requiredLevel] = 45,\n            [questKeys.questLevel] = 55,\n            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,\n            [questKeys.objectivesText] = {\"Speak to Nara Wildmane at Elder Rise in Thunder Bluff.\"},\n            [questKeys.zoneOrSort] = zoneIDs.AZSHARA,\n",
+      "trace": "\n            [questKeys.name] = \"Beneath Nordrassil\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectivesText] = {\"Speak to Nara Wildmane at Elder Rise in Thunder Bluff.\"},\n            [questKeys.startedBy_add] = {{8587}},\n            [questKeys.requiredRaces] = 8589934770,\n            [questKeys.finishedBy_add] = {{5770}},\n",
+      "authoredCorrection": " -- Beneath Nordrassil\n            [questKeys.nextQuestInChain] = 92343,\n            [questKeys.exclusiveTo] = {92345},\n",
+      "page": null
+    },
+    {
+      "id": "96246",
+      "name": "Blackmaw Pouches",
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or introduction",
+      "generated": " -- Blackmaw Pouches : https://wowhead.com/forever/quest=96246/blackmaw-pouches\n            [questKeys.name] = \"Blackmaw Pouches\",\n            [questKeys.startedBy] = {{235903}},\n            [questKeys.finishedBy] = {{235903}},\n            [questKeys.requiredLevel] = 55,\n            [questKeys.questLevel] = 60,\n            [questKeys.objectives] = {nil, nil, {{273050}}},\n            [questKeys.reputationReward] = {{576, 100}},\n",
+      "trace": "\n            [questKeys.name] = \"Blackmaw Pouches\",\n            [questKeys.finishedBy_add] = {{235903}},\n            [questKeys.reputationReward] = {{576,100}},\n",
+      "authoredCorrection": " -- Blackmaw Pouches\n            [questKeys.requiredRaces] = raceIDs.NONE, -- unverified\n            [questKeys.preQuestSingle] = {97327},\n            [questKeys.zoneOrSort] = zoneIDs.BLACKMAW_HOLD,\n",
+      "page": null
+    },
+    {
+      "id": "97173",
+      "name": "Blackmaw Magic",
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or introduction",
+      "generated": " -- Blackmaw Magic : https://wowhead.com/forever/quest=97173/blackmaw-magic\n            [questKeys.name] = \"Blackmaw Magic\",\n            [questKeys.requiredLevel] = 52,\n            [questKeys.questLevel] = 59,\n            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,\n            [questKeys.objectivesText] = {\"Recover a Blackmaw Ritual Totem from Blackmaw Hold.\"},\n            [questKeys.objectives] = {nil, nil, {{276893}}},\n            [questKeys.reputationReward] = {{69, 150}, {2740, 300}},\n",
+      "trace": "\n            [questKeys.name] = \"Blackmaw Magic\",\n            [questKeys.questLevel] = 59,\n            [questKeys.objectives] = {nil,nil,{{276893}}},\n            [questKeys.objectivesText] = {\"Recover a Blackmaw Ritual Totem from Blackmaw Hold.\"},\n            [questKeys.startedBy_add] = {{31439}},\n            [questKeys.finishedBy_add] = {{31439}},\n            [questKeys.reputationReward] = {{47,37.5},{54,37.5},{69,150},{72,37.5},{469,37.5},{2740,300}},\n",
+      "authoredCorrection": " -- Blackmaw Magic\n            [questKeys.zoneOrSort] = zoneIDs.BLACKMAW_HOLD,\n",
+      "page": {
+        "name": "Blackmaw Magic",
+        "facts": {
+          "Start": "Archmage Timear Alterac Mountains 15.5 , 74",
+          "Level": "59 , requires level 52",
+          "Difficulty": "52 55 57",
+          "Side": "Alliance",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "97173",
+          "giver": "Archmage Timear"
+        },
+        "pickup": [
+          "Alterac Mountains 15.5 , 74"
+        ],
+        "objective": "Recover a Blackmaw Ritual Totem from Blackmaw Hold.",
+        "requirements": [
+          "Blackmaw Ritual Totem"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/97173/blackmaw-magic",
+        "sheetText": "Quest Objectives | Recover a Blackmaw Ritual Totem from Blackmaw Hold. | Blackmaw Ritual Totem | Description | The Blackmaw furbolgs in the mountains overlooking Azshara have been dabbling in dark magic. While a primitive people being corrupted by demonic magic is nothing new for Azeroth, Lan'dalock and I would like to study their spell foci. | Travel to the stronghold known as Blackmaw Hold and recover one of the Blackmaw Ritual Totems for us. Only the most powerful of the Blackmaw's shamans will be carrying one of these, so bring allies and take care. | Rewards | Money: | 90 | 0 gold, 90 silver, 0 copper | Experience: | 12,800 | +300 reputation with Kirin Tor | +150 reputation with Darnassus"
+      }
+    },
+    {
+      "id": "97198",
+      "name": "\"Blackmaw Magic\"",
+      "decision": "exclude",
+      "reason": "Horde-only variant",
+      "generated": " -- Blackmaw Magic : https://wowhead.com/forever/quest=97198/blackmaw-magic\n            [questKeys.name] = \"Blackmaw Magic\",\n            [questKeys.requiredLevel] = 52,\n            [questKeys.questLevel] = 59,\n            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,\n            [questKeys.objectivesText] = {\"Recover a Blackmaw Ritual Totem from Blackmaw Hold.\"},\n            [questKeys.objectives] = {nil, nil, {{276893}}},\n            [questKeys.reputationReward] = {{81, 150}, {2787, 300}},\n",
+      "trace": "\n            [questKeys.name] = \"Blackmaw Magic\",\n            [questKeys.questLevel] = 59,\n            [questKeys.objectives] = {nil,nil,{{276893}}},\n            [questKeys.objectivesText] = {\"Recover a Blackmaw Ritual Totem from Blackmaw Hold.\"},\n            [questKeys.startedBy_add] = {{259118}},\n            [questKeys.finishedBy_add] = {{259118}},\n            [questKeys.reputationReward] = {{67,37.5},{68,37.5},{76,37.5},{81,150},{530,37.5},{2787,300}},\n",
+      "authoredCorrection": " -- Blackmaw Magic\n            [questKeys.zoneOrSort] = zoneIDs.BLACKMAW_HOLD,\n",
+      "page": {
+        "name": "Blackmaw Magic",
+        "facts": {
+          "Start": "Muln Earthfury Mulgore 33.5 , 22.5",
+          "End": "Muln Earthfury Mulgore 33.5 , 22.5",
+          "Level": "59 , requires level 52",
+          "Difficulty": "52 55 57",
+          "Side": "Horde",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "97198",
+          "giver": "Muln Earthfury"
+        },
+        "pickup": [
+          "Mulgore 33.5 , 22.5"
+        ],
+        "objective": "Recover a Blackmaw Ritual Totem from Blackmaw Hold.",
+        "requirements": [
+          "Blackmaw Ritual Totem"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/97198/blackmaw-magic",
+        "sheetText": "Quest Objectives | Recover a Blackmaw Ritual Totem from Blackmaw Hold. | Blackmaw Ritual Totem | Description | The Blackmaw furbolgs in the mountains overlooking Azshara have been corrupted by dark and sinister magic. We do not know the full extent of the corruption and what impact it may have upon the elements in the area, but we hope to understand it better. | Travel to the stronghold known as Blackmaw Hold and recover one of the Blackmaw Ritual Totems for us. Only the most powerful of the Blackmaw's shamans will be carrying one of these, so bring allies and prepare for a difficult battle. | Rewards | Money: | 90 | 0 gold, 90 silver, 0 copper | Experience: | 16,100 | +300 reputation with Earthen Ring | +150 reputation with Thunder Bluff"
+      }
+    },
+    {
+      "id": "97327",
+      "name": "Blackmaw Pouches",
+      "decision": "include",
+      "reason": "Alliance/shared dungeon quest or introduction",
+      "generated": " -- Blackmaw Pouches : https://wowhead.com/forever/quest=97327/blackmaw-pouches\n            [questKeys.name] = \"Blackmaw Pouches\",\n            [questKeys.startedBy] = {{235903}},\n            [questKeys.finishedBy] = {{235903}},\n            [questKeys.requiredLevel] = 55,\n            [questKeys.questLevel] = 60,\n            [questKeys.objectivesText] = {\"Enter Blackmaw Hold and recover 5 Blackmaw Pouches for Ekkal at the Ruins of Eldarath in Azshara.\"},\n            [questKeys.objectives] = {nil, nil, {{273050}}},\n            [questKeys.reputationReward] = {{576, 150}},\n",
+      "trace": "\n            [questKeys.name] = \"Blackmaw Pouches\",\n            [questKeys.questLevel] = 60,\n            [questKeys.objectives] = {nil,nil,{{273050}}},\n            [questKeys.objectivesText] = {\"Enter Blackmaw Hold and recover 5 Blackmaw Pouches for Ekkal at the Ruins of Eldarath in Azshara.\"},\n            [questKeys.startedBy_add] = {{235903}},\n            [questKeys.finishedBy_add] = {{235903}},\n            [questKeys.reputationReward] = {{576,150}},\n",
+      "authoredCorrection": " -- Blackmaw Pouches\n            [questKeys.requiredRaces] = raceIDs.NONE, -- unverified\n            [questKeys.zoneOrSort] = zoneIDs.BLACKMAW_HOLD,\n",
+      "page": {
+        "name": "Blackmaw Pouches",
+        "facts": {
+          "Start": "Ekkal Azshara 42 , 38.9",
+          "End": "Ekkal Azshara 42 , 38.9",
+          "Level": "60 , requires level 55",
+          "Difficulty": "55 56 58",
+          "Side": "Both factions",
+          "Type": "Dungeon",
+          "Shareable": "Yes",
+          "Quest ID": "97327",
+          "giver": "Ekkal"
+        },
+        "pickup": [
+          "Azshara 42 , 38.9"
+        ],
+        "objective": "Enter Blackmaw Hold and recover 5 Blackmaw Pouches for Ekkal at the Ruins of Eldarath in Azshara.",
+        "requirements": [
+          "5 Blackmaw Pouch"
+        ],
+        "classic": false,
+        "url": "https://foreverchanges.pro/quest/97327/blackmaw-pouches",
+        "sheetText": "Quest Objectives | Enter Blackmaw Hold and recover 5 Blackmaw Pouches for Ekkal at the Ruins of Eldarath in Azshara. | 5 | Blackmaw Pouch | Description | It breaks my heart to admit, but my brothers and sisters inside Blackmaw Hold are irreparably corrupted. | If you bring me some of their personal belongings, I can at least give their families something to remember them by. Every bundle you recover will serve as a symbol of your service to my people. | Rewards | Money: | 90 | 0 gold, 90 silver, 0 copper | Experience: | 13,200 | +150 reputation with Timbermaw Hold"
+      }
+    },
+    {
+      "id": "99187",
+      "name": "\"The Reliquary of Tyr\"",
+      "decision": "exclude",
+      "reason": "Horde-only Paladin quest",
+      "generated": " -- The Reliquary of Tyr : https://wowhead.com/forever/quest=99187/the-reliquary-of-tyr\n            [questKeys.name] = \"The Reliquary of Tyr\",\n            [questKeys.startedBy] = {{276110}},\n            [questKeys.finishedBy] = {{276110}},\n            [questKeys.requiredLevel] = 50,\n            [questKeys.questLevel] = 58,\n            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,\n            [questKeys.requiredClasses] = classIDs.PALADIN,\n            [questKeys.objectivesText] = {\"Travel to Blackmaw Hold in Kalimdor, and recover the Reliquary of Tyr.\"},\n            [questKeys.objectives] = {nil, nil, {{286415}}},\n            [questKeys.zoneOrSort] = sortKeys.PALADIN,\n",
+      "trace": "\n            [questKeys.name] = \"The Reliquary of Tyr\",\n            [questKeys.questLevel] = 58,\n            [questKeys.objectives] = {nil,nil,{{286415}}},\n            [questKeys.objectivesText] = {\"Travel to Blackmaw Hold in Kalimdor, and recover the Reliquary of Tyr.\"},\n            [questKeys.startedBy_add] = {{276110}},\n            [questKeys.finishedBy_add] = {{276110}},\n",
+      "authoredCorrection": null,
+      "page": null
+    }
+  ],
+  "excludedEquipment": [
+    {
+      "id": "260213",
+      "name": "Great Bear Claw",
+      "source": null,
+      "reason": "Quest reward, bag, or shared/trash equipment outside unique encounter drops"
+    },
+    {
+      "id": "260214",
+      "name": "Staff of Wild Beasts",
+      "source": null,
+      "reason": "Quest reward, bag, or shared/trash equipment outside unique encounter drops"
+    },
+    {
+      "id": "260215",
+      "name": "Wild Malleus",
+      "source": null,
+      "reason": "Quest reward, bag, or shared/trash equipment outside unique encounter drops"
+    },
+    {
+      "id": "260216",
+      "name": "Ouroboros Ring",
+      "source": null,
+      "reason": "Quest reward, bag, or shared/trash equipment outside unique encounter drops"
+    },
+    {
+      "id": "260217",
+      "name": "Eagle's Head Signet",
+      "source": null,
+      "reason": "Quest reward, bag, or shared/trash equipment outside unique encounter drops"
+    },
+    {
+      "id": "260218",
+      "name": "Malefactor's End",
+      "source": null,
+      "reason": "Quest reward, bag, or shared/trash equipment outside unique encounter drops"
+    },
+    {
+      "id": "260219",
+      "name": "Engraved Band",
+      "source": null,
+      "reason": "Quest reward, bag, or shared/trash equipment outside unique encounter drops"
+    },
+    {
+      "id": "279891",
+      "name": "Guidance of Ursoc",
+      "source": null,
+      "reason": "Quest reward, bag, or shared/trash equipment outside unique encounter drops"
+    },
+    {
+      "id": "279892",
+      "name": "Wisdom of Ursol",
+      "source": null,
+      "reason": "Quest reward, bag, or shared/trash equipment outside unique encounter drops"
+    },
+    {
+      "id": "279893",
+      "name": "Nama's Cherished Necklace",
+      "source": null,
+      "reason": "Quest reward, bag, or shared/trash equipment outside unique encounter drops"
+    },
+    {
+      "id": "280083",
+      "name": "Truesight Rifle",
+      "source": "Sabella No-Eyes",
+      "reason": "Uncorroborated dungeon location"
+    },
+    {
+      "id": "280084",
+      "name": "Furbolg Rib Protector",
+      "source": "Sabella No-Eyes",
+      "reason": "Uncorroborated dungeon location"
+    },
+    {
+      "id": "280088",
+      "name": "Soft Saber Sack",
+      "source": null,
+      "reason": "Quest reward, bag, or shared/trash equipment outside unique encounter drops"
+    },
+    {
+      "id": "287034",
+      "name": "Grove Subjugator's Blade",
+      "source": null,
+      "reason": "Quest reward, bag, or shared/trash equipment outside unique encounter drops"
+    },
+    {
+      "id": "287036",
+      "name": "Satyr's Touch",
+      "source": null,
+      "reason": "Quest reward, bag, or shared/trash equipment outside unique encounter drops"
+    }
+  ],
+  "fetches": [
+    {
+      "file": "index.html",
+      "url": "https://foreverchanges.pro/quests/blackmaw-hold",
+      "status": 200
+    },
+    {
+      "file": "guide.html",
+      "url": "https://foreverdb.net/dungeons/blackmaw-hold",
+      "status": 404
+    },
+    {
+      "file": "secondary.html",
+      "url": "https://foreverdb.net/quests/blackmaw-hold",
+      "status": 404
+    },
+    {
+      "file": "blizzard.html",
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24301455/",
+      "status": 200
+    },
+    {
+      "file": "att-latest.json",
+      "url": "https://api.github.com/repos/ATTWoWAddon/AllTheThings/commits?per_page=1",
+      "status": 200
+    },
+    {
+      "file": "questie-latest.json",
+      "url": "https://api.github.com/repos/Questie/QuestieDB/commits?per_page=1",
+      "status": 200
+    },
+    {
+      "file": "att.lua",
+      "url": "https://raw.githubusercontent.com/ATTWoWAddon/AllTheThings/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua",
+      "status": 200
+    },
+    {
+      "file": "guide.html",
+      "url": "https://foreverchanges.pro/dungeons/blackmaw-hold",
+      "status": 200
+    },
+    {
+      "file": "dungeons.html",
+      "url": "https://foreverdb.net/dungeons",
+      "status": 200
+    },
+    {
+      "file": "method.html",
+      "url": "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+      "status": 200
+    },
+    {
+      "file": "patchvault.html",
+      "url": "https://patchvaultapp.com/forever/dungeons/blackmaw-hold/",
+      "status": 200
+    },
+    {
+      "file": "foreverBaseQuest.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverBaseNpc.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseNpc.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverQuestTraces.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverNpcTraces.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverNpcTraces.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverQuestRelationTraces.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestRelationTraces.lua",
+      "status": 200
+    },
+    {
+      "file": "foreverQuestFixes.lua",
+      "url": "https://raw.githubusercontent.com/Questie/QuestieDB/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/foreverQuestFixes.lua",
+      "status": 200
+    },
+    {
+      "file": "quest-92066.html",
+      "url": "https://foreverchanges.pro/quest/92066",
+      "status": 200
+    },
+    {
+      "file": "quest-92069.html",
+      "url": "https://foreverchanges.pro/quest/92069",
+      "status": 200
+    },
+    {
+      "file": "quest-92343.html",
+      "url": "https://foreverchanges.pro/quest/92343",
+      "status": 200
+    },
+    {
+      "file": "quest-92344.html",
+      "url": "https://foreverchanges.pro/quest/92344",
+      "status": 200
+    },
+    {
+      "file": "quest-97173.html",
+      "url": "https://foreverchanges.pro/quest/97173",
+      "status": 200
+    },
+    {
+      "file": "quest-97198.html",
+      "url": "https://foreverchanges.pro/quest/97198",
+      "status": 200
+    },
+    {
+      "file": "quest-97327.html",
+      "url": "https://foreverchanges.pro/quest/97327",
+      "status": 200
+    },
+    {
+      "file": "quest-92065.html",
+      "url": "https://foreverchanges.pro/quest/92065",
+      "status": 404
+    },
+    {
+      "file": "quest-92067.html",
+      "url": "https://foreverchanges.pro/quest/92067",
+      "status": 404
+    },
+    {
+      "file": "quest-92070.html",
+      "url": "https://foreverchanges.pro/quest/92070",
+      "status": 404
+    },
+    {
+      "file": "quest-99187.html",
+      "url": "https://foreverchanges.pro/quest/99187",
+      "status": 404
+    },
+    {
+      "file": "quest-96246.html",
+      "url": "https://foreverchanges.pro/quest/96246",
+      "status": 404
+    },
+    {
+      "file": "quest-92345.html",
+      "url": "https://foreverchanges.pro/quest/92345",
+      "status": 200
+    },
+    {
+      "file": "item-252893.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/252893",
+      "status": 200
+    },
+    {
+      "file": "item-251453.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/251453",
+      "status": 200
+    },
+    {
+      "file": "item-280071.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280071",
+      "status": 200
+    },
+    {
+      "file": "item-287036.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/287036",
+      "status": 200
+    },
+    {
+      "file": "item-260216.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/260216",
+      "status": 200
+    },
+    {
+      "file": "item-280065.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280065",
+      "status": 200
+    },
+    {
+      "file": "item-280059.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280059",
+      "status": 200
+    },
+    {
+      "file": "item-280057.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280057",
+      "status": 200
+    },
+    {
+      "file": "item-280060.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280060",
+      "status": 200
+    },
+    {
+      "file": "item-260219.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/260219",
+      "status": 200
+    },
+    {
+      "file": "item-260217.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/260217",
+      "status": 200
+    },
+    {
+      "file": "item-280063.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280063",
+      "status": 200
+    },
+    {
+      "file": "item-280079.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280079",
+      "status": 200
+    },
+    {
+      "file": "item-280068.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280068",
+      "status": 200
+    },
+    {
+      "file": "item-249695.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/249695",
+      "status": 200
+    },
+    {
+      "file": "item-280072.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280072",
+      "status": 200
+    },
+    {
+      "file": "item-280076.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280076",
+      "status": 200
+    },
+    {
+      "file": "item-280066.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280066",
+      "status": 200
+    },
+    {
+      "file": "item-279891.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/279891",
+      "status": 200
+    },
+    {
+      "file": "item-280064.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280064",
+      "status": 200
+    },
+    {
+      "file": "item-280073.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280073",
+      "status": 200
+    },
+    {
+      "file": "item-260218.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/260218",
+      "status": 200
+    },
+    {
+      "file": "item-260214.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/260214",
+      "status": 200
+    },
+    {
+      "file": "item-280074.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280074",
+      "status": 200
+    },
+    {
+      "file": "item-280070.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280070",
+      "status": 200
+    },
+    {
+      "file": "item-280069.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280069",
+      "status": 200
+    },
+    {
+      "file": "item-280067.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280067",
+      "status": 200
+    },
+    {
+      "file": "item-249898.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/249898",
+      "status": 200
+    },
+    {
+      "file": "item-279892.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/279892",
+      "status": 200
+    },
+    {
+      "file": "item-260215.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/260215",
+      "status": 200
+    },
+    {
+      "file": "item-280080.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280080",
+      "status": 200
+    },
+    {
+      "file": "item-280061.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280061",
+      "status": 200
+    },
+    {
+      "file": "item-249698.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/249698",
+      "status": 200
+    },
+    {
+      "file": "item-280075.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280075",
+      "status": 200
+    },
+    {
+      "file": "item-280058.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280058",
+      "status": 200
+    },
+    {
+      "file": "item-280062.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280062",
+      "status": 200
+    },
+    {
+      "file": "item-279893.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/279893",
+      "status": 200
+    },
+    {
+      "file": "item-260213.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/260213",
+      "status": 200
+    },
+    {
+      "file": "item-249900.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/249900",
+      "status": 200
+    },
+    {
+      "file": "item-280056.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280056",
+      "status": 200
+    },
+    {
+      "file": "dungeon.json",
+      "url": "https://foreverdb.net/data/dungeons/2974.json",
+      "status": 404
+    },
+    {
+      "file": "item-280086.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280086",
+      "status": 200
+    },
+    {
+      "file": "item-272027.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/272027",
+      "status": 200
+    },
+    {
+      "file": "item-280077.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280077",
+      "status": 200
+    },
+    {
+      "file": "item-280083.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280083",
+      "status": 200
+    },
+    {
+      "file": "item-280081.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280081",
+      "status": 200
+    },
+    {
+      "file": "item-249693.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/249693",
+      "status": 200
+    },
+    {
+      "file": "item-276893.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/276893",
+      "status": 200
+    },
+    {
+      "file": "item-280088.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280088",
+      "status": 200
+    },
+    {
+      "file": "item-280085.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280085",
+      "status": 200
+    },
+    {
+      "file": "item-249694.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/249694",
+      "status": 200
+    },
+    {
+      "file": "item-280087.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280087",
+      "status": 200
+    },
+    {
+      "file": "item-280078.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280078",
+      "status": 200
+    },
+    {
+      "file": "item-280084.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280084",
+      "status": 200
+    },
+    {
+      "file": "item-249692.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/249692",
+      "status": 200
+    },
+    {
+      "file": "item-273050.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/273050",
+      "status": 200
+    },
+    {
+      "file": "item-280089.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280089",
+      "status": 404
+    },
+    {
+      "file": "item-280090.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280090",
+      "status": 404
+    },
+    {
+      "file": "item-280082.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/280082",
+      "status": 200
+    },
+    {
+      "file": "item-250773.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/250773",
+      "status": 200
+    },
+    {
+      "file": "item-249696.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/249696",
+      "status": 200
+    },
+    {
+      "file": "item-249697.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/249697",
+      "status": 200
+    },
+    {
+      "file": "item-287034.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/287034",
+      "status": 200
+    },
+    {
+      "file": "item-286415.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/item/286415",
+      "status": 200
+    },
+    {
+      "file": "quest-tooltip-92065.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/92065",
+      "status": 200
+    },
+    {
+      "file": "quest-tooltip-92067.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/92067",
+      "status": 200
+    },
+    {
+      "file": "quest-tooltip-92070.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/92070",
+      "status": 200
+    },
+    {
+      "file": "quest-tooltip-96246.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/96246",
+      "status": 200
+    },
+    {
+      "file": "quest-tooltip-92344.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/92344",
+      "status": 200
+    },
+    {
+      "file": "quest-tooltip-97173.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/97173",
+      "status": 200
+    },
+    {
+      "file": "npc-4217.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/4217",
+      "status": 200
+    },
+    {
+      "file": "npc-31439.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/31439",
+      "status": 200
+    },
+    {
+      "file": "npc-249717.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/249717",
+      "status": 200
+    },
+    {
+      "file": "npc-249855.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/249855",
+      "status": 200
+    }
+  ]
+}

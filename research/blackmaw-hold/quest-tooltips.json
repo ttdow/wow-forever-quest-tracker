@@ -1,0 +1,26 @@
+{
+  "92065": {
+    "name": "Blackmaw Reclamation",
+    "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><b class=\"q\">Blackmaw Reclamation</b></td><th><b class=\"q0\">Level 60</b></th></tr></table></td></tr></table><table><tr><td><br />Bring Varrox Bleakhoof's Head to Gatekeeper Rageroar at Ursolan.<br /><br /><span class=\"q\">Requirements:</span><br /> - Head of Varrox Bleakhoof</td></tr></table>"
+  },
+  "92067": {
+    "name": "Feeding Time!",
+    "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><b class=\"q\">Feeding Time!</b></td><th><b class=\"q0\">Level 55</b></th></tr></table></td></tr></table><table><tr><td><br />&lt;NO LOG DESCRIPTION&gt;<br /><br /><span class=\"q\">Requirements:</span><br /> - Fel-Tainted Flesh</td></tr></table>"
+  },
+  "92070": {
+    "name": "A Lost Memento",
+    "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><b class=\"q\">A Lost Memento</b></td><th><b class=\"q0\">Level 55</b></th></tr></table></td></tr></table><table><tr><td><br />Find the owner of the Feathered Charm Necklace.<br /><br /><span class=\"q\">Requirements:</span><br /> - Feathered Charm Necklace</td></tr></table>"
+  },
+  "96246": {
+    "name": "Blackmaw Pouches",
+    "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><b class=\"q\">Blackmaw Pouches</b></td><th><b class=\"q0\">Level 60</b></th></tr></table></td></tr></table><table><tr><td><br />Every bundle you recover will serve as a symbol of your service to my people.<br /><br /><span class=\"q\">Requirements:</span><br /> - Blackmaw Pouch x 5</td></tr></table>"
+  },
+  "92344": {
+    "name": "Get to the Roots of It",
+    "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><b class=\"q\">Get to the Roots of It</b></td><th><b class=\"q0\">Level 55</b></th></tr></table></td></tr></table><table><tr><td><br />Gather 10 Nordrassil Root Caps inside Blackmaw Hold for Mathrengyl Bearwalker in Darnassus.<br /><br /><span class=\"q\">Requirements:</span><br /> - Nordrassil Root Cap x 10</td></tr></table>"
+  },
+  "97173": {
+    "name": "Blackmaw Magic",
+    "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><b class=\"q\">Blackmaw Magic</b></td><th><b class=\"q0\">Level 59</b></th></tr></table></td></tr></table><table><tr><td><br />Recover a Blackmaw Ritual Totem from Blackmaw Hold.<br /><br /><span class=\"q\">Requirements:</span><br /> - Blackmaw Ritual Totem</td></tr></table>"
+  }
+}

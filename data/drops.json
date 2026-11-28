@@ -13751,6 +13751,818 @@
           ]
         }
       ]
+    },
+    "Blackmaw Hold": {
+      "id": 2974,
+      "build": "1.60.1.71139",
+      "source": "https://foreverchanges.pro/dungeons/blackmaw-hold",
+      "items": [
+        {
+          "id": "280056",
+          "name": "Flameslash Crescent",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Two-Hand",
+          "type": "Axe",
+          "stats": [
+            "145 -219 Damage",
+            "Speed 3.60",
+            "50.56 DPS",
+            "+19 Strength",
+            "+8 Intellect",
+            "Equip: Improves your chance to hit by 1.5%.",
+            "Equip: Improves your chance to get a critical strike by 1.0%."
+          ],
+          "rogueUsable": false,
+          "source": "Impaan the Imprisoner",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280056",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280056",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280057",
+          "name": "Robes of Dark Summons",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Chest",
+          "type": "Cloth",
+          "stats": [
+            "84 Armor",
+            "+14 Stamina",
+            "Equip: Improves your chance to hit by 1.8%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21 ."
+          ],
+          "rogueUsable": true,
+          "source": "Impaan the Imprisoner",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280057",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280057",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280058",
+          "name": "Impish Chain Hood",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Head",
+          "type": "Mail",
+          "stats": [
+            "284 Armor",
+            "+19 Stamina",
+            "+16 Spirit",
+            "Equip: +34 Attack Power."
+          ],
+          "rogueUsable": false,
+          "source": "Impaan the Imprisoner",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280058",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280058",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280059",
+          "name": "Tuskblade Halberd",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Two-Hand",
+          "type": "Polearm",
+          "stats": [
+            "148 -222 Damage",
+            "Speed 3.60",
+            "51.39 DPS",
+            "+14 Agility",
+            "+18 Stamina",
+            "Equip: Reduces chance to be Dodged or Parried by 2.0%."
+          ],
+          "rogueUsable": false,
+          "source": "Bonesnout the Unbroken",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280059",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280059",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280060",
+          "name": "Lucky Shovelnose Tuft",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Unique-Equipped",
+            "+11 Strength",
+            "+11 Spirit",
+            "Use: Increases your chance to Dodge by 5% for 15 sec. (5 Min Cooldown)"
+          ],
+          "rogueUsable": true,
+          "source": "Bonesnout the Unbroken",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280060",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280060",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280061",
+          "name": "Spike Crested Bracers",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Wrist",
+          "type": "Plate",
+          "stats": [
+            "274 Armor",
+            "+10 Stamina",
+            "Equip: Improves your chance to hit by 0.9%.",
+            "Equip: +20 Attack Power."
+          ],
+          "rogueUsable": false,
+          "source": "Bonesnout the Unbroken",
+          "sourceOrder": 2,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280061",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280061",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280062",
+          "name": "Cloak of the Fleshborer",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "43 Armor",
+            "+6 Strength",
+            "+6 Agility",
+            "+6 Stamina",
+            "+6 Intellect",
+            "+6 Spirit"
+          ],
+          "rogueUsable": true,
+          "source": "Withermaw",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280062",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280062",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280063",
+          "name": "Bloodfur Bulwark",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Off Hand",
+          "type": "Shield",
+          "stats": [
+            "2057 Armor",
+            "38 Block",
+            "+10 Stamina",
+            "+15 Block Value",
+            "Equip: Increases your chance to Block attacks with a shield by 2.0%."
+          ],
+          "rogueUsable": false,
+          "source": "Withermaw",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280063",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280063",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280064",
+          "name": "Withering Grips",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "106 Armor",
+            "+14 Stamina",
+            "+12 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 16 ."
+          ],
+          "rogueUsable": true,
+          "source": "Withermaw",
+          "sourceOrder": 3,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280064",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280064",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280068",
+          "name": "Bloody Claws of Attack",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "One-Hand",
+          "type": "Fist Weapon",
+          "stats": [
+            "73 -136 Damage",
+            "Speed 2.60",
+            "40.19 DPS",
+            "Equip: Improves your chance to get a critical strike by 0.5%.",
+            "Equip: +8 Attack Power.",
+            "Equip: Increased Fist Weapons +1."
+          ],
+          "rogueUsable": true,
+          "source": "Elder Shaman Bloodmane",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280068",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280068",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280069",
+          "name": "Shamanic Wristguards",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Wrist",
+          "type": "Mail",
+          "stats": [
+            "157 Armor",
+            "+13 Stamina",
+            "+10 Intellect",
+            "Restores +3 mana per 5 sec."
+          ],
+          "rogueUsable": false,
+          "source": "Elder Shaman Bloodmane",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280069",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280069",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280070",
+          "name": "Veilpiercer Girdle",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Waist",
+          "type": "Leather",
+          "stats": [
+            "97 Armor",
+            "+8 Agility",
+            "+13 Stamina",
+            "+8 Spirit",
+            "Equip: Increased Defense +9."
+          ],
+          "rogueUsable": true,
+          "source": "Elder Shaman Bloodmane",
+          "sourceOrder": 4,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280070",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280070",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280065",
+          "name": "Behemoth Bones",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Unique-Equipped",
+            "Equip: +34 Attack Power.",
+            "Use: Crack open the bone, healing yourself for 480 to 530 and your nearest ally for 480 to 530. (5 Min Cooldown)"
+          ],
+          "rogueUsable": true,
+          "source": "Blackmaw Behemoth",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280065",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280065",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280066",
+          "name": "Trousers of the Ebon Giant",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "76 Armor",
+            "+20 Stamina",
+            "+16 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 21 ."
+          ],
+          "rogueUsable": true,
+          "source": "Blackmaw Behemoth",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280066",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280066",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280067",
+          "name": "Blackmaw Chain Belt",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "202 Armor",
+            "+17 Agility",
+            "+12 Stamina",
+            "Equip: Increases your chance to Dodge an attack by 1.0%."
+          ],
+          "rogueUsable": false,
+          "source": "Blackmaw Behemoth",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280067",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280067",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280071",
+          "name": "Flamebreak Talisman",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Unique-Equipped",
+            "+17 Fire Resistance",
+            "Use: Increase your agility by 33 for 30 sec. If there is an elemental nearby, gain an additional 33. (5 Min Cooldown)"
+          ],
+          "rogueUsable": true,
+          "source": "Unbound Spirit",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280071",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280071",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280072",
+          "name": "Cowl of Dark Ambition",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "70 Armor",
+            "+18 Stamina",
+            "+16 Intellect",
+            "Equip: Increases damage done by magical spells and effects by up to 21 ."
+          ],
+          "rogueUsable": true,
+          "source": "Unbound Spirit",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280072",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280072",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280073",
+          "name": "Burnished Pridescales",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Chest",
+          "type": "Plate",
+          "stats": [
+            "637 Armor",
+            "+16 Strength",
+            "+16 Stamina",
+            "+19 Spirit",
+            "Equip: Improves your chance to hit by 1.0%."
+          ],
+          "rogueUsable": false,
+          "source": "Unbound Spirit",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280073",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280073",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280074",
+          "name": "Scalding Flamehoof",
+          "quality": 3,
+          "requiredLevel": 57,
+          "itemLevel": 62,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Unique-Equipped",
+            "+4 Strength",
+            "+4 Agility",
+            "+4 Stamina",
+            "+4 Intellect",
+            "+4 Spirit",
+            "Use: Increases Fire damage taken by 14% and movement speed by 14% for 20 sec. (5 Min Cooldown)"
+          ],
+          "rogueUsable": true,
+          "source": "Varrox Bleakhoof",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280074",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280074",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280075",
+          "name": "Bleak Eye Shoulderplates",
+          "quality": 3,
+          "requiredLevel": 57,
+          "itemLevel": 62,
+          "slot": "Shoulder",
+          "type": "Plate",
+          "stats": [
+            "485 Armor",
+            "+14 Agility",
+            "+14 Stamina",
+            "+12 Intellect"
+          ],
+          "rogueUsable": false,
+          "source": "Varrox Bleakhoof",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280075",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280075",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280076",
+          "name": "Horns of Varrox",
+          "quality": 3,
+          "requiredLevel": 57,
+          "itemLevel": 62,
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "141 Armor",
+            "+18 Stamina",
+            "+12 Shadow Resistance",
+            "Equip: +48 Attack Power."
+          ],
+          "rogueUsable": true,
+          "source": "Varrox Bleakhoof",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280076",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280076",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280077",
+          "name": "Fist of Revelation",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "One-Hand",
+          "type": "Fist Weapon",
+          "stats": [
+            "38 -72 Damage",
+            "Speed 2.20",
+            "25.00 DPS",
+            "+6 Stamina",
+            "+9 Spirit",
+            "Equip: Improves your chance to hit by 0.6%.",
+            "Equip: Increases healing done by up to 124 and damage done by up to 41 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "source": "Gortek the Apprentice (rare)",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280077",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280077",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280078",
+          "name": "Apprentice's Protective Treads",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "112 Armor",
+            "+11 Agility",
+            "+12 Stamina",
+            "Equip: Improves your chance to get a critical strike by 1.0%."
+          ],
+          "rogueUsable": true,
+          "source": "Gortek the Apprentice (rare)",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280078",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280078",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280079",
+          "name": "Lunarlight Robe",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "163 Armor",
+            "+17 Stamina",
+            "+14 Spirit",
+            "Equip: Your spells pierce 6 Magical Resistance."
+          ],
+          "rogueUsable": true,
+          "source": "Moontouched Wanderer (rare)",
+          "sourceOrder": 9,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280079",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280079",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280080",
+          "name": "Claymore of Two Moons",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "121 -182 Damage",
+            "Speed 3.10",
+            "48.87 DPS",
+            "+17 Stamina",
+            "Equip: Your attacks have a chance to Wax, dealing 189 Arcane damage or Wane, granting 40 Strength for 10 sec."
+          ],
+          "rogueUsable": false,
+          "source": "Moontouched Wanderer (rare)",
+          "sourceOrder": 9,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280080",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280080",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280081",
+          "name": "Sad-Sack Sandals",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "56 Armor",
+            "+13 Stamina",
+            "Equip: Improves your chance to get a critical strike by 0.5%.",
+            "Equip: Reduces the hit chance of Fear effects against you by 8%."
+          ],
+          "rogueUsable": true,
+          "source": "Mopes (rare)",
+          "sourceOrder": 10,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280081",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280081",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280082",
+          "name": "Staff of Sorrow",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Two-Hand",
+          "type": "Staff",
+          "stats": [
+            "104 -157 Damage",
+            "Speed 3.60",
+            "36.25 DPS",
+            "+15 Intellect",
+            "+21 Spirit",
+            "Equip: Improves your chance to hit by 1.5%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 66 ."
+          ],
+          "rogueUsable": false,
+          "source": "Mopes (rare)",
+          "sourceOrder": 10,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280082",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280082",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280085",
+          "name": "Tunnelweb Pincer",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "One-Hand",
+          "type": "Dagger",
+          "stats": [
+            "42 -78 Damage",
+            "Speed 1.60",
+            "37.50 DPS",
+            "+7 Agility",
+            "+8 Stamina",
+            "Equip: Improves your chance to get a critical strike by 0.4%."
+          ],
+          "rogueUsable": true,
+          "source": "Tunnelweb Matriarch (rare)",
+          "sourceOrder": 11,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280085",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280085",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        },
+        {
+          "id": "280086",
+          "name": "Octofinger Gauntlets",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Hands",
+          "type": "Plate",
+          "stats": [
+            "373 Armor",
+            "+16 Stamina",
+            "Equip: Increases your chance to Dodge an attack by 1.0%.",
+            "Equip: Improves your chance to hit by 0.8%."
+          ],
+          "rogueUsable": false,
+          "source": "Tunnelweb Matriarch (rare)",
+          "sourceOrder": 11,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=280086",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/280086",
+            "https://foreverchanges.pro/dungeons/blackmaw-hold",
+            "https://www.method.gg/wow-forever/dungeons/blackmaw-hold",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/789b0feb395396c181999063b691f854167595c6/.contrib/.db/forever/dungeons%20%26%20raids/blackmaw%20hold.lua"
+          ]
+        }
+      ]
     }
   }
 }
