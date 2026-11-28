@@ -16,6 +16,8 @@ The tracker lists 15 encounter-specific equipment drops, three each from Tidemis
 
 The **Alcaz Prison BoE drops** card lists ten dungeon-specific items, including three pieces of Defias Enforcer's Garb. Seven pass the Rogue filter. All The Things lists individual mobs for nine items, and ForeverChanges lists Escape Plan among the dungeon's trash drops. The tooltip for Enchantresses' Spire also names the Strashaz Enchantress. [Source inventory](sources.json) · [Tooltip records](item-tooltips.json)
 
+Wowhead's Forever tooltips checked on November 27, 2026 give per-enemy drop rates for all 15 boss items and a 4.87% rate for Enchantresses' Spire from Strashaz Enchantress. The other nine BoE tooltips provide no rate. The full Wowhead item pages returned HTTP 403 during this check. [Tooltip records](item-tooltips.json) · [Enchantresses' Spire tooltip](https://nether.wowhead.com/forever/tooltip/item/287025)
+
 ## Map
 
 Both floor plans are by **Santiago Reyes** for **Atlas de Azeroth: Forever**. The Main Unit uses the full-resolution copy of the supplied Reddit image. The Maximum Security Unit uses the matching image from the artist's gallery. Each 3000 × 2000 JPEG is stored unmodified with its original watermarks and credits intact. [Reddit release](https://www.reddit.com/r/classicwow/comments/1xw4new/oc_i_have_created_all_the_dungeon_maps_for_phase/) · [Artist's gallery](https://sreyesmaps.com/mapas/la-prision-de-alcaz) · [Artwork usage terms](https://sreyesmaps.com/post/proyecto-atlas-de-azeroth-forever)

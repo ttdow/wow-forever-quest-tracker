@@ -40,6 +40,12 @@ function cell(text, className, label) {
   return element;
 }
 
+function hasWowheadRate(item) {
+  const rate = item.wowheadDropRate;
+  return Number.isFinite(rate?.percent) && rate.percent >= 0 && rate.percent <= 100 &&
+    typeof rate.source === 'string' && rate.source.trim() !== '';
+}
+
 function rememberCards() {
   for (const card of $('#drops').querySelectorAll('.boss-card')) {
     if (card.open) state.openCards.add(card.dataset.key);
@@ -54,6 +60,12 @@ function render() {
   const search = $('#drop-search').value.trim().toLocaleLowerCase();
   const source = $('#drop-source').value;
   const rogue = $('#drop-class').value === 'rogue';
+  const showRates = instance.items.some(hasWowheadRate);
+  const lootColumns = [
+    ['item', 'Item'], ['type', 'Slot / type'], ['level', 'Req. level'], ['stats', 'Base stats / effects']
+  ];
+  if (showRates) lootColumns.push(['rate', 'Wowhead rate']);
+  lootColumns.push(['evidence', 'Drop evidence']);
   const visible = instance.items.filter(item =>
     (source === 'all' || item.source === source) && (!rogue || item.rogueUsable) &&
     (!search || [item.id, item.name, item.slot, item.type, item.requiredLevel, item.source, ...item.stats].join(' ').toLocaleLowerCase().includes(search)));
@@ -83,20 +95,18 @@ function render() {
     table.className = 'drop-table';
     table.setAttribute('aria-label', `${boss} loot`);
     const columns = document.createElement('colgroup');
-    for (const name of ['item', 'type', 'level', 'stats', 'evidence']) {
+    const head = document.createElement('thead');
+    const titles = document.createElement('tr');
+    for (const [name, label] of lootColumns) {
       const column = document.createElement('col');
       column.className = `col-drop-${name}`;
       columns.append(column);
-    }
-    const head = document.createElement('thead');
-    const titles = document.createElement('tr');
-    for (const label of ['Item', 'Slot / type', 'Req. level', 'Base stats / effects', 'Drop evidence']) {
       const title = document.createElement('th');
       title.scope = 'col'; title.textContent = label; titles.append(title);
     }
     head.append(titles);
     const body = document.createElement('tbody');
-    for (const item of items) body.append(itemRow(item));
+    for (const item of items) body.append(itemRow(item, showRates));
     table.append(columns, head, body);
     wrapper.append(table);
     card.append(summary, wrapper);
@@ -115,7 +125,30 @@ function render() {
   $('#drop-reference').hidden = false;
 }
 
-function itemRow(item) {
+function wowheadRateCell(item) {
+    const element = cell('', 'drop-rate', 'Wowhead rate');
+    if (!hasWowheadRate(item)) {
+      element.title = 'No rate verified from Wowhead.';
+      return element;
+    }
+    const { percent, source } = item.wowheadDropRate;
+    const link = document.createElement('a');
+    link.href = `https://www.wowhead.com/forever/item=${item.id}#dropped-by`;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = `${percent.toFixed(2)}%`;
+    link.title = `Wowhead drop rate from ${source}`;
+    element.replaceChildren(link);
+    if (source !== item.source) {
+      const mob = document.createElement('span');
+      mob.className = 'drop-rate-source';
+      mob.textContent = source;
+      element.append(mob);
+    }
+    return element;
+}
+
+function itemRow(item, showRates) {
     const row = document.createElement('tr');
     row.className = 'drop-row';
     row.dataset.itemId = item.id;
@@ -161,7 +194,9 @@ function itemRow(item) {
       reference.textContent = evidenceLabels.wowhead;
       evidence.replaceChildren(reference);
     }
-    row.append(name, cell(`${item.slot} · ${item.type}`, 'drop-type', 'Slot / type'), cell(String(item.requiredLevel), 'drop-level', 'Required level'), stats, evidence);
+    row.append(name, cell(`${item.slot} · ${item.type}`, 'drop-type', 'Slot / type'), cell(String(item.requiredLevel), 'drop-level', 'Required level'), stats);
+    if (showRates) row.append(wowheadRateCell(item));
+    row.append(evidence);
     return row;
 }
 
