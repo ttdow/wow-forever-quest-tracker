@@ -30,6 +30,10 @@ const zones = {
     file: 'azshara', guide: 'https://foreverdb.net/maps/1447', report: 'azshara-map',
     defaultHiddenLayers: ['dungeon-chest', 'footlocker-179497'],
   },
+  "Un'Goro Crater": {
+    file: 'ungoro-crater', guide: 'https://foreverdb.net/maps/1449', report: 'ungoro-crater-map',
+    defaultHiddenLayers: ['quest-material'],
+  },
   Winterspring: {
     file: 'winterspring', guide: 'https://foreverdb.net/maps/1452', report: 'winterspring-map',
     defaultHiddenLayers: ['dungeon-chest'],

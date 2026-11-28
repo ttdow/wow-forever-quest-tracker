@@ -1,0 +1,503 @@
+{
+  "checked": "2026-11-27",
+  "zone": "Un'Goro Crater",
+  "uiMapId": 1449,
+  "areaId": 490,
+  "questieRevision": "0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba",
+  "mapImage": {
+    "url": "https://foreverdb.net/img/maps/game/1449.webp",
+    "sha256": "70505b127c5fbd755cf4b36f15777ae1138430e72d0d919ecd1626ee56e50b76",
+    "size": [
+      1002,
+      668
+    ]
+  },
+  "clientZone": {
+    "region": [
+      -8433.3,
+      -3166.7,
+      -5966.7,
+      533.3
+    ],
+    "poly": [
+      [
+        [
+          7856,
+          17552,
+          7856,
+          17840,
+          7728,
+          17904,
+          7728,
+          17968,
+          8112,
+          18096,
+          7984,
+          18160,
+          7728,
+          18160,
+          7632,
+          18256,
+          7600,
+          18544,
+          7536,
+          18608,
+          7408,
+          18640,
+          7376,
+          18896,
+          7312,
+          18928,
+          7312,
+          19024,
+          7248,
+          19056,
+          7248,
+          19504,
+          7344,
+          19504,
+          7440,
+          19792,
+          7536,
+          19792,
+          7600,
+          19856,
+          7600,
+          19984,
+          7696,
+          20080,
+          7696,
+          20304,
+          9008,
+          20304,
+          9296,
+          20080,
+          9328,
+          19856,
+          9456,
+          19824,
+          9520,
+          19760,
+          9520,
+          19600,
+          9616,
+          19472,
+          9616,
+          18832,
+          9584,
+          18800,
+          9584,
+          18640,
+          9424,
+          18512,
+          9424,
+          18448,
+          9328,
+          18416,
+          9296,
+          17968,
+          9008,
+          17968,
+          8976,
+          17936,
+          8976,
+          17776,
+          8880,
+          17744,
+          8816,
+          17616,
+          8368,
+          17616,
+          8208,
+          17456
+        ]
+      ]
+    ]
+  },
+  "sources": {
+    "quests": {
+      "name": "Un’Goro quest coverage",
+      "url": "https://ttdow.github.io/wow-forever-quest-tracker/research/ungoro-crater/README.md"
+    },
+    "classic": {
+      "name": "CMaNGOS Classic reference locations",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "classic-givers": {
+      "name": "ForeverDB Classic quest giver locations",
+      "url": "https://foreverdb.net/data/maps/layer-questgivers.json"
+    },
+    "classic-rares": {
+      "name": "ForeverDB Classic rare anchors",
+      "url": "https://foreverdb.net/data/maps/layer-rares.json"
+    },
+    "classic-chests": {
+      "name": "The Forever Era Classic chest layer",
+      "url": "https://theforeverera.com/data/map-layers/k.json"
+    },
+    "bounds": {
+      "name": "Forever client area boundaries",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "objects": {
+      "name": "Questie Forever object database",
+      "url": "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverObjectDB.lua"
+    },
+    "object-traces": {
+      "name": "Questie Forever object observations",
+      "url": "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverObjectTraces.lua"
+    },
+    "wowhead-object-161505": {
+      "name": "Wowhead Forever: A Wrecked Raft",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/161505"
+    },
+    "wowhead-object-161504": {
+      "name": "Wowhead Forever: A Small Pack",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/161504"
+    },
+    "wowhead-object-164955": {
+      "name": "Wowhead Forever: Northern Crystal Pylon",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/164955"
+    },
+    "wowhead-object-164957": {
+      "name": "Wowhead Forever: Eastern Crystal Pylon",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/164957"
+    },
+    "wowhead-object-164956": {
+      "name": "Wowhead Forever: Western Crystal Pylon",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/164956"
+    },
+    "wowhead-npc-10977": {
+      "name": "Wowhead Forever: Quixxil",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/10977"
+    },
+    "wowhead-npc-10583": {
+      "name": "Wowhead Forever: Gryfe",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/10583"
+    },
+    "wowhead-object-164910": {
+      "name": "Wowhead Forever: Ornate Chest",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/164910"
+    },
+    "wowhead-object-672518": {
+      "name": "Wowhead Forever: Damaged Blue Crystal",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/672518"
+    },
+    "wowhead-npc-9376": {
+      "name": "Wowhead Forever: Blazerunner",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/9376"
+    },
+    "wowhead-npc-9622": {
+      "name": "Wowhead Forever: U'cha",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/9622"
+    },
+    "wowhead-npc-6518": {
+      "name": "Wowhead Forever: Tar Lurker",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/6518"
+    },
+    "wowhead-npc-6581": {
+      "name": "Wowhead Forever: Ravasaur Matriarch",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/6581"
+    },
+    "wowhead-npc-6585": {
+      "name": "Wowhead Forever: Uhk'loc",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/6585"
+    },
+    "wowhead-npc-6582": {
+      "name": "Wowhead Forever: Clutchmother Zavas",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/6582"
+    },
+    "wowhead-npc-6583": {
+      "name": "Wowhead Forever: Gruff",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/6583"
+    },
+    "wowhead-npc-6584": {
+      "name": "Wowhead Forever: King Mosh",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/6584"
+    }
+  },
+  "classicSnapshot": {
+    "url": "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+    "releasePublished": "2026-11-13T13:34:58Z",
+    "sha256": "daa16e44b95a9d4a0d17b8f8e3a91cf0b4be1af7d9b3bfc8ac71707a02399f5f"
+  },
+  "stats": {
+    "entries": 174,
+    "markers": 166,
+    "categories": {
+      "quest-giver": 15,
+      "quest-object": 18,
+      "landmark": 1,
+      "quest-chest": 1,
+      "npc": 3,
+      "rare": 18,
+      "quest-material": 118
+    },
+    "linkedQuests": 54,
+    "unmappedNonseasonalQuestIds": [
+      "3781",
+      "3803",
+      "3909",
+      "3912",
+      "3913",
+      "4084",
+      "4493",
+      "4508",
+      "4510",
+      "4513"
+    ],
+    "rarePositions": {
+      "6581": {
+        "name": "Ravasaur Matriarch",
+        "level": [
+          50,
+          50
+        ],
+        "wowheadPositions": 75,
+        "displayedPositions": [
+          [
+            62.2,
+            66
+          ],
+          [
+            69.6,
+            69.2
+          ],
+          [
+            66.4,
+            58.8
+          ],
+          [
+            57.2,
+            70.2
+          ]
+        ],
+        "classicAnchor": [
+          62.3,
+          65.9004
+        ]
+      },
+      "6585": {
+        "name": "Uhk'loc",
+        "level": [
+          52,
+          53
+        ],
+        "wowheadPositions": 9,
+        "displayedPositions": [
+          [
+            68.4,
+            12.4
+          ]
+        ],
+        "classicAnchor": [
+          68.5,
+          12.6976
+        ]
+      },
+      "6582": {
+        "name": "Clutchmother Zavas",
+        "level": [
+          54,
+          54
+        ],
+        "wowheadPositions": 26,
+        "displayedPositions": [
+          [
+            48.8,
+            85
+          ],
+          [
+            43.4,
+            81
+          ]
+        ],
+        "classicAnchor": [
+          48.7,
+          85.401
+        ]
+      },
+      "6583": {
+        "name": "Gruff",
+        "level": [
+          57,
+          57
+        ],
+        "wowheadPositions": 14,
+        "displayedPositions": [
+          [
+            37.9,
+            74.8
+          ],
+          [
+            32.2,
+            70.1
+          ],
+          [
+            41.9,
+            80.1
+          ]
+        ],
+        "classicAnchor": [
+          38.1,
+          75.5007
+        ]
+      },
+      "6584": {
+        "name": "King Mosh",
+        "level": [
+          60,
+          60
+        ],
+        "wowheadPositions": 196,
+        "displayedPositions": [
+          [
+            35,
+            36
+          ],
+          [
+            25,
+            45.8
+          ],
+          [
+            28.8,
+            21.2
+          ],
+          [
+            33.6,
+            49
+          ],
+          [
+            25.8,
+            32.8
+          ],
+          [
+            41.8,
+            29.8
+          ],
+          [
+            34.6,
+            25.4
+          ],
+          [
+            29.6,
+            40
+          ]
+        ],
+        "classicAnchor": [
+          35.3,
+          36.001
+        ]
+      }
+    },
+    "gatheringPositions": {
+      "Un'Goro Dirt Pile": {
+        "sourcePositions": 39,
+        "displayedPositions": 33
+      },
+      "Blue Power Crystal": {
+        "sourcePositions": 37,
+        "displayedPositions": 21
+      },
+      "Green Power Crystal": {
+        "sourcePositions": 40,
+        "displayedPositions": 26
+      },
+      "Red Power Crystal": {
+        "sourcePositions": 24,
+        "displayedPositions": 17
+      },
+      "Yellow Power Crystal": {
+        "sourcePositions": 39,
+        "displayedPositions": 21
+      }
+    }
+  },
+  "chestCandidates": [
+    {
+      "guid": 17331,
+      "id": 153451,
+      "name": "Solid Chest",
+      "x": -8374.4296875,
+      "y": -2975.60009765625,
+      "insideUngoro": false,
+      "mapPercent": [
+        94.8351,
+        97.6133
+      ]
+    },
+    {
+      "guid": 17509,
+      "id": 164910,
+      "name": "Ornate Chest",
+      "x": -7199.3798828125,
+      "y": -1327.030029296875,
+      "insideUngoro": true,
+      "mapPercent": [
+        50.2792,
+        49.9749
+      ]
+    },
+    {
+      "guid": 55812,
+      "id": 153451,
+      "name": "Solid Chest",
+      "x": -8320.3203125,
+      "y": -3131.56005859375,
+      "insideUngoro": false,
+      "mapPercent": [
+        99.0503,
+        95.4196
+      ]
+    },
+    {
+      "guid": 85717,
+      "id": 4149,
+      "name": "Solid Chest",
+      "x": -6912.33984375,
+      "y": -3128.719970703125,
+      "insideUngoro": false,
+      "mapPercent": [
+        98.9735,
+        38.3378
+      ]
+    },
+    {
+      "guid": 85720,
+      "id": 4149,
+      "name": "Solid Chest",
+      "x": -7193.02001953125,
+      "y": -2980.909912109375,
+      "insideUngoro": false,
+      "mapPercent": [
+        94.9786,
+        49.717
+      ]
+    },
+    {
+      "guid": 85736,
+      "id": 4149,
+      "name": "Solid Chest",
+      "x": -6992.10986328125,
+      "y": -2808.409912109375,
+      "insideUngoro": false,
+      "mapPercent": [
+        90.3165,
+        41.5718
+      ]
+    },
+    {
+      "guid": 300070,
+      "id": 153451,
+      "name": "Solid Chest",
+      "x": -8383.0400390625,
+      "y": -3083.9599609375,
+      "insideUngoro": false,
+      "mapPercent": [
+        97.7638,
+        97.9624
+      ]
+    }
+  ],
+  "eraChestRows": 0
+}

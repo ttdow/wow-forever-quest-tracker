@@ -1,0 +1,3643 @@
+{
+  "zone": "Un'Goro Crater",
+  "updated": "2026-11-27",
+  "map": {
+    "image": "./assets/maps/ungoro-crater.webp",
+    "width": 1002,
+    "height": 668,
+    "source": "https://foreverdb.net/maps/1449",
+    "coordinateSystem": "zone-percent",
+    "region": [
+      -8433.3,
+      -3166.7,
+      -5966.7,
+      533.3
+    ],
+    "attribution": "World of Warcraft © Blizzard Entertainment; client map via ForeverDB"
+  },
+  "note": "Rare markers show representative Wowhead positions. The Ornate Chest holds the Golden Flame. Random chest spawns are unverified. Enable Quest materials for soil and crystal sites.",
+  "points": [
+    {
+      "id": "npc-10302",
+      "name": "Krakle",
+      "category": "quest-giver",
+      "x": 30.9,
+      "y": 50.4,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers"
+      ],
+      "npcId": "10302",
+      "questIds": [
+        "974",
+        "980"
+      ]
+    },
+    {
+      "id": "object-161505",
+      "name": "A Wrecked Raft",
+      "category": "quest-object",
+      "x": 63.05,
+      "y": 68.85,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers",
+        "wowhead-object-161505"
+      ],
+      "objectId": "161505",
+      "sourceCoordinates": {
+        "x": 63.0,
+        "y": 68.6
+      },
+      "displayGroup": "Southeastern pond",
+      "approximate": true,
+      "note": "Reference location 63.00, 68.60.",
+      "questIds": [
+        "3844"
+      ]
+    },
+    {
+      "id": "object-161504",
+      "name": "A Small Pack",
+      "category": "quest-object",
+      "x": 63.05,
+      "y": 68.85,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers",
+        "wowhead-object-161504"
+      ],
+      "objectId": "161504",
+      "sourceCoordinates": {
+        "x": 63.1,
+        "y": 69.1
+      },
+      "displayGroup": "Southeastern pond",
+      "approximate": true,
+      "note": "Reference location 63.10, 69.10.",
+      "questIds": [
+        "3845",
+        "3844"
+      ]
+    },
+    {
+      "id": "npc-9270",
+      "name": "Williden Marshal",
+      "category": "quest-giver",
+      "x": 43.7,
+      "y": 7.3,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers"
+      ],
+      "npcId": "9270",
+      "sourceCoordinates": {
+        "x": 43.9,
+        "y": 7.1
+      },
+      "displayGroup": "Marshal's Refuge camp",
+      "approximate": true,
+      "note": "Reference location 43.90, 7.10.",
+      "questIds": [
+        "3881",
+        "3884"
+      ]
+    },
+    {
+      "id": "npc-9272",
+      "name": "Spark Nilminer",
+      "category": "quest-giver",
+      "x": 43.7,
+      "y": 7.3,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers"
+      ],
+      "npcId": "9272",
+      "sourceCoordinates": {
+        "x": 43.5,
+        "y": 7.4
+      },
+      "displayGroup": "Marshal's Refuge camp",
+      "approximate": true,
+      "note": "Reference location 43.50, 7.40.",
+      "questIds": [
+        "3882"
+      ]
+    },
+    {
+      "id": "npc-9271",
+      "name": "Hol'anyee Marshal",
+      "category": "quest-giver",
+      "x": 43.7,
+      "y": 7.3,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers"
+      ],
+      "npcId": "9271",
+      "sourceCoordinates": {
+        "x": 43.9,
+        "y": 7.2
+      },
+      "displayGroup": "Marshal's Refuge camp",
+      "approximate": true,
+      "note": "Reference location 43.90, 7.20.",
+      "questIds": [
+        "3883",
+        "92020"
+      ]
+    },
+    {
+      "id": "npc-8737",
+      "name": "Linken",
+      "category": "quest-giver",
+      "x": 44.7,
+      "y": 8.1,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers"
+      ],
+      "npcId": "8737",
+      "questIds": [
+        "3908",
+        "3941",
+        "3962",
+        "3845",
+        "3914",
+        "3961"
+      ]
+    },
+    {
+      "id": "npc-9117",
+      "name": "J.D. Collie",
+      "category": "quest-giver",
+      "x": 41.9,
+      "y": 2.7,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers"
+      ],
+      "npcId": "9117",
+      "questIds": [
+        "3942",
+        "3961",
+        "4284",
+        "4285",
+        "4287",
+        "4288",
+        "4321",
+        "3941",
+        "4005"
+      ]
+    },
+    {
+      "id": "npc-9119",
+      "name": "Muigin",
+      "category": "quest-giver",
+      "x": 43.6,
+      "y": 9.1,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers"
+      ],
+      "npcId": "9119",
+      "sourceCoordinates": {
+        "x": 42.9,
+        "y": 9.6
+      },
+      "displayGroup": "Marshal's Refuge south",
+      "approximate": true,
+      "note": "Reference location 42.90, 9.60.",
+      "questIds": [
+        "4141",
+        "4142",
+        "4144",
+        "4143"
+      ]
+    },
+    {
+      "id": "npc-9618",
+      "name": "Karna Remtravel",
+      "category": "quest-giver",
+      "x": 46.4,
+      "y": 13.4,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers"
+      ],
+      "npcId": "9618",
+      "questIds": [
+        "4243",
+        "4245"
+      ]
+    },
+    {
+      "id": "npc-9623",
+      "name": "A-Me 01",
+      "category": "quest-giver",
+      "x": 67.7,
+      "y": 16.8,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers"
+      ],
+      "npcId": "9623",
+      "aliases": [
+        "Fungal Rock"
+      ],
+      "questIds": [
+        "4244",
+        "4245",
+        "4243"
+      ]
+    },
+    {
+      "id": "npc-9619",
+      "name": "Torwa Pathfinder",
+      "category": "quest-giver",
+      "x": 71.6,
+      "y": 76.0,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers"
+      ],
+      "npcId": "9619",
+      "aliases": [
+        "Tanaris trail",
+        "Southeast entrance"
+      ],
+      "questIds": [
+        "4289",
+        "4290",
+        "4291",
+        "4292",
+        "4301",
+        "87492",
+        "87494"
+      ]
+    },
+    {
+      "id": "object-164955",
+      "name": "Northern Crystal Pylon",
+      "category": "quest-object",
+      "x": 56.5,
+      "y": 12.5,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic",
+        "wowhead-object-164955"
+      ],
+      "objectId": "164955",
+      "questIds": [
+        "4381",
+        "4385",
+        "4285"
+      ]
+    },
+    {
+      "id": "object-164957",
+      "name": "Eastern Crystal Pylon",
+      "category": "quest-object",
+      "x": 77.2,
+      "y": 50.0,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic",
+        "wowhead-object-164957"
+      ],
+      "objectId": "164957",
+      "questIds": [
+        "4382",
+        "4386",
+        "4287"
+      ]
+    },
+    {
+      "id": "object-164956",
+      "name": "Western Crystal Pylon",
+      "category": "quest-object",
+      "x": 23.9,
+      "y": 59.2,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic",
+        "wowhead-object-164956"
+      ],
+      "objectId": "164956",
+      "questIds": [
+        "4383",
+        "4384",
+        "4288"
+      ]
+    },
+    {
+      "id": "npc-9999",
+      "name": "Ringo",
+      "category": "quest-giver",
+      "x": 51.9,
+      "y": 49.8,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers"
+      ],
+      "npcId": "9999",
+      "questIds": [
+        "4491",
+        "4492"
+      ]
+    },
+    {
+      "id": "npc-9997",
+      "name": "Spraggle Frock",
+      "category": "quest-giver",
+      "x": 43.6,
+      "y": 9.1,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers"
+      ],
+      "npcId": "9997",
+      "sourceCoordinates": {
+        "x": 43.6,
+        "y": 8.5
+      },
+      "displayGroup": "Marshal's Refuge south",
+      "approximate": true,
+      "note": "Reference location 43.60, 8.50.",
+      "questIds": [
+        "4492",
+        "4491",
+        "4501"
+      ]
+    },
+    {
+      "id": "object-174682",
+      "name": "Beware of Pterrordax",
+      "category": "quest-object",
+      "x": 43.6,
+      "y": 9.1,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "objectId": "174682",
+      "sourceCoordinates": {
+        "x": 43.5,
+        "y": 8.4
+      },
+      "displayGroup": "Marshal's Refuge south",
+      "approximate": true,
+      "note": "Reference location 43.50, 8.40.",
+      "questIds": [
+        "4501"
+      ]
+    },
+    {
+      "id": "npc-9998",
+      "name": "Shizzle",
+      "category": "quest-giver",
+      "x": 44.2,
+      "y": 11.6,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic-givers"
+      ],
+      "npcId": "9998",
+      "questIds": [
+        "4503"
+      ]
+    },
+    {
+      "id": "npc-9274",
+      "name": "Dadanga",
+      "category": "quest-giver",
+      "x": 43.7,
+      "y": 7.3,
+      "verification": "classic-derived",
+      "sources": [
+        "quests",
+        "classic"
+      ],
+      "npcId": "9274",
+      "sourceCoordinates": {
+        "x": 43.6,
+        "y": 7.2
+      },
+      "displayGroup": "Marshal's Refuge camp",
+      "approximate": true,
+      "note": "Reference location 43.60, 7.20.",
+      "questIds": [
+        "5150"
+      ]
+    },
+    {
+      "id": "npc-10977",
+      "name": "Quixxil",
+      "category": "quest-giver",
+      "x": 43.6,
+      "y": 9.1,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-10977",
+        "quests"
+      ],
+      "npcId": "10977",
+      "sourceCoordinates": {
+        "x": 43.6,
+        "y": 9.6
+      },
+      "displayGroup": "Marshal's Refuge south",
+      "approximate": true,
+      "note": "Reference location 43.60, 9.60.",
+      "questIds": [
+        "5163"
+      ]
+    },
+    {
+      "id": "flight-path-gryfe",
+      "name": "Marshal's Refuge flight path",
+      "category": "landmark",
+      "x": 45.2,
+      "y": 5.8,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-10583"
+      ],
+      "npcId": "10583",
+      "aliases": [
+        "Gryfe"
+      ]
+    },
+    {
+      "id": "object-161526",
+      "name": "Crate of Foodstuffs",
+      "category": "quest-object",
+      "x": 68.5422,
+      "y": 36.5369,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Collect the expedition’s food supplies here.",
+      "objectId": "161526",
+      "world": {
+        "map": 1,
+        "x": -6867.919921875,
+        "y": -2002.760009765625
+      },
+      "questIds": [
+        "3881"
+      ]
+    },
+    {
+      "id": "object-161521",
+      "name": "Research Equipment",
+      "category": "quest-object",
+      "x": 38.4526,
+      "y": 66.0573,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Collect the research supplies here.",
+      "objectId": "161521",
+      "world": {
+        "map": 1,
+        "x": -7596.06982421875,
+        "y": -889.4450073242188
+      },
+      "questIds": [
+        "3881"
+      ]
+    },
+    {
+      "id": "object-166863",
+      "name": "Fresh Threshadon Carcass",
+      "category": "quest-object",
+      "x": 68.7362,
+      "y": 56.7056,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Collect the Piece of Threshadon Carcass here.",
+      "objectId": "166863",
+      "world": {
+        "map": 1,
+        "x": -7365.39990234375,
+        "y": -2009.93994140625
+      },
+      "questIds": [
+        "4290"
+      ]
+    },
+    {
+      "id": "object-169216",
+      "name": "Preserved Threshadon Carcass",
+      "category": "quest-object",
+      "x": 79.9541,
+      "y": 49.9226,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Summon Lar’korwi on the flat rock beside the preserved carcass.",
+      "objectId": "169216",
+      "world": {
+        "map": 1,
+        "x": -7198.08984375,
+        "y": -2425
+      },
+      "questIds": [
+        "4292"
+      ]
+    },
+    {
+      "id": "object-174792",
+      "name": "Gorishi Silithid Crystal",
+      "category": "quest-object",
+      "x": 43.4554,
+      "y": 80.9998,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Use the Gorishi Queen Lure at the crystal inside the hive.",
+      "objectId": "174792",
+      "world": {
+        "map": 1,
+        "x": -7964.64013671875,
+        "y": -1074.550048828125
+      },
+      "questIds": [
+        "4507"
+      ]
+    },
+    {
+      "id": "object-174793",
+      "name": "Gorishi Hive Hatchery",
+      "category": "quest-object",
+      "x": 48.6919,
+      "y": 85.3239,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "note": "Sample the hive wall for Alien Ecology. Gorishi in this area can also drop the scent gland.",
+      "objectId": "174793",
+      "world": {
+        "map": 1,
+        "x": -8071.2998046875,
+        "y": -1268.300048828125
+      },
+      "questIds": [
+        "3883",
+        "4496"
+      ]
+    },
+    {
+      "id": "object-164910",
+      "name": "Ornate Chest",
+      "category": "quest-chest",
+      "x": 50.2,
+      "y": 50,
+      "verification": "community-reference",
+      "sources": [
+        "classic",
+        "quests",
+        "wowhead-object-164910"
+      ],
+      "note": "Contains the Golden Flame for Linken’s quest at Fire Plume Ridge.",
+      "objectId": "164910",
+      "aliases": [
+        "Golden Flame",
+        "Fire Plume Ridge",
+        "Treasure"
+      ],
+      "questIds": [
+        "3962"
+      ]
+    },
+    {
+      "id": "hot-spot-17501",
+      "name": "Fire Plume Ridge Hot Spot",
+      "category": "quest-object",
+      "x": 54.0108,
+      "y": 47.6064,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "objectId": "148503",
+      "world": {
+        "map": 1,
+        "x": -7140.9599609375,
+        "y": -1465.0999755859375
+      },
+      "note": "Check the temperature with Krakle’s Thermometer.",
+      "questIds": [
+        "974"
+      ]
+    },
+    {
+      "id": "hot-spot-17502",
+      "name": "Fire Plume Ridge Hot Spot",
+      "category": "quest-object",
+      "x": 49.69,
+      "y": 45.6385,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "objectId": "148503",
+      "world": {
+        "map": 1,
+        "x": -7092.419921875,
+        "y": -1305.22998046875
+      },
+      "note": "Check the temperature with Krakle’s Thermometer.",
+      "questIds": [
+        "974"
+      ]
+    },
+    {
+      "id": "hot-spot-17503",
+      "name": "Fire Plume Ridge Hot Spot",
+      "category": "quest-object",
+      "x": 45.4832,
+      "y": 48.5312,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "objectId": "148503",
+      "world": {
+        "map": 1,
+        "x": -7163.77001953125,
+        "y": -1149.5799560546875
+      },
+      "note": "Check the temperature with Krakle’s Thermometer.",
+      "questIds": [
+        "974"
+      ]
+    },
+    {
+      "id": "hot-spot-17504",
+      "name": "Fire Plume Ridge Hot Spot",
+      "category": "quest-object",
+      "x": 53.9138,
+      "y": 55.2291,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "objectId": "148503",
+      "world": {
+        "map": 1,
+        "x": -7328.97998046875,
+        "y": -1461.510009765625
+      },
+      "note": "Check the temperature with Krakle’s Thermometer.",
+      "questIds": [
+        "974"
+      ]
+    },
+    {
+      "id": "hot-spot-17505",
+      "name": "Fire Plume Ridge Hot Spot",
+      "category": "quest-object",
+      "x": 48.06,
+      "y": 53.3033,
+      "verification": "classic-derived",
+      "sources": [
+        "classic",
+        "quests"
+      ],
+      "objectId": "148503",
+      "world": {
+        "map": 1,
+        "x": -7281.47998046875,
+        "y": -1244.9200439453125
+      },
+      "note": "Check the temperature with Krakle’s Thermometer.",
+      "questIds": [
+        "974"
+      ]
+    },
+    {
+      "id": "object-672518",
+      "name": "Damaged Blue Crystal",
+      "category": "quest-object",
+      "x": 66.2,
+      "y": 75.12,
+      "verification": "forever-confirmed",
+      "sources": [
+        "object-traces",
+        "wowhead-object-672518",
+        "quests"
+      ],
+      "objectId": "672518",
+      "questIds": [
+        "87492"
+      ]
+    },
+    {
+      "id": "npc-9376",
+      "name": "Blazerunner",
+      "category": "npc",
+      "x": 49.2,
+      "y": 49,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-9376",
+        "quests"
+      ],
+      "npcId": "9376",
+      "note": "Fire Plume Ridge summit. Use the Silver Totem on Blazerunner. The lava lake is used for Fire Plume Forged, and the surrounding elementals drop Un’Goro Ash.",
+      "questIds": [
+        "3962",
+        "5801",
+        "4502"
+      ]
+    },
+    {
+      "id": "npc-9622",
+      "name": "U'cha",
+      "category": "npc",
+      "x": 67.8,
+      "y": 13.8,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-9622",
+        "quests"
+      ],
+      "npcId": "9622",
+      "note": "U’cha is in Fungal Rock. Other apes in and around the cave drop the pelts.",
+      "questIds": [
+        "4301",
+        "4289"
+      ]
+    },
+    {
+      "id": "npc-6518",
+      "name": "Tar Lurker",
+      "category": "npc",
+      "x": 44.6,
+      "y": 19,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6518",
+        "quests"
+      ],
+      "npcId": "6518",
+      "note": "One reference in the northern tar pits. Tar beasts there can drop Super Sticky Tar.",
+      "questIds": [
+        "4504"
+      ]
+    },
+    {
+      "id": "rare-6581-1",
+      "name": "Ravasaur Matriarch",
+      "category": "rare",
+      "x": 62.2,
+      "y": 66,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6581",
+        "classic-rares"
+      ],
+      "npcId": "6581",
+      "note": "Rare, level 50. One of 4 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6581-2",
+      "name": "Ravasaur Matriarch",
+      "category": "rare",
+      "x": 69.6,
+      "y": 69.2,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6581",
+        "classic-rares"
+      ],
+      "npcId": "6581",
+      "note": "Rare, level 50. One of 4 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6581-3",
+      "name": "Ravasaur Matriarch",
+      "category": "rare",
+      "x": 66.4,
+      "y": 58.8,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6581",
+        "classic-rares"
+      ],
+      "npcId": "6581",
+      "note": "Rare, level 50. One of 4 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6581-4",
+      "name": "Ravasaur Matriarch",
+      "category": "rare",
+      "x": 57.2,
+      "y": 70.2,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6581",
+        "classic-rares"
+      ],
+      "npcId": "6581",
+      "note": "Rare, level 50. One of 4 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6585-1",
+      "name": "Uhk'loc",
+      "category": "rare",
+      "x": 68.4,
+      "y": 12.4,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6585",
+        "classic-rares"
+      ],
+      "npcId": "6585",
+      "note": "Rare, level 52–53. One of 1 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6582-1",
+      "name": "Clutchmother Zavas",
+      "category": "rare",
+      "x": 48.8,
+      "y": 85,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6582",
+        "classic-rares"
+      ],
+      "npcId": "6582",
+      "note": "Rare, level 54. One of 2 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6582-2",
+      "name": "Clutchmother Zavas",
+      "category": "rare",
+      "x": 43.4,
+      "y": 81,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6582",
+        "classic-rares"
+      ],
+      "npcId": "6582",
+      "note": "Rare, level 54. One of 2 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6583-1",
+      "name": "Gruff",
+      "category": "rare",
+      "x": 37.9,
+      "y": 74.8,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6583",
+        "classic-rares"
+      ],
+      "npcId": "6583",
+      "note": "Rare elite, level 57. One of 3 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6583-2",
+      "name": "Gruff",
+      "category": "rare",
+      "x": 32.2,
+      "y": 70.1,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6583",
+        "classic-rares"
+      ],
+      "npcId": "6583",
+      "note": "Rare elite, level 57. One of 3 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6583-3",
+      "name": "Gruff",
+      "category": "rare",
+      "x": 41.9,
+      "y": 80.1,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6583",
+        "classic-rares"
+      ],
+      "npcId": "6583",
+      "note": "Rare elite, level 57. One of 3 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6584-1",
+      "name": "King Mosh",
+      "category": "rare",
+      "x": 35,
+      "y": 36,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6584",
+        "classic-rares"
+      ],
+      "npcId": "6584",
+      "note": "Rare elite, level 60. One of 8 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6584-2",
+      "name": "King Mosh",
+      "category": "rare",
+      "x": 25,
+      "y": 45.8,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6584",
+        "classic-rares"
+      ],
+      "npcId": "6584",
+      "note": "Rare elite, level 60. One of 8 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6584-3",
+      "name": "King Mosh",
+      "category": "rare",
+      "x": 28.8,
+      "y": 21.2,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6584",
+        "classic-rares"
+      ],
+      "npcId": "6584",
+      "note": "Rare elite, level 60. One of 8 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6584-4",
+      "name": "King Mosh",
+      "category": "rare",
+      "x": 33.6,
+      "y": 49,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6584",
+        "classic-rares"
+      ],
+      "npcId": "6584",
+      "note": "Rare elite, level 60. One of 8 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6584-5",
+      "name": "King Mosh",
+      "category": "rare",
+      "x": 25.8,
+      "y": 32.8,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6584",
+        "classic-rares"
+      ],
+      "npcId": "6584",
+      "note": "Rare elite, level 60. One of 8 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6584-6",
+      "name": "King Mosh",
+      "category": "rare",
+      "x": 41.8,
+      "y": 29.8,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6584",
+        "classic-rares"
+      ],
+      "npcId": "6584",
+      "note": "Rare elite, level 60. One of 8 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6584-7",
+      "name": "King Mosh",
+      "category": "rare",
+      "x": 34.6,
+      "y": 25.4,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6584",
+        "classic-rares"
+      ],
+      "npcId": "6584",
+      "note": "Rare elite, level 60. One of 8 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "rare-6584-8",
+      "name": "King Mosh",
+      "category": "rare",
+      "x": 29.6,
+      "y": 40,
+      "verification": "community-reference",
+      "sources": [
+        "wowhead-npc-6584",
+        "classic-rares"
+      ],
+      "npcId": "6584",
+      "note": "Rare elite, level 60. One of 8 representative positions from Wowhead’s Forever map."
+    },
+    {
+      "id": "material-157936-1",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 49.46,
+      "y": 48.48,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-2",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 71.67,
+      "y": 75.91,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-3",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 21.92,
+      "y": 38.58,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-4",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 30.97,
+      "y": 78.87,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-5",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 62.16,
+      "y": 17.57,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-6",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 50.45,
+      "y": 90.1,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-7",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 40.37,
+      "y": 26.87,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-8",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 64.06,
+      "y": 40.97,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-9",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 30.61,
+      "y": 56.66,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-10",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 73.41,
+      "y": 58.29,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-11",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 40.75,
+      "y": 59.65,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-12",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 41.11,
+      "y": 79.78,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-13",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 55.58,
+      "y": 28.65,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-14",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 31.03,
+      "y": 34.12,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-15",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 35.86,
+      "y": 46.22,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-16",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 55.97,
+      "y": 56.86,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-17",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 36.35,
+      "y": 69.75,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-18",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 52.49,
+      "y": 78.92,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-19",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 32.86,
+      "y": 22.92,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-20",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 57.13,
+      "y": 44.16,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-21",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 50.21,
+      "y": 34.29,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-22",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 42.21,
+      "y": 45.46,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-23",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 25.56,
+      "y": 46.29,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-24",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 44.14,
+      "y": 33.79,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-25",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 30.52,
+      "y": 69.98,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-26",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 58.13,
+      "y": 36.33,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-27",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 44.7,
+      "y": 54.42,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-28",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 38.9,
+      "y": 39.54,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-29",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 56.56,
+      "y": 83.45,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-30",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 73.11,
+      "y": 65.65,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-31",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 28.01,
+      "y": 62.73,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-32",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 63.3,
+      "y": 47.9,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-157936-33",
+      "name": "Un'Goro Dirt Pile",
+      "category": "quest-material",
+      "x": 53.56,
+      "y": 39.03,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "157936",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "aliases": [
+        "Un’Goro Soil",
+        "Un'Goro Soil"
+      ],
+      "questIds": [
+        "3764",
+        "3785",
+        "4496"
+      ]
+    },
+    {
+      "id": "material-164658-1",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 43.0,
+      "y": 45.55,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164778",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-2",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 81.47,
+      "y": 39.02,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164778",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-3",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 61.96,
+      "y": 85.29,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164658",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-4",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 55.69,
+      "y": 7.91,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164778",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-5",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 29.76,
+      "y": 79.09,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164778",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-6",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 20.6,
+      "y": 50.04,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164658",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-7",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 62.14,
+      "y": 40.49,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164778",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-8",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 74.39,
+      "y": 63.86,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164778",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-9",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 39.36,
+      "y": 14.46,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164778",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-10",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 45.77,
+      "y": 92.58,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164658",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-11",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 56.21,
+      "y": 60.57,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164658",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-12",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 63.39,
+      "y": 23.14,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164778",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-13",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 45.45,
+      "y": 65.94,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164778",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-14",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 30.78,
+      "y": 63.28,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164658",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-15",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 75.7,
+      "y": 28.81,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164778",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-16",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 56.88,
+      "y": 76.15,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164658",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-17",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 21.89,
+      "y": 61.42,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164778",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-18",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 71.66,
+      "y": 73.65,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164658",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-19",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 43.87,
+      "y": 21.43,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164658",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-20",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 66.69,
+      "y": 47.04,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164778",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164658-21",
+      "name": "Blue Power Crystal",
+      "category": "quest-material",
+      "x": 63.14,
+      "y": 75.32,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164658",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4382",
+        "4384",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164659-1",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 42.88,
+      "y": 52.81,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-2",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 81.47,
+      "y": 39.02,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-3",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 56.52,
+      "y": 12.3,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-4",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 66.73,
+      "y": 73.24,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164779",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-5",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 31.27,
+      "y": 18.52,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-6",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 44.18,
+      "y": 88.85,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164779",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-7",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 25.09,
+      "y": 67.02,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-8",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 24.01,
+      "y": 42.79,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-9",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 79.92,
+      "y": 61.96,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-10",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 51.76,
+      "y": 34.96,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-11",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 69.83,
+      "y": 18.85,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-12",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 68.04,
+      "y": 51.44,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-13",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 46.24,
+      "y": 19.59,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164779",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-14",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 37.77,
+      "y": 66.48,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-15",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 34.69,
+      "y": 33.22,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164779",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-16",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 62.61,
+      "y": 26.96,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164779",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-17",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 26.45,
+      "y": 29.18,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-18",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 76.97,
+      "y": 28.39,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-19",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 51.92,
+      "y": 87.44,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164779",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-20",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 28.99,
+      "y": 51.67,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164779",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-21",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 75.0,
+      "y": 70.52,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164779",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-22",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 32.66,
+      "y": 73.53,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-23",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 40.67,
+      "y": 79.89,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164779",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-24",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 46.95,
+      "y": 61.02,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164779",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-25",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 62.58,
+      "y": 16.63,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164779",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164659-26",
+      "name": "Green Power Crystal",
+      "category": "quest-material",
+      "x": 60.86,
+      "y": 68.55,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164659",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4382",
+        "4383"
+      ]
+    },
+    {
+      "id": "material-164660-1",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 40.57,
+      "y": 50.01,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164660",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-2",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 81.61,
+      "y": 60.57,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164780",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-3",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 58.31,
+      "y": 10.81,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164660",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-4",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 19.65,
+      "y": 38.87,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164660",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-5",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 38.22,
+      "y": 81.82,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164780",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-6",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 58.21,
+      "y": 65.87,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164660",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-7",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 69.58,
+      "y": 34.97,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164780",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-8",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 39.72,
+      "y": 26.92,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164780",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-9",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 70.23,
+      "y": 64.11,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164660",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-10",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 47.34,
+      "y": 12.89,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164660",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-11",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 27.74,
+      "y": 46.44,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164780",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-12",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 78.19,
+      "y": 40.1,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164660",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-13",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 36.15,
+      "y": 69.0,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164660",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-14",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 72.78,
+      "y": 51.94,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164660",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-15",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 43.86,
+      "y": 74.68,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164660",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-16",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 68.34,
+      "y": 25.38,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164780",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164660-17",
+      "name": "Red Power Crystal",
+      "category": "quest-material",
+      "x": 33.85,
+      "y": 44.34,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164660",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4383",
+        "4385",
+        "4386"
+      ]
+    },
+    {
+      "id": "material-164661-1",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 53.73,
+      "y": 38.78,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164781",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-2",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 31.14,
+      "y": 81.26,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164661",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-3",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 69.43,
+      "y": 79.99,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164661",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-4",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 23.14,
+      "y": 40.19,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164781",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-5",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 76.62,
+      "y": 43.84,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164781",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-6",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 58.16,
+      "y": 8.76,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164661",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-7",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 37.76,
+      "y": 20.57,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164661",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-8",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 35.77,
+      "y": 54.57,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164781",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-9",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 72.22,
+      "y": 21.24,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164661",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-10",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 56.32,
+      "y": 73.63,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164781",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-11",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 23.01,
+      "y": 59.18,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164781",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-12",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 75.29,
+      "y": 61.52,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164781",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-13",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 40.49,
+      "y": 75.26,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164781",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-14",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 59.76,
+      "y": 49.35,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164781",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-15",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 27.46,
+      "y": 70.16,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164661",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-16",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 72.14,
+      "y": 33.23,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164661",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-17",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 30.1,
+      "y": 21.19,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164781",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-18",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 26.85,
+      "y": 50.54,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164781",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-19",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 56.07,
+      "y": 18.55,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164661",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-20",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 57.37,
+      "y": 82.63,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164781",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    },
+    {
+      "id": "material-164661-21",
+      "name": "Yellow Power Crystal",
+      "category": "quest-material",
+      "x": 66.18,
+      "y": 21.11,
+      "verification": "classic-derived",
+      "sources": [
+        "objects",
+        "quests"
+      ],
+      "objectId": "164781",
+      "note": "Representative Classic gathering site. Availability can vary.",
+      "questIds": [
+        "4284",
+        "4381",
+        "4384",
+        "4385"
+      ]
+    }
+  ],
+  "sources": {
+    "quests": {
+      "name": "Un’Goro quest coverage",
+      "url": "https://ttdow.github.io/wow-forever-quest-tracker/research/ungoro-crater/README.md"
+    },
+    "classic": {
+      "name": "CMaNGOS Classic reference locations",
+      "url": "https://github.com/cmangos/classic-db/releases/tag/latest"
+    },
+    "classic-givers": {
+      "name": "ForeverDB Classic quest giver locations",
+      "url": "https://foreverdb.net/data/maps/layer-questgivers.json"
+    },
+    "classic-rares": {
+      "name": "ForeverDB Classic rare anchors",
+      "url": "https://foreverdb.net/data/maps/layer-rares.json"
+    },
+    "classic-chests": {
+      "name": "The Forever Era Classic chest layer",
+      "url": "https://theforeverera.com/data/map-layers/k.json"
+    },
+    "bounds": {
+      "name": "Forever client area boundaries",
+      "url": "https://foreverdb.net/data/maps/zones.json"
+    },
+    "objects": {
+      "name": "Questie Forever object database",
+      "url": "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverObjectDB.lua"
+    },
+    "object-traces": {
+      "name": "Questie Forever object observations",
+      "url": "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverObjectTraces.lua"
+    },
+    "wowhead-object-161505": {
+      "name": "Wowhead Forever: A Wrecked Raft",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/161505"
+    },
+    "wowhead-object-161504": {
+      "name": "Wowhead Forever: A Small Pack",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/161504"
+    },
+    "wowhead-object-164955": {
+      "name": "Wowhead Forever: Northern Crystal Pylon",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/164955"
+    },
+    "wowhead-object-164957": {
+      "name": "Wowhead Forever: Eastern Crystal Pylon",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/164957"
+    },
+    "wowhead-object-164956": {
+      "name": "Wowhead Forever: Western Crystal Pylon",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/164956"
+    },
+    "wowhead-npc-10977": {
+      "name": "Wowhead Forever: Quixxil",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/10977"
+    },
+    "wowhead-npc-10583": {
+      "name": "Wowhead Forever: Gryfe",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/10583"
+    },
+    "wowhead-object-164910": {
+      "name": "Wowhead Forever: Ornate Chest",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/164910"
+    },
+    "wowhead-object-672518": {
+      "name": "Wowhead Forever: Damaged Blue Crystal",
+      "url": "https://nether.wowhead.com/forever/tooltip/object/672518"
+    },
+    "wowhead-npc-9376": {
+      "name": "Wowhead Forever: Blazerunner",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/9376"
+    },
+    "wowhead-npc-9622": {
+      "name": "Wowhead Forever: U'cha",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/9622"
+    },
+    "wowhead-npc-6518": {
+      "name": "Wowhead Forever: Tar Lurker",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/6518"
+    },
+    "wowhead-npc-6581": {
+      "name": "Wowhead Forever: Ravasaur Matriarch",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/6581"
+    },
+    "wowhead-npc-6585": {
+      "name": "Wowhead Forever: Uhk'loc",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/6585"
+    },
+    "wowhead-npc-6582": {
+      "name": "Wowhead Forever: Clutchmother Zavas",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/6582"
+    },
+    "wowhead-npc-6583": {
+      "name": "Wowhead Forever: Gruff",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/6583"
+    },
+    "wowhead-npc-6584": {
+      "name": "Wowhead Forever: King Mosh",
+      "url": "https://nether.wowhead.com/forever/tooltip/npc/6584"
+    }
+  },
+  "license": "GPL-3.0 for CMaNGOS-derived reference positions; Blizzard artwork retains its copyright."
+}
