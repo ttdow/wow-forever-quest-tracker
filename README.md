@@ -4,7 +4,7 @@ Static HTML, CSS, and JavaScript. No installation, application server, package m
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Chrome, Firefox, or another modern browser.
 
-- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Shen'dralas, Feralas, Stranglethorn Vale, Azshara, Felwood, Riverglades, Winterspring, Mount Hyjal, Silithus, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, Krol'dok Stronghold, Uldaman, Maraudon, Zul'Farrak, Alcaz Prison, Sunken Temple, Blackrock Depths, or Blackmaw Hold.
+- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Badlands, Shen'dralas, Feralas, Stranglethorn Vale, Azshara, Felwood, Riverglades, Winterspring, Mount Hyjal, Silithus, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, Krol'dok Stronghold, Uldaman, Maraudon, Zul'Farrak, Alcaz Prison, Sunken Temple, Blackrock Depths, or Blackmaw Hold.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
@@ -38,13 +38,14 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 1,540 quest entries (1,447 unique IDs) directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 1,587 quest entries (1,481 unique IDs) directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
 - Ashenvale: 58 quests, including Shared Fury, Seeking Caitlin, and the six Althalaxx steps that start in or lead to Ashenvale; known Horde-only and non-Rogue class quests are excluded
 - Stonetalon Mountains: 28 quests, including relevant introductions and follow-ups; The Zoram Strand is linked as a prerequisite in Ashenvale
 - Desolace: 51 quests: 44 selected current-index quests, three associated introductions/handoffs, and the four-step Highway Robbery chain omitted by the index. Includes the Gelkis crafting hand-ins, centaur totems, and shared Draenethyst chain; Horde-only, Magram-route quests, and the two old Classic Khan duplicates are excluded
+- Badlands: 47 Alliance/shared entries, including the prospectors/Uldaman chain, Lotwil's experiments, Tremors of the Earth, Martek, the Alliance reagent runs, Safety Checks, Mirage Mirror, and both Terror of the Desert Skies steps. Thirteen IDs share progress with Uldaman; Horde-only and Magram-route quests are excluded. [Badlands research](research/badlands/README.md)
 - Shen'dralas: 32 quests: all 27 non-Magram entries in the current zone index plus five related handoffs/dungeon steps. Includes the shared pylon, temple, spectral-blade, Forlorn Gardens, and item-started quests; the 13 Magram-route quests remain excluded
 - Feralas: 53 Alliance/neutral quests, including related introductions, cross-zone chain steps, item-started quests, and repeatable quests
 - Stranglethorn Vale: 156 Alliance/shared entries, including Forever additions, Rogue Zandalar hand-ins, professions, events, and Booty Bay handoffs; Horde-only, other-class, and five older duplicate variants are excluded

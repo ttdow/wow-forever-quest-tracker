@@ -49958,5 +49958,1515 @@
     },
     "prerequisites": [],
     "previousQuests": []
+  },
+  {
+    "id": "656",
+    "zone": "Badlands",
+    "level": 50,
+    "name": "Summoning the Princess",
+    "stage": "Elite , 2 players · min. level 30 · Continuation in Arathi Highlands",
+    "giver": "Theldurin the Lost",
+    "coordinates": "51.4, 76.9",
+    "area": "Southern Badlands",
+    "objective": "Go to the Shards of Myzrael, summon her and defeat her. Gather her Eldritch Shackles and bind them to the Shards of Myzrael.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/656/summoning-the-princess",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "692",
+        "name": "The Lost Fragments",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "687",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "Theldurin the Lost",
+    "stage": "min. level 30 · Alliance pickup route",
+    "giver": "Gerrig Bonegrip",
+    "coordinates": "50.83, 5.62",
+    "area": "Forlorn Cavern (Ironforge)",
+    "objective": "Find Theldurin the Lost.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/687/theldurin-the-lost",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "questie-baseline-city-map",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "653",
+        "name": "Myzrael's Allies",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "692",
+    "zone": "Badlands",
+    "level": 41,
+    "name": "The Lost Fragments",
+    "stage": "min. level 30",
+    "giver": "Theldurin the Lost",
+    "coordinates": "51.4, 76.9",
+    "area": "Southern Badlands",
+    "objective": "Bring the Torn Scroll Fragment, the Crumpled Scroll Fragment and the Singed Scroll Fragment to Theldurin the Lost.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/692/the-lost-fragments",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "687",
+        "name": "Theldurin the Lost",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "703",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "Barbecued Buzzard Wings",
+    "stage": "min. level 33",
+    "giver": "Rigglefuzz",
+    "coordinates": "42.4, 52.9",
+    "area": "Martek's camp (Badlands)",
+    "objective": "Bring 4 Buzzard Wings to Rigglefuzz.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/703/barbecued-buzzard-wings",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "705",
+    "zone": "Badlands",
+    "level": 37,
+    "name": "Pearl Diving",
+    "stage": "Elite · min. level 30",
+    "giver": "Rigglefuzz",
+    "coordinates": "42.4, 52.9",
+    "area": "Martek's camp (Badlands)",
+    "objective": "Bring 9 Blue Pearls to Rigglefuzz in the Badlands.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/705/pearl-diving",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "706",
+    "zone": "Badlands",
+    "level": 45,
+    "name": "Fiery Blaze Enchantments",
+    "stage": "Elite · min. level 40",
+    "giver": "Sigrun Ironhew",
+    "coordinates": "53.8, 43.3",
+    "area": "Prospectors' camp (Badlands)",
+    "objective": "Acquire a Black Drake's Heart for Sigrun Ironhew.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/706/fiery-blaze-enchantments",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "708",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "The Black Box",
+    "stage": "Repeatable · min. level 30",
+    "giver": "Corroded Black Box (item)",
+    "coordinates": "",
+    "area": "Badlands",
+    "objective": "Take the Corroded Black Box to the Hall of Arms in Ironforge.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/708/the-black-box",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "709",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "Solution to Doom",
+    "stage": "",
+    "giver": "Theldurin the Lost",
+    "coordinates": "51.4, 76.9",
+    "area": "Badlands",
+    "objective": "Bring the Tablet of Ryun'eh to Theldurin the Lost.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/709/solution-to-doom",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "710",
+    "zone": "Badlands",
+    "level": 37,
+    "name": "Study of the Elements: Rock",
+    "stage": "min. level 35",
+    "giver": "Lotwil Veriatus",
+    "coordinates": "25.9, 44.9",
+    "area": "Lotwil and Lucien's camp (Badlands)",
+    "objective": "Find 10 Small Stone Shards and bring them to Lotwil Veriatus in the Badlands.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/710/study-of-the-elements-rock",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "711",
+    "zone": "Badlands",
+    "level": 39,
+    "name": "Study of the Elements: Rock",
+    "stage": "min. level 35",
+    "giver": "Lotwil Veriatus",
+    "coordinates": "25.9, 44.9",
+    "area": "Lotwil and Lucien's camp (Badlands)",
+    "objective": "Bring 3 Large Stone Slabs to Lotwil Veriatus in the Badlands.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/711/study-of-the-elements-rock",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "710",
+        "name": "Study of the Elements: Rock",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "712",
+    "zone": "Badlands",
+    "level": 42,
+    "name": "Study of the Elements: Rock",
+    "stage": "min. level 35",
+    "giver": "Lotwil Veriatus",
+    "coordinates": "25.9, 44.9",
+    "area": "Lotwil and Lucien's camp (Badlands)",
+    "objective": "Bring 5 Bracers of Rock Binding to Lotwil Veriatus in the Badlands.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/712/study-of-the-elements-rock",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "711",
+        "name": "Study of the Elements: Rock",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "713",
+    "zone": "Badlands",
+    "level": 37,
+    "name": "Coolant Heads Prevail",
+    "stage": "min. level 35",
+    "giver": "Lotwil Veriatus",
+    "coordinates": "25.9, 44.9",
+    "area": "Lotwil and Lucien's camp (Badlands)",
+    "objective": "Find Frost Oil and bring it to Lotwil Veriatus in Badlands.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/713/coolant-heads-prevail",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "714",
+    "zone": "Badlands",
+    "level": 37,
+    "name": "Gyro... What?",
+    "stage": "min. level 35",
+    "giver": "Lotwil Veriatus",
+    "coordinates": "25.9, 44.9",
+    "area": "Lotwil and Lucien's camp (Badlands)",
+    "objective": "Bring a Gyrochronatom to Lotwil Veriatus in the Badlands.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/714/gyro-what",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "713",
+        "name": "Coolant Heads Prevail",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "715",
+    "zone": "Badlands",
+    "level": 37,
+    "name": "Liquid Stone",
+    "stage": "Requires Alchemy · min. level 35",
+    "giver": "Lucien Tosselwrench",
+    "coordinates": "25.8, 44.2",
+    "area": "Lotwil and Lucien's camp (Badlands)",
+    "objective": "Bring a Healing Potion and a Lesser Invisibility Potion to Lucien Tosselwrench in the Badlands.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/715/liquid-stone",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "714",
+        "name": "Gyro... What?",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "716",
+    "zone": "Badlands",
+    "level": 42,
+    "name": "Stone Is Better than Cloth",
+    "stage": "min. level 35",
+    "giver": "Lucien Tosselwrench",
+    "coordinates": "25.8, 44.2",
+    "area": "Lotwil and Lucien's camp (Badlands)",
+    "objective": "Bring some Patterned Bronze Bracers to Lucien Tosselwrench in the Badlands.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/716/stone-is-better-than-cloth",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "712",
+        "name": "Study of the Elements: Rock",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "717",
+    "zone": "Badlands",
+    "level": 50,
+    "name": "Tremors of the Earth",
+    "stage": "Elite · min. level 40",
+    "giver": "Garek",
+    "coordinates": "61.9, 54.3",
+    "area": "Eastern Badlands",
+    "objective": "Use the Sign of the Earth to activate the Pillars of Amethyst, Opal, and Diamond and obtain the Runestones. Place the runestones in the Seal of the Earth to free Blacklash and Hematus. Slay them and return Blacklash's Bindings, the Chains of Hematus, and the Sign of the Earth to Garek.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/717/tremors-of-the-earth",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "732",
+        "name": "Tremors of the Earth",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "718",
+    "zone": "Badlands",
+    "level": 38,
+    "name": "Mirages",
+    "stage": "min. level 35",
+    "giver": "Sigrun Ironhew",
+    "coordinates": "53.8, 43.3",
+    "area": "Prospectors' camp (Badlands)",
+    "objective": "Retrieve the Supply Crate for Sigrun Ironhew.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/718/mirages",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "719",
+    "zone": "Badlands",
+    "level": 35,
+    "name": "A Dwarf and His Tools",
+    "stage": "Badlands approach: Hammertoe's Dig Site",
+    "giver": "Prospector Ryedol",
+    "coordinates": "53.4, 43.4",
+    "area": "Badlands",
+    "objective": "Find Ryedol's Lucky Pick and return it to Prospector Ryedol south of Hammertoe's Dig Site.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/719/a-dwarf-and-his-tools",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "720",
+    "zone": "Badlands",
+    "level": 35,
+    "name": "A Sign of Hope",
+    "stage": "Hammertoe: map introduction",
+    "giver": "Crumpled Map",
+    "coordinates": "53.0, 33.9",
+    "area": "Badlands",
+    "objective": "Find Prospector Ryedol and let him know Hammertoe Grez is alive.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/720/a-sign-of-hope",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "721",
+    "zone": "Badlands",
+    "level": 35,
+    "name": "A Sign of Hope",
+    "stage": "Hammertoe: find the prisoner",
+    "giver": "Prospector Ryedol",
+    "coordinates": "53.4, 43.4",
+    "area": "Badlands",
+    "objective": "Find Hammertoe Grez in Uldaman.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/721/a-sign-of-hope",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "720",
+        "name": "A Sign of Hope",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "723",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "Prospect of Faith",
+    "stage": "Hammertoe: return to Ryedol",
+    "giver": "Hammertoe Grez",
+    "coordinates": "",
+    "area": "Uldaman entrance caves (Badlands approach)",
+    "objective": "Take Hammertoe's Amulet to Prospector Ryedol in the Badlands.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35; Hammertoe is in the entrance caves; no verified cave-map coordinates",
+    "sources": [
+      "https://foreverchanges.pro/quest/723/prospect-of-faith",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "unverified",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "722",
+        "name": "Amulet of Secrets",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "724",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "Prospect of Faith",
+    "stage": "Hammertoe: report to Karnik",
+    "giver": "Prospector Ryedol",
+    "coordinates": "53.4, 43.4",
+    "area": "Badlands",
+    "objective": "Take Hammertoe's Amulet to Historian Karnik in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35",
+    "sources": [
+      "https://foreverchanges.pro/quest/724/prospect-of-faith",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "723",
+        "name": "Prospect of Faith",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "725",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "Passing Word of a Threat",
+    "stage": "Lost Tablets introduction: Belgrum",
+    "giver": "Historian Karnik",
+    "coordinates": "77.5, 11.8",
+    "area": "Ironforge",
+    "objective": "Find Advisor Belgrum and give him his note.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/725/passing-word-of-a-threat",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "724",
+        "name": "Prospect of Faith",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "726",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "Passing Word of a Threat",
+    "stage": "Lost Tablets introduction: Karnik",
+    "giver": "Advisor Belgrum",
+    "coordinates": "77.3, 9.7",
+    "area": "Ironforge",
+    "objective": "Speak to Historian Karnik.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/726/passing-word-of-a-threat",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "725",
+        "name": "Passing Word of a Threat",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "727",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "To Ironforge for Yagyin's Digest",
+    "stage": "min. level 30",
+    "giver": "Theldurin the Lost",
+    "coordinates": "51.4, 76.9",
+    "area": "Southern Badlands",
+    "objective": "Give the Sigil of the Hammer to Gerrig Bonegrip in the Forlorn Cavern of Ironforge.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/727/to-ironforge-for-yagyins-digest",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "709",
+        "name": "Solution to Doom",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "732",
+    "zone": "Badlands",
+    "level": 43,
+    "name": "Tremors of the Earth",
+    "stage": "min. level 40",
+    "giver": "Garek",
+    "coordinates": "61.9, 54.3",
+    "area": "Eastern Badlands",
+    "objective": "Retrieve the Sign of the Earth for Garek.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/732/tremors-of-the-earth",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "718",
+        "name": "Mirages",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "733",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "Scrounging",
+    "stage": "min. level 35",
+    "giver": "Sigrun Ironhew",
+    "coordinates": "53.8, 43.3",
+    "area": "Prospectors' camp (Badlands)",
+    "objective": "Get 7 pieces of Scrap Metal for Sigrun.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/733/scrounging",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "718",
+        "name": "Mirages",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "734",
+    "zone": "Badlands",
+    "level": 42,
+    "name": "This Is Going to Be Hard",
+    "stage": "min. level 35",
+    "giver": "Lotwil Veriatus",
+    "coordinates": "25.9, 44.9",
+    "area": "Lotwil and Lucien's camp (Badlands)",
+    "objective": "Speak to Lucien Tosselwrench in the Badlands.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/734/this-is-going-to-be-hard",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "712",
+        "name": "Study of the Elements: Rock",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "714",
+        "name": "Gyro... What?",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "735",
+    "zone": "Badlands",
+    "level": 44,
+    "name": "The Star, the Hand and the Heart",
+    "stage": "Elite · min. level 30",
+    "giver": "Gerrig Bonegrip",
+    "coordinates": "50.83, 5.62",
+    "area": "Forlorn Cavern (Ironforge)",
+    "objective": "Return the items on the Bonegrip's Note to Gerrig Bonegrip in Ironforge.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/735/the-star-the-hand-and-the-heart",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "questie-baseline-city-map",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "727",
+        "name": "To Ironforge for Yagyin's Digest",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "737",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "Forbidden Knowledge",
+    "stage": "min. level 30",
+    "giver": "Gerrig Bonegrip , Keeper Bel'dugur",
+    "coordinates": "59.2, 22",
+    "area": "Dun Morogh",
+    "objective": "Bring Yagyin's Digest to Theldurin.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/737/forbidden-knowledge",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "735",
+        "name": "The Star, the Hand and the Heart",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "738",
+    "zone": "Badlands",
+    "level": 38,
+    "name": "Find Agmond",
+    "stage": "Agmond's Fate introduction",
+    "giver": "Prospector Ironband",
+    "coordinates": "65.9, 65.6",
+    "area": "Loch Modan",
+    "objective": "Find Agmond.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/738/find-agmond",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "707",
+        "name": "Ironband Wants You!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "739",
+    "zone": "Badlands",
+    "level": 42,
+    "name": "Murdaloc",
+    "stage": "Agmond's Fate introduction",
+    "giver": "Battered Dwarven Skeleton",
+    "coordinates": "50.9, 62.4",
+    "area": "Badlands",
+    "objective": "Slay Agmond's killer, Murdaloc. Slay 12 Stonevault Bonesnappers. Report to Prospector Ironband in Loch Modan.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 30",
+    "sources": [
+      "https://foreverchanges.pro/quest/739/murdaloc",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "738",
+        "name": "Find Agmond",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "762",
+    "zone": "Badlands",
+    "level": 44,
+    "name": "An Ambassador of Evil",
+    "stage": "Lost Tablets introduction: Ambassador Infernus",
+    "giver": "Historian Karnik",
+    "coordinates": "77.5, 11.8",
+    "area": "Ironforge",
+    "objective": "Kill Ambassador Infernus in Angor Fortress and bring proof of his death to Advisor Belgrum in Ironforge.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 35; Uses Ironforge city-map coordinates from the Classic NPC reference",
+    "sources": [
+      "https://foreverchanges.pro/quest/762/an-ambassador-of-evil",
+      "https://github.com/cmangos/classic-db/releases/tag/latest",
+      "https://github.com/Questie/QuestieDB/blob/e1652ce62113c152da682baf2d6fb85f1396bcfb/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "726",
+        "name": "Passing Word of a Threat",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "777",
+    "zone": "Badlands",
+    "level": 42,
+    "name": "This Is Going to Be Hard",
+    "stage": "min. level 35",
+    "giver": "Lucien Tosselwrench",
+    "coordinates": "25.8, 44.2",
+    "area": "Lotwil and Lucien's camp (Badlands)",
+    "objective": "Bring Cog #5 to Lotwil Veriatus.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/777/this-is-going-to-be-hard",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "734",
+        "name": "This Is Going to Be Hard",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "778",
+    "zone": "Badlands",
+    "level": 45,
+    "name": "This Is Going to Be Hard",
+    "stage": "min. level 35",
+    "giver": "Lotwil Veriatus",
+    "coordinates": "25.9, 44.9",
+    "area": "Lotwil and Lucien's camp (Badlands)",
+    "objective": "Defeat the Fam'retor Guardian and bring Lotwil's Shackles of Elemental Binding back to Lotwil Veriatus.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/778/this-is-going-to-be-hard",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "777",
+        "name": "This Is Going to Be Hard",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "779",
+    "zone": "Badlands",
+    "level": 50,
+    "name": "Seal of the Earth",
+    "stage": "Repeatable · min. level 40 · Requires Tremors of the Earth active",
+    "giver": "Seal of the Earth",
+    "coordinates": "81.5, 49.9",
+    "area": "Lethlor Ravine (Badlands)",
+    "objective": "While Tremors of the Earth (717) is active, place the Diamond, Opal, and Amethyst Runestones in the Seal of the Earth to release Blacklash and Hematus.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/779/seal-of-the-earth",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "classic-required-items-and-active-parent",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "717",
+        "name": "Tremors of the Earth",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ],
+        "relation": "Requires active quest"
+      }
+    ]
+  },
+  {
+    "id": "1106",
+    "zone": "Badlands",
+    "level": 35,
+    "name": "Martek the Exiled",
+    "stage": "min. level 26",
+    "giver": "Fizzle Brassbolts",
+    "coordinates": "78.1, 77.1",
+    "area": "Mirage Raceway (Thousand Needles)",
+    "objective": "Bring Fizzle's Letter to Martek the Exiled in the Badlands.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/1106/martek-the-exiled",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "1108",
+    "zone": "Badlands",
+    "level": 39,
+    "name": "Indurium",
+    "stage": "min. level 28",
+    "giver": "Martek the Exiled",
+    "coordinates": "42.2, 52.7",
+    "area": "Martek's camp (Badlands)",
+    "objective": "Bring 10 Indurium Flakes to Martek the Exiled in the Badlands.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/1108/indurium",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "1106",
+        "name": "Martek the Exiled",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1137",
+    "zone": "Badlands",
+    "level": 38,
+    "name": "News for Fizzle",
+    "stage": "min. level 28",
+    "giver": "Martek the Exiled",
+    "coordinates": "42.2, 52.7",
+    "area": "Martek's camp (Badlands)",
+    "objective": "Speak with Fizzle Brassbolts in the Shimmering Flats.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/1137/news-for-fizzle",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "1108",
+        "name": "Indurium",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "1559",
+    "zone": "Badlands",
+    "level": 37,
+    "name": "Flash Bomb Recipe",
+    "stage": "Requires Engineering 1 · min. level 30",
+    "giver": "Rigglefuzz",
+    "coordinates": "42.4, 52.9",
+    "area": "Martek's camp (Badlands)",
+    "objective": "Speak with Rigglefuzz to receive Schematic: Flash Bomb. Requires Engineering.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/1559/flash-bomb-recipe",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "current-quest-reward-and-profession-requirement",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2418",
+    "zone": "Badlands",
+    "level": 36,
+    "name": "Power Stones",
+    "stage": "",
+    "giver": "Rigglefuzz",
+    "coordinates": "42.4, 52.9",
+    "area": "Badlands",
+    "objective": "Bring 8 Dentrium Power Stones and 8 An'Alleum Power Stones to Rigglefuzz in the Badlands.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 30; Power stones can be collected from Shadowforge dwarves on the entrance approach",
+    "sources": [
+      "https://foreverchanges.pro/quest/2418/power-stones",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2500",
+    "zone": "Badlands",
+    "level": 39,
+    "name": "Badlands Reagent Run",
+    "stage": "Uldaman Reagent Run prerequisite",
+    "giver": "Ghak Healtouch",
+    "coordinates": "37.1, 49.4",
+    "area": "Loch Modan",
+    "objective": "Acquire the reagents Ghak Healtouch needs from the Badlands, then return to him in Thelsamar.",
+    "areaConfidence": "Approximate",
+    "notes": "Alliance; No class restriction recorded; Minimum level 36",
+    "sources": [
+      "https://foreverchanges.pro/quest/2500/badlands-reagent-run",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "2501",
+    "zone": "Badlands",
+    "level": 44,
+    "name": "Badlands Reagent Run II",
+    "stage": "Elite · Requires Alchemy 210 · min. level 40",
+    "giver": "Ghak Healtouch",
+    "coordinates": "37.1, 49.4",
+    "area": "Thelsamar (Loch Modan)",
+    "objective": "Use the empty thaumaturgy vessels on scorched guardian dragons found in the Badlands. Once you have them filled, bring them to Ghak Healtouch in Thelsamar.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/2501/badlands-reagent-run-ii",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [
+      {
+        "id": "2500",
+        "name": "Badlands Reagent Run",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "78823",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "Terror of the Desert Skies",
+    "stage": "Drawing introduction · min. level 26",
+    "giver": "Primitive Drawing (item)",
+    "coordinates": "",
+    "area": "Badlands",
+    "objective": "Bring the Primitive Drawing to Hemet Nesingwary in Stranglethorn Vale.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://nether.wowhead.com/forever/tooltip/quest/78823",
+      "https://legacyofwarcraft.com/db/forever/quest/78823.html",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/foreverQuestFixes.lua"
+    ],
+    "evidence": {
+      "identity": "wowhead-and-questie",
+      "objective": "wowhead-and-questie",
+      "giver": "questie-generated-and-trace",
+      "pickupLocation": "questie-reference",
+      "faction": "assumed-shared-primary-correction"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "78830",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "Terror of the Desert Skies",
+    "stage": "Gharrik hunt · min. level 26",
+    "giver": "Hemet Nesingwary",
+    "coordinates": "35.7, 10.8",
+    "area": "Nesingwary's Expedition (Stranglethorn Vale)",
+    "objective": "Get a Crimson Trophy Quill from Gharrik in the Badlands. Then, return to Hemet Nesingwary in Stranglethorn Vale.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://nether.wowhead.com/forever/tooltip/quest/78830",
+      "https://legacyofwarcraft.com/db/forever/quest/78830.html",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/foreverQuestFixes.lua"
+    ],
+    "evidence": {
+      "identity": "wowhead-and-questie",
+      "objective": "wowhead-and-questie",
+      "giver": "questie-generated-and-trace",
+      "pickupLocation": "questie-reference",
+      "faction": "assumed-shared-primary-correction"
+    },
+    "prerequisites": [
+      {
+        "id": "78823",
+        "name": "Terror of the Desert Skies",
+        "evidence": "forever-records",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/foreverQuestFixes.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "97617",
+    "zone": "Badlands",
+    "level": 40,
+    "name": "Safety Checks",
+    "stage": "min. level 35",
+    "giver": "Dorgaron",
+    "coordinates": "54.63, 12.87",
+    "area": "Loch Modan border (Badlands)",
+    "objective": "Recover 8 Unstudied Artifacts, an Explorers' League Mining Helmet, and a Pristine Mattock and bring them to Dorgaron at the border of Loch Modan and the Badlands.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/97617/safety-checks",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "foreverchanges",
+      "giver": "questie-player-trace",
+      "pickupLocation": "questie-player-trace",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "97821",
+    "zone": "Badlands",
+    "level": 42,
+    "name": "Mirage Mirror",
+    "stage": "Elite · min. level 37",
+    "giver": "Mirage Mirror (item)",
+    "coordinates": "",
+    "area": "Badlands",
+    "objective": "Bring the Mirage Mirror to Dorgaron at the Loch Modan border in Badlands (54.63, 12.87).",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/97821/mirage-mirror",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "identity": "classic-reference",
+      "objective": "current-required-item-and-alliance-turn-in-trace",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "questie-baseline-and-current-page"
+    },
+    "prerequisites": [],
+    "previousQuests": []
   }
 ]

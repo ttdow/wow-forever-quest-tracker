@@ -1,0 +1,1043 @@
+{
+  "656": {
+    "name": "Summoning the Princess",
+    "facts": {
+      "Start": "Theldurin the Lost Badlands 51.4 , 76.9",
+      "End": "Shards of Myzrael Arathi Highlands 62.5 , 33.7",
+      "Level": "50 , requires level 30",
+      "Difficulty": "30 46 48 53 60",
+      "Side": "Both factions",
+      "Type": "Elite , 2 players",
+      "Shareable": "No",
+      "Quest ID": "656",
+      "giver": "Theldurin the Lost"
+    },
+    "pickup": [
+      "Badlands 51.4 , 76.9"
+    ],
+    "objective": "Go to the Shards of Myzrael, summon her and defeat her. Gather her Eldritch Shackles and bind them to the Shards of Myzrael.",
+    "requirements": [
+      "Eldritch Shackles"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/656/summoning-the-princess",
+    "sheetText": "Quest Objectives | Go to the Shards of Myzrael, summon her and defeat her. | Gather her Eldritch Shackles and bind them to the Shards of Myzrael. | Eldritch Shackles | Provided: | Scroll of Myzrael | Description | You must defeat Myzrael before she grows in strength.  If you do not, then once she has gathered enough power she will challenge her captors!  There are some who think they can control her, but if she can be controlled then why did the giants chain her in the first place?? | Crazy logic, eh? | To defeat her, summon her at the Shards of Myzrael where you first spoke with her.  Defeat her and gather her Eldritch Shackles, then bind them to the Shards of Myzrael. | Do that, and she will again be trapped. | Rewards | You will receive: | Pulsating Crystalline Shard | Experience: | 7,100 | When you come back | The Shards of Myzrael are now strangely quiet. | When you hand it in | As the eldritch shackles are placed around the Shards, an unhuman wail is heard from far below. The scream is followed by a roar. | The Shards of Myzrael no longer invoke feelings of warmth and security as they once did. Now they pulse with an open menace... as if the thing beneath them holds ill will toward the surface."
+  },
+  "687": {
+    "name": "Theldurin the Lost",
+    "facts": {
+      "Start": "Gerrig Bonegrip Dun Morogh 59.2 , 22 , Zaruk Arathi Highlands 74.5 , 35.6",
+      "End": "Theldurin the Lost Badlands 51.4 , 76.9",
+      "Level": "40 , requires level 30",
+      "Difficulty": "30 36 38 43 51",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "Yes",
+      "Quest ID": "687",
+      "giver": "Gerrig Bonegrip , Zaruk"
+    },
+    "pickup": [
+      "Dun Morogh 59.2 , 22",
+      "Arathi Highlands 74.5 , 35.6"
+    ],
+    "objective": "Find Theldurin the Lost.",
+    "requirements": [],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/687/theldurin-the-lost",
+    "sheetText": "Quest Objectives | Find Theldurin the Lost. | Description | Theldurin the Lost was once a member of our order, the Twilight's Hammer.  But he lost his mind and scorned our teachings.  And before he fled from us, he stole the scroll of Myzrael!  We could not catch him, but rumors say he hides in the Badlands, gibbering and mad. | To bring the Lady back to us, you must find the scroll.  And to do that, you must find Theldurin. | Rewards | Experience: | 1,550 | When you hand it in | Hello. Hello, hello hello hello hello HELLO! | I'm sorry - wait, no I'm not! Don't be rude! | Oh no...that was crazy talk. | But...sometimes being crazy is my only solace."
+  },
+  "692": {
+    "name": "The Lost Fragments",
+    "facts": {
+      "Start": "Theldurin the Lost Badlands 51.4 , 76.9",
+      "End": "Theldurin the Lost Badlands 51.4 , 76.9",
+      "Level": "41 , requires level 30",
+      "Difficulty": "30 37 39 44 52",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "No",
+      "Quest ID": "692",
+      "giver": "Theldurin the Lost"
+    },
+    "pickup": [
+      "Badlands 51.4 , 76.9"
+    ],
+    "objective": "Bring the Torn Scroll Fragment, the Crumpled Scroll Fragment and the Singed Scroll Fragment to Theldurin the Lost.",
+    "requirements": [
+      "Torn Scroll Fragment",
+      "Crumpled Scroll Fragment",
+      "Singed Scroll Fragment"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/692/the-lost-fragments",
+    "sheetText": "Quest Objectives | Bring the Torn Scroll Fragment, the Crumpled Scroll Fragment and the Singed Scroll Fragment to Theldurin the Lost. | Torn Scroll Fragment | Crumpled Scroll Fragment | Singed Scroll Fragment | Description | The Scroll of Myzrael...the Scroll of Myzrael?!  You don't want that!  Its magic can pull Myzrael to the surface world and if you do that, we are in trouble! | Or...maybe it's too late.  Maybe she already is free.  Maybe she's just gathering strength before unleashing herself upon us.  If so, then you'll NEED the scroll! | ...too bad it's destroyed.  Enraged elementals stole it and tore it up and now fight over the fragments. | But if you can gather those fragments, maybe we can fix it... | Rewards | Experience: | 3,300 | When you come back | Did you find those fragments?!?! You'll need the Scroll of Myzrael if you want to trap her again, before it's too late! | When you hand it in | Ah, you found them! Good work, ‹name›! These might be the only chance we have against the evil of Myzrael! | Just let me find my scrap-ratchet and see if I can re-attach these fragments..."
+  },
+  "703": {
+    "name": "Barbecued Buzzard Wings",
+    "facts": {
+      "Start": "Rigglefuzz Badlands 42.4 , 52.9",
+      "End": "Rigglefuzz Badlands 42.4 , 52.9",
+      "Level": "40 , requires level 33",
+      "Difficulty": "33 36 38 43 51",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "Yes",
+      "Quest ID": "703",
+      "giver": "Rigglefuzz"
+    },
+    "pickup": [
+      "Badlands 42.4 , 52.9"
+    ],
+    "objective": "Bring 4 Buzzard Wings to Rigglefuzz.",
+    "requirements": [
+      "4 Buzzard Wing"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/703/barbecued-buzzard-wings",
+    "sheetText": "Quest Objectives | Bring 4 Buzzard Wings to Rigglefuzz. | 4 | Buzzard Wing | Description | Oh yes, my barbecued buzzard wings are a favorite!  The sauce is rich and the meat is tangy.  And the smell will bring the hungry running from miles away! | I have everything I need to cook up a batch.  Everything...except the buzzard wings! | If you want some then get me the buzzard wings.  Bring me enough, and I might even share the recipe with you! | Rewards | You will receive: | 2 | Barbecued Buzzard Wing | Recipe: Barbecued Buzzard Wing | Experience: | 2,350 | +75 reputation with Booty Bay | -375 reputation with Bloodsail Buccaneers | When you come back | Hello, ‹name›. Did you bring me my wings? | When you hand it in | Ah, I'll get started on those wings right away. I can almost taste them already! | And here's the recipe in case you want to make them yourself!"
+  },
+  "705": {
+    "name": "Pearl Diving",
+    "facts": {
+      "Start": "Rigglefuzz Badlands 42.4 , 52.9",
+      "End": "Rigglefuzz Badlands 42.4 , 52.9",
+      "Level": "37 , requires level 30",
+      "Difficulty": "30 33 35 40 47",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Type": "Elite",
+      "Shareable": "Yes",
+      "Quest ID": "705",
+      "giver": "Rigglefuzz"
+    },
+    "pickup": [
+      "Badlands 42.4 , 52.9"
+    ],
+    "objective": "Bring 9 Blue Pearls to Rigglefuzz in the Badlands.",
+    "requirements": [
+      "9 Blue Pearl"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/705/pearl-diving",
+    "sheetText": "Quest Objectives | Bring 9 Blue Pearls to Rigglefuzz in the Badlands. | 9 | Blue Pearl | Description | The Badlands is a harsh place, filled with vicious predators and bold scavengers.  Scary, especially for a short little goblin.  To survive, I have to be tricky! | I know the recipe for flash bombs.  I use those to scare away wildlife.  But I'm running low on one of the ingredients: crushed blue pearl powder.  Get me some and I'll make it worth your efforts. | Heh, and I hope you have good boots on.  The Blue Pearls I need are found from clams at the Vile Reef. | Yep, the Vile Reef in Stranglethorn! | Rewards | You will be able to choose one of these rewards: | Flash Rifle | Flash Wand | You will also receive: | Flash Bomb | Experience: | 3,550 | +150 reputation with Booty Bay | -750 reputation with Bloodsail Buccaneers | When you come back | Did you get my pearls?  I'm almost out of flash bombs! | When you hand it in | These will work great! I just need to smash them into powder...then mix them with a little of this and a little of that. | Watch out, scavengers! Prepare to be flashed!"
+  },
+  "706": {
+    "name": "Fiery Blaze Enchantments",
+    "facts": {
+      "Start": "Sigrun Ironhew Badlands 53.8 , 43.3",
+      "End": "Sigrun Ironhew Badlands 53.8 , 43.3",
+      "Level": "45 , requires level 40",
+      "Difficulty": "40 41 43 48 57",
+      "Side": "Alliance",
+      "Type": "Elite",
+      "Shareable": "Yes",
+      "Quest ID": "706",
+      "giver": "Sigrun Ironhew"
+    },
+    "pickup": [
+      "Badlands 53.8 , 43.3"
+    ],
+    "objective": "Acquire a Black Drake's Heart for Sigrun Ironhew.",
+    "requirements": [
+      "Black Drake's Heart"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/706/fiery-blaze-enchantments",
+    "sheetText": "Quest Objectives | Acquire a Black Drake's Heart for Sigrun Ironhew. | Black Drake's Heart | Description | As an apprentice to Feranor Steeltoe, I learned his special technique for imbuing weapons with fiery enchantments. Last I heard of him, he was working at a smithy with a hunting party up in Lordaeron. | I can't tell you too many of the details about the process, but I can tell you it requires blood from a rare, still-beating black drake whelp's heart. I don't have much to do waiting for word from Ironforge. If you bring me a heart from the whelps in Lethlor Ravine, I'll show you my skill! | Rewards | You will receive: | Fiery Blaze Enchantment | Experience: | 3,900 | +100 reputation with Ironforge | When you come back | How goes the hunt, ‹class›? | When you hand it in | Ah yes, this will do excellently. This will enable your weapons to strike with searing heat!"
+  },
+  "708": {
+    "name": "The Black Box",
+    "facts": {
+      "Start": "an item: Corroded Black Box",
+      "End": "Pilot Longbeard Dun Morogh 62.8 , 36.2",
+      "Level": "40 , requires level 30",
+      "Difficulty": "30 36 38 43 51",
+      "Side": "Alliance",
+      "Shareable": "No",
+      "Repeatable": "Yes",
+      "Quest ID": "708",
+      "giver": "an item: Corroded Black Box"
+    },
+    "pickup": [],
+    "objective": "Take the Corroded Black Box to the Hall of Arms in Ironforge.",
+    "requirements": [
+      "Corroded Black Box"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/708/the-black-box",
+    "sheetText": "Quest Objectives | Take the Corroded Black Box to the Hall of Arms in Ironforge. | Corroded Black Box | Provided: | Corroded Black Box | Description | The surface of this metallic black box is heavily pitted, as if it had been immersed in acid - it must have been sitting in the giant condor's stomach for a long time. | Turning the box over, a symbol is found stamped on its bottom.  Below the symbol are the words: | \"Engine #19 - Ironforge Siege Brigade\" | Rewards | Money: | 50 | 0 gold, 50 silver, 0 copper | Experience: | 2,350 | +75 reputation with Ironforge"
+  },
+  "709": {
+    "name": "Solution to Doom",
+    "facts": {
+      "Start": "Theldurin the Lost Badlands 51.4 , 76.9",
+      "End": "Theldurin the Lost Badlands 51.4 , 76.9",
+      "Level": "40 , requires level 30",
+      "Difficulty": "30 36 38 43 51",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Type": "Dungeon",
+      "Shareable": "Yes",
+      "Quest ID": "709",
+      "giver": "Theldurin the Lost"
+    },
+    "pickup": [
+      "Badlands 51.4 , 76.9"
+    ],
+    "objective": "Bring the Tablet of Ryun'eh to Theldurin the Lost.",
+    "requirements": [
+      "Tablet of Ryun'eh"
+    ],
+    "classic": false,
+    "url": "https://foreverchanges.pro/quest/709/solution-to-doom",
+    "sheetText": "Quest Objectives | Bring the Tablet of Ryun'eh to Theldurin the Lost. | Tablet of Ryun'eh | Description | Oh my!  Oh my!  There is a doom approaching.  Mark me!  A doom! | No, I cannot speak of it...cannot utter their names or they may hear me!  But if we learn, yes, if we learn more of them...then maybe we can learn how to foil them! | Maybe. | Go into Uldaman.  No!  I said it!  You must find...find the tablet of...Ryun'eh.  Yes, find it!  And don't make me speak that name again! | It is deep in that place, in an ancient chest.  That's where it hides...in a chest crafted before the works of any dwarf. | Rewards | You will be able to choose one of these rewards: | Doomsayer's Robe | Doomcaller's Pants | Fists of Impending Doom | New in Forever: Doomcaller's Pants, Fists of Impending Doom. | Experience: | 3,150 | When you come back | Did you find the tablet? It must hold secrets! Secrets to save us! | When you hand it in | Oh, fortune is with us! Thank you! We may yet be saved!"
+  },
+  "710": {
+    "name": "Study of the Elements: Rock",
+    "facts": {
+      "Start": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "End": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "Level": "37 , requires level 35",
+      "Difficulty": "35 40 47",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "Yes",
+      "Quest ID": "710",
+      "giver": "Lotwil Veriatus"
+    },
+    "pickup": [
+      "Badlands 25.9 , 44.9"
+    ],
+    "objective": "Find 10 Small Stone Shards and bring them to Lotwil Veriatus in the Badlands.",
+    "requirements": [
+      "10 Small Stone Shard"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/710/study-of-the-elements-rock",
+    "sheetText": "Quest Objectives | Find 10 Small Stone Shards and bring them to Lotwil Veriatus in the Badlands. | 10 | Small Stone Shard | Description | Here in the Badlands I've stopped to work on my latest project: my shackles of elemental binding. | When complete, they will allow mages to summon even more powerful elementals for use in even greater capacities. To start things off, I need small stone shards to test some of my newest offensive spells along with a few gizmos I've pieced together. | The shards are easily collected from the lesser rock elementals to the west of here. Could you bring me some? | Rewards | Experience: | 2,850 | When you come back | This area's perfect for-- Could you hold these in place for a moment? Yes, just like that, along the vector normal. Now, what was I... Right. Perfect for testing my latest project. The raw materials, the open space... what more could an intelligent and enlightened practitioner of the arts ask for? | When you hand it in | These shall do nicely, ‹name›. Thank you. Hmm, a bit more sand than I'd anticipated. Have to adjust the coefficient of friction. No, wait; it should still be negligible with the frost oil. | <Mumbling to himself, Lotwil puts one fist into the palm of his other hand and stares at them as if fascinated.>"
+  },
+  "711": {
+    "name": "Study of the Elements: Rock",
+    "facts": {
+      "Start": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "End": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "Level": "39 , requires level 35",
+      "Difficulty": "35 37 42 49",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "Yes",
+      "Quest ID": "711",
+      "giver": "Lotwil Veriatus"
+    },
+    "pickup": [
+      "Badlands 25.9 , 44.9"
+    ],
+    "objective": "Bring 3 Large Stone Slabs to Lotwil Veriatus in the Badlands.",
+    "requirements": [
+      "3 Large Stone Slab"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/711/study-of-the-elements-rock",
+    "sheetText": "Quest Objectives | Bring 3 Large Stone Slabs to Lotwil Veriatus in the Badlands. | 3 | Large Stone Slab | Description | ‹name›, you've already proven more able than all my apprentices combined. | The next parts I need require a little more strength. Large stone slabs can be found on rock elementals if you're careful enough. Their bodies are stronger and larger, and therefore more prone to having pieces large enough for my tests. You can find them further west of here or southeast along the mountains' edges. | Take your time; I'll need a while to test these smaller pieces you brought me. | Rewards | Experience: | 3,000 | When you come back | I'm most pleased, ‹name›. My spells affected the smaller pieces just as I predicted. If this experiment is as successful as I foresee, then the elementals I'll be able to control will put anything summoned prior to this to shame. | When you hand it in | ‹name›, simply amazing! I would have thought it'd take half a dozen tauren to bring all these to me."
+  },
+  "712": {
+    "name": "Study of the Elements: Rock",
+    "facts": {
+      "Start": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "End": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "Level": "42 , requires level 35",
+      "Difficulty": "35 38 40 45 53",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "Yes",
+      "Quest ID": "712",
+      "giver": "Lotwil Veriatus"
+    },
+    "pickup": [
+      "Badlands 25.9 , 44.9"
+    ],
+    "objective": "Bring 5 Bracers of Rock Binding to Lotwil Veriatus in the Badlands.",
+    "requirements": [
+      "5 Bracers of Rock Binding"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/712/study-of-the-elements-rock",
+    "sheetText": "Quest Objectives | Bring 5 Bracers of Rock Binding to Lotwil Veriatus in the Badlands. | 5 | Bracers of Rock Binding | Description | ‹name›, there's one more part I need from the elementals here in the Badlands: the bracers of rock binding from the greater rock elementals. By my calculations, those bracers should be enough to gauge the strength of my own shackles. | My attempts at scrying the greater rock elementals showed a group of them southwest of here, near some ogres if I recall. | Bring me 5 of their bracers just so I have extras. Servo's notorious for misplacing my reagents and research. | Rewards | Experience: | 3,450 | When you come back | The stone slabs you found were ideal, ‹name›. Lucien will be taking the extra ones back to Kharanos when we're done here. After all, they could prove useful again. | For instance, they'd be a nice basis for a handy little shelter once I start looking into a multidisciplinary approach to high-yield explosives... | When you hand it in | ‹name›, have you ever considered becoming a research assistant? No? I'm not sure what I'll do without your abilities here. Intelligence, curiosity, and strength--all combined into one package."
+  },
+  "713": {
+    "name": "Coolant Heads Prevail",
+    "facts": {
+      "Start": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "End": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "Level": "37 , requires level 35",
+      "Difficulty": "35 40 47",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "Yes",
+      "Quest ID": "713",
+      "giver": "Lotwil Veriatus"
+    },
+    "pickup": [
+      "Badlands 25.9 , 44.9"
+    ],
+    "objective": "Find Frost Oil and bring it to Lotwil Veriatus in Badlands.",
+    "requirements": [
+      "Frost Oil"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/713/coolant-heads-prevail",
+    "sheetText": "Quest Objectives | Find Frost Oil and bring it to Lotwil Veriatus in Badlands. | Frost Oil | Description | Let me tell you something about Frost Oil: nothing can keep an engine or gears from overheating quite like it. | Its cooling properties are extraordinary, and its longevity as a lubricant without equal. That's not all: it also aids in retaining enchantments on magical items. | I need a vial of it to increase the magical capacity of my shackles and make them powerful enough to stop our summoned friend from killing us all. | Bro'kin, a goblin friend of mine, can teach you to make it. He's in Alterac. | Rewards | Experience: | 2,850 | When you come back | Have you found the oil I need? It would be so helpful if you were able to find some. | When you hand it in | Stupendous! This should be the perfect coolant for my new bracers. If the enchantments don't last a century, then I'll give all my belongings to Servo. | All the mages of the Assembly will be in such awe after I finish this, ‹name›. You just wait and see."
+  },
+  "714": {
+    "name": "Gyro... What?",
+    "facts": {
+      "Start": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "End": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "Level": "37 , requires level 35",
+      "Difficulty": "35 40 47",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "Yes",
+      "Quest ID": "714",
+      "giver": "Lotwil Veriatus"
+    },
+    "pickup": [
+      "Badlands 25.9 , 44.9"
+    ],
+    "objective": "Bring a Gyrochronatom to Lotwil Veriatus in the Badlands.",
+    "requirements": [
+      "Gyrochronatom"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/714/gyro-what",
+    "sheetText": "Quest Objectives | Bring a Gyrochronatom to Lotwil Veriatus in the Badlands. | Gyrochronatom | Description | ‹name›, you've done your job well beyond all standards. | <Lotwil's obviously distracted by his work.> | If we ever meet in Kharanos, feel free to come apply for work. | Whoops! Quick, grab the... yes, that. Thanks. | Now I just need one more thing. It's a small part, but rather crucial, I'm afraid: a gyrochronatom. | If you could just go grab one and bring it to me, I should be ready to complete this. | Rewards | Experience: | 2,850 | When you come back | Yes, yes, yes. Just a moment. | When you hand it in | HA! | <Lotwil grabs the gyrochronatom from you.> | Perfect... just about done. No, really. I AM almost done now. This project is my top priority... at the moment. Let me pop this into place, and you can see for yourself what you've helped me create. It'll just take me a few more minutes... maybe... possibly longer. Well, maybe a lot longer. We'll see..."
+  },
+  "715": {
+    "name": "Liquid Stone",
+    "facts": {
+      "Start": "Lucien Tosselwrench Badlands 25.8 , 44.2",
+      "End": "Lucien Tosselwrench Badlands 25.8 , 44.2",
+      "Level": "37 , requires level 35",
+      "Difficulty": "35 40 47",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Profession": "Alchemy 0",
+      "Shareable": "Yes",
+      "Quest ID": "715",
+      "giver": "Lucien Tosselwrench"
+    },
+    "pickup": [
+      "Badlands 25.8 , 44.2"
+    ],
+    "objective": "Bring a Healing Potion and a Lesser Invisibility Potion to Lucien Tosselwrench in the Badlands.",
+    "requirements": [
+      "Healing Potion",
+      "Lesser Invisibility Potion"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/715/liquid-stone",
+    "sheetText": "Quest Objectives | Bring a Healing Potion and a Lesser Invisibility Potion to Lucien Tosselwrench in the Badlands. | Healing Potion | Lesser Invisibility Potion | Description | I'm thinking those items you acquired for Lotwil are going to be the least of our worries, ‹name›. On the other hand, you've proven more than adept at the sciences Lotwil holds sacred, so how about helping me out? | I need an invisibility potion and a healing potion; both might come in handy real soon if he pulls this off. | In return, I'll give you this recipe for a potion I've been developing while learning from Lotwil. It's based on some of the research he's been doing here in the Badlands. | Rewards | You will receive: | Recipe: Lesser Stoneshield Potion | 2 | Lesser Stoneshield Potion | Experience: | 2,100 | When you come back | He's getting closer to finishing. How are things going on your end? | When you hand it in | YES! | I mean, thank you, ‹name›. These will be helpful while traveling through the Badlands."
+  },
+  "716": {
+    "name": "Stone Is Better than Cloth",
+    "facts": {
+      "Start": "Lucien Tosselwrench Badlands 25.8 , 44.2",
+      "End": "Lucien Tosselwrench Badlands 25.8 , 44.2",
+      "Level": "42 , requires level 35",
+      "Difficulty": "35 38 40 45 53",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "Yes",
+      "Quest ID": "716",
+      "giver": "Lucien Tosselwrench"
+    },
+    "pickup": [
+      "Badlands 25.8 , 44.2"
+    ],
+    "objective": "Bring some Patterned Bronze Bracers to Lucien Tosselwrench in the Badlands.",
+    "requirements": [
+      "Patterned Bronze Bracers"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/716/stone-is-better-than-cloth",
+    "sheetText": "Quest Objectives | Bring some Patterned Bronze Bracers to Lucien Tosselwrench in the Badlands. | Patterned Bronze Bracers | Description | I know how cheap Lotwil can be, ‹name›, so let me make you something for all your troubles. Maybe it'll even help protect you from the coming atrocity that is Lotwil's newest invention. | I've been working with all the extra stones you collected for him, and I can make some nice bracers that you might want to use. They're enchanted, of course. | I'll just need patterned bronze bracers crafted by a blacksmith so I can complete the bracers I'm making for you. | Rewards | You will receive: | Enchanted Stonecloth Bracers | Experience: | 2,550 | When you come back | I wouldn't wait too long to get that bracer, ‹name›. | Who knows what's going to happen next? | When you hand it in | Here you go, ‹name›. Try these on."
+  },
+  "717": {
+    "name": "Tremors of the Earth",
+    "facts": {
+      "Start": "Garek Badlands 61.9 , 54.3",
+      "End": "Garek Badlands 61.9 , 54.3",
+      "Level": "50 , requires level 40",
+      "Difficulty": "40 46 48 53 60",
+      "Side": "Alliance",
+      "Type": "Elite",
+      "Shareable": "No",
+      "Quest ID": "717",
+      "giver": "Garek"
+    },
+    "pickup": [
+      "Badlands 61.9 , 54.3"
+    ],
+    "objective": "Use the Sign of the Earth to activate the Pillars of Amethyst, Opal, and Diamond and obtain the Runestones. Place the runestones in the Seal of the Earth to free Blacklash and Hematus. Slay them and return Blacklash's Bindings, the Chains of Hematus, and the Sign of the Earth to Garek.",
+    "requirements": [
+      "Blacklash's Bindings",
+      "Chains of Hematus",
+      "Sign of the Earth"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/717/tremors-of-the-earth",
+    "sheetText": "Quest Objectives | Use the Sign of the Earth to activate the Pillars of Amethyst, Opal, and Diamond and obtain the Runestones. | Place the runestones in the Seal of the Earth to free Blacklash and Hematus. | Slay them and return Blacklash's Bindings, the Chains of Hematus, and the Sign of the Earth to Garek. | Blacklash's Bindings | Chains of Hematus | Sign of the Earth | Provided: | Sign of the Earth | Description | It has become obvious that we cannot ensure that Blacklash and Hematus will remain imprisoned in Lethlor. That black dragons have taken up residence there, and that the ogres managed to steal the Sign indicates that more drastic measures will have to be taken. | The drakes' prison is maintained by three runestones that may only be retrieved using the Sign of the Earth. Those runestones can then be used to break the seal which imprisons them. | ‹name›... assure that their dreams are eternal. | Rewards | You will be able to choose one of these rewards: | Blazewind Breastplate | Prismscale Hauberk | Warforged Chestplate | Mindburst Medallion | Experience: | 5,900 | +150 reputation with Stormwind | When you come back | Strong magics and powers held the drakes' prison for so long, but we cannot allow any possibility that Blacklash and Hematus may be released. | When you hand it in | No longer will the Kirin Tor need to worry over the prisoners of Lethlor. I will return to report success to my master. Krasus will no doubt be pleased."
+  },
+  "718": {
+    "name": "Mirages",
+    "facts": {
+      "Start": "Sigrun Ironhew Badlands 53.8 , 43.3",
+      "End": "Sigrun Ironhew Badlands 53.8 , 43.3",
+      "Level": "38 , requires level 35",
+      "Difficulty": "35 36 41 48",
+      "Side": "Alliance",
+      "Shareable": "Yes",
+      "Quest ID": "718",
+      "giver": "Sigrun Ironhew"
+    },
+    "pickup": [
+      "Badlands 53.8 , 43.3"
+    ],
+    "objective": "Retrieve the Supply Crate for Sigrun Ironhew.",
+    "requirements": [
+      "Supply Crate"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/718/mirages",
+    "sheetText": "Quest Objectives | Retrieve the Supply Crate for Sigrun Ironhew. | Supply Crate | Description | In our hurry to leave the Uldaman excavation site, we were forced to abandon many wagons and crates of supplies along the way. The local ogres from Camp Kosh have been on our abandoned equipment like vultures on a rotting corpse. Don't smell much better, either. Than the corpses, I mean. | Anyways, they took the cart that was carrying all our weapons and such... so--well, this is a bit embarrassing--we haven't been able to get any food. | We're in a bit of a pickle here, suppose you could help us out? | Rewards | Experience: | 2,150 | +75 reputation with Ironforge | When you come back | The desert's a bad place to be hungry, my friend, let me tell you that. | Hey... what's that over there... | When you hand it in | Thanks so much, ‹name›. While you were gone, I... er... swallowed a mouthful of sand. It... | Well, enough of that, we'll go out and get some food tonight. Eat like kings!"
+  },
+  "719": {
+    "name": "A Dwarf and His Tools",
+    "facts": {
+      "Start": "Prospector Ryedol Badlands 53.4 , 43.4",
+      "End": "Prospector Ryedol Badlands 53.4 , 43.4",
+      "Level": "35 , requires level 35",
+      "Difficulty": "35 38 44",
+      "Side": "Alliance",
+      "Shareable": "Yes",
+      "Quest ID": "719",
+      "giver": "Prospector Ryedol"
+    },
+    "pickup": [
+      "Badlands 53.4 , 43.4"
+    ],
+    "objective": "Find Ryedol's Lucky Pick and return it to Prospector Ryedol south of Hammertoe's Dig Site.",
+    "requirements": [
+      "Ryedol's Lucky Pick"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/719/a-dwarf-and-his-tools",
+    "sheetText": "Quest Objectives | Find Ryedol's Lucky Pick and return it to Prospector Ryedol south of Hammertoe's Dig Site. | Ryedol's Lucky Pick | Description | Hey, ‹name›. Be careful 'round here. There be Dark Iron dwarves all around--looked like the Shadowforge clan. | They just attacked the excavation site I was workin' at--killed nearly everyone there, including my boss Hammertoe. I barely escaped with me life. | The site's just to the north of here, and I'm tryin' to plan a way to get some of our supplies back, especially me lucky pick. | Think you'd be up to helpin' me out some? One of those damned Dark Iron must have my pick! Could be anyone of them. | Rewards | You will receive: | Ryedol's Hammer | Experience: | 2,750 | +100 reputation with Ironforge | When you come back | Not sure what the Shadowforge were lookin' for, but they definitely had a purpose. | When you hand it in | Ye're me savior, ‹class›. I'm glad someone could teach those Shadowforge a lesson or two. Thanks for yer help."
+  },
+  "720": {
+    "name": "A Sign of Hope",
+    "facts": {
+      "Start": "Crumpled Map Badlands 53 , 33.9",
+      "End": "Prospector Ryedol Badlands 53.4 , 43.4",
+      "Level": "35 , requires level 35",
+      "Difficulty": "35 38 44",
+      "Side": "Alliance",
+      "Shareable": "Yes",
+      "Quest ID": "720",
+      "giver": "Crumpled Map"
+    },
+    "pickup": [
+      "Badlands 53 , 33.9"
+    ],
+    "objective": "Find Prospector Ryedol and let him know Hammertoe Grez is alive.",
+    "requirements": [],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/720/a-sign-of-hope",
+    "sheetText": "Quest Objectives | Find Prospector Ryedol and let him know Hammertoe Grez is alive. | Description | <There is text roughly scribbled in chalk on the map.> | \"Ryedol, \nThey're taking me to Uldaman. Send help.\n-Hammertoe\" | Rewards | Experience: | 1,350 | +50 reputation with Ironforge | When you hand it in | Hammertoe's alive?! This is amazin', ‹name›!"
+  },
+  "721": {
+    "name": "A Sign of Hope",
+    "facts": {
+      "Start": "Prospector Ryedol Badlands 53.4 , 43.4",
+      "End": "Hammertoe Grez Loch Modan 37.3 , 85.8",
+      "Level": "35 , requires level 35",
+      "Difficulty": "35 38 44",
+      "Side": "Alliance",
+      "Type": "Dungeon",
+      "Shareable": "Yes",
+      "Quest ID": "721",
+      "giver": "Prospector Ryedol"
+    },
+    "pickup": [
+      "Badlands 53.4 , 43.4"
+    ],
+    "objective": "Find Hammertoe Grez in Uldaman.",
+    "requirements": [],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/721/a-sign-of-hope",
+    "sheetText": "Quest Objectives | Find Hammertoe Grez in Uldaman. | Description | ‹name›, can ye find him? Can you find Hammertoe in Uldaman? | If those dirty Shadowforge are holdin' him hostage to figure out what he knows about the titan excavations, then all of Ironforge could be in huge trouble. | For a long time now those Dark Irons have been lookin' for magics to make more powerful golems. Hammertoe was doin' the same, of course, but only to stop them. | They're probably keepin' him alive until they learn what he knows.Ye've got to hurry if you're gonna save him! | Rewards | Experience: | 2,750 | +100 reputation with Ironforge | When you hand it in | Yes? Ah'm sorry... <cough> Feel so weak. Can ye come closer, ‹class›? | Ryedol sent ye? Muradin be praised, that boy's not as slow in the head as I once thought. <cough>"
+  },
+  "723": {
+    "name": "Prospect of Faith",
+    "facts": {
+      "Start": "Hammertoe Grez Loch Modan 37.3 , 85.8",
+      "End": "Prospector Ryedol Badlands 53.4 , 43.4",
+      "Level": "40 , requires level 35",
+      "Difficulty": "35 36 38 43 51",
+      "Side": "Alliance",
+      "Shareable": "No",
+      "Quest ID": "723",
+      "giver": "Hammertoe Grez"
+    },
+    "pickup": [
+      "Loch Modan 37.3 , 85.8"
+    ],
+    "objective": "Take Hammertoe's Amulet to Prospector Ryedol in the Badlands.",
+    "requirements": [
+      "Hammertoe's Amulet"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/723/prospect-of-faith",
+    "sheetText": "Quest Objectives | Take Hammertoe's Amulet to Prospector Ryedol in the Badlands. | Hammertoe's Amulet | Provided: | Hammertoe's Amulet | Description | <Hammertoe holds his wounds and takes a moment to regain his composure before speaking again.> | Find Ryedol, ‹name›. Bring 'im me amulet. <cough cough> He'll... <cough> figure out what to do. He knows I was seeking the origins of our people, and he... <cough>... knows it was also my mission to stop the Shadowforge clan. They must not be allowed to find the scrolls... <cough> | Rewards | Experience: | 2,350 | +75 reputation with Ironforge | When you come back | I'd say it was a bad day, but this is the Badlands: every day's a bad day. | When you hand it in | Hammertoe's amulet? I think my spirits were higher when I thought he was dead. Knowin' fer sure only makes the pain worse. This amulet was his life's work. I can't let his death be in vain."
+  },
+  "724": {
+    "name": "Prospect of Faith",
+    "facts": {
+      "Start": "Prospector Ryedol Badlands 53.4 , 43.4",
+      "End": "Historian Karnik Dun Morogh 63.5 , 23",
+      "Level": "40 , requires level 35",
+      "Difficulty": "35 36 38 43 51",
+      "Side": "Alliance",
+      "Shareable": "No",
+      "Quest ID": "724",
+      "giver": "Prospector Ryedol"
+    },
+    "pickup": [
+      "Badlands 53.4 , 43.4"
+    ],
+    "objective": "Take Hammertoe's Amulet to Historian Karnik in Ironforge.",
+    "requirements": [
+      "Hammertoe's Amulet"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/724/prospect-of-faith",
+    "sheetText": "Quest Objectives | Take Hammertoe's Amulet to Historian Karnik in Ironforge. | Hammertoe's Amulet | Provided: | Hammertoe's Amulet | Description | Okay, okay... who would know what to do? | Historian Karnik! That's it! | He's in Ironforge. He'll be able to help. He and Hammertoe were workin' together to find the lost artifacts in Uldaman. | Guess the Shadowforge found out the two of them knew more than they were lettin' on. | Tell Karnik what's happened to Hammertoe and give him the amulet--he'll tell you what needs to be done next. | Rewards | Experience: | 3,150 | +100 reputation with Ironforge | When you come back | Ah, yes. Another traveler seeking something from the dwarves. | Ma'am, I'm truly sorry, but I've no time to answer meaningless questions right now. | When you hand it in | Oh! Well, this is a different matter entirely. You probably don't realize the gravity of this matter yet, do you? | I care deeply about Hammertoe's demise, but if he sent you here with his amulet, then he understood what's at stake. | We will have to take time to mourn his death later. | Let me show you one of the reasons this amulet is so valuable."
+  },
+  "725": {
+    "name": "Passing Word of a Threat",
+    "facts": {
+      "Start": "Historian Karnik Dun Morogh 63.5 , 23",
+      "End": "Advisor Belgrum Dun Morogh 63.5 , 22.6",
+      "Level": "40 , requires level 35",
+      "Difficulty": "35 36 38 43 51",
+      "Side": "Alliance",
+      "Shareable": "No",
+      "Quest ID": "725",
+      "giver": "Historian Karnik"
+    },
+    "pickup": [
+      "Dun Morogh 63.5 , 23"
+    ],
+    "objective": "Find Advisor Belgrum and give him his note.",
+    "requirements": [
+      "Sealed Note to Advisor Belgrum"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/725/passing-word-of-a-threat",
+    "sheetText": "Quest Objectives | Find Advisor Belgrum and give him his note. | Sealed Note to Advisor Belgrum | Provided: | Sealed Note to Advisor Belgrum | Description | ‹name›, run and find Advisor Belgrum as quickly as you can. Tell him what you've witnessed and ask him how he wants us to proceed. This note will explain more to him. | In the meantime, I will take the time to speak to Hammertoe's spirit. Maybe he knows something that will help us put a stop to those Shadowforge cretins' activities in the Badlands. We can only pray. | Rewards | Experience: | 1,550 | +50 reputation with Ironforge | When you come back | Hmm? Yes, ‹class›. | When you hand it in | Ah, word from Historian Karnik. Excellent. | I always have time for his business. | <Advisor Belgrum opens the note and begins to read.>"
+  },
+  "726": {
+    "name": "Passing Word of a Threat",
+    "facts": {
+      "Start": "Advisor Belgrum Dun Morogh 63.5 , 22.6",
+      "End": "Historian Karnik Dun Morogh 63.5 , 23",
+      "Level": "40 , requires level 35",
+      "Difficulty": "35 36 38 43 51",
+      "Side": "Alliance",
+      "Shareable": "Yes",
+      "Quest ID": "726",
+      "giver": "Advisor Belgrum"
+    },
+    "pickup": [
+      "Dun Morogh 63.5 , 22.6"
+    ],
+    "objective": "Speak to Historian Karnik.",
+    "requirements": [],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/726/passing-word-of-a-threat",
+    "sheetText": "Quest Objectives | Speak to Historian Karnik. | Description | <Advisor Belgrum reaches the end of the note, and his eyes widen for a moment.> | Och, these are evil tidings. | ‹name›, please return to Historian Karnik and tell him on the king's authority to act on this information swiftly and decisively. He must halt the Shadowforge's activities in the Badlands. | Rewards | Experience: | 2,350 | +75 reputation with Ironforge | When you hand it in | You're treating this matter with an urgency I'd expect from the king himself, ‹name›. | All right, then. I know what'll bring the Shadowforge down. | Their presence in Uldaman can be slowed if we strike them at their base of operations: Angor Fortress."
+  },
+  "727": {
+    "name": "To Ironforge for Yagyin's Digest",
+    "facts": {
+      "Start": "Theldurin the Lost Badlands 51.4 , 76.9",
+      "End": "Gerrig Bonegrip Dun Morogh 59.2 , 22",
+      "Level": "40 , requires level 30",
+      "Difficulty": "30 36 38 43 51",
+      "Side": "Alliance",
+      "Shareable": "No",
+      "Quest ID": "727",
+      "giver": "Theldurin the Lost"
+    },
+    "pickup": [
+      "Badlands 51.4 , 76.9"
+    ],
+    "objective": "Give the Sigil of the Hammer to Gerrig Bonegrip in the Forlorn Cavern of Ironforge.",
+    "requirements": [
+      "Sigil of the Hammer"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/727/to-ironforge-for-yagyins-digest",
+    "sheetText": "Quest Objectives | Give the Sigil of the Hammer to Gerrig Bonegrip in the Forlorn Cavern of Ironforge. | Sigil of the Hammer | Provided: | Sigil of the Hammer | Description | The Tablet tells much.  But not enough!  Not nearly enough! | There is a book, a digest that Yagyin wrote in ages past.  The ... people I fled ... they keep this book in many places.  And their most learned study it.  It holds vast knowledge.  Knowledge to protect us! | Go to Gerrig Bonegrip.  He is in a shop in Ironforge, in the Forlorn Cavern.  Show him this sigil and he'll think you one of them.  Ask him for Yagyin's Digest ... and bring it to me! | Rewards | Experience: | 775 | When you come back | Hello. Welcome to my shop, but watch what you touch. | Knowledge can be deadly. | When you hand it in | Oh. Greetings, brother. | And praise to the dwellers beneath."
+  },
+  "732": {
+    "name": "Tremors of the Earth",
+    "facts": {
+      "Start": "Garek Badlands 61.9 , 54.3",
+      "End": "Garek Badlands 61.9 , 54.3",
+      "Level": "43 , requires level 40",
+      "Difficulty": "40 41 46 54",
+      "Side": "Alliance",
+      "Shareable": "Yes",
+      "Quest ID": "732",
+      "giver": "Garek"
+    },
+    "pickup": [
+      "Badlands 61.9 , 54.3"
+    ],
+    "objective": "Retrieve the Sign of the Earth for Garek.",
+    "requirements": [
+      "Sign of the Earth"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/732/tremors-of-the-earth",
+    "sheetText": "Quest Objectives | Retrieve the Sign of the Earth for Garek. | Sign of the Earth | Description | I heard from Sigrun that you have been a great help to him. Perhaps I might enlist your help. I was sent here by my master, Krasus of the Kirin Tor, to put an end to the trouble brewing in Lethlor Ravine. | I cannot divulge the exact nature of my assignment here or the tasks that I must undertake, but be assured it is of vital importance. | A band of wandering ogres, sometimes seen near Camp Boff, stole an object called the Sign of the Earth; I must have it. Bring it to me, and I will tell you more. | Rewards | Experience: | 3,600 | +100 reputation with Stormwind | When you come back | The nomadic band of ogres travels between their camps across the Badlands; heat rising from the dry earth and the swirling winds will make it difficult to track their progress. I have heard that sometimes they travel through Camp Boff. If you are lost, you might try your search there. | When you hand it in | Good tidings you bring bearing the Sign, ‹name›. The Sign of the Earth was created by the Dark Iron dwarves of Angor Fortress to bind two of Deathwing's ruthless lieutenants, the twins Blacklash and Hematus."
+  },
+  "733": {
+    "name": "Scrounging",
+    "facts": {
+      "Start": "Sigrun Ironhew Badlands 53.8 , 43.3",
+      "End": "Sigrun Ironhew Badlands 53.8 , 43.3",
+      "Level": "40 , requires level 35",
+      "Difficulty": "35 36 38 43 51",
+      "Side": "Alliance",
+      "Shareable": "Yes",
+      "Quest ID": "733",
+      "giver": "Sigrun Ironhew"
+    },
+    "pickup": [
+      "Badlands 53.8 , 43.3"
+    ],
+    "objective": "Get 7 pieces of Scrap Metal for Sigrun.",
+    "requirements": [
+      "7 Scrap Metal"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/733/scrounging",
+    "sheetText": "Quest Objectives | Get 7 pieces of Scrap Metal for Sigrun. | 7 | Scrap Metal | Description | It's going to be tough going here if I can't manage to scrounge up some materials to construct some defenses and other necessities. I've noticed that the ogres in the area seem to be well equipped with scrap metal. Maybe the stories of siege engines in the Badlands weren't so far off after all... | Anyways, the Prospector's been getting worried about the state of our little camp, so I'd like to get working soon if I can. | The main ogre camp is at Dustbelch Grotto, a good trek to the west of here. | Rewards | You will be able to choose one of these rewards: | Salbac Shield | Ironheel Boots | Experience: | 3,150 | +100 reputation with Ironforge | When you come back | Well, I've made do with what I could, but... it's not much. Have you found any more supplies? | When you hand it in | It's a start, ‹name›, and it'll have to do until we hear word from Ironforge or the Explorers' League. | Now, if only I could find some salt somewhere for my quenching barrel..."
+  },
+  "734": {
+    "name": "This Is Going to Be Hard",
+    "facts": {
+      "Start": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "End": "Lucien Tosselwrench Badlands 25.8 , 44.2",
+      "Level": "42 , requires level 35",
+      "Difficulty": "35 38 40 45 53",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "Yes",
+      "Quest ID": "734",
+      "giver": "Lotwil Veriatus"
+    },
+    "pickup": [
+      "Badlands 25.9 , 44.9"
+    ],
+    "objective": "Speak to Lucien Tosselwrench in the Badlands.",
+    "requirements": [],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/734/this-is-going-to-be-hard",
+    "sheetText": "Quest Objectives | Speak to Lucien Tosselwrench in the Badlands. | Description | Wonderful, wonderful. | <Lotwil looks up at you for a moment before going back to his shackles.> | Go speak to Lucien, ‹name›. I need a cog #5. Bring it to me, will you? | When you hand it in | Cog #5, huh? Yeah, this isn't going to be good."
+  },
+  "735": {
+    "name": "The Star, the Hand and the Heart",
+    "facts": {
+      "Start": "Gerrig Bonegrip Dun Morogh 59.2 , 22",
+      "End": "Gerrig Bonegrip Dun Morogh 59.2 , 22",
+      "Level": "44 , requires level 30",
+      "Difficulty": "30 40 42 47 56",
+      "Side": "Alliance",
+      "Type": "Elite",
+      "Shareable": "No",
+      "Quest ID": "735",
+      "giver": "Gerrig Bonegrip"
+    },
+    "pickup": [
+      "Dun Morogh 59.2 , 22"
+    ],
+    "objective": "Return the items on the Bonegrip's Note to Gerrig Bonegrip in Ironforge.",
+    "requirements": [
+      "Star of Xil'yeh",
+      "Hand of Dagun",
+      "The Legacy Heart"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/735/the-star-the-hand-and-the-heart",
+    "sheetText": "Quest Objectives | Return the items on the Bonegrip's Note to Gerrig Bonegrip in Ironforge. | Star of Xil'yeh | Hand of Dagun | The Legacy Heart | Provided: | Bonegrip's Note | Description | Yagyin's Digest, eh?  Are you starting a new chapter of us, somewhere?  Never mind, it is not my place to ask. | I will help you, for I have an extra copy.  We must aid each other, yes?  That is how we flourish. | I require three items of power.  Bring them to me and I will give you the digest. | I will not speak their names.  Ears may be on us.  But here, I will write them down. | Rewards | Experience: | 5,600 | When you come back | Do you have the relics for which I asked? | When you hand it in | You are resourceful, ‹class›. If it truly is your charge to begin a new chapter of our order, then I believe you will run it well."
+  },
+  "737": {
+    "name": "Forbidden Knowledge",
+    "facts": {
+      "Start": "Gerrig Bonegrip Dun Morogh 59.2 , 22 , Keeper Bel'dugur Undercity 53.7 , 54.5",
+      "End": "Theldurin the Lost Badlands 51.4 , 76.9",
+      "Level": "40 , requires level 30",
+      "Difficulty": "30 36 38 43 51",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "No",
+      "Quest ID": "737",
+      "giver": "Gerrig Bonegrip , Keeper Bel'dugur"
+    },
+    "pickup": [
+      "Dun Morogh 59.2 , 22",
+      "Undercity 53.7 , 54.5"
+    ],
+    "objective": "Bring Yagyin's Digest to Theldurin.",
+    "requirements": [
+      "Yagyin's Digest"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/737/forbidden-knowledge",
+    "sheetText": "Quest Objectives | Bring Yagyin's Digest to Theldurin. | Yagyin's Digest | Provided: | Yagyin's Digest | Description | I have the digest for you, ‹name›.  I need not tell you to take great care with it.  And to keep it far from unfriendly hands. | This book holds many truths... | ...And the truth can burn. | Rewards | You will receive: | Skull of Impending Doom | Experience: | 2,350 | When you come back | Ho! You were gone a long time. Did you get the digest? | When you hand it in | You got it! Oh, hope glimmers! | Your efforts may yet save us, ‹name›. A monument they should make of you! A shrine they should build! May your name be praised until your grandchildren have grandchildren! | Unless...THEY are freed and rise to the surface.  If that happens then you can forget about children. | If THEY are freed, then we're all worm food."
+  },
+  "738": {
+    "name": "Find Agmond",
+    "facts": {
+      "Start": "Prospector Ironband Loch Modan 65.9 , 65.6",
+      "End": "Battered Dwarven Skeleton Badlands 50.9 , 62.4",
+      "Level": "38 , requires level 30",
+      "Difficulty": "30 34 36 41 48",
+      "Side": "Alliance",
+      "Shareable": "Yes",
+      "Quest ID": "738",
+      "giver": "Prospector Ironband"
+    },
+    "pickup": [
+      "Loch Modan 65.9 , 65.6"
+    ],
+    "objective": "Find Agmond.",
+    "requirements": [],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/738/find-agmond",
+    "sheetText": "Quest Objectives | Find Agmond. | Description | Prospector Agmond was in charge of our excavation sites in the Badlands, to the southwest.  I say \"was\" because...well, I haven't heard from him in weeks.  I need you to find Agmond so I can get his report. | Last I heard Agmond was at the southernmost dig site in the Badlands--a tiny operation past the Angor Fortress.  I'd start your search for him there. | Rewards | You will receive: | Ripped Prospector Belt | Jade | 2 | Gold Ore | Money: | 4 | 0 gold, 4 silver, 0 copper | Experience: | 1,450 | +50 reputation with Ironforge | When you hand it in | This skeleton must be the unfortunate remains of Agmond. His body is broken and battered, and his bones picked clean."
+  },
+  "739": {
+    "name": "Murdaloc",
+    "facts": {
+      "Start": "Battered Dwarven Skeleton Badlands 50.9 , 62.4",
+      "End": "Prospector Ironband Loch Modan 65.9 , 65.6",
+      "Level": "42 , requires level 30",
+      "Difficulty": "30 38 40 45 53",
+      "Side": "Alliance",
+      "Shareable": "Yes",
+      "Quest ID": "739",
+      "giver": "Battered Dwarven Skeleton"
+    },
+    "pickup": [
+      "Badlands 50.9 , 62.4"
+    ],
+    "objective": "Slay Agmond's killer, Murdaloc. Slay 12 Stonevault Bonesnappers. Report to Prospector Ironband in Loch Modan.",
+    "requirements": [
+      "Murdaloc slain",
+      "Stonevault Bonesnapper slain : 0/ 12"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/739/murdaloc",
+    "sheetText": "Quest Objectives | Slay Agmond's killer, Murdaloc. | Slay 12 Stonevault Bonesnappers. | Report to Prospector Ironband in Loch Modan. | Murdaloc slain | Stonevault Bonesnapper slain | : | 0/ | 12 | Description | Agmond's tracks lead from the west.  It is easy to tell from the bloody smears across rock and sand that the dwarf crawled some distance. | And here he died. | Upon close inspection, the word \"Murdaloc\" is roughly scrawled in a patch of Badlands sandstone. | Scrawled next to Agmond's dead hand. | Rewards | You will receive: | Rock Pulverizer | Experience: | 3,450 | +100 reputation with Ironforge | When you come back | Do you have news of Agmond's fate? Did you find him? | When you hand it in | This is sobering news, ‹name›. But Agmond had a strong arm and a fierce hammer-swing, and his skull was as thick as they come! Although he was killed by those cursed troggs I'm sure he took a lot of them down with him."
+  },
+  "762": {
+    "name": "An Ambassador of Evil",
+    "facts": {
+      "Start": "Historian Karnik Dun Morogh 63.5 , 23",
+      "End": "Advisor Belgrum Dun Morogh 63.5 , 22.6",
+      "Level": "44 , requires level 35",
+      "Difficulty": "35 40 42 47 56",
+      "Side": "Alliance",
+      "Type": "Elite",
+      "Shareable": "Yes",
+      "Quest ID": "762",
+      "giver": "Historian Karnik"
+    },
+    "pickup": [
+      "Dun Morogh 63.5 , 23"
+    ],
+    "objective": "Kill Ambassador Infernus in Angor Fortress and bring proof of his death to Advisor Belgrum in Ironforge.",
+    "requirements": [
+      "Ambassador Infernus' Bracer"
+    ],
+    "classic": false,
+    "url": "https://foreverchanges.pro/quest/762/an-ambassador-of-evil",
+    "sheetText": "Quest Objectives | Kill Ambassador Infernus in Angor Fortress and bring proof of his death to Advisor Belgrum in Ironforge. | Ambassador Infernus' Bracer | Description | Ambassador Infernus was sent to Angor Fortress by Ragnaros himself to mind the Shadowforge seeking lost artifacts in Uldaman. | It has already meant tremendous casualties for our people, but it has obviously grown worse. I hesitate to guess how many artifacts they would be able to find and use against Ironforge. | Our goal is simple, ‹class›. Return to the Badlands and destroy Ambassador Infernus. Once the threat is eliminated, return to Advisor Belgrum with proof of your victory. | It is in your hands now. | Rewards | You will be able to choose one of these rewards: | Dwarf Captain's Sword | Thane's Hammer | Ironforge Agent's Gloves | New in Forever: Thane's Hammer, Ironforge Agent's Gloves. | Money: | 1 | 25 | 1 gold, 25 silver, 0 copper | Experience: | 4,650 | +150 reputation with Ironforge | When you come back | Time is of the essence, ‹name›. Ragnaros will not wait for us to prepare. | When you hand it in | ‹name›, your dedication to Ironforge and to the dwarven people cannot be refuted. I thank you for your help in this matter. | I shall send word to Historian Karnik informing him that you have succeeded, and I shall also have aid sent to the Badlands as soon as possible to help recover the excavation site. Thank you again. | Before you go, there is one more thing I would ask of you in the name of King Bronzebeard."
+  },
+  "777": {
+    "name": "This Is Going to Be Hard",
+    "facts": {
+      "Start": "Lucien Tosselwrench Badlands 25.8 , 44.2",
+      "End": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "Level": "42 , requires level 35",
+      "Difficulty": "35 38 40 45 53",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "No",
+      "Quest ID": "777",
+      "giver": "Lucien Tosselwrench"
+    },
+    "pickup": [
+      "Badlands 25.8 , 44.2"
+    ],
+    "objective": "Bring Cog #5 to Lotwil Veriatus.",
+    "requirements": [
+      "Cog #5"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/777/this-is-going-to-be-hard",
+    "sheetText": "Quest Objectives | Bring Cog #5 to Lotwil Veriatus. | Cog #5 | Provided: | Cog #5 | Description | Okay, here you go. | I'm going to be over here... behind cover. | Feel free to join me. | When you come back | <Without looking up from the shackles, Lotwil holds out a hand and waggles his fingers impatiently.> | The cog, ‹name›, the cog! | When you hand it in | Ah, perfect. Stand back while I prepare to make more history! | <Lotwil continues to work feverishly.>"
+  },
+  "778": {
+    "name": "This Is Going to Be Hard",
+    "facts": {
+      "Start": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "End": "Lotwil Veriatus Badlands 25.9 , 44.9",
+      "Level": "45 , requires level 35",
+      "Difficulty": "35 41 43 48 57",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "No",
+      "Quest ID": "778",
+      "giver": "Lotwil Veriatus"
+    },
+    "pickup": [
+      "Badlands 25.9 , 44.9"
+    ],
+    "objective": "Defeat the Fam'retor Guardian and bring Lotwil's Shackles of Elemental Binding back to Lotwil Veriatus.",
+    "requirements": [
+      "Lotwil's Shackles of Elemental Binding"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/778/this-is-going-to-be-hard",
+    "sheetText": "Quest Objectives | Defeat the Fam'retor Guardian and bring Lotwil's Shackles of Elemental Binding back to Lotwil Veriatus. | Lotwil's Shackles of Elemental Binding | Description | Haha! Done! The shackles are done! | It's time, Lucien. It's time, Servo! | Are you ready to bear witness to the perfect blend of alchemy, engineering, and the arcane, ‹name›? | I shall summon forth a powerful elemental now. This is a groundbreaking day for all of us. | Rewards | You will receive: | Nifty Stopwatch | Experience: | 4,850 | When you come back | Not quite the outcome I was expecting. Could you get my shackles back? | When you hand it in | Thank you, ‹name›. That was quite an ordeal, wasn't it? | I'm not sure what could have gone wrong. It was a good thing my magics were here to help send the creature back to its home plane. | Perhaps a little token of appreciation for all your hard work..."
+  },
+  "779": {
+    "name": "Seal of the Earth",
+    "facts": {
+      "Start": "Seal of the Earth Badlands 81.5 , 49.9",
+      "End": "Seal of the Earth Badlands 81.5 , 49.9",
+      "Level": "50 , requires level 40",
+      "Difficulty": "40 46 48 53 60",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "Yes",
+      "Repeatable": "Yes",
+      "Quest ID": "779",
+      "giver": "Seal of the Earth"
+    },
+    "pickup": [
+      "Badlands 81.5 , 49.9"
+    ],
+    "objective": "",
+    "requirements": [
+      "Diamond Runestone",
+      "Opal Runestone",
+      "Amethyst Runestone"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/779/seal-of-the-earth",
+    "sheetText": "Quest Objectives | Diamond Runestone | Opal Runestone | Amethyst Runestone | When you come back | The Seal of the Earth lies here, with three recessed alcoves for the Amethyst Runestone, the Opal Runestone, and the Diamond Runestone. | When you hand it in | As you place the Runestones into the matching recesses, a violent rumbling shakes the earth as the Seal is broken."
+  },
+  "1106": {
+    "name": "Martek the Exiled",
+    "facts": {
+      "Start": "Fizzle Brassbolts Thousand Needles 78.1 , 77.1",
+      "End": "Martek the Exiled Badlands 42.2 , 52.7",
+      "Level": "35 , requires level 26",
+      "Difficulty": "26 31 33 38 44",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "No",
+      "Quest ID": "1106",
+      "giver": "Fizzle Brassbolts"
+    },
+    "pickup": [
+      "Thousand Needles 78.1 , 77.1"
+    ],
+    "objective": "Bring Fizzle's Letter to Martek the Exiled in the Badlands.",
+    "requirements": [
+      "Fizzle Brassbolts' Letter"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/1106/martek-the-exiled",
+    "sheetText": "Quest Objectives | Bring Fizzle's Letter to Martek the Exiled in the Badlands. | Fizzle Brassbolts' Letter | Provided: | Fizzle Brassbolts' Letter | Description | I'm developing a new engine that'll make the car go so fast!  Fast enough to fly, I know it!  I just need to make pistons that can handle very very heavy stress.  All my trials have failed because I can't make pistons hard enough! | But there is someone who might know how. | His name is Martek the Exiled.  He is a great smith and knows more about metal than anyone.  Take him this letter, I know he can help! | But he's far far away -- in Azeroth, in the Badlands, in a camp, with a goblin! | Find him! | Rewards | Experience: | 1,350 | When you come back | Well, you found me. Good for you. | Are you here about that axe I made for Gath'Ilzogg? Or are you here to reclaim Duchess Pamay's honor? | Actually, I don't care which it is. If you're here to fight, then let's get it over with... | When you hand it in | Fizzle sent you? Well that changes things! Of course I'll help you. Fizzle and his brother are two of the few people who don't want me dead! | So Fizzle wants to make pistons, eh? Pistons strong enough to take whatever stresses he has planned, and if I know Fizzle, then this new car of his is a volcano on wheels!"
+  },
+  "1108": {
+    "name": "Indurium",
+    "facts": {
+      "Start": "Martek the Exiled Badlands 42.2 , 52.7",
+      "End": "Martek the Exiled Badlands 42.2 , 52.7",
+      "Level": "39 , requires level 28",
+      "Difficulty": "28 35 37 42 49",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "Yes",
+      "Quest ID": "1108",
+      "giver": "Martek the Exiled"
+    },
+    "pickup": [
+      "Badlands 42.2 , 52.7"
+    ],
+    "objective": "Bring 10 Indurium Flakes to Martek the Exiled in the Badlands.",
+    "requirements": [
+      "10 Indurium Flake"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/1108/indurium",
+    "sheetText": "Quest Objectives | Bring 10 Indurium Flakes to Martek the Exiled in the Badlands. | 10 | Indurium Flake | Description | I'm not out here just to stay away from people.  There is a wealth of metal in the Badlands, ‹name›, if you have the guts to get it. | The metal's called indurium and as luck would have it, it is rumored to possess high resistance to heat and stress.  It might work for Fizzle's car. | But let's make sure.  Get me samples of indurium and I'll test its properties. | True indurium ore lies deep in Uldaman, but the Stonevault troggs of the Badlands sometimes have flakes of it on them.  Bring me those flakes. | Rewards | Experience: | 3,000 | When you come back | Did you find any indurium flakes, ‹name›. I have my forge heated up and ready to test them. | When you hand it in | Ah yes, these will do fine. Now let's put them in some heat and see how they fare..."
+  },
+  "1137": {
+    "name": "News for Fizzle",
+    "facts": {
+      "Start": "Martek the Exiled Badlands 42.2 , 52.7",
+      "End": "Fizzle Brassbolts Thousand Needles 78.1 , 77.1",
+      "Level": "38 , requires level 28",
+      "Difficulty": "28 34 36 41 48",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Shareable": "Yes",
+      "Quest ID": "1137",
+      "giver": "Martek the Exiled"
+    },
+    "pickup": [
+      "Badlands 42.2 , 52.7"
+    ],
+    "objective": "Speak with Fizzle Brassbolts in the Shimmering Flats.",
+    "requirements": [],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/1137/news-for-fizzle",
+    "sheetText": "Quest Objectives | Speak with Fizzle Brassbolts in the Shimmering Flats. | Description | Indurium has an amazing resistance to heat!  I'm sure it will work for Fizzle's pistons.  But he'll need true indurium ore, not just the flakes. | To get the ore, it must be mined from deep within Uldaman, on the northern borders of the Badlands.  That is the true source of indurium. | Send Fizzle Brassbolts my regards, and tell him what I told you. | Safe travels, ‹name›.  And it won't surprise me if we meet again -- once Fizzle learns of indurium he'll probably send you to Uldaman to acquire it! | Rewards | You will be able to choose one of these rewards: | Fizzle's Zippy Lighter | Gnomish Mechanic's Gloves | Experience: | 1,450 | When you hand it in | ‹name›, you're back! You found Martek? You spoke with him? What did he say? Can he help?? | Tell me, tell me, tell me!!"
+  },
+  "1559": {
+    "name": "Flash Bomb Recipe",
+    "facts": {
+      "Start": "Rigglefuzz Badlands 42.4 , 52.9",
+      "End": "Rigglefuzz Badlands 42.4 , 52.9",
+      "Level": "37 , requires level 30",
+      "Difficulty": "30 33 35 40 47",
+      "Side": "Both factions",
+      "Profession": "Engineering 1",
+      "Shareable": "Yes",
+      "Quest ID": "1559",
+      "giver": "Rigglefuzz"
+    },
+    "pickup": [
+      "Badlands 42.4 , 52.9"
+    ],
+    "objective": "",
+    "requirements": [],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/1559/flash-bomb-recipe",
+    "sheetText": "Quest Objectives | Rewards | You will receive: | Schematic: Flash Bomb"
+  },
+  "2418": {
+    "name": "Power Stones",
+    "facts": {
+      "Start": "Rigglefuzz Badlands 42.4 , 52.9",
+      "End": "Rigglefuzz Badlands 42.4 , 52.9",
+      "Level": "36 , requires level 30",
+      "Difficulty": "30 32 34 39 46",
+      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
+      "Type": "Dungeon",
+      "Shareable": "Yes",
+      "Quest ID": "2418",
+      "giver": "Rigglefuzz"
+    },
+    "pickup": [
+      "Badlands 42.4 , 52.9"
+    ],
+    "objective": "Bring 8 Dentrium Power Stones and 8 An'Alleum Power Stones to Rigglefuzz in the Badlands.",
+    "requirements": [
+      "8 Dentrium Power Stone",
+      "8 An'Alleum Power Stone"
+    ],
+    "classic": false,
+    "url": "https://foreverchanges.pro/quest/2418/power-stones",
+    "sheetText": "Quest Objectives | Bring 8 Dentrium Power Stones and 8 An'Alleum Power Stones to Rigglefuzz in the Badlands. | 8 | Dentrium Power Stone | 8 | An'Alleum Power Stone | Description | A while ago, I had an incident with the Shadowforge Dwarves.  They brought me to Angor Fortress to study two types of strange stones from Uldaman.  I discovered that the stones were sustained, stable power sources if treated correctly.  It's amazing the things one can find in that old dig site! | Anyway, after I told them the secret of the stones they kicked me out of Angor Fortress and began digging for more in Uldaman. | I want those stones for myself!  Bring me both types and I'll pay you plenty! | Rewards | You will be able to choose one of these rewards: | Energized Stone Circle | Duracin Bracers | Everlast Boots | Charged Leather Bracers | New in Forever: Charged Leather Bracers. | Experience: | 3,500 | +150 reputation with Booty Bay | -750 reputation with Bloodsail Buccaneers | When you come back | Do you have the power stones, ‹name›?  I have a robotic rodent that needs a power supply... | When you hand it in | That's great, you found some!  Thanks a lot, ‹name›.  You're the most dependable ‹race› I've met! | I can't wait to try these on some devices I've been tinkering with.  I bet that, under the right circumstances, devices powered with these stones will keep going, and going, and going..."
+  },
+  "2500": {
+    "name": "Badlands Reagent Run",
+    "facts": {
+      "Start": "Ghak Healtouch Loch Modan 37.1 , 49.4",
+      "End": "Ghak Healtouch Loch Modan 37.1 , 49.4",
+      "Level": "39 , requires level 36",
+      "Difficulty": "36 37 42 49",
+      "Side": "Alliance",
+      "Shareable": "Yes",
+      "Quest ID": "2500",
+      "giver": "Ghak Healtouch"
+    },
+    "pickup": [
+      "Loch Modan 37.1 , 49.4"
+    ],
+    "objective": "Acquire the reagents Ghak Healtouch needs from the Badlands, then return to him in Thelsamar.",
+    "requirements": [
+      "5 Buzzard Gizzard",
+      "10 Crag Coyote Fang",
+      "5 Rock Elemental Shard"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/2500/badlands-reagent-run",
+    "sheetText": "Quest Objectives | Acquire the reagents Ghak Healtouch needs from the Badlands, then return to him in Thelsamar. | 5 | Buzzard Gizzard | 10 | Crag Coyote Fang | 5 | Rock Elemental Shard | Description | ‹class›, I would make use of your services.  I am an alchemist of some note, and I seek your aid in acquiring some reagents found out in the Badlands. | I need the following items to replenish my stocks: five buzzard gizzards, ten crag coyote fangs, and five rock elemental shards.  Obviously, you can get them off of the beasties themselves; if you're not the fighting type, then find friends who are. | Acquire these items for me, you'll get some coin out of the deal. | Well, what say ye? | Rewards | Money: | 45 | 0 gold, 45 silver, 0 copper | Experience: | 3,000 | +100 reputation with Ironforge | When you come back | Have you gotten the things I need yet?  You won't get paid unless you bring me those reagents. | When you hand it in | Ah, well done ‹name›.  These should last me for a little while at least.  Here is your pay, as promised. | If you're interested, I have some more reagents I could use.  These, however, are only found in the depths of the Uldaman excavation.  They will not be easy to get, but I will make it worth your while if you are interested in helping me again. | Perhaps something more than some shiny coins, yes?"
+  },
+  "2501": {
+    "name": "Badlands Reagent Run II",
+    "facts": {
+      "Start": "Ghak Healtouch Loch Modan 37.1 , 49.4",
+      "End": "Ghak Healtouch Loch Modan 37.1 , 49.4",
+      "Level": "44 , requires level 40",
+      "Difficulty": "40 42 47 56",
+      "Side": "Alliance",
+      "Type": "Elite",
+      "Profession": "Alchemy 210",
+      "Shareable": "No",
+      "Quest ID": "2501",
+      "giver": "Ghak Healtouch"
+    },
+    "pickup": [
+      "Loch Modan 37.1 , 49.4"
+    ],
+    "objective": "Use the empty thaumaturgy vessels on scorched guardian dragons found in the Badlands.  Once you have them filled, bring them to Ghak Healtouch in Thelsamar.",
+    "requirements": [
+      "3 Vessel of Dragon's Blood"
+    ],
+    "classic": true,
+    "url": "https://foreverchanges.pro/quest/2501/badlands-reagent-run-ii",
+    "sheetText": "Quest Objectives | Use the empty thaumaturgy vessels on scorched guardian dragons found in the Badlands.  Once you have them filled, bring them to Ghak Healtouch in Thelsamar. | 3 | Vessel of Dragon's Blood | Provided: | Thaumaturgy Vessel Lockbox | Description | You have been most helpful to me, ‹name›.  I would like to reward you with the very recipe for the brew I gave you earlier, but I must ask of you a favor that is quite dangerous. | This lockbox contains three empty thaumaturgy vessels; they are imbued with an attunement aura that will drain the blood of a scorched guardian dragon.  Using one on the beast will anger it greatly, so be careful.  Once you have all three filled, bring them to me. | Do this, and the recipe will be yours. | Rewards | Experience: | 3,750 | +100 reputation with Ironforge | When you come back | Have you used the vessels to get me the scorched guardian dragon blood I need?  Yes, I know it is a dangerous task... but the recipe for my restorative brew awaits your success.  Risk and reward, my friend... risk and reward... | When you hand it in | From one alchemist to another, I salute you.  Here, take this recipe and commit it to your knowledge.  May it bring you the success and rewards that it has brought me over the years!"
+  },
+  "97617": {
+    "name": "Safety Checks",
+    "facts": {
+      "Level": "40 , requires level 35",
+      "Difficulty": "35 36 38 43 51",
+      "Side": "Alliance",
+      "Shareable": "Yes",
+      "Quest ID": "97617"
+    },
+    "pickup": [],
+    "objective": "Recover 8 Unstudied Artifacts, an Explorers' League Mining Helmet, and a Pristine Mattock and bring them to Dorgaron at the border of Loch Modan and the Badlands.",
+    "requirements": [
+      "8 Unstudied Artifact",
+      "Explorers' League Mining Helmet",
+      "Pristine Mattock"
+    ],
+    "classic": false,
+    "url": "https://foreverchanges.pro/quest/97617/safety-checks",
+    "sheetText": "Quest Objectives | Recover 8 Unstudied Artifacts, an Explorers' League Mining Helmet, and a Pristine Mattock and bring them to Dorgaron at the border of Loch Modan and the Badlands. | 8 | Unstudied Artifact | Explorers' League Mining Helmet | Pristine Mattock | Description | Hullo there, you look like the helpful sort. | The name's Dorgaron, and I'm with the Explorers' League. We've not had the best of luck with diggin' in the Badlands, but I know darn well there's artifacts to find and collect! | Before I can convince the boss to let us send another crew out here, I need to prove that the dig sites are safe AND haven't been picked clean. | If you find yourself down south, gather a few reasonably intact artifacts and some leftover equipment that hasn't been smashed yet. | Rewards | Money: | 25 | 0 gold, 25 silver, 0 copper | Experience: | 3,150"
+  },
+  "97821": {
+    "name": "Mirage Mirror",
+    "facts": {
+      "Start": "an item: Mirage Mirror",
+      "Level": "42 , requires level 37",
+      "Difficulty": "37 38 40 45 53",
+      "Side": "Both factions",
+      "Type": "Elite",
+      "Quest ID": "97821",
+      "giver": "an item: Mirage Mirror"
+    },
+    "pickup": [],
+    "objective": "Find someone in the Badlands that would be interested in this discovery.",
+    "requirements": [
+      "Mirage Mirror"
+    ],
+    "classic": false,
+    "url": "https://foreverchanges.pro/quest/97821/mirage-mirror",
+    "sheetText": "Quest Objectives | Find someone in the Badlands that would be interested in this discovery. | Mirage Mirror | Description | <Upon the elemental's demise, a relic fell from its core that glimmered in the sand. | As it was tilted in your hands, the reflection of the surrounding environment obscured it from your own view. Only once you saw a cracked surface that warped the reflection was it clearly visible again. | Perhaps someone would be interested in this discovery.> | Rewards | You will receive: | Mirage Mirror | Money: | 45 | 0 gold, 45 silver, 0 copper | Experience: | 4,300"
+  }
+}

@@ -1,0 +1,2626 @@
+{
+  "reviewedOn": "2026-11-27",
+  "build": "1.60.1.71139",
+  "questieRevision": "0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba",
+  "suggestedLevels": [
+    35,
+    45
+  ],
+  "indexes": {
+    "main": "https://foreverchanges.pro/quests/badlands",
+    "secondary": "https://foreverdb.net/quests/badlands",
+    "legacy": "https://legacyofwarcraft.com/db/forever/quests/badlands.html"
+  },
+  "counts": {
+    "quests": 47,
+    "sharedIds": [
+      "709",
+      "719",
+      "720",
+      "721",
+      "723",
+      "724",
+      "725",
+      "726",
+      "738",
+      "739",
+      "762",
+      "2418",
+      "2500"
+    ],
+    "prerequisites": 30,
+    "earlierLinks": 1
+  },
+  "candidates": [
+    {
+      "id": "656",
+      "name": "Summoning the Princess",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/656/summoning-the-princess",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": " -- Summoning the Princess\n            [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_OBJECT, l10n(\"Summon Myzrael\"), 0, {{\"object\", 138492}}}},\n",
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 692
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "687",
+      "name": "Theldurin the Lost",
+      "indexes": [],
+      "candidateReasons": [
+        "Direct introduction to The Lost Fragments"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/687/theldurin-the-lost",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": " -- Theldurin the Lost\n            [questKeys.preQuestSingle] = {653},\n",
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 653,
+          "2": 688
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "692",
+      "name": "The Lost Fragments",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/692/the-lost-fragments",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 687
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "703",
+      "name": "Barbecued Buzzard Wings",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/703/barbecued-buzzard-wings",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "705",
+      "name": "Pearl Diving",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/705/pearl-diving",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "706",
+      "name": "Fiery Blaze Enchantments",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/706/fiery-blaze-enchantments",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "708",
+      "name": "The Black Box",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/708/the-black-box",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "709",
+      "name": "Solution to Doom",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/709/solution-to-doom",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "710",
+      "name": "Study of the Elements: Rock",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/710/study-of-the-elements-rock",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "711",
+      "name": "Study of the Elements: Rock",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/711/study-of-the-elements-rock",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 710
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "712",
+      "name": "Study of the Elements: Rock",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/712/study-of-the-elements-rock",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 711
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "713",
+      "name": "Coolant Heads Prevail",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/713/coolant-heads-prevail",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "714",
+      "name": "Gyro... What?",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/714/gyro-what",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 713
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "715",
+      "name": "Liquid Stone",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/715/liquid-stone",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 714
+        },
+        "18": {
+          "1": 171,
+          "2": 0
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "716",
+      "name": "Stone Is Better than Cloth",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/716/stone-is-better-than-cloth",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 712
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "717",
+      "name": "Tremors of the Earth",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/717/tremors-of-the-earth",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 732
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "718",
+      "name": "Mirages",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/718/mirages",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "719",
+      "name": "A Dwarf and His Tools",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/719/a-dwarf-and-his-tools",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "720",
+      "name": "A Sign of Hope",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/720/a-sign-of-hope",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "721",
+      "name": "A Sign of Hope",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/721/a-sign-of-hope",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 720
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "723",
+      "name": "Prospect of Faith",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/723/prospect-of-faith",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 722
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "724",
+      "name": "Prospect of Faith",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/724/prospect-of-faith",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 723
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "725",
+      "name": "Passing Word of a Threat",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/725/passing-word-of-a-threat",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 724
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "726",
+      "name": "Passing Word of a Threat",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/726/passing-word-of-a-threat",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 725
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "727",
+      "name": "To Ironforge for Yagyin's Digest",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/727/to-ironforge-for-yagyins-digest",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 709
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "728",
+      "name": "To the Undercity for Yagyin's Digest",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/728/to-the-undercity-for-yagyins-digest",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 709
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "732",
+      "name": "Tremors of the Earth",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/732/tremors-of-the-earth",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 718
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "733",
+      "name": "Scrounging",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/733/scrounging",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 718
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "734",
+      "name": "This Is Going to Be Hard",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/734/this-is-going-to-be-hard",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": {
+          "1": 712,
+          "2": 714
+        },
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "735",
+      "name": "The Star, the Hand and the Heart",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/735/the-star-the-hand-and-the-heart",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 727
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "737",
+      "name": "Forbidden Knowledge",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/737/forbidden-knowledge",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 735,
+          "2": 736
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "738",
+      "name": "Find Agmond",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/738/find-agmond",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 707
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "739",
+      "name": "Murdaloc",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/739/murdaloc",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 738
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "762",
+      "name": "An Ambassador of Evil",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/762/an-ambassador-of-evil",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 726
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "777",
+      "name": "This Is Going to Be Hard",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/777/this-is-going-to-be-hard",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 734
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "778",
+      "name": "This Is Going to Be Hard",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/778/this-is-going-to-be-hard",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 777
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "779",
+      "name": "Seal of the Earth",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/779/seal-of-the-earth",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": 717
+      }
+    },
+    {
+      "id": "782",
+      "name": "Broken Alliances",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/782/broken-alliances",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "793",
+      "name": "Broken Alliances",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/793/broken-alliances",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 782
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "795",
+      "name": "Seal of the Earth",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/795/seal-of-the-earth",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": 793
+      }
+    },
+    {
+      "id": "1106",
+      "name": "Martek the Exiled",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/1106/martek-the-exiled",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "1108",
+      "name": "Indurium",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/1108/indurium",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 1106
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "1137",
+      "name": "News for Fizzle",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/1137/news-for-fizzle",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 1108
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "1419",
+      "name": "Coyote Thieves",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/1419/coyote-thieves",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "1420",
+      "name": "Report to Helgrum",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/1420/report-to-helgrum",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "1559",
+      "name": "Flash Bomb Recipe",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/1559/flash-bomb-recipe",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": {
+          "1": 202,
+          "2": 1
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "2202",
+      "name": "Uldaman Reagent Run",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/2202/uldaman-reagent-run",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 2258
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "2203",
+      "name": "Badlands Reagent Run II",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/2203/badlands-reagent-run-ii",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 2202
+        },
+        "18": {
+          "1": 171,
+          "2": 210
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "2258",
+      "name": "Badlands Reagent Run",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/2258/badlands-reagent-run",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "2318",
+      "name": "Translating the Journal",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/2318/translating-the-journal",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 2284
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "2338",
+      "name": "Translating the Journal",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/2338/translating-the-journal",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 2318
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "2339",
+      "name": "Find the Gems and Power Source",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/2339/find-the-gems-and-power-source",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 2338
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "2340",
+      "name": "Deliver the Gems",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/2340/deliver-the-gems",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 2339
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "2418",
+      "name": "Power Stones",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/2418/power-stones",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 0,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "2500",
+      "name": "Badlands Reagent Run",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/2500/badlands-reagent-run",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "2501",
+      "name": "Badlands Reagent Run II",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/2501/badlands-reagent-run-ii",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 4294967373,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 2500
+        },
+        "18": {
+          "1": 171,
+          "2": 210
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "3821",
+      "name": "Dreadmaul Rock",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/3821/dreadmaul-rock",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "3906",
+      "name": "Disharmony of Flame",
+      "indexes": [
+        "secondary.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/3906/disharmony-of-flame",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "3907",
+      "name": "Disharmony of Fire",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/3907/disharmony-of-fire",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 3906
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "3981",
+      "name": "Commander Gor'shak",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/3981/commander-gorshak",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 3906
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "4061",
+      "name": "The Rise of the Machines",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/4061/the-rise-of-the-machines",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "4062",
+      "name": "The Rise of the Machines",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/4062/the-rise-of-the-machines",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 4061
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "4063",
+      "name": "The Rise of the Machines",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/4063/the-rise-of-the-machines",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 4062
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "4081",
+      "name": "KILL ON SIGHT: Dark Iron Dwarves",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/4081/kill-on-sight-dark-iron-dwarves",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "4082",
+      "name": "KILL ON SIGHT: High Ranking Dark Iron Officials",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/4082/kill-on-sight-high-ranking-dark-iron-officials",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 4081
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "4122",
+      "name": "Grark Lorkrub",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/4122/grark-lorkrub",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "4132",
+      "name": "Operation: Death to Angerforge",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/4132/operation-death-to-angerforge",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 4121
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "4134",
+      "name": "Lost Thunderbrew Recipe",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/4134/lost-thunderbrew-recipe",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 4133
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "4724",
+      "name": "The Pack Mistress",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/4724/the-pack-mistress",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "4768",
+      "name": "The Darkstone Tablet",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/4768/the-darkstone-tablet",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 4769
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "4903",
+      "name": "Warlord's Command",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/4903/warlords-command",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "4941",
+      "name": "Eitrigg's Wisdom",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/4941/eitriggs-wisdom",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": {
+          "1": 4903
+        },
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "4981",
+      "name": "Operative Bijou",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/4981/operative-bijou",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "5145",
+      "name": "Dragonscale Leatherworking",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/5145/dragonscale-leatherworking",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": {
+          "1": 165,
+          "2": 225
+        },
+        "25": null
+      }
+    },
+    {
+      "id": "7201",
+      "name": "The Last Element",
+      "indexes": [],
+      "candidateReasons": [
+        "baseline category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/7201/the-last-element",
+      "generated": null,
+      "trace": null,
+      "authoredCorrection": null,
+      "baselineFields": {
+        "6": 8589934770,
+        "7": null,
+        "12": null,
+        "13": null,
+        "18": null,
+        "25": null
+      }
+    },
+    {
+      "id": "78823",
+      "name": "Terror of the Desert Skies",
+      "indexes": [
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "generated category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://www.wowhead.com/forever/quest=78823",
+      "generated": " -- Terror of the Desert Skies : https://wowhead.com/forever/quest=78823/terror-of-the-desert-skies\n            [questKeys.name] = \"Terror of the Desert Skies\",\n            [questKeys.startedBy] = {nil, nil, {211269}},\n            [questKeys.finishedBy] = {{715}},\n            [questKeys.requiredLevel] = 26,\n            [questKeys.questLevel] = 40,\n            [questKeys.requiredRaces] = 0, -- Assumption: DECISIONS.md#42-default-sod-both-quests-to-all-races-when-the-sod-base-agrees; 0 = all races; Forever Side Both and the consumer SoD base mask 0 agree; all races assumed, not proven.\n            [questKeys.objectivesText] = {\"Bring the Primitive Drawing to Hemet Nesingwary in Stranglethorn Vale.\"},\n            [questKeys.objectives] = {nil, nil, {{211269}}},\n            [questKeys.zoneOrSort] = zoneIDs.BADLANDS,\n",
+      "trace": "\n            [questKeys.name] = \"Terror of the Desert Skies\",\n            [questKeys.questLevel] = 40,\n            [questKeys.objectives] = {nil,nil,{{211269}}},\n            [questKeys.objectivesText] = {\"Bring the Primitive Drawing to Hemet Nesingwary in Stranglethorn Vale.\"},\n            [questKeys.finishedBy_add] = {{715}},\n",
+      "authoredCorrection": " -- Terror of the Desert Skies\n            [questKeys.requiredRaces] = raceIDs.NONE,\n            [questKeys.nextQuestInChain] = 78830,\n",
+      "baselineFields": null
+    },
+    {
+      "id": "78830",
+      "name": "Terror of the Desert Skies",
+      "indexes": [
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "generated category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://www.wowhead.com/forever/quest=78830",
+      "generated": " -- Terror of the Desert Skies : https://wowhead.com/forever/quest=78830/terror-of-the-desert-skies\n            [questKeys.name] = \"Terror of the Desert Skies\",\n            [questKeys.startedBy] = {{715}},\n            [questKeys.finishedBy] = {{715}},\n            [questKeys.requiredLevel] = 26,\n            [questKeys.questLevel] = 40,\n            [questKeys.requiredRaces] = 0, -- Assumption: DECISIONS.md#42-default-sod-both-quests-to-all-races-when-the-sod-base-agrees; 0 = all races; Forever Side Both and the consumer SoD base mask 0 agree; all races assumed, not proven.\n            [questKeys.objectivesText] = {\"Get a Crimson Trophy Quill from Gharrik in the Badlands. Then, return to Hemet Nesingwary in Stranglethorn Vale.\"},\n            [questKeys.objectives] = {nil, nil, {{211293}}},\n            [questKeys.sourceItemId] = 211272,\n            [questKeys.zoneOrSort] = zoneIDs.BADLANDS,\n",
+      "trace": "\n            [questKeys.name] = \"Terror of the Desert Skies\",\n            [questKeys.questLevel] = 40,\n            [questKeys.objectives] = {nil,nil,{{211293}}},\n            [questKeys.objectivesText] = {\"Get a Crimson Trophy Quill from Gharrik in the Badlands. Then, return to Hemet Nesingwary in Stranglethorn Vale.\"},\n            [questKeys.startedBy_add] = {{715}},\n            [questKeys.finishedBy_add] = {{715}},\n",
+      "authoredCorrection": " -- Terror of the Desert Skies\n            [questKeys.requiredRaces] = raceIDs.NONE,\n            [questKeys.preQuestSingle] = {78823},\n",
+      "baselineFields": null
+    },
+    {
+      "id": "81900",
+      "name": "The Burning Beast",
+      "indexes": [
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "generated category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Misfiled category: starts at Weathered Etching in Searing Gorge and leads to Blasted Lands; no Badlands objective",
+      "reference": "https://www.wowhead.com/forever/quest=81900",
+      "generated": " -- The Burning Beast : https://wowhead.com/forever/quest=81900/the-burning-beast\n            [questKeys.name] = \"The Burning Beast\",\n            [questKeys.startedBy] = {nil, {441061}},\n            [questKeys.finishedBy] = {{7506}},\n            [questKeys.requiredLevel] = 45,\n            [questKeys.questLevel] = 54,\n            [questKeys.requiredRaces] = 0, -- Assumption: assumptions/reviewed_shared_races.toml; 0 = all races; Reviewed shared quest systems: explicit Both labels, player reports, connected shared chains or neutral acquisition support assuming all-race access for these IDs; class and other access requirements remain independent.\n            [questKeys.objectivesText] = {\"Find an expert on the beasts of the Blasted Lands.\"},\n            [questKeys.zoneOrSort] = zoneIDs.BADLANDS,\n",
+      "trace": "\n            [questKeys.name] = \"The Burning Beast\",\n            [questKeys.questLevel] = 54,\n            [questKeys.objectivesText] = {\"Find an expert on the beasts of the Blasted Lands.\"},\n            [questKeys.startedBy_add] = {nil,{441061}},\n            [questKeys.finishedBy_add] = {{7506}},\n",
+      "authoredCorrection": " -- The Burning Beast\n            [questKeys.nextQuestInChain] = 81917,\n",
+      "baselineFields": null
+    },
+    {
+      "id": "92743",
+      "name": "A Conqueror's Crown",
+      "indexes": [],
+      "candidateReasons": [
+        "generated category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Magram reputation route; user sides with Gelkis",
+      "reference": "https://foreverchanges.pro/quest/92743/a-conquerors-crown",
+      "generated": " -- A Conqueror's Crown : https://wowhead.com/forever/quest=92743/a-conquerors-crown\n            [questKeys.name] = \"A Conqueror's Crown\",\n            [questKeys.startedBy] = {{5398}},\n            [questKeys.finishedBy] = {{5398}},\n            [questKeys.requiredLevel] = 30,\n            [questKeys.questLevel] = 40,\n            [questKeys.requiredRaces] = 0, -- Assumption: assumptions/unresolved_race_defaults.toml; 0 = all races; Explicitly defaulted to 0 (all races) at Logon's request because this quest's eligibility remains unresolved or weakly supported; this is not verified shared access or proof that the quest is obtainable.\n            [questKeys.objectivesText] = {\"Maintain your reputation with the Magram, and return a Conqueror's Crown from the Badlands to Warug in Magram Village.\"},\n            [questKeys.zoneOrSort] = zoneIDs.DESOLACE,\n            [questKeys.reputationReward] = {{93, 1000}},\n",
+      "trace": "\n            [questKeys.name] = \"A Conqueror's Crown\",\n            [questKeys.questLevel] = 40,\n            [questKeys.objectivesText] = {\"Maintain your reputation with the Magram, and return a Conqueror's Crown from the Badlands to Warug in Magram Village.\"},\n            [questKeys.startedBy_add] = {{5398}},\n            [questKeys.finishedBy_add] = {{5398}},\n            [questKeys.reputationReward] = {{92,-5000},{93,1000}},\n",
+      "authoredCorrection": " -- A Conqueror's Crown\n            [questKeys.preQuestSingle] = {1369},\n            [questKeys.nextQuestInChain] = 92841,\n",
+      "baselineFields": null
+    },
+    {
+      "id": "97617",
+      "name": "Safety Checks",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "generated category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/97617/safety-checks",
+      "generated": " -- Safety Checks : https://wowhead.com/forever/quest=97617/safety-checks\n            [questKeys.name] = \"Safety Checks\",\n            [questKeys.requiredLevel] = 35,\n            [questKeys.questLevel] = 40,\n            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,\n            [questKeys.objectivesText] = {\"Recover 8 Unstudied Artifacts, an Explorers' League Mining Helmet, and a Pristine Mattock and bring them to Dorgaron at the border of Loch Modan and the Badlands.\"},\n            [questKeys.objectives] = {nil, nil, {{278402}, {278403}, {278404}}},\n            [questKeys.zoneOrSort] = zoneIDs.BADLANDS,\n",
+      "trace": "\n            [questKeys.name] = \"Safety Checks\",\n            [questKeys.questLevel] = 40,\n            [questKeys.objectives] = {nil,nil,{{278402},{278403},{278404}}},\n            [questKeys.objectivesText] = {\"Recover 8 Unstudied Artifacts, an Explorers' League Mining Helmet, and a Pristine Mattock and bring them to Dorgaron at the border of Loch Modan and the Badlands.\"},\n            [questKeys.startedBy_add] = {{269577}},\n            [questKeys.finishedBy_add] = {{269577}},\n",
+      "authoredCorrection": " -- Safety Checks\n            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE, -- wowhead\n",
+      "baselineFields": null
+    },
+    {
+      "id": "97663",
+      "name": "Supplies and Studies",
+      "indexes": [
+        "index.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "generated category/local starter/objective"
+      ],
+      "decision": "exclude",
+      "reason": "Horde-only; primary faction mask/trace overrides broad public labels",
+      "reference": "https://foreverchanges.pro/quest/97663/supplies-and-studies",
+      "generated": " -- Supplies and Studies : https://wowhead.com/forever/quest=97663/supplies-and-studies\n            [questKeys.name] = \"Supplies and Studies\",\n            [questKeys.startedBy] = {{269647}},\n            [questKeys.finishedBy] = {{269647}},\n            [questKeys.requiredLevel] = 34,\n            [questKeys.questLevel] = 40,\n            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,\n            [questKeys.objectivesText] = {\"Slay ogres in the Dustbowl for Mus'hale's Stolen Supplies and use them to collect rubbings of the nearby stone etchings, then return to Mus'hale at Kargath.\"},\n            [questKeys.zoneOrSort] = zoneIDs.BADLANDS,\n",
+      "trace": "\n            [questKeys.name] = \"Supplies and Studies\",\n            [questKeys.questLevel] = 40,\n            [questKeys.objectivesText] = {\"Slay ogres in the Dustbowl for Mus'hale's Stolen Supplies and use them to collect rubbings of the nearby stone etchings, then return to Mus'hale at Kargath.\"},\n            [questKeys.startedBy_add] = {{269647}},\n            [questKeys.requiredRaces] = 8589934770,\n            [questKeys.finishedBy_add] = {{269647}},\n",
+      "authoredCorrection": " -- Supplies and Studies\n            [questKeys.requiredRaces] = raceIDs.NONE, -- wowhead\n",
+      "baselineFields": null
+    },
+    {
+      "id": "97821",
+      "name": "Mirage Mirror",
+      "indexes": [
+        "index.html",
+        "secondary.html",
+        "legacy.html"
+      ],
+      "candidateReasons": [
+        "index",
+        "generated category/local starter/objective"
+      ],
+      "decision": "include",
+      "reason": "Alliance/shared local quest or direct related introduction/follow-up",
+      "reference": "https://foreverchanges.pro/quest/97821/mirage-mirror",
+      "generated": " -- Mirage Mirror : https://wowhead.com/forever/quest=97821/mirage-mirror\n            [questKeys.name] = \"Mirage Mirror\",\n            [questKeys.finishedBy] = {{269577, 269647}},\n            [questKeys.requiredLevel] = 37,\n            [questKeys.questLevel] = 42,\n            [questKeys.objectivesText] = {\"Find someone in the Badlands that would be interested in this discovery.\"},\n            [questKeys.objectives] = {nil, nil, {{278744}}},\n            [questKeys.zoneOrSort] = zoneIDs.BADLANDS,\n",
+      "trace": "\n            [questKeys.name] = \"Mirage Mirror\",\n            [questKeys.questLevel] = 42,\n            [questKeys.objectives] = {nil,nil,{{278744}}},\n            [questKeys.objectivesText] = {\"Find someone in the Badlands that would be interested in this discovery.\"},\n            [questKeys.finishedBy_add] = {{269577,269647}},\n",
+      "authoredCorrection": "\n            [questKeys.requiredRaces] = raceIDs.NONE, -- unverified\n",
+      "baselineFields": null
+    }
+  ],
+  "fetches": [
+    {
+      "file": "index.html",
+      "url": "https://foreverchanges.pro/quests/badlands",
+      "status": 200
+    },
+    {
+      "file": "secondary.html",
+      "url": "https://foreverdb.net/quests/badlands",
+      "status": 200
+    },
+    {
+      "file": "legacy.html",
+      "url": "https://legacyofwarcraft.com/db/forever/quests/badlands.html",
+      "status": 200
+    },
+    {
+      "file": "questie-latest.json",
+      "url": "https://api.github.com/repos/Questie/QuestieDB/commits?per_page=1",
+      "status": 200
+    },
+    {
+      "file": "quest-705.html",
+      "url": "https://foreverchanges.pro/quest/705",
+      "status": 200
+    },
+    {
+      "file": "quest-715.html",
+      "url": "https://foreverchanges.pro/quest/715",
+      "status": 200
+    },
+    {
+      "file": "quest-723.html",
+      "url": "https://foreverchanges.pro/quest/723",
+      "status": 200
+    },
+    {
+      "file": "quest-1419.html",
+      "url": "https://foreverchanges.pro/quest/1419",
+      "status": 200
+    },
+    {
+      "file": "quest-738.html",
+      "url": "https://foreverchanges.pro/quest/738",
+      "status": 200
+    },
+    {
+      "file": "quest-692.html",
+      "url": "https://foreverchanges.pro/quest/692",
+      "status": 200
+    },
+    {
+      "file": "quest-737.html",
+      "url": "https://foreverchanges.pro/quest/737",
+      "status": 200
+    },
+    {
+      "file": "quest-711.html",
+      "url": "https://foreverchanges.pro/quest/711",
+      "status": 200
+    },
+    {
+      "file": "quest-716.html",
+      "url": "https://foreverchanges.pro/quest/716",
+      "status": 200
+    },
+    {
+      "file": "quest-720.html",
+      "url": "https://foreverchanges.pro/quest/720",
+      "status": 200
+    },
+    {
+      "file": "quest-777.html",
+      "url": "https://foreverchanges.pro/quest/777",
+      "status": 200
+    },
+    {
+      "file": "quest-725.html",
+      "url": "https://foreverchanges.pro/quest/725",
+      "status": 200
+    },
+    {
+      "file": "quest-81900.html",
+      "url": "https://foreverchanges.pro/quest/81900",
+      "status": 404
+    },
+    {
+      "file": "quest-762.html",
+      "url": "https://foreverchanges.pro/quest/762",
+      "status": 200
+    },
+    {
+      "file": "quest-779.html",
+      "url": "https://foreverchanges.pro/quest/779",
+      "status": 200
+    },
+    {
+      "file": "quest-97663.html",
+      "url": "https://foreverchanges.pro/quest/97663",
+      "status": 200
+    },
+    {
+      "file": "quest-727.html",
+      "url": "https://foreverchanges.pro/quest/727",
+      "status": 200
+    },
+    {
+      "file": "quest-733.html",
+      "url": "https://foreverchanges.pro/quest/733",
+      "status": 200
+    },
+    {
+      "file": "quest-708.html",
+      "url": "https://foreverchanges.pro/quest/708",
+      "status": 200
+    },
+    {
+      "file": "quest-2258.html",
+      "url": "https://foreverchanges.pro/quest/2258",
+      "status": 200
+    },
+    {
+      "file": "quest-712.html",
+      "url": "https://foreverchanges.pro/quest/712",
+      "status": 200
+    },
+    {
+      "file": "quest-2203.html",
+      "url": "https://foreverchanges.pro/quest/2203",
+      "status": 200
+    },
+    {
+      "file": "quest-793.html",
+      "url": "https://foreverchanges.pro/quest/793",
+      "status": 200
+    },
+    {
+      "file": "quest-718.html",
+      "url": "https://foreverchanges.pro/quest/718",
+      "status": 200
+    },
+    {
+      "file": "quest-3821.html",
+      "url": "https://foreverchanges.pro/quest/3821",
+      "status": 200
+    },
+    {
+      "file": "quest-726.html",
+      "url": "https://foreverchanges.pro/quest/726",
+      "status": 200
+    },
+    {
+      "file": "quest-78823.html",
+      "url": "https://foreverchanges.pro/quest/78823",
+      "status": 404
+    },
+    {
+      "file": "quest-739.html",
+      "url": "https://foreverchanges.pro/quest/739",
+      "status": 200
+    },
+    {
+      "file": "quest-717.html",
+      "url": "https://foreverchanges.pro/quest/717",
+      "status": 200
+    },
+    {
+      "file": "quest-782.html",
+      "url": "https://foreverchanges.pro/quest/782",
+      "status": 200
+    },
+    {
+      "file": "quest-706.html",
+      "url": "https://foreverchanges.pro/quest/706",
+      "status": 200
+    },
+    {
+      "file": "quest-734.html",
+      "url": "https://foreverchanges.pro/quest/734",
+      "status": 200
+    },
+    {
+      "file": "quest-97617.html",
+      "url": "https://foreverchanges.pro/quest/97617",
+      "status": 200
+    },
+    {
+      "file": "quest-710.html",
+      "url": "https://foreverchanges.pro/quest/710",
+      "status": 200
+    },
+    {
+      "file": "quest-713.html",
+      "url": "https://foreverchanges.pro/quest/713",
+      "status": 200
+    },
+    {
+      "file": "quest-778.html",
+      "url": "https://foreverchanges.pro/quest/778",
+      "status": 200
+    },
+    {
+      "file": "quest-732.html",
+      "url": "https://foreverchanges.pro/quest/732",
+      "status": 200
+    },
+    {
+      "file": "quest-724.html",
+      "url": "https://foreverchanges.pro/quest/724",
+      "status": 200
+    },
+    {
+      "file": "quest-714.html",
+      "url": "https://foreverchanges.pro/quest/714",
+      "status": 200
+    },
+    {
+      "file": "quest-719.html",
+      "url": "https://foreverchanges.pro/quest/719",
+      "status": 200
+    },
+    {
+      "file": "quest-4062.html",
+      "url": "https://foreverchanges.pro/quest/4062",
+      "status": 200
+    },
+    {
+      "file": "quest-78830.html",
+      "url": "https://foreverchanges.pro/quest/78830",
+      "status": 404
+    },
+    {
+      "file": "quest-728.html",
+      "url": "https://foreverchanges.pro/quest/728",
+      "status": 200
+    },
+    {
+      "file": "quest-703.html",
+      "url": "https://foreverchanges.pro/quest/703",
+      "status": 200
+    },
+    {
+      "file": "quest-1420.html",
+      "url": "https://foreverchanges.pro/quest/1420",
+      "status": 200
+    },
+    {
+      "file": "quest-97821.html",
+      "url": "https://foreverchanges.pro/quest/97821",
+      "status": 200
+    },
+    {
+      "file": "quest-795.html",
+      "url": "https://foreverchanges.pro/quest/795",
+      "status": 200
+    },
+    {
+      "file": "quest-735.html",
+      "url": "https://foreverchanges.pro/quest/735",
+      "status": 200
+    },
+    {
+      "file": "quest-3906.html",
+      "url": "https://foreverchanges.pro/quest/3906",
+      "status": 200
+    },
+    {
+      "file": "quest-78823.html",
+      "url": "https://foreverchanges.pro/quest/78823",
+      "status": 404
+    },
+    {
+      "file": "quest-81900.html",
+      "url": "https://foreverchanges.pro/quest/81900",
+      "status": 404
+    },
+    {
+      "file": "quest-78830.html",
+      "url": "https://foreverchanges.pro/quest/78830",
+      "status": 404
+    },
+    {
+      "file": "quest-656.html",
+      "url": "https://foreverchanges.pro/quest/656",
+      "status": 200
+    },
+    {
+      "file": "quest-709.html",
+      "url": "https://foreverchanges.pro/quest/709",
+      "status": 200
+    },
+    {
+      "file": "quest-721.html",
+      "url": "https://foreverchanges.pro/quest/721",
+      "status": 200
+    },
+    {
+      "file": "quest-1106.html",
+      "url": "https://foreverchanges.pro/quest/1106",
+      "status": 200
+    },
+    {
+      "file": "quest-1108.html",
+      "url": "https://foreverchanges.pro/quest/1108",
+      "status": 200
+    },
+    {
+      "file": "quest-1137.html",
+      "url": "https://foreverchanges.pro/quest/1137",
+      "status": 200
+    },
+    {
+      "file": "quest-1559.html",
+      "url": "https://foreverchanges.pro/quest/1559",
+      "status": 200
+    },
+    {
+      "file": "quest-2202.html",
+      "url": "https://foreverchanges.pro/quest/2202",
+      "status": 200
+    },
+    {
+      "file": "quest-2318.html",
+      "url": "https://foreverchanges.pro/quest/2318",
+      "status": 200
+    },
+    {
+      "file": "quest-2338.html",
+      "url": "https://foreverchanges.pro/quest/2338",
+      "status": 200
+    },
+    {
+      "file": "quest-2339.html",
+      "url": "https://foreverchanges.pro/quest/2339",
+      "status": 200
+    },
+    {
+      "file": "quest-2340.html",
+      "url": "https://foreverchanges.pro/quest/2340",
+      "status": 200
+    },
+    {
+      "file": "quest-2418.html",
+      "url": "https://foreverchanges.pro/quest/2418",
+      "status": 200
+    },
+    {
+      "file": "quest-2500.html",
+      "url": "https://foreverchanges.pro/quest/2500",
+      "status": 200
+    },
+    {
+      "file": "quest-2501.html",
+      "url": "https://foreverchanges.pro/quest/2501",
+      "status": 200
+    },
+    {
+      "file": "quest-3907.html",
+      "url": "https://foreverchanges.pro/quest/3907",
+      "status": 200
+    },
+    {
+      "file": "quest-3981.html",
+      "url": "https://foreverchanges.pro/quest/3981",
+      "status": 200
+    },
+    {
+      "file": "quest-4061.html",
+      "url": "https://foreverchanges.pro/quest/4061",
+      "status": 200
+    },
+    {
+      "file": "quest-4063.html",
+      "url": "https://foreverchanges.pro/quest/4063",
+      "status": 200
+    },
+    {
+      "file": "quest-4081.html",
+      "url": "https://foreverchanges.pro/quest/4081",
+      "status": 200
+    },
+    {
+      "file": "quest-4082.html",
+      "url": "https://foreverchanges.pro/quest/4082",
+      "status": 200
+    },
+    {
+      "file": "quest-4122.html",
+      "url": "https://foreverchanges.pro/quest/4122",
+      "status": 200
+    },
+    {
+      "file": "quest-4132.html",
+      "url": "https://foreverchanges.pro/quest/4132",
+      "status": 200
+    },
+    {
+      "file": "quest-4134.html",
+      "url": "https://foreverchanges.pro/quest/4134",
+      "status": 200
+    },
+    {
+      "file": "quest-4724.html",
+      "url": "https://foreverchanges.pro/quest/4724",
+      "status": 200
+    },
+    {
+      "file": "quest-4768.html",
+      "url": "https://foreverchanges.pro/quest/4768",
+      "status": 200
+    },
+    {
+      "file": "quest-4903.html",
+      "url": "https://foreverchanges.pro/quest/4903",
+      "status": 200
+    },
+    {
+      "file": "quest-4941.html",
+      "url": "https://foreverchanges.pro/quest/4941",
+      "status": 200
+    },
+    {
+      "file": "quest-4981.html",
+      "url": "https://foreverchanges.pro/quest/4981",
+      "status": 200
+    },
+    {
+      "file": "quest-5145.html",
+      "url": "https://foreverchanges.pro/quest/5145",
+      "status": 200
+    },
+    {
+      "file": "quest-7201.html",
+      "url": "https://foreverchanges.pro/quest/7201",
+      "status": 200
+    },
+    {
+      "file": "quest-92743.html",
+      "url": "https://foreverchanges.pro/quest/92743",
+      "status": 200
+    },
+    {
+      "file": "quest-687.html",
+      "url": "https://foreverchanges.pro/quest/687",
+      "status": 200
+    },
+    {
+      "file": "tooltip-78823.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/78823",
+      "status": 200
+    },
+    {
+      "file": "tooltip-78830.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/78830",
+      "status": 200
+    },
+    {
+      "file": "tooltip-81900.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/81900",
+      "status": 200
+    },
+    {
+      "file": "tooltip-97663.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/97663",
+      "status": 200
+    },
+    {
+      "file": "tooltip-97821.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/97821",
+      "status": 200
+    },
+    {
+      "file": "tooltip-97617.json",
+      "url": "https://nether.wowhead.com/forever/tooltip/quest/97617",
+      "status": 200
+    },
+    {
+      "file": "legacy-78823.html",
+      "url": "https://legacyofwarcraft.com/db/forever/quest/78823.html",
+      "status": 200
+    },
+    {
+      "file": "legacy-78830.html",
+      "url": "https://legacyofwarcraft.com/db/forever/quest/78830.html",
+      "status": 200
+    },
+    {
+      "file": "legacy-81900.html",
+      "url": "https://legacyofwarcraft.com/db/forever/quest/81900.html",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "78823": {
+    "name": "Terror of the Desert Skies",
+    "tooltip": "<table><tr><td><b class=\"q\">Terror of the Desert Skies</b></td></tr></table><table><tr><td><br />Bring the Primitive Drawing to Hemet Nesingwary in Stranglethorn Vale.<br /><br /><span class=\"q\">Requirements:</span><br /> - Primitive Drawing</td></tr></table>"
+  },
+  "78830": {
+    "name": "Terror of the Desert Skies",
+    "tooltip": "<table><tr><td><b class=\"q\">Terror of the Desert Skies</b></td></tr></table><table><tr><td><br />Get a Crimson Trophy Quill from Gharrik in the Badlands. Then, return to Hemet Nesingwary in Stranglethorn Vale.<br /><br /><span class=\"q\">Requirements:</span><br /> - Crimson Trophy Quill</td></tr></table>"
+  },
+  "81900": {
+    "name": "The Burning Beast",
+    "tooltip": "<table><tr><td><b class=\"q\">The Burning Beast</b></td></tr></table><table><tr><td><br />Find an expert on the beasts of the Blasted Lands.</td></tr></table>"
+  },
+  "97663": {
+    "name": "Supplies and Studies",
+    "tooltip": "<table><tr><td><b class=\"q\">Supplies and Studies</b></td></tr></table><table><tr><td><br />Slay ogres in the Dustbowl for Mus'hale's Stolen Supplies and use them to collect rubbings of the nearby stone etchings, then return to Mus'hale at Kargath.<br /><br /><span class=\"q\">Requirements:</span><br /> - Mus'hale's Stolen Supplies<br /> - Small rock rubbing<br /> - Large rock rubbing</td></tr></table>"
+  },
+  "97821": {
+    "name": "Mirage Mirror",
+    "tooltip": "<table><tr><td><table width=\"100%\"><tr><td><b class=\"q\">Mirage Mirror</b></td><th><b class=\"q0\">Level 42</b></th></tr></table></td></tr></table><table><tr><td><br />Find someone in the Badlands that would be interested in this discovery.<br /><br /><span class=\"q\">Requirements:</span><br /> - Mirage Mirror</td></tr></table>"
+  },
+  "97617": {
+    "name": "Safety Checks",
+    "tooltip": "<table><tr><td><b class=\"q\">Safety Checks</b></td></tr></table><table><tr><td><br />Recover 8 Unstudied Artifacts, an Explorers' League Mining Helmet, and a Pristine Mattock and bring them to Dorgaron at the border of Loch Modan and the Badlands.<br /><br /><span class=\"q\">Requirements:</span><br /> - Unstudied Artifact x 8<br /> - Explorers' League Mining Helmet<br /> - Pristine Mattock</td></tr></table>"
+  }
+}
