@@ -1,6 +1,6 @@
 # Alcaz Prison
 
-Open **Dungeons → Alcaz Prison** for the quest checklist, five boss drop tables, and maps of both floors. The dungeon is on Alcaz Island in Dustwallow Marsh. Its suggested level range is 48–53, and the Forever client records it as instance 2994 and area 16620. [Blizzard dungeon overview](https://worldofwarcraft.blizzard.com/en-us/news/24301455/) · [Forever client encounters](https://wago.tools/db2/DungeonEncounter/csv?build=1.60.1.71037)
+Open **Dungeons → Alcaz Prison** for the quest checklist, five boss drop tables, a bind-on-equip drop table, and maps of both floors. The dungeon is on Alcaz Island in Dustwallow Marsh. Its suggested level range is 48–53, and the Forever client records it as instance 2994 and area 16620. [Blizzard dungeon overview](https://worldofwarcraft.blizzard.com/en-us/news/24301455/) · [Forever client encounters](https://wago.tools/db2/DungeonEncounter/csv?build=1.60.1.71037)
 
 ## Quest coverage
 
@@ -12,7 +12,9 @@ The 12 tracked quests include Alliance and shared entries. The separate Horde ch
 
 ## Drops
 
-The tracker lists 15 encounter-specific equipment drops, three each from Tidemistress Ca'zass, Overseer Wrex, Katerina the Cleaner, Blazeroar, and The Questioner. Zarla Ober and Blazeroar are phases of one encounter. Nine items pass the Rogue usability filter. All 15 source lines and item stats are present in the Forever item tooltips. PatchVault also records 12 of those items from player kills. Keys, quest items, quest rewards, and shared zone drops are outside the boss equipment list. [Tooltip records](item-tooltips.json) · [Player-recorded drops](https://patchvaultapp.com/forever/dungeons/alcaz-prison/)
+The tracker lists 15 encounter-specific equipment drops, three each from Tidemistress Ca'zass, Overseer Wrex, Katerina the Cleaner, Blazeroar, and The Questioner. Zarla Ober and Blazeroar are phases of one encounter. Nine of these items pass the Rogue usability filter. All 15 source lines and item stats are present in the Forever item tooltips. PatchVault also records 12 of those items from player kills. [Tooltip records](item-tooltips.json) · [Player-recorded drops](https://patchvaultapp.com/forever/dungeons/alcaz-prison/)
+
+The **Alcaz Prison BoE drops** card lists ten dungeon-specific items, including three pieces of Defias Enforcer's Garb. Seven pass the Rogue filter. All The Things lists individual mobs for nine items, and ForeverChanges lists Escape Plan among the dungeon's trash drops. The tooltip for Enchantresses' Spire also names the Strashaz Enchantress. [Source inventory](sources.json) · [Tooltip records](item-tooltips.json)
 
 ## Map
 

@@ -174,5 +174,47 @@
     "routeRevision": "84624cb26544e6cd2649c65f3ad55559dde45491",
     "routeSha256": "ca475c3279990c0d9d78a97a9a8e647daa9f669f78692a56a07db79e123c292e",
     "method": "The entrance, boss and stair references use the route record for the corresponding Santiago Reyes artwork. The Perfumed Note shares the final encounter room pin. Mason Connery uses the approximate cell area."
+  },
+  "bindOnEquip": {
+    "checked": "2026-11-27",
+    "zoneDropReferences": [
+      {
+        "url": "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua#L252",
+        "items": [
+          287017,
+          287018,
+          287019,
+          287020,
+          287021,
+          287022,
+          287023,
+          287024,
+          287025
+        ]
+      },
+      {
+        "url": "https://foreverchanges.pro/dungeons/alcaz-prison",
+        "items": [
+          287017,
+          287019,
+          287020,
+          287021,
+          287025,
+          287026
+        ]
+      },
+      {
+        "url": "https://patchvaultapp.com/forever/dungeons/alcaz-prison/",
+        "items": [
+          287019,
+          287022,
+          287023
+        ]
+      }
+    ],
+    "tooltipSource": {
+      "287025": "Strashaz Enchantress"
+    },
+    "notes": "The addon records individual trash mobs for nine items. Escape Plan is listed as trash loot by ForeverChanges without a specific mob. PatchVault records three of the BoEs from boss kills as additional sources."
   }
 }

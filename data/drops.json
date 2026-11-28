@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-27",
   "build": "1.60.1.70862",
   "instances": {
     "Deadmines": {
@@ -9217,6 +9217,298 @@
             "https://nether.wowhead.com/forever/tooltip/item/276743",
             "https://github.com/ATTWoWAddon/AllTheThings/blob/f79803332c8e5eefc2b5840c4ce9efa17880a304/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua",
             "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "287017",
+          "name": "Chaplain's Mitre",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Head",
+          "type": "Cloth",
+          "stats": [
+            "Binds when equipped",
+            "62 Armor",
+            "+22 Stamina",
+            "+10 Spirit",
+            "Equip: Increases healing done by magical spells and effects by up to 26."
+          ],
+          "source": "Alcaz Prison BoE drops",
+          "sourceOrder": 6,
+          "dropEvidence": "reference",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=287017",
+          "sources": [
+            "https://www.wowhead.com/forever/item=287017",
+            "https://nether.wowhead.com/forever/tooltip/item/287017",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua#L252",
+            "https://foreverchanges.pro/dungeons/alcaz-prison"
+          ]
+        },
+        {
+          "id": "287018",
+          "name": "Compound Gloves",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "Binds when equipped",
+            "47 Armor",
+            "+15 Stamina",
+            "Equip: Improves your chance to hit by 1.0%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 11."
+          ],
+          "source": "Alcaz Prison BoE drops",
+          "sourceOrder": 6,
+          "dropEvidence": "reference",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=287018",
+          "sources": [
+            "https://www.wowhead.com/forever/item=287018",
+            "https://nether.wowhead.com/forever/tooltip/item/287018",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua#L252"
+          ]
+        },
+        {
+          "id": "287019",
+          "name": "Defias Enforcer's Mask",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Head",
+          "type": "Leather",
+          "stats": [
+            "Binds when equipped",
+            "124 Armor",
+            "+20 Stamina",
+            "Equip: Reduces chance to be Dodged or Parried by 1.0%.",
+            "Equip: +30 Attack Power.",
+            "2-piece set: +10 Fire Resistance.",
+            "3-piece set: +15 Stamina.",
+            "4-piece set: Increased Swords +1.",
+            "5-piece set: Melee attacks have a chance to increase your Critical Strike chance by 2% for 20 sec. This effect is doubled in swamps."
+          ],
+          "source": "Alcaz Prison BoE drops",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=287019",
+          "sources": [
+            "https://www.wowhead.com/forever/item=287019",
+            "https://nether.wowhead.com/forever/tooltip/item/287019",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua#L252",
+            "https://foreverchanges.pro/dungeons/alcaz-prison",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "287020",
+          "name": "Defias Enforcer's Chest",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Chest",
+          "type": "Leather",
+          "stats": [
+            "Binds when equipped",
+            "156 Armor",
+            "+14 Strength",
+            "+22 Agility",
+            "+11 Stamina",
+            "2-piece set: +10 Fire Resistance.",
+            "3-piece set: +15 Stamina.",
+            "4-piece set: Increased Swords +1.",
+            "5-piece set: Melee attacks have a chance to increase your Critical Strike chance by 2% for 20 sec. This effect is doubled in swamps."
+          ],
+          "source": "Alcaz Prison BoE drops",
+          "sourceOrder": 6,
+          "dropEvidence": "reference",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=287020",
+          "sources": [
+            "https://www.wowhead.com/forever/item=287020",
+            "https://nether.wowhead.com/forever/tooltip/item/287020",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua#L252",
+            "https://foreverchanges.pro/dungeons/alcaz-prison"
+          ]
+        },
+        {
+          "id": "287021",
+          "name": "Defias Enforcer's Prowlers",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "Binds when equipped",
+            "105 Armor",
+            "+16 Stamina",
+            "Equip: +28 Attack Power.",
+            "2-piece set: +10 Fire Resistance.",
+            "3-piece set: +15 Stamina.",
+            "4-piece set: Increased Swords +1.",
+            "5-piece set: Melee attacks have a chance to increase your Critical Strike chance by 2% for 20 sec. This effect is doubled in swamps."
+          ],
+          "source": "Alcaz Prison BoE drops",
+          "sourceOrder": 6,
+          "dropEvidence": "reference",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=287021",
+          "sources": [
+            "https://www.wowhead.com/forever/item=287021",
+            "https://nether.wowhead.com/forever/tooltip/item/287021",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua#L252",
+            "https://foreverchanges.pro/dungeons/alcaz-prison"
+          ]
+        },
+        {
+          "id": "287022",
+          "name": "Spaulders of Containment",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Shoulder",
+          "type": "Mail",
+          "stats": [
+            "Binds when equipped",
+            "233 Armor",
+            "+10 Strength",
+            "+15 Stamina",
+            "Equip: Reduces chance to be Dodged or Parried by 1.0%."
+          ],
+          "source": "Alcaz Prison BoE drops",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=287022",
+          "sources": [
+            "https://www.wowhead.com/forever/item=287022",
+            "https://nether.wowhead.com/forever/tooltip/item/287022",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua#L252",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "287023",
+          "name": "Iron-Wrought Cuffs",
+          "quality": 3,
+          "requiredLevel": 48,
+          "itemLevel": 53,
+          "slot": "Wrist",
+          "type": "Plate",
+          "stats": [
+            "Binds when equipped",
+            "244 Armor",
+            "+8 Stamina",
+            "+7 Spirit",
+            "Equip: Increased Defense +8."
+          ],
+          "source": "Alcaz Prison BoE drops",
+          "sourceOrder": 6,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=287023",
+          "sources": [
+            "https://www.wowhead.com/forever/item=287023",
+            "https://nether.wowhead.com/forever/tooltip/item/287023",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua#L252",
+            "https://patchvaultapp.com/forever/dungeons/alcaz-prison/"
+          ]
+        },
+        {
+          "id": "287024",
+          "name": "Mark of Captivity",
+          "quality": 3,
+          "requiredLevel": 47,
+          "itemLevel": 52,
+          "slot": "Neck",
+          "type": "Necklace",
+          "stats": [
+            "Binds when equipped",
+            "+11 Stamina",
+            "Equip: Increased Defense +5.",
+            "Equip: +15 Attack Power."
+          ],
+          "source": "Alcaz Prison BoE drops",
+          "sourceOrder": 6,
+          "dropEvidence": "reference",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=287024",
+          "sources": [
+            "https://www.wowhead.com/forever/item=287024",
+            "https://nether.wowhead.com/forever/tooltip/item/287024",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua#L252"
+          ]
+        },
+        {
+          "id": "287025",
+          "name": "Enchantresses' Spire",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Two-Hand",
+          "type": "Staff",
+          "stats": [
+            "Binds when equipped",
+            "66 - 100 Damage",
+            "Speed 2.40",
+            "34.58 DPS",
+            "+21 Stamina",
+            "+21 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 62.",
+            "Equip: Reduces the cast time of Disenchant by 25%."
+          ],
+          "source": "Alcaz Prison BoE drops",
+          "sourceOrder": 6,
+          "dropEvidence": "reference",
+          "statsEvidence": "wowhead",
+          "rogueUsable": false,
+          "url": "https://www.wowhead.com/forever/item=287025",
+          "sources": [
+            "https://www.wowhead.com/forever/item=287025",
+            "https://nether.wowhead.com/forever/tooltip/item/287025",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/alcaz%20prison.lua#L252",
+            "https://foreverchanges.pro/dungeons/alcaz-prison"
+          ]
+        },
+        {
+          "id": "287026",
+          "name": "Escape Plan",
+          "quality": 3,
+          "requiredLevel": 49,
+          "itemLevel": 54,
+          "slot": "Ranged",
+          "type": "Gun",
+          "stats": [
+            "Binds when equipped",
+            "54 - 102 Damage",
+            "Speed 2.80",
+            "27.86 DPS",
+            "+11 Agility",
+            "Use: Disarm target's weapon for 10 sec. (15 Min Cooldown)"
+          ],
+          "source": "Alcaz Prison BoE drops",
+          "sourceOrder": 6,
+          "dropEvidence": "reference",
+          "statsEvidence": "wowhead",
+          "rogueUsable": true,
+          "url": "https://www.wowhead.com/forever/item=287026",
+          "sources": [
+            "https://www.wowhead.com/forever/item=287026",
+            "https://nether.wowhead.com/forever/tooltip/item/287026",
+            "https://foreverchanges.pro/dungeons/alcaz-prison"
           ]
         }
       ]
