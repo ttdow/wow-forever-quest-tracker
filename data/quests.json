@@ -51468,5 +51468,1881 @@
     },
     "prerequisites": [],
     "previousQuests": []
+  },
+  {
+    "id": "974",
+    "zone": "Un'Goro Crater",
+    "level": 55,
+    "name": "Finding the Source",
+    "stage": "min. level 51",
+    "giver": "Krakle",
+    "coordinates": "30.9, 50.4",
+    "area": "Hot springs west of Fire Plume Ridge (Un'Goro Crater)",
+    "objective": "Krakle in Un'Goro Crater wants you to find the hottest area of Fire Plume Ridge. Whenever you find a hot spot, right click the thermometer to check the temperature. Keep looking until you find the hottest one.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/974/finding-the-source",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "980",
+    "zone": "Un'Goro Crater",
+    "level": 55,
+    "name": "The New Springs",
+    "giver": "Krakle",
+    "area": "Un'Goro Crater",
+    "coordinates": "30.9, 50.4",
+    "stage": "Hot springs · Introduction",
+    "objective": "From Un’Goro, travel to Frostfire Hot Springs and meet Donova Snowden at 31.3, 45.2.",
+    "faction": "Both",
+    "minimumLevel": 51,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/980/the-new-springs",
+      "https://questing.wiki/wow-forever/quests/980/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "974",
+        "name": "Finding the Source",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3764",
+    "zone": "Un'Goro Crater",
+    "level": 50,
+    "name": "Un'Goro Soil",
+    "stage": "min. level 47 · Alliance",
+    "giver": "Arch Druid Fandral Staghelm",
+    "coordinates": "34.8, 9.3",
+    "area": "Cenarion Enclave (Darnassus)",
+    "objective": "Bring 20 Un'Goro Soil samples to Jenal at the Cenarion Enclave in Darnassus.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3764/ungoro-soil",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3781",
+    "zone": "Un'Goro Crater",
+    "level": 50,
+    "name": "Morrowgrain Research",
+    "stage": "Morrowgrain · Seed voucher · min. level 47 · Alliance",
+    "giver": "Arch Druid Fandral Staghelm",
+    "coordinates": "34.8, 9.3",
+    "area": "Cenarion Enclave (Darnassus)",
+    "objective": "Take the Arch Druid's Seed Voucher to Mathrengyl Bearwalker in the Cenarion Enclave of Darnassus.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3781/morrowgrain-research",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "3764",
+        "name": "Un'Goro Soil",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3785",
+    "zone": "Un'Goro Crater",
+    "level": 50,
+    "name": "Morrowgrain Research",
+    "stage": "Morrowgrain · Cultivate samples · min. level 47 · Alliance",
+    "giver": "Mathrengyl Bearwalker",
+    "coordinates": "35.4, 8.4",
+    "area": "Cenarion Enclave (Darnassus)",
+    "objective": "Use an Evergreen Pouch with a Packet of Tharlendis Seeds and two Un'Goro Soil samples to try and cultivate samples of Morrowgrain. Bring 10 Morrowgrain to Mathrengyl Bearwalker in Darnassus.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3785/morrowgrain-research",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "3781",
+        "name": "Morrowgrain Research",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3803",
+    "zone": "Un'Goro Crater",
+    "level": 55,
+    "name": "Morrowgrain to Darnassus",
+    "stage": "min. level 47 · Repeatable · Alliance",
+    "giver": "Mathrengyl Bearwalker",
+    "coordinates": "35.4, 8.4",
+    "area": "Cenarion Enclave (Darnassus)",
+    "objective": "Bring 10 Morrowgrain to Mathrengyl Bearwalker in the Cenarion Enclave.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3803/morrowgrain-to-darnassus",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "current-forever-record"
+    },
+    "prerequisites": [
+      {
+        "id": "3785",
+        "name": "Morrowgrain Research",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3844",
+    "zone": "Un'Goro Crater",
+    "level": 52,
+    "name": "It's a Secret to Everybody",
+    "stage": "Linken · Wrecked raft · min. level 47",
+    "giver": "A Wrecked Raft",
+    "coordinates": "63, 68.6",
+    "area": "Southeastern pond (Un'Goro Crater)",
+    "objective": "Look around in the pond for a clue about who this wrecked raft may belong to.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3844/its-a-secret-to-everybody",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3845",
+    "zone": "Un'Goro Crater",
+    "level": 52,
+    "name": "It's a Secret to Everybody",
+    "stage": "Linken · Submerged pack · min. level 47",
+    "giver": "A Small Pack",
+    "coordinates": "63.1, 69.1",
+    "area": "Southeastern pond (Un'Goro Crater)",
+    "objective": "Examine the items inside the pack and bring them to their owner.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3845/its-a-secret-to-everybody",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "3844",
+        "name": "It's a Secret to Everybody",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3881",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Expedition Salvation",
+    "stage": "min. level 48",
+    "giver": "Williden Marshal",
+    "coordinates": "43.9, 7.1",
+    "area": "Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Bring a Crate of Foodstuffs and Research Equipment to Williden Marshal in Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3881/expedition-salvation",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "current-forever-record"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3882",
+    "zone": "Un'Goro Crater",
+    "level": 51,
+    "name": "Roll the Bones",
+    "stage": "min. level 49",
+    "giver": "Spark Nilminer",
+    "coordinates": "43.5, 7.4",
+    "area": "Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Bring 8 Dinosaur Bones to Spark Nilminer in Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3882/roll-the-bones",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3883",
+    "zone": "Un'Goro Crater",
+    "level": 52,
+    "name": "Alien Ecology",
+    "stage": "min. level 48",
+    "giver": "Hol'anyee Marshal",
+    "coordinates": "43.9, 7.2",
+    "area": "Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Use the Scraping Vial to collect a Hive Wall Sample from one of the Gorishi hive hatcheries in Un'Goro Crater. Look for the chambers with the hanging larval spawns. Bring the Hive Wall Sample to Hol'anyee Marshal in Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3883/alien-ecology",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "current-forever-record"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3884",
+    "zone": "Un'Goro Crater",
+    "level": 50,
+    "name": "Williden's Journal",
+    "stage": "min. level 48",
+    "giver": "A Mangled Journal (item)",
+    "coordinates": "",
+    "area": "Un'Goro Crater",
+    "objective": "Return the journal to Williden Marshal somewhere in Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3884/willidens-journal",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "3908",
+    "zone": "Un'Goro Crater",
+    "level": 52,
+    "name": "It's a Secret to Everybody",
+    "giver": "Linken",
+    "area": "Un'Goro Crater",
+    "coordinates": "44.7, 8.1",
+    "stage": "Linken’s sword · Delivery",
+    "objective": "Take Linken’s Training Sword from Marshal’s Refuge to Donova Snowden at Frostfire Hot Springs.",
+    "faction": "Both",
+    "minimumLevel": 47,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/3908/its-a-secret-to-everybody",
+      "https://questing.wiki/wow-forever/quests/3908/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "3845",
+        "name": "It's a Secret to Everybody",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3909",
+    "zone": "Un'Goro Crater",
+    "level": 52,
+    "name": "The Videre Elixir",
+    "giver": "Donova Snowden",
+    "area": "Frostfire Hot Springs, Winterspring",
+    "coordinates": "31.3, 45.2",
+    "stage": "Linken’s sword · Videre Elixir",
+    "objective": "Obtain the Videre Elixir from Gregan Brewspewer in northern Feralas and return to Donova.",
+    "faction": "Both",
+    "minimumLevel": 47,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/3909/the-videre-elixir",
+      "https://questing.wiki/wow-forever/quests/3909/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "3908",
+        "name": "It's a Secret to Everybody",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3912",
+    "zone": "Un'Goro Crater",
+    "level": 52,
+    "name": "Meet at the Grave",
+    "giver": "Donova Snowden",
+    "area": "Frostfire Hot Springs, Winterspring",
+    "coordinates": "31.3, 45.2",
+    "stage": "Linken’s sword · Graveyard",
+    "objective": "Use the Videre Elixir in the graveyard north of Gadgetzan and speak to Gaeriyan while in spirit form.",
+    "faction": "Both",
+    "minimumLevel": 47,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/3912/meet-at-the-grave",
+      "https://questing.wiki/wow-forever/quests/3912/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "3909",
+        "name": "The Videre Elixir",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3913",
+    "zone": "Un'Goro Crater",
+    "level": 52,
+    "name": "A Grave Situation",
+    "stage": "min. level 47",
+    "giver": "Gaeriyan",
+    "coordinates": "53.9, 23.3",
+    "area": "Tanaris",
+    "objective": "Resurrect, then look for the gravestone that Gaeriyan told you to find.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3913/a-grave-situation",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "3912",
+        "name": "Meet at the Grave",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3914",
+    "zone": "Un'Goro Crater",
+    "level": 52,
+    "name": "Linken's Sword",
+    "stage": "min. level 47",
+    "giver": "A Conspicuous Gravestone",
+    "coordinates": "53.8, 29.1",
+    "area": "Tanaris",
+    "objective": "Deliver Linken's Superior Sword to Linken in Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3914/linkens-sword",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "3913",
+        "name": "A Grave Situation",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3941",
+    "zone": "Un'Goro Crater",
+    "level": 52,
+    "name": "A Gnome's Assistance",
+    "stage": "min. level 47",
+    "giver": "Linken",
+    "coordinates": "44.7, 8.1",
+    "area": "Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Find J.D. Collie in the cave at Marshal's Refuge.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3941/a-gnomes-assistance",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "3914",
+        "name": "Linken's Sword",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3942",
+    "zone": "Un'Goro Crater",
+    "level": 54,
+    "name": "Linken's Memory",
+    "stage": "Linken's quest chain",
+    "giver": "J.D. Collie",
+    "coordinates": "41.9, 2.7",
+    "area": "Un'Goro Crater",
+    "objective": "Find Eridan Bluewind in southern Felwood.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 47",
+    "sources": [
+      "https://foreverchanges.pro/quest/3942/linkens-memory",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "3941",
+        "name": "A Gnome's Assistance",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3961",
+    "zone": "Un'Goro Crater",
+    "level": 54,
+    "name": "Linken's Adventure",
+    "stage": "min. level 47",
+    "giver": "J.D. Collie",
+    "coordinates": "41.9, 2.7",
+    "area": "Crystal cave at Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Take the Silver Totem of Aquementas to Linken in Marshal's Refuge.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3961/linkens-adventure",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4005",
+        "name": "Aquementas",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "3962",
+    "zone": "Un'Goro Crater",
+    "level": 56,
+    "name": "It's Dangerous to Go Alone",
+    "stage": "min. level 47 · Elite",
+    "giver": "Linken",
+    "coordinates": "44.7, 8.1",
+    "area": "Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Travel to Fire Plume Ridge, south of Marshal's Refuge. Find Blazerunner and use the totem to remove his protective aura. Once he has been defeated, acquire the Golden Flame from the cave.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/3962/its-dangerous-to-go-alone",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "3961",
+        "name": "Linken's Adventure",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4005",
+    "zone": "Un'Goro Crater",
+    "level": 54,
+    "name": "Aquementas",
+    "stage": "Linken's quest chain",
+    "giver": "Eridan Bluewind",
+    "coordinates": "51.3, 81.5",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Take the Book of Aquor, the Silvery Claws, and the Irontree Heart to Tanaris. Use the Book of Aquor to summon Aquementas. After you have the completed totem, take it to J.D. Collie in Marshal's Refuge.",
+    "areaConfidence": "Approximate",
+    "notes": "Both factions; No class restriction recorded; Minimum level 47",
+    "sources": [
+      "https://foreverchanges.pro/quest/4005/aquementas",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "classic",
+      "minimumLevel": "classic",
+      "objective": "classic",
+      "giver": "classic",
+      "pickupLocation": "classic",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "4084",
+        "name": "Silver Heart",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4084",
+    "zone": "Un'Goro Crater",
+    "level": 54,
+    "name": "Silver Heart",
+    "stage": "Linken's quest chain",
+    "giver": "Eridan Bluewind",
+    "coordinates": "51.3, 81.5",
+    "area": "Emerald Sanctuary (Felwood)",
+    "objective": "Collect 11 Silvery Claws and 1 Irontree Heart for Eridan Bluewind in Felwood.",
+    "areaConfidence": "High",
+    "notes": "Both factions; No class restriction recorded; Minimum level 47",
+    "sources": [
+      "https://foreverchanges.pro/quest/4084/silver-heart",
+      "https://github.com/cmangos/classic-db/releases/tag/latest"
+    ],
+    "evidence": {
+      "quest": "foreverchanges",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "foreverchanges",
+      "faction": "foreverchanges"
+    },
+    "prerequisites": [
+      {
+        "id": "3942",
+        "name": "Linken's Memory",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4141",
+    "zone": "Un'Goro Crater",
+    "level": 52,
+    "name": "Muigin and Larion",
+    "stage": "Atal'ai Haze · 1",
+    "giver": "Muigin",
+    "coordinates": "42.9, 9.6",
+    "area": "Marshal's Refuge, Un'Goro Crater",
+    "objective": "Collect 15 Bloodpetals from Bloodpetal lashers, flayers, threshers, or trappers and return them to Muigin.",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/4141/"
+    ],
+    "evidence": {
+      "quest": "classic-reference",
+      "level": "classic-reference",
+      "objective": "classic-reference",
+      "giver": "classic-reference",
+      "pickupLocation": "classic-reference",
+      "faction": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4142",
+    "zone": "Un'Goro Crater",
+    "level": 52,
+    "name": "A Visit to Gregan",
+    "stage": "Atal'ai Haze · 2",
+    "giver": "Muigin",
+    "coordinates": "42.9, 9.6",
+    "area": "Marshal's Refuge, Un'Goro Crater",
+    "objective": "Take Muigin's Bloodpetal sample to Gregan Brewspewer in Feralas (45.1, 25.6).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/4142/"
+    ],
+    "evidence": {
+      "quest": "classic-reference",
+      "level": "classic-reference",
+      "objective": "classic-reference",
+      "giver": "classic-reference",
+      "pickupLocation": "classic-reference",
+      "faction": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4141",
+        "name": "Muigin and Larion",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4143",
+    "zone": "Un'Goro Crater",
+    "level": 52,
+    "name": "Haze of Evil",
+    "stage": "Atal'ai Haze · 3",
+    "giver": "Gregan Brewspewer",
+    "coordinates": "45.1, 25.6",
+    "area": "Near the Twin Colossals, Feralas",
+    "objective": "Collect 5 samples of Atal'ai Haze from enemies in Sunken Temple and return them to Muigin at Marshal's Refuge in Un'Goro Crater (42.9, 9.6).",
+    "areaConfidence": "Approximate",
+    "notes": "Minimum level 47 · Alliance",
+    "sources": [
+      "https://questing.wiki/wow-forever/quests/4143/",
+      "https://foreverchanges.pro/quest/4143/haze-of-evil",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/f7a819bfdd1767f36c92f76b233d044143ed6b5f/.contrib/.db/forever/dungeons%20%26%20raids/the%20temple%20of%20atal%27hakkar.lua"
+    ],
+    "evidence": {
+      "quest": "forever-records",
+      "level": "forever-records",
+      "objective": "forever-records",
+      "giver": "forever-records",
+      "pickupLocation": "forever-records",
+      "faction": "forever-records"
+    },
+    "prerequisites": [
+      {
+        "id": "4142",
+        "name": "A Visit to Gregan",
+        "evidence": "classic-reference",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4144",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Bloodpetal Sprouts",
+    "stage": "min. level 47 · Alliance",
+    "giver": "Muigin",
+    "coordinates": "42.9, 9.6",
+    "area": "Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Bring 3 Bloodpetal Sprouts from Un’Goro Crater to Muigin at Marshal’s Refuge.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4144/bloodpetal-sprouts",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4143",
+        "name": "Haze of Evil",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4243",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Chasing A-Me 01",
+    "stage": "A-Me 01 · Find · min. level 48",
+    "giver": "Karna Remtravel",
+    "coordinates": "46.4, 13.4",
+    "area": "Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Find A-Me 01 in Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4243/chasing-a-me-01",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4244",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Chasing A-Me 01",
+    "stage": "A-Me 01 · Repair · min. level 48",
+    "giver": "A-Me 01",
+    "coordinates": "67.7, 16.8",
+    "area": "Fungal Rock (Un'Goro Crater)",
+    "objective": "Find a Mithril Casing and return to A-Me 01 in Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4244/chasing-a-me-01",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4243",
+        "name": "Chasing A-Me 01",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4245",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Chasing A-Me 01",
+    "stage": "A-Me 01 · Escort · min. level 48",
+    "giver": "A-Me 01",
+    "coordinates": "67.7, 16.8",
+    "area": "Fungal Rock (Un'Goro Crater)",
+    "objective": "Escort A-Me 01 back to Karna Remtravel in Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4245/chasing-a-me-01",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4244",
+        "name": "Chasing A-Me 01",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4284",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Crystals of Power",
+    "stage": "min. level 47",
+    "giver": "J.D. Collie",
+    "coordinates": "41.9, 2.7",
+    "area": "Crystal cave at Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Collect 7 Power Crystals of each color: red, blue, yellow, and green. Bring them to J.D. Collie at Marshal's Refuge.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4284/crystals-of-power",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4285",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "The Northern Pylon",
+    "stage": "min. level 47",
+    "giver": "J.D. Collie",
+    "coordinates": "41.9, 2.7",
+    "area": "Crystal cave at Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Discover the location of the Northern Crystal Pylon in Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4285/the-northern-pylon",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4284",
+        "name": "Crystals of Power",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4287",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "The Eastern Pylon",
+    "stage": "min. level 47",
+    "giver": "J.D. Collie",
+    "coordinates": "41.9, 2.7",
+    "area": "Crystal cave at Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Discover the location of the Eastern Crystal Pylon in Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4287/the-eastern-pylon",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4284",
+        "name": "Crystals of Power",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4288",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "The Western Pylon",
+    "stage": "min. level 47",
+    "giver": "J.D. Collie",
+    "coordinates": "41.9, 2.7",
+    "area": "Crystal cave at Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Discover the location of the Western Crystal Pylon.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4288/the-western-pylon",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4284",
+        "name": "Crystals of Power",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4289",
+    "zone": "Un'Goro Crater",
+    "level": 55,
+    "name": "The Apes of Un'Goro",
+    "stage": "min. level 47",
+    "giver": "Torwa Pathfinder",
+    "coordinates": "71.6, 76",
+    "area": "Southeastern trail (Un'Goro Crater)",
+    "objective": "Bring 2 Un'Goro Gorilla Pelts, 2 Un'Goro Stomper Pelts, and 2 Un'Goro Thunderer Pelts to Torwa Pathfinder at the entrance of Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4289/the-apes-of-ungoro",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4290",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "The Fare of Lar'korwi",
+    "stage": "min. level 48",
+    "giver": "Torwa Pathfinder",
+    "coordinates": "71.6, 76",
+    "area": "Southeastern trail (Un'Goro Crater)",
+    "objective": "Find the carcass of Lar'korwi's freshest kill and steal a Piece of Threshadon Carcass before returning to Torwa Pathfinder in Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4290/the-fare-of-larkorwi",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4291",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "The Scent of Lar'korwi",
+    "stage": "min. level 48",
+    "giver": "Torwa Pathfinder",
+    "coordinates": "71.6, 76",
+    "area": "Southeastern trail (Un'Goro Crater)",
+    "objective": "Bring 2 Ravasaur Pheromone Glands to Torwa Pathfinder near the entrance to Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4291/the-scent-of-larkorwi",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4290",
+        "name": "The Fare of Lar'korwi",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4292",
+    "zone": "Un'Goro Crater",
+    "level": 56,
+    "name": "The Bait for Lar'korwi",
+    "stage": "min. level 48",
+    "giver": "Torwa Pathfinder",
+    "coordinates": "71.6, 76",
+    "area": "Southeastern trail (Un'Goro Crater)",
+    "objective": "Using the contents of Torwa's Pouch, summon Lar'korwi and defeat him. Then bring Lar'korwi's Head to Torwa Pathfinder near the entrance to Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4292/the-bait-for-larkorwi",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4291",
+        "name": "The Scent of Lar'korwi",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4301",
+    "zone": "Un'Goro Crater",
+    "level": 55,
+    "name": "The Mighty U'cha",
+    "stage": "min. level 50",
+    "giver": "Torwa Pathfinder",
+    "coordinates": "71.6, 76",
+    "area": "Southeastern trail (Un'Goro Crater)",
+    "objective": "Bring U'cha's Pelt to Torwa Pathfinder at the entrance of Un'Goro Crater.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4301/the-mighty-ucha",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4289",
+        "name": "The Apes of Un'Goro",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4321",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Making Sense of It",
+    "stage": "min. level 47",
+    "giver": "J.D. Collie",
+    "coordinates": "41.9, 2.7",
+    "area": "Crystal cave at Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Speak with J.D. Collie in a moment.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4321/making-sense-of-it",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4285",
+        "name": "The Northern Pylon",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "4287",
+        "name": "The Eastern Pylon",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      },
+      {
+        "id": "4288",
+        "name": "The Western Pylon",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4381",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Crystal Restore",
+    "stage": "min. level 47 · Repeatable",
+    "giver": "Northern Crystal Pylon",
+    "coordinates": "56.5, 12.5",
+    "area": "Un'Goro Crater",
+    "objective": "Turn in 10 Yellow Power Crystals and 10 Green Power Crystals at the Northern Crystal Pylon for Crystal Restore.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4381/crystal-restore",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4321",
+        "name": "Making Sense of It",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4382",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Crystal Force",
+    "stage": "min. level 47 · Repeatable",
+    "giver": "Eastern Crystal Pylon",
+    "coordinates": "77.2, 50",
+    "area": "Un'Goro Crater",
+    "objective": "Turn in 10 Green Power Crystals and 10 Blue Power Crystals at the Eastern Crystal Pylon for Crystal Force.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4382/crystal-force",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4321",
+        "name": "Making Sense of It",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4383",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Crystal Ward",
+    "stage": "min. level 47 · Repeatable",
+    "giver": "Western Crystal Pylon",
+    "coordinates": "23.9, 59.2",
+    "area": "Un'Goro Crater",
+    "objective": "Turn in 10 Red Power Crystals and 10 Green Power Crystals at the Western Crystal Pylon for Crystal Ward.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4383/crystal-ward",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4321",
+        "name": "Making Sense of It",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4384",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Crystal Yield",
+    "stage": "min. level 47 · Repeatable",
+    "giver": "Western Crystal Pylon",
+    "coordinates": "23.9, 59.2",
+    "area": "Un'Goro Crater",
+    "objective": "Turn in 10 Red Power Crystals and 10 Blue Power Crystals at the Western Crystal Pylon for Crystal Yield.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4384/crystal-yield",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4321",
+        "name": "Making Sense of It",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4385",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Crystal Charge",
+    "stage": "min. level 47 · Repeatable",
+    "giver": "Northern Crystal Pylon",
+    "coordinates": "56.5, 12.5",
+    "area": "Un'Goro Crater",
+    "objective": "Turn in 10 Red Power Crystals and 10 Yellow Power Crystals at the Northern Crystal Pylon for Crystal Charge.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4385/crystal-charge",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4321",
+        "name": "Making Sense of It",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4386",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Crystal Spire",
+    "stage": "min. level 47 · Repeatable",
+    "giver": "Eastern Crystal Pylon",
+    "coordinates": "77.2, 50",
+    "area": "Un'Goro Crater",
+    "objective": "Turn in 10 Blue Power Crystals and 10 Yellow Power Crystals at the Eastern Crystal Pylon for Crystal Spire.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4386/crystal-spire",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4321",
+        "name": "Making Sense of It",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4491",
+    "zone": "Un'Goro Crater",
+    "level": 55,
+    "name": "A Little Help From My Friends",
+    "stage": "min. level 50",
+    "giver": "Ringo",
+    "coordinates": "51.9, 49.8",
+    "area": "Fire Plume Ridge (Un'Goro Crater)",
+    "objective": "Lead Ringo to Spraggle Frock at Marshal's Refuge. If Ringo faints, use Spraggle's Canteen to revive him.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4491/a-little-help-from-my-friends",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "current-forever-record"
+    },
+    "prerequisites": [
+      {
+        "id": "4492",
+        "name": "Lost!",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4492",
+    "zone": "Un'Goro Crater",
+    "level": 55,
+    "name": "Lost!",
+    "stage": "min. level 50",
+    "giver": "Spraggle Frock",
+    "coordinates": "43.6, 8.5",
+    "area": "Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Find Ringo at Fire Plume Ridge.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4492/lost",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4493",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "March of the Silithid",
+    "stage": "Gorishi · Optional introduction · min. level 50",
+    "giver": "Gracina Spiritmight",
+    "coordinates": "41.8, 85.6",
+    "area": "Temple of the Moon (Darnassus)",
+    "objective": "Speak to Alchemist Pestlezugg in Gadgetzan.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4493/march-of-the-silithid",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4496",
+    "zone": "Un'Goro Crater",
+    "level": 53,
+    "name": "Bungle in the Jungle",
+    "stage": "min. level 50",
+    "giver": "Alchemist Pestlezugg",
+    "coordinates": "50.9, 27",
+    "area": "Gadgetzan (Tanaris)",
+    "objective": "Collect a Gorishi Scent Gland and 5 Un’Goro Soil in Un’Goro Crater. Return to Alchemist Pestlezugg in Gadgetzan.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4496/bungle-in-the-jungle",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": [
+      {
+        "id": "4493",
+        "name": "March of the Silithid",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ],
+        "relation": "Optional introduction"
+      }
+    ]
+  },
+  {
+    "id": "4501",
+    "zone": "Un'Goro Crater",
+    "level": 55,
+    "name": "Beware of Pterrordax",
+    "stage": "min. level 49",
+    "giver": "Beware of Pterrordax (sign)",
+    "coordinates": "43.5, 8.4",
+    "area": "Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Kill 10 Pterrordax and 15 Frenzied Pterrordax, then speak to Spraggle Frock at Marshal's Refuge.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4501/beware-of-pterrordax",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4502",
+    "zone": "Un'Goro Crater",
+    "level": 55,
+    "name": "Volcanic Activity",
+    "stage": "min. level 49",
+    "giver": "Liv Rizzlefix",
+    "coordinates": "62.4, 38.7",
+    "area": "Ratchet (The Barrens)",
+    "objective": "Collect 9 samples of Un'Goro Ash from the fire elementals around the volcano in Un'Goro Crater, and return them to Liv Rizzlefix in Ratchet.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4502/volcanic-activity",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4503",
+    "zone": "Un'Goro Crater",
+    "level": 51,
+    "name": "Shizzle's Flyer",
+    "stage": "min. level 49",
+    "giver": "Shizzle",
+    "coordinates": "44.2, 11.6",
+    "area": "Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Collect 8 Webbed Diemetradon Scales and 8 Webbed Pterrordax Scales for Shizzle in Marshal's Refuge.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4503/shizzles-flyer",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4504",
+    "zone": "Un'Goro Crater",
+    "level": 54,
+    "name": "Super Sticky",
+    "stage": "min. level 48",
+    "giver": "Tran'rek",
+    "coordinates": "51.6, 26.8",
+    "area": "Gadgetzan (Tanaris)",
+    "objective": "Collect 12 Super Sticky Tar from creatures at the northern tar pits and return to Tran’rek in Gadgetzan.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4504/super-sticky",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4507",
+    "zone": "Un'Goro Crater",
+    "level": 54,
+    "name": "Pawn Captures Queen",
+    "stage": "min. level 50",
+    "giver": "Alchemist Pestlezugg",
+    "coordinates": "50.9, 27",
+    "area": "Gadgetzan (Tanaris)",
+    "objective": "Use the Gorishi Queen Lure on the crystal in the Gorishi hatchery. Defeat the queen and bring her brain to Alchemist Pestlezugg in Gadgetzan.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4507/pawn-captures-queen",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4496",
+        "name": "Bungle in the Jungle",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4508",
+    "zone": "Un'Goro Crater",
+    "level": 54,
+    "name": "Calm Before the Storm",
+    "stage": "Gorishi · Deliver the report · min. level 50 · Alliance",
+    "giver": "Alchemist Pestlezugg",
+    "coordinates": "50.9, 27",
+    "area": "Gadgetzan (Tanaris)",
+    "objective": "Bring Pestlezugg's Un'Goro Report to Gracina Spiritmight in Darnassus.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4508/calm-before-the-storm",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4507",
+        "name": "Pawn Captures Queen",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4510",
+    "zone": "Un'Goro Crater",
+    "level": 54,
+    "name": "Calm Before the Storm",
+    "stage": "Gorishi · Redeem the voucher · min. level 50 · Alliance",
+    "giver": "Gracina Spiritmight",
+    "coordinates": "41.8, 85.6",
+    "area": "Temple of the Moon (Darnassus)",
+    "objective": "Bring the Bank Voucher to Idriana in the bank of Darnassus.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4510/calm-before-the-storm",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4508",
+        "name": "Calm Before the Storm",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4513",
+    "zone": "Un'Goro Crater",
+    "level": 54,
+    "name": "A Little Slime Goes a Long Way",
+    "stage": "Un’Goro slime samples · min. level 48 · Alliance",
+    "giver": "Laris Geardawdle",
+    "coordinates": "75.77, 23.38",
+    "area": "Hall of Explorers (Ironforge)",
+    "objective": "Fill 10 Pure Sample Jars with samples from the slimes in Un’Goro Crater and bring them to Laris Geardawdle in Ironforge.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4513/a-little-slime-goes-a-long-way",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4512",
+        "name": "A Little Slime Goes a Long Way",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5150",
+    "zone": "Un'Goro Crater",
+    "level": 55,
+    "name": "Dadanga is Hungry!",
+    "stage": "min. level 47 · Repeatable",
+    "giver": "Dadanga",
+    "coordinates": "43.6, 7.2",
+    "area": "Marshal's Refuge (Un'Goro Crater)",
+    "objective": "Bring 15 Bloodpetal Sprouts to Dadanga at Marshal’s Refuge.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/5150/dadanga-is-hungry",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5163",
+    "zone": "Un'Goro Crater",
+    "level": 58,
+    "name": "Are We There, Yeti?",
+    "giver": "Umi Rumplesnicker",
+    "area": "Everlook, Winterspring",
+    "coordinates": "60.9, 37.6",
+    "stage": "Mechanical Yeti · 3",
+    "objective": "Use Umi’s Mechanical Yeti to scare Legacki in Everlook, Sprinkle in Gadgetzan, and Quixxil in Marshal’s Refuge. Return to Umi.",
+    "faction": "Both",
+    "minimumLevel": 52,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5163/are-we-there-yeti",
+      "https://legacyofwarcraft.com/db/forever/quest/5163.html",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [
+      {
+        "id": "977",
+        "name": "Are We There, Yeti?",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/tag/latest"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5801",
+    "zone": "Un'Goro Crater",
+    "level": 57,
+    "name": "Fire Plume Forged",
+    "stage": "Alliance Scholomance key · min. level 55 · Alliance",
+    "giver": "Krinkle Goodsteel",
+    "coordinates": "51.5, 28.8",
+    "area": "Gadgetzan (Tanaris)",
+    "objective": "Take the Skeleton Key Mold and 2 Thorium Bars to the top of Fire Plume Ridge in Un'Goro Crater. Use the Skeleton Key Mold by the lava lake to forge the Unfinished Skeleton Key. Bring the Unfinished Skeleton Key to Alchemist Arbington at Chillwind Point, Western Plaguelands.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/5801/fire-plume-forged",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "5538",
+        "name": "Mold Rhymes With...",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "8681",
+    "zone": "Un'Goro Crater",
+    "level": 60,
+    "name": "Thunderhorn the Elder",
+    "stage": "Seasonal · Lunar Festival · min. level 1",
+    "giver": "Elder Thunderhorn",
+    "coordinates": "50.4, 76.1",
+    "area": "The Slithering Scar (Un'Goro Crater)",
+    "objective": "Honor Elder Thunderhorn in Un’Goro Crater during the Lunar Festival.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/8681/thunderhorn-the-elder",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "9322",
+    "zone": "Un'Goro Crater",
+    "level": 60,
+    "name": "Wild Fires in Kalimdor",
+    "stage": "Seasonal: Midsummer · min. level 1",
+    "giver": "Festival Flamekeeper",
+    "coordinates": "49.39, 71.86",
+    "area": "Stormwind City (also Ironforge and other capitals)",
+    "objective": "Visit the Midsummer camps located in Azshara, Silithus, Un'Goro Crater, and Winterspring, then return to the Festival Flamekeeper.",
+    "areaConfidence": "Approximate",
+    "notes": "Shared; Minimum level 1; Available during the named seasonal event; Alliance-accessible Festival Flamekeeper reference; the public page selects an Orgrimmar spawn of this shared NPC",
+    "sources": [
+      "https://foreverchanges.pro/quest/9322/wild-fires-in-kalimdor",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverNpcDB.lua"
+    ],
+    "evidence": {
+      "quest": "classic-reference-in-current-index",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-questie-baseline"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "87492",
+    "zone": "Un'Goro Crater",
+    "level": 55,
+    "name": "Uncanny Crystal",
+    "stage": "min. level 50",
+    "giver": "Torwa Pathfinder",
+    "coordinates": "71.6, 76.1",
+    "area": "Southeastern trail (Un'Goro Crater)",
+    "objective": "Bring 1 Damaged Blue Crystal back to Torwa Pathfinder.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/87492/uncanny-crystal",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/foreverQuestFixes.lua"
+    ],
+    "evidence": {
+      "quest": "current-forever-record"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "87494",
+    "zone": "Un'Goro Crater",
+    "level": 55,
+    "name": "Microcrystal Contamination",
+    "stage": "min. level 45",
+    "giver": "Crystal Infused Scale (item)",
+    "coordinates": "",
+    "area": "Un'Goro Crater",
+    "objective": "Take the Crystal Infused Scale to Torwa Pathfinder.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/87494/microcrystal-contamination",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/src/corrections/Forever/foreverQuestFixes.lua"
+    ],
+    "evidence": {
+      "quest": "current-forever-record"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "92020",
+    "zone": "Un'Goro Crater",
+    "name": "Hol'anyee's Big Book of Big Lizards",
+    "level": 55,
+    "minimumLevel": 55,
+    "giver": "Hol'anyee Marshal",
+    "area": "Un'Goro Crater",
+    "coordinates": "43.8, 7.3",
+    "stage": "Hyjal introduction",
+    "objective": "Carry Hol’anyee’s Big Book of Big Lizards from Marshal’s Refuge to Tiala Whitemane at the Summit of Eternity.",
+    "faction": "Both",
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/92020/holanyees-big-book-of-big-lizards",
+      "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/src/corrections/Forever/foreverQuestFixes.lua",
+      "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "level": "forever",
+      "objective": "forever",
+      "giver": "forever",
+      "availability": "forever-records"
+    },
+    "prerequisites": [],
+    "previousQuests": []
   }
 ]

@@ -4,7 +4,7 @@ Static HTML, CSS, and JavaScript. No installation, application server, package m
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Chrome, Firefox, or another modern browser.
 
-- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Badlands, Shen'dralas, Feralas, Stranglethorn Vale, Azshara, Felwood, Riverglades, Winterspring, Mount Hyjal, Silithus, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, Krol'dok Stronghold, Uldaman, Maraudon, Zul'Farrak, Alcaz Prison, Sunken Temple, Blackrock Depths, or Blackmaw Hold.
+- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Badlands, Shen'dralas, Feralas, Stranglethorn Vale, Azshara, Felwood, Riverglades, Un'Goro Crater, Winterspring, Mount Hyjal, Silithus, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, Krol'dok Stronghold, Uldaman, Maraudon, Zul'Farrak, Alcaz Prison, Sunken Temple, Blackrock Depths, or Blackmaw Hold.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
@@ -38,7 +38,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 1,587 quest entries (1,481 unique IDs) directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 1,653 quest entries (1,534 unique IDs) directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 76 quests
 - Darkshore: 73 quests
@@ -52,6 +52,7 @@ The browser loads all 1,587 quest entries (1,481 unique IDs) directly from `data
 - Azshara: 76 Alliance/shared entries, including the Talrendis Point and Saria Fairmoon chains, the Blackmaw refugees and their dungeon handoffs, and the Rogue Azure Key chain. [Azshara research](research/azshara/README.md)
 - Felwood: 80 Alliance/shared entries, including Forever additions, 30 distinct plant quests, first-time/repeatable salves, and relevant cross-zone handoffs; Horde-only, other-class, Winterspring-only tasks, and the older unassigned Timbermaw Ally variant are excluded
 - Riverglades: 121 Alliance/shared entries, including 13 introductions/deliveries/local dungeon stages outside the main index; Horde-only quests, misfiled Duskwood/Hyjal quests, and unimplemented records are excluded
+- Un'Goro Crater: 66 Alliance/shared entries, including the Marshal's Refuge quests, Linken's chain, the crystal pylons, the Gorishi hive, and Torwa's Forever additions. Thirteen quest IDs share progress with other lists. [Un'Goro research](research/ungoro-crater/README.md)
 - Winterspring: 95 Alliance/shared entries, from the Winterfall investigation and Frostsaber reputation to the Red Bag and Hyjal Postal Satchel chains. Thirteen IDs also appear in another list. [Winterspring research](research/winterspring/README.md)
 - Mount Hyjal: 150 Alliance/shared entries, including Elderwild, Barkskin Burrow, the Wild Gods, the Blackthorne Pact, and the Hyjal Postal Satchel. Eight IDs also appear in another list. [Mount Hyjal research](research/mount-hyjal/README.md)
 - Silithus: 116 Alliance/shared entries, including Cenarion Hold, Southwind Village, the Twilight Council, Field Duty assignments, Cooking, Rogue raid hand-ins, and conditional Ahn'Qiraj/seasonal tasks. Four IDs share progress with the Rogue list. [Silithus research](research/silithus/README.md)

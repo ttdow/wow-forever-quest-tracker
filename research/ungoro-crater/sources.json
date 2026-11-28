@@ -1,0 +1,1077 @@
+{
+  "reviewedOn": "2026-11-27",
+  "build": "1.60.1.71139",
+  "questieRevision": "0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba",
+  "indexes": {
+    "current": "https://foreverchanges.pro/quests/ungoro-crater",
+    "secondary": "https://foreverdb.net/quests/ungoro-crater",
+    "api": "https://legacyofwarcraft.com/db/forever/quests/un-goro-crater.html"
+  },
+  "indexCounts": {
+    "current": 54,
+    "secondary": 47,
+    "api": 61
+  },
+  "suggestedLevels": [
+    48,
+    55
+  ],
+  "counts": {
+    "quests": 66,
+    "sharedIds": [
+      "980",
+      "3908",
+      "3909",
+      "3912",
+      "3942",
+      "4005",
+      "4084",
+      "4141",
+      "4142",
+      "4143",
+      "5163",
+      "9322",
+      "92020"
+    ],
+    "prerequisites": 43,
+    "earlierLinks": 1
+  },
+  "candidates": [
+    {
+      "id": "974",
+      "name": "Finding the Source",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/974/finding-the-source"
+    },
+    {
+      "id": "980",
+      "name": "The New Springs",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/980/the-new-springs"
+    },
+    {
+      "id": "3761",
+      "name": "Un'Goro Soil",
+      "decision": "exclude",
+      "reason": "Horde-only route",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3761/ungoro-soil"
+    },
+    {
+      "id": "3764",
+      "name": "Un'Goro Soil",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3764/ungoro-soil"
+    },
+    {
+      "id": "3781",
+      "name": "Morrowgrain Research",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "Handoff from Un’Goro Soil to Morrowgrain Research"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3781/morrowgrain-research"
+    },
+    {
+      "id": "3785",
+      "name": "Morrowgrain Research",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3785/morrowgrain-research"
+    },
+    {
+      "id": "3786",
+      "name": "Morrowgrain Research",
+      "decision": "exclude",
+      "reason": "Horde-only route",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3786/morrowgrain-research"
+    },
+    {
+      "id": "3803",
+      "name": "Morrowgrain to Darnassus",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "Repeatable hand-in after Morrowgrain Research"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3803/morrowgrain-to-darnassus"
+    },
+    {
+      "id": "3844",
+      "name": "It's a Secret to Everybody",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3844/its-a-secret-to-everybody"
+    },
+    {
+      "id": "3845",
+      "name": "It's a Secret to Everybody",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3845/its-a-secret-to-everybody"
+    },
+    {
+      "id": "3881",
+      "name": "Expedition Salvation",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3881/expedition-salvation"
+    },
+    {
+      "id": "3882",
+      "name": "Roll the Bones",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3882/roll-the-bones"
+    },
+    {
+      "id": "3883",
+      "name": "Alien Ecology",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3883/alien-ecology"
+    },
+    {
+      "id": "3884",
+      "name": "Williden's Journal",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3884/willidens-journal"
+    },
+    {
+      "id": "3908",
+      "name": "It's a Secret to Everybody",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3908/its-a-secret-to-everybody"
+    },
+    {
+      "id": "3909",
+      "name": "The Videre Elixir",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3909/the-videre-elixir"
+    },
+    {
+      "id": "3912",
+      "name": "Meet at the Grave",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3912/meet-at-the-grave"
+    },
+    {
+      "id": "3913",
+      "name": "A Grave Situation",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3913/a-grave-situation"
+    },
+    {
+      "id": "3914",
+      "name": "Linken's Sword",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3914/linkens-sword"
+    },
+    {
+      "id": "3941",
+      "name": "A Gnome's Assistance",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3941/a-gnomes-assistance"
+    },
+    {
+      "id": "3942",
+      "name": "Linken's Memory",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3942/linkens-memory"
+    },
+    {
+      "id": "3961",
+      "name": "Linken's Adventure",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3961/linkens-adventure"
+    },
+    {
+      "id": "3962",
+      "name": "It's Dangerous to Go Alone",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/3962/its-dangerous-to-go-alone"
+    },
+    {
+      "id": "4005",
+      "name": "Aquementas",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4005/aquementas"
+    },
+    {
+      "id": "4084",
+      "name": "Silver Heart",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4084/silver-heart"
+    },
+    {
+      "id": "4141",
+      "name": "Muigin and Larion",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4141/muigin-and-larion"
+    },
+    {
+      "id": "4142",
+      "name": "A Visit to Gregan",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4142/a-visit-to-gregan"
+    },
+    {
+      "id": "4143",
+      "name": "Haze of Evil",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4143/haze-of-evil"
+    },
+    {
+      "id": "4144",
+      "name": "Bloodpetal Sprouts",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4144/bloodpetal-sprouts"
+    },
+    {
+      "id": "4145",
+      "name": "Larion and Muigin",
+      "decision": "exclude",
+      "reason": "Horde-only route",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4145/larion-and-muigin"
+    },
+    {
+      "id": "4146",
+      "name": "Zapper Fuel",
+      "decision": "exclude",
+      "reason": "Horde-only route",
+      "candidateSources": [
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4146/zapper-fuel"
+    },
+    {
+      "id": "4147",
+      "name": "Marvon's Workshop",
+      "decision": "exclude",
+      "reason": "Horde-only route",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4147/marvons-workshop"
+    },
+    {
+      "id": "4148",
+      "name": "Bloodpetal Zapper",
+      "decision": "exclude",
+      "reason": "Horde-only route",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4148/bloodpetal-zapper"
+    },
+    {
+      "id": "4243",
+      "name": "Chasing A-Me 01",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4243/chasing-a-me-01"
+    },
+    {
+      "id": "4244",
+      "name": "Chasing A-Me 01",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4244/chasing-a-me-01"
+    },
+    {
+      "id": "4245",
+      "name": "Chasing A-Me 01",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4245/chasing-a-me-01"
+    },
+    {
+      "id": "4284",
+      "name": "Crystals of Power",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4284/crystals-of-power"
+    },
+    {
+      "id": "4285",
+      "name": "The Northern Pylon",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4285/the-northern-pylon"
+    },
+    {
+      "id": "4287",
+      "name": "The Eastern Pylon",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4287/the-eastern-pylon"
+    },
+    {
+      "id": "4288",
+      "name": "The Western Pylon",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4288/the-western-pylon"
+    },
+    {
+      "id": "4289",
+      "name": "The Apes of Un'Goro",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4289/the-apes-of-ungoro"
+    },
+    {
+      "id": "4290",
+      "name": "The Fare of Lar'korwi",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4290/the-fare-of-larkorwi"
+    },
+    {
+      "id": "4291",
+      "name": "The Scent of Lar'korwi",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4291/the-scent-of-larkorwi"
+    },
+    {
+      "id": "4292",
+      "name": "The Bait for Lar'korwi",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4292/the-bait-for-larkorwi"
+    },
+    {
+      "id": "4294",
+      "name": "... and a Batch of Ooze",
+      "decision": "exclude",
+      "reason": "Horde-only route",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4294/and-a-batch-of-ooze"
+    },
+    {
+      "id": "4301",
+      "name": "The Mighty U'cha",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4301/the-mighty-ucha"
+    },
+    {
+      "id": "4321",
+      "name": "Making Sense of It",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4321/making-sense-of-it"
+    },
+    {
+      "id": "4381",
+      "name": "Crystal Restore",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4381/crystal-restore"
+    },
+    {
+      "id": "4382",
+      "name": "Crystal Force",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4382/crystal-force"
+    },
+    {
+      "id": "4383",
+      "name": "Crystal Ward",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4383/crystal-ward"
+    },
+    {
+      "id": "4384",
+      "name": "Crystal Yield",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4384/crystal-yield"
+    },
+    {
+      "id": "4385",
+      "name": "Crystal Charge",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4385/crystal-charge"
+    },
+    {
+      "id": "4386",
+      "name": "Crystal Spire",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4386/crystal-spire"
+    },
+    {
+      "id": "4491",
+      "name": "A Little Help From My Friends",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4491/a-little-help-from-my-friends"
+    },
+    {
+      "id": "4492",
+      "name": "Lost!",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4492/lost"
+    },
+    {
+      "id": "4493",
+      "name": "March of the Silithid",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "Optional Alliance introduction to the Gorishi chain"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4493/march-of-the-silithid"
+    },
+    {
+      "id": "4496",
+      "name": "Bungle in the Jungle",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4496/bungle-in-the-jungle"
+    },
+    {
+      "id": "4501",
+      "name": "Beware of Pterrordax",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4501/beware-of-pterrordax"
+    },
+    {
+      "id": "4502",
+      "name": "Volcanic Activity",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4502/volcanic-activity"
+    },
+    {
+      "id": "4503",
+      "name": "Shizzle's Flyer",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4503/shizzles-flyer"
+    },
+    {
+      "id": "4504",
+      "name": "Super Sticky",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "Collect tar in northern Un’Goro"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4504/super-sticky"
+    },
+    {
+      "id": "4507",
+      "name": "Pawn Captures Queen",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "Summon and defeat the Gorishi queen in Un’Goro"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4507/pawn-captures-queen"
+    },
+    {
+      "id": "4508",
+      "name": "Calm Before the Storm",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4508/calm-before-the-storm"
+    },
+    {
+      "id": "4509",
+      "name": "Calm Before the Storm",
+      "decision": "exclude",
+      "reason": "Horde-only route",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4509/calm-before-the-storm"
+    },
+    {
+      "id": "4510",
+      "name": "Calm Before the Storm",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "Alliance conclusion to the Gorishi chain"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4510/calm-before-the-storm"
+    },
+    {
+      "id": "4513",
+      "name": "A Little Slime Goes a Long Way",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "Collect pure slime samples in Un’Goro"
+      ],
+      "reference": "https://foreverchanges.pro/quest/4513/a-little-slime-goes-a-long-way"
+    },
+    {
+      "id": "5150",
+      "name": "Dadanga is Hungry!",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5150/dadanga-is-hungry"
+    },
+    {
+      "id": "5163",
+      "name": "Are We There, Yeti?",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5163/are-we-there-yeti"
+    },
+    {
+      "id": "5801",
+      "name": "Fire Plume Forged",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5801/fire-plume-forged"
+    },
+    {
+      "id": "5802",
+      "name": "Fire Plume Forged",
+      "decision": "exclude",
+      "reason": "Horde-only route",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/5802/fire-plume-forged"
+    },
+    {
+      "id": "8681",
+      "name": "Thunderhorn the Elder",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/8681/thunderhorn-the-elder"
+    },
+    {
+      "id": "9051",
+      "name": "Toxic Test",
+      "decision": "exclude",
+      "reason": "Druid-only route",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/9051/toxic-test"
+    },
+    {
+      "id": "9052",
+      "name": "Bloodpetal Poison",
+      "decision": "exclude",
+      "reason": "Druid-only route",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/9052/bloodpetal-poison"
+    },
+    {
+      "id": "9053",
+      "name": "A Better Ingredient",
+      "decision": "exclude",
+      "reason": "Druid-only route",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/9053/a-better-ingredient"
+    },
+    {
+      "id": "9063",
+      "name": "Torwa Pathfinder",
+      "decision": "exclude",
+      "reason": "Druid-only route",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/9063/torwa-pathfinder"
+    },
+    {
+      "id": "9322",
+      "name": "Wild Fires in Kalimdor",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "baseline category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/9322/wild-fires-in-kalimdor"
+    },
+    {
+      "id": "82001",
+      "name": "Require Gnomish Problems",
+      "decision": "exclude",
+      "reason": "API listing lacks a verified quest giver, level, and offer data",
+      "candidateSources": [
+        "api"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/82001.html"
+    },
+    {
+      "id": "82009",
+      "name": "Require Goblin Problems",
+      "decision": "exclude",
+      "reason": "API listing lacks a verified quest giver, level, and offer data",
+      "candidateSources": [
+        "api"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/82009.html"
+    },
+    {
+      "id": "82099",
+      "name": "Haze of Evil",
+      "decision": "exclude",
+      "reason": "Alternate API-only record with no corroborated offer; supported Alliance ID is 4143",
+      "candidateSources": [
+        "api"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/82099.html"
+    },
+    {
+      "id": "82101",
+      "name": "Zapper Fuel",
+      "decision": "exclude",
+      "reason": "Horde-only route",
+      "candidateSources": [
+        "api"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/82101.html"
+    },
+    {
+      "id": "87492",
+      "name": "Uncanny Crystal",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "api",
+        "current category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/87492/uncanny-crystal",
+      "questie": {
+        "generated": " -- Uncanny Crystal : https://wowhead.com/forever/quest=87492/uncanny-crystal\n            [questKeys.name] = \"Uncanny Crystal\",\n            [questKeys.startedBy] = {{9619}},\n            [questKeys.finishedBy] = {{9619}},\n            [questKeys.requiredLevel] = 50,\n            [questKeys.questLevel] = 55,\n            [questKeys.requiredRaces] = 0, -- Assumption: assumptions/reviewed_shared_races.toml; 0 = all races; Reviewed shared quest systems: explicit Both labels, player reports, connected shared chains or neutral acquisition support assuming all-race access for these IDs; class and other access requirements remain independent.\n            [questKeys.objectivesText] = {\"Bring 1 Damaged Blue Crystal back to Torwa Pathfinder.\"},\n            [questKeys.objectives] = {nil, nil, {{280417}}},\n            [questKeys.zoneOrSort] = zoneIDs.UN_GORO_CRATER,\n",
+        "trace": "\n            [questKeys.name] = \"Uncanny Crystal\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectives] = {nil,nil,{{280417}}},\n            [questKeys.objectivesText] = {\"Bring 1 Damaged Blue Crystal back to Torwa Pathfinder.\"},\n            [questKeys.startedBy_add] = {{9619}},\n            [questKeys.finishedBy_add] = {{9619}},\n",
+        "correction": null
+      }
+    },
+    {
+      "id": "87494",
+      "name": "Microcrystal Contamination",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "current category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/87494/microcrystal-contamination",
+      "questie": {
+        "generated": null,
+        "trace": "\n            [questKeys.name] = \"Microcrystal Contamination\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectives] = {nil,nil,{{280459}}},\n            [questKeys.objectivesText] = {\"Take the Crystal Infused Scale to Torwa Pathfinder.\"},\n            [questKeys.startedBy_add] = {{9619}},\n            [questKeys.finishedBy_add] = {{9619}},\n",
+        "correction": " -- Microcrystal Contamination\n            [questKeys.requiredLevel] = 45,\n            [questKeys.requiredRaces] = raceIDs.NONE,\n"
+      }
+    },
+    {
+      "id": "92020",
+      "name": "Hol'anyee's Big Book of Big Lizards",
+      "decision": "include",
+      "reason": "Alliance/shared zone quest, direct chain step, or objective in Un’Goro",
+      "candidateSources": [
+        "current",
+        "secondary",
+        "api",
+        "current category, starter, or objective"
+      ],
+      "reference": "https://foreverchanges.pro/quest/92020/holanyees-big-book-of-big-lizards",
+      "questie": {
+        "generated": null,
+        "trace": "\n            [questKeys.name] = \"Hol'anyee's Big Book of Big Lizards\",\n            [questKeys.questLevel] = 55,\n            [questKeys.objectivesText] = {\"Take Hol'anyee's Big Book of Big Lizards to a druid at the summit of Mount Hyjal.\"},\n            [questKeys.startedBy_add] = {{9271}},\n            [questKeys.finishedBy_add] = {{40833}},\n",
+        "correction": " -- Hol'anyee's Big Book of Big Lizards\n            [questKeys.requiredLevel] = 55,\n            [questKeys.requiredRaces] = raceIDs.NONE,\n"
+      }
+    },
+    {
+      "id": "94399",
+      "name": "Ravasaur Provisions",
+      "decision": "exclude",
+      "reason": "Horde-only route",
+      "candidateSources": [
+        "api",
+        "current category, starter, or objective"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/94399.html",
+      "questie": {
+        "generated": " -- Ravasaur Provisions : https://wowhead.com/forever/quest=94399/ravasaur-provisions\n            [questKeys.name] = \"Ravasaur Provisions\",\n            [questKeys.startedBy] = {{11701}},\n            [questKeys.finishedBy] = {{11701}},\n            [questKeys.requiredLevel] = 58,\n            [questKeys.questLevel] = 60,\n            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,\n            [questKeys.objectivesText] = {\"Collect 5 Diemetradon Meats and 5 Pterrodax Meats for Mor'vek in Un'Goro Crater.\"},\n            [questKeys.objectives] = {nil, nil, {{264360}, {264361}}},\n            [questKeys.zoneOrSort] = zoneIDs.UN_GORO_CRATER,\n            [questKeys.reputationReward] = {{630, 50}},\n",
+        "trace": "\n            [questKeys.name] = \"Ravasaur Provisions\",\n            [questKeys.questLevel] = 60,\n            [questKeys.objectives] = {nil,nil,{{264360},{264361}}},\n            [questKeys.objectivesText] = {\"Collect 5 Diemetradon Meats and 5 Pterrodax Meats for Mor'vek in Un'Goro Crater.\"},\n            [questKeys.startedBy_add] = {{11701}},\n            [questKeys.requiredRaces] = 8589934770,\n            [questKeys.finishedBy_add] = {{11701}},\n            [questKeys.reputationReward] = {{630,50}},\n",
+        "correction": null
+      }
+    },
+    {
+      "id": "94400",
+      "name": "Silithid Intrusion",
+      "decision": "exclude",
+      "reason": "Horde-only route",
+      "candidateSources": [
+        "api"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/94400.html"
+    },
+    {
+      "id": "94401",
+      "name": "Stomping Giants",
+      "decision": "exclude",
+      "reason": "Horde-only route",
+      "candidateSources": [
+        "api"
+      ],
+      "reference": "https://legacyofwarcraft.com/db/forever/quest/94401.html"
+    }
+  ]
+}
