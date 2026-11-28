@@ -425,31 +425,6 @@
       "spawnGuid": 1090005
     },
     {
-      "id": "npc-15362",
-      "name": "Malfurion Stormrage",
-      "category": "quest-giver",
-      "floor": "main",
-      "x": 72.1685,
-      "y": 84.9922,
-      "verification": "classic-derived",
-      "sources": [
-        "summons",
-        "event",
-        "quests"
-      ],
-      "world": {
-        "map": 109,
-        "x": -660.5277,
-        "y": -16.7117,
-        "z": -90.8357
-      },
-      "note": "Classic scripted appearance for the green scepter chain after The Charge of the Dragonflights. Current Forever phase availability is unverified.",
-      "questIds": [
-        "8733"
-      ],
-      "npcId": "15362"
-    },
-    {
       "id": "npc-15593",
       "name": "Elder Starsong",
       "category": "npc",
@@ -1820,10 +1795,6 @@
     "summons": {
       "name": "Classic scripted summon positions and statue order",
       "url": "https://github.com/cmangos/mangos-classic/blob/28a26c388a3c817f34cdb4737847a345841b6a08/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/sunken_temple/sunken_temple.h"
-    },
-    "event": {
-      "name": "Classic encounter and Malfurion quest script",
-      "url": "https://github.com/cmangos/mangos-classic/blob/28a26c388a3c817f34cdb4737847a345841b6a08/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/sunken_temple/sunken_templeScripts.cpp"
     },
     "guide": {
       "name": "Forever dungeon guide and quest locations",

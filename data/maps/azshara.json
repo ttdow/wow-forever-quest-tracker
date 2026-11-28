@@ -933,23 +933,6 @@
       ]
     },
     {
-      "id": "object-180669",
-      "name": "Swirling Maelstrom",
-      "category": "quest-object",
-      "x": 65.89,
-      "y": 54.1,
-      "verification": "classic-derived",
-      "sources": [
-        "classic",
-        "quests"
-      ],
-      "note": "Use the Arcanite Buoy here to summon Maws during The Wrath of Neptulon.",
-      "objectId": "180669",
-      "questIds": [
-        "8729"
-      ]
-    },
-    {
       "id": "object-179551",
       "name": "Hydraxis’ Coffer",
       "category": "quest-chest",
@@ -1066,24 +1049,6 @@
       "npcId": "6140",
       "questIds": [
         "3510"
-      ]
-    },
-    {
-      "id": "npc-15481",
-      "name": "Spirit of Azuregos",
-      "category": "quest-object",
-      "x": 52.98,
-      "y": 81.73,
-      "verification": "classic-derived",
-      "sources": [
-        "classic",
-        "quests"
-      ],
-      "note": "Roams the southern peninsula. Speak to the spirit to receive the Magical Ledger.",
-      "npcId": "15481",
-      "approximate": true,
-      "questIds": [
-        "8575"
       ]
     },
     {

@@ -1087,13 +1087,6 @@
       "reference": "https://www.wowhead.com/forever/quest=8485"
     },
     {
-      "id": 8606,
-      "name": "Decoy!",
-      "decision": "Classic AQ event reference. Forever availability unverified.",
-      "indexKeys": [],
-      "reference": "https://www.wowhead.com/forever/quest=8606"
-    },
-    {
       "id": 8672,
       "name": "Stonespire the Elder",
       "decision": "Included",

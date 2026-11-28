@@ -1287,30 +1287,6 @@
     "previousQuests": []
   },
   {
-    "id": "8734",
-    "zone": "Teldrassil",
-    "level": 60,
-    "name": "Tyrande and Remulos",
-    "stage": "",
-    "giver": "Forest Wisp",
-    "coordinates": "37.6, 47.9",
-    "area": "Western Teldrassil / Oracle region",
-    "objective": "Speak with Keeper Remulos in Moonglade",
-    "areaConfidence": "High",
-    "notes": "High-level cross-zone quest; pickup west of Dolanaar",
-    "prerequisites": [
-      {
-        "id": "8733",
-        "name": "Eranikus, Tyrant of the Dream",
-        "evidence": "classic",
-        "sources": [
-          "https://foreverdb.net/quest/8734"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
     "id": "2498",
     "zone": "Teldrassil",
     "level": 9,
@@ -31355,67 +31331,6 @@
     "previousQuests": []
   },
   {
-    "id": "8575",
-    "zone": "Azshara",
-    "level": 60,
-    "name": "Azuregos's Magical Ledger",
-    "stage": "Scepter of the Shifting Sands",
-    "giver": "Magical Ledger (item)",
-    "coordinates": "",
-    "area": "Bay of Storms",
-    "objective": "Speak to the Spirit of Azuregos to get the Magical Ledger, then take the ledger to Narain Soothfancy in Tanaris (65.2, 18.6).",
-    "areaConfidence": "Unmapped pickup",
-    "notes": "Minimum level 60 · Both factions · Item starter. Spirit of Azuregos roams the southern coast. · Blue Scepter Shard quest line.",
-    "sources": [
-      "https://foreverchanges.pro/quest/8575/azuregoss-magical-ledger"
-    ],
-    "evidence": {
-      "quest": "forever-records",
-      "level": "forever-records",
-      "objective": "forever-records",
-      "giver": "forever-records",
-      "pickupLocation": "unverified",
-      "faction": "forever-records"
-    },
-    "prerequisites": [],
-    "previousQuests": []
-  },
-  {
-    "id": "8729",
-    "zone": "Azshara",
-    "level": 60,
-    "name": "The Wrath of Neptulon",
-    "stage": "Scepter of the Shifting Sands",
-    "giver": "Narain Soothfancy",
-    "coordinates": "65.2, 18.6",
-    "area": "Tanaris, north of Steamwheedle Port",
-    "objective": "Use Narain's Arcanite Buoy at the Swirling Maelstrom in the Bay of Storms. Defeat Maws and deliver the Blue Scepter Shard to Anachronos in Tanaris.",
-    "areaConfidence": "Approximate",
-    "notes": "Minimum level 60 · Both factions · Raid objective in Azshara. Starts and ends in Tanaris. · Blue Scepter Shard quest line.",
-    "sources": [
-      "https://foreverchanges.pro/quest/8729/the-wrath-of-neptulon"
-    ],
-    "evidence": {
-      "quest": "forever-records",
-      "level": "forever-records",
-      "objective": "forever-records",
-      "giver": "forever-records",
-      "pickupLocation": "forever-records",
-      "faction": "forever-records"
-    },
-    "prerequisites": [
-      {
-        "id": "8728",
-        "name": "The Good News and The Bad News",
-        "evidence": "classic-reference",
-        "sources": [
-          "https://github.com/Questie/QuestieDB/blob/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e/data/Forever/foreverQuestDB.lua"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
     "id": "5246",
     "zone": "Azshara",
     "level": 56,
@@ -32158,43 +32073,6 @@
         "evidence": "classic-reference",
         "sources": [
           "https://github.com/Questie/QuestieDB/blob/47a4756b775e8c73687fd3066d6c13f0bc43a55e/data/Forever/foreverQuestDB.lua"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
-    "id": "8733",
-    "zone": "Sunken Temple",
-    "level": 60,
-    "name": "Eranikus, Tyrant of the Dream",
-    "stage": "Green Scepter Shard · Availability unverified",
-    "giver": "Malfurion Stormrage",
-    "coordinates": "",
-    "area": "Shade of Eranikus's lair, Sunken Temple",
-    "objective": "On the Scepter of the Shifting Sands quest line, speak to Malfurion in the temple, then find the Forest Wisp outside Darnassus in Teldrassil (37.6, 47.9). Requires Neutral with Brood of Nozdormu. Current phase availability is unverified.",
-    "areaConfidence": "Named room",
-    "notes": "Minimum level 60 · Both factions",
-    "sources": [
-      "https://foreverchanges.pro/quest/8733/eranikus-tyrant-of-the-dream",
-      "https://questing.wiki/wow-forever/quests/8733/",
-      "https://www.forever-xp.com/quests/8733/"
-    ],
-    "evidence": {
-      "quest": "forever-records",
-      "level": "forever-records",
-      "objective": "forever-records",
-      "giver": "forever-records",
-      "pickupLocation": "forever-records",
-      "faction": "forever-records"
-    },
-    "prerequisites": [
-      {
-        "id": "8555",
-        "name": "The Charge of the Dragonflights",
-        "evidence": "forever-records",
-        "sources": [
-          "https://questing.wiki/wow-forever/quests/8733/"
         ]
       }
     ],
@@ -46552,34 +46430,6 @@
     "previousQuests": []
   },
   {
-    "id": "8286",
-    "zone": "Silithus",
-    "level": 60,
-    "name": "What Tomorrow Brings",
-    "stage": "Scepter of the Shifting Sands · min. level 60 · Ahn'Qiraj phase/event dependent",
-    "giver": "Baristolth of the Shifting Sands",
-    "coordinates": "49.5, 36.4",
-    "area": "Cenarion Hold (Silithus)",
-    "objective": "Venture to the Caverns of Time in Tanaris and find Anachronos, Brood of Nozdormu.",
-    "areaConfidence": "Approximate",
-    "notes": "Shared; Minimum level 60; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression",
-    "sources": [
-      "https://foreverchanges.pro/quest/8286/what-tomorrow-brings",
-      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-    ],
-    "evidence": {
-      "quest": "classic-reference-in-current-index",
-      "level": "foreverchanges",
-      "minimumLevel": "foreverchanges",
-      "objective": "foreverchanges",
-      "giver": "foreverchanges",
-      "pickupLocation": "classic-reference",
-      "faction": "foreverchanges-and-questie-baseline"
-    },
-    "prerequisites": [],
-    "previousQuests": []
-  },
-  {
     "id": "8287",
     "zone": "Silithus",
     "level": 60,
@@ -46617,154 +46467,6 @@
     "previousQuests": []
   },
   {
-    "id": "8288",
-    "zone": "Silithus",
-    "level": 60,
-    "name": "Only One May Rise",
-    "stage": "Scepter of the Shifting Sands · min. level 60 · Raid · Ahn'Qiraj phase/event dependent",
-    "giver": "Baristolth of the Shifting Sands",
-    "coordinates": "49.5, 36.4",
-    "area": "Cenarion Hold (Silithus)",
-    "objective": "Return the Head of the Broodlord Lashlayer to Baristolth of the Shifting Sands at Cenarion Hold in Silithus.",
-    "areaConfidence": "Approximate",
-    "notes": "Shared; Minimum level 60; Raid; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression",
-    "sources": [
-      "https://foreverchanges.pro/quest/8288/only-one-may-rise",
-      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-    ],
-    "evidence": {
-      "quest": "classic-reference-in-current-index",
-      "level": "foreverchanges",
-      "minimumLevel": "foreverchanges",
-      "objective": "foreverchanges",
-      "giver": "foreverchanges",
-      "pickupLocation": "classic-reference",
-      "faction": "foreverchanges-and-questie-baseline"
-    },
-    "prerequisites": [
-      {
-        "id": "8286",
-        "name": "What Tomorrow Brings",
-        "evidence": "classic",
-        "sources": [
-          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
-    "id": "8301",
-    "zone": "Silithus",
-    "level": 60,
-    "name": "The Path of the Righteous",
-    "stage": "Scepter of the Shifting Sands · min. level 60 · Elite · Ahn'Qiraj phase/event dependent",
-    "giver": "Baristolth of the Shifting Sands",
-    "coordinates": "49.5, 36.4",
-    "area": "Cenarion Hold (Silithus)",
-    "objective": "Collect 200 Silithid Carapace Fragments and return to Baristolth.",
-    "areaConfidence": "Approximate",
-    "notes": "Shared; Minimum level 60; Elite; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression",
-    "sources": [
-      "https://foreverchanges.pro/quest/8301/the-path-of-the-righteous",
-      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-    ],
-    "evidence": {
-      "quest": "classic-reference-in-current-index",
-      "level": "foreverchanges",
-      "minimumLevel": "foreverchanges",
-      "objective": "foreverchanges",
-      "giver": "foreverchanges",
-      "pickupLocation": "classic-reference",
-      "faction": "foreverchanges-and-questie-baseline"
-    },
-    "prerequisites": [
-      {
-        "id": "8288",
-        "name": "Only One May Rise",
-        "evidence": "classic",
-        "sources": [
-          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
-    "id": "8302",
-    "zone": "Silithus",
-    "level": 60,
-    "name": "The Hand of the Righteous",
-    "stage": "Scepter of the Shifting Sands · min. level 60 · Repeatable · Elite · Ahn'Qiraj phase/event dependent",
-    "giver": "Baristolth of the Shifting Sands",
-    "coordinates": "49.5, 36.4",
-    "area": "Cenarion Hold (Silithus)",
-    "objective": "Collect 200 Silithid Carapace Fragments and return to Baristolth.",
-    "areaConfidence": "Approximate",
-    "notes": "Shared; Minimum level 60; Repeatable; Elite; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression",
-    "sources": [
-      "https://foreverchanges.pro/quest/8302/the-hand-of-the-righteous",
-      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-    ],
-    "evidence": {
-      "quest": "classic-reference-in-current-index",
-      "level": "foreverchanges",
-      "minimumLevel": "foreverchanges",
-      "objective": "foreverchanges",
-      "giver": "foreverchanges",
-      "pickupLocation": "classic-reference",
-      "faction": "foreverchanges-and-questie-baseline"
-    },
-    "prerequisites": [
-      {
-        "id": "8301",
-        "name": "The Path of the Righteous",
-        "evidence": "classic",
-        "sources": [
-          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
-    "id": "8303",
-    "zone": "Silithus",
-    "level": 60,
-    "name": "Anachronos",
-    "stage": "Scepter of the Shifting Sands · min. level 60 · Ahn'Qiraj phase/event dependent · Requires Neutral with Brood of Nozdormu",
-    "giver": "Baristolth of the Shifting Sands",
-    "coordinates": "49.5, 36.4",
-    "area": "Cenarion Hold (Silithus)",
-    "objective": "Seek out Anachronos at the Caverns of Time in Tanaris.",
-    "areaConfidence": "Approximate",
-    "notes": "Shared; Minimum level 60; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression; Requires Neutral with Brood of Nozdormu (Classic primary requirement)",
-    "sources": [
-      "https://foreverchanges.pro/quest/8303/anachronos",
-      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-    ],
-    "evidence": {
-      "quest": "classic-reference-in-current-index",
-      "level": "foreverchanges",
-      "minimumLevel": "foreverchanges",
-      "objective": "foreverchanges",
-      "giver": "foreverchanges",
-      "pickupLocation": "classic-reference",
-      "faction": "foreverchanges-and-questie-baseline"
-    },
-    "prerequisites": [
-      {
-        "id": "8301",
-        "name": "The Path of the Righteous",
-        "evidence": "classic",
-        "sources": [
-          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
     "id": "8304",
     "zone": "Silithus",
     "level": 60,
@@ -46790,43 +46492,6 @@
       "faction": "foreverchanges-and-questie-baseline"
     },
     "prerequisites": [],
-    "previousQuests": []
-  },
-  {
-    "id": "8305",
-    "zone": "Silithus",
-    "level": 60,
-    "name": "Long Forgotten Memories",
-    "stage": "Scepter of the Shifting Sands · min. level 60 · Ahn'Qiraj phase/event dependent · Requires Neutral with Brood of Nozdormu",
-    "giver": "Anachronos",
-    "coordinates": "65.3, 50",
-    "area": "Caverns of Time (Tanaris)",
-    "objective": "Locate the Crystalline Tear in Silithus and gaze into its depths.",
-    "areaConfidence": "Approximate",
-    "notes": "Shared; Minimum level 60; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression; Requires Neutral with Brood of Nozdormu (Classic primary requirement)",
-    "sources": [
-      "https://foreverchanges.pro/quest/8305/long-forgotten-memories",
-      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-    ],
-    "evidence": {
-      "quest": "classic-reference-in-current-index",
-      "level": "foreverchanges",
-      "minimumLevel": "foreverchanges",
-      "objective": "foreverchanges",
-      "giver": "foreverchanges",
-      "pickupLocation": "classic-reference",
-      "faction": "foreverchanges-and-questie-baseline"
-    },
-    "prerequisites": [
-      {
-        "id": "8303",
-        "name": "Anachronos",
-        "evidence": "classic",
-        "sources": [
-          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-        ]
-      }
-    ],
     "previousQuests": []
   },
   {
@@ -48089,43 +47754,6 @@
     ]
   },
   {
-    "id": "8519",
-    "zone": "Silithus",
-    "level": 60,
-    "name": "A Pawn on the Eternal Board",
-    "stage": "Scepter of the Shifting Sands · min. level 60 · Ahn'Qiraj phase/event dependent · Requires Neutral with Brood of Nozdormu",
-    "giver": "Crystalline Tear",
-    "coordinates": "28.7, 89.1",
-    "area": "Scarab Wall (Silithus)",
-    "objective": "Learn all that you can of the past, then speak with Anachronos at the Caverns of Time in Tanaris.",
-    "areaConfidence": "Approximate",
-    "notes": "Shared; Minimum level 60; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression; Requires Neutral with Brood of Nozdormu (Classic primary requirement)",
-    "sources": [
-      "https://foreverchanges.pro/quest/8519/a-pawn-on-the-eternal-board",
-      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-    ],
-    "evidence": {
-      "quest": "classic-reference-in-current-index",
-      "level": "foreverchanges",
-      "minimumLevel": "foreverchanges",
-      "objective": "foreverchanges",
-      "giver": "foreverchanges",
-      "pickupLocation": "classic-reference",
-      "faction": "foreverchanges-and-questie-baseline"
-    },
-    "prerequisites": [
-      {
-        "id": "8305",
-        "name": "Long Forgotten Memories",
-        "evidence": "classic",
-        "sources": [
-          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
     "id": "8534",
     "zone": "Silithus",
     "level": 60,
@@ -48742,133 +48370,6 @@
       "faction": "foreverchanges-and-questie-baseline"
     },
     "prerequisites": [],
-    "previousQuests": []
-  },
-  {
-    "id": "8742",
-    "zone": "Silithus",
-    "level": 60,
-    "name": "The Might of Kalimdor",
-    "stage": "Scepter of the Shifting Sands · min. level 60 · Ahn'Qiraj phase/event dependent · Requires Neutral with Brood of Nozdormu",
-    "giver": "Anachronos",
-    "coordinates": "65.3, 50",
-    "area": "Caverns of Time (Tanaris)",
-    "objective": "Speak with Anachronos at the Caverns of Time after returning all three Scepter Shards to receive the Scepter of the Shifting Sands.",
-    "areaConfidence": "Approximate",
-    "notes": "Shared; Minimum level 60; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression; Requires Neutral with Brood of Nozdormu (Classic primary requirement)",
-    "sources": [
-      "https://foreverchanges.pro/quest/8742/the-might-of-kalimdor",
-      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-    ],
-    "evidence": {
-      "quest": "classic-reference-in-current-index",
-      "level": "foreverchanges",
-      "minimumLevel": "foreverchanges",
-      "objective": "classic-quest-text-and-requirements",
-      "giver": "foreverchanges",
-      "pickupLocation": "classic-reference",
-      "faction": "foreverchanges-and-questie-baseline"
-    },
-    "prerequisites": [
-      {
-        "id": "8729",
-        "name": "The Wrath of Neptulon",
-        "evidence": "classic",
-        "sources": [
-          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-        ]
-      },
-      {
-        "id": "8730",
-        "name": "Nefarius's Corruption",
-        "evidence": "classic",
-        "sources": [
-          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-        ]
-      },
-      {
-        "id": "8741",
-        "name": "The Champion Returns",
-        "evidence": "classic",
-        "sources": [
-          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
-    "id": "8743",
-    "zone": "Silithus",
-    "level": 60,
-    "name": "Bang a Gong!",
-    "stage": "Scepter of the Shifting Sands · min. level 60 · World event · Ahn'Qiraj phase/event dependent · Requires Neutral with Brood of Nozdormu",
-    "giver": "The Scarab Gong",
-    "coordinates": "25.7, 90.9",
-    "area": "Scarab Wall (Silithus)",
-    "objective": "Use the Scepter of the Shifting Sands to ring the Scarab Gong at the Scarab Wall during the Ahn'Qiraj opening event.",
-    "areaConfidence": "Approximate",
-    "notes": "Shared; Minimum level 60; World event; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression; Requires Neutral with Brood of Nozdormu (Classic primary requirement)",
-    "sources": [
-      "https://foreverchanges.pro/quest/8743/bang-a-gong",
-      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-    ],
-    "evidence": {
-      "quest": "classic-reference-in-current-index",
-      "level": "foreverchanges",
-      "minimumLevel": "foreverchanges",
-      "objective": "foreverchanges-required-items",
-      "giver": "foreverchanges",
-      "pickupLocation": "classic-reference",
-      "faction": "foreverchanges-and-questie-baseline"
-    },
-    "prerequisites": [
-      {
-        "id": "8742",
-        "name": "The Might of Kalimdor",
-        "evidence": "classic",
-        "sources": [
-          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-        ]
-      }
-    ],
-    "previousQuests": []
-  },
-  {
-    "id": "8745",
-    "zone": "Silithus",
-    "level": 60,
-    "name": "Treasure of the Timeless One",
-    "stage": "Scepter of the Shifting Sands · min. level 60 · Ahn'Qiraj phase/event dependent · Requires Neutral with Brood of Nozdormu",
-    "giver": "Jonathan the Revelator",
-    "coordinates": "25.9, 91",
-    "area": "Silithus",
-    "objective": "Speak with Jonathan the Revelator near the Scarab Wall to claim the Treasure of the Timeless One.",
-    "areaConfidence": "Approximate",
-    "notes": "Shared; Minimum level 60; Classic Ahn'Qiraj opening chain; availability depends on the realm's event/raid progression; Requires Neutral with Brood of Nozdormu (Classic primary requirement)",
-    "sources": [
-      "https://foreverchanges.pro/quest/8745/treasure-of-the-timeless-one",
-      "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-    ],
-    "evidence": {
-      "quest": "classic-reference-in-current-index",
-      "level": "foreverchanges",
-      "minimumLevel": "foreverchanges",
-      "objective": "classic-quest-text-and-requirements",
-      "giver": "foreverchanges",
-      "pickupLocation": "classic-reference",
-      "faction": "foreverchanges-and-questie-baseline"
-    },
-    "prerequisites": [
-      {
-        "id": "8742",
-        "name": "The Might of Kalimdor",
-        "evidence": "classic",
-        "sources": [
-          "https://github.com/Questie/QuestieDB/blob/0e6f3386b2a31b76b1b103e1d3aa6f4f6a7797ba/data/Forever/foreverQuestDB.lua"
-        ]
-      }
-    ],
     "previousQuests": []
   },
   {

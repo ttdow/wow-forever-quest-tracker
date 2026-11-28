@@ -418,29 +418,6 @@
     "url": "https://foreverchanges.pro/quest/8285/the-deserter",
     "sheetText": "Quest Objectives | Take the restored tablet to Hermit Ortell in Silithus. | Restored Twilight Tablet | Provided: | Restored Twilight Tablet | Description | There are rumors of a Twilight's Hammer member called Ortell having deserted his sect.  Word has it he hid in the mountains south of Southwind Village, where he lives as a hermit.  Perhaps you can enlist his help in deciphering the tablet. | Take the restored tablet with you and seek out Ortell. | Rewards | Experience: | 4,800 | +50 reputation with Cenarion Circle | 0 reputation with Leatherworking - Tribal | When you come back | You!  How did you find me?  Who are you?  You weren't followed, were you?  Speak! | When you hand it in | I see you're familiar with my old organization.  You must be with Cenarion Hold. | You seek information to use against them?  Come closer, perhaps we can be of mutual assistance."
   },
-  "8286": {
-    "name": "What Tomorrow Brings",
-    "facts": {
-      "Start": "Baristolth of the Shifting Sands Silithus 49.5 , 36.4",
-      "End": "Baristolth of the Shifting Sands Silithus 49.5 , 36.4",
-      "Level": "60 , requires level 60",
-      "Difficulty": "60",
-      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
-      "Shareable": "Yes",
-      "Quest ID": "8286",
-      "giver": "Baristolth of the Shifting Sands"
-    },
-    "pickup": [
-      "Silithus 49.5 , 36.4"
-    ],
-    "objective": "Venture to the Caverns of Time in Tanaris and find Anachronos, Brood of Nozdormu.",
-    "requirements": [
-      "Find the place the quest sends you to."
-    ],
-    "classic": true,
-    "url": "https://foreverchanges.pro/quest/8286/what-tomorrow-brings",
-    "sheetText": "Quest Objectives | Venture to the Caverns of Time in Tanaris and find Anachronos, Brood of Nozdormu. | Find the place the quest sends you to. | Description | The embrace of death had all but overcome my being when he intervened. He breathed only once upon my maimed body and then waited patiently for the sands of time to cleanse my wounds. | \"Forever you will remain if you must\", he said, and with those words I was bound as a Watcher. | Look now to the desert. The second war is upon us. You must seek out the resting place of the Bronze. Venture to the Caverns of Time and see if the master has returned. I must be sure before I am able to proceed. | Rewards | Experience: | 6,600 | +100 reputation with Brood of Nozdormu | When you come back | Has Anachronos returned? | When you hand it in | It is as it should be - the great one has risen. My watch comes to an end..."
-  },
   "8287": {
     "name": "A Terrible Purpose",
     "facts": {
@@ -463,100 +440,6 @@
     "classic": true,
     "url": "https://foreverchanges.pro/quest/8287/a-terrible-purpose",
     "sheetText": "Quest Objectives | Take the Decoded Tablet Parchment to Commander Mar'alith. | Decoded Tablet Transcription | Provided: | Decoded Tablet Transcription | Description | Ok, here we are... a pretty valuable chunk of information, I must say!  I've seen the Cenarion Circle forces arrive at Silithus.  They plan to drive the Twilight's Hammer out, don't they?  This will help. | Take this parchment to their leader, Commander Mar'alith.  Soon the Twilight's Hammer will be vanquished and I will be outside their grasp for good! | Rewards | Money: | 1 | 80 | 1 gold, 80 silver, 0 copper | Experience: | 6,600 | +100 reputation with Cenarion Circle | When you come back | What is this you bring to me, ‹name›? | When you hand it in | This is very interesting information indeed, ‹name›.  This sheds some light on the presence of the Twilight's Hammer in Silithus and will undoubtedly help us in our struggle against them.  Your efforts will be handsomely rewarded, ‹class›."
-  },
-  "8288": {
-    "name": "Only One May Rise",
-    "facts": {
-      "Start": "Baristolth of the Shifting Sands Silithus 49.5 , 36.4",
-      "End": "Baristolth of the Shifting Sands Silithus 49.5 , 36.4",
-      "Level": "60 , requires level 60",
-      "Difficulty": "60",
-      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
-      "Type": "Raid",
-      "Shareable": "No",
-      "Quest ID": "8288",
-      "giver": "Baristolth of the Shifting Sands"
-    },
-    "pickup": [
-      "Silithus 49.5 , 36.4"
-    ],
-    "objective": "Return the Head of the Broodlord Lashlayer to Baristolth of the Shifting Sands at Cenarion Hold in Silithus.",
-    "requirements": [
-      "Head of the Broodlord Lashlayer"
-    ],
-    "classic": true,
-    "url": "https://foreverchanges.pro/quest/8288/only-one-may-rise",
-    "sheetText": "Quest Objectives | Return the Head of the Broodlord Lashlayer to Baristolth of the Shifting Sands at Cenarion Hold in Silithus. | Head of the Broodlord Lashlayer | Description | There is no time to waste! A hero must be found! The task I give will require an army to complete but only one may rise from the throng of would be champions to take on the burden and responsibility of an ally of the Brood. | Within the lair of the Lord of Blackrock is a most cruel beast. The Broodlord Lashlayer guards the Halls of Strife, blocking the way into Nefarian's inner sanctum. Slay the foul aberration and return his head to me. Do this and you may begin the next step of your journey. | Rewards | Experience: | 6,600 | +200 reputation with Brood of Nozdormu | When you come back | It is the favor of the Brood of Nozdormu that you must earn. | When you hand it in | Could you be the first to earn favor among the Bronze Flight in a thousand years?"
-  },
-  "8301": {
-    "name": "The Path of the Righteous",
-    "facts": {
-      "Start": "Baristolth of the Shifting Sands Silithus 49.5 , 36.4",
-      "End": "Baristolth of the Shifting Sands Silithus 49.5 , 36.4",
-      "Level": "60 , requires level 60",
-      "Difficulty": "60",
-      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
-      "Type": "Elite",
-      "Shareable": "No",
-      "Quest ID": "8301",
-      "giver": "Baristolth of the Shifting Sands"
-    },
-    "pickup": [
-      "Silithus 49.5 , 36.4"
-    ],
-    "objective": "Collect 200 Silithid Carapace Fragments and return to Baristolth.",
-    "requirements": [
-      "200 Silithid Carapace Fragment"
-    ],
-    "classic": true,
-    "url": "https://foreverchanges.pro/quest/8301/the-path-of-the-righteous",
-    "sheetText": "Quest Objectives | Collect 200 Silithid Carapace Fragments and return to Baristolth. | 200 | Silithid Carapace Fragment | Provided: | Agent of Nozdormu | Description | The Brood of Nozdormu are naturally distrusting of the lesser races. While it is true that you have proven to me that you have the potential makings of a hero, the time has come to prove this to my master. | Hive'Ashi, Hive'Zora, Hive'Regal: All swarming with activity and all a threat to our existence. Slay silithid at these hives and take from them a fragment of their carapace. When you can carry no more, return to me and I shall strengthen your resolve. | Rewards | You will receive: | Proxy of Nozdormu | Experience: | 6,600 | +200 reputation with Brood of Nozdormu | When you come back | There is much history rooted in their distrust of the mortal races; but alas, such is a tale better left for the Brood to tell when the time is right. | When you hand it in | You are not alone, hero. I will now grant you the ability to deputize others to help you in your quest. If you are to be the champion of your people, you will need assistance in your tasks and duties."
-  },
-  "8302": {
-    "name": "The Hand of the Righteous",
-    "facts": {
-      "Start": "Baristolth of the Shifting Sands Silithus 49.5 , 36.4",
-      "End": "Baristolth of the Shifting Sands Silithus 49.5 , 36.4",
-      "Level": "60 , requires level 60",
-      "Difficulty": "60",
-      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
-      "Type": "Elite",
-      "Shareable": "No",
-      "Repeatable": "Yes",
-      "Quest ID": "8302",
-      "giver": "Baristolth of the Shifting Sands"
-    },
-    "pickup": [
-      "Silithus 49.5 , 36.4"
-    ],
-    "objective": "Collect 200 Silithid Carapace Fragments and return to Baristolth.",
-    "requirements": [
-      "200 Silithid Carapace Fragment"
-    ],
-    "classic": true,
-    "url": "https://foreverchanges.pro/quest/8302/the-hand-of-the-righteous",
-    "sheetText": "Quest Objectives | Collect 200 Silithid Carapace Fragments and return to Baristolth. | 200 | Silithid Carapace Fragment | Description | Choose your deputies wisely, mortal. Each time you return with your task complete, a new deputy you will be allowed to choose. | With that said, I require more of the carapace fragments. Waste no time! | Rewards | You will receive: | Proxy of Nozdormu | Experience: | 650 | +200 reputation with Brood of Nozdormu | When you come back | Perhaps one day the whole of Cenarion Hold will be working under your command. | When you hand it in | Well done, hero. You will now be granted the ability to deputize another Agent of Nozdormu."
-  },
-  "8303": {
-    "name": "Anachronos",
-    "facts": {
-      "Start": "Baristolth of the Shifting Sands Silithus 49.5 , 36.4",
-      "End": "Anachronos Tanaris 65.3 , 50",
-      "Level": "60 , requires level 60",
-      "Difficulty": "60",
-      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
-      "Shareable": "No",
-      "Quest ID": "8303",
-      "giver": "Baristolth of the Shifting Sands"
-    },
-    "pickup": [
-      "Silithus 49.5 , 36.4"
-    ],
-    "objective": "Seek out Anachronos at the Caverns of Time in Tanaris.",
-    "requirements": [],
-    "classic": true,
-    "url": "https://foreverchanges.pro/quest/8303/anachronos",
-    "sheetText": "Quest Objectives | Seek out Anachronos at the Caverns of Time in Tanaris. | Provided: | The War of the Shifting Sands | Description | It is time, ‹name›. | I must apologize for keeping so much in secret. Enemies abound, even under our very noses. Please, read from this tome and learn. Take the knowledge I give to you and seek out our master. | When you hand it in | You are the hope of Kalimdor, ‹name›."
   },
   "8304": {
     "name": "Dearest Natalia",
@@ -582,27 +465,6 @@
     "classic": false,
     "url": "https://foreverchanges.pro/quest/8304/dearest-natalia",
     "sheetText": "Quest Objectives | Commander Mar'alith at Cenarion Hold in Silithus wants you to question the inhabitants of Bronzebeard's Encampment. You will find Bronzebeard's Encampment south of Cenarion Hold. | Once you have gathered the requested information, return to Commander Mar'alith. | Frankal Questioned | Rutgar Questioned | Description | My dear Natalia has gone missing. | Truth be told, she had been acting strangely for weeks leading up to her disappearance. I had caught her talking to herself when no one was around on more than one occasion. She was adamant that everything was ok and that she must be allowed to continue her research. | She was last seen heading to Bronzebeard's camp to the south. | My soldiers are spread too thin, ‹name›. I need you to go to Bronzebeard's camp and question those dwarves. | Rewards | Experience: | 6,600 | +100 reputation with Cenarion Circle | When you come back | Waste no time, ‹name›! | When you hand it in | <Commander Mar'alith lowers his head in contemplation.> | Whether she is alive or dead, I must do what is right. She must be found. Alas, I am bound by duty to this outpost. Will you help me once more, ‹name›?"
-  },
-  "8305": {
-    "name": "Long Forgotten Memories",
-    "facts": {
-      "Start": "Anachronos Tanaris 65.3 , 50",
-      "End": "Crystalline Tear Silithus 28.7 , 89.1",
-      "Level": "60 , requires level 60",
-      "Difficulty": "60",
-      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
-      "Shareable": "No",
-      "Quest ID": "8305",
-      "giver": "Anachronos"
-    },
-    "pickup": [
-      "Tanaris 65.3 , 50"
-    ],
-    "objective": "Locate the Crystalline Tear in Silithus and gaze into its depths.",
-    "requirements": [],
-    "classic": true,
-    "url": "https://foreverchanges.pro/quest/8305/long-forgotten-memories",
-    "sheetText": "Quest Objectives | Locate the Crystalline Tear in Silithus and gaze into its depths. | Description | In the southern desert of Silithus, near the sacred barrier, exists a single crystalline tear. This tear serves as a symbol of the great losses beset upon us during the War of the Shifting Sands. Locate this tear and gaze into its depths to gain enlightenment. | Rewards | Experience: | 6,600 | +50 reputation with Brood of Nozdormu | When you hand it in | You can feel a great sorrow revolving around this crystal. The force is so powerful that you feel as if you might collapse and die of sadness."
   },
   "8306": {
     "name": "Into The Maw of Madness",
@@ -1486,27 +1348,6 @@
     "url": "https://foreverchanges.pro/quest/8508/field-duty-papers",
     "sheetText": "Quest Objectives | Prepared Field Duty Papers | Provided: | Signed Field Duty Papers | Rewards | You will receive: | Signed Field Duty Papers | When you come back | I take it you want those papers signed, lad/lass? | When you hand it in | Aye, I suppose that little skirmish will pass as field duty nowadays. Take these back to Cenarion Hold, I'm sure they'll have a cushy job ready for you. | Off you go!"
   },
-  "8519": {
-    "name": "A Pawn on the Eternal Board",
-    "facts": {
-      "Start": "Crystalline Tear Silithus 28.7 , 89.1",
-      "End": "Anachronos Tanaris 65.3 , 50",
-      "Level": "60 , requires level 60",
-      "Difficulty": "60",
-      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
-      "Shareable": "No",
-      "Quest ID": "8519",
-      "giver": "Crystalline Tear"
-    },
-    "pickup": [
-      "Silithus 28.7 , 89.1"
-    ],
-    "objective": "Learn all that you can of the past, then speak with Anachronos at the Caverns of Time in Tanaris.",
-    "requirements": [],
-    "classic": true,
-    "url": "https://foreverchanges.pro/quest/8519/a-pawn-on-the-eternal-board",
-    "sheetText": "Quest Objectives | Learn all that you can of the past, then speak with Anachronos at the Caverns of Time in Tanaris. | Description | As you regain your composure and focus your gaze, you notice that something stirs within the crystal. Upon closer inspection, you realize that you are looking into the past... a memory... long forgotten. | Rewards | Experience: | 6,600 | +100 reputation with Brood of Nozdormu | When you hand it in | After Staghelm's betrayal, I gathered the shattered pieces of the Scepter of the Shifting Sands and returned here. I had every intention of protecting the scepter from those that would seek to use it to cause harm to our world - thus was born the charge of the Dragonflights. | A scepter divided amongst the four mighty Aspects would prove to be nearly impossible to restore for those willfully seeking chaos... or so I thought. What a fool I was. Even now I am hunted by that cursed flight."
-  },
   "8534": {
     "name": "Hive'Zora Scout Report",
     "facts": {
@@ -2060,72 +1901,6 @@
     "classic": true,
     "url": "https://foreverchanges.pro/quest/8740/twilight-marauders",
     "sheetText": "Quest Objectives | Slay Twilight Marauder Morna and 5 Twilight Marauders.  Report to Windcaller Proudhorn when your task is finished.  You must also bring Tactical Task Briefing IX in order to complete this quest. | Tactical Task Briefing IX | Twilight Marauder Morna slain | Twilight Marauder slain | : | 0/ | 5 | Provided: | Tactical Task Briefing IX | Description | Bands of mounted Twilight's Hammer cultists have been spotted riding outside the reach of our forces in Cenarion Hold, picking off our smaller patrols and caravans. | Find and defeat the twilight marauders along with their leader, a terrible warrior by the name of Morna.  Report to Windcaller Proudhorn after completing the task. | Rewards | You will receive: | Cenarion Tactical Badge | Followup Tactical Assignment | Experience: | 650 | +50 reputation with Cenarion Circle | When you come back | Is your task done yet, ‹name›? | When you hand it in | Well done, ‹name›. The twilight marauders were inflicting an unacceptable number of casualties on our patrols. Here's your next assignment."
-  },
-  "8742": {
-    "name": "The Might of Kalimdor",
-    "facts": {
-      "Start": "Anachronos Tanaris 65.3 , 50",
-      "End": "Anachronos Tanaris 65.3 , 50",
-      "Level": "60 , requires level 60",
-      "Difficulty": "60",
-      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
-      "Shareable": "No",
-      "Quest ID": "8742",
-      "giver": "Anachronos"
-    },
-    "pickup": [
-      "Tanaris 65.3 , 50"
-    ],
-    "objective": "",
-    "requirements": [],
-    "classic": true,
-    "url": "https://foreverchanges.pro/quest/8742/the-might-of-kalimdor",
-    "sheetText": "Quest Objectives | Description | A thousand years has passed and just as it was fated, one stands before me. One who shall lead their people to a new age. | The Old God trembles, ‹name›. Oh yes, it fears your faith. Shatter the prophecy of C'Thun. | It knows you come, champion - and with you comes the might of Kalimdor. You have only to let me know when you are prepared and I shall grant you The Scepter of the Shifting Sands. | Rewards | You will learn: | Call Scepter DND | Experience: | 9,950 | +200 reputation with Brood of Nozdormu | +200 reputation with Cenarion Circle | When you hand it in | The Scepter of the Shifting Sands is whole once more, ‹name›. | It must be you who uses the scepter. It must be you who heralds the next age of your people. You must wait for the armies of the Horde and the Alliance to arrive in Silithus before you may ring the Scarab Gong."
-  },
-  "8743": {
-    "name": "Bang a Gong!",
-    "facts": {
-      "Start": "The Scarab Gong Silithus 25.7 , 90.9",
-      "End": "The Scarab Gong Silithus 25.7 , 90.9",
-      "Level": "60 , requires level 60",
-      "Difficulty": "60",
-      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
-      "Type": "World event",
-      "Shareable": "No",
-      "Quest ID": "8743",
-      "giver": "The Scarab Gong"
-    },
-    "pickup": [
-      "Silithus 25.7 , 90.9"
-    ],
-    "objective": "",
-    "requirements": [
-      "The Scepter of the Shifting Sands"
-    ],
-    "classic": true,
-    "url": "https://foreverchanges.pro/quest/8743/bang-a-gong",
-    "sheetText": "Quest Objectives | The Scepter of the Shifting Sands | Rewards | You will receive: | Black Qiraji Resonating Crystal | +200 reputation with Brood of Nozdormu | +200 reputation with Cenarion Circle | When you come back | The Scarab Gong looms ominously before you. Steel yourself, ‹name›; for once the Scarab Gong is rung, the gates of Ahn'Qiraj will be opened. | From the slackened maw of the beast can only come chaos and destruction. Defend your people! | When you hand it in | From the ground near the gong springs a special crystal. Perhaps favor from the Brood."
-  },
-  "8745": {
-    "name": "Treasure of the Timeless One",
-    "facts": {
-      "Start": "Jonathan the Revelator Silithus 25.9 , 91",
-      "End": "Jonathan the Revelator Silithus 25.9 , 91",
-      "Level": "60 , requires level 60",
-      "Difficulty": "60",
-      "Side": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll",
-      "Shareable": "No",
-      "Quest ID": "8745",
-      "giver": "Jonathan the Revelator"
-    },
-    "pickup": [
-      "Silithus 25.9 , 91"
-    ],
-    "objective": "",
-    "requirements": [],
-    "classic": true,
-    "url": "https://foreverchanges.pro/quest/8745/treasure-of-the-timeless-one",
-    "sheetText": "Quest Objectives | Rewards | You will be able to choose one of these rewards: | Fang of Korialstrasz | Shadowsong's Sorrow | Runesword of the Red | Ravencrest's Legacy | Experience: | 6,600 | +200 reputation with Brood of Nozdormu"
   },
   "8770": {
     "name": "Target: Hive'Ashi Defenders",

@@ -22,8 +22,7 @@
     4146,
     1446,
     3528,
-    3373,
-    8733
+    3373
   ],
   "classicReference": "https://github.com/cmangos/classic-db",
   "quests": {
@@ -342,24 +341,6 @@
         "PrevQuestId": 3374,
         "NextQuestId": 0,
         "NextQuestInChain": 0,
-        "RequiredClasses": 0,
-        "RequiredRaces": 0
-      }
-    },
-    "8733": {
-      "name": "Eranikus, Tyrant of the Dream",
-      "decision": "include",
-      "sources": [
-        "https://foreverchanges.pro/quest/8733/eranikus-tyrant-of-the-dream",
-        "https://questing.wiki/wow-forever/quests/8733/",
-        "https://www.forever-xp.com/quests/8733/"
-      ],
-      "classicQuestRecord": {
-        "MinLevel": 60,
-        "QuestLevel": 60,
-        "PrevQuestId": 0,
-        "NextQuestId": 0,
-        "NextQuestInChain": 8734,
         "RequiredClasses": 0,
         "RequiredRaces": 0
       }

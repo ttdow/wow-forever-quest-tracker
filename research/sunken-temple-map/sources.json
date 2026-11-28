@@ -23,10 +23,6 @@
       "name": "Classic scripted summon positions and statue order",
       "url": "https://github.com/cmangos/mangos-classic/blob/28a26c388a3c817f34cdb4737847a345841b6a08/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/sunken_temple/sunken_temple.h"
     },
-    "event": {
-      "name": "Classic encounter and Malfurion quest script",
-      "url": "https://github.com/cmangos/mangos-classic/blob/28a26c388a3c817f34cdb4737847a345841b6a08/src/game/AI/ScriptDevAI/scripts/eastern_kingdoms/sunken_temple/sunken_templeScripts.cpp"
-    },
     "guide": {
       "name": "Forever dungeon guide and quest locations",
       "url": "https://mobalytics.gg/wow-forever/profile/phaseshifter/dungeons/sunken-temple-dungeon-guide-bosses-loot-and-quests"
@@ -75,7 +71,7 @@
   },
   "markerCounts": {
     "entrance": 5,
-    "main": 16,
+    "main": 15,
     "lower": 12,
     "balconies": 6,
     "approach": 28

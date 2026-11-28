@@ -86,13 +86,13 @@
     "chests": "f573a50133f5e37bc72c70eecb44c7f98400ed330121bf2da2f106d2802a59f4"
   },
   "coverage": {
-    "entries": 116,
-    "trackedQuestIds": 75,
+    "entries": 114,
+    "trackedQuestIds": 73,
     "categories": {
       "quest-giver": 24,
       "landmark": 2,
       "entrance": 1,
-      "quest-object": 27,
+      "quest-object": 25,
       "quest-chest": 2,
       "boss": 1,
       "quest-material": 5,

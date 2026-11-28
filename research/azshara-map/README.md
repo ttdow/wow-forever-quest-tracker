@@ -1,6 +1,6 @@
 # Azshara map
 
-Open **Zones → Azshara → Map**. The 116 entries link 75 of the zone’s 76 Alliance and shared quests. Quests picked up elsewhere appear at their Azshara objectives or hand-ins. **Chieftain Bloodmaw** takes place in Felwood and Timbermaw Hold, so it stays in the checklist. The map uses unmodified Blizzard client artwork from ForeverDB, UI map 1447. [Quest coverage](../azshara/README.md) · [Client map](https://foreverdb.net/maps/1447) · [Map data](../../data/maps/azshara.json)
+Open **Zones → Azshara → Map**. The 114 entries link 73 of the zone’s 74 Alliance and shared quests. Quests picked up elsewhere appear at their Azshara objectives or hand-ins. **Chieftain Bloodmaw** takes place in Felwood and Timbermaw Hold, so it stays in the checklist. The map uses unmodified Blizzard client artwork from ForeverDB, UI map 1447. [Quest coverage](../azshara/README.md) · [Client map](https://foreverdb.net/maps/1447) · [Map data](../../data/maps/azshara.json)
 
 ## Quest locations
 
@@ -11,6 +11,6 @@ Open **Zones → Azshara → Map**. The 116 entries link 75 of the zone’s 76 A
 
 ## Rare and treasure references
 
-The map shows eight Classic spawn positions for seven rares, with Forever quest records for Lady Sesspira, Master Feardred, and Gatekeeper Rageroar. Azuregos and his spirit have Classic patrol references. **Chest spawns** shows 25 possible Solid Chest sites. **Mossy Footlockers** shows 21 Classic lockpicking sites with a skill requirement of 225 in the source data. Both treasure layers are off by default. Their spawn conditions in live Forever remain unverified. [Rare data](https://theforeverera.com/data/map-layers/r.json?v=20261108113959) · [Chest and lockpicking data](https://theforeverera.com/data/map-layers/k.json?v=20261108113959)
+The map shows eight Classic spawn positions for seven rares, with Forever quest records for Lady Sesspira, Master Feardred, and Gatekeeper Rageroar. Azuregos has a Classic patrol reference. **Chest spawns** shows 25 possible Solid Chest sites. **Mossy Footlockers** shows 21 Classic lockpicking sites with a skill requirement of 225 in the source data. Both treasure layers are off by default. Their spawn conditions in live Forever remain unverified. [Rare data](https://theforeverera.com/data/map-layers/r.json?v=20261108113959) · [Chest and lockpicking data](https://theforeverera.com/data/map-layers/k.json?v=20261108113959)
 
 Classic spawn data is CMaNGOS-derived under GPL-3.0. Single-location Forever observations provide recorded positions. Roaming quest mobs use representative positions from the traces. [Data license](../desolace-map/LICENSE-GPL-3.0.txt) · [Source inventory](sources.json)

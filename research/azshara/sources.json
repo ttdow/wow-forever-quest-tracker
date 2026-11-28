@@ -674,38 +674,11 @@
       "reference": "https://www.wowhead.com/forever/quest=8257"
     },
     {
-      "id": 8575,
-      "name": "Azuregos's Magical Ledger",
-      "decision": "Included",
-      "indexes": [
-        "ForeverChanges",
-        "ForeverDB",
-        "Legacy of Warcraft",
-        "PullCall",
-        "Questie merged zone"
-      ],
-      "reference": "https://foreverchanges.pro/quest/8575/azuregoss-magical-ledger"
-    },
-    {
       "id": 8720,
       "name": "Skygleam the Elder",
       "decision": "Included",
       "indexes": [],
       "reference": "https://questing.wiki/wow-forever/quests/8720/"
-    },
-    {
-      "id": 8729,
-      "name": "The Wrath of Neptulon",
-      "decision": "Included",
-      "indexes": [
-        "ForeverChanges",
-        "ForeverDB",
-        "Legacy of Warcraft",
-        "PullCall",
-        "Questie merged zone",
-        "Questie objective text"
-      ],
-      "reference": "https://foreverchanges.pro/quest/8729/the-wrath-of-neptulon"
     },
     {
       "id": 9322,
@@ -742,15 +715,6 @@
         "Legacy of Warcraft"
       ],
       "reference": "https://legacyofwarcraft.com/db/forever/quest/84545.html"
-    },
-    {
-      "id": 86445,
-      "name": "The Wrath of Neptulon",
-      "decision": "Alternate Wrath of Neptulon record. The researched blue shard chain uses 8729.",
-      "indexes": [
-        "Legacy of Warcraft"
-      ],
-      "reference": "https://legacyofwarcraft.com/db/forever/quest/86445.html"
     },
     {
       "id": 86746,

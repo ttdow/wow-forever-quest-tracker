@@ -410,27 +410,6 @@
       }
     },
     {
-      "id": "8286",
-      "name": "What Tomorrow Brings",
-      "indexes": [
-        "index.html",
-        "secondary.html",
-        "legacy.html"
-      ],
-      "decision": "include",
-      "reason": "Eligible Silithus quest or direct introduction/handoff",
-      "reference": "https://foreverchanges.pro/quest/8286/what-tomorrow-brings",
-      "primary": {
-        "6": 0,
-        "7": null,
-        "12": null,
-        "13": null,
-        "18": null,
-        "19": null,
-        "25": null
-      }
-    },
-    {
       "id": "8287",
       "name": "A Terrible Purpose",
       "indexes": [
@@ -454,96 +433,6 @@
       }
     },
     {
-      "id": "8288",
-      "name": "Only One May Rise",
-      "indexes": [],
-      "decision": "include",
-      "reason": "Eligible Silithus quest or direct introduction/handoff",
-      "reference": "https://foreverchanges.pro/quest/8288/only-one-may-rise",
-      "primary": {
-        "6": 0,
-        "7": null,
-        "12": null,
-        "13": {
-          "1": 8286
-        },
-        "18": null,
-        "19": null,
-        "25": null
-      }
-    },
-    {
-      "id": "8301",
-      "name": "The Path of the Righteous",
-      "indexes": [
-        "index.html",
-        "secondary.html",
-        "legacy.html"
-      ],
-      "decision": "include",
-      "reason": "Eligible Silithus quest or direct introduction/handoff",
-      "reference": "https://foreverchanges.pro/quest/8301/the-path-of-the-righteous",
-      "primary": {
-        "6": 0,
-        "7": null,
-        "12": null,
-        "13": {
-          "1": 8288
-        },
-        "18": null,
-        "19": null,
-        "25": null
-      }
-    },
-    {
-      "id": "8302",
-      "name": "The Hand of the Righteous",
-      "indexes": [
-        "index.html",
-        "legacy.html"
-      ],
-      "decision": "include",
-      "reason": "Eligible Silithus quest or direct introduction/handoff",
-      "reference": "https://foreverchanges.pro/quest/8302/the-hand-of-the-righteous",
-      "primary": {
-        "6": 0,
-        "7": null,
-        "12": null,
-        "13": {
-          "1": 8301
-        },
-        "18": null,
-        "19": null,
-        "25": null
-      }
-    },
-    {
-      "id": "8303",
-      "name": "Anachronos",
-      "indexes": [
-        "index.html",
-        "secondary.html",
-        "legacy.html"
-      ],
-      "decision": "include",
-      "reason": "Eligible Silithus quest or direct introduction/handoff",
-      "reference": "https://foreverchanges.pro/quest/8303/anachronos",
-      "primary": {
-        "6": 0,
-        "7": null,
-        "12": null,
-        "13": {
-          "1": 8301
-        },
-        "18": null,
-        "19": {
-          "1": 910,
-          "2": 0
-        },
-        "25": null
-      }
-    },
-    {
       "id": "8304",
       "name": "Dearest Natalia",
       "indexes": [
@@ -561,32 +450,6 @@
         "13": null,
         "18": null,
         "19": null,
-        "25": null
-      }
-    },
-    {
-      "id": "8305",
-      "name": "Long Forgotten Memories",
-      "indexes": [
-        "index.html",
-        "secondary.html",
-        "legacy.html"
-      ],
-      "decision": "include",
-      "reason": "Eligible Silithus quest or direct introduction/handoff",
-      "reference": "https://foreverchanges.pro/quest/8305/long-forgotten-memories",
-      "primary": {
-        "6": 0,
-        "7": null,
-        "12": null,
-        "13": {
-          "1": 8303
-        },
-        "18": null,
-        "19": {
-          "1": 910,
-          "2": 0
-        },
         "25": null
       }
     },
@@ -1595,32 +1458,6 @@
       }
     },
     {
-      "id": "8519",
-      "name": "A Pawn on the Eternal Board",
-      "indexes": [
-        "index.html",
-        "secondary.html",
-        "legacy.html"
-      ],
-      "decision": "include",
-      "reason": "Eligible Silithus quest or direct introduction/handoff",
-      "reference": "https://foreverchanges.pro/quest/8519/a-pawn-on-the-eternal-board",
-      "primary": {
-        "6": 0,
-        "7": null,
-        "12": null,
-        "13": {
-          "1": 8305
-        },
-        "18": null,
-        "19": {
-          "1": 910,
-          "2": 0
-        },
-        "25": null
-      }
-    },
-    {
       "id": "8534",
       "name": "Hive'Zora Scout Report",
       "indexes": [
@@ -2496,82 +2333,6 @@
       }
     },
     {
-      "id": "8742",
-      "name": "The Might of Kalimdor",
-      "indexes": [],
-      "decision": "include",
-      "reason": "Eligible Silithus quest or direct introduction/handoff",
-      "reference": "https://foreverchanges.pro/quest/8742/the-might-of-kalimdor",
-      "primary": {
-        "6": 0,
-        "7": null,
-        "12": {
-          "1": 8729,
-          "2": 8730,
-          "3": 8741
-        },
-        "13": null,
-        "18": null,
-        "19": {
-          "1": 910,
-          "2": 0
-        },
-        "25": null
-      }
-    },
-    {
-      "id": "8743",
-      "name": "Bang a Gong!",
-      "indexes": [
-        "index.html",
-        "secondary.html",
-        "legacy.html"
-      ],
-      "decision": "include",
-      "reason": "Eligible Silithus quest or direct introduction/handoff",
-      "reference": "https://foreverchanges.pro/quest/8743/bang-a-gong",
-      "primary": {
-        "6": 0,
-        "7": null,
-        "12": null,
-        "13": {
-          "1": 8742
-        },
-        "18": null,
-        "19": {
-          "1": 910,
-          "2": 0
-        },
-        "25": null
-      }
-    },
-    {
-      "id": "8745",
-      "name": "Treasure of the Timeless One",
-      "indexes": [
-        "index.html",
-        "secondary.html",
-        "legacy.html"
-      ],
-      "decision": "include",
-      "reason": "Eligible Silithus quest or direct introduction/handoff",
-      "reference": "https://foreverchanges.pro/quest/8745/treasure-of-the-timeless-one",
-      "primary": {
-        "6": 0,
-        "7": null,
-        "12": null,
-        "13": {
-          "1": 8742
-        },
-        "18": null,
-        "19": {
-          "1": 910,
-          "2": 0
-        },
-        "25": null
-      }
-    },
-    {
       "id": "8770",
       "name": "Target: Hive'Ashi Defenders",
       "indexes": [
@@ -3379,17 +3140,6 @@
       }
     },
     {
-      "id": "61547",
-      "name": "Bang a Gong!",
-      "indexes": [
-        "legacy.html"
-      ],
-      "decision": "exclude",
-      "reason": "API-index-only record: no usable starter, level, or eligibility data; not corroborated by current quest tooltips or primary addon records",
-      "reference": "https://legacyofwarcraft.com/db/forever/quest/61547.html",
-      "primary": null
-    },
-    {
       "id": "84155",
       "name": "An Earnest Proposition",
       "indexes": [],
@@ -3462,17 +3212,6 @@
       "primary": null
     },
     {
-      "id": "86449",
-      "name": "Treasure of the Timeless One",
-      "indexes": [
-        "legacy.html"
-      ],
-      "decision": "exclude",
-      "reason": "API-index-only record: no usable starter, level, or eligibility data; not corroborated by current quest tooltips or primary addon records",
-      "reference": "https://legacyofwarcraft.com/db/forever/quest/86449.html",
-      "primary": null
-    },
-    {
       "id": "86674",
       "name": "The Perfect Poison",
       "indexes": [
@@ -3525,15 +3264,15 @@
     }
   ],
   "counts": {
-    "included": 116,
-    "indexedIncluded": 97,
+    "included": 106,
+    "indexedIncluded": 89,
     "sharedIds": [
       "8378",
       "8693",
       "8701",
       "8709"
     ],
-    "prerequisites": 50,
+    "prerequisites": 39,
     "earlierLinks": 2
   },
   "primarySources": [
@@ -3680,38 +3419,13 @@
       "status": 200
     },
     {
-      "file": "quest-8286.html",
-      "url": "https://foreverchanges.pro/quest/8286",
-      "status": 200
-    },
-    {
       "file": "quest-8287.html",
       "url": "https://foreverchanges.pro/quest/8287",
       "status": 200
     },
     {
-      "file": "quest-8301.html",
-      "url": "https://foreverchanges.pro/quest/8301",
-      "status": 200
-    },
-    {
-      "file": "quest-8302.html",
-      "url": "https://foreverchanges.pro/quest/8302",
-      "status": 200
-    },
-    {
-      "file": "quest-8303.html",
-      "url": "https://foreverchanges.pro/quest/8303",
-      "status": 200
-    },
-    {
       "file": "quest-8304.html",
       "url": "https://foreverchanges.pro/quest/8304",
-      "status": 200
-    },
-    {
-      "file": "quest-8305.html",
-      "url": "https://foreverchanges.pro/quest/8305",
       "status": 200
     },
     {
@@ -3920,11 +3634,6 @@
       "status": 200
     },
     {
-      "file": "quest-8519.html",
-      "url": "https://foreverchanges.pro/quest/8519",
-      "status": 200
-    },
-    {
       "file": "quest-8534.html",
       "url": "https://foreverchanges.pro/quest/8534",
       "status": 200
@@ -4017,16 +3726,6 @@
     {
       "file": "quest-8740.html",
       "url": "https://foreverchanges.pro/quest/8740",
-      "status": 200
-    },
-    {
-      "file": "quest-8743.html",
-      "url": "https://foreverchanges.pro/quest/8743",
-      "status": 200
-    },
-    {
-      "file": "quest-8745.html",
-      "url": "https://foreverchanges.pro/quest/8745",
       "status": 200
     },
     {
@@ -4215,16 +3914,6 @@
       "status": 200
     },
     {
-      "file": "quest-61547.html",
-      "url": "https://foreverchanges.pro/quest/61547",
-      "status": 404
-    },
-    {
-      "file": "quest-86449.html",
-      "url": "https://foreverchanges.pro/quest/86449",
-      "status": 404
-    },
-    {
       "file": "quest-86674.html",
       "url": "https://foreverchanges.pro/quest/86674",
       "status": 404
@@ -4247,11 +3936,6 @@
     {
       "file": "quest-7786.html",
       "url": "https://foreverchanges.pro/quest/7786",
-      "status": 200
-    },
-    {
-      "file": "quest-8288.html",
-      "url": "https://foreverchanges.pro/quest/8288",
       "status": 200
     },
     {
@@ -4410,16 +4094,6 @@
       "status": 200
     },
     {
-      "file": "quest-8742.html",
-      "url": "https://foreverchanges.pro/quest/8742",
-      "status": 200
-    },
-    {
-      "file": "quest-61547.html",
-      "url": "https://foreverchanges.pro/quest/61547",
-      "status": 404
-    },
-    {
       "file": "quest-84155.html",
       "url": "https://foreverchanges.pro/quest/84155",
       "status": 404
@@ -4460,11 +4134,6 @@
       "status": 404
     },
     {
-      "file": "quest-86449.html",
-      "url": "https://foreverchanges.pro/quest/86449",
-      "status": 404
-    },
-    {
       "file": "quest-86674.html",
       "url": "https://foreverchanges.pro/quest/86674",
       "status": 404
@@ -4490,16 +4159,6 @@
       "status": 200
     },
     {
-      "file": "tooltip-61547.json",
-      "url": "https://nether.wowhead.com/forever/tooltip/quest/61547",
-      "status": 404
-    },
-    {
-      "file": "tooltip-86449.json",
-      "url": "https://nether.wowhead.com/forever/tooltip/quest/86449",
-      "status": 404
-    },
-    {
       "file": "tooltip-86674.json",
       "url": "https://nether.wowhead.com/forever/tooltip/quest/86674",
       "status": 404
@@ -4517,16 +4176,6 @@
     {
       "file": "tooltip-8856.json",
       "url": "https://nether.wowhead.com/forever/tooltip/quest/8856",
-      "status": 200
-    },
-    {
-      "file": "legacy-61547.html",
-      "url": "https://legacyofwarcraft.com/db/forever/quest/61547.html",
-      "status": 200
-    },
-    {
-      "file": "legacy-86449.html",
-      "url": "https://legacyofwarcraft.com/db/forever/quest/86449.html",
       "status": 200
     },
     {
