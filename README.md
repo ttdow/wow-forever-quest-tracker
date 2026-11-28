@@ -4,7 +4,7 @@ Static HTML, CSS, and JavaScript. No installation, application server, package m
 
 Open [the GitHub Pages website](https://ttdow.github.io/wow-forever-quest-tracker/) in Chrome, Firefox, or another modern browser.
 
-- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Badlands, Shen'dralas, Feralas, Stranglethorn Vale, Azshara, Felwood, Riverglades, Un'Goro Crater, Winterspring, Mount Hyjal, Silithus, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, Krol'dok Stronghold, Uldaman, Maraudon, Zul'Farrak, Alcaz Prison, Sunken Temple, Blackrock Depths, Blackmaw Hold, or Dire Maul East.
+- Choose Teldrassil, Darkshore, Ashenvale, Stonetalon Mountains, Desolace, Badlands, Shen'dralas, Feralas, Stranglethorn Vale, Azshara, Felwood, Riverglades, Un'Goro Crater, Winterspring, Mount Hyjal, Silithus, Deadmines, Wailing Caverns, Blackfathom Deeps, The Stockades, Gnomeregan, Excavation Site: Wetlands, The City of Dalaran, Razorfen Kraul, Razorfen Downs, Scarlet Monastery Graveyard, Scarlet Monastery Library, Scarlet Monastery Armory, Scarlet Monastery Cathedral, The Drowned City, Krol'dok Stronghold, Uldaman, Maraudon, Zul'Farrak, Alcaz Prison, Sunken Temple, Blackrock Depths, Blackmaw Hold, Dire Maul East, or Lower Blackrock Spire.
 - Check a quest to complete it; uncheck it to undo.
 - Quests use one line by default. Click a quest name or its chevron to expand or collapse its full details.
 - Expanded quests show known prerequisites, quests they unlock, and earlier/later chain steps. Click a tracked quest to jump to its list and expand it; completed quests are marked with a check. Quests outside the tracker link to their ForeverDB guide.
@@ -38,7 +38,7 @@ All assets use relative paths and work under a repository URL such as `https://U
 
 ## Quest data
 
-The browser loads all 1,646 quest entries (1,525 unique IDs) directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
+The browser loads all 1,663 quest entries (1,538 unique IDs) directly from `data/quests.json`. This JSON file is the authoritative quest data and can be edited directly. No conversion tools, CSV files, Node.js, package manager, or build step are needed.
 
 - Teldrassil: 75 quests
 - Darkshore: 73 quests
@@ -81,6 +81,7 @@ The browser loads all 1,646 quest entries (1,525 unique IDs) directly from `data
 - Blackrock Depths: 65 Alliance/shared entries, including Windsor/Onyxia, royal rescue, keys, profession/reputation tasks, bar events, and summoned encounters; 131 equipment drops and four map views. [BRD research](research/blackrock-depths/README.md)
 - Blackmaw Hold: 10 Alliance/shared entries, including the roots introduction, seven main dungeon quests, Feeding Time!, and repeatable pouches; 29 unique equipment drops across seven main encounters and four rares. Six quest IDs share progress with Azshara. [Blackmaw Hold research](research/blackmaw-hold/README.md)
 - Dire Maul East: 7 Alliance/shared quest entries, including Pusillin, Lethtendris, Shards of the Felvine, the Rogue book, and the Rogue-accessible Isalien branch. Includes 33 unique equipment drops across seven source cards. [Dire Maul East research](research/dire-maul-east/README.md)
+- Lower Blackrock Spire: 17 Alliance/shared quests, including Bijou and Maxwell, the Seal of Ascension, Urok, the Mosh’aru Tablets, and the cross-dungeon legal records. Includes 66 unique equipment drops across 17 source cards. [Lower Blackrock Spire research](research/lower-blackrock-spire/README.md)
 
 The researched lists include Alliance/neutral quests available to Rogues and omit known Horde-only quests and quests restricted to other classes. Vengeful Trail's Alliance classification is supported by community quest data. There are 1,331 unique quest IDs across 1,414 list entries. When the same ID occurs in several lists, changing its completion in any list updates all of those entries.
 
@@ -140,7 +141,7 @@ The site must be served over HTTP or HTTPS so the browser can load the JSON file
 
 ## Dungeon drops
 
-`data/drops.json` contains 592 equipment entries: 31 for Deadmines, 21 for Wailing Caverns, 21 for Blackfathom Deeps, 9 for The Stockades, 16 for Gnomeregan, 9 for Excavation Site: Wetlands, 24 for The City of Dalaran, 23 for Razorfen Kraul, 22 for Razorfen Downs, 15 for Scarlet Monastery Graveyard, 10 for Scarlet Monastery Library, 4 for Scarlet Monastery Armory, 10 for Scarlet Monastery Cathedral, 15 for The Drowned City, 19 for Krol'dok Stronghold, 24 for Uldaman, 34 for Maraudon, 38 for Zul'Farrak, 15 for Alcaz Prison, 39 for Sunken Temple, 131 for Blackrock Depths, 29 for Blackmaw Hold, and 33 for Dire Maul East. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats. Blackmaw Hold has 17 Rogue-usable entries, Sunken Temple has 26, Razorfen Downs has 14, Drowned City and Alcaz Prison each have nine, and Armory's four Herod items are all mail or a two-handed axe and produce an empty Rogue filter.
+`data/drops.json` contains 658 equipment entries: 31 for Deadmines, 21 for Wailing Caverns, 21 for Blackfathom Deeps, 9 for The Stockades, 16 for Gnomeregan, 9 for Excavation Site: Wetlands, 24 for The City of Dalaran, 23 for Razorfen Kraul, 22 for Razorfen Downs, 15 for Scarlet Monastery Graveyard, 10 for Scarlet Monastery Library, 4 for Scarlet Monastery Armory, 10 for Scarlet Monastery Cathedral, 15 for The Drowned City, 19 for Krol'dok Stronghold, 24 for Uldaman, 34 for Maraudon, 38 for Zul'Farrak, 15 for Alcaz Prison, 39 for Sunken Temple, 131 for Blackrock Depths, 29 for Blackmaw Hold, 33 for Dire Maul East, and 66 for Lower Blackrock Spire. Equipment covers all classes by default. The Rogue-usable filter uses Forever's client proficiencies, including one-handed axes, and means equipable after appropriate training rather than a recommendation of ideal stats. Blackmaw Hold has 17 Rogue-usable entries, Sunken Temple has 26, Razorfen Downs has 14, Drowned City and Alcaz Prison each have nine, and Armory's four Herod items are all mail or a two-handed axe and produce an empty Rogue filter.
 
 Boss cards start collapsed and show their matching item counts. Multiple cards can be expanded at once. Open cards are remembered for each dungeon during the current page session. Searching or choosing a specific source opens matching cards. Named rare bosses are included; ordinary trash sources and equipment without a confirmed boss source are excluded.
 

@@ -15441,6 +15441,1769 @@
           ]
         }
       ]
+    },
+    "Lower Blackrock Spire": {
+      "id": 229,
+      "build": "1.60.1.71139",
+      "source": "https://foreverchanges.pro/dungeons/lower-blackrock-spire",
+      "items": [
+        {
+          "id": "13166",
+          "name": "Slamshot Shoulders",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Shoulder",
+          "type": "Plate",
+          "stats": [
+            "470 Armor",
+            "+21 Stamina",
+            "Equip: Improves your chance to hit by 0.5%.",
+            "Equip: +20 Attack Power."
+          ],
+          "rogueUsable": false,
+          "source": "Highlord Omokk",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13166",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13166",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13167",
+          "name": "Fist of Omokk",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Two-Hand",
+          "type": "Mace",
+          "stats": [
+            "135 -204 Damage",
+            "Speed 3.30",
+            "51.36 DPS",
+            "+29 Strength",
+            "+12 Stamina"
+          ],
+          "rogueUsable": false,
+          "source": "Highlord Omokk",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13167",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13167",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13168",
+          "name": "Plate of the Shaman King",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Chest",
+          "type": "Plate",
+          "stats": [
+            "627 Armor",
+            "+12 Strength",
+            "+15 Stamina",
+            "+14 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 18 ."
+          ],
+          "rogueUsable": false,
+          "source": "Highlord Omokk",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13168",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13168",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://foreverdb.net/dungeon/229-blackrock-spire"
+          ]
+        },
+        {
+          "id": "13169",
+          "name": "Tressermane Leggings",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Legs",
+          "type": "Leather",
+          "stats": [
+            "148 Armor",
+            "+13 Stamina",
+            "+14 Intellect",
+            "+15 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 19 ."
+          ],
+          "rogueUsable": true,
+          "source": "Highlord Omokk",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13169",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13169",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13170",
+          "name": "Skyshroud Leggings",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "75 Armor",
+            "+11 Stamina",
+            "+12 Intellect",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 30 ."
+          ],
+          "rogueUsable": true,
+          "source": "Highlord Omokk",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13170",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13170",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "16670",
+          "name": "Boots of Elements",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Feet",
+          "type": "Mail",
+          "stats": [
+            "240 Armor",
+            "+9 Agility",
+            "+17 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 14 .",
+            "2-piece set: +8 All Resistances.",
+            "3-piece set: Increases damage and healing done by magical spells and effects by up to 18.",
+            "4-piece set: When struck in melee combat, has a 5% chance of Disarming the attacker for 4 sec. Can only occur once every 60 sec.",
+            "5-piece set: Chance on melee autoattack and spellcast to increase your damage and healing done by magical spells and effects by up to 65 for 10 sec.",
+            "6-piece set: Restores 8 mana per 5 sec."
+          ],
+          "rogueUsable": false,
+          "source": "Highlord Omokk",
+          "sourceOrder": 1,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=16670",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/16670",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://foreverdb.net/dungeon/229-blackrock-spire"
+          ]
+        },
+        {
+          "id": "12608",
+          "name": "Butcher's Apron",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "41 Armor",
+            "+7 Stamina",
+            "+15 Spirit",
+            "Equip: Increases healing done by up to 9 and damage done by up to 3 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "source": "Spirestone Butcher (rare)",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=12608",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/12608",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13286",
+          "name": "Rivenspike",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "One-Hand",
+          "type": "Axe",
+          "stats": [
+            "77 -144 Damage",
+            "Speed 2.90",
+            "38.10 DPS",
+            "Chance on hit: Punctures target's armor lowering it by 100. Can be applied up to 3 times."
+          ],
+          "rogueUsable": true,
+          "source": "Spirestone Butcher (rare)",
+          "sourceOrder": 2,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13286",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13286",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13284",
+          "name": "Swiftdart Battleboots",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Feet",
+          "type": "Mail",
+          "stats": [
+            "236 Armor",
+            "+17 Agility",
+            "+11 Stamina",
+            "+10 Intellect"
+          ],
+          "rogueUsable": false,
+          "source": "Spirestone Battle Lord (rare)",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13284",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13284",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13285",
+          "name": "The Blackrock Slicer",
+          "quality": 3,
+          "requiredLevel": 53,
+          "itemLevel": 58,
+          "slot": "Two-Hand",
+          "type": "Axe",
+          "stats": [
+            "159 -239 Damage",
+            "Speed 4.00",
+            "49.75 DPS",
+            "Chance on hit: Wounds the target for 2692 damage and deals an additional 350 damage every 1 sec for 10 sec."
+          ],
+          "rogueUsable": false,
+          "source": "Spirestone Battle Lord (rare)",
+          "sourceOrder": 3,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13285",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13285",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13261",
+          "name": "Globe of D'sak",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Held In Off-hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "+5 Stamina",
+            "+11 Intellect",
+            "+4 Shadow Resistance",
+            "Equip: Increases damage done by Shadow spells and effects by up to 14.",
+            "\"Glows with the power of magiskull.\""
+          ],
+          "rogueUsable": true,
+          "source": "Spirestone Lord Magus (rare)",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13261",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13261",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13282",
+          "name": "Ogreseer Tower Boots",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "58 Armor",
+            "+13 Intellect",
+            "+13 Spirit",
+            "Equip: Increases healing done by up to 26 and damage done by up to 9 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "source": "Spirestone Lord Magus (rare)",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13282",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13282",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13283",
+          "name": "Magus Ring",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "Unique-Equipped",
+            "+8 Stamina",
+            "+12 Intellect",
+            "+7 Spirit",
+            "Equip: Improves your chance to hit by 0.5%."
+          ],
+          "rogueUsable": true,
+          "source": "Spirestone Lord Magus (rare)",
+          "sourceOrder": 4,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13283",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13283",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "12626",
+          "name": "Funeral Cuffs",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Wrist",
+          "type": "Cloth",
+          "stats": [
+            "37 Armor",
+            "+14 Intellect",
+            "+7 Shadow Resistance",
+            "Equip: Increases healing done by up to 18 and damage done by up to 6 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "source": "Shadow Hunter Vosh'gajin",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=12626",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/12626",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://foreverdb.net/dungeon/229-blackrock-spire"
+          ]
+        },
+        {
+          "id": "12651",
+          "name": "Blackcrow",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Ranged",
+          "type": "Crossbow",
+          "stats": [
+            "77 -117 Damage",
+            "Speed 3.20",
+            "30.31 DPS",
+            "+3 Agility",
+            "Equip: Improves your chance to hit by 0.9%."
+          ],
+          "rogueUsable": true,
+          "source": "Shadow Hunter Vosh'gajin",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=12651",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/12651",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://foreverdb.net/dungeon/229-blackrock-spire"
+          ]
+        },
+        {
+          "id": "12653",
+          "name": "Riphook",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Ranged",
+          "type": "Bow",
+          "stats": [
+            "46 -87 Damage",
+            "Speed 2.20",
+            "30.23 DPS",
+            "Equip: +22 Attack Power."
+          ],
+          "rogueUsable": true,
+          "source": "Shadow Hunter Vosh'gajin",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=12653",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/12653",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13255",
+          "name": "Trueaim Gauntlets",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Hands",
+          "type": "Mail",
+          "stats": [
+            "218 Armor",
+            "Equip: +1 Weapon Damage.",
+            "Equip: Improves your chance to hit with ranged weapons by 3.0%."
+          ],
+          "rogueUsable": false,
+          "source": "Shadow Hunter Vosh'gajin",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13255",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13255",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13257",
+          "name": "Demonic Runed Spaulders",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Shoulder",
+          "type": "Leather",
+          "stats": [
+            "126 Armor",
+            "+12 Strength",
+            "+12 Stamina",
+            "+14 Intellect"
+          ],
+          "rogueUsable": true,
+          "source": "Shadow Hunter Vosh'gajin",
+          "sourceOrder": 5,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13257",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13257",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "16712",
+          "name": "Shadowcraft Gloves",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "105 Armor",
+            "+9 Strength",
+            "+14 Agility",
+            "+10 Stamina",
+            "+11 Spirit",
+            "2-piece set: +8 All Resistances.",
+            "3-piece set: +30 Attack Power.",
+            "4-piece set: When struck in combat, has a 5% chance to remove a Snare effect from yourself. Can only occur once every 60 sec.",
+            "5-piece set: Chance on melee attack to restore 20 Energy.",
+            "6-piece set: Restores 15 health per 5 sec."
+          ],
+          "rogueUsable": true,
+          "source": "Shadow Hunter Vosh'gajin",
+          "sourceOrder": 5,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=16712",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/16712",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "12621",
+          "name": "Demonfork",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Main Hand",
+          "type": "Axe",
+          "stats": [
+            "76 -142 Damage",
+            "Speed 2.80",
+            "38.93 DPS",
+            "Chance on hit: Transfers 10 health every 1 seconds from the target to the caster for 5 sec."
+          ],
+          "rogueUsable": true,
+          "source": "Bannok Grimaxe (rare)",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=12621",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/12621",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "12634",
+          "name": "Chiselbrand Girdle",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "199 Armor",
+            "+6 Stamina",
+            "+6 Spirit",
+            "Equip: +44 Attack Power."
+          ],
+          "rogueUsable": false,
+          "source": "Bannok Grimaxe (rare)",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=12634",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/12634",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "12637",
+          "name": "Backusarian Gauntlets",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Hands",
+          "type": "Plate",
+          "stats": [
+            "392 Armor",
+            "+9 Strength",
+            "+15 Stamina",
+            "+9 Intellect",
+            "Equip: Increased Defense +7."
+          ],
+          "rogueUsable": false,
+          "source": "Bannok Grimaxe (rare)",
+          "sourceOrder": 6,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=12637",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/12637",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "12582",
+          "name": "Keris of Zul'Serak",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "One-Hand",
+          "type": "Dagger",
+          "stats": [
+            "49 -93 Damage",
+            "Speed 1.80",
+            "39.44 DPS",
+            "Chance on hit: Inflicts numbing pain that deals 10 Nature damage every 1 sec and increases time between target's attacks by 11% for 10 sec."
+          ],
+          "rogueUsable": true,
+          "source": "War Master Voone",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=12582",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/12582",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://foreverdb.net/dungeon/229-blackrock-spire"
+          ]
+        },
+        {
+          "id": "13173",
+          "name": "Flightblade Throwing Axe",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Thrown",
+          "type": "Thrown",
+          "stats": [
+            "54 -102 Damage",
+            "Speed 2.20",
+            "35.45 DPS",
+            "+9 Strength",
+            "+6 Spirit"
+          ],
+          "rogueUsable": true,
+          "source": "War Master Voone",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13173",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13173",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13177",
+          "name": "Talisman of Evasion",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Neck",
+          "type": "Necklace",
+          "stats": [
+            "+8 Agility",
+            "Equip: Increased Defense +6.",
+            "Equip: Increases your chance to Dodge an attack by 1.0%."
+          ],
+          "rogueUsable": true,
+          "source": "War Master Voone",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13177",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13177",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13179",
+          "name": "Brazecore Armguards",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Wrist",
+          "type": "Mail",
+          "stats": [
+            "155 Armor",
+            "+10 Stamina",
+            "+8 Intellect",
+            "Restores +4 mana per 5 sec.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 8 ."
+          ],
+          "rogueUsable": false,
+          "source": "War Master Voone",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13179",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13179",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://foreverdb.net/dungeon/229-blackrock-spire"
+          ]
+        },
+        {
+          "id": "16676",
+          "name": "Beaststalker's Gloves",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Hands",
+          "type": "Mail",
+          "stats": [
+            "218 Armor",
+            "+14 Agility",
+            "+10 Stamina",
+            "+10 Intellect",
+            "+10 Spirit",
+            "2-piece set: +8 All Resistances.",
+            "3-piece set: +30 Attack Power.",
+            "4-piece set: When struck in combat, has a 8% chance to remove a Root effect from yourself. Can only occur once every 60 sec.",
+            "5-piece set: Your melee and ranged autoattacks have a 5% chance to energize you for 200 mana.",
+            "6-piece set: Restores 8 mana per 5 sec."
+          ],
+          "rogueUsable": false,
+          "source": "War Master Voone",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=16676",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/16676",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://foreverdb.net/dungeon/229-blackrock-spire"
+          ]
+        },
+        {
+          "id": "22231",
+          "name": "Kayser's Boots of Precision",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Feet",
+          "type": "Cloth",
+          "stats": [
+            "60 Armor",
+            "+11 Stamina",
+            "+18 Intellect",
+            "Equip: Improves your chance to hit by 1.0%.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 4 ."
+          ],
+          "rogueUsable": true,
+          "source": "War Master Voone",
+          "sourceOrder": 7,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22231",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22231",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13181",
+          "name": "Demonskin Gloves",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "51 Armor",
+            "+8 Stamina",
+            "+9 Intellect",
+            "+15 Spirit",
+            "Equip: Increases damage done by Shadow spells and effects by up to 13."
+          ],
+          "rogueUsable": true,
+          "source": "Burning Felguard (rare)",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13181",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13181",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13182",
+          "name": "Phase Blade",
+          "quality": 3,
+          "requiredLevel": 52,
+          "itemLevel": 57,
+          "slot": "One-Hand",
+          "type": "Sword",
+          "stats": [
+            "55 -103 Damage",
+            "Speed 2.10",
+            "37.62 DPS",
+            "+7 Strength",
+            "+12 Stamina"
+          ],
+          "rogueUsable": true,
+          "source": "Burning Felguard (rare)",
+          "sourceOrder": 8,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13182",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13182",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13183",
+          "name": "Venomspitter",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "One-Hand",
+          "type": "Mace",
+          "stats": [
+            "Unique-Equipped",
+            "52 -98 Damage",
+            "Speed 1.90",
+            "39.47 DPS",
+            "Chance on hit: Poisons target for 7 Nature damage every 1 sec for 15 sec.",
+            "2-piece set: Chance on Hit: Immobilizes the target and lowers their armor by 100 for 10 sec."
+          ],
+          "rogueUsable": true,
+          "source": "Mother Smolderweb",
+          "sourceOrder": 9,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13183",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13183",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13213",
+          "name": "Smolderweb's Eye",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Unique-Equipped",
+            "+5 Nature Resistance",
+            "Equip: Improves your chance to hit by 1.0%.",
+            "Use: Remove 1 Disarm effect from target ally. (8 Min Cooldown)"
+          ],
+          "rogueUsable": true,
+          "source": "Mother Smolderweb",
+          "sourceOrder": 9,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13213",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13213",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://foreverdb.net/dungeon/229-blackrock-spire"
+          ]
+        },
+        {
+          "id": "13244",
+          "name": "Gilded Gauntlets",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Hands",
+          "type": "Mail",
+          "stats": [
+            "221 Armor",
+            "+14 Stamina",
+            "+10 Intellect",
+            "Restores +4 mana per 5 sec.",
+            "Equip: Increases healing done by up to 22 and damage done by up to 7 for all magical spells and effects."
+          ],
+          "rogueUsable": false,
+          "source": "Mother Smolderweb",
+          "sourceOrder": 9,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13244",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13244",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "16715",
+          "name": "Wildheart Boots",
+          "quality": 3,
+          "requiredLevel": 54,
+          "itemLevel": 59,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "115 Armor",
+            "+10 Stamina",
+            "+9 Intellect",
+            "+17 Spirit",
+            "Equip: Increases healing done by up to 11 and damage done by up to 4 for all magical spells and effects.",
+            "2-piece set: +8 All Resistances.",
+            "3-piece set: Increases damage and healing done by magical spells and effects by up to 18.",
+            "3-piece set: +30 Attack Power.",
+            "4-piece set: When struck in combat, has a 5% chance to increase your movement speed by 10% for 8 sec. Can only occur once every 60 sec.",
+            "5-piece set: Chance on spellcast to restore 200 Mana, on melee attack to regenerate 20 Energy over 5 sec, and when struck by a melee attack to generate 10 Rage.",
+            "6-piece set: Restores 8 mana per 5 sec."
+          ],
+          "rogueUsable": true,
+          "source": "Mother Smolderweb",
+          "sourceOrder": 9,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=16715",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/16715",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13184",
+          "name": "Fallbrush Handgrips",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "107 Armor",
+            "+11 Stamina",
+            "+12 Intellect",
+            "+11 Spirit",
+            "Equip: Increases healing done by up to 20 and damage done by up to 7 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "source": "Crystal Fang (rare)",
+          "sourceOrder": 10,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13184",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13184",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13185",
+          "name": "Sunderseer Mantle",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Shoulder",
+          "type": "Cloth",
+          "stats": [
+            "65 Armor",
+            "+4 Stamina",
+            "+17 Intellect",
+            "+11 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 8 .",
+            "Equip: Your spells pierce 3 Magical Resistance."
+          ],
+          "rogueUsable": true,
+          "source": "Crystal Fang (rare)",
+          "sourceOrder": 10,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13185",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13185",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13218",
+          "name": "Fang of the Crystal Spider",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "One-Hand",
+          "type": "Dagger",
+          "stats": [
+            "Unique-Equipped",
+            "45 -84 Damage",
+            "Speed 1.60",
+            "40.31 DPS",
+            "Chance on hit: Slows target enemy's casting speed and increases the time between melee and ranged attacks by 9% for 10 sec.",
+            "2-piece set: Chance on Hit: Immobilizes the target and lowers their armor by 100 for 10 sec."
+          ],
+          "rogueUsable": true,
+          "source": "Crystal Fang (rare)",
+          "sourceOrder": 10,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13218",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13218",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13178",
+          "name": "Rosewine Circle",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "Unique-Equipped",
+            "Restores +6 mana per 5 sec.",
+            "Equip: Increases healing done by up to 24 and damage done by up to 8 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "source": "Urok Doomhowl (summoned)",
+          "sourceOrder": 11,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13178",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13178",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://foreverdb.net/dungeon/229-blackrock-spire"
+          ]
+        },
+        {
+          "id": "13258",
+          "name": "Slaghide Gauntlets",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Hands",
+          "type": "Leather",
+          "stats": [
+            "107 Armor",
+            "<Random enchantment>",
+            "+100 Armor"
+          ],
+          "rogueUsable": true,
+          "source": "Urok Doomhowl (summoned)",
+          "sourceOrder": 11,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13258",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13258",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://foreverdb.net/dungeon/229-blackrock-spire"
+          ]
+        },
+        {
+          "id": "13259",
+          "name": "Ribsteel Footguards",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Feet",
+          "type": "Plate",
+          "stats": [
+            "438 Armor",
+            "+10 Strength",
+            "+10 Agility",
+            "+19 Stamina"
+          ],
+          "rogueUsable": false,
+          "source": "Urok Doomhowl (summoned)",
+          "sourceOrder": 11,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13259",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13259",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "22232",
+          "name": "Marksman's Girdle",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Waist",
+          "type": "Mail",
+          "stats": [
+            "202 Armor",
+            "+21 Agility",
+            "Restores +2 mana per 5 sec.",
+            "Equip: Improves your chance to hit by 1.0%."
+          ],
+          "rogueUsable": false,
+          "source": "Urok Doomhowl (summoned)",
+          "sourceOrder": 11,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22232",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22232",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13252",
+          "name": "Cloudrunner Girdle",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Waist",
+          "type": "Leather",
+          "stats": [
+            "95 Armor",
+            "+13 Strength",
+            "+14 Agility",
+            "+120 Armor"
+          ],
+          "rogueUsable": true,
+          "source": "Quartermaster Zigris",
+          "sourceOrder": 12,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13252",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13252",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://foreverdb.net/dungeon/229-blackrock-spire"
+          ]
+        },
+        {
+          "id": "13253",
+          "name": "Hands of Power",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Hands",
+          "type": "Cloth",
+          "stats": [
+            "53 Armor",
+            "+9 Intellect",
+            "+8 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 23 ."
+          ],
+          "rogueUsable": true,
+          "source": "Quartermaster Zigris",
+          "sourceOrder": 12,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13253",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13253",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13210",
+          "name": "Pads of the Dread Wolf",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Feet",
+          "type": "Leather",
+          "stats": [
+            "116 Armor",
+            "+14 Stamina",
+            "Equip: +40 Attack Power."
+          ],
+          "rogueUsable": true,
+          "source": "Halycon",
+          "sourceOrder": 13,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13210",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13210",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13211",
+          "name": "Slashclaw Bracers",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Wrist",
+          "type": "Mail",
+          "stats": [
+            "155 Armor",
+            "+7 Agility",
+            "+7 Stamina",
+            "+9 Spirit",
+            "Equip: Improves your chance to hit by 1.0%."
+          ],
+          "rogueUsable": false,
+          "source": "Halycon",
+          "sourceOrder": 13,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13211",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13211",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13212",
+          "name": "Halycon's Spiked Collar",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Neck",
+          "type": "Necklace",
+          "stats": [
+            "+7 Stamina",
+            "Equip: +20 Attack Power."
+          ],
+          "rogueUsable": true,
+          "source": "Halycon",
+          "sourceOrder": 13,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13212",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13212",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "22313",
+          "name": "Ironweave Bracers",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Wrist",
+          "type": "Cloth",
+          "stats": [
+            "38 Armor",
+            "+14 Stamina",
+            "+8 Intellect",
+            "+70 Armor",
+            "Equip: Improves your chance to hit by 0.5%.",
+            "2-piece set: +200 Armor.",
+            "3-piece set: Decreases the magical resistances of your spell targets by 5.",
+            "4-piece set: Reduces the hit chance of Silence and Interrupt effects against you by 10%.",
+            "5-piece set: Increases damage and healing done by magical spells and effects by up to 23.",
+            "6-piece set: The Ironweave hardens under duress, reducing damage taken while Stunned by 15%.",
+            "Classes: Priest, Mage, Warlock"
+          ],
+          "rogueUsable": false,
+          "source": "Halycon",
+          "sourceOrder": 13,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22313",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22313",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13205",
+          "name": "Rhombeard Protector",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Off Hand",
+          "type": "Shield",
+          "stats": [
+            "2089 Armor",
+            "38 Block",
+            "+14 Intellect",
+            "+7 Spirit",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 12 ."
+          ],
+          "rogueUsable": false,
+          "source": "Gizrul the Slavener",
+          "sourceOrder": 14,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13205",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13205",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13206",
+          "name": "Wolfshear Leggings",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Legs",
+          "type": "Cloth",
+          "stats": [
+            "76 Armor",
+            "+10 Stamina",
+            "+25 Spirit",
+            "+10 Nature Resistance",
+            "Equip: Increases healing done by up to 26 and damage done by up to 9 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "source": "Gizrul the Slavener",
+          "sourceOrder": 14,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13206",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13206",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13208",
+          "name": "Bleak Howler Armguards",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Wrist",
+          "type": "Leather",
+          "stats": [
+            "75 Armor",
+            "+9 Intellect",
+            "+14 Spirit",
+            "Equip: Increases healing done by up to 15 and damage done by up to 5 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "source": "Gizrul the Slavener",
+          "sourceOrder": 14,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13208",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13208",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "16718",
+          "name": "Wildheart Spaulders",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Shoulder",
+          "type": "Leather",
+          "stats": [
+            "127 Armor",
+            "+9 Stamina",
+            "+18 Intellect",
+            "+8 Spirit",
+            "Equip: Increases healing done by up to 20 and damage done by up to 7 for all magical spells and effects.",
+            "2-piece set: +8 All Resistances.",
+            "3-piece set: Increases damage and healing done by magical spells and effects by up to 18.",
+            "3-piece set: +30 Attack Power.",
+            "4-piece set: When struck in combat, has a 5% chance to increase your movement speed by 10% for 8 sec. Can only occur once every 60 sec.",
+            "5-piece set: Chance on spellcast to restore 200 Mana, on melee attack to regenerate 20 Energy over 5 sec, and when struck by a melee attack to generate 10 Rage.",
+            "6-piece set: Restores 8 mana per 5 sec."
+          ],
+          "rogueUsable": true,
+          "source": "Gizrul the Slavener",
+          "sourceOrder": 14,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=16718",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/16718",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13198",
+          "name": "Hurd Smasher",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "One-Hand",
+          "type": "Fist Weapon",
+          "stats": [
+            "49 -93 Damage",
+            "Speed 1.80",
+            "39.44 DPS",
+            "Chance on hit: Knocks target silly for 1 sec. Orcs and Ogres are stunned for 2 times as long."
+          ],
+          "rogueUsable": true,
+          "source": "Ghok Bashguud (rare)",
+          "sourceOrder": 15,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13198",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13198",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13203",
+          "name": "Armswake Cloak",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Back",
+          "type": "Cloak",
+          "stats": [
+            "43 Armor",
+            "+15 Stamina",
+            "Equip: +16 Attack Power."
+          ],
+          "rogueUsable": true,
+          "source": "Ghok Bashguud (rare)",
+          "sourceOrder": 15,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13203",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13203",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13204",
+          "name": "Bashguuder",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "One-Hand",
+          "type": "Mace",
+          "stats": [
+            "49 -93 Damage",
+            "Speed 1.80",
+            "39.44 DPS",
+            "+9 Strength",
+            "Chance on hit: Punctures target's armor lowering it by 100. Can be applied up to 3 times."
+          ],
+          "rogueUsable": true,
+          "source": "Ghok Bashguud (rare)",
+          "sourceOrder": 15,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13204",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13204",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13143",
+          "name": "Mark of the Dragon Lord",
+          "quality": 4,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Finger",
+          "type": "Ring",
+          "stats": [
+            "Use: A protective mana shield surrounds the caster absorbing 500 damage. While the shield holds, increases mana regeneration by 22 every 5 sec for 30 min. (30 Min Cooldown)"
+          ],
+          "rogueUsable": true,
+          "source": "Overlord Wyrmthalak",
+          "sourceOrder": 16,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13143",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13143",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "13161",
+          "name": "Trindlehaven Staff",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Two-Hand",
+          "type": "Staff",
+          "stats": [
+            "65 -98 Damage",
+            "Speed 2.10",
+            "38.81 DPS",
+            "+12 Stamina",
+            "+25 Intellect",
+            "Restores +6 mana per 5 sec.",
+            "Equip: Increases damage and healing done by magical spells and effects by up to 70 ."
+          ],
+          "rogueUsable": false,
+          "source": "Overlord Wyrmthalak",
+          "sourceOrder": 16,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13161",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13161",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13162",
+          "name": "Reiver Claws",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Hands",
+          "type": "Plate",
+          "stats": [
+            "398 Armor",
+            "+11 Strength",
+            "+15 Stamina",
+            "Equip: Improves your chance to get a critical strike by 1.0%."
+          ],
+          "rogueUsable": false,
+          "source": "Overlord Wyrmthalak",
+          "sourceOrder": 16,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13162",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13162",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "13163",
+          "name": "Relentless Scythe",
+          "quality": 3,
+          "requiredLevel": 57,
+          "itemLevel": 62,
+          "slot": "Two-Hand",
+          "type": "Sword",
+          "stats": [
+            "140 -210 Damage",
+            "Speed 3.30",
+            "53.03 DPS",
+            "+20 Strength",
+            "+9 Agility",
+            "+11 Stamina",
+            "Equip: Increases your chance to Parry an attack by 1.0%.",
+            "Equip: Reduces chance to be Dodged or Parried by 1.0%."
+          ],
+          "rogueUsable": false,
+          "source": "Overlord Wyrmthalak",
+          "sourceOrder": 16,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13163",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13163",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://foreverdb.net/dungeon/229-blackrock-spire"
+          ]
+        },
+        {
+          "id": "13164",
+          "name": "Heart of the Scale",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Unique",
+            "Use: Increases Fire Resistance by 20 and deals 20 Fire damage to anyone who strikes you with a melee attack for 5 min. (30 Min Cooldown)"
+          ],
+          "rogueUsable": true,
+          "source": "Overlord Wyrmthalak",
+          "sourceOrder": 16,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=13164",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/13164",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "16679",
+          "name": "Beaststalker's Mantle",
+          "quality": 3,
+          "requiredLevel": 55,
+          "itemLevel": 60,
+          "slot": "Shoulder",
+          "type": "Mail",
+          "stats": [
+            "266 Armor",
+            "+11 Agility",
+            "+17 Stamina",
+            "+7 Intellect",
+            "+7 Spirit",
+            "2-piece set: +8 All Resistances.",
+            "3-piece set: +30 Attack Power.",
+            "4-piece set: When struck in combat, has a 8% chance to remove a Root effect from yourself. Can only occur once every 60 sec.",
+            "5-piece set: Your melee and ranged autoattacks have a 5% chance to energize you for 200 mana.",
+            "6-piece set: Restores 8 mana per 5 sec."
+          ],
+          "rogueUsable": false,
+          "source": "Overlord Wyrmthalak",
+          "sourceOrder": 16,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=16679",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/16679",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+          ]
+        },
+        {
+          "id": "22321",
+          "name": "Heart of Wyrmthalak",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Trinket",
+          "type": "Trinket",
+          "stats": [
+            "Unique-Equipped",
+            "+13 Fire Resistance",
+            "Equip: Melee and Ranged attacks have a chance to deal 112 to 168 Fire damage. Deals 3 times as much damage to Orcs."
+          ],
+          "rogueUsable": true,
+          "source": "Overlord Wyrmthalak",
+          "sourceOrder": 16,
+          "dropEvidence": "seen",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22321",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22321",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+            "https://foreverdb.net/dungeon/229-blackrock-spire"
+          ]
+        },
+        {
+          "id": "22306",
+          "name": "Ironweave Belt",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Waist",
+          "type": "Cloth",
+          "stats": [
+            "49 Armor",
+            "+17 Stamina",
+            "+11 Intellect",
+            "+90 Armor",
+            "Equip: Your spells pierce 3 Magical Resistance.",
+            "2-piece set: +200 Armor.",
+            "3-piece set: Decreases the magical resistances of your spell targets by 5.",
+            "4-piece set: Reduces the hit chance of Silence and Interrupt effects against you by 10%.",
+            "5-piece set: Increases damage and healing done by magical spells and effects by up to 23.",
+            "6-piece set: The Ironweave hardens under duress, reducing damage taken while Stunned by 15%.",
+            "Classes: Priest, Mage, Warlock"
+          ],
+          "rogueUsable": false,
+          "source": "Mor Grayhoof (summoned)",
+          "sourceOrder": 17,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22306",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22306",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "22319",
+          "name": "Tome of Divine Right",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Held In Off-hand",
+          "type": "Miscellaneous",
+          "stats": [
+            "+6 Stamina",
+            "+6 Intellect",
+            "Restores +4 mana per 5 sec.",
+            "Equip: Increases healing done by up to 26 and damage done by up to 9 for all magical spells and effects."
+          ],
+          "rogueUsable": true,
+          "source": "Mor Grayhoof (summoned)",
+          "sourceOrder": 17,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22319",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22319",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "22322",
+          "name": "The Jaw Breaker",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "One-Hand",
+          "type": "Mace",
+          "stats": [
+            "45 -84 Damage",
+            "Speed 1.60",
+            "40.31 DPS",
+            "Equip: Improves your chance to get a critical strike by 1.0%.",
+            "Equip: +6 Attack Power.",
+            "Equip: +6 Attack Power against Humanoids.",
+            "\"Not edible\""
+          ],
+          "rogueUsable": true,
+          "source": "Mor Grayhoof (summoned)",
+          "sourceOrder": 17,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22322",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22322",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "22325",
+          "name": "Belt of the Trickster",
+          "quality": 3,
+          "requiredLevel": 56,
+          "itemLevel": 61,
+          "slot": "Waist",
+          "type": "Leather",
+          "stats": [
+            "97 Armor",
+            "+22 Agility",
+            "+9 Stamina"
+          ],
+          "rogueUsable": true,
+          "source": "Mor Grayhoof (summoned)",
+          "sourceOrder": 17,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22325",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22325",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        },
+        {
+          "id": "22398",
+          "name": "Idol of Rejuvenation",
+          "quality": 3,
+          "requiredLevel": 57,
+          "itemLevel": 62,
+          "slot": "Relic",
+          "type": "Idol",
+          "stats": [
+            "Equip: Increases the initial healing of Regrowth by 5% when cast on a target affected by your Rejuvenation."
+          ],
+          "rogueUsable": false,
+          "source": "Mor Grayhoof (summoned)",
+          "sourceOrder": 17,
+          "dropEvidence": "wowhead",
+          "statsEvidence": "wowhead",
+          "url": "https://www.wowhead.com/forever/item=22398",
+          "sources": [
+            "https://nether.wowhead.com/forever/tooltip/item/22398",
+            "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+          ]
+        }
+      ]
     }
   }
 }

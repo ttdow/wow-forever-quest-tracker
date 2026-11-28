@@ -1,0 +1,607 @@
+{
+  "reviewedOn": "2026-11-27",
+  "build": "1.60.1.71139",
+  "mapId": 229,
+  "suggestedLevels": [
+    55,
+    60
+  ],
+  "attRevision": "3b5a8ce4def64a4277b670c3f62c5954f679b325",
+  "questieRevision": "189e66d3c644ea795a781439dda7a43e6ab17173",
+  "sources": [
+    "https://foreverchanges.pro/dungeons/lower-blackrock-spire",
+    "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua",
+    "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+    "https://foreverdb.net/dungeon/229-blackrock-spire",
+    "https://patchvaultapp.com/forever/dungeons/lower-blackrock-spire/"
+  ],
+  "counts": {
+    "quests": 17,
+    "sharedIds": [
+      "5103",
+      "5306",
+      "8949",
+      "96075"
+    ],
+    "equipment": 66,
+    "cards": 17,
+    "rogueUsable": 43,
+    "seen": 39
+  },
+  "candidates": [
+    {
+      "id": "3520",
+      "name": "Screecher Spirits",
+      "decision": "exclude",
+      "reason": "Earlier Feralas objective",
+      "reference": "https://foreverchanges.pro/quest/3520/screecher-spirits"
+    },
+    {
+      "id": "3528",
+      "name": "The God Hakkar",
+      "decision": "linked",
+      "reason": "Predecessor in Sunken Temple",
+      "reference": "https://www.wowhead.com/forever/quest=3528"
+    },
+    {
+      "id": "4701",
+      "name": "Put Her Down",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/4701/put-her-down"
+    },
+    {
+      "id": "4724",
+      "name": "The Pack Mistress",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/4724/the-pack-mistress"
+    },
+    {
+      "id": "4726",
+      "name": "Broodling Essence",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/4726/broodling-essence"
+    },
+    {
+      "id": "4729",
+      "name": "Kibler's Exotic Pets",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/4729/kiblers-exotic-pets"
+    },
+    {
+      "id": "4734",
+      "name": "Egg Freezing",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/4734/egg-freezing"
+    },
+    {
+      "id": "4735",
+      "name": "Egg Collection",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/4735/egg-collection"
+    },
+    {
+      "id": "4742",
+      "name": "Seal of Ascension",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/4742/seal-of-ascension"
+    },
+    {
+      "id": "4743",
+      "name": "Seal of Ascension",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/4743/seal-of-ascension"
+    },
+    {
+      "id": "4764",
+      "name": "Doomrigger's Clasp",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/4764/doomriggers-clasp"
+    },
+    {
+      "id": "4765",
+      "name": "Delivery to Ridgewell",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/4765/delivery-to-ridgewell"
+    },
+    {
+      "id": "4766",
+      "name": "Mayara Brightwing",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/4766/mayara-brightwing"
+    },
+    {
+      "id": "4768",
+      "name": "The Darkstone Tablet",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/4768/the-darkstone-tablet"
+    },
+    {
+      "id": "4769",
+      "name": "Vivian Lagrave and the Darkstone Tablet",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/4769/vivian-lagrave-and-the-darkstone-tablet"
+    },
+    {
+      "id": "4788",
+      "name": "The Final Tablets",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/4788/the-final-tablets"
+    },
+    {
+      "id": "4809",
+      "name": "Chillwind Horns",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/4809/chillwind-horns"
+    },
+    {
+      "id": "4862",
+      "name": "En-Ay-Es-Tee-Why",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/4862/en-ay-es-tee-why"
+    },
+    {
+      "id": "4866",
+      "name": "Mother's Milk",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/4866/mothers-milk"
+    },
+    {
+      "id": "4867",
+      "name": "Urok Doomhowl",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/4867/urok-doomhowl"
+    },
+    {
+      "id": "4903",
+      "name": "Warlord's Command",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/4903/warlords-command"
+    },
+    {
+      "id": "4907",
+      "name": "Tinkee Steamboil",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/4907/tinkee-steamboil"
+    },
+    {
+      "id": "4941",
+      "name": "Eitrigg's Wisdom",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/4941/eitriggs-wisdom"
+    },
+    {
+      "id": "4974",
+      "name": "For The Horde!",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/4974/for-the-horde"
+    },
+    {
+      "id": "4981",
+      "name": "Operative Bijou",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/4981/operative-bijou"
+    },
+    {
+      "id": "4982",
+      "name": "Bijou's Belongings",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/4982/bijous-belongings"
+    },
+    {
+      "id": "4983",
+      "name": "Bijou's Reconnaissance Report",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/4983/bijous-reconnaissance-report"
+    },
+    {
+      "id": "5001",
+      "name": "Bijou's Belongings",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/5001/bijous-belongings"
+    },
+    {
+      "id": "5002",
+      "name": "Message to Maxwell",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/5002/message-to-maxwell"
+    },
+    {
+      "id": "5047",
+      "name": "Finkle Einhorn, At Your Service!",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/5047/finkle-einhorn-at-your-service"
+    },
+    {
+      "id": "5063",
+      "name": "Cap of the Scarlet Savant",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/5063/cap-of-the-scarlet-savant"
+    },
+    {
+      "id": "5065",
+      "name": "The Lost Tablets of Mosh'aru",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/5065/the-lost-tablets-of-mosharu"
+    },
+    {
+      "id": "5067",
+      "name": "Leggings of Arcana",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/5067/leggings-of-arcana"
+    },
+    {
+      "id": "5068",
+      "name": "Breastplate of Bloodthirst",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/5068/breastplate-of-bloodthirst"
+    },
+    {
+      "id": "5081",
+      "name": "Maxwell's Mission",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/5081/maxwells-mission"
+    },
+    {
+      "id": "5089",
+      "name": "General Drakkisath's Command",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/5089/general-drakkisaths-command"
+    },
+    {
+      "id": "5102",
+      "name": "General Drakkisath's Demise",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/5102/general-drakkisaths-demise"
+    },
+    {
+      "id": "5103",
+      "name": "Hot Fiery Death",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/5103/hot-fiery-death"
+    },
+    {
+      "id": "5124",
+      "name": "Fiery Plate Gauntlets",
+      "decision": "linked",
+      "reason": "Follow-up in Winterspring",
+      "reference": "https://foreverchanges.pro/quest/5124/fiery-plate-gauntlets"
+    },
+    {
+      "id": "5126",
+      "name": "Lorax's Tale",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/5126/loraxs-tale"
+    },
+    {
+      "id": "5127",
+      "name": "The Demon Forge",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/5127/the-demon-forge"
+    },
+    {
+      "id": "5160",
+      "name": "The Matron Protectorate",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/5160/the-matron-protectorate"
+    },
+    {
+      "id": "5161",
+      "name": "Wrath of the Blue Flight",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/5161/wrath-of-the-blue-flight"
+    },
+    {
+      "id": "5162",
+      "name": "Wrath of the Blue Flight",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/5162/wrath-of-the-blue-flight"
+    },
+    {
+      "id": "5164",
+      "name": "Catalogue of the Wayward",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/5164/catalogue-of-the-wayward"
+    },
+    {
+      "id": "5166",
+      "name": "Breastplate of the Chromatic Flight",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/5166/breastplate-of-the-chromatic-flight"
+    },
+    {
+      "id": "5167",
+      "name": "Legplates of the Chromatic Defier",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/5167/legplates-of-the-chromatic-defier"
+    },
+    {
+      "id": "5306",
+      "name": "Snakestone of the Shadow Huntress",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/5306/snakestone-of-the-shadow-huntress"
+    },
+    {
+      "id": "6502",
+      "name": "Drakefire Amulet",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/6502/drakefire-amulet"
+    },
+    {
+      "id": "6566",
+      "name": "What the Wind Carries",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/6566/what-the-wind-carries"
+    },
+    {
+      "id": "6567",
+      "name": "The Champion of the Horde",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/6567/the-champion-of-the-horde"
+    },
+    {
+      "id": "6568",
+      "name": "The Testament of Rexxar",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/6568/the-testament-of-rexxar"
+    },
+    {
+      "id": "6569",
+      "name": "Oculus Illusions",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/6569/oculus-illusions"
+    },
+    {
+      "id": "6570",
+      "name": "Emberstrife",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/6570/emberstrife"
+    },
+    {
+      "id": "6582",
+      "name": "The Test of Skulls, Scryer",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/6582/the-test-of-skulls-scryer"
+    },
+    {
+      "id": "6583",
+      "name": "The Test of Skulls, Somnus",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/6583/the-test-of-skulls-somnus"
+    },
+    {
+      "id": "6584",
+      "name": "The Test of Skulls, Chronalis",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/6584/the-test-of-skulls-chronalis"
+    },
+    {
+      "id": "6585",
+      "name": "The Test of Skulls, Axtroz",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/6585/the-test-of-skulls-axtroz"
+    },
+    {
+      "id": "6601",
+      "name": "Ascension...",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/6601/ascension"
+    },
+    {
+      "id": "6602",
+      "name": "Blood of the Black Dragon Champion",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/6602/blood-of-the-black-dragon-champion"
+    },
+    {
+      "id": "7761",
+      "name": "Blackhand's Command",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/7761/blackhands-command"
+    },
+    {
+      "id": "8181",
+      "name": "Confront Yeh'kinya",
+      "decision": "linked",
+      "reason": "Follow-up in Stranglethorn Vale",
+      "reference": "https://foreverchanges.pro/quest/8181/confront-yehkinya"
+    },
+    {
+      "id": "8182",
+      "name": "The Hand of Rastakhan",
+      "decision": "exclude",
+      "reason": "Continues in Stranglethorn Vale",
+      "reference": "https://foreverchanges.pro/quest/8182/the-hand-of-rastakhan"
+    },
+    {
+      "id": "8644",
+      "name": "Stonefort the Elder",
+      "decision": "exclude",
+      "reason": "Seasonal",
+      "reference": "https://foreverchanges.pro/quest/8644/stonefort-the-elder"
+    },
+    {
+      "id": "8949",
+      "name": "Falrin's Vendetta",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://foreverchanges.pro/quest/8949/falrins-vendetta"
+    },
+    {
+      "id": "8950",
+      "name": "The Instigator's Enchantment",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/8950/the-instigators-enchantment"
+    },
+    {
+      "id": "8951",
+      "name": "Anthion's Parting Words",
+      "decision": "exclude",
+      "reason": "Non-Rogue class quest",
+      "reference": "https://foreverchanges.pro/quest/8951/anthions-parting-words"
+    },
+    {
+      "id": "8960",
+      "name": "Bodley's Unfortunate Fate",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/8960/bodleys-unfortunate-fate"
+    },
+    {
+      "id": "8962",
+      "name": "Components of Importance",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/8962/components-of-importance"
+    },
+    {
+      "id": "8966",
+      "name": "The Left Piece of Lord Valthalak's Amulet",
+      "decision": "exclude",
+      "reason": "Warrior and Mage summon route",
+      "reference": "https://foreverchanges.pro/quest/8966/the-left-piece-of-lord-valthalaks-amulet"
+    },
+    {
+      "id": "8986",
+      "name": "More Components of Importance",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/8986/more-components-of-importance"
+    },
+    {
+      "id": "8989",
+      "name": "The Right Piece of Lord Valthalak's Amulet",
+      "decision": "exclude",
+      "reason": "Druid, Paladin, and Shaman summon route",
+      "reference": "https://foreverchanges.pro/quest/8989/the-right-piece-of-lord-valthalaks-amulet"
+    },
+    {
+      "id": "8995",
+      "name": "Mea Culpa, Lord Valthalak",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/8995/mea-culpa-lord-valthalak"
+    },
+    {
+      "id": "8996",
+      "name": "Return to Bodley",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://foreverchanges.pro/quest/8996/return-to-bodley"
+    },
+    {
+      "id": "9032",
+      "name": "Bodley's Unfortunate Fate",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/9032/bodleys-unfortunate-fate"
+    },
+    {
+      "id": "9319",
+      "name": "A Light in Dark Places",
+      "decision": "exclude",
+      "reason": "Seasonal",
+      "reference": "https://foreverchanges.pro/quest/9319/a-light-in-dark-places"
+    },
+    {
+      "id": "9386",
+      "name": "A Light in Dark Places",
+      "decision": "exclude",
+      "reason": "Seasonal",
+      "reference": "https://foreverchanges.pro/quest/9386/a-light-in-dark-places"
+    },
+    {
+      "id": "96075",
+      "name": "In Demand - Blackrock Legal Records",
+      "decision": "include",
+      "reason": "Eligible Lower Spire pickup or objective, or direct prerequisite",
+      "reference": "https://www.wowhead.com/forever/quest=96075"
+    },
+    {
+      "id": "97883",
+      "name": "End of the Dark Horde",
+      "decision": "exclude",
+      "reason": "Objective or pickup belongs to Upper Spire or another quest route",
+      "reference": "https://www.wowhead.com/forever/quest=97883"
+    },
+    {
+      "id": "98325",
+      "name": "Blood and Thunder",
+      "decision": "exclude",
+      "reason": "Horde-only",
+      "reference": "https://foreverchanges.pro/quest/98325/blood-and-thunder"
+    }
+  ],
+  "olderLoot": [
+    {
+      "id": "13148",
+      "name": "Chillpike",
+      "source": "Overlord Wyrmthalak",
+      "reason": "Classic loot reference with hidden current item details"
+    },
+    {
+      "id": "13175",
+      "name": "Voone's Twitchbow",
+      "source": "War Master Voone",
+      "reason": "Classic loot reference with hidden current item details"
+    }
+  ]
+}

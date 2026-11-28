@@ -53053,5 +53053,467 @@
     },
     "prerequisites": [],
     "previousQuests": []
+  },
+  {
+    "id": "4701",
+    "zone": "Lower Blackrock Spire",
+    "level": 59,
+    "name": "Put Her Down",
+    "stage": "Halycon · min. level 55 · Alliance",
+    "giver": "Helendis Riverhorn",
+    "area": "Morgan's Vigil (Burning Steppes)",
+    "coordinates": "85.8, 68.9",
+    "objective": "Slay Halycon, the Bloodaxe worg pack mistress, and report to Helendis Riverhorn.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4701/put-her-down",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+    ],
+    "evidence": {
+      "quest": "current-index-and-classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4729",
+    "zone": "Lower Blackrock Spire",
+    "level": 59,
+    "name": "Kibler's Exotic Pets",
+    "stage": "Capture a worg pup · min. level 55",
+    "giver": "Kibler",
+    "area": "Flame Crest (Burning Steppes)",
+    "coordinates": "65.9, 21.9",
+    "objective": "Use the Worg Pup Cage on a Bloodaxe Worg Pup near Halycon and take the caged pup to Kibler.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4729/kiblers-exotic-pets",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+    ],
+    "evidence": {
+      "quest": "current-index-and-classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4742",
+    "zone": "Lower Blackrock Spire",
+    "level": 60,
+    "name": "Seal of Ascension",
+    "stage": "Seal of Ascension · Gather the gemstones · min. level 57",
+    "giver": "Vaelan (Scarshield Infiltrator)",
+    "area": "Hidden ledge near the Lower Spire entrance",
+    "coordinates": "",
+    "objective": "Bring Vaelan an Unadorned Seal of Ascension and the gemstones from Highlord Omokk (Spirestone), War Master Voone (Smolderthorn), and Overlord Wyrmthalak (Bloodaxe).",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4742/seal-of-ascension",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+    ],
+    "evidence": {
+      "quest": "current-index-and-classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4743",
+    "zone": "Lower Blackrock Spire",
+    "level": 60,
+    "name": "Seal of Ascension",
+    "stage": "Seal of Ascension · Forge the seal · min. level 57",
+    "giver": "Vaelan (Scarshield Infiltrator)",
+    "area": "Hidden ledge near the Lower Spire entrance",
+    "coordinates": "",
+    "objective": "Weaken Emberstrife in the Wyrmbog in Dustwallow Marsh. Place the Unforged Seal on the ground and use the Orb of Draconic Energy to make Emberstrife breathe on it. Return the Forged Seal to Vaelan.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4743/seal-of-ascension",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+    ],
+    "evidence": {
+      "quest": "current-index-and-classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "4742",
+        "name": "Seal of Ascension",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4788",
+    "zone": "Lower Blackrock Spire",
+    "level": 58,
+    "name": "The Final Tablets",
+    "stage": "Mosh'aru tablets · Fifth and sixth · min. level 40",
+    "giver": "Prospector Ironboot",
+    "area": "Steamwheedle Port (Tanaris)",
+    "coordinates": "66.9, 24",
+    "objective": "Collect the Fifth Mosh'aru Tablet behind Shadow Hunter Vosh'gajin and the Sixth behind War Master Voone. Return both to Prospector Ironboot in Tanaris.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4788/the-final-tablets",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+    ],
+    "evidence": {
+      "quest": "current-index-and-classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "5065",
+        "name": "The Lost Tablets of Mosh'aru",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "4862",
+    "zone": "Lower Blackrock Spire",
+    "level": 59,
+    "name": "En-Ay-Es-Tee-Why",
+    "stage": "Collect spider eggs · min. level 55",
+    "giver": "Kibler",
+    "area": "Flame Crest (Burning Steppes)",
+    "coordinates": "65.9, 21.9",
+    "objective": "Collect 15 Spire Spider Eggs in the spider area of Lower Blackrock Spire and return them to Kibler.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4862/en-ay-es-tee-why",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+    ],
+    "evidence": {
+      "quest": "current-index-and-classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4866",
+    "zone": "Lower Blackrock Spire",
+    "level": 60,
+    "name": "Mother's Milk",
+    "stage": "Mother Smolderweb · min. level 55",
+    "giver": "Ragged John",
+    "area": "Flame Crest (Burning Steppes)",
+    "coordinates": "65, 23.8",
+    "objective": "Let Mother Smolderweb infect you with Mother's Milk. Return to Ragged John while the poison is still active.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4866/mothers-milk",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+    ],
+    "evidence": {
+      "quest": "current-index-and-classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "4867",
+    "zone": "Lower Blackrock Spire",
+    "level": 60,
+    "name": "Urok Doomhowl",
+    "stage": "Summon Urok · min. level 55",
+    "giver": "Warosh",
+    "area": "Bridge approach inside Lower Blackrock Spire",
+    "coordinates": "",
+    "objective": "Collect a Roughshod Pike and Omokk's Head. Use them at Urok's Tribute Pile to start the event. Defeat Urok Doomhowl and return Warosh's Mojo to Warosh.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/4867/urok-doomhowl",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+    ],
+    "evidence": {
+      "quest": "current-index-and-classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5001",
+    "zone": "Lower Blackrock Spire",
+    "level": 59,
+    "name": "Bijou's Belongings",
+    "stage": "Bijou and Maxwell · Find the belongings · min. level 55 · Alliance",
+    "giver": "Bijou",
+    "area": "Lower Blackrock Spire",
+    "coordinates": "",
+    "objective": "Find Bijou's Belongings in Lower Blackrock Spire and take them to Bijou in her hiding place.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/5001/bijous-belongings",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+    ],
+    "evidence": {
+      "quest": "current-index-and-classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5002",
+    "zone": "Lower Blackrock Spire",
+    "level": 59,
+    "name": "Message to Maxwell",
+    "stage": "Bijou and Maxwell · Deliver the report · min. level 55 · Alliance",
+    "giver": "Bijou",
+    "area": "Lower Blackrock Spire",
+    "coordinates": "",
+    "objective": "Bring Bijou's Information to Marshal Maxwell at Morgan's Vigil in the Burning Steppes.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/5002/message-to-maxwell",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+    ],
+    "evidence": {
+      "quest": "current-index-and-classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "5001",
+        "name": "Bijou's Belongings",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5065",
+    "zone": "Lower Blackrock Spire",
+    "level": 58,
+    "name": "The Lost Tablets of Mosh'aru",
+    "stage": "Mosh'aru tablets · Third and fourth · min. level 40",
+    "giver": "Prospector Ironboot",
+    "area": "Steamwheedle Port (Tanaris)",
+    "coordinates": "66.9, 24",
+    "objective": "Recover the Third and Fourth Mosh'aru Tablets at Zul'Mashar in the Eastern Plaguelands. Return them to Prospector Ironboot in Tanaris.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/5065/the-lost-tablets-of-mosharu",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+    ],
+    "evidence": {
+      "quest": "current-index-and-classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "3528",
+        "name": "The God Hakkar",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5081",
+    "zone": "Lower Blackrock Spire",
+    "level": 60,
+    "name": "Maxwell's Mission",
+    "stage": "Bijou and Maxwell · Defeat the commanders · min. level 55 · Alliance",
+    "giver": "Marshal Maxwell",
+    "area": "Morgan's Vigil (Burning Steppes)",
+    "coordinates": "84.7, 69",
+    "objective": "Defeat Highlord Omokk, War Master Voone, and Overlord Wyrmthalak. Return to Marshal Maxwell at Morgan's Vigil.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/5081/maxwells-mission",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+    ],
+    "evidence": {
+      "quest": "current-index-and-classic-reference"
+    },
+    "prerequisites": [
+      {
+        "id": "5002",
+        "name": "Message to Maxwell",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+          "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "5089",
+    "zone": "Lower Blackrock Spire",
+    "level": 60,
+    "name": "General Drakkisath's Command",
+    "stage": "Wyrmthalak's letter · min. level 55 · Alliance",
+    "giver": "General Drakkisath's Command (item)",
+    "area": "Overlord Wyrmthalak (Lower Blackrock Spire)",
+    "coordinates": "",
+    "objective": "Loot General Drakkisath's Command from Overlord Wyrmthalak and deliver it to Marshal Maxwell at Morgan's Vigil.",
+    "areaConfidence": "Approximate",
+    "sources": [
+      "https://foreverchanges.pro/quest/5089/general-drakkisaths-command",
+      "https://github.com/Questie/QuestieDB/blob/189e66d3c644ea795a781439dda7a43e6ab17173/data/Forever/foreverQuestDB.lua",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/3b5a8ce4def64a4277b670c3f62c5954f679b325/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20spire.lua"
+    ],
+    "evidence": {
+      "quest": "current-index-and-classic-reference"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5103",
+    "zone": "Lower Blackrock Spire",
+    "level": 60,
+    "name": "Hot Fiery Death",
+    "giver": "Human Remains",
+    "area": "Lower Blackrock Spire, Firebrand lava passage",
+    "coordinates": "",
+    "stage": "Blacksmithing 275 · Everlook handoff",
+    "objective": "With Blacksmithing 275, search the Human Remains by the lava below the Firebrand orc camp. Collect the Unfired Plate Gauntlets and visit Malyfous in Everlook.",
+    "faction": "Both",
+    "minimumLevel": 55,
+    "areaConfidence": "No fixed outdoor pickup",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5103/hot-fiery-death",
+      "https://questing.wiki/wow-forever/quests/5103/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e",
+      "https://mygameacademia.com/forever/dungeon/lower-blackrock-spire"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "5306",
+    "zone": "Lower Blackrock Spire",
+    "level": 60,
+    "name": "Snakestone of the Shadow Huntress",
+    "giver": "Kilram",
+    "area": "Everlook, Winterspring",
+    "coordinates": "61.3, 37.1",
+    "stage": "Blacksmithing · Hammersmith",
+    "objective": "Defeat Shadow Hunter Vosh’gajin in Lower Blackrock Spire and return her Snakestone to Kilram in Everlook.",
+    "faction": "Both",
+    "minimumLevel": 50,
+    "areaConfidence": "Approximate",
+    "notes": "",
+    "sources": [
+      "https://foreverchanges.pro/quest/5306/snakestone-of-the-shadow-huntress",
+      "https://questing.wiki/wow-forever/quests/5306/",
+      "https://github.com/Questie/QuestieDB/tree/e3c3bc43a0b3532348d68d136d9fdf5d0cbffc1e"
+    ],
+    "evidence": {
+      "identity": "forever",
+      "objective": "forever",
+      "level": "forever",
+      "giver": "forever"
+    },
+    "prerequisites": [],
+    "previousQuests": []
+  },
+  {
+    "id": "8949",
+    "zone": "Lower Blackrock Spire",
+    "level": 60,
+    "name": "Falrin's Vendetta",
+    "stage": "Dungeon Set 2 / summoned encounter",
+    "giver": "Falrin Treeshaper",
+    "coordinates": "",
+    "area": "Dire Maul library",
+    "objective": "Collect 25 Ogre Warbeads from Ogres inside Dire Maul or Blackrock Spire and return to Falrin Treeshaper inside the Athenaeum in Dire Maul.",
+    "areaConfidence": "Approximate",
+    "notes": "Human, Orc, Dwarf, Night Elf, Undead, Tauren, Gnome, Troll; No class restriction recorded; Minimum level 58",
+    "sources": [
+      "https://foreverchanges.pro/quest/8949/falrins-vendetta",
+      "https://github.com/ATTWoWAddon/AllTheThings/blob/832410d86fdf3902d0804d8f84056a119a0c0292/.contrib/.db/forever/dungeons%20%26%20raids/blackrock%20depths.lua",
+      "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+    ],
+    "evidence": {
+      "quest": "classic",
+      "level": "foreverchanges",
+      "minimumLevel": "foreverchanges",
+      "objective": "foreverchanges",
+      "giver": "foreverchanges",
+      "pickupLocation": "classic-reference",
+      "faction": "foreverchanges-and-classic"
+    },
+    "prerequisites": [
+      {
+        "id": "8948",
+        "name": "Anthion's Old Friend",
+        "evidence": "classic",
+        "sources": [
+          "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip"
+        ]
+      }
+    ],
+    "previousQuests": []
+  },
+  {
+    "id": "96075",
+    "zone": "Lower Blackrock Spire",
+    "level": 60,
+    "name": "In Demand - Blackrock Legal Records",
+    "stage": "Cross-dungeon delivery",
+    "giver": "Pix Xizzix",
+    "coordinates": "28.52, 75.86",
+    "area": "Booty Bay (Stranglethorn Vale)",
+    "objective": "Recover Nefarian's Remit from General Drakkisath and the Overseer's License from Overlord Wyrmthalak in Blackrock Spire, plus the Bronzebeard Wedding Contract from Emperor Thaurissan in Blackrock Depths. Return all three to Pix Xizzix in Booty Bay.",
+    "areaConfidence": "High",
+    "notes": "Alliance; Minimum level 60; Quest identity/objective and starter are corroborated by current tooltip and primary player traces; The public quest page is unavailable",
+    "sources": [
+      "https://www.wowhead.com/forever/quest=96075",
+      "https://nether.wowhead.com/forever/tooltip/quest/96075",
+      "https://github.com/Questie/QuestieDB/blob/498734b13f1ed25931566298f6ca119ad058c17f/src/corrections/Forever/generated/foreverBaseQuest.lua",
+      "https://github.com/Questie/QuestieDB/blob/498734b13f1ed25931566298f6ca119ad058c17f/src/corrections/Forever/traces/foreverQuestTraces.lua",
+      "https://github.com/Questie/QuestieDB/blob/498734b13f1ed25931566298f6ca119ad058c17f/src/corrections/Forever/traces/foreverNpcTraces.lua"
+    ],
+    "evidence": {
+      "quest": "wowhead-and-questie-trace",
+      "level": "questie-generated",
+      "minimumLevel": "questie-generated",
+      "objective": "wowhead-and-questie-trace",
+      "giver": "questie-generated-and-trace",
+      "pickupLocation": "questie-npc-trace",
+      "faction": "questie-generated"
+    },
+    "prerequisites": [],
+    "previousQuests": []
   }
 ]

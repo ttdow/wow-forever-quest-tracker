@@ -4,7 +4,7 @@ const $ = selector => document.querySelector(selector);
 const state = { quests: [], forwardLinks: new Map(), completed: new Set(), expanded: new Set(), zone: 'Teldrassil', view: 'quests', section: 'quests', profession: 'Fishing', storageReady: false, loaded: false };
 const rows = $('#quests');
 const classLists = ['Rogue'];
-const zones = ['Teldrassil', 'Darkshore', 'Ashenvale', 'Stonetalon Mountains', 'Desolace', 'Badlands', "Shen'dralas", 'Feralas', 'Stranglethorn Vale', 'Felwood', 'Azshara', 'Riverglades', "Un'Goro Crater", 'Winterspring', 'Mount Hyjal', 'Silithus', 'Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Razorfen Downs', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'Scarlet Monastery Cathedral', 'The Drowned City', "Krol'dok Stronghold", 'Uldaman', 'Maraudon', "Zul'Farrak", 'Alcaz Prison', 'Sunken Temple', 'Blackrock Depths', 'Blackmaw Hold', 'Dire Maul East'];
+const zones = ['Teldrassil', 'Darkshore', 'Ashenvale', 'Stonetalon Mountains', 'Desolace', 'Badlands', "Shen'dralas", 'Feralas', 'Stranglethorn Vale', 'Felwood', 'Azshara', 'Riverglades', "Un'Goro Crater", 'Winterspring', 'Mount Hyjal', 'Silithus', 'Deadmines', 'Wailing Caverns', 'Blackfathom Deeps', 'The Stockades', 'Gnomeregan', 'Excavation Site: Wetlands', 'The City of Dalaran', 'Razorfen Kraul', 'Razorfen Downs', 'Scarlet Monastery Graveyard', 'Scarlet Monastery Library', 'Scarlet Monastery Armory', 'Scarlet Monastery Cathedral', 'The Drowned City', "Krol'dok Stronghold", 'Uldaman', 'Maraudon', "Zul'Farrak", 'Alcaz Prison', 'Sunken Temple', 'Blackrock Depths', 'Blackmaw Hold', 'Dire Maul East', 'Lower Blackrock Spire'];
 // Suggested leveling bands; keep the underlying names stable for routes and saves.
 const suggestedLevels = {
   'Teldrassil': [1, 10],
@@ -46,6 +46,7 @@ const suggestedLevels = {
   'Blackrock Depths': [52, 60],
   'Blackmaw Hold': [55, 60],
   'Dire Maul East': [54, 60],
+  'Lower Blackrock Spire': [55, 60],
 };
 const navigation = { open: null, zone: state.zone };
 let saveTimer;
